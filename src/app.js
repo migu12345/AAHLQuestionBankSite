@@ -111,13 +111,23 @@ function renderQuestions() {
     const markschemeImagesEl = node.querySelector(".markscheme-images");
     const questionTextEl = node.querySelector(".question");
     const answerTextEl = node.querySelector(".answer");
+    const titleEl = node.querySelector(".title");
 
     const marks = Number.isFinite(q.marks) ? `${q.marks} marks` : "marks n/a";
     node.querySelector(".meta").textContent = `${q.paper || "Unknown paper"} | ${q.topic || "Unsorted"} | ${q.subtopic || "Unsorted"} | ${marks}`;
-    node.querySelector(".title").textContent = q.title || "Untitled question";
 
     const qImages = Array.isArray(q.question_image_paths) ? q.question_image_paths : [];
     const msImages = Array.isArray(q.markscheme_image_paths) ? q.markscheme_image_paths : [];
+    const hasAnyImage = qImages.length > 0 || msImages.length > 0;
+    const questionNumber = `${q.question_number || ""}`.trim();
+    const fallbackTitle = questionNumber ? `Q${questionNumber}` : "Question";
+
+    if (hasAnyImage) {
+      // OCR previews are often noisy; keep screenshot cards clean and consistent.
+      titleEl.textContent = fallbackTitle;
+    } else {
+      titleEl.textContent = cleanPreviewText(q.title || "") || fallbackTitle;
+    }
 
     if (qImages.length > 0) {
       qImages.forEach((imgPath, index) => {
@@ -149,6 +159,15 @@ function renderQuestions() {
 
     questionList.appendChild(node);
   });
+}
+
+function cleanPreviewText(text) {
+  return String(text || "")
+    .replace(/\s+/g, " ")
+    .replace(/\/g\d+/gi, " ")
+    .replace(/[]/g, " ")
+    .replace(/\.{3,}/g, "...")
+    .trim();
 }
 
 function bindEvents() {
