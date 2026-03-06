@@ -1,6 +1,7 @@
 const state = {
   allQuestions: [],
   markschemesById: {},
+  markschemeImagesById: {},
 };
 
 const searchTutorInput = document.getElementById("searchTutorInput");
@@ -22,6 +23,9 @@ async function loadData() {
   const markschemes = Array.isArray(msData.questions) ? msData.questions : [];
   state.markschemesById = Object.fromEntries(
     markschemes.map((entry) => [entry.id, entry.worked_solution_text || "No worked solution yet."])
+  );
+  state.markschemeImagesById = Object.fromEntries(
+    markschemes.map((entry) => [entry.id, Array.isArray(entry.markscheme_image_paths) ? entry.markscheme_image_paths : []])
   );
 }
 
@@ -71,6 +75,7 @@ function render() {
   questions.forEach((q) => {
     const node = tutorQuestionTemplate.content.cloneNode(true);
     const questionImagesEl = node.querySelector(".question-images");
+    const markschemeImagesEl = node.querySelector(".markscheme-images");
     const questionTextEl = node.querySelector(".question");
     const markschemeTextEl = node.querySelector(".answer");
     node.querySelector(".meta").textContent = `${q.topic} | ${q.subtopic} | ${q.source_file}`;
@@ -91,7 +96,20 @@ function render() {
       questionTextEl.hidden = false;
     }
 
-    markschemeTextEl.textContent = state.markschemesById[q.id] || "No draft markscheme yet.";
+    const msImages = state.markschemeImagesById[q.id] || [];
+    if (msImages.length > 0) {
+      msImages.forEach((imgPath, index) => {
+        const img = document.createElement("img");
+        img.src = `/data/tutoring/processed/${imgPath}`;
+        img.alt = `Tutor markscheme ${q.question_number || ""} image ${index + 1}`;
+        img.loading = "lazy";
+        markschemeImagesEl.appendChild(img);
+      });
+      markschemeTextEl.hidden = true;
+    } else {
+      markschemeTextEl.textContent = state.markschemesById[q.id] || "No markscheme available.";
+      markschemeTextEl.hidden = false;
+    }
 
     tutorQuestionList.appendChild(node);
   });

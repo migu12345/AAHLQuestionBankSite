@@ -1,6 +1,6 @@
 {
   "course": "IB Mathematics AA HL - Tutoring Questions",
-  "generated_at": "2026-03-06T17:13:39.920865+00:00",
+  "generated_at": "2026-03-06T17:17:18.589121+00:00",
   "notes": "Auto-generated IB-style worked-solution drafts. Review and edit before formal use.",
   "questions": [
     {
@@ -35,7 +35,10 @@
         }
       ],
       "worked_solution_text": "Part (a) [1 marks]\n- Step 1: Parse the requirement from the prompt: Write down the number of terms in this expansion. (1).\n- Step 2: Apply the main method with full algebraic working.\n- Final answer: provide the required result clearly.\n\nPart (b) [4 marks]\n- Step 1: Parse the requirement from the prompt: Find the term containing x2. (4) (Total 5 marks).\n- Step 2: Apply the main method with full algebraic working.\n- Step 3: Simplify and verify any stated restrictions.\n- Final answer: provide the required result clearly.",
-      "draft": true
+      "draft": true,
+      "markscheme_image_paths": [
+        "images/markschemes/t1_binomila_theorem_q1.svg"
+      ]
     },
     {
       "id": "t1_binomila_theorem_q2",
@@ -70,7 +73,10 @@
         }
       ],
       "worked_solution_text": "Part (a) [3 marks]\n- Step 1: Use binomial theorem on the given expression: Expand (2 + x)4 and simplify your result. (3).\n- Step 2: Write general term T_(r+1) = nCr * a^(n-r) * b^r and apply the requested condition.\n- Step 3: Compute the correct coefficient/term and simplify fully.\n- Final answer: required term/expansion/coefficient in simplest form.\n\nPart (b) [3 marks]\n- Step 1: Use binomial theorem on the given expression: Hence, find the term in x2 in (2 + x)4 \uf0f7 \uf0f8 \uf0f6\uf0e7 \uf0e8 \uf0e6 + 2 11 x . (3) (Total 6 marks) IB Maths 2.\n- Step 2: Write general term T_(r+1) = nCr * a^(n-r) * b^r and apply the requested condition.\n- Step 3: Compute the correct coefficient/term and simplify fully.\n- Final answer: required term/expansion/coefficient in simplest form.",
-      "draft": true
+      "draft": true,
+      "markscheme_image_paths": [
+        "images/markschemes/t1_binomila_theorem_q2.svg"
+      ]
     },
     {
       "id": "t1_binomila_theorem_q3",
@@ -94,7 +100,10 @@
         }
       ],
       "worked_solution_text": "Part (a) [6 marks]\n- Step 1: Use binomial theorem on the given expression: 3. Find the term in x4 in the expansion of 5 2 23 \uf0f7 \uf0f8 \uf0f6\uf0e7 \uf0e8 \uf0e6 \u2212 xx . (Total 6 marks).\n- Step 2: Write general term T_(r+1) = nCr * a^(n-r) * b^r and apply the requested condition.\n- Step 3: Compute the correct coefficient/term and simplify fully.\n- Final answer: required term/expansion/coefficient in simplest form.",
-      "draft": true
+      "draft": true,
+      "markscheme_image_paths": [
+        "images/markschemes/t1_binomila_theorem_q3.svg"
+      ]
     },
     {
       "id": "t1_binomila_theorem_q4",
@@ -138,7 +147,10 @@
         }
       ],
       "worked_solution_text": "Part (a) [1 marks]\n- Step 1: Parse the requirement from the prompt: Write down the value of n. (1).\n- Step 2: Apply the main method with full algebraic working.\n- Final answer: provide the required result clearly.\n\nPart (b) [2 marks]\n- Step 1: Parse the requirement from the prompt: Write down a and b, in terms of p and/or q. (2).\n- Step 2: Apply the main method with full algebraic working.\n- Final answer: provide the required result clearly.\n\nPart (c) [3 marks]\n- Step 1: Use binomial theorem on the given expression: Write down an expression for the sixth term in the expansion. (3) (Total 6 marks).\n- Step 2: Write general term T_(r+1) = nCr * a^(n-r) * b^r and apply the requested condition.\n- Step 3: Compute the correct coefficient/term and simplify fully.\n- Final answer: required term/expansion/coefficient in simplest form.",
-      "draft": true
+      "draft": true,
+      "markscheme_image_paths": [
+        "images/markschemes/t1_binomila_theorem_q4.svg"
+      ]
     },
     {
       "id": "t1_binomila_theorem_q5",
@@ -204,7 +216,10 @@
         }
       ],
       "worked_solution_text": "Part (a) [2 marks]\n- Step 1: Use binomial theorem on the given expression: Expand (x + h)3. (2).\n- Step 2: Write general term T_(r+1) = nCr * a^(n-r) * b^r and apply the requested condition.\n- Final answer: required term/expansion/coefficient in simplest form.\n\nPart (b) [4 marks]\n- Step 1: Begin from the required statement context: Use the formula f\u2032(x) = h xfhxf h )()(lim 0 \u2212+ \u2192 to show that the derivative of f(x) is 3x2 \u2013 4. (4).\n- Step 2: Apply valid identities and simplify each line clearly.\n- Step 3: Arrive exactly at the target expression with no missing steps.\n- Conclusion: required result shown.\n\nPart (c) [4 marks]\n- Step 1: Parse the requirement from the prompt: The tangent to the curve of f at the point P(1, \u20132) is parallel to the tangent at a point Q. Find the coordinates of Q. .\n- Step 2: Apply the main method with full algebraic working.\n- Step 3: Simplify and verify any stated restrictions.\n- Final answer: provide the required result clearly.\n\nPart (d) [3 marks]\n- Step 1: Parse the requirement from the prompt: The graph of f is decreasing for p < x < q. Find the value of p and of q. (3) IB Maths 3.\n- Step 2: Apply the main method with full algebraic working.\n- Step 3: Simplify and verify any stated restrictions.\n- Final answer: provide the required result clearly.\n\nPart (e) [2 marks]\n- Step 1: Parse the requirement from the prompt: Write down the range of values for the gradient of f. (2) (Total 15 marks).\n- Step 2: Apply the main method with full algebraic working.\n- Final answer: provide the required result clearly.",
-      "draft": true
+      "draft": true,
+      "markscheme_image_paths": [
+        "images/markschemes/t1_binomila_theorem_q5.svg"
+      ]
     },
     {
       "id": "t1_binomila_theorem_q6",
@@ -228,7 +243,10 @@
         }
       ],
       "worked_solution_text": "Part (a) [5 marks]\n- Step 1: Use binomial theorem on the given expression: 6. Find the term in x3 in the expansion of .33 2 8 \uf0f7 \uf0f8 \uf0f6\uf0e7 \uf0e8 \uf0e6 \u2212x (Total 5 marks).\n- Step 2: Write general term T_(r+1) = nCr * a^(n-r) * b^r and apply the requested condition.\n- Step 3: Compute the correct coefficient/term and simplify fully.\n- Final answer: required term/expansion/coefficient in simplest form.",
-      "draft": true
+      "draft": true,
+      "markscheme_image_paths": [
+        "images/markschemes/t1_binomila_theorem_q6.svg"
+      ]
     },
     {
       "id": "t1_binomila_theorem_q7",
@@ -263,7 +281,10 @@
         }
       ],
       "worked_solution_text": "Part (a) [3 marks]\n- Step 1: Use binomial theorem on the given expression: Expand (x \u2013 2)4 and simplify your result. (3).\n- Step 2: Write general term T_(r+1) = nCr * a^(n-r) * b^r and apply the requested condition.\n- Step 3: Compute the correct coefficient/term and simplify fully.\n- Final answer: required term/expansion/coefficient in simplest form.\n\nPart (b) [3 marks]\n- Step 1: Use binomial theorem on the given expression: Find the term in x3 in (3x + 4)(x \u2013 2)4. (3) (Total 6 marks).\n- Step 2: Write general term T_(r+1) = nCr * a^(n-r) * b^r and apply the requested condition.\n- Step 3: Compute the correct coefficient/term and simplify fully.\n- Final answer: required term/expansion/coefficient in simplest form.",
-      "draft": true
+      "draft": true,
+      "markscheme_image_paths": [
+        "images/markschemes/t1_binomila_theorem_q7.svg"
+      ]
     },
     {
       "id": "t1_binomila_theorem_q8",
@@ -298,7 +319,10 @@
         }
       ],
       "worked_solution_text": "Part (a) [3 marks]\n- Step 1: Parse the requirement from the prompt: Write down the number of terms in this expansion..\n- Step 2: Apply the main method with full algebraic working.\n- Step 3: Simplify and verify any stated restrictions.\n- Final answer: provide the required result clearly.\n\nPart (b) [3 marks]\n- Step 1: Use binomial theorem on the given expression: Find the term in x12. (Total 6 marks).\n- Step 2: Write general term T_(r+1) = nCr * a^(n-r) * b^r and apply the requested condition.\n- Step 3: Compute the correct coefficient/term and simplify fully.\n- Final answer: required term/expansion/coefficient in simplest form.",
-      "draft": true
+      "draft": true,
+      "markscheme_image_paths": [
+        "images/markschemes/t1_binomila_theorem_q8.svg"
+      ]
     },
     {
       "id": "t1_binomila_theorem_q9",
@@ -322,7 +346,10 @@
         }
       ],
       "worked_solution_text": "Part (a) [6 marks]\n- Step 1: Parse the requirement from the prompt: 9. One of the terms of the expansion of (x + 2y)10 is ax8 y2. Find the value of a. (Total 6 marks) IB Maths 4.\n- Step 2: Apply the main method with full algebraic working.\n- Step 3: Simplify and verify any stated restrictions.\n- Final answer: provide the required result clearly.",
-      "draft": true
+      "draft": true,
+      "markscheme_image_paths": [
+        "images/markschemes/t1_binomila_theorem_q9.svg"
+      ]
     },
     {
       "id": "t1_binomila_theorem_q10",
@@ -356,7 +383,10 @@
         }
       ],
       "worked_solution_text": "Part (a) [4 marks]\n- Step 1: Use binomial theorem on the given expression: Expand 4 e 1e \uf0f7 \uf0f8 \uf0f6\uf0e7 \uf0e8 \uf0e6 + in terms of e. (4).\n- Step 2: Write general term T_(r+1) = nCr * a^(n-r) * b^r and apply the requested condition.\n- Step 3: Compute the correct coefficient/term and simplify fully.\n- Final answer: required term/expansion/coefficient in simplest form.\n\nPart (b) [2 marks]\n- Step 1: Identify the sequence model from the prompt (Express 4 e 1e \uf0f7 \uf0f8 \uf0f6\uf0e7 \uf0e8 \uf0e6 + + 4 e 1e \uf0f7 \uf0f8 \uf0f6\uf0e7 \uf0e8 \uf0e6 \u2212 as the sum of three terms. (2) (Total 6 marks)).\n- Step 2: Use the relevant nth-term/sum formula and substitute known values.\n- Final answer: requested sequence value.",
-      "draft": true
+      "draft": true,
+      "markscheme_image_paths": [
+        "images/markschemes/t1_binomila_theorem_q10.svg"
+      ]
     },
     {
       "id": "t1_math_sl_algebra_q1",
@@ -399,7 +429,10 @@
         }
       ],
       "worked_solution_text": "Part (a) [2 marks]\n- Step 1: Parse the requirement from the prompt: Find d. (2).\n- Step 2: Apply the main method with full algebraic working.\n- Final answer: provide the required result clearly.\n\nPart (b) [2 marks]\n- Step 1: Parse the requirement from the prompt: Find u20. (2).\n- Step 2: Apply the main method with full algebraic working.\n- Final answer: provide the required result clearly.\n\nPart (c) [2 marks]\n- Step 1: Parse the requirement from the prompt: Find S20. (2) (Total 6 marks).\n- Step 2: Apply the main method with full algebraic working.\n- Final answer: provide the required result clearly.",
-      "draft": true
+      "draft": true,
+      "markscheme_image_paths": [
+        "images/markschemes/t1_math_sl_algebra_q1.svg"
+      ]
     },
     {
       "id": "t1_math_sl_algebra_q2",
@@ -433,7 +466,10 @@
         }
       ],
       "worked_solution_text": "Part (a) [3 marks]\n- Step 1: Parse the requirement from the prompt: Find the value of the common difference. (3).\n- Step 2: Apply the main method with full algebraic working.\n- Step 3: Simplify and verify any stated restrictions.\n- Final answer: provide the required result clearly.\n\nPart (b) [2 marks]\n- Step 1: Parse the requirement from the prompt: Find the value of n. (2) (Total 5 marks).\n- Step 2: Apply the main method with full algebraic working.\n- Final answer: provide the required result clearly.",
-      "draft": true
+      "draft": true,
+      "markscheme_image_paths": [
+        "images/markschemes/t1_math_sl_algebra_q2.svg"
+      ]
     },
     {
       "id": "t1_math_sl_algebra_q3",
@@ -477,7 +513,10 @@
         }
       ],
       "worked_solution_text": "Part (a) [1 marks]\n- Step 1: Parse the requirement from the prompt: Write down the common difference. (1).\n- Step 2: Apply the main method with full algebraic working.\n- Final answer: provide the required result clearly.\n\nPart (b) [3 marks]\n- Step 1: Identify the sequence model from the prompt (Find the number of terms in the sequence. (3)).\n- Step 2: Use the relevant nth-term/sum formula and substitute known values.\n- Step 3: Solve for the required term/index/sum and simplify.\n- Final answer: requested sequence value.\n\nPart (c) [2 marks]\n- Step 1: Identify the sequence model from the prompt (Find the sum of the sequence. (2) (Total 6 marks)).\n- Step 2: Use the relevant nth-term/sum formula and substitute known values.\n- Final answer: requested sequence value.",
-      "draft": true
+      "draft": true,
+      "markscheme_image_paths": [
+        "images/markschemes/t1_math_sl_algebra_q3.svg"
+      ]
     },
     {
       "id": "t1_math_sl_algebra_q4",
@@ -511,7 +550,10 @@
         }
       ],
       "worked_solution_text": "Part (a) [2 marks]\n- Step 1: Parse the requirement from the prompt: Find u1. (2).\n- Step 2: Apply the main method with full algebraic working.\n- Final answer: provide the required result clearly.\n\nPart (b) [4 marks]\n- Step 1: Parse the requirement from the prompt: (i) Given that un = 516, find the value of n. (ii) For this value of n, find Sn. (4) (Total 6 marks).\n- Step 2: Apply the main method with full algebraic working.\n- Step 3: Simplify and verify any stated restrictions.\n- Final answer: provide the required result clearly.",
-      "draft": true
+      "draft": true,
+      "markscheme_image_paths": [
+        "images/markschemes/t1_math_sl_algebra_q4.svg"
+      ]
     },
     {
       "id": "t1_math_sl_algebra_q5",
@@ -554,7 +596,10 @@
         }
       ],
       "worked_solution_text": "Part (a) [1 marks]\n- Step 1: Parse the requirement from the prompt: Write down the value of r. (1).\n- Step 2: Apply the main method with full algebraic working.\n- Final answer: provide the required result clearly.\n\nPart (b) [2 marks]\n- Step 1: Parse the requirement from the prompt: Find u6. (2).\n- Step 2: Apply the main method with full algebraic working.\n- Final answer: provide the required result clearly.\n\nPart (c) [2 marks]\n- Step 1: Identify the sequence model from the prompt (Find the sum to infinity of this sequence. (2) (Total 5 marks)).\n- Step 2: Use the relevant nth-term/sum formula and substitute known values.\n- Final answer: requested sequence value.",
-      "draft": true
+      "draft": true,
+      "markscheme_image_paths": [
+        "images/markschemes/t1_math_sl_algebra_q5.svg"
+      ]
     },
     {
       "id": "t1_math_sl_algebra_q6",
@@ -588,7 +633,10 @@
         }
       ],
       "worked_solution_text": "Part (a) [1 marks]\n- Step 1: Parse the requirement from the prompt: Write down the common difference. (1).\n- Step 2: Apply the main method with full algebraic working.\n- Final answer: provide the required result clearly.\n\nPart (b) [5 marks]\n- Step 1: Identify the sequence model from the prompt ((i) Given that the nth term of this sequence is 115, find the value of n. (ii) For this value of n, find the sum of the ).\n- Step 2: Use the relevant nth-term/sum formula and substitute known values.\n- Step 3: Solve for the required term/index/sum and simplify.\n- Final answer: requested sequence value.",
-      "draft": true
+      "draft": true,
+      "markscheme_image_paths": [
+        "images/markschemes/t1_math_sl_algebra_q6.svg"
+      ]
     },
     {
       "id": "t1_math_sl_algebra_q7",
@@ -622,7 +670,10 @@
         }
       ],
       "worked_solution_text": "Part (a) [3 marks]\n- Step 1: Parse the requirement from the prompt: Find the common difference. (3).\n- Step 2: Apply the main method with full algebraic working.\n- Step 3: Simplify and verify any stated restrictions.\n- Final answer: provide the required result clearly.\n\nPart (b) [2 marks]\n- Step 1: Parse the requirement from the prompt: Find the value of the 78th term. (2) (Total 5 marks).\n- Step 2: Apply the main method with full algebraic working.\n- Final answer: provide the required result clearly.",
-      "draft": true
+      "draft": true,
+      "markscheme_image_paths": [
+        "images/markschemes/t1_math_sl_algebra_q7.svg"
+      ]
     },
     {
       "id": "t1_math_sl_algebra_q8",
@@ -657,7 +708,10 @@
         }
       ],
       "worked_solution_text": "Part (a) [3 marks]\n- Step 1: Parse the requirement from the prompt: Find the value of r. (3).\n- Step 2: Apply the main method with full algebraic working.\n- Step 3: Simplify and verify any stated restrictions.\n- Final answer: provide the required result clearly.\n\nPart (b) [4 marks]\n- Step 1: Parse the requirement from the prompt: Find the smallest value of n for which Sn > 40. (4) (Total 7 marks).\n- Step 2: Apply the main method with full algebraic working.\n- Step 3: Simplify and verify any stated restrictions.\n- Final answer: provide the required result clearly.",
-      "draft": true
+      "draft": true,
+      "markscheme_image_paths": [
+        "images/markschemes/t1_math_sl_algebra_q8.svg"
+      ]
     },
     {
       "id": "t1_math_sl_algebra_q9",
@@ -691,7 +745,10 @@
         }
       ],
       "worked_solution_text": "Part (a) [1 marks]\n- Step 1: Use binomial theorem on the given expression: Expand \uf0e5 \uf03d 7 4 2 r r as the sum of four terms. (1).\n- Step 2: Write general term T_(r+1) = nCr * a^(n-r) * b^r and apply the requested condition.\n- Final answer: required term/expansion/coefficient in simplest form.\n\nPart (b) [6 marks]\n- Step 1: Parse the requirement from the prompt: (i) Find the value of \uf0e5 \uf03d 30 4 2 r r . (ii) Explain why \uf0e5 \uf0a5 \uf03d4 2 r r cannot be evaluated. (6) (Total 7 marks).\n- Step 2: Apply the main method with full algebraic working.\n- Step 3: Simplify and verify any stated restrictions.\n- Final answer: provide the required result clearly.",
-      "draft": true
+      "draft": true,
+      "markscheme_image_paths": [
+        "images/markschemes/t1_math_sl_algebra_q9.svg"
+      ]
     },
     {
       "id": "t1_math_sl_algebra_q10",
@@ -715,7 +772,10 @@
         }
       ],
       "worked_solution_text": "Part (a) [6 marks]\n- Step 1: Identify the sequence model from the prompt (10. In an arithmetic sequence, S40 = 1900 and u40 = 106. Find the value of u1 and of d. (Total 6 marks)).\n- Step 2: Use the relevant nth-term/sum formula and substitute known values.\n- Step 3: Solve for the required term/index/sum and simplify.\n- Final answer: requested sequence value.",
-      "draft": true
+      "draft": true,
+      "markscheme_image_paths": [
+        "images/markschemes/t1_math_sl_algebra_q10.svg"
+      ]
     },
     {
       "id": "t1_math_sl_algebra_q11",
@@ -750,7 +810,10 @@
         }
       ],
       "worked_solution_text": "Part (a) [3 marks]\n- Step 1: Parse the requirement from the prompt: Find u101. (3).\n- Step 2: Apply the main method with full algebraic working.\n- Step 3: Simplify and verify any stated restrictions.\n- Final answer: provide the required result clearly.\n\nPart (b) [3 marks]\n- Step 1: Parse the requirement from the prompt: Find the value of n so that un = 152. (3) (Total 6 marks).\n- Step 2: Apply the main method with full algebraic working.\n- Step 3: Simplify and verify any stated restrictions.\n- Final answer: provide the required result clearly.",
-      "draft": true
+      "draft": true,
+      "markscheme_image_paths": [
+        "images/markschemes/t1_math_sl_algebra_q11.svg"
+      ]
     },
     {
       "id": "t1_math_sl_algebra_q12",
@@ -793,7 +856,10 @@
         }
       ],
       "worked_solution_text": "Part (a) [2 marks]\n- Step 1: Parse the requirement from the prompt: Find the common ratio. (2).\n- Step 2: Apply the main method with full algebraic working.\n- Final answer: provide the required result clearly.\n\nPart (b) [2 marks]\n- Step 1: Parse the requirement from the prompt: Find the 10th term. (2).\n- Step 2: Apply the main method with full algebraic working.\n- Final answer: provide the required result clearly.\n\nPart (c) [2 marks]\n- Step 1: Identify the sequence model from the prompt (Find the exact sum of the infinite sequence. (2) (Total 6 marks)).\n- Step 2: Use the relevant nth-term/sum formula and substitute known values.\n- Final answer: requested sequence value.",
-      "draft": true
+      "draft": true,
+      "markscheme_image_paths": [
+        "images/markschemes/t1_math_sl_algebra_q12.svg"
+      ]
     },
     {
       "id": "t1_math_sl_algebra_q13",
@@ -827,7 +893,10 @@
         }
       ],
       "worked_solution_text": "Part (a) [1 marks]\n- Step 1: Identify the sequence model from the prompt (Write down the 10th term of the sequence. Do not simplify your answer. (1)).\n- Step 2: Use the relevant nth-term/sum formula and substitute known values.\n- Final answer: requested sequence value.\n\nPart (b) [4 marks]\n- Step 1: Identify the sequence model from the prompt (Find the sum of the infinite sequence. (4) (Total 5 marks)).\n- Step 2: Use the relevant nth-term/sum formula and substitute known values.\n- Step 3: Solve for the required term/index/sum and simplify.\n- Final answer: requested sequence value.",
-      "draft": true
+      "draft": true,
+      "markscheme_image_paths": [
+        "images/markschemes/t1_math_sl_algebra_q13.svg"
+      ]
     },
     {
       "id": "t1_math_sl_algebra_q14",
@@ -861,7 +930,10 @@
         }
       ],
       "worked_solution_text": "Part (a) [4 marks]\n- Step 1: Parse the requirement from the prompt: Calculate the number of seats in the 20th row. (4).\n- Step 2: Apply the main method with full algebraic working.\n- Step 3: Simplify and verify any stated restrictions.\n- Final answer: provide the required result clearly.\n\nPart (b) [2 marks]\n- Step 1: Parse the requirement from the prompt: Calculate the total number of seats. (2) (Total 6 marks).\n- Step 2: Apply the main method with full algebraic working.\n- Final answer: provide the required result clearly.",
-      "draft": true
+      "draft": true,
+      "markscheme_image_paths": [
+        "images/markschemes/t1_math_sl_algebra_q14.svg"
+      ]
     },
     {
       "id": "t1_math_sl_algebra_q15",
@@ -905,7 +977,10 @@
         }
       ],
       "worked_solution_text": "Part (a) [1 marks]\n- Step 1: Parse the requirement from the prompt: Write down an expression for the value of the investment after n full years. (1).\n- Step 2: Apply the main method with full algebraic working.\n- Final answer: provide the required result clearly.\n\nPart (b) [1 marks]\n- Step 1: Parse the requirement from the prompt: What will be the value of the investment at the end of five years? (1).\n- Step 2: Apply the main method with full algebraic working.\n- Final answer: provide the required result clearly.\n\nPart (c) [4 marks]\n- Step 1: Parse the requirement from the prompt: The value of the investment will exceed $ 10 000 after n full years. (i) Write down an inequality to represent this info.\n- Step 2: Apply the main method with full algebraic working.\n- Step 3: Simplify and verify any stated restrictions.\n- Final answer: provide the required result clearly.",
-      "draft": true
+      "draft": true,
+      "markscheme_image_paths": [
+        "images/markschemes/t1_math_sl_algebra_q15.svg"
+      ]
     },
     {
       "id": "t1_math_sl_algebra_q16",
@@ -948,7 +1023,10 @@
         }
       ],
       "worked_solution_text": "Part (a) [2 marks]\n- Step 1: Parse the requirement from the prompt: Find the common ratio..\n- Step 2: Apply the main method with full algebraic working.\n- Final answer: provide the required result clearly.\n\nPart (b) [2 marks]\n- Step 1: Parse the requirement from the prompt: Find (i) the 10th term; (ii) an expression for the nth term..\n- Step 2: Apply the main method with full algebraic working.\n- Final answer: provide the required result clearly.\n\nPart (c) [2 marks]\n- Step 1: Identify the sequence model from the prompt (Find the sum of the infinite sequence. (Total 6 marks)).\n- Step 2: Use the relevant nth-term/sum formula and substitute known values.\n- Final answer: requested sequence value.",
-      "draft": true
+      "draft": true,
+      "markscheme_image_paths": [
+        "images/markschemes/t1_math_sl_algebra_q16.svg"
+      ]
     },
     {
       "id": "t1_math_sl_algebra_q17",
@@ -982,7 +1060,10 @@
         }
       ],
       "worked_solution_text": "Part (a) [2 marks]\n- Step 1: Begin from the required statement context: Use all four terms to show that this is a geometric sequence. (2).\n- Step 2: Apply valid identities and simplify each line clearly.\n- Conclusion: required result shown.\n\nPart (b) [4 marks]\n- Step 1: Identify the sequence model from the prompt ((i) Find an expression for the nth term of this geometric sequence. (ii) If the nth term of the sequence is 1062 882, fi).\n- Step 2: Use the relevant nth-term/sum formula and substitute known values.\n- Step 3: Solve for the required term/index/sum and simplify.\n- Final answer: requested sequence value.",
-      "draft": true
+      "draft": true,
+      "markscheme_image_paths": [
+        "images/markschemes/t1_math_sl_algebra_q17.svg"
+      ]
     },
     {
       "id": "t1_math_sl_algebra_q18",
@@ -1016,7 +1097,10 @@
         }
       ],
       "worked_solution_text": "Part (a) [1 marks]\n- Step 1: Identify the sequence model from the prompt (Write down the first three terms of the sequence un = 3n, for n \uf0b31. (1)).\n- Step 2: Use the relevant nth-term/sum formula and substitute known values.\n- Final answer: requested sequence value.\n\nPart (b) [5 marks]\n- Step 1: Parse the requirement from the prompt: Find (i) \uf0e5 \uf03d 20 1 ;3 n n (ii) \uf0e5 \uf03d 100 21 3 n n . (5) (Total 6 marks).\n- Step 2: Apply the main method with full algebraic working.\n- Step 3: Simplify and verify any stated restrictions.\n- Final answer: provide the required result clearly.",
-      "draft": true
+      "draft": true,
+      "markscheme_image_paths": [
+        "images/markschemes/t1_math_sl_algebra_q18.svg"
+      ]
     },
     {
       "id": "t1_math_sl_algebra_q19",
@@ -1062,7 +1146,10 @@
         }
       ],
       "worked_solution_text": "Part (a) [4 marks]\n- Step 1: Begin from the required statement context: A pile has 20 cans in the bottom row. Show that the pile contains 210 cans. (4).\n- Step 2: Apply valid identities and simplify each line clearly.\n- Step 3: Arrive exactly at the target expression with no missing steps.\n- Conclusion: required result shown.\n\nPart (b) [4 marks]\n- Step 1: Parse the requirement from the prompt: There are 3240 cans in a pile. How many cans are in the bottom row? (4).\n- Step 2: Apply the main method with full algebraic working.\n- Step 3: Simplify and verify any stated restrictions.\n- Final answer: provide the required result clearly.\n\nPart (c) [6 marks]\n- Step 1: Begin from the required statement context: (i) There are S cans and they are organized in a triangular pile with n cans in the bottom row. Show that n2 + n \u2212 2S = .\n- Step 2: Apply valid identities and simplify each line clearly.\n- Step 3: Arrive exactly at the target expression with no missing steps.\n- Conclusion: required result shown.",
-      "draft": true
+      "draft": true,
+      "markscheme_image_paths": [
+        "images/markschemes/t1_math_sl_algebra_q19.svg"
+      ]
     },
     {
       "id": "t1_math_sl_algebra_q20",
@@ -1097,7 +1184,10 @@
         }
       ],
       "worked_solution_text": "Part (a) [3 marks]\n- Step 1: Parse the requirement from the prompt: Calculate the number of seats in the 20th row..\n- Step 2: Apply the main method with full algebraic working.\n- Step 3: Simplify and verify any stated restrictions.\n- Final answer: provide the required result clearly.\n\nPart (b) [3 marks]\n- Step 1: Parse the requirement from the prompt: Calculate the total number of seats. (Total 6 marks).\n- Step 2: Apply the main method with full algebraic working.\n- Step 3: Simplify and verify any stated restrictions.\n- Final answer: provide the required result clearly.",
-      "draft": true
+      "draft": true,
+      "markscheme_image_paths": [
+        "images/markschemes/t1_math_sl_algebra_q20.svg"
+      ]
     },
     {
       "id": "t1_math_sl_algebra_q21",
@@ -1140,7 +1230,10 @@
         }
       ],
       "worked_solution_text": "Part (a) [2 marks]\n- Step 1: Parse the requirement from the prompt: Write down an expression for the value of the investment after n full years..\n- Step 2: Apply the main method with full algebraic working.\n- Final answer: provide the required result clearly.\n\nPart (b) [2 marks]\n- Step 1: Parse the requirement from the prompt: What will be the value of the investment at the end of five years?.\n- Step 2: Apply the main method with full algebraic working.\n- Final answer: provide the required result clearly.\n\nPart (c) [2 marks]\n- Step 1: Parse the requirement from the prompt: The value of the investment will exceed $10000 after n full years, (i) Write down an inequality to represent this inform.\n- Step 2: Apply the main method with full algebraic working.\n- Final answer: provide the required result clearly.",
-      "draft": true
+      "draft": true,
+      "markscheme_image_paths": [
+        "images/markschemes/t1_math_sl_algebra_q21.svg"
+      ]
     },
     {
       "id": "t1_math_sl_algebra_q22",
@@ -1175,7 +1268,10 @@
         }
       ],
       "worked_solution_text": "Part (a) [4 marks]\n- Step 1: Apply log/exponential laws to the given expression: Express g(x) in the form f(x) + ln a, where a \uf0ce +. (4).\n- Step 2: Convert to a solvable equation and isolate the variable.\n- Step 3: Check all domain restrictions (log arguments > 0).\n- Final answer: valid value(s) only.\n\nPart (b) [3 marks]\n- Step 1: Parse the requirement from the prompt: The graph of g is a transformation of the graph of f. Give a full geometric description of this transformation. (3) (Tot.\n- Step 2: Apply the main method with full algebraic working.\n- Step 3: Simplify and verify any stated restrictions.\n- Final answer: provide the required result clearly.",
-      "draft": true
+      "draft": true,
+      "markscheme_image_paths": [
+        "images/markschemes/t1_math_sl_algebra_q22.svg"
+      ]
     },
     {
       "id": "t1_math_sl_algebra_q23",
@@ -1240,7 +1336,10 @@
         }
       ],
       "worked_solution_text": "Part (a) [2 marks]\n- Step 1: Begin from the required statement context: Show that f(x) = log3 2x. (2).\n- Step 2: Apply valid identities and simplify each line clearly.\n- Conclusion: required result shown.\n\nPart (b) [3 marks]\n- Step 1: Apply log/exponential laws to the given expression: Find the value of f(0.5) and of f(4.5). (3) The function f can also be written in the form f(x) = b ax ln ln ..\n- Step 2: Convert to a solvable equation and isolate the variable.\n- Step 3: Check all domain restrictions (log arguments > 0).\n- Final answer: valid value(s) only.\n\nPart (c) [6 marks]\n- Step 1: Parse the requirement from the prompt: (i) Write down the value of a and of b. (ii) Hence on graph paper, sketch the graph of f, for \u20135 \u2264 x \u2264 5, \u20135 \u2264 y \u2264 5, us.\n- Step 2: Apply the main method with full algebraic working.\n- Step 3: Simplify and verify any stated restrictions.\n- Final answer: provide the required result clearly.\n\nPart (d) [0 marks]\n- Step 1: Parse the requirement from the prompt: Write down the value of f\u20131(0). (1) The point A lies on the graph of f. At A, x = 4.5..\n- Step 2: Apply the main method with full algebraic working.\n- Final answer: provide the required result clearly.\n\nPart (e) [1 marks]\n- Step 1: Parse the requirement from the prompt: On your diagram, sketch the graph of f\u20131, noting clearly the image of point A. (4) (Total 16 marks).\n- Step 2: Apply the main method with full algebraic working.\n- Final answer: provide the required result clearly.",
-      "draft": true
+      "draft": true,
+      "markscheme_image_paths": [
+        "images/markschemes/t1_math_sl_algebra_q23.svg"
+      ]
     },
     {
       "id": "t1_math_sl_algebra_q24",
@@ -1283,7 +1382,10 @@
         }
       ],
       "worked_solution_text": "Part (a) [2 marks]\n- Step 1: Begin from the required statement context: Show that f\u20131(x) = 32x. (2).\n- Step 2: Apply valid identities and simplify each line clearly.\n- Conclusion: required result shown.\n\nPart (b) [1 marks]\n- Step 1: Apply log/exponential laws to the given expression: Write down the range of f\u20131. (1) Let g(x) = log3 x, for x > 0..\n- Step 2: Convert to a solvable equation and isolate the variable.\n- Final answer: valid value(s) only.\n\nPart (c) [2 marks]\n- Step 1: Parse the requirement from the prompt: Find the value of (f \u20131 \u00b0 g)(2), giving your answer as an integer. (4) (Total 7 marks).\n- Step 2: Apply the main method with full algebraic working.\n- Final answer: provide the required result clearly.",
-      "draft": true
+      "draft": true,
+      "markscheme_image_paths": [
+        "images/markschemes/t1_math_sl_algebra_q24.svg"
+      ]
     },
     {
       "id": "t1_math_sl_algebra_q25",
@@ -1307,7 +1409,10 @@
         }
       ],
       "worked_solution_text": "Part (a) [7 marks]\n- Step 1: Start from the given equation (25. Solve log2x + log2(x \u2013 2) = 3, for x > 2. (Total 7 marks)) and rearrange into a standard form.\n- Step 2: Use substitution/factorisation/inverse operations to isolate the unknown.\n- Step 3: Solve all candidates and reject invalid roots using stated restrictions.\n- Final answer: state the valid solution set only.",
-      "draft": true
+      "draft": true,
+      "markscheme_image_paths": [
+        "images/markschemes/t1_math_sl_algebra_q25.svg"
+      ]
     },
     {
       "id": "t1_math_sl_algebra_q26",
@@ -1341,7 +1446,10 @@
         }
       ],
       "worked_solution_text": "Part (a) [1 marks]\n- Step 1: Apply log/exponential laws to the given expression: Find log2 32. (1).\n- Step 2: Convert to a solvable equation and isolate the variable.\n- Final answer: valid value(s) only.\n\nPart (b) [4 marks]\n- Step 1: Apply log/exponential laws to the given expression: Given that log2 \uf0f7\uf0f7 \uf0f8 \uf0f6 \uf0e7\uf0e7 \uf0e8 \uf0e6 y x 8 32 can be written as px + qy, find the value of p and of q. (4) (Total 5 marks).\n- Step 2: Convert to a solvable equation and isolate the variable.\n- Step 3: Check all domain restrictions (log arguments > 0).\n- Final answer: valid value(s) only.",
-      "draft": true
+      "draft": true,
+      "markscheme_image_paths": [
+        "images/markschemes/t1_math_sl_algebra_q26.svg"
+      ]
     },
     {
       "id": "t1_math_sl_algebra_q27",
@@ -1375,7 +1483,10 @@
         }
       ],
       "worked_solution_text": "Part (a) [1 marks]\n- Step 1: Parse the requirement from the prompt: Given that f\u20131(1) = 8, find the value of k. (3).\n- Step 2: Apply the main method with full algebraic working.\n- Final answer: provide the required result clearly.\n\nPart (b) [3 marks]\n- Step 1: Parse the requirement from the prompt: Find f\u20131 \uf0f7 \uf0f8 \uf0f6\uf0e7 \uf0e8 \uf0e6 3 2 . (4) (Total 7 marks).\n- Step 2: Apply the main method with full algebraic working.\n- Step 3: Simplify and verify any stated restrictions.\n- Final answer: provide the required result clearly.",
-      "draft": true
+      "draft": true,
+      "markscheme_image_paths": [
+        "images/markschemes/t1_math_sl_algebra_q27.svg"
+      ]
     },
     {
       "id": "t1_math_sl_algebra_q28",
@@ -1431,7 +1542,10 @@
         }
       ],
       "worked_solution_text": "Part (a) [3 marks]\n- Step 1: Apply log/exponential laws to the given expression: logx 49 = 2 (3).\n- Step 2: Convert to a solvable equation and isolate the variable.\n- Step 3: Check all domain restrictions (log arguments > 0).\n- Final answer: valid value(s) only.\n\nPart (b) [2 marks]\n- Step 1: Apply log/exponential laws to the given expression: log2 8 = x (2).\n- Step 2: Convert to a solvable equation and isolate the variable.\n- Final answer: valid value(s) only.\n\nPart (c) [3 marks]\n- Step 1: Apply log/exponential laws to the given expression: log25 x = 2 1\uf02d (3).\n- Step 2: Convert to a solvable equation and isolate the variable.\n- Step 3: Check all domain restrictions (log arguments > 0).\n- Final answer: valid value(s) only.\n\nPart (d) [5 marks]\n- Step 1: Apply log/exponential laws to the given expression: log2 x + log2(x \u2013 7) = 3 (5) (Total 13 marks).\n- Step 2: Convert to a solvable equation and isolate the variable.\n- Step 3: Check all domain restrictions (log arguments > 0).\n- Final answer: valid value(s) only.",
-      "draft": true
+      "draft": true,
+      "markscheme_image_paths": [
+        "images/markschemes/t1_math_sl_algebra_q28.svg"
+      ]
     },
     {
       "id": "t1_math_sl_algebra_q29",
@@ -1474,7 +1588,10 @@
         }
       ],
       "worked_solution_text": "Part (a) [2 marks]\n- Step 1: Apply log/exponential laws to the given expression: loga 10.\n- Step 2: Convert to a solvable equation and isolate the variable.\n- Final answer: valid value(s) only.\n\nPart (b) [2 marks]\n- Step 1: Apply log/exponential laws to the given expression: loga 8.\n- Step 2: Convert to a solvable equation and isolate the variable.\n- Final answer: valid value(s) only.\n\nPart (c) [2 marks]\n- Step 1: Apply log/exponential laws to the given expression: loga 2.5 (Total 6 marks).\n- Step 2: Convert to a solvable equation and isolate the variable.\n- Final answer: valid value(s) only.",
-      "draft": true
+      "draft": true,
+      "markscheme_image_paths": [
+        "images/markschemes/t1_math_sl_algebra_q29.svg"
+      ]
     },
     {
       "id": "t1_math_sl_algebra_q30",
@@ -1508,7 +1625,10 @@
         }
       ],
       "worked_solution_text": "Part (a) [4 marks]\n- Step 1: Use binomial theorem on the given expression: Expand 4 e 1e \uf0f7 \uf0f8 \uf0f6\uf0e7 \uf0e8 \uf0e6 \uf02b in terms of e. (4).\n- Step 2: Write general term T_(r+1) = nCr * a^(n-r) * b^r and apply the requested condition.\n- Step 3: Compute the correct coefficient/term and simplify fully.\n- Final answer: required term/expansion/coefficient in simplest form.\n\nPart (b) [2 marks]\n- Step 1: Identify the sequence model from the prompt (Express 4 e 1e \uf0f7 \uf0f8 \uf0f6\uf0e7 \uf0e8 \uf0e6 \uf02b + 4 e 1e \uf0f7 \uf0f8 \uf0f6\uf0e7 \uf0e8 \uf0e6 \uf02d as the sum of three terms. (2) (Total 6 marks)).\n- Step 2: Use the relevant nth-term/sum formula and substitute known values.\n- Final answer: requested sequence value.",
-      "draft": true
+      "draft": true,
+      "markscheme_image_paths": [
+        "images/markschemes/t1_math_sl_algebra_q30.svg"
+      ]
     },
     {
       "id": "t1_math_sl_algebra_q31",
@@ -1543,7 +1663,10 @@
         }
       ],
       "worked_solution_text": "Part (a) [3 marks]\n- Step 1: Apply log/exponential laws to the given expression: Let logc 3 = p and logc 5 = q. Find an expression in terms of p and q for (i) log c 15; (ii) log c 25..\n- Step 2: Convert to a solvable equation and isolate the variable.\n- Step 3: Check all domain restrictions (log arguments > 0).\n- Final answer: valid value(s) only.\n\nPart (b) [3 marks]\n- Step 1: Apply log/exponential laws to the given expression: Find the value of d if log d 6 = 2 1 . (Total 6 marks).\n- Step 2: Convert to a solvable equation and isolate the variable.\n- Step 3: Check all domain restrictions (log arguments > 0).\n- Final answer: valid value(s) only.",
-      "draft": true
+      "draft": true,
+      "markscheme_image_paths": [
+        "images/markschemes/t1_math_sl_algebra_q31.svg"
+      ]
     },
     {
       "id": "t1_math_sl_algebra_q32",
@@ -1578,7 +1701,10 @@
         }
       ],
       "worked_solution_text": "Part (a) [3 marks]\n- Step 1: Apply log/exponential laws to the given expression: ln a3b.\n- Step 2: Convert to a solvable equation and isolate the variable.\n- Step 3: Check all domain restrictions (log arguments > 0).\n- Final answer: valid value(s) only.\n\nPart (b) [3 marks]\n- Step 1: Apply log/exponential laws to the given expression: ln \uf0f7\uf0f7 \uf0f8 \uf0f6 \uf0e7\uf0e7 \uf0e8 \uf0e6 b a (Total 6 marks).\n- Step 2: Convert to a solvable equation and isolate the variable.\n- Step 3: Check all domain restrictions (log arguments > 0).\n- Final answer: valid value(s) only.",
-      "draft": true
+      "draft": true,
+      "markscheme_image_paths": [
+        "images/markschemes/t1_math_sl_algebra_q32.svg"
+      ]
     },
     {
       "id": "t1_math_sl_algebra_q33",
@@ -1602,7 +1728,10 @@
         }
       ],
       "worked_solution_text": "Part (a) [6 marks]\n- Step 1: Parse the requirement from the prompt: 33. Find the exact solution of the equation 92x = 27(1\u2013x). Working: Answer: ....\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026.......... (Total 6 marks).\n- Step 2: Apply the main method with full algebraic working.\n- Step 3: Simplify and verify any stated restrictions.\n- Final answer: provide the required result clearly.",
-      "draft": true
+      "draft": true,
+      "markscheme_image_paths": [
+        "images/markschemes/t1_math_sl_algebra_q33.svg"
+      ]
     },
     {
       "id": "t1_math_sl_algebra_q34",
@@ -1655,7 +1784,10 @@
         }
       ],
       "worked_solution_text": "Part (a) [2 marks]\n- Step 1: Apply log/exponential laws to the given expression: Given that log3 x \u2013 log3 (x \u2013 5) = log3 A, express A in terms of x..\n- Step 2: Convert to a solvable equation and isolate the variable.\n- Final answer: valid value(s) only.\n\nPart (b) [2 marks]\n- Step 1: Start from the given equation (Hence or otherwise, solve the equation log3 x \u2013 log3 (x \u2013 5) = 1. Working: Answers:) and rearrange into a standard form.\n- Step 2: Use substitution/factorisation/inverse operations to isolate the unknown.\n- Final answer: state the valid solution set only.\n\nPart (a) [1 marks]\n- Step 1: Parse the requirement from the prompt: ...................................................................\n- Step 2: Apply the main method with full algebraic working.\n- Final answer: provide the required result clearly.\n\nPart (b) [1 marks]\n- Step 1: Parse the requirement from the prompt: .................................................................. (Total 6 marks).\n- Step 2: Apply the main method with full algebraic working.\n- Final answer: provide the required result clearly.",
-      "draft": true
+      "draft": true,
+      "markscheme_image_paths": [
+        "images/markschemes/t1_math_sl_algebra_q34.svg"
+      ]
     },
     {
       "id": "t1_math_sl_algebra_q35",
@@ -1689,7 +1821,10 @@
         }
       ],
       "worked_solution_text": "Part (a) [1 marks]\n- Step 1: Parse the requirement from the prompt: Write down the number of terms in this expansion. (1).\n- Step 2: Apply the main method with full algebraic working.\n- Final answer: provide the required result clearly.\n\nPart (b) [4 marks]\n- Step 1: Parse the requirement from the prompt: Find the term containing x2. (4) (Total 5 marks).\n- Step 2: Apply the main method with full algebraic working.\n- Step 3: Simplify and verify any stated restrictions.\n- Final answer: provide the required result clearly.",
-      "draft": true
+      "draft": true,
+      "markscheme_image_paths": [
+        "images/markschemes/t1_math_sl_algebra_q35.svg"
+      ]
     },
     {
       "id": "t1_math_sl_algebra_q36",
@@ -1724,7 +1859,10 @@
         }
       ],
       "worked_solution_text": "Part (a) [3 marks]\n- Step 1: Use binomial theorem on the given expression: Expand (2 + x)4 and simplify your result. (3).\n- Step 2: Write general term T_(r+1) = nCr * a^(n-r) * b^r and apply the requested condition.\n- Step 3: Compute the correct coefficient/term and simplify fully.\n- Final answer: required term/expansion/coefficient in simplest form.\n\nPart (b) [3 marks]\n- Step 1: Use binomial theorem on the given expression: Hence, find the term in x2 in (2 + x)4 \uf0f7 \uf0f8 \uf0f6\uf0e7 \uf0e8 \uf0e6 \uf02b 2 11 x . (3) (Total 6 marks).\n- Step 2: Write general term T_(r+1) = nCr * a^(n-r) * b^r and apply the requested condition.\n- Step 3: Compute the correct coefficient/term and simplify fully.\n- Final answer: required term/expansion/coefficient in simplest form.",
-      "draft": true
+      "draft": true,
+      "markscheme_image_paths": [
+        "images/markschemes/t1_math_sl_algebra_q36.svg"
+      ]
     },
     {
       "id": "t1_math_sl_algebra_q37",
@@ -1748,7 +1886,10 @@
         }
       ],
       "worked_solution_text": "Part (a) [6 marks]\n- Step 1: Use binomial theorem on the given expression: 37. Find the term in x4 in the expansion of 5 2 23 \uf0f7 \uf0f8 \uf0f6\uf0e7 \uf0e8 \uf0e6 \uf02d xx . (Total 6 marks).\n- Step 2: Write general term T_(r+1) = nCr * a^(n-r) * b^r and apply the requested condition.\n- Step 3: Compute the correct coefficient/term and simplify fully.\n- Final answer: required term/expansion/coefficient in simplest form.",
-      "draft": true
+      "draft": true,
+      "markscheme_image_paths": [
+        "images/markschemes/t1_math_sl_algebra_q37.svg"
+      ]
     },
     {
       "id": "t1_math_sl_algebra_q38",
@@ -1792,7 +1933,10 @@
         }
       ],
       "worked_solution_text": "Part (a) [1 marks]\n- Step 1: Parse the requirement from the prompt: Write down the value of n. (1).\n- Step 2: Apply the main method with full algebraic working.\n- Final answer: provide the required result clearly.\n\nPart (b) [2 marks]\n- Step 1: Parse the requirement from the prompt: Write down a and b, in terms of p and/or q. (2).\n- Step 2: Apply the main method with full algebraic working.\n- Final answer: provide the required result clearly.\n\nPart (c) [3 marks]\n- Step 1: Use binomial theorem on the given expression: Write down an expression for the sixth term in the expansion. (3) (Total 6 marks).\n- Step 2: Write general term T_(r+1) = nCr * a^(n-r) * b^r and apply the requested condition.\n- Step 3: Compute the correct coefficient/term and simplify fully.\n- Final answer: required term/expansion/coefficient in simplest form.",
-      "draft": true
+      "draft": true,
+      "markscheme_image_paths": [
+        "images/markschemes/t1_math_sl_algebra_q38.svg"
+      ]
     },
     {
       "id": "t1_math_sl_algebra_q39",
@@ -1858,7 +2002,10 @@
         }
       ],
       "worked_solution_text": "Part (a) [2 marks]\n- Step 1: Use binomial theorem on the given expression: Expand (x + h)3. (2).\n- Step 2: Write general term T_(r+1) = nCr * a^(n-r) * b^r and apply the requested condition.\n- Final answer: required term/expansion/coefficient in simplest form.\n\nPart (b) [4 marks]\n- Step 1: Begin from the required statement context: Use the formula f\u2032(x) = h xfhxf h )()(lim 0 \uf02d\uf02b \uf0ae to show that the derivative of f(x) is 3x2 \u2013 4. (4).\n- Step 2: Apply valid identities and simplify each line clearly.\n- Step 3: Arrive exactly at the target expression with no missing steps.\n- Conclusion: required result shown.\n\nPart (c) [4 marks]\n- Step 1: Parse the requirement from the prompt: The tangent to the curve of f at the point P(1, \u20132) is parallel to the tangent at a point Q. Find the coordinates of Q. .\n- Step 2: Apply the main method with full algebraic working.\n- Step 3: Simplify and verify any stated restrictions.\n- Final answer: provide the required result clearly.\n\nPart (d) [3 marks]\n- Step 1: Parse the requirement from the prompt: The graph of f is decreasing for p < x < q. Find the value of p and of q. (3).\n- Step 2: Apply the main method with full algebraic working.\n- Step 3: Simplify and verify any stated restrictions.\n- Final answer: provide the required result clearly.\n\nPart (e) [2 marks]\n- Step 1: Parse the requirement from the prompt: Write down the range of values for the gradient of f. (2) (Total 15 marks).\n- Step 2: Apply the main method with full algebraic working.\n- Final answer: provide the required result clearly.",
-      "draft": true
+      "draft": true,
+      "markscheme_image_paths": [
+        "images/markschemes/t1_math_sl_algebra_q39.svg"
+      ]
     },
     {
       "id": "t1_math_sl_algebra_q40",
@@ -1882,7 +2029,10 @@
         }
       ],
       "worked_solution_text": "Part (a) [5 marks]\n- Step 1: Use binomial theorem on the given expression: 40. Find the term in x3 in the expansion of .33 2 8 \uf0f7 \uf0f8 \uf0f6\uf0e7 \uf0e8 \uf0e6 \uf02dx (Total 5 marks).\n- Step 2: Write general term T_(r+1) = nCr * a^(n-r) * b^r and apply the requested condition.\n- Step 3: Compute the correct coefficient/term and simplify fully.\n- Final answer: required term/expansion/coefficient in simplest form.",
-      "draft": true
+      "draft": true,
+      "markscheme_image_paths": [
+        "images/markschemes/t1_math_sl_algebra_q40.svg"
+      ]
     },
     {
       "id": "t1_math_sl_algebra_q41",
@@ -1917,7 +2067,10 @@
         }
       ],
       "worked_solution_text": "Part (a) [3 marks]\n- Step 1: Use binomial theorem on the given expression: Expand (x \u2013 2)4 and simplify your result. (3).\n- Step 2: Write general term T_(r+1) = nCr * a^(n-r) * b^r and apply the requested condition.\n- Step 3: Compute the correct coefficient/term and simplify fully.\n- Final answer: required term/expansion/coefficient in simplest form.\n\nPart (b) [3 marks]\n- Step 1: Use binomial theorem on the given expression: Find the term in x3 in (3x + 4)(x \u2013 2)4. (3) (Total 6 marks).\n- Step 2: Write general term T_(r+1) = nCr * a^(n-r) * b^r and apply the requested condition.\n- Step 3: Compute the correct coefficient/term and simplify fully.\n- Final answer: required term/expansion/coefficient in simplest form.",
-      "draft": true
+      "draft": true,
+      "markscheme_image_paths": [
+        "images/markschemes/t1_math_sl_algebra_q41.svg"
+      ]
     },
     {
       "id": "t1_math_sl_algebra_q42",
@@ -1952,7 +2105,10 @@
         }
       ],
       "worked_solution_text": "Part (a) [3 marks]\n- Step 1: Parse the requirement from the prompt: Write down the number of terms in this expansion..\n- Step 2: Apply the main method with full algebraic working.\n- Step 3: Simplify and verify any stated restrictions.\n- Final answer: provide the required result clearly.\n\nPart (b) [3 marks]\n- Step 1: Use binomial theorem on the given expression: Find the term in x12. (Total 6 marks).\n- Step 2: Write general term T_(r+1) = nCr * a^(n-r) * b^r and apply the requested condition.\n- Step 3: Compute the correct coefficient/term and simplify fully.\n- Final answer: required term/expansion/coefficient in simplest form.",
-      "draft": true
+      "draft": true,
+      "markscheme_image_paths": [
+        "images/markschemes/t1_math_sl_algebra_q42.svg"
+      ]
     },
     {
       "id": "t1_math_sl_algebra_q43",
@@ -1976,7 +2132,10 @@
         }
       ],
       "worked_solution_text": "Part (a) [6 marks]\n- Step 1: Parse the requirement from the prompt: 43. One of the terms of the expansion of (x + 2y)10 is ax8 y2. Find the value of a. (Total 6 marks).\n- Step 2: Apply the main method with full algebraic working.\n- Step 3: Simplify and verify any stated restrictions.\n- Final answer: provide the required result clearly.",
-      "draft": true
+      "draft": true,
+      "markscheme_image_paths": [
+        "images/markschemes/t1_math_sl_algebra_q43.svg"
+      ]
     },
     {
       "id": "t1_math_sl_algebra_q44",
@@ -2029,7 +2188,10 @@
         }
       ],
       "worked_solution_text": "Part (a) [2 marks]\n- Step 1: Parse the requirement from the prompt: Write down the number of terms in this expansion..\n- Step 2: Apply the main method with full algebraic working.\n- Final answer: provide the required result clearly.\n\nPart (b) [2 marks]\n- Step 1: Parse the requirement from the prompt: The first four terms of the expansion in descending powers of x are x10 \u2013 10x8 + 40x6 + Ax4 + ... Find the value of A. W.\n- Step 2: Apply the main method with full algebraic working.\n- Final answer: provide the required result clearly.\n\nPart (a) [1 marks]\n- Step 1: Parse the requirement from the prompt: ...................................................................\n- Step 2: Apply the main method with full algebraic working.\n- Final answer: provide the required result clearly.\n\nPart (b) [1 marks]\n- Step 1: Parse the requirement from the prompt: .................................................................. (Total 6 marks).\n- Step 2: Apply the main method with full algebraic working.\n- Final answer: provide the required result clearly.",
-      "draft": true
+      "draft": true,
+      "markscheme_image_paths": [
+        "images/markschemes/t1_math_sl_algebra_q44.svg"
+      ]
     },
     {
       "id": "t1_math_sl_algebra_q45",
@@ -2082,7 +2244,10 @@
         }
       ],
       "worked_solution_text": "Part (a) [2 marks]\n- Step 1: Parse the requirement from the prompt: p;.\n- Step 2: Apply the main method with full algebraic working.\n- Final answer: provide the required result clearly.\n\nPart (b) [2 marks]\n- Step 1: Parse the requirement from the prompt: q. Working: Answers:.\n- Step 2: Apply the main method with full algebraic working.\n- Final answer: provide the required result clearly.\n\nPart (a) [1 marks]\n- Step 1: Parse the requirement from the prompt: ..................................................\n- Step 2: Apply the main method with full algebraic working.\n- Final answer: provide the required result clearly.\n\nPart (b) [1 marks]\n- Step 1: Parse the requirement from the prompt: ................................................. (Total 6 marks).\n- Step 2: Apply the main method with full algebraic working.\n- Final answer: provide the required result clearly.",
-      "draft": true
+      "draft": true,
+      "markscheme_image_paths": [
+        "images/markschemes/t1_math_sl_algebra_q45.svg"
+      ]
     },
     {
       "id": "t1_math_sl_algebra_q46",
@@ -2106,7 +2271,10 @@
         }
       ],
       "worked_solution_text": "Part (a) [6 marks]\n- Step 1: Use binomial theorem on the given expression: 46. When the expression (2 + ax)10 is expanded, the coefficient of the term in x3 is 414 720. Find the value of a. Worki.\n- Step 2: Write general term T_(r+1) = nCr * a^(n-r) * b^r and apply the requested condition.\n- Step 3: Compute the correct coefficient/term and simplify fully.\n- Final answer: required term/expansion/coefficient in simplest form.",
-      "draft": true
+      "draft": true,
+      "markscheme_image_paths": [
+        "images/markschemes/t1_math_sl_algebra_q46.svg"
+      ]
     },
     {
       "id": "t1_math_sl_algebra_q47",
@@ -2130,7 +2298,10 @@
         }
       ],
       "worked_solution_text": "Part (a) [6 marks]\n- Step 1: Parse the requirement from the prompt: 47. Find the term containing x3 in the expansion of (2 \u2013 3x)8. Working: Answer: \u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026........ (Total 6 marks).\n- Step 2: Apply the main method with full algebraic working.\n- Step 3: Simplify and verify any stated restrictions.\n- Final answer: provide the required result clearly.",
-      "draft": true
+      "draft": true,
+      "markscheme_image_paths": [
+        "images/markschemes/t1_math_sl_algebra_q47.svg"
+      ]
     },
     {
       "id": "t1_math_sl_algebra_q48",
@@ -2154,7 +2325,10 @@
         }
       ],
       "worked_solution_text": "Part (a) [6 marks]\n- Step 1: Parse the requirement from the prompt: 48. Find the term containing x10 in the expansion of (5 + 2x2)7. Working: Answer: .......................................\n- Step 2: Apply the main method with full algebraic working.\n- Step 3: Simplify and verify any stated restrictions.\n- Final answer: provide the required result clearly.",
-      "draft": true
+      "draft": true,
+      "markscheme_image_paths": [
+        "images/markschemes/t1_math_sl_algebra_q48.svg"
+      ]
     },
     {
       "id": "t1_math_sl_algebra_q49",
@@ -2207,7 +2381,10 @@
         }
       ],
       "worked_solution_text": "Part (a) [2 marks]\n- Step 1: Parse the requirement from the prompt: How many terms are there in this expansion?.\n- Step 2: Apply the main method with full algebraic working.\n- Final answer: provide the required result clearly.\n\nPart (b) [2 marks]\n- Step 1: Use binomial theorem on the given expression: Find the constant term in this expansion. Working: Answers:.\n- Step 2: Write general term T_(r+1) = nCr * a^(n-r) * b^r and apply the requested condition.\n- Final answer: required term/expansion/coefficient in simplest form.\n\nPart (a) [1 marks]\n- Step 1: Parse the requirement from the prompt: ...................................................................\n- Step 2: Apply the main method with full algebraic working.\n- Final answer: provide the required result clearly.\n\nPart (b) [1 marks]\n- Step 1: Parse the requirement from the prompt: .................................................................. (Total 6 marks).\n- Step 2: Apply the main method with full algebraic working.\n- Final answer: provide the required result clearly.",
-      "draft": true
+      "draft": true,
+      "markscheme_image_paths": [
+        "images/markschemes/t1_math_sl_algebra_q49.svg"
+      ]
     },
     {
       "id": "t1_math_sl_algebra_q50",
@@ -2231,7 +2408,10 @@
         }
       ],
       "worked_solution_text": "Part (a) [6 marks]\n- Step 1: Use binomial theorem on the given expression: 50. Find the coefficient of x3 in the expansion of (2 \u2013 x)5. Working: Answer: ...........................................\n- Step 2: Write general term T_(r+1) = nCr * a^(n-r) * b^r and apply the requested condition.\n- Step 3: Compute the correct coefficient/term and simplify fully.\n- Final answer: required term/expansion/coefficient in simplest form.",
-      "draft": true
+      "draft": true,
+      "markscheme_image_paths": [
+        "images/markschemes/t1_math_sl_algebra_q50.svg"
+      ]
     },
     {
       "id": "t1_math_sl_algebra_q51",
@@ -2255,7 +2435,10 @@
         }
       ],
       "worked_solution_text": "Part (a) [4 marks]\n- Step 1: Use binomial theorem on the given expression: 51. Determine the constant term in the expansion of .2\u2013 9 2 \uf0f7 \uf0f8 \uf0f6\uf0e7 \uf0e8 \uf0e6 x x Working: Answer: .............................\n- Step 2: Write general term T_(r+1) = nCr * a^(n-r) * b^r and apply the requested condition.\n- Step 3: Compute the correct coefficient/term and simplify fully.\n- Final answer: required term/expansion/coefficient in simplest form.",
-      "draft": true
+      "draft": true,
+      "markscheme_image_paths": [
+        "images/markschemes/t1_math_sl_algebra_q51.svg"
+      ]
     },
     {
       "id": "t1_math_sl_algebra_q52",
@@ -2279,7 +2462,10 @@
         }
       ],
       "worked_solution_text": "Part (a) [4 marks]\n- Step 1: Use binomial theorem on the given expression: 52. Find the coefficient of a3b4 in the expansion of (5a + b)7. Working: Answer: ........................................\n- Step 2: Write general term T_(r+1) = nCr * a^(n-r) * b^r and apply the requested condition.\n- Step 3: Compute the correct coefficient/term and simplify fully.\n- Final answer: required term/expansion/coefficient in simplest form.",
-      "draft": true
+      "draft": true,
+      "markscheme_image_paths": [
+        "images/markschemes/t1_math_sl_algebra_q52.svg"
+      ]
     },
     {
       "id": "t1_math_sl_algebra_exp_log_q1",
@@ -2314,7 +2500,10 @@
         }
       ],
       "worked_solution_text": "Part (a) [4 marks]\n- Step 1: Apply log/exponential laws to the given expression: Express g(x) in the form f(x) + ln a, where a \uf0ce +. (4).\n- Step 2: Convert to a solvable equation and isolate the variable.\n- Step 3: Check all domain restrictions (log arguments > 0).\n- Final answer: valid value(s) only.\n\nPart (b) [3 marks]\n- Step 1: Parse the requirement from the prompt: The graph of g is a transformation of the graph of f. Give a full geometric description of this transformation. (3) (Tot.\n- Step 2: Apply the main method with full algebraic working.\n- Step 3: Simplify and verify any stated restrictions.\n- Final answer: provide the required result clearly.",
-      "draft": true
+      "draft": true,
+      "markscheme_image_paths": [
+        "images/markschemes/t1_math_sl_algebra_exp_log_q1.svg"
+      ]
     },
     {
       "id": "t1_math_sl_algebra_exp_log_q2",
@@ -2379,7 +2568,10 @@
         }
       ],
       "worked_solution_text": "Part (a) [2 marks]\n- Step 1: Begin from the required statement context: Show that f(x) = log3 2x. (2).\n- Step 2: Apply valid identities and simplify each line clearly.\n- Conclusion: required result shown.\n\nPart (b) [3 marks]\n- Step 1: Apply log/exponential laws to the given expression: Find the value of f(0.5) and of f(4.5). (3) The function f can also be written in the form f(x) = b ax ln ln ..\n- Step 2: Convert to a solvable equation and isolate the variable.\n- Step 3: Check all domain restrictions (log arguments > 0).\n- Final answer: valid value(s) only.\n\nPart (c) [6 marks]\n- Step 1: Parse the requirement from the prompt: (i) Write down the value of a and of b. (ii) Hence on graph paper, sketch the graph of f, for \u20135 \u2264 x \u2264 5, \u20135 \u2264 y \u2264 5, us.\n- Step 2: Apply the main method with full algebraic working.\n- Step 3: Simplify and verify any stated restrictions.\n- Final answer: provide the required result clearly.\n\nPart (d) [0 marks]\n- Step 1: Parse the requirement from the prompt: Write down the value of f\u20131(0). (1) Maths SL 2 The point A lies on the graph of f. At A, x = 4.5..\n- Step 2: Apply the main method with full algebraic working.\n- Final answer: provide the required result clearly.\n\nPart (e) [1 marks]\n- Step 1: Parse the requirement from the prompt: On your diagram, sketch the graph of f\u20131, noting clearly the image of point A. (4) (Total 16 marks).\n- Step 2: Apply the main method with full algebraic working.\n- Final answer: provide the required result clearly.",
-      "draft": true
+      "draft": true,
+      "markscheme_image_paths": [
+        "images/markschemes/t1_math_sl_algebra_exp_log_q2.svg"
+      ]
     },
     {
       "id": "t1_math_sl_algebra_exp_log_q3",
@@ -2422,7 +2614,10 @@
         }
       ],
       "worked_solution_text": "Part (a) [2 marks]\n- Step 1: Begin from the required statement context: Show that f\u20131(x) = 32x. (2).\n- Step 2: Apply valid identities and simplify each line clearly.\n- Conclusion: required result shown.\n\nPart (b) [1 marks]\n- Step 1: Apply log/exponential laws to the given expression: Write down the range of f\u20131. (1) Let g(x) = log3 x, for x > 0..\n- Step 2: Convert to a solvable equation and isolate the variable.\n- Final answer: valid value(s) only.\n\nPart (c) [2 marks]\n- Step 1: Parse the requirement from the prompt: Find the value of (f \u20131 \u00b0 g)(2), giving your answer as an integer. (4) (Total 7 marks).\n- Step 2: Apply the main method with full algebraic working.\n- Final answer: provide the required result clearly.",
-      "draft": true
+      "draft": true,
+      "markscheme_image_paths": [
+        "images/markschemes/t1_math_sl_algebra_exp_log_q3.svg"
+      ]
     },
     {
       "id": "t1_math_sl_algebra_exp_log_q4",
@@ -2446,7 +2641,10 @@
         }
       ],
       "worked_solution_text": "Part (a) [7 marks]\n- Step 1: Start from the given equation (4. Solve log2x + log2(x \u2013 2) = 3, for x > 2. (Total 7 marks)) and rearrange into a standard form.\n- Step 2: Use substitution/factorisation/inverse operations to isolate the unknown.\n- Step 3: Solve all candidates and reject invalid roots using stated restrictions.\n- Final answer: state the valid solution set only.",
-      "draft": true
+      "draft": true,
+      "markscheme_image_paths": [
+        "images/markschemes/t1_math_sl_algebra_exp_log_q4.svg"
+      ]
     },
     {
       "id": "t1_math_sl_algebra_exp_log_q5",
@@ -2480,7 +2678,10 @@
         }
       ],
       "worked_solution_text": "Part (a) [1 marks]\n- Step 1: Apply log/exponential laws to the given expression: Find log2 32. (1).\n- Step 2: Convert to a solvable equation and isolate the variable.\n- Final answer: valid value(s) only.\n\nPart (b) [4 marks]\n- Step 1: Apply log/exponential laws to the given expression: Given that log2 \uf0f7\uf0f7 \uf0f8 \uf0f6 \uf0e7\uf0e7 \uf0e8 \uf0e6 y x 8 32 can be written as px + qy, find the value of p and of q. (4) (Total 5 marks).\n- Step 2: Convert to a solvable equation and isolate the variable.\n- Step 3: Check all domain restrictions (log arguments > 0).\n- Final answer: valid value(s) only.",
-      "draft": true
+      "draft": true,
+      "markscheme_image_paths": [
+        "images/markschemes/t1_math_sl_algebra_exp_log_q5.svg"
+      ]
     },
     {
       "id": "t1_math_sl_algebra_exp_log_q6",
@@ -2514,7 +2715,10 @@
         }
       ],
       "worked_solution_text": "Part (a) [1 marks]\n- Step 1: Parse the requirement from the prompt: Given that f\u20131(1) = 8, find the value of k. (3).\n- Step 2: Apply the main method with full algebraic working.\n- Final answer: provide the required result clearly.\n\nPart (b) [3 marks]\n- Step 1: Parse the requirement from the prompt: Find f\u20131 \uf0f7 \uf0f8 \uf0f6\uf0e7 \uf0e8 \uf0e6 3 2 . (4) (Total 7 marks).\n- Step 2: Apply the main method with full algebraic working.\n- Step 3: Simplify and verify any stated restrictions.\n- Final answer: provide the required result clearly.",
-      "draft": true
+      "draft": true,
+      "markscheme_image_paths": [
+        "images/markschemes/t1_math_sl_algebra_exp_log_q6.svg"
+      ]
     },
     {
       "id": "t1_math_sl_algebra_exp_log_q7",
@@ -2570,7 +2774,10 @@
         }
       ],
       "worked_solution_text": "Part (a) [3 marks]\n- Step 1: Apply log/exponential laws to the given expression: logx 49 = 2 (3).\n- Step 2: Convert to a solvable equation and isolate the variable.\n- Step 3: Check all domain restrictions (log arguments > 0).\n- Final answer: valid value(s) only.\n\nPart (b) [2 marks]\n- Step 1: Apply log/exponential laws to the given expression: log2 8 = x (2).\n- Step 2: Convert to a solvable equation and isolate the variable.\n- Final answer: valid value(s) only.\n\nPart (c) [3 marks]\n- Step 1: Apply log/exponential laws to the given expression: log25 x = 2 1\u2212 (3).\n- Step 2: Convert to a solvable equation and isolate the variable.\n- Step 3: Check all domain restrictions (log arguments > 0).\n- Final answer: valid value(s) only.\n\nPart (d) [5 marks]\n- Step 1: Apply log/exponential laws to the given expression: log2 x + log2(x \u2013 7) = 3 (5) (Total 13 marks).\n- Step 2: Convert to a solvable equation and isolate the variable.\n- Step 3: Check all domain restrictions (log arguments > 0).\n- Final answer: valid value(s) only.",
-      "draft": true
+      "draft": true,
+      "markscheme_image_paths": [
+        "images/markschemes/t1_math_sl_algebra_exp_log_q7.svg"
+      ]
     },
     {
       "id": "t1_math_sl_algebra_exp_log_q8",
@@ -2613,7 +2820,10 @@
         }
       ],
       "worked_solution_text": "Part (a) [2 marks]\n- Step 1: Apply log/exponential laws to the given expression: loga 10.\n- Step 2: Convert to a solvable equation and isolate the variable.\n- Final answer: valid value(s) only.\n\nPart (b) [2 marks]\n- Step 1: Apply log/exponential laws to the given expression: loga 8 Maths SL 4.\n- Step 2: Convert to a solvable equation and isolate the variable.\n- Final answer: valid value(s) only.\n\nPart (c) [2 marks]\n- Step 1: Apply log/exponential laws to the given expression: loga 2.5 (Total 6 marks).\n- Step 2: Convert to a solvable equation and isolate the variable.\n- Final answer: valid value(s) only.",
-      "draft": true
+      "draft": true,
+      "markscheme_image_paths": [
+        "images/markschemes/t1_math_sl_algebra_exp_log_q8.svg"
+      ]
     },
     {
       "id": "t1_math_sl_algebra_exp_log_q9",
@@ -2648,7 +2858,10 @@
         }
       ],
       "worked_solution_text": "Part (a) [3 marks]\n- Step 1: Apply log/exponential laws to the given expression: Let logc 3 = p and logc 5 = q. Find an expression in terms of p and q for (i) log c 15; (ii) log c 25..\n- Step 2: Convert to a solvable equation and isolate the variable.\n- Step 3: Check all domain restrictions (log arguments > 0).\n- Final answer: valid value(s) only.\n\nPart (b) [3 marks]\n- Step 1: Apply log/exponential laws to the given expression: Find the value of d if log d 6 = 2 1 . (Total 6 marks).\n- Step 2: Convert to a solvable equation and isolate the variable.\n- Step 3: Check all domain restrictions (log arguments > 0).\n- Final answer: valid value(s) only.",
-      "draft": true
+      "draft": true,
+      "markscheme_image_paths": [
+        "images/markschemes/t1_math_sl_algebra_exp_log_q9.svg"
+      ]
     },
     {
       "id": "t1_math_sl_algebra_exp_log_q10",
@@ -2683,7 +2896,10 @@
         }
       ],
       "worked_solution_text": "Part (a) [3 marks]\n- Step 1: Apply log/exponential laws to the given expression: ln a3b.\n- Step 2: Convert to a solvable equation and isolate the variable.\n- Step 3: Check all domain restrictions (log arguments > 0).\n- Final answer: valid value(s) only.\n\nPart (b) [3 marks]\n- Step 1: Apply log/exponential laws to the given expression: ln \uf0f7\uf0f7 \uf0f8 \uf0f6 \uf0e7\uf0e7 \uf0e8 \uf0e6 b a (Total 6 marks).\n- Step 2: Convert to a solvable equation and isolate the variable.\n- Step 3: Check all domain restrictions (log arguments > 0).\n- Final answer: valid value(s) only.",
-      "draft": true
+      "draft": true,
+      "markscheme_image_paths": [
+        "images/markschemes/t1_math_sl_algebra_exp_log_q10.svg"
+      ]
     },
     {
       "id": "t1_math_sl_algebra_exp_log_q11",
@@ -2707,7 +2923,10 @@
         }
       ],
       "worked_solution_text": "Part (a) [6 marks]\n- Step 1: Parse the requirement from the prompt: 11. Find the exact solution of the equation 92x = 27(1\u2013x). Working: Answer: ....\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026.......... (Total 6 marks).\n- Step 2: Apply the main method with full algebraic working.\n- Step 3: Simplify and verify any stated restrictions.\n- Final answer: provide the required result clearly.",
-      "draft": true
+      "draft": true,
+      "markscheme_image_paths": [
+        "images/markschemes/t1_math_sl_algebra_exp_log_q11.svg"
+      ]
     },
     {
       "id": "t1_math_sl_algebra_exp_log_q12",
@@ -2760,7 +2979,10 @@
         }
       ],
       "worked_solution_text": "Part (a) [2 marks]\n- Step 1: Apply log/exponential laws to the given expression: Given that log3 x \u2013 log3 (x \u2013 5) = log3 A, express A in terms of x..\n- Step 2: Convert to a solvable equation and isolate the variable.\n- Final answer: valid value(s) only.\n\nPart (b) [2 marks]\n- Step 1: Start from the given equation (Hence or otherwise, solve the equation log3 x \u2013 log3 (x \u2013 5) = 1. Working: Answers:) and rearrange into a standard form.\n- Step 2: Use substitution/factorisation/inverse operations to isolate the unknown.\n- Final answer: state the valid solution set only.\n\nPart (a) [1 marks]\n- Step 1: Parse the requirement from the prompt: ...................................................................\n- Step 2: Apply the main method with full algebraic working.\n- Final answer: provide the required result clearly.\n\nPart (b) [1 marks]\n- Step 1: Parse the requirement from the prompt: .................................................................. (Total 6 marks) Maths SL 6.\n- Step 2: Apply the main method with full algebraic working.\n- Final answer: provide the required result clearly.",
-      "draft": true
+      "draft": true,
+      "markscheme_image_paths": [
+        "images/markschemes/t1_math_sl_algebra_exp_log_q12.svg"
+      ]
     },
     {
       "id": "t1_math_sl_algebra_exp_log_q13",
@@ -2784,7 +3006,10 @@
         }
       ],
       "worked_solution_text": "Part (a) [6 marks]\n- Step 1: Apply log/exponential laws to the given expression: 13. Let p = log10 x, q = log10 y and r = log10 z. Write the expression log10 \uf0f7\uf0f7 \uf0f8 \uf0f6 \uf0e7\uf0e7 \uf0e8 \uf0e6 zy x 2 in terms of p, q and r.\n- Step 2: Convert to a solvable equation and isolate the variable.\n- Step 3: Check all domain restrictions (log arguments > 0).\n- Final answer: valid value(s) only.",
-      "draft": true
+      "draft": true,
+      "markscheme_image_paths": [
+        "images/markschemes/t1_math_sl_algebra_exp_log_q13.svg"
+      ]
     },
     {
       "id": "t1_math_sl_algebra_exp_log_q14",
@@ -2808,7 +3033,10 @@
         }
       ],
       "worked_solution_text": "Part (a) [6 marks]\n- Step 1: Apply log/exponential laws to the given expression: 14. Let a = log x, b = log y, and c = log z. Write log \uf0f7 \uf0f7 \uf0f8 \uf0f6 \uf0e7 \uf0e7 \uf0e8 \uf0e6 3 2 z yx in terms of a, b and c. Working: Answer:.\n- Step 2: Convert to a solvable equation and isolate the variable.\n- Step 3: Check all domain restrictions (log arguments > 0).\n- Final answer: valid value(s) only.",
-      "draft": true
+      "draft": true,
+      "markscheme_image_paths": [
+        "images/markschemes/t1_math_sl_algebra_exp_log_q14.svg"
+      ]
     },
     {
       "id": "t1_math_sl_algebra_exp_log_q15",
@@ -2881,7 +3109,10 @@
         }
       ],
       "worked_solution_text": "Part (a) [1 marks]\n- Step 1: Apply log/exponential laws to the given expression: log5 x2.\n- Step 2: Convert to a solvable equation and isolate the variable.\n- Final answer: valid value(s) only.\n\nPart (b) [1 marks]\n- Step 1: Apply log/exponential laws to the given expression: log5 \uf0f7 \uf0f8 \uf0f6\uf0e7 \uf0e8 \uf0e6 x 1.\n- Step 2: Convert to a solvable equation and isolate the variable.\n- Final answer: valid value(s) only.\n\nPart (c) [1 marks]\n- Step 1: Apply log/exponential laws to the given expression: log25 x Working: Answers:.\n- Step 2: Convert to a solvable equation and isolate the variable.\n- Final answer: valid value(s) only.\n\nPart (a) [1 marks]\n- Step 1: Parse the requirement from the prompt: ...................................................................\n- Step 2: Apply the main method with full algebraic working.\n- Final answer: provide the required result clearly.\n\nPart (b) [1 marks]\n- Step 1: Parse the requirement from the prompt: ...................................................................\n- Step 2: Apply the main method with full algebraic working.\n- Final answer: provide the required result clearly.\n\nPart (c) [1 marks]\n- Step 1: Parse the requirement from the prompt: .................................................................. (Total 6 marks).\n- Step 2: Apply the main method with full algebraic working.\n- Final answer: provide the required result clearly.",
-      "draft": true
+      "draft": true,
+      "markscheme_image_paths": [
+        "images/markschemes/t1_math_sl_algebra_exp_log_q15.svg"
+      ]
     },
     {
       "id": "t1_math_sl_algebra_exp_log_q16",
@@ -2905,7 +3136,10 @@
         }
       ],
       "worked_solution_text": "Part (a) [6 marks]\n- Step 1: Start from the given equation (16. Solve the equation log27 x = 1 \u2013 log27 (x \u2013 0.4). Working: Answer: .................................................) and rearrange into a standard form.\n- Step 2: Use substitution/factorisation/inverse operations to isolate the unknown.\n- Step 3: Solve all candidates and reject invalid roots using stated restrictions.\n- Final answer: state the valid solution set only.",
-      "draft": true
+      "draft": true,
+      "markscheme_image_paths": [
+        "images/markschemes/t1_math_sl_algebra_exp_log_q16.svg"
+      ]
     },
     {
       "id": "t1_math_sl_algebra_exp_log_q17",
@@ -2929,7 +3163,10 @@
         }
       ],
       "worked_solution_text": "Part (a) [4 marks]\n- Step 1: Start from the given equation (17. Solve the equation log9 81 + log9 9 1 + log9 3 = log9 x. Working: Answer: ..........................................) and rearrange into a standard form.\n- Step 2: Use substitution/factorisation/inverse operations to isolate the unknown.\n- Step 3: Solve all candidates and reject invalid roots using stated restrictions.\n- Final answer: state the valid solution set only.",
-      "draft": true
+      "draft": true,
+      "markscheme_image_paths": [
+        "images/markschemes/t1_math_sl_algebra_exp_log_q17.svg"
+      ]
     },
     {
       "id": "t1_math_sl_algebra_exp_log_q18",
@@ -2953,7 +3190,10 @@
         }
       ],
       "worked_solution_text": "Part (a) [4 marks]\n- Step 1: Apply log/exponential laws to the given expression: 18. Let log10P = x , log10Q = y and log10R = z. Express 2 310log \uf0f7\uf0f7 \uf0f8 \uf0f6 \uf0e7\uf0e7 \uf0e8 \uf0e6 QR P in terms of x , y and z. Working: An.\n- Step 2: Convert to a solvable equation and isolate the variable.\n- Step 3: Check all domain restrictions (log arguments > 0).\n- Final answer: valid value(s) only.",
-      "draft": true
+      "draft": true,
+      "markscheme_image_paths": [
+        "images/markschemes/t1_math_sl_algebra_exp_log_q18.svg"
+      ]
     },
     {
       "id": "t1_math_sl_algebra_exp_log_q19",
@@ -3006,7 +3246,10 @@
         }
       ],
       "worked_solution_text": "Part (a) [1 marks]\n- Step 1: Apply log/exponential laws to the given expression: log2 5;.\n- Step 2: Convert to a solvable equation and isolate the variable.\n- Final answer: valid value(s) only.\n\nPart (b) [1 marks]\n- Step 1: Apply log/exponential laws to the given expression: loga 20. Working: Answers:.\n- Step 2: Convert to a solvable equation and isolate the variable.\n- Final answer: valid value(s) only.\n\nPart (a) [1 marks]\n- Step 1: Parse the requirement from the prompt: ...................................................................\n- Step 2: Apply the main method with full algebraic working.\n- Final answer: provide the required result clearly.\n\nPart (b) [1 marks]\n- Step 1: Parse the requirement from the prompt: .................................................................. (Total 4 marks).\n- Step 2: Apply the main method with full algebraic working.\n- Final answer: provide the required result clearly.",
-      "draft": true
+      "draft": true,
+      "markscheme_image_paths": [
+        "images/markschemes/t1_math_sl_algebra_exp_log_q19.svg"
+      ]
     },
     {
       "id": "t1_math_sl_algebra_exp_log_q20",
@@ -3030,7 +3273,10 @@
         }
       ],
       "worked_solution_text": "Part (a) [4 marks]\n- Step 1: Start from the given equation (20. Solve the equation 9x\u20131 = .3 1 2x \uf0f7\uf0f8 \uf0f6\uf0e7\uf0e8 \uf0e6 Working: Answer: ........................................................) and rearrange into a standard form.\n- Step 2: Use substitution/factorisation/inverse operations to isolate the unknown.\n- Step 3: Solve all candidates and reject invalid roots using stated restrictions.\n- Final answer: state the valid solution set only.",
-      "draft": true
+      "draft": true,
+      "markscheme_image_paths": [
+        "images/markschemes/t1_math_sl_algebra_exp_log_q20.svg"
+      ]
     },
     {
       "id": "t1_math_sl_algebra_exp_log_q21",
@@ -3054,7 +3300,10 @@
         }
       ],
       "worked_solution_text": "Part (a) [4 marks]\n- Step 1: Start from the given equation (21. Solve the equation 43x\u20131 = 1.5625 \u00d7 10\u20132. Working: Answer: .........................................................) and rearrange into a standard form.\n- Step 2: Use substitution/factorisation/inverse operations to isolate the unknown.\n- Step 3: Solve all candidates and reject invalid roots using stated restrictions.\n- Final answer: state the valid solution set only.",
-      "draft": true
+      "draft": true,
+      "markscheme_image_paths": [
+        "images/markschemes/t1_math_sl_algebra_exp_log_q21.svg"
+      ]
     },
     {
       "id": "t1_topic_1_2_algebra_exponents_logarithms_2023_q1",
@@ -3078,7 +3327,10 @@
         }
       ],
       "worked_solution_text": "Part (a) [6 marks]\n- Step 1: Start from the given equation (1. Solve the equation 22x+2 \u2013 10 \u00d7 2x + 4 = 0, x \uf0ce . (Total 6 marks)) and rearrange into a standard form.\n- Step 2: Use substitution/factorisation/inverse operations to isolate the unknown.\n- Step 3: Solve all candidates and reject invalid roots using stated restrictions.\n- Final answer: state the valid solution set only.",
-      "draft": true
+      "draft": true,
+      "markscheme_image_paths": [
+        "images/markschemes/t1_topic_1_2_algebra_exponents_logarithms_2023_q1.svg"
+      ]
     },
     {
       "id": "t1_topic_1_2_algebra_exponents_logarithms_2023_q2",
@@ -3102,7 +3354,10 @@
         }
       ],
       "worked_solution_text": "Part (a) [5 marks]\n- Step 1: Start from the given equation (2. Solve the equation log3(x + 17) \u2013 2 = log3 2x. (Total 5 marks)) and rearrange into a standard form.\n- Step 2: Use substitution/factorisation/inverse operations to isolate the unknown.\n- Step 3: Solve all candidates and reject invalid roots using stated restrictions.\n- Final answer: state the valid solution set only.",
-      "draft": true
+      "draft": true,
+      "markscheme_image_paths": [
+        "images/markschemes/t1_topic_1_2_algebra_exponents_logarithms_2023_q2.svg"
+      ]
     },
     {
       "id": "t1_topic_1_2_algebra_exponents_logarithms_2023_q3",
@@ -3126,7 +3381,10 @@
         }
       ],
       "worked_solution_text": "Part (a) [5 marks]\n- Step 1: Apply log/exponential laws to the given expression: 3. Given that 4 ln 2 \u2013 3ln 4 = \u2013ln k, find the value of k. (Total 5 marks).\n- Step 2: Convert to a solvable equation and isolate the variable.\n- Step 3: Check all domain restrictions (log arguments > 0).\n- Final answer: valid value(s) only.",
-      "draft": true
+      "draft": true,
+      "markscheme_image_paths": [
+        "images/markschemes/t1_topic_1_2_algebra_exponents_logarithms_2023_q3.svg"
+      ]
     },
     {
       "id": "t1_topic_1_2_algebra_exponents_logarithms_2023_q4",
@@ -3150,7 +3408,10 @@
         }
       ],
       "worked_solution_text": "Part (a) [5 marks]\n- Step 1: Apply log/exponential laws to the given expression: 4. Write ln (x2 \u2013 1) \u2013 2 ln(x + 1) + ln(x2 + x) as a single logarithm, in its simplest form. (Total 5 marks).\n- Step 2: Convert to a solvable equation and isolate the variable.\n- Step 3: Check all domain restrictions (log arguments > 0).\n- Final answer: valid value(s) only.",
-      "draft": true
+      "draft": true,
+      "markscheme_image_paths": [
+        "images/markschemes/t1_topic_1_2_algebra_exponents_logarithms_2023_q4.svg"
+      ]
     },
     {
       "id": "t1_topic_1_2_algebra_exponents_logarithms_2023_q5",
@@ -3174,7 +3435,10 @@
         }
       ],
       "worked_solution_text": "Part (a) [5 marks]\n- Step 1: Start from the given equation (5. Solve the equations 1ln =y x ln x3 + ln y2 = 5. (Total 5 marks)) and rearrange into a standard form.\n- Step 2: Use substitution/factorisation/inverse operations to isolate the unknown.\n- Step 3: Solve all candidates and reject invalid roots using stated restrictions.\n- Final answer: state the valid solution set only.",
-      "draft": true
+      "draft": true,
+      "markscheme_image_paths": [
+        "images/markschemes/t1_topic_1_2_algebra_exponents_logarithms_2023_q5.svg"
+      ]
     },
     {
       "id": "t1_topic_1_2_algebra_exponents_logarithms_2023_q6",
@@ -3198,7 +3462,10 @@
         }
       ],
       "worked_solution_text": "Part (a) [6 marks]\n- Step 1: Start from the given equation (6. Solve the following system of equations. logx+1 y = 2 logy+1 x = 4 1 (Total 6 marks)) and rearrange into a standard form.\n- Step 2: Use substitution/factorisation/inverse operations to isolate the unknown.\n- Step 3: Solve all candidates and reject invalid roots using stated restrictions.\n- Final answer: state the valid solution set only.",
-      "draft": true
+      "draft": true,
+      "markscheme_image_paths": [
+        "images/markschemes/t1_topic_1_2_algebra_exponents_logarithms_2023_q6.svg"
+      ]
     },
     {
       "id": "t1_topic_1_4_algebra_mathematical_induction_q1",
@@ -3244,7 +3511,10 @@
         }
       ],
       "worked_solution_text": "Part (a) [4 marks]\n- Step 1: Begin from the required statement context: The independent random variables X and Y have Poisson distributions and Z = X + Y. The means of X and Y are \uf06c and \uf06d resp.\n- Step 2: Apply valid identities and simplify each line clearly.\n- Step 3: Arrive exactly at the target expression with no missing steps.\n- Conclusion: required result shown.\n\nPart (b) [4 marks]\n- Step 1: Parse the requirement from the prompt: Given that U1, U2, U3, \u2026 are independent Poisson random variables each having mean m, use mathematical induction togethe.\n- Step 2: Apply the main method with full algebraic working.\n- Step 3: Simplify and verify any stated restrictions.\n- Final answer: provide the required result clearly.\n\nPart (a) [4 marks]\n- Step 1: Begin from the required statement context: to show that \uf0e5 \uf03d n r rU 1 has a Poisson distribution with mean nm. (6) (Total 12 marks).\n- Step 2: Apply valid identities and simplify each line clearly.\n- Step 3: Arrive exactly at the target expression with no missing steps.\n- Conclusion: required result shown.",
-      "draft": true
+      "draft": true,
+      "markscheme_image_paths": [
+        "images/markschemes/t1_topic_1_4_algebra_mathematical_induction_q1.svg"
+      ]
     },
     {
       "id": "t1_topic_1_4_algebra_mathematical_induction_q2",
@@ -3279,7 +3549,10 @@
         }
       ],
       "worked_solution_text": "Part (a) [3 marks]\n- Step 1: Identify the sequence model from the prompt (Find the sum of the infinite geometric sequence 27, \u22129, 3, \u22121, ... . (3)).\n- Step 2: Use the relevant nth-term/sum formula and substitute known values.\n- Step 3: Solve for the required term/index/sum and simplify.\n- Final answer: requested sequence value.\n\nPart (b) [7 marks]\n- Step 1: Begin from the required statement context: Use mathematical induction to prove that for n\uf0ce +, a + ar + ar2 + ... + arn\u20131 = \uf028 \uf029.1 1 r ra n \uf02d \uf02d (7) (Total 10 marks).\n- Step 2: Apply valid identities and simplify each line clearly.\n- Step 3: Arrive exactly at the target expression with no missing steps.\n- Conclusion: required result shown.",
-      "draft": true
+      "draft": true,
+      "markscheme_image_paths": [
+        "images/markschemes/t1_topic_1_4_algebra_mathematical_induction_q2.svg"
+      ]
     },
     {
       "id": "t1_topic_1_4_algebra_mathematical_induction_q3",
@@ -3346,7 +3619,10 @@
         }
       ],
       "worked_solution_text": "Part (a) [7 marks]\n- Step 1: Begin from the required statement context: By considering f (n) (x) for n =1 and n = 2, show that there is one minimum point P on the graph of f, and find the coor.\n- Step 2: Apply valid identities and simplify each line clearly.\n- Step 3: Arrive exactly at the target expression with no missing steps.\n- Conclusion: required result shown.\n\nPart (b) [5 marks]\n- Step 1: Begin from the required statement context: Show that f has a point of inflexion Q at x = \u22121. (5).\n- Step 2: Apply valid identities and simplify each line clearly.\n- Step 3: Arrive exactly at the target expression with no missing steps.\n- Conclusion: required result shown.\n\nPart (c) [2 marks]\n- Step 1: Parse the requirement from the prompt: Determine the intervals on the domain of f where f is (i) concave up; (ii) concave down. (2).\n- Step 2: Apply the main method with full algebraic working.\n- Final answer: provide the required result clearly.\n\nPart (d) [4 marks]\n- Step 1: Parse the requirement from the prompt: Sketch f, clearly showing any intercepts, asymptotes and the points P and Q. (4).\n- Step 2: Apply the main method with full algebraic working.\n- Step 3: Simplify and verify any stated restrictions.\n- Final answer: provide the required result clearly.\n\nPart (e) [9 marks]\n- Step 1: Begin from the required statement context: Use mathematical induction to prove that f (n) (x) = (2nx + n2n\u22121) e2x for all n\uf0ce +, where f (n) (x) represents the nth .\n- Step 2: Apply valid identities and simplify each line clearly.\n- Step 3: Arrive exactly at the target expression with no missing steps.\n- Conclusion: required result shown.",
-      "draft": true
+      "draft": true,
+      "markscheme_image_paths": [
+        "images/markschemes/t1_topic_1_4_algebra_mathematical_induction_q3.svg"
+      ]
     },
     {
       "id": "t1_topic_1_4_algebra_mathematical_induction_q4",
@@ -3403,7 +3679,10 @@
         }
       ],
       "worked_solution_text": "Part (a) [6 marks]\n- Step 1: Identify the sequence model from the prompt (The sum of the first six terms of an arithmetic series is 81. The sum of its first eleven terms is 231. Find the first t).\n- Step 2: Use the relevant nth-term/sum formula and substitute known values.\n- Step 3: Solve for the required term/index/sum and simplify.\n- Final answer: requested sequence value.\n\nPart (b) [5 marks]\n- Step 1: Identify the sequence model from the prompt (The sum of the first two terms of a geometric series is 1 and the sum of its first four terms is 5. If all of its terms ).\n- Step 2: Use the relevant nth-term/sum formula and substitute known values.\n- Step 3: Solve for the required term/index/sum and simplify.\n- Final answer: requested sequence value.\n\nPart (c) [3 marks]\n- Step 1: Begin from the required statement context: The rth term of a new series is defined as the product of the rth term of the arithmetic series and the rth term of the .\n- Step 2: Apply valid identities and simplify each line clearly.\n- Step 3: Arrive exactly at the target expression with no missing steps.\n- Conclusion: required result shown.\n\nPart (d) [7 marks]\n- Step 1: Begin from the required statement context: Using mathematical induction, prove that \uf0ce\uf03d\uf02b\uf0e5 \uf03d \uf02d nnr n r nr ,22)1( 1 1 +. (7) (Total 21 marks).\n- Step 2: Apply valid identities and simplify each line clearly.\n- Step 3: Arrive exactly at the target expression with no missing steps.\n- Conclusion: required result shown.",
-      "draft": true
+      "draft": true,
+      "markscheme_image_paths": [
+        "images/markschemes/t1_topic_1_4_algebra_mathematical_induction_q4.svg"
+      ]
     },
     {
       "id": "t1_topic_1_4_algebra_mathematical_induction_q5",
@@ -3427,7 +3706,10 @@
         }
       ],
       "worked_solution_text": "Part (a) [8 marks]\n- Step 1: Begin from the required statement context: 5. Prove by mathematical induction \uf0ce\uf02d\uf02b\uf03d\uf0e5 \uf03d n r nnrr 1 ,1)!1()!( +. (Total 8 marks).\n- Step 2: Apply valid identities and simplify each line clearly.\n- Step 3: Arrive exactly at the target expression with no missing steps.\n- Conclusion: required result shown.",
-      "draft": true
+      "draft": true,
+      "markscheme_image_paths": [
+        "images/markschemes/t1_topic_1_4_algebra_mathematical_induction_q5.svg"
+      ]
     },
     {
       "id": "t1_topic_1_4_algebra_mathematical_induction_q6",
@@ -3462,7 +3744,10 @@
         }
       ],
       "worked_solution_text": "Part (a) [10 marks]\n- Step 1: Parse the requirement from the prompt: A particle P moves in a straight line with displacement relative to origin given by s = 2 sin (\u03c0t) + sin(2\u03c0t), t \u2265 0, wh.\n- Step 2: Apply the main method with full algebraic working.\n- Step 3: Simplify and verify any stated restrictions.\n- Final answer: provide the required result clearly.\n\nPart (b) [8 marks]\n- Step 1: Begin from the required statement context: Consider the function f(x) = A sin (ax) + B sin (bx), A, a, B, b, x \uf0ce . Use mathematical induction to prove that the (2n.\n- Step 2: Apply valid identities and simplify each line clearly.\n- Step 3: Arrive exactly at the target expression with no missing steps.\n- Conclusion: required result shown.",
-      "draft": true
+      "draft": true,
+      "markscheme_image_paths": [
+        "images/markschemes/t1_topic_1_4_algebra_mathematical_induction_q6.svg"
+      ]
     },
     {
       "id": "t1_topic_1_4_algebra_mathematical_induction_q7",
@@ -3506,7 +3791,10 @@
         }
       ],
       "worked_solution_text": "Part (a) [2 marks]\n- Step 1: Identify the sequence model from the prompt (Consider the following sequence of equations. 1 \u00d7 2 = 3 1 (1 \u00d7 2 \u00d7 3), 1 \u00d7 2 + 2 \u00d7 3 = 3 1 (2 \u00d7 3 \u00d7 4), 1 \u00d7 2 + 2 \u00d7 3 + ).\n- Step 2: Use the relevant nth-term/sum formula and substitute known values.\n- Final answer: requested sequence value.\n\nPart (b) [2 marks]\n- Step 1: Begin from the required statement context: A sequence of numbers has the nth term given by un = 2n + 3, n \uf0ce +. Bill conjectures that all members of the sequence ar.\n- Step 2: Apply valid identities and simplify each line clearly.\n- Conclusion: required result shown.\n\nPart (c) [6 marks]\n- Step 1: Begin from the required statement context: Use mathematical induction to prove that 5 \u00d7 7n + 1 is divisible by 6 for all n \uf0ce +. (6) (Total 10 marks).\n- Step 2: Apply valid identities and simplify each line clearly.\n- Step 3: Arrive exactly at the target expression with no missing steps.\n- Conclusion: required result shown.",
-      "draft": true
+      "draft": true,
+      "markscheme_image_paths": [
+        "images/markschemes/t1_topic_1_4_algebra_mathematical_induction_q7.svg"
+      ]
     },
     {
       "id": "t1_topic_1_4_algebra_mathematical_induction_q8",
@@ -3551,7 +3839,10 @@
         }
       ],
       "worked_solution_text": "Part (a) [2 marks]\n- Step 1: Begin from the required statement context: Show that sin 2 nx = sin((2n + 1)x) cos x \u2013 cos((2n + 1)x) sin x. (2).\n- Step 2: Apply valid identities and simplify each line clearly.\n- Conclusion: required result shown.\n\nPart (b) [12 marks]\n- Step 1: Begin from the required statement context: Hence prove, by induction, that cos x + cos 3x + cos 5x + ... + cos((2n \u2013 1)x) = x nx sin2 2sin , for all n \uf0ce +, sin x \u2260.\n- Step 2: Apply valid identities and simplify each line clearly.\n- Step 3: Arrive exactly at the target expression with no missing steps.\n- Conclusion: required result shown.\n\nPart (c) [6 marks]\n- Step 1: Start from the given equation (Solve the equation cos x + cos 3x = 2 1 , 0 < x < \u03c0. (6) (Total 20 marks)) and rearrange into a standard form.\n- Step 2: Use substitution/factorisation/inverse operations to isolate the unknown.\n- Step 3: Solve all candidates and reject invalid roots using stated restrictions.\n- Final answer: state the valid solution set only.",
-      "draft": true
+      "draft": true,
+      "markscheme_image_paths": [
+        "images/markschemes/t1_topic_1_4_algebra_mathematical_induction_q8.svg"
+      ]
     },
     {
       "id": "t1_topic_1_4_algebra_mathematical_induction_q9",
@@ -3575,7 +3866,10 @@
         }
       ],
       "worked_solution_text": "Part (a) [8 marks]\n- Step 1: Begin from the required statement context: 9. Prove by mathematical induction that, for n \uf0ce +, 1 + 1 132 2 242 1...2 142 132 12 \uf02d \uf02d \uf02b\uf02d\uf03d\uf0f7 \uf0f8 \uf0f6\uf0e7 \uf0e8 \uf0e6\uf02b\uf02b\uf0f7 \uf0f8 \uf0f6\uf0e7 \uf0e8 \uf0e6\uf02b\uf0f7 \uf0f8 \uf0f6.\n- Step 2: Apply valid identities and simplify each line clearly.\n- Step 3: Arrive exactly at the target expression with no missing steps.\n- Conclusion: required result shown.",
-      "draft": true
+      "draft": true,
+      "markscheme_image_paths": [
+        "images/markschemes/t1_topic_1_4_algebra_mathematical_induction_q9.svg"
+      ]
     },
     {
       "id": "t1_topic_1_5_algebra_complex_numbers_q1",
@@ -3620,7 +3914,10 @@
         }
       ],
       "worked_solution_text": "Part (a) [6 marks]\n- Step 1: Parse the requirement from the prompt: Use de Moivre \u2019s theorem to find the roots of the equation z4 = 1 \u2013 i. (6).\n- Step 2: Apply the main method with full algebraic working.\n- Step 3: Simplify and verify any stated restrictions.\n- Final answer: provide the required result clearly.\n\nPart (b) [2 marks]\n- Step 1: Rewrite the complex expression from the prompt (Draw these roots on an Argand diagram. (2)) in a suitable form.\n- Step 2: Apply the required operation (modulus/argument/conjugate/powers).\n- Final answer: complex result in requested form.\n\nPart (c) [4 marks]\n- Step 1: Parse the requirement from the prompt: If z1 is the root in the first quadrant and z2 is the root in the second quadrant, find 1 2 z z in the form a + ib. (4) .\n- Step 2: Apply the main method with full algebraic working.\n- Step 3: Simplify and verify any stated restrictions.\n- Final answer: provide the required result clearly.",
-      "draft": true
+      "draft": true,
+      "markscheme_image_paths": [
+        "images/markschemes/t1_topic_1_5_algebra_complex_numbers_q1.svg"
+      ]
     },
     {
       "id": "t1_topic_1_5_algebra_complex_numbers_q2",
@@ -3644,7 +3941,10 @@
         }
       ],
       "worked_solution_text": "Part (a) [7 marks]\n- Step 1: Begin from the required statement context: 2. Consider w = 12 +z z where z = x + iy, y \uf0b9 0 and z2 + 1 \uf0b9 0. Given that Im w = 0, show that z = 1. (Total 7 marks).\n- Step 2: Apply valid identities and simplify each line clearly.\n- Step 3: Arrive exactly at the target expression with no missing steps.\n- Conclusion: required result shown.",
-      "draft": true
+      "draft": true,
+      "markscheme_image_paths": [
+        "images/markschemes/t1_topic_1_5_algebra_complex_numbers_q2.svg"
+      ]
     },
     {
       "id": "t1_topic_1_5_algebra_complex_numbers_q3",
@@ -3668,7 +3968,10 @@
         }
       ],
       "worked_solution_text": "Part (a) [7 marks]\n- Step 1: Rewrite the complex expression from the prompt (3. Find, in its simplest form, the argument of (sin \uf071 + i (1\u2212 cos\uf071 ))2 where \uf071 is an acute angle. (Total 7 marks)) in a suitable form.\n- Step 2: Apply the required operation (modulus/argument/conjugate/powers).\n- Step 3: Simplify and enforce correct quadrant/sign conventions.\n- Final answer: complex result in requested form.",
-      "draft": true
+      "draft": true,
+      "markscheme_image_paths": [
+        "images/markschemes/t1_topic_1_5_algebra_complex_numbers_q3.svg"
+      ]
     },
     {
       "id": "t1_topic_1_5_algebra_complex_numbers_q4",
@@ -3713,7 +4016,10 @@
         }
       ],
       "worked_solution_text": "Part (a) [1 marks]\n- Step 1: Parse the requirement from the prompt: write down the third root, z3, of the equation; (1).\n- Step 2: Apply the main method with full algebraic working.\n- Final answer: provide the required result clearly.\n\nPart (b) [4 marks]\n- Step 1: Parse the requirement from the prompt: find the values of b, c and d; (4).\n- Step 2: Apply the main method with full algebraic working.\n- Step 3: Simplify and verify any stated restrictions.\n- Final answer: provide the required result clearly.\n\nPart (c) [3 marks]\n- Step 1: Parse the requirement from the prompt: write z2 and z3 in the form rei\u03b8. (3) (Total 8 marks).\n- Step 2: Apply the main method with full algebraic working.\n- Step 3: Simplify and verify any stated restrictions.\n- Final answer: provide the required result clearly.",
-      "draft": true
+      "draft": true,
+      "markscheme_image_paths": [
+        "images/markschemes/t1_topic_1_5_algebra_complex_numbers_q4.svg"
+      ]
     },
     {
       "id": "t1_topic_1_5_algebra_complex_numbers_q5",
@@ -3757,7 +4063,10 @@
         }
       ],
       "worked_solution_text": "Part (a) [2 marks]\n- Step 1: Begin from the required statement context: Show that when z is a positive real number, L(z) = ln z. (2).\n- Step 2: Apply valid identities and simplify each line clearly.\n- Conclusion: required result shown.\n\nPart (b) [5 marks]\n- Step 1: Parse the requirement from the prompt: Use the equation to calculate (i) L(\u20131); (ii) L(1 \u2013 i); (iii) L(\u20131 + i). (5).\n- Step 2: Apply the main method with full algebraic working.\n- Step 3: Simplify and verify any stated restrictions.\n- Final answer: provide the required result clearly.\n\nPart (c) [2 marks]\n- Step 1: Begin from the required statement context: Hence show that the property L(z1z2) = L(z1) + L(z2) does not hold for all values of z1 and z2. (2) (Total 9 marks).\n- Step 2: Apply valid identities and simplify each line clearly.\n- Conclusion: required result shown.",
-      "draft": true
+      "draft": true,
+      "markscheme_image_paths": [
+        "images/markschemes/t1_topic_1_5_algebra_complex_numbers_q5.svg"
+      ]
     },
     {
       "id": "t1_topic_1_5_algebra_complex_numbers_q6",
@@ -3792,7 +4101,10 @@
         }
       ],
       "worked_solution_text": "Part (a) [3 marks]\n- Step 1: Parse the requirement from the prompt: \u2502w\u2502 = 2\u2502z\u2502; (3).\n- Step 2: Apply the main method with full algebraic working.\n- Step 3: Simplify and verify any stated restrictions.\n- Final answer: provide the required result clearly.\n\nPart (b) [3 marks]\n- Step 1: Parse the requirement from the prompt: Re ( zw) = 2 Im(zw). (3) (Total 6 marks).\n- Step 2: Apply the main method with full algebraic working.\n- Step 3: Simplify and verify any stated restrictions.\n- Final answer: provide the required result clearly.",
-      "draft": true
+      "draft": true,
+      "markscheme_image_paths": [
+        "images/markschemes/t1_topic_1_5_algebra_complex_numbers_q6.svg"
+      ]
     },
     {
       "id": "t1_topic_1_5_algebra_complex_numbers_q7",
@@ -3849,7 +4161,10 @@
         }
       ],
       "worked_solution_text": "Part (a) [6 marks]\n- Step 1: Parse the requirement from the prompt: If \u03c9 = i, determine z in the form z = r cis \u03b8. (6).\n- Step 2: Apply the main method with full algebraic working.\n- Step 3: Simplify and verify any stated restrictions.\n- Final answer: provide the required result clearly.\n\nPart (b) [3 marks]\n- Step 1: Begin from the required statement context: Prove that \u03c9 = 2 2 2 2 ) 2 ( ) 2 2i() 2 ( y x y x y y x x + + + + + + + +. (3).\n- Step 2: Apply valid identities and simplify each line clearly.\n- Step 3: Arrive exactly at the target expression with no missing steps.\n- Conclusion: required result shown.\n\nPart (c) [4 marks]\n- Step 1: Begin from the required statement context: Hence show that when Re(\u03c9) = 1 the points (x, y) lie on a straight line, l1, and write down its gradient. (4).\n- Step 2: Apply valid identities and simplify each line clearly.\n- Step 3: Arrive exactly at the target expression with no missing steps.\n- Conclusion: required result shown.\n\nPart (d) [6 marks]\n- Step 1: Rewrite the complex expression from the prompt (Given arg ( z) = arg(\u03c9) = 4 \u03c0 , find \u2502z\u2502. (6) (Total 19 marks)) in a suitable form.\n- Step 2: Apply the required operation (modulus/argument/conjugate/powers).\n- Step 3: Simplify and enforce correct quadrant/sign conventions.\n- Final answer: complex result in requested form.",
-      "draft": true
+      "draft": true,
+      "markscheme_image_paths": [
+        "images/markschemes/t1_topic_1_5_algebra_complex_numbers_q7.svg"
+      ]
     },
     {
       "id": "t1_topic_1_5_algebra_complex_numbers_q8",
@@ -3883,7 +4198,10 @@
         }
       ],
       "worked_solution_text": "Part (a) [2 marks]\n- Step 1: Parse the requirement from the prompt: Im \uf0ce =\uf0f7 \uf0f8 \uf0f6\uf0e7 \uf0e8 \uf0e6 + n z z n n , 01 +; (2).\n- Step 2: Apply the main method with full algebraic working.\n- Final answer: provide the required result clearly.\n\nPart (b) [5 marks]\n- Step 1: Parse the requirement from the prompt: Re \uf0f7 \uf0f8 \uf0f6\uf0e7 \uf0e8 \uf0e6 + \u2212 1 1 z z = 0, z \u2260 \u20131. (5) (Total 7 marks).\n- Step 2: Apply the main method with full algebraic working.\n- Step 3: Simplify and verify any stated restrictions.\n- Final answer: provide the required result clearly.",
-      "draft": true
+      "draft": true,
+      "markscheme_image_paths": [
+        "images/markschemes/t1_topic_1_5_algebra_complex_numbers_q8.svg"
+      ]
     },
     {
       "id": "t1_topic_1_5_algebra_complex_numbers_q9",
@@ -3929,7 +4247,10 @@
         }
       ],
       "worked_solution_text": "Part (a) [5 marks]\n- Step 1: Begin from the required statement context: Show that (i) \u03c93 = 1; (ii) 1 + \u03c9 + \u03c92 = 0. (5).\n- Step 2: Apply valid identities and simplify each line clearly.\n- Step 3: Arrive exactly at the target expression with no missing steps.\n- Conclusion: required result shown.\n\nPart (b) [4 marks]\n- Step 1: Rewrite the complex expression from the prompt ((i) Deduce that e i\u03b8 + \uf0f7 \uf0f8 \uf0f6\uf0e7 \uf0e8 \uf0e6 +\uf0f7 \uf0f8 \uf0f6\uf0e7 \uf0e8 \uf0e6 + + 3 \u03c04i 3 \u03c02i e e \uf071 \uf071 = 0. (ii) Illustrate this result for \u03b8 = 2 \u03c0 on an) in a suitable form.\n- Step 2: Apply the required operation (modulus/argument/conjugate/powers).\n- Step 3: Simplify and enforce correct quadrant/sign conventions.\n- Final answer: complex result in requested form.\n\nPart (c) [7 marks]\n- Step 1: Start from the given equation ((i) Expand and simplify F(z) = (z \u2013 1)(z \u2013 \u03c9)(z \u2013 \u03c92) where z is a complex number. (ii) Solve F(z) = 7, giving your answ) and rearrange into a standard form.\n- Step 2: Use substitution/factorisation/inverse operations to isolate the unknown.\n- Step 3: Solve all candidates and reject invalid roots using stated restrictions.\n- Final answer: state the valid solution set only.",
-      "draft": true
+      "draft": true,
+      "markscheme_image_paths": [
+        "images/markschemes/t1_topic_1_5_algebra_complex_numbers_q9.svg"
+      ]
     },
     {
       "id": "t1_topic_1_5_algebra_complex_numbers_q10",
@@ -3964,7 +4285,10 @@
         }
       ],
       "worked_solution_text": "Part (a) [3 marks]\n- Step 1: Parse the requirement from the prompt: find AB, giving your answer in the form 3\u2212b a , where a, b \uf0ce +; (3).\n- Step 2: Apply the main method with full algebraic working.\n- Step 3: Simplify and verify any stated restrictions.\n- Final answer: provide the required result clearly.\n\nPart (b) [3 marks]\n- Step 1: Parse the requirement from the prompt: calculate B O\u02c6A in terms of \u03c0. (3) (Total 6 marks).\n- Step 2: Apply the main method with full algebraic working.\n- Step 3: Simplify and verify any stated restrictions.\n- Final answer: provide the required result clearly.",
-      "draft": true
+      "draft": true,
+      "markscheme_image_paths": [
+        "images/markschemes/t1_topic_1_5_algebra_complex_numbers_q10.svg"
+      ]
     },
     {
       "id": "t1_topic_1_5_algebra_complex_numbers_q11",
@@ -3988,7 +4312,10 @@
         }
       ],
       "worked_solution_text": "Part (a) [4 marks]\n- Step 1: Parse the requirement from the prompt: 11. Given that 2+z z = 2 \u2013 i, z \uf0ce , find z in the form a + ib. (Total 4 marks).\n- Step 2: Apply the main method with full algebraic working.\n- Step 3: Simplify and verify any stated restrictions.\n- Final answer: provide the required result clearly.",
-      "draft": true
+      "draft": true,
+      "markscheme_image_paths": [
+        "images/markschemes/t1_topic_1_5_algebra_complex_numbers_q11.svg"
+      ]
     }
   ]
 }
