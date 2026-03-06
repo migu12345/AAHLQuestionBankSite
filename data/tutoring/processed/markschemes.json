@@ -1,6 +1,6 @@
 {
   "course": "IB Mathematics AA HL - Tutoring Questions",
-  "generated_at": "2026-03-06T18:26:44.623442+00:00",
+  "generated_at": "2026-03-06T18:39:03.896699+00:00",
   "notes": "Auto-generated IB-style worked-solution drafts. Review and edit before formal use.",
   "questions": [
     {
@@ -22,7 +22,11 @@
             "Use T\u1d63\u208a\u2081 = C(n,r) \u00b7 a^(n-r) \u00b7 b^r.",
             "Match powers to find r (for required x\u1d4f term).",
             "Substitute r and simplify coefficient + term.",
-            "Write final required term/coefficient."
+            "Write final required term/coefficient.",
+            "",
+            "Worked answer",
+            "Number of terms = n + 1 = 12",
+            "Answer: 12"
           ]
         },
         {
@@ -43,7 +47,7 @@
           ]
         }
       ],
-      "worked_solution_text": "Part (a)\nMETHOD 1 (general term)\nGiven: Write down the number of terms in this expansion.\nUse T\u1d63\u208a\u2081 = C(n,r) \u00b7 a^(n-r) \u00b7 b^r.\nMatch powers to find r (for required x\u1d4f term).\nSubstitute r and simplify coefficient + term.\nWrite final required term/coefficient.\n\nPart (b)\nMETHOD 1 (general term)\nGiven: Find the term containing x\u00b2.\nUse T\u1d63\u208a\u2081 = C(n,r) \u00b7 a^(n-r) \u00b7 b^r.\nMatch powers to find r (for required x\u1d4f term).\nSubstitute r and simplify coefficient + term.\nWrite final required term/coefficient.\n\nMETHOD 2 (partial expansion)\nExpand only the needed leading terms and read required coefficient.\nCross-check with METHOD 1 result.",
+      "worked_solution_text": "Part (a)\nMETHOD 1 (general term)\nGiven: Write down the number of terms in this expansion.\nUse T\u1d63\u208a\u2081 = C(n,r) \u00b7 a^(n-r) \u00b7 b^r.\nMatch powers to find r (for required x\u1d4f term).\nSubstitute r and simplify coefficient + term.\nWrite final required term/coefficient.\n\nWorked answer\nNumber of terms = n + 1 = 12\nAnswer: 12\n\nPart (b)\nMETHOD 1 (general term)\nGiven: Find the term containing x\u00b2.\nUse T\u1d63\u208a\u2081 = C(n,r) \u00b7 a^(n-r) \u00b7 b^r.\nMatch powers to find r (for required x\u1d4f term).\nSubstitute r and simplify coefficient + term.\nWrite final required term/coefficient.\n\nMETHOD 2 (partial expansion)\nExpand only the needed leading terms and read required coefficient.\nCross-check with METHOD 1 result.",
       "draft": true,
       "markscheme_image_paths": [
         "images/markschemes/t1_binomila_theorem_q1.svg"
@@ -72,7 +76,11 @@
             "",
             "METHOD 2 (partial expansion)",
             "Expand only the needed leading terms and read required coefficient.",
-            "Cross-check with METHOD 1 result."
+            "Cross-check with METHOD 1 result.",
+            "",
+            "Worked answer",
+            "(x + 2)\u2074 = 16 + 32x + 24x\u00b2 + 8x\u00b3 + x\u2074",
+            "Answer: 16 + 32x + 24x\u00b2 + 8x\u00b3 + x\u2074"
           ]
         },
         {
@@ -93,7 +101,7 @@
           ]
         }
       ],
-      "worked_solution_text": "Part (a)\nMETHOD 1 (general term)\nGiven: Expand (2 + x)4 and simplify your result.\nUse T\u1d63\u208a\u2081 = C(n,r) \u00b7 a^(n-r) \u00b7 b^r.\nMatch powers to find r (for required x\u1d4f term).\nSubstitute r and simplify coefficient + term.\nWrite final required term/coefficient.\n\nMETHOD 2 (partial expansion)\nExpand only the needed leading terms and read required coefficient.\nCross-check with METHOD 1 result.\n\nPart (b)\nMETHOD 1 (general term)\nGiven: Hence, find the term in x\u00b2 in (2 + x)4 + 2 11 x .\nUse T\u1d63\u208a\u2081 = C(n,r) \u00b7 a^(n-r) \u00b7 b^r.\nMatch powers to find r (for required x\u1d4f term).\nSubstitute r and simplify coefficient + term.\nWrite final required term/coefficient.\n\nMETHOD 2 (partial expansion)\nExpand only the needed leading terms and read required coefficient.\nCross-check with METHOD 1 result.",
+      "worked_solution_text": "Part (a)\nMETHOD 1 (general term)\nGiven: Expand (2 + x)4 and simplify your result.\nUse T\u1d63\u208a\u2081 = C(n,r) \u00b7 a^(n-r) \u00b7 b^r.\nMatch powers to find r (for required x\u1d4f term).\nSubstitute r and simplify coefficient + term.\nWrite final required term/coefficient.\n\nMETHOD 2 (partial expansion)\nExpand only the needed leading terms and read required coefficient.\nCross-check with METHOD 1 result.\n\nWorked answer\n(x + 2)\u2074 = 16 + 32x + 24x\u00b2 + 8x\u00b3 + x\u2074\nAnswer: 16 + 32x + 24x\u00b2 + 8x\u00b3 + x\u2074\n\nPart (b)\nMETHOD 1 (general term)\nGiven: Hence, find the term in x\u00b2 in (2 + x)4 + 2 11 x .\nUse T\u1d63\u208a\u2081 = C(n,r) \u00b7 a^(n-r) \u00b7 b^r.\nMatch powers to find r (for required x\u1d4f term).\nSubstitute r and simplify coefficient + term.\nWrite final required term/coefficient.\n\nMETHOD 2 (partial expansion)\nExpand only the needed leading terms and read required coefficient.\nCross-check with METHOD 1 result.",
       "draft": true,
       "markscheme_image_paths": [
         "images/markschemes/t1_binomila_theorem_q2.svg"
@@ -385,7 +393,11 @@
             "",
             "METHOD 2 (partial expansion)",
             "Expand only the needed leading terms and read required coefficient.",
-            "Cross-check with METHOD 1 result."
+            "Cross-check with METHOD 1 result.",
+            "",
+            "Worked answer",
+            "Number of terms = n + 1 = 7",
+            "Answer: 7"
           ]
         },
         {
@@ -406,7 +418,7 @@
           ]
         }
       ],
-      "worked_solution_text": "Part (a)\nMETHOD 1 (general term)\nGiven: Write down the number of terms in this expansion.\nUse T\u1d63\u208a\u2081 = C(n,r) \u00b7 a^(n-r) \u00b7 b^r.\nMatch powers to find r (for required x\u1d4f term).\nSubstitute r and simplify coefficient + term.\nWrite final required term/coefficient.\n\nMETHOD 2 (partial expansion)\nExpand only the needed leading terms and read required coefficient.\nCross-check with METHOD 1 result.\n\nPart (b)\nMETHOD 1 (general term)\nGiven: Find the term in x12.\nUse T\u1d63\u208a\u2081 = C(n,r) \u00b7 a^(n-r) \u00b7 b^r.\nMatch powers to find r (for required x\u1d4f term).\nSubstitute r and simplify coefficient + term.\nWrite final required term/coefficient.\n\nMETHOD 2 (partial expansion)\nExpand only the needed leading terms and read required coefficient.\nCross-check with METHOD 1 result.",
+      "worked_solution_text": "Part (a)\nMETHOD 1 (general term)\nGiven: Write down the number of terms in this expansion.\nUse T\u1d63\u208a\u2081 = C(n,r) \u00b7 a^(n-r) \u00b7 b^r.\nMatch powers to find r (for required x\u1d4f term).\nSubstitute r and simplify coefficient + term.\nWrite final required term/coefficient.\n\nMETHOD 2 (partial expansion)\nExpand only the needed leading terms and read required coefficient.\nCross-check with METHOD 1 result.\n\nWorked answer\nNumber of terms = n + 1 = 7\nAnswer: 7\n\nPart (b)\nMETHOD 1 (general term)\nGiven: Find the term in x12.\nUse T\u1d63\u208a\u2081 = C(n,r) \u00b7 a^(n-r) \u00b7 b^r.\nMatch powers to find r (for required x\u1d4f term).\nSubstitute r and simplify coefficient + term.\nWrite final required term/coefficient.\n\nMETHOD 2 (partial expansion)\nExpand only the needed leading terms and read required coefficient.\nCross-check with METHOD 1 result.",
       "draft": true,
       "markscheme_image_paths": [
         "images/markschemes/t1_binomila_theorem_q8.svg"
@@ -435,11 +447,15 @@
             "",
             "METHOD 2 (partial expansion)",
             "Expand only the needed leading terms and read required coefficient.",
-            "Cross-check with METHOD 1 result."
+            "Cross-check with METHOD 1 result.",
+            "",
+            "Worked answer",
+            "a = C(10,2)\u00b72\u00b2 = 180",
+            "Answer: a = 180"
           ]
         }
       ],
-      "worked_solution_text": "Part (a)\nMETHOD 1 (general term)\nGiven: 9. One of the terms of the expansion of (x + 2y)10 is ax8 y2. Find the value of a.\nUse T\u1d63\u208a\u2081 = C(n,r) \u00b7 a^(n-r) \u00b7 b^r.\nMatch powers to find r (for required x\u1d4f term).\nSubstitute r and simplify coefficient + term.\nWrite final required term/coefficient.\n\nMETHOD 2 (partial expansion)\nExpand only the needed leading terms and read required coefficient.\nCross-check with METHOD 1 result.",
+      "worked_solution_text": "Part (a)\nMETHOD 1 (general term)\nGiven: 9. One of the terms of the expansion of (x + 2y)10 is ax8 y2. Find the value of a.\nUse T\u1d63\u208a\u2081 = C(n,r) \u00b7 a^(n-r) \u00b7 b^r.\nMatch powers to find r (for required x\u1d4f term).\nSubstitute r and simplify coefficient + term.\nWrite final required term/coefficient.\n\nMETHOD 2 (partial expansion)\nExpand only the needed leading terms and read required coefficient.\nCross-check with METHOD 1 result.\n\nWorked answer\na = C(10,2)\u00b72\u00b2 = 180\nAnswer: a = 180",
       "draft": true,
       "markscheme_image_paths": [
         "images/markschemes/t1_binomila_theorem_q9.svg"
@@ -510,7 +526,11 @@
             "Arithmetic: u\u2099 = u\u2081 + (n-1)d,  S\u2099 = n/2[2u\u2081 + (n-1)d].",
             "Geometric: u\u2099 = u\u2081r^(n-1),  S\u2099 = u\u2081(1-r\u207f)/(1-r), r \u2260 1.",
             "Substitute known values and solve systematically.",
-            "State required u_n / S_n / n value."
+            "State required u_n / S_n / n value.",
+            "",
+            "Worked answer",
+            "d = 3",
+            "Answer: d = 3"
           ]
         },
         {
@@ -523,7 +543,12 @@
             "Arithmetic: u\u2099 = u\u2081 + (n-1)d,  S\u2099 = n/2[2u\u2081 + (n-1)d].",
             "Geometric: u\u2099 = u\u2081r^(n-1),  S\u2099 = u\u2081(1-r\u207f)/(1-r), r \u2260 1.",
             "Substitute known values and solve systematically.",
-            "State required u_n / S_n / n value."
+            "State required u_n / S_n / n value.",
+            "",
+            "Worked answer",
+            "u\u2099 = u\u2081 + (n-1)d",
+            "u20 = 2 + 19\u00b73 = 59",
+            "Answer: u20 = 59"
           ]
         },
         {
@@ -536,11 +561,16 @@
             "Arithmetic: u\u2099 = u\u2081 + (n-1)d,  S\u2099 = n/2[2u\u2081 + (n-1)d].",
             "Geometric: u\u2099 = u\u2081r^(n-1),  S\u2099 = u\u2081(1-r\u207f)/(1-r), r \u2260 1.",
             "Substitute known values and solve systematically.",
-            "State required u_n / S_n / n value."
+            "State required u_n / S_n / n value.",
+            "",
+            "Worked answer",
+            "S\u2099 = n/2 [2u\u2081 + (n-1)d]",
+            "S20 = 20/2 [2(2) + 19(3)] = 610",
+            "Answer: S20 = 610"
           ]
         }
       ],
-      "worked_solution_text": "Part (a)\nMETHOD 1 (formula route)\nGiven: Find d.\nArithmetic: u\u2099 = u\u2081 + (n-1)d,  S\u2099 = n/2[2u\u2081 + (n-1)d].\nGeometric: u\u2099 = u\u2081r^(n-1),  S\u2099 = u\u2081(1-r\u207f)/(1-r), r \u2260 1.\nSubstitute known values and solve systematically.\nState required u_n / S_n / n value.\n\nPart (b)\nMETHOD 1 (formula route)\nGiven: Find u20.\nArithmetic: u\u2099 = u\u2081 + (n-1)d,  S\u2099 = n/2[2u\u2081 + (n-1)d].\nGeometric: u\u2099 = u\u2081r^(n-1),  S\u2099 = u\u2081(1-r\u207f)/(1-r), r \u2260 1.\nSubstitute known values and solve systematically.\nState required u_n / S_n / n value.\n\nPart (c)\nMETHOD 1 (formula route)\nGiven: Find S20.\nArithmetic: u\u2099 = u\u2081 + (n-1)d,  S\u2099 = n/2[2u\u2081 + (n-1)d].\nGeometric: u\u2099 = u\u2081r^(n-1),  S\u2099 = u\u2081(1-r\u207f)/(1-r), r \u2260 1.\nSubstitute known values and solve systematically.\nState required u_n / S_n / n value.",
+      "worked_solution_text": "Part (a)\nMETHOD 1 (formula route)\nGiven: Find d.\nArithmetic: u\u2099 = u\u2081 + (n-1)d,  S\u2099 = n/2[2u\u2081 + (n-1)d].\nGeometric: u\u2099 = u\u2081r^(n-1),  S\u2099 = u\u2081(1-r\u207f)/(1-r), r \u2260 1.\nSubstitute known values and solve systematically.\nState required u_n / S_n / n value.\n\nWorked answer\nd = 3\nAnswer: d = 3\n\nPart (b)\nMETHOD 1 (formula route)\nGiven: Find u20.\nArithmetic: u\u2099 = u\u2081 + (n-1)d,  S\u2099 = n/2[2u\u2081 + (n-1)d].\nGeometric: u\u2099 = u\u2081r^(n-1),  S\u2099 = u\u2081(1-r\u207f)/(1-r), r \u2260 1.\nSubstitute known values and solve systematically.\nState required u_n / S_n / n value.\n\nWorked answer\nu\u2099 = u\u2081 + (n-1)d\nu20 = 2 + 19\u00b73 = 59\nAnswer: u20 = 59\n\nPart (c)\nMETHOD 1 (formula route)\nGiven: Find S20.\nArithmetic: u\u2099 = u\u2081 + (n-1)d,  S\u2099 = n/2[2u\u2081 + (n-1)d].\nGeometric: u\u2099 = u\u2081r^(n-1),  S\u2099 = u\u2081(1-r\u207f)/(1-r), r \u2260 1.\nSubstitute known values and solve systematically.\nState required u_n / S_n / n value.\n\nWorked answer\nS\u2099 = n/2 [2u\u2081 + (n-1)d]\nS20 = 20/2 [2(2) + 19(3)] = 610\nAnswer: S20 = 610",
       "draft": true,
       "markscheme_image_paths": [
         "images/markschemes/t1_math_sl_algebra_q1.svg"
@@ -582,11 +612,16 @@
             "Arithmetic: u\u2099 = u\u2081 + (n-1)d,  S\u2099 = n/2[2u\u2081 + (n-1)d].",
             "Geometric: u\u2099 = u\u2081r^(n-1),  S\u2099 = u\u2081(1-r\u207f)/(1-r), r \u2260 1.",
             "Substitute known values and solve systematically.",
-            "State required u_n / S_n / n value."
+            "State required u_n / S_n / n value.",
+            "",
+            "Worked answer",
+            "u\u2099 = u\u2081 + (n-1)d = 3709",
+            "n = ((3709 - 7)/3) + 1 = 1235",
+            "Answer: n = 1235"
           ]
         }
       ],
-      "worked_solution_text": "Part (a)\nMETHOD 1 (formula route)\nGiven: Find the value of the common difference.\nArithmetic: u\u2099 = u\u2081 + (n-1)d,  S\u2099 = n/2[2u\u2081 + (n-1)d].\nGeometric: u\u2099 = u\u2081r^(n-1),  S\u2099 = u\u2081(1-r\u207f)/(1-r), r \u2260 1.\nSubstitute known values and solve systematically.\nState required u_n / S_n / n value.\n\nMETHOD 2 (simultaneous equations)\nUse two given terms/sums to form simultaneous equations in unknowns.\nSolve and verify by substitution into original sequence relation.\n\nPart (b)\nMETHOD 1 (formula route)\nGiven: Find the value of n.\nArithmetic: u\u2099 = u\u2081 + (n-1)d,  S\u2099 = n/2[2u\u2081 + (n-1)d].\nGeometric: u\u2099 = u\u2081r^(n-1),  S\u2099 = u\u2081(1-r\u207f)/(1-r), r \u2260 1.\nSubstitute known values and solve systematically.\nState required u_n / S_n / n value.",
+      "worked_solution_text": "Part (a)\nMETHOD 1 (formula route)\nGiven: Find the value of the common difference.\nArithmetic: u\u2099 = u\u2081 + (n-1)d,  S\u2099 = n/2[2u\u2081 + (n-1)d].\nGeometric: u\u2099 = u\u2081r^(n-1),  S\u2099 = u\u2081(1-r\u207f)/(1-r), r \u2260 1.\nSubstitute known values and solve systematically.\nState required u_n / S_n / n value.\n\nMETHOD 2 (simultaneous equations)\nUse two given terms/sums to form simultaneous equations in unknowns.\nSolve and verify by substitution into original sequence relation.\n\nPart (b)\nMETHOD 1 (formula route)\nGiven: Find the value of n.\nArithmetic: u\u2099 = u\u2081 + (n-1)d,  S\u2099 = n/2[2u\u2081 + (n-1)d].\nGeometric: u\u2099 = u\u2081r^(n-1),  S\u2099 = u\u2081(1-r\u207f)/(1-r), r \u2260 1.\nSubstitute known values and solve systematically.\nState required u_n / S_n / n value.\n\nWorked answer\nu\u2099 = u\u2081 + (n-1)d = 3709\nn = ((3709 - 7)/3) + 1 = 1235\nAnswer: n = 1235",
       "draft": true,
       "markscheme_image_paths": [
         "images/markschemes/t1_math_sl_algebra_q2.svg"
@@ -2259,7 +2294,11 @@
             "Use T\u1d63\u208a\u2081 = C(n,r) \u00b7 a^(n-r) \u00b7 b^r.",
             "Match powers to find r (for required x\u1d4f term).",
             "Substitute r and simplify coefficient + term.",
-            "Write final required term/coefficient."
+            "Write final required term/coefficient.",
+            "",
+            "Worked answer",
+            "Number of terms = n + 1 = 12",
+            "Answer: 12"
           ]
         },
         {
@@ -2280,7 +2319,7 @@
           ]
         }
       ],
-      "worked_solution_text": "Part (a)\nMETHOD 1 (general term)\nGiven: Write down the number of terms in this expansion.\nUse T\u1d63\u208a\u2081 = C(n,r) \u00b7 a^(n-r) \u00b7 b^r.\nMatch powers to find r (for required x\u1d4f term).\nSubstitute r and simplify coefficient + term.\nWrite final required term/coefficient.\n\nPart (b)\nMETHOD 1 (general term)\nGiven: Find the term containing x\u00b2.\nUse T\u1d63\u208a\u2081 = C(n,r) \u00b7 a^(n-r) \u00b7 b^r.\nMatch powers to find r (for required x\u1d4f term).\nSubstitute r and simplify coefficient + term.\nWrite final required term/coefficient.\n\nMETHOD 2 (partial expansion)\nExpand only the needed leading terms and read required coefficient.\nCross-check with METHOD 1 result.",
+      "worked_solution_text": "Part (a)\nMETHOD 1 (general term)\nGiven: Write down the number of terms in this expansion.\nUse T\u1d63\u208a\u2081 = C(n,r) \u00b7 a^(n-r) \u00b7 b^r.\nMatch powers to find r (for required x\u1d4f term).\nSubstitute r and simplify coefficient + term.\nWrite final required term/coefficient.\n\nWorked answer\nNumber of terms = n + 1 = 12\nAnswer: 12\n\nPart (b)\nMETHOD 1 (general term)\nGiven: Find the term containing x\u00b2.\nUse T\u1d63\u208a\u2081 = C(n,r) \u00b7 a^(n-r) \u00b7 b^r.\nMatch powers to find r (for required x\u1d4f term).\nSubstitute r and simplify coefficient + term.\nWrite final required term/coefficient.\n\nMETHOD 2 (partial expansion)\nExpand only the needed leading terms and read required coefficient.\nCross-check with METHOD 1 result.",
       "draft": true,
       "markscheme_image_paths": [
         "images/markschemes/t1_math_sl_algebra_q35.svg"
@@ -2309,7 +2348,11 @@
             "",
             "METHOD 2 (partial expansion)",
             "Expand only the needed leading terms and read required coefficient.",
-            "Cross-check with METHOD 1 result."
+            "Cross-check with METHOD 1 result.",
+            "",
+            "Worked answer",
+            "(x + 2)\u2074 = 16 + 32x + 24x\u00b2 + 8x\u00b3 + x\u2074",
+            "Answer: 16 + 32x + 24x\u00b2 + 8x\u00b3 + x\u2074"
           ]
         },
         {
@@ -2330,7 +2373,7 @@
           ]
         }
       ],
-      "worked_solution_text": "Part (a)\nMETHOD 1 (general term)\nGiven: Expand (2 + x)4 and simplify your result.\nUse T\u1d63\u208a\u2081 = C(n,r) \u00b7 a^(n-r) \u00b7 b^r.\nMatch powers to find r (for required x\u1d4f term).\nSubstitute r and simplify coefficient + term.\nWrite final required term/coefficient.\n\nMETHOD 2 (partial expansion)\nExpand only the needed leading terms and read required coefficient.\nCross-check with METHOD 1 result.\n\nPart (b)\nMETHOD 1 (general term)\nGiven: Hence, find the term in x\u00b2 in (2 + x)4 2 11 x .\nUse T\u1d63\u208a\u2081 = C(n,r) \u00b7 a^(n-r) \u00b7 b^r.\nMatch powers to find r (for required x\u1d4f term).\nSubstitute r and simplify coefficient + term.\nWrite final required term/coefficient.\n\nMETHOD 2 (partial expansion)\nExpand only the needed leading terms and read required coefficient.\nCross-check with METHOD 1 result.",
+      "worked_solution_text": "Part (a)\nMETHOD 1 (general term)\nGiven: Expand (2 + x)4 and simplify your result.\nUse T\u1d63\u208a\u2081 = C(n,r) \u00b7 a^(n-r) \u00b7 b^r.\nMatch powers to find r (for required x\u1d4f term).\nSubstitute r and simplify coefficient + term.\nWrite final required term/coefficient.\n\nMETHOD 2 (partial expansion)\nExpand only the needed leading terms and read required coefficient.\nCross-check with METHOD 1 result.\n\nWorked answer\n(x + 2)\u2074 = 16 + 32x + 24x\u00b2 + 8x\u00b3 + x\u2074\nAnswer: 16 + 32x + 24x\u00b2 + 8x\u00b3 + x\u2074\n\nPart (b)\nMETHOD 1 (general term)\nGiven: Hence, find the term in x\u00b2 in (2 + x)4 2 11 x .\nUse T\u1d63\u208a\u2081 = C(n,r) \u00b7 a^(n-r) \u00b7 b^r.\nMatch powers to find r (for required x\u1d4f term).\nSubstitute r and simplify coefficient + term.\nWrite final required term/coefficient.\n\nMETHOD 2 (partial expansion)\nExpand only the needed leading terms and read required coefficient.\nCross-check with METHOD 1 result.",
       "draft": true,
       "markscheme_image_paths": [
         "images/markschemes/t1_math_sl_algebra_q36.svg"
@@ -2622,7 +2665,11 @@
             "",
             "METHOD 2 (partial expansion)",
             "Expand only the needed leading terms and read required coefficient.",
-            "Cross-check with METHOD 1 result."
+            "Cross-check with METHOD 1 result.",
+            "",
+            "Worked answer",
+            "Number of terms = n + 1 = 7",
+            "Answer: 7"
           ]
         },
         {
@@ -2643,7 +2690,7 @@
           ]
         }
       ],
-      "worked_solution_text": "Part (a)\nMETHOD 1 (general term)\nGiven: Write down the number of terms in this expansion.\nUse T\u1d63\u208a\u2081 = C(n,r) \u00b7 a^(n-r) \u00b7 b^r.\nMatch powers to find r (for required x\u1d4f term).\nSubstitute r and simplify coefficient + term.\nWrite final required term/coefficient.\n\nMETHOD 2 (partial expansion)\nExpand only the needed leading terms and read required coefficient.\nCross-check with METHOD 1 result.\n\nPart (b)\nMETHOD 1 (general term)\nGiven: Find the term in x12.\nUse T\u1d63\u208a\u2081 = C(n,r) \u00b7 a^(n-r) \u00b7 b^r.\nMatch powers to find r (for required x\u1d4f term).\nSubstitute r and simplify coefficient + term.\nWrite final required term/coefficient.\n\nMETHOD 2 (partial expansion)\nExpand only the needed leading terms and read required coefficient.\nCross-check with METHOD 1 result.",
+      "worked_solution_text": "Part (a)\nMETHOD 1 (general term)\nGiven: Write down the number of terms in this expansion.\nUse T\u1d63\u208a\u2081 = C(n,r) \u00b7 a^(n-r) \u00b7 b^r.\nMatch powers to find r (for required x\u1d4f term).\nSubstitute r and simplify coefficient + term.\nWrite final required term/coefficient.\n\nMETHOD 2 (partial expansion)\nExpand only the needed leading terms and read required coefficient.\nCross-check with METHOD 1 result.\n\nWorked answer\nNumber of terms = n + 1 = 7\nAnswer: 7\n\nPart (b)\nMETHOD 1 (general term)\nGiven: Find the term in x12.\nUse T\u1d63\u208a\u2081 = C(n,r) \u00b7 a^(n-r) \u00b7 b^r.\nMatch powers to find r (for required x\u1d4f term).\nSubstitute r and simplify coefficient + term.\nWrite final required term/coefficient.\n\nMETHOD 2 (partial expansion)\nExpand only the needed leading terms and read required coefficient.\nCross-check with METHOD 1 result.",
       "draft": true,
       "markscheme_image_paths": [
         "images/markschemes/t1_math_sl_algebra_q42.svg"
@@ -2672,11 +2719,15 @@
             "",
             "METHOD 2 (partial expansion)",
             "Expand only the needed leading terms and read required coefficient.",
-            "Cross-check with METHOD 1 result."
+            "Cross-check with METHOD 1 result.",
+            "",
+            "Worked answer",
+            "a = C(10,2)\u00b72\u00b2 = 180",
+            "Answer: a = 180"
           ]
         }
       ],
-      "worked_solution_text": "Part (a)\nMETHOD 1 (general term)\nGiven: 43. One of the terms of the expansion of (x + 2y)10 is ax8 y2. Find the value of a.\nUse T\u1d63\u208a\u2081 = C(n,r) \u00b7 a^(n-r) \u00b7 b^r.\nMatch powers to find r (for required x\u1d4f term).\nSubstitute r and simplify coefficient + term.\nWrite final required term/coefficient.\n\nMETHOD 2 (partial expansion)\nExpand only the needed leading terms and read required coefficient.\nCross-check with METHOD 1 result.",
+      "worked_solution_text": "Part (a)\nMETHOD 1 (general term)\nGiven: 43. One of the terms of the expansion of (x + 2y)10 is ax8 y2. Find the value of a.\nUse T\u1d63\u208a\u2081 = C(n,r) \u00b7 a^(n-r) \u00b7 b^r.\nMatch powers to find r (for required x\u1d4f term).\nSubstitute r and simplify coefficient + term.\nWrite final required term/coefficient.\n\nMETHOD 2 (partial expansion)\nExpand only the needed leading terms and read required coefficient.\nCross-check with METHOD 1 result.\n\nWorked answer\na = C(10,2)\u00b72\u00b2 = 180\nAnswer: a = 180",
       "draft": true,
       "markscheme_image_paths": [
         "images/markschemes/t1_math_sl_algebra_q43.svg"
@@ -2701,7 +2752,11 @@
             "Use T\u1d63\u208a\u2081 = C(n,r) \u00b7 a^(n-r) \u00b7 b^r.",
             "Match powers to find r (for required x\u1d4f term).",
             "Substitute r and simplify coefficient + term.",
-            "Write final required term/coefficient."
+            "Write final required term/coefficient.",
+            "",
+            "Worked answer",
+            "Number of terms = n + 1 = 6",
+            "Answer: 6"
           ]
         },
         {
@@ -2744,7 +2799,7 @@
           ]
         }
       ],
-      "worked_solution_text": "Part (a)\nMETHOD 1 (general term)\nGiven: Write down the number of terms in this expansion.\nUse T\u1d63\u208a\u2081 = C(n,r) \u00b7 a^(n-r) \u00b7 b^r.\nMatch powers to find r (for required x\u1d4f term).\nSubstitute r and simplify coefficient + term.\nWrite final required term/coefficient.\n\nPart (b)\nMETHOD 1 (general term)\nGiven: The first four terms of the expansion in descending powers of x are x10 \u2013 10x8 + 40x6 + Ax4 + ... Find the value of A. W\nUse T\u1d63\u208a\u2081 = C(n,r) \u00b7 a^(n-r) \u00b7 b^r.\nMatch powers to find r (for required x\u1d4f term).\nSubstitute r and simplify coefficient + term.\nWrite final required term/coefficient.\n\nPart (a)\nMETHOD 1 (general term)\nGiven: ..................................................................\nUse T\u1d63\u208a\u2081 = C(n,r) \u00b7 a^(n-r) \u00b7 b^r.\nMatch powers to find r (for required x\u1d4f term).\nSubstitute r and simplify coefficient + term.\nWrite final required term/coefficient.\n\nPart (b)\nMETHOD 1 (general term)\nGiven: ..................................................................\nUse T\u1d63\u208a\u2081 = C(n,r) \u00b7 a^(n-r) \u00b7 b^r.\nMatch powers to find r (for required x\u1d4f term).\nSubstitute r and simplify coefficient + term.\nWrite final required term/coefficient.",
+      "worked_solution_text": "Part (a)\nMETHOD 1 (general term)\nGiven: Write down the number of terms in this expansion.\nUse T\u1d63\u208a\u2081 = C(n,r) \u00b7 a^(n-r) \u00b7 b^r.\nMatch powers to find r (for required x\u1d4f term).\nSubstitute r and simplify coefficient + term.\nWrite final required term/coefficient.\n\nWorked answer\nNumber of terms = n + 1 = 6\nAnswer: 6\n\nPart (b)\nMETHOD 1 (general term)\nGiven: The first four terms of the expansion in descending powers of x are x10 \u2013 10x8 + 40x6 + Ax4 + ... Find the value of A. W\nUse T\u1d63\u208a\u2081 = C(n,r) \u00b7 a^(n-r) \u00b7 b^r.\nMatch powers to find r (for required x\u1d4f term).\nSubstitute r and simplify coefficient + term.\nWrite final required term/coefficient.\n\nPart (a)\nMETHOD 1 (general term)\nGiven: ..................................................................\nUse T\u1d63\u208a\u2081 = C(n,r) \u00b7 a^(n-r) \u00b7 b^r.\nMatch powers to find r (for required x\u1d4f term).\nSubstitute r and simplify coefficient + term.\nWrite final required term/coefficient.\n\nPart (b)\nMETHOD 1 (general term)\nGiven: ..................................................................\nUse T\u1d63\u208a\u2081 = C(n,r) \u00b7 a^(n-r) \u00b7 b^r.\nMatch powers to find r (for required x\u1d4f term).\nSubstitute r and simplify coefficient + term.\nWrite final required term/coefficient.",
       "draft": true,
       "markscheme_image_paths": [
         "images/markschemes/t1_math_sl_algebra_q44.svg"
