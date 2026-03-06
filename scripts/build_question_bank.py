@@ -638,16 +638,16 @@ def remove_sl_hl_overlaps(records: List[Dict[str, object]]) -> List[Dict[str, ob
         if not hls or not sls:
             continue
 
-        for sl in sls:
-            sl_q = normalized_similarity_text(str(sl.get("question_text", "")))
-            sl_a = normalized_similarity_text(str(sl.get("answer_text", "")))
-            sl_marks = int(sl.get("marks", 0) or 0)
+        for hl in hls:
+            hl_q = normalized_similarity_text(str(hl.get("question_text", "")))
+            hl_a = normalized_similarity_text(str(hl.get("answer_text", "")))
+            hl_marks = int(hl.get("marks", 0) or 0)
             duplicate = False
 
-            for hl in hls:
-                hl_q = normalized_similarity_text(str(hl.get("question_text", "")))
-                hl_a = normalized_similarity_text(str(hl.get("answer_text", "")))
-                hl_marks = int(hl.get("marks", 0) or 0)
+            for sl in sls:
+                sl_q = normalized_similarity_text(str(sl.get("question_text", "")))
+                sl_a = normalized_similarity_text(str(sl.get("answer_text", "")))
+                sl_marks = int(sl.get("marks", 0) or 0)
 
                 q_ratio = text_similarity(sl_q, hl_q)
                 a_ratio = text_similarity(sl_a, hl_a)
@@ -658,49 +658,49 @@ def remove_sl_hl_overlaps(records: List[Dict[str, object]]) -> List[Dict[str, ob
                     break
 
             if duplicate:
-                to_remove.add(str(sl.get("id", "")))
+                to_remove.add(str(hl.get("id", "")))
 
     return [r for r in records if str(r.get("id", "")) not in to_remove]
 
 
 def remove_global_sl_hl_duplicates(records: List[Dict[str, object]]) -> List[Dict[str, object]]:
-    hl_records = [rec for rec in records if str(rec.get("level", "")) == "HL"]
-    hl_question_sigs = {
+    sl_records = [rec for rec in records if str(rec.get("level", "")) == "SL"]
+    sl_question_sigs = {
         normalize_for_dedupe(str(rec.get("question_text", "")))
-        for rec in hl_records
+        for rec in sl_records
     }
 
-    hl_by_paper_type: Dict[str, List[Dict[str, object]]] = {}
-    for rec in hl_records:
+    sl_by_paper_type: Dict[str, List[Dict[str, object]]] = {}
+    for rec in sl_records:
         paper_type = str(rec.get("paper_type", ""))
-        hl_by_paper_type.setdefault(paper_type, []).append(rec)
+        sl_by_paper_type.setdefault(paper_type, []).append(rec)
 
     out: List[Dict[str, object]] = []
     for rec in records:
-        if str(rec.get("level", "")) != "SL":
+        if str(rec.get("level", "")) != "HL":
             out.append(rec)
             continue
 
-        sl_sig = normalize_for_dedupe(str(rec.get("question_text", "")))
-        if sl_sig and sl_sig in hl_question_sigs:
+        hl_sig = normalize_for_dedupe(str(rec.get("question_text", "")))
+        if hl_sig and hl_sig in sl_question_sigs:
             continue
 
-        sl_q = normalized_similarity_text(str(rec.get("question_text", "")))
-        if not sl_q:
+        hl_q = normalized_similarity_text(str(rec.get("question_text", "")))
+        if not hl_q:
             out.append(rec)
             continue
 
-        sl_marks = int(rec.get("marks", 0) or 0)
+        hl_marks = int(rec.get("marks", 0) or 0)
         paper_type = str(rec.get("paper_type", ""))
-        candidates = hl_by_paper_type.get(paper_type, hl_records)
+        candidates = sl_by_paper_type.get(paper_type, sl_records)
 
         duplicate = False
-        for hl in candidates:
-            hl_marks = int(hl.get("marks", 0) or 0)
+        for sl in candidates:
+            sl_marks = int(sl.get("marks", 0) or 0)
             # Avoid removing genuinely different questions with same style.
             if abs(sl_marks - hl_marks) > 1:
                 continue
-            hl_q = normalized_similarity_text(str(hl.get("question_text", "")))
+            sl_q = normalized_similarity_text(str(sl.get("question_text", "")))
             if text_similarity(sl_q, hl_q) >= 0.94:
                 duplicate = True
                 break
