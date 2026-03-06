@@ -1,0 +1,53 @@
+{
+  "topics": [
+    {
+      "name": "Business organization and environment",
+      "subtopics": [
+        "Business structures and stakeholders",
+        "External environment and ethics",
+        "Growth and change"
+      ]
+    },
+    {
+      "name": "Human resource management",
+      "subtopics": [
+        "Organizational structure and culture",
+        "Motivation and leadership",
+        "Industrial relations"
+      ]
+    },
+    {
+      "name": "Finance and accounts",
+      "subtopics": [
+        "Sources of finance",
+        "Investment appraisal",
+        "Final accounts and ratio analysis",
+        "Budgets and forecasts"
+      ]
+    },
+    {
+      "name": "Marketing",
+      "subtopics": [
+        "Market research and demand",
+        "Marketing mix",
+        "International marketing"
+      ]
+    },
+    {
+      "name": "Operations management",
+      "subtopics": [
+        "Production methods and quality",
+        "Location and capacity",
+        "Supply chain and inventory"
+      ]
+    },
+    {
+      "name": "Business strategy",
+      "subtopics": [
+        "SWOT and strategic analysis",
+        "Decision trees and contingency planning",
+        "Change management"
+      ]
+    }
+  ]
+}
