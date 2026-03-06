@@ -896,7 +896,9 @@
       "question_number": "6",
       "title": "Q6",
       "question_text": "6. Let f(x) = k log2 x.\nMaths SL 3\n(a) Given that f\u20131(1) = 8, find the value of k.\n(3)\n\n(b) Find f\u20131\n\uf0f7\n\uf0f8\n\uf0f6\uf0e7\n\uf0e8\n\uf0e6\n3\n2 .\n(4)\n(Total 7 marks)",
-      "question_image_paths": []
+      "question_image_paths": [
+        "images/questions/t1_math_sl_algebra_exp_log_q6.png"
+      ]
     },
     {
       "id": "t1_math_sl_algebra_exp_log_q7",
@@ -1076,7 +1078,9 @@
       "question_number": "20",
       "title": "Q20",
       "question_text": "20. Solve the equation 9x\u20131 =\n.3\n1\n2x\n\uf0f7\uf0f8\n\uf0f6\uf0e7\uf0e8\n\uf0e6\nWorking:\nAnswer:\n......................................................................\n(Total 4 marks)\n\nMaths SL 11",
-      "question_image_paths": []
+      "question_image_paths": [
+        "images/questions/t1_math_sl_algebra_exp_log_q20.png"
+      ]
     },
     {
       "id": "t1_math_sl_algebra_exp_log_q21",

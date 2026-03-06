@@ -138,6 +138,20 @@ def question_key(question_text: str, qnum: int) -> str:
 
 
 def fallback_page_image(doc: fitz.Document, question_text: str, qnum: int, out_prefix: Path) -> List[str]:
+    # Worksheet PDFs often include explicit page markers like "Maths SL 11".
+    page_marker = re.search(r"\bmaths\s+sl\s+(\d{1,3})\b", question_text, flags=re.IGNORECASE)
+    if page_marker:
+        page_no = int(page_marker.group(1))
+        pidx = page_no - 1
+        if 0 <= pidx < len(doc):
+            page = doc[pidx]
+            clip = fitz.Rect(18.0, 30.0, float(page.rect.width) - 18.0, float(page.rect.height) - 20.0)
+            pix = page.get_pixmap(matrix=fitz.Matrix(2.0, 2.0), clip=clip, alpha=False)
+            out_file = out_prefix.with_suffix(".png")
+            pix.save(str(out_file))
+            rel = out_file.relative_to(ROOT / "data" / "tutoring" / "processed").as_posix()
+            return [rel]
+
     key = question_key(question_text, qnum)
     if not key:
         return []
@@ -157,7 +171,7 @@ def fallback_page_image(doc: fitz.Document, question_text: str, qnum: int, out_p
             best_score = score
             best_page = pno
 
-    if best_page is None or best_score <= 3:
+    if best_page is None or best_score < 3:
         return []
 
     page = doc[best_page]
