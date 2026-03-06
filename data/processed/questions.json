@@ -34,7 +34,9 @@
         "images/questions/m21_p1_tz1_q1_p2.png"
       ],
       "markscheme_image_paths": [
-        "images/markschemes/m21_p1_tz1_q1.png"
+        "images/markschemes/m21_p1_tz1_q1_p1.png",
+        "images/markschemes/m21_p1_tz1_q1.png",
+        "images/markschemes/m21_p1_tz1_q1_p2.png"
       ]
     },
     {
@@ -60,7 +62,10 @@
       ],
       "markscheme_image_paths": [
         "images/markschemes/m21_p1_tz1_q2_p1.png",
-        "images/markschemes/m21_p1_tz1_q2_p2.png"
+        "images/markschemes/m21_p1_tz1_q2_p2.png",
+        "images/markschemes/m21_p1_tz1_q2_p3.png",
+        "images/markschemes/m21_p1_tz1_q2_p4.png",
+        "images/markschemes/m21_p1_tz1_q2_p5.png"
       ]
     },
     {
@@ -86,7 +91,8 @@
       ],
       "markscheme_image_paths": [
         "images/markschemes/m21_p1_tz1_q3_p1.png",
-        "images/markschemes/m21_p1_tz1_q3_p2.png"
+        "images/markschemes/m21_p1_tz1_q3_p2.png",
+        "images/markschemes/m21_p1_tz1_q3_p3.png"
       ]
     },
     {
@@ -112,7 +118,9 @@
       ],
       "markscheme_image_paths": [
         "images/markschemes/m21_p1_tz1_q4_p1.png",
-        "images/markschemes/m21_p1_tz1_q4_p2.png"
+        "images/markschemes/m21_p1_tz1_q4_p2.png",
+        "images/markschemes/m21_p1_tz1_q4_p3.png",
+        "images/markschemes/m21_p1_tz1_q4_p4.png"
       ]
     },
     {
@@ -138,7 +146,8 @@
       ],
       "markscheme_image_paths": [
         "images/markschemes/m21_p1_tz1_q5_p1.png",
-        "images/markschemes/m21_p1_tz1_q5_p2.png"
+        "images/markschemes/m21_p1_tz1_q5_p2.png",
+        "images/markschemes/m21_p1_tz1_q5_p3.png"
       ]
     },
     {
@@ -164,8 +173,11 @@
       ],
       "markscheme_image_paths": [
         "images/markschemes/m21_p1_tz1_q6_p1.png",
+        "images/markschemes/m21_p1_tz1_q6.png",
         "images/markschemes/m21_p1_tz1_q6_p2.png",
-        "images/markschemes/m21_p1_tz1_q6_p3.png"
+        "images/markschemes/m21_p1_tz1_q6_p3.png",
+        "images/markschemes/m21_p1_tz1_q6_p4.png",
+        "images/markschemes/m21_p1_tz1_q6_p5.png"
       ]
     },
     {
@@ -191,7 +203,12 @@
       ],
       "markscheme_image_paths": [
         "images/markschemes/m21_p1_tz1_q7_p1.png",
-        "images/markschemes/m21_p1_tz1_q7_p2.png"
+        "images/markschemes/m21_p1_tz1_q7_p2.png",
+        "images/markschemes/m21_p1_tz1_q7_p3.png",
+        "images/markschemes/m21_p1_tz1_q7_p4.png",
+        "images/markschemes/m21_p1_tz1_q7_p5.png",
+        "images/markschemes/m21_p1_tz1_q7_p6.png",
+        "images/markschemes/m21_p1_tz1_q7_p7.png"
       ]
     },
     {
@@ -217,6 +234,7 @@
       ],
       "markscheme_image_paths": [
         "images/markschemes/m21_p1_tz1_q8_p1.png",
+        "images/markschemes/m21_p1_tz1_q8.png",
         "images/markschemes/m21_p1_tz1_q8_p2.png"
       ]
     },
@@ -228,8 +246,8 @@
       "paper_type": "Paper 1",
       "question_number": "9",
       "title": "Q9: A farmer has six sheep pens, arranged in a grid with three rows and two columns as shown i...",
-      "topic": "Functions",
-      "subtopic": "Transformations and modelling",
+      "topic": "Statistics and Probability",
+      "subtopic": "Discrete and continuous random variables",
       "question_text": "A farmer has six sheep pens, arranged in a grid with three rows and two columns as shown\nin the following diagram.\nFive sheep called Amber, Brownie, Curly, Daisy and Eden are to be placed in the pens. Each\npen is large enough to hold all of the sheep. Amber and Brownie are known to fight.\nFind the number of ways of placing the sheep in the pens in each of the following cases:\n(a) Each pen is large enough to contain five sheep. Amber and Brownie must not be\nplaced in the same pen. [4]\n(b) Each pen may only contain one sheep. Amber and Brownie must not be placed in pens\nwhich share a boundary. [4]\n. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .\n. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .\n. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .\n. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .\n. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .\n. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .\n. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .\n. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .\n. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .\n. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .\n. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .\n. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .\n12EP10\n\u2013 11 \u2013\nM21/5/MATHX/HP1/ENG/TZ1/XX\n2221 \u2013 7106\nDo not write solutions on this page.\nAnswer all questions in the answer booklet provided. Please start each question on a new page.",
       "answer_text": "9. (a) METHOD 1\nB has one less pen to select (M1)\nEITHER\nA and B can be placed in\n65\uf0b4 ways (A1)\nC, D, E have 6 choices each (A1)\nOR\nA (or B), C, D, E have 6 choices each (A1)\nB (or A) has only 5 choices (A1)\nTHEN\n( )\n45 6 6480\uf0b4=\nA1\nMETHOD 2\ntotal number of ways\n56= (A1)\nnumber of ways with Amber and Brownie together\n46= (A1)\nattempt to subtract (may be seen in words) (M1)\n5466\u2212\n( )\n45 6 6480= \uf0b4 =\nA1\n[4 marks]\n(b) METHOD 1\ntotal number of ways\n( )6! 720== (A1)\nnumber of ways with Amber and Brownie sharing a boundary\n( )2 7 4! 336= \uf0b4 \uf0b4 =\n(A1)\nattempt to subtract (may be seen in words) (M1)\n720 336\u2212\n384=\nA1\nMETHOD 2\ncase 1: number of ways of placing A in corner pen\n3 4 3 2 1\uf0b4 \uf0b4 \uf0b4 \uf0b4\nFour corners total no of ways is\n( ) ( )4 3 4 3 2 1 12 4! 288\uf0b4 \uf0b4 \uf0b4 \uf0b4 \uf0b4 = \uf0b4 = (A1)\ncase 2: number of ways of placing A in the middle pen\n2 4 3 2 1\uf0b4 \uf0b4 \uf0b4 \uf0b4\n\ntwo middle pens so\n( ) ( )2 2 4 3 2 1 4 4! 96\uf0b4 \uf0b4 \uf0b4 \uf0b4 \uf0b4 = \uf0b4 = (A1)\nattempt to add (may be seen in words) (M1)\ntotal no of ways\n288 96=+\n( )16 4! 384= \uf0b4 =\nA1\n[4 marks]\nTotal [8 marks]",
       "marks": 8,
@@ -243,7 +261,10 @@
       ],
       "markscheme_image_paths": [
         "images/markschemes/m21_p1_tz1_q9_p1.png",
-        "images/markschemes/m21_p1_tz1_q9_p2.png"
+        "images/markschemes/m21_p1_tz1_q9_p2.png",
+        "images/markschemes/m21_p1_tz1_q9_p3.png",
+        "images/markschemes/m21_p1_tz1_q9_p4.png",
+        "images/markschemes/m21_p1_tz1_q9_p5.png"
       ]
     },
     {
@@ -351,6 +372,7 @@
       ],
       "markscheme_image_paths": [
         "images/markschemes/m21_p1_tz2_q1_p1.png",
+        "images/markschemes/m21_p1_tz2_q1.png",
         "images/markschemes/m21_p1_tz2_q1_p2.png"
       ]
     },
@@ -377,7 +399,10 @@
       ],
       "markscheme_image_paths": [
         "images/markschemes/m21_p1_tz2_q2_p1.png",
-        "images/markschemes/m21_p1_tz2_q2_p2.png"
+        "images/markschemes/m21_p1_tz2_q2_p2.png",
+        "images/markschemes/m21_p1_tz2_q2_p3.png",
+        "images/markschemes/m21_p1_tz2_q2_p4.png",
+        "images/markschemes/m21_p1_tz2_q2_p5.png"
       ]
     },
     {
@@ -428,8 +453,10 @@
         "images/questions/m21_p1_tz2_q4_p2.png"
       ],
       "markscheme_image_paths": [
+        "images/markschemes/m21_p1_tz2_q4.png",
         "images/markschemes/m21_p1_tz2_q4_p1.png",
-        "images/markschemes/m21_p1_tz2_q4_p2.png"
+        "images/markschemes/m21_p1_tz2_q4_p2.png",
+        "images/markschemes/m21_p1_tz2_q4_p3.png"
       ]
     },
     {
@@ -455,7 +482,8 @@
       ],
       "markscheme_image_paths": [
         "images/markschemes/m21_p1_tz2_q5_p1.png",
-        "images/markschemes/m21_p1_tz2_q5_p2.png"
+        "images/markschemes/m21_p1_tz2_q5_p2.png",
+        "images/markschemes/m21_p1_tz2_q5_p3.png"
       ]
     },
     {
@@ -480,6 +508,7 @@
         "images/questions/m21_p1_tz2_q6_p2.png"
       ],
       "markscheme_image_paths": [
+        "images/markschemes/m21_p1_tz2_q6.png",
         "images/markschemes/m21_p1_tz2_q6_p1.png",
         "images/markschemes/m21_p1_tz2_q6_p2.png",
         "images/markschemes/m21_p1_tz2_q6_p3.png"
@@ -508,6 +537,7 @@
       ],
       "markscheme_image_paths": [
         "images/markschemes/m21_p1_tz2_q7_p1.png",
+        "images/markschemes/m21_p1_tz2_q7.png",
         "images/markschemes/m21_p1_tz2_q7_p2.png"
       ]
     },
@@ -536,7 +566,8 @@
         "images/markschemes/m21_p1_tz2_q8_p1.png",
         "images/markschemes/m21_p1_tz2_q8_p2.png",
         "images/markschemes/m21_p1_tz2_q8_p3.png",
-        "images/markschemes/m21_p1_tz2_q8_p4.png"
+        "images/markschemes/m21_p1_tz2_q8_p4.png",
+        "images/markschemes/m21_p1_tz2_q8_p5.png"
       ]
     },
     {
@@ -562,7 +593,8 @@
       ],
       "markscheme_image_paths": [
         "images/markschemes/m21_p1_tz2_q9_p1.png",
-        "images/markschemes/m21_p1_tz2_q9_p2.png"
+        "images/markschemes/m21_p1_tz2_q9_p2.png",
+        "images/markschemes/m21_p1_tz2_q9_p3.png"
       ]
     },
     {
@@ -589,7 +621,9 @@
       ],
       "markscheme_image_paths": [
         "images/markschemes/m21_p1_tz2_q10_p1.png",
-        "images/markschemes/m21_p1_tz2_q10_p2.png"
+        "images/markschemes/m21_p1_tz2_q10_p2.png",
+        "images/markschemes/m21_p1_tz2_q10_p3.png",
+        "images/markschemes/m21_p1_tz2_q10_p4.png"
       ]
     },
     {
@@ -618,7 +652,11 @@
         "images/markschemes/m21_p1_tz2_q11_p2.png",
         "images/markschemes/m21_p1_tz2_q11_p3.png",
         "images/markschemes/m21_p1_tz2_q11_p4.png",
-        "images/markschemes/m21_p1_tz2_q11_p5.png"
+        "images/markschemes/m21_p1_tz2_q11_p5.png",
+        "images/markschemes/m21_p1_tz2_q11_p6.png",
+        "images/markschemes/m21_p1_tz2_q11_p7.png",
+        "images/markschemes/m21_p1_tz2_q11_p8.png",
+        "images/markschemes/m21_p1_tz2_q11_p9.png"
       ]
     },
     {
@@ -644,6 +682,7 @@
       ],
       "markscheme_image_paths": [
         "images/markschemes/m21_p1_tz2_q12_p1.png",
+        "images/markschemes/m21_p1_tz2_q12.png",
         "images/markschemes/m21_p1_tz2_q12_p2.png",
         "images/markschemes/m21_p1_tz2_q12_p3.png",
         "images/markschemes/m21_p1_tz2_q12_p4.png",
@@ -673,6 +712,7 @@
         "images/questions/m21_p2_tz1_q1_p3.png"
       ],
       "markscheme_image_paths": [
+        "images/markschemes/m21_p2_tz1_q1.png",
         "images/markschemes/m21_p2_tz1_q1_p1.png",
         "images/markschemes/m21_p2_tz1_q1_p2.png"
       ]
@@ -700,7 +740,10 @@
       ],
       "markscheme_image_paths": [
         "images/markschemes/m21_p2_tz1_q2_p1.png",
-        "images/markschemes/m21_p2_tz1_q2_p2.png"
+        "images/markschemes/m21_p2_tz1_q2_p2.png",
+        "images/markschemes/m21_p2_tz1_q2_p3.png",
+        "images/markschemes/m21_p2_tz1_q2_p4.png",
+        "images/markschemes/m21_p2_tz1_q2_p5.png"
       ]
     },
     {
@@ -751,7 +794,9 @@
       ],
       "markscheme_image_paths": [
         "images/markschemes/m21_p2_tz1_q4_p1.png",
-        "images/markschemes/m21_p2_tz1_q4_p2.png"
+        "images/markschemes/m21_p2_tz1_q4.png",
+        "images/markschemes/m21_p2_tz1_q4_p2.png",
+        "images/markschemes/m21_p2_tz1_q4_p3.png"
       ]
     },
     {
@@ -777,7 +822,8 @@
       ],
       "markscheme_image_paths": [
         "images/markschemes/m21_p2_tz1_q5_p1.png",
-        "images/markschemes/m21_p2_tz1_q5_p2.png"
+        "images/markschemes/m21_p2_tz1_q5_p2.png",
+        "images/markschemes/m21_p2_tz1_q5_p3.png"
       ]
     },
     {
@@ -802,7 +848,9 @@
         "images/questions/m21_p2_tz1_q6_p2.png"
       ],
       "markscheme_image_paths": [
-        "images/markschemes/m21_p2_tz1_q6.png"
+        "images/markschemes/m21_p2_tz1_q6_p1.png",
+        "images/markschemes/m21_p2_tz1_q6.png",
+        "images/markschemes/m21_p2_tz1_q6_p2.png"
       ]
     },
     {
@@ -828,7 +876,8 @@
       ],
       "markscheme_image_paths": [
         "images/markschemes/m21_p2_tz1_q7_p1.png",
-        "images/markschemes/m21_p2_tz1_q7_p2.png"
+        "images/markschemes/m21_p2_tz1_q7_p2.png",
+        "images/markschemes/m21_p2_tz1_q7_p3.png"
       ]
     },
     {
@@ -880,7 +929,9 @@
       ],
       "markscheme_image_paths": [
         "images/markschemes/m21_p2_tz1_q9_p1.png",
-        "images/markschemes/m21_p2_tz1_q9_p2.png"
+        "images/markschemes/m21_p2_tz1_q9_p2.png",
+        "images/markschemes/m21_p2_tz1_q9_p3.png",
+        "images/markschemes/m21_p2_tz1_q9_p4.png"
       ]
     },
     {
@@ -907,7 +958,8 @@
       "markscheme_image_paths": [
         "images/markschemes/m21_p2_tz1_q10_p1.png",
         "images/markschemes/m21_p2_tz1_q10_p2.png",
-        "images/markschemes/m21_p2_tz1_q10_p3.png"
+        "images/markschemes/m21_p2_tz1_q10_p3.png",
+        "images/markschemes/m21_p2_tz1_q10_p4.png"
       ]
     },
     {
@@ -989,6 +1041,7 @@
       ],
       "markscheme_image_paths": [
         "images/markschemes/m21_p2_tz2_q1_p1.png",
+        "images/markschemes/m21_p2_tz2_q1.png",
         "images/markschemes/m21_p2_tz2_q1_p2.png"
       ]
     },
@@ -1015,7 +1068,10 @@
       ],
       "markscheme_image_paths": [
         "images/markschemes/m21_p2_tz2_q2_p1.png",
-        "images/markschemes/m21_p2_tz2_q2_p2.png"
+        "images/markschemes/m21_p2_tz2_q2_p2.png",
+        "images/markschemes/m21_p2_tz2_q2_p3.png",
+        "images/markschemes/m21_p2_tz2_q2_p4.png",
+        "images/markschemes/m21_p2_tz2_q2_p5.png"
       ]
     },
     {
@@ -1068,7 +1124,8 @@
       ],
       "markscheme_image_paths": [
         "images/markschemes/m21_p2_tz2_q4_p1.png",
-        "images/markschemes/m21_p2_tz2_q4_p2.png"
+        "images/markschemes/m21_p2_tz2_q4_p2.png",
+        "images/markschemes/m21_p2_tz2_q4_p3.png"
       ]
     },
     {
@@ -1094,7 +1151,8 @@
       ],
       "markscheme_image_paths": [
         "images/markschemes/m21_p2_tz2_q5_p1.png",
-        "images/markschemes/m21_p2_tz2_q5_p2.png"
+        "images/markschemes/m21_p2_tz2_q5_p2.png",
+        "images/markschemes/m21_p2_tz2_q5_p3.png"
       ]
     },
     {
@@ -1121,7 +1179,8 @@
       "markscheme_image_paths": [
         "images/markschemes/m21_p2_tz2_q6_p1.png",
         "images/markschemes/m21_p2_tz2_q6_p2.png",
-        "images/markschemes/m21_p2_tz2_q6_p3.png"
+        "images/markschemes/m21_p2_tz2_q6_p3.png",
+        "images/markschemes/m21_p2_tz2_q6_p4.png"
       ]
     },
     {
@@ -1147,7 +1206,8 @@
       ],
       "markscheme_image_paths": [
         "images/markschemes/m21_p2_tz2_q7_p1.png",
-        "images/markschemes/m21_p2_tz2_q7_p2.png"
+        "images/markschemes/m21_p2_tz2_q7_p2.png",
+        "images/markschemes/m21_p2_tz2_q7_p3.png"
       ]
     },
     {
@@ -1199,7 +1259,9 @@
       ],
       "markscheme_image_paths": [
         "images/markschemes/m21_p2_tz2_q9_p1.png",
-        "images/markschemes/m21_p2_tz2_q9_p2.png"
+        "images/markschemes/m21_p2_tz2_q9_p2.png",
+        "images/markschemes/m21_p2_tz2_q9_p3.png",
+        "images/markschemes/m21_p2_tz2_q9_p4.png"
       ]
     },
     {
@@ -1226,7 +1288,8 @@
       "markscheme_image_paths": [
         "images/markschemes/m21_p2_tz2_q10_p1.png",
         "images/markschemes/m21_p2_tz2_q10_p2.png",
-        "images/markschemes/m21_p2_tz2_q10_p3.png"
+        "images/markschemes/m21_p2_tz2_q10_p3.png",
+        "images/markschemes/m21_p2_tz2_q10_p4.png"
       ]
     },
     {
@@ -1311,7 +1374,24 @@
         "images/questions/m21_p3_tz1_q1_p3.png"
       ],
       "markscheme_image_paths": [
-        "images/markschemes/m21_p3_tz1_q1.png"
+        "images/markschemes/m21_p3_tz1_q1_p1.png",
+        "images/markschemes/m21_p3_tz1_q1.png",
+        "images/markschemes/m21_p3_tz1_q1_p2.png",
+        "images/markschemes/m21_p3_tz1_q1_p3.png",
+        "images/markschemes/m21_p3_tz1_q1_p4.png",
+        "images/markschemes/m21_p3_tz1_q1_p5.png",
+        "images/markschemes/m21_p3_tz1_q1_p6.png",
+        "images/markschemes/m21_p3_tz1_q1_p7.png",
+        "images/markschemes/m21_p3_tz1_q1_p8.png",
+        "images/markschemes/m21_p3_tz1_q1_p9.png",
+        "images/markschemes/m21_p3_tz1_q1_p10.png",
+        "images/markschemes/m21_p3_tz1_q1_p11.png",
+        "images/markschemes/m21_p3_tz1_q1_p12.png",
+        "images/markschemes/m21_p3_tz1_q1_p13.png",
+        "images/markschemes/m21_p3_tz1_q1_p14.png",
+        "images/markschemes/m21_p3_tz1_q1_p15.png",
+        "images/markschemes/m21_p3_tz1_q1_p16.png",
+        "images/markschemes/m21_p3_tz1_q1_p17.png"
       ]
     },
     {
@@ -1337,7 +1417,14 @@
       ],
       "markscheme_image_paths": [
         "images/markschemes/m21_p3_tz1_q2_p1.png",
-        "images/markschemes/m21_p3_tz1_q2_p2.png"
+        "images/markschemes/m21_p3_tz1_q2_p2.png",
+        "images/markschemes/m21_p3_tz1_q2_p3.png",
+        "images/markschemes/m21_p3_tz1_q2_p4.png",
+        "images/markschemes/m21_p3_tz1_q2_p5.png",
+        "images/markschemes/m21_p3_tz1_q2_p6.png",
+        "images/markschemes/m21_p3_tz1_q2_p7.png",
+        "images/markschemes/m21_p3_tz1_q2_p8.png",
+        "images/markschemes/m21_p3_tz1_q2_p9.png"
       ]
     },
     {
@@ -1363,7 +1450,23 @@
         "images/questions/m21_p3_tz2_q1_p3.png"
       ],
       "markscheme_image_paths": [
-        "images/markschemes/m21_p3_tz2_q1.png"
+        "images/markschemes/m21_p3_tz2_q1.png",
+        "images/markschemes/m21_p3_tz2_q1_p1.png",
+        "images/markschemes/m21_p3_tz2_q1_p2.png",
+        "images/markschemes/m21_p3_tz2_q1_p3.png",
+        "images/markschemes/m21_p3_tz2_q1_p4.png",
+        "images/markschemes/m21_p3_tz2_q1_p5.png",
+        "images/markschemes/m21_p3_tz2_q1_p6.png",
+        "images/markschemes/m21_p3_tz2_q1_p7.png",
+        "images/markschemes/m21_p3_tz2_q1_p8.png",
+        "images/markschemes/m21_p3_tz2_q1_p9.png",
+        "images/markschemes/m21_p3_tz2_q1_p10.png",
+        "images/markschemes/m21_p3_tz2_q1_p11.png",
+        "images/markschemes/m21_p3_tz2_q1_p12.png",
+        "images/markschemes/m21_p3_tz2_q1_p13.png",
+        "images/markschemes/m21_p3_tz2_q1_p14.png",
+        "images/markschemes/m21_p3_tz2_q1_p15.png",
+        "images/markschemes/m21_p3_tz2_q1_p16.png"
       ]
     },
     {
@@ -1390,7 +1493,13 @@
       ],
       "markscheme_image_paths": [
         "images/markschemes/m21_p3_tz2_q2_p1.png",
-        "images/markschemes/m21_p3_tz2_q2_p2.png"
+        "images/markschemes/m21_p3_tz2_q2_p2.png",
+        "images/markschemes/m21_p3_tz2_q2_p3.png",
+        "images/markschemes/m21_p3_tz2_q2_p4.png",
+        "images/markschemes/m21_p3_tz2_q2_p5.png",
+        "images/markschemes/m21_p3_tz2_q2_p6.png",
+        "images/markschemes/m21_p3_tz2_q2_p7.png",
+        "images/markschemes/m21_p3_tz2_q2_p8.png"
       ]
     },
     {
@@ -2264,8 +2373,8 @@
       "paper_type": "Paper 2",
       "question_number": "9",
       "title": "Q9: Mary, three female friends, and her brother, Peter, attend the theatre. In the theatre the...",
-      "topic": "Functions",
-      "subtopic": "Transformations and modelling",
+      "topic": "Statistics and Probability",
+      "subtopic": "Discrete and continuous random variables",
       "question_text": "Mary, three female friends, and her brother, Peter, attend the theatre. In the theatre there is\na row of 10 empty seats. For the first half of the show, they decide to sit next to each other in\nthis row.\n(a) Find the number of ways these five people can be seated in this row. [3]\nFor the second half of the show, they return to the same row of 10 empty seats. The four girls\ndecide to sit at least one seat apart from Peter. The four girls do not have to sit next to each other.\n(b) Find the number of ways these five people can now be seated in this row. [4]\n. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .\n. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .\n. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .\n. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .\n. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .\n. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .\n. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .\n. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .\n. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .\n. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .\n. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .\n. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .\n16EP12\n\u2013 13 \u2013 2222 \u2013 7107\nM22/5/MATHX/HP2/ENG/TZ1/XX\nDo not write solutions on this page.\nAnswer all questions in the answer booklet provided. Please start each question on a new page.",
       "answer_text": "9. (a)\n6 5!\uf0b4 (A1)(A1)\n720=\n( accept\n6! ) A1\n[3 marks]\n(b) METHOD 1\n(Peter apart from girls, in an end seat)\n( )\n8\n4 1680P = OR\n(Peter apart from girls, not in end seat)\n( )\n7\n4 840P = (A1)\ncase 1: Peter at either end\n( )\n8\n42 3360P\uf0b4=\nOR\n( )\n8\n42 4! 3360C\uf0b4 \uf0b4 = (A1)\ncase 2: Peter not at the end\n( )\n7\n48 6720P\uf0b4=\nOR\n( )\n7\n48 4! 6720C\uf0b4 \uf0b4 = (A1)\nTotal number of ways\n3360 6720=+\n10080=\nA1\nMETHOD 2\n(Peter next to girl, in an end seat)\n( )\n8\n34 1344P\uf0b4= OR\n(Peter next to one girl, not in end seat)\n( )\n7\n32 4 1680P\uf0b4 \uf0b4 = OR\n(Peter next to two girls, not in end seat)\n( )\n7\n24 3 504P\uf0b4 \uf0b4 = (A1)\ncase 1: Peter at either end\n( )\n8\n32 4 2688P\uf0b4 \uf0b4 =\n(A1)\ncase 2: Peter not at the end\n( )( )\n77\n328 2 4 4 3 17472PP\uf0b4 \uf0b4 + \uf0b4 \uf0b4 =\n(A1)\nTotal number of ways\n( )\n10\n5 2688 17472P= \u2212 +\n10080=\nA1\n[4 marks]\nTotal [7 marks]",
       "marks": 7,
@@ -3675,7 +3784,7 @@
       "question_number": "11",
       "title": "Q11: A continuous random variable, X , has a probability density function defined by fx x x ()...",
       "topic": "Statistics and Probability",
-      "subtopic": "Probability distributions",
+      "subtopic": "Discrete and continuous random variables",
       "question_text": "A continuous random variable, X , has a probability density function defined by\nfx x\nx\n() = \u2212\n\u2264\u2264\uf8f1\n\uf8f2\uf8f4\n\uf8f3\uf8f4\n6\n16\n02\n0\n2\u03c0\n,\n, otherwise.\n(a) Find the exact value of E (X) . [5]\n(b) Find P (X < 0.5) . [2]\nA laboratory trial may require up to 2 millilitres of reagent. The amount of reagent used has\nbeen found to have a probability distribution that can be modelled by f (x) , where X is the\namount of reagent in millilitres.\nEach laboratory trial is independent. A trial is considered a success when X < 0.5 .\n(c) Determine the least number of trials required to be 99 % sure of at least one success. [3]\nTen trials were conducted.\n(d) Find the probability that exactly three trials were successful. [2]\n(e) Write down the number of ways these three successful trials could have occurred\nconsecutively. [1]\nNow consider n trials where it is given that exactly three successes have occurred.\n(f) (i) Write down an expression for the number of ways these three successful trials\ncould have occurred consecutively.\n(ii) Find the greatest value of n such that the probability of three consecutive\nsuccessful trials is more than 0.05 . [6]\n\u2013 15 \u2013 2223 \u2013 7107\n16EP15\nDo not write solutions on this page.",
       "answer_text": "11. (a)\n( )\n2\n20\n6Ed\n\u03c0 16\nxXx\nx\n=\n\u2212\uf0f2 (A1)\nNote: Condone the absence of\ndx .\nAccept\n2\n0\n( ) dxf x x\uf0f2\nattempt to integrate\n2\n6\n\u03c0 16\nx\nx\u2212 using inspection/substitution (M1)\n( )\n1\n2 26 2 16 d2\u03c0 x x x\n\u2212\n\u2212 \u2212 \u2212\uf0f2\nor let\n216ux=\u2212\n( )\n21\n2 2\n0\n6 2 162\u03c0 x\uf0e9\uf0f9\u2212\u2212 \uf0ea\uf0fa\uf0eb\uf0fb\nOR\n121\n2\n16\n6\n\u03c0 u\uf0e9\uf0f9\u2212\uf0ea\uf0fa\n\uf0eb\uf0fb A1\nNote: For this A1 condone absent or incorrect limits.\nattempt to substitute their limits and evaluate (M1)\n( )\n24 6 12 12 2 3\u03c0 \u03c0 \u03c0\n\uf0e6\uf0f6\u2212 = \u2212 \uf0e7\uf0f7\uf0e8\uf0f8\nA1\nNote: The substitution\nsin 4\nx\uf071 = may also be used, leading to\n\uf05b \uf05d\n\u03c0 \u03c0\n6 6\n00\n24 24 24 \u03c0sin d cos 1 cos\u03c0 \u03c0 \u03c0 6\uf071 \uf071 \uf071 \uf0e6\uf0f6= \u2212 = \u2212 \uf0e7\uf0f7\uf0e8\uf0f8\uf0f2\n. Award marks as\nappropriate and accept\n24 \u03c01 cos\u03c06\n\uf0e6\uf0f6 \u2212\uf0e7\uf0f7\uf0e8\uf0f8 for the final A1.\n[5 marks]\n(b)\n0.5 0.5\n200\n6( ) d d\n\u03c0 16\nf x x x\nx\n\uf0e6\uf0f6=\uf0e7\uf0f7 \u2212\uf0e8\uf0f8\uf0f2\uf0f2 (M1)\n( ) 0.5 0.239358...PX \uf03c=\n0.239=\nA1\n[2 marks]\ncontinued\u2026\n(c) EITHER\nrecognition P(at least one success after n trials) = 1 \u2013 P(no successes after n trials) (M1)\n( )1 1 0.239... 0.99\nn\n\u2212 \u2212 \uf0b3\n(A1)\n16.8321...n =\nNote: Use of\n0.239 results in\n16.8612...n =\nOR\nrecognition that\n( )B ,0.239...Yn\n(M1)\nIf\n16n = P(at least one success after n trials)\n0.987443...=\nand if\n17n = P(at least one success after n trials)\n0.990448...= (A1)\nNote: Use of\n0.239 results in the values\n0.987348... and\n0.990371...\nTHEN\n17 trials A1\n[3 marks]\n(d) recognition that\n( )B 10, their part b)Y\n(M1)\n( )B 10,0.239...\n( )P 3 0.242430...X ==\n\n0.242=\nA1\n[2 marks]\ncontinued\u2026\n(e) 8 A1\n[1 mark]\n(f) (i)\n2n \u2212 A1\n(ii)\n3\nnC (ways of 3 successes in n trials) (A1)\n3\n2\nn\nn\nC\n\u2212\n(A1)\nAttempt to solve their\n3\n2 0.05n\nn\nC\n\u2212 \uf03e OR\n( )\n6 0.051nn \uf03e\u2212 (or equivalent) (M1)\nNote: Accept an equation.\n11.4658...n =\nOR\ntable values\n3\n211, 0.0545454...n\nnn C\n\u2212== and\n3\n212, 0.0454545...n\nnn C\n\u2212== (A1)\n11n =\nA1\n[6 marks]\nTotal [19 marks]",
       "marks": 19,
@@ -4501,6 +4610,7 @@
       ],
       "markscheme_image_paths": [
         "images/markschemes/m24_p1_tz2_q1_p1.png",
+        "images/markschemes/m24_p1_tz2_q1.png",
         "images/markschemes/m24_p1_tz2_q1_p2.png"
       ]
     },
@@ -4553,6 +4663,7 @@
       ],
       "markscheme_image_paths": [
         "images/markschemes/m24_p1_tz2_q3_p1.png",
+        "images/markschemes/m24_p1_tz2_q3.png",
         "images/markschemes/m24_p1_tz2_q3_p2.png",
         "images/markschemes/m24_p1_tz2_q3_p3.png"
       ]
@@ -4609,6 +4720,7 @@
       ],
       "markscheme_image_paths": [
         "images/markschemes/m24_p1_tz2_q5_p1.png",
+        "images/markschemes/m24_p1_tz2_q5.png",
         "images/markschemes/m24_p1_tz2_q5_p2.png",
         "images/markschemes/m24_p1_tz2_q5_p3.png",
         "images/markschemes/m24_p1_tz2_q5_p4.png"
@@ -4636,6 +4748,7 @@
         "images/questions/m24_p1_tz2_q6_p2.png"
       ],
       "markscheme_image_paths": [
+        "images/markschemes/m24_p1_tz2_q6.png",
         "images/markschemes/m24_p1_tz2_q6_p1.png",
         "images/markschemes/m24_p1_tz2_q6_p2.png"
       ]
@@ -4688,6 +4801,7 @@
         "images/questions/m24_p1_tz2_q8_p2.png"
       ],
       "markscheme_image_paths": [
+        "images/markschemes/m24_p1_tz2_q8.png",
         "images/markschemes/m24_p1_tz2_q8_p1.png",
         "images/markschemes/m24_p1_tz2_q8_p2.png"
       ]
@@ -4700,8 +4814,8 @@
       "paper_type": "Paper 1",
       "question_number": "9",
       "title": "Q9: A teacher takes n students on a field trip. The students are assigned randomly into two gr...",
-      "topic": "Functions",
-      "subtopic": "Transformations and modelling",
+      "topic": "Statistics and Probability",
+      "subtopic": "Discrete and continuous random variables",
       "question_text": "A teacher takes n students on a field trip. The students are assigned randomly into two groups.\nFor safety reasons there must be exactly three students in the first group and at least three\nstudents in the second group.\nThe teacher will randomly assign three students to the first group and the other students to\nthe second group.\n(a) Write down an expression for the number of ways that the students could be assigned. [1]\nTwo of the students ask the teacher not to work in the same group.\nThe teacher agrees and now finds that the number of ways to assign the students is halved.\n(b) Determine the value of n . [6]\n. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .\n. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .\n. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .\n. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .\n. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .\n. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .\n. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .\n. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .\n. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .\n. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .\n. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .\n. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .\n\u2013 14 \u2013 2224 \u2013 7106\n16EP14\nDo not write solutions on this page.\nAnswer all questions in the answer booklet provided. Please start each question on a new page.",
       "answer_text": "9 (M1 )\n2 51 229\nkkk\u2212\u2212 + =\n218 18 9 9 10kkk\u2212 \u2212+ = OR\n2\n34 02 29\nkk \u2212 += OR\n29 27 4022\nkk \u2212 += A1\n29 27 8 0kk \u2212 += AG\n(\nii) ( 1\n3k = is the only valid solution as) 8 13 > R1\nN\note: Accept any valid reasoning indicating that any probability cannot be greater than 1\nand/or probability cannot be less than 0.\n[\n4 marks]\nTotal [6 marks]\n\u2013 13 \u2013 2224\u2009\u20137106M\n5\n. (a) 2\n3y = (must be written as equation with y = ) A1\n[1 mark]\n(\nb) (i) 2 A1\n(\nii) EITHER\n( )\n( )\n23 132\nx mxx\n+ = ++\n\nattempt to expand to obtain a quadratic equation (M1)\n22 63 6 3 6x mx mx x+= + + +\n( )\n23 61 0mx m x+ += OR 236 0mx mx x+ += A1\nr\necognition that discriminant 0\u2206= for one solution (M1)\n( )\n2\n61 0m +=\ncontinued\u2026\n\u2013 14 \u2013 2224\u2009\u20137106M\nQ\nuestion 5 continued.\nOR\n( )\n( )\n23 132\nx mxx\n+ = ++\n\nattempt to expand to obtain a quadratic equation (M1)\n22 63 6 3 6x mx mx x+= + + +\n( )\n23 61 0mx m x+ += OR 236 0mx mx x+ += A1\nat\ntempt to solve their quadratic for and equating their solutions (M1)\n( )3 6 10x mx m+ +=\n0x = OR ( )61 03\nmx m\n+= \u2212=\n61 03\nm\nm\n+\u2212=\nOR\nattempt to find '( )fx using the quotient rule (M1)\n22",
       "marks": 7,
@@ -4715,6 +4829,7 @@
       ],
       "markscheme_image_paths": [
         "images/markschemes/m24_p1_tz2_q9_p1.png",
+        "images/markschemes/m24_p1_tz2_q9.png",
         "images/markschemes/m24_p1_tz2_q9_p2.png",
         "images/markschemes/m24_p1_tz2_q9_p3.png"
       ]
@@ -4745,7 +4860,22 @@
         "images/markschemes/m24_p1_tz2_q10_p2.png",
         "images/markschemes/m24_p1_tz2_q10_p3.png",
         "images/markschemes/m24_p1_tz2_q10_p4.png",
-        "images/markschemes/m24_p1_tz2_q10_p5.png"
+        "images/markschemes/m24_p1_tz2_q10_p5.png",
+        "images/markschemes/m24_p1_tz2_q10_p6.png",
+        "images/markschemes/m24_p1_tz2_q10_p7.png",
+        "images/markschemes/m24_p1_tz2_q10_p8.png",
+        "images/markschemes/m24_p1_tz2_q10_p9.png",
+        "images/markschemes/m24_p1_tz2_q10_p10.png",
+        "images/markschemes/m24_p1_tz2_q10_p11.png",
+        "images/markschemes/m24_p1_tz2_q10_p12.png",
+        "images/markschemes/m24_p1_tz2_q10_p13.png",
+        "images/markschemes/m24_p1_tz2_q10_p14.png",
+        "images/markschemes/m24_p1_tz2_q10_p15.png",
+        "images/markschemes/m24_p1_tz2_q10_p16.png",
+        "images/markschemes/m24_p1_tz2_q10_p17.png",
+        "images/markschemes/m24_p1_tz2_q10_p18.png",
+        "images/markschemes/m24_p1_tz2_q10_p19.png",
+        "images/markschemes/m24_p1_tz2_q10_p20.png"
       ]
     },
     {
@@ -5022,8 +5152,8 @@
       "paper_type": "Paper 2",
       "question_number": "9",
       "title": "Q9: A group of 10 children includes one pair of brothers, Alvin and Bobby, and one pair of sis...",
-      "topic": "Functions",
-      "subtopic": "Transformations and modelling",
+      "topic": "Statistics and Probability",
+      "subtopic": "Discrete and continuous random variables",
       "question_text": "A group of 10 children includes one pair of brothers, Alvin and Bobby, and one pair of sisters,\nCatalina and Daniela.\nThe children are to be seated at 10 desks which are arranged in two rows of five as shown in\nthe following diagram.\nfront\nAlvin and Bobby must be seated next to each other in the same row.\n(a) Find the total number of ways the children can be seated. [3]\nAfter an argument, Catalina and Daniela must not be seated next to each other. Alvin and\nBobby must still be seated next to each other.\n(b) Find the total number of ways the children can be seated. [4]\n. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .\n. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .\n. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .\n. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .\n. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .\n. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .\n. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .\n. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .\n. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .\n. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .\n. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .\n. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .\n16EP11\n\u2013 12 \u2013 2224 \u2013 7102\nDo not write solutions on this page.\nAnswer all questions in the answer booklet provided. Please start each question on a new page.",
       "answer_text": "9. ( a) METHOD 1\nthe number of ways Alvin and Bobby can be seated is ( )2 8 16\u00d7= (A1)\nthe number of ways the other children can be seated is ( )8! 40320= (A1)\nNote: These A1 marks may be awarded independently.\ntotal number of ways is ( )16 8! 645120\u00d7= A1\nNote: Accept 16 8!\u00d7 and 645000 .\n\nMETHOD 2\nthe number of ways children can be seated in a row of 10 seats is ( )2 9! 725760\u00d7= (A1)\nthe number of ways the children can be seated with Alvin and Bobby in seats 5 and 6\nis ( )2 8! 80640\u00d7= (A1)\nNote: These A1 marks may be awarded independently.\ntotal number of ways is ( )2 9! 2 8! 645120\u00d7 \u2212\u00d7 = A1\nNote: Accept 16 8!\u00d7 and 645000 .\n[3 marks]\n\n(b) METHOD 1\nattempt to find number of ways that A and B are seated next to each other AND C and\nD are seated next to each other and subtract from part a) (M1)\n\nCase 1: A and B are sat at the end of a row (8 ways)\n6(2) 12= ways to seat C and D together\n( )12 6! 8640\u00d7= ways (A1)\nthe total number of ways is ( )8 12 6! 69120\u00d7\u00d7 =\ncontinued\u2026\n\n\u2013 19 \u2013 2224\u2009\u2013\u20097102M\n\nCase 2: A and B are not sat at the end of a row (8 ways)\n5(2) 10= ways to seat C and D together\n10 6! 7200\u00d7= ways (A1)\nthe total number of ways is ( )8 10 6! 57600\u00d7\u00d7 =\ntotal number of ways is ( )645120 69120 57600\u2212+\n518400= A1\nNote: Accept 518000 or 518280(from use of 645000 ).\n\nMETHOD\n2\nattempt to split into cases based on position of A and B and adding all possibilities (M1)\n\nCase 1: A and B are sat at the end of a row (8 ways)\nthe number of ways C and D can be seated:\nwith at least one in the same row as A and B 2(1 15) 32+=\nwith both in a different row to A and B 2(6) 12=\nthe number of ways C and D can be seated is ( )44 6! 31680\u00d7= (A1)\nthe total number of ways is 8 31680 253440\u00d7=\n\nCase 2: A\nand B are not sat at the end of a row (8 ways)\nthe number of ways C and D can be seated:\nwith at least one in the same row as A and B 2(2 15) 34+=\nwith both in a different row to A and B 2(6) 12=\nthe number of ways C and D can be seated is ( )46 6! 33120\u00d7= (A1)\nthe total number of ways is 8 33120 264960\u00d7=\ntotal number of ways is 253440 264960+\n518400= A1\nNote: Accept 518000 .\n[4 marks]\nTotal [7 marks]\n\n\u2013 20 \u2013 2224\u2009\u2013\u20097102M",
       "marks": 7,
@@ -5148,6 +5278,7 @@
         "images/questions/m24_p2_tz2_q1_p2.png"
       ],
       "markscheme_image_paths": [
+        "images/markschemes/m24_p2_tz2_q1.png",
         "images/markschemes/m24_p2_tz2_q1_p1.png",
         "images/markschemes/m24_p2_tz2_q1_p2.png"
       ]
@@ -5174,7 +5305,9 @@
         "images/questions/m24_p2_tz2_q2_p2.png"
       ],
       "markscheme_image_paths": [
-        "images/markschemes/m24_p2_tz2_q2.png"
+        "images/markschemes/m24_p2_tz2_q2.png",
+        "images/markschemes/m24_p2_tz2_q2_p1.png",
+        "images/markschemes/m24_p2_tz2_q2_p2.png"
       ]
     },
     {
@@ -5199,6 +5332,7 @@
         "images/questions/m24_p2_tz2_q3_p2.png"
       ],
       "markscheme_image_paths": [
+        "images/markschemes/m24_p2_tz2_q3.png",
         "images/markschemes/m24_p2_tz2_q3_p1.png",
         "images/markschemes/m24_p2_tz2_q3_p2.png",
         "images/markschemes/m24_p2_tz2_q3_p3.png"
@@ -5253,6 +5387,7 @@
       ],
       "markscheme_image_paths": [
         "images/markschemes/m24_p2_tz2_q5_p1.png",
+        "images/markschemes/m24_p2_tz2_q5.png",
         "images/markschemes/m24_p2_tz2_q5_p2.png",
         "images/markschemes/m24_p2_tz2_q5_p3.png"
       ]
@@ -5279,6 +5414,7 @@
         "images/questions/m24_p2_tz2_q6_p2.png"
       ],
       "markscheme_image_paths": [
+        "images/markschemes/m24_p2_tz2_q6.png",
         "images/markschemes/m24_p2_tz2_q6_p1.png",
         "images/markschemes/m24_p2_tz2_q6_p2.png"
       ]
@@ -5331,6 +5467,7 @@
         "images/questions/m24_p2_tz2_q8_p2.png"
       ],
       "markscheme_image_paths": [
+        "images/markschemes/m24_p2_tz2_q8.png",
         "images/markschemes/m24_p2_tz2_q8_p1.png",
         "images/markschemes/m24_p2_tz2_q8_p2.png",
         "images/markschemes/m24_p2_tz2_q8_p3.png"
@@ -5359,6 +5496,7 @@
       ],
       "markscheme_image_paths": [
         "images/markschemes/m24_p2_tz2_q9_p1.png",
+        "images/markschemes/m24_p2_tz2_q9.png",
         "images/markschemes/m24_p2_tz2_q9_p2.png"
       ]
     },
@@ -5387,7 +5525,19 @@
         "images/markschemes/m24_p2_tz2_q10_p1.png",
         "images/markschemes/m24_p2_tz2_q10_p2.png",
         "images/markschemes/m24_p2_tz2_q10_p3.png",
-        "images/markschemes/m24_p2_tz2_q10_p4.png"
+        "images/markschemes/m24_p2_tz2_q10_p4.png",
+        "images/markschemes/m24_p2_tz2_q10_p5.png",
+        "images/markschemes/m24_p2_tz2_q10_p6.png",
+        "images/markschemes/m24_p2_tz2_q10_p7.png",
+        "images/markschemes/m24_p2_tz2_q10_p8.png",
+        "images/markschemes/m24_p2_tz2_q10_p9.png",
+        "images/markschemes/m24_p2_tz2_q10_p10.png",
+        "images/markschemes/m24_p2_tz2_q10_p11.png",
+        "images/markschemes/m24_p2_tz2_q10_p12.png",
+        "images/markschemes/m24_p2_tz2_q10_p13.png",
+        "images/markschemes/m24_p2_tz2_q10_p14.png",
+        "images/markschemes/m24_p2_tz2_q10_p15.png",
+        "images/markschemes/m24_p2_tz2_q10_p16.png"
       ]
     },
     {
@@ -7113,7 +7263,7 @@
       "question_number": "11",
       "title": "Q11: A mathematics class of 15 students plays a game which requires three equal size teams. (a)...",
       "topic": "Statistics and Probability",
-      "subtopic": "Probability distributions",
+      "subtopic": "Discrete and continuous random variables",
       "question_text": "A mathematics class of 15 students plays a game which requires three equal size teams.\n(a) Find the total number of ways that the three teams can be chosen. [3]\nThe game involves the spinning of a top.\nThe time, T , in minutes that the spinning top is in motion can be modelled by the probability\ndensity function f where\nft kt tt\n/g11/g12/g32 /g116/g173\n/g174\n/g175\n/g16e 3 0\n0\n,\n, otherwise\nand k \u2208 \uf0a2+ .\n(b) Show that ft t k a\na\na\n/g11/g12/g32/g16 /g14/g11/g12/g170/g172 /g186/g188/g179\n/g16\n0\n3\n9 13 1de , where a \u2208 \uf0a1+ . [4]\n(c) (i) Use l\u2019H\u00f4pital\u2019s rule to find lim\nx\nxx\n/g111/g102\n/g16/g14/g11/g1231 3e .\n(ii) Hence, by considering lim\na\na\nft t\n/g111/g102\n/g11/g12/g1790\nd , find the value of k . [5]\n(d) Find the median length of time that a spinning top is in motion. [2]\n16EP12\n\u2013 13 \u2013 2225 \u2013 7112\nDo not write solutions on this page.",
       "answer_text": "11. (\na) METHOD 1\n15 10 5\n5 55\n3!\nC CC\u00d7\u00d7 3003 252 1 756756\n66\n\u00d7\u00d7\uf8eb\uf8f6= =\uf8ec\uf8f7\uf8ed\uf8f8\nOR 15!\n5! 5! 5! 3!\u00d7\u00d7\u00d7\n(A 1)(A1)\nNote: Award A1 for ( )\n15 10\n55 756756CC\u00d7= OR 15!\n5! 5! 5!\u00d7\u00d7\nand A1 for dividing by\n( )3! 6= .\n126126= A1\nM\nETHOD 2\n14 9 4\n444CCC\u00d7\u00d7 (A 1)(A1)\nNote: Award A1 for 14\n4C and A1 for 14 9\n44CC\u00d7 .\nIf a random student comes out and picks a team of 4 on their turn.\n126126= A1\n[3 m\narks]\n(\nb) attempt to use integration by parts (M1)\nut= and 3d ed\ntv\nt\n\u2212=\n33 1ee 3\nttdt\u2212\u2212\u222b= \u2212 (seen anywhere) A1\n33\n00\n0\n11( )d e e33\na\naa ttf t t k t dt\u2212\u2212\n\uf8f1\uf8fc\uf8ee\uf8f9\uf8f4\uf8f4 \uf8eb\uf8f6= \u2212 \u2212\u2212\uf8f2\uf8fd \uf8ec\uf8f7\uf8ef\uf8fa\uf8ed\uf8f8\uf8f0\uf8fb\uf8f4\uf8f4\uf8f3\uf8fe\n\u222b\u222b\n33\n00\n11ee3 33\n1\na a\nttkt \u2212\u2212\n\uf8f1\uf8fc\uf8ee\uf8f9\uf8f4\uf8f4 \uf8eb \uf8f6\uf8ee \uf8f9= \u2212 +\u2212\uf8f2\uf8fd \uf8ec\uf8f7\uf8ef\uf8fa \uf8ef\uf8fa\uf8ed \uf8f8\uf8f0 \uf8fb\uf8f0\uf8fb\uf8f4\uf8f4\uf8f3\uf8fe\nA1\nNote: Condone the absence of k and limits up to this stage.\nc\nontinued\u2026\n\u2013 24 \u2013 2225\u2009\u2013\u20097112M\nQ\nuestion 11 continued.\n331 11 1e0 e3 33 3\naaka \u2212\u2212\uf8f1\uf8fc\uf8eb \uf8f6\uf8eb \uf8f6= \u2212 \u2212+\u2212 +\uf8f2\uf8fd\uf8ec \uf8f7\uf8ec \uf8f7\uf8ed \uf8f8\uf8ed \uf8f8\uf8f3\uf8fe\n\n331 11ee3 99\naaka \u2212\u2212\uf8eb\uf8f6= \u2212 \u2212+\uf8ec\uf8f7\uf8ed\uf8f8\nA1\n( )\n31 3 1 e9\nak a \u2212\uf8ee\uf8f9= \u2212+\uf8f0\uf8fb AG\n[4 m\narks]\n(\nc) (i) 3 33\n31 3lim lim lime 3e e\n1\nx xxx xx\nx\n\u2192\u221e \u2192\u221e \u2192\u221e\n+ \uf8eb\uf8f6= = \uf8ec\uf8f7\uf8ed\uf8f8\nA1\nNote: This first A1 must be seen.\n0= A1\n(\nii) ( )\n3lim 1 3 1 e9\na\na\nk a \u2212\n\u2192\u221e\n\uf8ee\uf8f9 \u2212+\uf8f0\uf8fb 3\n311 lim9e aa\nka\n\u2192\u221e\n+\uf8eb\uf8f6= \u2212 \uf8ec\uf8f7\uf8ed\uf8f8\n( )109\nk= \u2212 ( A1)\nrecognising area of probability density function 1= (seen anywhere) (M1)\n19\nk =\n9k = A1\n[5 m\narks]\n(\nd) recognition that the integral or their expression equals 0.5 for am= (M1)\n( )\n0\n0.5\nm\nf t dt =\u222b OR ( )\n31 3 1 e 0.5mm \u2212\u2212+ =\n0.559448\u2026 OR 33.566939\u2026\nm edian = 0.559 (min) OR 33.6 (sec) A1\nNote: FT can only be awarded for a positive value of k .\nA ward (M1)(A1) for a final answer of 0.56 with no working shown.\n[2 m arks]\nTot\nal [14 marks]\n\u2013 25 \u2013 2225\u2009\u2013\u20097112M",
       "marks": 14,
@@ -9113,7 +9263,10 @@
         "images/questions/n23_p1_tz1_q4_p2.png"
       ],
       "markscheme_image_paths": [
-        "images/markschemes/n23_p1_tz1_q4.png"
+        "images/markschemes/n23_p1_tz1_q4_p1.png",
+        "images/markschemes/n23_p1_tz1_q4.png",
+        "images/markschemes/n23_p1_tz1_q4_p2.png",
+        "images/markschemes/n23_p1_tz1_q4_p3.png"
       ]
     },
     {
@@ -9333,7 +9486,8 @@
       "markscheme_image_paths": [
         "images/markschemes/n23_p1_tz1_q12_p1.png",
         "images/markschemes/n23_p1_tz1_q12_p2.png",
-        "images/markschemes/n23_p1_tz1_q12_p3.png"
+        "images/markschemes/n23_p1_tz1_q12_p3.png",
+        "images/markschemes/n23_p1_tz1_q12_p4.png"
       ]
     },
     {
@@ -9435,7 +9589,10 @@
         "images/questions/n23_p1_tz2_q4_p2.png"
       ],
       "markscheme_image_paths": [
-        "images/markschemes/n23_p1_tz2_q4.png"
+        "images/markschemes/n23_p1_tz2_q4.png",
+        "images/markschemes/n23_p1_tz2_q4_p1.png",
+        "images/markschemes/n23_p1_tz2_q4_p2.png",
+        "images/markschemes/n23_p1_tz2_q4_p3.png"
       ]
     },
     {
@@ -9655,7 +9812,8 @@
       "markscheme_image_paths": [
         "images/markschemes/n23_p1_tz2_q12_p1.png",
         "images/markschemes/n23_p1_tz2_q12_p2.png",
-        "images/markschemes/n23_p1_tz2_q12_p3.png"
+        "images/markschemes/n23_p1_tz2_q12_p3.png",
+        "images/markschemes/n23_p1_tz2_q12_p4.png"
       ]
     },
     {
@@ -9825,8 +9983,8 @@
       "paper_type": "Paper 2",
       "question_number": "7",
       "title": "Q7: A junior baseball team consists of six boys and three girls. The team members are to be pl...",
-      "topic": "Geometry and Trigonometry",
-      "subtopic": "Lines and planes",
+      "topic": "Statistics and Probability",
+      "subtopic": "Discrete and continuous random variables",
       "question_text": "A junior baseball team consists of six boys and three girls.\nThe team members are to be placed in a line to have their photograph taken.\n(a) In how many ways can the team members be placed if\n(i) there are no restrictions;\n(ii) the girls must be placed next to each other. [3]\n(b) Five members of the team are selected to attend a baseball summer camp. Find the\nnumber of possible selections that contain at least two girls. [3]\n. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .\n. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .\n. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .\n. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .\n. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .\n. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .\n. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .\n. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .\n. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .\n. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .\n. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .\n. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .\n16EP11\n\u2013 12 \u2013 8823 \u2013 7107",
       "answer_text": "7. (a) (i)\n( )9! 362880= A1\nNote: Accept 9! or 363000.\n(ii) attempt to consider girls as a single object (M1)\n( )3! 7! 30240\uf0b4=\nA1\nNote: Accept 30200.\n[3 marks]\n(b) METHOD 1\nrecognition of the two different cases for 2 girls and 3 girls (M1)\nexactly 2 girls is\n63\n32 60CC\uf0b4= and exactly 3 girls\n( )\n36\n32 15CC\uf0b4= (A1)\ntotal\n( ) 60 15 75= + = A1\nMETHOD 2\nrecognition of the three different cases: total choices, 1 girl and no girls (M1)\ntotal choices\n9\n5 126C = , one girl case\n36\n14 45CC\uf0b4= , no girl case\n6\n5 6C = (A1)\ntotal\n( )126 45 6 75= \u2212 \u2212 = A1\n[3 marks]\nTotal [6 marks]\n8823\u2009\u2013\u20097107M\n\u2013 16 \u2013",
       "marks": 6,
@@ -10150,8 +10308,8 @@
       "paper_type": "Paper 2",
       "question_number": "7",
       "title": "Q7: A junior baseball team consists of six boys and three girls. The team members are to be pl...",
-      "topic": "Geometry and Trigonometry",
-      "subtopic": "Lines and planes",
+      "topic": "Statistics and Probability",
+      "subtopic": "Discrete and continuous random variables",
       "question_text": "A junior baseball team consists of six boys and three girls.\nThe team members are to be placed in a line to have their photograph taken.\n(a) In how many ways can the team members be placed if\n(i) there are no restrictions;\n(ii) the girls must be placed next to each other. [3]\n(b) Five members of the team are selected to attend a baseball summer camp. Find the\nnumber of possible selections that contain at least two girls. [3]\n. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .\n. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .\n. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .\n. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .\n. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .\n. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .\n. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .\n. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .\n. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .\n. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .\n. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .\n. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .\n16EP11\n\u2013 12 \u2013 8823 \u2013 7112",
       "answer_text": "7. (a) (i)\n( )9! 362880= A1\nNote: Accept 9! or 363000.\n(ii) attempt to consider girls as a single object (M1)\n( )3! 7! 30240\uf0b4=\nA1\nNote: Accept 30200.\n[3 marks]\n(b) METHOD 1\nrecognition of the two different cases for 2 girls and 3 girls (M1)\nexactly 2 girls is\n63\n32 60CC\uf0b4= and exactly 3 girls\n( )\n36\n32 15CC\uf0b4= (A1)\ntotal\n( ) 60 15 75= + = A1\nMETHOD 2\nrecognition of the three different cases: total choices, 1 girl and no girls (M1)\ntotal choices\n9\n5 126C = , one girl case\n36\n14 45CC\uf0b4= , no girl case\n6\n5 6C = (A1)\ntotal\n( )126 45 6 75= \u2212 \u2212 = A1\n[3 marks]\nTotal [6 marks]\n8823\u2009\u2013\u20097112M\n\u2013 16 \u2013",
       "marks": 6,
@@ -10813,7 +10971,8 @@
       ],
       "markscheme_image_paths": [
         "images/markschemes/n24_p2_q5_p1.png",
-        "images/markschemes/n24_p2_q5_p2.png"
+        "images/markschemes/n24_p2_q5_p2.png",
+        "images/markschemes/n24_p2_q5_p3.png"
       ]
     },
     {

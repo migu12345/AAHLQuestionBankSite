@@ -243,6 +243,11 @@ def classify_topic(question_text: str, answer_text: str) -> Tuple[str, str]:
     # Strong anchors from the question itself.
     if re.search(r"\b(permutation|combination|factorial|ncr|npr|counting principle|arrangements?)\b", q_text):
         return ("Statistics and Probability", "Discrete and continuous random variables")
+    if re.search(
+        r"\b(number of ways|how many ways|arranged in a grid|placed in the pens|must not be placed|share a boundary|adjacent|arrangement of)\b",
+        q_text,
+    ):
+        return ("Statistics and Probability", "Discrete and continuous random variables")
     if re.search(r"\b(no tied finishes?|finishing orders?|possible outcomes?|possible arrangements?)\b", q_text):
         return ("Statistics and Probability", "Discrete and continuous random variables")
     if re.search(r"\b(interquartile range|quartile|box and whisker|outlier|median)\b", q_text):
@@ -265,6 +270,13 @@ def classify_topic(question_text: str, answer_text: str) -> Tuple[str, str]:
             re.compile(r"\b(permutation|combination|factorial|ncr|npr|counting principle|arrangements?)\b"),
             ("Statistics and Probability", "Discrete and continuous random variables"),
             14,
+        ),
+        (
+            re.compile(
+                r"\b(number of ways|how many ways|arranged in a grid|placed in the pens|must not be placed|share a boundary|adjacent|arrangement of)\b"
+            ),
+            ("Statistics and Probability", "Discrete and continuous random variables"),
+            13,
         ),
         (
             re.compile(r"\b(no tied finishes?|finishing orders?|possible outcomes?|possible arrangements?)\b"),
