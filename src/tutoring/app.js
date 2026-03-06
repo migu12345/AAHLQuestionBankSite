@@ -1,5 +1,6 @@
 const state = {
   allQuestions: [],
+  markschemesById: {},
 };
 
 const searchTutorInput = document.getElementById("searchTutorInput");
@@ -10,9 +11,18 @@ const tutorQuestionList = document.getElementById("tutorQuestionList");
 const tutorQuestionTemplate = document.getElementById("tutorQuestionTemplate");
 
 async function loadData() {
-  const res = await fetch("/data/tutoring/processed/questions.json");
-  const data = await res.json();
-  state.allQuestions = Array.isArray(data.questions) ? data.questions : [];
+  const [qRes, msRes] = await Promise.all([
+    fetch("/data/tutoring/processed/questions.json"),
+    fetch("/data/tutoring/processed/markschemes.json"),
+  ]);
+  const qData = await qRes.json();
+  const msData = await msRes.json();
+
+  state.allQuestions = Array.isArray(qData.questions) ? qData.questions : [];
+  const markschemes = Array.isArray(msData.questions) ? msData.questions : [];
+  state.markschemesById = Object.fromEntries(
+    markschemes.map((entry) => [entry.id, entry.markscheme_text || "No draft markscheme yet."])
+  );
 }
 
 function hydrateFilters() {
@@ -62,6 +72,7 @@ function render() {
     const node = tutorQuestionTemplate.content.cloneNode(true);
     const questionImagesEl = node.querySelector(".question-images");
     const questionTextEl = node.querySelector(".question");
+    const markschemeTextEl = node.querySelector(".answer");
     node.querySelector(".meta").textContent = `${q.topic} | ${q.subtopic} | ${q.source_file}`;
     node.querySelector(".title").textContent = `${q.title || "Question"} (${q.source_file || "Unknown file"})`;
 
@@ -79,6 +90,8 @@ function render() {
       questionTextEl.textContent = q.question_text || "";
       questionTextEl.hidden = false;
     }
+
+    markschemeTextEl.textContent = state.markschemesById[q.id] || "No draft markscheme yet.";
 
     tutorQuestionList.appendChild(node);
   });
