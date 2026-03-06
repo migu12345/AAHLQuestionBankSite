@@ -236,18 +236,24 @@ def parse_answers_from_markscheme(path: Path) -> Dict[int, str]:
 
 
 def classify_topic(question_text: str, answer_text: str) -> Tuple[str, str]:
-    # Use question text as the primary signal; markscheme text is secondary.
-    # This prevents broad markscheme terms from overriding the actual question context.
-    q_text = question_text.lower().replace("-", " ")
+    # Use question text as the primary signal.
+    q_text_raw = question_text.lower().replace("-", " ")
+    q_text = re.sub(r"[^a-z0-9()'+*/.= ]+", " ", q_text_raw)
+    q_text = re.sub(r"\s+", " ", q_text).strip()
 
     # Strong anchors from the question itself.
-    if re.search(r"\b(permutation|combination|factorial|ncr|npr|counting principle|arrangements?)\b", q_text):
+    if re.search(r"\b(permutation|combination|factorial|ncr|npr|counting principle|arrangements?|combinatorics)\b", q_text):
         return ("Statistics and Probability", "Discrete and continuous random variables")
     if re.search(
-        r"\b(number of ways|how many ways|arranged in a grid|placed in the pens|must not be placed|share a boundary|adjacent|arrangement of)\b",
+        r"\b(number of ways|how many ways|arranged in a grid|placed in the pens|must not be placed|share a boundary|adjacent|arrangement of|choose\s+\d+)\b",
         q_text,
     ):
         return ("Statistics and Probability", "Discrete and continuous random variables")
+    if re.search(
+        r"\b(random variable|probability density function|probability function|normal distribution|binomial distribution|poisson distribution|hypothesis test|null hypothesis|p value|regression|correlation|expected value|standard deviation|variance|mean|median)\b",
+        q_text,
+    ):
+        return ("Statistics and Probability", "Probability distributions")
     if re.search(r"\b(no tied finishes?|finishing orders?|possible outcomes?|possible arrangements?)\b", q_text):
         return ("Statistics and Probability", "Discrete and continuous random variables")
     if re.search(r"\b(interquartile range|quartile|box and whisker|outlier|median)\b", q_text):
@@ -256,24 +262,28 @@ def classify_topic(question_text: str, answer_text: str) -> Tuple[str, str]:
         return ("Calculus", "Differential equations")
     if re.search(r"\b(maclaurin|taylor series|expansion about x ?= ?0)\b", q_text):
         return ("Calculus", "Maclaurin series")
-    if re.search(r"\b(integrate|integration|integral|antiderivative|area under)\b", q_text):
+    if re.search(r"\b(integrate|integration|integral|antiderivative|area under|area between)\b", q_text):
         return ("Calculus", "Integration")
-    if re.search(r"\b(limit|lim|continuity|continuous at)\b", q_text):
+    if re.search(r"\b(limit|lim|continuity|continuous at|as x tends to)\b", q_text):
         return ("Calculus", "Limits and continuity")
-    if re.search(r"\b(differentiate|differentiation|derivative|chain rule|product rule|quotient rule|tangent|normal to the curve|stationary)\b", q_text):
+    if re.search(r"\b(differentiate|differentiation|derivative|chain rule|product rule|quotient rule|tangent|normal to the curve|stationary|rate of change|max(?:imum)?|min(?:imum)?)\b", q_text):
         return ("Calculus", "Differentiation")
+    if re.search(r"\b(vector|vectors|triangle|bearing|angle|radian|sin|cos|tan|trigonometric|parallelogram|cartesian equation|line|plane)\b", q_text):
+        return ("Geometry and Trigonometry", "Trigonometric identities and equations")
+    if re.search(r"\b(sequence|series|arithmetic sequence|geometric sequence|u_n|s_n|summation|induction|complex number|argand|conjugate|modulus|argument|binomial theorem|binomial expansion)\b", q_text):
+        return ("Number and Algebra", "Sequences and series")
 
     # (pattern, topic/subtopic, base_weight)
     weighted_rules: List[Tuple[re.Pattern[str], Tuple[str, str], int]] = [
         # Statistics and Probability
         (
-            re.compile(r"\b(permutation|combination|factorial|ncr|npr|counting principle|arrangements?)\b"),
+            re.compile(r"\b(permutation|combination|factorial|ncr|npr|counting principle|arrangements?|combinatorics)\b"),
             ("Statistics and Probability", "Discrete and continuous random variables"),
             14,
         ),
         (
             re.compile(
-                r"\b(number of ways|how many ways|arranged in a grid|placed in the pens|must not be placed|share a boundary|adjacent|arrangement of)\b"
+                r"\b(number of ways|how many ways|arranged in a grid|placed in the pens|must not be placed|share a boundary|adjacent|arrangement of|choose\s+\d+)\b"
             ),
             ("Statistics and Probability", "Discrete and continuous random variables"),
             13,
@@ -299,7 +309,7 @@ def classify_topic(question_text: str, answer_text: str) -> Tuple[str, str]:
             12,
         ),
         (
-            re.compile(r"\b(random variable|probability|normal distribution|binomial distribution|poisson|expected value|variance|standard deviation)\b"),
+            re.compile(r"\b(random variable|probability|probability density function|normal distribution|binomial distribution|poisson|expected value|variance|standard deviation|mean|median)\b"),
             ("Statistics and Probability", "Probability distributions"),
             9,
         ),
@@ -341,6 +351,11 @@ def classify_topic(question_text: str, answer_text: str) -> Tuple[str, str]:
             12,
         ),
         (
+            re.compile(r"\b(triangle|bearing|parallelogram|angle|arc|sector|circle)\b"),
+            ("Geometry and Trigonometry", "Trigonometric identities and equations"),
+            8,
+        ),
+        (
             re.compile(r"\b(line|plane|cartesian equation|normal vector|scalar product|dot product)\b"),
             ("Geometry and Trigonometry", "Lines and planes"),
             10,
@@ -357,7 +372,7 @@ def classify_topic(question_text: str, answer_text: str) -> Tuple[str, str]:
             12,
         ),
         (
-            re.compile(r"\b(arithmetic sequence|geometric sequence|u_n|s_n|recurrence|summation)\b"),
+            re.compile(r"\b(arithmetic sequence|geometric sequence|u_n|s_n|recurrence|summation|sigma notation)\b"),
             ("Number and Algebra", "Sequences and series"),
             11,
         ),
