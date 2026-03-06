@@ -231,6 +231,13 @@ button:hover {
   gap: 1rem;
 }
 
+.tutor-filters {
+  position: static;
+  margin: 0.4rem 0 0.7rem;
+  box-shadow: none;
+  background: #fff;
+}
+
 .panel {
   background: rgba(255, 255, 255, 0.88);
   border: 1px solid rgba(201, 192, 177, 0.75);

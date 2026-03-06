@@ -1,0 +1,1096 @@
+{
+  "course": "IB Mathematics AA HL - Tutoring Questions",
+  "unit": "Topic 1 Number and Algebra",
+  "questions": [
+    {
+      "id": "t1_binomila_theorem_q1",
+      "unit": "Topic 1 Number and Algebra",
+      "topic": "Number and Algebra",
+      "subtopic": "Binomial theorem",
+      "source_file": "Binomila Theorem.pdf",
+      "question_number": "1",
+      "title": "Q1",
+      "question_text": "1. Consider the expansion of (x + 2)11.\n(a) Write down the number of terms in this expansion.\n(1)\n\n(b) Find the term containing x2.\n(4)\n(Total 5 marks)"
+    },
+    {
+      "id": "t1_binomila_theorem_q2",
+      "unit": "Topic 1 Number and Algebra",
+      "topic": "Number and Algebra",
+      "subtopic": "Binomial theorem",
+      "source_file": "Binomila Theorem.pdf",
+      "question_number": "2",
+      "title": "Q2",
+      "question_text": "2. (a) Expand (2 + x)4 and simplify your result.\n(3)\n\n(b) Hence, find the term in x2 in (2 + x)4\n\uf0f7\n\uf0f8\n\uf0f6\uf0e7\n\uf0e8\n\uf0e6 + 2\n11\nx .\n(3)\n(Total 6 marks)\n\nIB Maths 2"
+    },
+    {
+      "id": "t1_binomila_theorem_q3",
+      "unit": "Topic 1 Number and Algebra",
+      "topic": "Number and Algebra",
+      "subtopic": "Binomial theorem",
+      "source_file": "Binomila Theorem.pdf",
+      "question_number": "3",
+      "title": "Q3",
+      "question_text": "3. Find the term in x4 in the expansion of\n5\n2 23 \uf0f7\n\uf0f8\n\uf0f6\uf0e7\n\uf0e8\n\uf0e6 \u2212 xx .\n(Total 6 marks)"
+    },
+    {
+      "id": "t1_binomila_theorem_q4",
+      "unit": "Topic 1 Number and Algebra",
+      "topic": "Number and Algebra",
+      "subtopic": "Binomial theorem",
+      "source_file": "Binomila Theorem.pdf",
+      "question_number": "4",
+      "title": "Q4",
+      "question_text": "4. The fifth term in the expansion of the binomial (a + b)n is given by\n46 )2(4\n10 qp\uf0f7\uf0f7\n\uf0f8\n\uf0f6\n\uf0e7\uf0e7\n\uf0e8\n\uf0e6 .\n(a) Write down the value of n.\n(1)\n\n(b) Write down a and b, in terms of p and/or q.\n(2)\n\n(c) Write down an expression for the sixth term in the expansion.\n(3)\n(Total 6 marks)"
+    },
+    {
+      "id": "t1_binomila_theorem_q5",
+      "unit": "Topic 1 Number and Algebra",
+      "topic": "Number and Algebra",
+      "subtopic": "Binomial theorem",
+      "source_file": "Binomila Theorem.pdf",
+      "question_number": "5",
+      "title": "Q5",
+      "question_text": "5. Let f(x) = x3 \u2013 4x + 1.\n(a) Expand (x + h)3.\n(2)\n\n(b) Use the formula f\u2032(x) =\nh\nxfhxf\nh\n)()(lim\n0\n\u2212+\n\u2192 to show that the derivative of f(x) is 3x2 \u2013 4.\n(4)\n\n(c) The tangent to the curve of f at the point P(1, \u20132) is parallel to the tangent at a point Q.\nFind the coordinates of Q.\n(4)\n\n(d) The graph of f is decreasing for p < x < q. Find the value of p and of q.\n(3)\nIB Maths 3\n\n(e) Write down the range of values for the gradient of f.\n(2)\n(Total 15 marks)"
+    },
+    {
+      "id": "t1_binomila_theorem_q6",
+      "unit": "Topic 1 Number and Algebra",
+      "topic": "Number and Algebra",
+      "subtopic": "Binomial theorem",
+      "source_file": "Binomila Theorem.pdf",
+      "question_number": "6",
+      "title": "Q6",
+      "question_text": "6. Find the term in x3 in the expansion of\n.33\n2\n8\n\uf0f7\n\uf0f8\n\uf0f6\uf0e7\n\uf0e8\n\uf0e6 \u2212x\n(Total 5 marks)"
+    },
+    {
+      "id": "t1_binomila_theorem_q7",
+      "unit": "Topic 1 Number and Algebra",
+      "topic": "Number and Algebra",
+      "subtopic": "Binomial theorem",
+      "source_file": "Binomila Theorem.pdf",
+      "question_number": "7",
+      "title": "Q7",
+      "question_text": "7. (a) Expand (x \u2013 2)4 and simplify your result.\n(3)\n\n(b) Find the term in x3 in (3x + 4)(x \u2013 2)4.\n(3)\n(Total 6 marks)"
+    },
+    {
+      "id": "t1_binomila_theorem_q8",
+      "unit": "Topic 1 Number and Algebra",
+      "topic": "Number and Algebra",
+      "subtopic": "Binomial theorem",
+      "source_file": "Binomila Theorem.pdf",
+      "question_number": "8",
+      "title": "Q8",
+      "question_text": "8. Consider the expansion of the expression (x3 \u2212 3x)6.\n(a) Write down the number of terms in this expansion.\n(b) Find the term in x12.\n(Total 6 marks)"
+    },
+    {
+      "id": "t1_binomila_theorem_q9",
+      "unit": "Topic 1 Number and Algebra",
+      "topic": "Number and Algebra",
+      "subtopic": "Binomial theorem",
+      "source_file": "Binomila Theorem.pdf",
+      "question_number": "9",
+      "title": "Q9",
+      "question_text": "9. One of the terms of the expansion of (x + 2y)10 is ax8 y2. Find the value of a.\n(Total 6 marks)\n\nIB Maths 4"
+    },
+    {
+      "id": "t1_binomila_theorem_q10",
+      "unit": "Topic 1 Number and Algebra",
+      "topic": "Number and Algebra",
+      "subtopic": "Binomial theorem",
+      "source_file": "Binomila Theorem.pdf",
+      "question_number": "10",
+      "title": "Q10",
+      "question_text": "10. (a) Expand\n4\ne\n1e \uf0f7\n\uf0f8\n\uf0f6\uf0e7\n\uf0e8\n\uf0e6 + in terms of e.\n(4)\n(b) Express\n4\ne\n1e \uf0f7\n\uf0f8\n\uf0f6\uf0e7\n\uf0e8\n\uf0e6 + +\n4\ne\n1e \uf0f7\n\uf0f8\n\uf0f6\uf0e7\n\uf0e8\n\uf0e6 \u2212 as the sum of three terms.\n(2)\n(Total 6 marks)"
+    },
+    {
+      "id": "t1_math_sl_algebra_q1",
+      "unit": "Topic 1 Number and Algebra",
+      "topic": "Number and Algebra",
+      "subtopic": "Sequences and series",
+      "source_file": "Math_SL_Algebra.pdf",
+      "question_number": "1",
+      "title": "Q1",
+      "question_text": "1. In an arithmetic sequence, u1 = 2 and u3 = 8.\n(a) Find d.\n(2)\n(b) Find u20.\n(2)\n(c) Find S20.\n(2)\n(Total 6 marks)"
+    },
+    {
+      "id": "t1_math_sl_algebra_q2",
+      "unit": "Topic 1 Number and Algebra",
+      "topic": "Number and Algebra",
+      "subtopic": "Sequences and series",
+      "source_file": "Math_SL_Algebra.pdf",
+      "question_number": "2",
+      "title": "Q2",
+      "question_text": "2. In an arithmetic sequence u1 = 7, u20 = 64 and un = 3709.\n(a) Find the value of the common difference.\n(3)\n\n(b) Find the value of n.\n(2)\n(Total 5 marks)"
+    },
+    {
+      "id": "t1_math_sl_algebra_q3",
+      "unit": "Topic 1 Number and Algebra",
+      "topic": "Number and Algebra",
+      "subtopic": "Sequences and series",
+      "source_file": "Math_SL_Algebra.pdf",
+      "question_number": "3",
+      "title": "Q3",
+      "question_text": "3. Consider the arithmetic sequence 3, 9, 15, ..., 1353.\n(a) Write down the common difference.\n(1)\n\n(b) Find the number of terms in the sequence.\n(3)\n\n(c) Find the sum of the sequence.\n(2)\n(Total 6 marks)"
+    },
+    {
+      "id": "t1_math_sl_algebra_q4",
+      "unit": "Topic 1 Number and Algebra",
+      "topic": "Number and Algebra",
+      "subtopic": "Sequences and series",
+      "source_file": "Math_SL_Algebra.pdf",
+      "question_number": "4",
+      "title": "Q4",
+      "question_text": "4. An arithmetic sequence, u1, u2, u3, ..., has d = 11 and u27 = 263.\n(a) Find u1.\n(2)\n\n(b) (i) Given that un = 516, find the value of n.\n(ii) For this value of n, find Sn.\n(4)\n(Total 6 marks)"
+    },
+    {
+      "id": "t1_math_sl_algebra_q5",
+      "unit": "Topic 1 Number and Algebra",
+      "topic": "Number and Algebra",
+      "subtopic": "Sequences and series",
+      "source_file": "Math_SL_Algebra.pdf",
+      "question_number": "5",
+      "title": "Q5",
+      "question_text": "5. The first three terms of an infinite geometric sequence are 32, 16 and 8.\n(a) Write down the value of r.\n(1)\n\n(b) Find u6.\n(2)\n\n(c) Find the sum to infinity of this sequence.\n(2)\n(Total 5 marks)"
+    },
+    {
+      "id": "t1_math_sl_algebra_q6",
+      "unit": "Topic 1 Number and Algebra",
+      "topic": "Number and Algebra",
+      "subtopic": "Sequences and series",
+      "source_file": "Math_SL_Algebra.pdf",
+      "question_number": "6",
+      "title": "Q6",
+      "question_text": "6. The nth term of an arithmetic sequence is given by un = 5 + 2n.\n(a) Write down the common difference.\n(1)\n\n(b) (i) Given that the nth term of this sequence is 115, find the value of n.\n(ii) For this value of n, find the sum of the sequence.\n(5)\n(Total 6 marks)"
+    },
+    {
+      "id": "t1_math_sl_algebra_q7",
+      "unit": "Topic 1 Number and Algebra",
+      "topic": "Number and Algebra",
+      "subtopic": "Sequences and series",
+      "source_file": "Math_SL_Algebra.pdf",
+      "question_number": "7",
+      "title": "Q7",
+      "question_text": "7. In an arithmetic series, the first term is \u20137 and the sum of the first 20 terms is 620.\n(a) Find the common difference.\n(3)\n\n(b) Find the value of the 78th term.\n(2)\n(Total 5 marks)"
+    },
+    {
+      "id": "t1_math_sl_algebra_q8",
+      "unit": "Topic 1 Number and Algebra",
+      "topic": "Number and Algebra",
+      "subtopic": "Sequences and series",
+      "source_file": "Math_SL_Algebra.pdf",
+      "question_number": "8",
+      "title": "Q8",
+      "question_text": "8. In a geometric series, u1 =\n81\n1 and u4 =\n3\n1 .\n(a) Find the value of r.\n(3)\n\n(b) Find the smallest value of n for which Sn > 40.\n(4)\n(Total 7 marks)"
+    },
+    {
+      "id": "t1_math_sl_algebra_q9",
+      "unit": "Topic 1 Number and Algebra",
+      "topic": "Number and Algebra",
+      "subtopic": "Sequences and series",
+      "source_file": "Math_SL_Algebra.pdf",
+      "question_number": "9",
+      "title": "Q9",
+      "question_text": "9. (a) Expand\n\uf0e5\n\uf03d\n7\n4\n2\nr\nr as the sum of four terms.\n(1)\n(b) (i) Find the value of\n\uf0e5\n\uf03d\n30\n4\n2\nr\nr .\n(ii) Explain why\n\uf0e5\n\uf0a5\n\uf03d4\n2\nr\nr cannot be evaluated.\n(6)\n(Total 7 marks)"
+    },
+    {
+      "id": "t1_math_sl_algebra_q10",
+      "unit": "Topic 1 Number and Algebra",
+      "topic": "Number and Algebra",
+      "subtopic": "Sequences and series",
+      "source_file": "Math_SL_Algebra.pdf",
+      "question_number": "10",
+      "title": "Q10",
+      "question_text": "10. In an arithmetic sequence, S40 = 1900 and u40 = 106. Find the value of u1 and of d.\n(Total 6 marks)"
+    },
+    {
+      "id": "t1_math_sl_algebra_q11",
+      "unit": "Topic 1 Number and Algebra",
+      "topic": "Number and Algebra",
+      "subtopic": "Sequences and series",
+      "source_file": "Math_SL_Algebra.pdf",
+      "question_number": "11",
+      "title": "Q11",
+      "question_text": "11. Consider the arithmetic sequence 2, 5, 8, 11, ....\n(a) Find u101.\n(3)\n(b) Find the value of n so that un = 152.\n(3)\n(Total 6 marks)"
+    },
+    {
+      "id": "t1_math_sl_algebra_q12",
+      "unit": "Topic 1 Number and Algebra",
+      "topic": "Number and Algebra",
+      "subtopic": "Sequences and series",
+      "source_file": "Math_SL_Algebra.pdf",
+      "question_number": "12",
+      "title": "Q12",
+      "question_text": "12. Consider the infinite geometric sequence 3000, \u2013 1800, 1080, \u2013 648, \u2026 .\n(a) Find the common ratio.\n(2)\n(b) Find the 10th term.\n(2)\n(c) Find the exact sum of the infinite sequence.\n(2)\n(Total 6 marks)"
+    },
+    {
+      "id": "t1_math_sl_algebra_q13",
+      "unit": "Topic 1 Number and Algebra",
+      "topic": "Number and Algebra",
+      "subtopic": "Sequences and series",
+      "source_file": "Math_SL_Algebra.pdf",
+      "question_number": "13",
+      "title": "Q13",
+      "question_text": "13. Consider the infinite geometric sequence 3, 3(0.9), 3(0.9)2, 3(0.9)3, \u2026 .\n(a) Write down the 10th term of the sequence. Do not simplify your answer.\n(1)\n\n(b) Find the sum of the infinite sequence.\n(4)\n(Total 5 marks)"
+    },
+    {
+      "id": "t1_math_sl_algebra_q14",
+      "unit": "Topic 1 Number and Algebra",
+      "topic": "Number and Algebra",
+      "subtopic": "Sequences and series",
+      "source_file": "Math_SL_Algebra.pdf",
+      "question_number": "14",
+      "title": "Q14",
+      "question_text": "14. A theatre has 20 rows of seats. There are 15 seats in the first row, 17 seats in the second row,\nand each successive row of seats has two more seats in it than the previous row.\n(a) Calculate the number of seats in the 20th row.\n(4)\n\n(b) Calculate the total number of seats.\n(2)\n(Total 6 marks)"
+    },
+    {
+      "id": "t1_math_sl_algebra_q15",
+      "unit": "Topic 1 Number and Algebra",
+      "topic": "Number and Algebra",
+      "subtopic": "Sequences and series",
+      "source_file": "Math_SL_Algebra.pdf",
+      "question_number": "15",
+      "title": "Q15",
+      "question_text": "15. A sum of $ 5000 is invested at a compound interest rate of 6.3 % per annum.\n(a) Write down an expression for the value of the investment after n full years.\n(1)\n\n(b) What will be the value of the investment at the end of five years?\n(1)\n\n(c) The value of the investment will exceed $ 10 000 after n full years.\n(i) Write down an inequality to represent this information.\n\n(ii) Calculate the minimum value of n.\n(4)\n(Total 6 marks)"
+    },
+    {
+      "id": "t1_math_sl_algebra_q16",
+      "unit": "Topic 1 Number and Algebra",
+      "topic": "Number and Algebra",
+      "subtopic": "Sequences and series",
+      "source_file": "Math_SL_Algebra.pdf",
+      "question_number": "16",
+      "title": "Q16",
+      "question_text": "16. Consider the infinite geometric sequence 25, 5, 1, 0.2, \u2026 .\n(a) Find the common ratio.\n(b) Find\n(i) the 10th term;\n(ii) an expression for the nth term.\n(c) Find the sum of the infinite sequence.\n(Total 6 marks)"
+    },
+    {
+      "id": "t1_math_sl_algebra_q17",
+      "unit": "Topic 1 Number and Algebra",
+      "topic": "Number and Algebra",
+      "subtopic": "Sequences and series",
+      "source_file": "Math_SL_Algebra.pdf",
+      "question_number": "17",
+      "title": "Q17",
+      "question_text": "17. The first four terms of a sequence are 18, 54, 162, 486.\n(a) Use all four terms to show that this is a geometric sequence.\n(2)\n\n(b) (i) Find an expression for the nth term of this geometric sequence.\n(ii) If the nth term of the sequence is 1062 882, find the value of n.\n(4)\n(Total 6 marks)"
+    },
+    {
+      "id": "t1_math_sl_algebra_q18",
+      "unit": "Topic 1 Number and Algebra",
+      "topic": "Number and Algebra",
+      "subtopic": "Sequences and series",
+      "source_file": "Math_SL_Algebra.pdf",
+      "question_number": "18",
+      "title": "Q18",
+      "question_text": "18. (a) Write down the first three terms of the sequence un = 3n, for n \uf0b31.\n(1)\n\n(b) Find\n(i)\n\uf0e5\n\uf03d\n20\n1\n;3\nn\nn\n(ii)\n\uf0e5\n\uf03d\n100\n21\n3\nn\nn .\n(5)\n(Total 6 marks)"
+    },
+    {
+      "id": "t1_math_sl_algebra_q19",
+      "unit": "Topic 1 Number and Algebra",
+      "topic": "Number and Algebra",
+      "subtopic": "Sequences and series",
+      "source_file": "Math_SL_Algebra.pdf",
+      "question_number": "19",
+      "title": "Q19",
+      "question_text": "19. Clara organizes cans in triangular piles, where each row has one less can than the row below.\nFor example, the pile of 15 cans shown has 5 cans in the bottom row and 4 cans in the row\nabove it.\n\n(a) A pile has 20 cans in the bottom row. Show that the pile contains 210 cans.\n(4)\n\n(b) There are 3240 cans in a pile. How many cans are in the bottom row?\n(4)\n\n(c) (i) There are S cans and they are organized in a triangular pile with n cans in the\nbottom row. Show that n2 + n \u2212 2S = 0.\n(ii) Clara has 2100 cans. Explain why she cannot organize them in a triangular pile.\n(6)\n(Total 14 marks)"
+    },
+    {
+      "id": "t1_math_sl_algebra_q20",
+      "unit": "Topic 1 Number and Algebra",
+      "topic": "Number and Algebra",
+      "subtopic": "Sequences and series",
+      "source_file": "Math_SL_Algebra.pdf",
+      "question_number": "20",
+      "title": "Q20",
+      "question_text": "20. A theatre has 20 rows of seats. There are 15 seats in the first row, 17 seats in the second row,\nand each successive row of seats has two more seats in it than the previous row.\n(a) Calculate the number of seats in the 20th row.\n(b) Calculate the total number of seats.\n(Total 6 marks)"
+    },
+    {
+      "id": "t1_math_sl_algebra_q21",
+      "unit": "Topic 1 Number and Algebra",
+      "topic": "Number and Algebra",
+      "subtopic": "Sequences and series",
+      "source_file": "Math_SL_Algebra.pdf",
+      "question_number": "21",
+      "title": "Q21",
+      "question_text": "21. A sum of $5000 is invested at a compound interest rate of 6.3% per annum.\n(a) Write down an expression for the value of the investment after n full years.\n(b) What will be the value of the investment at the end of five years?\n(c) The value of the investment will exceed $10000 after n full years,\n(i) Write down an inequality to represent this information.\n(ii) Calculate the minimum value of n.\n(Total 6 marks)"
+    },
+    {
+      "id": "t1_math_sl_algebra_q22",
+      "unit": "Topic 1 Number and Algebra",
+      "topic": "Number and Algebra",
+      "subtopic": "Sequences and series",
+      "source_file": "Math_SL_Algebra.pdf",
+      "question_number": "22",
+      "title": "Q22",
+      "question_text": "22. Let f(x) = 3 ln x and g(x) = ln 5x3.\n(a) Express g(x) in the form f(x) + ln a, where a\n\uf0ce\n+.\n(4)\n\n(b) The graph of g is a transformation of the graph of f. Give a full geometric description of\nthis transformation.\n(3)\n(Total 7 marks)"
+    },
+    {
+      "id": "t1_math_sl_algebra_q23",
+      "unit": "Topic 1 Number and Algebra",
+      "topic": "Number and Algebra",
+      "subtopic": "Sequences and series",
+      "source_file": "Math_SL_Algebra.pdf",
+      "question_number": "23",
+      "title": "Q23",
+      "question_text": "23. Let f(x) = log3\n2\nx + log3 16 \u2013 log3 4, for x > 0.\n(a) Show that f(x) = log3 2x.\n(2)\n\n(b) Find the value of f(0.5) and of f(4.5).\n(3)\n\nThe function f can also be written in the form f(x) =\nb\nax\nln\nln .\n(c) (i) Write down the value of a and of b.\n\n(ii) Hence on graph paper, sketch the graph of f, for \u20135 \u2264 x \u2264 5, \u20135 \u2264 y \u2264 5, using a\nscale of 1 cm to 1 unit on each axis.\n\n(iii) Write down the equation of the asymptote.\n(6)\n\n(d) Write down the value of f\u20131(0).\n(1)\n\nThe point A lies on the graph of f. At A, x = 4.5.\n(e) On your diagram, sketch the graph of f\u20131, noting clearly the image of point A.\n(4)\n(Total 16 marks)"
+    },
+    {
+      "id": "t1_math_sl_algebra_q24",
+      "unit": "Topic 1 Number and Algebra",
+      "topic": "Number and Algebra",
+      "subtopic": "Sequences and series",
+      "source_file": "Math_SL_Algebra.pdf",
+      "question_number": "24",
+      "title": "Q24",
+      "question_text": "24. Let f(x) = log3\nx , for x > 0.\n(a) Show that f\u20131(x) = 32x.\n(2)\n\n(b) Write down the range of f\u20131.\n(1)\n\nLet g(x) = log3 x, for x > 0.\n(c) Find the value of (f \u20131 \u00b0 g)(2), giving your answer as an integer.\n(4)\n(Total 7 marks)"
+    },
+    {
+      "id": "t1_math_sl_algebra_q25",
+      "unit": "Topic 1 Number and Algebra",
+      "topic": "Number and Algebra",
+      "subtopic": "Sequences and series",
+      "source_file": "Math_SL_Algebra.pdf",
+      "question_number": "25",
+      "title": "Q25",
+      "question_text": "25. Solve log2x + log2(x \u2013 2) = 3, for x > 2.\n(Total 7 marks)"
+    },
+    {
+      "id": "t1_math_sl_algebra_q26",
+      "unit": "Topic 1 Number and Algebra",
+      "topic": "Number and Algebra",
+      "subtopic": "Sequences and series",
+      "source_file": "Math_SL_Algebra.pdf",
+      "question_number": "26",
+      "title": "Q26",
+      "question_text": "26. (a) Find log2 32.\n(1)\n\n(b) Given that log2\n\uf0f7\uf0f7\n\uf0f8\n\uf0f6\n\uf0e7\uf0e7\n\uf0e8\n\uf0e6\ny\nx\n8\n32 can be written as px + qy, find the value of p and of q.\n(4)\n(Total 5 marks)"
+    },
+    {
+      "id": "t1_math_sl_algebra_q27",
+      "unit": "Topic 1 Number and Algebra",
+      "topic": "Number and Algebra",
+      "subtopic": "Sequences and series",
+      "source_file": "Math_SL_Algebra.pdf",
+      "question_number": "27",
+      "title": "Q27",
+      "question_text": "27. Let f(x) = k log2 x.\n(a) Given that f\u20131(1) = 8, find the value of k.\n(3)\n\n(b) Find f\u20131\n\uf0f7\n\uf0f8\n\uf0f6\uf0e7\n\uf0e8\n\uf0e6\n3\n2 .\n(4)\n(Total 7 marks)"
+    },
+    {
+      "id": "t1_math_sl_algebra_q28",
+      "unit": "Topic 1 Number and Algebra",
+      "topic": "Number and Algebra",
+      "subtopic": "Sequences and series",
+      "source_file": "Math_SL_Algebra.pdf",
+      "question_number": "28",
+      "title": "Q28",
+      "question_text": "28. Solve the following equations.\n(a) logx 49 = 2\n(3)\n\n(b) log2 8 = x\n(2)\n\n(c) log25 x =\n2\n1\uf02d\n(3)\n\n(d) log2 x + log2(x \u2013 7) = 3\n(5)\n(Total 13 marks)"
+    },
+    {
+      "id": "t1_math_sl_algebra_q29",
+      "unit": "Topic 1 Number and Algebra",
+      "topic": "Number and Algebra",
+      "subtopic": "Sequences and series",
+      "source_file": "Math_SL_Algebra.pdf",
+      "question_number": "29",
+      "title": "Q29",
+      "question_text": "29. Given that p = loga 5, q = loga 2, express the following in terms of p and/or q.\n(a) loga 10\n\n(b) loga 8\n\n(c) loga 2.5\n(Total 6 marks)"
+    },
+    {
+      "id": "t1_math_sl_algebra_q30",
+      "unit": "Topic 1 Number and Algebra",
+      "topic": "Number and Algebra",
+      "subtopic": "Sequences and series",
+      "source_file": "Math_SL_Algebra.pdf",
+      "question_number": "30",
+      "title": "Q30",
+      "question_text": "30. (a) Expand\n4\ne\n1e \uf0f7\n\uf0f8\n\uf0f6\uf0e7\n\uf0e8\n\uf0e6 \uf02b in terms of e.\n(4)\n(b) Express\n4\ne\n1e \uf0f7\n\uf0f8\n\uf0f6\uf0e7\n\uf0e8\n\uf0e6 \uf02b +\n4\ne\n1e \uf0f7\n\uf0f8\n\uf0f6\uf0e7\n\uf0e8\n\uf0e6 \uf02d as the sum of three terms.\n(2)\n(Total 6 marks)"
+    },
+    {
+      "id": "t1_math_sl_algebra_q31",
+      "unit": "Topic 1 Number and Algebra",
+      "topic": "Number and Algebra",
+      "subtopic": "Sequences and series",
+      "source_file": "Math_SL_Algebra.pdf",
+      "question_number": "31",
+      "title": "Q31",
+      "question_text": "31. (a) Let logc 3 = p and logc 5 = q. Find an expression in terms of p and q for\n(i) log c 15;\n(ii) log c 25.\n\n(b) Find the value of d if log d 6 =\n2\n1 .\n(Total 6 marks)"
+    },
+    {
+      "id": "t1_math_sl_algebra_q32",
+      "unit": "Topic 1 Number and Algebra",
+      "topic": "Number and Algebra",
+      "subtopic": "Sequences and series",
+      "source_file": "Math_SL_Algebra.pdf",
+      "question_number": "32",
+      "title": "Q32",
+      "question_text": "32. Let ln a = p, ln b = q. Write the following expressions in terms of p and q.\n(a) ln a3b\n(b) ln\n\uf0f7\uf0f7\n\uf0f8\n\uf0f6\n\uf0e7\uf0e7\n\uf0e8\n\uf0e6\nb\na\n(Total 6 marks)"
+    },
+    {
+      "id": "t1_math_sl_algebra_q33",
+      "unit": "Topic 1 Number and Algebra",
+      "topic": "Number and Algebra",
+      "subtopic": "Sequences and series",
+      "source_file": "Math_SL_Algebra.pdf",
+      "question_number": "33",
+      "title": "Q33",
+      "question_text": "33. Find the exact solution of the equation 92x = 27(1\u2013x).\nWorking:\nAnswer:\n....\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026..........\n(Total 6 marks)"
+    },
+    {
+      "id": "t1_math_sl_algebra_q34",
+      "unit": "Topic 1 Number and Algebra",
+      "topic": "Number and Algebra",
+      "subtopic": "Sequences and series",
+      "source_file": "Math_SL_Algebra.pdf",
+      "question_number": "34",
+      "title": "Q34",
+      "question_text": "34. (a) Given that log3 x \u2013 log3 (x \u2013 5) = log3 A, express A in terms of x.\n(b) Hence or otherwise, solve the equation log3 x \u2013 log3 (x \u2013 5) = 1.\nWorking:\nAnswers:\n(a) ..................................................................\n(b) ..................................................................\n\n(Total 6 marks)"
+    },
+    {
+      "id": "t1_math_sl_algebra_q35",
+      "unit": "Topic 1 Number and Algebra",
+      "topic": "Number and Algebra",
+      "subtopic": "Sequences and series",
+      "source_file": "Math_SL_Algebra.pdf",
+      "question_number": "35",
+      "title": "Q35",
+      "question_text": "35. Consider the expansion of (x + 2)11.\n(a) Write down the number of terms in this expansion.\n(1)\n\n(b) Find the term containing x2.\n(4)\n(Total 5 marks)"
+    },
+    {
+      "id": "t1_math_sl_algebra_q36",
+      "unit": "Topic 1 Number and Algebra",
+      "topic": "Number and Algebra",
+      "subtopic": "Sequences and series",
+      "source_file": "Math_SL_Algebra.pdf",
+      "question_number": "36",
+      "title": "Q36",
+      "question_text": "36. (a) Expand (2 + x)4 and simplify your result.\n(3)\n(b) Hence, find the term in x2 in (2 + x)4\n\uf0f7\n\uf0f8\n\uf0f6\uf0e7\n\uf0e8\n\uf0e6 \uf02b 2\n11\nx .\n(3)\n(Total 6 marks)"
+    },
+    {
+      "id": "t1_math_sl_algebra_q37",
+      "unit": "Topic 1 Number and Algebra",
+      "topic": "Number and Algebra",
+      "subtopic": "Sequences and series",
+      "source_file": "Math_SL_Algebra.pdf",
+      "question_number": "37",
+      "title": "Q37",
+      "question_text": "37. Find the term in x4 in the expansion of\n5\n2 23 \uf0f7\n\uf0f8\n\uf0f6\uf0e7\n\uf0e8\n\uf0e6 \uf02d xx .\n(Total 6 marks)"
+    },
+    {
+      "id": "t1_math_sl_algebra_q38",
+      "unit": "Topic 1 Number and Algebra",
+      "topic": "Number and Algebra",
+      "subtopic": "Sequences and series",
+      "source_file": "Math_SL_Algebra.pdf",
+      "question_number": "38",
+      "title": "Q38",
+      "question_text": "38. The fifth term in the expansion of the binomial (a + b)n is given by\n46 )2(4\n10 qp\uf0f7\uf0f7\n\uf0f8\n\uf0f6\n\uf0e7\uf0e7\n\uf0e8\n\uf0e6 .\n(a) Write down the value of n.\n(1)\n\n(b) Write down a and b, in terms of p and/or q.\n(2)\n\n(c) Write down an expression for the sixth term in the expansion.\n(3)\n(Total 6 marks)"
+    },
+    {
+      "id": "t1_math_sl_algebra_q39",
+      "unit": "Topic 1 Number and Algebra",
+      "topic": "Number and Algebra",
+      "subtopic": "Sequences and series",
+      "source_file": "Math_SL_Algebra.pdf",
+      "question_number": "39",
+      "title": "Q39",
+      "question_text": "39. Let f(x) = x3 \u2013 4x + 1.\n(a) Expand (x + h)3.\n(2)\n\n(b) Use the formula f\u2032(x) =\nh\nxfhxf\nh\n)()(lim\n0\n\uf02d\uf02b\n\uf0ae to show that the derivative of f(x) is 3x2 \u2013 4.\n(4)\n(c) The tangent to the curve of f at the point P(1, \u20132) is parallel to the tangent at a point Q.\nFind the coordinates of Q.\n(4)\n\n(d) The graph of f is decreasing for p < x < q. Find the value of p and of q.\n(3)\n\n(e) Write down the range of values for the gradient of f.\n(2)\n(Total 15 marks)"
+    },
+    {
+      "id": "t1_math_sl_algebra_q40",
+      "unit": "Topic 1 Number and Algebra",
+      "topic": "Number and Algebra",
+      "subtopic": "Sequences and series",
+      "source_file": "Math_SL_Algebra.pdf",
+      "question_number": "40",
+      "title": "Q40",
+      "question_text": "40. Find the term in x3 in the expansion of\n.33\n2\n8\n\uf0f7\n\uf0f8\n\uf0f6\uf0e7\n\uf0e8\n\uf0e6 \uf02dx\n(Total 5 marks)"
+    },
+    {
+      "id": "t1_math_sl_algebra_q41",
+      "unit": "Topic 1 Number and Algebra",
+      "topic": "Number and Algebra",
+      "subtopic": "Sequences and series",
+      "source_file": "Math_SL_Algebra.pdf",
+      "question_number": "41",
+      "title": "Q41",
+      "question_text": "41. (a) Expand (x \u2013 2)4 and simplify your result.\n(3)\n\n(b) Find the term in x3 in (3x + 4)(x \u2013 2)4.\n(3)\n(Total 6 marks)"
+    },
+    {
+      "id": "t1_math_sl_algebra_q42",
+      "unit": "Topic 1 Number and Algebra",
+      "topic": "Number and Algebra",
+      "subtopic": "Sequences and series",
+      "source_file": "Math_SL_Algebra.pdf",
+      "question_number": "42",
+      "title": "Q42",
+      "question_text": "42. Consider the expansion of the expression (x3 \u2212 3x)6.\n(a) Write down the number of terms in this expansion.\n(b) Find the term in x12.\n(Total 6 marks)"
+    },
+    {
+      "id": "t1_math_sl_algebra_q43",
+      "unit": "Topic 1 Number and Algebra",
+      "topic": "Number and Algebra",
+      "subtopic": "Sequences and series",
+      "source_file": "Math_SL_Algebra.pdf",
+      "question_number": "43",
+      "title": "Q43",
+      "question_text": "43. One of the terms of the expansion of (x + 2y)10 is ax8 y2. Find the value of a.\n(Total 6 marks)"
+    },
+    {
+      "id": "t1_math_sl_algebra_q44",
+      "unit": "Topic 1 Number and Algebra",
+      "topic": "Number and Algebra",
+      "subtopic": "Sequences and series",
+      "source_file": "Math_SL_Algebra.pdf",
+      "question_number": "44",
+      "title": "Q44",
+      "question_text": "44. Consider the expansion of (x2 \u2013 2)5.\n(a) Write down the number of terms in this expansion.\n(b) The first four terms of the expansion in descending powers of x are\nx10 \u2013 10x8 + 40x6 + Ax4 + ...\nFind the value of A.\nWorking:\nAnswers:\n(a) ..................................................................\n(b) ..................................................................\n(Total 6 marks)"
+    },
+    {
+      "id": "t1_math_sl_algebra_q45",
+      "unit": "Topic 1 Number and Algebra",
+      "topic": "Number and Algebra",
+      "subtopic": "Sequences and series",
+      "source_file": "Math_SL_Algebra.pdf",
+      "question_number": "45",
+      "title": "Q45",
+      "question_text": "45. Given that\n\uf028 \uf029\n3\n73 \uf02b = p +\n7q where p and q are integers, find\n(a) p;\n(b) q.\n\nWorking:\nAnswers:\n(a) .................................................\n(b) .................................................\n\n(Total 6 marks)"
+    },
+    {
+      "id": "t1_math_sl_algebra_q46",
+      "unit": "Topic 1 Number and Algebra",
+      "topic": "Number and Algebra",
+      "subtopic": "Sequences and series",
+      "source_file": "Math_SL_Algebra.pdf",
+      "question_number": "46",
+      "title": "Q46",
+      "question_text": "46. When the expression (2 + ax)10 is expanded, the coefficient of the term in x3 is 414 720. Find\nthe value of a.\nWorking:\nAnswer:\n\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026..\n(Total 6 marks)"
+    },
+    {
+      "id": "t1_math_sl_algebra_q47",
+      "unit": "Topic 1 Number and Algebra",
+      "topic": "Number and Algebra",
+      "subtopic": "Sequences and series",
+      "source_file": "Math_SL_Algebra.pdf",
+      "question_number": "47",
+      "title": "Q47",
+      "question_text": "47. Find the term containing x3 in the expansion of (2 \u2013 3x)8.\nWorking:\nAnswer:\n\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026........\n\n(Total 6 marks)"
+    },
+    {
+      "id": "t1_math_sl_algebra_q48",
+      "unit": "Topic 1 Number and Algebra",
+      "topic": "Number and Algebra",
+      "subtopic": "Sequences and series",
+      "source_file": "Math_SL_Algebra.pdf",
+      "question_number": "48",
+      "title": "Q48",
+      "question_text": "48. Find the term containing x10 in the expansion of (5 + 2x2)7.\nWorking:\nAnswer:\n..................................................................\n(Total 6 marks)"
+    },
+    {
+      "id": "t1_math_sl_algebra_q49",
+      "unit": "Topic 1 Number and Algebra",
+      "topic": "Number and Algebra",
+      "subtopic": "Sequences and series",
+      "source_file": "Math_SL_Algebra.pdf",
+      "question_number": "49",
+      "title": "Q49",
+      "question_text": "49. Consider the expansion of\n.1\u20133\n9\n2\n\uf0f7\n\uf0f8\n\uf0f6\uf0e7\n\uf0e8\n\uf0e6\nxx\n(a) How many terms are there in this expansion?\n(b) Find the constant term in this expansion.\nWorking:\nAnswers:\n(a) ..................................................................\n(b) ..................................................................\n(Total 6 marks)"
+    },
+    {
+      "id": "t1_math_sl_algebra_q50",
+      "unit": "Topic 1 Number and Algebra",
+      "topic": "Number and Algebra",
+      "subtopic": "Sequences and series",
+      "source_file": "Math_SL_Algebra.pdf",
+      "question_number": "50",
+      "title": "Q50",
+      "question_text": "50. Find the coefficient of x3 in the expansion of (2 \u2013 x)5.\n\nWorking:\nAnswer:\n......................................................................\n(Total 6 marks)"
+    },
+    {
+      "id": "t1_math_sl_algebra_q51",
+      "unit": "Topic 1 Number and Algebra",
+      "topic": "Number and Algebra",
+      "subtopic": "Sequences and series",
+      "source_file": "Math_SL_Algebra.pdf",
+      "question_number": "51",
+      "title": "Q51",
+      "question_text": "51. Determine the constant term in the expansion of\n.2\u2013\n9\n2 \uf0f7\n\uf0f8\n\uf0f6\uf0e7\n\uf0e8\n\uf0e6\nx\nx\nWorking:\nAnswer:\n....................................................................\n(Total 4 marks)"
+    },
+    {
+      "id": "t1_math_sl_algebra_q52",
+      "unit": "Topic 1 Number and Algebra",
+      "topic": "Number and Algebra",
+      "subtopic": "Sequences and series",
+      "source_file": "Math_SL_Algebra.pdf",
+      "question_number": "52",
+      "title": "Q52",
+      "question_text": "52. Find the coefficient of a3b4 in the expansion of (5a + b)7.\nWorking:\nAnswer:\n......................................................................\n(Total 4 marks)"
+    },
+    {
+      "id": "t1_math_sl_algebra_exp_log_q1",
+      "unit": "Topic 1 Number and Algebra",
+      "topic": "Number and Algebra",
+      "subtopic": "Exponents and logarithms",
+      "source_file": "Math_SL_Algebra_Exp_Log.pdf",
+      "question_number": "1",
+      "title": "Q1",
+      "question_text": "1. Let f(x) = 3 ln x and g(x) = ln 5x3.\n(a) Express g(x) in the form f(x) + ln a, where a\n\uf0ce\n+.\n(4)\n\n(b) The graph of g is a transformation of the graph of f. Give a full geometric description of\nthis transformation.\n(3)\n(Total 7 marks)"
+    },
+    {
+      "id": "t1_math_sl_algebra_exp_log_q2",
+      "unit": "Topic 1 Number and Algebra",
+      "topic": "Number and Algebra",
+      "subtopic": "Exponents and logarithms",
+      "source_file": "Math_SL_Algebra_Exp_Log.pdf",
+      "question_number": "2",
+      "title": "Q2",
+      "question_text": "2. Let f(x) = log3\n2\nx + log3 16 \u2013 log3 4, for x > 0.\n(a) Show that f(x) = log3 2x.\n(2)\n\n(b) Find the value of f(0.5) and of f(4.5).\n(3)\n\nThe function f can also be written in the form f(x) =\nb\nax\nln\nln .\n(c) (i) Write down the value of a and of b.\n\n(ii) Hence on graph paper, sketch the graph of f, for \u20135 \u2264 x \u2264 5, \u20135 \u2264 y \u2264 5, using a\nscale of 1 cm to 1 unit on each axis.\n\n(iii) Write down the equation of the asymptote.\n(6)\n\n(d) Write down the value of f\u20131(0).\n(1)\nMaths SL 2\n\nThe point A lies on the graph of f. At A, x = 4.5.\n(e) On your diagram, sketch the graph of f\u20131, noting clearly the image of point A.\n(4)\n(Total 16 marks)"
+    },
+    {
+      "id": "t1_math_sl_algebra_exp_log_q3",
+      "unit": "Topic 1 Number and Algebra",
+      "topic": "Number and Algebra",
+      "subtopic": "Exponents and logarithms",
+      "source_file": "Math_SL_Algebra_Exp_Log.pdf",
+      "question_number": "3",
+      "title": "Q3",
+      "question_text": "3. Let f(x) = log3\nx , for x > 0.\n(a) Show that f\u20131(x) = 32x.\n(2)\n\n(b) Write down the range of f\u20131.\n(1)\n\nLet g(x) = log3 x, for x > 0.\n(c) Find the value of (f \u20131 \u00b0 g)(2), giving your answer as an integer.\n(4)\n(Total 7 marks)"
+    },
+    {
+      "id": "t1_math_sl_algebra_exp_log_q4",
+      "unit": "Topic 1 Number and Algebra",
+      "topic": "Number and Algebra",
+      "subtopic": "Exponents and logarithms",
+      "source_file": "Math_SL_Algebra_Exp_Log.pdf",
+      "question_number": "4",
+      "title": "Q4",
+      "question_text": "4. Solve log2x + log2(x \u2013 2) = 3, for x > 2.\n(Total 7 marks)"
+    },
+    {
+      "id": "t1_math_sl_algebra_exp_log_q5",
+      "unit": "Topic 1 Number and Algebra",
+      "topic": "Number and Algebra",
+      "subtopic": "Exponents and logarithms",
+      "source_file": "Math_SL_Algebra_Exp_Log.pdf",
+      "question_number": "5",
+      "title": "Q5",
+      "question_text": "5. (a) Find log2 32.\n(1)\n\n(b) Given that log2\n\uf0f7\uf0f7\n\uf0f8\n\uf0f6\n\uf0e7\uf0e7\n\uf0e8\n\uf0e6\ny\nx\n8\n32 can be written as px + qy, find the value of p and of q.\n(4)\n(Total 5 marks)"
+    },
+    {
+      "id": "t1_math_sl_algebra_exp_log_q6",
+      "unit": "Topic 1 Number and Algebra",
+      "topic": "Number and Algebra",
+      "subtopic": "Exponents and logarithms",
+      "source_file": "Math_SL_Algebra_Exp_Log.pdf",
+      "question_number": "6",
+      "title": "Q6",
+      "question_text": "6. Let f(x) = k log2 x.\nMaths SL 3\n(a) Given that f\u20131(1) = 8, find the value of k.\n(3)\n\n(b) Find f\u20131\n\uf0f7\n\uf0f8\n\uf0f6\uf0e7\n\uf0e8\n\uf0e6\n3\n2 .\n(4)\n(Total 7 marks)"
+    },
+    {
+      "id": "t1_math_sl_algebra_exp_log_q7",
+      "unit": "Topic 1 Number and Algebra",
+      "topic": "Number and Algebra",
+      "subtopic": "Exponents and logarithms",
+      "source_file": "Math_SL_Algebra_Exp_Log.pdf",
+      "question_number": "7",
+      "title": "Q7",
+      "question_text": "7. Solve the following equations.\n(a) logx 49 = 2\n(3)\n\n(b) log2 8 = x\n(2)\n\n(c) log25 x =\n2\n1\u2212\n(3)\n\n(d) log2 x + log2(x \u2013 7) = 3\n(5)\n(Total 13 marks)"
+    },
+    {
+      "id": "t1_math_sl_algebra_exp_log_q8",
+      "unit": "Topic 1 Number and Algebra",
+      "topic": "Number and Algebra",
+      "subtopic": "Exponents and logarithms",
+      "source_file": "Math_SL_Algebra_Exp_Log.pdf",
+      "question_number": "8",
+      "title": "Q8",
+      "question_text": "8. Given that p = loga 5, q = loga 2, express the following in terms of p and/or q.\n(a) loga 10\n\n(b) loga 8\nMaths SL 4\n\n(c) loga 2.5\n(Total 6 marks)"
+    },
+    {
+      "id": "t1_math_sl_algebra_exp_log_q9",
+      "unit": "Topic 1 Number and Algebra",
+      "topic": "Number and Algebra",
+      "subtopic": "Exponents and logarithms",
+      "source_file": "Math_SL_Algebra_Exp_Log.pdf",
+      "question_number": "9",
+      "title": "Q9",
+      "question_text": "9. (a) Let logc 3 = p and logc 5 = q. Find an expression in terms of p and q for\n(i) log c 15;\n(ii) log c 25.\n(b) Find the value of d if log d 6 =\n2\n1 .\n(Total 6 marks)"
+    },
+    {
+      "id": "t1_math_sl_algebra_exp_log_q10",
+      "unit": "Topic 1 Number and Algebra",
+      "topic": "Number and Algebra",
+      "subtopic": "Exponents and logarithms",
+      "source_file": "Math_SL_Algebra_Exp_Log.pdf",
+      "question_number": "10",
+      "title": "Q10",
+      "question_text": "10. Let ln a = p, ln b = q. Write the following expressions in terms of p and q.\n(a) ln a3b\n(b) ln\n\uf0f7\uf0f7\n\uf0f8\n\uf0f6\n\uf0e7\uf0e7\n\uf0e8\n\uf0e6\nb\na\n(Total 6 marks)"
+    },
+    {
+      "id": "t1_math_sl_algebra_exp_log_q11",
+      "unit": "Topic 1 Number and Algebra",
+      "topic": "Number and Algebra",
+      "subtopic": "Exponents and logarithms",
+      "source_file": "Math_SL_Algebra_Exp_Log.pdf",
+      "question_number": "11",
+      "title": "Q11",
+      "question_text": "11. Find the exact solution of the equation 92x = 27(1\u2013x).\nWorking:\nAnswer:\n....\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026..........\n(Total 6 marks)\n\nMaths SL 5"
+    },
+    {
+      "id": "t1_math_sl_algebra_exp_log_q12",
+      "unit": "Topic 1 Number and Algebra",
+      "topic": "Number and Algebra",
+      "subtopic": "Exponents and logarithms",
+      "source_file": "Math_SL_Algebra_Exp_Log.pdf",
+      "question_number": "12",
+      "title": "Q12",
+      "question_text": "12. (a) Given that log3 x \u2013 log3 (x \u2013 5) = log3 A, express A in terms of x.\n(b) Hence or otherwise, solve the equation log3 x \u2013 log3 (x \u2013 5) = 1.\nWorking:\nAnswers:\n(a) ..................................................................\n(b) ..................................................................\n(Total 6 marks)\n\nMaths SL 6"
+    },
+    {
+      "id": "t1_math_sl_algebra_exp_log_q13",
+      "unit": "Topic 1 Number and Algebra",
+      "topic": "Number and Algebra",
+      "subtopic": "Exponents and logarithms",
+      "source_file": "Math_SL_Algebra_Exp_Log.pdf",
+      "question_number": "13",
+      "title": "Q13",
+      "question_text": "13. Let p = log10 x, q = log10 y and r = log10 z.\nWrite the expression log10\n\uf0f7\uf0f7\n\uf0f8\n\uf0f6\n\uf0e7\uf0e7\n\uf0e8\n\uf0e6\nzy\nx\n2 in terms of p, q and r.\nWorking:\nAnswer:\n\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026..\n(Total 6 marks)\n\nMaths SL 7"
+    },
+    {
+      "id": "t1_math_sl_algebra_exp_log_q14",
+      "unit": "Topic 1 Number and Algebra",
+      "topic": "Number and Algebra",
+      "subtopic": "Exponents and logarithms",
+      "source_file": "Math_SL_Algebra_Exp_Log.pdf",
+      "question_number": "14",
+      "title": "Q14",
+      "question_text": "14. Let a = log x, b = log y, and c = log z.\nWrite log\n\uf0f7\n\uf0f7\n\uf0f8\n\uf0f6\n\uf0e7\n\uf0e7\n\uf0e8\n\uf0e6\n3\n2\nz\nyx in terms of a, b and c.\nWorking:\nAnswer:\n\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026........\n(Total 6 marks)\n\nMaths SL 8"
+    },
+    {
+      "id": "t1_math_sl_algebra_exp_log_q15",
+      "unit": "Topic 1 Number and Algebra",
+      "topic": "Number and Algebra",
+      "subtopic": "Exponents and logarithms",
+      "source_file": "Math_SL_Algebra_Exp_Log.pdf",
+      "question_number": "15",
+      "title": "Q15",
+      "question_text": "15. Given that log5 x = y, express each of the following in terms of y.\n(a) log5 x2\n(b) log5\n\uf0f7\n\uf0f8\n\uf0f6\uf0e7\n\uf0e8\n\uf0e6\nx\n1\n(c) log25 x\nWorking:\nAnswers:\n(a) ..................................................................\n(b) ..................................................................\n(c) ..................................................................\n(Total 6 marks)"
+    },
+    {
+      "id": "t1_math_sl_algebra_exp_log_q16",
+      "unit": "Topic 1 Number and Algebra",
+      "topic": "Number and Algebra",
+      "subtopic": "Exponents and logarithms",
+      "source_file": "Math_SL_Algebra_Exp_Log.pdf",
+      "question_number": "16",
+      "title": "Q16",
+      "question_text": "16. Solve the equation log27 x = 1 \u2013 log27 (x \u2013 0.4).\nWorking:\nAnswer:\n......................................................................\n(Total 6 marks)\n\nMaths SL 9"
+    },
+    {
+      "id": "t1_math_sl_algebra_exp_log_q17",
+      "unit": "Topic 1 Number and Algebra",
+      "topic": "Number and Algebra",
+      "subtopic": "Exponents and logarithms",
+      "source_file": "Math_SL_Algebra_Exp_Log.pdf",
+      "question_number": "17",
+      "title": "Q17",
+      "question_text": "17. Solve the equation log9 81 + log9\n9\n1 + log9 3 = log9 x.\nWorking:\nAnswer:\n.......................................................................\n(Total 4 marks)"
+    },
+    {
+      "id": "t1_math_sl_algebra_exp_log_q18",
+      "unit": "Topic 1 Number and Algebra",
+      "topic": "Number and Algebra",
+      "subtopic": "Exponents and logarithms",
+      "source_file": "Math_SL_Algebra_Exp_Log.pdf",
+      "question_number": "18",
+      "title": "Q18",
+      "question_text": "18. Let log10P = x , log10Q = y and log10R = z. Express\n2\n310log \uf0f7\uf0f7\n\uf0f8\n\uf0f6\n\uf0e7\uf0e7\n\uf0e8\n\uf0e6\nQR\nP in terms of x , y and z.\nWorking:\nAnswer:\n....................................................................\n(Total 4 marks)\n\nMaths SL 10"
+    },
+    {
+      "id": "t1_math_sl_algebra_exp_log_q19",
+      "unit": "Topic 1 Number and Algebra",
+      "topic": "Number and Algebra",
+      "subtopic": "Exponents and logarithms",
+      "source_file": "Math_SL_Algebra_Exp_Log.pdf",
+      "question_number": "19",
+      "title": "Q19",
+      "question_text": "19. If loga 2 = x and loga 5 = y, find in terms of x and y, expressions for\n(a) log2 5;\n(b) loga 20.\nWorking:\nAnswers:\n(a) ..................................................................\n(b) ..................................................................\n(Total 4 marks)"
+    },
+    {
+      "id": "t1_math_sl_algebra_exp_log_q20",
+      "unit": "Topic 1 Number and Algebra",
+      "topic": "Number and Algebra",
+      "subtopic": "Exponents and logarithms",
+      "source_file": "Math_SL_Algebra_Exp_Log.pdf",
+      "question_number": "20",
+      "title": "Q20",
+      "question_text": "20. Solve the equation 9x\u20131 =\n.3\n1\n2x\n\uf0f7\uf0f8\n\uf0f6\uf0e7\uf0e8\n\uf0e6\nWorking:\nAnswer:\n......................................................................\n(Total 4 marks)\n\nMaths SL 11"
+    },
+    {
+      "id": "t1_math_sl_algebra_exp_log_q21",
+      "unit": "Topic 1 Number and Algebra",
+      "topic": "Number and Algebra",
+      "subtopic": "Exponents and logarithms",
+      "source_file": "Math_SL_Algebra_Exp_Log.pdf",
+      "question_number": "21",
+      "title": "Q21",
+      "question_text": "21. Solve the equation 43x\u20131 = 1.5625 \u00d7 10\u20132.\nWorking:\nAnswer:\n......................................................................\n(Total 4 marks)"
+    },
+    {
+      "id": "t1_topic_1_2_algebra_exponents_logarithms_2023_q1",
+      "unit": "Topic 1 Number and Algebra",
+      "topic": "Number and Algebra",
+      "subtopic": "Exponents and logarithms",
+      "source_file": "Topic_1_2_Algebra_Exponents_Logarithms_2023.pdf",
+      "question_number": "1",
+      "title": "Q1",
+      "question_text": "1. Solve the equation 22x+2 \u2013 10 \u00d7 2x + 4 = 0, x\n\uf0ce\n.\n(Total 6 marks)"
+    },
+    {
+      "id": "t1_topic_1_2_algebra_exponents_logarithms_2023_q2",
+      "unit": "Topic 1 Number and Algebra",
+      "topic": "Number and Algebra",
+      "subtopic": "Exponents and logarithms",
+      "source_file": "Topic_1_2_Algebra_Exponents_Logarithms_2023.pdf",
+      "question_number": "2",
+      "title": "Q2",
+      "question_text": "2. Solve the equation log3(x + 17) \u2013 2 = log3 2x.\n(Total 5 marks)"
+    },
+    {
+      "id": "t1_topic_1_2_algebra_exponents_logarithms_2023_q3",
+      "unit": "Topic 1 Number and Algebra",
+      "topic": "Number and Algebra",
+      "subtopic": "Exponents and logarithms",
+      "source_file": "Topic_1_2_Algebra_Exponents_Logarithms_2023.pdf",
+      "question_number": "3",
+      "title": "Q3",
+      "question_text": "3. Given that 4 ln 2 \u2013 3ln 4 = \u2013ln k, find the value of k.\n(Total 5 marks)"
+    },
+    {
+      "id": "t1_topic_1_2_algebra_exponents_logarithms_2023_q4",
+      "unit": "Topic 1 Number and Algebra",
+      "topic": "Number and Algebra",
+      "subtopic": "Exponents and logarithms",
+      "source_file": "Topic_1_2_Algebra_Exponents_Logarithms_2023.pdf",
+      "question_number": "4",
+      "title": "Q4",
+      "question_text": "4. Write ln (x2 \u2013 1) \u2013 2 ln(x + 1) + ln(x2 + x) as a single logarithm, in its simplest form.\n(Total 5 marks)"
+    },
+    {
+      "id": "t1_topic_1_2_algebra_exponents_logarithms_2023_q5",
+      "unit": "Topic 1 Number and Algebra",
+      "topic": "Number and Algebra",
+      "subtopic": "Exponents and logarithms",
+      "source_file": "Topic_1_2_Algebra_Exponents_Logarithms_2023.pdf",
+      "question_number": "5",
+      "title": "Q5",
+      "question_text": "5. Solve the equations\n\n1ln =y\nx\nln x3 + ln y2 = 5.\n(Total 5 marks)"
+    },
+    {
+      "id": "t1_topic_1_2_algebra_exponents_logarithms_2023_q6",
+      "unit": "Topic 1 Number and Algebra",
+      "topic": "Number and Algebra",
+      "subtopic": "Exponents and logarithms",
+      "source_file": "Topic_1_2_Algebra_Exponents_Logarithms_2023.pdf",
+      "question_number": "6",
+      "title": "Q6",
+      "question_text": "6. Solve the following system of equations.\nlogx+1 y = 2\nlogy+1 x =\n4\n1\n(Total 6 marks)"
+    },
+    {
+      "id": "t1_topic_1_4_algebra_mathematical_induction_q1",
+      "unit": "Topic 1 Number and Algebra",
+      "topic": "Number and Algebra",
+      "subtopic": "Proof by induction",
+      "source_file": "Topic_1_4_Algebra_Mathematical_Induction.pdf",
+      "question_number": "1",
+      "title": "Q1",
+      "question_text": "1. (a) The independent random variables X and Y have Poisson distributions and Z = X + Y. The\nmeans of X and Y are \uf06c and \uf06d respectively. By using the identity\n\n\uf028 \uf029 \uf028 \uf029 \uf028 \uf029\uf0e5\n\uf03d\n\uf02d\uf03d\uf03d\uf03d\uf03d\nn\nk\nknYkXnZ\n0\nPPP\nshow that Z has a Poisson distribution with mean (\uf06c + \uf06d).\n(6)\n\n(b) Given that U1, U2, U3, \u2026 are independent Poisson random variables each having mean m,\nuse mathematical induction together with the result in (a) to show that\n\uf0e5\n\uf03d\nn\nr\nrU\n1 has a\nPoisson distribution with mean nm.\n(6)\n(Total 12 marks)"
+    },
+    {
+      "id": "t1_topic_1_4_algebra_mathematical_induction_q2",
+      "unit": "Topic 1 Number and Algebra",
+      "topic": "Number and Algebra",
+      "subtopic": "Proof by induction",
+      "source_file": "Topic_1_4_Algebra_Mathematical_Induction.pdf",
+      "question_number": "2",
+      "title": "Q2",
+      "question_text": "2. (a) Find the sum of the infinite geometric sequence 27, \u22129, 3, \u22121, ... .\n(3)\n\n(b) Use mathematical induction to prove that for n\uf0ce\n+,\na + ar + ar2 + ... + arn\u20131 =\n\uf028 \uf029.1\n1\nr\nra n\n\uf02d\n\uf02d\n(7)\n(Total 10 marks)"
+    },
+    {
+      "id": "t1_topic_1_4_algebra_mathematical_induction_q3",
+      "unit": "Topic 1 Number and Algebra",
+      "topic": "Number and Algebra",
+      "subtopic": "Proof by induction",
+      "source_file": "Topic_1_4_Algebra_Mathematical_Induction.pdf",
+      "question_number": "3",
+      "title": "Q3",
+      "question_text": "3. The function f is defined by f (x) = x e2x.\nIt can be shown that f (n) (x) = (2n x + n 2n\u22121) e2x for all n\uf0ce\n+, where f (n) (x) represents the nth\nderivative of f (x).\n(a) By considering f (n) (x) for n =1 and n = 2, show that there is one minimum point P on the\ngraph of f, and find the coordinates of P.\n(7)\n\n(b) Show that f has a point of inflexion Q at x = \u22121.\n(5)\n\n(c) Determine the intervals on the domain of f where f is\n(i) concave up;\n(ii) concave down.\n(2)\n\n(d) Sketch f, clearly showing any intercepts, asymptotes and the points P and Q.\n(4)\n\n(e) Use mathematical induction to prove that f (n) (x) = (2nx + n2n\u22121) e2x for all n\uf0ce\n+, where\nf (n) (x) represents the nth derivative of f (x).\n(9)\n(Total 27 marks)"
+    },
+    {
+      "id": "t1_topic_1_4_algebra_mathematical_induction_q4",
+      "unit": "Topic 1 Number and Algebra",
+      "topic": "Number and Algebra",
+      "subtopic": "Proof by induction",
+      "source_file": "Topic_1_4_Algebra_Mathematical_Induction.pdf",
+      "question_number": "4",
+      "title": "Q4",
+      "question_text": "4. (a) The sum of the first six terms of an arithmetic series is 81. The sum of its first eleven\nterms is 231. Find the first term and the common difference.\n(6)\n\n(b) The sum of the first two terms of a geometric series is 1 and the sum of its first four terms\nis 5. If all of its terms are positive, find the first term and the common ratio.\n(5)\n\n(c) The rth term of a new series is defined as the product of the rth term of the arithmetic\nseries and the rth term of the geometric series above. Show that the rth term of this new\nseries is (r + 1)2r\u20131.\n(3)\n\n(d) Using mathematical induction, prove that\n\n\uf0ce\uf03d\uf02b\uf0e5\n\uf03d\n\uf02d nnr\nn\nr\nnr ,22)1(\n1\n1\n+.\n(7)\n(Total 21 marks)"
+    },
+    {
+      "id": "t1_topic_1_4_algebra_mathematical_induction_q5",
+      "unit": "Topic 1 Number and Algebra",
+      "topic": "Number and Algebra",
+      "subtopic": "Proof by induction",
+      "source_file": "Topic_1_4_Algebra_Mathematical_Induction.pdf",
+      "question_number": "5",
+      "title": "Q5",
+      "question_text": "5. Prove by mathematical induction\n\uf0ce\uf02d\uf02b\uf03d\uf0e5\n\uf03d\nn\nr\nnnrr\n1\n,1)!1()!(\n+.\n(Total 8 marks)"
+    },
+    {
+      "id": "t1_topic_1_4_algebra_mathematical_induction_q6",
+      "unit": "Topic 1 Number and Algebra",
+      "topic": "Number and Algebra",
+      "subtopic": "Proof by induction",
+      "source_file": "Topic_1_4_Algebra_Mathematical_Induction.pdf",
+      "question_number": "6",
+      "title": "Q6",
+      "question_text": "6. (a) A particle P moves in a straight line with displacement relative to origin given by\ns = 2 sin (\u03c0t) + sin(2\u03c0t), t \u2265 0,\nwhere t is the time in seconds and the displacement is measured in centimetres.\n\n(i) Write down the period of the function s.\n(ii) Find expressions for the velocity, v, and the acceleration, a, of P.\n(iii) Determine all the solutions of the equation v = 0 for 0 \u2264 t \u2264 4.\n(10)\n\n(b) Consider the function\nf(x) = A sin (ax) + B sin (bx), A, a, B, b, x\n\uf0ce\n.\nUse mathematical induction to prove that the (2n)th derivative of f is given by\nf(2n)(x) = (\u20131)n (Aa2n sin (ax) + Bb2n sin (bx)), for all n\n\uf0ce\n+.\n(8)\n(Total 18 marks)"
+    },
+    {
+      "id": "t1_topic_1_4_algebra_mathematical_induction_q7",
+      "unit": "Topic 1 Number and Algebra",
+      "topic": "Number and Algebra",
+      "subtopic": "Proof by induction",
+      "source_file": "Topic_1_4_Algebra_Mathematical_Induction.pdf",
+      "question_number": "7",
+      "title": "Q7",
+      "question_text": "7. (a) Consider the following sequence of equations.\n1 \u00d7 2 =\n3\n1 (1 \u00d7 2 \u00d7 3),\n1 \u00d7 2 + 2 \u00d7 3 =\n3\n1 (2 \u00d7 3 \u00d7 4),\n1 \u00d7 2 + 2 \u00d7 3 + 3 \u00d7 4 =\n3\n1 (3 \u00d7 4 \u00d7 5),\n.... .\n\n(i) Formulate a conjecture for the nth equation in the sequence.\n\n(ii) Verify your conjecture for n = 4.\n(2)\n\n(b) A sequence of numbers has the nth term given by un = 2n + 3, n\n\uf0ce\n+. Bill conjectures\nthat all members of the sequence are prime numbers. Show that Bill\u2019s conjecture is false.\n(2)\n\n(c) Use mathematical induction to prove that 5 \u00d7 7n + 1 is divisible by 6 for all n\n\uf0ce\n+.\n(6)\n(Total 10 marks)"
+    },
+    {
+      "id": "t1_topic_1_4_algebra_mathematical_induction_q8",
+      "unit": "Topic 1 Number and Algebra",
+      "topic": "Number and Algebra",
+      "subtopic": "Proof by induction",
+      "source_file": "Topic_1_4_Algebra_Mathematical_Induction.pdf",
+      "question_number": "8",
+      "title": "Q8",
+      "question_text": "8. (a) Show that sin 2 nx = sin((2n + 1)x) cos x \u2013 cos((2n + 1)x) sin x.\n(2)\n\n(b) Hence prove, by induction, that\ncos x + cos 3x + cos 5x + ... + cos((2n \u2013 1)x) =\nx\nnx\nsin2\n2sin ,\nfor all n\n\uf0ce\n+, sin x \u2260 0.\n(12)\n\n(c) Solve the equation cos x + cos 3x =\n2\n1 , 0 < x < \u03c0.\n(6)\n(Total 20 marks)"
+    },
+    {
+      "id": "t1_topic_1_4_algebra_mathematical_induction_q9",
+      "unit": "Topic 1 Number and Algebra",
+      "topic": "Number and Algebra",
+      "subtopic": "Proof by induction",
+      "source_file": "Topic_1_4_Algebra_Mathematical_Induction.pdf",
+      "question_number": "9",
+      "title": "Q9",
+      "question_text": "9. Prove by mathematical induction that, for n\n\uf0ce\n+,\n1 +\n1\n132\n2\n242\n1...2\n142\n132\n12 \uf02d\n\uf02d\n\uf02b\uf02d\uf03d\uf0f7\n\uf0f8\n\uf0f6\uf0e7\n\uf0e8\n\uf0e6\uf02b\uf02b\uf0f7\n\uf0f8\n\uf0f6\uf0e7\n\uf0e8\n\uf0e6\uf02b\uf0f7\n\uf0f8\n\uf0f6\uf0e7\n\uf0e8\n\uf0e6\uf02b\uf0f7\n\uf0f8\n\uf0f6\uf0e7\n\uf0e8\n\uf0e6\nn\nn\nnn .\n(Total 8 marks)"
+    },
+    {
+      "id": "t1_topic_1_5_algebra_complex_numbers_q1",
+      "unit": "Topic 1 Number and Algebra",
+      "topic": "Number and Algebra",
+      "subtopic": "Complex numbers",
+      "source_file": "Topic_1_5_Algebra_Complex_Numbers.rtf",
+      "question_number": "1",
+      "title": "Q1",
+      "question_text": "1. (a) Use de Moivre\u2019s theorem to find the roots of the equation z4 = 1 \u2013 i.\n(6)\n\n(b) Draw these roots on an Argand diagram.\n(2)\n\n(c) If z1 is the root in the first quadrant and z2 is the root in the second quadrant, find in the form a + ib.\n(4)\n(Total 12 marks)"
+    },
+    {
+      "id": "t1_topic_1_5_algebra_complex_numbers_q2",
+      "unit": "Topic 1 Number and Algebra",
+      "topic": "Number and Algebra",
+      "subtopic": "Complex numbers",
+      "source_file": "Topic_1_5_Algebra_Complex_Numbers.rtf",
+      "question_number": "2",
+      "title": "Q2",
+      "question_text": "2. Consider w = where z = x + iy, y \u2260 0 and z2 + 1 \u2260 0.\nGiven that Im w = 0, show that = 1.\n(Total 7 marks)"
+    },
+    {
+      "id": "t1_topic_1_5_algebra_complex_numbers_q3",
+      "unit": "Topic 1 Number and Algebra",
+      "topic": "Number and Algebra",
+      "subtopic": "Complex numbers",
+      "source_file": "Topic_1_5_Algebra_Complex_Numbers.rtf",
+      "question_number": "3",
+      "title": "Q3",
+      "question_text": "3. Find, in its simplest form, the argument of (sin\u03b8 + i (1\u2212 cos\u03b8 ))2 where \u03b8 is an acute angle.\n(Total 7 marks)"
+    },
+    {
+      "id": "t1_topic_1_5_algebra_complex_numbers_q4",
+      "unit": "Topic 1 Number and Algebra",
+      "topic": "Number and Algebra",
+      "subtopic": "Complex numbers",
+      "source_file": "Topic_1_5_Algebra_Complex_Numbers.rtf",
+      "question_number": "4",
+      "title": "Q4",
+      "question_text": "4. Given that z1 = 2 and z2 = 1 + are roots of the cubic equation z3 + bz2 + cz + d = 0\nwhere b, c, d ,\n(a) write down the third root, z3, of the equation;\n(1)\n\n(b) find the values of b, c and d;\n(4)\n\n(c) write z2 and z3 in the form rei\u03b8.\n(3)\n(Total 8 marks)"
+    },
+    {
+      "id": "t1_topic_1_5_algebra_complex_numbers_q5",
+      "unit": "Topic 1 Number and Algebra",
+      "topic": "Number and Algebra",
+      "subtopic": "Complex numbers",
+      "source_file": "Topic_1_5_Algebra_Complex_Numbers.rtf",
+      "question_number": "5",
+      "title": "Q5",
+      "question_text": "5. If z is a non-zero complex number, we define L(z) by the equation\nL(z) = ln\u2502z\u2502 + i arg (z), 0 \u2264 arg (z) < 2\u03c0.\n(a) Show that when z is a positive real number, L(z) = ln z.\n(2)\n\n(b) Use the equation to calculate\n(i) L(\u20131);\n(ii) L(1 \u2013 i);\n(iii) L(\u20131 + i).\n(5)\n\n(c) Hence show that the property L(z1z2) = L(z1) + L(z2) does not hold for all values\nof z1 and z2.\n(2)\n(Total 9 marks)"
+    },
+    {
+      "id": "t1_topic_1_5_algebra_complex_numbers_q6",
+      "unit": "Topic 1 Number and Algebra",
+      "topic": "Number and Algebra",
+      "subtopic": "Complex numbers",
+      "source_file": "Topic_1_5_Algebra_Complex_Numbers.rtf",
+      "question_number": "6",
+      "title": "Q6",
+      "question_text": "6. Consider the complex numbers z = 1 + 2i and w = 2 +ai, where a .\nFind a when\n(a) \u2502w\u2502 = 2\u2502z\u2502;\n(3)\n(b) Re (zw) = 2 Im(zw).\n(3)\n(Total 6 marks)"
+    },
+    {
+      "id": "t1_topic_1_5_algebra_complex_numbers_q7",
+      "unit": "Topic 1 Number and Algebra",
+      "topic": "Number and Algebra",
+      "subtopic": "Complex numbers",
+      "source_file": "Topic_1_5_Algebra_Complex_Numbers.rtf",
+      "question_number": "7",
+      "title": "Q7",
+      "question_text": "7. Consider the complex number \u03c9 = , where z = x + iy and i = .\n(a) If \u03c9 = i, determine z in the form z = r cis \u03b8.\n(6)\n\n(b) Prove that \u03c9 = .\n(3)\n\n(c) Hence show that when Re(\u03c9) = 1 the points (x, y) lie on a straight line, l1, and write down its gradient.\n(4)\n\n(d) Given arg (z) = arg(\u03c9) = , find \u2502z\u2502.\n(6)\n(Total 19 marks)"
+    },
+    {
+      "id": "t1_topic_1_5_algebra_complex_numbers_q8",
+      "unit": "Topic 1 Number and Algebra",
+      "topic": "Number and Algebra",
+      "subtopic": "Complex numbers",
+      "source_file": "Topic_1_5_Algebra_Complex_Numbers.rtf",
+      "question_number": "8",
+      "title": "Q8",
+      "question_text": "8. Given that z = cos\u03b8 + i sin \u03b8 show that\n(a) Im +;\n(2)\n\n(b) Re = 0, z \u2260 \u20131.\n(5)\n(Total 7 marks)"
+    },
+    {
+      "id": "t1_topic_1_5_algebra_complex_numbers_q9",
+      "unit": "Topic 1 Number and Algebra",
+      "topic": "Number and Algebra",
+      "subtopic": "Complex numbers",
+      "source_file": "Topic_1_5_Algebra_Complex_Numbers.rtf",
+      "question_number": "9",
+      "title": "Q9",
+      "question_text": "9. Consider \u03c9 = .\n(a) Show that\n(i) \u03c93 = 1;\n(ii) 1 + \u03c9 + \u03c92 = 0.\n(5)\n\n(b) (i) Deduce that ei\u03b8 + = 0.\n(ii) Illustrate this result for \u03b8 = on an Argand diagram.\n(4)\n\n(c) (i) Expand and simplify F(z) = (z \u2013 1)(z \u2013 \u03c9)(z \u2013 \u03c92) where z is a complex number.\n\n(ii) Solve F(z) = 7, giving your answers in terms of \u03c9.\n(7)\n(Total 16 marks)"
+    },
+    {
+      "id": "t1_topic_1_5_algebra_complex_numbers_q10",
+      "unit": "Topic 1 Number and Algebra",
+      "topic": "Number and Algebra",
+      "subtopic": "Complex numbers",
+      "source_file": "Topic_1_5_Algebra_Complex_Numbers.rtf",
+      "question_number": "10",
+      "title": "Q10",
+      "question_text": "10. The complex numbers z1 = 2 \u2013 2i and z2 = 1 \u2013 are represented by the points A and B respectively on an Argand diagram. Given that O is the origin,\n(a) find AB, giving your answer in the form , where a, b +;\n(3)\n\n(b) calculate in terms of \u03c0.\n(3)\n(Total 6 marks)"
+    },
+    {
+      "id": "t1_topic_1_5_algebra_complex_numbers_q11",
+      "unit": "Topic 1 Number and Algebra",
+      "topic": "Number and Algebra",
+      "subtopic": "Complex numbers",
+      "source_file": "Topic_1_5_Algebra_Complex_Numbers.rtf",
+      "question_number": "11",
+      "title": "Q11",
+      "question_text": "11. Given that = 2 \u2013 i, z , find z in the form a + ib.\n(Total 4 marks)"
+    }
+  ]
+}

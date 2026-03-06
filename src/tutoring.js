@@ -1,116 +1,87 @@
-const STORAGE_KEY = "aahl_tutoring_question_bank_v1";
+const state = {
+  allQuestions: [],
+};
 
-const tutorForm = document.getElementById("tutorForm");
-const titleInput = document.getElementById("titleInput");
-const unitInput = document.getElementById("unitInput");
-const sourceInput = document.getElementById("sourceInput");
-const questionInput = document.getElementById("questionInput");
-const answerInput = document.getElementById("answerInput");
 const searchTutorInput = document.getElementById("searchTutorInput");
-const clearAllBtn = document.getElementById("clearAllBtn");
+const subtopicFilter = document.getElementById("subtopicFilter");
+const sourceFilter = document.getElementById("sourceFilter");
 const tutorCount = document.getElementById("tutorCount");
 const tutorQuestionList = document.getElementById("tutorQuestionList");
 const tutorQuestionTemplate = document.getElementById("tutorQuestionTemplate");
 
-let entries = [];
-
-function loadEntries() {
-  try {
-    const raw = localStorage.getItem(STORAGE_KEY);
-    entries = raw ? JSON.parse(raw) : [];
-  } catch (_error) {
-    entries = [];
-  }
+async function loadData() {
+  const res = await fetch("../data/processed/tutoring_questions.json");
+  const data = await res.json();
+  state.allQuestions = Array.isArray(data.questions) ? data.questions : [];
 }
 
-function saveEntries() {
-  localStorage.setItem(STORAGE_KEY, JSON.stringify(entries));
-}
+function hydrateFilters() {
+  const subtopics = [...new Set(state.allQuestions.map((q) => q.subtopic).filter(Boolean))].sort();
+  const sources = [...new Set(state.allQuestions.map((q) => q.source_file).filter(Boolean))].sort();
 
-function formatDate(iso) {
-  const date = new Date(iso);
-  if (Number.isNaN(date.getTime())) return "Unknown date";
-  return date.toLocaleDateString();
-}
+  subtopics.forEach((subtopic) => {
+    const option = document.createElement("option");
+    option.value = subtopic;
+    option.textContent = subtopic;
+    subtopicFilter.appendChild(option);
+  });
 
-function filteredEntries() {
-  const term = searchTutorInput.value.trim().toLowerCase();
-  if (!term) return entries;
-
-  return entries.filter((entry) => {
-    const text = `${entry.title} ${entry.unit} ${entry.source} ${entry.question} ${entry.answer}`.toLowerCase();
-    return text.includes(term);
+  sources.forEach((source) => {
+    const option = document.createElement("option");
+    option.value = source;
+    option.textContent = source;
+    sourceFilter.appendChild(option);
   });
 }
 
-function renderEntries() {
-  const data = filteredEntries();
-  tutorQuestionList.innerHTML = "";
-  tutorCount.textContent = `${data.length} saved question(s)`;
+function filteredQuestions() {
+  const searchTerm = searchTutorInput.value.trim().toLowerCase();
+  const subtopic = subtopicFilter.value;
+  const source = sourceFilter.value;
 
-  if (data.length === 0) {
-    tutorQuestionList.innerHTML = "<p>No tutor questions saved yet.</p>";
+  return state.allQuestions.filter((q) => {
+    const subtopicMatch = !subtopic || q.subtopic === subtopic;
+    const sourceMatch = !source || q.source_file === source;
+    const text = `${q.title || ""} ${q.question_text || ""} ${q.source_file || ""}`.toLowerCase();
+    const searchMatch = !searchTerm || text.includes(searchTerm);
+    return subtopicMatch && sourceMatch && searchMatch;
+  });
+}
+
+function render() {
+  const questions = filteredQuestions();
+  tutorQuestionList.innerHTML = "";
+  tutorCount.textContent = `${questions.length} question(s)`;
+
+  if (questions.length === 0) {
+    tutorQuestionList.innerHTML = "<p>No matches found.</p>";
     return;
   }
 
-  data.forEach((entry) => {
+  questions.forEach((q) => {
     const node = tutorQuestionTemplate.content.cloneNode(true);
-    node.querySelector(".meta").textContent = `${entry.unit} | ${entry.source || "No source"} | ${formatDate(entry.createdAt)}`;
-    node.querySelector(".title").textContent = entry.title || "Untitled";
-    node.querySelector(".question").textContent = entry.question;
-    node.querySelector(".answer").textContent = entry.answer || "No answer/notes added.";
-
-    const deleteBtn = node.querySelector(".danger-btn");
-    deleteBtn.addEventListener("click", () => {
-      entries = entries.filter((item) => item.id !== entry.id);
-      saveEntries();
-      renderEntries();
-    });
-
+    node.querySelector(".meta").textContent = `${q.topic} | ${q.subtopic} | ${q.source_file}`;
+    node.querySelector(".title").textContent = `${q.title || "Question"} (${q.source_file || "Unknown file"})`;
+    node.querySelector(".question").textContent = q.question_text || "";
     tutorQuestionList.appendChild(node);
   });
 }
 
-function addEntry(event) {
-  event.preventDefault();
-  const randomId =
-    typeof crypto !== "undefined" && crypto.randomUUID
-      ? crypto.randomUUID()
-      : `${Date.now()}_${Math.random().toString(16).slice(2)}`;
-
-  const entry = {
-    id: randomId,
-    createdAt: new Date().toISOString(),
-    title: titleInput.value.trim(),
-    unit: unitInput.value,
-    source: sourceInput.value.trim(),
-    question: questionInput.value.trim(),
-    answer: answerInput.value.trim(),
-  };
-
-  entries.unshift(entry);
-  saveEntries();
-  tutorForm.reset();
-  renderEntries();
-}
-
-function clearAllEntries() {
-  if (!confirm("Delete all saved tutor questions?")) return;
-  entries = [];
-  saveEntries();
-  renderEntries();
-}
-
 function bindEvents() {
-  tutorForm.addEventListener("submit", addEntry);
-  searchTutorInput.addEventListener("input", renderEntries);
-  clearAllBtn.addEventListener("click", clearAllEntries);
+  searchTutorInput.addEventListener("input", render);
+  subtopicFilter.addEventListener("change", render);
+  sourceFilter.addEventListener("change", render);
 }
 
-function start() {
-  loadEntries();
-  bindEvents();
-  renderEntries();
+async function start() {
+  try {
+    await loadData();
+    hydrateFilters();
+    bindEvents();
+    render();
+  } catch (error) {
+    tutorQuestionList.innerHTML = `<p>Failed to load tutoring questions: ${error.message}</p>`;
+  }
 }
 
 start();
