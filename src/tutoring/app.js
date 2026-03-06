@@ -2,7 +2,10 @@ const state = {
   allQuestions: [],
   markschemesById: {},
   markschemeImagesById: {},
+  filteredQuestions: [],
+  visibleCount: 0,
 };
+const PAGE_SIZE = 10;
 
 const searchTutorInput = document.getElementById("searchTutorInput");
 const subtopicFilter = document.getElementById("subtopicFilter");
@@ -10,6 +13,8 @@ const sourceFilter = document.getElementById("sourceFilter");
 const tutorCount = document.getElementById("tutorCount");
 const tutorQuestionList = document.getElementById("tutorQuestionList");
 const tutorQuestionTemplate = document.getElementById("tutorQuestionTemplate");
+const tutorLoadMoreWrap = document.getElementById("tutorLoadMoreWrap");
+const tutorLoadMoreBtn = document.getElementById("tutorLoadMoreBtn");
 
 async function loadData() {
   const [qRes, msRes] = await Promise.all([
@@ -62,63 +67,89 @@ function filteredQuestions() {
   });
 }
 
-function render() {
-  const questions = filteredQuestions();
-  tutorQuestionList.innerHTML = "";
-  tutorCount.textContent = `${questions.length} question(s)`;
+function buildTutorNode(q) {
+  const node = tutorQuestionTemplate.content.cloneNode(true);
+  const questionImagesEl = node.querySelector(".question-images");
+  const markschemeImagesEl = node.querySelector(".markscheme-images");
+  const questionTextEl = node.querySelector(".question");
+  const markschemeTextEl = node.querySelector(".answer");
+  node.querySelector(".meta").textContent = `${q.topic} | ${q.subtopic} | ${q.source_file}`;
+  node.querySelector(".title").textContent = `${q.title || "Question"} (${q.source_file || "Unknown file"})`;
 
-  if (questions.length === 0) {
-    tutorQuestionList.innerHTML = "<p>No matches found.</p>";
+  const qImages = Array.isArray(q.question_image_paths) ? q.question_image_paths : [];
+  if (qImages.length > 0) {
+    qImages.forEach((imgPath, index) => {
+      const img = document.createElement("img");
+      img.src = `/data/tutoring/processed/${imgPath}`;
+      img.alt = `Tutor question ${q.question_number || ""} image ${index + 1}`;
+      img.loading = "lazy";
+      questionImagesEl.appendChild(img);
+    });
+    questionTextEl.hidden = true;
+  } else {
+    questionTextEl.textContent = q.question_text || "";
+    questionTextEl.hidden = false;
+  }
+
+  const msImages = state.markschemeImagesById[q.id] || [];
+  if (msImages.length > 0) {
+    msImages.forEach((imgPath, index) => {
+      const img = document.createElement("img");
+      img.src = `/data/tutoring/processed/${imgPath}`;
+      img.alt = `Tutor markscheme ${q.question_number || ""} image ${index + 1}`;
+      img.loading = "lazy";
+      markschemeImagesEl.appendChild(img);
+    });
+    markschemeTextEl.hidden = true;
+  } else {
+    markschemeTextEl.textContent = state.markschemesById[q.id] || "No markscheme available.";
+    markschemeTextEl.hidden = false;
+  }
+
+  return node;
+}
+
+function updateTutorSummary() {
+  const total = state.filteredQuestions.length;
+  const shown = Math.min(state.visibleCount, total);
+  tutorCount.textContent = total === 0 ? "0 question(s)" : `Showing ${shown} of ${total} question(s)`;
+  tutorLoadMoreWrap.style.display = shown < total ? "block" : "none";
+}
+
+function render(reset = true) {
+  if (reset) {
+    state.filteredQuestions = filteredQuestions();
+    state.visibleCount = Math.min(PAGE_SIZE, state.filteredQuestions.length);
+    tutorQuestionList.innerHTML = "";
+
+    if (state.filteredQuestions.length === 0) {
+      tutorCount.textContent = "0 question(s)";
+      tutorQuestionList.innerHTML = "<p>No matches found.</p>";
+      tutorLoadMoreWrap.style.display = "none";
+      return;
+    }
+
+    state.filteredQuestions.slice(0, state.visibleCount).forEach((q) => {
+      tutorQuestionList.appendChild(buildTutorNode(q));
+    });
+    updateTutorSummary();
     return;
   }
 
-  questions.forEach((q) => {
-    const node = tutorQuestionTemplate.content.cloneNode(true);
-    const questionImagesEl = node.querySelector(".question-images");
-    const markschemeImagesEl = node.querySelector(".markscheme-images");
-    const questionTextEl = node.querySelector(".question");
-    const markschemeTextEl = node.querySelector(".answer");
-    node.querySelector(".meta").textContent = `${q.topic} | ${q.subtopic} | ${q.source_file}`;
-    node.querySelector(".title").textContent = `${q.title || "Question"} (${q.source_file || "Unknown file"})`;
-
-    const qImages = Array.isArray(q.question_image_paths) ? q.question_image_paths : [];
-    if (qImages.length > 0) {
-      qImages.forEach((imgPath, index) => {
-        const img = document.createElement("img");
-        img.src = `/data/tutoring/processed/${imgPath}`;
-        img.alt = `Tutor question ${q.question_number || ""} image ${index + 1}`;
-        img.loading = "lazy";
-        questionImagesEl.appendChild(img);
-      });
-      questionTextEl.hidden = true;
-    } else {
-      questionTextEl.textContent = q.question_text || "";
-      questionTextEl.hidden = false;
-    }
-
-    const msImages = state.markschemeImagesById[q.id] || [];
-    if (msImages.length > 0) {
-      msImages.forEach((imgPath, index) => {
-        const img = document.createElement("img");
-        img.src = `/data/tutoring/processed/${imgPath}`;
-        img.alt = `Tutor markscheme ${q.question_number || ""} image ${index + 1}`;
-        img.loading = "lazy";
-        markschemeImagesEl.appendChild(img);
-      });
-      markschemeTextEl.hidden = true;
-    } else {
-      markschemeTextEl.textContent = state.markschemesById[q.id] || "No markscheme available.";
-      markschemeTextEl.hidden = false;
-    }
-
-    tutorQuestionList.appendChild(node);
+  const currentShown = Math.min(state.visibleCount, state.filteredQuestions.length);
+  const newShown = Math.min(currentShown + PAGE_SIZE, state.filteredQuestions.length);
+  state.filteredQuestions.slice(currentShown, newShown).forEach((q) => {
+    tutorQuestionList.appendChild(buildTutorNode(q));
   });
+  state.visibleCount = newShown;
+  updateTutorSummary();
 }
 
 function bindEvents() {
-  searchTutorInput.addEventListener("input", render);
-  subtopicFilter.addEventListener("change", render);
-  sourceFilter.addEventListener("change", render);
+  searchTutorInput.addEventListener("input", () => render(true));
+  subtopicFilter.addEventListener("change", () => render(true));
+  sourceFilter.addEventListener("change", () => render(true));
+  tutorLoadMoreBtn.addEventListener("click", () => render(false));
 }
 
 async function start() {
@@ -126,7 +157,7 @@ async function start() {
     await loadData();
     hydrateFilters();
     bindEvents();
-    render();
+    render(true);
   } catch (error) {
     tutorQuestionList.innerHTML = `<p>Failed to load tutoring questions: ${error.message}</p>`;
   }
