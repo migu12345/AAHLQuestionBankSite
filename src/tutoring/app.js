@@ -60,9 +60,26 @@ function render() {
 
   questions.forEach((q) => {
     const node = tutorQuestionTemplate.content.cloneNode(true);
+    const questionImagesEl = node.querySelector(".question-images");
+    const questionTextEl = node.querySelector(".question");
     node.querySelector(".meta").textContent = `${q.topic} | ${q.subtopic} | ${q.source_file}`;
     node.querySelector(".title").textContent = `${q.title || "Question"} (${q.source_file || "Unknown file"})`;
-    node.querySelector(".question").textContent = q.question_text || "";
+
+    const qImages = Array.isArray(q.question_image_paths) ? q.question_image_paths : [];
+    if (qImages.length > 0) {
+      qImages.forEach((imgPath, index) => {
+        const img = document.createElement("img");
+        img.src = `/data/tutoring/processed/${imgPath}`;
+        img.alt = `Tutor question ${q.question_number || ""} image ${index + 1}`;
+        img.loading = "lazy";
+        questionImagesEl.appendChild(img);
+      });
+      questionTextEl.hidden = true;
+    } else {
+      questionTextEl.textContent = q.question_text || "";
+      questionTextEl.hidden = false;
+    }
+
     tutorQuestionList.appendChild(node);
   });
 }
