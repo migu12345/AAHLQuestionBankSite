@@ -10,7 +10,7 @@ import sys
 from pathlib import Path
 from typing import Dict, List
 
-ROOT = Path(__file__).resolve().parents[1]
+ROOT = Path(__file__).resolve().parents[2]
 DEPS = ROOT / ".deps"
 if DEPS.exists():
     sys.path.insert(0, str(DEPS))
@@ -18,7 +18,7 @@ if DEPS.exists():
 from pypdf import PdfReader  # type: ignore
 
 SOURCE_DIR = Path("/Users/s933863@aics.espritscholen.nl/Documents/Tutoring Questions/Topic 1 Number and Algebra")
-OUT_FILE = ROOT / "data" / "processed" / "tutoring_questions.json"
+OUT_FILE = ROOT / "data" / "tutoring" / "processed" / "questions.json"
 
 SUBTOPIC_MAP: Dict[str, str] = {
     "Binomila Theorem.pdf": "Binomial theorem",
@@ -145,6 +145,7 @@ def build() -> Dict[str, object]:
 
 def main() -> None:
     payload = build()
+    OUT_FILE.parent.mkdir(parents=True, exist_ok=True)
     OUT_FILE.write_text(json.dumps(payload, indent=2, ensure_ascii=True) + "\n", encoding="utf-8")
     print(f"Wrote {len(payload['questions'])} tutoring questions to {OUT_FILE}")
 

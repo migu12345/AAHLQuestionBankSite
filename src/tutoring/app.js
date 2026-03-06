@@ -10,7 +10,7 @@ const tutorQuestionList = document.getElementById("tutorQuestionList");
 const tutorQuestionTemplate = document.getElementById("tutorQuestionTemplate");
 
 async function loadData() {
-  const res = await fetch("../data/processed/tutoring_questions.json");
+  const res = await fetch("/data/tutoring/processed/questions.json");
   const data = await res.json();
   state.allQuestions = Array.isArray(data.questions) ? data.questions : [];
 }
