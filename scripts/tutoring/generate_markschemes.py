@@ -48,7 +48,7 @@ def detect_method(prompt: str) -> str:
         return "solve"
     if "show that" in p or "prove" in p:
         return "prove"
-    if "expand" in p or "binomial" in p or "coefficient" in p or "term in" in p:
+    if "expand" in p or "expansion" in p or "binomial" in p or "coefficient" in p or "term in" in p:
         return "binomial"
     if "differentiat" in p or "derivative" in p:
         return "differentiate"
@@ -65,77 +65,148 @@ def detect_method(prompt: str) -> str:
     return "general"
 
 
-def worked_steps_for_prompt(prompt: str, marks: int) -> List[str]:
-    method = detect_method(prompt)
-    expr = re.sub(r"\s+", " ", prompt).strip()[:120]
+def normalize_prompt(prompt: str) -> str:
+    text = re.sub(r"\(Total\s+\d+\s+marks?\)", " ", prompt, flags=re.IGNORECASE)
+    text = re.sub(r"\(\d+\)", " ", text)
+    text = re.sub(r"\s+", " ", text).strip()
+    return text
+
+
+def worked_steps_for_prompt(prompt: str, marks: int, context: str = "") -> List[str]:
+    method = detect_method(f"{context} {prompt}")
+    expr = normalize_prompt(prompt)[:120]
 
     templates: Dict[str, List[str]] = {
         "solve": [
-            f"Step 1: Start from the given equation ({expr}) and rearrange into a standard form.",
-            "Step 2: Use substitution/factorisation/inverse operations to isolate the unknown.",
-            "Step 3: Solve all candidates and reject invalid roots using stated restrictions.",
-            "Final answer: state the valid solution set only.",
+            "METHOD 1",
+            f"Start with: {expr}",
+            "Rearrange to standard form: ax^2 + bx + c = 0 (or equivalent).",
+            "Solve using factorisation / substitution / inverse operations.",
+            "For quadratics: x = (-b ± sqrt(b^2 - 4ac)) / (2a).",
+            "Check domain/restrictions and reject invalid roots.",
+            "Final answer: valid solution set.",
+            "",
+            "METHOD 2",
+            "Alternative route: solve simultaneously after substitution or use graph/intersection.",
+            "Confirm both methods give the same valid value(s).",
         ],
         "prove": [
-            f"Step 1: Begin from the required statement context: {expr}.",
-            "Step 2: Apply valid identities and simplify each line clearly.",
-            "Step 3: Arrive exactly at the target expression with no missing steps.",
-            "Conclusion: required result shown.",
+            "METHOD 1",
+            f"Given: {expr}",
+            "Start from one side only and simplify line by line.",
+            "Use identities/algebra legally at each step.",
+            "Reach target form exactly. Therefore, statement is true.",
+            "",
+            "METHOD 2",
+            "Start from the opposite side (or use contradiction).",
+            "Show both sides reduce to the same canonical expression.",
         ],
         "binomial": [
-            f"Step 1: Use binomial theorem on the given expression: {expr}.",
-            "Step 2: Write general term T_(r+1) = nCr * a^(n-r) * b^r and apply the requested condition.",
-            "Step 3: Compute the correct coefficient/term and simplify fully.",
-            "Final answer: required term/expansion/coefficient in simplest form.",
+            "METHOD 1 (general term)",
+            f"Given: {expr}",
+            "Use T_(r+1) = C(n,r) a^(n-r) b^r.",
+            "Match powers to find r (for required x^k term).",
+            "Substitute r and simplify coefficient + term.",
+            "Write final required term/coefficient.",
+            "",
+            "METHOD 2 (partial expansion)",
+            "Expand only the needed leading terms and read required coefficient.",
+            "Cross-check with METHOD 1 result.",
         ],
         "differentiate": [
-            f"Step 1: From {expr}, choose the correct derivative rules.",
-            "Step 2: Differentiate term-by-term with clear chain/product/quotient steps.",
-            "Step 3: Simplify and evaluate any required values/conditions.",
-            "Final answer: derivative/result in final simplified form.",
+            "METHOD 1",
+            f"Given: {expr}",
+            "Apply chain/product/quotient rules as needed.",
+            "d/dx [x^n] = n x^(n-1), d/dx [e^x] = e^x, d/dx [ln x] = 1/x.",
+            "Simplify f'(x), then substitute required x-values.",
+            "State final derivative/result.",
+            "",
+            "METHOD 2 (first principles when requested)",
+            "f'(x) = lim_(h->0) [f(x+h)-f(x)]/h.",
+            "Expand, cancel, factor h, then take the limit.",
         ],
         "integrate": [
-            f"Step 1: Set up integration from the given form: {expr}.",
-            "Step 2: Integrate using the correct technique (standard/substitution/parts).",
-            "Step 3: Apply limits (if any) and simplify exactly.",
-            "Final answer: exact integral value/expression.",
+            "METHOD 1",
+            f"Given: {expr}",
+            "Integrate term-by-term or by substitution.",
+            "∫ x^n dx = x^(n+1)/(n+1) + C, ∫ e^x dx = e^x + C, ∫ (1/x) dx = ln|x| + C.",
+            "Apply limits if definite integral.",
+            "State exact final value.",
+            "",
+            "METHOD 2",
+            "Use geometric/area interpretation when question permits.",
+            "Confirm consistency with analytic result.",
         ],
         "complex": [
-            f"Step 1: Rewrite the complex expression from the prompt ({expr}) in a suitable form.",
-            "Step 2: Apply the required operation (modulus/argument/conjugate/powers).",
-            "Step 3: Simplify and enforce correct quadrant/sign conventions.",
-            "Final answer: complex result in requested form.",
+            "METHOD 1 (Cartesian form)",
+            f"Given: {expr}",
+            "Write z = a + bi and equate real/imaginary parts.",
+            "|z| = sqrt(a^2 + b^2),  arg(z) = atan(b/a) (adjust quadrant).",
+            "Use z̄ = a - bi where needed.",
+            "State final result in requested form.",
+            "",
+            "METHOD 2 (polar form)",
+            "Write z = r(cosθ + i sinθ) = r cisθ.",
+            "Use De Moivre: z^n = r^n cis(nθ), then convert back if needed.",
         ],
         "sequence": [
-            f"Step 1: Identify the sequence model from the prompt ({expr}).",
-            "Step 2: Use the relevant nth-term/sum formula and substitute known values.",
-            "Step 3: Solve for the required term/index/sum and simplify.",
-            "Final answer: requested sequence value.",
+            "METHOD 1 (formula route)",
+            f"Given: {expr}",
+            "Arithmetic: u_n = u_1 + (n-1)d,  S_n = n/2 [2u_1 + (n-1)d].",
+            "Geometric: u_n = u_1 r^(n-1),  S_n = u_1(1-r^n)/(1-r), r ≠ 1.",
+            "Substitute known values and solve systematically.",
+            "State required u_n / S_n / n value.",
+            "",
+            "METHOD 2 (simultaneous equations)",
+            "Use two given terms/sums to form simultaneous equations in unknowns.",
+            "Solve and verify by substitution into original sequence relation.",
         ],
         "logs": [
-            f"Step 1: Apply log/exponential laws to the given expression: {expr}.",
-            "Step 2: Convert to a solvable equation and isolate the variable.",
-            "Step 3: Check all domain restrictions (log arguments > 0).",
-            "Final answer: valid value(s) only.",
+            "METHOD 1 (log laws)",
+            f"Given: {expr}",
+            "Use log rules: log(ab)=log a + log b, log(a^k)=k log a.",
+            "Convert to linear/quadratic form in one variable.",
+            "Apply domain: log(A) defined only if A > 0.",
+            "State valid solution(s) only.",
+            "",
+            "METHOD 2 (exponential form)",
+            "Use log_a x = y  <=>  a^y = x.",
+            "Solve in exponential form, then check domain.",
         ],
         "inverse": [
-            f"Step 1: Start from the function statement ({expr}) and set y = f(x).",
-            "Step 2: Swap x and y, then rearrange for y explicitly.",
-            "Step 3: State any domain/range restrictions for invertibility.",
-            "Final answer: f^(-1)(x) with relevant constraints.",
+            "METHOD 1",
+            f"Given: {expr}",
+            "Set y = f(x), swap x and y.",
+            "Rearrange to y = ... explicitly.",
+            "State domain(f) and range(f) so inverse is valid.",
+            "Final: f^(-1)(x) with restrictions.",
+            "",
+            "METHOD 2",
+            "Check by composition: f(f^(-1)(x)) = x and f^(-1)(f(x)) = x.",
         ],
         "general": [
-            f"Step 1: Parse the requirement from the prompt: {expr}.",
-            "Step 2: Apply the main method with full algebraic working.",
-            "Step 3: Simplify and verify any stated restrictions.",
-            "Final answer: provide the required result clearly.",
+            "METHOD 1",
+            f"Given: {expr}",
+            "Set up equations with clear definitions of variables.",
+            "Show algebraic manipulation line-by-line.",
+            "Simplify and check restrictions/units.",
+            "State final answer clearly.",
+            "",
+            "METHOD 2",
+            "Use an equivalent algebraic route or substitution approach.",
+            "Cross-check final value with METHOD 1.",
         ],
     }
 
     steps = templates[method]
-    # Keep shorter parts concise.
     if marks <= 2:
-        return [steps[0], steps[1], steps[-1]]
+        compact = []
+        for line in steps:
+            if line.startswith("METHOD 2"):
+                break
+            if line:
+                compact.append(line)
+        return compact[:6]
     return steps
 
 
@@ -158,7 +229,7 @@ def build_markscheme_entry(question: Dict[str, object]) -> Dict[str, object]:
 
     part_entries = []
     for (label, prompt), marks in zip(parts, part_marks):
-        lines = worked_steps_for_prompt(prompt, marks)
+        lines = worked_steps_for_prompt(prompt, marks, context=qtext)
         part_entries.append(
             {
                 "part": label,
@@ -170,9 +241,9 @@ def build_markscheme_entry(question: Dict[str, object]) -> Dict[str, object]:
 
     text_lines = []
     for part in part_entries:
-        text_lines.append(f"Part ({part['part']}) [{part['marks']} marks]")
+        text_lines.append(f"Part ({part['part']})")
         for row in part["worked_steps"]:
-            text_lines.append(f"- {row}")
+            text_lines.append(row)
         text_lines.append("")
 
     return {

@@ -33,10 +33,15 @@ def render_svg(title: str, text: str) -> str:
     lines_svg = []
     for line in wrapped:
         content = escape(line) if line else " "
-        weight = "700" if line.startswith("Part (") else "500"
+        is_part = line.startswith("Part (")
+        is_method = line.startswith("METHOD ")
+        looks_math = any(token in line for token in ["=", "^", "sqrt", "∫", "d/dx", "u_n", "S_n", "f^(-1)", "log", "=>", "<=>", "±"])
+        weight = "700" if (is_part or is_method) else "500"
+        fill = "#1d2f57" if (is_part or is_method) else "#1f2a44"
+        font_family = "Cambria Math, STIX Two Math, Times New Roman, serif" if looks_math else "Arial, Helvetica, sans-serif"
         lines_svg.append(
-            f'<text x="70" y="{y}" font-family="Arial, Helvetica, sans-serif" '
-            f'font-size="28" font-weight="{weight}" fill="#1f2a44">{content}</text>'
+            f'<text x="70" y="{y}" font-family="{font_family}" '
+            f'font-size="28" font-weight="{weight}" fill="{fill}">{content}</text>'
         )
         y += line_height
 
