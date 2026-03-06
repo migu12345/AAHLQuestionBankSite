@@ -1291,121 +1291,143 @@
       "unit": "Topic 1 Number and Algebra",
       "topic": "Number and Algebra",
       "subtopic": "Complex numbers",
-      "source_file": "Topic_1_5_Algebra_Complex_Numbers.rtf",
+      "source_file": "Topic_1_5_Algebra_Complex_Numbers.pdf",
       "question_number": "1",
       "title": "Q1",
-      "question_text": "1. (a) Use de Moivre\u2019s theorem to find the roots of the equation z4 = 1 \u2013 i.\n(6)\n\n(b) Draw these roots on an Argand diagram.\n(2)\n\n(c) If z1 is the root in the first quadrant and z2 is the root in the second quadrant, find in the form a + ib.\n(4)\n(Total 12 marks)",
-      "question_image_paths": []
+      "question_text": "1. (a) Use de Moivre \u2019s theorem to find the roots of the equation z4 = 1 \u2013 i.\n(6)\n\n(b) Draw these roots on an Argand diagram.\n(2)\n\n(c) If z1 is the root in the first quadrant and z2 is the root in the second quadrant, find\n1\n2\nz\nz in\nthe form a + ib.\n(4)\n(Total 12 marks)",
+      "question_image_paths": [
+        "images/questions/t1_topic_1_5_algebra_complex_numbers_q1.png"
+      ]
     },
     {
       "id": "t1_topic_1_5_algebra_complex_numbers_q2",
       "unit": "Topic 1 Number and Algebra",
       "topic": "Number and Algebra",
       "subtopic": "Complex numbers",
-      "source_file": "Topic_1_5_Algebra_Complex_Numbers.rtf",
+      "source_file": "Topic_1_5_Algebra_Complex_Numbers.pdf",
       "question_number": "2",
       "title": "Q2",
-      "question_text": "2. Consider w = where z = x + iy, y \u2260 0 and z2 + 1 \u2260 0.\nGiven that Im w = 0, show that = 1.\n(Total 7 marks)",
-      "question_image_paths": []
+      "question_text": "2. Consider w =\n12 +z\nz where z = x + iy, y \uf0b9 0 and z2 + 1 \uf0b9 0.\nGiven that Im w = 0, show that z = 1.\n(Total 7 marks)",
+      "question_image_paths": [
+        "images/questions/t1_topic_1_5_algebra_complex_numbers_q2.png"
+      ]
     },
     {
       "id": "t1_topic_1_5_algebra_complex_numbers_q3",
       "unit": "Topic 1 Number and Algebra",
       "topic": "Number and Algebra",
       "subtopic": "Complex numbers",
-      "source_file": "Topic_1_5_Algebra_Complex_Numbers.rtf",
+      "source_file": "Topic_1_5_Algebra_Complex_Numbers.pdf",
       "question_number": "3",
       "title": "Q3",
-      "question_text": "3. Find, in its simplest form, the argument of (sin\u03b8 + i (1\u2212 cos\u03b8 ))2 where \u03b8 is an acute angle.\n(Total 7 marks)",
-      "question_image_paths": []
+      "question_text": "3. Find, in its simplest form, the argument of (sin\n\uf071 + i (1\u2212 cos\uf071 ))2 where \uf071 is an acute angle.\n(Total 7 marks)",
+      "question_image_paths": [
+        "images/questions/t1_topic_1_5_algebra_complex_numbers_q3.png"
+      ]
     },
     {
       "id": "t1_topic_1_5_algebra_complex_numbers_q4",
       "unit": "Topic 1 Number and Algebra",
       "topic": "Number and Algebra",
       "subtopic": "Complex numbers",
-      "source_file": "Topic_1_5_Algebra_Complex_Numbers.rtf",
+      "source_file": "Topic_1_5_Algebra_Complex_Numbers.pdf",
       "question_number": "4",
       "title": "Q4",
-      "question_text": "4. Given that z1 = 2 and z2 = 1 + are roots of the cubic equation z3 + bz2 + cz + d = 0\nwhere b, c, d ,\n(a) write down the third root, z3, of the equation;\n(1)\n\n(b) find the values of b, c and d;\n(4)\n\n(c) write z2 and z3 in the form rei\u03b8.\n(3)\n(Total 8 marks)",
-      "question_image_paths": []
+      "question_text": "4. Given that z1 = 2 and z2 = 1 +\n3 i are roots of the cubic equation z3 + bz2 + cz + d = 0\nwhere b, c, d \uf0ce ,\n(a) write down the third root, z3, of the equation;\n(1)\n\n(b) find the values of b, c and d;\n(4)\n\n(c) write z2 and z3 in the form rei\u03b8.\n(3)\n(Total 8 marks)",
+      "question_image_paths": [
+        "images/questions/t1_topic_1_5_algebra_complex_numbers_q4.png"
+      ]
     },
     {
       "id": "t1_topic_1_5_algebra_complex_numbers_q5",
       "unit": "Topic 1 Number and Algebra",
       "topic": "Number and Algebra",
       "subtopic": "Complex numbers",
-      "source_file": "Topic_1_5_Algebra_Complex_Numbers.rtf",
+      "source_file": "Topic_1_5_Algebra_Complex_Numbers.pdf",
       "question_number": "5",
       "title": "Q5",
       "question_text": "5. If z is a non-zero complex number, we define L(z) by the equation\nL(z) = ln\u2502z\u2502 + i arg (z), 0 \u2264 arg (z) < 2\u03c0.\n(a) Show that when z is a positive real number, L(z) = ln z.\n(2)\n\n(b) Use the equation to calculate\n(i) L(\u20131);\n(ii) L(1 \u2013 i);\n(iii) L(\u20131 + i).\n(5)\n\n(c) Hence show that the property L(z1z2) = L(z1) + L(z2) does not hold for all values\nof z1 and z2.\n(2)\n(Total 9 marks)",
-      "question_image_paths": []
+      "question_image_paths": [
+        "images/questions/t1_topic_1_5_algebra_complex_numbers_q5.png"
+      ]
     },
     {
       "id": "t1_topic_1_5_algebra_complex_numbers_q6",
       "unit": "Topic 1 Number and Algebra",
       "topic": "Number and Algebra",
       "subtopic": "Complex numbers",
-      "source_file": "Topic_1_5_Algebra_Complex_Numbers.rtf",
+      "source_file": "Topic_1_5_Algebra_Complex_Numbers.pdf",
       "question_number": "6",
       "title": "Q6",
-      "question_text": "6. Consider the complex numbers z = 1 + 2i and w = 2 +ai, where a .\nFind a when\n(a) \u2502w\u2502 = 2\u2502z\u2502;\n(3)\n(b) Re (zw) = 2 Im(zw).\n(3)\n(Total 6 marks)",
-      "question_image_paths": []
+      "question_text": "6. Consider the complex numbers z = 1 + 2i and w = 2 +ai, where a\n\uf0ce .\nFind a when\n(a) \u2502w\u2502 = 2\u2502z\u2502;\n(3)\n(b) Re ( zw) = 2 Im(zw).\n(3)\n(Total 6 marks)",
+      "question_image_paths": [
+        "images/questions/t1_topic_1_5_algebra_complex_numbers_q6.png"
+      ]
     },
     {
       "id": "t1_topic_1_5_algebra_complex_numbers_q7",
       "unit": "Topic 1 Number and Algebra",
       "topic": "Number and Algebra",
       "subtopic": "Complex numbers",
-      "source_file": "Topic_1_5_Algebra_Complex_Numbers.rtf",
+      "source_file": "Topic_1_5_Algebra_Complex_Numbers.pdf",
       "question_number": "7",
       "title": "Q7",
-      "question_text": "7. Consider the complex number \u03c9 = , where z = x + iy and i = .\n(a) If \u03c9 = i, determine z in the form z = r cis \u03b8.\n(6)\n\n(b) Prove that \u03c9 = .\n(3)\n\n(c) Hence show that when Re(\u03c9) = 1 the points (x, y) lie on a straight line, l1, and write down its gradient.\n(4)\n\n(d) Given arg (z) = arg(\u03c9) = , find \u2502z\u2502.\n(6)\n(Total 19 marks)",
-      "question_image_paths": []
+      "question_text": "7. Consider the complex number \u03c9 =\n2\ni\n+\n+\nz\nz , where z = x + iy and i = 1\u2212 .\n(a) If \u03c9 = i, determine z in the form z = r cis \u03b8.\n(6)\n\n(b) Prove that \u03c9 =\n2 2\n2 2\n) 2 (\n) 2 2i() 2 (\ny x\ny x y y x x\n+ +\n+ + + + + +.\n(3)\n\n(c) Hence show that when Re(\u03c9) = 1 the points (x, y) lie on a straight line, l1, and write down\nits gradient.\n(4)\n\n(d) Given arg ( z) = arg(\u03c9) =\n4\n\u03c0 , find \u2502z\u2502.\n(6)\n(Total 19 marks)",
+      "question_image_paths": [
+        "images/questions/t1_topic_1_5_algebra_complex_numbers_q7.png"
+      ]
     },
     {
       "id": "t1_topic_1_5_algebra_complex_numbers_q8",
       "unit": "Topic 1 Number and Algebra",
       "topic": "Number and Algebra",
       "subtopic": "Complex numbers",
-      "source_file": "Topic_1_5_Algebra_Complex_Numbers.rtf",
+      "source_file": "Topic_1_5_Algebra_Complex_Numbers.pdf",
       "question_number": "8",
       "title": "Q8",
-      "question_text": "8. Given that z = cos\u03b8 + i sin \u03b8 show that\n(a) Im +;\n(2)\n\n(b) Re = 0, z \u2260 \u20131.\n(5)\n(Total 7 marks)",
-      "question_image_paths": []
+      "question_text": "8. Given that z = cos\u03b8 + i sin \u03b8 show that\n(a) Im\n\uf0ce =\uf0f7\n\uf0f8\n\uf0f6\uf0e7\n\uf0e8\n\uf0e6 + n\nz\nz\nn\nn , 01 +;\n(2)\n\n(b) Re\n\uf0f7\n\uf0f8\n\uf0f6\uf0e7\n\uf0e8\n\uf0e6\n+\n\u2212\n1\n1\nz\nz\n= 0, z \u2260 \u20131.\n(5)\n(Total 7 marks)",
+      "question_image_paths": [
+        "images/questions/t1_topic_1_5_algebra_complex_numbers_q8.png"
+      ]
     },
     {
       "id": "t1_topic_1_5_algebra_complex_numbers_q9",
       "unit": "Topic 1 Number and Algebra",
       "topic": "Number and Algebra",
       "subtopic": "Complex numbers",
-      "source_file": "Topic_1_5_Algebra_Complex_Numbers.rtf",
+      "source_file": "Topic_1_5_Algebra_Complex_Numbers.pdf",
       "question_number": "9",
       "title": "Q9",
-      "question_text": "9. Consider \u03c9 = .\n(a) Show that\n(i) \u03c93 = 1;\n(ii) 1 + \u03c9 + \u03c92 = 0.\n(5)\n\n(b) (i) Deduce that ei\u03b8 + = 0.\n(ii) Illustrate this result for \u03b8 = on an Argand diagram.\n(4)\n\n(c) (i) Expand and simplify F(z) = (z \u2013 1)(z \u2013 \u03c9)(z \u2013 \u03c92) where z is a complex number.\n\n(ii) Solve F(z) = 7, giving your answers in terms of \u03c9.\n(7)\n(Total 16 marks)",
-      "question_image_paths": []
+      "question_text": "9. Consider \u03c9 =\n\uf0f7\n\uf0f8\n\uf0f6\uf0e7\n\uf0e8\n\uf0e6+\uf0f7\n\uf0f8\n\uf0f6\uf0e7\n\uf0e8\n\uf0e6\n3\n2\u03c0sin i3\n\u03c02cos\n.\n(a) Show that\n(i) \u03c93 = 1;\n(ii) 1 + \u03c9 + \u03c92 = 0.\n(5)\n\n(b) (i) Deduce that e i\u03b8 +\n\uf0f7\n\uf0f8\n\uf0f6\uf0e7\n\uf0e8\n\uf0e6 +\uf0f7\n\uf0f8\n\uf0f6\uf0e7\n\uf0e8\n\uf0e6 +\n+ 3\n\u03c04i\n3\n\u03c02i\ne e\n\uf071 \uf071\n= 0.\n(ii) Illustrate this result for \u03b8 = 2\n\u03c0 on an Argand diagram.\n(4)\n\n(c) (i) Expand and simplify F(z) = (z \u2013 1)(z \u2013 \u03c9)(z \u2013 \u03c92) where z is a complex number.\n\n(ii) Solve F(z) = 7, giving your answers in terms of \u03c9.\n(7)\n(Total 16 marks)",
+      "question_image_paths": [
+        "images/questions/t1_topic_1_5_algebra_complex_numbers_q9.png"
+      ]
     },
     {
       "id": "t1_topic_1_5_algebra_complex_numbers_q10",
       "unit": "Topic 1 Number and Algebra",
       "topic": "Number and Algebra",
       "subtopic": "Complex numbers",
-      "source_file": "Topic_1_5_Algebra_Complex_Numbers.rtf",
+      "source_file": "Topic_1_5_Algebra_Complex_Numbers.pdf",
       "question_number": "10",
       "title": "Q10",
-      "question_text": "10. The complex numbers z1 = 2 \u2013 2i and z2 = 1 \u2013 are represented by the points A and B respectively on an Argand diagram. Given that O is the origin,\n(a) find AB, giving your answer in the form , where a, b +;\n(3)\n\n(b) calculate in terms of \u03c0.\n(3)\n(Total 6 marks)",
-      "question_image_paths": []
+      "question_text": "10. The complex numbers z1 = 2 \u2013 2i and z2 = 1 \u2013\n3 i are represented by the points A and B\nrespectively on an Argand diagram. Given that O is the origin,\n(a) find AB, giving your answer in the form\n3\u2212b a , where a, b \uf0ce +;\n(3)\n\n(b) calculate\nB O\u02c6A in terms of \u03c0.\n(3)\n(Total 6 marks)",
+      "question_image_paths": [
+        "images/questions/t1_topic_1_5_algebra_complex_numbers_q10.png"
+      ]
     },
     {
       "id": "t1_topic_1_5_algebra_complex_numbers_q11",
       "unit": "Topic 1 Number and Algebra",
       "topic": "Number and Algebra",
       "subtopic": "Complex numbers",
-      "source_file": "Topic_1_5_Algebra_Complex_Numbers.rtf",
+      "source_file": "Topic_1_5_Algebra_Complex_Numbers.pdf",
       "question_number": "11",
       "title": "Q11",
-      "question_text": "11. Given that = 2 \u2013 i, z , find z in the form a + ib.\n(Total 4 marks)",
-      "question_image_paths": []
+      "question_text": "11. Given that\n2+z\nz = 2 \u2013 i, z \uf0ce , find z in the form a + ib.\n(Total 4 marks)",
+      "question_image_paths": [
+        "images/questions/t1_topic_1_5_algebra_complex_numbers_q11.png"
+      ]
     }
   ]
 }

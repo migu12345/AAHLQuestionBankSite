@@ -26,7 +26,7 @@ SUBTOPIC_MAP: Dict[str, str] = {
     "Math_SL_Algebra_Exp_Log.pdf": "Exponents and logarithms",
     "Topic_1_2_Algebra_Exponents_Logarithms_2023.pdf": "Exponents and logarithms",
     "Topic_1_4_Algebra_Mathematical_Induction.pdf": "Proof by induction",
-    "Topic_1_5_Algebra_Complex_Numbers.rtf": "Complex numbers",
+    "Topic_1_5_Algebra_Complex_Numbers.pdf": "Complex numbers",
 }
 
 
