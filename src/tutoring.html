@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tutoring Question Bank</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="hero">
+      <div class="hero-row">
+        <h1>Tutoring Question Bank</h1>
+        <a class="hero-link" href="index.html">Back To Main Bank</a>
+      </div>
+      <p>Store custom questions from tutoring sessions.</p>
+    </header>
+
+    <main class="layout tutor-layout">
+      <section class="panel">
+        <h2>Add Tutor Question</h2>
+        <form id="tutorForm" class="tutor-form">
+          <div class="tutor-grid">
+            <label>
+              Title
+              <input id="titleInput" type="text" placeholder="Ex: Vectors question from lesson 8" required />
+            </label>
+            <label>
+              Unit
+              <select id="unitInput">
+                <option value="Number and Algebra">Number and Algebra</option>
+                <option value="Functions">Functions</option>
+                <option value="Geometry and Trigonometry">Geometry and Trigonometry</option>
+                <option value="Statistics and Probability">Statistics and Probability</option>
+                <option value="Calculus">Calculus</option>
+                <option value="Other">Other</option>
+              </select>
+            </label>
+            <label>
+              Source
+              <input id="sourceInput" type="text" placeholder="Ex: Tutor worksheet 4" />
+            </label>
+          </div>
+
+          <label>
+            Question
+            <textarea id="questionInput" rows="6" placeholder="Paste the full question here..." required></textarea>
+          </label>
+
+          <label>
+            Answer / Notes
+            <textarea id="answerInput" rows="5" placeholder="Paste the answer or your notes here..."></textarea>
+          </label>
+
+          <div class="tutor-actions">
+            <button type="submit">Save Question</button>
+            <button id="clearAllBtn" type="button" class="ghost-btn">Clear All</button>
+          </div>
+        </form>
+      </section>
+
+      <section class="panel">
+        <div class="list-header">
+          <h2>Saved Tutor Questions</h2>
+          <input id="searchTutorInput" type="text" placeholder="Search saved questions..." />
+        </div>
+        <p id="tutorCount" class="count-line"></p>
+        <div id="tutorQuestionList" class="question-list"></div>
+      </section>
+    </main>
+
+    <template id="tutorQuestionTemplate">
+      <article class="question-card">
+        <p class="meta"></p>
+        <h3 class="title"></h3>
+        <p class="question"></p>
+        <details>
+          <summary>Answer / Notes</summary>
+          <p class="answer"></p>
+        </details>
+        <button class="danger-btn" type="button">Delete</button>
+      </article>
+    </template>
+
+    <script src="tutoring.js"></script>
+  </body>
+</html>
