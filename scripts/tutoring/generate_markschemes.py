@@ -379,156 +379,27 @@ def infer_answer_lines(prompt: str, context: str) -> Optional[List[str]]:
     return None
 
 
-def worked_steps_for_prompt(prompt: str, marks: int, context: str = "") -> List[str]:
+def compact_symbolic_lines(prompt: str, marks: int, context: str = "") -> List[str]:
     method = detect_method(f"{context} {prompt}")
-    expr = normalize_prompt(prompt)[:120]
-
     templates: Dict[str, List[str]] = {
-        "solve": [
-            "METHOD 1",
-            f"{expr}",
-            "ax² + bx + c = 0",
-            "Δ = b² - 4ac",
-            "x = (-b ± √Δ)/(2a)",
-            "x ∈ domain",
-            "∴ x = {valid roots}",
-            "",
-            "METHOD 2",
-            "substitution / factorisation / simultaneous equations",
-            "⇒ same valid roots",
-        ],
-        "prove": [
-            "METHOD 1",
-            f"{expr}",
-            "LHS = ...",
-            "= ...",
-            "= RHS",
-            "∴ proved",
-            "",
-            "METHOD 2",
-            "RHS = ... = ... = LHS",
-            "∴ proved",
-        ],
-        "binomial": [
-            "METHOD 1 (general term)",
-            f"{expr}",
-            "Use Tᵣ₊₁ = C(n,r) · a^(n-r) · b^r.",
-            "match power(x): n-r = k  or  r = k",
-            "substitute r",
-            "simplify coefficient and term",
-            "∴ required term/coefficient",
-            "",
-            "METHOD 2 (partial expansion)",
-            "(a+b)ⁿ = ... + ... + ...",
-            "read xᵏ term directly",
-            "⇒ same result",
-        ],
-        "differentiate": [
-            "METHOD 1",
-            f"{expr}",
-            "d/dx[xⁿ] = n·xⁿ⁻¹,  d/dx[eˣ] = eˣ,  d/dx[lnx] = 1/x",
-            "chain / product / quotient",
-            "f′(x) = ...",
-            "substitute x = ...",
-            "∴ result",
-            "",
-            "METHOD 2 (first principles when requested)",
-            "f′(x) = lim(h→0) (f(x+h)-f(x))/h.",
-            "expand → cancel → factor h → h→0",
-            "∴ f′(x)",
-        ],
-        "integrate": [
-            "METHOD 1",
-            f"{expr}",
-            "∫xⁿ dx = xⁿ⁺¹/(n+1)+C,  ∫eˣdx = eˣ+C,  ∫(1/x)dx = ln|x|+C",
-            "substitution / parts (if needed)",
-            "apply limits a→b (definite case)",
-            "∴ exact value",
-            "",
-            "METHOD 2",
-            "area / geometric interpretation",
-            "⇒ same value",
-        ],
-        "complex": [
-            "METHOD 1 (Cartesian form)",
-            f"{expr}",
-            "z = a + bi,  z̄ = a - bi",
-            "|z| = √(a²+b²),  arg(z)=atan(b/a) (+ quadrant)",
-            "Re(z)=..., Im(z)=...",
-            "∴ final form",
-            "",
-            "METHOD 2 (polar form)",
-            "Write z = r(cosθ + i sinθ) = r cisθ.",
-            "zⁿ = rⁿ cis(nθ)",
-            "convert to a+bi if required",
-        ],
-        "sequence": [
-            "METHOD 1 (formula route)",
-            f"{expr}",
-            "Arithmetic: uₙ = u₁ + (n-1)d,  Sₙ = n/2[2u₁ + (n-1)d].",
-            "Geometric: uₙ = u₁r^(n-1),  Sₙ = u₁(1-rⁿ)/(1-r), r ≠ 1.",
-            "substitute known values",
-            "solve for unknown (uₙ / Sₙ / n / r / d)",
-            "∴ required value",
-            "",
-            "METHOD 2 (simultaneous equations)",
-            "form simultaneous equations from given terms/sums",
-            "solve system",
-            "⇒ same value",
-        ],
-        "logs": [
-            "METHOD 1 (log laws)",
-            f"{expr}",
-            "Use log rules: log(ab)=log a + log b, log(a^k)=k log a.",
-            "convert to linear/quadratic",
-            "domain: argument > 0",
-            "∴ valid solution set",
-            "",
-            "METHOD 2 (exponential form)",
-            "Use logₐx = y  ⇔  aʸ = x.",
-            "solve then domain check",
-        ],
-        "inverse": [
-            "METHOD 1",
-            f"{expr}",
-            "Set y = f(x), swap x and y.",
-            "x ↔ y",
-            "rearrange: y = ...",
-            "domain/range restrictions",
-            "∴ f⁻¹(x)",
-            "",
-            "METHOD 2",
-            "check: f(f⁻¹(x))=x, f⁻¹(f(x))=x",
-        ],
-        "general": [
-            "METHOD 1",
-            f"{expr}",
-            "set equations",
-            "algebraic simplification",
-            "restriction/domain check",
-            "∴ result",
-            "",
-            "METHOD 2",
-            "alternative substitution/manipulation",
-            "⇒ same result",
-        ],
+        "solve": ["ax²+bx+c=0", "Δ=b²-4ac", "x=(-b±√Δ)/(2a)", "x ∈ domain"],
+        "prove": ["LHS = ...", "= ...", "= RHS", "∴ proved"],
+        "binomial": ["Tᵣ₊₁=C(n,r)·a^(n-r)·b^r", "match power: n-r=k or r=k", "substitute r", "simplify"],
+        "differentiate": ["d/dx[xⁿ]=n·xⁿ⁻¹", "d/dx[eˣ]=eˣ, d/dx[lnx]=1/x", "f′(x)=..."],
+        "integrate": ["∫xⁿdx=xⁿ⁺¹/(n+1)+C", "∫eˣdx=eˣ+C", "∫(1/x)dx=ln|x|+C"],
+        "complex": ["z=a+bi, z̄=a-bi", "|z|=√(a²+b²)", "arg(z)=atan(b/a) (+quadrant)"],
+        "sequence": ["uₙ=u₁+(n-1)d", "Sₙ=n/2[2u₁+(n-1)d]", "uₙ=u₁r^(n-1), Sₙ=u₁(1-rⁿ)/(1-r)"],
+        "logs": ["log(ab)=loga+logb", "log(a^k)=kloga", "logₐx=y ⇔ aʸ=x", "argument>0"],
+        "inverse": ["y=f(x)", "x↔y", "y=...", "f(f⁻¹(x))=x"],
+        "general": ["equation setup", "algebra simplify", "domain/restriction check"],
     }
-
-    steps = templates[method]
+    lines = templates[method][:]
     if marks <= 2:
-        compact = []
-        for line in steps:
-            if line.startswith("METHOD 2"):
-                break
-            if line:
-                compact.append(line)
-        steps = compact[:6]
-
+        lines = lines[:3]
     answer_lines = infer_answer_lines(prompt, context)
     if answer_lines:
-        steps = steps + ["", "ANS"] + answer_lines
-
-    return steps
+        lines += answer_lines
+    return lines
 
 
 def assign_part_marks(parts: List[Tuple[str, str]], total: int, original: str) -> List[int]:
@@ -550,7 +421,7 @@ def build_markscheme_entry(question: Dict[str, object]) -> Dict[str, object]:
 
     part_entries = []
     for (label, prompt), marks in zip(parts, part_marks):
-        lines = worked_steps_for_prompt(prompt, marks, context=qtext)
+        lines = compact_symbolic_lines(prompt, marks, context=qtext)
         part_entries.append(
             {
                 "part": label,
@@ -561,10 +432,18 @@ def build_markscheme_entry(question: Dict[str, object]) -> Dict[str, object]:
         )
 
     text_lines = []
+    qn = question.get("question_number")
+    if qn:
+        text_lines.append(f"{qn}.")
     for part in part_entries:
-        text_lines.append(f"Part ({part['part']})")
-        for row in part["worked_steps"]:
-            text_lines.append(row)
+        text_lines.append(f"({part['part']})")
+        if len(part["worked_steps"]) == 1:
+            text_lines.append(f"  {part['worked_steps'][0]}")
+        else:
+            roman = ["(i)", "(ii)", "(iii)", "(iv)", "(v)", "(vi)"]
+            for i, row in enumerate(part["worked_steps"]):
+                prefix = roman[i] if i < len(roman) else f"({i+1})"
+                text_lines.append(f"  {prefix}  {row}")
         text_lines.append("")
 
     return {
