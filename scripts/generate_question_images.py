@@ -28,6 +28,55 @@ class StartPos:
     y: float
 
 
+def cleaned_alpha_len(text: str) -> int:
+    t = text.lower()
+    t = re.sub(r"\bplease do not write on this page\b", " ", t)
+    t = re.sub(r"\banswers written on this page will not be marked\b", " ", t)
+    t = re.sub(r"\breferences\b", " ", t)
+    t = re.sub(r"\binternational baccalaureate organization\b", " ", t)
+    t = re.sub(r"\bturn over\b", " ", t)
+    t = re.sub(r"\bm\d{2}/5/mathx/hp\d/eng(?:/tz\d)?/xx\b", " ", t)
+    t = re.sub(r"[^a-z]+", "", t)
+    return len(t)
+
+
+def non_white_ratio(page: fitz.Page, clip: fitz.Rect) -> float:
+    # Low-resolution sample to detect mostly blank continuation pages.
+    pix = page.get_pixmap(matrix=fitz.Matrix(0.4, 0.4), clip=clip, alpha=False)
+    data = pix.samples
+    if not data:
+        return 0.0
+    n = pix.n
+    if n < 3:
+        return 0.0
+
+    non_white = 0
+    total = pix.width * pix.height
+    for i in range(0, len(data), n):
+        if data[i] < 245 or data[i + 1] < 245 or data[i + 2] < 245:
+            non_white += 1
+    return non_white / max(1, total)
+
+
+def is_mostly_blank_page(page: fitz.Page, clip: fitz.Rect, kind: str, is_first_crop_page: bool) -> bool:
+    if is_first_crop_page:
+        return False
+    text = page.get_text("text", clip=clip)
+    alpha = cleaned_alpha_len(text)
+    density = non_white_ratio(page, clip)
+
+    if re.search(r"please do not write on this page", text, flags=re.IGNORECASE):
+        # These are IB answer-space filler pages; always exclude from question crops.
+        return True
+    if re.search(r"answers written on this page will not be marked", text, flags=re.IGNORECASE):
+        return True
+    if re.search(r"\breferences\b", text, flags=re.IGNORECASE) and alpha < 20:
+        return True
+    if kind == "paper":
+        return alpha < 20 and density < 0.035
+    return alpha < 15 and density < 0.03
+
+
 def detect_starts(doc: fitz.Document, kind: str) -> List[StartPos]:
     starts: Dict[int, Tuple[int, float]] = {}
     start_page = 0
@@ -195,6 +244,9 @@ def crop_question(
             continue
 
         clip = fitz.Rect(left, top, right, bottom)
+        if is_mostly_blank_page(page, clip, kind, pno == s.page):
+            continue
+
         pix = page.get_pixmap(matrix=fitz.Matrix(2.0, 2.0), clip=clip, alpha=False)
         if s.page == last_page:
             out_file = out_prefix.with_suffix(".png")
