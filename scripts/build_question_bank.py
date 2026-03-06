@@ -236,207 +236,333 @@ def parse_answers_from_markscheme(path: Path) -> Dict[int, str]:
 
 
 def classify_topic(question_text: str, answer_text: str) -> Tuple[str, str, float, List[str]]:
-    # Use question text as the primary signal.
+    # Question text is primary. Markscheme contributes weak evidence for OCR-damaged prompts.
     q_text_raw = question_text.lower().replace("-", " ")
-    q_text = re.sub(r"[^a-z0-9()'+*/.= ]+", " ", q_text_raw)
+    a_text_raw = answer_text.lower().replace("-", " ")
+    q_text = re.sub(r"[^a-z0-9()'+*/.=,: ]+", " ", q_text_raw)
+    a_text = re.sub(r"[^a-z0-9()'+*/.=,: ]+", " ", a_text_raw)
     q_text = re.sub(r"\s+", " ", q_text).strip()
+    a_text = re.sub(r"\s+", " ", a_text).strip()
+    merged = f"{q_text} {a_text}"
 
-    # Strong anchors from the question itself.
-    if re.search(r"\b(permutation|combination|factorial|ncr|npr|counting principle|arrangements?|combinatorics)\b", q_text):
-        return ("Statistics and Probability", "Discrete and continuous random variables", 0.99, ["anchor:combinatorics"])
-    if re.search(
-        r"\b(number of ways|how many ways|arranged in a grid|placed in the pens|must not be placed|share a boundary|adjacent|arrangement of|choose\s+\d+)\b",
-        q_text,
-    ):
-        return ("Statistics and Probability", "Discrete and continuous random variables", 0.98, ["anchor:counting-constraints"])
-    if re.search(
-        r"\b(random variable|probability density function|probability function|normal distribution|binomial distribution|poisson distribution|hypothesis test|null hypothesis|p value|regression|correlation|expected value|standard deviation|variance|mean|median)\b",
-        q_text,
-    ):
-        return ("Statistics and Probability", "Probability distributions", 0.98, ["anchor:statistics"])
-    if re.search(r"\b(no tied finishes?|finishing orders?|possible outcomes?|possible arrangements?)\b", q_text):
-        return ("Statistics and Probability", "Discrete and continuous random variables", 0.98, ["anchor:counting-cases"])
-    if re.search(r"\b(interquartile range|quartile|box and whisker|outlier|median)\b", q_text):
-        return ("Statistics and Probability", "Probability distributions", 0.98, ["anchor:quartiles"])
-    if re.search(r"\b(differential equation|dy/dx|separable)\b", q_text):
-        return ("Calculus", "Differential equations", 0.98, ["anchor:diffeq"])
-    if re.search(r"\b(maclaurin|taylor series|expansion about x ?= ?0)\b", q_text):
-        return ("Calculus", "Maclaurin series", 0.98, ["anchor:series"])
-    if re.search(r"\b(integrate|integration|integral|antiderivative|area under|area between)\b", q_text):
-        return ("Calculus", "Integration", 0.97, ["anchor:integration"])
-    if re.search(r"\b(limit|lim|continuity|continuous at|as x tends to)\b", q_text):
-        return ("Calculus", "Limits and continuity", 0.97, ["anchor:limits"])
-    if re.search(r"\b(differentiate|differentiation|derivative|chain rule|product rule|quotient rule|tangent|normal to the curve|stationary|rate of change|max(?:imum)?|min(?:imum)?)\b", q_text):
-        return ("Calculus", "Differentiation", 0.97, ["anchor:derivative"])
-    if re.search(r"\b(vector|vectors|triangle|bearing|angle|radian|sin|cos|tan|trigonometric|parallelogram|cartesian equation|line|plane)\b", q_text):
-        return ("Geometry and Trigonometry", "Trigonometric identities and equations", 0.96, ["anchor:geometry"])
-    if re.search(r"\b(sequence|series|arithmetic sequence|geometric sequence|u_n|s_n|summation|induction|complex number|argand|conjugate|modulus|argument|binomial theorem|binomial expansion)\b", q_text):
-        return ("Number and Algebra", "Sequences and series", 0.96, ["anchor:algebra"])
-
-    # (pattern, topic/subtopic, base_weight)
-    weighted_rules: List[Tuple[re.Pattern[str], Tuple[str, str], int]] = [
-        # Statistics and Probability
-        (
-            re.compile(r"\b(permutation|combination|factorial|ncr|npr|counting principle|arrangements?|combinatorics)\b"),
-            ("Statistics and Probability", "Discrete and continuous random variables"),
-            14,
-        ),
+    # Hard anchors for very specific question styles.
+    hard_anchors: List[Tuple[re.Pattern[str], Tuple[str, str], str]] = [
         (
             re.compile(
-                r"\b(number of ways|how many ways|arranged in a grid|placed in the pens|must not be placed|share a boundary|adjacent|arrangement of|choose\s+\d+)\b"
+                r"\b(permutation|combination|factorial|ncr|npr|counting principle|arrangements?|number of ways|how many ways|share a boundary|must not be placed|no tied finishes?|seated|row of \d+ available seats|every other student|digits are distinct|six digit positive integers)\b"
             ),
             ("Statistics and Probability", "Discrete and continuous random variables"),
-            13,
+            "anchor:counting",
         ),
         (
-            re.compile(r"\b(no tied finishes?|finishing orders?|possible outcomes?|possible arrangements?)\b"),
-            ("Statistics and Probability", "Discrete and continuous random variables"),
-            12,
-        ),
-        (
-            re.compile(r"\b(interquartile range|quartile|box and whisker|outlier|median)\b"),
+            re.compile(r"\b(interquartile range|quartile|box and whisker|outlier)\b"),
             ("Statistics and Probability", "Probability distributions"),
-            12,
+            "anchor:quartiles",
         ),
         (
             re.compile(r"\b(hypothesis|null hypothesis|alternative hypothesis|p value|significance level|critical region)\b"),
             ("Statistics and Probability", "Hypothesis testing"),
-            13,
+            "anchor:hypothesis",
         ),
         (
             re.compile(r"\b(correlation|regression|pearson|spearman|least squares)\b"),
             ("Statistics and Probability", "Correlation and regression"),
-            12,
+            "anchor:regression",
         ),
         (
-            re.compile(r"\b(random variable|probability|probability density function|normal distribution|binomial distribution|poisson|expected value|variance|standard deviation|mean|median)\b"),
-            ("Statistics and Probability", "Probability distributions"),
-            9,
+            re.compile(r"\b(differential equation|dy/dx|separable)\b"),
+            ("Calculus", "Differential equations"),
+            "anchor:diffeq",
         ),
         (
-            re.compile(r"\b(discrete|continuous|probability density|cumulative distribution|pdf|cdf)\b"),
+            re.compile(r"\b(maclaurin|taylor series|expansion about x ?= ?0)\b"),
+            ("Calculus", "Maclaurin series"),
+            "anchor:series",
+        ),
+        (
+            re.compile(r"\b(binomial theorem|binomial expansion|in the expansion of|\(a\+b\)\^n|coefficient of x)\b"),
+            ("Number and Algebra", "Binomial theorem"),
+            "anchor:binomial",
+        ),
+        (
+            re.compile(r"\b(prove by induction|induction step|assume true for n=k)\b"),
+            ("Number and Algebra", "Proof by induction"),
+            "anchor:induction",
+        ),
+        (
+            re.compile(r"\b(z4|z3|z2|z \u2208|a\+bi|complex|argand|conjugate|modulus|argument)\b"),
+            ("Number and Algebra", "Complex numbers"),
+            "anchor:complex",
+        ),
+        (
+            re.compile(r"\b(rotated 360|solid of revolution|maximum volume|rate .* increasing|increases at a constant rate)\b"),
+            ("Calculus", "Integration"),
+            "anchor:calculus-modelling",
+        ),
+    ]
+    for pattern, label, reason in hard_anchors:
+        if pattern.search(q_text):
+            return (label[0], label[1], 0.99, [reason])
+
+    Rule = Tuple[re.Pattern[str], Tuple[str, str], int, int]
+    rules: List[Rule] = [
+        # Statistics and Probability
+        (
+            re.compile(r"\b(permutation|combination|factorial|ncr|npr|counting principle|arrangements?|number of ways|how many ways|choose \d+)\b"),
             ("Statistics and Probability", "Discrete and continuous random variables"),
-            9,
+            20,
+            6,
+        ),
+        (
+            re.compile(r"\b(random variable|probability density function|probability distribution|binomial distribution|normal distribution|poisson)\b"),
+            ("Statistics and Probability", "Probability distributions"),
+            18,
+            6,
+        ),
+        (
+            re.compile(r"\b(die|dice|frequency table|mean|variance|standard deviation|marks obtained|class quiz)\b"),
+            ("Statistics and Probability", "Probability distributions"),
+            13,
+            5,
+        ),
+        (
+            re.compile(r"\b(interquartile range|quartile|box and whisker|outlier|median)\b"),
+            ("Statistics and Probability", "Probability distributions"),
+            18,
+            5,
+        ),
+        (
+            re.compile(r"\b(hypothesis|null hypothesis|alternative hypothesis|p value|significance level|critical region)\b"),
+            ("Statistics and Probability", "Hypothesis testing"),
+            18,
+            7,
+        ),
+        (
+            re.compile(r"\b(correlation|regression|pearson|spearman|least squares)\b"),
+            ("Statistics and Probability", "Correlation and regression"),
+            18,
+            6,
+        ),
+        (
+            re.compile(r"\b(independent events?|conditional probability|a \\cap b|a \\cup b|p\(a\)|p\(b\))\b"),
+            ("Statistics and Probability", "Probability distributions"),
+            12,
+            5,
         ),
         # Calculus
         (
             re.compile(r"\b(differential equation|dy/dx|separable)\b"),
             ("Calculus", "Differential equations"),
-            14,
+            22,
+            7,
         ),
         (
             re.compile(r"\b(maclaurin|taylor series|expansion about x ?= ?0)\b"),
             ("Calculus", "Maclaurin series"),
-            14,
+            22,
+            7,
         ),
         (
-            re.compile(r"\b(integrat|definite integral|indefinite integral|area under|antiderivative)\b"),
+            re.compile(r"\b(integral|integrate|integration|antiderivative|definite integral|indefinite integral|area under|area enclosed)\b"),
             ("Calculus", "Integration"),
-            11,
+            18,
+            6,
         ),
         (
-            re.compile(r"\b(limit|lim|continuity|continuous at)\b"),
+            re.compile(r"\b(rotated 360|solid of revolution|volume of the solid|about the y axis|about the x axis)\b"),
+            ("Calculus", "Integration"),
+            18,
+            6,
+        ),
+        (
+            re.compile(r"\b(limit|lim|continuity|continuous at|as x tends to)\b"),
             ("Calculus", "Limits and continuity"),
-            10,
+            16,
+            5,
         ),
         (
-            re.compile(r"\b(differentiat|derivative|chain rule|product rule|quotient rule|tangent|normal to the curve|stationary)\b"),
+            re.compile(r"\b(differentiate|differentiation|derivative|chain rule|product rule|quotient rule|stationary|tangent|normal to the curve|rate of change)\b"),
             ("Calculus", "Differentiation"),
-            11,
+            18,
+            6,
+        ),
+        (
+            re.compile(r"\b(related rates?|increases at a constant rate|maximum volume|minimum value|maximise|minimise)\b"),
+            ("Calculus", "Differentiation"),
+            16,
+            6,
         ),
         # Geometry and Trigonometry
         (
-            re.compile(r"\b(vector|vectors|position vector|direction vector|i\+?j\+?k|parametric)\b"),
+            re.compile(r"\b(vector|vectors|position vector|direction vector|i\+j\+k|i,j,k|dot product|scalar product|cross product)\b"),
             ("Geometry and Trigonometry", "Vectors in 2D and 3D"),
-            12,
+            20,
+            6,
         ),
         (
-            re.compile(r"\b(triangle|bearing|parallelogram|angle|arc|sector|circle)\b"),
-            ("Geometry and Trigonometry", "Trigonometric identities and equations"),
-            8,
-        ),
-        (
-            re.compile(r"\b(line|plane|cartesian equation|normal vector|scalar product|dot product)\b"),
+            re.compile(r"\b(line|plane|cartesian equation|normal vector|distance between skew lines|equation of plane)\b"),
             ("Geometry and Trigonometry", "Lines and planes"),
-            10,
+            18,
+            6,
         ),
         (
-            re.compile(r"\b(sin|cos|tan|cot|sec|cosec|trigonometric|radian|identity)\b"),
+            re.compile(r"\b(radian|arc length|sector area)\b"),
+            ("Geometry and Trigonometry", "Radian measure"),
+            20,
+            6,
+        ),
+        (
+            re.compile(r"\b(measured in radians|circumference of a circle|centre o and radius|theta is measured)\b"),
+            ("Geometry and Trigonometry", "Radian measure"),
+            15,
+            5,
+        ),
+        (
+            re.compile(r"\b(sin|cos|tan|cot|sec|cosec|trigonometric|trig identity|double angle)\b"),
             ("Geometry and Trigonometry", "Trigonometric identities and equations"),
-            9,
+            12,
+            4,
+        ),
+        (
+            re.compile(r"\b(triangle|bearing|parallelogram|cosine rule|sine rule)\b"),
+            ("Geometry and Trigonometry", "Trigonometric identities and equations"),
+            14,
+            4,
         ),
         # Number and Algebra
         (
-            re.compile(r"\b(complex|arg|modulus|conjugate|re\(z\)|im\(z\)|cis)\b"),
+            re.compile(r"\b(complex|argand|conjugate|modulus|argument|re\(z\)|im\(z\)|a\+bi|z4|z3|z2)\b"),
             ("Number and Algebra", "Complex numbers"),
-            12,
+            22,
+            7,
         ),
         (
-            re.compile(r"\b(arithmetic sequence|geometric sequence|u_n|s_n|recurrence|summation|sigma notation)\b"),
+            re.compile(r"\b(arithmetic sequence|geometric sequence|u_n|s_n|recurrence|summation|sigma notation|sum to infinity)\b"),
             ("Number and Algebra", "Sequences and series"),
-            11,
+            18,
+            6,
         ),
         (
-            re.compile(r"\b(induction|prove by induction)\b"),
+            re.compile(r"\b(induction|prove by contradiction|integer roots?|divisible by|multiple of|consecutive)\b"),
             ("Number and Algebra", "Proof by induction"),
             14,
+            5,
         ),
         (
-            re.compile(r"\b(binomial theorem|binomial expansion|coefficient of x|\(a\+b\)\^n)\b"),
+            re.compile(r"\b(binomial theorem|binomial expansion|in the expansion of|expansion of|\(a\+b\)\^n|coefficient of x)\b"),
             ("Number and Algebra", "Binomial theorem"),
+            20,
+            6,
+        ),
+        (
+            re.compile(r"\b(quadratic equation|cubic equation|quartic equation|roots of|discriminant|remainder theorem|factor of f\(x\)|polynomial)\b"),
+            ("Number and Algebra", "Sequences and series"),
+            14,
+            5,
+        ),
+        (
+            re.compile(r"\b(remainder is|divided by \(x|factor of f|has two distinct real roots)\b"),
+            ("Number and Algebra", "Sequences and series"),
             12,
+            5,
         ),
         # Functions
         (
             re.compile(r"\b(inverse function|inverse of f|one to one|bijective)\b"),
             ("Functions", "Inverse functions"),
-            11,
+            18,
+            6,
         ),
         (
-            re.compile(r"\b(logarithm|log\(|\bln\(|exponential|e\^x)\b"),
+            re.compile(r"\b(logarithm|log\(|log10|ln\(|exponential|e\^x)\b"),
             ("Functions", "Exponential and logarithmic functions"),
-            10,
+            15,
+            5,
         ),
         (
-            re.compile(r"\b(domain|composite function|composition|range of f)\b"),
+            re.compile(r"\b(compound interest|depreciates?|depreciation|per annum|investment|value of the car)\b"),
+            ("Functions", "Exponential and logarithmic functions"),
+            14,
+            4,
+        ),
+        (
+            re.compile(r"\b(domain|range|composite function|composition|f o g|g o f|f\(\s*x\s*\)|g\(\s*x\s*\))\b"),
             ("Functions", "Domain, range and composition"),
-            9,
+            14,
+            5,
         ),
         (
-            re.compile(r"\b(transformation|translation|stretch|reflection|asymptote|model|modelling|f\(x\)|g\(x\))\b"),
+            re.compile(r"\b(functions f and g are defined|g\s*o\s*f|f\s*o\s*g|\(g .* f\)\(x\)|\(f .* g\)\(x\))\b"),
+            ("Functions", "Domain, range and composition"),
+            14,
+            5,
+        ),
+        (
+            re.compile(r"\b(the functions f \(x\)|consider the functions f|given that .* g .* f)\b"),
+            ("Functions", "Domain, range and composition"),
+            13,
+            4,
+        ),
+        (
+            re.compile(r"\b(transformation|translation|stretch|reflection|asymptote|model|modelling)\b"),
             ("Functions", "Transformations and modelling"),
-            7,
+            14,
+            5,
         ),
     ]
 
     scores: Dict[Tuple[str, str], int] = {}
-    for pattern, label, weight in weighted_rules:
+    reasons: List[str] = []
+    for pattern, label, q_weight, a_weight in rules:
         q_hits = len(pattern.findall(q_text))
-        if q_hits == 0:
+        a_hits = len(pattern.findall(a_text))
+        if q_hits == 0 and a_hits == 0:
             continue
-        score = weight * (4 * q_hits)
-        scores[label] = scores.get(label, 0) + score
+        delta = q_hits * q_weight + a_hits * a_weight
+        scores[label] = scores.get(label, 0) + delta
+        reasons.append(f"{label[0]}:{label[1]}+{delta}")
 
     if not scores:
-        return ("Functions", "Transformations and modelling", 0.25, ["fallback:default-functions"])
+        # Last-resort fallback: infer from common symbols.
+        if "∫" in question_text or " dx" in merged:
+            return ("Calculus", "Integration", 0.6, ["fallback:integral-symbol"])
+        if re.search(r"\b(die|dice|frequency|mean|variance|event|probability|random)\b", merged):
+            return ("Statistics and Probability", "Probability distributions", 0.6, ["fallback:stats-terms"])
+        if re.search(r"\b(rotated 360|solid of revolution|maximum volume|rate of change)\b", merged):
+            return ("Calculus", "Differentiation", 0.6, ["fallback:calc-modelling"])
+        if re.search(r"\b(quadratic|cubic|quartic|roots?|discriminant|consecutive|divisible|multiple of)\b", merged):
+            return ("Number and Algebra", "Proof by induction", 0.58, ["fallback:algebraic-proof"])
+        if "probability" in merged or "p (" in merged:
+            return ("Statistics and Probability", "Probability distributions", 0.6, ["fallback:probability"])
+        return ("Functions", "Transformations and modelling", 0.3, ["fallback:default-functions"])
 
-    # Topic-level tie-break: favour strong non-function topics when ambiguous.
     topic_scores: Dict[str, int] = {}
     for (topic, _subtopic), score in scores.items():
         topic_scores[topic] = topic_scores.get(topic, 0) + score
 
+    # Penalize over-broad functions when stronger cross-topic signals exist.
+    fn_score = topic_scores.get("Functions", 0)
+    strongest_other = max([v for k, v in topic_scores.items() if k != "Functions"], default=0)
+    if fn_score and strongest_other >= fn_score:
+        topic_scores["Functions"] = max(0, fn_score - 8)
+
     ranked_topics = sorted(topic_scores.items(), key=lambda item: item[1], reverse=True)
-    best_topic = ranked_topics[0][0]
-    topic_candidates = [(label, score) for label, score in scores.items() if label[0] == best_topic]
-    best_label, best_score = max(topic_candidates, key=lambda item: item[1])
-    second_score = ranked_topics[1][1] if len(ranked_topics) > 1 else 0
-    confidence = 0.35
-    if best_score > 0:
-        confidence = min(0.95, max(0.35, (best_score - second_score) / best_score))
-    reasons = [f"score:{best_topic}={best_score}"]
+    best_topic, best_topic_score = ranked_topics[0]
+    second_topic_score = ranked_topics[1][1] if len(ranked_topics) > 1 else 0
+
+    best_subtopic, best_subtopic_score = max(
+        [(label, score) for label, score in scores.items() if label[0] == best_topic],
+        key=lambda item: item[1],
+    )
+    margin = best_topic_score - second_topic_score
+    confidence = 0.45
+    if best_topic_score > 0:
+        confidence = min(0.98, max(0.45, margin / best_topic_score))
+    reasons = [f"topic:{best_topic}={best_topic_score}", f"subtopic:{best_subtopic[1]}={best_subtopic_score}"] + reasons[:4]
     if len(ranked_topics) > 1:
-        reasons.append(f"runner-up:{ranked_topics[1][0]}={second_score}")
-    return (best_label[0], best_label[1], round(confidence, 3), reasons)
+        reasons.append(f"runner-up:{ranked_topics[1][0]}={second_topic_score}")
+
+    return (best_subtopic[0], best_subtopic[1], round(confidence, 3), reasons)
 
 
 def make_title(qnum: int, question_text: str) -> str:
