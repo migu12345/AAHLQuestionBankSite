@@ -3,6 +3,7 @@ const state = {
   topics: [],
 };
 
+const paperTypeFilter = document.getElementById("paperTypeFilter");
 const paperFilter = document.getElementById("paperFilter");
 const topicFilter = document.getElementById("topicFilter");
 const subtopicFilter = document.getElementById("subtopicFilter");
@@ -25,6 +26,14 @@ async function loadData() {
 }
 
 function hydrateFilters() {
+  const paperTypes = [...new Set(state.allQuestions.map((q) => q.paper_type).filter(Boolean))].sort();
+  paperTypes.forEach((paperType) => {
+    const option = document.createElement("option");
+    option.value = paperType;
+    option.textContent = paperType;
+    paperTypeFilter.appendChild(option);
+  });
+
   const papers = [...new Set(state.allQuestions.map((q) => q.paper).filter(Boolean))].sort();
   papers.forEach((paper) => {
     const option = document.createElement("option");
@@ -68,19 +77,21 @@ function updateSubtopicOptions() {
 }
 
 function filterQuestions() {
+  const selectedPaperType = paperTypeFilter.value;
   const selectedPaper = paperFilter.value;
   const selectedTopic = topicFilter.value;
   const selectedSubtopic = subtopicFilter.value;
   const searchTerm = searchInput.value.trim().toLowerCase();
 
   return state.allQuestions.filter((q) => {
+    const paperTypeMatch = !selectedPaperType || q.paper_type === selectedPaperType;
     const paperMatch = !selectedPaper || q.paper === selectedPaper;
     const topicMatch = !selectedTopic || q.topic === selectedTopic;
     const subtopicMatch = !selectedSubtopic || q.subtopic === selectedSubtopic;
     const text = `${q.title || ""} ${q.question_text || ""} ${q.answer_text || ""}`.toLowerCase();
     const searchMatch = !searchTerm || text.includes(searchTerm);
 
-    return paperMatch && topicMatch && subtopicMatch && searchMatch;
+    return paperTypeMatch && paperMatch && topicMatch && subtopicMatch && searchMatch;
   });
 }
 
@@ -141,6 +152,7 @@ function renderQuestions() {
 }
 
 function bindEvents() {
+  paperTypeFilter.addEventListener("change", renderQuestions);
   paperFilter.addEventListener("change", renderQuestions);
 
   topicFilter.addEventListener("change", () => {
