@@ -3,14 +3,23 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>AA HL Question Bank</title>
+    <title>AA Question Bank</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <header class="hero">
       <div class="hero-row">
-        <h1>AA HL Question Bank</h1>
+        <h1>AA Question Bank</h1>
         <div class="hero-actions">
+          <div class="hero-search" id="heroSearch">
+            <button id="searchToggle" class="search-toggle" type="button" aria-label="Open search" aria-expanded="false">
+              <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                <circle cx="11" cy="11" r="7"></circle>
+                <line x1="16.65" y1="16.65" x2="21" y2="21"></line>
+              </svg>
+            </button>
+            <input id="searchInput" class="hero-search-input" type="text" placeholder="Search question text" />
+          </div>
           <a class="hero-link" href="index.html">Home</a>
           <a class="hero-link" href="tutoring/index.html">Tutoring Question Bank</a>
         </div>
@@ -55,10 +64,6 @@
           </select>
         </label>
 
-        <label>
-          Search
-          <input id="searchInput" type="text" placeholder="Search question text" />
-        </label>
       </section>
 
       <section>

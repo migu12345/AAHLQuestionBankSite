@@ -6,6 +6,7 @@ from __future__ import annotations
 import json
 import re
 import sys
+from difflib import SequenceMatcher
 from dataclasses import dataclass
 from pathlib import Path
 from typing import Dict, List, Optional, Tuple
@@ -23,8 +24,8 @@ OUT_FILE = ROOT / "data" / "processed" / "questions.json"
 PROCESSED_IMAGES_DIR = ROOT / "data" / "processed" / "images"
 
 FILE_PAPER_RE = re.compile(r"paper_(?P<paper>\d)", re.IGNORECASE)
-FILE_TZ_RE = re.compile(r"(?:__|_)TZ(?P<tz>\d)_HL", re.IGNORECASE)
-EXAM_RE = re.compile(r"\b(?P<code>[MN]\d{2})/5/MATHX/HP(?P<paper>\d)/ENG(?:/TZ(?P<tz>\d))?/XX")
+FILE_TZ_RE = re.compile(r"(?:__|_)TZ(?P<tz>\d)_(?:HL|SL)", re.IGNORECASE)
+EXAM_RE = re.compile(r"\b(?P<code>[MN]\d{2})/5/MATHX/[HS]P(?P<paper>\d)/ENG(?:/TZ(?P<tz>\d))?/XX")
 PREFIX_RE = re.compile(r"^(?P<code>[mn]\d{2})_")
 
 
@@ -35,6 +36,7 @@ class PaperMeta:
     session: str
     session_code: str
     tz: Optional[int]
+    level: str
 
     @property
     def paper_type(self) -> str:
@@ -43,8 +45,8 @@ class PaperMeta:
     @property
     def paper_label(self) -> str:
         if self.tz is None:
-            return f"{self.session} {self.paper_type} HL"
-        return f"{self.session} {self.paper_type} TZ{self.tz} HL"
+            return f"{self.session} {self.paper_type} {self.level}"
+        return f"{self.session} {self.paper_type} TZ{self.tz} {self.level}"
 
 
 def normalize_ws(text: str) -> str:
@@ -154,6 +156,7 @@ def parse_meta(path: Path) -> PaperMeta:
         session=session,
         session_code=code,
         tz=tz,
+        level=infer_level_from_filename(name),
     )
 
 
@@ -590,14 +593,93 @@ def tz_sort_value(paper_label: str) -> int:
 
 
 def id_without_tz(rec_id: str) -> str:
-    return re.sub(r"_tz\d+(?=_q\d+$)", "", rec_id)
+    return re.sub(r"_tz\d+(?=_q\d+(?:_[a-z]+)?$)", "", rec_id)
 
 
 def parse_id_parts(rec_id: str) -> Optional[Tuple[str, str, str]]:
-    m = re.match(r"^(?P<session>[a-z0-9]+)_p(?P<paper>\d+)(?:_tz\d+)?_q(?P<q>\d+)$", rec_id)
+    m = re.match(r"^(?P<session>[a-z0-9]+)_p(?P<paper>\d+)(?:_tz\d+)?_q(?P<q>\d+)(?:_[a-z]+)?$", rec_id)
     if not m:
         return None
     return (m.group("session"), m.group("paper"), m.group("q"))
+
+
+def normalized_similarity_text(text: str) -> str:
+    t = text.lower().replace("\xa0", " ")
+    t = re.sub(r"\s+", " ", t)
+    return t.strip()
+
+
+def text_similarity(a: str, b: str) -> float:
+    if not a or not b:
+        return 0.0
+    return SequenceMatcher(None, a, b).ratio()
+
+
+def tz_from_paper_label(paper_label: str) -> str:
+    m = re.search(r"TZ(\d)", paper_label)
+    return m.group(1) if m else "none"
+
+
+def remove_sl_hl_overlaps(records: List[Dict[str, object]]) -> List[Dict[str, object]]:
+    grouped: Dict[Tuple[str, str, str, str], List[Dict[str, object]]] = {}
+    for rec in records:
+        key = (
+            str(rec.get("session_code", "")),
+            str(rec.get("paper_type", "")),
+            tz_from_paper_label(str(rec.get("paper", ""))),
+            str(rec.get("question_number", "")),
+        )
+        grouped.setdefault(key, []).append(rec)
+
+    to_remove: set[str] = set()
+    for bucket in grouped.values():
+        hls = [r for r in bucket if str(r.get("level", "")) == "HL"]
+        sls = [r for r in bucket if str(r.get("level", "")) == "SL"]
+        if not hls or not sls:
+            continue
+
+        for sl in sls:
+            sl_q = normalized_similarity_text(str(sl.get("question_text", "")))
+            sl_a = normalized_similarity_text(str(sl.get("answer_text", "")))
+            sl_marks = int(sl.get("marks", 0) or 0)
+            duplicate = False
+
+            for hl in hls:
+                hl_q = normalized_similarity_text(str(hl.get("question_text", "")))
+                hl_a = normalized_similarity_text(str(hl.get("answer_text", "")))
+                hl_marks = int(hl.get("marks", 0) or 0)
+
+                q_ratio = text_similarity(sl_q, hl_q)
+                a_ratio = text_similarity(sl_a, hl_a)
+                same_marks = sl_marks == hl_marks
+
+                if q_ratio >= 0.95 and (a_ratio >= 0.9 or same_marks):
+                    duplicate = True
+                    break
+
+            if duplicate:
+                to_remove.add(str(sl.get("id", "")))
+
+    return [r for r in records if str(r.get("id", "")) not in to_remove]
+
+
+def remove_global_sl_exact_question_duplicates(records: List[Dict[str, object]]) -> List[Dict[str, object]]:
+    hl_question_sigs = {
+        normalize_for_dedupe(str(rec.get("question_text", "")))
+        for rec in records
+        if str(rec.get("level", "")) == "HL"
+    }
+
+    out: List[Dict[str, object]] = []
+    for rec in records:
+        if str(rec.get("level", "")) != "SL":
+            out.append(rec)
+            continue
+        sig = normalize_for_dedupe(str(rec.get("question_text", "")))
+        if sig and sig in hl_question_sigs:
+            continue
+        out.append(rec)
+    return out
 
 
 def build_image_index(kind: str) -> Dict[str, List[str]]:
@@ -639,7 +721,7 @@ def resolve_image_paths(rec_id: str, index: Dict[str, List[str]]) -> List[str]:
         return []
 
     session, paper, qnum = parts
-    fallback_re = re.compile(rf"^{re.escape(session)}_p{re.escape(paper)}(?:_tz\d+)?_q{re.escape(qnum)}$")
+    fallback_re = re.compile(rf"^{re.escape(session)}_p{re.escape(paper)}(?:_tz\d+)?_q{re.escape(qnum)}(?:_[a-z]+)?$")
     candidates = [key for key in index.keys() if fallback_re.match(key)]
     if not candidates:
         return []
@@ -671,7 +753,7 @@ def build() -> Dict[str, object]:
             topic, subtopic, confidence, reasons = classify_topic(str(q["question_text"]), ans)
 
             tz_part = f"_tz{meta.tz}" if meta.tz is not None else ""
-            rec_id = f"{meta.session_code}_p{meta.paper_no}{tz_part}_q{qn}"
+            rec_id = f"{meta.session_code}_p{meta.paper_no}{tz_part}_q{qn}_{meta.level.lower()}"
 
             records.append(
                 {
@@ -680,7 +762,7 @@ def build() -> Dict[str, object]:
                     "session": meta.session,
                     "session_code": meta.session_code,
                     "paper_type": meta.paper_type,
-                    "level": infer_level_from_filename(paper_path.name),
+                    "level": meta.level,
                     "question_number": str(qn),
                     "title": make_title(qn, str(q["question_text"])),
                     "topic": topic,
@@ -718,6 +800,9 @@ def build() -> Dict[str, object]:
             continue
         seen.add(sig)
         deduped.append(rec)
+
+    deduped = remove_sl_hl_overlaps(deduped)
+    deduped = remove_global_sl_exact_question_duplicates(deduped)
 
     q_image_index = build_image_index("questions")
     ms_image_index = build_image_index("markschemes")

@@ -12,6 +12,8 @@ const topicFilter = document.getElementById("topicFilter");
 const subtopicFilter = document.getElementById("subtopicFilter");
 const levelFilter = document.getElementById("levelFilter");
 const searchInput = document.getElementById("searchInput");
+const searchToggle = document.getElementById("searchToggle");
+const heroSearch = document.getElementById("heroSearch");
 const questionList = document.getElementById("questionList");
 const resultCount = document.getElementById("resultCount");
 const questionTemplate = document.getElementById("questionTemplate");
@@ -233,6 +235,29 @@ function bindEvents() {
 
   subtopicFilter.addEventListener("change", () => renderQuestions(true));
   searchInput.addEventListener("input", () => renderQuestions(true));
+  if (searchToggle && heroSearch) {
+    searchToggle.addEventListener("click", () => {
+      const expanded = heroSearch.classList.toggle("expanded");
+      searchToggle.setAttribute("aria-expanded", expanded ? "true" : "false");
+      if (expanded) {
+        searchInput.focus();
+      } else {
+        if (searchInput.value) {
+          searchInput.value = "";
+          renderQuestions(true);
+        }
+      }
+    });
+    searchInput.addEventListener("keydown", (event) => {
+      if (event.key === "Escape") {
+        heroSearch.classList.remove("expanded");
+        searchToggle.setAttribute("aria-expanded", "false");
+        searchInput.value = "";
+        renderQuestions(true);
+        searchToggle.focus();
+      }
+    });
+  }
   loadMoreBtn.addEventListener("click", () => renderQuestions(false));
 }
 
