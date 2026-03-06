@@ -7,7 +7,8 @@
     "May 2019",
     "November 2016",
     "November 2017",
-    "November 2018"
+    "November 2018",
+    "November 2019"
   ],
   "questions": [
     {
@@ -4221,6 +4222,595 @@
       "markscheme_image_paths": [
         "images/markschemes/n18_p2_q8_sl_p1.png",
         "images/markschemes/n18_p2_q8_sl_p2.png"
+      ]
+    },
+    {
+      "id": "n19_p1_q1_sl",
+      "paper": "November 2019 Paper 1 SL",
+      "session": "November 2019",
+      "session_code": "n19",
+      "paper_type": "Paper 1",
+      "level": "SL",
+      "question_number": "1",
+      "title": "Q1: (a) Outline two advantages for Accord of using job/customized production. [4] (b) Explain ...",
+      "topic": "Marketing",
+      "subtopic": "Marketing mix",
+      "topic_confidence": 0.5,
+      "topic_reason": [
+        "Business organization and environment:Business structures and stakeholders+18",
+        "Marketing:Marketing mix+36"
+      ],
+      "question_text": "(a) Outline two advantages for Accord of using job/customized production. [4]\n(b) Explain how Accord can differentiate Enrich from the products of its competitors. [6]",
+      "answer_text": "1. (a) Outline two advantages to Accord of using job/customized production. [4]\nAdvantages could include:\n\u2022 Product: adjusting recipes to meet customer needs.\n\u2022 Packaging: producing individually designed packaging for each customer.\n\u2022 Marketing: could reinforce USP, which is not strong as Aran does not have it\nright.\nAccept any other reasonable description.\nAward [1] for each advantage up to a total of [2].\nAward [1] for putting the advantage into context up to a total of [2].\n(b) Explain how Accord can differentiate Enrich from the products of its competitors. [6]\nKey aspects:\n\u2022 The product is aimed at the specialist \u201cgym\u201d market rather than the mass\nmarket.\n\u2022 Greater emphasis on natural, healthy ingredients.\n\u2022 More intimate relationship with customers as it is small.\n\u2022 Positive features of small versus multinational.\nExplanation/analysis should come from discussing these in relation to the\nsituation that Accord is in.\nMarks should be awarded according to the mark bands on page 3.\nAward maximum [3] for a theoretical answer or for only analysing one feature.\nAward maximum [5] if the analysis of two features or more is mainly descriptive\nbut in context.\n\u2013 6 \u2013 N19/3/BUSMT/SP1/ENG/TZ0/XX/M",
+      "marks": 0,
+      "source": {
+        "paper_file": "n19_Business_management_paper_1__SL.pdf",
+        "markscheme_file": "n19_Business_management_paper_1__SL_markscheme.pdf"
+      },
+      "question_image_paths": [
+        "images/questions/n19_p1_q1_sl.png"
+      ],
+      "markscheme_image_paths": [
+        "images/markschemes/n19_p1_q1_sl_p1.png",
+        "images/markschemes/n19_p1_q1_sl_p2.png"
+      ]
+    },
+    {
+      "id": "n19_p1_q2_sl",
+      "paper": "November 2019 Paper 1 SL",
+      "session": "November 2019",
+      "session_code": "n19",
+      "paper_type": "Paper 1",
+      "level": "SL",
+      "question_number": "2",
+      "title": "Q2: (a) Describe two reasons why secondary market research may not be useful to Accord. [4] (b...",
+      "topic": "Operations management",
+      "subtopic": "Location and capacity",
+      "topic_confidence": 0.45,
+      "topic_reason": [
+        "Business organization and environment:Business structures and stakeholders+36",
+        "Finance and accounts:Budgets and forecasts+16",
+        "Marketing:Market research and demand+60",
+        "Operations management:Location and capacity+64"
+      ],
+      "question_text": "(a) Describe two reasons why secondary market research may not be useful to Accord. [4]\n(b) Explain possible economies of scale that may apply to ABC but not to Accord. [6]",
+      "answer_text": "2. (a) Describe two reasons why secondary market research may not be useful to\nAccord. [4]\nSecondary market research \u2013 exploring data that has been already collected for a\ndifferent purpose.\n\u2022 Data may not be quite what is required \u2013 most likely for the mass market.\n\u2022 Data likely to be dominated by large businesses rather than by small\nbusinesses.\n\u2022 Data likely to be for mass market rather than niche market.\n\u2022 Data may be out of date.\nAccept any other reasonable reason.\nAward [1] for each reason up to a total of [2].\nAward [1] for putting the reason into context up to a total of [2].\n(b) Explain possible economies of scale that may apply to ABC but not to Accord. [6]\nEconomies of scale: Reduction in the average costs of a business as the scale of\nproduction increases. In this context, \u201cscale\u201d means productive capacity (ie, the\nphysical size of the business) rather than the actual level of production.\nABC is a large multinational so it can:\n\u2022 afford the best and most efficient equipment, whereas Accord will be very\nbasic\n\u2022 direct effective marketing based on a whole range of products, whereas\nAccord only has a limited portfolio and little budget\n\u2022 employ a range of professionals and managers, whereas Accord only has the\ntwo owners so its skills and time are limited\n\u2022 access to a wide range of sources of finance, hence cheaper finance than\nAccord, which, as a partnership is limited.\nAccept any other reasonable explanation/application of EOS.\nMarks should be awarded according to the mark bands on page 3.\nAward a maximum of [2] if the discussion is only about ABC or Accord but not\nboth.\nAward maximum [3] for a theoretical answer.\nAward maximum [5] if the analysis is mainly descriptive but in context.\nN.B. Some textbooks refer to average costs going down when production goes\nup (because of fixed costs being spread out more). Technically this is incorrect,\nas this is about production efficiency rather than scale so should not be allowed.\n\u2013 7 \u2013 N19/3/BUSMT/SP1/ENG/TZ0/XX/M",
+      "marks": 0,
+      "source": {
+        "paper_file": "n19_Business_management_paper_1__SL.pdf",
+        "markscheme_file": "n19_Business_management_paper_1__SL_markscheme.pdf"
+      },
+      "question_image_paths": [
+        "images/questions/n19_p1_q2_sl.png"
+      ],
+      "markscheme_image_paths": [
+        "images/markschemes/n19_p1_q2_sl_p1.png",
+        "images/markschemes/n19_p1_q2_sl_p2.png"
+      ]
+    },
+    {
+      "id": "n19_p1_q3_sl",
+      "paper": "November 2019 Paper 1 SL",
+      "session": "November 2019",
+      "session_code": "n19",
+      "paper_type": "Paper 1",
+      "level": "SL",
+      "question_number": "3",
+      "title": "Q3: (a) With reference to Accord, outline two possible steps for Aran and Kayla in starting th...",
+      "topic": "Business organization and environment",
+      "subtopic": "Business structures and stakeholders",
+      "topic_confidence": 0.45,
+      "topic_reason": [
+        "Business organization and environment:Business structures and stakeholders+54",
+        "Finance and accounts:Sources of finance+36",
+        "Operations management:Location and capacity+32"
+      ],
+      "question_text": "(a) With reference to Accord, outline two possible steps for Aran and Kayla in starting the\nbusiness. [4]\n(b) Other than a business angel (line 108), explain methods of external finance that\nAccord could use to increase production capacity (line 108). [6]\nN19/3/BUSMT/ SP1/ENG/TZ0/XX\n\u2013 2 \u2013\nAnswer the following question.",
+      "answer_text": "3. (a) With reference to Accord, outline two possible steps for Aran and Kayla in\nstarting the business. [4]\nIt is a partnership, so needs to incorporate:\n\u2022 finding finance \u2013 needed for premise, equipment\n\u2022 identifying/researching the market \u2013 it seems Aran has already done some of\nthis but flawed\n\u2022 building a customer base \u2013 gyms, etc\n\u2022 creating a business plan.\nAccept any other reasonable step.\nAward [1] for each step up to a total of [2].\nAward [1] for putting the step into context up to a total of [2].\n(b) Other than a business angel (line 108), explain methods of external finance that\nAccord could use to increase production capacity (line 108). [6]\n\u2022 New partner. Realistic? Anyone suitable? May upset existing partnership.\n\u2022 Bank loan. Difficult for small businesses, does not have much of a track\nrecord. Assets for security?\n\u2022 Working capital sources (debt factors, reducing stocks, creditors/debtors)\nlikely to be insufficient for the expansion.\n\u2022 Grants/subsidies. Unlikely to be available.\n\u2022 Lease rather than buy: often used for premises, so promising.\n\u2022 Do not accept share capital \u2013 it is a partnership.\nExplanation should come from how relevant the sources are.\nMarks should be awarded according to the mark bands on page 3.\nAward a maximum of [2] if the source chosen is internal.\nAward maximum [3] for a theoretical answer.\nAward maximum [5] if the answer is mainly descriptive but in context.\n\u2013 8 \u2013 N19/3/BUSMT/SP1/ENG/TZ0/XX/M",
+      "marks": 0,
+      "source": {
+        "paper_file": "n19_Business_management_paper_1__SL.pdf",
+        "markscheme_file": "n19_Business_management_paper_1__SL_markscheme.pdf"
+      },
+      "question_image_paths": [
+        "images/questions/n19_p1_q3_sl_p1.png",
+        "images/questions/n19_p1_q3_sl_p2.png"
+      ],
+      "markscheme_image_paths": [
+        "images/markschemes/n19_p1_q3_sl_p1.png",
+        "images/markschemes/n19_p1_q3_sl_p2.png"
+      ]
+    },
+    {
+      "id": "n19_p1_q4_hl",
+      "paper": "November 2019 Paper 1 HL",
+      "session": "November 2019",
+      "session_code": "n19",
+      "paper_type": "Paper 1",
+      "level": "HL",
+      "question_number": "4",
+      "title": "Q4: Problems are continuing with Enrich drinks. Aran is becoming increasingly frustrated with ...",
+      "topic": "Human resource management",
+      "subtopic": "Organizational structure and culture",
+      "topic_confidence": 0.45,
+      "topic_reason": [
+        "Business organization and environment:Business structures and stakeholders+72",
+        "Business organization and environment:Growth and change+14",
+        "Human resource management:Organizational structure and culture+306",
+        "Human resource management:Motivation and leadership+126",
+        "Human resource management:Industrial relations+16"
+      ],
+      "question_text": "Problems are continuing with Enrich drinks. Aran is becoming increasingly frustrated with\nthe lack of growth of sales. He always wants to succeed and is driven by the need to get\ntasks completed. The Enrich part of his life is not a success. He blames the workforce. The\nworkforce does not share his vision. Employees are mainly part-time workers and parents\nwho value jobs that enable them to fit work around school hours. As Aran has become\nmore autocratic in his leadership style, labour turnover has increased. Last month, from a\nworkforce of twelve, one retired and two left for what they called \u201cbetter jobs\u201d.\nThere are also increasing problems with the quality of Enrich drinks, as batches of Enrich are\nrejected by the quality control department. Elsie, the manager of the production department,\nblamed suppliers, saying that Aran had damaged business relations with them due to his\nimpatience. Elsie also blamed Aran for poor stock management. She has proposed total\nquality management (TQM) as a solution to these problems.\nDetox\nAccord decided to start the production and marketing of Detox, the green tea drink that\nhelps athletes to relax. Detox proved to be very successful. Encouraged by the success\nand boosted cash inflow, Kayla is considering producing a range of snack bars based on\nEnrich and Detox flavours and recipes. Accord would use the Enrich brand name for the\nsnack bars. The market for healthy snack bars is very competitive and dominated by a few\nlarge companies who spend large amounts of money on advertising. The market is growing\nrapidly \u2013 some market researchers estimate by 34 % per annum. There are many examples\nof small businesses entering the market successfully on a small scale. Kayla estimates that\nthe proposal would involve an investment of $100 000, with forecast net returns of $80 000\nfor four years. Aran thinks that the money could be better spent on marketing Enrich drinks.\n(a) Define the term labour turnover. [2]\n(b) For Kayla\u2019s proposal calculate:\n(i) the payback period; [2]\n(ii) the net present value (NPV) using a discount rate of 6 %*. [2]\n(c) With reference to Accord, explain one advantage and one disadvantage of using total\nquality management (TQM). [4]\n(d) Discuss whether Aran and Kayla should change the organizational culture of Accord to\novercome the problems with Enrich drinks. [10]\n*Discount factors at 6 %\nYear Discount factor\n0 1.0000\n1 0.9434\n2 0.8900\n3 0.8396\n4 0.7921\nN19/3/BUSMT/ HP1/ENG/TZ0/XX\n\u2013 3 \u2013\nSection C\nAnswer the following question.",
+      "answer_text": "4. (a) Define the term labour turnover. [2]\nMeasure the rate at which employees are leaving a business, calculated as:\nEmployees leaving in a fixed period 100Average number employed in that period \uf0b4\nNo need for formula if put into suitable words such as ideas o\nf proportions, time\nperiods, employees leaving, employee numbers.\nAward [2] for a complete definition.\nAward [1] for some understanding of labour turnover, eg it mentions \u201cleaving\u201d but\nnot \u201cemployees\u201d or time periods.\n(b) For Kayla\u2019s proposal calculate:\n(i) the payback period; [2]\nPayback measures the time taken to pay back the original investment.\nOriginal investment = $100k.\nPaid back at a net $80k per year.\nAfter 1 year paid back $80k so $20k more needed.\n$20k takes 1\n4 year = 3 months.\nSo payback = 1 year 3 months. Allow 1 \u00bc years, 1.25 years, 15 months\nAward [2] if correct answer with units.\nAward [1] if correct answer but no units, or a reasonable attempt with\nerrors.\n\u2013 11 \u2013 N19/3/BUSMT/HP1/ENG/TZ0/XX/M\n(ii) the net present value (NPV) using a discount rate of 6 %.\nYear Cash flow Discount\nfactor\nPresent value\n($000)\n0 \u2013100 1.0000 \u2013100\n1 +80 0.9434 75.472\n2 +80 0.8900 71.200\n3 +80 0.8396 67.168\n4 +80 0.7921 63.368\nNPV 177.208\nAllow rounding.\nAward [2] if correct answer.\nAward\n[1] if correct answer but no units, or a reasonable attempt with\nerrors.\n\u2013 12 \u2013 N19/3/BUSMT/HP1/ENG/TZ0/XX/M\n(c) With reference to Accord, explain one advantage and one disadvantage of using\ntotal quality management (TQM). [4]\nAdvantages:\n\uf0b7 There are quality issues that could be addressed \u2013 batches are being rejected.\n\uf0b7 There are supply chain issues as confirmed by Elsie that could be reduced\nwith TQM.\n\uf0b7 It could increase efficiency and therefore profits, which are essential to a small\nbusiness.\n\uf0b7 Could influence Aran\u2019s impatience with supply chain.\nDisadvantages:\n\uf0b7 Accord is a small business and may not have resources.\n\uf0b7 It employs part-time staff who may not take on TQM ideas.\n\uf0b7 TQM is designed for larger, more complex operations.\nBeware of answers that are only about general quality issues which should not be\nrewarded unless linked to TQM.\nAccept any other relevant advantage/disadvantage.\nContext comes from issues identified in the case and the nature of the business.\nAward [1] for each advantage/disadvantage of TQM up to a total of [2].\nAward [1] for putting each advantage/disadvantage into context up to a total\nof [2].\n(d) Discuss whether Aran and Kayla should change the organizational culture of\nAccord to overcome the problems with Enrich drinks. [10]\nProblems with Enrich related to culture:\n\uf0b7 Sales not strong\n\uf0b7 Aran getting frustrated\n\uf0b7 Workforce do not share vision\n\uf0b7 Mainly part-time interests outside of work\n\uf0b7 Aran\u2019s autocratic style has increased labour turnover\n\uf0b7 Quality problems (may overlap with (c))\n\uf0b7 Problems with suppliers (may overlap with (c))\n\uf0b7 Some disagreement as to who is to be blamed.\nPotential culture issues:\n\uf0b7 Autocratic leadership\n\uf0b7 Lack of sharing of vision\n\uf0b7 Signs of disagreements and different styles.\n\u2013 13 \u2013 N19/3/BUSMT/HP1/ENG/TZ0/XX/M\nHowever, some problems seem down to Aran\u2019s personality (person culture?):\nimpatient, driven, wants to succeed, task-oriented. Is this culture, can it be\nchanged?\nOther problems are due to marketing issues, which may not be due to culture.\nCan culture be changed?\n\uf0b7 TQM can change culture. Is it really suitable? It would certainly examine all the\nprocesses and business relationships.\n\uf0b7 Clearer vision and training staff may help.\n\uf0b7 Maybe task culture is not helping. Could this become more one of roles or\nsome other culture?\n\uf0b7 Is Aran\u2019s style part of the culture? Maybe a different leadership style.\n\uf0b7 Might it be better to employ full-time workers? Is this realistic?\nCulture seems to be power based, could change to role based or task based.\nIf there are clear benefits from changing then it should be done, however, difficult\nto make a case?\nAccept reasonable alternative answers.\nMarks should be allocated according to the mark bands on page 4.\nAward a\nmaximum of [4] for a purely theoretical answer or with no effective use\nof case (eg,\nonly repeating case material without developme nt).\nAward a maximum of [6] if culture change is considered but there is limited use of\ndata, or if there is good analysis of data with limited consideration of culture\nchange. (eg if main focus is on leadership with little link to culture).\nAward a\nmaximum of [8] if culture changes are considered and there is good use\nof data but t\nhere are no significant judgements.\n\u2013 14 \u2013 N19/3/BUSMT/HP1/ENG/TZ0/XX/M\nSection C",
+      "marks": 0,
+      "source": {
+        "paper_file": "n19_Business_management_paper_1__HL.pdf",
+        "markscheme_file": "n19_Business_management_paper_1__HL_markscheme.pdf"
+      },
+      "question_image_paths": [
+        "images/questions/n19_p1_q4_hl_p1.png",
+        "images/questions/n19_p1_q4_hl_p2.png"
+      ],
+      "markscheme_image_paths": [
+        "images/markschemes/n19_p1_q4_hl_p1.png",
+        "images/markschemes/n19_p1_q4_hl_p2.png",
+        "images/markschemes/n19_p1_q4_hl_p3.png",
+        "images/markschemes/n19_p1_q4_hl_p4.png",
+        "images/markschemes/n19_p1_q4_hl_p5.png"
+      ]
+    },
+    {
+      "id": "n19_p1_q4_sl",
+      "paper": "November 2019 Paper 1 SL",
+      "session": "November 2019",
+      "session_code": "n19",
+      "paper_type": "Paper 1",
+      "level": "SL",
+      "question_number": "4",
+      "title": "Q4: Aran and Kayla decided to launch Detox using batch production. It has now been on the mark...",
+      "topic": "Finance and accounts",
+      "subtopic": "Final accounts and ratio analysis",
+      "topic_confidence": 0.45,
+      "topic_reason": [
+        "Business organization and environment:External environment and ethics+32",
+        "Business organization and environment:Growth and change+28",
+        "Human resource management:Organizational structure and culture+54",
+        "Finance and accounts:Investment appraisal+40",
+        "Finance and accounts:Final accounts and ratio analysis+160"
+      ],
+      "question_text": "Aran and Kayla decided to launch Detox using batch production. It has now been on the\nmarket for six months. Detox is showing strong growth, although sales for the first six months\nwere less than a quarter of Kayla\u2019s target of 160 000 bottles for the first year. The price of\nDetox is $2.50 per bottle. The cost of goods sold is $160 000 and the operating costs before\ninterest and tax are $20 000 per year.\nEnrich sales have not grown much and Aran is very disappointed. Customers, mainly\nathletes, do not use the product frequently and it is difficult to find new customers. However,\nresearch into customer perceptions indicates a very strong brand, resulting largely from\nAccord\u2019s corporate social responsibility (CSR) and strong customer loyalty.\nAran does not like the way the business is organized by product and wants to change it so\nthat it is organized by function instead.\nFollowing the success of Detox, Kayla wants to produce a range of snack bars based\non Enrich flavours and recipes. Accord would use the Enrich brand name for the snack\nbars. The market for healthy snack bars is very competitive and dominated by a few large\ncompanies who spend large amounts of money on advertising. The market is growing rapidly\n\u2013 some market researchers estimate by 34 % per annum. There are many examples of small\nbusinesses entering the market successfully on a small scale. Kayla estimates the proposal\nwould involve an investment of $100 000, with forecast net returns of $80 000 for four years.\nAran thinks that the money could be better spent on marketing Enrich drinks.\n(a) Define the term batch production. [2]\n(b) Based on a target of 160 000 for the first year of production at Detox, calculate:\n(i) the gross profit generated by Detox; [2]\n(ii) the net profit margin of Detox. [2]\n(c) With reference to Accord, explain one advantage and one disadvantage of an\norganizational structure based on product. [4]\n(d) Discuss Kayla\u2019s plan to produce a range of snack bars. [10]\n\u2013 3 \u2013\nN19/3/BUSMT/ SP1/ENG/TZ0/XX",
+      "answer_text": "4. (a) Define the term batch production. [2]\nProducing a defined number of identical products \u2013 each item in the batch\npasses through one stage of production before passing on to the next stage. An\nexample, which is not necessary, is the commercial manufacture of biscuits.\nAward [2] for a complete definition.\nAward [1] for some understanding.\n(b) For the first year of the production of Detox calculate:\n(i) the gross profit generated by Detox; [2]\nGross profit = revenue \u2212 cost of goods sold\n= $160 000 \uf0b4 $2.50 \u2212 $160 000 = $240 000\nAward [2] if correct answer and working shown.\nAward [1] if correct answer but no working, or a reasonable attempt with\nerrors.\n(ii) the net profit margin of Detox. [2]\nNet profit before tax, interest = Gross profit \u2212 operating costs before tax and interest\n= $240 000 \u2212 $20 000 = $220 000\nso\n\nNet Profit before tax and interest 100 %sales revenueNPM \uf0b4=\n\n220 100 55 %400= \uf0b4 =\nAward [2] if correct answer and working shown.\nAward [1] if correct answer but no working, or a reasonable attempt with\nerrors.\n\u2013 9 \u2013 N19/3/BUSMT/SP1/ENG/TZ0/XX/M\n(c) With reference to Accord, explain one advantage and one disadvantage of an\norganizational structure based on product. [4]\nAdvantages:\n\u2022 Simple.\n\u2022 Can have different strategies for each product.\n\u2022 Markets different, so works well.\nDisadvantages:\n\u2022 May duplicate functions.\n\u2022 Small business, so does not want too many departments.\nAny other reasonable explanation\nAward [1] for each advantage/disadvantage up to a total of [2].\nAward [1] for putting each advantage/disadvantage into context up to a total\nof [2].\n\u2013 10 \u2013 N19/3/BUSMT/SP1/ENG/TZ0/XX/M\n(d) Discuss Kayla\u2019s plan to produce a range of snack bars. [10]\nArguments for:\n\u2022 There are problems with Enrich, so maybe diversify.\n\u2022 Good profits.\n\u2022 Massive growth (34 %).\n\u2022 Returns seem good (candidates may do payback, ARR).\n\u2022 Small businesses have successfully entered the market.\nArguments against:\n\u2022 Aran does not like idea.\n\u2022 Very competitive.\n\u2022 Dominated by large companies.\n\u2022 May not match large advertising spending.\n\u2022 Would be better to spend money advertising Enrich?\nRecommendation not needed, but rewardable if supported by analysis.\nAccept reasonable alternative answers.\nMarks should be allocated according to the mark bands on page 4.\nAward a maximum of [4] for a purely theoretical answer, or with no effective use\nof case (eg, only repeating case material without development).\nAward a maximum of [6] if culture change is considered but there is limited use of\ndata, or if there is good analysis of data with limited consideration of culture\nchange.\nAward a maximum of [8] if culture changes are considered and there is good use\nof data but there are no significant judgements.",
+      "marks": 0,
+      "source": {
+        "paper_file": "n19_Business_management_paper_1__SL.pdf",
+        "markscheme_file": "n19_Business_management_paper_1__SL_markscheme.pdf"
+      },
+      "question_image_paths": [
+        "images/questions/n19_p1_q4_sl.png"
+      ],
+      "markscheme_image_paths": [
+        "images/markschemes/n19_p1_q4_sl_p1.png",
+        "images/markschemes/n19_p1_q4_sl_p2.png",
+        "images/markschemes/n19_p1_q4_sl_p3.png"
+      ]
+    },
+    {
+      "id": "n19_p1_q5_hl",
+      "paper": "November 2019 Paper 1 HL",
+      "session": "November 2019",
+      "session_code": "n19",
+      "paper_type": "Paper 1",
+      "level": "HL",
+      "question_number": "5",
+      "title": "Q5: Accord have not yet made a decision about producing a range of snack bars. Kayla is certai...",
+      "topic": "Marketing",
+      "subtopic": "Marketing mix",
+      "topic_confidence": 0.45,
+      "topic_reason": [
+        "Business organization and environment:Business structures and stakeholders+54",
+        "Finance and accounts:Investment appraisal+60",
+        "Marketing:Market research and demand+40",
+        "Marketing:Marketing mix+108",
+        "Operations management:Production methods and quality+54"
+      ],
+      "question_text": "Accord have not yet made a decision about producing a range of snack bars.\nKayla is certain that there is a market for the snack bar products. The snack bars would\ncomplement Accord\u2019s product portfolio. The investment required, according to Kayla\u2019s\nestimate (see Section B), is acceptable and she is certain that it is the right time for the\nbusiness to grow. Her information on the market (see Appendix 1) is very positive. In\ncontrast, she believes that it is too difficult to grow in the beverage market because of\ncompetition, so she would prefer to switch from drinks to snack bars. She likes owning the\nbusiness and has very clear objectives for the future.\nAran is becoming increasingly frustrated. His idea of targeting a mass market for Enrich and\nDetox has been rejected by Kayla and other managers at Accord. His efforts to introduce\ntotal quality management (TQM) failed because employees resisted the change. He is\ninterested in performance and not relaxation, so he does not like Detox as an idea for a product.\nAran has been approached by Star Food (SF), a multinational company (MNC) that produces\na range of food products including soft drinks. SF are interested in the Enrich brand name\nand Accord\u2019s contracts with sports centres. SF have offered to buy Accord for $5 million. This\nis approximately five years of earnings for Accord. Kayla and Aran would keep the Detox\npart of the business. Aran would be happy to accept the offer, particularly given the risk that\nAccord may not survive (Table 1). Aran likes the certainty that the sale would bring. He would\naccept a small payment from Kayla to sell his share of the Detox business to her.\nTable 1: Survival rates of small businesses (based on a survey of local businesses)\nWhen small businesses fail\nYear 1 20 %\nYear 2 34 %\nYear 3 50 %\nYear 5 50 %\nYear 10 70 %\nWhy small businesses fail\nCash flow problems 82 %\nInsufficient demand 42 %\nWrong management team 23 %\nCompetition 19 %\n(This question continues on the following page)\nN19/3/BUSMT/ HP1/ENG/TZ0/XX\n\u2013 4 \u2013\n(Question 5 continued)\nAppendix 1: Extract adapted from a Mintel report on sports nutrition food\n\u201cNew research shows that in some countries, such as the UK, as many as one in four\nadults have consumed a sports nutrition product (drinks, bars etc) in the past 3 months.\nSales are growing rapidly. The market is expanding beyond the elite sports people\nand gym fans. The products are increasingly attracting \u2018lifestyle\u2019 users who see these\nproducts fitting in with a healthy, active life style. There are plenty of opportunities for\nnew developments of products.\u201d\n[Source: Mintel\u2019s Attitudes towards Sports Nutrition UK 2016 report]\nUsing the case study and the additional information on pages 3 and 4, recommend whether\nAccord should start making and selling snack bars or whether Kayla and Aran should sell\nAccord to SF. A force field analysis of the options could help you in your answer. [20]\n\u2013 5 \u2013\nN19/3/BUSMT/ HP1/ENG/TZ0/XX",
+      "answer_text": "5. Using the case study and the additional information on pages 3 and 4, recommend\nwhether Accord should start making and selling snack bars or whether Kayla and Aran\nshould sell Accord to SF. A force field analysis of the options could help you in your\nanswer. [20]\nMaking and selling snack bars:\nForces for the change to snack bars:\n\uf0b7 Kayla is certain there is a market\n\uf0b7 Fits in with existing product portfolio\n\uf0b7 Payback and ARR are OK\n\uf0b7 Business is in a good position to grow\n\uf0b7 The Mintel report is very positive\n\uf0b7 Snack bars are better than drinks because of competition.\nForces restraining the change:\n\uf0b7 Aran thinks it better to target the mass drinks market\n\uf0b7 There are still quality issues to overcome first\n\uf0b7 Detox does not fit in with his ideas for the product/market.\nSelling Accord to SF:\nForces for the selling SF:\n\uf0b7 Offer is for 5 years\u2019 worth of earnings\n\uf0b7 Detox remains\n\uf0b7 Aran is frustrated with the current business and would accept the offer\n\uf0b7 There are threats to Accord\u2019s survival\n\uf0b7 Certainty\n\uf0b7 Kayla would buy Detox, which she likes.\nForces restraining the change:\n\uf0b7 It would end the partnership\n\uf0b7 Would Aran later regret it?\nDo not penalize candidates who do not consider the \u201cdo nothing\u201d option.\nCriterion A: Is about the choice of theories/tools made by the candidate to try and\nsolve the problem. Possible theories, planning tools and techniques include: FFA,\nInvestment appraisal, SWOT, Risk (candidates need not refer to Ansoff but it might be\nuseful), takeovers, product portfolios, market data, ownership and control issues, eg\npartnership, market research the importance of assumptions.\nIn this instance, as compared with previous sessions, the emphasis is likely to be on\nchoosing relevant theories and ideas and not so much on business tools.\nNo understanding of FFA max [3]. FFA could be presents as a table or a discussion of\ndriving/restraining forces\nFor [4]: FFA plus at least one other tool, technique or theory understood and developed well\nwith some relevance to the additional stimulus material.\nFor [2]: some understanding of at least two tools, techniques or theories, but not developed.\n\u2013 15 \u2013 N19/3/BUSMT/HP1/ENG/TZ0/XX/M\nCriterion B: Is about the use of the stimulus, tools, techniques, theories in solving the\nproblem. Application will be judged by the use of the stimulus material, in particular the extra\nmaterial, especially Table 1, Appendix 1.\nFor [4]: relevant tools, techniques and theories are applied well to the case study (including\nOFR) context and additional stimulus material, the application is convincing and relevant.\nIf only one option considered max [3].\nLimited use of Table 1 or Appendix 1 max [3].\nFor [2]: some limited context/application but not developed. Use of tools limits candidate\u2019s\nability to make reasoned arguments.\nCriterion C: Is about the process of making a decision and the strength of the\nrecommendation. Options discussed in balanced way, conclusions drawn as to whether\nthey work. Remember, \u201cdo nothing\u201d can be a recommendation.\nIt is always worth reflecting on the piece of work as a whole (the entirety of the answer) when\ndeciding on the mark for this criterion.\nThere can be some flexibility about the chose option: Option A, Option B, both options,\nneither option\nFor [4]: There needs to be a comparison between the two options using Section C and other\nmaterial and a recommendation (Option 1, option 2 or do nothing) made and supported.\nFor [2]: Only one option considered or some limited arguments but not justified. No\ncomparison, limited analysis, but candidate arrives/draws a reasoned conclusion.\nCriterion D: Structure. This criterion assesses the extent to which the student organizes his\nor her ideas with clarity, and presents a structured piece of writing comprised of:\n\uf0b7 an introductory paragraph\n\uf0b7 logical structure\n\uf0b7 a concluding paragraph\n\uf0b7 fit-for-purpose paragraphs. This means: not too long, focused on distinct issues,\nsequenced well, guides the reader.\nBeware of under-rewarding weak scripts that, nonetheless, have some or all of the elements.\nThe candidate will lose marks in the other criteria so they should not be doubly penalized.\nFor [4]: all four elements present, clearly organized and there is clarity in the student\u2019s\nanswer.\nFor [2]: No logical structure, but other elements present or logical structure with other\nelements missing.\n\u2013 16 \u2013 N19/3/BUSMT/HP1/ENG/TZ0/XX/M\nCriterion E: Is about the extent to which stakeholders (both groups and individuals)\nare considered.\n\uf0b7 Individuals: Aran and Kayla (these hold different views so can be considered as different\nindividuals).\n\uf0b7 Groups: Managers, employees, customers, communities, governments, stakeholders at\nSF.\nFor [4]: two or more individuals and groups are considered in a balanced way.\nFor [2]: one group or individual considered appropriately, or several individuals or groups\nconsidered superficially.\n[1] could be awarded if there is mention of stakeholders but with little development.\n[3] could be awarded if there is a range of stakeholders but little balance.",
+      "marks": 0,
+      "source": {
+        "paper_file": "n19_Business_management_paper_1__HL.pdf",
+        "markscheme_file": "n19_Business_management_paper_1__HL_markscheme.pdf"
+      },
+      "question_image_paths": [
+        "images/questions/n19_p1_q5_hl_p1.png",
+        "images/questions/n19_p1_q5_hl_p2.png"
+      ],
+      "markscheme_image_paths": [
+        "images/markschemes/n19_p1_q5_hl_p1.png",
+        "images/markschemes/n19_p1_q5_hl_p2.png",
+        "images/markschemes/n19_p1_q5_hl_p3.png"
+      ]
+    },
+    {
+      "id": "n19_p2_q1_hl",
+      "paper": "November 2019 Paper 2 HL",
+      "session": "November 2019",
+      "session_code": "n19",
+      "paper_type": "Paper 2",
+      "level": "HL",
+      "question_number": "1",
+      "title": "Q1: Sassy Sassy, a partnership between fashion designers, produces clothes for teenagers. Capa...",
+      "topic": "Finance and accounts",
+      "subtopic": "Investment appraisal",
+      "topic_confidence": 0.45,
+      "topic_reason": [
+        "Business organization and environment:Business structures and stakeholders+72",
+        "Finance and accounts:Investment appraisal+240",
+        "Finance and accounts:Budgets and forecasts+16",
+        "Marketing:Market research and demand+20",
+        "Marketing:Marketing mix+36"
+      ],
+      "question_text": "Sassy\nSassy, a partnership between fashion designers, produces clothes for teenagers. Capacity\nutilization is very high.\nThe partners are considering some strategic changes. After conducting research, they\npresented three options and outlined the costs and expected revenue. They also predicted\nthat the economy would either improve or stay the same. The probability of the economy\nstaying the same is 0.3.\nThe options, costs and expected revenue are given below:\nTable 1: Information relating to the three strategic options for change\nOptions Costs Expected revenue\nOption 1: Increase\nproduction capacity\n$200 000 $300 000 (economy improves)\n$250 000 (economy stays the same)\nOption 2: Dissolve the\npartnership and sell\nSassy\u2019s brand name to a\ncompetitor\nNot applicable $150 000\nOption 3: Become a\nprivate limited company\nand:\n$150 000\n(legal costs)\nNot applicable\n(a) Stay with the\ncurrent product\nrange and\nproduction level\nNo additional\ncosts\n$220 000 (economy improves)\n$170 000 (economy stays the same)\nOR\n(b) Develop a new\nproduct range of\nchildren\u2019s clothes.\n$170 000\nadditional cost\n$550 000 (economy improves)\n$450 000 (economy stays the same)\n(a) Describe one disadvantage for an organization of operating at high capacity utilization. [2]\n(b) Construct a fully labelled decision tree and identify the best option for Sassy (show all\nyour working). [6]\n(c) Explain one limitation for Sassy of using a decision tree as a planning tool. [2]\nN19/3/BUSMT/ HP2/ENG/TZ0/XX\n\u2013 2 \u2013",
+      "answer_text": "1. (a) Describe one disadvantage for an organization of operating at high capacity\nutilization. [2]\nSome of the disadvantages for an organisation of operating at high capacity:\n\uf0b7 Workers might feel the pressure / tiredness / mistakes / demotivation, which\ncan reduce productivity.\n\uf0b7 Machinery is more likely to break down, so production may be halted.\n\uf0b7 Higher maintenance costs, due to constant use.\n\uf0b7 Inability to respond to a sudden increase in demand, so potential customers\nmay be lost.\nAccept any other relevant disadvantage.\nAward [1] for a relevant disadvantage with appropriate description up to a\nmaximum of [2].\nFor [2] marks responses must link the disadvantage to an outcome as in the\nexamples above.\nIt is not expected that candidates explain the benefits to any stakeholder.\nApplication to the organization is not required.\nDo not credit an example.\n\u2013 7 \u2013 N19/3/BUSMT/HP2/ENG/TZ0/XX/M\n(b) Construct a fully labelled decision tree and identify the best option for Sassy\n(show all your working). [6]\nCalculations:\nEMV 1 = (300 000 \uf0b4 0.7 \uf02b 250 000 \uf0b4 0.3) \u2013 2 00,0 00 = $85 000\nEMV 2 = $150 000\nEMV 3a = (220 000 \uf0b4 0.7 \uf02b 170 000 \uf0b4 0.3) \u2013 150 000 = $55 000\nEMV 3b = (550 000 \uf0b4 0.7 \uf02b 450 000 \uf0b4 0.3) \u2013 (170 000 \uf02b 150 000) = $200 000\nBest option 3(b) should be followed.\n[0]\nThe decision tree does not reach a standard described below.\n[1\u20132]\nThe decision tree is not accurately constructed, and / or the calculations of each option\nare not presented or accurate. However, there is some evidence of a general\nunderstanding of the model.\n[3\u20134]\nThe principal elements of the decision tree are constructed, but may not be entirely\naccurate. The calculations of each option are largely correct. Allow up to three mistakes\nin calculations and / or presentation for [3].\nAllow for either two errors in calculation or two error in presentation [4].\nFor an accurately constructed decision tree with incorrect calculations, award up to a\nmaximum of [3].\n\n\u2013 8 \u2013 N19/3/BUSMT/HP2/ENG/TZ0/XX/M\nFor an accurately constructed decision tree with EMV calculations, but no working [4].\n[5-6]\nThe decision tree is accurately constructed. The calculations of each option are correct\nand well presented. A key is provided. Workings are shown. As well as the rejected\noptions [6]. Full marks can be awarded even if the headings of expected return/forecast\nrevenue and probabilities are not explicitly written.\nDeduct [1] if a key is not provided.\nDeduct [1] if the best option is not identified either on the diagram OR following the EMV\ncalculations.\nN.B. for only correct calculations of all options without a decision tree award a\nmaximum of [2].\nEssentially treat the lack of key or rejected options as presentation errors as errors.\nHence three presentation/calculation errors = [3].\nApply candidate own figure rule (OFR) throughout this response.\n(c) Explain one limitation for Sassy of using a decision tree as a planning tool. [2]\nWhile a general limitation of the decision tree model is the nature of the predicted\noutcome, here the use of the model is even more limited as it has been done by\nthe partners who are designers. Due to lack of experience/qualification, they\nignored the possibility that the economy might deteriorate. The predicted financial\nreturns for each option might be inaccurate, especially in the volatile, ever-\nchanging fashion industry. Hence, possible bias and different numerical\noutcomes.\nNB. Do not accept \u201cworsening economy\u201d if there is no other reference to the\nstimulus since this is often cited as a generic limitation.\nAccept any other relevant limitation.\nCandidates do not have to cover all of the applicable issue above. One is\nsufficient.\nAward [1] for a relevant generic limitation identified or described and [1] for any\nadditional explanation in context.\n[2] cannot be awarded for the limitation if the response lacks either explanation\nand / or application.\nFor example:\nFor an identification or a description of the limitation with or without application [1].\nFor explanation of the limitation with no application [1].\nFor explanation of the limitation and application [2].\n\u2013 9 \u2013 N19/3/BUSMT/HP2/ENG/TZ0/XX/M",
+      "marks": 0,
+      "source": {
+        "paper_file": "n19_Business_management_paper_2__HL.pdf",
+        "markscheme_file": "n19_Business_management_paper_2__HL_markscheme.pdf"
+      },
+      "question_image_paths": [
+        "images/questions/n19_p2_q1_hl_p1.png",
+        "images/questions/n19_p2_q1_hl_p2.png"
+      ],
+      "markscheme_image_paths": [
+        "images/markschemes/n19_p2_q1_hl_p1.png",
+        "images/markschemes/n19_p2_q1_hl_p2.png",
+        "images/markschemes/n19_p2_q1_hl_p3.png",
+        "images/markschemes/n19_p2_q1_hl_p4.png"
+      ]
+    },
+    {
+      "id": "n19_p2_q1_sl",
+      "paper": "November 2019 Paper 2 SL",
+      "session": "November 2019",
+      "session_code": "n19",
+      "paper_type": "Paper 2",
+      "level": "SL",
+      "question_number": "1",
+      "title": "Q1: Small-Scale Hobbies (SSH) Scale Airplane Modeller is a magazine produced by Small-Scale Ho...",
+      "topic": "Finance and accounts",
+      "subtopic": "Budgets and forecasts",
+      "topic_confidence": 0.45,
+      "topic_reason": [
+        "Finance and accounts:Budgets and forecasts+32",
+        "Marketing:Marketing mix+18"
+      ],
+      "question_text": "Small-Scale Hobbies (SSH)\nScale Airplane Modeller is a magazine produced by Small-Scale Hobbies (SSH).\nThe company sells the magazine through independent retail outlets in the US.\nThe finance director produced a summary of 2018\u2019s financial information. Last year\u2019s\nbreak\u2011even chart showed that SSH had a margin of safety of 20 000 units.\nTable 1: Selected financial data for SSH for 2018:\nAnnual fixed costs $100 000\nVariable costs per magazine produced $2\nMagazine price $4.50\nThis year, to reduce costs and to increase sales, the company will introduce new production\nmethods, which will reduce:\ny unit variable costs by 10 %\ny fixed costs by $5000 per year.\n(a) Define the term margin of safety. [2]\n(b) Using the financial data in Table 1, calculate:\n(i) the break\u2011even level of output (show all your working); [2]\n(ii) the percentage of total costs that were fixed costs for last year (show all your\nworking); [2]\n(iii) the level of profit for SSH at 2018\u2019s level of production (show all your working). [2]\n(c) Explain how the introduction of new production methods will affect the total cost line in\nSSH\u2019s break-even chart. [2]\nN19/3/BUSMT/ SP2/ENG/TZ0/XX\n\u2013 2 \u2013",
+      "answer_text": "1. (a) Define the term margin of safety. [2]\nIn break-even analysis, margin of safety is how much output or sales level can\nfall before a business reaches its break-even point.\nAward [1] for some understanding.\nAward [2] for a clear definition.\n(b) Using the financial data in Table 1 , calculate:\n(i) the break-even level of output (show all your working ); [2]\nTFCFormula Unit contribution\uf03d\n100 000\n45 2\uf03d \uf02d\n\n100 000 40 000 units25\uf03d\uf03d\n[1] can\nbe awarded for the formula on its own OR\n100000\n2.5 .\nAn additional [1] is for the correct answer with working shown.\n(ii)\nthe percentage of total costs that were fixed costs for last year (show all\nyour workin\ng); [2]\nOutput \uf03d 60 000 (break even \uf03d 40 000 and margin of safety \uf03d 20 000)\nTC \uf03d TFC \uf02b TVC \uf03d 100 000 \uf02b (60 000 \uf0b4 2)\nTC \uf03d 220 000\nTFC percentage \uf03d\n\n100 000\n220 000 \uf03d 45.45 %\nN.B. OF\nR rule applies from (i).\n[1] can\nbe awarded for TFC percentage \uf03d\n\n100000\n220000 even if the final answer\nis incorrect.\nIf a candidate has the workings shown (100 000/200 000) and has the answer\nwritten out as 45.45, 45.4545, etc. award [2].\nIf a candidate has the workings shown (100 000/200 000) and has the answer\nwritten out as 45.5, award [2] award [2].\nIf a candidate has the workings shown (100 000/200 000) and has the answer\nwritten out as 45.4 or has a maths error, award [1].\n\u2013 7 \u2013 N19/3/BUSMT/SP2/ENG/TZ0/XX/M\n(iii) the level of profit for SSH at 2018\u2019s level of production (show all your\nworking). [2]\nOutput \uf03d 60 000\nTR \uf03d 60 000 \uf0b4 $4.5 \uf03d $270 000\nTC \uf03d $220 000\nProfit \uf03d $50 000\nN.B. OFR rule applies from (i).\n(c) Explain how the introduction of new production methods will affect the total cost\nline in SSH\u2019s break-even chart. [2]\nThe TC line will shift downwards (by $5000) [1].\nThe slope or gradient of the TC line will become flatter (less steep) [1].\nA candidate may draw a sketch to show the impact on TC \u2013 this can be awarded\n[2] if it shows TC line shifting downwards and becoming flatter.\nIf a candidate says that the total cost line is lower, or something to that affect, award [1].\nIf a candidate correctly explains the impact on the break-even point, award [1].\n\u2013 8 \u2013 N19/3/BUSMT/SP2/ENG/TZ0/XX/M",
+      "marks": 0,
+      "source": {
+        "paper_file": "n19_Business_management_paper_2__SL.pdf",
+        "markscheme_file": "n19_Business_management_paper_2__SL_markscheme.pdf"
+      },
+      "question_image_paths": [
+        "images/questions/n19_p2_q1_sl_p1.png",
+        "images/questions/n19_p2_q1_sl_p2.png"
+      ],
+      "markscheme_image_paths": [
+        "images/markschemes/n19_p2_q1_sl_p1.png",
+        "images/markschemes/n19_p2_q1_sl_p2.png",
+        "images/markschemes/n19_p2_q1_sl_p3.png"
+      ]
+    },
+    {
+      "id": "n19_p2_q2_hl",
+      "paper": "November 2019 Paper 2 HL",
+      "session": "November 2019",
+      "session_code": "n19",
+      "paper_type": "Paper 2",
+      "level": "HL",
+      "question_number": "2",
+      "title": "Q2: Mutombo Window Fans (MWF) Mutombo Window Fans (MWF) manufactures and sells window fans to ...",
+      "topic": "Business organization and environment",
+      "subtopic": "Growth and change",
+      "topic_confidence": 0.492,
+      "topic_reason": [
+        "Business organization and environment:Growth and change+126",
+        "Finance and accounts:Final accounts and ratio analysis+20",
+        "Finance and accounts:Budgets and forecasts+64",
+        "Marketing:Marketing mix+18",
+        "Operations management:Location and capacity+32"
+      ],
+      "question_text": "Mutombo Window Fans (MWF)\nMutombo Window Fans (MWF) manufactures and sells window\nfans to wholesalers across eastern Africa. Although the business\nbegan small, it experienced rapid internal growth through aggressive,\ncommission-based sales.\nCurrently, MWF sells 300 window fans per month. Each fan sells at\nan average price of $100.\nTable 1: Forecasted fixed costs for 2020 (all figures in $)\nRent 36 000\nInsurance 9000\nSalaries 19 000\nLease on equipment 48 000\nCleaning service 18 000\nTable 2: Variable costs per fan for 2020 (all figures in $)\nMaterials 55\nDelivery 5\n(a) Define the term internal growth. [2]\n(b) (i) Calculate, for MWF, the break-even level of output for 2020. [2]\n(ii) Construct a fully labelled, to scale, break-even chart for MWF for 2020. [4]\n(iii) Calculate the profit if MWF sells 3600 window fans in 2020. [2]\nN19/3/BUSMT/ HP2/ENG/TZ0/XX\n\u2013 3 \u2013\nAnswer two questions from this section.",
+      "answer_text": "2. (a) Define the term internal growth . [2]\nInternal growth occurs when a business expands existing operations rather than\ngrowing by merging or acquiring other businesses. Typically, internal growth\noccurs when a business expands its capacity and sells to a wider market.\nCandidates do not have to have wording exactly as above.\nAward [1] for some understanding of internal growth (such as \u201cexpands existing\noperations\u201d) and [1] for additional wording that gives precision (\u201crather than\ngrowing by merging or acquiring other businesses\u201d or \u201cinternal growth occurs\nwhen a business expands its capacity and sells to a wider market\u201d).\nNB. the question is about internal growth and not about growth generically. Do\nnot award beyond [1] mark if the response does not make this distinction\n(b) (i) Calculate,\nfor MWF, the break-even level of output for 2020. [2]\nTotal fixed costs: $130 000\nContribution: $100 \u2013 $60 = 40\nBreak-even point:\n130 000 325040 \uf03d units\nAward [2] for correct answer and workings. Award [1] for correct process\nbut with a mathematical error.\n(ii) Construct a fully labelled, to scale, break-even chart for MWF for 2020. [4]\n\n\u2013 10 \u2013 N19/3/BUSMT/HP2/ENG/TZ0/XX/M\nAward marks as follows:\n[1] for both appropriately labelled axes \u2013 y-axis must include both costs\nand revenue. The x-axis can be any suggestion of quantity: units, fans.\nResponses should be penalised if using $ sign in x-axis. If x or y axes show\nno units or scale is inaccurate then it follows that TR and TC must also be\ninaccurate\n[1] for accurately drawn and labelled total cost line.\n[1] for accurately drawn and labelled total revenue line.\n[1] for indication of break-even point. OFR applies from part b(i). The\nbreakeven value does not need to be stated but the diagram must be\nconsistent with the value in b(i) Do not award lines simply drawn from the\nBEP to the x and y axes without further annotation.\nAward a maximum of [2] if the chart is not neat, not drawn with a straight\nedge, or is not to scale.\nIf a candidate produces a table rather than a chart, award [0].\nNB. The Fixed Cost (FC), Variable Cost (VC) and Margin of Safety do NOT\nneed to be shown as in diagram.\n(iii) Calculate the profit if MWF sells 3600 window fans in 2020. [2]\nTotal revenue \u2013 Total cost = Profit\n(3600\n\uf0b4 100) \u2013 (130 000 \uf02b 3600 \uf0b4 60) = 360 000 \u2013 (130 000 \uf02b 216 000)\n= 360 000 \u2013 346 000 = $14 000 Net profit\nAlternatively, profit can be calculated using the total contribution \u2013 fixed costs.\nTotal contribution = 3600\n\uf0b4 40 = 144 000\nProfit is (3600 \uf0b4 $40) \u2013 $ 130 000 = $14 000\nOr\nProfit = Contribution per unit X Margin of safety\n= ($100 - $60) X (3600 -3250)\n= $ 14 000\nAward [2] fo\nr correct answer and workings. Working does not need to be as\nextensive as shown above. Award [1] for correct process but with a\nmathematical error.\n\u2013 11 \u2013 N19/3/BUSMT/HP2/ENG/TZ0/XX/M",
+      "marks": 0,
+      "source": {
+        "paper_file": "n19_Business_management_paper_2__HL.pdf",
+        "markscheme_file": "n19_Business_management_paper_2__HL_markscheme.pdf"
+      },
+      "question_image_paths": [
+        "images/questions/n19_p2_q2_hl_p1.png",
+        "images/questions/n19_p2_q2_hl_p2.png"
+      ],
+      "markscheme_image_paths": [
+        "images/markschemes/n19_p2_q2_hl_p1.png",
+        "images/markschemes/n19_p2_q2_hl_p2.png",
+        "images/markschemes/n19_p2_q2_hl_p3.png"
+      ]
+    },
+    {
+      "id": "n19_p2_q2_sl",
+      "paper": "November 2019 Paper 2 SL",
+      "session": "November 2019",
+      "session_code": "n19",
+      "paper_type": "Paper 2",
+      "level": "SL",
+      "question_number": "2",
+      "title": "Q2: Daytona Go-Carts In 2020, Ron James aims to open Daytona Go-Carts, a race track where indi...",
+      "topic": "Finance and accounts",
+      "subtopic": "Investment appraisal",
+      "topic_confidence": 0.45,
+      "topic_reason": [
+        "Business organization and environment:Growth and change+14",
+        "Finance and accounts:Investment appraisal+200",
+        "Marketing:Market research and demand+160"
+      ],
+      "question_text": "Daytona Go-Carts\nIn 2020, Ron James aims to open Daytona Go-Carts,\na race track where individuals as young as twelve can\nrent go\u2011carts and participate in races. Through primary\nmarket research, Ron has discovered that many\nteenagers would enjoy participating in go\u2011cart races.\nRon has two options for locations for the go-cart\nrace track:\ny Option 1: The cost of the site would be $1.2 million\ny Option 2: The cost of the site would be $1.8 million.\nForecasted profits for Option 1 are:\nYear 1 Year 2 Year 3 Year 4 Year 5\n$200 000 $300 000 $300 000 $300 000 $300 000\nForecasted profits for Option 2 are $300 000 in the first year, with profits growing by 20 % per\nyear for the next four years.\n(a) State two methods of primary market research. [2]\n(b) Calculate, for Option 1:\n(i) the average rate of return (ARR) (show all your working); [2]\n(ii) the payback period (show all your working). [2]\n(c) Calculate, for Option 2, the average rate of return (ARR) (show all your working). [2]\n(d) Explain one reason why Option 1 may be a less risky investment than Option 2. [2]\n[Source: https://www.pexels.com]\nN19/3/BUSMT/ SP2/ENG/TZ0/XX\n\u2013 3 \u2013\nAnswer one question from this section.",
+      "answer_text": "2. (a) State two methods of primary market research. [2]\nTypes of primary market research include:\n\uf0b7 questionnaire/surveys (postal, online, face-to-face)\n\uf0b7 focus groups\n\uf0b7 interviews (telephone or face-to-face)\n\uf0b7 observation.\nAward [1] for each type of market research method identified, up to a maximum\nof [2]. If a candidate names two types of the same method (for example, postal\nsurvey and online survey), award a maximum of [1].\nDo not accept \u201cData collected from a business\u201d (or something similar), as\nthis wording is insufficiently precise. Many types of data collected from a\nbusiness would be secondary.\n(b) Calculate, for Option 1:\n(i) the average rate of return (ARR) ( show all your working); [2]\nARR:\nProfit from investment \u2013 Cost of investment $1 400 000 $1 200 000 $200 000\nNumber of years 5 5\n\uf02d\uf03d\uf03d\n\uf03d $40 000 average profit per year\n\nAverage per annum profit $40 000\nCost of investment $1 200 000\uf03d\uf03d 3.33 %\nAward [1] for working or formula and [1] for the correct answer. Award up\nto a maximum of [2].\nIf a candidate has the workings shown (40 000/1 200 000) and has the answer written\nout as 3.33, 3.3333, etc, award [2].\nIf a candidate has the workings shown (40 000/1 200 000) and has the answer written\nout as 3.3, award [2].\nIf a candidate has the workings shown (40 000/1 200 000) and has the answer written\nout as 3.4, or has a maths error, award [1].\n\u2013 9 \u2013 N19/3/BUSMT/SP2/ENG/TZ0/XX/M\n(ii) the payback period ( show all your working). [2]\nPayback period:\nProfit after the first four years is $1 000 000, which means that $100\nremains going into the fifth year, which has anticipated profits of $300.\n$100 1\n$300 3\uf03d \uf03d four months.\nThe payback period is 4\nyears and 4 months.\nAward [1] fo\nr working or formula and [1] for the correct answer. Award up\nt\no a maximum of [2].\n(c) Calculate,\nfor Option 2, the average rate of return (ARR) (show all your working). [2]\nARR:\n\nForecasted\nprofits\nYear 1: $300 000\nYear 2: $300 000 \uf0b4 1.2 \uf03d $360 000\nYear 3: $360 000 \uf0b4 1.2 \uf03d $432 000\nYear 4: $432 000 \uf0b4 1.2 \uf03d $518 400\nYear 5: $518 000 \uf0b4 1.2 \uf03d $622 080\n$2 232 480\nProfit from investment \u2013 Cost of investment $2 232 480 $1 800 000 $432 480\nNumber of years 5 5\n\uf02d\uf03d\uf03d\n\uf03d $86 496 average profit per year\n\nAverage per annum profit $86 496\nCost of investment $1 800 000\uf03d\uf03d 4.81 %\nIf a candidate has the workings shown (86 496/ 1 800 000) and has the answer written\nout as 4.8053, 4.80533, etc., award [2].\nIf a candidate has the workings shown (86 496/ 1 800 000) and has the answer written\nout as 4.81 or 4.8, award [2].\nIf a candidate has the workings shown (86 496/ 1 800 000) and has any other answer\nthan those above or has a maths error, award [1].\n\u2013 10 \u2013 N19/3/BUSMT/SP2/ENG/TZ0/XX/M\n(d) Explain one reason why Option 1 may be a less risky investment than Option 2. [2]\nReasons that Option 1 may be the less risky of the two investments include:\n\uf0b7 Lesser capital outlay. The success of Option 2 relies heavily on strong and\ngrowing demand year on year. Were that demand not to materialize, the\nreturns on the investment would fall and it would take longer to recoup the\ninvestment cost.\n\uf0b7 In the early years, Option 1 has higher profits as a percentage of investment\nthan Option 2. Forecasts become more problematic the further out they go in\nyears. Option 1 will see a fairly significant recovery of investment in the early\nyears, whereas Option 2 is very dependent on demand of 20\n% growth\nthrough five years. Profit of $622 080 is crucial to the success of Option 2.\nAccept any other relevant response.\nAward [1] for identification of a reason why Option 1 may be safer and award [2]\nfor an explanation of why Option 1 may be safer. Application is largely built into\nthe question.\n\u2013 11 \u2013 N19/3/BUSMT/SP2/ENG/TZ0/XX/M",
+      "marks": 0,
+      "source": {
+        "paper_file": "n19_Business_management_paper_2__SL.pdf",
+        "markscheme_file": "n19_Business_management_paper_2__SL_markscheme.pdf"
+      },
+      "question_image_paths": [
+        "images/questions/n19_p2_q2_sl_p1.png",
+        "images/questions/n19_p2_q2_sl_p2.png"
+      ],
+      "markscheme_image_paths": [
+        "images/markschemes/n19_p2_q2_sl_p1.png",
+        "images/markschemes/n19_p2_q2_sl_p2.png",
+        "images/markschemes/n19_p2_q2_sl_p3.png",
+        "images/markschemes/n19_p2_q2_sl_p4.png"
+      ]
+    },
+    {
+      "id": "n19_p2_q3_hl",
+      "paper": "November 2019 Paper 2 HL",
+      "session": "November 2019",
+      "session_code": "n19",
+      "paper_type": "Paper 2",
+      "level": "HL",
+      "question_number": "3",
+      "title": "Q3: Cool Meals (CM) Cool Meals (CM) produces frozen organic ready-made meals that are sold to ...",
+      "topic": "Finance and accounts",
+      "subtopic": "Final accounts and ratio analysis",
+      "topic_confidence": 0.45,
+      "topic_reason": [
+        "Business organization and environment:External environment and ethics+192",
+        "Human resource management:Motivation and leadership+18",
+        "Finance and accounts:Sources of finance+18",
+        "Finance and accounts:Final accounts and ratio analysis+320",
+        "Marketing:Market research and demand+100"
+      ],
+      "question_text": "Cool Meals (CM)\nCool Meals (CM) produces frozen organic ready-made meals that are sold to food retailers\nthroughout the country.\nCM buys large quantities of organic ingredients from local farmers for its just-in-case (JIC)\nstock control management. It uses a cost-plus (mark-up) pricing strategy.\nCM is known for its:\ny good-quality organic frozen meals, which are perceived as good value for money\ny flexibility with retailers in terms of quantity of meals supplied, credit given and efficient\ndelivery at pre-arranged dates\ny corporate social responsibility (CSR) based on a long-term commitment made to farmers\nto purchase large quantities of organic ingredients every four months and pay a fair price\npromptly\ny CM has an excellent working relationship with farmers, who always prioritize CM\u2019s\nrequests in terms of quantity and delivery.\nRecently, an economic downturn and increased competition, especially from non-organic\nfrozen meal suppliers, has decreased demand for frozen organic meals.\nThe finance manager of CM, Kayleigh, provided the following financial information.\nTable 1: Selected financial information for CM\n2017 2018\nTotal revenue $6 000 000 $3 500 000\nGross profit margin 16 % 14 %\nNet profit margin 6% 3%\nCreditor days 10 5\nDebtor days 50 70\nStock turnover days 20 40\nCurrent ratio 2.1 2.4\nAcid test (quick) ratio 0.8 0.6\n(This question continues on the following page)\nN19/3/BUSMT/ HP2/ENG/TZ0/XX\n\u2013 4 \u2013\n(Question 3 continued)\nKayleigh is worried about the cash flow of CM and suggested the company changes the\nstock control method from just-in-case (JIC) to just-in-time (JIT). She is also looking at other\nstrategies to improve CM\u2019s financial position.\n(a) Define the term corporate social responsibility (CSR). [2]\n(b) Explain one advantage and one disadvantage for CM of using a cost-plus (mark-up)\npricing strategy. [4]\n(c) Explain one advantage and one disadvantage for CM of changing its stock control\nmethod from just-in-case (JIC) to just-in-time (JIT). [4]\n(d) Using the financial information in Table 1, evaluate two strategies that CM could\nuse to improve its financial position other than changing to a just-in-time (JIT) stock\ncontrol method. [10]\nN19/3/BUSMT/ HP2/ENG/TZ0/XX\n\u2013 5 \u2013",
+      "answer_text": "3. (a) Define the term corporate social responsibility (CSR). [2]\nCSR is the decision/attempt by a business to take responsibility for their\naction/activities by considering the interests of and the impact on a wide range of\nstakeholders in society. The business accepts the moral and legal obligations to\nsociety, not just to investors, that result from its operation.\nCandidates are not expected to word their definition exactly as above.\nAward [1] for a basic definition that conveys partial knowledge and understanding\nsimilar to the above answer. The first mark would typically come from awareness\nthat there is some morale guidance.\nAward [2] for a full, clear definition that conveys knowledge and understanding\nsimilar to the answer above. Individual stakeholders do not need to be named to\ngain full marks\nDo not credit an example.\n(b) Explain one advantage and one disadvantage for CM of using a cost-plus\n(mark-up) pricing strategy. [4]\nOne advantage for CM of using a cost-plus pricing strategy is the fact that it will\nbe CM that covers all the costs and ensures a certain percentage of profit to be\nmade. It is evident given the figures above that CM makes a profit. CM\u2019s ability to\nmake a profit ensures long-term survival. CM\u2019s meals are perceived as good\nvalue for money, hence the strategy is effective.\nGiven the increase in competition, CM can be flexible and reduce the margin set\nabove the costs. Flexibility in pricing is an important factor when there is an\neconomic downturn, as well as increased competition.\nA possible disadvantage is that CM\u2019s costs are likely to be higher than\ncompetitors who supply non-organic meals. Together with the customers\u2019\nunwillingness to pay a premium price during an economic downturn, CM might\nsee a further fall in demand as seen in the fall in total revenue in 2018.\nAccept any other relevant advantage / disadvantage.\nAward [1] for each role identified and an additional [1] for development with\napplication to CM. Award a maximum of [2] per advantage/disadvantage. [2]\ncannot be awarded per role if the response lacks either explanation and / or\napplication.\nFor example:\nFor an identification or a description of an advantage/ disadvantage with or\nwithout application [1].\nFor explanation of relevant advantage/ disadvantage with no application [1].\nFor explanation of a relevant advantage/ disadvantage and application [2].\n\u2013 12 \u2013 N19/3/BUSMT/HP2/ENG/TZ0/XX/M\n(c) Explain one advantage and one disadvantage for CM of changing its stock\ncontrol method from just-in-case (JIC) to just-in-time (JIT). [4]\nA possible advantage for CM of changing the stock method from JIC to JIT:\nAs CM buys agriculture produce/ stock, these products need to be well stored\nand possibly refrigerated. Moving to JIT will significantly reduce costs of storage\nand spoilage. The gross profit margin, which has fallen by 2 %, is likely to\nincrease rather than decrease. The very high current ratio of 2.4 will fall, as CM\nwill not stock financially unproductive assets.\nA possible disadvantage for CM of changing production /stock method methods\nfrom JIC to JIT:\nGiven the nature of the industry, the farmers are likely to prefer CM buying large\nquantities seasonally. Ordering lower quantities when needed might create\nproblems/costs for the farmers, who might not prioritize CM any longer. CM will\nalso lose its reputation for CSR based on long-term commitment to farmers to\nbuy large quantities.\nMoreover, given the unpredictable nature of farming, not having buffer stock\ncould result in CM being out of stock with the consequences of losing\nclients/reputation and therefore revenue and profit. CM is likely to lose its\nreputation for flexibility with the retailers in terms of quantity and delivery if not\nenough agriculture produce is available.\nAccept any other relevant/applicable advantage / disadvantage.\nAward [1] for each advantage / disadvantage identified and an additional [1] for\ndevelopment with application to CM. Award a maximum of [2] per advantage /\ndisadvantage.\n[2] cannot be awarded per role if the response lacks either explanation and / or\napplication.\nFor example:\nFor an identification or a description of an advantage/ disadvantage with or\nwithout application [1].\nFor explanation of a relevant advantage/ disadvantage with no application [1].\nFor explanation of a relevant advantage/ disadvantage and application [2].\n(d) Using the financial information in Table 1, evaluate two strategies that CM could\nuse to improve its financial position other than changing to a just-in-time (JIT)\nstock control method. [10]\nIt is expected that candidates make constant reference to/use of the figures and\nother relevant information in the stimulus combined with theoretical\nunderstanding of the advantages and disadvantages of the possible strategies.\nSome of the possible strategies:\nReduce cash outflow. CM is facing cash flow crisis as seen by its deteriorating\nacid test ratio of 0.6. Without stock, which contributed to a high current assets\nratio, CM cannot meet its long-term liabilities. It is evident that there is a big\ndifference between debtors and creditors days. CM paid the farmers within five\ndays in 2018, which is very quick and got significantly quicker \u2013 twice as fast \u2013\nbut received money from the retailers after 70 days in 2018, a significant increase\nfrom 50 days. CM is too generous to retailers with the credit term. Despite the\n\u2013 13 \u2013 N19/3/BUSMT/HP2/ENG/TZ0/XX/M\nfact that the relationship with retailers and the suppliers is CM\u2019s competitive\nadvantage, it is financially dangerous given the decreasing and very low acid test.\nSeek alternative suppliers with cheaper agriculture produce might be seen as\nan extreme solution, as CM\u2019s relationship with the farmers and the quality of the\norganic ingredients are key to its competitive advantage. It might take a long time\nto find different suppliers. Perhaps agreeing a longer credit term would be a\nbetter solution. Currently, CM pays after five days. One can assume that the\nfarmers are likely to prefer a request for a longer pay period than a more drastic\none.\nCut expenses. Gross profit margin is considerably higher than net profit margin\nfor a manufacturing company and is getting worse over time. CM should look at\nsome unnecessary expenses like marketing or administration. However, cutting\nsalaries or staff might impact on the employees\u2019 motivation and cutting marketing\nmight create some difficulties in competing with the new competitors. However,\ngoing out of business due to lack of cash can be judged as a more significant\nthreat.\nDo not accept better stock control due to JIT.\nTighter credit control. Cash payments only for the retailer will clearly\nreduce/eliminate debtor days. The acid test ratio is worrying and CM must take\nimmediate actions to solve this short-term liquidity problem. However, the\nrelationship with the retailers might deteriorate and they might start buying\nnon-organic frozen food from the emerging competitors. It appears that CM\u2019s\nbargaining power with the retailer is weak and this option is unlikely to be\nsuccessful. One, however, may argue that increasing the creditor days is unlikely\nto be met with much objection from its suppliers given the very low starting\nfigures and long-established trust. CM might also be able to ask its debtors \u2013 the\nretailers \u2013 to pay sooner, even after two months, a demand which is likely to be\nseen as reasonable.\nChanging pricing policy. CM can possibly reduce the price of its products.\nWhile CM may be more competitive and this strategy may work well given the\neconomic downturn and the increased competition, CM may suffer losses or a\nreduction in profit. However, customers may perceive the frozen organic meals\nas even better value for money and increase demand. Moreover, perhaps CM\ncan withstand a reduction in profit in the short term and we can see that CM is\nprofitable. The liquidity issue ought to be sorted. CM should prioritize its cash flow\nproblem first, then deal with a low acid test to generate cash to survive.\nEnhance marketing to generate more sales in cash. CM might be able to reduce\nits increasing level of stock and reduce stock turnover in days, which has clearly\ndeteriorated considerably from 20 to 40 days. However, any type of promotion\nmay incur more expenses, especially in cash. The data indicates that the net\nprofit margin is considerably lower than the gross profit margin, which indicates\nthat CM does not control its expenses well.\nImproved product portfolio. Perhaps CM should also consider non-organic\nmeals or other types of products to enhance its portfolio and create more revenue\nstreams. However, cannibalism can be created \u2013 CM may also have to compete\nmore directly with the increasing number of providers of non-organic frozen\nmeals. Market research has to be done so perhaps this option is not the most\nappropriate one in the short term.\n\u2013 14 \u2013 N19/3/BUSMT/HP2/ENG/TZ0/XX/M\nSeeking alternative short term sources of finance. Accept relevant applicable\nsuggestions like the use of overdraft and short-term loans, to deal with CM\u2019s\nshort-term liquidity crisis. However, these options are more of first aid rather than\nsolution to some ongoing problems and are likely to be more theoretical given the\nlack of information in the stimulus.\nIt is not expected that the candidates cover all of the above.\nAccept any other relevant arguments for and against any relevant suggested\nstrategy.\nAccept any other relevant examination.\nA conclusion with judgment is expected.\nA balanced response covers at least one argument for and one argument against\neach of two different strategies.\nMarks should be allocated according to the mark bands on page 3 with further\nguidance below.\nFor one relevant issue that is one-sided, award up to [3]. For more than one\nrelevant issue that is one-sided, award up to a maximum of [4].\nAward a maximum of [6] if the answer is of a standard that shows balanced\nanalysis and understanding throughout the response with reference to the\nstimulus material but there is no judgment/conclusion.\nCandidates cannot reach the [7\u20138] markband if they give judgment/conclusions\nthat are not based on analysis/explanation already given in their answer.\nIt is expected that the candidate goes beyond just providing some relevant\narguments for or against any suggested strategy and finish off with some\nconclusions and judgment.\nAward a maximum of [4] marks if the answer, regardless of balance and\njudgment makes no reference to either the figures or headings in Table 1\nCandidates, in order to reach to the top markband, should show clear evidence of\nsubstantiation/well supported.\nFor the top markband, candidates must make use of the financial information\ngiven in their discussion.\n\u2013 15 \u2013 N19/3/BUSMT/HP2/ENG/TZ0/XX/M",
+      "marks": 0,
+      "source": {
+        "paper_file": "n19_Business_management_paper_2__HL.pdf",
+        "markscheme_file": "n19_Business_management_paper_2__HL_markscheme.pdf"
+      },
+      "question_image_paths": [
+        "images/questions/n19_p2_q3_hl_p1.png",
+        "images/questions/n19_p2_q3_hl_p2.png",
+        "images/questions/n19_p2_q3_hl_p3.png"
+      ],
+      "markscheme_image_paths": [
+        "images/markschemes/n19_p2_q3_hl_p1.png",
+        "images/markschemes/n19_p2_q3_hl_p2.png",
+        "images/markschemes/n19_p2_q3_hl_p3.png",
+        "images/markschemes/n19_p2_q3_hl_p4.png",
+        "images/markschemes/n19_p2_q3_hl_p5.png"
+      ]
+    },
+    {
+      "id": "n19_p2_q3_sl",
+      "paper": "November 2019 Paper 2 SL",
+      "session": "November 2019",
+      "session_code": "n19",
+      "paper_type": "Paper 2",
+      "level": "SL",
+      "question_number": "3",
+      "title": "Q3: Top Star (TS) Top Star (TS) manufactures sports footwear. Its products are sold through re...",
+      "topic": "Business organization and environment",
+      "subtopic": "Growth and change",
+      "topic_confidence": 0.541,
+      "topic_reason": [
+        "Business organization and environment:Business structures and stakeholders+90",
+        "Business organization and environment:External environment and ethics+16",
+        "Business organization and environment:Growth and change+196",
+        "Human resource management:Organizational structure and culture+18",
+        "Marketing:Marketing mix+54"
+      ],
+      "question_text": "Top Star (TS)\nTop Star (TS) manufactures sports footwear. Its products are sold through retail outlets and\nonline. Sales of TS\u2019 footwear in retail outlets are falling. However, because e\u2011commerce\nis growing rapidly, online sales are increasing. In 2018, TS\u2019 total domestic sales were\n$5 000 000 and total domestic market sales for the same time period were $50 000 000.\nTS must consider several challenges:\ny Some businesses in the sports footwear industry are finding that selling online leads to\nmany problems and higher costs\ny TS\u2019 website is not user friendly. Customer complaints about the website and ordering\nproblems are increasing\ny TS\u2019 presence in international markets is weak and its product range is limited. The\ndirectors of TS want to develop a new line of running shoes but the company has\ninsufficient finance for research, development and creating brand awareness.\nThe directors think that TS should follow an external growth strategy. Two options are being\nconsidered:\ny Option 1: Some directors propose a merger with a footwear manufacturer, the\nmultinational company All Champion, which would allow TS to be more competitive\ny Option 2: Other directors propose a merger with a footwear retailer that has a strong\npresence in domestic and international markets.\nThe finance manager believes that merging with All Champion could hurt TS\u2019 reputation.\nTS\u2019 factories may have to close, which the local population may resent.\n(a) Describe one feature of a multinational company (MNC). [2]\n(b) Calculate TS\u2019 market share in 2018 (show all your working). [2]\n(c) Explain two disadvantages and one advantage to TS of selling its products online. [6]\n(d) With reference to TS, evaluate the two merger options. [10]\nN19/3/BUSMT/ SP2/ENG/TZ0/XX\n\u2013 4 \u2013",
+      "answer_text": "3. (a) Describe one feature of a multinational company (MNC). [2]\n\uf0b7 MNCs operate in more than one country. Their headquarters are located in\none country (home country) while operations are carried out in a number of\nother countries (host countries).\n\uf0b7 Because of their international operations, they usually have large physical and\nfinancial assets and turnover.\n\uf0b7 MNCs are often large-sized and exercise a great degree of economic\ndominance.\n\uf0b7 MNCs may control production activity with large foreign direct investment in\nmore than one developed and developing countries.\nAward [1] for each feature stated and award an additional [1] for a description up\nto a maximum of [2].\nFor a statement like \u201cA multinational company operates in two or more countries\u201d\nbut with no further description, award [1].\n(b) Calculate TS\u2019 market share in 2018. [2]\nMarket share %\n\uf03d (firm\u2019s sales /total market sales) \uf0b4 100\n\n5 000 000 100 10 %50 000 000\uf0b4\uf03d\nAward [1] fo\nr the correct answer and [1] for correct working.\nIf no workin\ngs are shown, but the final answer is correct, award a maximum of\n[1].\n(c) Explain tw\no disadvantages and one advantage to TS of selling its products\nonline. [6]\nLike other b\nusinesses in the industry, TS may find selling online increasingly\nproblematic due to the a\nssociated costs. Customer complaints about TS\u2019 website\nand orderin\ng problems are already increasing. Costs of dealing with customer\ncomplaints,\ntechnical issues and delivery problems may increase and reduce\nprofit.\nTS\u2019 brand image ma\ny be eroded due to its inefficient way of dealing with online\nsales. It\ns unfriendly website and increasing customer complaints are probably\neroding its b\nrand image and market share. If TS wants to increase international\npresence an\nd expand its market, it should improve its current online sales\nsy\nstem.\nOn the other hand, TS\u2019 sales and pro\nfits can increase by taking advantage of\ne-commerce\n\u2019s rapid growth. It can also take advantage of a potential market\nopportunity left by the competing businesses\nin the industry that are experiencing\nproblems with online sales.\nTS\u2019 international presen\nce is weak; selling online can help to create brand\nawareness in international markets and reach a worldwide audience with\nrelatively low costs.\n\u2013 12 \u2013 N19/3/BUSMT/SP2/ENG/TZ0/XX/M\nAccept any other relevant explanation.\nMark as 2 + 2 + 2.\nAward [1] for each correct advantage/disadvantage identified and [1] for a\nrelevant explanation with application to TS. Award up to a maximum of [2] per\nadvantage/disadvantage explained.\n[2] cannot be awarded per advantage/disadvantage if the response lacks either\nexplanation and/or application.\nFor example: For an identification/description of an advantage/disadvantage with\nor without application [1]. For explanation of an advantage/disadvantage with no\napplication [1].\nFor explanation of an advantage/disadvantage and application [2].\n(d) With reference to TS , evaluate the two merger options. [10]\nMerging with All Champion:\nTop Star is a manufacturer. Prior to either Option 1 or Option 2, TS had no brick-\nand-mortar retail outlets. The merger with the footwear manufacturer All\nChampion (AC) will produce gains in economies of scale, and will give TS the\npossibility of growing.\nAs a multinational company, AC has access to more and cheaper resources such\nas finance. Additional finance will allow for research and development of new\nproducts. TS will be able to develop the new line of running shoes and expand its\nproduct portfolio.\nMerging with AC will also allow for rationalization of resources, such as\nconcentrating output on one site and concentrating managerial and technical\ncapacities. For instance, TS will have access to larger IT and marketing\ndepartments to improve its website and deal with online sales more efficiently.\nA merger with AC eliminates a strong competitor in the market. The two\ncompanies might have different strengths and experiences and they, therefore,\ncould fit well together. The new merged company will probably be stronger and\ncould therefore increase its competitive power in the market. AC\u00b4s market share\n(only 10\n%) will increase.\nOn the other hand, a merger with AC may have a number of drawbacks. In a\nmerger process, the smaller company, such as TS, could be cannibalized by the\nlarger one. TS\u2019 culture may be dissolved within AC\u2019s way of doing things. There\nare also high chances that some of AC\u2019s factories will be closed, causing\ndiscontent within the local community. The finance manager is right to be\nsuspicious about this merger. TS\u2019 reputation may be hurt due to the possibilities\nof closing factories and sales may fall.\nMerging with a footwear retailer:\nIf TS merges with a footwear retailer with a strong presence in domestic and\ninternational markets, it will secure an outlet for its products. TS will be able to\nincrease its domestic market share of 10\n% and additionally access the\ninternational markets, using the experience, knowledge and expertise of the\n\u2013 13 \u2013 N19/3/BUSMT/SP2/ENG/TZ0/XX/M\nfootwear retailer. TS will keep the manufacturing process and then factories will\nnot close. In addition, the risks of cannibalization of this option are low.\nHowever, this merger may not exclude a strong competitor such as AC.\nProduction economies of scale will not be gained, as the footwear retailer has no\nexperience in the footwear manufacturing process.\nOverall, merging with AC will give Top Star the competitive edge needed to grow\nand develop its product portfolio. On the other hand, merging with a footwear\nretailer also has some evident advantages, but it seems that merging with AC\nlooks like a stronger choice.\nIt is expected that candidates provide a conclusion with a substantiated\njudgment.\nMarks should be allocated according to the markbands on page 3.\nFor one relevant issue that is one-sided, award up to [3]. For more than one\nrelevant issue that is one-sided, award up to a maximum of [4].\nIf a candidate evaluates / addresses only one merger option, award a maximum\nof [5].\nA balanced response is one that provides at least one argument for and one\nargument against each merger option.\nCandidates may contrast one option with another for a balance as long as at\nleast two arguments are given for each option.\nAward a maximum of [6] if the answer is of a standard that shows balanced\nanalysis and understanding throughout the response with reference to the\nstimulus material but there is no judgment/conclusion.\nCandidates cannot reach the [7\u20138] markband if they give judgment/conclusions\nthat are not based on analysis/explanation already given in the answer.\n\u2013 14 \u2013 N19/3/BUSMT/SP2/ENG/TZ0/XX/M",
+      "marks": 0,
+      "source": {
+        "paper_file": "n19_Business_management_paper_2__SL.pdf",
+        "markscheme_file": "n19_Business_management_paper_2__SL_markscheme.pdf"
+      },
+      "question_image_paths": [
+        "images/questions/n19_p2_q3_sl_p1.png",
+        "images/questions/n19_p2_q3_sl_p2.png"
+      ],
+      "markscheme_image_paths": [
+        "images/markschemes/n19_p2_q3_sl_p1.png",
+        "images/markschemes/n19_p2_q3_sl_p2.png",
+        "images/markschemes/n19_p2_q3_sl_p3.png",
+        "images/markschemes/n19_p2_q3_sl_p4.png"
+      ]
+    },
+    {
+      "id": "n19_p2_q4_sl",
+      "paper": "November 2019 Paper 2 SL",
+      "session": "November 2019",
+      "session_code": "n19",
+      "paper_type": "Paper 2",
+      "level": "SL",
+      "question_number": "4",
+      "title": "Q4: Imperial Falls (IF) Imperial Falls (IF) is a luxury hotel in a city centre. The hotel is a...",
+      "topic": "Marketing",
+      "subtopic": "Marketing mix",
+      "topic_confidence": 0.833,
+      "topic_reason": [
+        "Business organization and environment:External environment and ethics+32",
+        "Marketing:Marketing mix+972",
+        "Operations management:Production methods and quality+162",
+        "Operations management:Location and capacity+160",
+        "Business strategy:Change management+14"
+      ],
+      "question_text": "Imperial Falls (IF)\nImperial Falls (IF) is a luxury hotel in a city centre. The hotel is an old palace, elegantly\nfurnished and overlooking the harbour. Of the highest quality, for decades IF has been the\npreferred hotel for business travellers to the city. Relying on reputation and word of mouth,\nIF does little promotion. Its facilities include a swimming pool and a high\u2011quality restaurant.\nTable 1 shows information about the principal hotels located in this city centre in 2018.\nTable 1: Selected information about the principal hotels in the city centre in 2018\nHotel\nAverage\nroom price\nper night\nService\nrating\nA. Imperial Falls $245 5 stars\nB. Bellevue $179 3 stars\nC. Welcome Rest $215 4 stars\nD. Excalibur $155 3 stars\nIn 2019, bookings at IF have begun to decline because of a new hotel, Guest Rooms (GR),\nwhich is part of a global chain. Many businesses have employees who travel to major\ncities, where most business meetings occur. Hotels in city centres are usually luxurious and\nexpensive. GR is different. It offers clean, small rooms with Wi-Fi, a small desk and a double\nbed. Room prices at GR are significantly lower than most city-centre hotels. The new GR is\nlocated near the airport, 6 kilometres (3.72 miles) from the city centre.\nGR uses a fee\u2011based membership model and member companies require employees to stay\nat a GR hotel when on business. Employees may also stay there when on personal travel.\nGuests use self\u2011service check\u2011in machines (similar to those used at airport check\u2011ins), which\nissue electronic keys. GR electronically bills the company directly. Service is minimal. GR\nrelies heavily on social media marketing. It also uses above\u2011the\u2011line promotion.\n(a) State two types of above-the-line promotion. [2]\n(b) Using Table 1, construct a product position map/perception map for all four hotels prior\nto the opening of GR. [4]\n(c) Explain two ways in which GR is able to offer rooms at a lower price than IF. [4]\n(d) Discuss possible changes to IF\u2019s marketing mix to reduce the loss of customers to GR. [10]\nN19/3/BUSMT/ SP2/ENG/TZ0/XX\n\u2013 5 \u2013",
+      "answer_text": "4. (a) State two types of above-the-line promotion. [2]\nAppropriate types of above-the-line promotion include:\n\uf0b7 newspapers\n\uf0b7 magazines\n\uf0b7 radio advertisements\n\uf0b7 television advertisements.\nAccept any other relevant answer, including \u201cadvertising on the Internet\u201d or \u201cthe\nInternet.\u201d\nAward [1] for each appropriate type of above the line promotion up to [2].\n(b) Using Table 1, construct a product position map/perception map for all four\nhotels prior to the opening of GR. [4]\nAward [1] for the overall layout of the map with both axes labelled correctly\n(price: high or low; service: high or low).\nN.B. It does not matter which one is horizontal/vertical.\nThe correct positioning is as shown above. Adjust appropriately if a candidate\nmakes the price the vertical axis and quality the horizontal axis.\nAward [2] for a correctly labelled position map with two of the companies properly\nplaced.\nAward [3] for a correctly labelled position map with three of the companies\nproperly placed.\nAward [4] for a correctly labelled position map with all four companies properly\nplaced.\n\n\u2013 15 \u2013 N19/3/BUSMT/SP2/ENG/TZ0/XX/M\nThe position map has been scaled from $155\u2013$245 for the horizontal axis and 3\nstars to 5 stars for the vertical axis. If candidates scale the perception map\ndifferently (1 to 5 stars, for example), mark accordingly and per the explanation\nfor [1], [2], [3] and [4] above.\nThe candidates were asked to position the four hotels prior to the opening of the\nGR. The four hotels represent the full range of the market (at the time, before\nGR opened) and, therefore, the positioning should be as shown above.\nHowever, candidates may consider a 3-star hotel to be \u201cmiddle quality\u201d rather\nthan low quality because three is the mid-point between 1 star and 5 star. Thus,\nsome candidates may position the four hotels more toward quadrant one than\nthey should.\nNevertheless, examiners should have some forbearance: as long as the relative\nposition of the hotels is accurate, award marks appropriately. For example, the\nposition map below would earn [4].\nN.B. If the relative position is correct but the candidate has compressed the\npositions of the four hotels into one quadrant (which would typically be quadrant\n1), award a maximum of [3].\n\n\u2013 16 \u2013 N19/3/BUSMT/SP2/ENG/TZ0/XX/M\n(c) Explain two ways in which GR is able to offer rooms at a lower price than IF. [4]\nThree ways in which GR is able to have lower costs than traditional hotels\ninclude:\n\uf0b7 more modest rooms, which include smaller room size and less elegant\nfurniture\n\uf0b7 lower personnel costs, as much of the traditional staff is replaced by kiosks\nand automated billing\n\uf0b7 Fewer amenities, like a swimming pool and a high-quality restaurant.\nAccept any other relevant example.\nIf a candidate refers to the airport versus city-centre location and assumes that the\nairport location is less expensive, award [1].\nMark as [2 + 2].\nAward [1] for identification of a way to lower costs and an additional [1] for an\nexplanation thereof.\n\u2013 17 \u2013 N19/3/BUSMT/SP2/ENG/TZ0/XX/M\n(d) Discuss possible changes to IF's marketing mix to reduce the loss of customers\nto GR. [10]\nMain differences in the marketing mix of the two hotels are:\nImperial Falls Guest Rooms\nProduct Elegant/high end Clean, appropriate amenities for\nbusiness travellers, though not elegant.\nPrice High Lower cost, though there is the\nmembership fee.\nPlace Same/City centre Same/Near airport.\nPromotion Limited Both above-the-line promotion and\nsocial media marketing.\nThe questio\nn of place is tricky. At one level of argument, place is different than\nlocation. However, in the case of a hotel, place and location are virtually\nindistinguishable, as hotels are ontologically a venue where customers rent\nrooms for the night. Thus, in the case of hotels, place devolves to location.\n\u2013 18 \u2013 N19/3/BUSMT/SP2/ENG/TZ0/XX/M\nPossible changes to the IF\u2019s marketing mix include:\n\uf0b7 Product: Cutting back on amenities and passing some of those savings on to\ncustomers via lower room rental rates. There are negatives to this tack. First,\na reduction of amenities could be viewed as a deterioration of the high quality,\nwhich is currently IF\u2019s USP.\n\uf0b7 Price: Reducing the rates that it charges for rooms. If prices are lowered and\nchanges are not made in quality of service or amenities, IF could experience\nlower profits. IF would certainly experience lower profits per room. Unclear is\nwhether the lower prices would lead to higher occupancy.\n\uf0b7 Promotion: Increasing its promotion. IF has three noteworthy features that GR\ndoes not have: elegance, five-star quality and a central city centre location.\nWith greater promotion, IF may be able to attract customers back based upon\nthe convenience of being in the city centre and the elegance of staying in an\nold palace.\n\uf0b7 Place/Location: It is not very realistic to think that IF would or could change its\nlocation. Any discussion of location will probably occur under promotion,\nwhereby candidates will discuss ways in which IF can, through promotion,\nmake their location in the city centre a selling point.\nRemember that at standard level, the candidates are not expected to know the\nextended marketing mix but rather just the four Ps: price, place, promotion,\nproduct. Candidates should not be penalized if they address the extended\nmarketing mix.\nMarks should be allocated according to the markbands on page 3 with further\nguidance below.\nN.B. The marks listed in the far right column are maximum awards. Candidates\ncould technically have a response that addresses two Ps in a balanced way yet\nstill lacks the depth, precision, or application for [4] (for example).\n\u2013 19 \u2013 N19/3/BUSMT/SP2/ENG/TZ0/XX/M\nOne P No balance 1\nSome theoretical discussion\nof the marketing mix with no\napplication.\n[1\u20132]\nTwo of three Ps\n(product, price, promotion)\nOr\nThree of three Ps\nOne balanced, one unbalanced\nOr\nAll unbalanced\n[3]\nTwo of three Ps\n(product, price, promotion)\nThree of the three Ps\nBoth balanced\nOr\nOne balanced, two not\n[4]\nThree of three Ps\n(product, price, promotion) Two balanced, one not [5]\nThree of three Ps\n(product, price, promotion)\nAll three balanced, no\nconclusion or totally nominal\nconclusion\n[6]\nThree of three Ps\n(product, price, promotion)\nAll three balanced with a\nconclusion that flows out of the\narguments made\n[7\u20138]\nThree of three Ps\n(product, price, promotion)\nAll three balanced with a\nconclusion that flows out of the\narguments made.\nDraws from the stimulus but\nalso makes insightful\ninferences. Uses rich\nvocabulary about marketing.\n[9\u201310]\n\u2013 20 \u2013 N19/3/BUSMT/SP2/ENG/TZ0/XX/M",
+      "marks": 0,
+      "source": {
+        "paper_file": "n19_Business_management_paper_2__SL.pdf",
+        "markscheme_file": "n19_Business_management_paper_2__SL_markscheme.pdf"
+      },
+      "question_image_paths": [
+        "images/questions/n19_p2_q4_sl_p1.png",
+        "images/questions/n19_p2_q4_sl_p2.png"
+      ],
+      "markscheme_image_paths": [
+        "images/markschemes/n19_p2_q4_sl_p1.png",
+        "images/markschemes/n19_p2_q4_sl_p2.png",
+        "images/markschemes/n19_p2_q4_sl_p3.png",
+        "images/markschemes/n19_p2_q4_sl_p4.png",
+        "images/markschemes/n19_p2_q4_sl_p5.png",
+        "images/markschemes/n19_p2_q4_sl_p6.png",
+        "images/markschemes/n19_p2_q4_sl_p7.png"
+      ]
+    },
+    {
+      "id": "n19_p2_q5_sl",
+      "paper": "November 2019 Paper 2 SL",
+      "session": "November 2019",
+      "session_code": "n19",
+      "paper_type": "Paper 2",
+      "level": "SL",
+      "question_number": "5",
+      "title": "Q5: FrioAire Appliances (FA) FrioAire Appliances (FA) manufactures medium\u2011priced and medium\u2011qu...",
+      "topic": "Human resource management",
+      "subtopic": "Motivation and leadership",
+      "topic_confidence": 0.722,
+      "topic_reason": [
+        "Business organization and environment:Business structures and stakeholders+90",
+        "Business organization and environment:Growth and change+14",
+        "Human resource management:Organizational structure and culture+18",
+        "Human resource management:Motivation and leadership+324",
+        "Finance and accounts:Final accounts and ratio analysis+20"
+      ],
+      "question_text": "FrioAire Appliances (FA)\nFrioAire Appliances (FA) manufactures medium\u2011priced and medium\u2011quality refrigerators. It is\na multinational public limited company. Its factory is located in a less economically developed\ncountry that has high unemployment, a tradition of autocratic leadership and labour costs\nlower than FA\u2019s home country. The factory is profitable, and FA pays consistently good\ndividends. Market growth for medium\u2011priced and medium\u2011quality refrigerators is limited.\nAs part of a strategic objective to increase productivity and to enter a fast\u2011growing market\nfor high\u2011priced and high\u2011quality refrigerators, FA is considering building a new factory in\nand relocating production to Germany. This would require closing the factory in the less\neconomically developed country. The new factory will:\ny use innovative technologies, including advanced robotics and 3D processes\ny require fewer employees, but those it does require will need to have better skills and\nqualifications.\nGermany has a highly skilled, qualified and productive workforce. The new factory would\nallow FA to reposition its products. However, FA would need to raise significant finance to\nbuild and equip the new factory.\nFA\u2019s leadership style at the factory in the less economically developed country is autocratic.\nMembers of FA\u2019s board wonder whether this style would be suitable for the new factory in\nGermany, where workers have more bargaining power because of their high skill level and\nthe labour\u2011friendly cultural traditions. In Germany, FA would have to follow more regulations\nregarding the environment, health and safety, and employee rights.\nFA workers in the less economically developed country are very loyal to FA, which has\ncontinued operation through a civil war at significant cost to itself (for security). If FA were to\nclose in the less economically developed country, the workers would not find such good jobs.\n(a) Describe one disadvantage of operating as a public limited company. [2]\n(b) Explain one benefit and one cost to FA of using an autocratic leadership style. [4]\n(c) Explain one positive and one negative impact of FA on the developing country. [4]\n(d) Evaluate the option of building a factory in, and relocating, to Germany. [10]\nN19/3/BUSMT/ SP2/ENG/TZ0/XX\n\u2013 6 \u2013\nSection C\nAnswer one question from this section. The organizations featured in sections A and B and in the\npaper 1 case study may not be used as a basis to your answer.",
+      "answer_text": "5. (a) Describe one disadvantage of operating as a public limited company. [2]\nDisadvantages of operating as a public limited company include:\n\uf0b7 The expense of going public and the ongoing expenses of reporting to the\ngovernment or shareholders.\n\uf0b7 Loss of privacy, as the company must report to the public and to shareholders.\n\uf0b7 Strategic decisions can take longer, as management has responsibility to\ncommunicate with the board, shareholders, and, often, other stakeholders.\n\uf0b7 Risk of takeover.\nUnless candidates otherwise have elements in their response deserving marks,\ndo not award any marks for statements such as \u201cdilution of control\u201d or \u201cthe owner\nwill not have full control.\u201d Answers such as these two show a significant\nmisunderstanding.\nAward [1] for an identification of a disadvantage and another [1] for sufficient\ndescription thereof.\n(b) Explain one benefit and one cost to FA of having an autocratic leadership style. [4]\nIn the stimulus it is indicated that FA has an autocratic leadership style. This style\nappears to dovetail with the culture of the less economically developed country.\nAlso, the factory is profitable and has been efficient through lower costs. It is\npossible that the leadership style fosters loyalty in this country because of the\ncultural fit.\nThe costs to FA include that autocratic leadership may stifle creativity and\ninnovation, which could be available in a more democratic system. Productivity in\nGermany could be higher than in a less economically developed country. The fact\nthat FA\u2019s leadership is thinking of relocating to Germany indicates that they see\nproblems in moving to a new, higher-price segment.\nMark as 2 + 2.\nAward [1] for each relevant benefit / cost explained and [1] with application to FA.\nAward up to a maximum of [2] per benefit/cost explained.\n[2] cannot be awarded per benefit / cost if the response lacks either explanation\nand / or application.\nFor example: For an identification/description of a benefit / cost with or without\napplication [1]. For explanation of a benefit / cost with no application [1].\n\u2013 21 \u2013 N19/3/BUSMT/SP2/ENG/TZ0/XX/M\n(c) Explain one positive and one negative impact of FA on the less economically\ndeveloped country. [4]\nPositive impacts of FA on the developing country include:\n\uf0b7 Provides employment at wages better than those available in the less\neconomically developed country.\n\uf0b7 Was loyal during the civil war.\nTheoretically possible other positive impacts include:\n\uf0b7 Technology and skill transfers from FA\u2019s host country to the less economically\ndeveloped country.\nNegative impacts of FA on the less economically developed country include:\n\uf0b7 FA relies on an autocratic leadership style.\n\uf0b7 FA does not use the most advanced technology in the less economically\ndeveloped country.\n\uf0b7 FA could leave the country, leaving many people who are currently dependent\non the company out of work.\n\uf0b7 FA does not provide the same employee rights provisions or health and safety\nprovisions that it would in a less economically developed country.\nTheoretically possible other negative impacts include:\n\uf0b7 FA may pollute to a level in the less economically developed country that it\nwould not in Germany.\nMark as [2 + 2]. For [2], candidates must identify a positive and a negative\nimpact, explain it, and apply to the less economically developed country.\nAward [2] for a positive impact with application to the less economically\ndeveloped country.\nAward [2] for a negative impact with application to the less economically\ndeveloped country.\nIf there is no application to the less economically developed country at all then\nthe maximum mark per impact is [1].\n(d) Evaluate the option of building a factory in, and relocating to, Germany. [10]\nThe option of building a factory in and relocating to Germany is a major strategic\ndecision. In certain respects, FA would be an entirely different company: new\nproducts, new processes, new types of workers and new leadership styles, as\nwell as a wholly new cultural context. Going into highly sophisticated high-tech\nmanufacturing with robots has the potential to position FA for a future of highly\nautomated manufacturing. Without making these changes, FA runs some risk of\nremaining stuck in much lower value-added processes, which in the long run are\nless profitable. The risks are very high. The potential rewards are high as well.\nPerhaps a strategy for FA would be not to sell the older factory but to continue to\noperate it and rely on those profits to support the new factory as it gets started.\nWhether FA\u2019s balance sheet is strong enough to operate both factories is an\nopen question, as is the question of whether its management has sufficient depth\nto operate two major plants.\nBalance in this context means having two arguments for opening the plant in\nGermany and two arguments against, which could be partially couched in a\ndiscussion of leaving the old plant open.\nAward marks according to the markbands on page 3.\n\u2013 22 \u2013 N19/3/BUSMT/SP2/ENG/TZ0/XX/M\nSection C\nQuestions 6\u20138. Please mark the candidate response using the assessment criteria on pages 4\u20135.",
+      "marks": 0,
+      "source": {
+        "paper_file": "n19_Business_management_paper_2__SL.pdf",
+        "markscheme_file": "n19_Business_management_paper_2__SL_markscheme.pdf"
+      },
+      "question_image_paths": [
+        "images/questions/n19_p2_q5_sl_p1.png",
+        "images/questions/n19_p2_q5_sl_p2.png"
+      ],
+      "markscheme_image_paths": [
+        "images/markschemes/n19_p2_q5_sl_p1.png",
+        "images/markschemes/n19_p2_q5_sl_p2.png",
+        "images/markschemes/n19_p2_q5_sl_p3.png"
+      ]
+    },
+    {
+      "id": "n19_p2_q6_hl",
+      "paper": "November 2019 Paper 2 HL",
+      "session": "November 2019",
+      "session_code": "n19",
+      "paper_type": "Paper 2",
+      "level": "HL",
+      "question_number": "6",
+      "title": "Q6: With reference to an organization of your choice, examine the impact of globalization on b...",
+      "topic": "Business organization and environment",
+      "subtopic": "External environment and ethics",
+      "topic_confidence": 0.98,
+      "topic_reason": [
+        "Business organization and environment:External environment and ethics+32"
+      ],
+      "question_text": "With reference to an organization of your choice, examine the impact of globalization on\nbusiness ethics. [20]",
+      "answer_text": "6. With reference to an organization of your choice, examine the impact of globalization\non business ethics. [20]",
+      "marks": 0,
+      "source": {
+        "paper_file": "n19_Business_management_paper_2__HL.pdf",
+        "markscheme_file": "n19_Business_management_paper_2__HL_markscheme.pdf"
+      },
+      "question_image_paths": [
+        "images/questions/n19_p2_q6_hl.png"
+      ],
+      "markscheme_image_paths": [
+        "images/markschemes/n19_p2_q6_hl.png"
+      ]
+    },
+    {
+      "id": "n19_p2_q7_hl",
+      "paper": "November 2019 Paper 2 HL",
+      "session": "November 2019",
+      "session_code": "n19",
+      "paper_type": "Paper 2",
+      "level": "HL",
+      "question_number": "7",
+      "title": "Q7: With reference to an organization of your choice, examine the impact of innovation on dist...",
+      "topic": "Business strategy",
+      "subtopic": "Change management",
+      "topic_confidence": 0.98,
+      "topic_reason": [
+        "Business strategy:Change management+28"
+      ],
+      "question_text": "With reference to an organization of your choice, examine the impact of innovation on\ndistribution strategy. [20]",
+      "answer_text": "7. With reference to an organization of your choice, examine the impact of innovation on\ndistribution strategy. [20]",
+      "marks": 0,
+      "source": {
+        "paper_file": "n19_Business_management_paper_2__HL.pdf",
+        "markscheme_file": "n19_Business_management_paper_2__HL_markscheme.pdf"
+      },
+      "question_image_paths": [
+        "images/questions/n19_p2_q7_hl.png"
+      ],
+      "markscheme_image_paths": [
+        "images/markschemes/n19_p2_q7_hl.png"
+      ]
+    },
+    {
+      "id": "n19_p2_q8_sl",
+      "paper": "November 2019 Paper 2 SL",
+      "session": "November 2019",
+      "session_code": "n19",
+      "paper_type": "Paper 2",
+      "level": "SL",
+      "question_number": "8",
+      "title": "Q8: With reference to an organization of your choice, discuss the ways in which culture can pr...",
+      "topic": "Business organization and environment",
+      "subtopic": "Business structures and stakeholders",
+      "topic_confidence": 0.45,
+      "topic_reason": [
+        "Business organization and environment:Business structures and stakeholders+36",
+        "Human resource management:Organizational structure and culture+36",
+        "Business strategy:Change management+28"
+      ],
+      "question_text": "With reference to an organization of your choice, discuss the ways in which culture can\npromote or inhibit change. [20]\n\u2013 7 \u2013\nN19/3/BUSMT/ SP2/ENG/TZ0/XX",
+      "answer_text": "8. With reference to an organization of your choice, discuss the ways in which culture\ncan promote or inhibit change. [20]\nN.B. Although the question asks for the application of one concept on another, it is still\nexpected that Business Management content will be aligned with the concepts especially the\nsecond concept (the one being acted on).\nPlease note that candidates can conclude that there was a minimal impact, however it has to\nbe based on balanced arguments and evaluation.\nAdditional guidance in relation to the assessment criteria\nFor each criterion, the aim is to find the descriptor that conveys most accurately the level\nattained by the candidate, using the best-fit model. It is not necessary for every single aspect\nof a level descriptor to be met for that mark to be awarded.\n\uf0b7 The highest level descriptors do not imply faultless performance and should be achievable\nby a candidate.\n\uf0b7 A candidate who attains a high level of achievement for one criterion will not necessarily\nreach high levels of achievement for the other criteria and vice versa.\nIf only one concept is addressed:\n\uf0b7 Criteria A, B, C and E: award up to a maximum [3].\n\uf0b7 Criterion D: full marks can be awarded.\nWhere the question asks for impacts of two concepts on content, examiners must allow for\nunbalanced treatment of the two concepts throughout a candidate\u2019s response. One concept\nmay be more significant than the other.\nCriterion B\nFor [2]: \u201c\u2026connection is not developed\u201d should be treated the same as superficial.\nCriterion C\n1\n\uf02b 1 arguments are expected per concepts.\n\uf0b7 Questions 6 to 8 require consideration of the impact of one concept on a second concept\n\u2013 therefore accept 2 \uf02b 2 arguments for a balanced response.\n\uf0b7 Justification is through logic or data.\n\uf0b7 For [2] there is no balance as there are no counter arguments at all, or the arguments are\nall one-sided then this would be unjustified.\n\uf0b7 For [3] there are some balanced arguments \u2013 some of which are justified.\n\u2013 23 \u2013 N19/3/BUSMT/SP2/ENG/TZ0/XX/M\nCriterion D\n\uf0b7 Introductions need to be concise and related to the question.\n\uf0b7 The candidate\u2019s response does not to have explicit headings for each structural element.\n\uf0b7 A body is the area in which the substance of arguments occurs. It is usually located\nbetween the introduction and the conclusion.\n\uf0b7 Fit-for-purpose paragraph means that ideas are presented in a clear academic way. For\nexample, one idea per paragraph.\nCriterion E\n\uf0b7 One example of an \u201cindividual\u201d could be an individual consumer or an individual manager.\nHowever, this cannot be considered with a \u201cgroup\u201d of consumers or a management team.\n\uf0b7 For [4], a balanced response: look at the perspectives of both individual and group(s).\n\uf0b7 The chosen individual, group needs to be applicable and relevant to the question with\nspecific explanation.\n\uf0b7 Candidates need to go beyond stating the stakeholder.\nCandidates need not explicitly say \u201cstakeholder\u201d.",
+      "marks": 0,
+      "source": {
+        "paper_file": "n19_Business_management_paper_2__SL.pdf",
+        "markscheme_file": "n19_Business_management_paper_2__SL_markscheme.pdf"
+      },
+      "question_image_paths": [
+        "images/questions/n19_p2_q8_sl.png"
+      ],
+      "markscheme_image_paths": [
+        "images/markschemes/n19_p2_q8_sl_p1.png",
+        "images/markschemes/n19_p2_q8_sl_p2.png"
       ]
     }
   ]
