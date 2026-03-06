@@ -33,9 +33,13 @@ function inferLevel(q) {
 
 async function loadData() {
   const [questionRes, topicRes] = await Promise.all([
-    fetch("../data/processed/questions.json"),
-    fetch("../data/topic-map.json"),
+    fetch("/data/processed/questions.json"),
+    fetch("/data/topic-map.json"),
   ]);
+
+  if (!questionRes.ok || !topicRes.ok) {
+    throw new Error(`HTTP ${questionRes.status}/${topicRes.status}`);
+  }
 
   const questionData = await questionRes.json();
   const topicData = await topicRes.json();
