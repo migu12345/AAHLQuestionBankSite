@@ -25,7 +25,8 @@
       "title": "Q2",
       "question_text": "2. (a) Expand (2 + x)4 and simplify your result.\n(3)\n\n(b) Hence, find the term in x2 in (2 + x)4\n\uf0f7\n\uf0f8\n\uf0f6\uf0e7\n\uf0e8\n\uf0e6 + 2\n11\nx .\n(3)\n(Total 6 marks)\n\nIB Maths 2",
       "question_image_paths": [
-        "images/questions/t1_binomila_theorem_q2.png"
+        "images/questions/t1_binomila_theorem_q2_p1.png",
+        "images/questions/t1_binomila_theorem_q2_p2.png"
       ]
     },
     {
@@ -64,7 +65,8 @@
       "title": "Q5",
       "question_text": "5. Let f(x) = x3 \u2013 4x + 1.\n(a) Expand (x + h)3.\n(2)\n\n(b) Use the formula f\u2032(x) =\nh\nxfhxf\nh\n)()(lim\n0\n\u2212+\n\u2192 to show that the derivative of f(x) is 3x2 \u2013 4.\n(4)\n\n(c) The tangent to the curve of f at the point P(1, \u20132) is parallel to the tangent at a point Q.\nFind the coordinates of Q.\n(4)\n\n(d) The graph of f is decreasing for p < x < q. Find the value of p and of q.\n(3)\nIB Maths 3\n\n(e) Write down the range of values for the gradient of f.\n(2)\n(Total 15 marks)",
       "question_image_paths": [
-        "images/questions/t1_binomila_theorem_q5.png"
+        "images/questions/t1_binomila_theorem_q5_p1.png",
+        "images/questions/t1_binomila_theorem_q5_p2.png"
       ]
     },
     {
@@ -90,8 +92,7 @@
       "title": "Q7",
       "question_text": "7. (a) Expand (x \u2013 2)4 and simplify your result.\n(3)\n\n(b) Find the term in x3 in (3x + 4)(x \u2013 2)4.\n(3)\n(Total 6 marks)",
       "question_image_paths": [
-        "images/questions/t1_binomila_theorem_q7_p1.png",
-        "images/questions/t1_binomila_theorem_q7_p2.png"
+        "images/questions/t1_binomila_theorem_q7.png"
       ]
     },
     {
@@ -117,7 +118,8 @@
       "title": "Q9",
       "question_text": "9. One of the terms of the expansion of (x + 2y)10 is ax8 y2. Find the value of a.\n(Total 6 marks)\n\nIB Maths 4",
       "question_image_paths": [
-        "images/questions/t1_binomila_theorem_q9.png"
+        "images/questions/t1_binomila_theorem_q9_p1.png",
+        "images/questions/t1_binomila_theorem_q9_p2.png"
       ]
     },
     {
@@ -169,7 +171,8 @@
       "title": "Q3",
       "question_text": "3. Consider the arithmetic sequence 3, 9, 15, ..., 1353.\n(a) Write down the common difference.\n(1)\n\n(b) Find the number of terms in the sequence.\n(3)\n\n(c) Find the sum of the sequence.\n(2)\n(Total 6 marks)",
       "question_image_paths": [
-        "images/questions/t1_math_sl_algebra_q3.png"
+        "images/questions/t1_math_sl_algebra_q3_p1.png",
+        "images/questions/t1_math_sl_algebra_q3_p2.png"
       ]
     },
     {
@@ -208,7 +211,7 @@
       "title": "Q6",
       "question_text": "6. The nth term of an arithmetic sequence is given by un = 5 + 2n.\n(a) Write down the common difference.\n(1)\n\n(b) (i) Given that the nth term of this sequence is 115, find the value of n.\n(ii) For this value of n, find the sum of the sequence.\n(5)\n(Total 6 marks)",
       "question_image_paths": [
-        "images/questions/t1_math_sl_algebra_q6.png"
+        "images/questions/t1_math_sl_algebra_q6_p1.png"
       ]
     },
     {
@@ -247,8 +250,7 @@
       "title": "Q9",
       "question_text": "9. (a) Expand\n\uf0e5\n\uf03d\n7\n4\n2\nr\nr as the sum of four terms.\n(1)\n(b) (i) Find the value of\n\uf0e5\n\uf03d\n30\n4\n2\nr\nr .\n(ii) Explain why\n\uf0e5\n\uf0a5\n\uf03d4\n2\nr\nr cannot be evaluated.\n(6)\n(Total 7 marks)",
       "question_image_paths": [
-        "images/questions/t1_math_sl_algebra_q9_p1.png",
-        "images/questions/t1_math_sl_algebra_q9_p2.png"
+        "images/questions/t1_math_sl_algebra_q9.png"
       ]
     },
     {
@@ -274,7 +276,8 @@
       "title": "Q11",
       "question_text": "11. Consider the arithmetic sequence 2, 5, 8, 11, ....\n(a) Find u101.\n(3)\n(b) Find the value of n so that un = 152.\n(3)\n(Total 6 marks)",
       "question_image_paths": [
-        "images/questions/t1_math_sl_algebra_q11.png"
+        "images/questions/t1_math_sl_algebra_q11_p1.png",
+        "images/questions/t1_math_sl_algebra_q11_p2.png"
       ]
     },
     {
@@ -300,8 +303,7 @@
       "title": "Q13",
       "question_text": "13. Consider the infinite geometric sequence 3, 3(0.9), 3(0.9)2, 3(0.9)3, \u2026 .\n(a) Write down the 10th term of the sequence. Do not simplify your answer.\n(1)\n\n(b) Find the sum of the infinite sequence.\n(4)\n(Total 5 marks)",
       "question_image_paths": [
-        "images/questions/t1_math_sl_algebra_q13_p1.png",
-        "images/questions/t1_math_sl_algebra_q13_p2.png"
+        "images/questions/t1_math_sl_algebra_q13.png"
       ]
     },
     {
@@ -327,7 +329,8 @@
       "title": "Q15",
       "question_text": "15. A sum of $ 5000 is invested at a compound interest rate of 6.3 % per annum.\n(a) Write down an expression for the value of the investment after n full years.\n(1)\n\n(b) What will be the value of the investment at the end of five years?\n(1)\n\n(c) The value of the investment will exceed $ 10 000 after n full years.\n(i) Write down an inequality to represent this information.\n\n(ii) Calculate the minimum value of n.\n(4)\n(Total 6 marks)",
       "question_image_paths": [
-        "images/questions/t1_math_sl_algebra_q15.png"
+        "images/questions/t1_math_sl_algebra_q15_p1.png",
+        "images/questions/t1_math_sl_algebra_q15_p2.png"
       ]
     },
     {
@@ -353,10 +356,7 @@
       "title": "Q17",
       "question_text": "17. The first four terms of a sequence are 18, 54, 162, 486.\n(a) Use all four terms to show that this is a geometric sequence.\n(2)\n\n(b) (i) Find an expression for the nth term of this geometric sequence.\n(ii) If the nth term of the sequence is 1062 882, find the value of n.\n(4)\n(Total 6 marks)",
       "question_image_paths": [
-        "images/questions/t1_math_sl_algebra_q17_p1.png",
-        "images/questions/t1_math_sl_algebra_q17_p2.png",
-        "images/questions/t1_math_sl_algebra_q17_p3.png",
-        "images/questions/t1_math_sl_algebra_q17_p4.png"
+        "images/questions/t1_math_sl_algebra_q17.png"
       ]
     },
     {
@@ -369,7 +369,8 @@
       "title": "Q18",
       "question_text": "18. (a) Write down the first three terms of the sequence un = 3n, for n \uf0b31.\n(1)\n\n(b) Find\n(i)\n\uf0e5\n\uf03d\n20\n1\n;3\nn\nn\n(ii)\n\uf0e5\n\uf03d\n100\n21\n3\nn\nn .\n(5)\n(Total 6 marks)",
       "question_image_paths": [
-        "images/questions/t1_math_sl_algebra_q18.png"
+        "images/questions/t1_math_sl_algebra_q18_p1.png",
+        "images/questions/t1_math_sl_algebra_q18_p2.png"
       ]
     },
     {
@@ -408,7 +409,8 @@
       "title": "Q21",
       "question_text": "21. A sum of $5000 is invested at a compound interest rate of 6.3% per annum.\n(a) Write down an expression for the value of the investment after n full years.\n(b) What will be the value of the investment at the end of five years?\n(c) The value of the investment will exceed $10000 after n full years,\n(i) Write down an inequality to represent this information.\n(ii) Calculate the minimum value of n.\n(Total 6 marks)",
       "question_image_paths": [
-        "images/questions/t1_math_sl_algebra_q21.png"
+        "images/questions/t1_math_sl_algebra_q21_p1.png",
+        "images/questions/t1_math_sl_algebra_q21_p2.png"
       ]
     },
     {
@@ -434,7 +436,8 @@
       "title": "Q23",
       "question_text": "23. Let f(x) = log3\n2\nx + log3 16 \u2013 log3 4, for x > 0.\n(a) Show that f(x) = log3 2x.\n(2)\n\n(b) Find the value of f(0.5) and of f(4.5).\n(3)\n\nThe function f can also be written in the form f(x) =\nb\nax\nln\nln .\n(c) (i) Write down the value of a and of b.\n\n(ii) Hence on graph paper, sketch the graph of f, for \u20135 \u2264 x \u2264 5, \u20135 \u2264 y \u2264 5, using a\nscale of 1 cm to 1 unit on each axis.\n\n(iii) Write down the equation of the asymptote.\n(6)\n\n(d) Write down the value of f\u20131(0).\n(1)\n\nThe point A lies on the graph of f. At A, x = 4.5.\n(e) On your diagram, sketch the graph of f\u20131, noting clearly the image of point A.\n(4)\n(Total 16 marks)",
       "question_image_paths": [
-        "images/questions/t1_math_sl_algebra_q23.png"
+        "images/questions/t1_math_sl_algebra_q23_p1.png",
+        "images/questions/t1_math_sl_algebra_q23_p2.png"
       ]
     },
     {
@@ -447,8 +450,7 @@
       "title": "Q24",
       "question_text": "24. Let f(x) = log3\nx , for x > 0.\n(a) Show that f\u20131(x) = 32x.\n(2)\n\n(b) Write down the range of f\u20131.\n(1)\n\nLet g(x) = log3 x, for x > 0.\n(c) Find the value of (f \u20131 \u00b0 g)(2), giving your answer as an integer.\n(4)\n(Total 7 marks)",
       "question_image_paths": [
-        "images/questions/t1_math_sl_algebra_q24_p1.png",
-        "images/questions/t1_math_sl_algebra_q24_p2.png"
+        "images/questions/t1_math_sl_algebra_q24.png"
       ]
     },
     {
@@ -487,7 +489,7 @@
       "title": "Q27",
       "question_text": "27. Let f(x) = k log2 x.\n(a) Given that f\u20131(1) = 8, find the value of k.\n(3)\n\n(b) Find f\u20131\n\uf0f7\n\uf0f8\n\uf0f6\uf0e7\n\uf0e8\n\uf0e6\n3\n2 .\n(4)\n(Total 7 marks)",
       "question_image_paths": [
-        "images/questions/t1_math_sl_algebra_q27.png"
+        "images/questions/t1_math_sl_algebra_q27_p1.png"
       ]
     },
     {
@@ -526,8 +528,7 @@
       "title": "Q30",
       "question_text": "30. (a) Expand\n4\ne\n1e \uf0f7\n\uf0f8\n\uf0f6\uf0e7\n\uf0e8\n\uf0e6 \uf02b in terms of e.\n(4)\n(b) Express\n4\ne\n1e \uf0f7\n\uf0f8\n\uf0f6\uf0e7\n\uf0e8\n\uf0e6 \uf02b +\n4\ne\n1e \uf0f7\n\uf0f8\n\uf0f6\uf0e7\n\uf0e8\n\uf0e6 \uf02d as the sum of three terms.\n(2)\n(Total 6 marks)",
       "question_image_paths": [
-        "images/questions/t1_math_sl_algebra_q30_p1.png",
-        "images/questions/t1_math_sl_algebra_q30_p2.png"
+        "images/questions/t1_math_sl_algebra_q30.png"
       ]
     },
     {
@@ -540,7 +541,8 @@
       "title": "Q31",
       "question_text": "31. (a) Let logc 3 = p and logc 5 = q. Find an expression in terms of p and q for\n(i) log c 15;\n(ii) log c 25.\n\n(b) Find the value of d if log d 6 =\n2\n1 .\n(Total 6 marks)",
       "question_image_paths": [
-        "images/questions/t1_math_sl_algebra_q31.png"
+        "images/questions/t1_math_sl_algebra_q31_p1.png",
+        "images/questions/t1_math_sl_algebra_q31_p2.png"
       ]
     },
     {
@@ -566,8 +568,7 @@
       "title": "Q33",
       "question_text": "33. Find the exact solution of the equation 92x = 27(1\u2013x).\nWorking:\nAnswer:\n....\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026..........\n(Total 6 marks)",
       "question_image_paths": [
-        "images/questions/t1_math_sl_algebra_q33_p1.png",
-        "images/questions/t1_math_sl_algebra_q33_p2.png"
+        "images/questions/t1_math_sl_algebra_q33.png"
       ]
     },
     {
@@ -580,7 +581,8 @@
       "title": "Q34",
       "question_text": "34. (a) Given that log3 x \u2013 log3 (x \u2013 5) = log3 A, express A in terms of x.\n(b) Hence or otherwise, solve the equation log3 x \u2013 log3 (x \u2013 5) = 1.\nWorking:\nAnswers:\n(a) ..................................................................\n(b) ..................................................................\n\n(Total 6 marks)",
       "question_image_paths": [
-        "images/questions/t1_math_sl_algebra_q34.png"
+        "images/questions/t1_math_sl_algebra_q34_p1.png",
+        "images/questions/t1_math_sl_algebra_q34_p2.png"
       ]
     },
     {
@@ -672,9 +674,7 @@
       "title": "Q41",
       "question_text": "41. (a) Expand (x \u2013 2)4 and simplify your result.\n(3)\n\n(b) Find the term in x3 in (3x + 4)(x \u2013 2)4.\n(3)\n(Total 6 marks)",
       "question_image_paths": [
-        "images/questions/t1_math_sl_algebra_q41_p1.png",
-        "images/questions/t1_math_sl_algebra_q41_p2.png",
-        "images/questions/t1_math_sl_algebra_q41_p3.png"
+        "images/questions/t1_math_sl_algebra_q41.png"
       ]
     },
     {
@@ -687,7 +687,8 @@
       "title": "Q42",
       "question_text": "42. Consider the expansion of the expression (x3 \u2212 3x)6.\n(a) Write down the number of terms in this expansion.\n(b) Find the term in x12.\n(Total 6 marks)",
       "question_image_paths": [
-        "images/questions/t1_math_sl_algebra_q42.png"
+        "images/questions/t1_math_sl_algebra_q42_p1.png",
+        "images/questions/t1_math_sl_algebra_q42_p2.png"
       ]
     },
     {
@@ -726,7 +727,8 @@
       "title": "Q45",
       "question_text": "45. Given that\n\uf028 \uf029\n3\n73 \uf02b = p +\n7q where p and q are integers, find\n(a) p;\n(b) q.\n\nWorking:\nAnswers:\n(a) .................................................\n(b) .................................................\n\n(Total 6 marks)",
       "question_image_paths": [
-        "images/questions/t1_math_sl_algebra_q45.png"
+        "images/questions/t1_math_sl_algebra_q45_p1.png",
+        "images/questions/t1_math_sl_algebra_q45_p2.png"
       ]
     },
     {
@@ -766,8 +768,7 @@
       "title": "Q48",
       "question_text": "48. Find the term containing x10 in the expansion of (5 + 2x2)7.\nWorking:\nAnswer:\n..................................................................\n(Total 6 marks)",
       "question_image_paths": [
-        "images/questions/t1_math_sl_algebra_q48_p1.png",
-        "images/questions/t1_math_sl_algebra_q48_p2.png"
+        "images/questions/t1_math_sl_algebra_q48.png"
       ]
     },
     {
@@ -793,7 +794,8 @@
       "title": "Q50",
       "question_text": "50. Find the coefficient of x3 in the expansion of (2 \u2013 x)5.\n\nWorking:\nAnswer:\n......................................................................\n(Total 6 marks)",
       "question_image_paths": [
-        "images/questions/t1_math_sl_algebra_q50.png"
+        "images/questions/t1_math_sl_algebra_q50_p1.png",
+        "images/questions/t1_math_sl_algebra_q50_p2.png"
       ]
     },
     {
@@ -845,7 +847,8 @@
       "title": "Q2",
       "question_text": "2. Let f(x) = log3\n2\nx + log3 16 \u2013 log3 4, for x > 0.\n(a) Show that f(x) = log3 2x.\n(2)\n\n(b) Find the value of f(0.5) and of f(4.5).\n(3)\n\nThe function f can also be written in the form f(x) =\nb\nax\nln\nln .\n(c) (i) Write down the value of a and of b.\n\n(ii) Hence on graph paper, sketch the graph of f, for \u20135 \u2264 x \u2264 5, \u20135 \u2264 y \u2264 5, using a\nscale of 1 cm to 1 unit on each axis.\n\n(iii) Write down the equation of the asymptote.\n(6)\n\n(d) Write down the value of f\u20131(0).\n(1)\nMaths SL 2\n\nThe point A lies on the graph of f. At A, x = 4.5.\n(e) On your diagram, sketch the graph of f\u20131, noting clearly the image of point A.\n(4)\n(Total 16 marks)",
       "question_image_paths": [
-        "images/questions/t1_math_sl_algebra_exp_log_q2.png"
+        "images/questions/t1_math_sl_algebra_exp_log_q2_p1.png",
+        "images/questions/t1_math_sl_algebra_exp_log_q2_p2.png"
       ]
     },
     {
@@ -897,7 +900,8 @@
       "title": "Q6",
       "question_text": "6. Let f(x) = k log2 x.\nMaths SL 3\n(a) Given that f\u20131(1) = 8, find the value of k.\n(3)\n\n(b) Find f\u20131\n\uf0f7\n\uf0f8\n\uf0f6\uf0e7\n\uf0e8\n\uf0e6\n3\n2 .\n(4)\n(Total 7 marks)",
       "question_image_paths": [
-        "images/questions/t1_math_sl_algebra_exp_log_q6.png"
+        "images/questions/t1_math_sl_algebra_exp_log_q6_p1.png",
+        "images/questions/t1_math_sl_algebra_exp_log_q6_p2.png"
       ]
     },
     {
@@ -923,7 +927,8 @@
       "title": "Q8",
       "question_text": "8. Given that p = loga 5, q = loga 2, express the following in terms of p and/or q.\n(a) loga 10\n\n(b) loga 8\nMaths SL 4\n\n(c) loga 2.5\n(Total 6 marks)",
       "question_image_paths": [
-        "images/questions/t1_math_sl_algebra_exp_log_q8.png"
+        "images/questions/t1_math_sl_algebra_exp_log_q8_p1.png",
+        "images/questions/t1_math_sl_algebra_exp_log_q8_p2.png"
       ]
     },
     {
@@ -962,7 +967,8 @@
       "title": "Q11",
       "question_text": "11. Find the exact solution of the equation 92x = 27(1\u2013x).\nWorking:\nAnswer:\n....\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026..........\n(Total 6 marks)\n\nMaths SL 5",
       "question_image_paths": [
-        "images/questions/t1_math_sl_algebra_exp_log_q11.png"
+        "images/questions/t1_math_sl_algebra_exp_log_q11_p1.png",
+        "images/questions/t1_math_sl_algebra_exp_log_q11_p2.png"
       ]
     },
     {
@@ -975,7 +981,8 @@
       "title": "Q12",
       "question_text": "12. (a) Given that log3 x \u2013 log3 (x \u2013 5) = log3 A, express A in terms of x.\n(b) Hence or otherwise, solve the equation log3 x \u2013 log3 (x \u2013 5) = 1.\nWorking:\nAnswers:\n(a) ..................................................................\n(b) ..................................................................\n(Total 6 marks)\n\nMaths SL 6",
       "question_image_paths": [
-        "images/questions/t1_math_sl_algebra_exp_log_q12.png"
+        "images/questions/t1_math_sl_algebra_exp_log_q12_p1.png",
+        "images/questions/t1_math_sl_algebra_exp_log_q12_p2.png"
       ]
     },
     {
@@ -988,7 +995,8 @@
       "title": "Q13",
       "question_text": "13. Let p = log10 x, q = log10 y and r = log10 z.\nWrite the expression log10\n\uf0f7\uf0f7\n\uf0f8\n\uf0f6\n\uf0e7\uf0e7\n\uf0e8\n\uf0e6\nzy\nx\n2 in terms of p, q and r.\nWorking:\nAnswer:\n\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026..\n(Total 6 marks)\n\nMaths SL 7",
       "question_image_paths": [
-        "images/questions/t1_math_sl_algebra_exp_log_q13.png"
+        "images/questions/t1_math_sl_algebra_exp_log_q13_p1.png",
+        "images/questions/t1_math_sl_algebra_exp_log_q13_p2.png"
       ]
     },
     {
@@ -1001,7 +1009,8 @@
       "title": "Q14",
       "question_text": "14. Let a = log x, b = log y, and c = log z.\nWrite log\n\uf0f7\n\uf0f7\n\uf0f8\n\uf0f6\n\uf0e7\n\uf0e7\n\uf0e8\n\uf0e6\n3\n2\nz\nyx in terms of a, b and c.\nWorking:\nAnswer:\n\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026........\n(Total 6 marks)\n\nMaths SL 8",
       "question_image_paths": [
-        "images/questions/t1_math_sl_algebra_exp_log_q14.png"
+        "images/questions/t1_math_sl_algebra_exp_log_q14_p1.png",
+        "images/questions/t1_math_sl_algebra_exp_log_q14_p2.png"
       ]
     },
     {
@@ -1027,7 +1036,8 @@
       "title": "Q16",
       "question_text": "16. Solve the equation log27 x = 1 \u2013 log27 (x \u2013 0.4).\nWorking:\nAnswer:\n......................................................................\n(Total 6 marks)\n\nMaths SL 9",
       "question_image_paths": [
-        "images/questions/t1_math_sl_algebra_exp_log_q16.png"
+        "images/questions/t1_math_sl_algebra_exp_log_q16_p1.png",
+        "images/questions/t1_math_sl_algebra_exp_log_q16_p2.png"
       ]
     },
     {
@@ -1053,7 +1063,8 @@
       "title": "Q18",
       "question_text": "18. Let log10P = x , log10Q = y and log10R = z. Express\n2\n310log \uf0f7\uf0f7\n\uf0f8\n\uf0f6\n\uf0e7\uf0e7\n\uf0e8\n\uf0e6\nQR\nP in terms of x , y and z.\nWorking:\nAnswer:\n....................................................................\n(Total 4 marks)\n\nMaths SL 10",
       "question_image_paths": [
-        "images/questions/t1_math_sl_algebra_exp_log_q18.png"
+        "images/questions/t1_math_sl_algebra_exp_log_q18_p1.png",
+        "images/questions/t1_math_sl_algebra_exp_log_q18_p2.png"
       ]
     },
     {
@@ -1079,7 +1090,8 @@
       "title": "Q20",
       "question_text": "20. Solve the equation 9x\u20131 =\n.3\n1\n2x\n\uf0f7\uf0f8\n\uf0f6\uf0e7\uf0e8\n\uf0e6\nWorking:\nAnswer:\n......................................................................\n(Total 4 marks)\n\nMaths SL 11",
       "question_image_paths": [
-        "images/questions/t1_math_sl_algebra_exp_log_q20.png"
+        "images/questions/t1_math_sl_algebra_exp_log_q20_p1.png",
+        "images/questions/t1_math_sl_algebra_exp_log_q20_p2.png"
       ]
     },
     {
@@ -1144,7 +1156,8 @@
       "title": "Q4",
       "question_text": "4. Write ln (x2 \u2013 1) \u2013 2 ln(x + 1) + ln(x2 + x) as a single logarithm, in its simplest form.\n(Total 5 marks)",
       "question_image_paths": [
-        "images/questions/t1_topic_1_2_algebra_exponents_logarithms_2023_q4.png"
+        "images/questions/t1_topic_1_2_algebra_exponents_logarithms_2023_q4_p1.png",
+        "images/questions/t1_topic_1_2_algebra_exponents_logarithms_2023_q4_p2.png"
       ]
     },
     {
@@ -1196,7 +1209,8 @@
       "title": "Q2",
       "question_text": "2. (a) Find the sum of the infinite geometric sequence 27, \u22129, 3, \u22121, ... .\n(3)\n\n(b) Use mathematical induction to prove that for n\uf0ce\n+,\na + ar + ar2 + ... + arn\u20131 =\n\uf028 \uf029.1\n1\nr\nra n\n\uf02d\n\uf02d\n(7)\n(Total 10 marks)",
       "question_image_paths": [
-        "images/questions/t1_topic_1_4_algebra_mathematical_induction_q2.png"
+        "images/questions/t1_topic_1_4_algebra_mathematical_induction_q2_p1.png",
+        "images/questions/t1_topic_1_4_algebra_mathematical_induction_q2_p2.png"
       ]
     },
     {
@@ -1209,7 +1223,8 @@
       "title": "Q3",
       "question_text": "3. The function f is defined by f (x) = x e2x.\nIt can be shown that f (n) (x) = (2n x + n 2n\u22121) e2x for all n\uf0ce\n+, where f (n) (x) represents the nth\nderivative of f (x).\n(a) By considering f (n) (x) for n =1 and n = 2, show that there is one minimum point P on the\ngraph of f, and find the coordinates of P.\n(7)\n\n(b) Show that f has a point of inflexion Q at x = \u22121.\n(5)\n\n(c) Determine the intervals on the domain of f where f is\n(i) concave up;\n(ii) concave down.\n(2)\n\n(d) Sketch f, clearly showing any intercepts, asymptotes and the points P and Q.\n(4)\n\n(e) Use mathematical induction to prove that f (n) (x) = (2nx + n2n\u22121) e2x for all n\uf0ce\n+, where\nf (n) (x) represents the nth derivative of f (x).\n(9)\n(Total 27 marks)",
       "question_image_paths": [
-        "images/questions/t1_topic_1_4_algebra_mathematical_induction_q3.png"
+        "images/questions/t1_topic_1_4_algebra_mathematical_induction_q3_p1.png",
+        "images/questions/t1_topic_1_4_algebra_mathematical_induction_q3_p2.png"
       ]
     },
     {
@@ -1248,7 +1263,8 @@
       "title": "Q6",
       "question_text": "6. (a) A particle P moves in a straight line with displacement relative to origin given by\ns = 2 sin (\u03c0t) + sin(2\u03c0t), t \u2265 0,\nwhere t is the time in seconds and the displacement is measured in centimetres.\n\n(i) Write down the period of the function s.\n(ii) Find expressions for the velocity, v, and the acceleration, a, of P.\n(iii) Determine all the solutions of the equation v = 0 for 0 \u2264 t \u2264 4.\n(10)\n\n(b) Consider the function\nf(x) = A sin (ax) + B sin (bx), A, a, B, b, x\n\uf0ce\n.\nUse mathematical induction to prove that the (2n)th derivative of f is given by\nf(2n)(x) = (\u20131)n (Aa2n sin (ax) + Bb2n sin (bx)), for all n\n\uf0ce\n+.\n(8)\n(Total 18 marks)",
       "question_image_paths": [
-        "images/questions/t1_topic_1_4_algebra_mathematical_induction_q6.png"
+        "images/questions/t1_topic_1_4_algebra_mathematical_induction_q6_p1.png",
+        "images/questions/t1_topic_1_4_algebra_mathematical_induction_q6_p2.png"
       ]
     },
     {
@@ -1274,7 +1290,8 @@
       "title": "Q8",
       "question_text": "8. (a) Show that sin 2 nx = sin((2n + 1)x) cos x \u2013 cos((2n + 1)x) sin x.\n(2)\n\n(b) Hence prove, by induction, that\ncos x + cos 3x + cos 5x + ... + cos((2n \u2013 1)x) =\nx\nnx\nsin2\n2sin ,\nfor all n\n\uf0ce\n+, sin x \u2260 0.\n(12)\n\n(c) Solve the equation cos x + cos 3x =\n2\n1 , 0 < x < \u03c0.\n(6)\n(Total 20 marks)",
       "question_image_paths": [
-        "images/questions/t1_topic_1_4_algebra_mathematical_induction_q8.png"
+        "images/questions/t1_topic_1_4_algebra_mathematical_induction_q8_p1.png",
+        "images/questions/t1_topic_1_4_algebra_mathematical_induction_q8_p2.png"
       ]
     },
     {
@@ -1313,7 +1330,8 @@
       "title": "Q2",
       "question_text": "2. Consider w =\n12 +z\nz where z = x + iy, y \uf0b9 0 and z2 + 1 \uf0b9 0.\nGiven that Im w = 0, show that z = 1.\n(Total 7 marks)",
       "question_image_paths": [
-        "images/questions/t1_topic_1_5_algebra_complex_numbers_q2.png"
+        "images/questions/t1_topic_1_5_algebra_complex_numbers_q2_p1.png",
+        "images/questions/t1_topic_1_5_algebra_complex_numbers_q2_p2.png"
       ]
     },
     {
@@ -1352,7 +1370,8 @@
       "title": "Q5",
       "question_text": "5. If z is a non-zero complex number, we define L(z) by the equation\nL(z) = ln\u2502z\u2502 + i arg (z), 0 \u2264 arg (z) < 2\u03c0.\n(a) Show that when z is a positive real number, L(z) = ln z.\n(2)\n\n(b) Use the equation to calculate\n(i) L(\u20131);\n(ii) L(1 \u2013 i);\n(iii) L(\u20131 + i).\n(5)\n\n(c) Hence show that the property L(z1z2) = L(z1) + L(z2) does not hold for all values\nof z1 and z2.\n(2)\n(Total 9 marks)",
       "question_image_paths": [
-        "images/questions/t1_topic_1_5_algebra_complex_numbers_q5.png"
+        "images/questions/t1_topic_1_5_algebra_complex_numbers_q5_p1.png",
+        "images/questions/t1_topic_1_5_algebra_complex_numbers_q5_p2.png"
       ]
     },
     {
@@ -1378,7 +1397,8 @@
       "title": "Q7",
       "question_text": "7. Consider the complex number \u03c9 =\n2\ni\n+\n+\nz\nz , where z = x + iy and i = 1\u2212 .\n(a) If \u03c9 = i, determine z in the form z = r cis \u03b8.\n(6)\n\n(b) Prove that \u03c9 =\n2 2\n2 2\n) 2 (\n) 2 2i() 2 (\ny x\ny x y y x x\n+ +\n+ + + + + +.\n(3)\n\n(c) Hence show that when Re(\u03c9) = 1 the points (x, y) lie on a straight line, l1, and write down\nits gradient.\n(4)\n\n(d) Given arg ( z) = arg(\u03c9) =\n4\n\u03c0 , find \u2502z\u2502.\n(6)\n(Total 19 marks)",
       "question_image_paths": [
-        "images/questions/t1_topic_1_5_algebra_complex_numbers_q7.png"
+        "images/questions/t1_topic_1_5_algebra_complex_numbers_q7_p1.png",
+        "images/questions/t1_topic_1_5_algebra_complex_numbers_q7_p2.png"
       ]
     },
     {
@@ -1404,7 +1424,8 @@
       "title": "Q9",
       "question_text": "9. Consider \u03c9 =\n\uf0f7\n\uf0f8\n\uf0f6\uf0e7\n\uf0e8\n\uf0e6+\uf0f7\n\uf0f8\n\uf0f6\uf0e7\n\uf0e8\n\uf0e6\n3\n2\u03c0sin i3\n\u03c02cos\n.\n(a) Show that\n(i) \u03c93 = 1;\n(ii) 1 + \u03c9 + \u03c92 = 0.\n(5)\n\n(b) (i) Deduce that e i\u03b8 +\n\uf0f7\n\uf0f8\n\uf0f6\uf0e7\n\uf0e8\n\uf0e6 +\uf0f7\n\uf0f8\n\uf0f6\uf0e7\n\uf0e8\n\uf0e6 +\n+ 3\n\u03c04i\n3\n\u03c02i\ne e\n\uf071 \uf071\n= 0.\n(ii) Illustrate this result for \u03b8 = 2\n\u03c0 on an Argand diagram.\n(4)\n\n(c) (i) Expand and simplify F(z) = (z \u2013 1)(z \u2013 \u03c9)(z \u2013 \u03c92) where z is a complex number.\n\n(ii) Solve F(z) = 7, giving your answers in terms of \u03c9.\n(7)\n(Total 16 marks)",
       "question_image_paths": [
-        "images/questions/t1_topic_1_5_algebra_complex_numbers_q9.png"
+        "images/questions/t1_topic_1_5_algebra_complex_numbers_q9_p1.png",
+        "images/questions/t1_topic_1_5_algebra_complex_numbers_q9_p2.png"
       ]
     },
     {

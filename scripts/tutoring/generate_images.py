@@ -55,6 +55,14 @@ def detect_starts(doc: fitz.Document) -> List[StartPos]:
                 if m:
                     qnum = int(m.group("num"))
                 else:
+                    # Many tutoring sheets put just "1." on a heading line.
+                    m_dot_only = re.match(r"^(?P<num>\d{1,2})\.$", line_text)
+                    if m_dot_only:
+                        pending_num = int(m_dot_only.group("num"))
+                        pending_y = y
+                        pending_x = x
+                        qnum = pending_num
+
                     m_pending = re.match(r"^(?P<num>\d{1,2})$", line_text)
                     if m_pending:
                         pending_num = int(m_pending.group("num"))
