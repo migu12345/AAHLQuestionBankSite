@@ -235,7 +235,7 @@ def parse_answers_from_markscheme(path: Path) -> Dict[int, str]:
     return result
 
 
-def classify_topic(question_text: str, answer_text: str) -> Tuple[str, str]:
+def classify_topic(question_text: str, answer_text: str) -> Tuple[str, str, float, List[str]]:
     # Use question text as the primary signal.
     q_text_raw = question_text.lower().replace("-", " ")
     q_text = re.sub(r"[^a-z0-9()'+*/.= ]+", " ", q_text_raw)
@@ -243,35 +243,35 @@ def classify_topic(question_text: str, answer_text: str) -> Tuple[str, str]:
 
     # Strong anchors from the question itself.
     if re.search(r"\b(permutation|combination|factorial|ncr|npr|counting principle|arrangements?|combinatorics)\b", q_text):
-        return ("Statistics and Probability", "Discrete and continuous random variables")
+        return ("Statistics and Probability", "Discrete and continuous random variables", 0.99, ["anchor:combinatorics"])
     if re.search(
         r"\b(number of ways|how many ways|arranged in a grid|placed in the pens|must not be placed|share a boundary|adjacent|arrangement of|choose\s+\d+)\b",
         q_text,
     ):
-        return ("Statistics and Probability", "Discrete and continuous random variables")
+        return ("Statistics and Probability", "Discrete and continuous random variables", 0.98, ["anchor:counting-constraints"])
     if re.search(
         r"\b(random variable|probability density function|probability function|normal distribution|binomial distribution|poisson distribution|hypothesis test|null hypothesis|p value|regression|correlation|expected value|standard deviation|variance|mean|median)\b",
         q_text,
     ):
-        return ("Statistics and Probability", "Probability distributions")
+        return ("Statistics and Probability", "Probability distributions", 0.98, ["anchor:statistics"])
     if re.search(r"\b(no tied finishes?|finishing orders?|possible outcomes?|possible arrangements?)\b", q_text):
-        return ("Statistics and Probability", "Discrete and continuous random variables")
+        return ("Statistics and Probability", "Discrete and continuous random variables", 0.98, ["anchor:counting-cases"])
     if re.search(r"\b(interquartile range|quartile|box and whisker|outlier|median)\b", q_text):
-        return ("Statistics and Probability", "Probability distributions")
+        return ("Statistics and Probability", "Probability distributions", 0.98, ["anchor:quartiles"])
     if re.search(r"\b(differential equation|dy/dx|separable)\b", q_text):
-        return ("Calculus", "Differential equations")
+        return ("Calculus", "Differential equations", 0.98, ["anchor:diffeq"])
     if re.search(r"\b(maclaurin|taylor series|expansion about x ?= ?0)\b", q_text):
-        return ("Calculus", "Maclaurin series")
+        return ("Calculus", "Maclaurin series", 0.98, ["anchor:series"])
     if re.search(r"\b(integrate|integration|integral|antiderivative|area under|area between)\b", q_text):
-        return ("Calculus", "Integration")
+        return ("Calculus", "Integration", 0.97, ["anchor:integration"])
     if re.search(r"\b(limit|lim|continuity|continuous at|as x tends to)\b", q_text):
-        return ("Calculus", "Limits and continuity")
+        return ("Calculus", "Limits and continuity", 0.97, ["anchor:limits"])
     if re.search(r"\b(differentiate|differentiation|derivative|chain rule|product rule|quotient rule|tangent|normal to the curve|stationary|rate of change|max(?:imum)?|min(?:imum)?)\b", q_text):
-        return ("Calculus", "Differentiation")
+        return ("Calculus", "Differentiation", 0.97, ["anchor:derivative"])
     if re.search(r"\b(vector|vectors|triangle|bearing|angle|radian|sin|cos|tan|trigonometric|parallelogram|cartesian equation|line|plane)\b", q_text):
-        return ("Geometry and Trigonometry", "Trigonometric identities and equations")
+        return ("Geometry and Trigonometry", "Trigonometric identities and equations", 0.96, ["anchor:geometry"])
     if re.search(r"\b(sequence|series|arithmetic sequence|geometric sequence|u_n|s_n|summation|induction|complex number|argand|conjugate|modulus|argument|binomial theorem|binomial expansion)\b", q_text):
-        return ("Number and Algebra", "Sequences and series")
+        return ("Number and Algebra", "Sequences and series", 0.96, ["anchor:algebra"])
 
     # (pattern, topic/subtopic, base_weight)
     weighted_rules: List[Tuple[re.Pattern[str], Tuple[str, str], int]] = [
@@ -418,16 +418,25 @@ def classify_topic(question_text: str, answer_text: str) -> Tuple[str, str]:
         scores[label] = scores.get(label, 0) + score
 
     if not scores:
-        return ("Functions", "Transformations and modelling")
+        return ("Functions", "Transformations and modelling", 0.25, ["fallback:default-functions"])
 
     # Topic-level tie-break: favour strong non-function topics when ambiguous.
     topic_scores: Dict[str, int] = {}
     for (topic, _subtopic), score in scores.items():
         topic_scores[topic] = topic_scores.get(topic, 0) + score
 
-    best_topic = max(topic_scores.items(), key=lambda item: item[1])[0]
+    ranked_topics = sorted(topic_scores.items(), key=lambda item: item[1], reverse=True)
+    best_topic = ranked_topics[0][0]
     topic_candidates = [(label, score) for label, score in scores.items() if label[0] == best_topic]
-    return max(topic_candidates, key=lambda item: item[1])[0]
+    best_label, best_score = max(topic_candidates, key=lambda item: item[1])
+    second_score = ranked_topics[1][1] if len(ranked_topics) > 1 else 0
+    confidence = 0.35
+    if best_score > 0:
+        confidence = min(0.95, max(0.35, (best_score - second_score) / best_score))
+    reasons = [f"score:{best_topic}={best_score}"]
+    if len(ranked_topics) > 1:
+        reasons.append(f"runner-up:{ranked_topics[1][0]}={second_score}")
+    return (best_label[0], best_label[1], round(confidence, 3), reasons)
 
 
 def make_title(qnum: int, question_text: str) -> str:
@@ -526,7 +535,7 @@ def build() -> Dict[str, object]:
         for qn in sorted(q_map.keys()):
             q = q_map[qn]
             ans = a_map.get(qn, "Markscheme content not extracted for this question.")
-            topic, subtopic = classify_topic(str(q["question_text"]), ans)
+            topic, subtopic, confidence, reasons = classify_topic(str(q["question_text"]), ans)
 
             tz_part = f"_tz{meta.tz}" if meta.tz is not None else ""
             rec_id = f"{meta.session_code}_p{meta.paper_no}{tz_part}_q{qn}"
@@ -542,6 +551,8 @@ def build() -> Dict[str, object]:
                     "title": make_title(qn, str(q["question_text"])),
                     "topic": topic,
                     "subtopic": subtopic,
+                    "topic_confidence": confidence,
+                    "topic_reason": reasons,
                     "question_text": q["question_text"],
                     "answer_text": ans,
                     "marks": q["marks"],
