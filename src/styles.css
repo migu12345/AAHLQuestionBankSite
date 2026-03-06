@@ -49,6 +49,13 @@ body {
   flex-wrap: wrap;
 }
 
+.hero-actions {
+  display: flex;
+  align-items: center;
+  gap: 0.55rem;
+  flex-wrap: wrap;
+}
+
 .hero-link {
   display: inline-block;
   text-decoration: none;
@@ -74,6 +81,40 @@ body {
 .layout {
   width: min(1100px, 92%);
   margin: 0 auto 2.8rem;
+}
+
+.home-grid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+}
+
+.home-card {
+  display: block;
+  text-decoration: none;
+  color: var(--text);
+  background: var(--panel-soft);
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  padding: 1rem;
+  box-shadow: 0 8px 18px rgba(46, 44, 38, 0.05);
+  transition: border-color 120ms ease, transform 120ms ease, box-shadow 120ms ease;
+}
+
+.home-card:hover {
+  border-color: #bedccf;
+  box-shadow: 0 10px 22px rgba(46, 44, 38, 0.08);
+  transform: translateY(-1px);
+}
+
+.home-card h2 {
+  margin: 0 0 0.35rem;
+  font-size: 1.35rem;
+}
+
+.home-card p {
+  margin: 0;
+  color: var(--muted);
 }
 
 .filters {

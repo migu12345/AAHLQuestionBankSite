@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AA HL Question Bank</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="hero">
+      <div class="hero-row">
+        <h1>AA HL Question Bank</h1>
+        <div class="hero-actions">
+          <a class="hero-link" href="index.html">Home</a>
+          <a class="hero-link" href="tutoring/index.html">Tutoring Question Bank</a>
+        </div>
+      </div>
+      <p>Personal question bank from past papers and markschemes.</p>
+    </header>
+
+    <main class="layout">
+      <section class="filters">
+        <label>
+          Paper Type
+          <select id="paperTypeFilter">
+            <option value="">All paper types</option>
+          </select>
+        </label>
+
+        <label>
+          Paper
+          <select id="paperFilter">
+            <option value="">All papers</option>
+          </select>
+        </label>
+
+        <label>
+          Topic
+          <select id="topicFilter">
+            <option value="">All topics</option>
+          </select>
+        </label>
+
+        <label>
+          Subtopic
+          <select id="subtopicFilter">
+            <option value="">All subtopics</option>
+          </select>
+        </label>
+
+        <label>
+          Search
+          <input id="searchInput" type="text" placeholder="Search question text" />
+        </label>
+      </section>
+
+      <section>
+        <p id="resultCount"></p>
+        <div id="questionList" class="question-list"></div>
+        <div id="loadMoreWrap" style="margin-top: 0.9rem; display: none;">
+          <button id="loadMoreBtn" type="button">Load more</button>
+        </div>
+      </section>
+    </main>
+
+    <template id="questionTemplate">
+      <article class="question-card">
+        <p class="meta"></p>
+        <h3 class="title"></h3>
+        <div class="question-images"></div>
+        <p class="question fallback-text"></p>
+        <details>
+          <summary>Markscheme answer</summary>
+          <div class="markscheme-images"></div>
+          <p class="answer"></p>
+        </details>
+      </article>
+    </template>
+
+    <script src="app.js"></script>
+  </body>
+</html>
