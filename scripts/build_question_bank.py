@@ -394,10 +394,13 @@ def build_image_index(kind: str) -> Dict[str, List[str]]:
     for img in folder.glob("*.png"):
         stem = img.stem
         m = re.match(r"^(?P<id>.+)_p(?P<page>\d+)$", stem)
-        if not m:
-            continue
-        rec_id = m.group("id")
-        page = int(m.group("page"))
+        if m:
+            rec_id = m.group("id")
+            page = int(m.group("page"))
+        else:
+            # Some generated images are single-page captures named without _p suffix.
+            rec_id = stem
+            page = 1
         rel = str(Path("images") / kind / img.name)
         index.setdefault(rec_id, []).append((page, rel))
 

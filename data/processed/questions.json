@@ -35,6 +35,7 @@
       ],
       "markscheme_image_paths": [
         "images/markschemes/m21_p1_tz1_q1_p1.png",
+        "images/markschemes/m21_p1_tz1_q1.png",
         "images/markschemes/m21_p1_tz1_q1_p2.png"
       ]
     },
@@ -172,6 +173,7 @@
       ],
       "markscheme_image_paths": [
         "images/markschemes/m21_p1_tz1_q6_p1.png",
+        "images/markschemes/m21_p1_tz1_q6.png",
         "images/markschemes/m21_p1_tz1_q6_p2.png",
         "images/markschemes/m21_p1_tz1_q6_p3.png",
         "images/markschemes/m21_p1_tz1_q6_p4.png",
@@ -232,6 +234,7 @@
       ],
       "markscheme_image_paths": [
         "images/markschemes/m21_p1_tz1_q8_p1.png",
+        "images/markschemes/m21_p1_tz1_q8.png",
         "images/markschemes/m21_p1_tz1_q8_p2.png"
       ]
     },
@@ -310,8 +313,7 @@
         "markscheme_file": "Mathematics_analysis_and_approaches_paper_1__TZ1_HL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/m21_p1_tz2_q11_p1.png",
-        "images/questions/m21_p1_tz2_q11_p2.png"
+        "images/questions/m21_p1_tz1_q11.png"
       ],
       "markscheme_image_paths": [
         "images/markschemes/m21_p1_tz1_q11_p1.png",
@@ -337,8 +339,7 @@
         "markscheme_file": "Mathematics_analysis_and_approaches_paper_1__TZ1_HL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/m21_p1_tz2_q12_p1.png",
-        "images/questions/m21_p1_tz2_q12_p2.png"
+        "images/questions/m21_p1_tz1_q12.png"
       ],
       "markscheme_image_paths": [
         "images/markschemes/m21_p1_tz1_q12_p1.png",
@@ -371,6 +372,7 @@
       ],
       "markscheme_image_paths": [
         "images/markschemes/m21_p1_tz2_q1_p1.png",
+        "images/markschemes/m21_p1_tz2_q1.png",
         "images/markschemes/m21_p1_tz2_q1_p2.png"
       ]
     },
@@ -451,6 +453,7 @@
         "images/questions/m21_p1_tz2_q4_p2.png"
       ],
       "markscheme_image_paths": [
+        "images/markschemes/m21_p1_tz2_q4.png",
         "images/markschemes/m21_p1_tz2_q4_p1.png",
         "images/markschemes/m21_p1_tz2_q4_p2.png",
         "images/markschemes/m21_p1_tz2_q4_p3.png"
@@ -505,6 +508,7 @@
         "images/questions/m21_p1_tz2_q6_p2.png"
       ],
       "markscheme_image_paths": [
+        "images/markschemes/m21_p1_tz2_q6.png",
         "images/markschemes/m21_p1_tz2_q6_p1.png",
         "images/markschemes/m21_p1_tz2_q6_p2.png",
         "images/markschemes/m21_p1_tz2_q6_p3.png"
@@ -533,6 +537,7 @@
       ],
       "markscheme_image_paths": [
         "images/markschemes/m21_p1_tz2_q7_p1.png",
+        "images/markschemes/m21_p1_tz2_q7.png",
         "images/markschemes/m21_p1_tz2_q7_p2.png"
       ]
     },
@@ -677,6 +682,7 @@
       ],
       "markscheme_image_paths": [
         "images/markschemes/m21_p1_tz2_q12_p1.png",
+        "images/markschemes/m21_p1_tz2_q12.png",
         "images/markschemes/m21_p1_tz2_q12_p2.png",
         "images/markschemes/m21_p1_tz2_q12_p3.png",
         "images/markschemes/m21_p1_tz2_q12_p4.png",
@@ -706,6 +712,7 @@
         "images/questions/m21_p2_tz1_q1_p3.png"
       ],
       "markscheme_image_paths": [
+        "images/markschemes/m21_p2_tz1_q1.png",
         "images/markschemes/m21_p2_tz1_q1_p1.png",
         "images/markschemes/m21_p2_tz1_q1_p2.png"
       ]
@@ -761,9 +768,7 @@
         "images/questions/m21_p2_tz1_q3_p2.png"
       ],
       "markscheme_image_paths": [
-        "images/markschemes/m21_p2_tz2_q3_p1.png",
-        "images/markschemes/m21_p2_tz2_q3_p2.png",
-        "images/markschemes/m21_p2_tz2_q3_p3.png"
+        "images/markschemes/m21_p2_tz1_q3.png"
       ]
     },
     {
@@ -789,6 +794,7 @@
       ],
       "markscheme_image_paths": [
         "images/markschemes/m21_p2_tz1_q4_p1.png",
+        "images/markschemes/m21_p2_tz1_q4.png",
         "images/markschemes/m21_p2_tz1_q4_p2.png",
         "images/markschemes/m21_p2_tz1_q4_p3.png"
       ]
@@ -843,6 +849,7 @@
       ],
       "markscheme_image_paths": [
         "images/markschemes/m21_p2_tz1_q6_p1.png",
+        "images/markschemes/m21_p2_tz1_q6.png",
         "images/markschemes/m21_p2_tz1_q6_p2.png"
       ]
     },
@@ -1034,6 +1041,7 @@
       ],
       "markscheme_image_paths": [
         "images/markschemes/m21_p2_tz2_q1_p1.png",
+        "images/markschemes/m21_p2_tz2_q1.png",
         "images/markschemes/m21_p2_tz2_q1_p2.png"
       ]
     },
@@ -1367,6 +1375,7 @@
       ],
       "markscheme_image_paths": [
         "images/markschemes/m21_p3_tz1_q1_p1.png",
+        "images/markschemes/m21_p3_tz1_q1.png",
         "images/markschemes/m21_p3_tz1_q1_p2.png",
         "images/markschemes/m21_p3_tz1_q1_p3.png",
         "images/markschemes/m21_p3_tz1_q1_p4.png",
@@ -1441,6 +1450,7 @@
         "images/questions/m21_p3_tz2_q1_p3.png"
       ],
       "markscheme_image_paths": [
+        "images/markschemes/m21_p3_tz2_q1.png",
         "images/markschemes/m21_p3_tz2_q1_p1.png",
         "images/markschemes/m21_p3_tz2_q1_p2.png",
         "images/markschemes/m21_p3_tz2_q1_p3.png",
@@ -1746,8 +1756,7 @@
         "markscheme_file": "m22_Mathematics_analysis_and_approaches_paper_1__TZ1_HL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/m22_p1_tz2_q10_p1.png",
-        "images/questions/m22_p1_tz2_q10_p2.png"
+        "images/questions/m22_p1_tz1_q10.png"
       ],
       "markscheme_image_paths": [
         "images/markschemes/m22_p1_tz1_q10_p1.png",
@@ -1809,9 +1818,7 @@
         "markscheme_file": "m22_Mathematics_analysis_and_approaches_paper_1__TZ1_HL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/m22_p1_tz2_q12_p1.png",
-        "images/questions/m22_p1_tz2_q12_p2.png",
-        "images/questions/m22_p1_tz2_q12_p3.png"
+        "images/questions/m22_p1_tz1_q12.png"
       ],
       "markscheme_image_paths": [
         "images/markschemes/m22_p1_tz1_q12_p1.png",
@@ -2821,7 +2828,9 @@
         "images/questions/m22_p3_tz2_q1_p2.png",
         "images/questions/m22_p3_tz2_q1_p3.png"
       ],
-      "markscheme_image_paths": []
+      "markscheme_image_paths": [
+        "images/markschemes/m22_p3_tz2_q1.png"
+      ]
     },
     {
       "id": "m22_p3_tz2_q2",
@@ -3162,8 +3171,7 @@
         "markscheme_file": "m23_Mathematics_analysis_and_approaches_paper_1__TZ1_HL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/m23_p1_q12_p1.png",
-        "images/questions/m23_p1_q12_p2.png"
+        "images/questions/m23_p1_tz1_q12.png"
       ],
       "markscheme_image_paths": [
         "images/markschemes/m23_p1_tz1_q12_p1.png",
@@ -4169,7 +4177,9 @@
         "images/questions/m23_p3_tz1_q1_p1.png",
         "images/questions/m23_p3_tz1_q1_p2.png"
       ],
-      "markscheme_image_paths": []
+      "markscheme_image_paths": [
+        "images/markschemes/m23_p3_tz1_q1.png"
+      ]
     },
     {
       "id": "m23_p3_tz1_q2",
@@ -4219,7 +4229,9 @@
         "images/questions/m23_p3_tz2_q1_p2.png",
         "images/questions/m23_p3_tz2_q1_p3.png"
       ],
-      "markscheme_image_paths": []
+      "markscheme_image_paths": [
+        "images/markschemes/m23_p3_tz2_q1.png"
+      ]
     },
     {
       "id": "m23_p3_tz2_q2",
@@ -4598,6 +4610,7 @@
       ],
       "markscheme_image_paths": [
         "images/markschemes/m24_p1_tz2_q1_p1.png",
+        "images/markschemes/m24_p1_tz2_q1.png",
         "images/markschemes/m24_p1_tz2_q1_p2.png"
       ]
     },
@@ -4650,6 +4663,7 @@
       ],
       "markscheme_image_paths": [
         "images/markschemes/m24_p1_tz2_q3_p1.png",
+        "images/markschemes/m24_p1_tz2_q3.png",
         "images/markschemes/m24_p1_tz2_q3_p2.png",
         "images/markschemes/m24_p1_tz2_q3_p3.png"
       ]
@@ -4706,6 +4720,7 @@
       ],
       "markscheme_image_paths": [
         "images/markschemes/m24_p1_tz2_q5_p1.png",
+        "images/markschemes/m24_p1_tz2_q5.png",
         "images/markschemes/m24_p1_tz2_q5_p2.png",
         "images/markschemes/m24_p1_tz2_q5_p3.png",
         "images/markschemes/m24_p1_tz2_q5_p4.png"
@@ -4733,6 +4748,7 @@
         "images/questions/m24_p1_tz2_q6_p2.png"
       ],
       "markscheme_image_paths": [
+        "images/markschemes/m24_p1_tz2_q6.png",
         "images/markschemes/m24_p1_tz2_q6_p1.png",
         "images/markschemes/m24_p1_tz2_q6_p2.png"
       ]
@@ -4785,6 +4801,7 @@
         "images/questions/m24_p1_tz2_q8_p2.png"
       ],
       "markscheme_image_paths": [
+        "images/markschemes/m24_p1_tz2_q8.png",
         "images/markschemes/m24_p1_tz2_q8_p1.png",
         "images/markschemes/m24_p1_tz2_q8_p2.png"
       ]
@@ -4812,6 +4829,7 @@
       ],
       "markscheme_image_paths": [
         "images/markschemes/m24_p1_tz2_q9_p1.png",
+        "images/markschemes/m24_p1_tz2_q9.png",
         "images/markschemes/m24_p1_tz2_q9_p2.png",
         "images/markschemes/m24_p1_tz2_q9_p3.png"
       ]
@@ -4906,9 +4924,7 @@
         "markscheme_file": "m24_Mathematics_analysis_and_approaches_paper_1__TZ2_HL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/m24_p1_tz1_q12_p1.png",
-        "images/questions/m24_p1_tz1_q12_p2.png",
-        "images/questions/m24_p1_tz1_q12_p3.png"
+        "images/questions/m24_p1_tz2_q12.png"
       ],
       "markscheme_image_paths": [
         "images/markschemes/m24_p1_tz2_q12_p1.png",
@@ -5262,6 +5278,7 @@
         "images/questions/m24_p2_tz2_q1_p2.png"
       ],
       "markscheme_image_paths": [
+        "images/markschemes/m24_p2_tz2_q1.png",
         "images/markschemes/m24_p2_tz2_q1_p1.png",
         "images/markschemes/m24_p2_tz2_q1_p2.png"
       ]
@@ -5288,6 +5305,7 @@
         "images/questions/m24_p2_tz2_q2_p2.png"
       ],
       "markscheme_image_paths": [
+        "images/markschemes/m24_p2_tz2_q2.png",
         "images/markschemes/m24_p2_tz2_q2_p1.png",
         "images/markschemes/m24_p2_tz2_q2_p2.png"
       ]
@@ -5314,6 +5332,7 @@
         "images/questions/m24_p2_tz2_q3_p2.png"
       ],
       "markscheme_image_paths": [
+        "images/markschemes/m24_p2_tz2_q3.png",
         "images/markschemes/m24_p2_tz2_q3_p1.png",
         "images/markschemes/m24_p2_tz2_q3_p2.png",
         "images/markschemes/m24_p2_tz2_q3_p3.png"
@@ -5368,6 +5387,7 @@
       ],
       "markscheme_image_paths": [
         "images/markschemes/m24_p2_tz2_q5_p1.png",
+        "images/markschemes/m24_p2_tz2_q5.png",
         "images/markschemes/m24_p2_tz2_q5_p2.png",
         "images/markschemes/m24_p2_tz2_q5_p3.png"
       ]
@@ -5394,6 +5414,7 @@
         "images/questions/m24_p2_tz2_q6_p2.png"
       ],
       "markscheme_image_paths": [
+        "images/markschemes/m24_p2_tz2_q6.png",
         "images/markschemes/m24_p2_tz2_q6_p1.png",
         "images/markschemes/m24_p2_tz2_q6_p2.png"
       ]
@@ -5446,6 +5467,7 @@
         "images/questions/m24_p2_tz2_q8_p2.png"
       ],
       "markscheme_image_paths": [
+        "images/markschemes/m24_p2_tz2_q8.png",
         "images/markschemes/m24_p2_tz2_q8_p1.png",
         "images/markschemes/m24_p2_tz2_q8_p2.png",
         "images/markschemes/m24_p2_tz2_q8_p3.png"
@@ -5474,6 +5496,7 @@
       ],
       "markscheme_image_paths": [
         "images/markschemes/m24_p2_tz2_q9_p1.png",
+        "images/markschemes/m24_p2_tz2_q9.png",
         "images/markschemes/m24_p2_tz2_q9_p2.png"
       ]
     },
@@ -5599,7 +5622,9 @@
         "images/questions/m24_p3_tz1_q1_p2.png",
         "images/questions/m24_p3_tz1_q1_p3.png"
       ],
-      "markscheme_image_paths": []
+      "markscheme_image_paths": [
+        "images/markschemes/m24_p3_tz1_q1.png"
+      ]
     },
     {
       "id": "m24_p3_tz1_q2",
@@ -5649,7 +5674,9 @@
         "images/questions/m24_p3_tz2_q1_p2.png",
         "images/questions/m24_p3_tz2_q1_p3.png"
       ],
-      "markscheme_image_paths": []
+      "markscheme_image_paths": [
+        "images/markschemes/m24_p3_tz2_q1.png"
+      ]
     },
     {
       "id": "m24_p3_tz2_q2",
@@ -6344,8 +6371,7 @@
         "images/questions/m25_p1_tz3_q1_p2.png"
       ],
       "markscheme_image_paths": [
-        "images/markschemes/m25_p1_tz1_q1_p1.png",
-        "images/markschemes/m25_p1_tz1_q1_p2.png"
+        "images/markschemes/m25_p1_tz3_q1.png"
       ]
     },
     {
@@ -6396,8 +6422,7 @@
         "images/questions/m25_p1_tz3_q3_p2.png"
       ],
       "markscheme_image_paths": [
-        "images/markschemes/m25_p1_tz1_q3_p1.png",
-        "images/markschemes/m25_p1_tz1_q3_p2.png"
+        "images/markschemes/m25_p1_tz3_q3.png"
       ]
     },
     {
@@ -6502,8 +6527,7 @@
         "images/questions/m25_p1_tz3_q7_p2.png"
       ],
       "markscheme_image_paths": [
-        "images/markschemes/m25_p1_tz1_q7_p1.png",
-        "images/markschemes/m25_p1_tz1_q7_p2.png"
+        "images/markschemes/m25_p1_tz3_q7.png"
       ]
     },
     {
@@ -6717,8 +6741,7 @@
         "images/questions/m25_p2_tz1_q3_p2.png"
       ],
       "markscheme_image_paths": [
-        "images/markschemes/m25_p2_tz2_q3_p1.png",
-        "images/markschemes/m25_p2_tz2_q3_p2.png"
+        "images/markschemes/m25_p2_tz1_q3.png"
       ]
     },
     {
@@ -6956,10 +6979,7 @@
         "markscheme_file": "m25_Mathematics_analysis_and_approaches_paper_2_TZ1_HL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/m25_p2_tz2_q12_p1.png",
-        "images/questions/m25_p2_tz2_q12_p2.png",
-        "images/questions/m25_p2_tz2_q12_p3.png",
-        "images/questions/m25_p2_tz2_q12_p4.png"
+        "images/questions/m25_p2_tz1_q12.png"
       ],
       "markscheme_image_paths": [
         "images/markschemes/m25_p2_tz1_q12_p1.png",
@@ -7312,8 +7332,7 @@
         "images/questions/m25_p2_tz3_q1_p2.png"
       ],
       "markscheme_image_paths": [
-        "images/markschemes/m25_p2_tz1_q1_p1.png",
-        "images/markschemes/m25_p2_tz1_q1_p2.png"
+        "images/markschemes/m25_p2_tz3_q1.png"
       ]
     },
     {
@@ -7364,8 +7383,7 @@
         "images/questions/m25_p2_tz3_q3_p2.png"
       ],
       "markscheme_image_paths": [
-        "images/markschemes/m25_p2_tz2_q3_p1.png",
-        "images/markschemes/m25_p2_tz2_q3_p2.png"
+        "images/markschemes/m25_p2_tz3_q3.png"
       ]
     },
     {
@@ -7442,9 +7460,7 @@
         "images/questions/m25_p2_tz3_q6_p2.png"
       ],
       "markscheme_image_paths": [
-        "images/markschemes/m25_p2_tz1_q6_p1.png",
-        "images/markschemes/m25_p2_tz1_q6_p2.png",
-        "images/markschemes/m25_p2_tz1_q6_p3.png"
+        "images/markschemes/m25_p2_tz3_q6.png"
       ]
     },
     {
@@ -7632,7 +7648,9 @@
         "images/questions/m25_p3_tz1_q1_p2.png",
         "images/questions/m25_p3_tz1_q1_p3.png"
       ],
-      "markscheme_image_paths": []
+      "markscheme_image_paths": [
+        "images/markschemes/m25_p3_tz1_q1.png"
+      ]
     },
     {
       "id": "m25_p3_tz1_q2",
@@ -7682,7 +7700,9 @@
         "images/questions/m25_p3_tz2_q1_p2.png",
         "images/questions/m25_p3_tz2_q1_p3.png"
       ],
-      "markscheme_image_paths": []
+      "markscheme_image_paths": [
+        "images/markschemes/m25_p3_tz2_q1.png"
+      ]
     },
     {
       "id": "m25_p3_tz2_q2",
@@ -7735,7 +7755,9 @@
         "images/questions/m25_p3_tz3_q1_p2.png",
         "images/questions/m25_p3_tz3_q1_p3.png"
       ],
-      "markscheme_image_paths": []
+      "markscheme_image_paths": [
+        "images/markschemes/m25_p3_tz3_q1.png"
+      ]
     },
     {
       "id": "m25_p3_tz3_q2",
@@ -8019,7 +8041,9 @@
         "paper_file": "Mathematics_analysis_and_approaches_paper_1__HL.pdf",
         "markscheme_file": "Mathematics_analysis_and_approaches_paper_1__HL_markscheme.pdf"
       },
-      "question_image_paths": [],
+      "question_image_paths": [
+        "images/questions/n21_p1_q10.png"
+      ],
       "markscheme_image_paths": [
         "images/markschemes/n21_p1_q10_p1.png",
         "images/markschemes/n21_p1_q10_p2.png",
@@ -8415,7 +8439,9 @@
         "images/questions/n21_p3_q1_p1.png",
         "images/questions/n21_p3_q1_p2.png"
       ],
-      "markscheme_image_paths": []
+      "markscheme_image_paths": [
+        "images/markschemes/n21_p3_q1.png"
+      ]
     },
     {
       "id": "n21_p3_q2",
@@ -8434,7 +8460,9 @@
         "paper_file": "Mathematics_analysis_and_approaches_paper_3__HL.pdf",
         "markscheme_file": "Mathematics_analysis_and_approaches_paper_3__HL_markscheme.pdf"
       },
-      "question_image_paths": [],
+      "question_image_paths": [
+        "images/questions/n21_p3_q2.png"
+      ],
       "markscheme_image_paths": [
         "images/markschemes/n21_p3_q2_p1.png",
         "images/markschemes/n21_p3_q2_p2.png"
@@ -8693,7 +8721,9 @@
         "paper_file": "n22_Mathematics_analysis_and_approaches_paper_1__HL.pdf",
         "markscheme_file": "n22_Mathematics_analysis_and_approaches_paper_1__HL_markscheme.pdf"
       },
-      "question_image_paths": [],
+      "question_image_paths": [
+        "images/questions/n22_p1_q10.png"
+      ],
       "markscheme_image_paths": [
         "images/markschemes/n22_p1_q10_p1.png",
         "images/markschemes/n22_p1_q10_p2.png",
@@ -8748,7 +8778,9 @@
         "paper_file": "n22_Mathematics_analysis_and_approaches_paper_1__HL.pdf",
         "markscheme_file": "n22_Mathematics_analysis_and_approaches_paper_1__HL_markscheme.pdf"
       },
-      "question_image_paths": [],
+      "question_image_paths": [
+        "images/questions/n22_p1_q12.png"
+      ],
       "markscheme_image_paths": [
         "images/markschemes/n22_p1_q12_p1.png",
         "images/markschemes/n22_p1_q12_p2.png",
@@ -9038,7 +9070,9 @@
         "paper_file": "n22_Mathematics_analysis_and_approaches_paper_2__HL.pdf",
         "markscheme_file": "n22_Mathematics_analysis_and_approaches_paper_2__HL_markscheme.pdf"
       },
-      "question_image_paths": [],
+      "question_image_paths": [
+        "images/questions/n22_p2_q11.png"
+      ],
       "markscheme_image_paths": [
         "images/markschemes/n22_p2_q11_p1.png",
         "images/markschemes/n22_p2_q11_p2.png",
@@ -9062,7 +9096,9 @@
         "paper_file": "n22_Mathematics_analysis_and_approaches_paper_2__HL.pdf",
         "markscheme_file": "n22_Mathematics_analysis_and_approaches_paper_2__HL_markscheme.pdf"
       },
-      "question_image_paths": [],
+      "question_image_paths": [
+        "images/questions/n22_p2_q12.png"
+      ],
       "markscheme_image_paths": [
         "images/markschemes/n22_p2_q12_p1.png",
         "images/markschemes/n22_p2_q12_p2.png",
@@ -9097,7 +9133,9 @@
         "images/questions/n22_p3_q1_p2.png",
         "images/questions/n22_p3_q1_p3.png"
       ],
-      "markscheme_image_paths": []
+      "markscheme_image_paths": [
+        "images/markschemes/n22_p3_q1.png"
+      ]
     },
     {
       "id": "n22_p3_q2",
@@ -9147,7 +9185,9 @@
         "images/questions/n23_p1_tz1_q1_p1.png",
         "images/questions/n23_p1_tz1_q1_p2.png"
       ],
-      "markscheme_image_paths": []
+      "markscheme_image_paths": [
+        "images/markschemes/n23_p1_tz1_q1.png"
+      ]
     },
     {
       "id": "n23_p1_tz1_q2",
@@ -9224,6 +9264,7 @@
       ],
       "markscheme_image_paths": [
         "images/markschemes/n23_p1_tz1_q4_p1.png",
+        "images/markschemes/n23_p1_tz1_q4.png",
         "images/markschemes/n23_p1_tz1_q4_p2.png",
         "images/markschemes/n23_p1_tz1_q4_p3.png"
       ]
@@ -9470,7 +9511,9 @@
         "images/questions/n23_p1_tz2_q1_p1.png",
         "images/questions/n23_p1_tz2_q1_p2.png"
       ],
-      "markscheme_image_paths": []
+      "markscheme_image_paths": [
+        "images/markschemes/n23_p1_tz2_q1.png"
+      ]
     },
     {
       "id": "n23_p1_tz2_q2",
@@ -9546,6 +9589,7 @@
         "images/questions/n23_p1_tz2_q4_p2.png"
       ],
       "markscheme_image_paths": [
+        "images/markschemes/n23_p1_tz2_q4.png",
         "images/markschemes/n23_p1_tz2_q4_p1.png",
         "images/markschemes/n23_p1_tz2_q4_p2.png",
         "images/markschemes/n23_p1_tz2_q4_p3.png"
@@ -10086,7 +10130,9 @@
         "paper_file": "n23_Mathematics_analysis_and_approaches_paper_2__TZ1_HL.pdf",
         "markscheme_file": "n23_Mathematics_analysis_and_approaches_paper_2__TZ1_HL_markscheme.pdf"
       },
-      "question_image_paths": [],
+      "question_image_paths": [
+        "images/questions/n23_p2_tz1_q12.png"
+      ],
       "markscheme_image_paths": [
         "images/markschemes/n23_p2_tz1_q12_p1.png",
         "images/markschemes/n23_p2_tz1_q12_p2.png",
@@ -10409,7 +10455,9 @@
         "paper_file": "n23_Mathematics_analysis_and_approaches_paper_2__TZ2_HL.pdf",
         "markscheme_file": "n23_Mathematics_analysis_and_approaches_paper_2__TZ2_HL_markscheme.pdf"
       },
-      "question_image_paths": [],
+      "question_image_paths": [
+        "images/questions/n23_p2_tz2_q12.png"
+      ],
       "markscheme_image_paths": [
         "images/markschemes/n23_p2_tz2_q12_p1.png",
         "images/markschemes/n23_p2_tz2_q12_p2.png",
@@ -10440,7 +10488,9 @@
         "images/questions/n23_p3_q1_p2.png",
         "images/questions/n23_p3_q1_p3.png"
       ],
-      "markscheme_image_paths": []
+      "markscheme_image_paths": [
+        "images/markschemes/n23_p3_q1.png"
+      ]
     },
     {
       "id": "n23_p3_q2",
@@ -10595,7 +10645,9 @@
         "images/questions/n24_p1_q5_p1.png",
         "images/questions/n24_p1_q5_p2.png"
       ],
-      "markscheme_image_paths": []
+      "markscheme_image_paths": [
+        "images/markschemes/n24_p1_q5.png"
+      ]
     },
     {
       "id": "n24_p1_q6",
@@ -11140,7 +11192,9 @@
         "images/questions/n24_p3_q1_p2.png",
         "images/questions/n24_p3_q1_p3.png"
       ],
-      "markscheme_image_paths": []
+      "markscheme_image_paths": [
+        "images/markschemes/n24_p3_q1.png"
+      ]
     },
     {
       "id": "n24_p3_q2",
