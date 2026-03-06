@@ -5,6 +5,7 @@ from __future__ import annotations
 
 import json
 import re
+import unicodedata
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Dict, List, Tuple
@@ -12,6 +13,9 @@ from typing import Dict, List, Tuple
 ROOT = Path(__file__).resolve().parents[2]
 QUESTIONS_FILE = ROOT / "data" / "tutoring" / "processed" / "questions.json"
 OUT_FILE = ROOT / "data" / "tutoring" / "processed" / "markschemes.json"
+
+SUPERSCRIPT_MAP = str.maketrans({"0": "⁰", "1": "¹", "2": "²", "3": "³", "4": "⁴", "5": "⁵", "6": "⁶", "7": "⁷", "8": "⁸", "9": "⁹", "-": "⁻", "+": "⁺"})
+SUBSCRIPT_MAP = str.maketrans({"0": "₀", "1": "₁", "2": "₂", "3": "₃", "4": "₄", "5": "₅", "6": "₆", "7": "₇", "8": "₈", "9": "₉", "-": "₋", "+": "₊"})
 
 
 def find_total_marks(text: str) -> int:
@@ -66,8 +70,19 @@ def detect_method(prompt: str) -> str:
 
 
 def normalize_prompt(prompt: str) -> str:
-    text = re.sub(r"\(Total\s+\d+\s+marks?\)", " ", prompt, flags=re.IGNORECASE)
+    text = unicodedata.normalize("NFKC", prompt)
+    text = re.sub(r"\(Total\s+\d+\s+marks?\)", " ", text, flags=re.IGNORECASE)
     text = re.sub(r"\(\d+\)", " ", text)
+    text = re.sub(r"\bIB\s*Maths?\s*\d+\b", " ", text, flags=re.IGNORECASE)
+    text = text.replace("\ufffd", " ").replace("□", " ")
+    text = re.sub(r"[^\x20-\x7E\u00A0-\u024F\u0370-\u03FF\u2010-\u206F\u2070-\u209F\u2200-\u22FF]+", " ", text)
+    text = text.replace("<=", "≤").replace(">=", "≥").replace("!=", "≠").replace("+/-", "±")
+    text = re.sub(r"\bsqrt\b", "√", text, flags=re.IGNORECASE)
+    text = re.sub(r"\bpi\b", "π", text, flags=re.IGNORECASE)
+    text = re.sub(r"\binfinity\b", "∞", text, flags=re.IGNORECASE)
+    text = re.sub(r"\bu_n\b", "uₙ", text)
+    text = re.sub(r"\bs_n\b", "Sₙ", text, flags=re.IGNORECASE)
+    text = re.sub(r"\bx([0-9])\b", lambda m: f"x{m.group(1).translate(SUPERSCRIPT_MAP)}", text)
     text = re.sub(r"\s+", " ", text).strip()
     return text
 
@@ -82,12 +97,12 @@ def worked_steps_for_prompt(prompt: str, marks: int, context: str = "") -> List[
             f"Start with: {expr}",
             "Rearrange to standard form: ax^2 + bx + c = 0 (or equivalent).",
             "Solve using factorisation / substitution / inverse operations.",
-            "For quadratics: x = (-b ± sqrt(b^2 - 4ac)) / (2a).",
+            "For quadratics: x = (-b ± √(b² - 4ac)) / (2a).",
             "Check domain/restrictions and reject invalid roots.",
             "Final answer: valid solution set.",
             "",
             "METHOD 2",
-            "Alternative route: solve simultaneously after substitution or use graph/intersection.",
+            "Alternative route: solve simultaneously after substitution or use graph/intersection (x-, y-).",
             "Confirm both methods give the same valid value(s).",
         ],
         "prove": [
@@ -104,8 +119,8 @@ def worked_steps_for_prompt(prompt: str, marks: int, context: str = "") -> List[
         "binomial": [
             "METHOD 1 (general term)",
             f"Given: {expr}",
-            "Use T_(r+1) = C(n,r) a^(n-r) b^r.",
-            "Match powers to find r (for required x^k term).",
+            "Use Tᵣ₊₁ = C(n,r) · a^(n-r) · b^r.",
+            "Match powers to find r (for required xᵏ term).",
             "Substitute r and simplify coefficient + term.",
             "Write final required term/coefficient.",
             "",
@@ -117,19 +132,19 @@ def worked_steps_for_prompt(prompt: str, marks: int, context: str = "") -> List[
             "METHOD 1",
             f"Given: {expr}",
             "Apply chain/product/quotient rules as needed.",
-            "d/dx [x^n] = n x^(n-1), d/dx [e^x] = e^x, d/dx [ln x] = 1/x.",
+            "d/dx[xⁿ] = n·xⁿ⁻¹, d/dx[eˣ] = eˣ, d/dx[ln x] = 1/x.",
             "Simplify f'(x), then substitute required x-values.",
             "State final derivative/result.",
             "",
             "METHOD 2 (first principles when requested)",
-            "f'(x) = lim_(h->0) [f(x+h)-f(x)]/h.",
+            "f′(x) = lim(h→0) (f(x+h)-f(x))/h.",
             "Expand, cancel, factor h, then take the limit.",
         ],
         "integrate": [
             "METHOD 1",
             f"Given: {expr}",
             "Integrate term-by-term or by substitution.",
-            "∫ x^n dx = x^(n+1)/(n+1) + C, ∫ e^x dx = e^x + C, ∫ (1/x) dx = ln|x| + C.",
+            "∫xⁿ dx = xⁿ⁺¹/(n+1) + C,  ∫eˣ dx = eˣ + C,  ∫(1/x)dx = ln|x| + C.",
             "Apply limits if definite integral.",
             "State exact final value.",
             "",
@@ -141,7 +156,7 @@ def worked_steps_for_prompt(prompt: str, marks: int, context: str = "") -> List[
             "METHOD 1 (Cartesian form)",
             f"Given: {expr}",
             "Write z = a + bi and equate real/imaginary parts.",
-            "|z| = sqrt(a^2 + b^2),  arg(z) = atan(b/a) (adjust quadrant).",
+            "|z| = √(a² + b²),  arg(z) = atan(b/a) (adjust quadrant).",
             "Use z̄ = a - bi where needed.",
             "State final result in requested form.",
             "",
@@ -152,8 +167,8 @@ def worked_steps_for_prompt(prompt: str, marks: int, context: str = "") -> List[
         "sequence": [
             "METHOD 1 (formula route)",
             f"Given: {expr}",
-            "Arithmetic: u_n = u_1 + (n-1)d,  S_n = n/2 [2u_1 + (n-1)d].",
-            "Geometric: u_n = u_1 r^(n-1),  S_n = u_1(1-r^n)/(1-r), r ≠ 1.",
+            "Arithmetic: uₙ = u₁ + (n-1)d,  Sₙ = n/2[2u₁ + (n-1)d].",
+            "Geometric: uₙ = u₁r^(n-1),  Sₙ = u₁(1-rⁿ)/(1-r), r ≠ 1.",
             "Substitute known values and solve systematically.",
             "State required u_n / S_n / n value.",
             "",
@@ -170,7 +185,7 @@ def worked_steps_for_prompt(prompt: str, marks: int, context: str = "") -> List[
             "State valid solution(s) only.",
             "",
             "METHOD 2 (exponential form)",
-            "Use log_a x = y  <=>  a^y = x.",
+            "Use logₐx = y  ⇔  aʸ = x.",
             "Solve in exponential form, then check domain.",
         ],
         "inverse": [
@@ -179,10 +194,10 @@ def worked_steps_for_prompt(prompt: str, marks: int, context: str = "") -> List[
             "Set y = f(x), swap x and y.",
             "Rearrange to y = ... explicitly.",
             "State domain(f) and range(f) so inverse is valid.",
-            "Final: f^(-1)(x) with restrictions.",
+            "Final: f⁻¹(x) with restrictions.",
             "",
             "METHOD 2",
-            "Check by composition: f(f^(-1)(x)) = x and f^(-1)(f(x)) = x.",
+            "Check by composition: f(f⁻¹(x)) = x and f⁻¹(f(x)) = x.",
         ],
         "general": [
             "METHOD 1",
