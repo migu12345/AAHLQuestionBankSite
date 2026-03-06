@@ -77,6 +77,30 @@ def is_mostly_blank_page(page: fitz.Page, clip: fitz.Rect, kind: str, is_first_c
     return alpha < 15 and density < 0.03
 
 
+def is_answer_space_continuation_page(text: str) -> bool:
+    t = text.lower()
+    if not re.search(r"\bquestion\s+\d+\s+continued\b", t):
+        return False
+
+    # Keep pages that still contain substantive prompt text.
+    if re.search(r"\[maximum mark:", t):
+        return False
+    if re.search(r"\(\s*[a-f]\s*\)", t):
+        return False
+    if re.search(
+        r"\b(find|show|hence|given|prove|determine|calculate|sketch|solve|state|write down|estimate)\b",
+        t,
+    ):
+        return False
+
+    # Typical answer-only continuation pages are mostly line art / dotted lines.
+    alpha = cleaned_alpha_len(text)
+    replacement_chars = text.count("\ufffd") + text.count("�")
+    if alpha < 55 or replacement_chars > 120:
+        return True
+    return False
+
+
 def detect_starts(doc: fitz.Document, kind: str) -> List[StartPos]:
     starts: Dict[int, Tuple[int, float]] = {}
     start_page = 0
@@ -244,6 +268,11 @@ def crop_question(
             continue
 
         clip = fitz.Rect(left, top, right, bottom)
+        clip_text = page.get_text("text", clip=clip)
+
+        if kind == "paper" and is_answer_space_continuation_page(clip_text):
+            continue
+
         if is_mostly_blank_page(page, clip, kind, pno == s.page):
             continue
 
