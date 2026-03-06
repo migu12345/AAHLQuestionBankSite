@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Generate IB-style draft markschemes for tutoring questions."""
+"""Generate IB-style draft worked markschemes for tutoring questions."""
 
 from __future__ import annotations
 
@@ -41,66 +41,100 @@ def extract_parts(text: str) -> List[Tuple[str, str]]:
     return parts or [("a", re.sub(r"\s+", " ", text).strip())]
 
 
-def default_lines_for_prompt(prompt: str, marks: int) -> List[str]:
+def detect_method(prompt: str) -> str:
     p = prompt.lower()
-
     if "solve" in p:
-        base = [
-            "M1: valid setup/manipulation of equation(s).",
-            "A1: correct transformed equation / intermediate value(s).",
-            "A1: correct final solution set with valid restrictions.",
-        ]
-    elif "show that" in p or "prove" in p:
-        base = [
-            "M1: valid algebraic/analytic approach using a relevant identity/theorem.",
-            "A1: correct intermediate step(s) logically linked.",
-            "A1: required result obtained exactly.",
-        ]
-    elif "expand" in p or "binomial" in p:
-        base = [
-            "M1: appropriate binomial structure / term selection used.",
-            "A1: correct coefficient calculation.",
-            "A1: correct simplified expansion/term.",
-        ]
-    elif "differentiat" in p or "derivative" in p:
-        base = [
-            "M1: valid differentiation rule(s) selected.",
-            "A1: correct derivative expression.",
-            "A1: correct evaluated result / stationary condition as required.",
-        ]
-    elif "integrat" in p or "integral" in p:
-        base = [
-            "M1: valid integration setup (limits/substitution/parts if needed).",
-            "A1: correct antiderivative/intermediate integration step.",
-            "A1: correct final exact value / expression.",
-        ]
-    elif "complex" in p or "arg" in p or "modulus" in p:
-        base = [
-            "M1: appropriate complex-number form or property used.",
-            "A1: correct algebraic/trigonometric manipulation.",
-            "A1: correct final value/form.",
-        ]
-    elif "sequence" in p or "series" in p or "sum" in p:
-        base = [
-            "M1: correct sequence/series model identified.",
-            "A1: correct substitution into formula/recurrence.",
-            "A1: correct final term/sum.",
-        ]
-    elif "log" in p or "ln" in p or "exponential" in p:
-        base = [
-            "M1: valid logarithmic/exponential transformation.",
-            "A1: correct simplification/isolation step.",
-            "A1: correct final solution(s), with domain checks where needed.",
-        ]
-    else:
-        base = [
-            "M1: relevant method selected and applied.",
-            "A1: correct intermediate result(s).",
-            "A1: correct final answer in required form.",
-        ]
+        return "solve"
+    if "show that" in p or "prove" in p:
+        return "prove"
+    if "expand" in p or "binomial" in p or "coefficient" in p or "term in" in p:
+        return "binomial"
+    if "differentiat" in p or "derivative" in p:
+        return "differentiate"
+    if "integrat" in p or "integral" in p:
+        return "integrate"
+    if "complex" in p or "arg" in p or "modulus" in p or "conjugate" in p:
+        return "complex"
+    if "sequence" in p or "series" in p or "sum" in p or "u_n" in p or "s_n" in p:
+        return "sequence"
+    if "log" in p or "ln" in p or "exponential" in p:
+        return "logs"
+    if "inverse" in p or "f-1" in p:
+        return "inverse"
+    return "general"
 
-    count = 2 if marks <= 2 else 3
-    return base[:count]
+
+def worked_steps_for_prompt(prompt: str, marks: int) -> List[str]:
+    method = detect_method(prompt)
+
+    templates: Dict[str, List[str]] = {
+        "solve": [
+            "Step 1: Rearrange the equation into a standard solvable form.",
+            "Step 2: Factorise / substitute / apply inverse operations to isolate the variable.",
+            "Step 3: Solve for all candidate values and check any domain restrictions.",
+            "Answer: state the complete solution set clearly.",
+        ],
+        "prove": [
+            "Step 1: Start from the more complex side (or from a known identity).",
+            "Step 2: Apply valid algebraic / trigonometric / logarithmic transformations line-by-line.",
+            "Step 3: Reach exactly the required expression.",
+            "Conclusion: the required result is proven.",
+        ],
+        "binomial": [
+            "Step 1: Write the relevant binomial term using T_(r+1) = nCr * a^(n-r) * b^r.",
+            "Step 2: Substitute the requested power/position condition and solve for r if needed.",
+            "Step 3: Evaluate coefficient and simplify the term.",
+            "Answer: give the required term/coefficient in simplified form.",
+        ],
+        "differentiate": [
+            "Step 1: Identify the correct differentiation rule(s) (chain/product/quotient as needed).",
+            "Step 2: Differentiate each part carefully and simplify.",
+            "Step 3: Substitute values / solve derivative condition if required.",
+            "Answer: present the final derivative/result clearly.",
+        ],
+        "integrate": [
+            "Step 1: Set up the integral correctly (including limits if definite).",
+            "Step 2: Integrate term-by-term or by substitution/parts as appropriate.",
+            "Step 3: Apply limits / simplify constants and expression.",
+            "Answer: give the final exact value/expression.",
+        ],
+        "complex": [
+            "Step 1: Rewrite in a useful complex form (a + bi or r(cosθ + i sinθ)).",
+            "Step 2: Apply the required operation/property (modulus, argument, conjugate, powers).",
+            "Step 3: Simplify to the requested form and verify quadrant/sign where relevant.",
+            "Answer: state the final complex result clearly.",
+        ],
+        "sequence": [
+            "Step 1: Identify whether the sequence is arithmetic/geometric (or another defined recurrence).",
+            "Step 2: Use the relevant formula for nth term or sum.",
+            "Step 3: Substitute given values and solve for the unknown quantity.",
+            "Answer: provide the requested term/sum/index.",
+        ],
+        "logs": [
+            "Step 1: Use log/exponential laws to combine or separate terms appropriately.",
+            "Step 2: Convert to an equivalent linear/exponential equation.",
+            "Step 3: Solve and check domain validity (arguments of logs must be positive).",
+            "Answer: give valid solution(s) only.",
+        ],
+        "inverse": [
+            "Step 1: Let y = f(x), then swap x and y to form the inverse relation.",
+            "Step 2: Rearrange to express y explicitly in terms of x.",
+            "Step 3: State domain/range constraints where required.",
+            "Answer: write f^(-1)(x) and any relevant restriction.",
+        ],
+        "general": [
+            "Step 1: Identify the core method required by the question.",
+            "Step 2: Carry out the method with clear algebraic working.",
+            "Step 3: Simplify to the requested form and verify constraints/units.",
+            "Answer: provide the final result clearly.",
+        ],
+    }
+
+    steps = templates[method]
+    # Keep shorter parts concise.
+    if marks <= 2:
+        return [steps[0], steps[1], steps[-1]]
+    return steps
 
 
 def assign_part_marks(parts: List[Tuple[str, str]], total: int, original: str) -> List[int]:
@@ -122,26 +156,24 @@ def build_markscheme_entry(question: Dict[str, object]) -> Dict[str, object]:
 
     part_entries = []
     for (label, prompt), marks in zip(parts, part_marks):
-        lines = default_lines_for_prompt(prompt, marks)
+        lines = worked_steps_for_prompt(prompt, marks)
         part_entries.append(
             {
                 "part": label,
                 "marks": marks,
                 "prompt_excerpt": prompt[:180],
-                "criteria": lines,
+                "worked_steps": lines,
             }
         )
 
     text_lines = [
-        "General marking notes:",
-        "- Award method marks (M) for valid process even if arithmetic slips occur.",
-        "- Award accuracy marks (A) only when supported by valid working.",
-        "- Follow-through (FT) may be awarded where a prior error is carried correctly.",
+        "IB-style Worked Solution (Draft):",
+        "Use this as a model method. Check arithmetic and OCR-heavy symbols carefully.",
         "",
     ]
     for part in part_entries:
         text_lines.append(f"Part ({part['part']}) [{part['marks']} marks]")
-        for row in part["criteria"]:
+        for row in part["worked_steps"]:
             text_lines.append(f"- {row}")
         text_lines.append("")
 
@@ -154,7 +186,7 @@ def build_markscheme_entry(question: Dict[str, object]) -> Dict[str, object]:
         "question_number": question.get("question_number"),
         "total_marks": total_marks,
         "parts": part_entries,
-        "markscheme_text": "\n".join(text_lines).strip(),
+        "worked_solution_text": "\n".join(text_lines).strip(),
         "draft": True,
     }
 
@@ -167,7 +199,7 @@ def main() -> None:
     out = {
         "course": "IB Mathematics AA HL - Tutoring Questions",
         "generated_at": datetime.now(timezone.utc).isoformat(),
-        "notes": "Auto-generated IB-style draft markschemes. Review and edit before formal use.",
+        "notes": "Auto-generated IB-style worked-solution drafts. Review and edit before formal use.",
         "questions": entries,
     }
     OUT_FILE.write_text(json.dumps(out, indent=2, ensure_ascii=True) + "\n", encoding="utf-8")

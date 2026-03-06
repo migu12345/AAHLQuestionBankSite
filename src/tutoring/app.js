@@ -21,7 +21,7 @@ async function loadData() {
   state.allQuestions = Array.isArray(qData.questions) ? qData.questions : [];
   const markschemes = Array.isArray(msData.questions) ? msData.questions : [];
   state.markschemesById = Object.fromEntries(
-    markschemes.map((entry) => [entry.id, entry.markscheme_text || "No draft markscheme yet."])
+    markschemes.map((entry) => [entry.id, entry.worked_solution_text || "No worked solution yet."])
   );
 }
 
