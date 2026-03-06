@@ -153,6 +153,12 @@ button:hover {
   background: #d6ebe3;
 }
 
+#loadMoreBtn {
+  min-height: 2.7rem;
+  padding: 0.62rem 1.05rem;
+  font-size: 1rem;
+}
+
 #resultCount {
   margin: 0.35rem 0 0.8rem;
   color: var(--muted);
