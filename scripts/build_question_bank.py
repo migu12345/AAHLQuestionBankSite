@@ -99,6 +99,13 @@ def pair_key(filename: str) -> str:
     return base
 
 
+def infer_level_from_filename(filename: str) -> str:
+    low = filename.lower()
+    if "_sl" in low or "__sl" in low:
+        return "SL"
+    return "HL"
+
+
 def session_label_from_code(code: str) -> str:
     year = f"20{code[1:]}"
     return f"May {year}" if code.startswith("M") else f"November {year}"
@@ -673,6 +680,7 @@ def build() -> Dict[str, object]:
                     "session": meta.session,
                     "session_code": meta.session_code,
                     "paper_type": meta.paper_type,
+                    "level": infer_level_from_filename(paper_path.name),
                     "question_number": str(qn),
                     "title": make_title(qn, str(q["question_text"])),
                     "topic": topic,

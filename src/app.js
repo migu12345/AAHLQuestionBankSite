@@ -10,12 +10,24 @@ const paperTypeFilter = document.getElementById("paperTypeFilter");
 const paperFilter = document.getElementById("paperFilter");
 const topicFilter = document.getElementById("topicFilter");
 const subtopicFilter = document.getElementById("subtopicFilter");
+const levelFilter = document.getElementById("levelFilter");
 const searchInput = document.getElementById("searchInput");
 const questionList = document.getElementById("questionList");
 const resultCount = document.getElementById("resultCount");
 const questionTemplate = document.getElementById("questionTemplate");
 const loadMoreWrap = document.getElementById("loadMoreWrap");
 const loadMoreBtn = document.getElementById("loadMoreBtn");
+
+function inferLevel(q) {
+  if (q.level === "SL" || q.level === "HL") {
+    return q.level;
+  }
+  const sourceFile = (q.source && q.source.paper_file ? q.source.paper_file : "").toLowerCase();
+  if (sourceFile.includes("_sl")) {
+    return "SL";
+  }
+  return "HL";
+}
 
 async function loadData() {
   const [questionRes, topicRes] = await Promise.all([
@@ -31,6 +43,14 @@ async function loadData() {
 }
 
 function hydrateFilters() {
+  const levels = [...new Set(state.allQuestions.map((q) => inferLevel(q)).filter(Boolean))].sort();
+  levels.forEach((level) => {
+    const option = document.createElement("option");
+    option.value = level;
+    option.textContent = level;
+    levelFilter.appendChild(option);
+  });
+
   const paperTypes = [...new Set(state.allQuestions.map((q) => q.paper_type).filter(Boolean))].sort();
   paperTypes.forEach((paperType) => {
     const option = document.createElement("option");
@@ -82,6 +102,7 @@ function updateSubtopicOptions() {
 }
 
 function filterQuestions() {
+  const selectedLevel = levelFilter.value;
   const selectedPaperType = paperTypeFilter.value;
   const selectedPaper = paperFilter.value;
   const selectedTopic = topicFilter.value;
@@ -89,6 +110,7 @@ function filterQuestions() {
   const searchTerm = searchInput.value.trim().toLowerCase();
 
   return state.allQuestions.filter((q) => {
+    const levelMatch = !selectedLevel || inferLevel(q) === selectedLevel;
     const paperTypeMatch = !selectedPaperType || q.paper_type === selectedPaperType;
     const paperMatch = !selectedPaper || q.paper === selectedPaper;
     const topicMatch = !selectedTopic || q.topic === selectedTopic;
@@ -96,7 +118,7 @@ function filterQuestions() {
     const text = `${q.title || ""} ${q.question_text || ""} ${q.answer_text || ""}`.toLowerCase();
     const searchMatch = !searchTerm || text.includes(searchTerm);
 
-    return paperTypeMatch && paperMatch && topicMatch && subtopicMatch && searchMatch;
+    return levelMatch && paperTypeMatch && paperMatch && topicMatch && subtopicMatch && searchMatch;
   });
 }
 
@@ -200,6 +222,7 @@ function cleanPreviewText(text) {
 }
 
 function bindEvents() {
+  levelFilter.addEventListener("change", () => renderQuestions(true));
   paperTypeFilter.addEventListener("change", () => renderQuestions(true));
   paperFilter.addEventListener("change", () => renderQuestions(true));
 
