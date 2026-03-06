@@ -663,22 +663,52 @@ def remove_sl_hl_overlaps(records: List[Dict[str, object]]) -> List[Dict[str, ob
     return [r for r in records if str(r.get("id", "")) not in to_remove]
 
 
-def remove_global_sl_exact_question_duplicates(records: List[Dict[str, object]]) -> List[Dict[str, object]]:
+def remove_global_sl_hl_duplicates(records: List[Dict[str, object]]) -> List[Dict[str, object]]:
+    hl_records = [rec for rec in records if str(rec.get("level", "")) == "HL"]
     hl_question_sigs = {
         normalize_for_dedupe(str(rec.get("question_text", "")))
-        for rec in records
-        if str(rec.get("level", "")) == "HL"
+        for rec in hl_records
     }
+
+    hl_by_paper_type: Dict[str, List[Dict[str, object]]] = {}
+    for rec in hl_records:
+        paper_type = str(rec.get("paper_type", ""))
+        hl_by_paper_type.setdefault(paper_type, []).append(rec)
 
     out: List[Dict[str, object]] = []
     for rec in records:
         if str(rec.get("level", "")) != "SL":
             out.append(rec)
             continue
-        sig = normalize_for_dedupe(str(rec.get("question_text", "")))
-        if sig and sig in hl_question_sigs:
+
+        sl_sig = normalize_for_dedupe(str(rec.get("question_text", "")))
+        if sl_sig and sl_sig in hl_question_sigs:
+            continue
+
+        sl_q = normalized_similarity_text(str(rec.get("question_text", "")))
+        if not sl_q:
+            out.append(rec)
+            continue
+
+        sl_marks = int(rec.get("marks", 0) or 0)
+        paper_type = str(rec.get("paper_type", ""))
+        candidates = hl_by_paper_type.get(paper_type, hl_records)
+
+        duplicate = False
+        for hl in candidates:
+            hl_marks = int(hl.get("marks", 0) or 0)
+            # Avoid removing genuinely different questions with same style.
+            if abs(sl_marks - hl_marks) > 1:
+                continue
+            hl_q = normalized_similarity_text(str(hl.get("question_text", "")))
+            if text_similarity(sl_q, hl_q) >= 0.94:
+                duplicate = True
+                break
+
+        if duplicate:
             continue
         out.append(rec)
+
     return out
 
 
@@ -802,7 +832,7 @@ def build() -> Dict[str, object]:
         deduped.append(rec)
 
     deduped = remove_sl_hl_overlaps(deduped)
-    deduped = remove_global_sl_exact_question_duplicates(deduped)
+    deduped = remove_global_sl_hl_duplicates(deduped)
 
     q_image_index = build_image_index("questions")
     ms_image_index = build_image_index("markschemes")
