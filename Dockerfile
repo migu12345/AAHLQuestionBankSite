@@ -7,6 +7,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 COPY src ./src
 COPY data/processed ./data/processed
+COPY data/topic-map.json ./data/topic-map.json
 COPY server.py ./server.py
 
 ENV PORT=8080

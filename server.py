@@ -3,6 +3,7 @@ from flask import Flask, jsonify, send_from_directory
 
 BASE_DIR = Path(__file__).resolve().parent
 SRC_DIR = BASE_DIR / "src"
+DATA_DIR = BASE_DIR / "data"
 PROCESSED_DIR = BASE_DIR / "data" / "processed"
 
 app = Flask(__name__, static_folder=str(SRC_DIR), static_url_path="")
@@ -26,6 +27,10 @@ def src_files(filename: str):
 @app.get("/data/processed/<path:filename>")
 def processed_files(filename: str):
     return send_from_directory(PROCESSED_DIR, filename)
+
+@app.get("/data/<path:filename>")
+def data_files(filename: str):
+    return send_from_directory(DATA_DIR, filename)
 
 
 if __name__ == "__main__":
