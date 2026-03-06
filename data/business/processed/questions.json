@@ -1,7 +1,8 @@
 {
   "course": "IB Business Management",
   "sessions": [
-    "May 2016"
+    "May 2016",
+    "November 2016"
   ],
   "questions": [
     {
@@ -583,6 +584,619 @@
         "images/markschemes/m16_p2_q8_hl_p1.png",
         "images/markschemes/m16_p2_q8_hl_p2.png",
         "images/markschemes/m16_p2_q8_hl_p3.png"
+      ]
+    },
+    {
+      "id": "n16_p1_q1_hl",
+      "paper": "November 2016 Paper 1 HL",
+      "session": "November 2016",
+      "session_code": "n16",
+      "paper_type": "Paper 1",
+      "level": "HL",
+      "question_number": "1",
+      "title": "Q1: (a) With reference to Medimatters, describe two steps in setting up a new business. [4] (b...",
+      "topic": "Marketing",
+      "subtopic": "Marketing mix",
+      "topic_confidence": 0.45,
+      "topic_reason": [
+        "Human resource management:Industrial relations+16",
+        "Marketing:Marketing mix+18",
+        "Operations management:Location and capacity+16"
+      ],
+      "question_text": "(a) With reference to Medimatters, describe two steps in setting up a new business. [4]\n(b) Explain suitable sources of finance in order for Medimatters to finance the additional\nsetup cost of $50 000 (line 92). [6]",
+      "answer_text": "1. (a) With reference to Medimatters, describe two steps in setting up a new business. [4]\n\nPossible steps include:\n\uf0b7 identifying market opportunities: in this instance the medical industry or general\npublic\n\uf0b7 sourcing capital: in this instance the owners plus possible outside sources\n\uf0b7 determining a location: may not be an issue unless they decide to make the\nlenses themselves\n\uf0b7 building a customer base: a challenge in this instance.\n\nOthers steps could include:\n\uf0b7 business idea/model/plan\n\uf0b7 ownership decisions/legal structure\n\uf0b7 name, registration, copyrights/patents\n\uf0b7 product range\n\uf0b7 roles / training.\n\nMark as 2+2.\n\nAccept any other relevant step.\n\nAward [1] for each correct step identified and [1] for a description of how that step\nrelates to Medimatters. Award a maximum of [2] per step.\n\n(b) Explain suitable sources of finance in order for Medimatters to finance the additional\nsetup cost of $50",
+      "marks": 0,
+      "source": {
+        "paper_file": "n16_Business_management_paper_1__HL.pdf",
+        "markscheme_file": "n16_Business_management_paper_1__HL_markscheme.pdf"
+      },
+      "question_image_paths": [
+        "images/questions/n16_p1_q1_hl.png"
+      ],
+      "markscheme_image_paths": [
+        "images/markschemes/n16_p1_q1_hl_p1.png",
+        "images/markschemes/n16_p1_q1_hl_p2.png"
+      ]
+    },
+    {
+      "id": "n16_p1_q2_sl",
+      "paper": "November 2016 Paper 1 SL",
+      "session": "November 2016",
+      "session_code": "n16",
+      "paper_type": "Paper 1",
+      "level": "SL",
+      "question_number": "2",
+      "title": "Q2: (a) With reference to Medimatters, describe two benefits of having a marketing plan. [4] (...",
+      "topic": "Marketing",
+      "subtopic": "Marketing mix",
+      "topic_confidence": 0.514,
+      "topic_reason": [
+        "Marketing:Marketing mix+144",
+        "Business strategy:Change management+70"
+      ],
+      "question_text": "(a) With reference to Medimatters, describe two benefits of having a marketing plan. [4]\n(b) Explain the factors influencing a suitable promotional strategy for the IBAT app. [6]",
+      "answer_text": "2. (a) With reference to Medimatters, describe two benefits of having a marketing plan. [4]\n\nPossible benefits include:\n\uf0b7 it provides a framework for the introduction of the new product to the market.\nIn this instance important because it is a completely new product and Medimatters\nis a new business\n\uf0b7 it helps to develop marketing objectives/targets, again important because of the\nlack of experience of the owners\n\uf0b7 it could help with marketing budgeting, relevant because of limited finance\n\uf0b7 helps marketing decision making\n\uf0b7 keeps stakeholders informed\n\uf0b7 any other relevant benefit.\n\nMark as 2+2.\n\nAward [1] for each benefit identified, and [1] for the\ndevelopment of each of\nthese key aspects in the context of Medimatters. Award up to a maximum of [2] per\nbenefit.\n\n(b) Explain the factors influencing a suitable promotional strategy for the IBAT app. [6]\n\nThis question is about factors.\n\nThe factors influencing a suitable promotion/advertising strategy are likely to be:\n\uf0b7 the newness and originality of the product requires information to be\ncommunicated\n\uf0b7 the product consisting of an app and a lens requires explaining to potential\ncustomers\n\uf0b7 its likely customers which will include both the medical profession and final\nconsumers\n\uf0b7 promotion will depend on the market chosen: the medical professionals may best\nbe contacted via conferences, articles. The general public through paid for\nadvertising. By Medimatters or retailers?\n\uf0b7 the size of the business, it is a small business, how much do they have to spend?\n\uf0b7 its marketing mix \u2013 it has to be consistent with it\n\uf0b7 reference to Brazil/zika virus can be considered as context.\n\nAccept any other relevant factors related to promotion strategy and explanation.\n\nMarks should be allocated according to the markbands on page 3.\n\nFor a theoretical answer award a maximum of [3]\nIf it answers the question \u2018What promotional strategy\u2019 limit to [4] if it does not explain\nthe factors\nIf there is no recognition that there are two possible markets award a maximum of\n[5].\nIf the explanation of factors affecting promotion is mainly descriptive, but in context\naward a maximum of [5].\n\u2013 7 \u2013 N16/3/BUSMT/SP1/ENG/TZ0/XX/M",
+      "marks": 0,
+      "source": {
+        "paper_file": "n16_Business_management_paper_1__SL.pdf",
+        "markscheme_file": "n16_Business_management_paper_1__SL_markscheme.pdf"
+      },
+      "question_image_paths": [
+        "images/questions/n16_p1_q2_sl.png"
+      ],
+      "markscheme_image_paths": [
+        "images/markschemes/n16_p1_q2_sl_p1.png",
+        "images/markschemes/n16_p1_q2_sl_p2.png"
+      ]
+    },
+    {
+      "id": "n16_p1_q3_sl",
+      "paper": "November 2016 Paper 1 SL",
+      "session": "November 2016",
+      "session_code": "n16",
+      "paper_type": "Paper 1",
+      "level": "SL",
+      "question_number": "3",
+      "title": "Q3: (a) With reference to Medimatters, describe two features of batch production. [4] (b) Assu...",
+      "topic": "Marketing",
+      "subtopic": "Marketing mix",
+      "topic_confidence": 0.45,
+      "topic_reason": [
+        "Marketing:Marketing mix+72",
+        "Operations management:Production methods and quality+54",
+        "Operations management:Supply chain and inventory+18"
+      ],
+      "question_text": "(a) With reference to Medimatters, describe two features of batch production. [4]\n(b) Assuming the production of the lenses is outsourced, explain the differences in how\nMedimatters would manage operations for its products/goods (the lens) and its service\n(the app). [6]\nN16/3/BUSMT/SP1/ENG/TZ0/XX\n\u2013 3 \u2013\nAnswer the following question.",
+      "answer_text": "3. (a) With reference to Medimatters, describe two features of batch production. [4]\n\nPossible features could include:\n\uf0b7 separate groups of products can be produced \u2013 useful because different makes\nof phone may need a different lens\n\uf0b7 suitable for likely scale of production about 1000 items: unlikely to be mass\nproduced and job production would not be appropriate\n\uf0b7 might involve changeover costs, but lens costs will be small compared with price\n\uf0b7 involves holding of stocks. Issue for Medimatters? Or manufacturers?\n\nAccept any other relevant feature.\n\nMark as 2+2.\n\nAward [1] for each feature identified, and [1] for the development of each of these\nfeatures in the context of Medimatters, up to a maximum of [2].\n\n(b) Assuming the production of the lenses is outsourced, explain the differences in how\nMedimatters would manage operations for its products/goods (the lens) and its\nservice (the app). [6]\n\nIf the product/good is to be outsourced as a manufacturer has been identified.\nThis needs to be managed by:\n\uf0b7 explanation does setting a specification for the product\n\uf0b7 negotiating a suitable contract that involves both price and quality\n\uf0b7 monitoring quality and managing issues if quality is not right\n\uf0b7 monitoring delivery and sorting out any issues.\nThere will be little control by Medimatters\n\nThe app will be in-house. Operations will include:\n\uf0b7 designing the app, updating app\n\uf0b7 testing the app together with the lens\n\uf0b7 ensuring the app provides the service required, responding to feedback.\nMedimatters will retain full control\n\nAccept any other relevant analysis.\n\nMarks should be allocated according to the markbands on page 3.\n\nFor a theoretical answer award a maximum of [3]. Award a maximum of [3] for only\nexplaining one difference. N.B.: One major difference eg, the extent of control, can\nlead to a number of consequential differences. In these instances marks are not\nlimited to [3].\nIf ONLY outsourcing OR the app are explained award a maximum of [3].\nIf explanation does not effectively bring out the differences award a maximum of [4].\nIf the explanation of more than one difference is mainly descriptive, but in context,\naward a maximum of [5]\n\n\u2013 8 \u2013 N16/3/BUSMT/SP1/ENG/TZ0/XX/M",
+      "marks": 0,
+      "source": {
+        "paper_file": "n16_Business_management_paper_1__SL.pdf",
+        "markscheme_file": "n16_Business_management_paper_1__SL_markscheme.pdf"
+      },
+      "question_image_paths": [
+        "images/questions/n16_p1_q3_sl_p1.png",
+        "images/questions/n16_p1_q3_sl_p2.png"
+      ],
+      "markscheme_image_paths": [
+        "images/markschemes/n16_p1_q3_sl_p1.png",
+        "images/markschemes/n16_p1_q3_sl_p2.png"
+      ]
+    },
+    {
+      "id": "n16_p1_q4_hl",
+      "paper": "November 2016 Paper 1 HL",
+      "session": "November 2016",
+      "session_code": "n16",
+      "paper_type": "Paper 1",
+      "level": "HL",
+      "question_number": "4",
+      "title": "Q4: Six months has passed and Medimatters is now ready to launch IBAT. Medimatters will recrui...",
+      "topic": "Operations management",
+      "subtopic": "Production methods and quality",
+      "topic_confidence": 0.5,
+      "topic_reason": [
+        "Business organization and environment:Business structures and stakeholders+36",
+        "Human resource management:Motivation and leadership+18",
+        "Marketing:Marketing mix+18",
+        "Operations management:Production methods and quality+72"
+      ],
+      "question_text": "Six months has passed and Medimatters is now ready to launch IBAT. Medimatters will\nrecruit new staff to set up a customer services department. Ahmed has spent some time\nthinking about the people he would need to recruit. The staff would need to possess IT skills\nand an understanding of medical issues.\nThe manufacturer Falit found in India has produced the first batch of 1000 IBAT lenses.\nUnfortunately, the IBAT lenses were delivered later than expected and some were faulty.\nAs a result, the group is considering whether to make or buy the IBAT lenses. Ahmed has\nsuggested setting up a manufacturing facility using lean production. His calculations are\nas follows:\n\ufffd Price paid to manufacturer in India per IBAT lens: $50.\n\ufffd Current number of IBAT lenses purchased per month: 1000.\n\ufffd Variable cost of making IBAT lenses: $25 (per lens).\n\ufffd Additional fixed cost of making IBAT lenses per month: $20 000.\nAhmed considered his role as leader.\n\ufffd He has consulted widely on a draft business plan and has discussed and agreed the\nmission and vision statements because he wants to involve everyone.\n\ufffd The group are all very enthusiastic about IBAT, although some are anxious about the risks\ninvolved and have asked for more guidance.\n\ufffd He spends a lot of time keeping everyone informed of project developments in addition to\ncoordinating all of their efforts.\n\ufffd Emma has many ideas about expanding into new markets, however, Didi does not agree\nand has argued with Emma.\n\ufffd He is prepared to make urgent decisions himself. For example, without consultation he\ndecided that Medimatters should become a private limited company.\n(a) Define the term lean production. [2]\n(b) With reference to Medimatters, explain two steps in the process of recruitment to the\ncustomer services department. [4]\n(c) (i) Calculate the cost to make and the cost to buy IBAT lenses (show all your\nworking). [2]\n(ii) Briefly comment on your results in (c) (i). [2]\n(d) \u201c Ahmed considered his role as leader.\u201d Recommend an appropriate leadership style\nfor Ahmed. [10]\nN16/3/BUSMT/HP1/ENG/TZ0/XX\n\u2013 4 \u2013\nSection C\nAnswer the following question.",
+      "answer_text": "4. (a) Define the term lean production. [2]\n\nProducing goods and services efficiently/ minimum wasted resources/improving\nquality.\n\nCandidates are not expected to word their definition exactly as above. All three are\nnot needed. Although it is \u201cdefine\u201d, an example can help.\n\nAward [1] for a basic definition that conveys partial knowledge.\n\nAward [2] for a clear definition that conveys knowledge with some reference to the\nkey issues in the answer above.\n\n(b) With reference to Medimatters, explain two steps in the process of recruitment to\nthe customer services department. [4]\n\nPossible steps include:\n\uf0b7 identify vacancy\n\uf0b7 decide nature of the job (for Medimatters this is for customer services)\n\uf0b7 draw up job description(s) \u2013 can be described without using term\n\uf0b7 draw up a person specification(s) \u2013 can be described without using term\n\uf0b7 decide on method of recruitment including possibly appointing recruitment\nagency\n\uf0b7 advertise the job as appropriate\n\uf0b7 draw up short list\n\uf0b7 conduct interviews\n\uf0b7 select best applicant.\n\nFor Medimatters the recruitment is for customer services possessing IT skills and\nunderstanding of medical issues and this should be referred to in order to gain context\nmarks.\n\nMark as 2+2.\n\nAward [1] for each correct step identified, award [1] for explanation of that step in\ncontext.\n\nNon-contextual answers award a maximum of [2] in total.\n\n\u2013 11 \u2013 N16/3/BUSMT/HP1/ENG/TZ0/XX/M\n\n(c) (i) Calculate the cost to make and the cost to buy IBAT lenses ( show all your\nworking). [2]\n\nCost to make:\n\n(1000 \uf0b4 25) \uf02b 20 000 \uf03d $45 000 alternatively $45 each\n\nCost to buy: 1000 \uf0b4 50 \uf03d $50 000 alternatively $50 each\n\nAward [1] for $45",
+      "marks": 0,
+      "source": {
+        "paper_file": "n16_Business_management_paper_1__HL.pdf",
+        "markscheme_file": "n16_Business_management_paper_1__HL_markscheme.pdf"
+      },
+      "question_image_paths": [
+        "images/questions/n16_p1_q4_hl_p1.png",
+        "images/questions/n16_p1_q4_hl_p2.png"
+      ],
+      "markscheme_image_paths": [
+        "images/markschemes/n16_p1_q4_hl_p1.png",
+        "images/markschemes/n16_p1_q4_hl_p2.png",
+        "images/markschemes/n16_p1_q4_hl_p3.png",
+        "images/markschemes/n16_p1_q4_hl_p4.png"
+      ]
+    },
+    {
+      "id": "n16_p1_q4_sl",
+      "paper": "November 2016 Paper 1 SL",
+      "session": "November 2016",
+      "session_code": "n16",
+      "paper_type": "Paper 1",
+      "level": "SL",
+      "question_number": "4",
+      "title": "Q4: The Indian manufacturer has made a test batch of 100 IBAT lenses and these are being check...",
+      "topic": "Human resource management",
+      "subtopic": "Motivation and leadership",
+      "topic_confidence": 0.5,
+      "topic_reason": [
+        "Business organization and environment:Business structures and stakeholders+90",
+        "Human resource management:Motivation and leadership+180",
+        "Finance and accounts:Budgets and forecasts+32",
+        "Marketing:Market research and demand+80",
+        "Marketing:Marketing mix+18"
+      ],
+      "question_text": "The Indian manufacturer has made a test batch of 100 IBAT lenses and these are being\nchecked by Falit.\nDidi has further investigated costs and Emma has conducted market research to identify\npotential customers. Didi is concerned at how many IBATs Medimatters would need to sell\nfor the venture to be worthwhile. He forecasts the following:\n\ufffd Fixed costs: $9000 per month.\n\ufffd Variable costs: $50 per IBAT.\n\ufffd Sales price: $80 per IBAT.\nAhmed considered his role as leader.\n\ufffd He has consulted widely on a draft business plan and has discussed and agreed the\nmission and vision statements because he wants to involve everyone.\n\ufffd The group are all very enthusiastic about IBAT, although some are anxious about the risks\ninvolved and have asked for more guidance.\n\ufffd He spends a lot of time keeping everyone informed of project developments in addition to\ncoordinating all of their efforts.\n\ufffd Emma has many ideas about expanding into new markets, however, Didi does not agree\nand has argued with Emma.\n\ufffd He is prepared to make urgent decisions himself. For example, without consultation he\ndecided that Medimatters should become a private limited company.\n(a) Define the term vision statement. [2]\n(b) (i) Calculate the forecasted break-even quantity per month for the IBAT (show all\nyour working). [2]\n(ii) Calculate the forecasted monthly profit or loss if Medimatters sells 400 IBATs per\nmonth (show all your working). [2]\n(c) Explain two relevant secondary market research methods (sources) that Emma could\nhave used to identify potential customers. [4]\n(d) \u201c Ahmed considered his role as leader.\u201d Recommend an appropriate leadership style\nfor Ahmed. [10]\nN16/3/BUSMT/SP1/ENG/TZ0/XX",
+      "answer_text": "4. (a) Define the term vision statement. [2]\n\nThe vision statement is a sentence that refers to the ultimate goal of an\norganisation, what it wants to achieve in the future. It is expressed as a long-term\naspiration.\n\nCandidates are not expected to word their definition exactly as above.\n\nAward [1] for a basic definition that conveys partial knowledge and understanding.\n\nAward [2] for a full, clear definition that conveys knowledge and understanding\nsimilar to the answer above.\n\n(b) (i) Calculate the forecasted break-even quantity per month for the IBAT ( show all\nyour working). [2]\n\nfixed costsBreak-even quantity contribution\uf03d\n9000\n(80 50)\uf03d \uf02d\n9000\n30\uf03d\n\uf03d 300 IBATS\n\nAward [1] for the correct answer and [1] for working, award a maximum of [2].\nAward only [1] if wrong units stated (but allow no units).\nDo not award any mark for the formula alone.\n\n(ii) Calculate the forecasted monthly profit or loss if Medimatters sells 400 IBATs\nper month (show all your working). [2]\n\nThis would be 100 IBATs per month more than break even, so profit would be\n100 \uf0b4 $30 \uf03d $3000\n\nOR\n\nProfit or loss \uf03d sales revenue \uf02d (fixed cost \u2013 variable cost)\n\uf03d 32 000 \uf02d 9000 \uf02d 20 000\n\uf03d $3000\n\nAward [1] for the correct answer and [1] for working, award up to a maximum\nof [2].\nAward only [1] if wrong units stated or no units.\n\n\u2013 9 \u2013 N16/3/BUSMT/SP1/ENG/TZ0/XX/M\n\n(c) Explain two relevant secondary market research methods (sources) that Emma\ncould have used to identify potential customers. [4]\n\nPossible methods (sources) of secondary market research include:\n\uf0b7 medical journals\n\uf0b7 lists of pharmacies\n\uf0b7 lists of medical professionals, hospitals etc\n\uf0b7 government publications relating to medical/pharmaceutical issues.\n\nNote: the word \u201cinternet\u201d alone is not a research method.\n\nMark as 2+2.\n\nAward [1] for each method (source) identified and award [1] for a relevant\nexplanation of that advantage.\n\nNon-contextual answers award a maximum of [2] in total.\n\n\u2013 10 \u2013 N16/3/BUSMT/SP1/ENG/TZ0/XX/M\n\n(d) \u201cAhmed considered his role as leader.\u201d Recommend an appropriate leadership style\nfor Ahmed. [10]\n\nEvidence in the additional stimulus material suggests he:\n\uf0b7 is prepared to be autocratic where necessary\n\uf0b7 likes to hear other peoples\u2019 views\n\uf0b7 puts effort into keeping people informed\n\uf0b7 consults widely\n\uf0b7 acted decisively at times.\n\nIn addition:\n\uf0b7 he has experience with project management\n\uf0b7 manages a talented and committed group of people\n\uf0b7 the group have chosen him\n\uf0b7 people within the group seem to have clearly defined roles\n\uf0b7 some of the group need guidance.\n\nIt would seem, therefore, that:\n\uf0b7 autocratic management would not be appropriate except in situations where\nimmediate decisions are required\n\uf0b7 democratic leadership might be appropriate, both in terms of the team he\nmanages and his own personal qualities\n\uf0b7 laissez faire might mean issues do not get resolved such as disagreements,\nsense of direction.\n\nThe best style of leadership is likely to be to adjust to circumstances and people\nie, situational leadership.\n\nThere are three aspects to this choice; the nature of the tasks, the nature of his\ncolleagues, his own personal qualities.\n\nMarks should be allocated according to the markbands on page 4.\n\nPurely theoretical answers or with no effective use of stimulus material in range [3]\nto [4] with better answers award a maximum of [4].\nIf only one leadership style is considered award a maximum of [4].\nTwo or more styles considered with more than one aspect, but limited use of\nevidence award a maximum of [6].\nTwo or more styles considered, good use of evidence, particularly from Section B,\nbut limited contrast award a maximum of [8].\nFor full marks two or more styles contrasted, aspects, evidence, particularly from\nsection B, used effectively.",
+      "marks": 0,
+      "source": {
+        "paper_file": "n16_Business_management_paper_1__SL.pdf",
+        "markscheme_file": "n16_Business_management_paper_1__SL_markscheme.pdf"
+      },
+      "question_image_paths": [
+        "images/questions/n16_p1_q4_sl.png"
+      ],
+      "markscheme_image_paths": [
+        "images/markschemes/n16_p1_q4_sl_p1.png",
+        "images/markschemes/n16_p1_q4_sl_p2.png",
+        "images/markschemes/n16_p1_q4_sl_p3.png"
+      ]
+    },
+    {
+      "id": "n16_p1_q5_hl",
+      "paper": "November 2016 Paper 1 HL",
+      "session": "November 2016",
+      "session_code": "n16",
+      "paper_type": "Paper 1",
+      "level": "HL",
+      "question_number": "5",
+      "title": "Q5: The group are considering two target markets. Option 1: enter the Asian market Emma strong...",
+      "topic": "Business strategy",
+      "subtopic": "Decision trees and contingency planning",
+      "topic_confidence": 0.45,
+      "topic_reason": [
+        "Business organization and environment:Growth and change+14",
+        "Finance and accounts:Investment appraisal+160",
+        "Finance and accounts:Budgets and forecasts+16",
+        "Marketing:Market research and demand+40",
+        "Marketing:Marketing mix+36"
+      ],
+      "question_text": "The group are considering two target markets.\nOption 1: enter the Asian market\nEmma strongly prefers this option. She recently presented IBAT at a medical conference\nin Asia. Great interest was shown and some attendees wanted to purchase samples at\nthe conference. However, sales in Asia are not possible, because IBAT has not yet met\nregulatory quality standards there.\nFalit also prefers this option because significant economies of scale could be gained. He\nalso fears that other businesses will launch a similar product in Asia. The costs of entering\nthe market would be relatively small for Medimatters. A suitable medical equipment\nwholesaler who could market and distribute the product operates in the region.\nAhmed and Didi are concerned. Quality issues with the lens manufacturer in India are\nworrying and should be resolved. They would like market research to be conducted to\nassess the suitability of Asian, as well as European and American, markets.\nOption 2: continue to sell in Brazil\nDidi favours this option. Always cautious, he thinks that current difficulties should be resolved\nbefore further expansion. He forecasts a reasonable first-year profit \u2013 far more than most\nnew businesses. Ahmed likes the fact that he would not have to take on any additional\nworkload or travel across the world: he is already struggling to manage his responsibilities.\nCarlo prefers this option because he wants to avoid the problems of growing too quickly,\nbecause many overambitious new businesses fail.\nIn preparation for the next group meeting, a decision tree showing both options has been\nproduced.\nOption Predicted\noutcome\n1 $40\u2009000\n2 ??\ngreat success 0.1 $600\u2009000\ngreat success 0.3 $60\u2009000\nmoderate success 0.5 $200\u2009000\nmoderate success 0.6 $20\u2009000\nnot successful 0.4 \u2212$50\u2009000\nnot successful 0.1 \u2212$10\u2009000\nOption 1\nOption 2\n$100\u2009000\n$10\u2009000\nProbability Forecast revenue\n(This question continues on the following page)\nN16/3/BUSMT/HP1/ENG/TZ0/XX\n\u2013 5 \u2013\n(Question 5 continued)\nUsing the case study and the additional information on page 4, recommend whether\nMedimatters should implement option 1 or option 2.\nYou will find it useful to calculate the predicted outcome for option 2 in the decision tree on\npage 4. [20]\nN16/3/BUSMT/HP1/ENG/TZ0/XX",
+      "answer_text": "5. Using the case study and the additional information on page 4, recommend whether\nMedimatters should implement option 1 or option 2.\n\nYou will find it useful to calculate the predicted outcome for option 2 in the decision tree\non page 4. [20]\n\nOption 1:\n\uf0b7 interest shown at Asian conference\n\uf0b7 risk spread among several markets\n\uf0b7 possible economies of scale as production increases to provide for much larger market\n\uf0b7 relatively low costs\n\uf0b7 suitable wholesaler could solve many of the problems of moving into a new market.\n\nHowever:\n\uf0b7 regulatory standards differ from country to country\n\uf0b7 quality issues still need to be solved and could be greater for a diverse market\n\uf0b7 no experience of this market, completely different to Brazil\n\uf0b7 problems of international marketing etc.\n\nPredicted outcome from decision tree is $40 000 compared to $19 000 for option 2,\nhowever, much higher risk of failure, much smaller chance of great success. How reliable\nis data in the tree?\n\nOption 2:\n\uf0b7 avoids diseconomies of scale\n\uf0b7 grow modestly is better than too rapid growth \u2013 cause of failure in many new\nbusinesses\n\uf0b7 favoured by Didi and Carlo\n\uf0b7 more predictable in terms of likely returns, lower risk/cost of failure.\n\nHowever:\n\uf0b7 misses opportunities\n\uf0b7 limited market\n\uf0b7 what about other markets?\n\nOther reasoned arguments relevant to the situation accepted.\n\nDecision largely hinges on Medimatters\u2019 attitude to risk. Either decision is rewardable if\neffectively argued.\n\nPLEASE ANNOTATE SCRIPTS WHEN CRITERION A IS HIGHLIGHTED IN THE MARK\nBOX.\n\nMarks should be allocated according to the assessment criteria on pages 5\u20136.\n\nNote \u2013 a recommendation that a decision cannot be made due to lack of information\n(eg market research) can be regarded as a decision provided the arguments are\nsupported.\n\nIf there are simple errors in calculating the predicted outcomes, they should be OFR in\nsubsequent discussion but 4+3 for A and B, e.g. $29k.\n\n\u2013 14 \u2013 N16/3/BUSMT/HP1/ENG/TZ0/XX/M\n\nCriterion A: possible theories, management tools and techniques include: decision\ntrees and predicted outcomes, risk, diversification/market development/ penetration\n(Ansoff), joint ventures, strategic decision making, stakeholders, marketing issues,\neconomies of scale. HRM issues can also apply.\n\nNo understanding of decision trees max [3].\n\nFor [4]: Decision tree plus at least one other tool, technique and theory understood and\ndeveloped well with some relevance to the additional stimulus material.\n\nFor [2]: Some understanding of at least two tools, techniques or theories, but not\ndeveloped.\n\nCriterion B: the tools, techniques, theories and stimulus applied to the decision.\nApplication will be judged by the use of the stimulus material in particular the extra\nmaterial especially the decision tree.\n\nFor [4]: Relevant tools, techniques and theories are applied well to the case study context\nand additional stimulus material, the application is convincing and relevant.\n\nIf only one option considered max [3].\nIf no effective use of decision tree max [3].\n\nFor [2]: Some limited context/application but not developed. Use of tools limits\ncandidate\u2019s ability to make reasoned arguments.\n\nIf a candidate calculates predicted values for the decision tree but then does not use them\nreward only in Criterion A.\n\nCriterion C: Options discussed in balanced way, conclusions drawn as to whether they\nwork.\n\nFor [4]: There needs to be a comparison between the two options using the Section C and\nother material and a recommendation made.\n\nFor [2]: Only one option considered or some limited arguments but not justified. No\ncomparison limited analysis but candidate arrives/draws a reasoned conclusion.\n\nCriterion D: Structure\nThis criterion assesses the extent to which the student organizes his or her ideas with\nclarity, and presents a structured piece of writing comprised of:\n\uf0b7 an introduction\n\uf0b7 logical structure\n\uf0b7 a conclusion\n\uf0b7 fit-for-purpose paragraphs. This means: not too long, focused on distinct issues,\nsequenced well, guides the reader.\n\nFor [4]: All four elements present, clearly organized.\n\nFor [2]: No logical structure but other elements present or logical structure with other\nelements missing.\n\n\u2013 15 \u2013 N16/3/BUSMT/HP1/ENG/TZ0/XX/M\n\nCriterion E: Stakeholders: Individuals: each team member, individual doctors. Groups:\nThe team, other business (wholesalers, manufacturers), customers (doctors, the general\npublic), the Asian conference, government.\n\nFor [4]: Two or more individuals and groups are considered in a balanced way.\n\nFor [2]: One group or individual considered appropriately, or several individuals or groups\nconsidered superficially.",
+      "marks": 0,
+      "source": {
+        "paper_file": "n16_Business_management_paper_1__HL.pdf",
+        "markscheme_file": "n16_Business_management_paper_1__HL_markscheme.pdf"
+      },
+      "question_image_paths": [
+        "images/questions/n16_p1_q5_hl_p1.png",
+        "images/questions/n16_p1_q5_hl_p2.png"
+      ],
+      "markscheme_image_paths": [
+        "images/markschemes/n16_p1_q5_hl_p1.png",
+        "images/markschemes/n16_p1_q5_hl_p2.png",
+        "images/markschemes/n16_p1_q5_hl_p3.png"
+      ]
+    },
+    {
+      "id": "n16_p2_q1_hl",
+      "paper": "November 2016 Paper 2 HL",
+      "session": "November 2016",
+      "session_code": "n16",
+      "paper_type": "Paper 2",
+      "level": "HL",
+      "question_number": "1",
+      "title": "Q1: S4U S4U is a private limited company that provides a storage facility to households and sm...",
+      "topic": "Finance and accounts",
+      "subtopic": "Investment appraisal",
+      "topic_confidence": 0.8,
+      "topic_reason": [
+        "Business organization and environment:Business structures and stakeholders+72",
+        "Finance and accounts:Investment appraisal+360",
+        "Operations management:Supply chain and inventory+18",
+        "Business strategy:Change management+28"
+      ],
+      "question_text": "S4U\nS4U is a private limited company that provides a storage facility to households and small\nbusinesses. S4U is considering constructing an additional new warehouse.\nS4U\u2019s management has forecasted the following annual net cash flows for the new warehouse:\nYear Net cash flows ($)\n0 -150 000\n1 25 000\n2 30 000\n3 35 500\n4 37 000\n5 39 800\n6 41 200\n(a) Describe one feature of a private limited company. [2]\n(b) For the new warehouse:\n(i) using information from the table above, calculate the average rate of return\n(ARR) (show all your working); [2]\n(ii) using information from the table above, calculate the payback period (show all\nyour working); [2]\n(iii) using information from the table below, calculate the net present value (NPV) at a\ndiscount rate of 6 % (show all your working). [2]\nYears Discount rate\n6 %\n1 0.9434\n2 0.8900\n3 0.8396\n4 0.7921\n5 0.7473\n6 0.7050\n7 0.6651\n8 0.6271\n9 0.5919\n10 0.5584\n(c) Explain one disadvantage for S4U of using the NPV method of investment appraisal. [2]\nN16/3/BUSMT/HP2/ENG/TZ0/XX\n\u2013 3 \u2013",
+      "answer_text": "1. (a) Describe one feature of a private limited company. [2]\n\nFeatures of a private limited company may include:\n\uf0b7 The company is incorporated. There is a separate legal entity between the\nshareholders.\n\uf0b7 The shareholders have limited liability. The shareholders can only lose up to\nwhat they invested. Their private assets will not be affected in the event of any\nfinancial problems.\n\uf0b7 The current owners, cannot sell shares publically on the stock exchange in order\nto raise more money.\n\uf0b7 Accept any other relevant feature.\n\nAward [1] for stating an appropriate feature and [1] for an appropriate description\n(application not required), up to a maximum of [2].\n\n(b) For the new warehouse:\n\n(i) using information from the table above, calculate the average rate of return\n(ARR) (show all your working); [2]\n\n(total returns capitalcost) / years of useARR 100 capital cost\n\uf02d\uf03d\uf0b4\nTotal return over 6 years= $208500\n\nTotal returns over 6 years: $58 500\n\nAverage annual profit: 58500 $97506 \uf03d\n9750ARR 100 6.5%150000\uf03d\uf0b4 \uf03d\n\nDo not credit the formula\nAward [1] for working and [1] for the correct answer.\nAward a maximum of [2].\nDo not credit candidates for just presenting the formula as it is given.\nDo not fully credit a figure that is not expressed as a percentage.\n\n(ii) using information from the tabl e above, calculate the payback period (show all\nyour working); [2]\n\nCapital/investment cost: $150 000\n25 000 \uf02b 30 000 \uf02b 35 500 \uf02b 37 000 \uf02b (22 500 / 39 800) \uf0b4 12\nPayback period \uf03d 4 years, 6 months and 24.18 days /4years and 7 months or 4.56\nyears or 4 years and 6.78 months.\nThere is no need to calculate the number of days for full marks.\n\nAward [1] for working and [1] for the correct answer.\nAward a maximum of [2].\n\n\u2013 7 \u2013 N16/3/BUSMT/HP2/ENG/TZ0/XX/M\n\n(iii) using information from the table below, calculate the net present value (NPV) at\na discount rate of 6 % (show all your working). [2]\n\nUsing discount tables:\n\nYear 1 25 000 \uf0b4 0.9434 \uf03d 23 585\nYear 2 30 000 \uf0b4 0.8900 \uf03d 26 700\nYear 3 35 500 \uf0b4 0.8396 \uf03d 29 805.8\nYear 4 37 000 \uf0b4 0.7921 \uf03d 29 307.7\nYear 5 39 800 \uf0b4 0.7473 \uf03d 29 742.54\nYear 6 41 200 \uf0b4 0.7050 \uf03d 29 046\n\nTotal present value \uf03d $168 187.04\nNPV \uf03d TPV \uf02d capital cost\nNPV \uf03d $18 187.04\n\nAccept $18 188 Accept $18 187\n\nGiven that only [2] are available, on this occasion, full headings and full calculation\nfor each year are not expected.\nFull marks can be awarded if there is some evidence of calculation especially\nthe movement from the total DCF to NPV, if the DCF for each year is not\nshown but it is clear that the candidate understands the method.\nN.B. Allow candidate own figure rule (OFR)\nAward [1] for working and [1] for the correct answer.\nAward a maximum of [2].\nDo not credit candidates for just presenting the formula as it is given.\n\n(c) Explain one disadvantage for S4U of using the NPV method of investment appraisal. [2]\n\nA disadvantage for S4U of using the NPV method of investment appraisal is that the\nmethod relies on the use of a realistic discount factor. S4U has chosen 6\n% but\ncould have chosen a higher or lower discount rate depending on the current level of\ninterest rates present in the country in which S4U is located. It might be difficult for\nS4U\u2019s management to decide on the most accurate discount factor for a project that\nlast for at least six years and the interest rate and inflation rate is likely to change.\nThe interest rate is likely to change the longer the project takes, making a selection\nof a single discount rate of 6\n% very difficult. An accurate rate is crucial for S4U as a\nlow discount factor will overestimate the return and a high discount factor will\nunderestimate the return. The net cash flows are forecasted and they may be\ninaccurate.\n\nAccept any other relevant disadvantage and explanation .\n\nDo not credit a response that says that the all figures are forecasted as this\nlimitation is relevant for all. The question is about a limitation for the NPV method.\n\nDo not credit a response that says that the method does not take non- financial\nissue into consideration as this limitation is relevant for all. The question is about a\nlimitation for the NPV method. Award [1] for a relevant and correct disadvantage\nidentified and [1] for a relevant and correct explanation with application to S4U, up\nto a maximum of [2].\n\n\u2013 8 \u2013 N16/3/BUSMT/HP2/ENG/TZ0/XX/M",
+      "marks": 0,
+      "source": {
+        "paper_file": "n16_Business_management_paper_2__HL.pdf",
+        "markscheme_file": "n16_Business_management_paper_2__HL_markscheme.pdf"
+      },
+      "question_image_paths": [
+        "images/questions/n16_p2_q1_hl_p1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/markschemes/n16_p2_q1_hl_p1.png",
+        "images/markschemes/n16_p2_q1_hl_p2.png",
+        "images/markschemes/n16_p2_q1_hl_p3.png"
+      ]
+    },
+    {
+      "id": "n16_p2_q1_sl",
+      "paper": "November 2016 Paper 2 SL",
+      "session": "November 2016",
+      "session_code": "n16",
+      "paper_type": "Paper 2",
+      "level": "SL",
+      "question_number": "1",
+      "title": "Q1: Valley Gardens (VG) Valley Gardens (VG) is a large garden retailer that sells flowers, pla...",
+      "topic": "Business strategy",
+      "subtopic": "Change management",
+      "topic_confidence": 0.45,
+      "topic_reason": [
+        "Finance and accounts:Final accounts and ratio analysis+140",
+        "Marketing:Marketing mix+36",
+        "Business strategy:Change management+168"
+      ],
+      "question_text": "Valley Gardens (VG)\nValley Gardens (VG) is a large garden retailer that sells flowers, plants, trees and other garden\nsupplies. In 2016, in an attempt to gain market share and increase sales, VG introduced a\nloss leader pricing strategy for several varieties of trees. The strategy had an impact on both sales\nand profitability.\nSelected financial information for VG, all figures in $000s:\n2015 2016\nCost of goods sold 2800 V\nExpenses 1200 1300\nGross profit W 1600\nNet profit before interest and tax X Y\nSales revenue 4300 5100\n(a) Define the term loss leader pricing strategy. [2]\n(b) Using information from the table:\n(i) calculate the missing figures V, W, X and Y (no working required); [4]\n(ii) calculate the gross profit margin for 2015 and 2016 (no working required). [2]\n(c) Using the quantitative information in the table and your answers to part (b), comment\non the impact of a loss leader pricing strategy on VG. [2]\nN16/3/BUSMT/SP2/ENG/TZ0/XX\n\u2013 3 \u2013",
+      "answer_text": "1. (a) Define the term loss leader pricing strategy. [2]\n\nA loss leader pricing strategy occurs when a business sells a product or products at\na low price, often at a loss, to attract more customers. The approach can increase\nawareness of the business, lead to sales of other products, and lead to higher\nmarket share.\n\nCandidates are not expected to word their definition exactly as above.\n\nAward [1] for a basic definition that conveys partial knowledge and understanding\nsimilar to the above answer. The first mark would typically come from conveying the\nidea that a loss leader pricing strategy involves very low prices.\n\nAward [2] for a full, clear definition that conveys knowledge and understanding\nsimilar to the answer above. Candidates should receive a second mark if they\nconvey the idea that the intention of the low prices is some other benefit to the\nbusiness (awareness, sales of other items, market share, etc).\n\n(b) Using information from the table:\n\n(i) calculate the missing figures V, W, X and Y (no working required); [4]\n\nV: 3500\nW: 1500\nX: 300\nY: 300\n\nAward [1] for each correct answer V, W, X, and Y up to a maximum of [4].\n\n(ii) calculate the gross profit margin for 2015 and 2016 (no working required). [2]\n\n2015: 34.88 %\n2016: 31.37 %\n\nAccept 34.9 % for 2015 and 31.4 % for 2016.\n\nN.B. allow candidate own figure rule.\n\nAward [1] for each correct answer (no working required) up to a maximum\nof [2].\n\n\u2013 7 \u2013 N16/3/BUSMT/SP2/ENG/TZ0/XX/M\n\n(c) Using the quantitative information in the table and your answers to part (b),\ncomment on the impact of a loss leader pricing strategy on VG. [2]\n\nThe primary two impacts of the loss leader pricing strategy appears to be (1) an\n18.6 % increase in sales revenue, which rose from $4 300 000 in 2015 to\n$5 100 000 in 2016, and (2) a decrease in the gross profit margin, which fell from\n34.88 % in 2015 to 31.37 % in 2016. The net profit before interest and tax remained\nunchanged. If the intention of the loss leader pricing strategy was to increase sales\nrevenue, the strategy appears to have worked: the low prices on certain items led to\nincreased sales revenue. If it were to increase overall profitability, it did not.\n\nN.B. allow candidate own figure rule.\n\nAward [1] if the candidate links the loss leader strategy to a decrease in gross profit\nmargin. Award an additional [1] if the candidate makes some other relevant\ncomment related to pricing, profits, or profitability. Award up to a maximum of [2].\n\n\u2013 8 \u2013 N16/3/BUSMT/SP2/ENG/TZ0/XX/M",
+      "marks": 0,
+      "source": {
+        "paper_file": "n16_Business_management_paper_2__SL.pdf",
+        "markscheme_file": "n16_Business_management_paper_2__SL_markscheme.pdf"
+      },
+      "question_image_paths": [
+        "images/questions/n16_p2_q1_sl_p1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/markschemes/n16_p2_q1_sl_p1.png",
+        "images/markschemes/n16_p2_q1_sl_p2.png",
+        "images/markschemes/n16_p2_q1_sl_p3.png"
+      ]
+    },
+    {
+      "id": "n16_p2_q2_sl",
+      "paper": "November 2016 Paper 2 SL",
+      "session": "November 2016",
+      "session_code": "n16",
+      "paper_type": "Paper 2",
+      "level": "SL",
+      "question_number": "2",
+      "title": "Q2: Caf\u00e9 Lucchini (CL) Fabi Lucchini will open the only caf\u00e9, selling hot and cold drinks only...",
+      "topic": "Finance and accounts",
+      "subtopic": "Budgets and forecasts",
+      "topic_confidence": 0.591,
+      "topic_reason": [
+        "Finance and accounts:Budgets and forecasts+176",
+        "Marketing:Marketing mix+72",
+        "Business strategy:Change management+42"
+      ],
+      "question_text": "Caf\u00e9 Lucchini (CL)\nFabi Lucchini will open the only caf\u00e9, selling hot and cold drinks only, in her small village. The\neconomy is weak so the local government will pay 50 % of the rent for the premises in which CL\nwill operate.\nFabi has forecasted the following figures for the first six months of operation, beginning on\n1 July 2016:\nRent per month $2000\nGovernment payment toward\nrent per month $1000\nSalary per month $1600\nElectricity (payable every\nsecond month\nstarting in August)\n$200\nCleaning supplies per month $100\nSales revenue per month July $4000\nAugust $4000\nSeptember $3500\nOctober $3500\nNovember $4000\nDecember $4500\nPurchases per month 40 % of sales\nAn option is to install cooking facilities and serve meals to increase CL\u2019s sales revenue. Fabi\nestimates that she could sell 40 meals per day at an average variable cost of $5 and at an average\nsales price of $10. Serving meals would increase her fixed costs by $3000 per month.\n(a) Define the term fixed cost. [2]\n(b) Calculate the break-even quantity of meals that CL must sell to pay for the increase in\nfixed costs of $3000 to provide these meals (show all your working). [2]\n(c) Using the information in the table only, prepare a monthly cash flow forecast, for CL,\nfor the first six months of operation. [6]\nN16/3/BUSMT/SP2/ENG/TZ0/XX\n\u2013 4 \u2013\nAnswer one question from this section.",
+      "answer_text": "2. (a) Define the term fixed cost. [2]\n\nA fixed cost is a cost that does not change with the level of production/output.\n\nCandidates are not expected to word their definition exactly as above.\n\nAward [1] for a basic definition that conveys partial knowledge and understanding\nsimilar to the above answer. The first mark would typically come from awareness\nthat the payment does not change.\n\nAward [2] for a full, clear definition that conveys knowledge and understanding\nsimilar to the answer above. Candidates should receive a second mark if they\nconvey the idea that it does not change according to the level of production/output.\nDo not credit an example.\n\n(b) Calculate the break-even quantity of meals that CL must sell to pay for the increase\nin fixed costs of $3000 to provide these meals (show all your working). [2]\n\nJust to pay for the increase in fixed costs of $3000, CL must sell 600 meals per\nmonth, calculated as follows:\n\nAverage sales price per meal \uf02d average variable costs per meal \uf03d contribution\n\n$10 \uf02d $5 \uf03d $5 contribution\n\n3000 600 meals per month/units5 \uf03d\n\nFor full marks all stages of the calculation \u2013 the two stages- are expected.\n\nAn alternative method would be:\n\nTotal revenue (TR) \uf03d total costs (TC), where total revenue \uf03d Price \uf0b4 quantity sold\nand TC \uf03d Total fixed cost \uf02b total variable costs\n\n10 [price] \uf0b4 Q [quantity sold] \uf03d Total fixed cost \uf02b ($5 [variable cost per unit] \uf0b4 Q)\n\n10Q \uf03d 3000 \uf02b 5Q\n\n5Q \uf03d 3000\n\n3000 600 meals per month/units5 \uf03d\n\nAward [1] for correct working and [1] for the correct answer. Award up to a\nmaximum of [2].\nFor a correct response that demonstrates understanding and application of the\nformula, even if no specific headings are presented, award full marks.\n\n\u2013 9 \u2013 N16/3/BUSMT/SP2/ENG/TZ0/XX/M\n\n(c) Using the information in the table only, prepare a monthly cash flow forecast, for\nCL, for the first six months of operation. [6]\n\nAll figures in $\n\nJuly August September October November December\nSales revenue 4000 4000 3500 3500 4000 4500\nGovernment\npayment toward rent\n1000 1000 1000 1000 1000 1000\nTotal receipts 5000 5000 4500 4500 5000 5500\nRent 2000 2000 2000 2000 2000 2000\nPurchases 1600 1600 1400 1400 1600 1800\nSalary 1600 1600 1600 1600 1600 1600\nElectricity 200 200 200\nCleaning supplies 100 100 100 100 100 100\nTotal payments 5300 5500 5100 5300 5300 5700\nNet cash flow <300> <500> <600> <800> <300> <200>\nOpening balance 0 <300> <800> <1400> <2200> <2500>\nClosing balance <300> <800> <1400> <2200> <2500> <2700>\n\nN.B. Allow candidate own figure rule (OFR): if a candidate makes an error in one\nrow and carries it through the remainder of the forecast, that is only one error. This\nprovision includes both mathematical errors and conceptual errors (for example, if\na candidate has the electricity fee monthly rather than every other month, it is one\nerror) and candidates should only lose [1] for that error.\nCandidates who only show net rent payment should be penalised as one error as\nthey have omitted the inflow.\n\n[1] if the candidate has some idea of the structure of a cash flow forecast.\n[2] for a cash flow forecast that has more than 3 mistakes or omissions in layout/\nheading/ calculations (apply OFR).\n[3] for a largely correct cash flow forecast that has three mistakes or omissions in\nlayout/ headings and/or calculation (apply OFR).\n[4] for a largely correct cash flow forecast that has some minor mistakes with layout\nand /or headings and which has one mistake (apply OFR) or the candidate does not\nproduce a mathematically correct cash flow.\n[5] for a largely mathematically correct cash flow forecast that has one omission of\none category or one mistake in calculations or headings.\n[6] for a fully correct cash-flow forecast with a generally accepted format and lines/\nheadings for total inflows/receipts, total outflows/payments (or some other\nacceptable wording), a line/ headings for Net cash flow / inflow, etc and lines/\nheadings for opening and closing balance.\n\n\u2013 10 \u2013 N16/3/BUSMT/SP2/ENG/TZ0/XX/M",
+      "marks": 0,
+      "source": {
+        "paper_file": "n16_Business_management_paper_2__SL.pdf",
+        "markscheme_file": "n16_Business_management_paper_2__SL_markscheme.pdf"
+      },
+      "question_image_paths": [
+        "images/questions/n16_p2_q2_sl_p1.png",
+        "images/questions/n16_p2_q2_sl_p2.png"
+      ],
+      "markscheme_image_paths": [
+        "images/markschemes/n16_p2_q2_sl_p1.png",
+        "images/markschemes/n16_p2_q2_sl_p2.png",
+        "images/markschemes/n16_p2_q2_sl_p3.png"
+      ]
+    },
+    {
+      "id": "n16_p2_q3_hl",
+      "paper": "November 2016 Paper 2 HL",
+      "session": "November 2016",
+      "session_code": "n16",
+      "paper_type": "Paper 2",
+      "level": "HL",
+      "question_number": "3",
+      "title": "Q3: Chan Manufacturing (CM) 20 years ago, Chi Chan set up Chan Manufacturing (CM) to produce e...",
+      "topic": "Human resource management",
+      "subtopic": "Motivation and leadership",
+      "topic_confidence": 0.45,
+      "topic_reason": [
+        "Business organization and environment:Business structures and stakeholders+90",
+        "Business organization and environment:External environment and ethics+16",
+        "Business organization and environment:Growth and change+14",
+        "Human resource management:Organizational structure and culture+18",
+        "Human resource management:Motivation and leadership+162"
+      ],
+      "question_text": "Chan Manufacturing (CM)\n20 years ago, Chi Chan set up Chan Manufacturing (CM) to produce electrical components on a\njust-in-time (JIT) basis for car manufacturers.\nHigh quality and quick delivery have increased CM \u2019s market share and profit. CM \u2019s manual-skilled\nemployees are loyal, productive, motivated and feel secure in their jobs. Employees admire Chi\nas a leader. Labour turnover at CM is low. Chi is paternalistic. He believes in a top-down\napproach to management. He cares for the financial welfare of his employees. Employees are\npaid a basic wage and receive additional financial rewards for working overtime. Proud of CM,\nemployees regularly work harder than expected so that CM always meets client demand, which\nchanges often. Chi and union representatives successfully negotiate pay and work conditions\nthrough collective bargaining.\nMei, Chi\u2019s daughter, joined CM as Chief Operations Manager. She relies on new business theory\nto guide her management decisions. Many current workers are approaching retirement age.\nShe wants to restructure CM and use job enlargement, job enrichment and empowerment.\nIndividual employment contracts are to be determined annually based on individual performance\nappraisal. Some employees do not like the proposal and speed of the change and are becoming\ndemotivated. For the first time, they are considering industrial action (industrial/employee relations\nmethods).\nMei insists that these changes are required, but wants to avoid conflict. She is considering\napproaches to conflict resolution.\n(a) Define the term market share. [2]\n(b) With reference to Mei and Chi, explain two differences between a manager and a leader. [4]\n(c) Applying Maslow\u2019s theory of needs, explain two reasons why the workers at CM are\nbecoming demotivated. [4]\n(d) Examine two industrial/employee relations methods other than strike action that\nworkers could use at CM. [10]\nN16/3/BUSMT/HP2/ENG/TZ0/XX\n\u2013 5 \u2013",
+      "answer_text": "3. (a) Define the term market share. [2]\n\nMarket share is the measurement of one organization\u2019s sales (total revenue) in\nrelation to the total industry sales (total revenue). The market share is presented as\na percentage.\n\nMarket share\norganization s sales revenue 100industry s sales revenue\n\u2019\n\u2019\uf03d\uf0b4\n\nCandidates are not expected to word their definition exactly as above.\n\nAward [1] for a basic definition that conveys partial knowledge and understanding.\nFor example, only the formula is given.\n\nAward [2] for a full, clear definition that conveys knowledge and understanding\nsimilar to the answer above. The candidate must demonstrate understanding that\nthe market share is measured as a percentage or portion.\n\nDo not credit an example.\n\n(b) With reference to Mei and Chi, explain two differences between a manager and a\nleader. [4]\n\nA leader of an organization will probably be the overall strategic and goal setter.\nBased on experience, a leader will determine the vision for a business and if\nrequired, changes which will need to be made if the vision is in danger of not being\nrealized. The leader therefore establishes direction, aligning employees, motivating,\nmentoring, inspiring as well as producing change. A leader inspires employees.\n\nThe main role of a manager is achieving specific organisational goals. A manager\nwill attempt to put the vision of the business into daily practice looking more at short-\nterm goals and day to day tactics. Managers will inevitably be involved with\nplanning and budgeting and monitoring financial and individual performance more\nclosely. Managers may micro-manage works including organizing resources and\nstaffing to ensure that individual job performance is being maintained consistent with\nthe goals of the organization. A manager also creates predictability and order.\n\nFrom the stimulus it appears that Chi normally sets the vision of the business. He\nset up CM; he had the right business idea and has contributed considerably to the\ngrowth and success of CM. It also appears that Chi inspires and motivates many\nemployees to follow a shared vision and indeed they are very loyal. His span of\ncontrol is seemingly quite large. Implicit in the case is that his paternalistic\nleadership style is in contrast to Mei\u2019s more \u2018autocratic\u2019 approach and results-\nfocused approach.\n\nA leader normally emerges while managers are appointed. Mei as the manager has\nthe official skills to manage while Chi has natural leadership ability.\n\nMei was appointed by Chi and seems intent on modernizing the organisation and\ntherefore has the power to make some changes, but has not yet earned the trust of\nemployees. Chi who was the founder of CM naturally emerged as a leader and\ninspired and motivated employees.\n\u2013 11 \u2013 N16/3/BUSMT/HP2/ENG/TZ0/XX/M\n\nLeaders build trust using their charisma. At the moment, Chi is the one who is\ntrusted and admired and followed and has control over the strategic direction while\nMei is responsible for implementing changes although change is inevitable.\n\nManagers follow rules and expectations. Mei is a manager who uses her theoretical\nknowledge to manage and set new objectives. With her use of new business theory\nand desire to restructure the organisation, Mei is probably looking to bring the\norganization up to date to boost efficiency. There is evidence that Mei is\nmicro-managing employees through her desire to introduce job enlargement and\nenrichment schemes \u2013 real sources of tension leading to potential conflict. It is very\nlikely that Mei is monitoring individual performance very closely in contrast to Chi\u2019s\npaternal approach.\n\nAs a manager, Mei is listened to due to her official title not her personality. While\nChi is listened to due to his charisma, personal qualities and paternalistic attitude\ntowards employees.\n\nMei also plans to implement an official performance appraisal system and thinks\nsystematically but it alienates the employees.\n\nAccept any other relevant difference between a manager and a leader and if that\ndifference is supported by the stimulus.\n\nA role / characteristic can be applied to both roles but must be explained from\ndifferent perspectives to be seen as two differences.\n\nMark as 2 + 2.\n\nAward [1] for each relevant difference between a manager and a leader explained\nand [1] for appropriate application to the organization to a maximum of [2].\n\n\u2013 12 \u2013 N16/3/BUSMT/HP2/ENG/TZ0/XX/M\n\n(c) Applying Maslow\u2019s theory of needs, explain two reasons why the workers at CM are\nbecoming demotivated. [4]\n\nIt is expected that the candidates describe the Maslow theory of needs in terms of\nthe hierarchy and the progression from the lower level of needs to the higher ones.\n\nIt is not expected that the response is divided into two explicit parts. The candidates\ncan introduce theory while applying / linking / explaining an argument from the stimulus.\n\nThe application may include the following:\n\nThe proposed annual individual contracts based on annual appraisal may stop the\nemployee from even reaching the lower level of needs like safety / job security. Not\nbeing able to satisfy such a need will definitely create demotivation and stop the\nemployee from reaching higher levels of needs.\n\n(Candidates may apply this issue to the lowest level of needs.)\n\nDue to the proposed changes like the introduction of job enlargement, job\nenrichment and empowerment, employees might not even be able to reach the\nhigher levels of needs, more specifically esteem and possibly self-actualization as\nthey are not used to such practices and challenging tasks as well as a general fear\nof the unknown, hence may be demotivated. They are manual-skilled employees\nwho have never been appraised before.\n\nThe retirement of many of their peers, may negatively affect the motivation level of\nthe remaining employees. They may no longer be able to fulfil love or belonging\nneeds as the social structure and group support may have disappeared.\n\nAccept any other relevant application.\n\nN.B.: do not penalize if the pyramid of needs is not drawn, provided that the theory\nis explained.\n\nMark as 2+2 (Theory and Application)\n\nThe theory\n\nAward [1] for a brief/partial description of Maslow\u2019s theory. Some levels of needs\nmay be missing or only the pyramid may be presented/drawn with no explanation.\n\nAward [2] for a clear explanation of the theory.\n\nThe application to the case\n\nAward [1] for application to the case, which is superficial for both reasons OR only\none reason is clearly explained and applied.\n\nAward [2] for a relevant, clearly explained application of both reasons why workers\nare becoming demotivated.\n\nUp to [2] can be awarded for a good explanation as to why workers are\ndemotivated even if the Maslow theory is not used.\n\u2013 13 \u2013 N16/3/BUSMT/HP2/ENG/TZ0/XX/M\n\n(d) Examine two industrial/employee relations methods other than strike action that\nworkers could use at CM. [10]\n\nIt is expected that the candidate incorporates theoretical knowledge of two\nindustrial/employee relations methods with direct application and judgment that is\nrelevant to CM.\n\nOne of the possible options is to use negotiation through the process of collective\nbargaining. It is the least disruptive form of industrial action both to the employees\nand to the CM. Moreover, the employees are already members of a trade union.\nHence, the infrastructure for negotiation has already been established. Given the\nsuccessful outcome of past collective pay negotiations, it appears that some trust\nhas been established between the management of CM and the employee\nrepresentatives. The manual-skilled employees probably need the support of a\ntrade union representative and for no extra cost to the employees, negotiation can\nbe started.\n\nHowever, Mei is not paternalistic like her father and she may resist the involvement\nof a union representative especially her proposed movement towards individual\ncontracts based on individual performance appraisal. Collective bargaining might be\nof little use given the proposed change. She might prefer individual bargaining. Still\na door for communication can be opened with the use of a representative which also\nreduces the time and resources for CM if individual bargaining is used.\n\nThe negotiation process may be long and time consuming. Mei seems to want the\nchange to happen soon. One may see this option as a very significant / good\noption.\n\nOther options are:\n\nGo slow/slowdowns: the employees at CM will work at the minimum speed\nallowed under their contract.\n\nWork-to-rule: the employees of CM follow their contract / rules and regulations\nwithout giving any goodwill to CM.\n\nOvertime bans: refuse to work overtime when asked to by management.\n\nClearly, all of the above will reduce the current well established goodwill of\nemployees; create a very negative and unproductive atmosphere / working\nrelationship especially between Chi and his employees.\n\nCM may lose the high quality of the product and quick delivery to customers. Both\nseem to be CM\u2019s USP. Flexibility and hard work clearly enable CM to meet\nfluctuating demand. CM may lose its customers if demand is not met on time and\nthe products are not delivered punctually.\n\nClearly, JIT manufacturing will be severely affected given the short time from order\nto delivery expected by the car manufacturers.\n\nOne may judge the consequences of the above on CM as severe given the past\nsuccess and the nature of production.\n\n\u2013 14 \u2013 N16/3/BUSMT/HP2/ENG/TZ0/XX/M\n\nHowever, given the severe negative effects on CM\u2019s productivity and quality, Mei\nmight be willing to speed up negotiations as well as to compromise. The employees\nare likely to be successful as they actually do not break any rules or the law and\nwork according to their contract. Counter action on behalf of CM is unlikely to\nhappen.\n\nMoreover, employees might be negatively affected as well. Currently, they rely on\nand receive additional payments for overtime. Many employees might suffer a\nconsiderable loss of earnings especially when fluctuating demand is very high.\nEmployees might experience financial difficulties given the nature of their\nemployment \u2014 manual skilled.\n\nAlthough the three options above (apart from negotiation) are similar in the nature of\nthe action taken and the effects both on the employees and CM, accept any\nresponse that incorporates two methods, provided the discussion is not identical.\n\nOverall, given the possible and the more significant consequences of the last three\noptions, for both the employees and CM (especially overtime bans among the last\nthree), perhaps it is recommended that CM\u2019s management especially Mei accept the\ncollective negotiation / bargaining option that proved successful in the past, even if\nher strategic direction is towards individualism.\n\nThe negative effects on CM and the employees are minimal. The employees can\nintensify their action if the negotiation fails, but it is worth a try to start with the most\nmoderated action and to see if Mei is willing to compromise once the benefits of the\nproposed changes are explained to the employees.\n\nAccept any other substantiated judgment.\n\nN.B. do not credit strike action.\n\nIt is expected that candidates provide a conclusion with a substantiated judgment.\n\nMarks should be allocated according to the markbands on page 3.\n\nFor one relevant issue that is one-sided, award up to [3]. For more than one\nrelevant issue that is one-sided, award up to a maximum of [4].\n\nIf a candidate evaluates / addresses only one method, award a maximum of [5].\n\nA balanced response is one that provides at least one argument for and one\nargument against each option.\n\nCandidates may contrast one option with another for a balance as long as at least\ntwo arguments are given for each option.\n\nAward a maximum of [6] if the answer is of a standard that shows balanced analysis\nand understanding throughout the response with reference to the stimulus material\nbut there is no judgment/conclusion.\n\nCandidates cannot reach the [7\u20138] markband if they give judgment/conclusions that\nare not based on analysis/explanation already given in their answer.\n\n\u2013 15 \u2013 N16/3/BUSMT/HP2/ENG/TZ0/XX/M",
+      "marks": 0,
+      "source": {
+        "paper_file": "n16_Business_management_paper_2__HL.pdf",
+        "markscheme_file": "n16_Business_management_paper_2__HL_markscheme.pdf"
+      },
+      "question_image_paths": [
+        "images/questions/n16_p2_q3_hl_p1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/markschemes/n16_p2_q3_hl_p1.png",
+        "images/markschemes/n16_p2_q3_hl_p2.png",
+        "images/markschemes/n16_p2_q3_hl_p3.png",
+        "images/markschemes/n16_p2_q3_hl_p4.png",
+        "images/markschemes/n16_p2_q3_hl_p5.png",
+        "images/markschemes/n16_p2_q3_hl_p6.png"
+      ]
+    },
+    {
+      "id": "n16_p2_q3_sl",
+      "paper": "November 2016 Paper 2 SL",
+      "session": "November 2016",
+      "session_code": "n16",
+      "paper_type": "Paper 2",
+      "level": "SL",
+      "question_number": "3",
+      "title": "Q3: Flussbiegung CityRoller (FC) Flussbiegung CityRoller (FC) is a private limited company tha...",
+      "topic": "Marketing",
+      "subtopic": "Marketing mix",
+      "topic_confidence": 0.636,
+      "topic_reason": [
+        "Business organization and environment:Business structures and stakeholders+72",
+        "Marketing:Marketing mix+792",
+        "Operations management:Production methods and quality+288",
+        "Operations management:Location and capacity+32",
+        "Business strategy:Change management+28"
+      ],
+      "question_text": "Flussbiegung CityRoller (FC)\nFlussbiegung CityRoller (FC) is a private limited company that sells\nscooters in a large German city. Its shop is situated in an excellent\nlocation near the city centre. In 2014, FC sold 1200 scooters at a\nsales price of \u20ac2200 per scooter. The business has few variable\ncosts.\nFC only sells one brand of scooter, called Rasen, which consumers\nregard as high quality. Rasen\u2019s competitors are:\nBrand Price (in \u20acs) Consumer opinion\nElectrico 2800 medium quality\nElegante 2300 low quality\nZoom 1900 low quality\nElegante and Zoom have both become popular in the last five years. Despite some problems with\nquality, both are seen as fashionable scooters. Elegante has successfully built a brand identity as\na stylish scooter. Electrico scooters are electric-powered and are popular with people concerned\nabout pollution. Rasen, Elegante and Zoom scooters all use petrol (gas).\nDespite Rasen\u2019s reputation for quality, in the last five years FC\u2019s market share has decreased.\nRasen\u2019s manufacturer has also been losing market share across Germany. The problem,\naccording to FC, is that the manufacturer does not invest enough to update the brand\u2019s image.\nRasen scooters appeal to an older generation in Germany, but younger people prefer products\nthat are fashionable. FC uses below the line promotions. These promotions do not have the same\ninfluence on market perception as the manufacturer\u2019s above the line promotions, which emphasize\nRasen\u2019s quality. Another possibility for Rasen is, rather than update its brand image, to maintain\nits current brand identity but try to sell its product in different geographic markets where its current\nbrand identity may have more appeal, such as in eastern Europe or Africa.\n(a) Describe one feature of a private limited company. [2]\n(b) Construct a position/perception map for all four brands of scooter. [4]\n(c) Explain the relationship between Rasen\u2019s product life cycle and FC\u2019s marketing mix. [4]\n(d) Discuss the importance of branding for FC and for Rasen. [10]\nN16/3/BUSMT/SP2/ENG/TZ0/XX\n\u2013 5 \u2013",
+      "answer_text": "3. (a) Describe one feature of a private limited company. [2]\n\nFeatures of a private limited company may include:\n\uf0b7 the company is incorporated. There is a separate legal entity between the\nshareholders and the company itself.\n\uf0b7 the shareholders have limited liability. Their private assets will not be affected in\nthe event of any financial problems.\n\uf0b7 accept any other relevant feature.\n\nAward [1] for identifying an appropriate feature and [1] for an appropriate\ndescription (application not required), up to a maximum of [2].\n\n(b) Construct a position/perception map for all four brands of scooter. [4]\n\nAward [1] for the overall layout of the map with both axes correctly labelled\n(price: high or low; Quality: high or low).\n\nN.B. It does not matter which one is horizontal / vertical.\n\nCorrect positioning:\nA. Zoom in the quadrant \u201cLow and Low\u201d. The placement should be very low and\nvery low.\nB. Elegante in the quadrant \u201clow and low\u201d. N.B. Elegante is described as \u201clow\nquality\u201d and its price should put it near the x-axis, which needs to be graphically\nor textually indicated. It should not be considered correct if this aspect is not\nclear.\nC. Electrico on the axis of price (thus medium quality), at the very high end of price.\nD. Rasen in the low price, high quality quadrant. Quality should be very high and\nprice fairly close to the x-axis but lower than Elegante.\n\nAward [2] for a correctly labelled position map with two of the brands properly\nplaced.\nAward [3] for a correctly labelled position map with three of the brands properly\nplaced.\nAward [4] for a correctly labelled position map with all four brands properly placed.\n\n\u2013 11 \u2013 N16/3/BUSMT/SP2/ENG/TZ0/XX/M\n\nIf a candidate orients the perception map differently (that is, has price as the x-axis,\nuse the map below and follow the same scoring mark-award scheme:\n\nA \u2013 Zoom\nB \u2013 Elegante\nC \u2013 Electrico\nD \u2013 Rasen\n\nAlso, if a candidate uses \u201cconsumer opinion\u201d rather than quality, accept.\n\n\u2013 12 \u2013 N16/3/BUSMT/SP2/ENG/TZ0/XX/M\n\n(c) Explain the relationship between Rasen\u2019s product life cycle and FC\u2019s marketing mix. [4]\n\nBased upon the evidence from the stimulus, the place of Rasen on the product life\ncycle curve is at the beginning of the decline phase. The perception of Rasen in the\nmarket place no longer matches the needs and wants of consumers, despite the fact\nthat it is an excellent product (high quality product at a middle-low price). This\nsituation puts FC in a difficult position. FC has an excellent location, so changing\nplace will probably not impact on sales. The product is out of FC\u2019s hands in that it\nsells Rasen scooters but has meaningful voice in the changes to the product (like all\ndealers, it can suggest and Rasen probably asks its dealers their opinion). Finally,\nFC probably would not want to change price, as Rasen scooters are very\nreasonably priced as it is. Given the quality of the product, the price appears to be\nexcellent. The main area where FC can try to change the situation is by new forms\nof promotion. However, brand perception is determined largely by above the line\npromotion, which is probably too expensive for a little business like FC. Perhaps FC\ncan try new forms of below the line promotion than the ones it currently uses, or try\nto influence Rasen to alter the product and/or the brand perception. Given that\npeople want scooters that are fashionable and \u201ccool,\u201d perhaps FC can with other\ndealers try to persuade Rasen to modify the design of the product slightly and\nlaunch a new promotion campaign aimed at changing the perception of Rasen.\n\nIf a candidate says that Rasen is in the decline phase rather than the beginning of\nthe decline phase, accept if the explanation reasonably justifies.\n\nAccept any other relevant explanation.\n\nMark as 2 + 2.\n\nAward [1] for some understanding of the product life cycle and [2] if the candidate\nboth demonstrated an understanding and makes the assertion that Rasen appears\nto be at the end of the maturity phase or the beginning of the decline phase.\n\nWith respect to the marketing mix, award [1] for each P of the marketing mix that the\ncandidate addresses up to [2].\n\n\u2013 13 \u2013 N16/3/BUSMT/SP2/ENG/TZ0/XX/M\n\n(d) Discuss the importance of branding for FC and for Rasen. [10]\n\nBranding creates a perception of Rasen in the marketplace. Once brand perception\nexists, it influences consumers, who come to associate certain characteristics with\nthe product. Branding can create customer perception and loyalty, but brand\nperception can also lead consumers to misunderstand a product as well. The power\nof the old branded identity endured. Rasen seems to benefit significantly from the\npower of its branded identity. Even though consumer tastes have changed, FC was\nstill able to sell 1200 scooter sales per annum, which represents 20 scooters per\nweek. The impression from the stimulus is that, though market share is declining, it\nis not doing so too rapidly. Rasen and FC probably have time to make changes.\n\nBranding, or in this case rebranding, would be important to both Rasen and FC but\narguably more important to FC. Rasen has more control over the situation: more\nfinancial resources, more power over product, price, and promotion. Rasen also\nhas control over the markets where the product is sold. Well off young Germans\nmay be more interested in fashionability and coolness than their parents\u2019 and\ngrandparents\u2019 generation, but perhaps Rasen needs to look to new markets \u2013 in\neastern and southern Europe, South America, Africa, or Asia \u2013 where quality and\nreasonable price may be more valued (though Rasen may also have to sell scooters\nat lower prices in these markets). FC, as noted in the response to marketing mix\nabove, has relatively little control over than the marketing mix, unless it were to drop\nRasen altogether and start selling a different brand. Thus, to FC, Rasen\u2019s branded\nidentity is exceptionally important.\n\nAccept any other relevant discussion.\n\nMarks should be allocated according to the markbands on page 3.\n\n\u2013 14 \u2013 N16/3/BUSMT/SP2/ENG/TZ0/XX/M",
+      "marks": 0,
+      "source": {
+        "paper_file": "n16_Business_management_paper_2__SL.pdf",
+        "markscheme_file": "n16_Business_management_paper_2__SL_markscheme.pdf"
+      },
+      "question_image_paths": [
+        "images/questions/n16_p2_q3_sl_p1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/markschemes/n16_p2_q3_sl_p1.png",
+        "images/markschemes/n16_p2_q3_sl_p2.png",
+        "images/markschemes/n16_p2_q3_sl_p3.png",
+        "images/markschemes/n16_p2_q3_sl_p4.png",
+        "images/markschemes/n16_p2_q3_sl_p5.png"
+      ]
+    },
+    {
+      "id": "n16_p2_q4_sl",
+      "paper": "November 2016 Paper 2 SL",
+      "session": "November 2016",
+      "session_code": "n16",
+      "paper_type": "Paper 2",
+      "level": "SL",
+      "question_number": "4",
+      "title": "Q4: Adventures for All (A4A) Tama Toki founded Adventures for All (A4A), which owns four adven...",
+      "topic": "Business organization and environment",
+      "subtopic": "Business structures and stakeholders",
+      "topic_confidence": 0.45,
+      "topic_reason": [
+        "Business organization and environment:Business structures and stakeholders+198",
+        "Business organization and environment:External environment and ethics+48",
+        "Business organization and environment:Growth and change+126",
+        "Human resource management:Motivation and leadership+54",
+        "Human resource management:Industrial relations+32"
+      ],
+      "question_text": "Adventures for All (A4A)\nTama Toki founded Adventures for All (A4A), which owns\nfour adventure parks employing 342 people. The parks offer\nadventure activities such as high wire and mountain biking.\nA4A\u2019s target market is teenagers and adults. A4A\u2019s mission\nstatement is: \u201csafety and affordability at A4A are the most\nimportant reasons for a great time for all\u201d.\nA4A uses predatory pricing. Its competitors are theme\nparks and adventure centres. However, social trends are\nchanging. Many teenagers prefer social networking rather\nthan adventure activities. A4A\u2019s sales revenue and profits are falling.\nTama discussed with senior managers two possible growth strategies:\nOption 1. Through extensive promotion, attract children and adults with disabilities and access\nrequirements to the parks. This approach would require specialized training for\nexisting staff. No modifications to the parks would be required.\nOption 2. Offer corporate team-building activities. A4A would develop specially designed\nprogrammes for senior leadership teams to spend three days in newly built conference\ncentres located at the parks. Corporate teams would engage in adventure activities\ntogether and then discuss strategic options for their organizations.\nOption 2 could be highly profitable. A4A could charge high prices for these programmes.\nHowever, some of Tama\u2019s senior managers argued that A4A should continue to provide\n\u201cadventures for all\u201d and not just to a group of highly paid senior leadership teams.\nThe two options created major disagreements. Two senior managers, working with Tama since the\ncreation of A4A, threatened to resign if Option 2 was implemented. Two other senior managers\nargued that without Option 2 many jobs at A4A were under threat.\n(a) Define the term target market. [2]\n(b) Explain two roles of A4A\u2019s mission statement. [4]\n(c) Explain one advantage and one disadvantage for A4A of using a predatory\npricing strategy. [4]\n(d) Using the Ansoff matrix, evaluate the two possible growth strategies for A4A. [10]\nN16/3/BUSMT/SP2/ENG/TZ0/XX\n\u2013 6 \u2013",
+      "answer_text": "4. (a) Define the term target market. [2]\n\nA target market is defined as a group of consumers with similar needs and\nwants/characteristics that a business decides to focus on in terms of its operations\nand/or marketing. A4A\u2019s target market for its adventure parks has been teenagers\nand adults.\n\nCandidates are not expected to word their definition exactly as above.\n\nAward [1] for a basic definition that conveys partial knowledge and understanding.\n\nAward [2] for a full, clear definition that conveys knowledge and understanding\nsimilar to the answer above.\n\nAward [0] if the candidate writes \u201ctarget market is when an organization targets a\nparticular part of a market\u201d. Or a similar answer where the candidate repeats the\nquestion using the same terminology in the answer. If a candidate just provides\nexamples from the stimulus, award [0]. Do not penalize if a candidate has a\ndefinition and includes the examples from the stimulus (and examples from the\nstimulus can further demonstrate understanding. However, a circular definition\n(writes \u201ctarget market is when an organization targets a particular part of a\nmarket\u201d) with examples from the stimulus is not enough for [1].\n\n(b) Explain two roles of A4A\u2019s mission statement. [4]\n\nA mission statement is a way of communicating to its stakeholders the current\npurpose of a business. It can be used to guide current objectives. For A4A, the\nmission is to provide fun, safe and affordable adventures for families.\n\nFrom the stimulus, the role of this mission statement is that it allows A4A to position\nitself away from its competitors and, given the number of long-serving managers\nwho have been at A4A with Tama since its creation, acts as a strong motivational\nforce for employees to stay.\n\nThe mission statement could also act as an incentive to encourage ethical external\nsources of finance by investors who are motivated by A4A\u2019s objective (or mission) to\nprovide adventures for all.\n\nAccept any other relevant explanation.\n\nIf a candidate makes the claim that the mission statement communicates to\nstakeholders that a core value and/or competency is affordability and then, as a\nsecond point, makes the claim that the mission statement communicates to\nstakeholders that a core value and/or competency is safety, consider this one role of\na mission statement, which, for [2], must have identification, explanation, and\napplication.\n\nMark as a 2+2.\n\nAward [1] for each role identified and an additional [1] for development with\nreference to A4A. Award a maximum of [2] per role.\n\n\u2013 15 \u2013 N16/3/BUSMT/SP2/ENG/TZ0/XX/M\n\n(c) Explain one advantage and one disadvantage for A4A of using a predatory\npricing strategy. [4]\n\nPredatory pricing (also undercutting) is a pricing method where a product or service\nis set at a very low price, intending to drive competitors out of the market, or create\nbarriers to entry for potential new competitors.\n\nPredatory pricing has the advantage for A4A as a competitive tool given that its\ntarget market is families who we assume would be price sensitive given that there\nare other competing forms of adventure activity entertainment. Therefore A4A is\ntrying to get rid of the competitors by using this pricing strategy.\n\n\u201cAffordable\u201d pricing is enshrined in its current mission statement and predatory\npricing thus also deemed to be appropriate and ethical. A reference to competitors\nshould be accepted as application as there is not much more info in the case about\nthe competitors.\n\nHowever for disadvantages:\n\uf0b7 A4A has already started to experience a fall in profit. Predatory pricing can only\nbe used in the short term especially now given A4A\u2019s fall in revenue and profit.\nTherefore this pricing strategy does not fit the changes in the external\nenvironment as stated in the stimulus that caused a fall in profit.\n\uf0b7 predatory pricing has been considered in some countries as illegal or\nanti-competitive (but there is no evidence from the stimulus that this has\noccurred for A4A).\n\uf0b7 more importantly there could be \u201cquality concerns\u201d by some stakeholders that\nmuch lower than competitor prices may imply a poor quality service and safety\nconcerns. This could be significant given that in the stimulus a new service\naimed at special needs children and adults is to be introduced.\n\uf0b7 if costs rise, then A4A could lose its competitive advantage if it is forced to\nchange its pricing method to be more market based.\n\uf0b7 the stimulus suggests that profits and revenues are falling. Predatory pricing\nlimits the possibility of reducing prices further to fuel sales growth.\n\nAccept any other relevant explanation.\n\nMark as a 2+2.\n\nAward [1] for an appropriate advantage/disadvantage identified and an additional [1]\nfor development of the explanation illustrating the appropriateness of predatory\npricing with respect to A4A. Award a maximum of [2].\n\nIf the answer has an advantage and disadvantage of predatory pricing but no\napplication (or just mentions the name of the business) then award a maximum of\n[2] overall.\n\n\u2013 16 \u2013 N16/3/BUSMT/SP2/ENG/TZ0/XX/M\n\n(d) Using the Ansoff matrix, evaluate the two possible growth strategies for A4A. [10]\n\nThe two possible growth strategies are linked to two cells of the Ansoff matrix.\n\nCatering for children and adults with disabilities and access requirements could be\nconsidered as market development as there is a new market to be catered for with\nan existing product (A4A\u2019s current facilities).\n\nThe corporate team building market, which would require A4A creating a new\nproduct to cater for a new target market could be referred to as diversification.\n\n(Please accept other classifications of the Ansoff matrix if the explanation is\njustifiable eg market penetration and/or product development).\n\nThe Ansoff matrix would highlight that the latter diversification option would be the\nriskiest given the lack of familiarity and experience in servicing the corporate senior\nleadership team market.\n\nFor the top markband, candidates must apply the Ansoff matrix to their analysis.\n\nThe first growth strategy is likely to be cheaper and quicker for A4A to organize.\nThey will probably have experience of this market already and it is assumed that\ncompared to the corporate team building market, only minor modifications of\nequipment may be necessary. There will be possibly additional health and safety\nconcerns given that the market development strategy is focusing on children and\nadults with disabilities and access requirements. The mission of A4A need not be\nviolated and predatory pricing can remain a competitive tool.\n\nHowever, staff training across all four centres will be an important consideration in\nboth options but especially in this market development given that safety is part of\nA4A\u2019s mission. Tama will need to ensure that he has clear guidelines in place to run\nthis service for children and adults with disabilities and access requirements.\nHowever, this market development idea will also need additional market research to\nsee exactly how big this new market could be. Profit growth may be small and there\nare issues of sustainability for the whole of A4A\u2019s workforce if this market\ndevelopment strategy is not successful as highlighted by two of the senior\nmanagers.\n\nThe second growth strategy is riskier, although it is assumed that Tama will conduct\nthorough market research of an untested market for A4A. The expected profitability\nof the second option will protect all 342 jobs across the 4 centres and therefore\nassumes greater significance than the market development option. Set up costs are\nlikely to be higher given that A4A is moving into a higher valued/priced niche market,\nbut higher prices and thus revenues should compensate. This new pricing method\nthough may confuse some potential customers given A4A\u2019s mission and knowledge\nof A4A\u2019s predatory pricing strategy.\n\nIt is not clear whether the second option violates A4A\u2019s mission statement, although\nsome senior managers think so. Already resentment is growing and Tama can ill\nafford conflict at a difficult financial time especially as long serving managers with\nexperience are the ones who seem to be the most concerned. Tama\u2019s loyalty to his\nsenior staff will be tested and he may have to make some managerial changes if this\nresentment grows if the diversification option is selected.\n\n\u2013 17 \u2013 N16/3/BUSMT/SP2/ENG/TZ0/XX/M\n\nOn balance, the second growth strategy is recommended. If A4A maintains three\nadventure parks as suitable for families with an option to service children and adults\nwith disabilities and access requirements because of the financial success of the\nteam building option in the fourth centre, then A4A could conceivably implement\nboth options gradually and adopt a wait and see approach. This would have the\nbenefit of protecting all jobs at A4A and reassuring the dissenting voices that A4A is\nstill being true to its mission in offering adventures for all. However, the transitional\ncosts will be considerable and there will be some managerial conflict to address.\n\nAccept any other relevant evaluation.\n\nMaximum\naward Option 1 Option 2 Judgments/conclusion\n3 Unbalanced N/A N/A\n4 Unbalanced Unbalanced N/A\n5 One balanced and one unbalanced N/A\n6 Both balanced No judgments/conclusions\n7\u20138 Balanced\nJudgments/conclusions based\nupon analysis and explanation in\nthe body of the response\n9\u201310 Balanced\nJudgments/conclusions based\nupon analysis and explanation in\nthe body of the response\n\nMarks should be allocated according to the markbands on page 3.\n\nFor one relevant issue that is one-sided, award up to [3]. For more than one\nrelevant issue that is one-sided, award up to a maximum of [4].\n\nAward a maximum of [6] if the answer is of a standard that shows balanced\nanalysis and understanding throughout the response with reference to the\nstimulus material but there is no judgment/conclusion.\n\nCandidates cannot reach the [7\u20138] markband if they give judgment/conclusions\nthat are not based on analysis/explanation already given in their answer.\n\nIf a candidate makes no use of the Ansoff matrix, award a maximum of [4].\n\n\u2013 18 \u2013 N16/3/BUSMT/SP2/ENG/TZ0/XX/M",
+      "marks": 0,
+      "source": {
+        "paper_file": "n16_Business_management_paper_2__SL.pdf",
+        "markscheme_file": "n16_Business_management_paper_2__SL_markscheme.pdf"
+      },
+      "question_image_paths": [
+        "images/questions/n16_p2_q4_sl_p1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/markschemes/n16_p2_q4_sl_p1.png",
+        "images/markschemes/n16_p2_q4_sl_p2.png",
+        "images/markschemes/n16_p2_q4_sl_p3.png",
+        "images/markschemes/n16_p2_q4_sl_p4.png",
+        "images/markschemes/n16_p2_q4_sl_p5.png"
+      ]
+    },
+    {
+      "id": "n16_p2_q5_hl",
+      "paper": "November 2016 Paper 2 HL",
+      "session": "November 2016",
+      "session_code": "n16",
+      "paper_type": "Paper 2",
+      "level": "HL",
+      "question_number": "5",
+      "title": "Q5: Thorns Hill (TH) Thorns Hill (TH) is a hotel. Its mission statement is \u201cto provide the hig...",
+      "topic": "Human resource management",
+      "subtopic": "Industrial relations",
+      "topic_confidence": 0.45,
+      "topic_reason": [
+        "Business organization and environment:Business structures and stakeholders+72",
+        "Human resource management:Industrial relations+80",
+        "Marketing:Market research and demand+20",
+        "Marketing:Marketing mix+18",
+        "Operations management:Production methods and quality+54"
+      ],
+      "question_text": "Thorns Hill (TH)\nThorns Hill (TH) is a hotel. Its mission statement is \u201cto provide the highest standard of customer\nservice and to be the best employer\u201d. TH has three profit centres, each with its own manager:\n\uf09f sleeping accommodation\n\uf09f restaurant\n\uf09f function room for weddings, conferences and other events.\nThe function room offers entertainment facilities and purchases catering from the hotel restaurant.\nThe function room employees are mostly students working in their spare time. They have flexible\ncontracts that do not guarantee hours of work nor provide benefits such as paid sick leave or\nholidays.\nThe use of flexible contracts has reduced the function room\u2019s annual wage cost by 40 % over\nthe last five years. The de-layering of supervisory posts (positions) has further reduced the cost\nof wages. With these cost savings, the profits of the function room have increased significantly.\nRecently, issues with punctuality, absenteeism and labour turnover increased.\n30 % of the restaurant\u2019s sales revenue comes from catering for the function room. The restaurant\nrecently won an award and, in the summer season, is always full of diners. In summer the\nrestaurant has difficulty meeting the catering demands of the function room. Meals ordered often\narrive late from the restaurant.\nCompetition in the market for function rooms is high. The owners are considering a proposal to\nimprove the reputation of the function room by outsourcing all the services of the function room\nto a private contractor. The private contractor will charge TH more than the direct cost of the\nfunction room.\n(a) Define the term de-layering. [2]\n(b) Explain two advantages for TH of having three separate profit centres. [4]\n(c) Explain one benefit and one negative consequence for TH of an increase in\nlabour turnover. [4]\n(d) Discuss the proposal to outsource all function room services to a private contractor. [10]\nN16/3/BUSMT/HP2/ENG/TZ0/XX\n\u2013 7 \u2013\nSection C\nAnswer one question from this section. The organizations featured in sections A and B and in the\npaper 1 case study may not be used as a basis to your answer.",
+      "answer_text": "5. (a) Define the term de-layering. [2]\n\nDelayering is the action of removing a level in a business hierarchy in order to\nreduce the size of a business hierarchy, especially in terms of a reduction in\nmanagement. This creates a flatter (less layered) organizational structure.\n\nCandidates are not expected to word their definition exactly as above\n\nAward [1] for a basic definition that conveys partial knowledge and understanding.\n\nAward [2] for a full, clear definition that conveys knowledge and understanding\nsimilar to the answer above. Candidates need to refer to the action/decision of\u2026\nnot necessarily mentioning the word action but \u201cremoving\u201d, or \u201cmoving\u201d.\n\nDo not credit an example.\n\n(b) Explain two advantages for TH of having three separate profit centres. [4]\n\nA profit centre is run as a separate business centre within a business which\ngenerates revenue and costs that can be attributed to the activities of the centre\nhence profit can be calculated. For example, in this case, the function room buys\nmeals from the hotel restaurant. The capacity of the function room may be limited in\nterms of revenue hence the management can concentrate on costs reduction to\nincrease profit. It gives the function room the flexibility to make a decision and\noutsource their costs somewhere else which in turn, is likely to encourage the\nrestaurant to stay more competitive.\n\nThe real advantage is that senior management, the centre managers and\nemployees know which segments/centres/ activity/ parts of TH are profitable and\nwhich are not. In addition, the directors are able to evaluate which centre\ncontributes most to the business\u2019s profits and this helps to inform decision-making.\n\nBy using profit centres it makes the managers of each profit centre more responsible\nand accountable for the costs they incur and the sales they make \u2013 their positions in\nthe business may be dependent on making a profit. Changes in the profits made by\neach centre may be used to judge the efficiency of each part of the hotel. Also, the\nefficiency of all parts of the hotel can be monitored and compared. Creative\ncompetition may increase efficiency and act as a driver to generate more revenue\nwhich may act as a motivator.\n\nSenior management could easily realize that a decision in the past to delay and offer\nflexible contracts clearly reduced costs and improved profitability of the function\nrooms. Hence, financially an effective decision. Moreover, the impact of the recent\nproblems of demotivation are likely to become more evident in the near future when\nprofitability is likely to decrease.\n\nTH\u2019s mission is to be the best employer and offer the highest quality of customer service. By\nutilizing profit centres, incentives could be created for managers striving to offer the highest\nlevels of customer service.\n\nDo not accept \u201cspreading the risk\u201d, as the risk is spread by having a larger portfolio\nnot by operating as profit centre.\n\nAccept any other relevant advantage and explanation.\n\u2013 20 \u2013 N16/3/BUSMT/HP2/ENG/TZ0/XX/M\n\nMark as 2+2.\n\nAward [1] for each correct advantage identified and [1] for a relevant explanation\nwith application to TH. Award up to a maximum of [2] per advantage explained.\n[2] cannot be awarded per advantage/disadvantage if the response lacks either\nexplanation and / or application.\nFor example:\nFor an identification/description of an advantage/disadvantage with or without\napplication [1].\nFor explanation of an advantage/disadvantage with no application [1].\nFor explanation of an advantage/disadvantage and application [2].\n\n\u2013 21 \u2013 N16/3/BUSMT/HP2/ENG/TZ0/XX/M\n\n(c) Explain one benefit and one negative consequence for TH of an increase in labour\nturnover. [4]\n\nPositive benefits include:\n\uf0b7 Some level of labour turnover is im portant to bring new ideas, skills and\nenthusiasm to the workforce especially when competition is increasing for the\nfunction rooms.\n\uf0b7 Wages are kept low due to new staff starting on the lowest rates. It is expected\nthat companies which employ a high number of students will have a high staff\nturnover as students are likely to move away when they graduate. Hence, high\nstaff turnover in the service industry that relies on students can be seen as\ninevitable.\n\nAccept any other relevant benefit.\n\nNegative consequences include:\n\uf0b7 High staff turnover might have a demotivating effect on remaining staff in addition\nto absenteeism and poor punctuality.\n\uf0b7 Extra costs:\n\uf0b7 There will be an increase in recruitment costs as vacant posts will need to be\nadvertised and staff interviewed.\n\uf0b7 There will be an increase in training costs as new staff will need induction training\nand may need additional training for their posts in the function room.\n\uf0b7 There will be an increase in recruitment costs as vacant posts will need to be advertised\nand staff interviewed.\n\nAll of the extra costs mentioned above will reduce the effects of other cost-cutting\nmeasures, such as delayering and the use of flexible contracts.\n\n\uf0b7 There is likely to be an impact on the qualit y of customer service at least in the\nshort term whilst new staff are trained and get used to the function room\u2019s\nsystems. In addition to the late delivery of the meals this may result in more\ncustomer complaints and a poor image. Due to the increase in competition, TH,\nand especially the function room, cannot afford an increase in complaints.\n\uf0b7 High staff turnover suggests a possible problem with and resentment towards the\nnew flexible contract.\n\nAccept any other relevant consequence.\n\nMark as 2+2.\n\nAward [1] for a correct benefit / negative consequence identified and [1] for a\nrelevant explanation with application to TH. Award up to a maximum of [2] per\nbenefit / negative consequence explained.\n[2] cannot be awarded per benefit /negative consequence if the response lacks\neither explanation and / or application.\nFor example:\nFor an identification/description of a benefit /negative consequence with or\nwithout application [1].\nFor explanation of a benefit /negative consequence with no application [1].\nFor explanation of benefit /negative consequence and application [2].\n\n\u2013 22 \u2013 N16/3/BUSMT/HP2/ENG/TZ0/XX/M\n\n(d) Discuss the proposal to outsource all function room services to a private contractor. [10]\n\nOutsourcing is when a business ceases to run a functional area of its business and\ninstead contracts this out to a third party. This third party provides the staff to run\nthese functional areas of the business. They are responsible for recruitment,\ntraining and disciplinary matters.\n\nOne assumes that TH management will conduct thorough market research in order\nto find the most suitable outsourcer /subcontractor with a good reputation. The\nquality of the service can be significantly improved which will outweigh the increase\nin the direct cost due to the relatively high price that the outsourcer/subcontractor\ncharges. TH is in critical need to improve efficiency and quality.\n\nThe function room has been suffering from absenteeism and punctuality problems\nand this is likely to have reduced the standards of customer care at weddings and\nconferences. The outsourcer/subcontractor company will ensure it has sufficient\nstaff to provide the correct levels of customer care and the contract between the\nhotel and the outsourcer would outline the staffing levels that are needed.\n\nTH will no longer need to recruit; train or discipline function room workers and this\nwill cut its indirect costs.\n\nThe problems with food being delivered late from the hotel restaurant may be solved\nas the outsourcer is likely to use its own food supplier.\n\nHowever the outsourcer /subcontractor will charge more than the direct costs. Still a\nslight increase in costs might be worthwhile if it results in improved customer care.\n\nThe outsourcer\u2019s/subcontractor\u2019s employees might not share the hotel\u2019s mission\nstatement? Will customer care improve? Will the outsourced/subcontracted staff\nembrace the hotel\u2019s philosophy?\n\nThe hotel will have to draw up a contract with the outsourcer/subcontractor and it is\nlikely that service standards will be written into this \u2013 if the outsourcer/subcontractor\nfails to meet the standards then the hotel will be able to terminate the contract at\nshort notice. However this would result in even further upheaval for the business\nwith consequences for customer care.\n\nFurthermore, there will be another impact on restaurant sales \u2013 currently 30 % of\nrestaurant sales are to the function room \u2013 the outsourcer/subcontractor may use its\nown supplier of meals and if so restaurant sales and profits will fall. Also, if the\noutsourcer/subcontractor does not provide a good service, it may negatively impact\non the two other profit centres.\n\nThe reduced problems with absenteeism and punctuality should improve customer\ncare, but the doubt remains as to whether these staff will feel part of the business\nand be committed to the hotel\u2019s mission statement. It may lead to an improvement\nin basic customer care but not to the level that the hotel\u2019s mission statement aspires.\n\nHowever, there is no guarantee that the current managers will either get jobs with\nthe outsourcer or will want to work for them. This may lead to a period of transition\nand their knowledge of how the business runs will be lost. The owners might\nconsider that other solutions might be more effective and less risky, such as\n\u2013 23 \u2013 N16/3/BUSMT/HP2/ENG/TZ0/XX/M\n\noperating a rewards system that improves attendance and punctuality amongst the\nlower paid staff.\n\nIn conclusion, outsourcing should lead to fewer problems with absenteeism and\npunctuality as the outsourcer/subcontractor should have sufficient staff to deploy on\nany given day. It will relieve the hotel of the need to recruit and train staff and this\nwill cut the hotel\u2019s costs. However outsourcing is more expensive than providing the\nfunction room \u201cin-house\u201d \u2013 whether it is cheaper depends on how much is saved in\nrecruitment and training of function room staff.\n\nAccept any other relevant discussion.\n\nIt is expected that candidates provide a conclusion with a substantiated judgment.\n\nMarks should be allocated according to the markbands on page 3.\n\nFor one relevant issue that is one-sided, award up to [3]. For more than one\nrelevant issue that is one-sided, award up to a maximum of [4].\n\nIf a candidate evaluates / addresses only one issue, award a maximum of [5].\n\nA balanced response is one that provides at least two arguments for and two\narguments against the option.\n\nCandidates may contrast one option with another for a balance as long as at least\ntwo arguments are given for each option.\n\nAward a maximum of [6] if the answer is of a standard that shows balanced analysis\nand understanding throughout the response with reference to the\nstimulus material but there is no judgment/conclusion.\n\nCandidates cannot reach the [7\u20138] markband if they give judgment/conclusions that\nare not based on analysis/explanation already given in their answer.\n\n\u2013 24 \u2013 N16/3/BUSMT/HP2/ENG/TZ0/XX/M\n\nSection C\n\nQuestions 6 to 8. Please mark the candidate response using the assessment criteria on pages\n4 to 5.",
+      "marks": 0,
+      "source": {
+        "paper_file": "n16_Business_management_paper_2__HL.pdf",
+        "markscheme_file": "n16_Business_management_paper_2__HL_markscheme.pdf"
+      },
+      "question_image_paths": [
+        "images/questions/n16_p2_q5_hl_p1.png",
+        "images/questions/n16_p2_q5_hl_p2.png"
+      ],
+      "markscheme_image_paths": [
+        "images/markschemes/n16_p2_q5_hl_p1.png",
+        "images/markschemes/n16_p2_q5_hl_p2.png",
+        "images/markschemes/n16_p2_q5_hl_p3.png",
+        "images/markschemes/n16_p2_q5_hl_p4.png",
+        "images/markschemes/n16_p2_q5_hl_p5.png",
+        "images/markschemes/n16_p2_q5_hl_p6.png"
+      ]
+    },
+    {
+      "id": "n16_p2_q5_sl",
+      "paper": "November 2016 Paper 2 SL",
+      "session": "November 2016",
+      "session_code": "n16",
+      "paper_type": "Paper 2",
+      "level": "SL",
+      "question_number": "5",
+      "title": "Q5: Thorns Hill (TH) Thorns Hill (TH) is a hotel. Its mission statement is \u201cto provide the hig...",
+      "topic": "Operations management",
+      "subtopic": "Supply chain and inventory",
+      "topic_confidence": 0.45,
+      "topic_reason": [
+        "Business organization and environment:Business structures and stakeholders+90",
+        "Human resource management:Motivation and leadership+90",
+        "Human resource management:Industrial relations+80",
+        "Operations management:Supply chain and inventory+108"
+      ],
+      "question_text": "Thorns Hill (TH)\nThorns Hill (TH) is a hotel. Its mission statement is \u201cto provide the highest standard of customer\nservice and to be the best employer\u201d. TH is divided into three sections, each with a manager:\n\uf09f sleeping accommodation\n\uf09f restaurant\n\uf09f function room for weddings, conferences and other events.\nThe function room offers entertainment facilities and purchases catering from the hotel restaurant.\nThe function room employees are mostly students working in their spare time. They have flexible\ncontracts that do not guarantee hours of work nor provide benefits such as paid sick leave or\nholidays.\nThe use of flexible contracts has reduced the function room\u2019s annual wage cost by 40 % over\nthe last five years. The de-layering of supervisory posts (positions) has further reduced the cost\nof wages. With these cost savings, the profits of the function room have increased significantly.\nRecently, issues with punctuality, absenteeism and labour turnover have increased.\n30 % of the restaurant\u2019s sales revenue comes from catering for the function room. The restaurant\nrecently won an award and, in the summer season, is always full of diners. In summer the\nrestaurant has difficulty meeting the catering demands of the function room. Meals ordered often\narrive late from the restaurant.\nCompetition in the market for function rooms is high. The owners are considering a proposal to\nimprove the reputation of the function room by outsourcing all the services of the function room to a\nprivate contractor. The private contractor will charge TH more than the direct cost of the\nfunction room.\n(a) Define the term de-layering. [2]\n(b) Using Herzberg motivation theory, explain one reason for the recent issues at TH with\npunctuality and absenteeism. [2]\n(c) Explain two benefits and one negative consequence for TH of an increase in\nlabour turnover. [6]\n(d) Discuss the proposal to outsource all function room services to a private contractor. [10]\nN16/3/BUSMT/SP2/ENG/TZ0/XX\n\u2013 7 \u2013\nSection C\nAnswer one question from this section. The organizations featured in sections A and B and in the\npaper 1 case study may not be used as a basis to your answer.",
+      "answer_text": "5. (a) Define the term de-layering. [2]\n\nTo reduce the size of a business hierarchy, especially in terms of a reduction in\nmanagement. This creates a flatter (less layered) organizational structure.\n\nCandidates are not expected to word their definition exactly as above\n\nAward [1] for a basic definition that conveys partial knowledge and understanding.\n\nAward [2] for a full, clear definition that conveys knowledge and understanding\nsimilar to the answer above.\n\n(b) Using Herzberg motivation theory, explain one reason for the recent issues at TH\nwith punctuality and absenteeism. [2]\n\nThe use of flexible contracts which do not provide benefits such as paid sick leave\nor holidays is according to Herzberg, hygiene factors which causes dissatisfaction\namong the function room workers. The function room workers express this\ndissatisfaction through poor punctuality and absenteeism.\n\nAccept any other relevant explanation.\n\nAward [1] for the correct use of the term hygiene factors and award an additional [1]\nfor explaining that the lack of benefits are factors that have caused dissatisfaction.\nAward a maximum of [2].\n\n(c) Explain two benefits and one negative consequence for TH of an increase in\nlabour turnover. [6]\n\nPositive benefits include:\n\uf0b7 Some level of labour turnover is im portant to bring new ideas, skills and\nenthusiasm to the workforce.\n\uf0b7 Wages are kept low due to new staff starting on the lowest rates.\n\uf0b7 Can be a way in which a business can slowly reduce its workforce without having\nto resort to redundancies.\n\uf0b7 Accept any other relevant benefit.\n\nNegative consequences include:\n\uf0b7 There will be an increase in recruitment costs as vacant posts will need to be\nadvertised and staff interviewed.\n\uf0b7 There will be an increase in training costs as new staff will need induction training\nand may need additional training for their posts in the function room.\n\uf0b7 There is likely to be an impact on the qualit y of customer service at least in the\nshort run whilst new staff are trained and get used to the function room\u2019s\nsystems. This may result in customer complaints and a poor image.\n\uf0b7 Accept any other relevant consequence.\n\nAccept any other relevant explanation.\n\nMark as 2+2+2.\n\nAward [1] for a correct benefit / negative consequence identified and [1] for a\nrelevant explanation with application to TH. Award up to a maximum of [4] for two\nbenefits and [2] per negative consequence explained.\n\n\u2013 19 \u2013 N16/3/BUSMT/SP2/ENG/TZ0/XX/M\n\n(d) Discuss the proposal to outsource all function room services to a private contractor. [10]\n\nOutsourcing is when a business ceases to run a functional area of its business and\ninstead contracts this out to a third party. This third party provides the staff to run\nthese functional areas of the business. They are responsible for recruitment,\ntraining and disciplinary matters.\n\nThere may be short-term cost increases as there may be redundancies amongst the\nstaff currently employed in the function room. However, the hotel may be able to\nnegotiate with the outsourcer to offer employment to some of the current staff.\n\nThe hotel will no longer need to recruit; train or discipline function room workers and\nthis will cut its indirect costs.\n\nOverall this may or may not save the hotel money. Whilst some indirect costs will\nfall, the outsourcing is more expensive than providing the function room \u201cin-house\u201d.\n\nHowever a slight increase in costs might be worthwhile if it results to improved\ncustomer care.\n\nThe problems with food being delivered late from the hotel restaurant may be solved\nas the outsourcer may use its own food supplier.\n\nHowever the impact on customer care is less clear. The function room has been\nsuffering from absenteeism and punctuality problems and this is likely to have\nreduced the standards of customer care at wedding and conferences. This should\nbe less of a problem as the outsourcing company will ensure it has sufficient staff to\nprovide the correct levels of customer care and the contract between the hotel and\nthe outsourcer would lay down staffing level needed.\n\nOn the other hand, these employees will owe no loyalty to the hotel as they are not\nemployed by them. They may therefore not be as well motivated as the success of\nthe hotel means less to them. Will they share the hotel\u2019s mission statement? Will\ncustomer care improve? Punctuality and absenteeism should become less of a\nproblem, but it is debateable as to whether or not the outsourced staff will embrace\nthe hotel\u2019s philosophy.\n\nThe hotel needs an outsourcer that shares or is willing to embrace the hotel\u2019s\nmission statement. If it does not then the standard of customer care the hotel wants\nmay not be achieved.\n\nThe hotel will have drawn up a contract with the outsourcer and it is likely that\nservice standards will be written into this \u2013 if the outsourcer fails to meet the\nstandards then the hotel will be able to terminate the contract at short notice.\nHowever this would result in even further upheaval for the business with\nconsequences for customer care.\n\nThere will be another impact on restaurant sales \u2013 currently 30 % of restaurant sales\nare to the function room \u2013 the outsourcer may use its own supplier of meals and if\nso restaurant sales and profits will fall.\n\n\u2013 20 \u2013 N16/3/BUSMT/SP2/ENG/TZ0/XX/M\n\nIn conclusion, outsourcing should lead to fewer problems with absenteeism and\npunctuality as the outsourcer should have sufficient staff to deploy on any given day.\nIt will relieve the hotel of the need to recruit and train staff and this will cut the hotel\u2019s\ncosts. However outsourcing is more expensive than providing the function room\n\u201cin-house\u201d \u2013 whether it is cheaper depends on how much is saved in recruitment\nand training of function room staff.\n\nThe reduced problems with absenteeism and punctuality should improve customer\ncare, but the doubt remains as to whether these staff will feel part of the business\nand be committed to the hotel\u2019s mission statement. It may lead to an improvement\nin basic customer care but not to the level that the hotel\u2019s mission statement aspires.\n\nHowever, there is no guarantee that the current managers will either get jobs with\nthe outsourcer or will want to work for them. This may lead to a period of transition\nand their knowledge of how the business runs will be lost. The owners might\nconsider that other solutions might be more effective and less risky, such as\noperating a rewards system that improves attendance and punctuality amongst the\nlower paid staff.\n\nAccept any other relevant discussion.\n\nMarks should be allocated according to the markbands on page 3.\n\nFor one relevant issue that is one-sided, award up to [3]. For more than one\nrelevant issue that is one-sided, award up to a maximum of [4].\n\nAward a maximum of [4] for an answer that deals with either customer care or the\nbusiness\u2019 costs as such an answer lacks balance.\n\nAward a maximum of [6] if the answer is of a standard that shows balanced\nanalysis and understanding throughout the response with reference to the\nstimulus material but there is no judgment/conclusion.\n\nCandidates cannot reach the [7\u20138] markband if they give judgment/conclusions\nthat are not based on analysis/explanation already given in their answer.\n\n\u2013 21 \u2013 N16/3/BUSMT/SP2/ENG/TZ0/XX/M\n\nSection C\n\nQuestions 6 to 8. Please mark the candidate response using the assessment criteria on pages\n4 to 5.",
+      "marks": 0,
+      "source": {
+        "paper_file": "n16_Business_management_paper_2__SL.pdf",
+        "markscheme_file": "n16_Business_management_paper_2__SL_markscheme.pdf"
+      },
+      "question_image_paths": [
+        "images/questions/n16_p2_q5_sl_p1.png",
+        "images/questions/n16_p2_q5_sl_p2.png"
+      ],
+      "markscheme_image_paths": [
+        "images/markschemes/n16_p2_q5_sl_p1.png",
+        "images/markschemes/n16_p2_q5_sl_p2.png",
+        "images/markschemes/n16_p2_q5_sl_p3.png",
+        "images/markschemes/n16_p2_q5_sl_p4.png"
+      ]
+    },
+    {
+      "id": "n16_p2_q6_hl",
+      "paper": "November 2016 Paper 2 HL",
+      "session": "November 2016",
+      "session_code": "n16",
+      "paper_type": "Paper 2",
+      "level": "HL",
+      "question_number": "6",
+      "title": "Q6: With reference to an organization of your choice, discuss the ways in which culture can in...",
+      "topic": "Human resource management",
+      "subtopic": "Organizational structure and culture",
+      "topic_confidence": 0.45,
+      "topic_reason": [
+        "Human resource management:Organizational structure and culture+36",
+        "Marketing:International marketing+32",
+        "Business strategy:Change management+28"
+      ],
+      "question_text": "With reference to an organization of your choice, discuss the ways in which culture can\ninfluence international marketing strategy. [20]",
+      "answer_text": "6. With reference to an organization of your choice, discuss the ways in which culture can\ninfluence international marketing strategy. [20]",
+      "marks": 0,
+      "source": {
+        "paper_file": "n16_Business_management_paper_2__HL.pdf",
+        "markscheme_file": "n16_Business_management_paper_2__HL_markscheme.pdf"
+      },
+      "question_image_paths": [
+        "images/questions/n16_p2_q6_hl.png"
+      ],
+      "markscheme_image_paths": [
+        "images/markschemes/n16_p2_q6_hl.png"
+      ]
+    },
+    {
+      "id": "n16_p2_q6_sl",
+      "paper": "November 2016 Paper 2 SL",
+      "session": "November 2016",
+      "session_code": "n16",
+      "paper_type": "Paper 2",
+      "level": "SL",
+      "question_number": "6",
+      "title": "Q6: With reference to an organization of your choice, discuss the ways in which culture can in...",
+      "topic": "Human resource management",
+      "subtopic": "Organizational structure and culture",
+      "topic_confidence": 0.45,
+      "topic_reason": [
+        "Human resource management:Organizational structure and culture+36",
+        "Marketing:International marketing+16",
+        "Business strategy:Change management+28"
+      ],
+      "question_text": "With reference to an organization of your choice, discuss the ways in which culture can\ninfluence business strategy. [20]",
+      "answer_text": "6. With reference to an organization of your choice, discuss the ways in which culture can\ninfluence international marketing strategy. [20]",
+      "marks": 0,
+      "source": {
+        "paper_file": "n16_Business_management_paper_2__SL.pdf",
+        "markscheme_file": "n16_Business_management_paper_2__SL_markscheme.pdf"
+      },
+      "question_image_paths": [
+        "images/questions/n16_p2_q6_sl.png"
+      ],
+      "markscheme_image_paths": [
+        "images/markschemes/n16_p2_q6_sl.png"
+      ]
+    },
+    {
+      "id": "n16_p2_q7_hl",
+      "paper": "November 2016 Paper 2 HL",
+      "session": "November 2016",
+      "session_code": "n16",
+      "paper_type": "Paper 2",
+      "level": "HL",
+      "question_number": "7",
+      "title": "Q7: With reference to an organization of your choice, examine the impact of globalization on b...",
+      "topic": "Business organization and environment",
+      "subtopic": "External environment and ethics",
+      "topic_confidence": 0.98,
+      "topic_reason": [
+        "Business organization and environment:External environment and ethics+48"
+      ],
+      "question_text": "With reference to an organization of your choice, examine the impact of globalization on\nbusiness ethics. [20]",
+      "answer_text": "7. With reference to an organization of your choice, examine the impact of globalization on\nbusiness ethics. [20]\n\nN.B. Although the question asks for the application of one concept on another, it is still\nexpected that Business Management content will be aligned with the concepts especially\nethics. For example, what types of business ethics? What strategies were changed or\nnot due to globalization which impacted on business ethics.\n\nPlease note that candidates can conclude that there was a minimal impact, however it has\nto be based on balanced arguments and evaluation.",
+      "marks": 0,
+      "source": {
+        "paper_file": "n16_Business_management_paper_2__HL.pdf",
+        "markscheme_file": "n16_Business_management_paper_2__HL_markscheme.pdf"
+      },
+      "question_image_paths": [
+        "images/questions/n16_p2_q7_hl.png"
+      ],
+      "markscheme_image_paths": [
+        "images/markschemes/n16_p2_q7_hl.png"
+      ]
+    },
+    {
+      "id": "n16_p2_q8_sl",
+      "paper": "November 2016 Paper 2 SL",
+      "session": "November 2016",
+      "session_code": "n16",
+      "paper_type": "Paper 2",
+      "level": "SL",
+      "question_number": "8",
+      "title": "Q8: With reference to an organization of your choice, discuss the ways in which innovation can...",
+      "topic": "Business organization and environment",
+      "subtopic": "Business structures and stakeholders",
+      "topic_confidence": 0.45,
+      "topic_reason": [
+        "Business organization and environment:Business structures and stakeholders+36",
+        "Business strategy:Change management+28"
+      ],
+      "question_text": "With reference to an organization of your choice, discuss the ways in which innovation can\ninfluence organizational change. [20]\nN16/3/BUSMT/SP2/ENG/TZ0/XX",
+      "answer_text": "8. With reference to an organization of your choice, discuss the ways in which innovation can\ninfluence organizational change. [20]\n\nAdditional guidance in relation to the assessment criteria\nFor each criterion, the aim is to find the descriptor that conveys most accurately the level\nattained by the candidate, using the best-fit model. It is not necessary for every single\naspect of a level descriptor to be met for that mark to be awarded.\n\uf0b7 The highest level descriptors do not imply faultless performance and should be\nachievable by a candidate.\n\uf0b7 A candidate who attains a high level of achievement for one criterion will not\nnecessarily reach high levels of achievement for the other criteria and vice versa.\n\nIf only one concept is addressed:\nCriteria A, B, C and E: award up to a maximum [3].\nCriterion D: full marks can be awarded.\n\nWhere the question ask for impacts of two concepts on content, examiners must allow\nfor unbalanced treatment of the two concepts throughout a candidate\u2019s response. One\nconcept may be more significant than the other.\n\nCriterion B\nFor [2]: \u201c\u2026connection is not developed\u201d should be treated the same as superficial.\n\nCriterion C\n1+1 arguments are expected per concepts.\n\uf0b7 Questions 6 to 8 require consideration of the impact of one concept on a second\nconcept \u2013 therefore accept 2+2 arguments for a balanced response.\n\uf0b7 Justification is through logic or data.\n\uf0b7 For [2] there is no balance as there are no counter arguments at all, or the arguments\nare all one-sided then this would be unjustified.\n\uf0b7 For [3] there are some balanced arguments \u2013 some of which are justified.\n\nCriterion D\n\u2013 22 \u2013 N16/3/BUSMT/SP2/ENG/TZ0/XX/M\n\n\uf0b7 Introductions need to be concise and related to the question.\n\uf0b7 The candidate\u2019s response does not to have explicit headings for each structural\nelement.\n\uf0b7 A body is the area in which the substance of arguments occur. It is usually located\nbetween the introduction and the conclusion.\n\uf0b7 Fit-for-purpose paragraph means that ideas are presented in a clear academic way.\nFor example, one idea per paragraph.\n\nCriterion E\n\uf0b7 One example of an \u201cindividual\u201d could be an individual consumer or an individual\nmanager. However this cannot be considered with a \u201cgroup\u201d of consumers or a\nmanagement team.\n\uf0b7 For [4], a balanced response: look at the perspectives of both individual and group(s).\nThe chosen individual, group needs to be applicable and relevant to the question with\nspecific explanation.\n\uf0b7 Candidates need to go beyond stating the stakeholder.\nCandidates need not explicitly say \u201cstakeholder\u201d.",
+      "marks": 0,
+      "source": {
+        "paper_file": "n16_Business_management_paper_2__SL.pdf",
+        "markscheme_file": "n16_Business_management_paper_2__SL_markscheme.pdf"
+      },
+      "question_image_paths": [
+        "images/questions/n16_p2_q8_sl.png"
+      ],
+      "markscheme_image_paths": [
+        "images/markschemes/n16_p2_q8_sl_p1.png",
+        "images/markschemes/n16_p2_q8_sl_p2.png"
       ]
     }
   ]
