@@ -243,6 +243,11 @@ def classify_topic(question_text: str, answer_text: str) -> Tuple[str, str]:
 
     weighted_rules: List[Tuple[re.Pattern[str], Tuple[str, str], int]] = [
         (
+            re.compile(r"\b(interquartile range|quartile|quartiles|box and whisker|box-and-whisker|outlier|median)\b"),
+            ("Statistics and Probability", "Probability distributions"),
+            10,
+        ),
+        (
             re.compile(r"\b(vector|vectors|parametric|cartesian equation|direction vector)\b"),
             ("Geometry and Trigonometry", "Vectors in 2D and 3D"),
             7,
