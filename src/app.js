@@ -1,7 +1,10 @@
 const state = {
   allQuestions: [],
   topics: [],
+  filteredQuestions: [],
+  visibleCount: 0,
 };
+const PAGE_SIZE = 10;
 
 const paperTypeFilter = document.getElementById("paperTypeFilter");
 const paperFilter = document.getElementById("paperFilter");
@@ -11,6 +14,8 @@ const searchInput = document.getElementById("searchInput");
 const questionList = document.getElementById("questionList");
 const resultCount = document.getElementById("resultCount");
 const questionTemplate = document.getElementById("questionTemplate");
+const loadMoreWrap = document.getElementById("loadMoreWrap");
+const loadMoreBtn = document.getElementById("loadMoreBtn");
 
 async function loadData() {
   const [questionRes, topicRes] = await Promise.all([
@@ -95,70 +100,94 @@ function filterQuestions() {
   });
 }
 
-function renderQuestions() {
-  const questions = filterQuestions();
-  questionList.innerHTML = "";
-  resultCount.textContent = `${questions.length} question(s)`;
+function buildQuestionNode(q) {
+  const node = questionTemplate.content.cloneNode(true);
+  const questionImagesEl = node.querySelector(".question-images");
+  const markschemeImagesEl = node.querySelector(".markscheme-images");
+  const questionTextEl = node.querySelector(".question");
+  const answerTextEl = node.querySelector(".answer");
+  const titleEl = node.querySelector(".title");
 
-  if (questions.length === 0) {
-    questionList.innerHTML = "<p>No matches yet.</p>";
+  const marks = Number.isFinite(q.marks) ? `${q.marks} marks` : "marks n/a";
+  node.querySelector(".meta").textContent = `${q.paper || "Unknown paper"} | ${q.topic || "Unsorted"} | ${q.subtopic || "Unsorted"} | ${marks}`;
+
+  const qImages = Array.isArray(q.question_image_paths) ? q.question_image_paths : [];
+  const msImages = Array.isArray(q.markscheme_image_paths) ? q.markscheme_image_paths : [];
+  const hasAnyImage = qImages.length > 0 || msImages.length > 0;
+  const questionNumber = `${q.question_number || ""}`.trim();
+  const fallbackTitle = questionNumber ? `Q${questionNumber}` : "Question";
+
+  if (hasAnyImage) {
+    titleEl.textContent = fallbackTitle;
+  } else {
+    titleEl.textContent = cleanPreviewText(q.title || "") || fallbackTitle;
+  }
+
+  if (qImages.length > 0) {
+    qImages.forEach((imgPath, index) => {
+      const img = document.createElement("img");
+      img.src = `../data/processed/${imgPath}`;
+      img.alt = `Question ${q.question_number || ""} image ${index + 1}`;
+      img.loading = "lazy";
+      questionImagesEl.appendChild(img);
+    });
+    questionTextEl.hidden = true;
+  } else {
+    questionTextEl.textContent = q.question_text || "";
+    questionTextEl.hidden = false;
+  }
+
+  if (msImages.length > 0) {
+    msImages.forEach((imgPath, index) => {
+      const img = document.createElement("img");
+      img.src = `../data/processed/${imgPath}`;
+      img.alt = `Markscheme ${q.question_number || ""} image ${index + 1}`;
+      img.loading = "lazy";
+      markschemeImagesEl.appendChild(img);
+    });
+    answerTextEl.hidden = true;
+  } else {
+    answerTextEl.textContent = q.answer_text || "No answer extracted yet.";
+    answerTextEl.hidden = false;
+  }
+
+  return node;
+}
+
+function updateResultSummary() {
+  const total = state.filteredQuestions.length;
+  const shown = Math.min(state.visibleCount, total);
+  resultCount.textContent = total === 0 ? "0 question(s)" : `Showing ${shown} of ${total} question(s)`;
+  const hasMore = shown < total;
+  loadMoreWrap.style.display = hasMore ? "block" : "none";
+}
+
+function renderQuestions(reset = true) {
+  if (reset) {
+    state.filteredQuestions = filterQuestions();
+    state.visibleCount = Math.min(PAGE_SIZE, state.filteredQuestions.length);
+    questionList.innerHTML = "";
+
+    if (state.filteredQuestions.length === 0) {
+      resultCount.textContent = "0 question(s)";
+      questionList.innerHTML = "<p>No matches yet.</p>";
+      loadMoreWrap.style.display = "none";
+      return;
+    }
+    state.filteredQuestions.slice(0, state.visibleCount).forEach((q) => {
+      questionList.appendChild(buildQuestionNode(q));
+    });
+    updateResultSummary();
     return;
   }
 
-  questions.forEach((q) => {
-    const node = questionTemplate.content.cloneNode(true);
-    const questionImagesEl = node.querySelector(".question-images");
-    const markschemeImagesEl = node.querySelector(".markscheme-images");
-    const questionTextEl = node.querySelector(".question");
-    const answerTextEl = node.querySelector(".answer");
-    const titleEl = node.querySelector(".title");
-
-    const marks = Number.isFinite(q.marks) ? `${q.marks} marks` : "marks n/a";
-    node.querySelector(".meta").textContent = `${q.paper || "Unknown paper"} | ${q.topic || "Unsorted"} | ${q.subtopic || "Unsorted"} | ${marks}`;
-
-    const qImages = Array.isArray(q.question_image_paths) ? q.question_image_paths : [];
-    const msImages = Array.isArray(q.markscheme_image_paths) ? q.markscheme_image_paths : [];
-    const hasAnyImage = qImages.length > 0 || msImages.length > 0;
-    const questionNumber = `${q.question_number || ""}`.trim();
-    const fallbackTitle = questionNumber ? `Q${questionNumber}` : "Question";
-
-    if (hasAnyImage) {
-      // OCR previews are often noisy; keep screenshot cards clean and consistent.
-      titleEl.textContent = fallbackTitle;
-    } else {
-      titleEl.textContent = cleanPreviewText(q.title || "") || fallbackTitle;
-    }
-
-    if (qImages.length > 0) {
-      qImages.forEach((imgPath, index) => {
-        const img = document.createElement("img");
-        img.src = `../data/processed/${imgPath}`;
-        img.alt = `Question ${q.question_number || ""} image ${index + 1}`;
-        img.loading = "lazy";
-        questionImagesEl.appendChild(img);
-      });
-      questionTextEl.hidden = true;
-    } else {
-      questionTextEl.textContent = q.question_text || "";
-      questionTextEl.hidden = false;
-    }
-
-    if (msImages.length > 0) {
-      msImages.forEach((imgPath, index) => {
-        const img = document.createElement("img");
-        img.src = `../data/processed/${imgPath}`;
-        img.alt = `Markscheme ${q.question_number || ""} image ${index + 1}`;
-        img.loading = "lazy";
-        markschemeImagesEl.appendChild(img);
-      });
-      answerTextEl.hidden = true;
-    } else {
-      answerTextEl.textContent = q.answer_text || "No answer extracted yet.";
-      answerTextEl.hidden = false;
-    }
-
-    questionList.appendChild(node);
+  const currentShown = Math.min(state.visibleCount, state.filteredQuestions.length);
+  const newShown = Math.min(currentShown + PAGE_SIZE, state.filteredQuestions.length);
+  state.filteredQuestions.slice(currentShown, newShown).forEach((q) => {
+    questionList.appendChild(buildQuestionNode(q));
   });
+  state.visibleCount = newShown;
+  updateResultSummary();
 }
 
 function cleanPreviewText(text) {
@@ -171,16 +200,17 @@ function cleanPreviewText(text) {
 }
 
 function bindEvents() {
-  paperTypeFilter.addEventListener("change", renderQuestions);
-  paperFilter.addEventListener("change", renderQuestions);
+  paperTypeFilter.addEventListener("change", () => renderQuestions(true));
+  paperFilter.addEventListener("change", () => renderQuestions(true));
 
   topicFilter.addEventListener("change", () => {
     updateSubtopicOptions();
-    renderQuestions();
+    renderQuestions(true);
   });
 
-  subtopicFilter.addEventListener("change", renderQuestions);
-  searchInput.addEventListener("input", renderQuestions);
+  subtopicFilter.addEventListener("change", () => renderQuestions(true));
+  searchInput.addEventListener("input", () => renderQuestions(true));
+  loadMoreBtn.addEventListener("click", () => renderQuestions(false));
 }
 
 async function start() {
@@ -188,7 +218,7 @@ async function start() {
     await loadData();
     hydrateFilters();
     bindEvents();
-    renderQuestions();
+    renderQuestions(true);
   } catch (error) {
     questionList.innerHTML = `<p>Failed to load data: ${error.message}</p>`;
   }
