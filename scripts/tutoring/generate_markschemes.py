@@ -25,7 +25,8 @@ def find_total_marks(text: str) -> int:
 
 
 def extract_parts(text: str) -> List[Tuple[str, str]]:
-    matches = list(re.finditer(r"\(([a-z])\)", text))
+    # Only treat standalone part labels like "(a) ...", not function notation f(x).
+    matches = list(re.finditer(r"(?:(?<=^)|(?<=\n)|(?<=\s))\(([a-e])\)(?=\s)", text))
     if not matches:
         body = re.sub(r"\s+", " ", text).strip()
         return [("a", body)]
@@ -66,67 +67,68 @@ def detect_method(prompt: str) -> str:
 
 def worked_steps_for_prompt(prompt: str, marks: int) -> List[str]:
     method = detect_method(prompt)
+    expr = re.sub(r"\s+", " ", prompt).strip()[:120]
 
     templates: Dict[str, List[str]] = {
         "solve": [
-            "Step 1: Rearrange the equation into a standard solvable form.",
-            "Step 2: Factorise / substitute / apply inverse operations to isolate the variable.",
-            "Step 3: Solve for all candidate values and check any domain restrictions.",
-            "Answer: state the complete solution set clearly.",
+            f"Step 1: Start from the given equation ({expr}) and rearrange into a standard form.",
+            "Step 2: Use substitution/factorisation/inverse operations to isolate the unknown.",
+            "Step 3: Solve all candidates and reject invalid roots using stated restrictions.",
+            "Final answer: state the valid solution set only.",
         ],
         "prove": [
-            "Step 1: Start from the more complex side (or from a known identity).",
-            "Step 2: Apply valid algebraic / trigonometric / logarithmic transformations line-by-line.",
-            "Step 3: Reach exactly the required expression.",
-            "Conclusion: the required result is proven.",
+            f"Step 1: Begin from the required statement context: {expr}.",
+            "Step 2: Apply valid identities and simplify each line clearly.",
+            "Step 3: Arrive exactly at the target expression with no missing steps.",
+            "Conclusion: required result shown.",
         ],
         "binomial": [
-            "Step 1: Write the relevant binomial term using T_(r+1) = nCr * a^(n-r) * b^r.",
-            "Step 2: Substitute the requested power/position condition and solve for r if needed.",
-            "Step 3: Evaluate coefficient and simplify the term.",
-            "Answer: give the required term/coefficient in simplified form.",
+            f"Step 1: Use binomial theorem on the given expression: {expr}.",
+            "Step 2: Write general term T_(r+1) = nCr * a^(n-r) * b^r and apply the requested condition.",
+            "Step 3: Compute the correct coefficient/term and simplify fully.",
+            "Final answer: required term/expansion/coefficient in simplest form.",
         ],
         "differentiate": [
-            "Step 1: Identify the correct differentiation rule(s) (chain/product/quotient as needed).",
-            "Step 2: Differentiate each part carefully and simplify.",
-            "Step 3: Substitute values / solve derivative condition if required.",
-            "Answer: present the final derivative/result clearly.",
+            f"Step 1: From {expr}, choose the correct derivative rules.",
+            "Step 2: Differentiate term-by-term with clear chain/product/quotient steps.",
+            "Step 3: Simplify and evaluate any required values/conditions.",
+            "Final answer: derivative/result in final simplified form.",
         ],
         "integrate": [
-            "Step 1: Set up the integral correctly (including limits if definite).",
-            "Step 2: Integrate term-by-term or by substitution/parts as appropriate.",
-            "Step 3: Apply limits / simplify constants and expression.",
-            "Answer: give the final exact value/expression.",
+            f"Step 1: Set up integration from the given form: {expr}.",
+            "Step 2: Integrate using the correct technique (standard/substitution/parts).",
+            "Step 3: Apply limits (if any) and simplify exactly.",
+            "Final answer: exact integral value/expression.",
         ],
         "complex": [
-            "Step 1: Rewrite in a useful complex form (a + bi or r(cosθ + i sinθ)).",
-            "Step 2: Apply the required operation/property (modulus, argument, conjugate, powers).",
-            "Step 3: Simplify to the requested form and verify quadrant/sign where relevant.",
-            "Answer: state the final complex result clearly.",
+            f"Step 1: Rewrite the complex expression from the prompt ({expr}) in a suitable form.",
+            "Step 2: Apply the required operation (modulus/argument/conjugate/powers).",
+            "Step 3: Simplify and enforce correct quadrant/sign conventions.",
+            "Final answer: complex result in requested form.",
         ],
         "sequence": [
-            "Step 1: Identify whether the sequence is arithmetic/geometric (or another defined recurrence).",
-            "Step 2: Use the relevant formula for nth term or sum.",
-            "Step 3: Substitute given values and solve for the unknown quantity.",
-            "Answer: provide the requested term/sum/index.",
+            f"Step 1: Identify the sequence model from the prompt ({expr}).",
+            "Step 2: Use the relevant nth-term/sum formula and substitute known values.",
+            "Step 3: Solve for the required term/index/sum and simplify.",
+            "Final answer: requested sequence value.",
         ],
         "logs": [
-            "Step 1: Use log/exponential laws to combine or separate terms appropriately.",
-            "Step 2: Convert to an equivalent linear/exponential equation.",
-            "Step 3: Solve and check domain validity (arguments of logs must be positive).",
-            "Answer: give valid solution(s) only.",
+            f"Step 1: Apply log/exponential laws to the given expression: {expr}.",
+            "Step 2: Convert to a solvable equation and isolate the variable.",
+            "Step 3: Check all domain restrictions (log arguments > 0).",
+            "Final answer: valid value(s) only.",
         ],
         "inverse": [
-            "Step 1: Let y = f(x), then swap x and y to form the inverse relation.",
-            "Step 2: Rearrange to express y explicitly in terms of x.",
-            "Step 3: State domain/range constraints where required.",
-            "Answer: write f^(-1)(x) and any relevant restriction.",
+            f"Step 1: Start from the function statement ({expr}) and set y = f(x).",
+            "Step 2: Swap x and y, then rearrange for y explicitly.",
+            "Step 3: State any domain/range restrictions for invertibility.",
+            "Final answer: f^(-1)(x) with relevant constraints.",
         ],
         "general": [
-            "Step 1: Identify the core method required by the question.",
-            "Step 2: Carry out the method with clear algebraic working.",
-            "Step 3: Simplify to the requested form and verify constraints/units.",
-            "Answer: provide the final result clearly.",
+            f"Step 1: Parse the requirement from the prompt: {expr}.",
+            "Step 2: Apply the main method with full algebraic working.",
+            "Step 3: Simplify and verify any stated restrictions.",
+            "Final answer: provide the required result clearly.",
         ],
     }
 
@@ -166,11 +168,7 @@ def build_markscheme_entry(question: Dict[str, object]) -> Dict[str, object]:
             }
         )
 
-    text_lines = [
-        "IB-style Worked Solution (Draft):",
-        "Use this as a model method. Check arithmetic and OCR-heavy symbols carefully.",
-        "",
-    ]
+    text_lines = []
     for part in part_entries:
         text_lines.append(f"Part ({part['part']}) [{part['marks']} marks]")
         for row in part["worked_steps"]:
