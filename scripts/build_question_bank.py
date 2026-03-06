@@ -20,6 +20,7 @@ from pypdf import PdfReader  # type: ignore
 PAPERS_DIR = ROOT / "data" / "raw" / "papers"
 MARKSCHEMES_DIR = ROOT / "data" / "raw" / "markschemes"
 OUT_FILE = ROOT / "data" / "processed" / "questions.json"
+PROCESSED_IMAGES_DIR = ROOT / "data" / "processed" / "images"
 
 FILE_PAPER_RE = re.compile(r"paper_(?P<paper>\d)", re.IGNORECASE)
 FILE_TZ_RE = re.compile(r"(?:__|_)TZ(?P<tz>\d)_HL", re.IGNORECASE)
@@ -373,6 +374,62 @@ def tz_sort_value(paper_label: str) -> int:
     return int(m.group(1))
 
 
+def id_without_tz(rec_id: str) -> str:
+    return re.sub(r"_tz\d+(?=_q\d+$)", "", rec_id)
+
+
+def parse_id_parts(rec_id: str) -> Optional[Tuple[str, str, str]]:
+    m = re.match(r"^(?P<session>[a-z0-9]+)_p(?P<paper>\d+)(?:_tz\d+)?_q(?P<q>\d+)$", rec_id)
+    if not m:
+        return None
+    return (m.group("session"), m.group("paper"), m.group("q"))
+
+
+def build_image_index(kind: str) -> Dict[str, List[str]]:
+    folder = PROCESSED_IMAGES_DIR / kind
+    index: Dict[str, List[Tuple[int, str]]] = {}
+    if not folder.exists():
+        return {}
+
+    for img in folder.glob("*.png"):
+        stem = img.stem
+        m = re.match(r"^(?P<id>.+)_p(?P<page>\d+)$", stem)
+        if not m:
+            continue
+        rec_id = m.group("id")
+        page = int(m.group("page"))
+        rel = str(Path("images") / kind / img.name)
+        index.setdefault(rec_id, []).append((page, rel))
+
+    out: Dict[str, List[str]] = {}
+    for rec_id, items in index.items():
+        items.sort(key=lambda pair: pair[0])
+        out[rec_id] = [rel for _, rel in items]
+    return out
+
+
+def resolve_image_paths(rec_id: str, index: Dict[str, List[str]]) -> List[str]:
+    if rec_id in index:
+        return index[rec_id]
+
+    no_tz = id_without_tz(rec_id)
+    if no_tz in index:
+        return index[no_tz]
+
+    parts = parse_id_parts(rec_id)
+    if parts is None:
+        return []
+
+    session, paper, qnum = parts
+    fallback_re = re.compile(rf"^{re.escape(session)}_p{re.escape(paper)}(?:_tz\d+)?_q{re.escape(qnum)}$")
+    candidates = [key for key in index.keys() if fallback_re.match(key)]
+    if not candidates:
+        return []
+
+    candidates.sort(key=lambda key: (0 if "_tz" in key else 1, key))
+    return index[candidates[0]]
+
+
 def build() -> Dict[str, object]:
     papers = sorted(PAPERS_DIR.glob("*.pdf"))
     markschemes = sorted(MARKSCHEMES_DIR.glob("*.pdf"))
@@ -440,6 +497,13 @@ def build() -> Dict[str, object]:
             continue
         seen.add(sig)
         deduped.append(rec)
+
+    q_image_index = build_image_index("questions")
+    ms_image_index = build_image_index("markschemes")
+    for rec in deduped:
+        rec_id = str(rec.get("id", ""))
+        rec["question_image_paths"] = resolve_image_paths(rec_id, q_image_index)
+        rec["markscheme_image_paths"] = resolve_image_paths(rec_id, ms_image_index)
 
     sessions = sorted({str(q.get("session", "")) for q in deduped if q.get("session")})
 
