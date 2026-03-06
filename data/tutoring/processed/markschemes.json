@@ -1,6 +1,6 @@
 {
   "course": "IB Mathematics AA HL - Tutoring Questions",
-  "generated_at": "2026-03-06T18:39:03.896699+00:00",
+  "generated_at": "2026-03-06T21:00:42.208209+00:00",
   "notes": "Auto-generated IB-style worked-solution drafts. Review and edit before formal use.",
   "questions": [
     {
@@ -43,11 +43,16 @@
             "",
             "METHOD 2 (partial expansion)",
             "Expand only the needed leading terms and read required coefficient.",
-            "Cross-check with METHOD 1 result."
+            "Cross-check with METHOD 1 result.",
+            "",
+            "Worked answer",
+            "T = C(11,2)\u00b72\u2079\u00b7x\u00b2",
+            "T = 28160x\u00b2",
+            "Answer: 28160x\u00b2"
           ]
         }
       ],
-      "worked_solution_text": "Part (a)\nMETHOD 1 (general term)\nGiven: Write down the number of terms in this expansion.\nUse T\u1d63\u208a\u2081 = C(n,r) \u00b7 a^(n-r) \u00b7 b^r.\nMatch powers to find r (for required x\u1d4f term).\nSubstitute r and simplify coefficient + term.\nWrite final required term/coefficient.\n\nWorked answer\nNumber of terms = n + 1 = 12\nAnswer: 12\n\nPart (b)\nMETHOD 1 (general term)\nGiven: Find the term containing x\u00b2.\nUse T\u1d63\u208a\u2081 = C(n,r) \u00b7 a^(n-r) \u00b7 b^r.\nMatch powers to find r (for required x\u1d4f term).\nSubstitute r and simplify coefficient + term.\nWrite final required term/coefficient.\n\nMETHOD 2 (partial expansion)\nExpand only the needed leading terms and read required coefficient.\nCross-check with METHOD 1 result.",
+      "worked_solution_text": "Part (a)\nMETHOD 1 (general term)\nGiven: Write down the number of terms in this expansion.\nUse T\u1d63\u208a\u2081 = C(n,r) \u00b7 a^(n-r) \u00b7 b^r.\nMatch powers to find r (for required x\u1d4f term).\nSubstitute r and simplify coefficient + term.\nWrite final required term/coefficient.\n\nWorked answer\nNumber of terms = n + 1 = 12\nAnswer: 12\n\nPart (b)\nMETHOD 1 (general term)\nGiven: Find the term containing x\u00b2.\nUse T\u1d63\u208a\u2081 = C(n,r) \u00b7 a^(n-r) \u00b7 b^r.\nMatch powers to find r (for required x\u1d4f term).\nSubstitute r and simplify coefficient + term.\nWrite final required term/coefficient.\n\nMETHOD 2 (partial expansion)\nExpand only the needed leading terms and read required coefficient.\nCross-check with METHOD 1 result.\n\nWorked answer\nT = C(11,2)\u00b72\u2079\u00b7x\u00b2\nT = 28160x\u00b2\nAnswer: 28160x\u00b2",
       "draft": true,
       "markscheme_image_paths": [
         "images/markschemes/t1_binomila_theorem_q1.svg"
@@ -97,11 +102,16 @@
             "",
             "METHOD 2 (partial expansion)",
             "Expand only the needed leading terms and read required coefficient.",
-            "Cross-check with METHOD 1 result."
+            "Cross-check with METHOD 1 result.",
+            "",
+            "Worked answer",
+            "T = C(4,2)\u00b72\u00b2\u00b7x\u00b2",
+            "T = 24x\u00b2",
+            "Answer: 24x\u00b2"
           ]
         }
       ],
-      "worked_solution_text": "Part (a)\nMETHOD 1 (general term)\nGiven: Expand (2 + x)4 and simplify your result.\nUse T\u1d63\u208a\u2081 = C(n,r) \u00b7 a^(n-r) \u00b7 b^r.\nMatch powers to find r (for required x\u1d4f term).\nSubstitute r and simplify coefficient + term.\nWrite final required term/coefficient.\n\nMETHOD 2 (partial expansion)\nExpand only the needed leading terms and read required coefficient.\nCross-check with METHOD 1 result.\n\nWorked answer\n(x + 2)\u2074 = 16 + 32x + 24x\u00b2 + 8x\u00b3 + x\u2074\nAnswer: 16 + 32x + 24x\u00b2 + 8x\u00b3 + x\u2074\n\nPart (b)\nMETHOD 1 (general term)\nGiven: Hence, find the term in x\u00b2 in (2 + x)4 + 2 11 x .\nUse T\u1d63\u208a\u2081 = C(n,r) \u00b7 a^(n-r) \u00b7 b^r.\nMatch powers to find r (for required x\u1d4f term).\nSubstitute r and simplify coefficient + term.\nWrite final required term/coefficient.\n\nMETHOD 2 (partial expansion)\nExpand only the needed leading terms and read required coefficient.\nCross-check with METHOD 1 result.",
+      "worked_solution_text": "Part (a)\nMETHOD 1 (general term)\nGiven: Expand (2 + x)4 and simplify your result.\nUse T\u1d63\u208a\u2081 = C(n,r) \u00b7 a^(n-r) \u00b7 b^r.\nMatch powers to find r (for required x\u1d4f term).\nSubstitute r and simplify coefficient + term.\nWrite final required term/coefficient.\n\nMETHOD 2 (partial expansion)\nExpand only the needed leading terms and read required coefficient.\nCross-check with METHOD 1 result.\n\nWorked answer\n(x + 2)\u2074 = 16 + 32x + 24x\u00b2 + 8x\u00b3 + x\u2074\nAnswer: 16 + 32x + 24x\u00b2 + 8x\u00b3 + x\u2074\n\nPart (b)\nMETHOD 1 (general term)\nGiven: Hence, find the term in x\u00b2 in (2 + x)4 + 2 11 x .\nUse T\u1d63\u208a\u2081 = C(n,r) \u00b7 a^(n-r) \u00b7 b^r.\nMatch powers to find r (for required x\u1d4f term).\nSubstitute r and simplify coefficient + term.\nWrite final required term/coefficient.\n\nMETHOD 2 (partial expansion)\nExpand only the needed leading terms and read required coefficient.\nCross-check with METHOD 1 result.\n\nWorked answer\nT = C(4,2)\u00b72\u00b2\u00b7x\u00b2\nT = 24x\u00b2\nAnswer: 24x\u00b2",
       "draft": true,
       "markscheme_image_paths": [
         "images/markschemes/t1_binomila_theorem_q2.svg"
@@ -233,7 +243,10 @@
             "",
             "METHOD 2",
             "Start from the opposite side (or use contradiction).",
-            "Show both sides reduce to the same canonical expression."
+            "Show both sides reduce to the same canonical expression.",
+            "",
+            "Worked answer",
+            "Answer: 3x2 \u2013 4"
           ]
         },
         {
@@ -281,7 +294,7 @@
           ]
         }
       ],
-      "worked_solution_text": "Part (a)\nMETHOD 1\nGiven: Expand (x + h)3.\nStart from one side only and simplify line by line.\nUse identities/algebra legally at each step.\nReach target form exactly. Therefore, statement is true.\n\nPart (b)\nMETHOD 1\nGiven: Use the formula f\u2032(x) = h xfhxf h )()(lim 0 \u2212+ to show that the derivative of f(x) is 3x2 \u2013 4.\nStart from one side only and simplify line by line.\nUse identities/algebra legally at each step.\nReach target form exactly. Therefore, statement is true.\n\nMETHOD 2\nStart from the opposite side (or use contradiction).\nShow both sides reduce to the same canonical expression.\n\nPart (c)\nMETHOD 1\nGiven: The tangent to the curve of f at the point P(1, \u20132) is parallel to the tangent at a point Q. Find the coordinates of Q.\nStart from one side only and simplify line by line.\nUse identities/algebra legally at each step.\nReach target form exactly. Therefore, statement is true.\n\nMETHOD 2\nStart from the opposite side (or use contradiction).\nShow both sides reduce to the same canonical expression.\n\nPart (d)\nMETHOD 1\nGiven: The graph of f is decreasing for p < x < q. Find the value of p and of q.\nStart from one side only and simplify line by line.\nUse identities/algebra legally at each step.\nReach target form exactly. Therefore, statement is true.\n\nMETHOD 2\nStart from the opposite side (or use contradiction).\nShow both sides reduce to the same canonical expression.\n\nPart (e)\nMETHOD 1\nGiven: Write down the range of values for the gradient of f.\nStart from one side only and simplify line by line.\nUse identities/algebra legally at each step.\nReach target form exactly. Therefore, statement is true.",
+      "worked_solution_text": "Part (a)\nMETHOD 1\nGiven: Expand (x + h)3.\nStart from one side only and simplify line by line.\nUse identities/algebra legally at each step.\nReach target form exactly. Therefore, statement is true.\n\nPart (b)\nMETHOD 1\nGiven: Use the formula f\u2032(x) = h xfhxf h )()(lim 0 \u2212+ to show that the derivative of f(x) is 3x2 \u2013 4.\nStart from one side only and simplify line by line.\nUse identities/algebra legally at each step.\nReach target form exactly. Therefore, statement is true.\n\nMETHOD 2\nStart from the opposite side (or use contradiction).\nShow both sides reduce to the same canonical expression.\n\nWorked answer\nAnswer: 3x2 \u2013 4\n\nPart (c)\nMETHOD 1\nGiven: The tangent to the curve of f at the point P(1, \u20132) is parallel to the tangent at a point Q. Find the coordinates of Q.\nStart from one side only and simplify line by line.\nUse identities/algebra legally at each step.\nReach target form exactly. Therefore, statement is true.\n\nMETHOD 2\nStart from the opposite side (or use contradiction).\nShow both sides reduce to the same canonical expression.\n\nPart (d)\nMETHOD 1\nGiven: The graph of f is decreasing for p < x < q. Find the value of p and of q.\nStart from one side only and simplify line by line.\nUse identities/algebra legally at each step.\nReach target form exactly. Therefore, statement is true.\n\nMETHOD 2\nStart from the opposite side (or use contradiction).\nShow both sides reduce to the same canonical expression.\n\nPart (e)\nMETHOD 1\nGiven: Write down the range of values for the gradient of f.\nStart from one side only and simplify line by line.\nUse identities/algebra legally at each step.\nReach target form exactly. Therefore, statement is true.",
       "draft": true,
       "markscheme_image_paths": [
         "images/markschemes/t1_binomila_theorem_q5.svg"
@@ -599,7 +612,11 @@
             "",
             "METHOD 2 (simultaneous equations)",
             "Use two given terms/sums to form simultaneous equations in unknowns.",
-            "Solve and verify by substitution into original sequence relation."
+            "Solve and verify by substitution into original sequence relation.",
+            "",
+            "Worked answer",
+            "d = 3",
+            "Answer: d = 3"
           ]
         },
         {
@@ -621,7 +638,7 @@
           ]
         }
       ],
-      "worked_solution_text": "Part (a)\nMETHOD 1 (formula route)\nGiven: Find the value of the common difference.\nArithmetic: u\u2099 = u\u2081 + (n-1)d,  S\u2099 = n/2[2u\u2081 + (n-1)d].\nGeometric: u\u2099 = u\u2081r^(n-1),  S\u2099 = u\u2081(1-r\u207f)/(1-r), r \u2260 1.\nSubstitute known values and solve systematically.\nState required u_n / S_n / n value.\n\nMETHOD 2 (simultaneous equations)\nUse two given terms/sums to form simultaneous equations in unknowns.\nSolve and verify by substitution into original sequence relation.\n\nPart (b)\nMETHOD 1 (formula route)\nGiven: Find the value of n.\nArithmetic: u\u2099 = u\u2081 + (n-1)d,  S\u2099 = n/2[2u\u2081 + (n-1)d].\nGeometric: u\u2099 = u\u2081r^(n-1),  S\u2099 = u\u2081(1-r\u207f)/(1-r), r \u2260 1.\nSubstitute known values and solve systematically.\nState required u_n / S_n / n value.\n\nWorked answer\nu\u2099 = u\u2081 + (n-1)d = 3709\nn = ((3709 - 7)/3) + 1 = 1235\nAnswer: n = 1235",
+      "worked_solution_text": "Part (a)\nMETHOD 1 (formula route)\nGiven: Find the value of the common difference.\nArithmetic: u\u2099 = u\u2081 + (n-1)d,  S\u2099 = n/2[2u\u2081 + (n-1)d].\nGeometric: u\u2099 = u\u2081r^(n-1),  S\u2099 = u\u2081(1-r\u207f)/(1-r), r \u2260 1.\nSubstitute known values and solve systematically.\nState required u_n / S_n / n value.\n\nMETHOD 2 (simultaneous equations)\nUse two given terms/sums to form simultaneous equations in unknowns.\nSolve and verify by substitution into original sequence relation.\n\nWorked answer\nd = 3\nAnswer: d = 3\n\nPart (b)\nMETHOD 1 (formula route)\nGiven: Find the value of n.\nArithmetic: u\u2099 = u\u2081 + (n-1)d,  S\u2099 = n/2[2u\u2081 + (n-1)d].\nGeometric: u\u2099 = u\u2081r^(n-1),  S\u2099 = u\u2081(1-r\u207f)/(1-r), r \u2260 1.\nSubstitute known values and solve systematically.\nState required u_n / S_n / n value.\n\nWorked answer\nu\u2099 = u\u2081 + (n-1)d = 3709\nn = ((3709 - 7)/3) + 1 = 1235\nAnswer: n = 1235",
       "draft": true,
       "markscheme_image_paths": [
         "images/markschemes/t1_math_sl_algebra_q2.svg"
@@ -646,7 +663,11 @@
             "Arithmetic: u\u2099 = u\u2081 + (n-1)d,  S\u2099 = n/2[2u\u2081 + (n-1)d].",
             "Geometric: u\u2099 = u\u2081r^(n-1),  S\u2099 = u\u2081(1-r\u207f)/(1-r), r \u2260 1.",
             "Substitute known values and solve systematically.",
-            "State required u_n / S_n / n value."
+            "State required u_n / S_n / n value.",
+            "",
+            "Worked answer",
+            "d = 6",
+            "Answer: d = 6"
           ]
         },
         {
@@ -663,7 +684,12 @@
             "",
             "METHOD 2 (simultaneous equations)",
             "Use two given terms/sums to form simultaneous equations in unknowns.",
-            "Solve and verify by substitution into original sequence relation."
+            "Solve and verify by substitution into original sequence relation.",
+            "",
+            "Worked answer",
+            "u\u2099 = u\u2081 + (n-1)d",
+            "n = ((1353 - 3)/6) + 1 = 226",
+            "Answer: number of terms = 226"
           ]
         },
         {
@@ -680,7 +706,7 @@
           ]
         }
       ],
-      "worked_solution_text": "Part (a)\nMETHOD 1 (formula route)\nGiven: Write down the common difference.\nArithmetic: u\u2099 = u\u2081 + (n-1)d,  S\u2099 = n/2[2u\u2081 + (n-1)d].\nGeometric: u\u2099 = u\u2081r^(n-1),  S\u2099 = u\u2081(1-r\u207f)/(1-r), r \u2260 1.\nSubstitute known values and solve systematically.\nState required u_n / S_n / n value.\n\nPart (b)\nMETHOD 1 (formula route)\nGiven: Find the number of terms in the sequence.\nArithmetic: u\u2099 = u\u2081 + (n-1)d,  S\u2099 = n/2[2u\u2081 + (n-1)d].\nGeometric: u\u2099 = u\u2081r^(n-1),  S\u2099 = u\u2081(1-r\u207f)/(1-r), r \u2260 1.\nSubstitute known values and solve systematically.\nState required u_n / S_n / n value.\n\nMETHOD 2 (simultaneous equations)\nUse two given terms/sums to form simultaneous equations in unknowns.\nSolve and verify by substitution into original sequence relation.\n\nPart (c)\nMETHOD 1 (formula route)\nGiven: Find the sum of the sequence.\nArithmetic: u\u2099 = u\u2081 + (n-1)d,  S\u2099 = n/2[2u\u2081 + (n-1)d].\nGeometric: u\u2099 = u\u2081r^(n-1),  S\u2099 = u\u2081(1-r\u207f)/(1-r), r \u2260 1.\nSubstitute known values and solve systematically.\nState required u_n / S_n / n value.",
+      "worked_solution_text": "Part (a)\nMETHOD 1 (formula route)\nGiven: Write down the common difference.\nArithmetic: u\u2099 = u\u2081 + (n-1)d,  S\u2099 = n/2[2u\u2081 + (n-1)d].\nGeometric: u\u2099 = u\u2081r^(n-1),  S\u2099 = u\u2081(1-r\u207f)/(1-r), r \u2260 1.\nSubstitute known values and solve systematically.\nState required u_n / S_n / n value.\n\nWorked answer\nd = 6\nAnswer: d = 6\n\nPart (b)\nMETHOD 1 (formula route)\nGiven: Find the number of terms in the sequence.\nArithmetic: u\u2099 = u\u2081 + (n-1)d,  S\u2099 = n/2[2u\u2081 + (n-1)d].\nGeometric: u\u2099 = u\u2081r^(n-1),  S\u2099 = u\u2081(1-r\u207f)/(1-r), r \u2260 1.\nSubstitute known values and solve systematically.\nState required u_n / S_n / n value.\n\nMETHOD 2 (simultaneous equations)\nUse two given terms/sums to form simultaneous equations in unknowns.\nSolve and verify by substitution into original sequence relation.\n\nWorked answer\nu\u2099 = u\u2081 + (n-1)d\nn = ((1353 - 3)/6) + 1 = 226\nAnswer: number of terms = 226\n\nPart (c)\nMETHOD 1 (formula route)\nGiven: Find the sum of the sequence.\nArithmetic: u\u2099 = u\u2081 + (n-1)d,  S\u2099 = n/2[2u\u2081 + (n-1)d].\nGeometric: u\u2099 = u\u2081r^(n-1),  S\u2099 = u\u2081(1-r\u207f)/(1-r), r \u2260 1.\nSubstitute known values and solve systematically.\nState required u_n / S_n / n value.",
       "draft": true,
       "markscheme_image_paths": [
         "images/markschemes/t1_math_sl_algebra_q3.svg"
@@ -1337,7 +1363,10 @@
             "Given: Use all four terms to show that this is a geometric sequence.",
             "Start from one side only and simplify line by line.",
             "Use identities/algebra legally at each step.",
-            "Reach target form exactly. Therefore, statement is true."
+            "Reach target form exactly. Therefore, statement is true.",
+            "",
+            "Worked answer",
+            "Answer: a geometric sequence"
           ]
         },
         {
@@ -1357,7 +1386,7 @@
           ]
         }
       ],
-      "worked_solution_text": "Part (a)\nMETHOD 1\nGiven: Use all four terms to show that this is a geometric sequence.\nStart from one side only and simplify line by line.\nUse identities/algebra legally at each step.\nReach target form exactly. Therefore, statement is true.\n\nPart (b)\nMETHOD 1\nGiven: (i) Find an expression for the nth term of this geometric sequence. (ii) If the nth term of the sequence is 1062 882, fi\nStart from one side only and simplify line by line.\nUse identities/algebra legally at each step.\nReach target form exactly. Therefore, statement is true.\n\nMETHOD 2\nStart from the opposite side (or use contradiction).\nShow both sides reduce to the same canonical expression.",
+      "worked_solution_text": "Part (a)\nMETHOD 1\nGiven: Use all four terms to show that this is a geometric sequence.\nStart from one side only and simplify line by line.\nUse identities/algebra legally at each step.\nReach target form exactly. Therefore, statement is true.\n\nWorked answer\nAnswer: a geometric sequence\n\nPart (b)\nMETHOD 1\nGiven: (i) Find an expression for the nth term of this geometric sequence. (ii) If the nth term of the sequence is 1062 882, fi\nStart from one side only and simplify line by line.\nUse identities/algebra legally at each step.\nReach target form exactly. Therefore, statement is true.\n\nMETHOD 2\nStart from the opposite side (or use contradiction).\nShow both sides reduce to the same canonical expression.",
       "draft": true,
       "markscheme_image_paths": [
         "images/markschemes/t1_math_sl_algebra_q17.svg"
@@ -2315,11 +2344,16 @@
             "",
             "METHOD 2 (partial expansion)",
             "Expand only the needed leading terms and read required coefficient.",
-            "Cross-check with METHOD 1 result."
+            "Cross-check with METHOD 1 result.",
+            "",
+            "Worked answer",
+            "T = C(11,2)\u00b72\u2079\u00b7x\u00b2",
+            "T = 28160x\u00b2",
+            "Answer: 28160x\u00b2"
           ]
         }
       ],
-      "worked_solution_text": "Part (a)\nMETHOD 1 (general term)\nGiven: Write down the number of terms in this expansion.\nUse T\u1d63\u208a\u2081 = C(n,r) \u00b7 a^(n-r) \u00b7 b^r.\nMatch powers to find r (for required x\u1d4f term).\nSubstitute r and simplify coefficient + term.\nWrite final required term/coefficient.\n\nWorked answer\nNumber of terms = n + 1 = 12\nAnswer: 12\n\nPart (b)\nMETHOD 1 (general term)\nGiven: Find the term containing x\u00b2.\nUse T\u1d63\u208a\u2081 = C(n,r) \u00b7 a^(n-r) \u00b7 b^r.\nMatch powers to find r (for required x\u1d4f term).\nSubstitute r and simplify coefficient + term.\nWrite final required term/coefficient.\n\nMETHOD 2 (partial expansion)\nExpand only the needed leading terms and read required coefficient.\nCross-check with METHOD 1 result.",
+      "worked_solution_text": "Part (a)\nMETHOD 1 (general term)\nGiven: Write down the number of terms in this expansion.\nUse T\u1d63\u208a\u2081 = C(n,r) \u00b7 a^(n-r) \u00b7 b^r.\nMatch powers to find r (for required x\u1d4f term).\nSubstitute r and simplify coefficient + term.\nWrite final required term/coefficient.\n\nWorked answer\nNumber of terms = n + 1 = 12\nAnswer: 12\n\nPart (b)\nMETHOD 1 (general term)\nGiven: Find the term containing x\u00b2.\nUse T\u1d63\u208a\u2081 = C(n,r) \u00b7 a^(n-r) \u00b7 b^r.\nMatch powers to find r (for required x\u1d4f term).\nSubstitute r and simplify coefficient + term.\nWrite final required term/coefficient.\n\nMETHOD 2 (partial expansion)\nExpand only the needed leading terms and read required coefficient.\nCross-check with METHOD 1 result.\n\nWorked answer\nT = C(11,2)\u00b72\u2079\u00b7x\u00b2\nT = 28160x\u00b2\nAnswer: 28160x\u00b2",
       "draft": true,
       "markscheme_image_paths": [
         "images/markschemes/t1_math_sl_algebra_q35.svg"
@@ -2369,11 +2403,16 @@
             "",
             "METHOD 2 (partial expansion)",
             "Expand only the needed leading terms and read required coefficient.",
-            "Cross-check with METHOD 1 result."
+            "Cross-check with METHOD 1 result.",
+            "",
+            "Worked answer",
+            "T = C(4,2)\u00b72\u00b2\u00b7x\u00b2",
+            "T = 24x\u00b2",
+            "Answer: 24x\u00b2"
           ]
         }
       ],
-      "worked_solution_text": "Part (a)\nMETHOD 1 (general term)\nGiven: Expand (2 + x)4 and simplify your result.\nUse T\u1d63\u208a\u2081 = C(n,r) \u00b7 a^(n-r) \u00b7 b^r.\nMatch powers to find r (for required x\u1d4f term).\nSubstitute r and simplify coefficient + term.\nWrite final required term/coefficient.\n\nMETHOD 2 (partial expansion)\nExpand only the needed leading terms and read required coefficient.\nCross-check with METHOD 1 result.\n\nWorked answer\n(x + 2)\u2074 = 16 + 32x + 24x\u00b2 + 8x\u00b3 + x\u2074\nAnswer: 16 + 32x + 24x\u00b2 + 8x\u00b3 + x\u2074\n\nPart (b)\nMETHOD 1 (general term)\nGiven: Hence, find the term in x\u00b2 in (2 + x)4 2 11 x .\nUse T\u1d63\u208a\u2081 = C(n,r) \u00b7 a^(n-r) \u00b7 b^r.\nMatch powers to find r (for required x\u1d4f term).\nSubstitute r and simplify coefficient + term.\nWrite final required term/coefficient.\n\nMETHOD 2 (partial expansion)\nExpand only the needed leading terms and read required coefficient.\nCross-check with METHOD 1 result.",
+      "worked_solution_text": "Part (a)\nMETHOD 1 (general term)\nGiven: Expand (2 + x)4 and simplify your result.\nUse T\u1d63\u208a\u2081 = C(n,r) \u00b7 a^(n-r) \u00b7 b^r.\nMatch powers to find r (for required x\u1d4f term).\nSubstitute r and simplify coefficient + term.\nWrite final required term/coefficient.\n\nMETHOD 2 (partial expansion)\nExpand only the needed leading terms and read required coefficient.\nCross-check with METHOD 1 result.\n\nWorked answer\n(x + 2)\u2074 = 16 + 32x + 24x\u00b2 + 8x\u00b3 + x\u2074\nAnswer: 16 + 32x + 24x\u00b2 + 8x\u00b3 + x\u2074\n\nPart (b)\nMETHOD 1 (general term)\nGiven: Hence, find the term in x\u00b2 in (2 + x)4 2 11 x .\nUse T\u1d63\u208a\u2081 = C(n,r) \u00b7 a^(n-r) \u00b7 b^r.\nMatch powers to find r (for required x\u1d4f term).\nSubstitute r and simplify coefficient + term.\nWrite final required term/coefficient.\n\nMETHOD 2 (partial expansion)\nExpand only the needed leading terms and read required coefficient.\nCross-check with METHOD 1 result.\n\nWorked answer\nT = C(4,2)\u00b72\u00b2\u00b7x\u00b2\nT = 24x\u00b2\nAnswer: 24x\u00b2",
       "draft": true,
       "markscheme_image_paths": [
         "images/markschemes/t1_math_sl_algebra_q36.svg"
@@ -2505,7 +2544,10 @@
             "",
             "METHOD 2",
             "Start from the opposite side (or use contradiction).",
-            "Show both sides reduce to the same canonical expression."
+            "Show both sides reduce to the same canonical expression.",
+            "",
+            "Worked answer",
+            "Answer: 3x2 \u2013 4"
           ]
         },
         {
@@ -2553,7 +2595,7 @@
           ]
         }
       ],
-      "worked_solution_text": "Part (a)\nMETHOD 1\nGiven: Expand (x + h)3.\nStart from one side only and simplify line by line.\nUse identities/algebra legally at each step.\nReach target form exactly. Therefore, statement is true.\n\nPart (b)\nMETHOD 1\nGiven: Use the formula f\u2032(x) = h xfhxf h )()(lim 0 to show that the derivative of f(x) is 3x2 \u2013 4.\nStart from one side only and simplify line by line.\nUse identities/algebra legally at each step.\nReach target form exactly. Therefore, statement is true.\n\nMETHOD 2\nStart from the opposite side (or use contradiction).\nShow both sides reduce to the same canonical expression.\n\nPart (c)\nMETHOD 1\nGiven: The tangent to the curve of f at the point P(1, \u20132) is parallel to the tangent at a point Q. Find the coordinates of Q.\nStart from one side only and simplify line by line.\nUse identities/algebra legally at each step.\nReach target form exactly. Therefore, statement is true.\n\nMETHOD 2\nStart from the opposite side (or use contradiction).\nShow both sides reduce to the same canonical expression.\n\nPart (d)\nMETHOD 1\nGiven: The graph of f is decreasing for p < x < q. Find the value of p and of q.\nStart from one side only and simplify line by line.\nUse identities/algebra legally at each step.\nReach target form exactly. Therefore, statement is true.\n\nMETHOD 2\nStart from the opposite side (or use contradiction).\nShow both sides reduce to the same canonical expression.\n\nPart (e)\nMETHOD 1\nGiven: Write down the range of values for the gradient of f.\nStart from one side only and simplify line by line.\nUse identities/algebra legally at each step.\nReach target form exactly. Therefore, statement is true.",
+      "worked_solution_text": "Part (a)\nMETHOD 1\nGiven: Expand (x + h)3.\nStart from one side only and simplify line by line.\nUse identities/algebra legally at each step.\nReach target form exactly. Therefore, statement is true.\n\nPart (b)\nMETHOD 1\nGiven: Use the formula f\u2032(x) = h xfhxf h )()(lim 0 to show that the derivative of f(x) is 3x2 \u2013 4.\nStart from one side only and simplify line by line.\nUse identities/algebra legally at each step.\nReach target form exactly. Therefore, statement is true.\n\nMETHOD 2\nStart from the opposite side (or use contradiction).\nShow both sides reduce to the same canonical expression.\n\nWorked answer\nAnswer: 3x2 \u2013 4\n\nPart (c)\nMETHOD 1\nGiven: The tangent to the curve of f at the point P(1, \u20132) is parallel to the tangent at a point Q. Find the coordinates of Q.\nStart from one side only and simplify line by line.\nUse identities/algebra legally at each step.\nReach target form exactly. Therefore, statement is true.\n\nMETHOD 2\nStart from the opposite side (or use contradiction).\nShow both sides reduce to the same canonical expression.\n\nPart (d)\nMETHOD 1\nGiven: The graph of f is decreasing for p < x < q. Find the value of p and of q.\nStart from one side only and simplify line by line.\nUse identities/algebra legally at each step.\nReach target form exactly. Therefore, statement is true.\n\nMETHOD 2\nStart from the opposite side (or use contradiction).\nShow both sides reduce to the same canonical expression.\n\nPart (e)\nMETHOD 1\nGiven: Write down the range of values for the gradient of f.\nStart from one side only and simplify line by line.\nUse identities/algebra legally at each step.\nReach target form exactly. Therefore, statement is true.",
       "draft": true,
       "markscheme_image_paths": [
         "images/markschemes/t1_math_sl_algebra_q39.svg"
@@ -4523,7 +4565,10 @@
             "",
             "METHOD 2",
             "Start from the opposite side (or use contradiction).",
-            "Show both sides reduce to the same canonical expression."
+            "Show both sides reduce to the same canonical expression.",
+            "",
+            "Worked answer",
+            "Answer: one minimum point P on the graph of f, and find the coordinates of P"
           ]
         },
         {
@@ -4587,7 +4632,7 @@
           ]
         }
       ],
-      "worked_solution_text": "Part (a)\nMETHOD 1\nGiven: By considering f (n) (x) for n =1 and n = 2, show that there is one minimum point P on the graph of f, and find the coor\nStart from one side only and simplify line by line.\nUse identities/algebra legally at each step.\nReach target form exactly. Therefore, statement is true.\n\nMETHOD 2\nStart from the opposite side (or use contradiction).\nShow both sides reduce to the same canonical expression.\n\nPart (b)\nMETHOD 1\nGiven: Show that f has a point of inflexion Q at x = \u22121.\nStart from one side only and simplify line by line.\nUse identities/algebra legally at each step.\nReach target form exactly. Therefore, statement is true.\n\nMETHOD 2\nStart from the opposite side (or use contradiction).\nShow both sides reduce to the same canonical expression.\n\nPart (c)\nMETHOD 1\nGiven: Determine the intervals on the domain of f where f is (i) concave up; (ii) concave down.\nStart from one side only and simplify line by line.\nUse identities/algebra legally at each step.\nReach target form exactly. Therefore, statement is true.\n\nPart (d)\nMETHOD 1\nGiven: Sketch f, clearly showing any intercepts, asymptotes and the points P and Q.\nStart from one side only and simplify line by line.\nUse identities/algebra legally at each step.\nReach target form exactly. Therefore, statement is true.\n\nMETHOD 2\nStart from the opposite side (or use contradiction).\nShow both sides reduce to the same canonical expression.\n\nPart (e)\nMETHOD 1\nGiven: Use mathematical induction to prove that f (n) (x) = (2nx + n2n\u22121) e2x for all n +, where f (n) (x) represents the nth d\nStart from one side only and simplify line by line.\nUse identities/algebra legally at each step.\nReach target form exactly. Therefore, statement is true.\n\nMETHOD 2\nStart from the opposite side (or use contradiction).\nShow both sides reduce to the same canonical expression.",
+      "worked_solution_text": "Part (a)\nMETHOD 1\nGiven: By considering f (n) (x) for n =1 and n = 2, show that there is one minimum point P on the graph of f, and find the coor\nStart from one side only and simplify line by line.\nUse identities/algebra legally at each step.\nReach target form exactly. Therefore, statement is true.\n\nMETHOD 2\nStart from the opposite side (or use contradiction).\nShow both sides reduce to the same canonical expression.\n\nWorked answer\nAnswer: one minimum point P on the graph of f, and find the coordinates of P\n\nPart (b)\nMETHOD 1\nGiven: Show that f has a point of inflexion Q at x = \u22121.\nStart from one side only and simplify line by line.\nUse identities/algebra legally at each step.\nReach target form exactly. Therefore, statement is true.\n\nMETHOD 2\nStart from the opposite side (or use contradiction).\nShow both sides reduce to the same canonical expression.\n\nPart (c)\nMETHOD 1\nGiven: Determine the intervals on the domain of f where f is (i) concave up; (ii) concave down.\nStart from one side only and simplify line by line.\nUse identities/algebra legally at each step.\nReach target form exactly. Therefore, statement is true.\n\nPart (d)\nMETHOD 1\nGiven: Sketch f, clearly showing any intercepts, asymptotes and the points P and Q.\nStart from one side only and simplify line by line.\nUse identities/algebra legally at each step.\nReach target form exactly. Therefore, statement is true.\n\nMETHOD 2\nStart from the opposite side (or use contradiction).\nShow both sides reduce to the same canonical expression.\n\nPart (e)\nMETHOD 1\nGiven: Use mathematical induction to prove that f (n) (x) = (2nx + n2n\u22121) e2x for all n +, where f (n) (x) represents the nth d\nStart from one side only and simplify line by line.\nUse identities/algebra legally at each step.\nReach target form exactly. Therefore, statement is true.\n\nMETHOD 2\nStart from the opposite side (or use contradiction).\nShow both sides reduce to the same canonical expression.",
       "draft": true,
       "markscheme_image_paths": [
         "images/markschemes/t1_topic_1_4_algebra_mathematical_induction_q3.svg"
@@ -4647,7 +4692,10 @@
             "",
             "METHOD 2",
             "Start from the opposite side (or use contradiction).",
-            "Show both sides reduce to the same canonical expression."
+            "Show both sides reduce to the same canonical expression.",
+            "",
+            "Worked answer",
+            "Answer: (r + 1)2r\u20131"
           ]
         },
         {
@@ -4667,7 +4715,7 @@
           ]
         }
       ],
-      "worked_solution_text": "Part (a)\nMETHOD 1\nGiven: The sum of the first six terms of an arithmetic series is 81. The sum of its first eleven terms is 231. Find the first t\nStart from one side only and simplify line by line.\nUse identities/algebra legally at each step.\nReach target form exactly. Therefore, statement is true.\n\nMETHOD 2\nStart from the opposite side (or use contradiction).\nShow both sides reduce to the same canonical expression.\n\nPart (b)\nMETHOD 1\nGiven: The sum of the first two terms of a geometric series is 1 and the sum of its first four terms is 5. If all of its terms \nStart from one side only and simplify line by line.\nUse identities/algebra legally at each step.\nReach target form exactly. Therefore, statement is true.\n\nMETHOD 2\nStart from the opposite side (or use contradiction).\nShow both sides reduce to the same canonical expression.\n\nPart (c)\nMETHOD 1\nGiven: The rth term of a new series is defined as the product of the rth term of the arithmetic series and the rth term of the \nStart from one side only and simplify line by line.\nUse identities/algebra legally at each step.\nReach target form exactly. Therefore, statement is true.\n\nMETHOD 2\nStart from the opposite side (or use contradiction).\nShow both sides reduce to the same canonical expression.\n\nPart (d)\nMETHOD 1\nGiven: Using mathematical induction, prove that nnr n r nr ,22)1( 1 1 +.\nStart from one side only and simplify line by line.\nUse identities/algebra legally at each step.\nReach target form exactly. Therefore, statement is true.\n\nMETHOD 2\nStart from the opposite side (or use contradiction).\nShow both sides reduce to the same canonical expression.",
+      "worked_solution_text": "Part (a)\nMETHOD 1\nGiven: The sum of the first six terms of an arithmetic series is 81. The sum of its first eleven terms is 231. Find the first t\nStart from one side only and simplify line by line.\nUse identities/algebra legally at each step.\nReach target form exactly. Therefore, statement is true.\n\nMETHOD 2\nStart from the opposite side (or use contradiction).\nShow both sides reduce to the same canonical expression.\n\nPart (b)\nMETHOD 1\nGiven: The sum of the first two terms of a geometric series is 1 and the sum of its first four terms is 5. If all of its terms \nStart from one side only and simplify line by line.\nUse identities/algebra legally at each step.\nReach target form exactly. Therefore, statement is true.\n\nMETHOD 2\nStart from the opposite side (or use contradiction).\nShow both sides reduce to the same canonical expression.\n\nPart (c)\nMETHOD 1\nGiven: The rth term of a new series is defined as the product of the rth term of the arithmetic series and the rth term of the \nStart from one side only and simplify line by line.\nUse identities/algebra legally at each step.\nReach target form exactly. Therefore, statement is true.\n\nMETHOD 2\nStart from the opposite side (or use contradiction).\nShow both sides reduce to the same canonical expression.\n\nWorked answer\nAnswer: (r + 1)2r\u20131\n\nPart (d)\nMETHOD 1\nGiven: Using mathematical induction, prove that nnr n r nr ,22)1( 1 1 +.\nStart from one side only and simplify line by line.\nUse identities/algebra legally at each step.\nReach target form exactly. Therefore, statement is true.\n\nMETHOD 2\nStart from the opposite side (or use contradiction).\nShow both sides reduce to the same canonical expression.",
       "draft": true,
       "markscheme_image_paths": [
         "images/markschemes/t1_topic_1_4_algebra_mathematical_induction_q4.svg"
@@ -4783,7 +4831,10 @@
             "Given: A sequence of numbers has the nth term given by un = 2n + 3, n +. Bill conjectures that all members of the sequence are ",
             "Start from one side only and simplify line by line.",
             "Use identities/algebra legally at each step.",
-            "Reach target form exactly. Therefore, statement is true."
+            "Reach target form exactly. Therefore, statement is true.",
+            "",
+            "Worked answer",
+            "Answer: false"
           ]
         },
         {
@@ -4803,7 +4854,7 @@
           ]
         }
       ],
-      "worked_solution_text": "Part (a)\nMETHOD 1\nGiven: Consider the following sequence of equations. 1 \u00d7 2 = 3 1 (1 \u00d7 2 \u00d7 3), 1 \u00d7 2 + 2 \u00d7 3 = 3 1 (2 \u00d7 3 \u00d7 4), 1 \u00d7 2 + 2 \u00d7 3 + \nStart from one side only and simplify line by line.\nUse identities/algebra legally at each step.\nReach target form exactly. Therefore, statement is true.\n\nPart (b)\nMETHOD 1\nGiven: A sequence of numbers has the nth term given by un = 2n + 3, n +. Bill conjectures that all members of the sequence are \nStart from one side only and simplify line by line.\nUse identities/algebra legally at each step.\nReach target form exactly. Therefore, statement is true.\n\nPart (c)\nMETHOD 1\nGiven: Use mathematical induction to prove that 5 \u00d7 7n + 1 is divisible by 6 for all n +.\nStart from one side only and simplify line by line.\nUse identities/algebra legally at each step.\nReach target form exactly. Therefore, statement is true.\n\nMETHOD 2\nStart from the opposite side (or use contradiction).\nShow both sides reduce to the same canonical expression.",
+      "worked_solution_text": "Part (a)\nMETHOD 1\nGiven: Consider the following sequence of equations. 1 \u00d7 2 = 3 1 (1 \u00d7 2 \u00d7 3), 1 \u00d7 2 + 2 \u00d7 3 = 3 1 (2 \u00d7 3 \u00d7 4), 1 \u00d7 2 + 2 \u00d7 3 + \nStart from one side only and simplify line by line.\nUse identities/algebra legally at each step.\nReach target form exactly. Therefore, statement is true.\n\nPart (b)\nMETHOD 1\nGiven: A sequence of numbers has the nth term given by un = 2n + 3, n +. Bill conjectures that all members of the sequence are \nStart from one side only and simplify line by line.\nUse identities/algebra legally at each step.\nReach target form exactly. Therefore, statement is true.\n\nWorked answer\nAnswer: false\n\nPart (c)\nMETHOD 1\nGiven: Use mathematical induction to prove that 5 \u00d7 7n + 1 is divisible by 6 for all n +.\nStart from one side only and simplify line by line.\nUse identities/algebra legally at each step.\nReach target form exactly. Therefore, statement is true.\n\nMETHOD 2\nStart from the opposite side (or use contradiction).\nShow both sides reduce to the same canonical expression.",
       "draft": true,
       "markscheme_image_paths": [
         "images/markschemes/t1_topic_1_4_algebra_mathematical_induction_q7.svg"
@@ -5115,7 +5166,10 @@
             "Given: Show that when z is a positive real number, L(z) = ln z.",
             "Start from one side only and simplify line by line.",
             "Use identities/algebra legally at each step.",
-            "Reach target form exactly. Therefore, statement is true."
+            "Reach target form exactly. Therefore, statement is true.",
+            "",
+            "Worked answer",
+            "Answer: a positive real number, L(z) = ln z"
           ]
         },
         {
@@ -5147,7 +5201,7 @@
           ]
         }
       ],
-      "worked_solution_text": "Part (a)\nMETHOD 1\nGiven: Show that when z is a positive real number, L(z) = ln z.\nStart from one side only and simplify line by line.\nUse identities/algebra legally at each step.\nReach target form exactly. Therefore, statement is true.\n\nPart (b)\nMETHOD 1\nGiven: Use the equation to calculate (i) L(\u20131); (ii) L(1 \u2013 i); (iii) L(\u20131 + i).\nStart from one side only and simplify line by line.\nUse identities/algebra legally at each step.\nReach target form exactly. Therefore, statement is true.\n\nMETHOD 2\nStart from the opposite side (or use contradiction).\nShow both sides reduce to the same canonical expression.\n\nPart (c)\nMETHOD 1\nGiven: Hence show that the property L(z1z2) = L(z1) + L(z2) does not hold for all values of z1 and z2.\nStart from one side only and simplify line by line.\nUse identities/algebra legally at each step.\nReach target form exactly. Therefore, statement is true.",
+      "worked_solution_text": "Part (a)\nMETHOD 1\nGiven: Show that when z is a positive real number, L(z) = ln z.\nStart from one side only and simplify line by line.\nUse identities/algebra legally at each step.\nReach target form exactly. Therefore, statement is true.\n\nWorked answer\nAnswer: a positive real number, L(z) = ln z\n\nPart (b)\nMETHOD 1\nGiven: Use the equation to calculate (i) L(\u20131); (ii) L(1 \u2013 i); (iii) L(\u20131 + i).\nStart from one side only and simplify line by line.\nUse identities/algebra legally at each step.\nReach target form exactly. Therefore, statement is true.\n\nMETHOD 2\nStart from the opposite side (or use contradiction).\nShow both sides reduce to the same canonical expression.\n\nPart (c)\nMETHOD 1\nGiven: Hence show that the property L(z1z2) = L(z1) + L(z2) does not hold for all values of z1 and z2.\nStart from one side only and simplify line by line.\nUse identities/algebra legally at each step.\nReach target form exactly. Therefore, statement is true.",
       "draft": true,
       "markscheme_image_paths": [
         "images/markschemes/t1_topic_1_5_algebra_complex_numbers_q5.svg"
