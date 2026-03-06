@@ -1,0 +1,386 @@
+#!/usr/bin/env python3
+"""Build AA HL question bank from raw papers and markschemes (multi-session)."""
+
+from __future__ import annotations
+
+import json
+import re
+import sys
+from dataclasses import dataclass
+from pathlib import Path
+from typing import Dict, List, Optional, Tuple
+
+ROOT = Path(__file__).resolve().parents[1]
+DEPS = ROOT / ".deps"
+if DEPS.exists():
+    sys.path.insert(0, str(DEPS))
+
+from pypdf import PdfReader  # type: ignore
+
+PAPERS_DIR = ROOT / "data" / "raw" / "papers"
+MARKSCHEMES_DIR = ROOT / "data" / "raw" / "markschemes"
+OUT_FILE = ROOT / "data" / "processed" / "questions.json"
+
+FILE_PAPER_RE = re.compile(r"paper_(?P<paper>\d)", re.IGNORECASE)
+FILE_TZ_RE = re.compile(r"(?:__|_)TZ(?P<tz>\d)_HL", re.IGNORECASE)
+EXAM_RE = re.compile(r"\b(?P<code>[MN]\d{2})/5/MATHX/HP(?P<paper>\d)/ENG(?:/TZ(?P<tz>\d))?/XX")
+PREFIX_RE = re.compile(r"^(?P<code>[mn]\d{2})_")
+
+
+@dataclass
+class PaperMeta:
+    filename: str
+    paper_no: int
+    session: str
+    session_code: str
+    tz: Optional[int]
+
+    @property
+    def paper_type(self) -> str:
+        return f"Paper {self.paper_no}"
+
+    @property
+    def paper_label(self) -> str:
+        if self.tz is None:
+            return f"{self.session} {self.paper_type} HL"
+        return f"{self.session} {self.paper_type} TZ{self.tz} HL"
+
+
+def normalize_ws(text: str) -> str:
+    text = text.replace("\xa0", " ")
+    text = text.replace("\ufeff", "")
+    text = re.sub(r"[ \t]+", " ", text)
+    text = re.sub(r"\n{3,}", "\n\n", text)
+    return text.strip()
+
+
+def normalize_for_dedupe(text: str) -> str:
+    return re.sub(r"[^a-z0-9]+", "", text.lower())
+
+
+def clean_lines(text: str) -> List[str]:
+    lines: List[str] = []
+    for raw in text.splitlines():
+        line = raw.replace("\xa0", " ").strip()
+        if not line:
+            lines.append("")
+            continue
+
+        if re.match(r"^–\s*\d+\s*–\s*[MN]\d{2}/5/MATHX/HP\d/ENG(?:/TZ\d)?/XX(?:/M)?\s*$", line):
+            continue
+        if line in {"Turn over", "Section A", "Section B"}:
+            continue
+        if re.match(r"^\d+\s*pages$", line, re.IGNORECASE):
+            continue
+        if re.match(r"^\.+$", line):
+            continue
+
+        lines.append(line)
+
+    compact: List[str] = []
+    for line in lines:
+        if line == "" and compact and compact[-1] == "":
+            continue
+        compact.append(line)
+    return compact
+
+
+def extract_pdf_text(path: Path) -> str:
+    reader = PdfReader(str(path))
+    pages = [(page.extract_text() or "") for page in reader.pages]
+    return "\n".join(pages)
+
+
+def pair_key(filename: str) -> str:
+    base = filename.lower()
+    base = re.sub(r"_markscheme", "", base)
+    base = re.sub(r"\.pdf$", "", base)
+    return base
+
+
+def session_label_from_code(code: str) -> str:
+    year = f"20{code[1:]}"
+    return f"May {year}" if code.startswith("M") else f"November {year}"
+
+
+def detect_exam_info(path: Path) -> Tuple[str, str, Optional[int], Optional[int]]:
+    reader = PdfReader(str(path))
+    sample = "\n".join((reader.pages[i].extract_text() or "") for i in range(min(3, len(reader.pages))))
+    m = EXAM_RE.search(sample)
+    if not m:
+        pm = PREFIX_RE.match(path.name)
+        if pm:
+            code = pm.group("code").lower()
+            session = session_label_from_code(code.upper())
+            return (code, session, None, None)
+        return ("u00", "Unknown Session", None, None)
+
+    code = m.group("code").lower()
+    session = session_label_from_code(m.group("code"))
+    tz_str = m.group("tz")
+    paper_str = m.group("paper")
+    tz = int(tz_str) if tz_str else None
+    if tz == 0:
+        tz = None
+    return (code, session, tz, int(paper_str) if paper_str else None)
+
+
+def parse_meta(path: Path) -> PaperMeta:
+    name = path.name
+    m = FILE_PAPER_RE.search(name)
+    if not m:
+        raise ValueError(f"Could not parse paper number from {name}")
+    paper_no = int(m.group("paper"))
+
+    code, session, tz, paper_from_code = detect_exam_info(path)
+    if paper_from_code is not None:
+        paper_no = paper_from_code
+    if tz is None:
+        mtz = FILE_TZ_RE.search(name)
+        if mtz:
+            tz = int(mtz.group("tz"))
+
+    return PaperMeta(
+        filename=name,
+        paper_no=paper_no,
+        session=session,
+        session_code=code,
+        tz=tz,
+    )
+
+
+def parse_questions_from_paper(path: Path) -> Dict[int, Dict[str, object]]:
+    text = extract_pdf_text(path)
+    lines = clean_lines(text)
+    content = "\n".join(lines)
+
+    content = re.sub(
+        r"(?m)^([1-9])\s*\n\1\.\s*\[Maximum mark:",
+        lambda m: f"{m.group(1)}{m.group(1)}. [Maximum mark:",
+        content,
+    )
+
+    q_re = re.compile(
+        r"(?ms)^\s*(?P<num>\d+)\.\s*\[Maximum mark:\s*(?P<marks>\d+)\]\s*(?P<body>.*?)(?=^\s*\d+\.\s*\[Maximum mark:|\Z)"
+    )
+
+    out: Dict[int, Dict[str, object]] = {}
+    for m in q_re.finditer(content):
+        qn = int(m.group("num"))
+        marks = int(m.group("marks"))
+        body = normalize_ws(m.group("body"))
+        out[qn] = {
+            "marks": marks,
+            "question_text": body,
+        }
+    return out
+
+
+def parse_answers_from_markscheme(path: Path) -> Dict[int, str]:
+    text = extract_pdf_text(path)
+    lines = clean_lines(text)
+
+    start_idx = 0
+    for i, line in enumerate(lines):
+        if (
+            re.match(r"^1\.\s*\(a\)", line)
+            or re.match(r"^Question\s+1\b", line)
+            or re.match(r"^1\s+METHOD\b", line)
+            or line == "Section A"
+        ):
+            start_idx = i
+            break
+
+    q_starts = [
+        re.compile(r"^(?P<num>\d+)\.(?:\s|$)"),
+        re.compile(r"^(?P<num>\d+)\s+\("),
+        re.compile(r"^(?P<num>\d+)\s+METHOD\b"),
+        re.compile(r"^Question\s+(?P<num>\d+)\b", re.IGNORECASE),
+    ]
+
+    answers: Dict[int, List[str]] = {}
+    current: int | None = None
+
+    for raw_line in lines[start_idx:]:
+        line = raw_line.strip()
+        if not line:
+            if current is not None:
+                answers.setdefault(current, []).append("")
+            continue
+
+        new_q: int | None = None
+        for patt in q_starts:
+            m = patt.match(line)
+            if m:
+                new_q = int(m.group("num"))
+                break
+
+        if new_q is not None and (current is None or new_q != current):
+            current = new_q
+
+        if current is None:
+            continue
+
+        line = re.sub(r"^Question\s+\d+\s+continued\s*$", "", line, flags=re.IGNORECASE).strip()
+        if not line:
+            continue
+        answers.setdefault(current, []).append(line)
+
+    result: Dict[int, str] = {}
+    for qn, block in answers.items():
+        text_block = "\n".join(block)
+        text_block = re.sub(r"\n{3,}", "\n\n", text_block)
+        result[qn] = normalize_ws(text_block)
+    return result
+
+
+def classify_topic(question_text: str, answer_text: str) -> Tuple[str, str]:
+    text = f"{question_text} {answer_text}".lower()
+    rules: List[Tuple[re.Pattern[str], Tuple[str, str]]] = [
+        (
+            re.compile(r"\b(vector|vectors|parametric|cartesian equation|direction vector|plane)\b"),
+            ("Geometry and Trigonometry", "Vectors in 2D and 3D"),
+        ),
+        (
+            re.compile(r"\b(sin|cos|tan|cot|sec|cosec|trigonometric|radian)\b"),
+            ("Geometry and Trigonometry", "Trigonometric identities and equations"),
+        ),
+        (
+            re.compile(r"\b(random variable|probability|normal distribution|hypothesis|correlation|regression|quartile|outlier|variance|mean)\b"),
+            ("Statistics and Probability", "Probability distributions"),
+        ),
+        (
+            re.compile(r"\b(differentiat|derivative|integrat|chain rule|product rule|maclaurin|tangent|stationary|limit|continuity|differential equation)\b"),
+            ("Calculus", "Differentiation"),
+        ),
+        (
+            re.compile(r"\b(complex|arg|modulus|conjugate|re\(z\)|im\(z\))\b"),
+            ("Number and Algebra", "Complex numbers"),
+        ),
+        (
+            re.compile(r"\b(sequence|series|arithmetic sequence|geometric sequence|summation)\b"),
+            ("Number and Algebra", "Sequences and series"),
+        ),
+        (
+            re.compile(r"\b(induction|prove by induction)\b"),
+            ("Number and Algebra", "Proof by induction"),
+        ),
+        (
+            re.compile(r"\b(binomial theorem|expansion|coefficient)\b"),
+            ("Number and Algebra", "Binomial theorem"),
+        ),
+        (
+            re.compile(r"\b(function|inverse|domain|range|composite|logarithm|exponential|f\(x\)|g\(x\))\b"),
+            ("Functions", "Domain, range and composition"),
+        ),
+    ]
+
+    for pattern, result in rules:
+        if pattern.search(text):
+            return result
+
+    return ("Functions", "Transformations and modelling")
+
+
+def make_title(qnum: int, question_text: str) -> str:
+    flat = re.sub(r"\s+", " ", question_text).strip()
+    if not flat:
+        return f"Question {qnum}"
+    short = flat[:90]
+    if len(flat) > 90:
+        short = short.rstrip() + "..."
+    return f"Q{qnum}: {short}"
+
+
+def tz_sort_value(paper_label: str) -> int:
+    m = re.search(r"TZ(\d)", paper_label)
+    if not m:
+        return 999
+    return int(m.group(1))
+
+
+def build() -> Dict[str, object]:
+    papers = sorted(PAPERS_DIR.glob("*.pdf"))
+    markschemes = sorted(MARKSCHEMES_DIR.glob("*.pdf"))
+
+    ms_map = {pair_key(p.name): p for p in markschemes}
+    records: List[Dict[str, object]] = []
+
+    for paper_path in papers:
+        key = pair_key(paper_path.name)
+        ms_path = ms_map.get(key)
+        if not ms_path:
+            continue
+
+        meta = parse_meta(paper_path)
+        q_map = parse_questions_from_paper(paper_path)
+        a_map = parse_answers_from_markscheme(ms_path)
+
+        for qn in sorted(q_map.keys()):
+            q = q_map[qn]
+            ans = a_map.get(qn, "Markscheme content not extracted for this question.")
+            topic, subtopic = classify_topic(str(q["question_text"]), ans)
+
+            tz_part = f"_tz{meta.tz}" if meta.tz is not None else ""
+            rec_id = f"{meta.session_code}_p{meta.paper_no}{tz_part}_q{qn}"
+
+            records.append(
+                {
+                    "id": rec_id,
+                    "paper": meta.paper_label,
+                    "session": meta.session,
+                    "session_code": meta.session_code,
+                    "paper_type": meta.paper_type,
+                    "question_number": str(qn),
+                    "title": make_title(qn, str(q["question_text"])),
+                    "topic": topic,
+                    "subtopic": subtopic,
+                    "question_text": q["question_text"],
+                    "answer_text": ans,
+                    "marks": q["marks"],
+                    "source": {
+                        "paper_file": paper_path.name,
+                        "markscheme_file": ms_path.name,
+                    },
+                }
+            )
+
+    records.sort(
+        key=lambda r: (
+            r.get("session_code", ""),
+            int(str(r.get("paper_type", "Paper 0")).split()[-1]),
+            tz_sort_value(str(r.get("paper", ""))),
+            int(r["question_number"]),
+        )
+    )
+
+    # Remove exact repeated question+answer pairs across sessions/variants.
+    deduped: List[Dict[str, object]] = []
+    seen: set[Tuple[str, str]] = set()
+    for rec in records:
+        sig = (
+            normalize_for_dedupe(str(rec.get("question_text", ""))),
+            normalize_for_dedupe(str(rec.get("answer_text", ""))),
+        )
+        if sig in seen:
+            continue
+        seen.add(sig)
+        deduped.append(rec)
+
+    sessions = sorted({str(q.get("session", "")) for q in deduped if q.get("session")})
+
+    return {
+        "course": "IB Mathematics: Analysis and Approaches HL",
+        "sessions": sessions,
+        "questions": deduped,
+    }
+
+
+def main() -> None:
+    payload = build()
+    OUT_FILE.write_text(json.dumps(payload, indent=2, ensure_ascii=True) + "\n", encoding="utf-8")
+    print(f"Wrote {len(payload['questions'])} questions to {OUT_FILE}")
+
+
+if __name__ == "__main__":
+    main()

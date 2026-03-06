@@ -1,0 +1,56 @@
+{
+  "course": "IB Mathematics: Analysis and Approaches HL",
+  "topics": [
+    {
+      "id": "topic-1",
+      "name": "Number and Algebra",
+      "subtopics": [
+        "Sequences and series",
+        "Binomial theorem",
+        "Proof by induction",
+        "Complex numbers"
+      ]
+    },
+    {
+      "id": "topic-2",
+      "name": "Functions",
+      "subtopics": [
+        "Domain, range and composition",
+        "Inverse functions",
+        "Exponential and logarithmic functions",
+        "Transformations and modelling"
+      ]
+    },
+    {
+      "id": "topic-3",
+      "name": "Geometry and Trigonometry",
+      "subtopics": [
+        "Trigonometric identities and equations",
+        "Radian measure",
+        "Vectors in 2D and 3D",
+        "Lines and planes"
+      ]
+    },
+    {
+      "id": "topic-4",
+      "name": "Statistics and Probability",
+      "subtopics": [
+        "Probability distributions",
+        "Discrete and continuous random variables",
+        "Hypothesis testing",
+        "Correlation and regression"
+      ]
+    },
+    {
+      "id": "topic-5",
+      "name": "Calculus",
+      "subtopics": [
+        "Limits and continuity",
+        "Differentiation",
+        "Integration",
+        "Differential equations",
+        "Maclaurin series"
+      ]
+    }
+  ]
+}
