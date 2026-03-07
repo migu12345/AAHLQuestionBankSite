@@ -24,6 +24,12 @@ const caseStudyBackdrop = document.getElementById("caseStudyBackdrop");
 const caseStudyCloseBtn = document.getElementById("caseStudyCloseBtn");
 const caseStudyBody = document.getElementById("caseStudyBody");
 const caseStudyTitle = document.getElementById("caseStudyTitle");
+const compareModal = document.getElementById("compareModal");
+const compareBackdrop = document.getElementById("compareBackdrop");
+const compareCloseBtn = document.getElementById("compareCloseBtn");
+const compareTitle = document.getElementById("compareTitle");
+const compareQuestionBody = document.getElementById("compareQuestionBody");
+const compareMarkschemeBody = document.getElementById("compareMarkschemeBody");
 
 function inferLevel(q) {
   if (q.level === "SL" || q.level === "HL") {
@@ -254,6 +260,59 @@ function closeCaseStudyModal() {
   document.body.style.overflow = "";
 }
 
+function openCompareModal(q) {
+  if (!compareModal || !compareQuestionBody || !compareMarkschemeBody || !compareTitle) {
+    return;
+  }
+
+  compareQuestionBody.innerHTML = "";
+  compareMarkschemeBody.innerHTML = "";
+
+  const qImages = Array.isArray(q.question_image_paths) ? q.question_image_paths : [];
+  const msImages = Array.isArray(q.markscheme_image_paths) ? q.markscheme_image_paths : [];
+
+  if (qImages.length > 0) {
+    qImages.forEach((imgPath, index) => {
+      compareQuestionBody.appendChild(
+        createImageWithFallback(imgPath, `Question ${q.question_number || ""} image ${index + 1}`)
+      );
+    });
+  } else {
+    const p = document.createElement("p");
+    p.className = "compare-fallback";
+    p.textContent = q.question_text || "No extracted question text.";
+    compareQuestionBody.appendChild(p);
+  }
+
+  if (msImages.length > 0) {
+    msImages.forEach((imgPath, index) => {
+      compareMarkschemeBody.appendChild(
+        createImageWithFallback(imgPath, `Markscheme ${q.question_number || ""} image ${index + 1}`)
+      );
+    });
+  } else {
+    const p = document.createElement("p");
+    p.className = "compare-fallback";
+    p.textContent = q.answer_text || "No extracted markscheme text.";
+    compareMarkschemeBody.appendChild(p);
+  }
+
+  const qLabel = `${q.question_number || ""}`.trim();
+  compareTitle.textContent = qLabel ? `Side by side - Q${qLabel}` : "Side by side view";
+  compareModal.hidden = false;
+  document.body.style.overflow = "hidden";
+}
+
+function closeCompareModal() {
+  if (!compareModal || !compareQuestionBody || !compareMarkschemeBody) {
+    return;
+  }
+  compareModal.hidden = true;
+  compareQuestionBody.innerHTML = "";
+  compareMarkschemeBody.innerHTML = "";
+  document.body.style.overflow = "";
+}
+
 function buildQuestionNode(q) {
   const node = questionTemplate.content.cloneNode(true);
   const questionImagesEl = node.querySelector(".question-images");
@@ -261,6 +320,7 @@ function buildQuestionNode(q) {
   const questionTextEl = node.querySelector(".question");
   const answerTextEl = node.querySelector(".answer");
   const titleEl = node.querySelector(".title");
+  const sideBySideBtn = node.querySelector(".side-by-side-btn");
 
   const marks = Number.isFinite(q.marks) ? `${q.marks} marks` : "marks n/a";
   node.querySelector(".meta").textContent = `${q.paper || "Unknown paper"} | ${q.topic || "Unsorted"} | ${q.subtopic || "Unsorted"} | ${marks}`;
@@ -275,6 +335,9 @@ function buildQuestionNode(q) {
     titleEl.textContent = fallbackTitle;
   } else {
     titleEl.textContent = cleanPreviewText(q.title || "") || fallbackTitle;
+  }
+  if (sideBySideBtn) {
+    sideBySideBtn.addEventListener("click", () => openCompareModal(q));
   }
 
   // Case study button intentionally hidden for now.
@@ -385,9 +448,18 @@ function bindEvents() {
   if (caseStudyCloseBtn) {
     caseStudyCloseBtn.addEventListener("click", closeCaseStudyModal);
   }
+  if (compareBackdrop) {
+    compareBackdrop.addEventListener("click", closeCompareModal);
+  }
+  if (compareCloseBtn) {
+    compareCloseBtn.addEventListener("click", closeCompareModal);
+  }
   document.addEventListener("keydown", (event) => {
     if (event.key === "Escape" && caseStudyModal && !caseStudyModal.hidden) {
       closeCaseStudyModal();
+    }
+    if (event.key === "Escape" && compareModal && !compareModal.hidden) {
+      closeCompareModal();
     }
   });
 }
