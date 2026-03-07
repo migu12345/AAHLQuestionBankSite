@@ -632,7 +632,12 @@ def remove_sl_hl_overlaps(records: List[Dict[str, object]]) -> List[Dict[str, ob
         grouped.setdefault(key, []).append(rec)
 
     to_remove: set[str] = set()
-    for bucket in grouped.values():
+    for key, bucket in grouped.items():
+        # Keep no-timezone HL papers intact from their own source paper.
+        # Do not remove HL entries here based on SL overlaps.
+        if key[2] == "none":
+            continue
+
         hls = [r for r in bucket if str(r.get("level", "")) == "HL"]
         sls = [r for r in bucket if str(r.get("level", "")) == "SL"]
         if not hls or not sls:

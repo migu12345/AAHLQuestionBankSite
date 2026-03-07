@@ -12215,6 +12215,36 @@
       ]
     },
     {
+      "id": "n21_p1_q4_hl",
+      "paper": "November 2021 Paper 1 HL",
+      "session": "November 2021",
+      "session_code": "n21",
+      "paper_type": "Paper 1",
+      "level": "HL",
+      "question_number": "4",
+      "title": "Q4: Box 1 contains 5 red balls and 2 white balls. Box 2 contains 4 red balls and 3 white balls...",
+      "topic": "Statistics and Probability",
+      "subtopic": "Probability distributions",
+      "topic_confidence": 0.6,
+      "topic_reason": [
+        "fallback:stats-terms"
+      ],
+      "question_text": "Box 1 contains 5 red balls and 2 white balls.\nBox 2 contains 4 red balls and 3 white balls.\n(a) A box is chosen at random and a ball is drawn. Find the probability that the ball is red. [3]\nLet A be the event that \u201cbox 1 is chosen\u201d and let R be the event that \u201ca red ball is drawn\u201d.\n(b) Determine whether events A and R are independent. [2]\n. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .\n. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .\n. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .\n. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .\n. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .\n. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .\n. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .\n. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .\n. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .\n. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .\n. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .\n. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .\n16EP07\n\u2013 8 \u2013\nN21/5/MATHX/HP1/ENG/TZ0/XX\n8821 \u2013 7101",
+      "answer_text": "4. (a) valid approach to find\n( )P R (M1)\ntree diagram (must include probabilty of picking box) with correct required probabilities\nOR\n( ) ( ) 12PPR B R B\uf0c7 + \uf0c7 OR\n( ) ( ) ( ) ( )1 1 2 2P | P P | PR B B R B B +\n5 1 4 1\n7 2 7 2\uf0d7 + \uf0d7\n(A1)\n( ) 9P 14R =\nA1\n[3 marks]\n(b) events A and R are not independent, since\n9 1 5\n14 2 14\uf0d7\uf0b9 OR\n59\n7 14\uf0b9 OR\n51\n92\uf0b9\nOR an explanation e.g. different number of red balls in each box A2\nNote: Both conclusion and reasoning are required. Do not split the A2.\n[2 marks]\nTotal [5 marks]",
+      "marks": 5,
+      "source": {
+        "paper_file": "Mathematics_analysis_and_approaches_paper_1__HL.pdf",
+        "markscheme_file": "Mathematics_analysis_and_approaches_paper_1__HL_markscheme.pdf"
+      },
+      "question_image_paths": [
+        "images/questions/n21_p1_q4_hl_p1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/markschemes/n21_p1_q4_hl_p1.png",
+        "images/markschemes/n21_p1_q4_hl_p2.png"
+      ]
+    },
+    {
       "id": "n21_p1_q4_sl",
       "paper": "November 2021 Paper 1 SL",
       "session": "November 2021",
@@ -12242,6 +12272,40 @@
       "markscheme_image_paths": [
         "images/markschemes/n21_p1_q4_sl_p1.png",
         "images/markschemes/n21_p1_q4_sl_p2.png"
+      ]
+    },
+    {
+      "id": "n21_p1_q5_hl",
+      "paper": "November 2021 Paper 1 HL",
+      "session": "November 2021",
+      "session_code": "n21",
+      "paper_type": "Paper 1",
+      "level": "HL",
+      "question_number": "5",
+      "title": "Q5: The function f is defined for all x \u2208 \uf0a1 . The line with equation y = 6x - 1 is the tangent...",
+      "topic": "Calculus",
+      "subtopic": "Differentiation",
+      "topic_confidence": 0.571,
+      "topic_reason": [
+        "topic:Calculus=42",
+        "subtopic:Differentiation=42",
+        "Calculus:Differentiation+42",
+        "Geometry and Trigonometry:Lines and planes+18",
+        "runner-up:Geometry and Trigonometry=18"
+      ],
+      "question_text": "The function f is defined for all x \u2208 \uf0a1 . The line with equation y = 6x - 1 is the tangent to\nthe graph of f at x = 4 .\n(a) Write down the value of f \u2032(4) . [1]\n(b) Find f (4) . [1]\nThe function g is defined for all x \u2208 \uf0a1 where g (x) = x2 - 3x and h (x) = f (g (x)) .\n(c) Find h (4). [2]\n(d) Hence find the equation of the tangent to the graph of h at x = 4 . [3]\n. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .\n. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .\n. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .\n. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .\n. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .\n. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .\n. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .\n. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .\n. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .\n. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .\n. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .\n. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .\n16EP08\n\u2013 9 \u2013\nN21/5/MATHX/HP1/ENG/TZ0/XX\n8821 \u2013 7101",
+      "answer_text": "5. (a)\n(4) 6f \uf0a2 = A1\n[1 mark]\n(b)\n(4) 6 4 1 23f = \uf0b4 \u2212 = A1\n[1 mark]\n(c)\n( )(4) (4)h f g = (M1)\n2(4) (4 3 4) (4)h f f= \u2212 \uf0b4 =\n(4) 23h =\nA1\n[2 marks]\n(d) attempt to use chain rule to find\nh\uf0a2 (M1)\n( )( ) ( )f g x g x\uf0a2\uf0a2 \uf0b4\nOR\n( ) ( )\n22 33x x f x x \uf0a2 \uf0a2\u2212 \uf0b4 \u2212\n( ) ( )\n2(4) 2 4 3 4 3 4hf\uf0a2\uf0a2 = \uf0b4 \u2212 \u2212 \uf0b4\nA1\n30=\n( )23 30 4yx\u2212 = \u2212\nOR\n30 97yx=\u2212 A1\n[3 marks]\nTotal [7 marks]",
+      "marks": 7,
+      "source": {
+        "paper_file": "Mathematics_analysis_and_approaches_paper_1__HL.pdf",
+        "markscheme_file": "Mathematics_analysis_and_approaches_paper_1__HL_markscheme.pdf"
+      },
+      "question_image_paths": [
+        "images/questions/n21_p1_q5_hl_p1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/markschemes/n21_p1_q5_hl_p1.png",
+        "images/markschemes/n21_p1_q5_hl_p2.png"
       ]
     },
     {
@@ -12276,6 +12340,39 @@
       "markscheme_image_paths": [
         "images/markschemes/n21_p1_q5_sl_p1.png",
         "images/markschemes/n21_p1_q5_sl_p2.png"
+      ]
+    },
+    {
+      "id": "n21_p1_q6_hl",
+      "paper": "November 2021 Paper 1 HL",
+      "session": "November 2021",
+      "session_code": "n21",
+      "paper_type": "Paper 1",
+      "level": "HL",
+      "question_number": "6",
+      "title": "Q6: (a) Show that 26 2 5323 11 xxx xx ---- = -- , x \u2208 \uf0a1 , x \u2260 1 . [2] (b) Hence or otherwise,...",
+      "topic": "Geometry and Trigonometry",
+      "subtopic": "Trigonometric identities and equations",
+      "topic_confidence": 0.98,
+      "topic_reason": [
+        "topic:Geometry and Trigonometry=24",
+        "subtopic:Trigonometric identities and equations=24",
+        "Geometry and Trigonometry:Trigonometric identities and equations+24"
+      ],
+      "question_text": "(a) Show that\n26 2 5323 11\nxxx xx\n---- = --\n, x \u2208 \uf0a1\u2009, x \u2260 1 . [2]\n(b) Hence or otherwise, solve the equation 22 3 6\n21 0sin sin\u03b8 \u03b8\u2212\u2212 \u2212 = for 0 \u2264 \u03b8 \u2264 \u03c0 , \u03b8 \u2260 \u03c0\n4\n. [5]\n. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .\n. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .\n. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .\n. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .\n. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .\n. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .\n. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .\n. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .\n. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .\n. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .\n. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .\n. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .\n16EP09\n\u2013 10 \u2013\nN21/5/MATHX/HP1/ENG/TZ0/XX\n8821 \u2013 7101",
+      "answer_text": "6. (a) METHOD 1\nattempt to write all LHS terms over a common denominator of\n1x \u2212 (M1)\n( ) ( )2 1 3 1 6623 11\nx x xx xx\n\u2212 \u2212 \u2212 \u2212\u2212 \u2212 = \u2212\u2212\nOR\n( )( )2 3 1 6\n11\nxx\nxx\n\u2212\u2212 \u2212\u2212\u2212\n22 2 3 3 6\n1\nx x x\nx\n\u2212 \u2212 + \u2212= \u2212\nOR\n22 5 3 6\n11\nxx\nxx\n\u2212+ \u2212\u2212\u2212 A1\n22 5 3\n1\nxx\nx\n\u2212\u2212= \u2212\nAG\n[2 marks]\nMETHOD 2\nattempt to use algebraic division on RHS (M1)\ncorrectly obtains quotient of\n23x \u2212 and remainder\n6\u2212 A1\n623 1x x= \u2212 \u2212 \u2212\nas required. AG\n[2 marks]\ncontinue\u2026\nQuestion 6 continued.\n(b) consider the equation\n22sin 2 5sin 2 3 0sin 2 1\n\uf071\uf071\n\uf071\n\u2212\u2212 =\u2212 (M1)\n22sin 2 5sin 2 3 0\uf071\uf071\uf0de \u2212 \u2212 =\n\nEITHER\nattempt to factorise in the form\n( )( )2sin 2 sin 2ab\uf071\uf071++ (M1)\nNote: Accept any variable in place of\nsin 2\uf071 .\n( )( )2sin 2 1 sin 2 3 0\uf071\uf071+ \u2212 =\nOR\nattempt to substitute into quadratic formula (M1)\n5 49sin 2 4\uf071 \uf0b1=\nTHEN\n1sin 2 2\uf071 =\u2212\nor\nsin2 3\uf071 = (A1)\nNote: Award A1 for\n1sin 2 2\uf071 =\u2212 only.\none of\n7\u03c0\n6 OR\n11\u03c0\n6 (accept 210 or 330) (A1)\n7\u03c0 11\u03c0,12 12\uf071 =\n(must be in radians) A1\nNote: Award A0 if additional answers given.\n[5 marks]\nTotal [7 marks]",
+      "marks": 7,
+      "source": {
+        "paper_file": "Mathematics_analysis_and_approaches_paper_1__HL.pdf",
+        "markscheme_file": "Mathematics_analysis_and_approaches_paper_1__HL_markscheme.pdf"
+      },
+      "question_image_paths": [
+        "images/questions/n21_p1_q6_hl_p1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/markschemes/n21_p1_q6_hl_p1.png",
+        "images/markschemes/n21_p1_q6_hl_p2.png",
+        "images/markschemes/n21_p1_q6_hl_p3.png"
       ]
     },
     {
@@ -13709,6 +13806,38 @@
       ]
     },
     {
+      "id": "n22_p1_q6_hl",
+      "paper": "November 2022 Paper 1 HL",
+      "session": "November 2022",
+      "session_code": "n22",
+      "paper_type": "Paper 1",
+      "level": "HL",
+      "question_number": "6",
+      "title": "Q6: Events A and B are such that P (A) = 0.3 and P (B) = 0.8 . (a) Determine the value of P (...",
+      "topic": "Calculus",
+      "subtopic": "Differentiation",
+      "topic_confidence": 0.98,
+      "topic_reason": [
+        "topic:Calculus=6",
+        "subtopic:Differentiation=6",
+        "Calculus:Differentiation+6"
+      ],
+      "question_text": "Events A and B are such that P (A) = 0.3 and P (B) = 0.8 .\n(a) Determine the value of P ( A \u2229\u2009B ) in the case where the events A and B are independent. [1]\n(b) Determine the minimum possible value of P ( A \u2229\u2009B ) . [3]\n(c) Determine the maximum possible value of P ( A \u2229\u2009B ) , justifying your answer. [2]\n. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .\n. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .\n. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .\n. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .\n. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .\n. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .\n. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .\n. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .\n. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .\n. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .\n. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .\n. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .\n12EP07\n\u2013 8 \u2013 8822 \u2013 7101\nN22/5/MATHX/HP1/ENG/TZ0/XX",
+      "answer_text": "6. (a) ( )P 0.24AB\u2229= A1\n[1 m\nark]\n(b) ( ) ( )P 1.1 PAB AB\u222a=\u2212 \u2229 (A1 )\n( ) ( )0P 1 AB\u2264 \u222a\u2264 (M1)\nN\note: This may be conveyed in a clearly labelled diagram or written explanation\nwhere ( )P1AB\u222a=\nthe\nminimum value of ( )P AB\u2229 is 0.1 A1\n[3 m\narks]\n(c) A\nis a subset of B (so ( ) ( )PPAB A\u2229= ). R1\nNote: This may be conveyed in a clearly labelled diagram where A is completely\ninside B , or in a written explanation indicating that ( ) ( )PPAB A\u2229=\nso t he maximum value of ( )P AB\u2229 is 0.3 A1\nNot\ne: Do not award R0A1.\n[2 marks]\nTotal [6 marks]",
+      "marks": 6,
+      "source": {
+        "paper_file": "n22_Mathematics_analysis_and_approaches_paper_1__HL.pdf",
+        "markscheme_file": "n22_Mathematics_analysis_and_approaches_paper_1__HL_markscheme.pdf"
+      },
+      "question_image_paths": [
+        "images/questions/n22_p1_q6_hl_p1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/markschemes/n22_p1_q6_hl_p1.png",
+        "images/markschemes/n22_p1_q6_hl_p2.png"
+      ]
+    },
+    {
       "id": "n22_p1_q6_sl",
       "paper": "November 2022 Paper 1 SL",
       "session": "November 2022",
@@ -14056,6 +14185,36 @@
         "images/markschemes/n22_p1_q12_hl_p2.png",
         "images/markschemes/n22_p1_q12_hl_p3.png",
         "images/markschemes/n22_p1_q12_hl_p4.png"
+      ]
+    },
+    {
+      "id": "n22_p2_q1_hl",
+      "paper": "November 2022 Paper 2 HL",
+      "session": "November 2022",
+      "session_code": "n22",
+      "paper_type": "Paper 2",
+      "level": "HL",
+      "question_number": "1",
+      "title": "Q1: The following table shows the Mathematics test scores (x) and the Science test scores (y)...",
+      "topic": "Statistics and Probability",
+      "subtopic": "Correlation and regression",
+      "topic_confidence": 0.99,
+      "topic_reason": [
+        "anchor:regression"
+      ],
+      "question_text": "The following table shows the Mathematics test scores (x) and the Science test scores (y)\nfor a group of eight students.\nMathematics\nscores (x) 64 68 72 75 80 82 85 86\nScience\nscores (y) 67 72 77 76 84 83 89 91\nThe regression line of y on x for this data can be written in the form y = ax + b .\n(a) Find the value of a and the value of b . [2]\n(b) Write down the value of the Pearson\u2019s product-moment correlation coefficient, r . [1]\n(c) Use the equation of your regression line to predict the Science test score for a\nstudent who has a score of 78 on the Mathematics test. Express your answer to the\nnearest integer. [2]\n. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .\n. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .\n. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .\n. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .\n. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .\n. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .\n. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .\n. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .\n. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .\n. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .\n. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .\n. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .\n12EP02\n\u2013 3 \u2013 8822 \u2013 7102\nN22/5/MATHX/HP2/ENG/TZ0/XX",
+      "answer_text": "1. (a) 1.01206\u2026, 2.45230\u2026\na =1.01 , b = 2.45 (1.01x + 2.45) A1A1\n[2 marks]\n(b) 0.981464\u2026\n0.981r = A1\nNot\ne: A common err or is to enter the data incorrectly into the GDC, and obtain the\nanswers 1.01700..., 2.09814... and 0.980888...ab r= = = Some candidates\nmay write the 3 sf answers, ie. 1.02, 2.10 and 0.981ab r= = = or 2 sf\nanswers, ie. 1.0, 2.1 and 0.98ab r= = = . In these cases award A0A0 for\npart (a) and A0 for part (b). Even though some values round to an accepted\nanswer, they come from incorrect working.\n[1 m ark]\n(\nc) correct substitution of 78 into their regression equation (M1)\n81.3930\u2026 , 81.23 from 3 sf answer\n81 A1\n[2 m\narks]\nTotal [5 marks]",
+      "marks": 5,
+      "source": {
+        "paper_file": "n22_Mathematics_analysis_and_approaches_paper_2__HL.pdf",
+        "markscheme_file": "n22_Mathematics_analysis_and_approaches_paper_2__HL_markscheme.pdf"
+      },
+      "question_image_paths": [
+        "images/questions/n22_p2_q1_hl_p1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/markschemes/n22_p2_q1_hl_p1.png",
+        "images/markschemes/n22_p2_q1_hl_p2.png"
       ]
     },
     {
