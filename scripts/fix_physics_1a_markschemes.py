@@ -3,8 +3,9 @@ from __future__ import annotations
 
 import json
 import sys
+import re
 from pathlib import Path
-from typing import Dict
+from typing import Dict, Tuple
 
 ROOT = Path(__file__).resolve().parents[1]
 DEPS = ROOT / ".deps"
@@ -47,6 +48,34 @@ def render_1a_key_image(ms_file: str) -> str | None:
     return out_file.relative_to(REL_BASE).as_posix()
 
 
+def parse_1a_answer_map(ms_file: str) -> Dict[int, str]:
+    pdf_path = find_pdf(ms_file)
+    if not pdf_path:
+        return {}
+    doc = fitz.open(pdf_path)
+    page_index = 2 if len(doc) >= 3 else len(doc) - 1
+    if page_index < 0:
+        doc.close()
+        return {}
+    text = doc[page_index].get_text("text")
+    doc.close()
+
+    tokens = [ln.strip() for ln in text.splitlines() if ln.strip()]
+    answers: Dict[int, str] = {}
+    i = 0
+    while i < len(tokens) - 1:
+        m = re.match(r"^(\d{1,2})\.$", tokens[i])
+        if m:
+            qn = int(m.group(1))
+            nxt = tokens[i + 1].strip().upper()
+            if nxt in {"A", "B", "C", "D"}:
+                answers[qn] = nxt
+            i += 2
+            continue
+        i += 1
+    return answers
+
+
 def main() -> None:
     payload = json.loads(QUESTIONS_JSON.read_text(encoding="utf-8"))
     questions = payload.get("questions", [])
@@ -54,21 +83,25 @@ def main() -> None:
     one_a = [q for q in questions if str(q.get("paper_type", "")).strip() == "Paper 1A"]
     files = sorted({(q.get("source") or {}).get("markscheme_file", "") for q in one_a if (q.get("source") or {}).get("markscheme_file", "")})
 
-    ms_map: Dict[str, str] = {}
+    ms_map: Dict[str, Tuple[str, Dict[int, str]]] = {}
     for ms_file in files:
         rel = render_1a_key_image(ms_file)
+        ans = parse_1a_answer_map(ms_file)
         if rel:
-            ms_map[ms_file] = rel
+            ms_map[ms_file] = (rel, ans)
 
     attached = 0
     for q in one_a:
         ms_file = (q.get("source") or {}).get("markscheme_file", "")
-        rel = ms_map.get(ms_file)
-        if not rel:
+        mapped = ms_map.get(ms_file)
+        if not mapped:
             continue
+        rel, ans_map = mapped
         q["markscheme_image_paths"] = [rel]
         q["markscheme_images"] = [rel]
         q["has_markscheme"] = True
+        qn = int(str(q.get("question_number", "0")) or 0)
+        q["mcq_answer"] = ans_map.get(qn, "")
         attached += 1
 
     QUESTIONS_JSON.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
@@ -77,4 +110,3 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
-

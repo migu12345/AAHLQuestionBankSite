@@ -329,6 +329,7 @@ function buildQuestionNode(q) {
 
   const qImages = Array.isArray(q.question_image_paths) ? q.question_image_paths : [];
   const msImages = Array.isArray(q.markscheme_image_paths) ? q.markscheme_image_paths : [];
+  const mcqAnswer = String(q.mcq_answer || "").trim().toUpperCase();
   const hasAnyImage = qImages.length > 0 || msImages.length > 0;
   const questionNumber = `${q.question_number || ""}`.trim();
   const fallbackTitle = questionNumber ? `Q${questionNumber}` : "Question";
@@ -408,7 +409,13 @@ function buildQuestionNode(q) {
     questionTextEl.hidden = false;
   }
 
-  if (msImages.length > 0) {
+  if (mcqAnswer && String(q.paper_type || "").trim() === "Paper 1A") {
+    const answerChip = document.createElement("p");
+    answerChip.className = "compare-fallback";
+    answerChip.textContent = `Answer: ${mcqAnswer}`;
+    markschemeImagesEl.appendChild(answerChip);
+    answerTextEl.hidden = true;
+  } else if (msImages.length > 0) {
     msImages.forEach((imgPath, index) => {
       const img = createImageWithFallback(imgPath, `Markscheme ${q.question_number || ""} image ${index + 1}`);
       markschemeImagesEl.appendChild(img);
@@ -432,6 +439,7 @@ function openCompareModal(q) {
 
   const qImages = Array.isArray(q.question_image_paths) ? q.question_image_paths : [];
   const msImages = Array.isArray(q.markscheme_image_paths) ? q.markscheme_image_paths : [];
+  const mcqAnswer = String(q.mcq_answer || "").trim().toUpperCase();
 
   if (qImages.length > 0) {
     qImages.forEach((imgPath, index) => {
@@ -446,7 +454,12 @@ function openCompareModal(q) {
     compareQuestionBody.appendChild(p);
   }
 
-  if (msImages.length > 0) {
+  if (mcqAnswer && String(q.paper_type || "").trim() === "Paper 1A") {
+    const p = document.createElement("p");
+    p.className = "compare-fallback";
+    p.textContent = `Answer: ${mcqAnswer}`;
+    compareMarkschemeBody.appendChild(p);
+  } else if (msImages.length > 0) {
     msImages.forEach((imgPath, index) => {
       compareMarkschemeBody.appendChild(
         createImageWithFallback(imgPath, `Markscheme ${q.question_number || ""} image ${index + 1}`)
