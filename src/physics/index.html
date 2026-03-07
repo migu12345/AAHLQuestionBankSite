@@ -20,16 +20,39 @@
         <h1>Physics Bank</h1>
         <a class="hero-link" href="../index.html">Home</a>
       </div>
-      <p>IB Physics question bank space is now live and ready for data import.</p>
+      <p>May 2025 Physics papers ready: Paper 1A, 1B and 2 (SL/HL, TZ1/TZ2/TZ3).</p>
     </header>
 
     <main class="layout">
-      <section class="panel">
-        <h2>Coming Next</h2>
-        <p class="count-line">
-          Physics tab is created. Import pipeline and filters can be connected next (SL/HL, Paper 1/2/3, year, session, timezone, topic).
-        </p>
+      <section class="paper-picker">
+        <label>
+          Level
+          <select id="physicsLevelFilter">
+            <option value="">All levels</option>
+          </select>
+        </label>
+
+        <label>
+          Paper
+          <select id="physicsPaperFilter">
+            <option value="">All papers</option>
+          </select>
+        </label>
+
+        <label>
+          Time zone
+          <select id="physicsTzFilter">
+            <option value="">All timezones</option>
+          </select>
+        </label>
+      </section>
+
+      <section class="paper-launcher">
+        <p id="physicsSelectionLabel" class="count-line"></p>
+        <div id="physicsPaperButtons" class="paper-buttons"></div>
       </section>
     </main>
+
+    <script src="app.js"></script>
   </body>
 </html>

@@ -158,6 +158,11 @@ body {
   width: min(1460px, 96%);
 }
 
+.aa-bank-page .hero-wide,
+.aa-bank-page .layout-wide {
+  width: min(1240px, 95%);
+}
+
 .site-cover {
   position: relative;
   overflow: hidden;
@@ -730,6 +735,11 @@ button:hover {
   grid-template-rows: auto minmax(0, 1fr);
 }
 
+.aa-bank-page .compare-modal-panel {
+  width: min(1100px, 94vw);
+  height: min(86vh, 860px);
+}
+
 .compare-modal-header {
   display: flex;
   align-items: center;
@@ -817,6 +827,16 @@ button:hover {
   border-radius: 12px;
   background: #fff;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.04);
+}
+
+.aa-bank-page .question-images img,
+.aa-bank-page .markscheme-images img {
+  width: auto;
+  max-width: 100%;
+  max-height: 72vh;
+  object-fit: contain;
+  display: block;
+  margin: 0 auto;
 }
 
 .fallback-text {
