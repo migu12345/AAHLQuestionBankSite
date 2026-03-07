@@ -146,6 +146,30 @@ function refreshTimezoneOptions() {
 }
 
 function openPaper(paper) {
+  window.location.href = `aa-bank.html?${buildBaseParams(paper).toString()}`;
+}
+
+function getExamDurationMinutes(level, paperNo) {
+  const lvl = String(level || "").toUpperCase();
+  const p = Number(paperNo);
+  if (lvl === "SL") {
+    if (p === 1 || p === 2) {
+      return 90;
+    }
+    return null;
+  }
+  if (lvl === "HL") {
+    if (p === 1 || p === 2) {
+      return 120;
+    }
+    if (p === 3) {
+      return 60;
+    }
+  }
+  return null;
+}
+
+function buildBaseParams(paper) {
   const params = new URLSearchParams();
   params.set("bundle", "1");
   params.set("level", paper.level);
@@ -153,6 +177,16 @@ function openPaper(paper) {
   params.set("session", paper.session);
   params.set("tz", paper.timezone);
   params.set("paperNo", String(paper.paperNo));
+  return params;
+}
+
+function openPaperInExamMode(paper) {
+  const duration = getExamDurationMinutes(paper.level, paper.paperNo);
+  const params = buildBaseParams(paper);
+  if (duration) {
+    params.set("exam", "1");
+    params.set("durationMin", String(duration));
+  }
   window.location.href = `aa-bank.html?${params.toString()}`;
 }
 
@@ -175,12 +209,44 @@ function renderPaperButtons() {
   }
 
   items.forEach((paper) => {
-    const btn = document.createElement("button");
-    btn.type = "button";
-    btn.className = "paper-open-btn";
-    btn.innerHTML = `<strong>${paper.session} ${paper.year} ${paper.timezone}</strong><span>Paper ${paper.paperNo} • ${paper.level}</span>`;
-    btn.addEventListener("click", () => openPaper(paper));
-    paperButtons.appendChild(btn);
+    const wrapper = document.createElement("article");
+    wrapper.className = "paper-open-card";
+
+    const head = document.createElement("p");
+    head.className = "paper-open-head";
+    head.textContent = `${paper.session} ${paper.year} ${paper.timezone}`;
+
+    const sub = document.createElement("p");
+    sub.className = "paper-open-sub";
+    sub.textContent = `Paper ${paper.paperNo} • ${paper.level}`;
+
+    const actions = document.createElement("div");
+    actions.className = "paper-open-actions";
+
+    const openBtn = document.createElement("button");
+    openBtn.type = "button";
+    openBtn.className = "paper-open-btn";
+    openBtn.textContent = "Open paper";
+    openBtn.addEventListener("click", () => openPaper(paper));
+
+    const examBtn = document.createElement("button");
+    examBtn.type = "button";
+    examBtn.className = "paper-exam-btn";
+    const duration = getExamDurationMinutes(paper.level, paper.paperNo);
+    if (duration) {
+      examBtn.textContent = `Start exam mode (${duration}m)`;
+      examBtn.addEventListener("click", () => openPaperInExamMode(paper));
+    } else {
+      examBtn.textContent = "Exam mode unavailable";
+      examBtn.disabled = true;
+    }
+
+    actions.appendChild(openBtn);
+    actions.appendChild(examBtn);
+    wrapper.appendChild(head);
+    wrapper.appendChild(sub);
+    wrapper.appendChild(actions);
+    paperButtons.appendChild(wrapper);
   });
 }
 

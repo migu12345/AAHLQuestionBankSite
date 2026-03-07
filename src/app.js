@@ -4,6 +4,14 @@ const state = {
   filteredQuestions: [],
   visibleCount: 0,
   paperBundle: null,
+  examMode: {
+    enabled: false,
+    durationSeconds: 0,
+    started: false,
+    ended: false,
+    endTs: 0,
+    timerId: null,
+  },
 };
 const PAGE_SIZE = 10;
 
@@ -27,6 +35,10 @@ const compareCloseBtn = document.getElementById("compareCloseBtn");
 const compareTitle = document.getElementById("compareTitle");
 const compareQuestionBody = document.getElementById("compareQuestionBody");
 const compareMarkschemeBody = document.getElementById("compareMarkschemeBody");
+const examModeBar = document.getElementById("examModeBar");
+const examModeInfo = document.getElementById("examModeInfo");
+const examModeStartBtn = document.getElementById("examModeStartBtn");
+const examModeEndBtn = document.getElementById("examModeEndBtn");
 
 function inferLevel(q) {
   if (q.level === "SL" || q.level === "HL") {
@@ -276,6 +288,7 @@ function buildQuestionNode(q) {
   const titleEl = node.querySelector(".title");
   const tagsEl = node.querySelector(".card-tags");
   const sideBySideBtn = node.querySelector(".side-by-side-btn");
+  const markschemeDetails = node.querySelector("details");
 
   const marks = Number.isFinite(q.marks) ? `${q.marks} marks` : "marks n/a";
   node.querySelector(".meta").textContent = `${q.paper || "Unknown paper"} | ${q.topic || "Unsorted"} | ${q.subtopic || "Unsorted"} | ${marks}`;
@@ -298,6 +311,18 @@ function buildQuestionNode(q) {
     badge.className = `difficulty-tag difficulty-${difficulty.toLowerCase()}`;
     badge.textContent = difficulty;
     tagsEl.appendChild(badge);
+  }
+  const examLocked = state.examMode.enabled && state.examMode.started && !state.examMode.ended;
+  if (examLocked) {
+    sideBySideBtn.hidden = true;
+    if (markschemeDetails) {
+      markschemeDetails.hidden = true;
+    }
+  } else {
+    sideBySideBtn.hidden = false;
+    if (markschemeDetails) {
+      markschemeDetails.hidden = false;
+    }
   }
   sideBySideBtn.addEventListener("click", () => openCompareModal(q));
 
@@ -377,6 +402,89 @@ function closeCompareModal() {
   compareQuestionBody.innerHTML = "";
   compareMarkschemeBody.innerHTML = "";
   document.body.style.overflow = "";
+}
+
+function formatDuration(seconds) {
+  const s = Math.max(0, Math.floor(seconds));
+  const h = Math.floor(s / 3600);
+  const m = Math.floor((s % 3600) / 60);
+  const sec = s % 60;
+  if (h > 0) {
+    return `${h}:${String(m).padStart(2, "0")}:${String(sec).padStart(2, "0")}`;
+  }
+  return `${m}:${String(sec).padStart(2, "0")}`;
+}
+
+function stopExamTimer() {
+  if (state.examMode.timerId) {
+    clearInterval(state.examMode.timerId);
+    state.examMode.timerId = null;
+  }
+}
+
+function updateExamBarText() {
+  if (!examModeInfo || !state.examMode.enabled) {
+    return;
+  }
+  if (!state.examMode.started && !state.examMode.ended) {
+    examModeInfo.textContent = `Exam mode ready • duration ${formatDuration(state.examMode.durationSeconds)}`;
+    return;
+  }
+  if (state.examMode.started && !state.examMode.ended) {
+    const remaining = Math.max(0, Math.floor((state.examMode.endTs - Date.now()) / 1000));
+    examModeInfo.textContent = `Exam mode running • time left ${formatDuration(remaining)}`;
+    return;
+  }
+  examModeInfo.textContent = "Exam mode complete • markschemes unlocked";
+}
+
+function finishExamMode() {
+  stopExamTimer();
+  state.examMode.started = false;
+  state.examMode.ended = true;
+  if (examModeStartBtn) {
+    examModeStartBtn.hidden = true;
+  }
+  if (examModeEndBtn) {
+    examModeEndBtn.hidden = true;
+  }
+  updateExamBarText();
+  renderQuestions(true);
+}
+
+function startExamMode() {
+  state.examMode.started = true;
+  state.examMode.ended = false;
+  state.examMode.endTs = Date.now() + state.examMode.durationSeconds * 1000;
+  if (examModeStartBtn) {
+    examModeStartBtn.hidden = true;
+  }
+  if (examModeEndBtn) {
+    examModeEndBtn.hidden = false;
+  }
+  updateExamBarText();
+  renderQuestions(true);
+  stopExamTimer();
+  state.examMode.timerId = setInterval(() => {
+    const remaining = Math.floor((state.examMode.endTs - Date.now()) / 1000);
+    if (remaining <= 0) {
+      finishExamMode();
+      return;
+    }
+    updateExamBarText();
+  }, 1000);
+}
+
+function setupExamModeUi() {
+  if (!state.examMode.enabled || !examModeBar || !examModeInfo || !examModeStartBtn || !examModeEndBtn) {
+    return;
+  }
+  examModeBar.hidden = false;
+  examModeStartBtn.hidden = false;
+  examModeEndBtn.hidden = true;
+  updateExamBarText();
+  examModeStartBtn.addEventListener("click", startExamMode);
+  examModeEndBtn.addEventListener("click", finishExamMode);
 }
 
 function updateResultSummary() {
@@ -496,6 +604,16 @@ function applyInitialQueryFilters() {
   const subtopic = params.get("subtopic");
   const difficulty = params.get("difficulty");
   const search = params.get("search");
+  const exam = params.get("exam");
+  const durationMin = params.get("durationMin");
+
+  if (exam === "1" && durationMin) {
+    const mins = Number(durationMin);
+    if (Number.isFinite(mins) && mins > 0) {
+      state.examMode.enabled = true;
+      state.examMode.durationSeconds = Math.round(mins * 60);
+    }
+  }
 
   if (bundle === "1" && level && year && session && tz && paperNo) {
     state.paperBundle = {
@@ -594,6 +712,7 @@ async function start() {
     await loadData();
     hydrateFilters();
     applyInitialQueryFilters();
+    setupExamModeUi();
     bindEvents();
     renderQuestions(true);
   } catch (error) {

@@ -123,6 +123,31 @@ body {
   font-size: 1rem;
 }
 
+.exam-mode-bar {
+  margin-top: 0.8rem;
+  border: 1px solid #bedccf;
+  border-radius: 12px;
+  background: #eff8f4;
+  padding: 0.6rem 0.7rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.7rem;
+  flex-wrap: wrap;
+}
+
+.exam-mode-info {
+  margin: 0;
+  color: #1f3b31;
+  font-weight: 600;
+}
+
+.exam-mode-actions {
+  display: flex;
+  align-items: center;
+  gap: 0.45rem;
+}
+
 .layout {
   width: min(1100px, 92%);
   margin: 0 auto 2.8rem;
@@ -188,12 +213,39 @@ body {
   gap: 0.8rem;
 }
 
-.paper-open-btn {
-  min-height: 4rem;
+.paper-open-card {
+  min-height: 5.4rem;
   text-align: left;
   padding: 0.7rem 0.8rem;
   display: grid;
-  gap: 0.2rem;
+  gap: 0.35rem;
+  background: #f8fbff;
+  border: 1px solid #d8e5f7;
+  border-radius: 12px;
+}
+
+.paper-open-head {
+  margin: 0;
+  font-weight: 700;
+  color: #1f3561;
+}
+
+.paper-open-sub {
+  margin: 0;
+  font-size: 0.88rem;
+  color: #3f4f68;
+}
+
+.paper-open-actions {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.paper-open-btn {
+  min-height: 2.1rem;
+  text-align: left;
+  padding: 0.42rem 0.7rem;
   background: #edf5ff;
   border-color: #cadcf6;
   color: #1f3561;
@@ -207,6 +259,25 @@ body {
   font-weight: 600;
   font-size: 0.86rem;
   color: #334d79;
+}
+
+.paper-exam-btn {
+  min-height: 2.1rem;
+  padding: 0.42rem 0.7rem;
+  background: #e8f6ee;
+  border-color: #bedccf;
+  color: #1a5e43;
+}
+
+.paper-exam-btn:hover {
+  background: #dff0e8;
+}
+
+.paper-exam-btn:disabled {
+  background: #f3f4f7;
+  border-color: #d6d9df;
+  color: #7a8496;
+  cursor: not-allowed;
 }
 
 .formula-widget {
