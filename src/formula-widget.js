@@ -20,8 +20,7 @@
           <button type="button" id="formulaZoomOut" aria-label="Zoom out">-</button>
           <button type="button" id="formulaZoomIn" aria-label="Zoom in">+</button>
           <button type="button" id="formulaZoomReset" aria-label="Reset zoom">100%</button>
-          <button type="button" id="formulaToggle" aria-label="Minimize formula panel">_</button>
-          <button type="button" id="formulaClose" aria-label="Close formula panel">×</button>
+          <button type="button" id="formulaClose" aria-label="Close formula panel">Close</button>
         </div>
       </header>
       <div class="formula-widget-body" id="formulaWidgetBody">
@@ -33,12 +32,10 @@
     document.body.appendChild(widget);
 
     const header = document.getElementById("formulaWidgetHeader");
-    const body = document.getElementById("formulaWidgetBody");
     const iframe = document.getElementById("formulaIframe");
     const zoomInBtn = document.getElementById("formulaZoomIn");
     const zoomOutBtn = document.getElementById("formulaZoomOut");
     const zoomResetBtn = document.getElementById("formulaZoomReset");
-    const toggleBtn = document.getElementById("formulaToggle");
     const closeBtn = document.getElementById("formulaClose");
 
     const launcher = document.createElement("button");
@@ -114,24 +111,30 @@
         applyZoom();
       });
     }
-    if (toggleBtn && body) {
-      toggleBtn.addEventListener("click", () => {
-        const hidden = body.classList.toggle("collapsed");
-        toggleBtn.textContent = hidden ? "+" : "_";
-        toggleBtn.setAttribute("aria-label", hidden ? "Expand formula panel" : "Minimize formula panel");
-      });
+    function closeWidget() {
+      widget.style.display = "none";
+      launcher.hidden = false;
+    }
+
+    function openWidget() {
+      widget.style.display = "";
+      launcher.hidden = true;
     }
 
     if (closeBtn) {
+      closeBtn.addEventListener("pointerdown", (ev) => {
+        ev.stopPropagation();
+      });
       closeBtn.addEventListener("click", () => {
-        widget.hidden = true;
-        launcher.hidden = false;
+        closeWidget();
+      });
+      closeBtn.addEventListener("pointerup", () => {
+        closeWidget();
       });
     }
 
     launcher.addEventListener("click", () => {
-      widget.hidden = false;
-      launcher.hidden = true;
+      openWidget();
     });
 
     applyZoom();
