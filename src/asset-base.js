@@ -1,5 +1,6 @@
 (function () {
   const STORAGE_KEY = "asset_base_url_v1";
+  const DEFAULT_ASSET_BASE_URL = "https://pub-f7419ca433e9434bad2f9e89e252c205.r2.dev";
 
   function normalizeBase(raw) {
     const value = String(raw || "").trim();
@@ -15,10 +16,14 @@
       return fromWindow;
     }
     try {
-      return normalizeBase(window.localStorage.getItem(STORAGE_KEY));
+      const fromStorage = normalizeBase(window.localStorage.getItem(STORAGE_KEY));
+      if (fromStorage) {
+        return fromStorage;
+      }
     } catch (_error) {
-      return "";
+      // Ignore storage failures and fall back to default.
     }
+    return normalizeBase(DEFAULT_ASSET_BASE_URL);
   }
 
   function isAbsoluteUrl(path) {
