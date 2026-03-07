@@ -20,7 +20,6 @@
             </button>
             <input id="searchInput" class="hero-search-input" type="text" placeholder="Search (e.g. hl p2 functions q6 2023)" />
           </div>
-          <a class="hero-link" href="/data/resources/aa_hl_formula_booklet_2024.pdf" target="_blank" rel="noopener noreferrer">Formula Booklet</a>
           <a class="hero-link" href="index.html">Home</a>
         </div>
       </div>
@@ -121,6 +120,12 @@
       </div>
     </div>
 
+    <script src="formula-widget.js"></script>
     <script src="app.js"></script>
+    <script>
+      initFormulaWidget({
+        pdfUrl: "/data/resources/aa_hl_formula_booklet_2024.pdf",
+      });
+    </script>
   </body>
 </html>
