@@ -100,6 +100,28 @@ function filteredQuestions() {
   });
 }
 
+function legacyImageRelPath(relPath) {
+  return String(relPath || "").replace(/_(sl|hl)(?=(_p\d+)?\.png$)/i, "");
+}
+
+function createImageWithFallback(relPath, altText) {
+  const img = document.createElement("img");
+  img.alt = altText;
+  img.loading = "lazy";
+  img.src = `/data/tutoring/processed/${relPath}`;
+  const legacyRelPath = legacyImageRelPath(relPath);
+  if (legacyRelPath !== relPath) {
+    img.addEventListener(
+      "error",
+      () => {
+        img.src = `/data/tutoring/processed/${legacyRelPath}`;
+      },
+      { once: true }
+    );
+  }
+  return img;
+}
+
 function buildTutorNode(q) {
   const node = tutorQuestionTemplate.content.cloneNode(true);
   const questionImagesEl = node.querySelector(".question-images");
@@ -112,10 +134,7 @@ function buildTutorNode(q) {
   const qImages = Array.isArray(q.question_image_paths) ? q.question_image_paths : [];
   if (qImages.length > 0) {
     qImages.forEach((imgPath, index) => {
-      const img = document.createElement("img");
-      img.src = `/data/tutoring/processed/${imgPath}`;
-      img.alt = `Tutor question ${q.question_number || ""} image ${index + 1}`;
-      img.loading = "lazy";
+      const img = createImageWithFallback(imgPath, `Tutor question ${q.question_number || ""} image ${index + 1}`);
       questionImagesEl.appendChild(img);
     });
     questionTextEl.hidden = true;
@@ -127,10 +146,7 @@ function buildTutorNode(q) {
   const msImages = state.markschemeImagesById[q.id] || [];
   if (msImages.length > 0) {
     msImages.forEach((imgPath, index) => {
-      const img = document.createElement("img");
-      img.src = `/data/tutoring/processed/${imgPath}`;
-      img.alt = `Tutor markscheme ${q.question_number || ""} image ${index + 1}`;
-      img.loading = "lazy";
+      const img = createImageWithFallback(imgPath, `Tutor markscheme ${q.question_number || ""} image ${index + 1}`);
       markschemeImagesEl.appendChild(img);
     });
     markschemeTextEl.hidden = true;

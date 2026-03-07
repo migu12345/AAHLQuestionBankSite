@@ -211,10 +211,7 @@ function buildQuestionNode(q) {
 
   if (qImages.length > 0) {
     qImages.forEach((imgPath, index) => {
-      const img = document.createElement("img");
-      img.src = `../data/processed/${imgPath}`;
-      img.alt = `Question ${q.question_number || ""} image ${index + 1}`;
-      img.loading = "lazy";
+      const img = createImageWithFallback(imgPath, `Question ${q.question_number || ""} image ${index + 1}`);
       questionImagesEl.appendChild(img);
     });
     questionTextEl.hidden = true;
@@ -225,10 +222,7 @@ function buildQuestionNode(q) {
 
   if (msImages.length > 0) {
     msImages.forEach((imgPath, index) => {
-      const img = document.createElement("img");
-      img.src = `../data/processed/${imgPath}`;
-      img.alt = `Markscheme ${q.question_number || ""} image ${index + 1}`;
-      img.loading = "lazy";
+      const img = createImageWithFallback(imgPath, `Markscheme ${q.question_number || ""} image ${index + 1}`);
       markschemeImagesEl.appendChild(img);
     });
     answerTextEl.hidden = true;
@@ -283,6 +277,28 @@ function cleanPreviewText(text) {
     .replace(/[]/g, " ")
     .replace(/\.{3,}/g, "...")
     .trim();
+}
+
+function legacyImageRelPath(relPath) {
+  return String(relPath || "").replace(/_(sl|hl)(?=(_p\d+)?\.png$)/i, "");
+}
+
+function createImageWithFallback(relPath, altText) {
+  const img = document.createElement("img");
+  img.alt = altText;
+  img.loading = "lazy";
+  img.src = `../data/processed/${relPath}`;
+  const legacyRelPath = legacyImageRelPath(relPath);
+  if (legacyRelPath !== relPath) {
+    img.addEventListener(
+      "error",
+      () => {
+        img.src = `../data/processed/${legacyRelPath}`;
+      },
+      { once: true }
+    );
+  }
+  return img;
 }
 
 function bindEvents() {

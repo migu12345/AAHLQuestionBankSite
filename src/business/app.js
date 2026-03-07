@@ -199,6 +199,28 @@ function cleanPreviewText(text) {
     .trim();
 }
 
+function legacyImageRelPath(relPath) {
+  return String(relPath || "").replace(/_(sl|hl)(?=(_p\d+)?\.png$)/i, "");
+}
+
+function createImageWithFallback(relPath, altText) {
+  const img = document.createElement("img");
+  img.alt = altText;
+  img.loading = "lazy";
+  img.src = `../data/business/processed/${relPath}`;
+  const legacyRelPath = legacyImageRelPath(relPath);
+  if (legacyRelPath !== relPath) {
+    img.addEventListener(
+      "error",
+      () => {
+        img.src = `../data/business/processed/${legacyRelPath}`;
+      },
+      { once: true }
+    );
+  }
+  return img;
+}
+
 function openCaseStudyModal(imagePaths, paperLabel) {
   if (!caseStudyModal || !caseStudyBody || !Array.isArray(imagePaths)) {
     return;
@@ -259,10 +281,7 @@ function buildQuestionNode(q) {
 
   if (qImages.length > 0) {
     qImages.forEach((imgPath, index) => {
-      const img = document.createElement("img");
-      img.src = `../data/business/processed/${imgPath}`;
-      img.alt = `Question ${q.question_number || ""} image ${index + 1}`;
-      img.loading = "lazy";
+      const img = createImageWithFallback(imgPath, `Question ${q.question_number || ""} image ${index + 1}`);
       questionImagesEl.appendChild(img);
     });
     questionTextEl.hidden = true;
@@ -273,10 +292,7 @@ function buildQuestionNode(q) {
 
   if (msImages.length > 0) {
     msImages.forEach((imgPath, index) => {
-      const img = document.createElement("img");
-      img.src = `../data/business/processed/${imgPath}`;
-      img.alt = `Markscheme ${q.question_number || ""} image ${index + 1}`;
-      img.loading = "lazy";
+      const img = createImageWithFallback(imgPath, `Markscheme ${q.question_number || ""} image ${index + 1}`);
       markschemeImagesEl.appendChild(img);
     });
     answerTextEl.hidden = true;
