@@ -197,14 +197,7 @@ function buildQuestionNode(q) {
     titleEl.textContent = cleanPreviewText(q.title || "") || fallbackTitle;
   }
 
-  if (q.paper_type === "Paper 2" && q.case_study_file) {
-    const caseBtn = document.createElement("button");
-    caseBtn.className = "case-study-link";
-    caseBtn.type = "button";
-    caseBtn.textContent = "Case study";
-    caseBtn.addEventListener("click", () => openCaseStudyModal(q.case_study_image_paths || [], q.paper));
-    titleEl.after(caseBtn);
-  }
+  // Case study button intentionally hidden for now.
 
   if (qImages.length > 0) {
     qImages.forEach((imgPath, index) => {
