@@ -135,8 +135,16 @@ def crop_question(doc: fitz.Document, positions: List[Pos], qnum: int, out_base:
             # More generous top padding prevents clipped first text lines.
             top = max(24.0, cur.y - 22.0)
         if nxt is not None and pno == nxt.page:
-            bottom = min(bottom, nxt.y - 2.0)
-        # If adjacent starts produce a tiny strip, expand to include enough content.
+            # Guard against false "next question" hits in mid/lower page
+            # (for example diagram labels or in-question numbering).
+            # IB question starts are expected near page top.
+            if nxt.y <= page.rect.height * 0.35:
+                bottom = min(bottom, nxt.y - 2.0)
+        # If the "end at next question start" on this page leaves only a tiny strip,
+        # skip this page instead of expanding into the next question content.
+        if nxt is not None and pno == nxt.page and bottom <= top + 80.0:
+            continue
+        # Otherwise, for genuine tiny first-page crops, expand to include enough content.
         if bottom <= top + 80.0:
             bottom = min(float(page.rect.height) - 18.0, top + 720.0)
         if bottom <= top + 40.0:
