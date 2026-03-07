@@ -105,10 +105,17 @@ def detect_starts(doc: fitz.Document, kind: str) -> List[StartPos]:
     starts: Dict[int, Tuple[int, float]] = {}
     start_page = 0
     if kind == "markscheme":
-        # Skip examiner instructions pages; real question starts appear after "Section A".
+        # Skip examiner instructions pages.
         for pno in range(len(doc)):
             txt = doc[pno].get_text("text")
             if re.search(r"\bsection\s*a\b", txt, flags=re.IGNORECASE):
+                start_page = pno
+                break
+        # Many IB markschemes contain numbered examiner guidance pages after "Section A".
+        # Start at the first page that actually has question mark allocations.
+        for pno in range(start_page, len(doc)):
+            txt = doc[pno].get_text("text")
+            if re.search(r"\[\d+\s*marks?\]", txt, flags=re.IGNORECASE):
                 start_page = pno
                 break
     for pno in range(start_page, len(doc)):
@@ -264,7 +271,8 @@ def crop_question(
             # Keep content right up to the next heading without clipping tail lines.
             bottom = min(bottom, n.y - 2.0)
 
-        if bottom <= top + 15.0:
+        # Ignore tiny boundary slices (typically just page headers/footers).
+        if bottom <= top + 80.0:
             continue
 
         clip = fitz.Rect(left, top, right, bottom)
