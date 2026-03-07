@@ -5,6 +5,7 @@ const state = {
   visibleCount: 0,
   paperBundle: null,
   paperSourceFile: "",
+  paperSourcePath: "",
   paperNoMarkscheme: false,
   examMode: {
     enabled: false,
@@ -520,7 +521,13 @@ function renderQuestions(reset = true) {
     if (state.filteredQuestions.length === 0) {
       resultCount.textContent = "0 question(s)";
       if (state.paperBundle && state.paperSourceFile) {
-        const paperUrl = `/data/raw/papers/${encodeURIComponent(state.paperSourceFile)}`;
+        const relPath = state.paperSourcePath || `raw/papers/${state.paperSourceFile}`;
+        const safePath = relPath
+          .split("/")
+          .filter(Boolean)
+          .map((part) => encodeURIComponent(part))
+          .join("/");
+        const paperUrl = `/data/${safePath}`;
         const msNote = state.paperNoMarkscheme
           ? '<p class="paper-only-note">No markscheme available for this paper yet.</p>'
           : "";
@@ -639,6 +646,7 @@ function applyInitialQueryFilters() {
   const exam = params.get("exam");
   const durationMin = params.get("durationMin");
   const sourcePaper = params.get("sourcePaper");
+  const sourcePaperPath = params.get("sourcePaperPath");
   const noMs = params.get("noMs");
 
   if (bundle === "1" && level && year && session && tz && paperNo) {
@@ -650,6 +658,7 @@ function applyInitialQueryFilters() {
       paperNo: Number(paperNo),
     };
     state.paperSourceFile = sourcePaper || "";
+    state.paperSourcePath = sourcePaperPath || "";
     state.paperNoMarkscheme = noMs === "1";
     if ([...levelFilter.options].some((o) => o.value === level)) {
       levelFilter.value = level;

@@ -8,6 +8,7 @@
       "timezone": "TZ1",
       "level": "HL",
       "paper_file": "n25_Mathematics_analysis_and_approaches_paper_1__TZ1_HL.pdf",
+      "paper_path": "resources/n25_Mathematics_analysis_and_approaches_paper_1__TZ1_HL.pdf",
       "has_markscheme": false
     },
     {
@@ -18,6 +19,7 @@
       "timezone": "TZ1",
       "level": "HL",
       "paper_file": "n25_Mathematics_analysis_and_approaches_paper_2__TZ1_HL.pdf",
+      "paper_path": "resources/n25_Mathematics_analysis_and_approaches_paper_2__TZ1_HL.pdf",
       "has_markscheme": false
     }
   ]

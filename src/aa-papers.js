@@ -74,6 +74,7 @@ async function loadData() {
       level: String(paper.level || "").toUpperCase(),
       paperLabel: label,
       paperFile: paper.paper_file || "",
+      paperPath: paper.paper_path || "",
       hasMarkscheme: paper.has_markscheme !== false,
       isManual: true,
     });
@@ -172,6 +173,9 @@ function openPaper(paper) {
   const params = buildBaseParams(paper);
   if (paper.isManual && paper.paperFile) {
     params.set("sourcePaper", paper.paperFile);
+    if (paper.paperPath) {
+      params.set("sourcePaperPath", paper.paperPath);
+    }
     if (paper.hasMarkscheme === false) {
       params.set("noMs", "1");
     }
@@ -215,6 +219,9 @@ function openPaperInExamMode(paper) {
   const params = buildBaseParams(paper);
   if (paper.isManual && paper.paperFile) {
     params.set("sourcePaper", paper.paperFile);
+    if (paper.paperPath) {
+      params.set("sourcePaperPath", paper.paperPath);
+    }
     if (paper.hasMarkscheme === false) {
       params.set("noMs", "1");
     }
