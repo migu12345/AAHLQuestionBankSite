@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Physics Bank</title>
+    <title>Physics Question Bank</title>
     <link rel="stylesheet" href="../styles.css" />
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-N2T2KWZE4M"></script>
@@ -14,44 +14,132 @@
       gtag("config", "G-N2T2KWZE4M");
     </script>
   </head>
-  <body>
-    <header class="hero">
+  <body class="aa-bank-page physics-bank-page">
+    <header class="hero hero-wide">
       <div class="hero-row">
-        <h1>Physics Bank</h1>
-        <a class="hero-link" href="../index.html">Home</a>
+        <h1>Physics Question Bank</h1>
+        <div class="hero-actions">
+          <div class="hero-search" id="heroSearch">
+            <button id="searchToggle" class="search-toggle" type="button" aria-label="Open search" aria-expanded="false">
+              <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                <circle cx="11" cy="11" r="7"></circle>
+                <line x1="16.65" y1="16.65" x2="21" y2="21"></line>
+              </svg>
+            </button>
+            <input id="searchInput" class="hero-search-input" type="text" placeholder="Search (e.g. hl paper 2 q6 oscillation)" />
+          </div>
+          <a class="hero-link" href="../index.html">Home</a>
+        </div>
       </div>
-      <p>May 2025 Physics papers ready: Paper 1A, 1B and 2 (SL/HL, TZ1/TZ2/TZ3).</p>
-    </header>
+      <p>Physics question bank from past papers and markschemes.</p>
+          </header>
 
-    <main class="layout">
-      <section class="paper-picker">
+    <main class="layout layout-wide">
+      <section class="filters">
         <label>
           Level
-          <select id="physicsLevelFilter">
+          <select id="levelFilter">
             <option value="">All levels</option>
           </select>
         </label>
 
         <label>
+          Paper Type
+          <select id="paperTypeFilter">
+            <option value="">All paper types</option>
+          </select>
+        </label>
+
+        <label>
+          Difficulty
+          <select id="difficultyFilter">
+            <option value="">All difficulties</option>
+            <option value="Easy">Easy</option>
+            <option value="Medium">Medium</option>
+            <option value="Hard">Hard</option>
+          </select>
+        </label>
+
+        <label>
+          Study
+          <select id="savedFilter">
+            <option value="">All questions</option>
+            <option value="saved">Saved only</option>
+            <option value="done">Done only</option>
+          </select>
+        </label>
+
+        <label class="filter-hidden" aria-hidden="true">
           Paper
-          <select id="physicsPaperFilter">
+          <select id="paperFilter" tabindex="-1">
             <option value="">All papers</option>
           </select>
         </label>
 
         <label>
-          Time zone
-          <select id="physicsTzFilter">
-            <option value="">All timezones</option>
+          Topic
+          <select id="topicFilter">
+            <option value="">All topics</option>
           </select>
         </label>
+
+        <label>
+          Subtopic
+          <select id="subtopicFilter">
+            <option value="">All subtopics</option>
+          </select>
+        </label>
+
       </section>
 
-      <section class="paper-launcher">
-        <p id="physicsSelectionLabel" class="count-line"></p>
-        <div id="physicsPaperButtons" class="paper-buttons"></div>
+      <section>
+        <p id="resultCount"></p>
+        <div id="questionList" class="question-list"></div>
+        <div id="loadMoreWrap" style="margin-top: 0.9rem; display: none;">
+          <button id="loadMoreBtn" type="button">Load more</button>
+        </div>
       </section>
     </main>
+
+    <template id="questionTemplate">
+      <article class="question-card">
+        <p class="meta"></p>
+        <h3 class="title"></h3>
+        <div class="card-tags"></div>
+        <div class="question-actions">
+          <button type="button" class="save-btn">Save</button>
+          <button type="button" class="done-btn">Mark done</button>
+        </div>
+        <button type="button" class="side-by-side-btn">Side by side</button>
+        <div class="question-images"></div>
+        <p class="question fallback-text"></p>
+        <details>
+          <summary>Markscheme answer</summary>
+          <div class="markscheme-images"></div>
+          <p class="answer"></p>
+        </details>
+      </article>
+    </template>
+
+    <div id="compareModal" class="compare-modal" hidden>
+      <div id="compareBackdrop" class="compare-modal-backdrop"></div>
+      <div class="compare-modal-panel" role="dialog" aria-modal="true" aria-labelledby="compareTitle">
+        <div class="compare-modal-header">
+          <h3 id="compareTitle">Side by side view</h3>
+          <button id="compareCloseBtn" type="button" aria-label="Close side by side view">Close</button>
+        </div>
+        <div class="compare-grid">
+          <section class="compare-col">
+            <h4>Question</h4>
+            <div id="compareQuestionBody" class="compare-body"></div>
+          </section>
+          <section class="compare-col">
+            <h4>Markscheme</h4>
+            <div id="compareMarkschemeBody" class="compare-body"></div>
+          </section>
+        </div>
+      </div>
+    </div>
 
     <script src="app.js"></script>
   </body>

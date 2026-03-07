@@ -1,0 +1,40 @@
+{
+  "topics": [
+    {
+      "name": "A-E mixed",
+      "subtopics": [
+        "Multiple-choice mixed"
+      ]
+    },
+    {
+      "name": "Fields",
+      "subtopics": [
+        "Electric/magnetic/gravitational fields"
+      ]
+    },
+    {
+      "name": "Particulate nature of matter",
+      "subtopics": [
+        "Thermal / electricity"
+      ]
+    },
+    {
+      "name": "Space, time and motion",
+      "subtopics": [
+        "Mechanics"
+      ]
+    },
+    {
+      "name": "Unsorted",
+      "subtopics": [
+        "Unsorted"
+      ]
+    },
+    {
+      "name": "Wave behaviour",
+      "subtopics": [
+        "Wave phenomena"
+      ]
+    }
+  ]
+}
