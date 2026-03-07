@@ -97,7 +97,10 @@ def image_sort_key(path: Path) -> tuple[int, str]:
     return (0, name)
 
 
-def classify_topic(question_text: str) -> tuple[str, str, float]:
+def classify_topic(question_text: str, paper_type: str = "") -> tuple[str, str, float]:
+    if str(paper_type).strip() == "Paper 1B":
+        return ("Experimental analysis", "Data-based and practical skills", 0.95)
+
     text = normalize(question_text or "")
     if not text:
         return ("Unsorted", "Unsorted", 0.0)
@@ -173,7 +176,7 @@ def main() -> None:
         if ms_rel:
             with_ms_images += 1
 
-        topic, subtopic, conf = classify_topic(q.get("question_text", ""))
+        topic, subtopic, conf = classify_topic(q.get("question_text", ""), q.get("paper_type", ""))
         q["topic"] = topic
         q["subtopic"] = subtopic
         q["topic_confidence"] = conf

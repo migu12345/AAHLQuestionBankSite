@@ -7224,9 +7224,9 @@
       "level": "HL",
       "question_number": "1",
       "title": "Q1: A student is analysing a sample of water. To determine its density, the student measures \nthe volume with a measuring cy",
-      "topic": "The particulate nature of matter",
-      "subtopic": "Thermal physics",
-      "topic_confidence": 0.33125,
+      "topic": "Experimental analysis",
+      "subtopic": "Data-based and practical skills",
+      "topic_confidence": 0.95,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -7264,9 +7264,9 @@
       "level": "HL",
       "question_number": "2",
       "title": "Q2: A group of students is investigating refraction in a semi-circular glass block.\nLight from a ray box enters the curved s",
-      "topic": "Wave behaviour",
-      "subtopic": "Optics",
-      "topic_confidence": 0.4775,
+      "topic": "Experimental analysis",
+      "subtopic": "Data-based and practical skills",
+      "topic_confidence": 0.95,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -7304,9 +7304,9 @@
       "level": "HL",
       "question_number": "3",
       "title": "Q3: A group of students wants to determine the horizontal component BH of the Earth’s \nmagnetic field. \nThey place a magnet ",
-      "topic": "Fields",
-      "subtopic": "Electric and magnetic fields",
-      "topic_confidence": 0.3425,
+      "topic": "Experimental analysis",
+      "subtopic": "Data-based and practical skills",
+      "topic_confidence": 0.95,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -7344,9 +7344,9 @@
       "level": "HL",
       "question_number": "10",
       "title": "Q10",
-      "topic": "Unsorted",
-      "subtopic": "Unsorted",
-      "topic_confidence": 0.0,
+      "topic": "Experimental analysis",
+      "subtopic": "Data-based and practical skills",
+      "topic_confidence": 0.95,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -7386,9 +7386,9 @@
       "level": "HL",
       "question_number": "50",
       "title": "Q50",
-      "topic": "Unsorted",
-      "subtopic": "Unsorted",
-      "topic_confidence": 0.0,
+      "topic": "Experimental analysis",
+      "subtopic": "Data-based and practical skills",
+      "topic_confidence": 0.95,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -7426,9 +7426,9 @@
       "level": "SL",
       "question_number": "1",
       "title": "Q1: A student is analysing a sample of water. To determine its density, the student measures \nthe volume with a measuring cy",
-      "topic": "The particulate nature of matter",
-      "subtopic": "Thermal physics",
-      "topic_confidence": 0.33125,
+      "topic": "Experimental analysis",
+      "subtopic": "Data-based and practical skills",
+      "topic_confidence": 0.95,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -7466,9 +7466,9 @@
       "level": "SL",
       "question_number": "2",
       "title": "Q2: A group of students is investigating refraction in a semi-circular glass block.\nLight from a ray box enters the curved s",
-      "topic": "Wave behaviour",
-      "subtopic": "Optics",
-      "topic_confidence": 0.4775,
+      "topic": "Experimental analysis",
+      "subtopic": "Data-based and practical skills",
+      "topic_confidence": 0.95,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -7506,9 +7506,9 @@
       "level": "SL",
       "question_number": "3",
       "title": "Q3: A group of students wants to determine the horizontal component BH of the Earth’s \nmagnetic field. \nThey place a magnet ",
-      "topic": "Fields",
-      "subtopic": "Electric and magnetic fields",
-      "topic_confidence": 0.3425,
+      "topic": "Experimental analysis",
+      "subtopic": "Data-based and practical skills",
+      "topic_confidence": 0.95,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -7546,9 +7546,9 @@
       "level": "SL",
       "question_number": "10",
       "title": "Q10",
-      "topic": "Unsorted",
-      "subtopic": "Unsorted",
-      "topic_confidence": 0.0,
+      "topic": "Experimental analysis",
+      "subtopic": "Data-based and practical skills",
+      "topic_confidence": 0.95,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -7588,9 +7588,9 @@
       "level": "SL",
       "question_number": "50",
       "title": "Q50",
-      "topic": "Unsorted",
-      "subtopic": "Unsorted",
-      "topic_confidence": 0.0,
+      "topic": "Experimental analysis",
+      "subtopic": "Data-based and practical skills",
+      "topic_confidence": 0.95,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -7628,9 +7628,9 @@
       "level": "HL",
       "question_number": "1",
       "title": "Q1: A student determines the resistivity r of a metal that is in the form of a cylindrical wire. \nThe student makes the foll",
-      "topic": "The particulate nature of matter",
-      "subtopic": "Electric circuits",
-      "topic_confidence": 0.3275,
+      "topic": "Experimental analysis",
+      "subtopic": "Data-based and practical skills",
+      "topic_confidence": 0.95,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -7666,9 +7666,9 @@
       "level": "HL",
       "question_number": "2",
       "title": "Q2: The equation PV\nNk T\n=\nB\ndescribes the behaviour of an ideal gas.\nA student tests a fixed mass of gas to confirm that, f",
-      "topic": "The particulate nature of matter",
-      "subtopic": "Thermal physics",
-      "topic_confidence": 0.33125,
+      "topic": "Experimental analysis",
+      "subtopic": "Data-based and practical skills",
+      "topic_confidence": 0.95,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -7706,9 +7706,9 @@
       "level": "HL",
       "question_number": "3",
       "title": "Q3",
-      "topic": "Unsorted",
-      "subtopic": "Unsorted",
-      "topic_confidence": 0.0,
+      "topic": "Experimental analysis",
+      "subtopic": "Data-based and practical skills",
+      "topic_confidence": 0.95,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -7748,9 +7748,9 @@
       "level": "HL",
       "question_number": "6",
       "title": "Q6",
-      "topic": "Unsorted",
-      "subtopic": "Unsorted",
-      "topic_confidence": 0.0,
+      "topic": "Experimental analysis",
+      "subtopic": "Data-based and practical skills",
+      "topic_confidence": 0.95,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -7790,9 +7790,9 @@
       "level": "SL",
       "question_number": "1",
       "title": "Q1: A student determines the resistivity r of a metal that is in the form of a cylindrical wire. \nThe student makes the foll",
-      "topic": "The particulate nature of matter",
-      "subtopic": "Electric circuits",
-      "topic_confidence": 0.3275,
+      "topic": "Experimental analysis",
+      "subtopic": "Data-based and practical skills",
+      "topic_confidence": 0.95,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -7828,9 +7828,9 @@
       "level": "SL",
       "question_number": "2",
       "title": "Q2: The equation PV\nNk T\n=\nB\ndescribes the behaviour of an ideal gas.\nA student tests a fixed mass of gas to confirm that, f",
-      "topic": "The particulate nature of matter",
-      "subtopic": "Thermal physics",
-      "topic_confidence": 0.33125,
+      "topic": "Experimental analysis",
+      "subtopic": "Data-based and practical skills",
+      "topic_confidence": 0.95,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -7868,9 +7868,9 @@
       "level": "SL",
       "question_number": "3",
       "title": "Q3",
-      "topic": "Unsorted",
-      "subtopic": "Unsorted",
-      "topic_confidence": 0.0,
+      "topic": "Experimental analysis",
+      "subtopic": "Data-based and practical skills",
+      "topic_confidence": 0.95,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -7910,9 +7910,9 @@
       "level": "SL",
       "question_number": "6",
       "title": "Q6",
-      "topic": "Unsorted",
-      "subtopic": "Unsorted",
-      "topic_confidence": 0.0,
+      "topic": "Experimental analysis",
+      "subtopic": "Data-based and practical skills",
+      "topic_confidence": 0.95,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -7952,9 +7952,9 @@
       "level": "HL",
       "question_number": "1",
       "title": "Q1: A group of students uses pressurized air to move a piston that forces a nail into a block of \nwood. A gauge is used to m",
-      "topic": "The particulate nature of matter",
-      "subtopic": "Gas laws",
-      "topic_confidence": 0.32,
+      "topic": "Experimental analysis",
+      "subtopic": "Data-based and practical skills",
+      "topic_confidence": 0.95,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -7992,9 +7992,9 @@
       "level": "HL",
       "question_number": "2",
       "title": "Q2: Students set up a double slit experiment to determine the wavelength λ of monochromatic \nlight. A light source is direct",
-      "topic": "Wave behaviour",
-      "subtopic": "Superposition and standing waves",
-      "topic_confidence": 0.335,
+      "topic": "Experimental analysis",
+      "subtopic": "Data-based and practical skills",
+      "topic_confidence": 0.95,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -8036,9 +8036,9 @@
       "level": "HL",
       "question_number": "37",
       "title": "Q37",
-      "topic": "Unsorted",
-      "subtopic": "Unsorted",
-      "topic_confidence": 0.0,
+      "topic": "Experimental analysis",
+      "subtopic": "Data-based and practical skills",
+      "topic_confidence": 0.95,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -8076,9 +8076,9 @@
       "level": "HL",
       "question_number": "50",
       "title": "Q50",
-      "topic": "Unsorted",
-      "subtopic": "Unsorted",
-      "topic_confidence": 0.0,
+      "topic": "Experimental analysis",
+      "subtopic": "Data-based and practical skills",
+      "topic_confidence": 0.95,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -8114,9 +8114,9 @@
       "level": "SL",
       "question_number": "1",
       "title": "Q1: A group of students uses pressurized air to move a piston that forces a nail into a block of \nwood. A gauge is used to m",
-      "topic": "The particulate nature of matter",
-      "subtopic": "Gas laws",
-      "topic_confidence": 0.32,
+      "topic": "Experimental analysis",
+      "subtopic": "Data-based and practical skills",
+      "topic_confidence": 0.95,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -8154,9 +8154,9 @@
       "level": "SL",
       "question_number": "2",
       "title": "Q2: Students set up a double slit experiment to determine the wavelength λ of monochromatic \nlight. A light source is direct",
-      "topic": "Wave behaviour",
-      "subtopic": "Superposition and standing waves",
-      "topic_confidence": 0.335,
+      "topic": "Experimental analysis",
+      "subtopic": "Data-based and practical skills",
+      "topic_confidence": 0.95,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -8198,9 +8198,9 @@
       "level": "SL",
       "question_number": "37",
       "title": "Q37",
-      "topic": "Unsorted",
-      "subtopic": "Unsorted",
-      "topic_confidence": 0.0,
+      "topic": "Experimental analysis",
+      "subtopic": "Data-based and practical skills",
+      "topic_confidence": 0.95,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -8238,9 +8238,9 @@
       "level": "SL",
       "question_number": "50",
       "title": "Q50",
-      "topic": "Unsorted",
-      "subtopic": "Unsorted",
-      "topic_confidence": 0.0,
+      "topic": "Experimental analysis",
+      "subtopic": "Data-based and practical skills",
+      "topic_confidence": 0.95,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
