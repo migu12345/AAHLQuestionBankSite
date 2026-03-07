@@ -187,6 +187,10 @@ label {
   color: var(--muted);
 }
 
+.filter-hidden {
+  display: none !important;
+}
+
 select,
 input {
   width: 100%;

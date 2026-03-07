@@ -43,8 +43,18 @@
         </label>
 
         <label>
+          Difficulty
+          <select id="difficultyFilter">
+            <option value="">All difficulties</option>
+            <option value="Easy">Easy</option>
+            <option value="Medium">Medium</option>
+            <option value="Hard">Hard</option>
+          </select>
+        </label>
+
+        <label class="filter-hidden" aria-hidden="true">
           Paper
-          <select id="paperFilter">
+          <select id="paperFilter" tabindex="-1">
             <option value="">All papers</option>
           </select>
         </label>

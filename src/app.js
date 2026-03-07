@@ -8,6 +8,7 @@ const PAGE_SIZE = 10;
 
 const paperTypeFilter = document.getElementById("paperTypeFilter");
 const paperFilter = document.getElementById("paperFilter");
+const difficultyFilter = document.getElementById("difficultyFilter");
 const topicFilter = document.getElementById("topicFilter");
 const subtopicFilter = document.getElementById("subtopicFilter");
 const levelFilter = document.getElementById("levelFilter");
@@ -175,6 +176,7 @@ function filterQuestions() {
   const selectedLevel = levelFilter.value;
   const selectedPaperType = paperTypeFilter.value;
   const selectedPaper = paperFilter.value;
+  const selectedDifficulty = difficultyFilter.value;
   const selectedTopic = topicFilter.value;
   const selectedSubtopic = subtopicFilter.value;
   const searchTerm = searchInput.value.trim();
@@ -184,11 +186,12 @@ function filterQuestions() {
     const levelMatch = !selectedLevel || level === selectedLevel;
     const paperTypeMatch = !selectedPaperType || q.paper_type === selectedPaperType;
     const paperMatch = !selectedPaper || q.paper === selectedPaper;
+    const difficultyMatch = !selectedDifficulty || inferDifficulty(q) === selectedDifficulty;
     const topicMatch = !selectedTopic || q.topic === selectedTopic;
     const subtopicMatch = !selectedSubtopic || q.subtopic === selectedSubtopic;
     const searchMatch = matchesSearchQuery(q, searchTerm, level);
 
-    return levelMatch && paperTypeMatch && paperMatch && topicMatch && subtopicMatch && searchMatch;
+    return levelMatch && paperTypeMatch && paperMatch && difficultyMatch && topicMatch && subtopicMatch && searchMatch;
   });
 }
 
@@ -411,6 +414,7 @@ function bindEvents() {
   levelFilter.addEventListener("change", () => renderQuestions(true));
   paperTypeFilter.addEventListener("change", () => renderQuestions(true));
   paperFilter.addEventListener("change", () => renderQuestions(true));
+  difficultyFilter.addEventListener("change", () => renderQuestions(true));
 
   topicFilter.addEventListener("change", () => {
     updateSubtopicOptions();
