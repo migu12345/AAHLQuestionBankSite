@@ -147,9 +147,12 @@ function refreshTimezoneOptions() {
 
 function openPaper(paper) {
   const params = new URLSearchParams();
+  params.set("bundle", "1");
   params.set("level", paper.level);
-  params.set("paperType", `Paper ${paper.paperNo}`);
-  params.set("paper", paper.paperLabel);
+  params.set("year", String(paper.year));
+  params.set("session", paper.session);
+  params.set("tz", paper.timezone);
+  params.set("paperNo", String(paper.paperNo));
   window.location.href = `aa-bank.html?${params.toString()}`;
 }
 

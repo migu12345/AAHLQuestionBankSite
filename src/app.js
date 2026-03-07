@@ -3,6 +3,7 @@ const state = {
   topics: [],
   filteredQuestions: [],
   visibleCount: 0,
+  paperBundle: null,
 };
 const PAGE_SIZE = 10;
 
@@ -173,6 +174,10 @@ function matchesSearchQuery(q, rawQuery, level) {
 }
 
 function filterQuestions() {
+  if (state.paperBundle) {
+    return filterQuestionsByBundle();
+  }
+
   const selectedLevel = levelFilter.value;
   const selectedPaperType = paperTypeFilter.value;
   const selectedPaper = paperFilter.value;
@@ -193,6 +198,73 @@ function filterQuestions() {
 
     return levelMatch && paperTypeMatch && paperMatch && difficultyMatch && topicMatch && subtopicMatch && searchMatch;
   });
+}
+
+function parsePaperMeta(paperLabel) {
+  const m = String(paperLabel || "").match(/^(May|November)\s+(\d{4})\s+Paper\s+([123])(?:\s+(TZ\d))?\s+(HL|SL)$/i);
+  if (!m) {
+    return null;
+  }
+  return {
+    session: m[1],
+    year: Number(m[2]),
+    paperNo: Number(m[3]),
+    timezone: m[4] || "No TZ",
+    level: m[5].toUpperCase(),
+  };
+}
+
+function filterQuestionsByBundle() {
+  const bundle = state.paperBundle;
+  const selectedTopic = topicFilter.value;
+  const selectedSubtopic = subtopicFilter.value;
+  const selectedDifficulty = difficultyFilter.value;
+  const searchTerm = searchInput.value.trim();
+
+  let rows = state.allQuestions.filter((q) => {
+    const meta = parsePaperMeta(q.paper);
+    if (!meta) {
+      return false;
+    }
+    const examMatch =
+      meta.year === bundle.year &&
+      meta.session === bundle.session &&
+      meta.paperNo === bundle.paperNo &&
+      meta.timezone === bundle.timezone;
+    if (!examMatch) {
+      return false;
+    }
+
+    if (bundle.level === "SL" && inferLevel(q) !== "SL") {
+      return false;
+    }
+    const topicMatch = !selectedTopic || q.topic === selectedTopic;
+    const subtopicMatch = !selectedSubtopic || q.subtopic === selectedSubtopic;
+    const difficultyMatch = !selectedDifficulty || inferDifficulty(q) === selectedDifficulty;
+    const searchMatch = matchesSearchQuery(q, searchTerm, inferLevel(q));
+    return topicMatch && subtopicMatch && difficultyMatch && searchMatch;
+  });
+
+  if (bundle.level === "HL") {
+    const byQNum = new Map();
+    rows.forEach((q) => {
+      const qn = String(q.question_number || "");
+      const existing = byQNum.get(qn);
+      if (!existing) {
+        byQNum.set(qn, q);
+        return;
+      }
+      const currLevel = inferLevel(q);
+      const prevLevel = inferLevel(existing);
+      if (currLevel === "HL" && prevLevel !== "HL") {
+        byQNum.set(qn, q);
+      }
+    });
+    rows = [...byQNum.values()];
+  }
+
+  rows.sort((a, b) => Number(a.question_number || 0) - Number(b.question_number || 0));
+  return rows;
 }
 
 function buildQuestionNode(q) {
@@ -412,13 +484,36 @@ function createImageWithFallback(relPath, altText) {
 
 function applyInitialQueryFilters() {
   const params = new URLSearchParams(window.location.search);
+  const bundle = params.get("bundle");
   const level = params.get("level");
   const paperType = params.get("paperType");
   const paper = params.get("paper");
+  const year = params.get("year");
+  const session = params.get("session");
+  const tz = params.get("tz");
+  const paperNo = params.get("paperNo");
   const topic = params.get("topic");
   const subtopic = params.get("subtopic");
   const difficulty = params.get("difficulty");
   const search = params.get("search");
+
+  if (bundle === "1" && level && year && session && tz && paperNo) {
+    state.paperBundle = {
+      level,
+      year: Number(year),
+      session,
+      timezone: tz,
+      paperNo: Number(paperNo),
+    };
+    if ([...levelFilter.options].some((o) => o.value === level)) {
+      levelFilter.value = level;
+    }
+    const pType = `Paper ${paperNo}`;
+    if ([...paperTypeFilter.options].some((o) => o.value === pType)) {
+      paperTypeFilter.value = pType;
+    }
+    return;
+  }
 
   if (level && [...levelFilter.options].some((o) => o.value === level)) {
     levelFilter.value = level;
