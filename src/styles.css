@@ -284,6 +284,17 @@ button:hover {
   line-height: 1.14;
 }
 
+.side-by-side-btn {
+  margin: 0 0 0.7rem;
+  background: #edf5ff;
+  border-color: #cadcf6;
+  color: #1f3561;
+}
+
+.side-by-side-btn:hover {
+  background: #e1eefc;
+}
+
 .case-study-link {
   display: inline-block;
   margin: 0 0 0.7rem;
@@ -370,6 +381,94 @@ button:hover {
 .case-modal-empty {
   margin: 0;
   color: var(--muted);
+}
+
+.compare-modal {
+  position: fixed;
+  inset: 0;
+  z-index: 220;
+}
+
+.compare-modal-backdrop {
+  position: absolute;
+  inset: 0;
+  background: rgba(22, 28, 40, 0.6);
+}
+
+.compare-modal-panel {
+  position: relative;
+  width: min(1220px, 95vw);
+  max-height: 90vh;
+  margin: 4vh auto 0;
+  background: #fff;
+  border: 1px solid var(--line-strong);
+  border-radius: 14px;
+  box-shadow: 0 16px 40px rgba(19, 30, 42, 0.25);
+  overflow: hidden;
+  display: grid;
+  grid-template-rows: auto minmax(0, 1fr);
+}
+
+.compare-modal-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.8rem;
+  padding: 0.8rem 1rem;
+  border-bottom: 1px solid var(--line);
+  background: #f7fafc;
+}
+
+.compare-modal-header h3 {
+  margin: 0;
+  font-size: 1.05rem;
+}
+
+.compare-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  min-height: 0;
+}
+
+.compare-col {
+  min-width: 0;
+  border-right: 1px solid var(--line);
+  display: grid;
+  grid-template-rows: auto minmax(0, 1fr);
+}
+
+.compare-col:last-child {
+  border-right: none;
+}
+
+.compare-col h4 {
+  margin: 0;
+  padding: 0.55rem 0.8rem;
+  font-size: 0.9rem;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  border-bottom: 1px solid var(--line);
+  background: #fcfcfd;
+}
+
+.compare-body {
+  overflow: auto;
+  padding: 0.8rem;
+  display: grid;
+  gap: 0.8rem;
+}
+
+.compare-body img {
+  width: 100%;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: #fff;
+}
+
+.compare-fallback {
+  margin: 0;
+  white-space: pre-wrap;
 }
 
 .question-card .question,
@@ -516,5 +615,24 @@ button:hover {
 
   .question-card {
     padding: 0.9rem 0.85rem;
+  }
+
+  .compare-modal-panel {
+    width: 96vw;
+    margin-top: 2vh;
+    max-height: 95vh;
+  }
+
+  .compare-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .compare-col {
+    border-right: none;
+    border-bottom: 1px solid var(--line);
+  }
+
+  .compare-col:last-child {
+    border-bottom: none;
   }
 }

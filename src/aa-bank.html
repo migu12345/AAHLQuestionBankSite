@@ -78,6 +78,7 @@
       <article class="question-card">
         <p class="meta"></p>
         <h3 class="title"></h3>
+        <button type="button" class="side-by-side-btn">Side by side</button>
         <div class="question-images"></div>
         <p class="question fallback-text"></p>
         <details>
@@ -87,6 +88,26 @@
         </details>
       </article>
     </template>
+
+    <div id="compareModal" class="compare-modal" hidden>
+      <div id="compareBackdrop" class="compare-modal-backdrop"></div>
+      <div class="compare-modal-panel" role="dialog" aria-modal="true" aria-labelledby="compareTitle">
+        <div class="compare-modal-header">
+          <h3 id="compareTitle">Side by side view</h3>
+          <button id="compareCloseBtn" type="button" aria-label="Close side by side view">Close</button>
+        </div>
+        <div class="compare-grid">
+          <section class="compare-col">
+            <h4>Question</h4>
+            <div id="compareQuestionBody" class="compare-body"></div>
+          </section>
+          <section class="compare-col">
+            <h4>Markscheme</h4>
+            <div id="compareMarkschemeBody" class="compare-body"></div>
+          </section>
+        </div>
+      </div>
+    </div>
 
     <script src="app.js"></script>
   </body>
