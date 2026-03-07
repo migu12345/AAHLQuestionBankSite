@@ -970,7 +970,7 @@ button:hover {
     min-width: 0;
     height: min(48vh, 430px);
     min-height: 220px;
-    resize: none;
+    resize: both;
   }
 
   .compare-modal-panel {

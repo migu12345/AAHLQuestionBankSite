@@ -17,9 +17,6 @@
       <header class="formula-widget-header" id="formulaWidgetHeader">
         <strong>Formula Booklet</strong>
         <div class="formula-widget-actions">
-          <button type="button" id="formulaZoomOut" aria-label="Zoom out">-</button>
-          <button type="button" id="formulaZoomIn" aria-label="Zoom in">+</button>
-          <button type="button" id="formulaZoomReset" aria-label="Reset zoom">100%</button>
           <button type="button" id="formulaClose" aria-label="Close formula panel">Close</button>
         </div>
       </header>
@@ -32,10 +29,6 @@
     document.body.appendChild(widget);
 
     const header = document.getElementById("formulaWidgetHeader");
-    const iframe = document.getElementById("formulaIframe");
-    const zoomInBtn = document.getElementById("formulaZoomIn");
-    const zoomOutBtn = document.getElementById("formulaZoomOut");
-    const zoomResetBtn = document.getElementById("formulaZoomReset");
     const closeBtn = document.getElementById("formulaClose");
 
     const launcher = document.createElement("button");
@@ -46,20 +39,9 @@
     launcher.hidden = true;
     document.body.appendChild(launcher);
 
-    let zoomPercent = 100;
     let dragging = false;
     let dragOffsetX = 0;
     let dragOffsetY = 0;
-
-    function applyZoom() {
-      if (!iframe) {
-        return;
-      }
-      iframe.src = `${pdfBaseUrl}#zoom=${zoomPercent}`;
-      if (zoomResetBtn) {
-        zoomResetBtn.textContent = `${zoomPercent}%`;
-      }
-    }
 
     function onMove(ev) {
       if (!dragging) {
@@ -93,24 +75,6 @@
       });
     }
 
-    if (zoomInBtn) {
-      zoomInBtn.addEventListener("click", () => {
-        zoomPercent = clamp(zoomPercent + 10, 60, 240);
-        applyZoom();
-      });
-    }
-    if (zoomOutBtn) {
-      zoomOutBtn.addEventListener("click", () => {
-        zoomPercent = clamp(zoomPercent - 10, 60, 240);
-        applyZoom();
-      });
-    }
-    if (zoomResetBtn) {
-      zoomResetBtn.addEventListener("click", () => {
-        zoomPercent = 100;
-        applyZoom();
-      });
-    }
     function closeWidget() {
       widget.style.display = "none";
       launcher.hidden = false;
@@ -136,8 +100,6 @@
     launcher.addEventListener("click", () => {
       openWidget();
     });
-
-    applyZoom();
   }
 
   window.initFormulaWidget = initFormulaWidget;
