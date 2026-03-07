@@ -480,7 +480,7 @@ function buildQuestionNode(q) {
     });
     questionTextEl.hidden = true;
   } else {
-    questionTextEl.textContent = q.question_text || "";
+    questionTextEl.textContent = "Question screenshot is being prepared.";
     questionTextEl.hidden = false;
   }
 
@@ -491,7 +491,7 @@ function buildQuestionNode(q) {
     });
     answerTextEl.hidden = true;
   } else {
-    answerTextEl.textContent = q.answer_text || "No answer extracted yet.";
+    answerTextEl.textContent = "Markscheme screenshot is being prepared.";
     answerTextEl.hidden = false;
   }
 
@@ -518,7 +518,7 @@ function openCompareModal(q) {
   } else {
     const p = document.createElement("p");
     p.className = "compare-fallback";
-    p.textContent = q.question_text || "No extracted question text.";
+    p.textContent = "Question screenshot is being prepared.";
     compareQuestionBody.appendChild(p);
   }
 
@@ -531,7 +531,7 @@ function openCompareModal(q) {
   } else {
     const p = document.createElement("p");
     p.className = "compare-fallback";
-    p.textContent = q.answer_text || "No extracted markscheme text.";
+    p.textContent = "Markscheme screenshot is being prepared.";
     compareMarkschemeBody.appendChild(p);
   }
 

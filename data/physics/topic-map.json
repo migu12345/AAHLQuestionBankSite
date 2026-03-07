@@ -1,27 +1,36 @@
 {
   "topics": [
     {
-      "name": "A-E mixed",
-      "subtopics": [
-        "Multiple-choice mixed"
-      ]
-    },
-    {
       "name": "Fields",
       "subtopics": [
-        "Electric/magnetic/gravitational fields"
+        "Electric and magnetic fields",
+        "Gravitational fields"
       ]
     },
     {
-      "name": "Particulate nature of matter",
+      "name": "Nuclear and quantum physics",
       "subtopics": [
-        "Thermal / electricity"
+        "Nuclear reactions",
+        "Quantum/modern physics",
+        "Radioactivity"
       ]
     },
     {
       "name": "Space, time and motion",
       "subtopics": [
-        "Mechanics"
+        "Circular and rotational motion",
+        "Forces and momentum",
+        "Kinematics",
+        "Work, energy and power"
+      ]
+    },
+    {
+      "name": "The particulate nature of matter",
+      "subtopics": [
+        "Electric circuits",
+        "Gas laws",
+        "Material properties",
+        "Thermal physics"
       ]
     },
     {
@@ -33,7 +42,10 @@
     {
       "name": "Wave behaviour",
       "subtopics": [
-        "Wave phenomena"
+        "Doppler and sound",
+        "Optics",
+        "Superposition and standing waves",
+        "Wave properties"
       ]
     }
   ]
