@@ -159,6 +159,16 @@ function buildQuestionNode(q) {
     titleEl.textContent = cleanPreviewText(q.title || "") || fallbackTitle;
   }
 
+  if (q.paper_type === "Paper 2" && q.case_study_file) {
+    const caseLink = document.createElement("a");
+    caseLink.className = "case-study-link";
+    caseLink.href = `../data/business/raw/papers/${q.case_study_file}`;
+    caseLink.target = "_blank";
+    caseLink.rel = "noopener noreferrer";
+    caseLink.textContent = "Case study";
+    titleEl.after(caseLink);
+  }
+
   if (qImages.length > 0) {
     qImages.forEach((imgPath, index) => {
       const img = document.createElement("img");

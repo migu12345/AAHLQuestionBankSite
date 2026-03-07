@@ -1,15 +1,15 @@
 {
   "topics": [
     {
-      "name": "Business organization and environment",
+      "name": "Introduction to business management",
       "subtopics": [
         "Business structures and stakeholders",
         "External environment and ethics",
-        "Growth and change"
+        "Growth and strategy"
       ]
     },
     {
-      "name": "Human resource management",
+      "name": "Human Resource Management",
       "subtopics": [
         "Organizational structure and culture",
         "Motivation and leadership",
@@ -17,7 +17,7 @@
       ]
     },
     {
-      "name": "Finance and accounts",
+      "name": "Finance and Accounts",
       "subtopics": [
         "Sources of finance",
         "Investment appraisal",
@@ -34,19 +34,11 @@
       ]
     },
     {
-      "name": "Operations management",
+      "name": "Operations Management",
       "subtopics": [
         "Production methods and quality",
         "Location and capacity",
         "Supply chain and inventory"
-      ]
-    },
-    {
-      "name": "Business strategy",
-      "subtopics": [
-        "SWOT and strategic analysis",
-        "Decision trees and contingency planning",
-        "Change management"
       ]
     }
   ]

@@ -238,25 +238,22 @@ def classify_topic(question_text: str, answer_text: str) -> Tuple[str, str, floa
     merged = f"{q} {a}"
 
     rules: List[Tuple[re.Pattern[str], Tuple[str, str], int]] = [
-        (re.compile(r"\b(stakeholder|sole trader|partnership|private limited|public limited|multinational|mission statement|vision)\b"), ("Business organization and environment", "Business structures and stakeholders"), 18),
-        (re.compile(r"\b(csr|ethic|globalization|external environment|pest|political|economic|social|technological)\b"), ("Business organization and environment", "External environment and ethics"), 16),
-        (re.compile(r"\b(growth|merger|acquisition|change management|resistance to change)\b"), ("Business organization and environment", "Growth and change"), 14),
-        (re.compile(r"\b(organization chart|span of control|delegation|centralization|decentralization|culture)\b"), ("Human resource management", "Organizational structure and culture"), 18),
-        (re.compile(r"\b(motivation|maslow|herzberg|leadership|autocratic|democratic|laissez)\b"), ("Human resource management", "Motivation and leadership"), 18),
-        (re.compile(r"\b(trade union|industrial action|collective bargaining|employment contract|redundancy|training)\b"), ("Human resource management", "Industrial relations"), 16),
-        (re.compile(r"\b(source of finance|share capital|loan|overdraft|retained profit|venture capital)\b"), ("Finance and accounts", "Sources of finance"), 18),
-        (re.compile(r"\b(payback|arr|npv|investment appraisal|decision tree|expected value)\b"), ("Finance and accounts", "Investment appraisal"), 20),
-        (re.compile(r"\b(profit and loss|balance sheet|gross profit|net profit|liquidity|ratio)\b"), ("Finance and accounts", "Final accounts and ratio analysis"), 20),
-        (re.compile(r"\b(budget|variance|forecast|break even|contribution)\b"), ("Finance and accounts", "Budgets and forecasts"), 16),
+        (re.compile(r"\b(stakeholder|sole trader|partnership|private limited|public limited|multinational|mission statement|vision)\b"), ("Introduction to business management", "Business structures and stakeholders"), 18),
+        (re.compile(r"\b(csr|ethic|globalization|external environment|pest|political|economic|social|technological)\b"), ("Introduction to business management", "External environment and ethics"), 16),
+        (re.compile(r"\b(growth|merger|acquisition|change management|resistance to change|swot|strategy|strategic|ansoff|boston matrix|competitive advantage|contingency|risk|uncertainty|sensitivity)\b"), ("Introduction to business management", "Growth and strategy"), 15),
+        (re.compile(r"\b(organization chart|span of control|delegation|centralization|decentralization|culture)\b"), ("Human Resource Management", "Organizational structure and culture"), 18),
+        (re.compile(r"\b(motivation|maslow|herzberg|leadership|autocratic|democratic|laissez)\b"), ("Human Resource Management", "Motivation and leadership"), 18),
+        (re.compile(r"\b(trade union|industrial action|collective bargaining|employment contract|redundancy|training)\b"), ("Human Resource Management", "Industrial relations"), 16),
+        (re.compile(r"\b(source of finance|share capital|loan|overdraft|retained profit|venture capital)\b"), ("Finance and Accounts", "Sources of finance"), 18),
+        (re.compile(r"\b(payback|arr|npv|investment appraisal|decision tree|expected value)\b"), ("Finance and Accounts", "Investment appraisal"), 20),
+        (re.compile(r"\b(profit and loss|balance sheet|gross profit|net profit|liquidity|ratio)\b"), ("Finance and Accounts", "Final accounts and ratio analysis"), 20),
+        (re.compile(r"\b(budget|variance|forecast|break even|contribution)\b"), ("Finance and Accounts", "Budgets and forecasts"), 16),
         (re.compile(r"\b(market research|primary research|secondary research|sample|demand|income elasticity|price elasticity)\b"), ("Marketing", "Market research and demand"), 20),
         (re.compile(r"\b(product|price|promotion|place|4p|branding|positioning)\b"), ("Marketing", "Marketing mix"), 18),
         (re.compile(r"\b(international marketing|global market|export|franchise|adaptation|standardization)\b"), ("Marketing", "International marketing"), 16),
-        (re.compile(r"\b(lean production|quality|quality assurance|quality control|tqm|japanese)\b"), ("Operations management", "Production methods and quality"), 18),
-        (re.compile(r"\b(location|relocation|capacity|utilization|economies of scale)\b"), ("Operations management", "Location and capacity"), 16),
-        (re.compile(r"\b(stock|inventory|buffer stock|just in time|supply chain|outsourcing)\b"), ("Operations management", "Supply chain and inventory"), 18),
-        (re.compile(r"\b(swot|strategic analysis|competitive advantage|an soff|boston matrix)\b"), ("Business strategy", "SWOT and strategic analysis"), 18),
-        (re.compile(r"\b(decision tree|contingency|risk|uncertainty|sensitivity)\b"), ("Business strategy", "Decision trees and contingency planning"), 16),
-        (re.compile(r"\b(implementation|change|corporate objective|strategy)\b"), ("Business strategy", "Change management"), 14),
+        (re.compile(r"\b(lean production|quality|quality assurance|quality control|tqm|japanese)\b"), ("Operations Management", "Production methods and quality"), 18),
+        (re.compile(r"\b(location|relocation|capacity|utilization|economies of scale)\b"), ("Operations Management", "Location and capacity"), 16),
+        (re.compile(r"\b(stock|inventory|buffer stock|just in time|supply chain|outsourcing)\b"), ("Operations Management", "Supply chain and inventory"), 18),
     ]
 
     scores: Dict[Tuple[str, str], int] = {}
@@ -269,7 +266,7 @@ def classify_topic(question_text: str, answer_text: str) -> Tuple[str, str, floa
             reasons.append(f"{label[0]}:{label[1]}+{delta}")
 
     if not scores:
-        return ("Business strategy", "Change management", 0.3, ["fallback:default"])
+        return ("Introduction to business management", "Growth and strategy", 0.3, ["fallback:default"])
 
     best, best_score = max(scores.items(), key=lambda x: x[1])
     second = sorted(scores.values(), reverse=True)[1] if len(scores) > 1 else 0
@@ -373,6 +370,67 @@ def build_image_index(kind: str) -> Dict[str, List[str]]:
     return out
 
 
+def extract_tz_from_filename(filename: str) -> Optional[int]:
+    m = re.search(r"(?:__|_)TZ(?P<tz>\d)", filename, re.IGNORECASE)
+    if not m:
+        return None
+    return int(m.group("tz"))
+
+
+def is_case_study_candidate(filename: str) -> bool:
+    low = filename.lower()
+    if "paper_1" not in low:
+        return False
+    if "markscheme" in low:
+        return False
+    return True
+
+
+def case_study_score(filename: str) -> int:
+    low = filename.lower()
+    if "pre-released_statement" in low:
+        return 6
+    if "case_study" in low:
+        return 5
+    if "hlsl" in low:
+        return 4
+    if "paper_1" in low:
+        return 3
+    return 1
+
+
+def build_case_study_index(papers: List[Path]) -> Dict[Tuple[str, Optional[int]], str]:
+    best: Dict[Tuple[str, Optional[int]], Tuple[int, str]] = {}
+    for paper_path in papers:
+        name = paper_path.name
+        if not is_case_study_candidate(name):
+            continue
+        pm = PREFIX_RE.match(name)
+        if not pm:
+            continue
+        session_code = pm.group("code").lower()
+        tz = extract_tz_from_filename(name)
+        score = case_study_score(name)
+
+        key_exact = (session_code, tz)
+        prev_exact = best.get(key_exact)
+        if prev_exact is None or score > prev_exact[0]:
+            best[key_exact] = (score, name)
+
+        key_fallback = (session_code, None)
+        prev_fallback = best.get(key_fallback)
+        if prev_fallback is None or score > prev_fallback[0]:
+            best[key_fallback] = (score, name)
+
+    return {key: val[1] for key, val in best.items()}
+
+
+def resolve_case_study_file(
+    session_code: str, tz: Optional[int], case_index: Dict[Tuple[str, Optional[int]], str]
+) -> Optional[str]:
+    return case_index.get((session_code, tz)) or case_index.get((session_code, None))
+
+
 def resolve_image_paths(rec_id: str, index: Dict[str, List[str]]) -> List[str]:
     if rec_id in index:
         return index[rec_id]
@@ -400,6 +458,7 @@ def build() -> Dict[str, object]:
     markschemes = sorted(MARKSCHEMES_DIR.glob("*.pdf"))
 
     ms_map = {pair_key(p.name): p for p in markschemes}
+    case_index = build_case_study_index(papers)
     records: List[Dict[str, object]] = []
 
     for paper_path in papers:
@@ -441,6 +500,11 @@ def build() -> Dict[str, object]:
                         "paper_file": paper_path.name,
                         "markscheme_file": ms_path.name,
                     },
+                    "case_study_file": (
+                        resolve_case_study_file(meta.session_code, meta.tz, case_index)
+                        if meta.paper_no == 2
+                        else None
+                    ),
                 }
             )
 
