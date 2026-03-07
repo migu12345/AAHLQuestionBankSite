@@ -681,6 +681,12 @@ def remove_global_sl_hl_duplicates(records: List[Dict[str, object]]) -> List[Dic
             out.append(rec)
             continue
 
+        # Keep no-timezone HL papers as authored in their own source paper.
+        # These should not be removed by global SL matching from other variants.
+        if tz_from_paper_label(str(rec.get("paper", ""))) == "none":
+            out.append(rec)
+            continue
+
         hl_sig = normalize_for_dedupe(str(rec.get("question_text", "")))
         if hl_sig and hl_sig in sl_question_sigs:
             continue
