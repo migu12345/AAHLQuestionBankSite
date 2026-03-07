@@ -11,7 +11,7 @@
       "title": "Q1: Instantaneous velocity is defined as...\nA. \ndisplacement\ntime taken\n.\nB. \nrate of change of position.\nC. \ndistance moved",
       "topic": "Space, time and motion",
       "subtopic": "Kinematics",
-      "topic_confidence": 0.79,
+      "topic_confidence": 0.575,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -48,7 +48,7 @@
       "title": "Q2: The variation with time t of the acceleration a of an object is shown. At t = 0 the object is at rest.\n2\n2\n4\n4\n6\n6\n8\n8\n1",
       "topic": "Space, time and motion",
       "subtopic": "Kinematics",
-      "topic_confidence": 0.43,
+      "topic_confidence": 0.335,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -85,7 +85,7 @@
       "title": "Q3: A force acts on a cube of mass m that accelerates upwards along a vertical frictionless surface. \nThe magnitude of the f",
       "topic": "Space, time and motion",
       "subtopic": "Forces and momentum",
-      "topic_confidence": 0.61,
+      "topic_confidence": 0.42874999999999996,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -120,9 +120,9 @@
       "level": "HL",
       "question_number": "4",
       "title": "Q4: A sphere of density r and radius R rests on the bottom of a tank of water. The buoyancy force on \nthe sphere is F1.\nA sp",
-      "topic": "Space, time and motion",
-      "subtopic": "Forces and momentum",
-      "topic_confidence": 0.43,
+      "topic": "The particulate nature of matter",
+      "subtopic": "Material properties",
+      "topic_confidence": 0.31625000000000003,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -158,8 +158,8 @@
       "question_number": "5",
       "title": "Q5: A satellite undergoes one circular orbit of the Earth every 24 hours.\nWhat is the angular velocity of the satellite?\nA. ",
       "topic": "Space, time and motion",
-      "subtopic": "Kinematics",
-      "topic_confidence": 0.43,
+      "subtopic": "Circular and rotational motion",
+      "topic_confidence": 0.35,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -195,8 +195,8 @@
       "question_number": "6",
       "title": "Q6: An object of mass 5.0 kg is initially at rest. An impulse of 2.0 N s acts on the object.\nWhat is the final kinetic energ",
       "topic": "Space, time and motion",
-      "subtopic": "Forces and momentum",
-      "topic_confidence": 0.43,
+      "subtopic": "Work, energy and power",
+      "topic_confidence": 0.3425,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -233,7 +233,7 @@
       "title": "Q7: A system of moment of inertia I rotates from rest about a given axis. The angular acceleration a of \nthe system is const",
       "topic": "Space, time and motion",
       "subtopic": "Circular and rotational motion",
-      "topic_confidence": 0.79,
+      "topic_confidence": 0.51875,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -270,7 +270,7 @@
       "title": "Q8: Two small spheres each of mass 10 kg are 8.0 m apart and connected by a rod of negligible mass. \nThis system rotates abo",
       "topic": "Space, time and motion",
       "subtopic": "Circular and rotational motion",
-      "topic_confidence": 0.43,
+      "topic_confidence": 0.35375,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -307,7 +307,7 @@
       "title": "Q9: Observer X sees a spacecraft moving in the positive  x-direction at a speed of 0.50c. \nObserver Y sees the same spacecra",
       "topic": "Space, time and motion",
       "subtopic": "A5 relativity",
-      "topic_confidence": 0.79,
+      "topic_confidence": 0.97,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -344,7 +344,7 @@
       "title": "Q10: A block of ice of mass M is at its melting point. \nA smaller mass m of water at a temperature of T °C is placed on the t",
       "topic": "The particulate nature of matter",
       "subtopic": "Thermal physics",
-      "topic_confidence": 0.79,
+      "topic_confidence": 0.60125,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -381,7 +381,7 @@
       "title": "Q11: What is a primary cause of the enhanced greenhouse effect?\nA. \nMelting of ice at Earth’s poles\nB. \nIncreases in volcanic",
       "topic": "Nuclear and quantum physics",
       "subtopic": "Radioactivity",
-      "topic_confidence": 0.43,
+      "topic_confidence": 0.32,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -418,7 +418,7 @@
       "title": "Q12: An ideal gas is held in a cylinder by a piston. The piston compresses the gas rapidly. \ngas\nThe average speed of the gas",
       "topic": "The particulate nature of matter",
       "subtopic": "Gas laws",
-      "topic_confidence": 0.61,
+      "topic_confidence": 0.43625,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -455,7 +455,7 @@
       "title": "Q13: Which pressure–volume (P–V) diagram represents a Carnot cycle?\nA.\nP\nV\nB.\nP\nV\nC.\nP\nV\nD.\nP\nV\n\n– 8 –\n2225 – 6707",
       "topic": "The particulate nature of matter",
       "subtopic": "Gas laws",
-      "topic_confidence": 0.61,
+      "topic_confidence": 0.4325,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -492,7 +492,7 @@
       "title": "Q14: Three combinations of resistors are shown. The resistors are identical.\nP\nQ\nR\nWhat is the total resistance of each combi",
       "topic": "The particulate nature of matter",
       "subtopic": "Electric circuits",
-      "topic_confidence": 0.43,
+      "topic_confidence": 0.3275,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -529,7 +529,7 @@
       "title": "Q15: A continuous belt of width 0.60 m travels at a constant speed of 2.5 m s-1. The belt has a uniform \ndistribution of char",
       "topic": "The particulate nature of matter",
       "subtopic": "Electric circuits",
-      "topic_confidence": 0.43,
+      "topic_confidence": 0.31625000000000003,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -566,7 +566,7 @@
       "title": "Q16: A cube of side 1.0 cm has a resistance between opposite sides of 50 W. \nThe material is reshaped into a block of length ",
       "topic": "The particulate nature of matter",
       "subtopic": "Electric circuits",
-      "topic_confidence": 0.43,
+      "topic_confidence": 0.3275,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -601,9 +601,9 @@
       "level": "HL",
       "question_number": "17",
       "title": "Q17: A mass–spring system oscillates with time period T1  .\nAnother identical spring is connected in parallel with the first ",
-      "topic": "Wave behaviour",
-      "subtopic": "Wave properties",
-      "topic_confidence": 0.43,
+      "topic": "The particulate nature of matter",
+      "subtopic": "Electric circuits",
+      "topic_confidence": 0.32,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -640,7 +640,7 @@
       "title": "Q18: A wave is travelling through a medium. The variation with time t of the displacement d of a particle \nin the medium is s",
       "topic": "Wave behaviour",
       "subtopic": "Wave properties",
-      "topic_confidence": 0.61,
+      "topic_confidence": 0.4475,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -676,8 +676,8 @@
       "question_number": "19",
       "title": "Q19: An object performs simple harmonic motion with frequency f . The distance between the extreme \npositions at which the ob",
       "topic": "Space, time and motion",
-      "subtopic": "Kinematics",
-      "topic_confidence": 0.43,
+      "subtopic": "Forces and momentum",
+      "topic_confidence": 0.33125,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -712,9 +712,9 @@
       "level": "HL",
       "question_number": "20",
       "title": "Q20: Light passes through two parallel layers as shown.\nThe refractive indices for light travelling between air and the media",
-      "topic": "Unsorted",
-      "subtopic": "Unsorted",
-      "topic_confidence": 0.05,
+      "topic": "The particulate nature of matter",
+      "subtopic": "Electric circuits",
+      "topic_confidence": 0.32,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -749,9 +749,9 @@
       "level": "HL",
       "question_number": "21",
       "title": "Q21: Light of wavelength l is incident on two parallel slits of width b that are separated by distance d.\nThe graph of intens",
-      "topic": "Space, time and motion",
-      "subtopic": "Kinematics",
-      "topic_confidence": 0.43,
+      "topic": "Wave behaviour",
+      "subtopic": "Superposition and standing waves",
+      "topic_confidence": 0.33125,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -787,8 +787,8 @@
       "question_number": "22",
       "title": "Q22: A pipe of length L is closed at one end.\nWhat is the wavelength of the fifth-harmonic standing wave in this pipe?\nA. \n8\n",
       "topic": "Wave behaviour",
-      "subtopic": "Wave properties",
-      "topic_confidence": 0.43,
+      "subtopic": "Superposition and standing waves",
+      "topic_confidence": 0.33875,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -824,8 +824,8 @@
       "question_number": "23",
       "title": "Q23: Light of wavelength 5.8 × 10-7 m is normally incident on a diffraction grating that \nhas 400 000 lines m-1.\nHow many max",
       "topic": "Wave behaviour",
-      "subtopic": "Wave properties",
-      "topic_confidence": 0.43,
+      "subtopic": "Superposition and standing waves",
+      "topic_confidence": 0.33125,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -862,7 +862,7 @@
       "title": "Q24: A planet P has a diameter one-third that of the Earth. The mass of Earth is 18 times that of P. \nThe gravitational field",
       "topic": "Fields",
       "subtopic": "Gravitational fields",
-      "topic_confidence": 0.43,
+      "topic_confidence": 0.36124999999999996,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -899,7 +899,7 @@
       "title": "Q25: Which graph shows the variation of gravitational potential V with distance d from the surface of \nthe Earth?\nR is the ra",
       "topic": "Space, time and motion",
       "subtopic": "Kinematics",
-      "topic_confidence": 0.43,
+      "topic_confidence": 0.32,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -934,9 +934,9 @@
       "level": "HL",
       "question_number": "26",
       "title": "Q26: The unit of m 0 × e 0 expressed in fundamental SI units is...\nA. \nm-2 s2.\nB. \nT C N-1 m-1 s.\nC. \nm2 s-2.\nD. \nT C2 A-1 N-",
-      "topic": "Unsorted",
-      "subtopic": "Unsorted",
-      "topic_confidence": 0.05,
+      "topic": "Fields",
+      "subtopic": "Electric and magnetic fields",
+      "topic_confidence": 0.31625000000000003,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -971,9 +971,9 @@
       "level": "HL",
       "question_number": "27",
       "title": "Q27: Two parallel conducting plates are separated by 5.0 cm. The variation of electric potential with \ndistance between the p",
-      "topic": "Space, time and motion",
-      "subtopic": "Kinematics",
-      "topic_confidence": 0.43,
+      "topic": "Fields",
+      "subtopic": "Electric and magnetic fields",
+      "topic_confidence": 0.3425,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -1008,9 +1008,9 @@
       "level": "HL",
       "question_number": "28",
       "title": "Q28: Charge is moving in a wire that is at right angles to a uniform magnetic field.\nThe length of the wire is 0.32 m.\nWhen t",
-      "topic": "Space, time and motion",
-      "subtopic": "Forces and momentum",
-      "topic_confidence": 0.43,
+      "topic": "Fields",
+      "subtopic": "Electric and magnetic fields",
+      "topic_confidence": 0.3425,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -1047,7 +1047,7 @@
       "title": "Q29: Negative charge carriers travel counter-clockwise in a circular coil that lies in the plane of the page. \nThe coil is in",
       "topic": "Fields",
       "subtopic": "Electric and magnetic fields",
-      "topic_confidence": 0.43,
+      "topic_confidence": 0.3425,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -1082,9 +1082,9 @@
       "level": "HL",
       "question_number": "30",
       "title": "Q30: Who was the first scientist to show that electric charge is quantized?\nA. \nCoulomb\nB. \nMillikan\nC. \nPlanck\nD. \nRutherfor",
-      "topic": "Unsorted",
-      "subtopic": "Unsorted",
-      "topic_confidence": 0.05,
+      "topic": "Fields",
+      "subtopic": "Electric and magnetic fields",
+      "topic_confidence": 0.59,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -1121,7 +1121,7 @@
       "title": "Q31: A coil of wire rotates at a constant angular speed w  in a uniform magnetic field.\nThe variation with time of the emf in",
       "topic": "Wave behaviour",
       "subtopic": "Wave properties",
-      "topic_confidence": 0.61,
+      "topic_confidence": 0.43625,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -1156,9 +1156,9 @@
       "level": "HL",
       "question_number": "32",
       "title": "Q32: An ion X contains the following particles:\n• 53 protons\n• 89 neutrons\n• 54 electrons.\nWhat is the nuclear notation for X",
-      "topic": "Unsorted",
-      "subtopic": "Unsorted",
-      "topic_confidence": 0.05,
+      "topic": "Nuclear and quantum physics",
+      "subtopic": "Nuclear reactions",
+      "topic_confidence": 0.5862499999999999,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -1195,7 +1195,7 @@
       "title": "Q33: What is the variation with nucleon number of the density of nuclei?\nA.\nnuclear\ndensity\nnucleon\nnumber\n0\n0\nB.\nnuclear\nden",
       "topic": "The particulate nature of matter",
       "subtopic": "Material properties",
-      "topic_confidence": 0.43,
+      "topic_confidence": 0.31625000000000003,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -1232,7 +1232,7 @@
       "title": "Q34: A photoelectron is emitted when a photon of energy E is incident on a metal surface. \nThe work function of the surface i",
       "topic": "Nuclear and quantum physics",
       "subtopic": "Quantum/modern physics",
-      "topic_confidence": 0.43,
+      "topic_confidence": 0.3125,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -1269,7 +1269,7 @@
       "title": "Q35: In a Compton scattering experiment a photon of wavelength l0 and frequency f 0 interacts with \nan electron. \nAfter the i",
       "topic": "Wave behaviour",
       "subtopic": "Wave properties",
-      "topic_confidence": 0.61,
+      "topic_confidence": 0.45125000000000004,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -1306,7 +1306,7 @@
       "title": "Q36: Three products of radioactive decay are:\nI. \nalpha particles \nII. \nbeta particles \nIII. \ngamma photons.\nWhich products c",
       "topic": "Nuclear and quantum physics",
       "subtopic": "Radioactivity",
-      "topic_confidence": 0.95,
+      "topic_confidence": 0.7625,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -1342,8 +1342,8 @@
       "question_number": "37",
       "title": "Q37: A nucleus of nuclide X decays.\nWhich series of emissions will produce an isotope of X?\nA. \nOne a and two b-\nB. \nOne a an",
       "topic": "Nuclear and quantum physics",
-      "subtopic": "Radioactivity",
-      "topic_confidence": 0.43,
+      "subtopic": "Nuclear reactions",
+      "topic_confidence": 0.31625000000000003,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -1378,9 +1378,9 @@
       "level": "HL",
       "question_number": "38",
       "title": "Q38: A suitable material for use as a moderator in a nuclear reactor is... \nA. \ncadmium.\nB. \nconcrete.\nC. \nuranium-238.\nD. \nw",
-      "topic": "Unsorted",
-      "subtopic": "Unsorted",
-      "topic_confidence": 0.05,
+      "topic": "Nuclear and quantum physics",
+      "subtopic": "Nuclear reactions",
+      "topic_confidence": 0.5562500000000001,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -1417,7 +1417,7 @@
       "title": "Q39: In a simple model of a nuclear reactor, four neutrons are emitted per fission on average.\nThe average number of neutrons",
       "topic": "Nuclear and quantum physics",
       "subtopic": "Nuclear reactions",
-      "topic_confidence": 0.43,
+      "topic_confidence": 0.5525,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -1452,9 +1452,9 @@
       "level": "HL",
       "question_number": "40",
       "title": "Q40: A star has a parallax angle of 1 × 10-2 arc-second at the orbit of the Earth.\nWhat is the distance from the Sun to the s",
-      "topic": "Space, time and motion",
-      "subtopic": "Kinematics",
-      "topic_confidence": 0.43,
+      "topic": "Fields",
+      "subtopic": "Gravitational fields",
+      "topic_confidence": 0.42874999999999996,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -1491,7 +1491,7 @@
       "title": "Q1: Instantaneous velocity is defined as...\nA. \ndisplacement\ntime taken\n.\nB. \nrate of change of position.\nC. \ndistance moved",
       "topic": "Space, time and motion",
       "subtopic": "Kinematics",
-      "topic_confidence": 0.79,
+      "topic_confidence": 0.575,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -1528,7 +1528,7 @@
       "title": "Q2: The variation with time t of the acceleration a of an object is shown. At t = 0 the object is at rest.\n2\n2\n4\n4\n6\n6\n8\n8\n1",
       "topic": "Space, time and motion",
       "subtopic": "Kinematics",
-      "topic_confidence": 0.43,
+      "topic_confidence": 0.335,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -1565,7 +1565,7 @@
       "title": "Q3: A force acts on a cube of mass m that accelerates upwards along a vertical frictionless surface. \nThe magnitude of the f",
       "topic": "Space, time and motion",
       "subtopic": "Forces and momentum",
-      "topic_confidence": 0.61,
+      "topic_confidence": 0.42874999999999996,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -1600,9 +1600,9 @@
       "level": "SL",
       "question_number": "4",
       "title": "Q4: A sphere of density r and radius R rests on the bottom of a tank of water. The buoyancy force on \nthe sphere is F1.\nA sp",
-      "topic": "Space, time and motion",
-      "subtopic": "Forces and momentum",
-      "topic_confidence": 0.43,
+      "topic": "The particulate nature of matter",
+      "subtopic": "Material properties",
+      "topic_confidence": 0.31625000000000003,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -1639,7 +1639,7 @@
       "title": "Q5: A spring obeys Hooke’s law and has a spring constant k. \nThe spring is extended horizontally. The extension of the sprin",
       "topic": "Space, time and motion",
       "subtopic": "Work, energy and power",
-      "topic_confidence": 0.43,
+      "topic_confidence": 0.30874999999999997,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -1675,8 +1675,8 @@
       "question_number": "6",
       "title": "Q6: An object of mass 5.0 kg is initially at rest. An impulse of 2.0 N s acts on the object.\nWhat is the final kinetic energ",
       "topic": "Space, time and motion",
-      "subtopic": "Forces and momentum",
-      "topic_confidence": 0.43,
+      "subtopic": "Work, energy and power",
+      "topic_confidence": 0.3425,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -1713,7 +1713,7 @@
       "title": "Q7: A block of ice of mass M is at its melting point. \nA smaller mass m of water at a temperature of T °C is placed on the t",
       "topic": "The particulate nature of matter",
       "subtopic": "Thermal physics",
-      "topic_confidence": 0.79,
+      "topic_confidence": 0.60125,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -1750,7 +1750,7 @@
       "title": "Q8: What is a primary cause of the enhanced greenhouse effect?\nA. \nMelting of ice at Earth’s poles\nB. \nIncreases in volcanic",
       "topic": "Nuclear and quantum physics",
       "subtopic": "Radioactivity",
-      "topic_confidence": 0.43,
+      "topic_confidence": 0.32,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -1787,7 +1787,7 @@
       "title": "Q9: An ideal gas is held in a cylinder by a piston. The piston compresses the gas rapidly. \ngas\nThe average speed of the gas",
       "topic": "The particulate nature of matter",
       "subtopic": "Gas laws",
-      "topic_confidence": 0.61,
+      "topic_confidence": 0.43625,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -1824,7 +1824,7 @@
       "title": "Q10: Three combinations of resistors are shown. The resistors are identical.\nP\nQ\nR\nWhat is the total resistance of each combi",
       "topic": "The particulate nature of matter",
       "subtopic": "Electric circuits",
-      "topic_confidence": 0.43,
+      "topic_confidence": 0.3275,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -1861,7 +1861,7 @@
       "title": "Q11: A continuous belt of width 0.60 m travels at a constant speed of 2.5 m s-1. The belt has a uniform \ndistribution of char",
       "topic": "The particulate nature of matter",
       "subtopic": "Electric circuits",
-      "topic_confidence": 0.43,
+      "topic_confidence": 0.31625000000000003,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -1898,7 +1898,7 @@
       "title": "Q12: A solar panel has a surface area of 0.20 m2. The efficiency of the solar panel is 30 %. At one instant \nthe radiation in",
       "topic": "Space, time and motion",
       "subtopic": "Work, energy and power",
-      "topic_confidence": 0.61,
+      "topic_confidence": 0.43625,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -1933,9 +1933,9 @@
       "level": "SL",
       "question_number": "13",
       "title": "Q13: A mass–spring system oscillates with time period T1 .\nAnother identical spring is connected in parallel with the first s",
-      "topic": "Wave behaviour",
-      "subtopic": "Wave properties",
-      "topic_confidence": 0.43,
+      "topic": "The particulate nature of matter",
+      "subtopic": "Electric circuits",
+      "topic_confidence": 0.32,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -1972,7 +1972,7 @@
       "title": "Q14: A wave is travelling through a medium. The variation with time t of the displacement d of a particle \nin the medium is s",
       "topic": "Wave behaviour",
       "subtopic": "Wave properties",
-      "topic_confidence": 0.61,
+      "topic_confidence": 0.4475,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -2007,9 +2007,9 @@
       "level": "SL",
       "question_number": "15",
       "title": "Q15: Light passes through two parallel layers as shown.\nThe refractive indices for light travelling between air and the media",
-      "topic": "Unsorted",
-      "subtopic": "Unsorted",
-      "topic_confidence": 0.05,
+      "topic": "The particulate nature of matter",
+      "subtopic": "Electric circuits",
+      "topic_confidence": 0.32,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -2046,7 +2046,7 @@
       "title": "Q16: A source emitting a sound of frequency f 0 is approaching an observer. At time t = 0 the source \nbegins to decelerate an",
       "topic": "Wave behaviour",
       "subtopic": "Wave properties",
-      "topic_confidence": 0.43,
+      "topic_confidence": 0.32375,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -2083,7 +2083,7 @@
       "title": "Q17: A planet P has a diameter one-third that of the Earth. The mass of Earth is 18 times that of P. \nThe gravitational field",
       "topic": "Fields",
       "subtopic": "Gravitational fields",
-      "topic_confidence": 0.43,
+      "topic_confidence": 0.36124999999999996,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -2118,9 +2118,9 @@
       "level": "SL",
       "question_number": "18",
       "title": "Q18: The unit of m 0 × e 0 expressed in fundamental SI units is...\nA. \nm-2 s2.\nB. \nT C N-1 m-1 s.\nC. \nm2 s-2.\nD. \nT C2 A-1 N-",
-      "topic": "Unsorted",
-      "subtopic": "Unsorted",
-      "topic_confidence": 0.05,
+      "topic": "Fields",
+      "subtopic": "Electric and magnetic fields",
+      "topic_confidence": 0.31625000000000003,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -2155,9 +2155,9 @@
       "level": "SL",
       "question_number": "19",
       "title": "Q19: Charge is moving in a wire that is at right angles to a uniform magnetic field.\nThe length of the wire is 0.32 m.\nWhen t",
-      "topic": "Space, time and motion",
-      "subtopic": "Forces and momentum",
-      "topic_confidence": 0.43,
+      "topic": "Fields",
+      "subtopic": "Electric and magnetic fields",
+      "topic_confidence": 0.3425,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -2194,7 +2194,7 @@
       "title": "Q20: Negative charge carriers travel counter-clockwise in a circular coil that lies in the plane of the page. \nThe coil is in",
       "topic": "Fields",
       "subtopic": "Electric and magnetic fields",
-      "topic_confidence": 0.43,
+      "topic_confidence": 0.3425,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -2229,9 +2229,9 @@
       "level": "SL",
       "question_number": "21",
       "title": "Q21: In this question, all diagrams are drawn to scale.\nPart of the emission spectrum of an atom is shown.\nincreasing wavelen",
-      "topic": "Wave behaviour",
-      "subtopic": "Wave properties",
-      "topic_confidence": 0.43,
+      "topic": "Nuclear and quantum physics",
+      "subtopic": "Quantum/modern physics",
+      "topic_confidence": 0.335,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -2266,9 +2266,9 @@
       "level": "SL",
       "question_number": "22",
       "title": "Q22: An ion X contains the following particles:\n• 53 protons\n• 89 neutrons\n• 54 electrons.\nWhat is the nuclear notation for X",
-      "topic": "Unsorted",
-      "subtopic": "Unsorted",
-      "topic_confidence": 0.05,
+      "topic": "Nuclear and quantum physics",
+      "subtopic": "Nuclear reactions",
+      "topic_confidence": 0.5862499999999999,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -2303,9 +2303,9 @@
       "level": "SL",
       "question_number": "23",
       "title": "Q23: A suitable material for use as a moderator in a nuclear reactor is... \nA. \ncadmium.\nB. \nconcrete.\nC. \nuranium-238.\nD. \nw",
-      "topic": "Unsorted",
-      "subtopic": "Unsorted",
-      "topic_confidence": 0.05,
+      "topic": "Nuclear and quantum physics",
+      "subtopic": "Nuclear reactions",
+      "topic_confidence": 0.5562500000000001,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -2342,7 +2342,7 @@
       "title": "Q24: In a simple model of a nuclear reactor, four neutrons are emitted per fission on average.\nThe average number of neutrons",
       "topic": "Nuclear and quantum physics",
       "subtopic": "Nuclear reactions",
-      "topic_confidence": 0.43,
+      "topic_confidence": 0.5525,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -2377,9 +2377,9 @@
       "level": "SL",
       "question_number": "25",
       "title": "Q25: A star has a parallax angle of 1 × 10-2 arc-second at the orbit of the Earth.\nWhat is the distance from the Sun to the s",
-      "topic": "Space, time and motion",
-      "subtopic": "Kinematics",
-      "topic_confidence": 0.43,
+      "topic": "Fields",
+      "subtopic": "Gravitational fields",
+      "topic_confidence": 0.42874999999999996,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -2416,7 +2416,7 @@
       "title": "Q1: A ball is initially 50 m above the ground. The ball is thrown vertically upwards and takes 5.0 s to \nreach the ground. A",
       "topic": "The particulate nature of matter",
       "subtopic": "Electric circuits",
-      "topic_confidence": 0.43,
+      "topic_confidence": 0.3275,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -2453,7 +2453,7 @@
       "title": "Q2: An object is sliding from rest down a frictionless inclined plane. The vertical displacement of the \nobject is 1.5 m dur",
       "topic": "Space, time and motion",
       "subtopic": "Kinematics",
-      "topic_confidence": 0.43,
+      "topic_confidence": 0.335,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -2490,7 +2490,7 @@
       "title": "Q3: The diagram shows the path of a ball in the absence of air resistance. Q is the highest point of the \nball’s trajectory ",
       "topic": "Space, time and motion",
       "subtopic": "Kinematics",
-      "topic_confidence": 0.61,
+      "topic_confidence": 0.45499999999999996,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -2527,7 +2527,7 @@
       "title": "Q4: A car of weight W  is travelling at maximum speed in a circular path along a horizontal banked road. \nThe surface exerts",
       "topic": "Space, time and motion",
       "subtopic": "Forces and momentum",
-      "topic_confidence": 0.61,
+      "topic_confidence": 0.54125,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -2564,7 +2564,7 @@
       "title": "Q5: Sphere X falls through a fluid with terminal velocity v. Sphere Y is made of the same material and \nfalls through the sa",
       "topic": "Space, time and motion",
       "subtopic": "Kinematics",
-      "topic_confidence": 0.43,
+      "topic_confidence": 0.32,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -2600,8 +2600,8 @@
       "question_number": "6",
       "title": "Q6: A wheel, initially at rest, rolls without slipping down an incline for 4.0 s. The final angular velocity of \nthe wheel i",
       "topic": "Space, time and motion",
-      "subtopic": "Kinematics",
-      "topic_confidence": 0.43,
+      "subtopic": "Circular and rotational motion",
+      "topic_confidence": 0.35,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -2638,7 +2638,7 @@
       "title": "Q7: What is the unit of angular impulse?\nA. \nN s\nB. \nN m\nC. \nN m s-1\nD. \nN m s",
       "topic": "Space, time and motion",
       "subtopic": "Forces and momentum",
-      "topic_confidence": 0.43,
+      "topic_confidence": 0.31625000000000003,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -2675,7 +2675,7 @@
       "title": "Q8: A car of total mass M  is travelling with a constant speed v. Each of the four wheels of the car has a \nmass m and a rad",
       "topic": "Space, time and motion",
       "subtopic": "Circular and rotational motion",
-      "topic_confidence": 0.61,
+      "topic_confidence": 0.35375,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -2710,9 +2710,9 @@
       "level": "HL",
       "question_number": "9",
       "title": "Q9: X and Y are two spherical black-body radiators. X has a radius R and emits half the total power \nof Y. The absolute temp",
-      "topic": "Space, time and motion",
-      "subtopic": "Work, energy and power",
-      "topic_confidence": 0.43,
+      "topic": "The particulate nature of matter",
+      "subtopic": "Thermal physics",
+      "topic_confidence": 0.33125,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -2749,7 +2749,7 @@
       "title": "Q10: The albedo of the atmosphere above a small region on the Earth’s surface is 0.25. The solar \nconstant is S.\nWhat is the ",
       "topic": "Wave behaviour",
       "subtopic": "Doppler and sound",
-      "topic_confidence": 0.43,
+      "topic_confidence": 0.32375,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -2786,7 +2786,7 @@
       "title": "Q11: A gas is held in a container. An identical container holds the same number of more massive \nmolecules of another gas at ",
       "topic": "The particulate nature of matter",
       "subtopic": "Thermal physics",
-      "topic_confidence": 0.43,
+      "topic_confidence": 0.33125,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -2823,7 +2823,7 @@
       "title": "Q12: A cyclic process for an ideal gas is shown. The cycle has three stages: isovolumetric, adiabatic, \nand isothermal. Work ",
       "topic": "The particulate nature of matter",
       "subtopic": "Gas laws",
-      "topic_confidence": 0.79,
+      "topic_confidence": 0.5562499999999999,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -2858,9 +2858,9 @@
       "level": "HL",
       "question_number": "13",
       "title": "Q13: A wire of length L is used in an electric heater. When the potential difference across the wire is \n200 V, the power tra",
-      "topic": "Space, time and motion",
-      "subtopic": "Work, energy and power",
-      "topic_confidence": 0.43,
+      "topic": "Fields",
+      "subtopic": "Electric and magnetic fields",
+      "topic_confidence": 0.365,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -2897,7 +2897,7 @@
       "title": "Q14: Four identical resistors are connected as shown.\nX\nY\nWhat is current in X\ncurrent in Y ?\nA. \n1\n2\nB. \n2\n3\nC. \n3\n2\nD. \n  3",
       "topic": "The particulate nature of matter",
       "subtopic": "Electric circuits",
-      "topic_confidence": 0.43,
+      "topic_confidence": 0.31625000000000003,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -2934,7 +2934,7 @@
       "title": "Q15: A mass–spring system is oscillating with simple harmonic motion.\nWhich graph represents the variation of acceleration wi",
       "topic": "Space, time and motion",
       "subtopic": "Kinematics",
-      "topic_confidence": 0.61,
+      "topic_confidence": 0.47000000000000003,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -2971,7 +2971,7 @@
       "title": "Q16: A mass–spring system oscillates in simple harmonic motion with maximum elastic potential \nenergy E. The mass is tripled ",
       "topic": "Space, time and motion",
       "subtopic": "Work, energy and power",
-      "topic_confidence": 0.43,
+      "topic_confidence": 0.35,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -3006,9 +3006,9 @@
       "level": "HL",
       "question_number": "17",
       "title": "Q17: A transverse wave of period 20 ms travels through a medium. The graph shows the variation of \nparticle displacement with",
-      "topic": "Space, time and motion",
-      "subtopic": "Kinematics",
-      "topic_confidence": 0.61,
+      "topic": "Wave behaviour",
+      "subtopic": "Wave properties",
+      "topic_confidence": 0.45875,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -3045,7 +3045,7 @@
       "title": "Q18: An ultraviolet wave is travelling in a vacuum.\nWhat is the frequency and the nature of the wave?\nWave frequency / Hz\nNat",
       "topic": "Wave behaviour",
       "subtopic": "Wave properties",
-      "topic_confidence": 0.43,
+      "topic_confidence": 0.45875,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -3082,7 +3082,7 @@
       "title": "Q19: A fifth-harmonic standing wave is formed in a pipe of length 25 cm that is closed at both ends.\nWhat two points along th",
       "topic": "Wave behaviour",
       "subtopic": "Superposition and standing waves",
-      "topic_confidence": 0.43,
+      "topic_confidence": 0.33875,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -3119,7 +3119,7 @@
       "title": "Q20: For a lightly damped oscillation…\nA. \nthe amplitude goes to zero within one period of oscillation.\nB. \nthe oscillation f",
       "topic": "Wave behaviour",
       "subtopic": "Wave properties",
-      "topic_confidence": 0.79,
+      "topic_confidence": 0.56,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -3156,7 +3156,7 @@
       "title": "Q21: A planet of mass m is in a circular orbit of radius R  around a star. The orbital speed of the planet \nis v. A second pl",
       "topic": "Fields",
       "subtopic": "Gravitational fields",
-      "topic_confidence": 0.43,
+      "topic_confidence": 0.30874999999999997,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -3191,9 +3191,9 @@
       "level": "HL",
       "question_number": "22",
       "title": "Q22: A charge +Q and a charge +2Q are a distance 3x apart. Point P is on the line joining the charges, \nat a distance x from ",
-      "topic": "Space, time and motion",
-      "subtopic": "Kinematics",
-      "topic_confidence": 0.43,
+      "topic": "Fields",
+      "subtopic": "Electric and magnetic fields",
+      "topic_confidence": 0.3425,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -3230,7 +3230,7 @@
       "title": "Q23: Two bar magnets are held in place with the north poles facing each other.\nWhich diagram shows four correct magnetic fiel",
       "topic": "Fields",
       "subtopic": "Electric and magnetic fields",
-      "topic_confidence": 0.43,
+      "topic_confidence": 0.3425,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -3267,7 +3267,7 @@
       "title": "Q24: A pair of parallel conducting plates are separated by 50 cm. The electric potential of one plate is \n+200 V and the elec",
       "topic": "Space, time and motion",
       "subtopic": "Work, energy and power",
-      "topic_confidence": 0.43,
+      "topic_confidence": 0.3425,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -3304,7 +3304,7 @@
       "title": "Q25: The diagram shows possible paths Q, R, and S of particles moving into a region of uniform \nmagnetic field. The field is ",
       "topic": "Fields",
       "subtopic": "Electric and magnetic fields",
-      "topic_confidence": 0.43,
+      "topic_confidence": 0.3425,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -3341,7 +3341,7 @@
       "title": "Q26: A circuit is created with a cell, two parallel conducting wires and a moveable metal rod of length L. \nWhen a uniform ma",
       "topic": "The particulate nature of matter",
       "subtopic": "Electric circuits",
-      "topic_confidence": 0.61,
+      "topic_confidence": 0.5525,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -3376,9 +3376,9 @@
       "level": "HL",
       "question_number": "27",
       "title": "Q27: Two parallel wires X and Y carry the same current. There is a repulsive force per unit length F  on \neach wire. The dire",
-      "topic": "Space, time and motion",
-      "subtopic": "Forces and momentum",
-      "topic_confidence": 0.43,
+      "topic": "The particulate nature of matter",
+      "subtopic": "Electric circuits",
+      "topic_confidence": 0.43625,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -3413,9 +3413,9 @@
       "level": "HL",
       "question_number": "28",
       "title": "Q28: A horizontal conducting ring is perpendicular to a uniform vertical magnetic field. When the ring \nis rotated through 18",
-      "topic": "Space, time and motion",
-      "subtopic": "Circular and rotational motion",
-      "topic_confidence": 0.43,
+      "topic": "Fields",
+      "subtopic": "Electric and magnetic fields",
+      "topic_confidence": 0.3425,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -3452,7 +3452,7 @@
       "title": "Q29: A rectangular coil rotates at a constant angular velocity. At the instant shown, the plane of the coil \nis at right angl",
       "topic": "Space, time and motion",
       "subtopic": "Circular and rotational motion",
-      "topic_confidence": 0.61,
+      "topic_confidence": 0.35,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -3489,7 +3489,7 @@
       "title": "Q30: A magnet attached to a spring oscillates above a coil as shown. The period of the oscillation is T.\nN\nS\nmagnet\nspring\nA\n",
       "topic": "Wave behaviour",
       "subtopic": "Wave properties",
-      "topic_confidence": 0.61,
+      "topic_confidence": 0.43625,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -3526,7 +3526,7 @@
       "title": "Q31: Gases in the atmosphere are compounds of 6\n12C, 1\n1H, 8\n16O and 7\n14N.\nFour of these gases are CO2, N2O, CH4 and H2O. A ",
       "topic": "The particulate nature of matter",
       "subtopic": "Gas laws",
-      "topic_confidence": 0.61,
+      "topic_confidence": 0.4325,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -3563,7 +3563,7 @@
       "title": "Q32: Some transitions between the energy states of an atom are shown.\nn = 4\nn = 3\nn = 2\nn = 1\nE2\nE4\nE1\nE3\nWhich transition wi",
       "topic": "Wave behaviour",
       "subtopic": "Wave properties",
-      "topic_confidence": 0.43,
+      "topic_confidence": 0.3275,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -3598,9 +3598,9 @@
       "level": "HL",
       "question_number": "33",
       "title": "Q33: In the Geiger–Marsden–Rutherford experiment, alpha particles were accelerated through a \npotential difference of 7.7 MV ",
-      "topic": "Space, time and motion",
-      "subtopic": "Kinematics",
-      "topic_confidence": 0.43,
+      "topic": "Fields",
+      "subtopic": "Electric and magnetic fields",
+      "topic_confidence": 0.365,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -3637,7 +3637,7 @@
       "title": "Q34: In two experiments X and Y measurements were made of the kinetic energies Ek of photoelectrons \nemitted when light is in",
       "topic": "Wave behaviour",
       "subtopic": "Wave properties",
-      "topic_confidence": 0.43,
+      "topic_confidence": 0.32375,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -3674,7 +3674,7 @@
       "title": "Q35: The intensity of electromagnetic radiation incident on a surface is I. The wavelength of the \nradiation is doubled and t",
       "topic": "Wave behaviour",
       "subtopic": "Wave properties",
-      "topic_confidence": 0.43,
+      "topic_confidence": 0.3275,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -3711,7 +3711,7 @@
       "title": "Q36: A fusion reaction of one nucleus of hydrogen-2 and one nucleus of hydrogen-3 converts a mass \nof 0.024 u into energy. A ",
       "topic": "Nuclear and quantum physics",
       "subtopic": "Nuclear reactions",
-      "topic_confidence": 0.61,
+      "topic_confidence": 0.545,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -3748,7 +3748,7 @@
       "title": "Q37: Three statements about gamma radiation are:\nI. \nIt travels faster than beta radiation in a vacuum.\nII. \nIt has a greater",
       "topic": "Nuclear and quantum physics",
       "subtopic": "Radioactivity",
-      "topic_confidence": 0.61,
+      "topic_confidence": 0.41375,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -3785,7 +3785,7 @@
       "title": "Q38: A pure sample of 4.4 g of Radon-222 has an activity of 2.5x1016 Bq. \nWhat is the decay constant of Radon-222?\nA. \n2.1 × ",
       "topic": "Nuclear and quantum physics",
       "subtopic": "Radioactivity",
-      "topic_confidence": 0.61,
+      "topic_confidence": 0.42874999999999996,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -3820,9 +3820,9 @@
       "level": "HL",
       "question_number": "39",
       "title": "Q39: The moderator in a nuclear power station…\nA. \nincreases the proportion of U-235 in the fuel source.\nB. \ntransfers intern",
-      "topic": "Space, time and motion",
-      "subtopic": "Work, energy and power",
-      "topic_confidence": 0.61,
+      "topic": "Nuclear and quantum physics",
+      "subtopic": "Nuclear reactions",
+      "topic_confidence": 0.56,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -3857,9 +3857,9 @@
       "level": "HL",
       "question_number": "40",
       "title": "Q40: Stars X and Y have the same surface temperature. Star X has a radius R and is a distance d from \nEarth. The distance of ",
-      "topic": "Space, time and motion",
-      "subtopic": "Kinematics",
-      "topic_confidence": 0.43,
+      "topic": "Fields",
+      "subtopic": "Gravitational fields",
+      "topic_confidence": 0.36124999999999996,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -3896,7 +3896,7 @@
       "title": "Q1: A ball is initially 50 m above the ground. The ball is thrown vertically upwards and takes 5.0 s to \nreach the ground. A",
       "topic": "The particulate nature of matter",
       "subtopic": "Electric circuits",
-      "topic_confidence": 0.43,
+      "topic_confidence": 0.3275,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -3933,7 +3933,7 @@
       "title": "Q2: An object is sliding from rest down a frictionless inclined plane. The vertical displacement of the \nobject is 1.5 m dur",
       "topic": "Space, time and motion",
       "subtopic": "Kinematics",
-      "topic_confidence": 0.43,
+      "topic_confidence": 0.335,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -3970,7 +3970,7 @@
       "title": "Q3: The diagram shows the path of a ball in the absence of air resistance. Q is the highest point of the \nball’s trajectory ",
       "topic": "Space, time and motion",
       "subtopic": "Kinematics",
-      "topic_confidence": 0.61,
+      "topic_confidence": 0.45499999999999996,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -4007,7 +4007,7 @@
       "title": "Q4: A car of weight W  is travelling at maximum speed in a circular path along a horizontal banked road. \nThe surface exerts",
       "topic": "Space, time and motion",
       "subtopic": "Forces and momentum",
-      "topic_confidence": 0.61,
+      "topic_confidence": 0.54125,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -4044,7 +4044,7 @@
       "title": "Q5: Sphere X falls through a fluid with terminal velocity v. Sphere Y is made of the same material and \nfalls through the sa",
       "topic": "Space, time and motion",
       "subtopic": "Kinematics",
-      "topic_confidence": 0.43,
+      "topic_confidence": 0.32,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -4079,9 +4079,9 @@
       "level": "SL",
       "question_number": "6",
       "title": "Q6: X and Y are two spherical black-body radiators. X has a radius R and emits half the total power \nof Y. The absolute temp",
-      "topic": "Space, time and motion",
-      "subtopic": "Work, energy and power",
-      "topic_confidence": 0.43,
+      "topic": "The particulate nature of matter",
+      "subtopic": "Thermal physics",
+      "topic_confidence": 0.33125,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -4118,7 +4118,7 @@
       "title": "Q7: The albedo of the atmosphere above a small region on the Earth’s surface is 0.25. The solar \nconstant is S.\nWhat is the ",
       "topic": "Wave behaviour",
       "subtopic": "Doppler and sound",
-      "topic_confidence": 0.43,
+      "topic_confidence": 0.32375,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -4155,7 +4155,7 @@
       "title": "Q8: A gas is held in a container. An identical container holds the same number of more massive \nmolecules of another gas at ",
       "topic": "The particulate nature of matter",
       "subtopic": "Thermal physics",
-      "topic_confidence": 0.43,
+      "topic_confidence": 0.33125,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -4190,9 +4190,9 @@
       "level": "SL",
       "question_number": "9",
       "title": "Q9: A wire of length L is used in an electric heater. When the potential difference across the wire is \n200 V, the power tra",
-      "topic": "Space, time and motion",
-      "subtopic": "Work, energy and power",
-      "topic_confidence": 0.43,
+      "topic": "Fields",
+      "subtopic": "Electric and magnetic fields",
+      "topic_confidence": 0.365,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -4229,7 +4229,7 @@
       "title": "Q10: Four identical resistors are connected as shown.\nX\nY\nWhat is current in X\ncurrent in Y ?\nA. \n1\n2\nB. \n2\n3\nC. \n3\n2\nD. \n  3",
       "topic": "The particulate nature of matter",
       "subtopic": "Electric circuits",
-      "topic_confidence": 0.43,
+      "topic_confidence": 0.31625000000000003,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -4264,9 +4264,9 @@
       "level": "SL",
       "question_number": "11",
       "title": "Q11: A pendulum of length L oscillates with an angular frequency ω. The mass of the pendulum is \ndoubled and its length is ch",
-      "topic": "Space, time and motion",
-      "subtopic": "Circular and rotational motion",
-      "topic_confidence": 0.43,
+      "topic": "Wave behaviour",
+      "subtopic": "Wave properties",
+      "topic_confidence": 0.32375,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -4301,9 +4301,9 @@
       "level": "SL",
       "question_number": "12",
       "title": "Q12: A transverse wave of period 20 ms travels through a medium. The graph shows the variation of \nparticle displacement with",
-      "topic": "Space, time and motion",
-      "subtopic": "Kinematics",
-      "topic_confidence": 0.61,
+      "topic": "Wave behaviour",
+      "subtopic": "Wave properties",
+      "topic_confidence": 0.45875,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -4340,7 +4340,7 @@
       "title": "Q13: An ultraviolet wave is travelling in a vacuum.\nWhat is the frequency and the nature of the wave?\nWave frequency / Hz\nNat",
       "topic": "Wave behaviour",
       "subtopic": "Wave properties",
-      "topic_confidence": 0.43,
+      "topic_confidence": 0.45875,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -4377,7 +4377,7 @@
       "title": "Q14: A pipe of length 0.75 m is closed at one end. The speed of sound of the air in the pipe is 330 m s-1.\nWhat are the frequ",
       "topic": "Wave behaviour",
       "subtopic": "Doppler and sound",
-      "topic_confidence": 0.43,
+      "topic_confidence": 0.30874999999999997,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -4414,7 +4414,7 @@
       "title": "Q15: For a lightly damped oscillation…\nA. \nthe amplitude goes to zero within one period of oscillation.\nB. \nthe oscillation f",
       "topic": "Wave behaviour",
       "subtopic": "Wave properties",
-      "topic_confidence": 0.79,
+      "topic_confidence": 0.56,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -4449,9 +4449,9 @@
       "level": "SL",
       "question_number": "16",
       "title": "Q16: Two point masses X and Y are released from rest at different positions in the gravitational field of a \nplanet. Y is fur",
-      "topic": "Space, time and motion",
-      "subtopic": "Kinematics",
-      "topic_confidence": 0.43,
+      "topic": "Fields",
+      "subtopic": "Gravitational fields",
+      "topic_confidence": 0.36124999999999996,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -4486,9 +4486,9 @@
       "level": "SL",
       "question_number": "17",
       "title": "Q17: A charge +Q and a charge +2Q are a distance 3x apart. Point P is on the line joining the charges, \nat a distance x from ",
-      "topic": "Space, time and motion",
-      "subtopic": "Kinematics",
-      "topic_confidence": 0.43,
+      "topic": "Fields",
+      "subtopic": "Electric and magnetic fields",
+      "topic_confidence": 0.3425,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -4525,7 +4525,7 @@
       "title": "Q18: A circuit is created with a cell, two parallel conducting wires and a moveable metal rod of length L. \nWhen a uniform ma",
       "topic": "The particulate nature of matter",
       "subtopic": "Electric circuits",
-      "topic_confidence": 0.61,
+      "topic_confidence": 0.5525,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -4560,9 +4560,9 @@
       "level": "SL",
       "question_number": "19",
       "title": "Q19: Two parallel wires X and Y carry the same current. There is a repulsive force per unit length F  on \neach wire. The dire",
-      "topic": "Space, time and motion",
-      "subtopic": "Forces and momentum",
-      "topic_confidence": 0.43,
+      "topic": "The particulate nature of matter",
+      "subtopic": "Electric circuits",
+      "topic_confidence": 0.43625,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -4599,7 +4599,7 @@
       "title": "Q20: Gases in the atmosphere are compounds of 6\n12C, 1\n1H, 8\n16O and 7\n14N.\nFour of these gases are CO2, N2O, CH4 and H2O. A ",
       "topic": "The particulate nature of matter",
       "subtopic": "Gas laws",
-      "topic_confidence": 0.61,
+      "topic_confidence": 0.4325,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -4636,7 +4636,7 @@
       "title": "Q21: Some transitions between the energy states of an atom are shown.\nn = 4\nn = 3\nn = 2\nn = 1\nE2\nE4\nE1\nE3\nWhich transition wi",
       "topic": "Wave behaviour",
       "subtopic": "Wave properties",
-      "topic_confidence": 0.43,
+      "topic_confidence": 0.3275,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -4673,7 +4673,7 @@
       "title": "Q22: A fusion reaction of one nucleus of hydrogen-2 and one nucleus of hydrogen-3 converts a mass \nof 0.024 u into energy. A ",
       "topic": "Nuclear and quantum physics",
       "subtopic": "Nuclear reactions",
-      "topic_confidence": 0.61,
+      "topic_confidence": 0.545,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -4710,7 +4710,7 @@
       "title": "Q23: Three statements about gamma radiation are:\nI. \nIt travels faster than beta radiation in a vacuum.\nII. \nIt has a greater",
       "topic": "Nuclear and quantum physics",
       "subtopic": "Radioactivity",
-      "topic_confidence": 0.61,
+      "topic_confidence": 0.41375,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -4745,9 +4745,9 @@
       "level": "SL",
       "question_number": "24",
       "title": "Q24: The moderator in a nuclear power station…\nA. \nincreases the proportion of U-235 in the fuel source.\nB. \ntransfers intern",
-      "topic": "Space, time and motion",
-      "subtopic": "Work, energy and power",
-      "topic_confidence": 0.61,
+      "topic": "Nuclear and quantum physics",
+      "subtopic": "Nuclear reactions",
+      "topic_confidence": 0.56,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -4782,9 +4782,9 @@
       "level": "SL",
       "question_number": "25",
       "title": "Q25: Stars X and Y have the same surface temperature. Star X has a radius R and is a distance d from \nEarth. The distance of ",
-      "topic": "Space, time and motion",
-      "subtopic": "Kinematics",
-      "topic_confidence": 0.43,
+      "topic": "Fields",
+      "subtopic": "Gravitational fields",
+      "topic_confidence": 0.36124999999999996,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -4821,7 +4821,7 @@
       "title": "Q1: A car decelerates uniformly to rest. From an initial velocity v to a velocity v\n2 , it covers a distance d. \nHow much fu",
       "topic": "Space, time and motion",
       "subtopic": "Kinematics",
-      "topic_confidence": 0.61,
+      "topic_confidence": 0.44,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -4858,7 +4858,7 @@
       "title": "Q2: Two balls, P and Q, are projected from the edge of a cliff. P is projected horizontally at speed v and \nQ is projected v",
       "topic": "The particulate nature of matter",
       "subtopic": "Electric circuits",
-      "topic_confidence": 0.43,
+      "topic_confidence": 0.3275,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -4895,7 +4895,7 @@
       "title": "Q3: Two identical blocks, X and Y, each of mass 2.0 kg are connected by a string. They move on the \nsame surface. \nA force F",
       "topic": "Space, time and motion",
       "subtopic": "Forces and momentum",
-      "topic_confidence": 0.61,
+      "topic_confidence": 0.42874999999999996,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -4932,7 +4932,7 @@
       "title": "Q4: A raindrop falls from rest through air with velocity v and acceleration a.\nWhich graph best represents the variation of ",
       "topic": "Space, time and motion",
       "subtopic": "Kinematics",
-      "topic_confidence": 0.61,
+      "topic_confidence": 0.45499999999999996,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -4969,7 +4969,7 @@
       "title": "Q5: A ball of mass m collides with a stationary ball of mass 3m. After colliding, the two balls \nmove together. \nWhat is the",
       "topic": "Space, time and motion",
       "subtopic": "Work, energy and power",
-      "topic_confidence": 0.43,
+      "topic_confidence": 0.3425,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -5004,9 +5004,9 @@
       "level": "HL",
       "question_number": "6",
       "title": "Q6: A ball of mass 0.4 kg is attached to a string of length 0.8 m. The ball is rotated in a vertical circle \nsuch that the s",
-      "topic": "Unsorted",
-      "subtopic": "Unsorted",
-      "topic_confidence": 0.05,
+      "topic": "Space, time and motion",
+      "subtopic": "Circular and rotational motion",
+      "topic_confidence": 0.4625,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -5043,7 +5043,7 @@
       "title": "Q7: A solid cylinder of mass m and radius r is released from rest on an inclined plane. The cylinder rolls \nwithout slipping",
       "topic": "Space, time and motion",
       "subtopic": "Circular and rotational motion",
-      "topic_confidence": 0.43,
+      "topic_confidence": 0.35375,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -5080,7 +5080,7 @@
       "title": "Q8: Two spheres, X and Y, are spinning with the same rotational kinetic energy. The moment of inertia \nof X is IX and that o",
       "topic": "Space, time and motion",
       "subtopic": "Circular and rotational motion",
-      "topic_confidence": 0.79,
+      "topic_confidence": 0.35375,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -5117,7 +5117,7 @@
       "title": "Q9: A pendulum has a period of 3.0 s as measured in its inertial frame of reference. An observer is \nmoving with a speed of ",
       "topic": "Space, time and motion",
       "subtopic": "A5 relativity",
-      "topic_confidence": 0.43,
+      "topic_confidence": 0.35750000000000004,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -5154,7 +5154,7 @@
       "title": "Q10: A liquid is heated at a constant rate in an open container. The temperature of the liquid rises by \n0.50 °C per second u",
       "topic": "The particulate nature of matter",
       "subtopic": "Thermal physics",
-      "topic_confidence": 0.79,
+      "topic_confidence": 0.60125,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -5191,7 +5191,7 @@
       "title": "Q11: Star X has a surface temperature T, luminosity L and radius R.\nThe luminosity of star Y is 4L and the surface temperatur",
       "topic": "The particulate nature of matter",
       "subtopic": "Thermal physics",
-      "topic_confidence": 0.43,
+      "topic_confidence": 0.33125,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -5228,7 +5228,7 @@
       "title": "Q12: The black-body radiation curves for two objects A and B are shown. \n10\n100 200\n300\n400\n500\nwavelength / nm\nintensity / a",
       "topic": "The particulate nature of matter",
       "subtopic": "Thermal physics",
-      "topic_confidence": 0.43,
+      "topic_confidence": 0.33125,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -5265,7 +5265,7 @@
       "title": "Q13: The albedo of a planet with no atmosphere is 0.25. The reflected intensity is 240 W m-2. \nWhat is the outgoing radiated ",
       "topic": "Wave behaviour",
       "subtopic": "Doppler and sound",
-      "topic_confidence": 0.43,
+      "topic_confidence": 0.32375,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -5302,7 +5302,7 @@
       "title": "Q14: The graph shows the variation of the internal energy U with temperature T for a sample of an ideal \nmonatomic gas. R is ",
       "topic": "The particulate nature of matter",
       "subtopic": "Thermal physics",
-      "topic_confidence": 0.61,
+      "topic_confidence": 0.4775,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -5339,7 +5339,7 @@
       "title": "Q15: 75 J of thermal energy is transferred to an ideal monatomic gas at a constant pressure of \n1.0 × 105 Pa. The volume of t",
       "topic": "The particulate nature of matter",
       "subtopic": "Thermal physics",
-      "topic_confidence": 0.61,
+      "topic_confidence": 0.4625,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -5376,7 +5376,7 @@
       "title": "Q16: A gas is compressed at constant temperature. \nWhat are the changes in entropy of the gas and its surroundings during the",
       "topic": "The particulate nature of matter",
       "subtopic": "Thermal physics",
-      "topic_confidence": 0.43,
+      "topic_confidence": 0.4475,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -5411,9 +5411,9 @@
       "level": "HL",
       "question_number": "17",
       "title": "Q17: Three identical resistors, R1, R2 and R3, each of resistance 2 Ω, are connected to a cell of negligible \ninternal resist",
-      "topic": "Space, time and motion",
-      "subtopic": "Work, energy and power",
-      "topic_confidence": 0.43,
+      "topic": "The particulate nature of matter",
+      "subtopic": "Electric circuits",
+      "topic_confidence": 0.3275,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -5450,7 +5450,7 @@
       "title": "Q18: Three identical resistors of 6 Ω are arranged as shown. \nX\nY\n6 Ω\n6 Ω\n6 Ω\nWhat is the resistance between X and Y?\nA. \n2 Ω",
       "topic": "The particulate nature of matter",
       "subtopic": "Electric circuits",
-      "topic_confidence": 0.43,
+      "topic_confidence": 0.3275,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -5487,7 +5487,7 @@
       "title": "Q19: A simple pendulum oscillates with period T on Earth. The mass of the pendulum is doubled and \noscillates on the Moon whe",
       "topic": "Space, time and motion",
       "subtopic": "Kinematics",
-      "topic_confidence": 0.43,
+      "topic_confidence": 0.335,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -5524,7 +5524,7 @@
       "title": "Q20: A body of mass 2.0 kg undergoes simple harmonic motion with a maximum displacement of 0.5 m. \nThe period of oscillation ",
       "topic": "Space, time and motion",
       "subtopic": "Kinematics",
-      "topic_confidence": 0.43,
+      "topic_confidence": 0.335,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -5559,9 +5559,9 @@
       "level": "HL",
       "question_number": "21",
       "title": "Q21: The diagram below shows a snapshot of a transverse wave on a rope. Points P and Q are two \npoints on the rope at a posit",
-      "topic": "Unsorted",
-      "subtopic": "Unsorted",
-      "topic_confidence": 0.05,
+      "topic": "Wave behaviour",
+      "subtopic": "Wave properties",
+      "topic_confidence": 0.34625,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -5598,7 +5598,7 @@
       "title": "Q22: The diagram shows wavefronts of light incident on an air–glass boundary. \nThe angle between the incident wavefront and t",
       "topic": "Wave behaviour",
       "subtopic": "Optics",
-      "topic_confidence": 0.43,
+      "topic_confidence": 0.4775,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -5635,7 +5635,7 @@
       "title": "Q23: S1 and S2 are two coherent sound sources with no phase difference. The wavelength of both \nwaves is 0.20 m. P is a point",
       "topic": "Wave behaviour",
       "subtopic": "Wave properties",
-      "topic_confidence": 0.61,
+      "topic_confidence": 0.45125000000000004,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -5670,9 +5670,9 @@
       "level": "HL",
       "question_number": "24",
       "title": "Q24: A parallel beam of monochromatic light of wavelength λ passes through a rectangular slit of width \nb and is incident on ",
-      "topic": "Space, time and motion",
-      "subtopic": "Kinematics",
-      "topic_confidence": 0.43,
+      "topic": "Wave behaviour",
+      "subtopic": "Superposition and standing waves",
+      "topic_confidence": 0.33125,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -5709,7 +5709,7 @@
       "title": "Q25: The frequency of the first harmonic for a pipe open at both ends is f. The length of the pipe is \n0.4 m. A second pipe, ",
       "topic": "Wave behaviour",
       "subtopic": "Wave properties",
-      "topic_confidence": 0.43,
+      "topic_confidence": 0.32375,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -5746,7 +5746,7 @@
       "title": "Q26: The relationship between the period of a planet’s orbit T and the distance to the Sun R can be \nexpressed as T n ∝ R m w",
       "topic": "Space, time and motion",
       "subtopic": "Kinematics",
-      "topic_confidence": 0.43,
+      "topic_confidence": 0.32,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -5781,9 +5781,9 @@
       "level": "HL",
       "question_number": "27",
       "title": "Q27: Point X is at a distance d from the centre of Earth. d is larger than the radius of Earth. The \ngravitational field stre",
-      "topic": "Space, time and motion",
-      "subtopic": "Kinematics",
-      "topic_confidence": 0.43,
+      "topic": "Fields",
+      "subtopic": "Gravitational fields",
+      "topic_confidence": 0.36124999999999996,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -5820,7 +5820,7 @@
       "title": "Q28: The work done per unit mass to move a body from infinity to a point P in a gravitational field is the\nA. \ngravitational ",
       "topic": "Space, time and motion",
       "subtopic": "Work, energy and power",
-      "topic_confidence": 0.61,
+      "topic_confidence": 0.47375,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -5857,7 +5857,7 @@
       "title": "Q29: In a Millikan’s experiment, an oil drop is stationary between two parallel plates. A second oil drop of \nthe same densit",
       "topic": "Space, time and motion",
       "subtopic": "Kinematics",
-      "topic_confidence": 0.43,
+      "topic_confidence": 0.32,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -5892,9 +5892,9 @@
       "level": "HL",
       "question_number": "30",
       "title": "Q30: Two isolated point charges, X of charge +Q and Y of charge +2Q, are separated by a distance 3d. \nP is a point d from X a",
-      "topic": "Space, time and motion",
-      "subtopic": "Kinematics",
-      "topic_confidence": 0.43,
+      "topic": "Fields",
+      "subtopic": "Electric and magnetic fields",
+      "topic_confidence": 0.3425,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -5931,7 +5931,7 @@
       "title": "Q31: Two isolated positive point charges Q1 and Q2 are equidistant from a third charge Q3 as shown. The \nforce on Q3 due to Q",
       "topic": "Space, time and motion",
       "subtopic": "Forces and momentum",
-      "topic_confidence": 0.43,
+      "topic_confidence": 0.30874999999999997,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -5966,9 +5966,9 @@
       "level": "HL",
       "question_number": "32",
       "title": "Q32: The energy levels of an atom in which an electron transitions from E1 to E4 are shown. E1 is the \nground state.\ndiagram ",
-      "topic": "Wave behaviour",
-      "subtopic": "Wave properties",
-      "topic_confidence": 0.43,
+      "topic": "Nuclear and quantum physics",
+      "subtopic": "Quantum/modern physics",
+      "topic_confidence": 0.335,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -6005,7 +6005,7 @@
       "title": "Q33: The nucleus of an element X has radius R and density ρ. \nThe nucleon number of an element Y is 8 times that of X. \nWhat ",
       "topic": "The particulate nature of matter",
       "subtopic": "Material properties",
-      "topic_confidence": 0.43,
+      "topic_confidence": 0.31625000000000003,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -6042,7 +6042,7 @@
       "title": "Q34: Which of the following expressions gives the de Broglie wavelength, in metres, of a tennis ball of \nmass 0.06 kg and kin",
       "topic": "Space, time and motion",
       "subtopic": "Work, energy and power",
-      "topic_confidence": 0.43,
+      "topic_confidence": 0.3425,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -6079,7 +6079,7 @@
       "title": "Q35: Thorium-232 (\n90\n232Th) is an unstable nuclide. It decays by emitting an alpha particle followed by a \nbeta minus (β−) p",
       "topic": "Nuclear and quantum physics",
       "subtopic": "Radioactivity",
-      "topic_confidence": 0.79,
+      "topic_confidence": 0.5225,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -6116,7 +6116,7 @@
       "title": "Q36: A pure sample of radon-222 decays into polonium with a half-life of 4 days. A measurement is \nmade of its radioactivity.",
       "topic": "Nuclear and quantum physics",
       "subtopic": "Radioactivity",
-      "topic_confidence": 0.79,
+      "topic_confidence": 0.5525,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -6153,7 +6153,7 @@
       "title": "Q37: Which component is responsible for slowing down neutrons in a nuclear reactor to increase the \nlikelihood of nuclear fis",
       "topic": "Nuclear and quantum physics",
       "subtopic": "Nuclear reactions",
-      "topic_confidence": 0.43,
+      "topic_confidence": 0.67625,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -6190,7 +6190,7 @@
       "title": "Q38: Which of the following temperature and density conditions are necessary for fusion to occur in \na star? \nTemperature of ",
       "topic": "The particulate nature of matter",
       "subtopic": "Thermal physics",
-      "topic_confidence": 0.43,
+      "topic_confidence": 0.33125,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -6227,7 +6227,7 @@
       "title": "Q39: The HR diagram shows two stars, X and Y.\nsurface temperature\nluminosity \nX\nY\nThree statements are made about star X and ",
       "topic": "The particulate nature of matter",
       "subtopic": "Thermal physics",
-      "topic_confidence": 0.43,
+      "topic_confidence": 0.33125,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -6262,9 +6262,9 @@
       "level": "HL",
       "question_number": "40",
       "title": "Q40: X is a star of luminosity L and apparent brightness b. Y is a star of luminosity L and apparent \nbrightness 2b.\nAs viewe",
-      "topic": "Unsorted",
-      "subtopic": "Unsorted",
-      "topic_confidence": 0.05,
+      "topic": "Fields",
+      "subtopic": "Gravitational fields",
+      "topic_confidence": 0.6087499999999999,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -6301,7 +6301,7 @@
       "title": "Q1: A car decelerates uniformly to rest. From an initial velocity v to a velocity v\n2 , it covers a distance d. \nHow much fu",
       "topic": "Space, time and motion",
       "subtopic": "Kinematics",
-      "topic_confidence": 0.61,
+      "topic_confidence": 0.44,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -6338,7 +6338,7 @@
       "title": "Q2: Two balls, P and Q, are projected from the edge of a cliff. P is projected horizontally at speed v and \nQ is projected v",
       "topic": "The particulate nature of matter",
       "subtopic": "Electric circuits",
-      "topic_confidence": 0.43,
+      "topic_confidence": 0.3275,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -6375,7 +6375,7 @@
       "title": "Q3: Two identical blocks, X and Y, each of mass 2.0 kg are connected by a string. They move on the \nsame surface. \nA force F",
       "topic": "Space, time and motion",
       "subtopic": "Forces and momentum",
-      "topic_confidence": 0.61,
+      "topic_confidence": 0.42874999999999996,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -6412,7 +6412,7 @@
       "title": "Q4: A raindrop falls from rest through air with velocity v and acceleration a.\nWhich graph best represents the variation of ",
       "topic": "Space, time and motion",
       "subtopic": "Kinematics",
-      "topic_confidence": 0.61,
+      "topic_confidence": 0.45499999999999996,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -6449,7 +6449,7 @@
       "title": "Q5: A ball of mass m collides with a stationary ball of mass 3m. After colliding, the two balls \nmove together. \nWhat is the",
       "topic": "Space, time and motion",
       "subtopic": "Work, energy and power",
-      "topic_confidence": 0.43,
+      "topic_confidence": 0.3425,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -6484,9 +6484,9 @@
       "level": "SL",
       "question_number": "6",
       "title": "Q6: A ball of mass 0.4 kg is attached to a string of length 0.8 m. The ball is rotated in a vertical circle \nsuch that the s",
-      "topic": "Unsorted",
-      "subtopic": "Unsorted",
-      "topic_confidence": 0.05,
+      "topic": "Space, time and motion",
+      "subtopic": "Circular and rotational motion",
+      "topic_confidence": 0.4625,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -6523,7 +6523,7 @@
       "title": "Q7: A liquid is heated at a constant rate in an open container. The temperature of the liquid rises by \n0.50 °C per second u",
       "topic": "The particulate nature of matter",
       "subtopic": "Thermal physics",
-      "topic_confidence": 0.79,
+      "topic_confidence": 0.60125,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -6560,7 +6560,7 @@
       "title": "Q8: Star X has a surface temperature T, luminosity L and radius R.\nThe luminosity of star Y is 4L and the surface temperatur",
       "topic": "The particulate nature of matter",
       "subtopic": "Thermal physics",
-      "topic_confidence": 0.43,
+      "topic_confidence": 0.33125,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -6595,9 +6595,9 @@
       "level": "SL",
       "question_number": "9",
       "title": "Q9: A student makes three statements about Earth’s albedo.\nI. \nIt varies daily.\nII. \nIt depends on latitude.\nIII. \nIt depend",
-      "topic": "Unsorted",
-      "subtopic": "Unsorted",
-      "topic_confidence": 0.05,
+      "topic": "Fields",
+      "subtopic": "Gravitational fields",
+      "topic_confidence": 0.3125,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -6634,7 +6634,7 @@
       "title": "Q10: The graph shows the variation of the internal energy U with temperature T for a sample of an ideal \nmonatomic gas. R is ",
       "topic": "The particulate nature of matter",
       "subtopic": "Thermal physics",
-      "topic_confidence": 0.61,
+      "topic_confidence": 0.4775,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -6669,9 +6669,9 @@
       "level": "SL",
       "question_number": "11",
       "title": "Q11: Three identical resistors, R1, R2 and R3, each of resistance 2 Ω, are connected to a cell of negligible \ninternal resist",
-      "topic": "Space, time and motion",
-      "subtopic": "Work, energy and power",
-      "topic_confidence": 0.43,
+      "topic": "The particulate nature of matter",
+      "subtopic": "Electric circuits",
+      "topic_confidence": 0.3275,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -6708,7 +6708,7 @@
       "title": "Q12: Three identical resistors of 6 Ω are arranged as shown. \nX\nY\n6 Ω\n6 Ω\n6 Ω\nWhat is the resistance between X and Y?\nA. \n2 Ω",
       "topic": "The particulate nature of matter",
       "subtopic": "Electric circuits",
-      "topic_confidence": 0.43,
+      "topic_confidence": 0.3275,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -6745,7 +6745,7 @@
       "title": "Q13: A simple pendulum oscillates with period T on Earth. The mass of the pendulum is doubled and \noscillates on the Moon whe",
       "topic": "Space, time and motion",
       "subtopic": "Kinematics",
-      "topic_confidence": 0.43,
+      "topic_confidence": 0.335,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -6780,9 +6780,9 @@
       "level": "SL",
       "question_number": "14",
       "title": "Q14: The diagram below shows a snapshot of a transverse wave on a rope. Points P and Q are two \npoints on the rope at a posit",
-      "topic": "Unsorted",
-      "subtopic": "Unsorted",
-      "topic_confidence": 0.05,
+      "topic": "Wave behaviour",
+      "subtopic": "Wave properties",
+      "topic_confidence": 0.34625,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -6819,7 +6819,7 @@
       "title": "Q15: The diagram shows wavefronts of light incident on an air–glass boundary. \nThe angle between the incident wavefront and t",
       "topic": "Wave behaviour",
       "subtopic": "Optics",
-      "topic_confidence": 0.43,
+      "topic_confidence": 0.4775,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -6856,7 +6856,7 @@
       "title": "Q16: S1 and S2 are two coherent sound sources with no phase difference. The wavelength of both \nwaves is 0.20 m. P is a point",
       "topic": "Wave behaviour",
       "subtopic": "Wave properties",
-      "topic_confidence": 0.61,
+      "topic_confidence": 0.45125000000000004,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -6893,7 +6893,7 @@
       "title": "Q17: The relationship between the period of a planet’s orbit T and the distance to the Sun R can be \nexpressed as T n ∝ R m w",
       "topic": "Space, time and motion",
       "subtopic": "Kinematics",
-      "topic_confidence": 0.43,
+      "topic_confidence": 0.32,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -6928,9 +6928,9 @@
       "level": "SL",
       "question_number": "18",
       "title": "Q18: Point X is at a distance d from the centre of Earth. d is larger than the radius of Earth. The \ngravitational field stre",
-      "topic": "Space, time and motion",
-      "subtopic": "Kinematics",
-      "topic_confidence": 0.43,
+      "topic": "Fields",
+      "subtopic": "Gravitational fields",
+      "topic_confidence": 0.36124999999999996,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -6967,7 +6967,7 @@
       "title": "Q19: Two isolated identical point charges, Q1 and Q2, are separated by distance d. The electrostatic \nforce on each charge is",
       "topic": "Space, time and motion",
       "subtopic": "Kinematics",
-      "topic_confidence": 0.43,
+      "topic_confidence": 0.32,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -7002,9 +7002,9 @@
       "level": "SL",
       "question_number": "20",
       "title": "Q20: Two isolated point charges, X of charge +Q and Y of charge +2Q, are separated by a distance 3d. \nP is a point d from X a",
-      "topic": "Space, time and motion",
-      "subtopic": "Kinematics",
-      "topic_confidence": 0.43,
+      "topic": "Fields",
+      "subtopic": "Electric and magnetic fields",
+      "topic_confidence": 0.3425,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -7039,9 +7039,9 @@
       "level": "SL",
       "question_number": "21",
       "title": "Q21: The energy levels of an atom in which an electron transitions from E1 to E4 are shown. E1 is the \nground state.\ndiagram ",
-      "topic": "Wave behaviour",
-      "subtopic": "Wave properties",
-      "topic_confidence": 0.43,
+      "topic": "Nuclear and quantum physics",
+      "subtopic": "Quantum/modern physics",
+      "topic_confidence": 0.335,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -7078,7 +7078,7 @@
       "title": "Q22: Thorium-232 (\n90\n232Th) is an unstable nuclide. It decays by emitting an alpha particle followed by a \nbeta minus (β−) p",
       "topic": "Nuclear and quantum physics",
       "subtopic": "Radioactivity",
-      "topic_confidence": 0.79,
+      "topic_confidence": 0.5225,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -7115,7 +7115,7 @@
       "title": "Q23: A pure sample of radon-222 decays into polonium with a half-life of 4 days. A measurement is \nmade of its radioactivity.",
       "topic": "Nuclear and quantum physics",
       "subtopic": "Radioactivity",
-      "topic_confidence": 0.79,
+      "topic_confidence": 0.5525,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -7152,7 +7152,7 @@
       "title": "Q24: Which component is responsible for slowing down neutrons in a nuclear reactor to increase the \nlikelihood of nuclear fis",
       "topic": "Nuclear and quantum physics",
       "subtopic": "Nuclear reactions",
-      "topic_confidence": 0.43,
+      "topic_confidence": 0.67625,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -7189,7 +7189,7 @@
       "title": "Q25: The HR diagram shows two stars, X and Y.\nsurface temperature\nluminosity \nX\nY\nThree statements are made about star X and ",
       "topic": "The particulate nature of matter",
       "subtopic": "Thermal physics",
-      "topic_confidence": 0.43,
+      "topic_confidence": 0.33125,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -7226,7 +7226,7 @@
       "title": "Q1: A student is analysing a sample of water. To determine its density, the student measures \nthe volume with a measuring cy",
       "topic": "The particulate nature of matter",
       "subtopic": "Thermal physics",
-      "topic_confidence": 0.43,
+      "topic_confidence": 0.33125,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -7266,7 +7266,7 @@
       "title": "Q2: A group of students is investigating refraction in a semi-circular glass block.\nLight from a ray box enters the curved s",
       "topic": "Wave behaviour",
       "subtopic": "Optics",
-      "topic_confidence": 0.43,
+      "topic_confidence": 0.4775,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -7304,9 +7304,9 @@
       "level": "HL",
       "question_number": "3",
       "title": "Q3: A group of students wants to determine the horizontal component BH of the Earth’s \nmagnetic field. \nThey place a magnet ",
-      "topic": "Space, time and motion",
-      "subtopic": "Kinematics",
-      "topic_confidence": 0.43,
+      "topic": "Fields",
+      "subtopic": "Electric and magnetic fields",
+      "topic_confidence": 0.3425,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -7428,7 +7428,7 @@
       "title": "Q1: A student is analysing a sample of water. To determine its density, the student measures \nthe volume with a measuring cy",
       "topic": "The particulate nature of matter",
       "subtopic": "Thermal physics",
-      "topic_confidence": 0.43,
+      "topic_confidence": 0.33125,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -7468,7 +7468,7 @@
       "title": "Q2: A group of students is investigating refraction in a semi-circular glass block.\nLight from a ray box enters the curved s",
       "topic": "Wave behaviour",
       "subtopic": "Optics",
-      "topic_confidence": 0.43,
+      "topic_confidence": 0.4775,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -7506,9 +7506,9 @@
       "level": "SL",
       "question_number": "3",
       "title": "Q3: A group of students wants to determine the horizontal component BH of the Earth’s \nmagnetic field. \nThey place a magnet ",
-      "topic": "Space, time and motion",
-      "subtopic": "Kinematics",
-      "topic_confidence": 0.43,
+      "topic": "Fields",
+      "subtopic": "Electric and magnetic fields",
+      "topic_confidence": 0.3425,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -7630,7 +7630,7 @@
       "title": "Q1: A student determines the resistivity r of a metal that is in the form of a cylindrical wire. \nThe student makes the foll",
       "topic": "The particulate nature of matter",
       "subtopic": "Electric circuits",
-      "topic_confidence": 0.43,
+      "topic_confidence": 0.3275,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -7668,7 +7668,7 @@
       "title": "Q2: The equation PV\nNk T\n=\nB\ndescribes the behaviour of an ideal gas.\nA student tests a fixed mass of gas to confirm that, f",
       "topic": "The particulate nature of matter",
       "subtopic": "Thermal physics",
-      "topic_confidence": 0.43,
+      "topic_confidence": 0.33125,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -7792,7 +7792,7 @@
       "title": "Q1: A student determines the resistivity r of a metal that is in the form of a cylindrical wire. \nThe student makes the foll",
       "topic": "The particulate nature of matter",
       "subtopic": "Electric circuits",
-      "topic_confidence": 0.43,
+      "topic_confidence": 0.3275,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -7830,7 +7830,7 @@
       "title": "Q2: The equation PV\nNk T\n=\nB\ndescribes the behaviour of an ideal gas.\nA student tests a fixed mass of gas to confirm that, f",
       "topic": "The particulate nature of matter",
       "subtopic": "Thermal physics",
-      "topic_confidence": 0.43,
+      "topic_confidence": 0.33125,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -7952,9 +7952,9 @@
       "level": "HL",
       "question_number": "1",
       "title": "Q1: A group of students uses pressurized air to move a piston that forces a nail into a block of \nwood. A gauge is used to m",
-      "topic": "Space, time and motion",
-      "subtopic": "Forces and momentum",
-      "topic_confidence": 0.43,
+      "topic": "The particulate nature of matter",
+      "subtopic": "Gas laws",
+      "topic_confidence": 0.32,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -7992,9 +7992,9 @@
       "level": "HL",
       "question_number": "2",
       "title": "Q2: Students set up a double slit experiment to determine the wavelength λ of monochromatic \nlight. A light source is direct",
-      "topic": "Space, time and motion",
-      "subtopic": "Kinematics",
-      "topic_confidence": 0.43,
+      "topic": "Wave behaviour",
+      "subtopic": "Superposition and standing waves",
+      "topic_confidence": 0.335,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -8114,9 +8114,9 @@
       "level": "SL",
       "question_number": "1",
       "title": "Q1: A group of students uses pressurized air to move a piston that forces a nail into a block of \nwood. A gauge is used to m",
-      "topic": "Space, time and motion",
-      "subtopic": "Forces and momentum",
-      "topic_confidence": 0.43,
+      "topic": "The particulate nature of matter",
+      "subtopic": "Gas laws",
+      "topic_confidence": 0.32,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -8154,9 +8154,9 @@
       "level": "SL",
       "question_number": "2",
       "title": "Q2: Students set up a double slit experiment to determine the wavelength λ of monochromatic \nlight. A light source is direct",
-      "topic": "Space, time and motion",
-      "subtopic": "Kinematics",
-      "topic_confidence": 0.43,
+      "topic": "Wave behaviour",
+      "subtopic": "Superposition and standing waves",
+      "topic_confidence": 0.335,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -8278,7 +8278,7 @@
       "title": "Q1: (a) \nA car of mass 1600 kg accelerates from rest. \nThe graph shows how the resultant force F acting in the direction of ",
       "topic": "Space, time and motion",
       "subtopic": "Kinematics",
-      "topic_confidence": 0.43,
+      "topic_confidence": 0.32,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -8318,7 +8318,7 @@
       "title": "Q2: Venus is a planet in the Solar System. The following data are given:\nOrbital period of Venus = 225 days\nOrbital period o",
       "topic": "Fields",
       "subtopic": "Gravitational fields",
-      "topic_confidence": 0.61,
+      "topic_confidence": 0.47000000000000003,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -8356,7 +8356,7 @@
       "title": "Q3: (a) \n\u0007Rutherford modelled the scattering of alpha particles by a nucleus of gold. However, \nwhen the initial alpha parti",
       "topic": "Nuclear and quantum physics",
       "subtopic": "Radioactivity",
-      "topic_confidence": 0.95,
+      "topic_confidence": 0.88625,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -8432,7 +8432,7 @@
       "title": "Q5: A sound detector moves along a line connecting it to a stationary loudspeaker. \nThe loudspeaker emits a sound of frequen",
       "topic": "Wave behaviour",
       "subtopic": "Wave properties",
-      "topic_confidence": 0.61,
+      "topic_confidence": 0.45125000000000004,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -8470,9 +8470,9 @@
       "level": "HL",
       "question_number": "6",
       "title": "Q6: An electron is accelerated from rest by an electric potential difference V. The electron \nreaches a speed of 9.4 × 106 m",
-      "topic": "Space, time and motion",
-      "subtopic": "Kinematics",
-      "topic_confidence": 0.79,
+      "topic": "Fields",
+      "subtopic": "Electric and magnetic fields",
+      "topic_confidence": 0.6499999999999999,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -8550,9 +8550,9 @@
       "level": "HL",
       "question_number": "8",
       "title": "Q8: (a) \nState what is meant by the solar constant.\b\n[1]\n\b������������������������������������������������������������������",
-      "topic": "Space, time and motion",
-      "subtopic": "Kinematics",
-      "topic_confidence": 0.43,
+      "topic": "Nuclear and quantum physics",
+      "subtopic": "Nuclear reactions",
+      "topic_confidence": 0.42875,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -8600,7 +8600,7 @@
       "title": "Q9: A bar magnet of mass 0.12 kg is suspended from a vertical spring of spring constant 7.4 N m-1. \nThe mass of the spring i",
       "topic": "Space, time and motion",
       "subtopic": "Work, energy and power",
-      "topic_confidence": 0.61,
+      "topic_confidence": 0.4925,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -8710,7 +8710,7 @@
       "title": "Q1: (a) \nA car of mass 1600 kg accelerates from rest. \nThe graph shows how the resultant force F acting in the direction of ",
       "topic": "Space, time and motion",
       "subtopic": "Kinematics",
-      "topic_confidence": 0.43,
+      "topic_confidence": 0.32,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -8750,7 +8750,7 @@
       "title": "Q2: Venus is a planet in the Solar System. The following data are given:\nOrbital period of Venus = 225 days\nOrbital period o",
       "topic": "Wave behaviour",
       "subtopic": "Wave properties",
-      "topic_confidence": 0.43,
+      "topic_confidence": 0.3125,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -8786,7 +8786,7 @@
       "title": "Q3: The graph shows the variation with the potential difference V of the current I  in an ohmic \nresistor P and a non-ohmic ",
       "topic": "The particulate nature of matter",
       "subtopic": "Electric circuits",
-      "topic_confidence": 0.95,
+      "topic_confidence": 0.7625,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -8822,7 +8822,7 @@
       "title": "Q4: (a) \n\u0007One difference between sound waves and electromagnetic waves is that sound waves \nare longitudinal and electromagn",
       "topic": "Wave behaviour",
       "subtopic": "Wave properties",
-      "topic_confidence": 0.61,
+      "topic_confidence": 0.58625,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -8860,9 +8860,9 @@
       "level": "SL",
       "question_number": "5",
       "title": "Q5: An electron enters a region of a uniform electric field between two parallel charged plates. \nThe electron is initially ",
-      "topic": "Space, time and motion",
-      "subtopic": "Kinematics",
-      "topic_confidence": 0.79,
+      "topic": "Fields",
+      "subtopic": "Electric and magnetic fields",
+      "topic_confidence": 0.6499999999999999,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -8900,9 +8900,9 @@
       "level": "SL",
       "question_number": "6",
       "title": "Q6: (a) \nState what is meant by the solar constant.\b\n[1]\n\b������������������������������������������������������������������",
-      "topic": "Space, time and motion",
-      "subtopic": "Kinematics",
-      "topic_confidence": 0.43,
+      "topic": "Nuclear and quantum physics",
+      "subtopic": "Nuclear reactions",
+      "topic_confidence": 0.42875,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -9000,7 +9000,7 @@
       "title": "Q1: A cart X of mass 3.0 kg moving at 6.0 m s-1 collides with a stationary cart Y of mass 6.0 kg. \nA spring is attached to X",
       "topic": "Space, time and motion",
       "subtopic": "Forces and momentum",
-      "topic_confidence": 0.61,
+      "topic_confidence": 0.4325,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -9050,7 +9050,7 @@
       "title": "Q2: (a) \nDescribe the mechanism of heat transfer by conduction.\b\n[2]\n\b������������������������������������������������������",
       "topic": "The particulate nature of matter",
       "subtopic": "Thermal physics",
-      "topic_confidence": 0.61,
+      "topic_confidence": 0.4475,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -9102,9 +9102,9 @@
       "level": "HL",
       "question_number": "3",
       "title": "Q3: Two oppositely charged parallel plates are a distance 8.0 cm apart. The potential difference \nbetween the plates is 120 ",
-      "topic": "Space, time and motion",
-      "subtopic": "Kinematics",
-      "topic_confidence": 0.79,
+      "topic": "Fields",
+      "subtopic": "Electric and magnetic fields",
+      "topic_confidence": 0.6499999999999999,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -9156,7 +9156,7 @@
       "title": "Q4: Two sources of light produce an interference pattern on a screen.\n(a) \nExplain why the two sources need to be coherent f",
       "topic": "Wave behaviour",
       "subtopic": "Superposition and standing waves",
-      "topic_confidence": 0.61,
+      "topic_confidence": 0.46625,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -9208,7 +9208,7 @@
       "title": "Q5: (a) \n\u0007Outline why Compton scattering offers better evidence for the particle nature of light \nthan the photoelectric eff",
       "topic": "Nuclear and quantum physics",
       "subtopic": "Quantum/modern physics",
-      "topic_confidence": 0.61,
+      "topic_confidence": 0.45125,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -9260,7 +9260,7 @@
       "title": "Q6: Spacecraft S leaves Earth with speed 0.60c on the way to a planet P. As measured by Earth, \nP is at a distance of 30 ly ",
       "topic": "Space, time and motion",
       "subtopic": "Kinematics",
-      "topic_confidence": 0.43,
+      "topic_confidence": 0.32,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -9312,7 +9312,7 @@
       "title": "Q7: The following data are available for the Sun when it entered the main sequence.\nMass = 2.0 × 1030 kg\nRadius = 7.0 × 108 ",
       "topic": "Wave behaviour",
       "subtopic": "Wave properties",
-      "topic_confidence": 0.61,
+      "topic_confidence": 0.44000000000000006,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -9368,7 +9368,7 @@
       "title": "Q8: (a) \n\u0007A cylindrical spacecraft of cross-sectional area S moves with velocity v. The spacecraft \nenters a region of dust ",
       "topic": "The particulate nature of matter",
       "subtopic": "Thermal physics",
-      "topic_confidence": 0.79,
+      "topic_confidence": 0.5862499999999999,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -9580,7 +9580,7 @@
       "title": "Q1: A cart X of mass 3.0 kg moving at 6.0 m s-1 collides with a stationary cart Y of mass 6.0 kg. \nA spring is attached to X",
       "topic": "Space, time and motion",
       "subtopic": "Forces and momentum",
-      "topic_confidence": 0.61,
+      "topic_confidence": 0.4325,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -9626,7 +9626,7 @@
       "title": "Q2: (a) \nDescribe the mechanism of heat transfer by conduction.\b\n[2]\n\b������������������������������������������������������",
       "topic": "The particulate nature of matter",
       "subtopic": "Thermal physics",
-      "topic_confidence": 0.61,
+      "topic_confidence": 0.4475,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -9674,9 +9674,9 @@
       "level": "SL",
       "question_number": "3",
       "title": "Q3: Two oppositely charged parallel plates are a distance 8.0 cm apart. The potential difference \nbetween the plates is 120 ",
-      "topic": "Space, time and motion",
-      "subtopic": "Kinematics",
-      "topic_confidence": 0.79,
+      "topic": "Fields",
+      "subtopic": "Electric and magnetic fields",
+      "topic_confidence": 0.6499999999999999,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -9722,9 +9722,9 @@
       "level": "SL",
       "question_number": "4",
       "title": "Q4: Two sources of light produce an interference pattern on a screen.\n(a) \nExplain why the two sources need to be coherent f",
-      "topic": "Space, time and motion",
-      "subtopic": "Circular and rotational motion",
-      "topic_confidence": 0.43,
+      "topic": "Wave behaviour",
+      "subtopic": "Superposition and standing waves",
+      "topic_confidence": 0.335,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -9770,7 +9770,7 @@
       "title": "Q5: The following data are available for the Sun when it entered the main sequence.\nMass = 2.0 × 1030 kg\nRadius = 7.0 × 108 ",
       "topic": "Wave behaviour",
       "subtopic": "Wave properties",
-      "topic_confidence": 0.61,
+      "topic_confidence": 0.44000000000000006,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -9916,7 +9916,7 @@
       "title": "Q1: A box of mass 1.2 kg is lying at rest on a surface. The coefficient of static friction between the \nbox and the surface ",
       "topic": "Space, time and motion",
       "subtopic": "Forces and momentum",
-      "topic_confidence": 0.61,
+      "topic_confidence": 0.42874999999999996,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -10018,7 +10018,7 @@
       "title": "Q3: The pressure–volume diagram shows a 3-stage cyclic process of 0.20 moles of an ideal gas \nin a closed container. A–B is ",
       "topic": "The particulate nature of matter",
       "subtopic": "Gas laws",
-      "topic_confidence": 0.79,
+      "topic_confidence": 0.6649999999999999,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -10080,7 +10080,7 @@
       "title": "Q4: (a) \nIdentify two differences between sound waves in air and light waves.\b\n[2]\n\b����������������������������������������",
       "topic": "Wave behaviour",
       "subtopic": "Wave properties",
-      "topic_confidence": 0.79,
+      "topic_confidence": 0.56375,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -10136,7 +10136,7 @@
       "title": "Q5: (a) \nA stationary isotope of 88Ra (Radium) decays into Rn (Radon) and an alpha particle. \n(i) \nIdentify the proton numbe",
       "topic": "Nuclear and quantum physics",
       "subtopic": "Radioactivity",
-      "topic_confidence": 0.61,
+      "topic_confidence": 0.4175,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -10190,7 +10190,7 @@
       "title": "Q6: An electric circuit is used to investigate the photoelectric effect.\nA beam of light from a laser of variable wavelength",
       "topic": "The particulate nature of matter",
       "subtopic": "Electric circuits",
-      "topic_confidence": 0.79,
+      "topic_confidence": 0.5487500000000001,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -10242,7 +10242,7 @@
       "title": "Q7: A cylindrical cork of height H and cross-sectional area A is floating stationary in water. Its \ndepth below the water su",
       "topic": "The particulate nature of matter",
       "subtopic": "Thermal physics",
-      "topic_confidence": 0.95,
+      "topic_confidence": 0.7174999999999998,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -10304,7 +10304,7 @@
       "title": "Q8: A rod, R, lies perpendicular to a uniform magnetic field B of strength 0.50 T directed into the \nplane of the page. R is",
       "topic": "The particulate nature of matter",
       "subtopic": "Electric circuits",
-      "topic_confidence": 0.79,
+      "topic_confidence": 0.65375,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -10468,7 +10468,7 @@
       "title": "Q1: A box of mass 1.2 kg is lying at rest on a surface. The coefficient of static friction between the \nbox and the surface ",
       "topic": "Space, time and motion",
       "subtopic": "Forces and momentum",
-      "topic_confidence": 0.61,
+      "topic_confidence": 0.42874999999999996,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -10514,7 +10514,7 @@
       "title": "Q2: Graph 1 shows the variation of particle displacement d with position x for a travelling sound wave. \nGraph 1\nd / mm\nx / ",
       "topic": "Wave behaviour",
       "subtopic": "Wave properties",
-      "topic_confidence": 0.79,
+      "topic_confidence": 0.56375,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -10560,7 +10560,7 @@
       "title": "Q3: (a) \nA stationary isotope of 88Ra (Radium) decays into Rn (Radon) and an alpha particle. \n(i) \nIdentify the proton numbe",
       "topic": "Nuclear and quantum physics",
       "subtopic": "Radioactivity",
-      "topic_confidence": 0.61,
+      "topic_confidence": 0.4175,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -10610,7 +10610,7 @@
       "title": "Q4: Earth orbits the Sun at an average distance of 1.50 × 108 km. \nThe mass of the Sun is 2.0 × 1030 kg.\n(a) \nCalculate the ",
       "topic": "Fields",
       "subtopic": "Gravitational fields",
-      "topic_confidence": 0.61,
+      "topic_confidence": 0.47000000000000003,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -10656,9 +10656,9 @@
       "level": "SL",
       "question_number": "5",
       "title": "Q5: Two positive electric charges of magnitudes q and 4q are a distance d apart, along a line L.\ndiagram not to scale\n4q\nd\nq",
-      "topic": "Space, time and motion",
-      "subtopic": "Kinematics",
-      "topic_confidence": 0.43,
+      "topic": "Fields",
+      "subtopic": "Electric and magnetic fields",
+      "topic_confidence": 0.48875,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -10704,7 +10704,7 @@
       "title": "Q6: A cylindrical cork of height H and cross-sectional area A is floating stationary in water. Its \ndepth below the water su",
       "topic": "The particulate nature of matter",
       "subtopic": "Thermal physics",
-      "topic_confidence": 0.95,
+      "topic_confidence": 0.7174999999999998,
       "topic_reason": [
         "physics keyword scorer v2"
       ],

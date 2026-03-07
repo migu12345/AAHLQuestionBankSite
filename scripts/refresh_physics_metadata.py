@@ -18,10 +18,10 @@ TOPIC_RULES = [
     (
         "Space, time and motion",
         [
-            ("Kinematics", ["velocity", "acceleration", "displacement", "distance", "projectile", "free fall"]),
-            ("Forces and momentum", ["force", "newton", "momentum", "impulse", "collision", "equilibrium", "friction"]),
-            ("Work, energy and power", ["work done", "kinetic energy", "potential energy", "power", "efficiency"]),
-            ("Circular and rotational motion", ["centripetal", "angular", "torque", "moment of inertia", "rotation"]),
+            ("Kinematics", ["velocity", "acceleration", "displacement", "distance", "projectile", "free fall", "position time", "x direction"]),
+            ("Forces and momentum", ["force", "newton", "momentum", "impulse", "collision", "equilibrium", "friction", "weight"]),
+            ("Work, energy and power", ["work done", "kinetic energy", "potential energy", "power", "efficiency", "conservation of energy"]),
+            ("Circular and rotational motion", ["centripetal", "angular velocity", "angular acceleration", "torque", "moment of inertia", "vertical circle", "rotated"]),
             (
                 "A5 relativity",
                 [
@@ -37,6 +37,9 @@ TOPIC_RULES = [
                     "speed of light",
                     "moving in the positive x direction",
                     "moving in the negative x direction",
+                    "speed of y in the frame of reference of x",
+                    "observer x",
+                    "observer y",
                 ],
             ),
         ],
@@ -44,36 +47,36 @@ TOPIC_RULES = [
     (
         "The particulate nature of matter",
         [
-            ("Thermal physics", ["temperature", "thermal", "internal energy", "specific heat", "latent heat"]),
-            ("Gas laws", ["ideal gas", "pressure", "volume", "boyle", "charles", "avogadro"]),
-            ("Electric circuits", ["current", "voltage", "resistance", "emf", "circuit", "kirchhoff", "ohm"]),
-            ("Material properties", ["young modulus", "stress", "strain", "density"]),
+            ("Thermal physics", ["temperature", "thermal", "internal energy", "specific heat", "latent heat", "entropy"]),
+            ("Gas laws", ["ideal gas", "pressure", "volume", "boyle", "charles", "avogadro", "moles"]),
+            ("Electric circuits", ["current", "voltage", "resistance", "emf", "circuit", "kirchhoff", "ohm", "series", "parallel"]),
+            ("Material properties", ["young modulus", "stress", "strain", "density", "elastic"]),
         ],
     ),
     (
         "Wave behaviour",
         [
-            ("Wave properties", ["wavelength", "frequency", "amplitude", "period", "speed of wave"]),
-            ("Superposition and standing waves", ["interference", "diffraction", "standing wave", "node", "antinode"]),
-            ("Optics", ["refraction", "reflection", "snell", "critical angle", "lens", "focal"]),
+            ("Wave properties", ["wavelength", "frequency", "amplitude", "period", "speed of wave", "transverse wave", "longitudinal"]),
+            ("Superposition and standing waves", ["interference", "diffraction", "standing wave", "node", "antinode", "in phase", "out of phase"]),
+            ("Optics", ["refraction", "reflection", "refractive index", "snell", "critical angle", "total internal reflection", "lens", "focal"]),
             ("Doppler and sound", ["doppler", "sound", "intensity", "decibel"]),
         ],
     ),
     (
         "Fields",
         [
-            ("Gravitational fields", ["gravitational field", "g =", "orbit", "escape speed"]),
-            ("Electric and magnetic fields", ["electric field", "potential difference", "magnetic field", "lorentz", "flux"]),
-            ("Electromagnetic induction", ["induction", "faraday", "lenz", "alternating current", "transformer"]),
-            ("Capacitance", ["capacitor", "capacitance", "dielectric", "time constant"]),
+            ("Gravitational fields", ["gravitational field", "g =", "orbit", "escape speed", "parallax", "luminosity", "apparent brightness", "albedo"]),
+            ("Electric and magnetic fields", ["electric field", "electric charge", "potential difference", "magnetic field", "lorentz", "flux", "permittivity", "permeability", "m0", "e0", "m 0 e 0", "mu 0", "epsilon 0", "epsilon", "millikan", "quantized"]),
+            ("Electromagnetic induction", ["induction", "faraday", "lenz", "alternating current", "transformer", "generator"]),
+            ("Capacitance", ["capacitor", "capacitance", "dielectric", "time constant", "rc circuit"]),
         ],
     ),
     (
         "Nuclear and quantum physics",
         [
-            ("Radioactivity", ["half life", "decay", "alpha", "beta", "gamma", "activity"]),
-            ("Nuclear reactions", ["fission", "fusion", "binding energy", "mass defect"]),
-            ("Quantum/modern physics", ["photon", "de broglie", "photoelectric", "quantum", "energy level"]),
+            ("Radioactivity", ["half life", "decay", "alpha", "beta", "gamma", "activity", "radioactive"]),
+            ("Nuclear reactions", ["fission", "fusion", "binding energy", "mass defect", "reactor", "moderator", "uranium", "isotope", "nuclear notation", "protons", "neutrons"]),
+            ("Quantum/modern physics", ["photon", "de broglie", "photoelectric", "quantum", "energy level", "planck"]),
         ],
     ),
 ]
@@ -101,20 +104,21 @@ def classify_topic(question_text: str) -> tuple[str, str, float]:
 
     best_topic = "Unsorted"
     best_sub = "Unsorted"
-    best_score = 0
+    best_score = 0.0
 
     for topic, subgroups in TOPIC_RULES:
         for subtopic, keywords in subgroups:
-            score = 0
+            score = 0.0
             for kw in keywords:
                 if kw in text:
-                    score += 1
+                    # Longer / more specific phrases should win tie-breaks.
+                    score += 1.0 + min(len(kw), 24) / 24.0
             if score > best_score:
                 best_score = score
                 best_topic = topic
                 best_sub = subtopic
 
-    confidence = min(0.95, 0.25 + 0.18 * best_score) if best_score > 0 else 0.05
+    confidence = min(0.97, 0.2 + 0.09 * best_score) if best_score > 0 else 0.05
     return (best_topic, best_sub, confidence)
 
 
