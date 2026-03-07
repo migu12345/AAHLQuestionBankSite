@@ -751,7 +751,7 @@ async function start() {
     if (!state.paperBundle) {
       state.examMode.enabled = false;
       if (examModeBar) {
-        examModeBar.hidden = true;
+        examModeBar.remove();
       }
     }
     setupExamModeUi();
