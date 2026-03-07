@@ -485,7 +485,14 @@ function startExamMode() {
 }
 
 function setupExamModeUi() {
-  if (!state.examMode.enabled || !examModeBar || !examModeInfo || !examModeStartBtn || !examModeEndBtn) {
+  if (
+    !state.paperBundle ||
+    !state.examMode.enabled ||
+    !examModeBar ||
+    !examModeInfo ||
+    !examModeStartBtn ||
+    !examModeEndBtn
+  ) {
     return;
   }
   examModeBar.hidden = false;
@@ -741,6 +748,12 @@ async function start() {
     await loadData();
     hydrateFilters();
     applyInitialQueryFilters();
+    if (!state.paperBundle) {
+      state.examMode.enabled = false;
+      if (examModeBar) {
+        examModeBar.hidden = true;
+      }
+    }
     setupExamModeUi();
     bindEvents();
     renderQuestions(true);

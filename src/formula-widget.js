@@ -21,6 +21,7 @@
           <button type="button" id="formulaZoomIn" aria-label="Zoom in">+</button>
           <button type="button" id="formulaZoomReset" aria-label="Reset zoom">100%</button>
           <button type="button" id="formulaToggle" aria-label="Minimize formula panel">_</button>
+          <button type="button" id="formulaClose" aria-label="Close formula panel">×</button>
         </div>
       </header>
       <div class="formula-widget-body" id="formulaWidgetBody">
@@ -38,6 +39,15 @@
     const zoomOutBtn = document.getElementById("formulaZoomOut");
     const zoomResetBtn = document.getElementById("formulaZoomReset");
     const toggleBtn = document.getElementById("formulaToggle");
+    const closeBtn = document.getElementById("formulaClose");
+
+    const launcher = document.createElement("button");
+    launcher.type = "button";
+    launcher.id = "formulaLauncher";
+    launcher.className = "formula-launcher-btn";
+    launcher.textContent = "Formula";
+    launcher.hidden = true;
+    document.body.appendChild(launcher);
 
     let zoomPercent = 100;
     let dragging = false;
@@ -111,6 +121,18 @@
         toggleBtn.setAttribute("aria-label", hidden ? "Expand formula panel" : "Minimize formula panel");
       });
     }
+
+    if (closeBtn) {
+      closeBtn.addEventListener("click", () => {
+        widget.hidden = true;
+        launcher.hidden = false;
+      });
+    }
+
+    launcher.addEventListener("click", () => {
+      widget.hidden = false;
+      launcher.hidden = true;
+    });
 
     applyZoom();
   }
