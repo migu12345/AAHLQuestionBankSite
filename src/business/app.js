@@ -112,22 +112,80 @@ function updateSubtopicOptions() {
   }
 }
 
+function normalizeForSearch(value) {
+  return String(value || "")
+    .toLowerCase()
+    .normalize("NFKD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .replace(/[^a-z0-9]+/g, " ")
+    .trim();
+}
+
+function matchesSearchToken(q, token, normalizedHaystack, level) {
+  if (!token) {
+    return true;
+  }
+
+  if (token === "hl" || token === "sl") {
+    return level.toLowerCase() === token;
+  }
+
+  const paperMatch = token.match(/^(?:paper|p)([123])$/);
+  if (paperMatch) {
+    const n = paperMatch[1];
+    const paperTypeText = normalizeForSearch(q.paper_type || "");
+    const paperText = normalizeForSearch(q.paper || "");
+    return paperTypeText.includes(`paper ${n}`) || paperText.includes(`paper ${n}`);
+  }
+
+  const questionMatch = token.match(/^q(\d{1,3})$/);
+  if (questionMatch) {
+    return String(q.question_number || "") === questionMatch[1];
+  }
+
+  return normalizedHaystack.includes(token);
+}
+
+function matchesSearchQuery(q, rawQuery, level) {
+  const query = normalizeForSearch(rawQuery);
+  if (!query) {
+    return true;
+  }
+
+  const tokens = query.split(/\s+/).filter(Boolean);
+  const normalizedHaystack = normalizeForSearch(
+    [
+      q.title,
+      q.question_text,
+      q.answer_text,
+      q.paper,
+      q.paper_type,
+      q.topic,
+      q.subtopic,
+      q.question_number,
+      q.source?.paper_file,
+    ].join(" ")
+  );
+
+  return tokens.every((token) => matchesSearchToken(q, token, normalizedHaystack, level));
+}
+
 function filterQuestions() {
   const selectedLevel = levelFilter.value;
   const selectedPaperType = paperTypeFilter.value;
   const selectedPaper = paperFilter.value;
   const selectedTopic = topicFilter.value;
   const selectedSubtopic = subtopicFilter.value;
-  const searchTerm = searchInput.value.trim().toLowerCase();
+  const searchTerm = searchInput.value.trim();
 
   return state.allQuestions.filter((q) => {
-    const levelMatch = !selectedLevel || inferLevel(q) === selectedLevel;
+    const level = inferLevel(q);
+    const levelMatch = !selectedLevel || level === selectedLevel;
     const paperTypeMatch = !selectedPaperType || q.paper_type === selectedPaperType;
     const paperMatch = !selectedPaper || q.paper === selectedPaper;
     const topicMatch = !selectedTopic || q.topic === selectedTopic;
     const subtopicMatch = !selectedSubtopic || q.subtopic === selectedSubtopic;
-    const text = `${q.title || ""} ${q.question_text || ""} ${q.answer_text || ""}`.toLowerCase();
-    const searchMatch = !searchTerm || text.includes(searchTerm);
+    const searchMatch = matchesSearchQuery(q, searchTerm, level);
 
     return levelMatch && paperTypeMatch && paperMatch && topicMatch && subtopicMatch && searchMatch;
   });

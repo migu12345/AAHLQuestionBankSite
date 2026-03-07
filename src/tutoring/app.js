@@ -53,16 +53,49 @@ function hydrateFilters() {
   });
 }
 
+function normalizeForSearch(value) {
+  return String(value || "")
+    .toLowerCase()
+    .normalize("NFKD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .replace(/[^a-z0-9]+/g, " ")
+    .trim();
+}
+
+function matchesSearchToken(q, token, normalizedHaystack) {
+  if (!token) {
+    return true;
+  }
+  const questionMatch = token.match(/^q(\d{1,3})$/);
+  if (questionMatch) {
+    return String(q.question_number || "") === questionMatch[1];
+  }
+  return normalizedHaystack.includes(token);
+}
+
+function matchesSearchQuery(q, rawQuery) {
+  const query = normalizeForSearch(rawQuery);
+  if (!query) {
+    return true;
+  }
+
+  const tokens = query.split(/\s+/).filter(Boolean);
+  const normalizedHaystack = normalizeForSearch(
+    [q.title, q.question_text, q.source_file, q.topic, q.subtopic, q.question_number].join(" ")
+  );
+
+  return tokens.every((token) => matchesSearchToken(q, token, normalizedHaystack));
+}
+
 function filteredQuestions() {
-  const searchTerm = searchTutorInput.value.trim().toLowerCase();
+  const searchTerm = searchTutorInput.value.trim();
   const subtopic = subtopicFilter.value;
   const source = sourceFilter.value;
 
   return state.allQuestions.filter((q) => {
     const subtopicMatch = !subtopic || q.subtopic === subtopic;
     const sourceMatch = !source || q.source_file === source;
-    const text = `${q.title || ""} ${q.question_text || ""} ${q.source_file || ""}`.toLowerCase();
-    const searchMatch = !searchTerm || text.includes(searchTerm);
+    const searchMatch = matchesSearchQuery(q, searchTerm);
     return subtopicMatch && sourceMatch && searchMatch;
   });
 }
