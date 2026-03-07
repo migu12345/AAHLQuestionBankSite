@@ -284,6 +284,43 @@ button:hover {
   line-height: 1.14;
 }
 
+.card-tags {
+  display: flex;
+  gap: 0.45rem;
+  margin: -0.2rem 0 0.65rem;
+}
+
+.difficulty-tag {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 1.5rem;
+  padding: 0.15rem 0.55rem;
+  border-radius: 999px;
+  font-size: 0.76rem;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  border: 1px solid transparent;
+}
+
+.difficulty-easy {
+  background: #e8f6ee;
+  color: #185934;
+  border-color: #bde2cb;
+}
+
+.difficulty-medium {
+  background: #fff2df;
+  color: #7a4b0f;
+  border-color: #f1d2a2;
+}
+
+.difficulty-hard {
+  background: #fde9e8;
+  color: #832f2c;
+  border-color: #f0bebc;
+}
+
 .side-by-side-btn {
   margin: 0 0 0.7rem;
   background: #edf5ff;

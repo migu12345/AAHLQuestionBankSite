@@ -199,6 +199,7 @@ function buildQuestionNode(q) {
   const questionTextEl = node.querySelector(".question");
   const answerTextEl = node.querySelector(".answer");
   const titleEl = node.querySelector(".title");
+  const tagsEl = node.querySelector(".card-tags");
   const sideBySideBtn = node.querySelector(".side-by-side-btn");
 
   const marks = Number.isFinite(q.marks) ? `${q.marks} marks` : "marks n/a";
@@ -214,6 +215,14 @@ function buildQuestionNode(q) {
     titleEl.textContent = fallbackTitle;
   } else {
     titleEl.textContent = cleanPreviewText(q.title || "") || fallbackTitle;
+  }
+
+  const difficulty = inferDifficulty(q);
+  if (tagsEl && difficulty) {
+    const badge = document.createElement("span");
+    badge.className = `difficulty-tag difficulty-${difficulty.toLowerCase()}`;
+    badge.textContent = difficulty;
+    tagsEl.appendChild(badge);
   }
   sideBySideBtn.addEventListener("click", () => openCompareModal(q));
 
@@ -338,6 +347,42 @@ function cleanPreviewText(text) {
     .replace(/[]/g, " ")
     .replace(/\.{3,}/g, "...")
     .trim();
+}
+
+function inferDifficulty(q) {
+  const marks = Number(q?.marks || 0);
+  const level = inferLevel(q);
+  const paperType = String(q?.paper_type || "").toLowerCase();
+  const paperMatch = paperType.match(/paper\s*([123])/);
+  const paperNo = paperMatch ? Number(paperMatch[1]) : 0;
+
+  let score = 0;
+  if (marks >= 11) {
+    score += 2;
+  } else if (marks >= 7) {
+    score += 1;
+  }
+
+  if (level === "HL") {
+    score += 1;
+  }
+  if (paperNo === 3) {
+    score += 1;
+  } else if (paperNo === 2) {
+    score += 0.5;
+  }
+
+  if (marks <= 4 && level === "SL" && paperNo === 1) {
+    score -= 1;
+  }
+
+  if (score <= 0) {
+    return "Easy";
+  }
+  if (score <= 2) {
+    return "Medium";
+  }
+  return "Hard";
 }
 
 function legacyImageRelPath(relPath) {
