@@ -114,8 +114,16 @@ def main() -> None:
 
     for q in questions:
         qid = q.get("id", "")
-        q_paths = sorted(Q_IMG_DIR.glob(f"{qid}*.png"), key=image_sort_key)
-        ms_paths = sorted(MS_IMG_DIR.glob(f"{qid}*.png"), key=image_sort_key)
+        exact_q = Q_IMG_DIR / f"{qid}.png"
+        exact_ms = MS_IMG_DIR / f"{qid}.png"
+        if exact_q.exists():
+            q_paths = [exact_q]
+        else:
+            q_paths = sorted(Q_IMG_DIR.glob(f"{qid}*.png"), key=image_sort_key)
+        if exact_ms.exists():
+            ms_paths = [exact_ms]
+        else:
+            ms_paths = sorted(MS_IMG_DIR.glob(f"{qid}*.png"), key=image_sort_key)
 
         q_rel = to_rel(q_paths)
         ms_rel = to_rel(ms_paths)
@@ -161,4 +169,3 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
-

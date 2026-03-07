@@ -17,7 +17,7 @@
       ],
       "question_text": "Instantaneous velocity is defined as...\nA. \ndisplacement\ntime taken\n.\nB. \nrate of change of position.\nC. \ndistance moved\ntime taken\n.\nD. \nrate of change of distance.",
       "answer_text": "",
-      "marks": null,
+      "marks": 1,
       "has_markscheme": false,
       "source": {
         "paper_file": "Physics_paper_1A_TZ1_HL.pdf",
@@ -49,7 +49,7 @@
       ],
       "question_text": "The variation with time t of the acceleration a of an object is shown. At t = 0 the object is at rest.\n2\n2\n4\n4\n6\n6\n8\n8\n10\n10\nt / s\na / m s−2\nWhat is the speed of the object when t = 8.0 s?\nA. \n1.0 m s-1\nB. \n32 m s-1 \nC. \n50 m s-1\nD. \n64 m s-1\n\n– 3 –\n2225 – 6707\nTurn over",
       "answer_text": "",
-      "marks": null,
+      "marks": 1,
       "has_markscheme": false,
       "source": {
         "paper_file": "Physics_paper_1A_TZ1_HL.pdf",
@@ -81,7 +81,7 @@
       ],
       "question_text": "A force acts on a cube of mass m that accelerates upwards along a vertical frictionless surface. \nThe magnitude of the force is F and it acts at q  to the vertical.\nθ\nF\ncube\nWhat is the magnitude of the acceleration of the cube?\nA. \nF\nmg\nm\ncos\u001f \u001e\n\u001d\n\u001c\nB. \nF\nmg\nm\nsin\u001f \u001e\n\u001d\n\u001c\nC. \nF\ng\nm\ncos\u001f \u001e\n\u001d\n\u001c\nD. \nF\ng\nm\nsin",
       "answer_text": "",
-      "marks": null,
+      "marks": 1,
       "has_markscheme": true,
       "source": {
         "paper_file": "Physics_paper_1A_TZ1_HL.pdf",
@@ -119,7 +119,7 @@
       ],
       "question_text": "A sphere of density r and radius R rests on the bottom of a tank of water. The buoyancy force on \nthe sphere is F1.\nA sphere of density 2r  and radius R\n2 is at the bottom of the same tank. The buoyancy force on \nthe second sphere is F2.\nWhat is F\nF\n1\n2\n?\nA. \n2\nB. \n4 \nC. \n8 \nD. \n16 \n\n– 4 –\n2225 – 6707",
       "answer_text": "",
-      "marks": null,
+      "marks": 1,
       "has_markscheme": false,
       "source": {
         "paper_file": "Physics_paper_1A_TZ1_HL.pdf",
@@ -151,7 +151,7 @@
       ],
       "question_text": "A satellite undergoes one circular orbit of the Earth every 24 hours.\nWhat is the angular velocity of the satellite?\nA. \n4.4 × 10-3 rad s-1\nB. \n1.7 × 10-3 rad s-1\nC. \n7.3 × 10-5 rad s-1\nD. \n1.2 × 10-5 rad s-1",
       "answer_text": "",
-      "marks": null,
+      "marks": 1,
       "has_markscheme": false,
       "source": {
         "paper_file": "Physics_paper_1A_TZ1_HL.pdf",
@@ -183,7 +183,7 @@
       ],
       "question_text": "An object of mass 5.0 kg is initially at rest. An impulse of 2.0 N s acts on the object.\nWhat is the final kinetic energy of the object?\nA. \n0.40 J \nB. \n10 J \nC. \n20 J\nD. \n40 J",
       "answer_text": "",
-      "marks": null,
+      "marks": 1,
       "has_markscheme": false,
       "source": {
         "paper_file": "Physics_paper_1A_TZ1_HL.pdf",
@@ -215,20 +215,18 @@
       ],
       "question_text": "A system of moment of inertia I rotates from rest about a given axis. The angular acceleration a of \nthe system is constant. \nWhat is the change in angular momentum when the system has made four complete rotations \nabout the given axis?\nA. \n2\n2\nI\n\u001f\u001e\nB. \n4I \u001f\u001e\nC. \n2\n2\nI\na\nD. \n4I a\n\n– 5 –\n2225 – 6707\nTurn over",
       "answer_text": "",
-      "marks": null,
+      "marks": 1,
       "has_markscheme": false,
       "source": {
         "paper_file": "Physics_paper_1A_TZ1_HL.pdf",
         "markscheme_file": "Physics_paper_1A_TZ1_HL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/phys_m25_p1a_tz1_q7_hl_p1.png",
-        "images/questions/phys_m25_p1a_tz1_q7_hl_p2.png"
+        "images/questions/phys_m25_p1a_tz1_q7_hl.png"
       ],
       "markscheme_image_paths": [],
       "question_images": [
-        "images/questions/phys_m25_p1a_tz1_q7_hl_p1.png",
-        "images/questions/phys_m25_p1a_tz1_q7_hl_p2.png"
+        "images/questions/phys_m25_p1a_tz1_q7_hl.png"
       ],
       "markscheme_images": []
     },
@@ -249,18 +247,18 @@
       ],
       "question_text": "Two small spheres each of mass 10 kg are 8.0 m apart and connected by a rod of negligible mass. \nThis system rotates about an axis halfway along the rod and at right angles to it.\n8.0 m\nWhat is the moment of inertia of the system? \nA. \n160 kg m2\nB. \n320 kg m2 \nC. \n640 kg m2\nD. \n1280 kg m2",
       "answer_text": "",
-      "marks": null,
+      "marks": 1,
       "has_markscheme": false,
       "source": {
         "paper_file": "Physics_paper_1A_TZ1_HL.pdf",
         "markscheme_file": "Physics_paper_1A_TZ1_HL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/phys_m25_p1a_tz1_q8_hl_p1.png"
+        "images/questions/phys_m25_p1a_tz1_q8_hl.png"
       ],
       "markscheme_image_paths": [],
       "question_images": [
-        "images/questions/phys_m25_p1a_tz1_q8_hl_p1.png"
+        "images/questions/phys_m25_p1a_tz1_q8_hl.png"
       ],
       "markscheme_images": []
     },
@@ -281,20 +279,18 @@
       ],
       "question_text": "Observer X sees a spacecraft moving in the positive  x-direction at a speed of 0.50c. \nObserver Y sees the same spacecraft moving in the negative  x-direction at a speed of 0.50c. \nWhat is the speed of Y in the frame of reference of X? \nA. \n0\nB. \n0.80c \nC. \nc\nD. \n1.3c\n\n– 6 –\n2225 – 6707",
       "answer_text": "",
-      "marks": null,
+      "marks": 1,
       "has_markscheme": false,
       "source": {
         "paper_file": "Physics_paper_1A_TZ1_HL.pdf",
         "markscheme_file": "Physics_paper_1A_TZ1_HL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/phys_m25_p1a_tz1_q9_hl_p1.png",
-        "images/questions/phys_m25_p1a_tz1_q9_hl_p2.png"
+        "images/questions/phys_m25_p1a_tz1_q9_hl.png"
       ],
       "markscheme_image_paths": [],
       "question_images": [
-        "images/questions/phys_m25_p1a_tz1_q9_hl_p1.png",
-        "images/questions/phys_m25_p1a_tz1_q9_hl_p2.png"
+        "images/questions/phys_m25_p1a_tz1_q9_hl.png"
       ],
       "markscheme_images": []
     },
@@ -315,18 +311,18 @@
       ],
       "question_text": "A block of ice of mass M is at its melting point. \nA smaller mass m of water at a temperature of T °C is placed on the top surface of the ice and \nremains there.\nwater\nice\nThe specific latent heat of fusion of ice is L and the specific heat capacity of water is c.\nWhat mass of ice melts?\nA. \nmcT\nL\nB. \nmLT\nc\nC. \nMcT\nL\nD. \nMLT\nc",
       "answer_text": "",
-      "marks": null,
+      "marks": 1,
       "has_markscheme": false,
       "source": {
         "paper_file": "Physics_paper_1A_TZ1_HL.pdf",
         "markscheme_file": "Physics_paper_1A_TZ1_HL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/phys_m25_p1a_tz1_q10_hl_p1.png"
+        "images/questions/phys_m25_p1a_tz1_q10_hl.png"
       ],
       "markscheme_image_paths": [],
       "question_images": [
-        "images/questions/phys_m25_p1a_tz1_q10_hl_p1.png"
+        "images/questions/phys_m25_p1a_tz1_q10_hl.png"
       ],
       "markscheme_images": []
     },
@@ -347,18 +343,18 @@
       ],
       "question_text": "What is a primary cause of the enhanced greenhouse effect?\nA. \nMelting of ice at Earth’s poles\nB. \nIncreases in volcanic activity\nC. \nDeforestation of rainforests\nD. \nBurning of fossil fuels\n\n– 7 –\n2225 – 6707\nTurn over",
       "answer_text": "",
-      "marks": null,
+      "marks": 1,
       "has_markscheme": false,
       "source": {
         "paper_file": "Physics_paper_1A_TZ1_HL.pdf",
         "markscheme_file": "Physics_paper_1A_TZ1_HL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/phys_m25_p1a_tz1_q11_hl_p1.png"
+        "images/questions/phys_m25_p1a_tz1_q11_hl.png"
       ],
       "markscheme_image_paths": [],
       "question_images": [
-        "images/questions/phys_m25_p1a_tz1_q11_hl_p1.png"
+        "images/questions/phys_m25_p1a_tz1_q11_hl.png"
       ],
       "markscheme_images": []
     },
@@ -379,7 +375,7 @@
       ],
       "question_text": "An ideal gas is held in a cylinder by a piston. The piston compresses the gas rapidly. \ngas\nThe average speed of the gas molecules increases because the gas molecules... \nA. \nhave a smaller volume available in which they can move.\nB. \nreceive thermal energy transferred from outside the cylinder.\nC. \nreceive energy from the piston as they collide with it.\nD. \nmake more collisions every second with each other.",
       "answer_text": "",
-      "marks": null,
+      "marks": 1,
       "has_markscheme": false,
       "source": {
         "paper_file": "Physics_paper_1A_TZ1_HL.pdf",
@@ -411,18 +407,18 @@
       ],
       "question_text": "Which pressure–volume (P–V) diagram represents a Carnot cycle?\nA.\nP\nV\nB.\nP\nV\nC.\nP\nV\nD.\nP\nV\n\n– 8 –\n2225 – 6707",
       "answer_text": "",
-      "marks": null,
+      "marks": 1,
       "has_markscheme": false,
       "source": {
         "paper_file": "Physics_paper_1A_TZ1_HL.pdf",
         "markscheme_file": "Physics_paper_1A_TZ1_HL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/phys_m25_p1a_tz1_q13_hl_p1.png"
+        "images/questions/phys_m25_p1a_tz1_q13_hl.png"
       ],
       "markscheme_image_paths": [],
       "question_images": [
-        "images/questions/phys_m25_p1a_tz1_q13_hl_p1.png"
+        "images/questions/phys_m25_p1a_tz1_q13_hl.png"
       ],
       "markscheme_images": []
     },
@@ -443,18 +439,18 @@
       ],
       "question_text": "Three combinations of resistors are shown. The resistors are identical.\nP\nQ\nR\nWhat is the total resistance of each combination of resistors in order of increasing resistance?\nA. \nP Q R\nB. \nQ P R\nC. \nP R Q\nD. \nQ R P\n\n– 9 –\n2225 – 6707\nTurn over",
       "answer_text": "",
-      "marks": null,
+      "marks": 1,
       "has_markscheme": false,
       "source": {
         "paper_file": "Physics_paper_1A_TZ1_HL.pdf",
         "markscheme_file": "Physics_paper_1A_TZ1_HL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/phys_m25_p1a_tz1_q14_hl_p1.png"
+        "images/questions/phys_m25_p1a_tz1_q14_hl.png"
       ],
       "markscheme_image_paths": [],
       "question_images": [
-        "images/questions/phys_m25_p1a_tz1_q14_hl_p1.png"
+        "images/questions/phys_m25_p1a_tz1_q14_hl.png"
       ],
       "markscheme_images": []
     },
@@ -475,7 +471,7 @@
       ],
       "question_text": "A continuous belt of width 0.60 m travels at a constant speed of 2.5 m s-1. The belt has a uniform \ndistribution of charge of 5.0 mC m-2 on its surface. \nAs the belt passes a point all the charge is removed and is carried as a current in a wire.\nwire\n2.5 m s−1\n0.60 m\nbelt\n \nWhat is the current in the wire?\nA. \n1.2 mA \nB. \n7.5 mA \nC. \n19 mA \nD. \n21 mA",
       "answer_text": "",
-      "marks": null,
+      "marks": 1,
       "has_markscheme": true,
       "source": {
         "paper_file": "Physics_paper_1A_TZ1_HL.pdf",
@@ -511,18 +507,18 @@
       ],
       "question_text": "A cube of side 1.0 cm has a resistance between opposite sides of 50 W. \nThe material is reshaped into a block of length 4.0 cm and constant square cross-section. \n1.0 cm\n4.0 cm\nWhat is the resistance of the block between its square ends?\nA. \n3.1 W\nB. \n50 W\nC. \n800 W \nD. \n3200 W\n\n– 10 –\n2225 – 6707",
       "answer_text": "",
-      "marks": null,
+      "marks": 1,
       "has_markscheme": false,
       "source": {
         "paper_file": "Physics_paper_1A_TZ1_HL.pdf",
         "markscheme_file": "Physics_paper_1A_TZ1_HL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/phys_m25_p1a_tz1_q16_hl_p1.png"
+        "images/questions/phys_m25_p1a_tz1_q16_hl.png"
       ],
       "markscheme_image_paths": [],
       "question_images": [
-        "images/questions/phys_m25_p1a_tz1_q16_hl_p1.png"
+        "images/questions/phys_m25_p1a_tz1_q16_hl.png"
       ],
       "markscheme_images": []
     },
@@ -543,18 +539,18 @@
       ],
       "question_text": "A mass–spring system oscillates with time period T1  .\nAnother identical spring is connected in parallel with the first spring as shown. The mass \nis unchanged.\nThe time period of the oscillation for the two-spring system is T2 .\nWhat is T\nT\n2\n1\n?\nA. \n1\n2\nB. \n1\n2\nC. \n2\nD. \n 2\n\n– 11 –\n2225 – 6707\nTurn over",
       "answer_text": "",
-      "marks": null,
+      "marks": 1,
       "has_markscheme": false,
       "source": {
         "paper_file": "Physics_paper_1A_TZ1_HL.pdf",
         "markscheme_file": "Physics_paper_1A_TZ1_HL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/phys_m25_p1a_tz1_q17_hl_p1.png"
+        "images/questions/phys_m25_p1a_tz1_q17_hl.png"
       ],
       "markscheme_image_paths": [],
       "question_images": [
-        "images/questions/phys_m25_p1a_tz1_q17_hl_p1.png"
+        "images/questions/phys_m25_p1a_tz1_q17_hl.png"
       ],
       "markscheme_images": []
     },
@@ -575,18 +571,18 @@
       ],
       "question_text": "A wave is travelling through a medium. The variation with time t of the displacement d of a particle \nin the medium is shown.\n5.0\n−5.0\n0\n1.0\n2.0\n3.0\n4.0\n5.0\nd / nm\nt / ms\n \nWhat is the frequency and the amplitude of the wave?\nFrequency / Hz\nAmplitude / nm\nA.\n4.0 × 10-3\n  5.0\nB.\n250\n  5.0\nC.\n4.0 × 10-3\n10.0\nD.\n250\n10.0\n\n– 12 –\n2225 – 6707",
       "answer_text": "",
-      "marks": null,
+      "marks": 1,
       "has_markscheme": false,
       "source": {
         "paper_file": "Physics_paper_1A_TZ1_HL.pdf",
         "markscheme_file": "Physics_paper_1A_TZ1_HL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/phys_m25_p1a_tz1_q18_hl_p1.png"
+        "images/questions/phys_m25_p1a_tz1_q18_hl.png"
       ],
       "markscheme_image_paths": [],
       "question_images": [
-        "images/questions/phys_m25_p1a_tz1_q18_hl_p1.png"
+        "images/questions/phys_m25_p1a_tz1_q18_hl.png"
       ],
       "markscheme_images": []
     },
@@ -607,18 +603,18 @@
       ],
       "question_text": "An object performs simple harmonic motion with frequency f . The distance between the extreme \npositions at which the object is at rest is b. \nb\nO\nextreme\nposition\nextreme\nposition\nWhat is the speed of the object when it is halfway between its equilibrium position O and \nits extreme position?\nA. \n1\n4 \u001f\u001e f b \nB. \n1\n2 \u001f\u001e f b\nC. \n3\n4 \u001f\u001e f b\nD. \n3\n2 \u001f\u001e f b \n\n– 13 –\n2225 – 6707\nTurn over",
       "answer_text": "",
-      "marks": null,
+      "marks": 1,
       "has_markscheme": false,
       "source": {
         "paper_file": "Physics_paper_1A_TZ1_HL.pdf",
         "markscheme_file": "Physics_paper_1A_TZ1_HL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/phys_m25_p1a_tz1_q19_hl_p1.png"
+        "images/questions/phys_m25_p1a_tz1_q19_hl.png"
       ],
       "markscheme_image_paths": [],
       "question_images": [
-        "images/questions/phys_m25_p1a_tz1_q19_hl_p1.png"
+        "images/questions/phys_m25_p1a_tz1_q19_hl.png"
       ],
       "markscheme_images": []
     },
@@ -639,18 +635,18 @@
       ],
       "question_text": "Light passes through two parallel layers as shown.\nThe refractive indices for light travelling between air and the media are shown in the diagram \nas n1 and n2.\ndiagram not to scale\nθ\n50°\nn2\n4\n3\n=\nn1\n5\n3\n=\nWhat is θ ?\nA. \n31°\nB. \n38°\nC. \n53°\nD. \n73°\n\n– 14 –\n2225 – 6707",
       "answer_text": "",
-      "marks": null,
+      "marks": 1,
       "has_markscheme": false,
       "source": {
         "paper_file": "Physics_paper_1A_TZ1_HL.pdf",
         "markscheme_file": "Physics_paper_1A_TZ1_HL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/phys_m25_p1a_tz1_q20_hl_p1.png"
+        "images/questions/phys_m25_p1a_tz1_q20_hl.png"
       ],
       "markscheme_image_paths": [],
       "question_images": [
-        "images/questions/phys_m25_p1a_tz1_q20_hl_p1.png"
+        "images/questions/phys_m25_p1a_tz1_q20_hl.png"
       ],
       "markscheme_images": []
     },
@@ -671,7 +667,7 @@
       ],
       "question_text": "Light of wavelength l is incident on two parallel slits of width b that are separated by distance d.\nThe graph of intensity against diffraction angle is shown.\n−0.1\n−0.05\n0\n0.05\n0.1\nintensity\ndiffraction angle / rad\n \nWhat are l\nd and l\nb ? \nl\nd\nl\nb\nA.\n0.1\n0.1\nB.\n0.1\n  0.01\nC.\n  0.01\n0.1\nD.\n  0.01\n  0.01",
       "answer_text": "",
-      "marks": null,
+      "marks": 1,
       "has_markscheme": false,
       "source": {
         "paper_file": "Physics_paper_1A_TZ1_HL.pdf",
@@ -703,18 +699,18 @@
       ],
       "question_text": "A pipe of length L is closed at one end.\nWhat is the wavelength of the fifth-harmonic standing wave in this pipe?\nA. \n8\n5\nL\nB. \n5\n4\nL\nC. \n4\n5\nL\nD. \n5\n8\nL\n\n– 15 –\n2225 – 6707\nTurn over",
       "answer_text": "",
-      "marks": null,
+      "marks": 1,
       "has_markscheme": false,
       "source": {
         "paper_file": "Physics_paper_1A_TZ1_HL.pdf",
         "markscheme_file": "Physics_paper_1A_TZ1_HL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/phys_m25_p1a_tz1_q22_hl_p1.png"
+        "images/questions/phys_m25_p1a_tz1_q22_hl.png"
       ],
       "markscheme_image_paths": [],
       "question_images": [
-        "images/questions/phys_m25_p1a_tz1_q22_hl_p1.png"
+        "images/questions/phys_m25_p1a_tz1_q22_hl.png"
       ],
       "markscheme_images": []
     },
@@ -735,7 +731,7 @@
       ],
       "question_text": "Light of wavelength 5.8 × 10-7 m is normally incident on a diffraction grating that \nhas 400 000 lines m-1.\nHow many maxima can be observed with this diffraction grating?\nA. \n4 \nB. \n5 \nC. \n8 \nD. \n9",
       "answer_text": "",
-      "marks": null,
+      "marks": 1,
       "has_markscheme": false,
       "source": {
         "paper_file": "Physics_paper_1A_TZ1_HL.pdf",
@@ -767,18 +763,18 @@
       ],
       "question_text": "A planet P has a diameter one-third that of the Earth. The mass of Earth is 18 times that of P. \nThe gravitational field strength at the surface of the Earth is g.\nWhat is the gravitational field strength at the surface of P?\nA. \ng\n6\nB. \ng\n2\nC. \n 2g\nD. \n 6g\n\n– 16 –\n2225 – 6707",
       "answer_text": "",
-      "marks": null,
+      "marks": 1,
       "has_markscheme": false,
       "source": {
         "paper_file": "Physics_paper_1A_TZ1_HL.pdf",
         "markscheme_file": "Physics_paper_1A_TZ1_HL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/phys_m25_p1a_tz1_q24_hl_p1.png"
+        "images/questions/phys_m25_p1a_tz1_q24_hl.png"
       ],
       "markscheme_image_paths": [],
       "question_images": [
-        "images/questions/phys_m25_p1a_tz1_q24_hl_p1.png"
+        "images/questions/phys_m25_p1a_tz1_q24_hl.png"
       ],
       "markscheme_images": []
     },
@@ -799,7 +795,7 @@
       ],
       "question_text": "Which graph shows the variation of gravitational potential V with distance d from the surface of \nthe Earth?\nR is the radius of the Earth.\nA.\n0\nR\n2R\n3R\n4R\nd\nV\nB.\n0\nR\n2R\n3R\n4R\nd\nV\nC.\n0\nR\n2R\n3R\n4R\nd\nV\nD.\n0\nR\n2R\n3R\n4R\nd\nV",
       "answer_text": "",
-      "marks": null,
+      "marks": 1,
       "has_markscheme": false,
       "source": {
         "paper_file": "Physics_paper_1A_TZ1_HL.pdf",
@@ -831,18 +827,18 @@
       ],
       "question_text": "The unit of m 0 × e 0 expressed in fundamental SI units is...\nA. \nm-2 s2.\nB. \nT C N-1 m-1 s.\nC. \nm2 s-2.\nD. \nT C2 A-1 N-1 m-1.\n\n– 17 –\n2225 – 6707\nTurn over",
       "answer_text": "",
-      "marks": null,
+      "marks": 1,
       "has_markscheme": false,
       "source": {
         "paper_file": "Physics_paper_1A_TZ1_HL.pdf",
         "markscheme_file": "Physics_paper_1A_TZ1_HL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/phys_m25_p1a_tz1_q26_hl_p1.png"
+        "images/questions/phys_m25_p1a_tz1_q26_hl.png"
       ],
       "markscheme_image_paths": [],
       "question_images": [
-        "images/questions/phys_m25_p1a_tz1_q26_hl_p1.png"
+        "images/questions/phys_m25_p1a_tz1_q26_hl.png"
       ],
       "markscheme_images": []
     },
@@ -863,7 +859,7 @@
       ],
       "question_text": "Two parallel conducting plates are separated by 5.0 cm. The variation of electric potential with \ndistance between the plates is shown.\n0\n0\n20\n5.0\nelectric\npotential / kV\ndistance / cm\n \nWhat is the magnitude of the electric field strength between the plates?\nA. \n4.0 N C-1 \nB. \n1.0 × 103 N C-1 \nC. \n1.0 × 105 N C-1\nD. \n4.0 × 105 N C-1",
       "answer_text": "",
-      "marks": null,
+      "marks": 1,
       "has_markscheme": false,
       "source": {
         "paper_file": "Physics_paper_1A_TZ1_HL.pdf",
@@ -895,18 +891,18 @@
       ],
       "question_text": "Charge is moving in a wire that is at right angles to a uniform magnetic field.\nThe length of the wire is 0.32 m.\nWhen the current in the wire is increased by 5.0 A, the force acting on the wire increases \nby 4.0 mN.\nWhat is the strength of the magnetic field?\nA. \n2.5 mT \nB. \n25 mT\nC. \n40 T \nD. \n40 kT\n\n– 18 –\n2225 – 6707",
       "answer_text": "",
-      "marks": null,
+      "marks": 1,
       "has_markscheme": false,
       "source": {
         "paper_file": "Physics_paper_1A_TZ1_HL.pdf",
         "markscheme_file": "Physics_paper_1A_TZ1_HL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/phys_m25_p1a_tz1_q28_hl_p1.png"
+        "images/questions/phys_m25_p1a_tz1_q28_hl.png"
       ],
       "markscheme_image_paths": [],
       "question_images": [
-        "images/questions/phys_m25_p1a_tz1_q28_hl_p1.png"
+        "images/questions/phys_m25_p1a_tz1_q28_hl.png"
       ],
       "markscheme_images": []
     },
@@ -927,7 +923,7 @@
       ],
       "question_text": "Negative charge carriers travel counter-clockwise in a circular coil that lies in the plane of the page. \nThe coil is in a uniform magnetic field directed into the page.\ncoil\nWhat is the magnetic effect on the coil?\nA. \nThe coil will rotate clockwise in the plane of the paper.\nB. \nThe coil will rotate counter-clockwise in the plane of the paper.\nC. \nThe diameter of the coil will tend to increase.\nD. \nThe diameter of the coil will tend to decrease.",
       "answer_text": "",
-      "marks": null,
+      "marks": 1,
       "has_markscheme": false,
       "source": {
         "paper_file": "Physics_paper_1A_TZ1_HL.pdf",
@@ -959,18 +955,18 @@
       ],
       "question_text": "Who was the first scientist to show that electric charge is quantized?\nA. \nCoulomb\nB. \nMillikan\nC. \nPlanck\nD. \nRutherford\n\n– 19 –\n2225 – 6707\nTurn over",
       "answer_text": "",
-      "marks": null,
+      "marks": 1,
       "has_markscheme": false,
       "source": {
         "paper_file": "Physics_paper_1A_TZ1_HL.pdf",
         "markscheme_file": "Physics_paper_1A_TZ1_HL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/phys_m25_p1a_tz1_q30_hl_p1.png"
+        "images/questions/phys_m25_p1a_tz1_q30_hl.png"
       ],
       "markscheme_image_paths": [],
       "question_images": [
-        "images/questions/phys_m25_p1a_tz1_q30_hl_p1.png"
+        "images/questions/phys_m25_p1a_tz1_q30_hl.png"
       ],
       "markscheme_images": []
     },
@@ -991,7 +987,7 @@
       ],
       "question_text": "A coil of wire rotates at a constant angular speed w  in a uniform magnetic field.\nThe variation with time of the emf in the coil is shown.\n10\n−10\n0\n1.0\n2.0\n3.0\n4.0\ntime / ms\nV / V\nThe angular speed is changed to 3\n4\nw .\nWhat is the amplitude of the emf and the time period for the variation of the emf in the coil after \nthe change?\nAmplitude of emf / V\nTime period / ms\nA.\n13\n0.60\nB.\n13\n1.1\nC.\n  7.5\n0.60\nD.\n  7.5\n1.1",
       "answer_text": "",
-      "marks": null,
+      "marks": 1,
       "has_markscheme": false,
       "source": {
         "paper_file": "Physics_paper_1A_TZ1_HL.pdf",
@@ -1023,7 +1019,7 @@
       ],
       "question_text": "An ion X contains the following particles:\n• 53 protons\n• 89 neutrons\n• 54 electrons.\nWhat is the nuclear notation for X?\nA. \n53\n142X\nB. \n53\n89X\nC. \n54\n143X\nD. \n54\n107X\n\n– 20 –\n2225 – 6707",
       "answer_text": "",
-      "marks": null,
+      "marks": 1,
       "has_markscheme": false,
       "source": {
         "paper_file": "Physics_paper_1A_TZ1_HL.pdf",
@@ -1055,7 +1051,7 @@
       ],
       "question_text": "What is the variation with nucleon number of the density of nuclei?\nA.\nnuclear\ndensity\nnucleon\nnumber\n0\n0\nB.\nnuclear\ndensity\nnucleon\nnumber\n0\n0\nC.\nnuclear\ndensity\nnucleon\nnumber\n0\n0\nD.\nnuclear\ndensity\nnucleon\nnumber\n0\n0",
       "answer_text": "",
-      "marks": null,
+      "marks": 1,
       "has_markscheme": false,
       "source": {
         "paper_file": "Physics_paper_1A_TZ1_HL.pdf",
@@ -1087,18 +1083,18 @@
       ],
       "question_text": "A photoelectron is emitted when a photon of energy E is incident on a metal surface. \nThe work function of the surface is F.\nWhat is the maximum possible speed of the photoelectron as it leaves the surface?\nA. \n2 E\nm\n\u001f\n\u001e\n\u001d\n\u001c\ne\nB. \nE\nm\n\u001f \u001e\ne\nC. \nE\nm h\n\u001f \u001e\ne\nD. \n2 E\nm h\n\u001f\n\u001e\n\u001d\n\u001c\ne\n\n– 21 –\n2225 – 6707\nTurn over",
       "answer_text": "",
-      "marks": null,
+      "marks": 1,
       "has_markscheme": false,
       "source": {
         "paper_file": "Physics_paper_1A_TZ1_HL.pdf",
         "markscheme_file": "Physics_paper_1A_TZ1_HL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/phys_m25_p1a_tz1_q34_hl_p1.png"
+        "images/questions/phys_m25_p1a_tz1_q34_hl.png"
       ],
       "markscheme_image_paths": [],
       "question_images": [
-        "images/questions/phys_m25_p1a_tz1_q34_hl_p1.png"
+        "images/questions/phys_m25_p1a_tz1_q34_hl.png"
       ],
       "markscheme_images": []
     },
@@ -1119,7 +1115,7 @@
       ],
       "question_text": "In a Compton scattering experiment a photon of wavelength l0 and frequency f 0 interacts with \nan electron. \nAfter the interaction the wavelength and frequency of the photon are l and f .\nWhat are l\nl0\n and \u001f\n\u001f\n\u001e\n\u001e\nf\nf\n0\n0\n? \nl\nl0\n\u001f\n\u001f\n\u001e\n\u001e\nf\nf\n0\n0\nA.\nGreater than 1\nEqual to 1\nB.\nGreater than 1\nLess than 1\nC.\nLess than 1\nEqual to 1\nD.\nLess than 1\nLess than 1",
       "answer_text": "",
-      "marks": null,
+      "marks": 1,
       "has_markscheme": false,
       "source": {
         "paper_file": "Physics_paper_1A_TZ1_HL.pdf",
@@ -1151,7 +1147,7 @@
       ],
       "question_text": "Three products of radioactive decay are:\nI. \nalpha particles \nII. \nbeta particles \nIII. \ngamma photons.\nWhich products can be deflected by both magnetic and electric fields?\nA. \nI and II only\nB. \nI and III only\nC. \nII and III only\nD. \nI, II and III",
       "answer_text": "",
-      "marks": null,
+      "marks": 1,
       "has_markscheme": false,
       "source": {
         "paper_file": "Physics_paper_1A_TZ1_HL.pdf",
@@ -1183,18 +1179,18 @@
       ],
       "question_text": "A nucleus of nuclide X decays.\nWhich series of emissions will produce an isotope of X?\nA. \nOne a and two b-\nB. \nOne a and two b+\nC. \nTwo a and two b-\nD. \nTwo a and two b+\n\n– 22 –\n2225 – 6707",
       "answer_text": "",
-      "marks": null,
+      "marks": 1,
       "has_markscheme": false,
       "source": {
         "paper_file": "Physics_paper_1A_TZ1_HL.pdf",
         "markscheme_file": "Physics_paper_1A_TZ1_HL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/phys_m25_p1a_tz1_q37_hl_p1.png"
+        "images/questions/phys_m25_p1a_tz1_q37_hl.png"
       ],
       "markscheme_image_paths": [],
       "question_images": [
-        "images/questions/phys_m25_p1a_tz1_q37_hl_p1.png"
+        "images/questions/phys_m25_p1a_tz1_q37_hl.png"
       ],
       "markscheme_images": []
     },
@@ -1215,7 +1211,7 @@
       ],
       "question_text": "A suitable material for use as a moderator in a nuclear reactor is... \nA. \ncadmium.\nB. \nconcrete.\nC. \nuranium-238.\nD. \nwater.",
       "answer_text": "",
-      "marks": null,
+      "marks": 1,
       "has_markscheme": false,
       "source": {
         "paper_file": "Physics_paper_1A_TZ1_HL.pdf",
@@ -1247,7 +1243,7 @@
       ],
       "question_text": "In a simple model of a nuclear reactor, four neutrons are emitted per fission on average.\nThe average number of neutrons absorbed by the control rods is Nc per fission. \nThe average number of neutrons that are lost through the walls of the reactor is N1 per fission.\nAny remaining neutrons induce further fissions.\nWhat are possible values for Nc and N1 for the reactor to maintain a steady reaction?\nNc\nN1\nA.\n1\n1\nB.\n1\n3\nC.\n2\n1\nD.\n2\n2",
       "answer_text": "",
-      "marks": null,
+      "marks": 1,
       "has_markscheme": false,
       "source": {
         "paper_file": "Physics_paper_1A_TZ1_HL.pdf",
@@ -1279,7 +1275,7 @@
       ],
       "question_text": "A star has a parallax angle of 1 × 10-2 arc-second at the orbit of the Earth.\nWhat is the distance from the Sun to the star?\nA. \n0.01 pc\nB. \n0.02 pc\nC. \n50 pc\nD. \n100 pc \n\b",
       "answer_text": "",
-      "marks": null,
+      "marks": 1,
       "has_markscheme": false,
       "source": {
         "paper_file": "Physics_paper_1A_TZ1_HL.pdf",
@@ -1291,70 +1287,6 @@
       "markscheme_image_paths": [],
       "question_images": [
         "images/questions/phys_m25_p1a_tz1_q40_hl.png"
-      ],
-      "markscheme_images": []
-    },
-    {
-      "id": "phys_m25_p1a_tz1_q53_hl",
-      "paper": "May 2025 Physics Paper 1A TZ1 HL",
-      "session": "May",
-      "session_code": "m25",
-      "paper_type": "Paper 1A",
-      "level": "HL",
-      "question_number": "53",
-      "title": "Q53",
-      "topic": "Unsorted",
-      "subtopic": "Unsorted",
-      "topic_confidence": 0.0,
-      "topic_reason": [
-        "physics keyword scorer v2"
-      ],
-      "question_text": "",
-      "answer_text": "",
-      "marks": null,
-      "has_markscheme": false,
-      "source": {
-        "paper_file": "Physics_paper_1A_TZ1_HL.pdf",
-        "markscheme_file": "Physics_paper_1A_TZ1_HL_markscheme.pdf"
-      },
-      "question_image_paths": [
-        "images/questions/phys_m25_p1a_tz1_q53_hl.png"
-      ],
-      "markscheme_image_paths": [],
-      "question_images": [
-        "images/questions/phys_m25_p1a_tz1_q53_hl.png"
-      ],
-      "markscheme_images": []
-    },
-    {
-      "id": "phys_m25_p1a_tz1_q54_hl",
-      "paper": "May 2025 Physics Paper 1A TZ1 HL",
-      "session": "May",
-      "session_code": "m25",
-      "paper_type": "Paper 1A",
-      "level": "HL",
-      "question_number": "54",
-      "title": "Q54",
-      "topic": "Unsorted",
-      "subtopic": "Unsorted",
-      "topic_confidence": 0.0,
-      "topic_reason": [
-        "physics keyword scorer v2"
-      ],
-      "question_text": "",
-      "answer_text": "",
-      "marks": null,
-      "has_markscheme": false,
-      "source": {
-        "paper_file": "Physics_paper_1A_TZ1_HL.pdf",
-        "markscheme_file": "Physics_paper_1A_TZ1_HL_markscheme.pdf"
-      },
-      "question_image_paths": [
-        "images/questions/phys_m25_p1a_tz1_q54_hl_p1.png"
-      ],
-      "markscheme_image_paths": [],
-      "question_images": [
-        "images/questions/phys_m25_p1a_tz1_q54_hl_p1.png"
       ],
       "markscheme_images": []
     },
@@ -1375,7 +1307,7 @@
       ],
       "question_text": "Instantaneous velocity is defined as...\nA. \ndisplacement\ntime taken\n.\nB. \nrate of change of position.\nC. \ndistance moved\ntime taken\n.\nD. \nrate of change of distance.",
       "answer_text": "",
-      "marks": null,
+      "marks": 1,
       "has_markscheme": false,
       "source": {
         "paper_file": "Physics_paper_1A_TZ1_SL.pdf",
@@ -1407,7 +1339,7 @@
       ],
       "question_text": "The variation with time t of the acceleration a of an object is shown. At t = 0 the object is at rest.\n2\n2\n4\n4\n6\n6\n8\n8\n10\n10\nt / s\na / m s−2\nWhat is the speed of the object when t = 8.0 s?\nA. \n1.0 m s-1\nB. \n32 m s-1 \nC. \n50 m s-1\nD. \n64 m s-1\n\n– 3 –\n2225 – 6710\nTurn over",
       "answer_text": "",
-      "marks": null,
+      "marks": 1,
       "has_markscheme": false,
       "source": {
         "paper_file": "Physics_paper_1A_TZ1_SL.pdf",
@@ -1439,7 +1371,7 @@
       ],
       "question_text": "A force acts on a cube of mass m that accelerates upwards along a vertical frictionless surface. \nThe magnitude of the force is F and it acts at q  to the vertical.\nθ\nF\ncube\nWhat is the magnitude of the acceleration of the cube?\nA. \nF\nmg\nm\ncos\u001f \u001e\n\u001d\n\u001c\nB. \nF\nmg\nm\nsin\u001f \u001e\n\u001d\n\u001c\nC. \nF\ng\nm\ncos\u001f \u001e\n\u001d\n\u001c\nD. \nF\ng\nm\nsin",
       "answer_text": "",
-      "marks": null,
+      "marks": 1,
       "has_markscheme": true,
       "source": {
         "paper_file": "Physics_paper_1A_TZ1_SL.pdf",
@@ -1477,7 +1409,7 @@
       ],
       "question_text": "A sphere of density r and radius R rests on the bottom of a tank of water. The buoyancy force on \nthe sphere is F1.\nA sphere of density 2r  and radius R\n2 is at the bottom of the same tank. The buoyancy force on \nthe second sphere is F2.\nWhat is F\nF\n1\n2\n?\nA. \n2\nB. \n4 \nC. \n8 \nD. \n16 \n\n– 4 –\n2225 – 6710",
       "answer_text": "",
-      "marks": null,
+      "marks": 1,
       "has_markscheme": false,
       "source": {
         "paper_file": "Physics_paper_1A_TZ1_SL.pdf",
@@ -1509,7 +1441,7 @@
       ],
       "question_text": "A spring obeys Hooke’s law and has a spring constant k. \nThe spring is extended horizontally. The extension of the spring is x. \nWhen released, the spring returns to its original length in time Dt. \nWhat is the average power developed by the spring as it returns to its original length?\nA. \nk\nt\nx\n2D\nB. \nk\nt\nx\nD\nC. \nk\nt\nx2\n2D\nD. \nk\nt\nx2\nD",
       "answer_text": "",
-      "marks": null,
+      "marks": 1,
       "has_markscheme": false,
       "source": {
         "paper_file": "Physics_paper_1A_TZ1_SL.pdf",
@@ -1541,18 +1473,18 @@
       ],
       "question_text": "An object of mass 5.0 kg is initially at rest. An impulse of 2.0 N s acts on the object.\nWhat is the final kinetic energy of the object?\nA. \n0.40 J \nB. \n10 J \nC. \n20 J\nD. \n40 J\n\n– 5 –\n2225 – 6710\nTurn over",
       "answer_text": "",
-      "marks": null,
+      "marks": 1,
       "has_markscheme": false,
       "source": {
         "paper_file": "Physics_paper_1A_TZ1_SL.pdf",
         "markscheme_file": "Physics_paper_1A_TZ1_SL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/phys_m25_p1a_tz1_q6_sl_p1.png"
+        "images/questions/phys_m25_p1a_tz1_q6_sl.png"
       ],
       "markscheme_image_paths": [],
       "question_images": [
-        "images/questions/phys_m25_p1a_tz1_q6_sl_p1.png"
+        "images/questions/phys_m25_p1a_tz1_q6_sl.png"
       ],
       "markscheme_images": []
     },
@@ -1573,18 +1505,18 @@
       ],
       "question_text": "A block of ice of mass M is at its melting point. \nA smaller mass m of water at a temperature of T °C is placed on the top surface of the ice and \nremains there.\nwater\nice\nThe specific latent heat of fusion of ice is L and the specific heat capacity of water is c.\nWhat mass of ice melts?\nA. \nmcT\nL\nB. \nmLT\nc\nC. \nMcT\nL\nD. \nMLT\nc",
       "answer_text": "",
-      "marks": null,
+      "marks": 1,
       "has_markscheme": false,
       "source": {
         "paper_file": "Physics_paper_1A_TZ1_SL.pdf",
         "markscheme_file": "Physics_paper_1A_TZ1_SL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/phys_m25_p1a_tz1_q7_sl_p1.png"
+        "images/questions/phys_m25_p1a_tz1_q7_sl.png"
       ],
       "markscheme_image_paths": [],
       "question_images": [
-        "images/questions/phys_m25_p1a_tz1_q7_sl_p1.png"
+        "images/questions/phys_m25_p1a_tz1_q7_sl.png"
       ],
       "markscheme_images": []
     },
@@ -1605,18 +1537,18 @@
       ],
       "question_text": "What is a primary cause of the enhanced greenhouse effect?\nA. \nMelting of ice at Earth’s poles\nB. \nIncreases in volcanic activity\nC. \nDeforestation of rain forests\nD. \nBurning of fossil fuels\n\n– 6 –\n2225 – 6710",
       "answer_text": "",
-      "marks": null,
+      "marks": 1,
       "has_markscheme": false,
       "source": {
         "paper_file": "Physics_paper_1A_TZ1_SL.pdf",
         "markscheme_file": "Physics_paper_1A_TZ1_SL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/phys_m25_p1a_tz1_q8_sl_p1.png"
+        "images/questions/phys_m25_p1a_tz1_q8_sl.png"
       ],
       "markscheme_image_paths": [],
       "question_images": [
-        "images/questions/phys_m25_p1a_tz1_q8_sl_p1.png"
+        "images/questions/phys_m25_p1a_tz1_q8_sl.png"
       ],
       "markscheme_images": []
     },
@@ -1637,18 +1569,18 @@
       ],
       "question_text": "An ideal gas is held in a cylinder by a piston. The piston compresses the gas rapidly. \ngas\nThe average speed of the gas molecules increases because the gas molecules... \nA. \nhave a smaller volume available in which they can move.\nB. \nreceive thermal energy transferred from outside the cylinder.\nC. \nreceive energy from the piston as they collide with it.\nD. \nmake more collisions every second with each other.",
       "answer_text": "",
-      "marks": null,
+      "marks": 1,
       "has_markscheme": false,
       "source": {
         "paper_file": "Physics_paper_1A_TZ1_SL.pdf",
         "markscheme_file": "Physics_paper_1A_TZ1_SL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/phys_m25_p1a_tz1_q9_sl_p1.png"
+        "images/questions/phys_m25_p1a_tz1_q9_sl.png"
       ],
       "markscheme_image_paths": [],
       "question_images": [
-        "images/questions/phys_m25_p1a_tz1_q9_sl_p1.png"
+        "images/questions/phys_m25_p1a_tz1_q9_sl.png"
       ],
       "markscheme_images": []
     },
@@ -1669,18 +1601,18 @@
       ],
       "question_text": "Three combinations of resistors are shown. The resistors are identical.\nP\nQ\nR\nWhat is the total resistance of each combination of resistors in order of increasing resistance?\nA. \nP Q R\nB. \nQ P R\nC. \nP R Q\nD. \nQ R P\n\n– 7 –\n2225 – 6710\nTurn over",
       "answer_text": "",
-      "marks": null,
+      "marks": 1,
       "has_markscheme": false,
       "source": {
         "paper_file": "Physics_paper_1A_TZ1_SL.pdf",
         "markscheme_file": "Physics_paper_1A_TZ1_SL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/phys_m25_p1a_tz1_q10_sl_p1.png"
+        "images/questions/phys_m25_p1a_tz1_q10_sl.png"
       ],
       "markscheme_image_paths": [],
       "question_images": [
-        "images/questions/phys_m25_p1a_tz1_q10_sl_p1.png"
+        "images/questions/phys_m25_p1a_tz1_q10_sl.png"
       ],
       "markscheme_images": []
     },
@@ -1701,7 +1633,7 @@
       ],
       "question_text": "A continuous belt of width 0.60 m travels at a constant speed of 2.5 m s-1. The belt has a uniform \ndistribution of charge of 5.0 mC m-2 on its surface. \nAs the belt passes a point all the charge is removed and is carried as a current in a wire.\nwire\n2.5 m s−1\n0.60 m\nbelt\n \nWhat is the current in the wire?\nA. \n1.2 mA \nB. \n7.5 mA \nC. \n19 mA \nD. \n21 mA",
       "answer_text": "",
-      "marks": null,
+      "marks": 1,
       "has_markscheme": false,
       "source": {
         "paper_file": "Physics_paper_1A_TZ1_SL.pdf",
@@ -1733,18 +1665,18 @@
       ],
       "question_text": "A solar panel has a surface area of 0.20 m2. The efficiency of the solar panel is 30 %. At one instant \nthe radiation intensity at normal incidence to the panel is 0.15 kJ m-2 s-1.\nWhat is the power output of the panel? \nA. \n9.0 mW\nB. \n30 mW\nC. \n9.0 W\nD. \n30 W\n\n– 8 –\n2225 – 6710",
       "answer_text": "",
-      "marks": null,
+      "marks": 1,
       "has_markscheme": false,
       "source": {
         "paper_file": "Physics_paper_1A_TZ1_SL.pdf",
         "markscheme_file": "Physics_paper_1A_TZ1_SL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/phys_m25_p1a_tz1_q12_sl_p1.png"
+        "images/questions/phys_m25_p1a_tz1_q12_sl.png"
       ],
       "markscheme_image_paths": [],
       "question_images": [
-        "images/questions/phys_m25_p1a_tz1_q12_sl_p1.png"
+        "images/questions/phys_m25_p1a_tz1_q12_sl.png"
       ],
       "markscheme_images": []
     },
@@ -1765,18 +1697,18 @@
       ],
       "question_text": "A mass–spring system oscillates with time period T1 .\nAnother identical spring is connected in parallel with the first spring as shown. The mass \nis unchanged.\nThe time period of the oscillation for the two-spring system is T2 .\nWhat is T\nT\n2\n1\n?\nA. \n1\n2\nB. \n1\n2\nC. \n2\nD. \n 2\n\n– 9 –\n2225 – 6710\nTurn over",
       "answer_text": "",
-      "marks": null,
+      "marks": 1,
       "has_markscheme": false,
       "source": {
         "paper_file": "Physics_paper_1A_TZ1_SL.pdf",
         "markscheme_file": "Physics_paper_1A_TZ1_SL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/phys_m25_p1a_tz1_q13_sl_p1.png"
+        "images/questions/phys_m25_p1a_tz1_q13_sl.png"
       ],
       "markscheme_image_paths": [],
       "question_images": [
-        "images/questions/phys_m25_p1a_tz1_q13_sl_p1.png"
+        "images/questions/phys_m25_p1a_tz1_q13_sl.png"
       ],
       "markscheme_images": []
     },
@@ -1797,18 +1729,18 @@
       ],
       "question_text": "A wave is travelling through a medium. The variation with time t of the displacement d of a particle \nin the medium is shown.\n5.0\n−5.0\n0\n1.0\n2.0\n3.0\n4.0\n5.0\nd / nm\nt / ms\n \nWhat is the frequency and the amplitude of the wave?\nFrequency / Hz\nAmplitude / nm\nA.\n4.0 × 10-3\n  5.0\nB.\n250\n  5.0\nC.\n4.0 × 10-3\n10.0\nD.\n250\n10.0\n\n– 10 –\n2225 – 6710",
       "answer_text": "",
-      "marks": null,
+      "marks": 1,
       "has_markscheme": false,
       "source": {
         "paper_file": "Physics_paper_1A_TZ1_SL.pdf",
         "markscheme_file": "Physics_paper_1A_TZ1_SL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/phys_m25_p1a_tz1_q14_sl_p1.png"
+        "images/questions/phys_m25_p1a_tz1_q14_sl.png"
       ],
       "markscheme_image_paths": [],
       "question_images": [
-        "images/questions/phys_m25_p1a_tz1_q14_sl_p1.png"
+        "images/questions/phys_m25_p1a_tz1_q14_sl.png"
       ],
       "markscheme_images": []
     },
@@ -1829,20 +1761,20 @@
       ],
       "question_text": "Light passes through two parallel layers as shown.\nThe refractive indices for light travelling between air and the media are shown in the diagram \nas n1 and n2.\ndiagram not to scale\nθ\n50°\nn2\n4\n3\n=\nn1\n5\n3\n=\nWhat is θ ?\nA. \n31°\nB. \n38°\nC. \n53°\nD. \n73°\n\n– 11 –\n2225 – 6710\nTurn over",
       "answer_text": "",
-      "marks": null,
+      "marks": 1,
       "has_markscheme": true,
       "source": {
         "paper_file": "Physics_paper_1A_TZ1_SL.pdf",
         "markscheme_file": "Physics_paper_1A_TZ1_SL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/phys_m25_p1a_tz1_q15_sl_p1.png"
+        "images/questions/phys_m25_p1a_tz1_q15_sl.png"
       ],
       "markscheme_image_paths": [
         "images/markschemes/phys_m25_p1a_tz1_q15_sl.png"
       ],
       "question_images": [
-        "images/questions/phys_m25_p1a_tz1_q15_sl_p1.png"
+        "images/questions/phys_m25_p1a_tz1_q15_sl.png"
       ],
       "markscheme_images": [
         "images/markschemes/phys_m25_p1a_tz1_q15_sl.png"
@@ -1865,7 +1797,7 @@
       ],
       "question_text": "A source emitting a sound of frequency f 0 is approaching an observer. At time t = 0 the source \nbegins to decelerate and comes to rest when t = T. The source does not pass the observer.\nThe speed of the source is always much less than the speed of sound.\nWhat is the variation with t of the relative change of frequency Df\nf0\n of the observed sound?\nA.\n0 \n0 \nf 0\n ∆ f\nT\nt\nB.\n0 \n0 \nf 0\n ∆ f\nT\nt\nC.\n0 \n0 \nf 0\n ∆ f\nT\nt\nD.\n0 \n0 \nf 0\n ∆ f\nT\nt",
       "answer_text": "",
-      "marks": null,
+      "marks": 1,
       "has_markscheme": false,
       "source": {
         "paper_file": "Physics_paper_1A_TZ1_SL.pdf",
@@ -1897,18 +1829,18 @@
       ],
       "question_text": "A planet P has a diameter one-third that of the Earth. The mass of Earth is 18 times that of P. \nThe gravitational field strength at the surface of the Earth is g.\nWhat is the gravitational field strength at the surface of P?\nA. \ng\n6\nB. \ng\n2\nC. \n 2g\nD. \n 6g\n\n– 12 –\n2225 – 6710",
       "answer_text": "",
-      "marks": null,
+      "marks": 1,
       "has_markscheme": false,
       "source": {
         "paper_file": "Physics_paper_1A_TZ1_SL.pdf",
         "markscheme_file": "Physics_paper_1A_TZ1_SL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/phys_m25_p1a_tz1_q17_sl_p1.png"
+        "images/questions/phys_m25_p1a_tz1_q17_sl.png"
       ],
       "markscheme_image_paths": [],
       "question_images": [
-        "images/questions/phys_m25_p1a_tz1_q17_sl_p1.png"
+        "images/questions/phys_m25_p1a_tz1_q17_sl.png"
       ],
       "markscheme_images": []
     },
@@ -1929,7 +1861,7 @@
       ],
       "question_text": "The unit of m 0 × e 0 expressed in fundamental SI units is...\nA. \nm-2 s2.\nB. \nT C N-1 m-1 s.\nC. \nm2 s-2.\nD. \nT C2 A-1 N-1 m-1.",
       "answer_text": "",
-      "marks": null,
+      "marks": 1,
       "has_markscheme": false,
       "source": {
         "paper_file": "Physics_paper_1A_TZ1_SL.pdf",
@@ -1961,7 +1893,7 @@
       ],
       "question_text": "Charge is moving in a wire that is at right angles to a uniform magnetic field.\nThe length of the wire is 0.32 m.\nWhen the current in the wire is increased by 5.0 A, the force acting on the wire increases \nby 4.0 mN.\nWhat is the strength of the magnetic field?\nA. \n2.5 mT \nB. \n25 mT\nC. \n40 T \nD. \n40 kT",
       "answer_text": "",
-      "marks": null,
+      "marks": 1,
       "has_markscheme": false,
       "source": {
         "paper_file": "Physics_paper_1A_TZ1_SL.pdf",
@@ -1993,18 +1925,18 @@
       ],
       "question_text": "Negative charge carriers travel counter-clockwise in a circular coil that lies in the plane of the page. \nThe coil is in a uniform magnetic field directed into the page.\ncoil\nWhat is the magnetic effect on the coil?\nA. \nThe coil will rotate clockwise in the plane of the paper.\nB. \nThe coil will rotate counter-clockwise in the plane of the paper.\nC. \nThe diameter of the coil will tend to increase.\nD. \nThe diameter of the coil will tend to decrease.\n\n– 13 –\n2225 – 6710\nTurn over",
       "answer_text": "",
-      "marks": null,
+      "marks": 1,
       "has_markscheme": false,
       "source": {
         "paper_file": "Physics_paper_1A_TZ1_SL.pdf",
         "markscheme_file": "Physics_paper_1A_TZ1_SL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/phys_m25_p1a_tz1_q20_sl_p1.png"
+        "images/questions/phys_m25_p1a_tz1_q20_sl.png"
       ],
       "markscheme_image_paths": [],
       "question_images": [
-        "images/questions/phys_m25_p1a_tz1_q20_sl_p1.png"
+        "images/questions/phys_m25_p1a_tz1_q20_sl.png"
       ],
       "markscheme_images": []
     },
@@ -2025,7 +1957,7 @@
       ],
       "question_text": "In this question, all diagrams are drawn to scale.\nPart of the emission spectrum of an atom is shown.\nincreasing wavelength\nWhich set of energy levels can give rise to this part of the emission spectrum?\nA.\nenergy\nground\nstate\nB.\nenergy\nground\nstate\nC.\nenergy\nground\nstate\nD.\nenergy\nground\nstate",
       "answer_text": "",
-      "marks": null,
+      "marks": 1,
       "has_markscheme": false,
       "source": {
         "paper_file": "Physics_paper_1A_TZ1_SL.pdf",
@@ -2057,7 +1989,7 @@
       ],
       "question_text": "An ion X contains the following particles:\n• 53 protons\n• 89 neutrons\n• 54 electrons.\nWhat is the nuclear notation for X?\nA. \n53\n142X\nB. \n53\n89X\nC. \n54\n143X\nD. \n54\n107X\n\n– 14 –\n2225 – 6710",
       "answer_text": "",
-      "marks": null,
+      "marks": 1,
       "has_markscheme": false,
       "source": {
         "paper_file": "Physics_paper_1A_TZ1_SL.pdf",
@@ -2089,7 +2021,7 @@
       ],
       "question_text": "A suitable material for use as a moderator in a nuclear reactor is... \nA. \ncadmium.\nB. \nconcrete.\nC. \nuranium-238.\nD. \nwater.",
       "answer_text": "",
-      "marks": null,
+      "marks": 1,
       "has_markscheme": false,
       "source": {
         "paper_file": "Physics_paper_1A_TZ1_SL.pdf",
@@ -2121,7 +2053,7 @@
       ],
       "question_text": "In a simple model of a nuclear reactor, four neutrons are emitted per fission on average.\nThe average number of neutrons absorbed by the control rods is Nc per fission. \nThe average number of neutrons that are lost through the walls of the reactor is N1 per fission.\nAny remaining neutrons induce further fissions.\nWhat are possible values for Nc and N1 for the reactor to maintain a steady reaction?\nNc\nN1\nA.\n1\n1\nB.\n1\n3\nC.\n2\n1\nD.\n2\n2",
       "answer_text": "",
-      "marks": null,
+      "marks": 1,
       "has_markscheme": false,
       "source": {
         "paper_file": "Physics_paper_1A_TZ1_SL.pdf",
@@ -2153,7 +2085,7 @@
       ],
       "question_text": "A star has a parallax angle of 1 × 10-2 arc-second at the orbit of the Earth.\nWhat is the distance from the Sun to the star?\nA. \n0.01 pc\nB. \n0.02 pc\nC. \n50 pc\nD. \n100 pc\n\b",
       "answer_text": "",
-      "marks": null,
+      "marks": 1,
       "has_markscheme": false,
       "source": {
         "paper_file": "Physics_paper_1A_TZ1_SL.pdf",
@@ -2165,70 +2097,6 @@
       "markscheme_image_paths": [],
       "question_images": [
         "images/questions/phys_m25_p1a_tz1_q25_sl.png"
-      ],
-      "markscheme_images": []
-    },
-    {
-      "id": "phys_m25_p1a_tz1_q53_sl",
-      "paper": "May 2025 Physics Paper 1A TZ1 SL",
-      "session": "May",
-      "session_code": "m25",
-      "paper_type": "Paper 1A",
-      "level": "SL",
-      "question_number": "53",
-      "title": "Q53",
-      "topic": "Unsorted",
-      "subtopic": "Unsorted",
-      "topic_confidence": 0.0,
-      "topic_reason": [
-        "physics keyword scorer v2"
-      ],
-      "question_text": "",
-      "answer_text": "",
-      "marks": null,
-      "has_markscheme": false,
-      "source": {
-        "paper_file": "Physics_paper_1A_TZ1_SL.pdf",
-        "markscheme_file": "Physics_paper_1A_TZ1_SL_markscheme.pdf"
-      },
-      "question_image_paths": [
-        "images/questions/phys_m25_p1a_tz1_q53_sl.png"
-      ],
-      "markscheme_image_paths": [],
-      "question_images": [
-        "images/questions/phys_m25_p1a_tz1_q53_sl.png"
-      ],
-      "markscheme_images": []
-    },
-    {
-      "id": "phys_m25_p1a_tz1_q54_sl",
-      "paper": "May 2025 Physics Paper 1A TZ1 SL",
-      "session": "May",
-      "session_code": "m25",
-      "paper_type": "Paper 1A",
-      "level": "SL",
-      "question_number": "54",
-      "title": "Q54",
-      "topic": "Unsorted",
-      "subtopic": "Unsorted",
-      "topic_confidence": 0.0,
-      "topic_reason": [
-        "physics keyword scorer v2"
-      ],
-      "question_text": "",
-      "answer_text": "",
-      "marks": null,
-      "has_markscheme": false,
-      "source": {
-        "paper_file": "Physics_paper_1A_TZ1_SL.pdf",
-        "markscheme_file": "Physics_paper_1A_TZ1_SL_markscheme.pdf"
-      },
-      "question_image_paths": [
-        "images/questions/phys_m25_p1a_tz1_q54_sl_p1.png"
-      ],
-      "markscheme_image_paths": [],
-      "question_images": [
-        "images/questions/phys_m25_p1a_tz1_q54_sl_p1.png"
       ],
       "markscheme_images": []
     },
@@ -2249,7 +2117,7 @@
       ],
       "question_text": "A ball is initially 50 m above the ground. The ball is thrown vertically upwards and takes 5.0 s to \nreach the ground. Air resistance is negligible.\nWhat is the initial speed of the ball? \nA. \n10 m s-1\nB. \n15 m s-1\nC. \n25 m s-1\nD. \n35 m s-1",
       "answer_text": "",
-      "marks": null,
+      "marks": 1,
       "has_markscheme": false,
       "source": {
         "paper_file": "Physics_paper_1A_TZ2_HL.pdf",
@@ -2281,18 +2149,18 @@
       ],
       "question_text": "An object is sliding from rest down a frictionless inclined plane. The vertical displacement of the \nobject is 1.5 m during the first second.\nWhat is the vertical displacement during the next second?\nA. \n1.5 m\nB. \n3.0 m\nC. \n4.5 m\nD. \n5.0 m\n\n– 3 –\n2225 – 6713\nTurn over",
       "answer_text": "",
-      "marks": null,
+      "marks": 1,
       "has_markscheme": false,
       "source": {
         "paper_file": "Physics_paper_1A_TZ2_HL.pdf",
         "markscheme_file": "Physics_paper_1A_TZ2_HL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/phys_m25_p1a_tz2_q2_hl_p1.png"
+        "images/questions/phys_m25_p1a_tz2_q2_hl.png"
       ],
       "markscheme_image_paths": [],
       "question_images": [
-        "images/questions/phys_m25_p1a_tz2_q2_hl_p1.png"
+        "images/questions/phys_m25_p1a_tz2_q2_hl.png"
       ],
       "markscheme_images": []
     },
@@ -2313,21 +2181,21 @@
       ],
       "question_text": "The diagram shows the path of a ball in the absence of air resistance. Q is the highest point of the \nball’s trajectory and a is the vertical acceleration at Q. At impact the velocity makes an angle θ  to \nthe horizontal.\nQ\nlaunch\npoint\nimpact\npoint\na\nθ\nThree statements about the actual motion of the ball when there is air resistance are:\nI. \n Q is lower.\nII. \na remains the same.\nIII. \n θ  increases.\nWhich statements are correct?\nA. \nI and II only\nB. \nI and III only\nC. \nII and III only\nD. \nI, II and III\n\n– 4 –\n2225 – 6713",
       "answer_text": "",
-      "marks": null,
+      "marks": 1,
       "has_markscheme": true,
       "source": {
         "paper_file": "Physics_paper_1A_TZ2_HL.pdf",
         "markscheme_file": "Physics_paper_1A_TZ2_HL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/phys_m25_p1a_tz2_q3_hl_p1.png"
+        "images/questions/phys_m25_p1a_tz2_q3_hl.png"
       ],
       "markscheme_image_paths": [
         "images/markschemes/phys_m25_p1a_tz2_q3_hl_p1.png",
         "images/markschemes/phys_m25_p1a_tz2_q3_hl_p2.png"
       ],
       "question_images": [
-        "images/questions/phys_m25_p1a_tz2_q3_hl_p1.png"
+        "images/questions/phys_m25_p1a_tz2_q3_hl.png"
       ],
       "markscheme_images": [
         "images/markschemes/phys_m25_p1a_tz2_q3_hl_p1.png",
@@ -2351,7 +2219,7 @@
       ],
       "question_text": "A car of weight W  is travelling at maximum speed in a circular path along a horizontal banked road. \nThe surface exerts a normal force N  and a friction force Ff.\nWhat is the correct free-body diagram for the car?\nA.\nN\nW\nFf\nB.\nN\nFf\nW\nC.\nN\nFf\nW\nD.\nN\nFf\nW",
       "answer_text": "",
-      "marks": null,
+      "marks": 1,
       "has_markscheme": false,
       "source": {
         "paper_file": "Physics_paper_1A_TZ2_HL.pdf",
@@ -2383,18 +2251,18 @@
       ],
       "question_text": "Sphere X falls through a fluid with terminal velocity v. Sphere Y is made of the same material and \nfalls through the same fluid. The radius of sphere Y is double that of sphere X.\nWhat is the terminal velocity of sphere Y?\nA. \nv\n2\nB. \n v\nC. \n 2v\nD. \n 4v\n\n– 5 –\n2225 – 6713\nTurn over",
       "answer_text": "",
-      "marks": null,
+      "marks": 1,
       "has_markscheme": false,
       "source": {
         "paper_file": "Physics_paper_1A_TZ2_HL.pdf",
         "markscheme_file": "Physics_paper_1A_TZ2_HL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/phys_m25_p1a_tz2_q5_hl_p1.png"
+        "images/questions/phys_m25_p1a_tz2_q5_hl.png"
       ],
       "markscheme_image_paths": [],
       "question_images": [
-        "images/questions/phys_m25_p1a_tz2_q5_hl_p1.png"
+        "images/questions/phys_m25_p1a_tz2_q5_hl.png"
       ],
       "markscheme_images": []
     },
@@ -2415,7 +2283,7 @@
       ],
       "question_text": "A wheel, initially at rest, rolls without slipping down an incline for 4.0 s. The final angular velocity of \nthe wheel is 5π rad s-1.\nHow many revolutions did the wheel complete?\nA. \n5\nB. \n10\nC. \n15\nD. \n30",
       "answer_text": "",
-      "marks": null,
+      "marks": 1,
       "has_markscheme": false,
       "source": {
         "paper_file": "Physics_paper_1A_TZ2_HL.pdf",
@@ -2447,7 +2315,7 @@
       ],
       "question_text": "What is the unit of angular impulse?\nA. \nN s\nB. \nN m\nC. \nN m s-1\nD. \nN m s",
       "answer_text": "",
-      "marks": null,
+      "marks": 1,
       "has_markscheme": false,
       "source": {
         "paper_file": "Physics_paper_1A_TZ2_HL.pdf",
@@ -2479,18 +2347,18 @@
       ],
       "question_text": "A car of total mass M  is travelling with a constant speed v. Each of the four wheels of the car has a \nmass m and a radius R  and rolls without slipping. \nThe moment of inertia of each wheel is I = 1\n2\n2\nmR .\nWhat is sum of the rotational kinetic energy of all four wheels\ntranslational kinetic energy of the car\n?\nA. \nm\nM\n2\nB. \nm\nM\nC. \n2m\nM\nD. \n4m\nM\n\n– 6 –\n2225 – 6713",
       "answer_text": "",
-      "marks": null,
+      "marks": 1,
       "has_markscheme": false,
       "source": {
         "paper_file": "Physics_paper_1A_TZ2_HL.pdf",
         "markscheme_file": "Physics_paper_1A_TZ2_HL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/phys_m25_p1a_tz2_q8_hl_p1.png"
+        "images/questions/phys_m25_p1a_tz2_q8_hl.png"
       ],
       "markscheme_image_paths": [],
       "question_images": [
-        "images/questions/phys_m25_p1a_tz2_q8_hl_p1.png"
+        "images/questions/phys_m25_p1a_tz2_q8_hl.png"
       ],
       "markscheme_images": []
     },
@@ -2511,7 +2379,7 @@
       ],
       "question_text": "X and Y are two spherical black-body radiators. X has a radius R and emits half the total power \nof Y. The absolute temperature of X is double that of Y.\nWhat is the radius of Y?\nA. \n2 2R\nB. \n 4R\nC. \n4 2R\nD. \n 16R",
       "answer_text": "",
-      "marks": null,
+      "marks": 1,
       "has_markscheme": false,
       "source": {
         "paper_file": "Physics_paper_1A_TZ2_HL.pdf",
@@ -2543,7 +2411,7 @@
       ],
       "question_text": "The albedo of the atmosphere above a small region on the Earth’s surface is 0.25. The solar \nconstant is S.\nWhat is the incoming intensity of solar radiation incident on this region when the Sun is \ndirectly overhead?\nA. \n3\n16\nS\nB. \nS\n4\nC. \n3\n4\nS\nD. \n S",
       "answer_text": "",
-      "marks": null,
+      "marks": 1,
       "has_markscheme": false,
       "source": {
         "paper_file": "Physics_paper_1A_TZ2_HL.pdf",
@@ -2575,18 +2443,18 @@
       ],
       "question_text": "A gas is held in a container. An identical container holds the same number of more massive \nmolecules of another gas at the same temperature. \nWhat is true about the density and pressure in both containers?\nDensity in both containers\nPressure in both containers\nA.\nsame\nsame\nB.\nsame\ndifferent\nC.\ndifferent\nsame\nD.\ndifferent\ndifferent\n\n– 7 –\n2225 – 6713\nTurn over",
       "answer_text": "",
-      "marks": null,
+      "marks": 1,
       "has_markscheme": false,
       "source": {
         "paper_file": "Physics_paper_1A_TZ2_HL.pdf",
         "markscheme_file": "Physics_paper_1A_TZ2_HL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/phys_m25_p1a_tz2_q11_hl_p1.png"
+        "images/questions/phys_m25_p1a_tz2_q11_hl.png"
       ],
       "markscheme_image_paths": [],
       "question_images": [
-        "images/questions/phys_m25_p1a_tz2_q11_hl_p1.png"
+        "images/questions/phys_m25_p1a_tz2_q11_hl.png"
       ],
       "markscheme_images": []
     },
@@ -2607,7 +2475,7 @@
       ],
       "question_text": "A cyclic process for an ideal gas is shown. The cycle has three stages: isovolumetric, adiabatic, \nand isothermal. Work is done on the gas during the isothermal stage.\nStage Y\nPressure\nStage Z\nVolume\nWhich stage is isothermal and what is the direction of the cyclic process?\nStage\nDirection\nA.\nY\nAnti-clockwise\nB.\nZ\nAnti-clockwise\nC.\nY\nClockwise\nD.\nZ\nClockwise",
       "answer_text": "",
-      "marks": null,
+      "marks": 1,
       "has_markscheme": false,
       "source": {
         "paper_file": "Physics_paper_1A_TZ2_HL.pdf",
@@ -2639,18 +2507,18 @@
       ],
       "question_text": "A wire of length L is used in an electric heater. When the potential difference across the wire is \n200 V, the power transferred in the wire is 500 W. A second wire is made from the same metal and \nhas the same cross-sectional area. When a potential difference of 400 V is applied across the \nsecond wire, the power transferred is 2000 W.\nWhat is the length of the second wire?\nA. \nL\n4\nB. \nL\n2\nC. \n L\nD. \n 2L\n\n– 8 –\n2225 – 6713",
       "answer_text": "",
-      "marks": null,
+      "marks": 1,
       "has_markscheme": false,
       "source": {
         "paper_file": "Physics_paper_1A_TZ2_HL.pdf",
         "markscheme_file": "Physics_paper_1A_TZ2_HL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/phys_m25_p1a_tz2_q13_hl_p1.png"
+        "images/questions/phys_m25_p1a_tz2_q13_hl.png"
       ],
       "markscheme_image_paths": [],
       "question_images": [
-        "images/questions/phys_m25_p1a_tz2_q13_hl_p1.png"
+        "images/questions/phys_m25_p1a_tz2_q13_hl.png"
       ],
       "markscheme_images": []
     },
@@ -2671,20 +2539,18 @@
       ],
       "question_text": "Four identical resistors are connected as shown.\nX\nY\nWhat is current in X\ncurrent in Y ?\nA. \n1\n2\nB. \n2\n3\nC. \n3\n2\nD. \n  3",
       "answer_text": "",
-      "marks": null,
+      "marks": 1,
       "has_markscheme": false,
       "source": {
         "paper_file": "Physics_paper_1A_TZ2_HL.pdf",
         "markscheme_file": "Physics_paper_1A_TZ2_HL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/phys_m25_p1a_tz2_q14_hl_p1.png",
-        "images/questions/phys_m25_p1a_tz2_q14_hl_p2.png"
+        "images/questions/phys_m25_p1a_tz2_q14_hl.png"
       ],
       "markscheme_image_paths": [],
       "question_images": [
-        "images/questions/phys_m25_p1a_tz2_q14_hl_p1.png",
-        "images/questions/phys_m25_p1a_tz2_q14_hl_p2.png"
+        "images/questions/phys_m25_p1a_tz2_q14_hl.png"
       ],
       "markscheme_images": []
     },
@@ -2705,7 +2571,7 @@
       ],
       "question_text": "A mass–spring system is oscillating with simple harmonic motion.\nWhich graph represents the variation of acceleration with displacement?\nA.\nacceleration\ndisplacement\nB.\nacceleration\ndisplacement\nC.\nacceleration\ndisplacement\nD.\nacceleration\ndisplacement\n\n– 9 –\n2225 – 6713\nTurn over",
       "answer_text": "",
-      "marks": null,
+      "marks": 1,
       "has_markscheme": true,
       "source": {
         "paper_file": "Physics_paper_1A_TZ2_HL.pdf",
@@ -2741,7 +2607,7 @@
       ],
       "question_text": "A mass–spring system oscillates in simple harmonic motion with maximum elastic potential \nenergy E. The mass is tripled and the amplitude is doubled.\nWhat is the new maximum elastic potential energy of the system?\nA. \n4\n3 E\nB. \n 4E\nC. \n 6E\nD. \n 12E",
       "answer_text": "",
-      "marks": null,
+      "marks": 1,
       "has_markscheme": false,
       "source": {
         "paper_file": "Physics_paper_1A_TZ2_HL.pdf",
@@ -2773,18 +2639,18 @@
       ],
       "question_text": "A transverse wave of period 20 ms travels through a medium. The graph shows the variation of \nparticle displacement with distance for the wave.\n5.0\n10.0\n5.0\n20.0\n15.0\n25.0\n4.0\n3.0\n2.0\n1.0\n0\n1.0\n2.0\n3.0\n4.0\n5.0\ndistance / cm\ndisplacement / cm\nWhat is the average speed of the particle motion and the direction of particle motion relative to the \ndirection of the wave travel during one cycle?\nAverage speed of particle / m s-1\nDirection of particle motion\nA.\n8\nparallel\nB.\n8\nperpendicular\nC.\n10\nparallel\nD.\n10\nperpendicular\n\n– 10 –\n2225 – 6713",
       "answer_text": "",
-      "marks": null,
+      "marks": 1,
       "has_markscheme": false,
       "source": {
         "paper_file": "Physics_paper_1A_TZ2_HL.pdf",
         "markscheme_file": "Physics_paper_1A_TZ2_HL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/phys_m25_p1a_tz2_q17_hl_p1.png"
+        "images/questions/phys_m25_p1a_tz2_q17_hl.png"
       ],
       "markscheme_image_paths": [],
       "question_images": [
-        "images/questions/phys_m25_p1a_tz2_q17_hl_p1.png"
+        "images/questions/phys_m25_p1a_tz2_q17_hl.png"
       ],
       "markscheme_images": []
     },
@@ -2805,7 +2671,7 @@
       ],
       "question_text": "An ultraviolet wave is travelling in a vacuum.\nWhat is the frequency and the nature of the wave?\nWave frequency / Hz\nNature of the wave\nA.\n1015\ntransverse\nB.\n1015\nlongitudinal\nC.\n10-7\ntransverse\nD.\n10-7\nlongitudinal",
       "answer_text": "",
-      "marks": null,
+      "marks": 1,
       "has_markscheme": false,
       "source": {
         "paper_file": "Physics_paper_1A_TZ2_HL.pdf",
@@ -2837,7 +2703,7 @@
       ],
       "question_text": "A fifth-harmonic standing wave is formed in a pipe of length 25 cm that is closed at both ends.\nWhat two points along the pipe have a phase difference of π ?\nA. \n2 cm and 7 cm\nB. \n4 cm and 21 cm\nC. \n7 cm and 9 cm\nD. \n11 cm and 14 cm",
       "answer_text": "",
-      "marks": null,
+      "marks": 1,
       "has_markscheme": false,
       "source": {
         "paper_file": "Physics_paper_1A_TZ2_HL.pdf",
@@ -2869,18 +2735,18 @@
       ],
       "question_text": "For a lightly damped oscillation…\nA. \nthe amplitude goes to zero within one period of oscillation.\nB. \nthe oscillation frequency does not change with time.\nC. \nenergy is transferred from the oscillation as quickly as possible.\nD. \nthe oscillation frequency equals the undamped oscillation frequency.\n\n– 11 –\n2225 – 6713\nTurn over",
       "answer_text": "",
-      "marks": null,
+      "marks": 1,
       "has_markscheme": false,
       "source": {
         "paper_file": "Physics_paper_1A_TZ2_HL.pdf",
         "markscheme_file": "Physics_paper_1A_TZ2_HL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/phys_m25_p1a_tz2_q20_hl_p1.png"
+        "images/questions/phys_m25_p1a_tz2_q20_hl.png"
       ],
       "markscheme_image_paths": [],
       "question_images": [
-        "images/questions/phys_m25_p1a_tz2_q20_hl_p1.png"
+        "images/questions/phys_m25_p1a_tz2_q20_hl.png"
       ],
       "markscheme_images": []
     },
@@ -2901,7 +2767,7 @@
       ],
       "question_text": "A planet of mass m is in a circular orbit of radius R  around a star. The orbital speed of the planet \nis v. A second planet of mass 2m is in a circular orbit of radius 1.5R  around the same star. \nWhat is the orbital speed of the second planet?\nA. \n2\n3 v\nB. \n2v\nC. \n3v\nD. \n 2v",
       "answer_text": "",
-      "marks": null,
+      "marks": 1,
       "has_markscheme": false,
       "source": {
         "paper_file": "Physics_paper_1A_TZ2_HL.pdf",
@@ -2933,18 +2799,18 @@
       ],
       "question_text": "A charge +Q and a charge +2Q are a distance 3x apart. Point P is on the line joining the charges, \nat a distance x from one of the charges as shown.\nP\nQ\n2Q\n2 x\nx\nWhat is the electric field strength E at P?\nMagnitude of E\nDirection of E\nA.\nkQ\n2\n2x\nleft\nB.\nkQ\n2\n2x\nright\nC.\nkQ\nx2\nleft\nD.\nkQ\nx2\nright\n\n– 12 –\n2225 – 6713",
       "answer_text": "",
-      "marks": null,
+      "marks": 1,
       "has_markscheme": false,
       "source": {
         "paper_file": "Physics_paper_1A_TZ2_HL.pdf",
         "markscheme_file": "Physics_paper_1A_TZ2_HL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/phys_m25_p1a_tz2_q22_hl_p1.png"
+        "images/questions/phys_m25_p1a_tz2_q22_hl.png"
       ],
       "markscheme_image_paths": [],
       "question_images": [
-        "images/questions/phys_m25_p1a_tz2_q22_hl_p1.png"
+        "images/questions/phys_m25_p1a_tz2_q22_hl.png"
       ],
       "markscheme_images": []
     },
@@ -2965,7 +2831,7 @@
       ],
       "question_text": "Two bar magnets are held in place with the north poles facing each other.\nWhich diagram shows four correct magnetic field lines?\nA.\nS\nN\nN\nS\nB.\nS\nN\nN\nS\nC.\nS\nN\nN\nS\nD.\nS\nN\nN\nS",
       "answer_text": "",
-      "marks": null,
+      "marks": 1,
       "has_markscheme": false,
       "source": {
         "paper_file": "Physics_paper_1A_TZ2_HL.pdf",
@@ -2997,18 +2863,18 @@
       ],
       "question_text": "A pair of parallel conducting plates are separated by 50 cm. The electric potential of one plate is \n+200 V and the electric potential of the other plate is +450 V. A proton travels from the +200 V plate \nto the +450 V plate.\nWhat is the electric field strength between the plates and the change in the kinetic energy of \nthe proton?\nMagnitude / N C-1\nChange in kinetic energy\nA.\n500\npositive\nB.\n500\nnegative\nC.\n900\npositive\nD.\n900\nnegative\n\n– 13 –\n2225 – 6713\nTurn over",
       "answer_text": "",
-      "marks": null,
+      "marks": 1,
       "has_markscheme": false,
       "source": {
         "paper_file": "Physics_paper_1A_TZ2_HL.pdf",
         "markscheme_file": "Physics_paper_1A_TZ2_HL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/phys_m25_p1a_tz2_q24_hl_p1.png"
+        "images/questions/phys_m25_p1a_tz2_q24_hl.png"
       ],
       "markscheme_image_paths": [],
       "question_images": [
-        "images/questions/phys_m25_p1a_tz2_q24_hl_p1.png"
+        "images/questions/phys_m25_p1a_tz2_q24_hl.png"
       ],
       "markscheme_images": []
     },
@@ -3029,18 +2895,18 @@
       ],
       "question_text": "The diagram shows possible paths Q, R, and S of particles moving into a region of uniform \nmagnetic field. The field is directed into the plane of the page.\nQ\nS\nR\nWhat particles are shown by each path?\nQ\nR\nS\nA.\nproton\nneutron\nelectron\nB.\nneutron \nelectron\nalpha particle\nC.\nelectron\nneutron\nalpha particle\nD.\nproton\nelectron\nneutron\n\n– 14 –\n2225 – 6713",
       "answer_text": "",
-      "marks": null,
+      "marks": 1,
       "has_markscheme": false,
       "source": {
         "paper_file": "Physics_paper_1A_TZ2_HL.pdf",
         "markscheme_file": "Physics_paper_1A_TZ2_HL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/phys_m25_p1a_tz2_q25_hl_p1.png"
+        "images/questions/phys_m25_p1a_tz2_q25_hl.png"
       ],
       "markscheme_image_paths": [],
       "question_images": [
-        "images/questions/phys_m25_p1a_tz2_q25_hl_p1.png"
+        "images/questions/phys_m25_p1a_tz2_q25_hl.png"
       ],
       "markscheme_images": []
     },
@@ -3061,7 +2927,7 @@
       ],
       "question_text": "A circuit is created with a cell, two parallel conducting wires and a moveable metal rod of length L. \nWhen a uniform magnetic field B  is directed out of the page through the circuit, the metal rod \nmoves to the right with velocity v. The initial current in the circuit is I.\nCell\nv\nL\nWhat is the direction of the current through the circuit and the initial force on the metal rod?\nDirection of I\nInitial force on the metal rod\nA.\nanti-clockwise\nBIL sin (90°)\nB.\nclockwise\nBIL sin (90°)\nC.\nanti-clockwise\nBIL sin (0°)\nD.\nclockwise\nBIL sin (0°)",
       "answer_text": "",
-      "marks": null,
+      "marks": 1,
       "has_markscheme": false,
       "source": {
         "paper_file": "Physics_paper_1A_TZ2_HL.pdf",
@@ -3093,18 +2959,18 @@
       ],
       "question_text": "Two parallel wires X and Y carry the same current. There is a repulsive force per unit length F  on \neach wire. The direction of the current in each wire is reversed. The current in X is doubled and the \ncurrent in Y stays the same. The separation of X and Y is also doubled. \nWhat is the magnitude and direction of the force per unit length on each wire?\nMagnitude\nDirection\nA.\nF\nrepulsive\nB.\nF\nattractive\nC.\nF\n2\nrepulsive\nD.\nF\n2\nattractive\n\n– 15 –\n2225 – 6713\nTurn over",
       "answer_text": "",
-      "marks": null,
+      "marks": 1,
       "has_markscheme": false,
       "source": {
         "paper_file": "Physics_paper_1A_TZ2_HL.pdf",
         "markscheme_file": "Physics_paper_1A_TZ2_HL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/phys_m25_p1a_tz2_q27_hl_p1.png"
+        "images/questions/phys_m25_p1a_tz2_q27_hl.png"
       ],
       "markscheme_image_paths": [],
       "question_images": [
-        "images/questions/phys_m25_p1a_tz2_q27_hl_p1.png"
+        "images/questions/phys_m25_p1a_tz2_q27_hl.png"
       ],
       "markscheme_images": []
     },
@@ -3125,7 +2991,7 @@
       ],
       "question_text": "A horizontal conducting ring is perpendicular to a uniform vertical magnetic field. When the ring \nis rotated through 180° about the horizontal axis, an average emf of 2.0 μV is induced in the ring. \nThe area enclosed by the ring is 4.0 cm2 and the rotation takes 2.0 s.\nWhat is the magnetic field?\nA. \n2.5 mT\nB. \n5.0 mT\nC. \n10.0 mT\nD. \n20.0 mT",
       "answer_text": "",
-      "marks": null,
+      "marks": 1,
       "has_markscheme": false,
       "source": {
         "paper_file": "Physics_paper_1A_TZ2_HL.pdf",
@@ -3157,18 +3023,18 @@
       ],
       "question_text": "A rectangular coil rotates at a constant angular velocity. At the instant shown, the plane of the coil \nis at right angles to the line ZZ'. A uniform magnetic field acts in the direction YY'. The variation of \nemf with time t  is shown.\n0\n0\nemf\nt\nZ\nX\nY\nZ \nX \nY \nWhat coil rotation about the axis specified produces this graph?\nA. \nThrough π\n2 about XX'\nB. \nThrough π about XX'\nC. \nThrough π\n2 about YY'\nD. \nThrough π about YY'\n\n– 16 –\n2225 – 6713",
       "answer_text": "",
-      "marks": null,
+      "marks": 1,
       "has_markscheme": false,
       "source": {
         "paper_file": "Physics_paper_1A_TZ2_HL.pdf",
         "markscheme_file": "Physics_paper_1A_TZ2_HL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/phys_m25_p1a_tz2_q29_hl_p1.png"
+        "images/questions/phys_m25_p1a_tz2_q29_hl.png"
       ],
       "markscheme_image_paths": [],
       "question_images": [
-        "images/questions/phys_m25_p1a_tz2_q29_hl_p1.png"
+        "images/questions/phys_m25_p1a_tz2_q29_hl.png"
       ],
       "markscheme_images": []
     },
@@ -3189,20 +3055,18 @@
       ],
       "question_text": "A magnet attached to a spring oscillates above a coil as shown. The period of the oscillation is T.\nN\nS\nmagnet\nspring\nA\nThe graph shows the variation with time t of the current I  in the coil.\nI\nT\nt\nI0\n−I0\n0\n(This question continues on the following page)\n\n– 17 –\n2225 – 6713\nTurn over\n(Question 30 continued)\nThe amplitude of the magnet’s oscillation is now decreased.\nWhat is the new variation of I  with t ?\nA.\nI\nT\nt\nI0\n−I0\n0\nB.\nI\nT\nt\nI0\n−I0\n0\nC.\nI\nT\nt\nI0\n−I0\n0\nD.\nI\nT\nt\nI0\n−I0\n0\n\n– 18 –\n2225 – 6713",
       "answer_text": "",
-      "marks": null,
+      "marks": 1,
       "has_markscheme": false,
       "source": {
         "paper_file": "Physics_paper_1A_TZ2_HL.pdf",
         "markscheme_file": "Physics_paper_1A_TZ2_HL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/phys_m25_p1a_tz2_q30_hl_p1.png",
-        "images/questions/phys_m25_p1a_tz2_q30_hl_p2.png"
+        "images/questions/phys_m25_p1a_tz2_q30_hl.png"
       ],
       "markscheme_image_paths": [],
       "question_images": [
-        "images/questions/phys_m25_p1a_tz2_q30_hl_p1.png",
-        "images/questions/phys_m25_p1a_tz2_q30_hl_p2.png"
+        "images/questions/phys_m25_p1a_tz2_q30_hl.png"
       ],
       "markscheme_images": []
     },
@@ -3223,7 +3087,7 @@
       ],
       "question_text": "Gases in the atmosphere are compounds of 6\n12C, 1\n1H, 8\n16O and 7\n14N.\nFour of these gases are CO2, N2O, CH4 and H2O. A pure sample of each gas is produced. \nEach sample has the same volume, pressure, and temperature.\nWhich sample has the smallest mass?\nA. \nCH4\nB. \nN2O\nC. \nCO2\nD. \nH2O",
       "answer_text": "",
-      "marks": null,
+      "marks": 1,
       "has_markscheme": false,
       "source": {
         "paper_file": "Physics_paper_1A_TZ2_HL.pdf",
@@ -3255,18 +3119,18 @@
       ],
       "question_text": "Some transitions between the energy states of an atom are shown.\nn = 4\nn = 3\nn = 2\nn = 1\nE2\nE4\nE1\nE3\nWhich transition will emit a photon with the longest wavelength?\nA. \nE1\nB. \nE2\nC. \nE3\nD. \nE4\n\n– 19 –\n2225 – 6713\nTurn over",
       "answer_text": "",
-      "marks": null,
+      "marks": 1,
       "has_markscheme": false,
       "source": {
         "paper_file": "Physics_paper_1A_TZ2_HL.pdf",
         "markscheme_file": "Physics_paper_1A_TZ2_HL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/phys_m25_p1a_tz2_q32_hl_p1.png"
+        "images/questions/phys_m25_p1a_tz2_q32_hl.png"
       ],
       "markscheme_image_paths": [],
       "question_images": [
-        "images/questions/phys_m25_p1a_tz2_q32_hl_p1.png"
+        "images/questions/phys_m25_p1a_tz2_q32_hl.png"
       ],
       "markscheme_images": []
     },
@@ -3287,7 +3151,7 @@
       ],
       "question_text": "In the Geiger–Marsden–Rutherford experiment, alpha particles were accelerated through a \npotential difference of 7.7 MV and incident on a thin foil of gold. The proton number of gold is 79.\nWhat is the distance of closest approach?\nA. \n158\n7 7\n106\nke\n. ×\nB. \n158\n7 7\n10\n2\n6\nke\n. ×\nC. \n79\n7 7\n106\nke\n. ×\nD. \n79\n7 7\n10\n2\n6\nke\n. ×",
       "answer_text": "",
-      "marks": null,
+      "marks": 1,
       "has_markscheme": false,
       "source": {
         "paper_file": "Physics_paper_1A_TZ2_HL.pdf",
@@ -3319,18 +3183,18 @@
       ],
       "question_text": "In two experiments X and Y measurements were made of the kinetic energies Ek of photoelectrons \nemitted when light is incident on two different metal surfaces.\nThe graph shows the variation of Ek with frequency f  of the incident photons for both surfaces.\nEk\nX\nY\nf\nIt can be deduced that in experiment Y…\nA. \nthe surface has a smaller work function than the surface in experiment X.\nB. \nthe surface has a larger work function than the surface in experiment X.\nC. \nthe intensity of the incident light is less than in experiment X.\nD. \nthe intensity of the incident light is more than in experiment X.\n\n– 20 –\n2225 – 6713",
       "answer_text": "",
-      "marks": null,
+      "marks": 1,
       "has_markscheme": false,
       "source": {
         "paper_file": "Physics_paper_1A_TZ2_HL.pdf",
         "markscheme_file": "Physics_paper_1A_TZ2_HL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/phys_m25_p1a_tz2_q34_hl_p1.png"
+        "images/questions/phys_m25_p1a_tz2_q34_hl.png"
       ],
       "markscheme_image_paths": [],
       "question_images": [
-        "images/questions/phys_m25_p1a_tz2_q34_hl_p1.png"
+        "images/questions/phys_m25_p1a_tz2_q34_hl.png"
       ],
       "markscheme_images": []
     },
@@ -3351,7 +3215,7 @@
       ],
       "question_text": "The intensity of electromagnetic radiation incident on a surface is I. The wavelength of the \nradiation is doubled and the number of photons incident per unit time per unit area is doubled. \nWhat is the new intensity of radiation incident on the surface?\nA. \nI\n2\nB. \n I\nC. \n 2I\nD. \n 4I",
       "answer_text": "",
-      "marks": null,
+      "marks": 1,
       "has_markscheme": false,
       "source": {
         "paper_file": "Physics_paper_1A_TZ2_HL.pdf",
@@ -3383,7 +3247,7 @@
       ],
       "question_text": "A fusion reaction of one nucleus of hydrogen-2 and one nucleus of hydrogen-3 converts a mass \nof 0.024 u into energy. A fission reaction of one nucleus of uranium-235 converts a mass of 0.48 u \ninto energy.\nWhat is energy released per unit mass of hydrogen\nenergy released per unit mass of uranium ?\nA. \n0.050\nB. \n0.426\nC. \n2.35\nD. \n20.0",
       "answer_text": "",
-      "marks": null,
+      "marks": 1,
       "has_markscheme": false,
       "source": {
         "paper_file": "Physics_paper_1A_TZ2_HL.pdf",
@@ -3415,18 +3279,18 @@
       ],
       "question_text": "Three statements about gamma radiation are:\nI. \nIt travels faster than beta radiation in a vacuum.\nII. \nIt has a greater penetration ability than beta radiation.\nIII. \nIt has a greater ionizing ability than beta radiation.\nWhich statements are correct?\nA. \nI and II only\nB. \nI and III only\nC. \nII and III only\nD. \nI, II and III\n\n– 21 –\n2225 – 6713",
       "answer_text": "",
-      "marks": null,
+      "marks": 1,
       "has_markscheme": false,
       "source": {
         "paper_file": "Physics_paper_1A_TZ2_HL.pdf",
         "markscheme_file": "Physics_paper_1A_TZ2_HL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/phys_m25_p1a_tz2_q37_hl_p1.png"
+        "images/questions/phys_m25_p1a_tz2_q37_hl.png"
       ],
       "markscheme_image_paths": [],
       "question_images": [
-        "images/questions/phys_m25_p1a_tz2_q37_hl_p1.png"
+        "images/questions/phys_m25_p1a_tz2_q37_hl.png"
       ],
       "markscheme_images": []
     },
@@ -3447,7 +3311,7 @@
       ],
       "question_text": "A pure sample of 4.4 g of Radon-222 has an activity of 2.5x1016 Bq. \nWhat is the decay constant of Radon-222?\nA. \n2.1 × 10-10 s-1\nB. \n8.3 × 10-10 s-1\nC. \n2.1 × 10-6 s-1\nD. \n8.3 × 10-6 s-1",
       "answer_text": "",
-      "marks": null,
+      "marks": 1,
       "has_markscheme": false,
       "source": {
         "paper_file": "Physics_paper_1A_TZ2_HL.pdf",
@@ -3479,7 +3343,7 @@
       ],
       "question_text": "The moderator in a nuclear power station…\nA. \nincreases the proportion of U-235 in the fuel source.\nB. \ntransfers internal energy from the reactor to the turbines.\nC. \nallows operators to regulate the rate of power production.\nD. \ndecreases the kinetic energy of neutrons in the reactor.",
       "answer_text": "",
-      "marks": null,
+      "marks": 1,
       "has_markscheme": false,
       "source": {
         "paper_file": "Physics_paper_1A_TZ2_HL.pdf",
@@ -3511,7 +3375,7 @@
       ],
       "question_text": "Stars X and Y have the same surface temperature. Star X has a radius R and is a distance d from \nEarth. The distance of star Y from Earth is d\n2 . The apparent brightness of Y is double that of X.\nWhat is the radius of star Y?\nA. \nR\n2\nB. \n2\n2 R\nC. \n R\nD. \n 2R\n\b",
       "answer_text": "",
-      "marks": null,
+      "marks": 1,
       "has_markscheme": false,
       "source": {
         "paper_file": "Physics_paper_1A_TZ2_HL.pdf",
@@ -3543,7 +3407,7 @@
       ],
       "question_text": "A ball is initially 50 m above the ground. The ball is thrown vertically upwards and takes 5.0 s to \nreach the ground. Air resistance is negligible.\nWhat is the initial speed of the ball? \nA. \n10 m s-1\nB. \n15 m s-1\nC. \n25 m s-1\nD. \n35 m s-1",
       "answer_text": "",
-      "marks": null,
+      "marks": 1,
       "has_markscheme": false,
       "source": {
         "paper_file": "Physics_paper_1A_TZ2_SL.pdf",
@@ -3575,18 +3439,18 @@
       ],
       "question_text": "An object is sliding from rest down a frictionless inclined plane. The vertical displacement of the \nobject is 1.5 m during the first second.\nWhat is the vertical displacement during the next second?\nA. \n1.5 m\nB. \n3.0 m\nC. \n4.5 m\nD. \n5.0 m\n\n– 3 –\n2225 – 6716\nTurn over",
       "answer_text": "",
-      "marks": null,
+      "marks": 1,
       "has_markscheme": false,
       "source": {
         "paper_file": "Physics_paper_1A_TZ2_SL.pdf",
         "markscheme_file": "Physics_paper_1A_TZ2_SL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/phys_m25_p1a_tz2_q2_sl_p1.png"
+        "images/questions/phys_m25_p1a_tz2_q2_sl.png"
       ],
       "markscheme_image_paths": [],
       "question_images": [
-        "images/questions/phys_m25_p1a_tz2_q2_sl_p1.png"
+        "images/questions/phys_m25_p1a_tz2_q2_sl.png"
       ],
       "markscheme_images": []
     },
@@ -3607,21 +3471,21 @@
       ],
       "question_text": "The diagram shows the path of a ball in the absence of air resistance. Q is the highest point of the \nball’s trajectory and a is the vertical acceleration at Q. At impact the velocity makes an angle θ  to \nthe horizontal.\nQ\nlaunch\npoint\nimpact\npoint\na\nθ\nThree statements about the actual motion of the ball when there is air resistance are:\nI. \n Q is lower.\nII. \na remains the same.\nIII. \n θ  increases.\nWhich statements are correct?\nA. \nI and II only\nB. \nI and III only\nC. \nII and III only\nD. \nI, II and III\n\n– 4 –\n2225 – 6716",
       "answer_text": "",
-      "marks": null,
+      "marks": 1,
       "has_markscheme": true,
       "source": {
         "paper_file": "Physics_paper_1A_TZ2_SL.pdf",
         "markscheme_file": "Physics_paper_1A_TZ2_SL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/phys_m25_p1a_tz2_q3_sl_p1.png"
+        "images/questions/phys_m25_p1a_tz2_q3_sl.png"
       ],
       "markscheme_image_paths": [
         "images/markschemes/phys_m25_p1a_tz2_q3_sl_p1.png",
         "images/markschemes/phys_m25_p1a_tz2_q3_sl_p2.png"
       ],
       "question_images": [
-        "images/questions/phys_m25_p1a_tz2_q3_sl_p1.png"
+        "images/questions/phys_m25_p1a_tz2_q3_sl.png"
       ],
       "markscheme_images": [
         "images/markschemes/phys_m25_p1a_tz2_q3_sl_p1.png",
@@ -3645,7 +3509,7 @@
       ],
       "question_text": "A car of weight W  is travelling at maximum speed in a circular path along a horizontal banked road. \nThe surface exerts a normal force N  and a friction force Ff.\nWhat is the correct free-body diagram for the car?\nA.\nN\nW\nFf\nB.\nN\nFf\nW\nC.\nN\nFf\nW\nD.\nN\nFf\nW",
       "answer_text": "",
-      "marks": null,
+      "marks": 1,
       "has_markscheme": false,
       "source": {
         "paper_file": "Physics_paper_1A_TZ2_SL.pdf",
@@ -3677,18 +3541,18 @@
       ],
       "question_text": "Sphere X falls through a fluid with terminal velocity v. Sphere Y is made of the same material and \nfalls through the same fluid. The radius of sphere Y is double that of sphere X.\nWhat is the terminal velocity of sphere Y?\nA. \nv\n2\nB. \n v\nC. \n 2v\nD. \n 4v\n\n– 5 –\n2225 – 6716\nTurn over",
       "answer_text": "",
-      "marks": null,
+      "marks": 1,
       "has_markscheme": false,
       "source": {
         "paper_file": "Physics_paper_1A_TZ2_SL.pdf",
         "markscheme_file": "Physics_paper_1A_TZ2_SL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/phys_m25_p1a_tz2_q5_sl_p1.png"
+        "images/questions/phys_m25_p1a_tz2_q5_sl.png"
       ],
       "markscheme_image_paths": [],
       "question_images": [
-        "images/questions/phys_m25_p1a_tz2_q5_sl_p1.png"
+        "images/questions/phys_m25_p1a_tz2_q5_sl.png"
       ],
       "markscheme_images": []
     },
@@ -3709,7 +3573,7 @@
       ],
       "question_text": "X and Y are two spherical black-body radiators. X has a radius R and emits half the total power \nof Y. The absolute temperature of X is double that of Y.\nWhat is the radius of Y?\nA. \n2 2R\nB. \n 4R\nC. \n4 2R\nD. \n 16R",
       "answer_text": "",
-      "marks": null,
+      "marks": 1,
       "has_markscheme": false,
       "source": {
         "paper_file": "Physics_paper_1A_TZ2_SL.pdf",
@@ -3741,7 +3605,7 @@
       ],
       "question_text": "The albedo of the atmosphere above a small region on the Earth’s surface is 0.25. The solar \nconstant is S.\nWhat is the incoming intensity of solar radiation incident on this region when the Sun is \ndirectly overhead?\nA. \n3\n16\nS\nB. \nS\n4\nC. \n3\n4\nS\nD. \n S",
       "answer_text": "",
-      "marks": null,
+      "marks": 1,
       "has_markscheme": false,
       "source": {
         "paper_file": "Physics_paper_1A_TZ2_SL.pdf",
@@ -3773,18 +3637,18 @@
       ],
       "question_text": "A gas is held in a container. An identical container holds the same number of more massive \nmolecules of another gas at the same temperature. \nWhat is true about the density and pressure in both containers?\nDensity in both containers\nPressure in both containers\nA.\nsame\nsame\nB.\nsame\ndifferent\nC.\ndifferent\nsame\nD.\ndifferent\ndifferent\n\n– 6 –\n2225 – 6716",
       "answer_text": "",
-      "marks": null,
+      "marks": 1,
       "has_markscheme": false,
       "source": {
         "paper_file": "Physics_paper_1A_TZ2_SL.pdf",
         "markscheme_file": "Physics_paper_1A_TZ2_SL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/phys_m25_p1a_tz2_q8_sl_p1.png"
+        "images/questions/phys_m25_p1a_tz2_q8_sl.png"
       ],
       "markscheme_image_paths": [],
       "question_images": [
-        "images/questions/phys_m25_p1a_tz2_q8_sl_p1.png"
+        "images/questions/phys_m25_p1a_tz2_q8_sl.png"
       ],
       "markscheme_images": []
     },
@@ -3805,7 +3669,7 @@
       ],
       "question_text": "A wire of length L is used in an electric heater. When the potential difference across the wire is \n200 V, the power transferred in the wire is 500 W. A second wire is made from the same metal and \nhas the same cross-sectional area. When a potential difference of 400 V is applied across the \nsecond wire, the power transferred is 2000 W.\nWhat is the length of the second wire?\nA. \nL\n4\nB. \nL\n2\nC. \n L\nD. \n 2L",
       "answer_text": "",
-      "marks": null,
+      "marks": 1,
       "has_markscheme": false,
       "source": {
         "paper_file": "Physics_paper_1A_TZ2_SL.pdf",
@@ -3837,18 +3701,18 @@
       ],
       "question_text": "Four identical resistors are connected as shown.\nX\nY\nWhat is current in X\ncurrent in Y ?\nA. \n1\n2\nB. \n2\n3\nC. \n3\n2\nD. \n  3\n\n– 7 –\n2225 – 6716\nTurn over",
       "answer_text": "",
-      "marks": null,
+      "marks": 1,
       "has_markscheme": false,
       "source": {
         "paper_file": "Physics_paper_1A_TZ2_SL.pdf",
         "markscheme_file": "Physics_paper_1A_TZ2_SL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/phys_m25_p1a_tz2_q10_sl_p1.png"
+        "images/questions/phys_m25_p1a_tz2_q10_sl.png"
       ],
       "markscheme_image_paths": [],
       "question_images": [
-        "images/questions/phys_m25_p1a_tz2_q10_sl_p1.png"
+        "images/questions/phys_m25_p1a_tz2_q10_sl.png"
       ],
       "markscheme_images": []
     },
@@ -3869,7 +3733,7 @@
       ],
       "question_text": "A pendulum of length L oscillates with an angular frequency ω. The mass of the pendulum is \ndoubled and its length is changed to L\n4 .\nWhat is the new angular frequency of the pendulum?\nA. \nω\n2\nB. \nω\nC. \n2ω \nD. \n2 2ω",
       "answer_text": "",
-      "marks": null,
+      "marks": 1,
       "has_markscheme": false,
       "source": {
         "paper_file": "Physics_paper_1A_TZ2_SL.pdf",
@@ -3901,18 +3765,18 @@
       ],
       "question_text": "A transverse wave of period 20 ms travels through a medium. The graph shows the variation of \nparticle displacement with distance for the wave.\n5.0\n10.0\n5.0\n20.0\n15.0\n25.0\n4.0\n3.0\n2.0\n1.0\n0\n1.0\n2.0\n3.0\n4.0\n5.0\ndistance / cm\ndisplacement / cm\nWhat is the average speed of the particle motion and the direction of particle motion relative to the \ndirection of the wave travel during one cycle?\nAverage speed of particle / m s-1\nDirection of particle motion\nA.\n8\nparallel\nB.\n8\nperpendicular\nC.\n10\nparallel\nD.\n10\nperpendicular\n\n– 8 –\n2225 – 6716",
       "answer_text": "",
-      "marks": null,
+      "marks": 1,
       "has_markscheme": false,
       "source": {
         "paper_file": "Physics_paper_1A_TZ2_SL.pdf",
         "markscheme_file": "Physics_paper_1A_TZ2_SL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/phys_m25_p1a_tz2_q12_sl_p1.png"
+        "images/questions/phys_m25_p1a_tz2_q12_sl.png"
       ],
       "markscheme_image_paths": [],
       "question_images": [
-        "images/questions/phys_m25_p1a_tz2_q12_sl_p1.png"
+        "images/questions/phys_m25_p1a_tz2_q12_sl.png"
       ],
       "markscheme_images": []
     },
@@ -3933,7 +3797,7 @@
       ],
       "question_text": "An ultraviolet wave is travelling in a vacuum.\nWhat is the frequency and the nature of the wave?\nWave frequency / Hz\nNature of the wave\nA.\n1015\ntransverse\nB.\n1015\nlongitudinal\nC.\n10-7\ntransverse\nD.\n10-7\nlongitudinal",
       "answer_text": "",
-      "marks": null,
+      "marks": 1,
       "has_markscheme": false,
       "source": {
         "paper_file": "Physics_paper_1A_TZ2_SL.pdf",
@@ -3965,7 +3829,7 @@
       ],
       "question_text": "A pipe of length 0.75 m is closed at one end. The speed of sound of the air in the pipe is 330 m s-1.\nWhat are the frequencies of the first two harmonics in the pipe?\nA. \n110 Hz and 220 Hz\nB. \n110 Hz and 330 Hz\nC. \n220 Hz and 440 Hz\nD. \n220 Hz and 660 Hz",
       "answer_text": "",
-      "marks": null,
+      "marks": 1,
       "has_markscheme": false,
       "source": {
         "paper_file": "Physics_paper_1A_TZ2_SL.pdf",
@@ -3997,22 +3861,20 @@
       ],
       "question_text": "For a lightly damped oscillation…\nA. \nthe amplitude goes to zero within one period of oscillation.\nB. \nthe oscillation frequency does not change with time.\nC. \nenergy is transferred from the oscillation as quickly as possible.\nD. \nthe oscillation frequency equals the undamped oscillation frequency.\n\n– 9 –\n2225 – 6716\nTurn over",
       "answer_text": "",
-      "marks": null,
+      "marks": 1,
       "has_markscheme": true,
       "source": {
         "paper_file": "Physics_paper_1A_TZ2_SL.pdf",
         "markscheme_file": "Physics_paper_1A_TZ2_SL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/phys_m25_p1a_tz2_q15_sl_p1.png",
-        "images/questions/phys_m25_p1a_tz2_q15_sl_p2.png"
+        "images/questions/phys_m25_p1a_tz2_q15_sl.png"
       ],
       "markscheme_image_paths": [
         "images/markschemes/phys_m25_p1a_tz2_q15_sl.png"
       ],
       "question_images": [
-        "images/questions/phys_m25_p1a_tz2_q15_sl_p1.png",
-        "images/questions/phys_m25_p1a_tz2_q15_sl_p2.png"
+        "images/questions/phys_m25_p1a_tz2_q15_sl.png"
       ],
       "markscheme_images": [
         "images/markschemes/phys_m25_p1a_tz2_q15_sl.png"
@@ -4035,7 +3897,7 @@
       ],
       "question_text": "Two point masses X and Y are released from rest at different positions in the gravitational field of a \nplanet. Y is further from the planet’s surface than X. The masses of X and Y are much smaller than \nthat of the planet.\nX\nY\nBoth masses eventually collide with the planet. \nWhich is the correct comparison of the initial and final accelerations of X and Y?\nInitial acceleration\nFinal acceleration\nA.\ndifferent\nsame\nB.\ndifferent\ndifferent\nC.\nsame\nsame\nD.\nsame\ndifferent\n\n– 10 –\n2225 – 6716",
       "answer_text": "",
-      "marks": null,
+      "marks": 1,
       "has_markscheme": false,
       "source": {
         "paper_file": "Physics_paper_1A_TZ2_SL.pdf",
@@ -4067,18 +3929,18 @@
       ],
       "question_text": "A charge +Q and a charge +2Q are a distance 3x apart. Point P is on the line joining the charges, \nat a distance x from one of the charges as shown.\nP\nQ\n2Q\n2 x\nx\nWhat is the electric field strength E at P?\nMagnitude of E\nDirection of E\nA.\nkQ\n2\n2x\nleft\nB.\nkQ\n2\n2x\nright\nC.\nkQ\nx2\nleft\nD.\nkQ\nx2\nright\n\n– 11 –\n2225 – 6716\nTurn over",
       "answer_text": "",
-      "marks": null,
+      "marks": 1,
       "has_markscheme": false,
       "source": {
         "paper_file": "Physics_paper_1A_TZ2_SL.pdf",
         "markscheme_file": "Physics_paper_1A_TZ2_SL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/phys_m25_p1a_tz2_q17_sl_p1.png"
+        "images/questions/phys_m25_p1a_tz2_q17_sl.png"
       ],
       "markscheme_image_paths": [],
       "question_images": [
-        "images/questions/phys_m25_p1a_tz2_q17_sl_p1.png"
+        "images/questions/phys_m25_p1a_tz2_q17_sl.png"
       ],
       "markscheme_images": []
     },
@@ -4099,7 +3961,7 @@
       ],
       "question_text": "A circuit is created with a cell, two parallel conducting wires and a moveable metal rod of length L. \nWhen a uniform magnetic field B  is directed out of the page through the circuit, the metal rod \nmoves to the right with velocity v. The initial current in the circuit is I.\nCell\nv\nL\nWhat is the direction of the current through the circuit and the initial force on the metal rod?\nDirection of I\nInitial force on the metal rod\nA.\nanti-clockwise\nBIL sin (90°)\nB.\nclockwise\nBIL sin (90°)\nC.\nanti-clockwise\nBIL sin (0°)\nD.\nclockwise\nBIL sin (0°)",
       "answer_text": "",
-      "marks": null,
+      "marks": 1,
       "has_markscheme": false,
       "source": {
         "paper_file": "Physics_paper_1A_TZ2_SL.pdf",
@@ -4131,18 +3993,18 @@
       ],
       "question_text": "Two parallel wires X and Y carry the same current. There is a repulsive force per unit length F  on \neach wire. The direction of the current in each wire is reversed. The current in X is doubled and the \ncurrent in Y stays the same. The separation of X and Y is also doubled. \nWhat is the magnitude and direction of the force per unit length on each wire?\nMagnitude\nDirection\nA.\nF\nrepulsive\nB.\nF\nattractive\nC.\nF\n2\nrepulsive\nD.\nF\n2\nattractive\n\n– 12 –\n2225 – 6716",
       "answer_text": "",
-      "marks": null,
+      "marks": 1,
       "has_markscheme": false,
       "source": {
         "paper_file": "Physics_paper_1A_TZ2_SL.pdf",
         "markscheme_file": "Physics_paper_1A_TZ2_SL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/phys_m25_p1a_tz2_q19_sl_p1.png"
+        "images/questions/phys_m25_p1a_tz2_q19_sl.png"
       ],
       "markscheme_image_paths": [],
       "question_images": [
-        "images/questions/phys_m25_p1a_tz2_q19_sl_p1.png"
+        "images/questions/phys_m25_p1a_tz2_q19_sl.png"
       ],
       "markscheme_images": []
     },
@@ -4163,7 +4025,7 @@
       ],
       "question_text": "Gases in the atmosphere are compounds of 6\n12C, 1\n1H, 8\n16O and 7\n14N.\nFour of these gases are CO2, N2O, CH4 and H2O. A pure sample of each gas is produced. \nEach sample has the same volume, pressure, and temperature.\nWhich sample has the smallest mass?\nA. \nCH4\nB. \nN2O\nC. \nCO2\nD. \nH2O",
       "answer_text": "",
-      "marks": null,
+      "marks": 1,
       "has_markscheme": false,
       "source": {
         "paper_file": "Physics_paper_1A_TZ2_SL.pdf",
@@ -4195,18 +4057,18 @@
       ],
       "question_text": "Some transitions between the energy states of an atom are shown.\nn = 4\nn = 3\nn = 2\nn = 1\nE2\nE4\nE1\nE3\nWhich transition will emit a photon with the longest wavelength?\nA. \nE1\nB. \nE2\nC. \nE3\nD. \nE4\n\n– 13 –\n2225 – 6716\nTurn over",
       "answer_text": "",
-      "marks": null,
+      "marks": 1,
       "has_markscheme": false,
       "source": {
         "paper_file": "Physics_paper_1A_TZ2_SL.pdf",
         "markscheme_file": "Physics_paper_1A_TZ2_SL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/phys_m25_p1a_tz2_q21_sl_p1.png"
+        "images/questions/phys_m25_p1a_tz2_q21_sl.png"
       ],
       "markscheme_image_paths": [],
       "question_images": [
-        "images/questions/phys_m25_p1a_tz2_q21_sl_p1.png"
+        "images/questions/phys_m25_p1a_tz2_q21_sl.png"
       ],
       "markscheme_images": []
     },
@@ -4227,7 +4089,7 @@
       ],
       "question_text": "A fusion reaction of one nucleus of hydrogen-2 and one nucleus of hydrogen-3 converts a mass \nof 0.024 u into energy. A fission reaction of one nucleus of uranium-235 converts a mass of 0.48 u \ninto energy.\nWhat is energy released per unit mass of hydrogen\nenergy released per unit mass of uranium ?\nA. \n0.050\nB. \n0.426\nC. \n2.35\nD. \n20.0",
       "answer_text": "",
-      "marks": null,
+      "marks": 1,
       "has_markscheme": false,
       "source": {
         "paper_file": "Physics_paper_1A_TZ2_SL.pdf",
@@ -4259,7 +4121,7 @@
       ],
       "question_text": "Three statements about gamma radiation are:\nI. \nIt travels faster than beta radiation in a vacuum.\nII. \nIt has a greater penetration ability than beta radiation.\nIII. \nIt has a greater ionizing ability than beta radiation.\nWhich statements are correct?\nA. \nI and II only\nB. \nI and III only\nC. \nII and III only\nD. \nI, II and III",
       "answer_text": "",
-      "marks": null,
+      "marks": 1,
       "has_markscheme": false,
       "source": {
         "paper_file": "Physics_paper_1A_TZ2_SL.pdf",
@@ -4291,18 +4153,18 @@
       ],
       "question_text": "The moderator in a nuclear power station…\nA. \nincreases the proportion of U-235 in the fuel source.\nB. \ntransfers internal energy from the reactor to the turbines.\nC. \nallows operators to regulate the rate of power production.\nD. \ndecreases the kinetic energy of neutrons in the reactor.\n\n– 14 –\n2225 – 6716",
       "answer_text": "",
-      "marks": null,
+      "marks": 1,
       "has_markscheme": false,
       "source": {
         "paper_file": "Physics_paper_1A_TZ2_SL.pdf",
         "markscheme_file": "Physics_paper_1A_TZ2_SL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/phys_m25_p1a_tz2_q24_sl_p1.png"
+        "images/questions/phys_m25_p1a_tz2_q24_sl.png"
       ],
       "markscheme_image_paths": [],
       "question_images": [
-        "images/questions/phys_m25_p1a_tz2_q24_sl_p1.png"
+        "images/questions/phys_m25_p1a_tz2_q24_sl.png"
       ],
       "markscheme_images": []
     },
@@ -4323,7 +4185,7 @@
       ],
       "question_text": "Stars X and Y have the same surface temperature. Star X has a radius R and is a distance d from \nEarth. The distance of star Y from Earth is d\n2 . The apparent brightness of Y is double that of X.\nWhat is the radius of star Y?\nA. \nR\n2\nB. \n2\n2 R\nC. \n R\nD. \n 2R\n\b",
       "answer_text": "",
-      "marks": null,
+      "marks": 1,
       "has_markscheme": false,
       "source": {
         "paper_file": "Physics_paper_1A_TZ2_SL.pdf",
@@ -4355,7 +4217,7 @@
       ],
       "question_text": "A car decelerates uniformly to rest. From an initial velocity v to a velocity v\n2 , it covers a distance d. \nHow much further does it travel before coming to rest?\nA. \nd\n4\nB. \nd\n3\nC. \nd\n2\nD. \nd",
       "answer_text": "",
-      "marks": null,
+      "marks": 1,
       "has_markscheme": false,
       "source": {
         "paper_file": "Physics_paper_1A_TZ3_HL.pdf",
@@ -4387,20 +4249,18 @@
       ],
       "question_text": "Two balls, P and Q, are projected from the edge of a cliff. P is projected horizontally at speed v and \nQ is projected vertically upwards at the same speed. The time taken for P to reach the ground is t P \nand the speed at impact with the ground is vP . Air resistance is negligible. \nWhat is the time taken to reach the ground and the speed at impact with the ground for Q?\nTime taken\nSpeed at impact\nA.\nt P\nvP\nB.\nt P\nGreater than vP\nC.\nGreater than t P\nvP\nD.\nGreater than t P\nGreater than vP",
       "answer_text": "",
-      "marks": null,
+      "marks": 1,
       "has_markscheme": false,
       "source": {
         "paper_file": "Physics_paper_1A_TZ3_HL.pdf",
         "markscheme_file": "Physics_paper_1A_TZ3_HL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/phys_m25_p1a_tz3_q2_hl_p1.png",
-        "images/questions/phys_m25_p1a_tz3_q2_hl_p2.png"
+        "images/questions/phys_m25_p1a_tz3_q2_hl.png"
       ],
       "markscheme_image_paths": [],
       "question_images": [
-        "images/questions/phys_m25_p1a_tz3_q2_hl_p1.png",
-        "images/questions/phys_m25_p1a_tz3_q2_hl_p2.png"
+        "images/questions/phys_m25_p1a_tz3_q2_hl.png"
       ],
       "markscheme_images": []
     },
@@ -4421,7 +4281,7 @@
       ],
       "question_text": "Two identical blocks, X and Y, each of mass 2.0 kg are connected by a string. They move on the \nsame surface. \nA force F accelerates the blocks at 0.5 m s-2. The frictional force on block X is 4.0 N.\nY\nX\nF\nWhat is the tension in the string?\nA. \n1 N\nB. \n2 N\nC. \n5 N\nD. \n10 N\n\n– 3 –\n2225 – 6719\nTurn over",
       "answer_text": "",
-      "marks": null,
+      "marks": 1,
       "has_markscheme": true,
       "source": {
         "paper_file": "Physics_paper_1A_TZ3_HL.pdf",
@@ -4459,7 +4319,7 @@
       ],
       "question_text": "A raindrop falls from rest through air with velocity v and acceleration a.\nWhich graph best represents the variation of a with v ?\nA.\na\nv\n0\n0\nB.\na\nv\n0\n0\nC.\na\nv\n0\n0\nD.\na\nv\n0\n0",
       "answer_text": "",
-      "marks": null,
+      "marks": 1,
       "has_markscheme": false,
       "source": {
         "paper_file": "Physics_paper_1A_TZ3_HL.pdf",
@@ -4491,18 +4351,18 @@
       ],
       "question_text": "A ball of mass m collides with a stationary ball of mass 3m. After colliding, the two balls \nmove together. \nWhat is the percentage loss in kinetic energy of the system?\nA. \n0 %\nB. \n25 %\nC. \n50 %\nD. \n75 %\n\n– 4 –\n2225 – 6719",
       "answer_text": "",
-      "marks": null,
+      "marks": 1,
       "has_markscheme": false,
       "source": {
         "paper_file": "Physics_paper_1A_TZ3_HL.pdf",
         "markscheme_file": "Physics_paper_1A_TZ3_HL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/phys_m25_p1a_tz3_q5_hl_p1.png"
+        "images/questions/phys_m25_p1a_tz3_q5_hl.png"
       ],
       "markscheme_image_paths": [],
       "question_images": [
-        "images/questions/phys_m25_p1a_tz3_q5_hl_p1.png"
+        "images/questions/phys_m25_p1a_tz3_q5_hl.png"
       ],
       "markscheme_images": []
     },
@@ -4523,7 +4383,7 @@
       ],
       "question_text": "A ball of mass 0.4 kg is attached to a string of length 0.8 m. The ball is rotated in a vertical circle \nsuch that the speed at the lowest position is 6.0 m s-1.\n0.8 m\nWhat is the tension in the string when the ball is at the lowest position?\nA. \n4.0 N\nB. \n14 N\nC. \n18 N\nD. \n22 N",
       "answer_text": "",
-      "marks": null,
+      "marks": 1,
       "has_markscheme": false,
       "source": {
         "paper_file": "Physics_paper_1A_TZ3_HL.pdf",
@@ -4555,18 +4415,18 @@
       ],
       "question_text": "A solid cylinder of mass m and radius r is released from rest on an inclined plane. The cylinder rolls \nwithout slipping. \nThe moment of inertia of the cylinder is 1\n2\n2\nmr . The speed when it reaches the bottom of the \ninclined plane is v.\nWhat is the vertical height from which the cylinder was released?\nA. \nv\ng\n2\nB. \n3\n4\n2\nv\ng\nC. \nv\ng\n2\n2\nD. \nv\ng\n2\n4\n\n– 5 –\n2225 – 6719\nTurn over",
       "answer_text": "",
-      "marks": null,
+      "marks": 1,
       "has_markscheme": false,
       "source": {
         "paper_file": "Physics_paper_1A_TZ3_HL.pdf",
         "markscheme_file": "Physics_paper_1A_TZ3_HL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/phys_m25_p1a_tz3_q7_hl_p1.png"
+        "images/questions/phys_m25_p1a_tz3_q7_hl.png"
       ],
       "markscheme_image_paths": [],
       "question_images": [
-        "images/questions/phys_m25_p1a_tz3_q7_hl_p1.png"
+        "images/questions/phys_m25_p1a_tz3_q7_hl.png"
       ],
       "markscheme_images": []
     },
@@ -4587,7 +4447,7 @@
       ],
       "question_text": "Two spheres, X and Y, are spinning with the same rotational kinetic energy. The moment of inertia \nof X is IX and that of Y is IY.\nWhat is angular momentum of X\nangular momentum of Y ?\nA. \nI\nI\nX\nY\nB. \nI\nI\nY\nX\nC. \nI\nI\nX\nY\nD. \nI\nI\nY\nX",
       "answer_text": "",
-      "marks": null,
+      "marks": 1,
       "has_markscheme": false,
       "source": {
         "paper_file": "Physics_paper_1A_TZ3_HL.pdf",
@@ -4619,7 +4479,7 @@
       ],
       "question_text": "A pendulum has a period of 3.0 s as measured in its inertial frame of reference. An observer is \nmoving with a speed of 0.80 c with respect to the pendulum’s frame. \nWhat is the period of the pendulum measured by the observer?\nA. \n8.3 s\nB. \n5.0 s\nC. \n1.8 s\nD. \n1.1 s",
       "answer_text": "",
-      "marks": null,
+      "marks": 1,
       "has_markscheme": false,
       "source": {
         "paper_file": "Physics_paper_1A_TZ3_HL.pdf",
@@ -4651,18 +4511,18 @@
       ],
       "question_text": "A liquid is heated at a constant rate in an open container. The temperature of the liquid rises by \n0.50 °C per second until it boils. In a period of 10 minutes after reaching boiling point, half the mass \nof the liquid has vaporized.\nWhat is \nspecific heat capacity of the liquid\nspecific latent heat of vaporization of the liquid ?\nA. \n1\n600\nB. \n1\n300\nC. \n1\n10\nD. \n1\n5\n\n– 6 –\n2225 – 6719",
       "answer_text": "",
-      "marks": null,
+      "marks": 1,
       "has_markscheme": false,
       "source": {
         "paper_file": "Physics_paper_1A_TZ3_HL.pdf",
         "markscheme_file": "Physics_paper_1A_TZ3_HL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/phys_m25_p1a_tz3_q10_hl_p1.png"
+        "images/questions/phys_m25_p1a_tz3_q10_hl.png"
       ],
       "markscheme_image_paths": [],
       "question_images": [
-        "images/questions/phys_m25_p1a_tz3_q10_hl_p1.png"
+        "images/questions/phys_m25_p1a_tz3_q10_hl.png"
       ],
       "markscheme_images": []
     },
@@ -4683,7 +4543,7 @@
       ],
       "question_text": "Star X has a surface temperature T, luminosity L and radius R.\nThe luminosity of star Y is 4L and the surface temperature is 2T.\nWhat is the radius of star Y?\nA. \nR\n2\nB. \nR\n2\nC. \n2R\nD. \n4R",
       "answer_text": "",
-      "marks": null,
+      "marks": 1,
       "has_markscheme": false,
       "source": {
         "paper_file": "Physics_paper_1A_TZ3_HL.pdf",
@@ -4715,18 +4575,18 @@
       ],
       "question_text": "The black-body radiation curves for two objects A and B are shown. \n10\n100 200\n300\n400\n500\nwavelength / nm\nintensity / arbitrary units\n600\n700 800\n20\n30\n40\n50\n60\n70\nA\nB\nWhat is temperature of A\ntemperature of B ?\nA. \n1\n3\nB. \n3\n4\nC. \n4\n3\nD. \n3\n\n– 7 –\n2225 – 6719\nTurn over",
       "answer_text": "",
-      "marks": null,
+      "marks": 1,
       "has_markscheme": false,
       "source": {
         "paper_file": "Physics_paper_1A_TZ3_HL.pdf",
         "markscheme_file": "Physics_paper_1A_TZ3_HL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/phys_m25_p1a_tz3_q12_hl_p1.png"
+        "images/questions/phys_m25_p1a_tz3_q12_hl.png"
       ],
       "markscheme_image_paths": [],
       "question_images": [
-        "images/questions/phys_m25_p1a_tz3_q12_hl_p1.png"
+        "images/questions/phys_m25_p1a_tz3_q12_hl.png"
       ],
       "markscheme_images": []
     },
@@ -4747,7 +4607,7 @@
       ],
       "question_text": "The albedo of a planet with no atmosphere is 0.25. The reflected intensity is 240 W m-2. \nWhat is the outgoing radiated intensity?\nA. \n180 W m-2\nB. \n300 W m-2\nC. \n720 W m-2\nD. \n960 W m-2",
       "answer_text": "",
-      "marks": null,
+      "marks": 1,
       "has_markscheme": false,
       "source": {
         "paper_file": "Physics_paper_1A_TZ3_HL.pdf",
@@ -4779,7 +4639,7 @@
       ],
       "question_text": "The graph shows the variation of the internal energy U with temperature T for a sample of an ideal \nmonatomic gas. R is the gas constant.\nU / J\nT / °C\n4500\n27\nHow many moles of the gas are in the sample? \nA. \n500\n3R\nB. \n15\nR\nC. \n1000\n9R\nD. \n10\nR",
       "answer_text": "",
-      "marks": null,
+      "marks": 1,
       "has_markscheme": false,
       "source": {
         "paper_file": "Physics_paper_1A_TZ3_HL.pdf",
@@ -4811,20 +4671,20 @@
       ],
       "question_text": "75 J of thermal energy is transferred to an ideal monatomic gas at a constant pressure of \n1.0 × 105 Pa. The volume of the gas increases from 2.7 × 10-3 m3 to 3.0 × 10-3 m3.\nWhat is the change in the internal energy of the gas?\nA. \n45 J\nB. \n105 J\nC. \n-45 J\nD. \n-105 J\n\n– 8 –\n2225 – 6719",
       "answer_text": "",
-      "marks": null,
+      "marks": 1,
       "has_markscheme": true,
       "source": {
         "paper_file": "Physics_paper_1A_TZ3_HL.pdf",
         "markscheme_file": "Physics_paper_1A_TZ3_HL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/phys_m25_p1a_tz3_q15_hl_p1.png"
+        "images/questions/phys_m25_p1a_tz3_q15_hl.png"
       ],
       "markscheme_image_paths": [
         "images/markschemes/phys_m25_p1a_tz3_q15_hl.png"
       ],
       "question_images": [
-        "images/questions/phys_m25_p1a_tz3_q15_hl_p1.png"
+        "images/questions/phys_m25_p1a_tz3_q15_hl.png"
       ],
       "markscheme_images": [
         "images/markschemes/phys_m25_p1a_tz3_q15_hl.png"
@@ -4847,7 +4707,7 @@
       ],
       "question_text": "A gas is compressed at constant temperature. \nWhat are the changes in entropy of the gas and its surroundings during the compression?\nEntropy of the gas\nEntropy of surroundings\nA.\nIncreases\nIncreases\nB.\nIncreases\nDecreases\nC.\nDecreases\nIncreases\nD.\nDecreases\nDecreases",
       "answer_text": "",
-      "marks": null,
+      "marks": 1,
       "has_markscheme": false,
       "source": {
         "paper_file": "Physics_paper_1A_TZ3_HL.pdf",
@@ -4879,18 +4739,18 @@
       ],
       "question_text": "Three identical resistors, R1, R2 and R3, each of resistance 2 Ω, are connected to a cell of negligible \ninternal resistance as shown. When switch S is open, the power dissipated by R1 is 18 W.\nS\nR1\nR3\nR2\nWhat is the power dissipated by R1 when S is closed?\nA. \n8 W\nB. \n16 W\nC. \n18 W\nD. \n36 W\n\n– 9 –\n2225 – 6719\nTurn over",
       "answer_text": "",
-      "marks": null,
+      "marks": 1,
       "has_markscheme": false,
       "source": {
         "paper_file": "Physics_paper_1A_TZ3_HL.pdf",
         "markscheme_file": "Physics_paper_1A_TZ3_HL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/phys_m25_p1a_tz3_q17_hl_p1.png"
+        "images/questions/phys_m25_p1a_tz3_q17_hl.png"
       ],
       "markscheme_image_paths": [],
       "question_images": [
-        "images/questions/phys_m25_p1a_tz3_q17_hl_p1.png"
+        "images/questions/phys_m25_p1a_tz3_q17_hl.png"
       ],
       "markscheme_images": []
     },
@@ -4911,7 +4771,7 @@
       ],
       "question_text": "Three identical resistors of 6 Ω are arranged as shown. \nX\nY\n6 Ω\n6 Ω\n6 Ω\nWhat is the resistance between X and Y?\nA. \n2 Ω\nB. \n4 Ω\nC. \n9 Ω\nD. \n18 Ω",
       "answer_text": "",
-      "marks": null,
+      "marks": 1,
       "has_markscheme": false,
       "source": {
         "paper_file": "Physics_paper_1A_TZ3_HL.pdf",
@@ -4943,7 +4803,7 @@
       ],
       "question_text": "A simple pendulum oscillates with period T on Earth. The mass of the pendulum is doubled and \noscillates on the Moon where the acceleration due to gravity is 1\n6 that of Earth. The length of the \npendulum stays the same.\nWhat is the period of the pendulum on the Moon? \nA. \n12 T\nB. \n6 T\nC. \n3 T\nD. \n2 T",
       "answer_text": "",
-      "marks": null,
+      "marks": 1,
       "has_markscheme": false,
       "source": {
         "paper_file": "Physics_paper_1A_TZ3_HL.pdf",
@@ -4975,18 +4835,18 @@
       ],
       "question_text": "A body of mass 2.0 kg undergoes simple harmonic motion with a maximum displacement of 0.5 m. \nThe period of oscillation of the body is π\n4  s.\nWhat is the total energy of the body?\nA. \n2 J\nB. \n8 J\nC. \n16 J\nD. \n32 J\n\n– 10 –\n2225 – 6719",
       "answer_text": "",
-      "marks": null,
+      "marks": 1,
       "has_markscheme": false,
       "source": {
         "paper_file": "Physics_paper_1A_TZ3_HL.pdf",
         "markscheme_file": "Physics_paper_1A_TZ3_HL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/phys_m25_p1a_tz3_q20_hl_p1.png"
+        "images/questions/phys_m25_p1a_tz3_q20_hl.png"
       ],
       "markscheme_image_paths": [],
       "question_images": [
-        "images/questions/phys_m25_p1a_tz3_q20_hl_p1.png"
+        "images/questions/phys_m25_p1a_tz3_q20_hl.png"
       ],
       "markscheme_images": []
     },
@@ -5007,7 +4867,7 @@
       ],
       "question_text": "The diagram below shows a snapshot of a transverse wave on a rope. Points P and Q are two \npoints on the rope at a position shown in the diagram. The subsequent motion of P is upwards.\nQ\nP\nWhat is the direction of motion of Q and the direction of travel of the wave?\nDirection of motion of Q\nDirection of travel of the wave\nA.\nUpwards\nLeft to right\nB.\nDownwards\nLeft to right\nC.\nUpwards\nRight to left\nD.\nDownwards\nRight to left",
       "answer_text": "",
-      "marks": null,
+      "marks": 1,
       "has_markscheme": false,
       "source": {
         "paper_file": "Physics_paper_1A_TZ3_HL.pdf",
@@ -5039,18 +4899,18 @@
       ],
       "question_text": "The diagram shows wavefronts of light incident on an air–glass boundary. \nThe angle between the incident wavefront and the normal, N, is θ. \nN\nair\nglass\nθ\nWhich of the following gives the correct expression for the refractive index of the glass, where r is \nthe angle of refraction?\nA. \nsin\nsin\nθ\nr\nB. \nsin\nsin\n90 \u001f\n\u001e\n\u001d\n\u001c\nr\nC. \nsin\nsin\nr\nθ\nD. \nsin\nsin\nr\n90 \u001f\n\u001e\n\u001d\n\u001c\n\n– 11 –\n2225 – 6719\nTurn over",
       "answer_text": "",
-      "marks": null,
+      "marks": 1,
       "has_markscheme": false,
       "source": {
         "paper_file": "Physics_paper_1A_TZ3_HL.pdf",
         "markscheme_file": "Physics_paper_1A_TZ3_HL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/phys_m25_p1a_tz3_q22_hl_p1.png"
+        "images/questions/phys_m25_p1a_tz3_q22_hl.png"
       ],
       "markscheme_image_paths": [],
       "question_images": [
-        "images/questions/phys_m25_p1a_tz3_q22_hl_p1.png"
+        "images/questions/phys_m25_p1a_tz3_q22_hl.png"
       ],
       "markscheme_images": []
     },
@@ -5071,7 +4931,7 @@
       ],
       "question_text": "S1 and S2 are two coherent sound sources with no phase difference. The wavelength of both \nwaves is 0.20 m. P is a point 6.0 m away from S1 and 6.5 m away from S2 respectively. At P the \namplitude of the wave from S1 is x0 and from S2 is 2 x0.\nWhat is the resultant amplitude at P?\nA. \n0\nB. \nx0\nC. \n2 x0\nD. \n3 x0",
       "answer_text": "",
-      "marks": null,
+      "marks": 1,
       "has_markscheme": false,
       "source": {
         "paper_file": "Physics_paper_1A_TZ3_HL.pdf",
@@ -5103,7 +4963,7 @@
       ],
       "question_text": "A parallel beam of monochromatic light of wavelength λ passes through a rectangular slit of width \nb and is incident on a screen at a distance x from the slit. \nWhat is the width of the central maximum of the diffraction pattern on the screen?\nA. \nλ\nb\nB. \n2λ\nb\nC. \nλx\nb\nD. \n2λx\nb",
       "answer_text": "",
-      "marks": null,
+      "marks": 1,
       "has_markscheme": false,
       "source": {
         "paper_file": "Physics_paper_1A_TZ3_HL.pdf",
@@ -5135,18 +4995,18 @@
       ],
       "question_text": "The frequency of the first harmonic for a pipe open at both ends is f. The length of the pipe is \n0.4 m. A second pipe, open at one end and closed at the other, produces a first harmonic of the \nsame frequency f. \nWhat is the length of the second pipe?\nA. \n0.1 m\nB. \n0.2 m\nC. \n0.4 m\nD. \n0.8 m\n\n– 12 –\n2225 – 6719",
       "answer_text": "",
-      "marks": null,
+      "marks": 1,
       "has_markscheme": false,
       "source": {
         "paper_file": "Physics_paper_1A_TZ3_HL.pdf",
         "markscheme_file": "Physics_paper_1A_TZ3_HL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/phys_m25_p1a_tz3_q25_hl_p1.png"
+        "images/questions/phys_m25_p1a_tz3_q25_hl.png"
       ],
       "markscheme_image_paths": [],
       "question_images": [
-        "images/questions/phys_m25_p1a_tz3_q25_hl_p1.png"
+        "images/questions/phys_m25_p1a_tz3_q25_hl.png"
       ],
       "markscheme_images": []
     },
@@ -5167,7 +5027,7 @@
       ],
       "question_text": "The relationship between the period of a planet’s orbit T and the distance to the Sun R can be \nexpressed as T n ∝ R m where n and m are constants. \nWhat is a possible pair of values for n and m?\nn\nm\nA.\n1.0\n3.0\nB.\n1.0\n1.5\nC.\n2.0\n1.5\nD.\n2.0\n1.0",
       "answer_text": "",
-      "marks": null,
+      "marks": 1,
       "has_markscheme": false,
       "source": {
         "paper_file": "Physics_paper_1A_TZ3_HL.pdf",
@@ -5199,7 +5059,7 @@
       ],
       "question_text": "Point X is at a distance d from the centre of Earth. d is larger than the radius of Earth. The \ngravitational field strength at X is gX. Point Y is at a distance 3d from the centre of Earth.\nWhat is the difference in the magnitude of gravitational field strengths between X and Y?\nA. \n8\n9\ngX\nB. \n3\n4\ngX\nC. \ngX\n4\nD. \ngX\n9",
       "answer_text": "",
-      "marks": null,
+      "marks": 1,
       "has_markscheme": false,
       "source": {
         "paper_file": "Physics_paper_1A_TZ3_HL.pdf",
@@ -5231,18 +5091,18 @@
       ],
       "question_text": "The work done per unit mass to move a body from infinity to a point P in a gravitational field is the\nA. \ngravitational field strength at P.\nB. \ngravitational force at P.\nC. \ngravitational potential energy at P.\nD. \ngravitational potential at P.\n\n– 13 –\n2225 – 6719\nTurn over",
       "answer_text": "",
-      "marks": null,
+      "marks": 1,
       "has_markscheme": false,
       "source": {
         "paper_file": "Physics_paper_1A_TZ3_HL.pdf",
         "markscheme_file": "Physics_paper_1A_TZ3_HL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/phys_m25_p1a_tz3_q28_hl_p1.png"
+        "images/questions/phys_m25_p1a_tz3_q28_hl.png"
       ],
       "markscheme_image_paths": [],
       "question_images": [
-        "images/questions/phys_m25_p1a_tz3_q28_hl_p1.png"
+        "images/questions/phys_m25_p1a_tz3_q28_hl.png"
       ],
       "markscheme_images": []
     },
@@ -5263,7 +5123,7 @@
       ],
       "question_text": "In a Millikan’s experiment, an oil drop is stationary between two parallel plates. A second oil drop of \nthe same density, between the same plates, has twice the charge and twice the radius of the first \noil drop. \nThe second oil drop will initially\nA. \nbe stationary.\nB. \nmove with constant velocity downwards.\nC. \naccelerate upwards.\nD. \naccelerate downwards.",
       "answer_text": "",
-      "marks": null,
+      "marks": 1,
       "has_markscheme": false,
       "source": {
         "paper_file": "Physics_paper_1A_TZ3_HL.pdf",
@@ -5295,18 +5155,18 @@
       ],
       "question_text": "Two isolated point charges, X of charge +Q and Y of charge +2Q, are separated by a distance 3d. \nP is a point d from X and 2d from Y respectively.\nX\nP\nY\nd\n2d\nWhat is the net electric field strength at P?\nA. \n0\nB. \nkQ\nd\n2\n2\nC. \n3\n4\n2\nkQ\nd\nD. \n3\n2\n2\nkQ\nd\n\n– 14 –\n2225 – 6719",
       "answer_text": "",
-      "marks": null,
+      "marks": 1,
       "has_markscheme": false,
       "source": {
         "paper_file": "Physics_paper_1A_TZ3_HL.pdf",
         "markscheme_file": "Physics_paper_1A_TZ3_HL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/phys_m25_p1a_tz3_q30_hl_p1.png"
+        "images/questions/phys_m25_p1a_tz3_q30_hl.png"
       ],
       "markscheme_image_paths": [],
       "question_images": [
-        "images/questions/phys_m25_p1a_tz3_q30_hl_p1.png"
+        "images/questions/phys_m25_p1a_tz3_q30_hl.png"
       ],
       "markscheme_images": []
     },
@@ -5327,7 +5187,7 @@
       ],
       "question_text": "Two isolated positive point charges Q1 and Q2 are equidistant from a third charge Q3 as shown. The \nforce on Q3 due to Q1 is F. The force on Q3 due to Q2 is 2F.\nQ1\nQ3\nQ2\nWhat is the resultant force on Q3?\nA. \nF\nB. \n3F\nC. \n5F\nD. \n3F",
       "answer_text": "",
-      "marks": null,
+      "marks": 1,
       "has_markscheme": false,
       "source": {
         "paper_file": "Physics_paper_1A_TZ3_HL.pdf",
@@ -5359,18 +5219,18 @@
       ],
       "question_text": "The energy levels of an atom in which an electron transitions from E1 to E4 are shown. E1 is the \nground state.\ndiagram to scale\nE3\nE2\nE1\nE5 E4\nHow many different wavelengths can be emitted when electrons return to the ground state \nfrom E4?\nA. \n1\nB. \n3\nC. \n6\nD. \n8\n\n– 15 –\n2225 – 6719\nTurn over",
       "answer_text": "",
-      "marks": null,
+      "marks": 1,
       "has_markscheme": false,
       "source": {
         "paper_file": "Physics_paper_1A_TZ3_HL.pdf",
         "markscheme_file": "Physics_paper_1A_TZ3_HL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/phys_m25_p1a_tz3_q32_hl_p1.png"
+        "images/questions/phys_m25_p1a_tz3_q32_hl.png"
       ],
       "markscheme_image_paths": [],
       "question_images": [
-        "images/questions/phys_m25_p1a_tz3_q32_hl_p1.png"
+        "images/questions/phys_m25_p1a_tz3_q32_hl.png"
       ],
       "markscheme_images": []
     },
@@ -5391,7 +5251,7 @@
       ],
       "question_text": "The nucleus of an element X has radius R and density ρ. \nThe nucleon number of an element Y is 8 times that of X. \nWhat is the radius and density of the nucleus of Y?\nRadius of nucleus of Y\nDensity of nucleus of Y\nA.\n8R\n8ρ\nB.\n2R\n8ρ\nC.\n8R\nρ\nD.\n2R\nρ",
       "answer_text": "",
-      "marks": null,
+      "marks": 1,
       "has_markscheme": false,
       "source": {
         "paper_file": "Physics_paper_1A_TZ3_HL.pdf",
@@ -5423,7 +5283,7 @@
       ],
       "question_text": "Which of the following expressions gives the de Broglie wavelength, in metres, of a tennis ball of \nmass 0.06 kg and kinetic energy 3 J?\nA. \nh\n3\nB. \nh\n0 6\n.\nC. \nh\n0 6\n2\n.\n\u001f\n\u001e\nD. \nh\n0 06\n.",
       "answer_text": "",
-      "marks": null,
+      "marks": 1,
       "has_markscheme": false,
       "source": {
         "paper_file": "Physics_paper_1A_TZ3_HL.pdf",
@@ -5455,18 +5315,18 @@
       ],
       "question_text": "Thorium-232 (\n90\n232Th) is an unstable nuclide. It decays by emitting an alpha particle followed by a \nbeta minus (β−) particle.\nWhat is the number of protons and neutrons in the final nuclide?\nNumber of protons\nNumber of neutrons\nA.\n87\n139\nB.\n87\n141\nC.\n89\n139\nD.\n89\n141\n\n– 16 –\n2225 – 6719",
       "answer_text": "",
-      "marks": null,
+      "marks": 1,
       "has_markscheme": false,
       "source": {
         "paper_file": "Physics_paper_1A_TZ3_HL.pdf",
         "markscheme_file": "Physics_paper_1A_TZ3_HL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/phys_m25_p1a_tz3_q35_hl_p1.png"
+        "images/questions/phys_m25_p1a_tz3_q35_hl.png"
       ],
       "markscheme_image_paths": [],
       "question_images": [
-        "images/questions/phys_m25_p1a_tz3_q35_hl_p1.png"
+        "images/questions/phys_m25_p1a_tz3_q35_hl.png"
       ],
       "markscheme_images": []
     },
@@ -5487,7 +5347,7 @@
       ],
       "question_text": "A pure sample of radon-222 decays into polonium with a half-life of 4 days. A measurement is \nmade of its radioactivity. The initial count rate is 420 counts per second. The measured background \ncount is 20 counts per second.\nWhat is the measured count rate after 8 days?\nA. \n85 \nB. \n100 \nC. \n105 \nD. \n120",
       "answer_text": "",
-      "marks": null,
+      "marks": 1,
       "has_markscheme": false,
       "source": {
         "paper_file": "Physics_paper_1A_TZ3_HL.pdf",
@@ -5519,7 +5379,7 @@
       ],
       "question_text": "Which component is responsible for slowing down neutrons in a nuclear reactor to increase the \nlikelihood of nuclear fission?\nA. \nModerator\nB. \nControl rods\nC. \nFuel rods\nD. \nHeat exchanger",
       "answer_text": "",
-      "marks": null,
+      "marks": 1,
       "has_markscheme": false,
       "source": {
         "paper_file": "Physics_paper_1A_TZ3_HL.pdf",
@@ -5551,18 +5411,18 @@
       ],
       "question_text": "Which of the following temperature and density conditions are necessary for fusion to occur in \na star? \nTemperature of the star\nDensity of the star\nA.\nHigh \nHigh\nB.\nHigh\nLow\nC.\nLow\nHigh \nD.\nLow\nLow\n\n– 17 –\n2225 – 6719",
       "answer_text": "",
-      "marks": null,
+      "marks": 1,
       "has_markscheme": false,
       "source": {
         "paper_file": "Physics_paper_1A_TZ3_HL.pdf",
         "markscheme_file": "Physics_paper_1A_TZ3_HL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/phys_m25_p1a_tz3_q38_hl_p1.png"
+        "images/questions/phys_m25_p1a_tz3_q38_hl.png"
       ],
       "markscheme_image_paths": [],
       "question_images": [
-        "images/questions/phys_m25_p1a_tz3_q38_hl_p1.png"
+        "images/questions/phys_m25_p1a_tz3_q38_hl.png"
       ],
       "markscheme_images": []
     },
@@ -5583,7 +5443,7 @@
       ],
       "question_text": "The HR diagram shows two stars, X and Y.\nsurface temperature\nluminosity \nX\nY\nThree statements are made about star X and star Y.\nI. \nStar X is hotter than star Y.\nII. \nStar X has a larger radius than star Y.\nIII. \nStar X is more luminous than star Y.\nWhich of the statements are correct?\nA. \nI and II only\nB. \nI and III only\nC. \nII and III only\nD. \nI, II and III",
       "answer_text": "",
-      "marks": null,
+      "marks": 1,
       "has_markscheme": false,
       "source": {
         "paper_file": "Physics_paper_1A_TZ3_HL.pdf",
@@ -5615,7 +5475,7 @@
       ],
       "question_text": "X is a star of luminosity L and apparent brightness b. Y is a star of luminosity L and apparent \nbrightness 2b.\nAs viewed from Earth, what is parallax angle subtended by X\nparallax angle subtended by Y ?\nA. \n1\n2\nB. \n1\n2\nC. \n2\nD. \n2\n\b",
       "answer_text": "",
-      "marks": null,
+      "marks": 1,
       "has_markscheme": false,
       "source": {
         "paper_file": "Physics_paper_1A_TZ3_HL.pdf",
@@ -5647,7 +5507,7 @@
       ],
       "question_text": "A car decelerates uniformly to rest. From an initial velocity v to a velocity v\n2 , it covers a distance d. \nHow much further does it travel before coming to rest?\nA. \nd\n4\nB. \nd\n3\nC. \nd\n2\nD. \nd",
       "answer_text": "",
-      "marks": null,
+      "marks": 1,
       "has_markscheme": false,
       "source": {
         "paper_file": "Physics_paper_1A_TZ3_SL.pdf",
@@ -5679,20 +5539,18 @@
       ],
       "question_text": "Two balls, P and Q, are projected from the edge of a cliff. P is projected horizontally at speed v and \nQ is projected vertically upwards at the same speed. The time taken for P to reach the ground is t P \nand the speed at impact with the ground is vP . Air resistance is negligible. \nWhat is the time taken to reach the ground and the speed at impact with the ground for Q?\nTime taken\nSpeed at impact\nA.\nt P\nvP\nB.\nt P\nGreater than vP\nC.\nGreater than t P\nvP\nD.\nGreater than t P\nGreater than vP",
       "answer_text": "",
-      "marks": null,
+      "marks": 1,
       "has_markscheme": false,
       "source": {
         "paper_file": "Physics_paper_1A_TZ3_SL.pdf",
         "markscheme_file": "Physics_paper_1A_TZ3_SL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/phys_m25_p1a_tz3_q2_sl_p1.png",
-        "images/questions/phys_m25_p1a_tz3_q2_sl_p2.png"
+        "images/questions/phys_m25_p1a_tz3_q2_sl.png"
       ],
       "markscheme_image_paths": [],
       "question_images": [
-        "images/questions/phys_m25_p1a_tz3_q2_sl_p1.png",
-        "images/questions/phys_m25_p1a_tz3_q2_sl_p2.png"
+        "images/questions/phys_m25_p1a_tz3_q2_sl.png"
       ],
       "markscheme_images": []
     },
@@ -5713,7 +5571,7 @@
       ],
       "question_text": "Two identical blocks, X and Y, each of mass 2.0 kg are connected by a string. They move on the \nsame surface. \nA force F accelerates the blocks at 0.5 m s-2. The frictional force on block X is 4.0 N.\nY\nX\nF\nWhat is the tension in the string?\nA. \n1 N\nB. \n2 N\nC. \n5 N\nD. \n10 N\n\n– 3 –\n2225 – 6722\nTurn over",
       "answer_text": "",
-      "marks": null,
+      "marks": 1,
       "has_markscheme": true,
       "source": {
         "paper_file": "Physics_paper_1A_TZ3_SL.pdf",
@@ -5751,7 +5609,7 @@
       ],
       "question_text": "A raindrop falls from rest through air with velocity v and acceleration a.\nWhich graph best represents the variation of a with v ?\nA.\na\nv\n0\n0\nB.\na\nv\n0\n0\nC.\na\nv\n0\n0\nD.\na\nv\n0\n0",
       "answer_text": "",
-      "marks": null,
+      "marks": 1,
       "has_markscheme": false,
       "source": {
         "paper_file": "Physics_paper_1A_TZ3_SL.pdf",
@@ -5783,18 +5641,18 @@
       ],
       "question_text": "A ball of mass m collides with a stationary ball of mass 3m. After colliding, the two balls \nmove together. \nWhat is the percentage loss in kinetic energy of the system?\nA. \n0 %\nB. \n25 %\nC. \n50 %\nD. \n75 %\n\n– 4 –\n2225 – 6722",
       "answer_text": "",
-      "marks": null,
+      "marks": 1,
       "has_markscheme": false,
       "source": {
         "paper_file": "Physics_paper_1A_TZ3_SL.pdf",
         "markscheme_file": "Physics_paper_1A_TZ3_SL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/phys_m25_p1a_tz3_q5_sl_p1.png"
+        "images/questions/phys_m25_p1a_tz3_q5_sl.png"
       ],
       "markscheme_image_paths": [],
       "question_images": [
-        "images/questions/phys_m25_p1a_tz3_q5_sl_p1.png"
+        "images/questions/phys_m25_p1a_tz3_q5_sl.png"
       ],
       "markscheme_images": []
     },
@@ -5815,7 +5673,7 @@
       ],
       "question_text": "A ball of mass 0.4 kg is attached to a string of length 0.8 m. The ball is rotated in a vertical circle \nsuch that the speed at the lowest position is 6.0 m s- 1.\n0.8 m\nWhat is the tension in the string when the ball is at the lowest position?\nA. \n4.0 N\nB. \n14 N\nC. \n18 N\nD. \n22 N",
       "answer_text": "",
-      "marks": null,
+      "marks": 1,
       "has_markscheme": false,
       "source": {
         "paper_file": "Physics_paper_1A_TZ3_SL.pdf",
@@ -5847,7 +5705,7 @@
       ],
       "question_text": "A liquid is heated at a constant rate in an open container. The temperature of the liquid rises by \n0.50 °C per second until it boils. In a period of 10 minutes after reaching boiling point, half the mass \nof the liquid has vaporized.\nWhat is \nspecific heat capacity of the liquid\nspecific latent heat of vaporization of the liquid ?\nA. \n1\n600\nB. \n1\n300\nC. \n1\n10\nD. \n1\n5\n\n– 5 –\n2225 – 6722\nTurn over",
       "answer_text": "",
-      "marks": null,
+      "marks": 1,
       "has_markscheme": false,
       "source": {
         "paper_file": "Physics_paper_1A_TZ3_SL.pdf",
@@ -5879,7 +5737,7 @@
       ],
       "question_text": "Star X has a surface temperature T, luminosity L and radius R.\nThe luminosity of star Y is 4L and the surface temperature is 2T.\nWhat is the radius of star Y?\nA. \nR\n2\nB. \nR\n2\nC. \n2R\nD. \n4R",
       "answer_text": "",
-      "marks": null,
+      "marks": 1,
       "has_markscheme": false,
       "source": {
         "paper_file": "Physics_paper_1A_TZ3_SL.pdf",
@@ -5911,20 +5769,18 @@
       ],
       "question_text": "A student makes three statements about Earth’s albedo.\nI. \nIt varies daily.\nII. \nIt depends on latitude.\nIII. \nIt depends on cloud formation.\nWhich of the statements are correct?\nA. \nI and II only\nB. \nI and III only\nC. \nII and III only\nD. \nI, II and III\n\n– 6 –\n2225 – 6722",
       "answer_text": "",
-      "marks": null,
+      "marks": 1,
       "has_markscheme": false,
       "source": {
         "paper_file": "Physics_paper_1A_TZ3_SL.pdf",
         "markscheme_file": "Physics_paper_1A_TZ3_SL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/phys_m25_p1a_tz3_q9_sl_p1.png",
-        "images/questions/phys_m25_p1a_tz3_q9_sl_p2.png"
+        "images/questions/phys_m25_p1a_tz3_q9_sl.png"
       ],
       "markscheme_image_paths": [],
       "question_images": [
-        "images/questions/phys_m25_p1a_tz3_q9_sl_p1.png",
-        "images/questions/phys_m25_p1a_tz3_q9_sl_p2.png"
+        "images/questions/phys_m25_p1a_tz3_q9_sl.png"
       ],
       "markscheme_images": []
     },
@@ -5945,18 +5801,18 @@
       ],
       "question_text": "The graph shows the variation of the internal energy U with temperature T for a sample of an ideal \nmonatomic gas. R is the gas constant.\nU / J\nT / °C\n4500\n27\nHow many moles of the gas are in the sample? \nA. \n500\n3R\nB. \n15\nR\nC. \n1000\n9R\nD. \n10\nR",
       "answer_text": "",
-      "marks": null,
+      "marks": 1,
       "has_markscheme": false,
       "source": {
         "paper_file": "Physics_paper_1A_TZ3_SL.pdf",
         "markscheme_file": "Physics_paper_1A_TZ3_SL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/phys_m25_p1a_tz3_q10_sl_p1.png"
+        "images/questions/phys_m25_p1a_tz3_q10_sl.png"
       ],
       "markscheme_image_paths": [],
       "question_images": [
-        "images/questions/phys_m25_p1a_tz3_q10_sl_p1.png"
+        "images/questions/phys_m25_p1a_tz3_q10_sl.png"
       ],
       "markscheme_images": []
     },
@@ -5977,18 +5833,18 @@
       ],
       "question_text": "Three identical resistors, R1, R2 and R3, each of resistance 2 Ω, are connected to a cell of negligible \ninternal resistance as shown. When switch S is open, the power dissipated by R1 is 18 W.\nS\nR1\nR3\nR2\nWhat is the power dissipated by R1 when S is closed?\nA. \n8 W\nB. \n16 W\nC. \n18 W\nD. \n36 W\n\n– 7 –\n2225 – 6722\nTurn over",
       "answer_text": "",
-      "marks": null,
+      "marks": 1,
       "has_markscheme": false,
       "source": {
         "paper_file": "Physics_paper_1A_TZ3_SL.pdf",
         "markscheme_file": "Physics_paper_1A_TZ3_SL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/phys_m25_p1a_tz3_q11_sl_p1.png"
+        "images/questions/phys_m25_p1a_tz3_q11_sl.png"
       ],
       "markscheme_image_paths": [],
       "question_images": [
-        "images/questions/phys_m25_p1a_tz3_q11_sl_p1.png"
+        "images/questions/phys_m25_p1a_tz3_q11_sl.png"
       ],
       "markscheme_images": []
     },
@@ -6009,7 +5865,7 @@
       ],
       "question_text": "Three identical resistors of 6 Ω are arranged as shown. \nX\nY\n6 Ω\n6 Ω\n6 Ω\nWhat is the resistance between X and Y?\nA. \n2 Ω\nB. \n4 Ω\nC. \n9 Ω\nD. \n18 Ω",
       "answer_text": "",
-      "marks": null,
+      "marks": 1,
       "has_markscheme": false,
       "source": {
         "paper_file": "Physics_paper_1A_TZ3_SL.pdf",
@@ -6041,7 +5897,7 @@
       ],
       "question_text": "A simple pendulum oscillates with period T on Earth. The mass of the pendulum is doubled and \noscillates on the Moon where the acceleration due to gravity is 1\n6 that of Earth. The length of the \npendulum stays the same.\nWhat is the period of the pendulum on the Moon? \nA. \n12 T\nB. \n6 T\nC. \n3 T\nD. \n2 T",
       "answer_text": "",
-      "marks": null,
+      "marks": 1,
       "has_markscheme": false,
       "source": {
         "paper_file": "Physics_paper_1A_TZ3_SL.pdf",
@@ -6073,20 +5929,18 @@
       ],
       "question_text": "The diagram below shows a snapshot of a transverse wave on a rope. Points P and Q are two \npoints on the rope at a position shown in the diagram. The subsequent motion of P is upwards.\nQ\nP\nWhat is the direction of motion of Q and the direction of travel of the wave?\nDirection of motion of Q\nDirection of travel of the wave\nA.\nUpwards\nLeft to right\nB.\nDownwards\nLeft to right\nC.\nUpwards\nRight to left\nD.\nDownwards\nRight to left\n\n– 8 –\n2225 – 6722",
       "answer_text": "",
-      "marks": null,
+      "marks": 1,
       "has_markscheme": false,
       "source": {
         "paper_file": "Physics_paper_1A_TZ3_SL.pdf",
         "markscheme_file": "Physics_paper_1A_TZ3_SL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/phys_m25_p1a_tz3_q14_sl_p1.png",
-        "images/questions/phys_m25_p1a_tz3_q14_sl_p2.png"
+        "images/questions/phys_m25_p1a_tz3_q14_sl.png"
       ],
       "markscheme_image_paths": [],
       "question_images": [
-        "images/questions/phys_m25_p1a_tz3_q14_sl_p1.png",
-        "images/questions/phys_m25_p1a_tz3_q14_sl_p2.png"
+        "images/questions/phys_m25_p1a_tz3_q14_sl.png"
       ],
       "markscheme_images": []
     },
@@ -6107,7 +5961,7 @@
       ],
       "question_text": "The diagram shows wavefronts of light incident on an air–glass boundary. \nThe angle between the incident wavefront and the normal, N, is θ. \nN\nair\nglass\nθ\nWhich of the following gives the correct expression for the refractive index of the glass, where r is \nthe angle of refraction?\nA. \nsin\nsin\nθ\nr\nB. \nsin\nsin\n90 \u001f\n\u001e\n\u001d\n\u001c\nr\nC. \nsin\nsin\nr\nθ\nD. \nsin\nsin\nr\n90",
       "answer_text": "",
-      "marks": null,
+      "marks": 1,
       "has_markscheme": true,
       "source": {
         "paper_file": "Physics_paper_1A_TZ3_SL.pdf",
@@ -6143,18 +5997,18 @@
       ],
       "question_text": "S1 and S2 are two coherent sound sources with no phase difference. The wavelength of both \nwaves is 0.20 m. P is a point 6.0 m away from S1 and 6.5 m away from S2 respectively. At P the \namplitude of the wave from S1 is x0 and from S2 is 2 x0.\nWhat is the resultant amplitude at P?\nA. \n0\nB. \nx0\nC. \n2 x0\nD. \n3 x0\n\n– 9 –\n2225 – 6722\nTurn over",
       "answer_text": "",
-      "marks": null,
+      "marks": 1,
       "has_markscheme": false,
       "source": {
         "paper_file": "Physics_paper_1A_TZ3_SL.pdf",
         "markscheme_file": "Physics_paper_1A_TZ3_SL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/phys_m25_p1a_tz3_q16_sl_p1.png"
+        "images/questions/phys_m25_p1a_tz3_q16_sl.png"
       ],
       "markscheme_image_paths": [],
       "question_images": [
-        "images/questions/phys_m25_p1a_tz3_q16_sl_p1.png"
+        "images/questions/phys_m25_p1a_tz3_q16_sl.png"
       ],
       "markscheme_images": []
     },
@@ -6175,7 +6029,7 @@
       ],
       "question_text": "The relationship between the period of a planet’s orbit T and the distance to the Sun R can be \nexpressed as T n ∝ R m where n and m are constants. \nWhat is a possible pair of values for n and m?\nn\nm\nA.\n1.0\n3.0\nB.\n1.0\n1.5\nC.\n2.0\n1.5\nD.\n2.0\n1.0",
       "answer_text": "",
-      "marks": null,
+      "marks": 1,
       "has_markscheme": false,
       "source": {
         "paper_file": "Physics_paper_1A_TZ3_SL.pdf",
@@ -6207,7 +6061,7 @@
       ],
       "question_text": "Point X is at a distance d from the centre of Earth. d is larger than the radius of Earth. The \ngravitational field strength at X is gX. Point Y is at a distance 3d from the centre of Earth.\nWhat is the difference in the magnitude of gravitational field strengths between X and Y?\nA. \n8\n9\ngX\nB. \n3\n4\ngX\nC. \ngX\n4\nD. \ngX\n9",
       "answer_text": "",
-      "marks": null,
+      "marks": 1,
       "has_markscheme": false,
       "source": {
         "paper_file": "Physics_paper_1A_TZ3_SL.pdf",
@@ -6239,18 +6093,18 @@
       ],
       "question_text": "Two isolated identical point charges, Q1 and Q2, are separated by distance d. The electrostatic \nforce on each charge is F. The charge of Q1 is halved. \nWhat is the electrostatic force on each charge?\nForce on Q1\nForce on Q2\nA.\nF\nF\nB.\nF\nF\n2\nC.\nF\n2\nF\n2\nD.\nF\n2\nF\n\n– 10 –\n2225 – 6722",
       "answer_text": "",
-      "marks": null,
+      "marks": 1,
       "has_markscheme": false,
       "source": {
         "paper_file": "Physics_paper_1A_TZ3_SL.pdf",
         "markscheme_file": "Physics_paper_1A_TZ3_SL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/phys_m25_p1a_tz3_q19_sl_p1.png"
+        "images/questions/phys_m25_p1a_tz3_q19_sl.png"
       ],
       "markscheme_image_paths": [],
       "question_images": [
-        "images/questions/phys_m25_p1a_tz3_q19_sl_p1.png"
+        "images/questions/phys_m25_p1a_tz3_q19_sl.png"
       ],
       "markscheme_images": []
     },
@@ -6271,7 +6125,7 @@
       ],
       "question_text": "Two isolated point charges, X of charge +Q and Y of charge +2Q, are separated by a distance 3d. \nP is a point d from X and 2d from Y respectively.\nX\nP\nY\nd\n2d\nWhat is the net electric field strength at P?\nA. \n0\nB. \nkQ\nd\n2\n2\nC. \n3\n4\n2\nkQ\nd\nD. \n3\n2\n2\nkQ\nd",
       "answer_text": "",
-      "marks": null,
+      "marks": 1,
       "has_markscheme": false,
       "source": {
         "paper_file": "Physics_paper_1A_TZ3_SL.pdf",
@@ -6303,18 +6157,18 @@
       ],
       "question_text": "The energy levels of an atom in which an electron transitions from E1 to E4 are shown. E1 is the \nground state.\ndiagram to scale\nE3\nE2\nE1\nE5 E4\nHow many different wavelengths can be emitted when electrons return to the ground state \nfrom E4?\nA. \n1\nB. \n3\nC. \n6\nD. \n8\n\n– 11 –\n2225 – 6722\nTurn over",
       "answer_text": "",
-      "marks": null,
+      "marks": 1,
       "has_markscheme": false,
       "source": {
         "paper_file": "Physics_paper_1A_TZ3_SL.pdf",
         "markscheme_file": "Physics_paper_1A_TZ3_SL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/phys_m25_p1a_tz3_q21_sl_p1.png"
+        "images/questions/phys_m25_p1a_tz3_q21_sl.png"
       ],
       "markscheme_image_paths": [],
       "question_images": [
-        "images/questions/phys_m25_p1a_tz3_q21_sl_p1.png"
+        "images/questions/phys_m25_p1a_tz3_q21_sl.png"
       ],
       "markscheme_images": []
     },
@@ -6335,7 +6189,7 @@
       ],
       "question_text": "Thorium-232 (\n90\n232Th) is an unstable nuclide. It decays by emitting an alpha particle followed by a \nbeta minus (β−) particle.\nWhat is the number of protons and neutrons in the final nuclide?\nNumber of protons\nNumber of neutrons\nA.\n87\n139\nB.\n87\n141\nC.\n89\n139\nD.\n89\n141",
       "answer_text": "",
-      "marks": null,
+      "marks": 1,
       "has_markscheme": false,
       "source": {
         "paper_file": "Physics_paper_1A_TZ3_SL.pdf",
@@ -6367,7 +6221,7 @@
       ],
       "question_text": "A pure sample of radon-222 decays into polonium with a half-life of 4 days. A measurement is \nmade of its radioactivity. The initial count rate is 420 counts per second. The measured background \ncount is 20 counts per second.\nWhat is the measured count rate after 8 days?\nA. \n85 \nB. \n100 \nC. \n105 \nD. \n120",
       "answer_text": "",
-      "marks": null,
+      "marks": 1,
       "has_markscheme": false,
       "source": {
         "paper_file": "Physics_paper_1A_TZ3_SL.pdf",
@@ -6399,18 +6253,18 @@
       ],
       "question_text": "Which component is responsible for slowing down neutrons in a nuclear reactor to increase the \nlikelihood of nuclear fission?\nA. \nModerator\nB. \nControl rods\nC. \nFuel rods\nD. \nHeat exchanger\n\n– 12 –\n2225 – 6722",
       "answer_text": "",
-      "marks": null,
+      "marks": 1,
       "has_markscheme": false,
       "source": {
         "paper_file": "Physics_paper_1A_TZ3_SL.pdf",
         "markscheme_file": "Physics_paper_1A_TZ3_SL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/phys_m25_p1a_tz3_q24_sl_p1.png"
+        "images/questions/phys_m25_p1a_tz3_q24_sl.png"
       ],
       "markscheme_image_paths": [],
       "question_images": [
-        "images/questions/phys_m25_p1a_tz3_q24_sl_p1.png"
+        "images/questions/phys_m25_p1a_tz3_q24_sl.png"
       ],
       "markscheme_images": []
     },
@@ -6431,7 +6285,7 @@
       ],
       "question_text": "The HR diagram shows two stars, X and Y.\nsurface temperature\nluminosity \nX\nY\nThree statements are made about star X and star Y.\nI. \nStar X is hotter than star Y.\nII. \nStar X has a larger radius than star Y.\nIII. \nStar X is more luminous than star Y.\nWhich of the statements are correct?\nA. \nI and II only\nB. \nI and III only\nC. \nII and III only\nD. \nI, II and III\n\b",
       "answer_text": "",
-      "marks": null,
+      "marks": 1,
       "has_markscheme": false,
       "source": {
         "paper_file": "Physics_paper_1A_TZ3_SL.pdf",
@@ -6443,38 +6297,6 @@
       "markscheme_image_paths": [],
       "question_images": [
         "images/questions/phys_m25_p1a_tz3_q25_sl.png"
-      ],
-      "markscheme_images": []
-    },
-    {
-      "id": "phys_m25_p1a_tz3_q27_sl",
-      "paper": "May 2025 Physics Paper 1A TZ3 SL",
-      "session": "May",
-      "session_code": "m25",
-      "paper_type": "Paper 1A",
-      "level": "SL",
-      "question_number": "27",
-      "title": "Q27",
-      "topic": "Unsorted",
-      "subtopic": "Unsorted",
-      "topic_confidence": 0.0,
-      "topic_reason": [
-        "physics keyword scorer v2"
-      ],
-      "question_text": "",
-      "answer_text": "",
-      "marks": null,
-      "has_markscheme": false,
-      "source": {
-        "paper_file": "Physics_paper_1A_TZ3_SL.pdf",
-        "markscheme_file": "Physics_paper_1A_TZ3_SL_markscheme.pdf"
-      },
-      "question_image_paths": [
-        "images/questions/phys_m25_p1a_tz3_q27_sl.png"
-      ],
-      "markscheme_image_paths": [],
-      "question_images": [
-        "images/questions/phys_m25_p1a_tz3_q27_sl.png"
       ],
       "markscheme_images": []
     },
