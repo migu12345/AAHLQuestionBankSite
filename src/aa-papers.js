@@ -36,12 +36,17 @@ function parsePaperLabel(paperLabel) {
 }
 
 async function loadData() {
-  const res = await fetch("/data/processed/questions.json");
+  const [res, manualRes] = await Promise.all([
+    fetch("/data/processed/questions.json"),
+    fetch("/data/processed/manual_papers.json").catch(() => null),
+  ]);
   if (!res.ok) {
     throw new Error(`HTTP ${res.status}`);
   }
   const payload = await res.json();
   const questions = Array.isArray(payload.questions) ? payload.questions : [];
+  const manualPayload = manualRes && manualRes.ok ? await manualRes.json() : { papers: [] };
+  const manualPapers = Array.isArray(manualPayload.papers) ? manualPayload.papers : [];
 
   const byPaper = new Map();
   questions.forEach((q) => {
@@ -54,6 +59,24 @@ async function loadData() {
     if (!byPaper.has(key)) {
       byPaper.set(key, parsed);
     }
+  });
+
+  manualPapers.forEach((paper) => {
+    const label = String(paper.paperLabel || "").trim();
+    if (!label) {
+      return;
+    }
+    byPaper.set(label, {
+      session: paper.session,
+      year: Number(paper.year),
+      paperNo: Number(paper.paperNo),
+      timezone: paper.timezone || "No TZ",
+      level: String(paper.level || "").toUpperCase(),
+      paperLabel: label,
+      paperFile: paper.paper_file || "",
+      hasMarkscheme: paper.has_markscheme !== false,
+      isManual: true,
+    });
   });
 
   state.papers = [...byPaper.values()].sort((a, b) => {
@@ -146,7 +169,14 @@ function refreshTimezoneOptions() {
 }
 
 function openPaper(paper) {
-  window.location.href = `aa-bank.html?${buildBaseParams(paper).toString()}`;
+  const params = buildBaseParams(paper);
+  if (paper.isManual && paper.paperFile) {
+    params.set("sourcePaper", paper.paperFile);
+    if (paper.hasMarkscheme === false) {
+      params.set("noMs", "1");
+    }
+  }
+  window.location.href = `aa-bank.html?${params.toString()}`;
 }
 
 function getExamDurationMinutes(level, paperNo) {
@@ -183,6 +213,12 @@ function buildBaseParams(paper) {
 function openPaperInExamMode(paper) {
   const duration = getExamDurationMinutes(paper.level, paper.paperNo);
   const params = buildBaseParams(paper);
+  if (paper.isManual && paper.paperFile) {
+    params.set("sourcePaper", paper.paperFile);
+    if (paper.hasMarkscheme === false) {
+      params.set("noMs", "1");
+    }
+  }
   if (duration) {
     params.set("exam", "1");
     params.set("durationMin", String(duration));
@@ -239,6 +275,12 @@ function renderPaperButtons() {
     } else {
       examBtn.textContent = "Exam mode unavailable";
       examBtn.disabled = true;
+    }
+    if (paper.hasMarkscheme === false) {
+      const note = document.createElement("p");
+      note.className = "paper-open-note";
+      note.textContent = "No markscheme available";
+      wrapper.appendChild(note);
     }
 
     actions.appendChild(openBtn);

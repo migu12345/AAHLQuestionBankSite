@@ -236,6 +236,13 @@ body {
   color: #3f4f68;
 }
 
+.paper-open-note {
+  margin: 0;
+  font-size: 0.82rem;
+  color: #7a4b0f;
+  font-weight: 600;
+}
+
 .paper-open-actions {
   display: flex;
   gap: 0.5rem;
@@ -322,6 +329,19 @@ body {
   min-width: 2rem;
   padding: 0.2rem 0.45rem;
   border-radius: 8px;
+}
+
+.formula-launcher-btn {
+  position: fixed;
+  right: 1rem;
+  bottom: 1rem;
+  z-index: 239;
+  min-height: 2.15rem;
+  border-radius: 999px;
+  padding: 0.38rem 0.8rem;
+  background: #e3f2ec;
+  border: 1px solid #bedccf;
+  color: #163024;
 }
 
 .formula-widget-body {
@@ -465,6 +485,16 @@ button:hover {
   font-size: 0.83rem;
   font-weight: 600;
   line-height: 1.4;
+}
+
+.paper-only-card .hero-link {
+  margin-top: 0.5rem;
+}
+
+.paper-only-note {
+  margin: 0.35rem 0 0;
+  color: #7a4b0f;
+  font-weight: 600;
 }
 
 .question-card .title {

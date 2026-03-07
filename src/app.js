@@ -4,6 +4,8 @@ const state = {
   filteredQuestions: [],
   visibleCount: 0,
   paperBundle: null,
+  paperSourceFile: "",
+  paperNoMarkscheme: false,
   examMode: {
     enabled: false,
     durationSeconds: 0,
@@ -292,6 +294,13 @@ function buildQuestionNode(q) {
 
   const marks = Number.isFinite(q.marks) ? `${q.marks} marks` : "marks n/a";
   node.querySelector(".meta").textContent = `${q.paper || "Unknown paper"} | ${q.topic || "Unsorted"} | ${q.subtopic || "Unsorted"} | ${marks}`;
+  const hasMarkscheme = q.has_markscheme !== false;
+  if (!hasMarkscheme && tagsEl) {
+    const badge = document.createElement("span");
+    badge.className = "difficulty-tag difficulty-medium";
+    badge.textContent = "No markscheme";
+    tagsEl.appendChild(badge);
+  }
 
   const qImages = Array.isArray(q.question_image_paths) ? q.question_image_paths : [];
   const msImages = Array.isArray(q.markscheme_image_paths) ? q.markscheme_image_paths : [];
@@ -503,7 +512,23 @@ function renderQuestions(reset = true) {
 
     if (state.filteredQuestions.length === 0) {
       resultCount.textContent = "0 question(s)";
-      questionList.innerHTML = "<p>No matches yet.</p>";
+      if (state.paperBundle && state.paperSourceFile) {
+        const paperUrl = `/data/raw/papers/${encodeURIComponent(state.paperSourceFile)}`;
+        const msNote = state.paperNoMarkscheme
+          ? '<p class="paper-only-note">No markscheme available for this paper yet.</p>'
+          : "";
+        questionList.innerHTML = `
+          <article class="question-card paper-only-card">
+            <h3 class="title">Paper available as PDF</h3>
+            <p class="meta">${state.paperBundle.session} ${state.paperBundle.year} Paper ${state.paperBundle.paperNo} ${state.paperBundle.timezone} ${state.paperBundle.level}</p>
+            ${msNote}
+            <p class="question">This paper is currently scan-only, so it has not been split into individual questions yet.</p>
+            <a class="hero-link" href="${paperUrl}" target="_blank" rel="noopener noreferrer">Open Paper PDF</a>
+          </article>
+        `;
+      } else {
+        questionList.innerHTML = "<p>No matches yet.</p>";
+      }
       loadMoreWrap.style.display = "none";
       return;
     }
@@ -606,14 +631,8 @@ function applyInitialQueryFilters() {
   const search = params.get("search");
   const exam = params.get("exam");
   const durationMin = params.get("durationMin");
-
-  if (exam === "1" && durationMin) {
-    const mins = Number(durationMin);
-    if (Number.isFinite(mins) && mins > 0) {
-      state.examMode.enabled = true;
-      state.examMode.durationSeconds = Math.round(mins * 60);
-    }
-  }
+  const sourcePaper = params.get("sourcePaper");
+  const noMs = params.get("noMs");
 
   if (bundle === "1" && level && year && session && tz && paperNo) {
     state.paperBundle = {
@@ -623,12 +642,22 @@ function applyInitialQueryFilters() {
       timezone: tz,
       paperNo: Number(paperNo),
     };
+    state.paperSourceFile = sourcePaper || "";
+    state.paperNoMarkscheme = noMs === "1";
     if ([...levelFilter.options].some((o) => o.value === level)) {
       levelFilter.value = level;
     }
     const pType = `Paper ${paperNo}`;
     if ([...paperTypeFilter.options].some((o) => o.value === pType)) {
       paperTypeFilter.value = pType;
+    }
+    // Exam mode is only allowed from the AA Papers flow (bundle mode).
+    if (exam === "1" && durationMin) {
+      const mins = Number(durationMin);
+      if (Number.isFinite(mins) && mins > 0) {
+        state.examMode.enabled = true;
+        state.examMode.durationSeconds = Math.round(mins * 60);
+      }
     }
     return;
   }

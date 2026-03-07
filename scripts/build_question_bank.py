@@ -781,16 +781,17 @@ def build() -> Dict[str, object]:
     for paper_path in papers:
         key = pair_key(paper_path.name)
         ms_path = ms_map.get(key)
-        if not ms_path:
-            continue
 
         meta = parse_meta(paper_path)
         q_map = parse_questions_from_paper(paper_path)
-        a_map = parse_answers_from_markscheme(ms_path)
+        a_map = parse_answers_from_markscheme(ms_path) if ms_path else {}
 
         for qn in sorted(q_map.keys()):
             q = q_map[qn]
-            ans = a_map.get(qn, "Markscheme content not extracted for this question.")
+            if ms_path:
+                ans = a_map.get(qn, "Markscheme content not extracted for this question.")
+            else:
+                ans = "No markscheme available for this paper yet."
             topic, subtopic, confidence, reasons = classify_topic(str(q["question_text"]), ans)
 
             tz_part = f"_tz{meta.tz}" if meta.tz is not None else ""
@@ -813,9 +814,10 @@ def build() -> Dict[str, object]:
                     "question_text": q["question_text"],
                     "answer_text": ans,
                     "marks": q["marks"],
+                    "has_markscheme": bool(ms_path),
                     "source": {
                         "paper_file": paper_path.name,
-                        "markscheme_file": ms_path.name,
+                        "markscheme_file": ms_path.name if ms_path else None,
                     },
                 }
             )
