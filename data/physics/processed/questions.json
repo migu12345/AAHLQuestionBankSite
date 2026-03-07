@@ -8137,7 +8137,10 @@
         "markscheme_file": "Physics_paper_2_TZ1_HL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/phys_m25_p2_tz1_q9_hl.png"
+        "images/questions/phys_m25_p2_tz1_q9_hl_p1.png",
+        "images/questions/phys_m25_p2_tz1_q9_hl_p2.png",
+        "images/questions/phys_m25_p2_tz1_q9_hl_p3.png",
+        "images/questions/phys_m25_p2_tz1_q9_hl_p4.png"
       ],
       "markscheme_image_paths": [
         "images/markschemes/phys_m25_p2_tz1_q9_hl_p1.png",
@@ -8147,7 +8150,10 @@
         "images/markschemes/phys_m25_p2_tz1_q9_hl_p5.png"
       ],
       "question_images": [
-        "images/questions/phys_m25_p2_tz1_q9_hl.png"
+        "images/questions/phys_m25_p2_tz1_q9_hl_p1.png",
+        "images/questions/phys_m25_p2_tz1_q9_hl_p2.png",
+        "images/questions/phys_m25_p2_tz1_q9_hl_p3.png",
+        "images/questions/phys_m25_p2_tz1_q9_hl_p4.png"
       ],
       "markscheme_images": [
         "images/markschemes/phys_m25_p2_tz1_q9_hl_p1.png",
@@ -8155,72 +8161,6 @@
         "images/markschemes/phys_m25_p2_tz1_q9_hl_p3.png",
         "images/markschemes/phys_m25_p2_tz1_q9_hl_p4.png",
         "images/markschemes/phys_m25_p2_tz1_q9_hl_p5.png"
-      ]
-    },
-    {
-      "id": "phys_m25_p2_tz1_q30_hl",
-      "paper": "May 2025 Physics Paper 2 TZ1 HL",
-      "session": "May",
-      "session_code": "m25",
-      "paper_type": "Paper 2",
-      "level": "HL",
-      "question_number": "30",
-      "title": "Q30",
-      "topic": "Unsorted",
-      "subtopic": "Unsorted",
-      "topic_confidence": 0.0,
-      "topic_reason": [
-        "physics keyword scorer v2"
-      ],
-      "question_text": "",
-      "answer_text": "",
-      "marks": null,
-      "has_markscheme": true,
-      "source": {
-        "paper_file": "Physics_paper_2_TZ1_HL.pdf",
-        "markscheme_file": "Physics_paper_2_TZ1_HL_markscheme.pdf"
-      },
-      "question_image_paths": [
-        "images/questions/phys_m25_p2_tz1_q30_hl_p1.png",
-        "images/questions/phys_m25_p2_tz1_q30_hl_p2.png",
-        "images/questions/phys_m25_p2_tz1_q30_hl_p3.png",
-        "images/questions/phys_m25_p2_tz1_q30_hl_p4.png"
-      ],
-      "markscheme_image_paths": [
-        "images/markschemes/shared/Physics_paper_2_TZ1_HL_markscheme_p4.png",
-        "images/markschemes/shared/Physics_paper_2_TZ1_HL_markscheme_p5.png",
-        "images/markschemes/shared/Physics_paper_2_TZ1_HL_markscheme_p6.png",
-        "images/markschemes/shared/Physics_paper_2_TZ1_HL_markscheme_p8.png",
-        "images/markschemes/shared/Physics_paper_2_TZ1_HL_markscheme_p9.png",
-        "images/markschemes/shared/Physics_paper_2_TZ1_HL_markscheme_p11.png",
-        "images/markschemes/shared/Physics_paper_2_TZ1_HL_markscheme_p13.png",
-        "images/markschemes/shared/Physics_paper_2_TZ1_HL_markscheme_p15.png",
-        "images/markschemes/shared/Physics_paper_2_TZ1_HL_markscheme_p17.png",
-        "images/markschemes/shared/Physics_paper_2_TZ1_HL_markscheme_p19.png",
-        "images/markschemes/shared/Physics_paper_2_TZ1_HL_markscheme_p20.png",
-        "images/markschemes/shared/Physics_paper_2_TZ1_HL_markscheme_p22.png",
-        "images/markschemes/shared/Physics_paper_2_TZ1_HL_markscheme_p23.png"
-      ],
-      "question_images": [
-        "images/questions/phys_m25_p2_tz1_q30_hl_p1.png",
-        "images/questions/phys_m25_p2_tz1_q30_hl_p2.png",
-        "images/questions/phys_m25_p2_tz1_q30_hl_p3.png",
-        "images/questions/phys_m25_p2_tz1_q30_hl_p4.png"
-      ],
-      "markscheme_images": [
-        "images/markschemes/shared/Physics_paper_2_TZ1_HL_markscheme_p4.png",
-        "images/markschemes/shared/Physics_paper_2_TZ1_HL_markscheme_p5.png",
-        "images/markschemes/shared/Physics_paper_2_TZ1_HL_markscheme_p6.png",
-        "images/markschemes/shared/Physics_paper_2_TZ1_HL_markscheme_p8.png",
-        "images/markschemes/shared/Physics_paper_2_TZ1_HL_markscheme_p9.png",
-        "images/markschemes/shared/Physics_paper_2_TZ1_HL_markscheme_p11.png",
-        "images/markschemes/shared/Physics_paper_2_TZ1_HL_markscheme_p13.png",
-        "images/markschemes/shared/Physics_paper_2_TZ1_HL_markscheme_p15.png",
-        "images/markschemes/shared/Physics_paper_2_TZ1_HL_markscheme_p17.png",
-        "images/markschemes/shared/Physics_paper_2_TZ1_HL_markscheme_p19.png",
-        "images/markschemes/shared/Physics_paper_2_TZ1_HL_markscheme_p20.png",
-        "images/markschemes/shared/Physics_paper_2_TZ1_HL_markscheme_p22.png",
-        "images/markschemes/shared/Physics_paper_2_TZ1_HL_markscheme_p23.png"
       ]
     },
     {
@@ -8323,13 +8263,15 @@
         "markscheme_file": "Physics_paper_2_TZ1_SL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/phys_m25_p2_tz1_q3_sl.png"
+        "images/questions/phys_m25_p2_tz1_q3_sl_p1.png",
+        "images/questions/phys_m25_p2_tz1_q3_sl_p2.png"
       ],
       "markscheme_image_paths": [
         "images/markschemes/phys_m25_p2_tz1_q3_sl_p1.png"
       ],
       "question_images": [
-        "images/questions/phys_m25_p2_tz1_q3_sl.png"
+        "images/questions/phys_m25_p2_tz1_q3_sl_p1.png",
+        "images/questions/phys_m25_p2_tz1_q3_sl_p2.png"
       ],
       "markscheme_images": [
         "images/markschemes/phys_m25_p2_tz1_q3_sl_p1.png"
@@ -8464,56 +8406,6 @@
       ]
     },
     {
-      "id": "phys_m25_p2_tz1_q10_sl",
-      "paper": "May 2025 Physics Paper 2 TZ1 SL",
-      "session": "May",
-      "session_code": "m25",
-      "paper_type": "Paper 2",
-      "level": "SL",
-      "question_number": "10",
-      "title": "Q10",
-      "topic": "Unsorted",
-      "subtopic": "Unsorted",
-      "topic_confidence": 0.0,
-      "topic_reason": [
-        "physics keyword scorer v2"
-      ],
-      "question_text": "",
-      "answer_text": "",
-      "marks": null,
-      "has_markscheme": true,
-      "source": {
-        "paper_file": "Physics_paper_2_TZ1_SL.pdf",
-        "markscheme_file": "Physics_paper_2_TZ1_SL_markscheme.pdf"
-      },
-      "question_image_paths": [
-        "images/questions/phys_m25_p2_tz1_q10_sl_p1.png",
-        "images/questions/phys_m25_p2_tz1_q10_sl_p2.png"
-      ],
-      "markscheme_image_paths": [
-        "images/markschemes/shared/Physics_paper_2_TZ1_SL_markscheme_p4.png",
-        "images/markschemes/shared/Physics_paper_2_TZ1_SL_markscheme_p5.png",
-        "images/markschemes/shared/Physics_paper_2_TZ1_SL_markscheme_p6.png",
-        "images/markschemes/shared/Physics_paper_2_TZ1_SL_markscheme_p7.png",
-        "images/markschemes/shared/Physics_paper_2_TZ1_SL_markscheme_p9.png",
-        "images/markschemes/shared/Physics_paper_2_TZ1_SL_markscheme_p11.png",
-        "images/markschemes/shared/Physics_paper_2_TZ1_SL_markscheme_p13.png"
-      ],
-      "question_images": [
-        "images/questions/phys_m25_p2_tz1_q10_sl_p1.png",
-        "images/questions/phys_m25_p2_tz1_q10_sl_p2.png"
-      ],
-      "markscheme_images": [
-        "images/markschemes/shared/Physics_paper_2_TZ1_SL_markscheme_p4.png",
-        "images/markschemes/shared/Physics_paper_2_TZ1_SL_markscheme_p5.png",
-        "images/markschemes/shared/Physics_paper_2_TZ1_SL_markscheme_p6.png",
-        "images/markschemes/shared/Physics_paper_2_TZ1_SL_markscheme_p7.png",
-        "images/markschemes/shared/Physics_paper_2_TZ1_SL_markscheme_p9.png",
-        "images/markschemes/shared/Physics_paper_2_TZ1_SL_markscheme_p11.png",
-        "images/markschemes/shared/Physics_paper_2_TZ1_SL_markscheme_p13.png"
-      ]
-    },
-    {
       "id": "phys_m25_p2_tz2_q1_hl",
       "paper": "May 2025 Physics Paper 2 TZ2 HL",
       "session": "May",
@@ -8537,7 +8429,8 @@
         "markscheme_file": "Physics_paper_2_TZ2_HL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/phys_m25_p2_tz2_q1_hl.png"
+        "images/questions/phys_m25_p2_tz2_q1_hl_p1.png",
+        "images/questions/phys_m25_p2_tz2_q1_hl_p2.png"
       ],
       "markscheme_image_paths": [
         "images/markschemes/shared/Physics_paper_2_TZ2_HL_markscheme_p4.png",
@@ -8550,7 +8443,8 @@
         "images/markschemes/shared/Physics_paper_2_TZ2_HL_markscheme_p18.png"
       ],
       "question_images": [
-        "images/questions/phys_m25_p2_tz2_q1_hl.png"
+        "images/questions/phys_m25_p2_tz2_q1_hl_p1.png",
+        "images/questions/phys_m25_p2_tz2_q1_hl_p2.png"
       ],
       "markscheme_images": [
         "images/markschemes/shared/Physics_paper_2_TZ2_HL_markscheme_p4.png",
@@ -8590,9 +8484,7 @@
         "images/questions/phys_m25_p2_tz2_q2_hl_p1.png",
         "images/questions/phys_m25_p2_tz2_q2_hl_p2.png",
         "images/questions/phys_m25_p2_tz2_q2_hl_p3.png",
-        "images/questions/phys_m25_p2_tz2_q2_hl_p4.png",
-        "images/questions/phys_m25_p2_tz2_q2_hl_p5.png",
-        "images/questions/phys_m25_p2_tz2_q2_hl_p6.png"
+        "images/questions/phys_m25_p2_tz2_q2_hl_p4.png"
       ],
       "markscheme_image_paths": [
         "images/markschemes/shared/Physics_paper_2_TZ2_HL_markscheme_p4.png",
@@ -8608,9 +8500,7 @@
         "images/questions/phys_m25_p2_tz2_q2_hl_p1.png",
         "images/questions/phys_m25_p2_tz2_q2_hl_p2.png",
         "images/questions/phys_m25_p2_tz2_q2_hl_p3.png",
-        "images/questions/phys_m25_p2_tz2_q2_hl_p4.png",
-        "images/questions/phys_m25_p2_tz2_q2_hl_p5.png",
-        "images/questions/phys_m25_p2_tz2_q2_hl_p6.png"
+        "images/questions/phys_m25_p2_tz2_q2_hl_p4.png"
       ],
       "markscheme_images": [
         "images/markschemes/shared/Physics_paper_2_TZ2_HL_markscheme_p4.png",
@@ -8913,7 +8803,9 @@
       "question_image_paths": [
         "images/questions/phys_m25_p2_tz2_q8_hl_p1.png",
         "images/questions/phys_m25_p2_tz2_q8_hl_p2.png",
-        "images/questions/phys_m25_p2_tz2_q8_hl_p3.png"
+        "images/questions/phys_m25_p2_tz2_q8_hl_p3.png",
+        "images/questions/phys_m25_p2_tz2_q8_hl_p4.png",
+        "images/questions/phys_m25_p2_tz2_q8_hl_p5.png"
       ],
       "markscheme_image_paths": [
         "images/markschemes/shared/Physics_paper_2_TZ2_HL_markscheme_p4.png",
@@ -8928,165 +8820,9 @@
       "question_images": [
         "images/questions/phys_m25_p2_tz2_q8_hl_p1.png",
         "images/questions/phys_m25_p2_tz2_q8_hl_p2.png",
-        "images/questions/phys_m25_p2_tz2_q8_hl_p3.png"
-      ],
-      "markscheme_images": [
-        "images/markschemes/shared/Physics_paper_2_TZ2_HL_markscheme_p4.png",
-        "images/markschemes/shared/Physics_paper_2_TZ2_HL_markscheme_p6.png",
-        "images/markschemes/shared/Physics_paper_2_TZ2_HL_markscheme_p8.png",
-        "images/markschemes/shared/Physics_paper_2_TZ2_HL_markscheme_p10.png",
-        "images/markschemes/shared/Physics_paper_2_TZ2_HL_markscheme_p12.png",
-        "images/markschemes/shared/Physics_paper_2_TZ2_HL_markscheme_p13.png",
-        "images/markschemes/shared/Physics_paper_2_TZ2_HL_markscheme_p16.png",
-        "images/markschemes/shared/Physics_paper_2_TZ2_HL_markscheme_p18.png"
-      ]
-    },
-    {
-      "id": "phys_m25_p2_tz2_q25_hl",
-      "paper": "May 2025 Physics Paper 2 TZ2 HL",
-      "session": "May",
-      "session_code": "m25",
-      "paper_type": "Paper 2",
-      "level": "HL",
-      "question_number": "25",
-      "title": "Q25",
-      "topic": "Unsorted",
-      "subtopic": "Unsorted",
-      "topic_confidence": 0.0,
-      "topic_reason": [
-        "physics keyword scorer v2"
-      ],
-      "question_text": "",
-      "answer_text": "",
-      "marks": null,
-      "has_markscheme": true,
-      "source": {
-        "paper_file": "Physics_paper_2_TZ2_HL.pdf",
-        "markscheme_file": "Physics_paper_2_TZ2_HL_markscheme.pdf"
-      },
-      "question_image_paths": [
-        "images/questions/phys_m25_p2_tz2_q25_hl_p1.png",
-        "images/questions/phys_m25_p2_tz2_q25_hl_p2.png"
-      ],
-      "markscheme_image_paths": [
-        "images/markschemes/shared/Physics_paper_2_TZ2_HL_markscheme_p4.png",
-        "images/markschemes/shared/Physics_paper_2_TZ2_HL_markscheme_p6.png",
-        "images/markschemes/shared/Physics_paper_2_TZ2_HL_markscheme_p8.png",
-        "images/markschemes/shared/Physics_paper_2_TZ2_HL_markscheme_p10.png",
-        "images/markschemes/shared/Physics_paper_2_TZ2_HL_markscheme_p12.png",
-        "images/markschemes/shared/Physics_paper_2_TZ2_HL_markscheme_p13.png",
-        "images/markschemes/shared/Physics_paper_2_TZ2_HL_markscheme_p16.png",
-        "images/markschemes/shared/Physics_paper_2_TZ2_HL_markscheme_p18.png"
-      ],
-      "question_images": [
-        "images/questions/phys_m25_p2_tz2_q25_hl_p1.png",
-        "images/questions/phys_m25_p2_tz2_q25_hl_p2.png"
-      ],
-      "markscheme_images": [
-        "images/markschemes/shared/Physics_paper_2_TZ2_HL_markscheme_p4.png",
-        "images/markschemes/shared/Physics_paper_2_TZ2_HL_markscheme_p6.png",
-        "images/markschemes/shared/Physics_paper_2_TZ2_HL_markscheme_p8.png",
-        "images/markschemes/shared/Physics_paper_2_TZ2_HL_markscheme_p10.png",
-        "images/markschemes/shared/Physics_paper_2_TZ2_HL_markscheme_p12.png",
-        "images/markschemes/shared/Physics_paper_2_TZ2_HL_markscheme_p13.png",
-        "images/markschemes/shared/Physics_paper_2_TZ2_HL_markscheme_p16.png",
-        "images/markschemes/shared/Physics_paper_2_TZ2_HL_markscheme_p18.png"
-      ]
-    },
-    {
-      "id": "phys_m25_p2_tz2_q30_hl",
-      "paper": "May 2025 Physics Paper 2 TZ2 HL",
-      "session": "May",
-      "session_code": "m25",
-      "paper_type": "Paper 2",
-      "level": "HL",
-      "question_number": "30",
-      "title": "Q30",
-      "topic": "Unsorted",
-      "subtopic": "Unsorted",
-      "topic_confidence": 0.0,
-      "topic_reason": [
-        "physics keyword scorer v2"
-      ],
-      "question_text": "",
-      "answer_text": "",
-      "marks": null,
-      "has_markscheme": true,
-      "source": {
-        "paper_file": "Physics_paper_2_TZ2_HL.pdf",
-        "markscheme_file": "Physics_paper_2_TZ2_HL_markscheme.pdf"
-      },
-      "question_image_paths": [
-        "images/questions/phys_m25_p2_tz2_q30_hl_p1.png",
-        "images/questions/phys_m25_p2_tz2_q30_hl_p2.png",
-        "images/questions/phys_m25_p2_tz2_q30_hl_p3.png"
-      ],
-      "markscheme_image_paths": [
-        "images/markschemes/shared/Physics_paper_2_TZ2_HL_markscheme_p4.png",
-        "images/markschemes/shared/Physics_paper_2_TZ2_HL_markscheme_p6.png",
-        "images/markschemes/shared/Physics_paper_2_TZ2_HL_markscheme_p8.png",
-        "images/markschemes/shared/Physics_paper_2_TZ2_HL_markscheme_p10.png",
-        "images/markschemes/shared/Physics_paper_2_TZ2_HL_markscheme_p12.png",
-        "images/markschemes/shared/Physics_paper_2_TZ2_HL_markscheme_p13.png",
-        "images/markschemes/shared/Physics_paper_2_TZ2_HL_markscheme_p16.png",
-        "images/markschemes/shared/Physics_paper_2_TZ2_HL_markscheme_p18.png"
-      ],
-      "question_images": [
-        "images/questions/phys_m25_p2_tz2_q30_hl_p1.png",
-        "images/questions/phys_m25_p2_tz2_q30_hl_p2.png",
-        "images/questions/phys_m25_p2_tz2_q30_hl_p3.png"
-      ],
-      "markscheme_images": [
-        "images/markschemes/shared/Physics_paper_2_TZ2_HL_markscheme_p4.png",
-        "images/markschemes/shared/Physics_paper_2_TZ2_HL_markscheme_p6.png",
-        "images/markschemes/shared/Physics_paper_2_TZ2_HL_markscheme_p8.png",
-        "images/markschemes/shared/Physics_paper_2_TZ2_HL_markscheme_p10.png",
-        "images/markschemes/shared/Physics_paper_2_TZ2_HL_markscheme_p12.png",
-        "images/markschemes/shared/Physics_paper_2_TZ2_HL_markscheme_p13.png",
-        "images/markschemes/shared/Physics_paper_2_TZ2_HL_markscheme_p16.png",
-        "images/markschemes/shared/Physics_paper_2_TZ2_HL_markscheme_p18.png"
-      ]
-    },
-    {
-      "id": "phys_m25_p2_tz2_q60_hl",
-      "paper": "May 2025 Physics Paper 2 TZ2 HL",
-      "session": "May",
-      "session_code": "m25",
-      "paper_type": "Paper 2",
-      "level": "HL",
-      "question_number": "60",
-      "title": "Q60",
-      "topic": "Unsorted",
-      "subtopic": "Unsorted",
-      "topic_confidence": 0.0,
-      "topic_reason": [
-        "physics keyword scorer v2"
-      ],
-      "question_text": "",
-      "answer_text": "",
-      "marks": null,
-      "has_markscheme": true,
-      "source": {
-        "paper_file": "Physics_paper_2_TZ2_HL.pdf",
-        "markscheme_file": "Physics_paper_2_TZ2_HL_markscheme.pdf"
-      },
-      "question_image_paths": [
-        "images/questions/phys_m25_p2_tz2_q60_hl_p1.png",
-        "images/questions/phys_m25_p2_tz2_q60_hl_p2.png"
-      ],
-      "markscheme_image_paths": [
-        "images/markschemes/shared/Physics_paper_2_TZ2_HL_markscheme_p4.png",
-        "images/markschemes/shared/Physics_paper_2_TZ2_HL_markscheme_p6.png",
-        "images/markschemes/shared/Physics_paper_2_TZ2_HL_markscheme_p8.png",
-        "images/markschemes/shared/Physics_paper_2_TZ2_HL_markscheme_p10.png",
-        "images/markschemes/shared/Physics_paper_2_TZ2_HL_markscheme_p12.png",
-        "images/markschemes/shared/Physics_paper_2_TZ2_HL_markscheme_p13.png",
-        "images/markschemes/shared/Physics_paper_2_TZ2_HL_markscheme_p16.png",
-        "images/markschemes/shared/Physics_paper_2_TZ2_HL_markscheme_p18.png"
-      ],
-      "question_images": [
-        "images/questions/phys_m25_p2_tz2_q60_hl_p1.png",
-        "images/questions/phys_m25_p2_tz2_q60_hl_p2.png"
+        "images/questions/phys_m25_p2_tz2_q8_hl_p3.png",
+        "images/questions/phys_m25_p2_tz2_q8_hl_p4.png",
+        "images/questions/phys_m25_p2_tz2_q8_hl_p5.png"
       ],
       "markscheme_images": [
         "images/markschemes/shared/Physics_paper_2_TZ2_HL_markscheme_p4.png",
@@ -9123,7 +8859,8 @@
         "markscheme_file": "Physics_paper_2_TZ2_SL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/phys_m25_p2_tz2_q1_sl.png"
+        "images/questions/phys_m25_p2_tz2_q1_sl_p1.png",
+        "images/questions/phys_m25_p2_tz2_q1_sl_p2.png"
       ],
       "markscheme_image_paths": [
         "images/markschemes/shared/Physics_paper_2_TZ2_SL_markscheme_p4.png",
@@ -9134,7 +8871,8 @@
         "images/markschemes/shared/Physics_paper_2_TZ2_SL_markscheme_p12.png"
       ],
       "question_images": [
-        "images/questions/phys_m25_p2_tz2_q1_sl.png"
+        "images/questions/phys_m25_p2_tz2_q1_sl_p1.png",
+        "images/questions/phys_m25_p2_tz2_q1_sl_p2.png"
       ],
       "markscheme_images": [
         "images/markschemes/shared/Physics_paper_2_TZ2_SL_markscheme_p4.png",
@@ -9171,7 +8909,7 @@
       "question_image_paths": [
         "images/questions/phys_m25_p2_tz2_q2_sl_p1.png",
         "images/questions/phys_m25_p2_tz2_q2_sl_p2.png",
-        "images/questions/phys_m25_p2_tz2_q2_sl_p3.png"
+        "images/questions/phys_m25_p2_tz2_q2_sl_p4.png"
       ],
       "markscheme_image_paths": [
         "images/markschemes/shared/Physics_paper_2_TZ2_SL_markscheme_p4.png",
@@ -9184,7 +8922,7 @@
       "question_images": [
         "images/questions/phys_m25_p2_tz2_q2_sl_p1.png",
         "images/questions/phys_m25_p2_tz2_q2_sl_p2.png",
-        "images/questions/phys_m25_p2_tz2_q2_sl_p3.png"
+        "images/questions/phys_m25_p2_tz2_q2_sl_p4.png"
       ],
       "markscheme_images": [
         "images/markschemes/shared/Physics_paper_2_TZ2_SL_markscheme_p4.png",
@@ -9342,100 +9080,6 @@
       ]
     },
     {
-      "id": "phys_m25_p2_tz2_q25_sl",
-      "paper": "May 2025 Physics Paper 2 TZ2 SL",
-      "session": "May",
-      "session_code": "m25",
-      "paper_type": "Paper 2",
-      "level": "SL",
-      "question_number": "25",
-      "title": "Q25",
-      "topic": "Unsorted",
-      "subtopic": "Unsorted",
-      "topic_confidence": 0.0,
-      "topic_reason": [
-        "physics keyword scorer v2"
-      ],
-      "question_text": "",
-      "answer_text": "",
-      "marks": null,
-      "has_markscheme": true,
-      "source": {
-        "paper_file": "Physics_paper_2_TZ2_SL.pdf",
-        "markscheme_file": "Physics_paper_2_TZ2_SL_markscheme.pdf"
-      },
-      "question_image_paths": [
-        "images/questions/phys_m25_p2_tz2_q25_sl_p1.png"
-      ],
-      "markscheme_image_paths": [
-        "images/markschemes/shared/Physics_paper_2_TZ2_SL_markscheme_p4.png",
-        "images/markschemes/shared/Physics_paper_2_TZ2_SL_markscheme_p5.png",
-        "images/markschemes/shared/Physics_paper_2_TZ2_SL_markscheme_p7.png",
-        "images/markschemes/shared/Physics_paper_2_TZ2_SL_markscheme_p9.png",
-        "images/markschemes/shared/Physics_paper_2_TZ2_SL_markscheme_p11.png",
-        "images/markschemes/shared/Physics_paper_2_TZ2_SL_markscheme_p12.png"
-      ],
-      "question_images": [
-        "images/questions/phys_m25_p2_tz2_q25_sl_p1.png"
-      ],
-      "markscheme_images": [
-        "images/markschemes/shared/Physics_paper_2_TZ2_SL_markscheme_p4.png",
-        "images/markschemes/shared/Physics_paper_2_TZ2_SL_markscheme_p5.png",
-        "images/markschemes/shared/Physics_paper_2_TZ2_SL_markscheme_p7.png",
-        "images/markschemes/shared/Physics_paper_2_TZ2_SL_markscheme_p9.png",
-        "images/markschemes/shared/Physics_paper_2_TZ2_SL_markscheme_p11.png",
-        "images/markschemes/shared/Physics_paper_2_TZ2_SL_markscheme_p12.png"
-      ]
-    },
-    {
-      "id": "phys_m25_p2_tz2_q60_sl",
-      "paper": "May 2025 Physics Paper 2 TZ2 SL",
-      "session": "May",
-      "session_code": "m25",
-      "paper_type": "Paper 2",
-      "level": "SL",
-      "question_number": "60",
-      "title": "Q60",
-      "topic": "Unsorted",
-      "subtopic": "Unsorted",
-      "topic_confidence": 0.0,
-      "topic_reason": [
-        "physics keyword scorer v2"
-      ],
-      "question_text": "",
-      "answer_text": "",
-      "marks": null,
-      "has_markscheme": true,
-      "source": {
-        "paper_file": "Physics_paper_2_TZ2_SL.pdf",
-        "markscheme_file": "Physics_paper_2_TZ2_SL_markscheme.pdf"
-      },
-      "question_image_paths": [
-        "images/questions/phys_m25_p2_tz2_q60_sl_p1.png",
-        "images/questions/phys_m25_p2_tz2_q60_sl_p2.png"
-      ],
-      "markscheme_image_paths": [
-        "images/markschemes/shared/Physics_paper_2_TZ2_SL_markscheme_p4.png",
-        "images/markschemes/shared/Physics_paper_2_TZ2_SL_markscheme_p5.png",
-        "images/markschemes/shared/Physics_paper_2_TZ2_SL_markscheme_p7.png",
-        "images/markschemes/shared/Physics_paper_2_TZ2_SL_markscheme_p9.png",
-        "images/markschemes/shared/Physics_paper_2_TZ2_SL_markscheme_p11.png",
-        "images/markschemes/shared/Physics_paper_2_TZ2_SL_markscheme_p12.png"
-      ],
-      "question_images": [
-        "images/questions/phys_m25_p2_tz2_q60_sl_p1.png",
-        "images/questions/phys_m25_p2_tz2_q60_sl_p2.png"
-      ],
-      "markscheme_images": [
-        "images/markschemes/shared/Physics_paper_2_TZ2_SL_markscheme_p4.png",
-        "images/markschemes/shared/Physics_paper_2_TZ2_SL_markscheme_p5.png",
-        "images/markschemes/shared/Physics_paper_2_TZ2_SL_markscheme_p7.png",
-        "images/markschemes/shared/Physics_paper_2_TZ2_SL_markscheme_p9.png",
-        "images/markschemes/shared/Physics_paper_2_TZ2_SL_markscheme_p11.png",
-        "images/markschemes/shared/Physics_paper_2_TZ2_SL_markscheme_p12.png"
-      ]
-    },
-    {
       "id": "phys_m25_p2_tz3_q1_hl",
       "paper": "May 2025 Physics Paper 2 TZ3 HL",
       "session": "May",
@@ -9511,7 +9155,8 @@
         "markscheme_file": "Physics_paper_2_TZ3_HL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/phys_m25_p2_tz3_q2_hl.png"
+        "images/questions/phys_m25_p2_tz3_q2_hl_p1.png",
+        "images/questions/phys_m25_p2_tz3_q2_hl_p2.png"
       ],
       "markscheme_image_paths": [
         "images/markschemes/shared/Physics_paper_2_TZ3_HL_markscheme_p4.png",
@@ -9524,7 +9169,8 @@
         "images/markschemes/shared/Physics_paper_2_TZ3_HL_markscheme_p21.png"
       ],
       "question_images": [
-        "images/questions/phys_m25_p2_tz3_q2_hl.png"
+        "images/questions/phys_m25_p2_tz3_q2_hl_p1.png",
+        "images/questions/phys_m25_p2_tz3_q2_hl_p2.png"
       ],
       "markscheme_images": [
         "images/markschemes/shared/Physics_paper_2_TZ3_HL_markscheme_p4.png",
@@ -9562,8 +9208,7 @@
       },
       "question_image_paths": [
         "images/questions/phys_m25_p2_tz3_q3_hl_p1.png",
-        "images/questions/phys_m25_p2_tz3_q3_hl_p2.png",
-        "images/questions/phys_m25_p2_tz3_q3_hl_p3.png"
+        "images/questions/phys_m25_p2_tz3_q3_hl_p2.png"
       ],
       "markscheme_image_paths": [
         "images/markschemes/shared/Physics_paper_2_TZ3_HL_markscheme_p4.png",
@@ -9577,8 +9222,7 @@
       ],
       "question_images": [
         "images/questions/phys_m25_p2_tz3_q3_hl_p1.png",
-        "images/questions/phys_m25_p2_tz3_q3_hl_p2.png",
-        "images/questions/phys_m25_p2_tz3_q3_hl_p3.png"
+        "images/questions/phys_m25_p2_tz3_q3_hl_p2.png"
       ],
       "markscheme_images": [
         "images/markschemes/shared/Physics_paper_2_TZ3_HL_markscheme_p4.png",
@@ -9876,110 +9520,6 @@
       ]
     },
     {
-      "id": "phys_m25_p2_tz3_q10_hl",
-      "paper": "May 2025 Physics Paper 2 TZ3 HL",
-      "session": "May",
-      "session_code": "m25",
-      "paper_type": "Paper 2",
-      "level": "HL",
-      "question_number": "10",
-      "title": "Q10",
-      "topic": "Unsorted",
-      "subtopic": "Unsorted",
-      "topic_confidence": 0.0,
-      "topic_reason": [
-        "physics keyword scorer v2"
-      ],
-      "question_text": "",
-      "answer_text": "",
-      "marks": null,
-      "has_markscheme": true,
-      "source": {
-        "paper_file": "Physics_paper_2_TZ3_HL.pdf",
-        "markscheme_file": "Physics_paper_2_TZ3_HL_markscheme.pdf"
-      },
-      "question_image_paths": [
-        "images/questions/phys_m25_p2_tz3_q10_hl_p1.png",
-        "images/questions/phys_m25_p2_tz3_q10_hl_p2.png"
-      ],
-      "markscheme_image_paths": [
-        "images/markschemes/shared/Physics_paper_2_TZ3_HL_markscheme_p4.png",
-        "images/markschemes/shared/Physics_paper_2_TZ3_HL_markscheme_p7.png",
-        "images/markschemes/shared/Physics_paper_2_TZ3_HL_markscheme_p9.png",
-        "images/markschemes/shared/Physics_paper_2_TZ3_HL_markscheme_p11.png",
-        "images/markschemes/shared/Physics_paper_2_TZ3_HL_markscheme_p13.png",
-        "images/markschemes/shared/Physics_paper_2_TZ3_HL_markscheme_p15.png",
-        "images/markschemes/shared/Physics_paper_2_TZ3_HL_markscheme_p17.png",
-        "images/markschemes/shared/Physics_paper_2_TZ3_HL_markscheme_p21.png"
-      ],
-      "question_images": [
-        "images/questions/phys_m25_p2_tz3_q10_hl_p1.png",
-        "images/questions/phys_m25_p2_tz3_q10_hl_p2.png"
-      ],
-      "markscheme_images": [
-        "images/markschemes/shared/Physics_paper_2_TZ3_HL_markscheme_p4.png",
-        "images/markschemes/shared/Physics_paper_2_TZ3_HL_markscheme_p7.png",
-        "images/markschemes/shared/Physics_paper_2_TZ3_HL_markscheme_p9.png",
-        "images/markschemes/shared/Physics_paper_2_TZ3_HL_markscheme_p11.png",
-        "images/markschemes/shared/Physics_paper_2_TZ3_HL_markscheme_p13.png",
-        "images/markschemes/shared/Physics_paper_2_TZ3_HL_markscheme_p15.png",
-        "images/markschemes/shared/Physics_paper_2_TZ3_HL_markscheme_p17.png",
-        "images/markschemes/shared/Physics_paper_2_TZ3_HL_markscheme_p21.png"
-      ]
-    },
-    {
-      "id": "phys_m25_p2_tz3_q20_hl",
-      "paper": "May 2025 Physics Paper 2 TZ3 HL",
-      "session": "May",
-      "session_code": "m25",
-      "paper_type": "Paper 2",
-      "level": "HL",
-      "question_number": "20",
-      "title": "Q20",
-      "topic": "Unsorted",
-      "subtopic": "Unsorted",
-      "topic_confidence": 0.0,
-      "topic_reason": [
-        "physics keyword scorer v2"
-      ],
-      "question_text": "",
-      "answer_text": "",
-      "marks": null,
-      "has_markscheme": true,
-      "source": {
-        "paper_file": "Physics_paper_2_TZ3_HL.pdf",
-        "markscheme_file": "Physics_paper_2_TZ3_HL_markscheme.pdf"
-      },
-      "question_image_paths": [
-        "images/questions/phys_m25_p2_tz3_q20_hl_p1.png",
-        "images/questions/phys_m25_p2_tz3_q20_hl_p2.png"
-      ],
-      "markscheme_image_paths": [
-        "images/markschemes/shared/Physics_paper_2_TZ3_HL_markscheme_p4.png",
-        "images/markschemes/shared/Physics_paper_2_TZ3_HL_markscheme_p7.png",
-        "images/markschemes/shared/Physics_paper_2_TZ3_HL_markscheme_p9.png",
-        "images/markschemes/shared/Physics_paper_2_TZ3_HL_markscheme_p11.png",
-        "images/markschemes/shared/Physics_paper_2_TZ3_HL_markscheme_p13.png",
-        "images/markschemes/shared/Physics_paper_2_TZ3_HL_markscheme_p15.png",
-        "images/markschemes/shared/Physics_paper_2_TZ3_HL_markscheme_p17.png",
-        "images/markschemes/shared/Physics_paper_2_TZ3_HL_markscheme_p21.png"
-      ],
-      "question_images": [
-        "images/questions/phys_m25_p2_tz3_q20_hl_p1.png",
-        "images/questions/phys_m25_p2_tz3_q20_hl_p2.png"
-      ],
-      "markscheme_images": [
-        "images/markschemes/shared/Physics_paper_2_TZ3_HL_markscheme_p4.png",
-        "images/markschemes/shared/Physics_paper_2_TZ3_HL_markscheme_p7.png",
-        "images/markschemes/shared/Physics_paper_2_TZ3_HL_markscheme_p9.png",
-        "images/markschemes/shared/Physics_paper_2_TZ3_HL_markscheme_p11.png",
-        "images/markschemes/shared/Physics_paper_2_TZ3_HL_markscheme_p13.png",
-        "images/markschemes/shared/Physics_paper_2_TZ3_HL_markscheme_p15.png",
-        "images/markschemes/shared/Physics_paper_2_TZ3_HL_markscheme_p17.png",
-        "images/markschemes/shared/Physics_paper_2_TZ3_HL_markscheme_p21.png"
-      ]
-    },
-    {
       "id": "phys_m25_p2_tz3_q1_sl",
       "paper": "May 2025 Physics Paper 2 TZ3 SL",
       "session": "May",
@@ -10050,8 +9590,7 @@
       },
       "question_image_paths": [
         "images/questions/phys_m25_p2_tz3_q2_sl_p1.png",
-        "images/questions/phys_m25_p2_tz3_q2_sl_p2.png",
-        "images/questions/phys_m25_p2_tz3_q2_sl_p3.png"
+        "images/questions/phys_m25_p2_tz3_q2_sl_p2.png"
       ],
       "markscheme_image_paths": [
         "images/markschemes/shared/Physics_paper_2_TZ3_SL_markscheme_p4.png",
@@ -10063,8 +9602,7 @@
       ],
       "question_images": [
         "images/questions/phys_m25_p2_tz3_q2_sl_p1.png",
-        "images/questions/phys_m25_p2_tz3_q2_sl_p2.png",
-        "images/questions/phys_m25_p2_tz3_q2_sl_p3.png"
+        "images/questions/phys_m25_p2_tz3_q2_sl_p2.png"
       ],
       "markscheme_images": [
         "images/markschemes/shared/Physics_paper_2_TZ3_SL_markscheme_p4.png",
@@ -10100,8 +9638,7 @@
       },
       "question_image_paths": [
         "images/questions/phys_m25_p2_tz3_q3_sl_p1.png",
-        "images/questions/phys_m25_p2_tz3_q3_sl_p2.png",
-        "images/questions/phys_m25_p2_tz3_q3_sl_p3.png"
+        "images/questions/phys_m25_p2_tz3_q3_sl_p2.png"
       ],
       "markscheme_image_paths": [
         "images/markschemes/shared/Physics_paper_2_TZ3_SL_markscheme_p4.png",
@@ -10113,8 +9650,7 @@
       ],
       "question_images": [
         "images/questions/phys_m25_p2_tz3_q3_sl_p1.png",
-        "images/questions/phys_m25_p2_tz3_q3_sl_p2.png",
-        "images/questions/phys_m25_p2_tz3_q3_sl_p3.png"
+        "images/questions/phys_m25_p2_tz3_q3_sl_p2.png"
       ],
       "markscheme_images": [
         "images/markschemes/shared/Physics_paper_2_TZ3_SL_markscheme_p4.png",
@@ -10149,8 +9685,7 @@
         "markscheme_file": "Physics_paper_2_TZ3_SL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/phys_m25_p2_tz3_q4_sl_p1.png",
-        "images/questions/phys_m25_p2_tz3_q4_sl_p2.png"
+        "images/questions/phys_m25_p2_tz3_q4_sl_p1.png"
       ],
       "markscheme_image_paths": [
         "images/markschemes/shared/Physics_paper_2_TZ3_SL_markscheme_p4.png",
@@ -10161,8 +9696,7 @@
         "images/markschemes/shared/Physics_paper_2_TZ3_SL_markscheme_p11.png"
       ],
       "question_images": [
-        "images/questions/phys_m25_p2_tz3_q4_sl_p1.png",
-        "images/questions/phys_m25_p2_tz3_q4_sl_p2.png"
+        "images/questions/phys_m25_p2_tz3_q4_sl_p1.png"
       ],
       "markscheme_images": [
         "images/markschemes/shared/Physics_paper_2_TZ3_SL_markscheme_p4.png",
@@ -10246,7 +9780,10 @@
         "images/questions/phys_m25_p2_tz3_q6_sl_p1.png",
         "images/questions/phys_m25_p2_tz3_q6_sl_p2.png",
         "images/questions/phys_m25_p2_tz3_q6_sl_p3.png",
-        "images/questions/phys_m25_p2_tz3_q6_sl_p4.png"
+        "images/questions/phys_m25_p2_tz3_q6_sl_p4.png",
+        "images/questions/phys_m25_p2_tz3_q6_sl_p5.png",
+        "images/questions/phys_m25_p2_tz3_q6_sl_p6.png",
+        "images/questions/phys_m25_p2_tz3_q6_sl_p7.png"
       ],
       "markscheme_image_paths": [
         "images/markschemes/shared/Physics_paper_2_TZ3_SL_markscheme_p4.png",
@@ -10260,59 +9797,10 @@
         "images/questions/phys_m25_p2_tz3_q6_sl_p1.png",
         "images/questions/phys_m25_p2_tz3_q6_sl_p2.png",
         "images/questions/phys_m25_p2_tz3_q6_sl_p3.png",
-        "images/questions/phys_m25_p2_tz3_q6_sl_p4.png"
-      ],
-      "markscheme_images": [
-        "images/markschemes/shared/Physics_paper_2_TZ3_SL_markscheme_p4.png",
-        "images/markschemes/shared/Physics_paper_2_TZ3_SL_markscheme_p6.png",
-        "images/markschemes/shared/Physics_paper_2_TZ3_SL_markscheme_p8.png",
-        "images/markschemes/shared/Physics_paper_2_TZ3_SL_markscheme_p9.png",
-        "images/markschemes/shared/Physics_paper_2_TZ3_SL_markscheme_p10.png",
-        "images/markschemes/shared/Physics_paper_2_TZ3_SL_markscheme_p11.png"
-      ]
-    },
-    {
-      "id": "phys_m25_p2_tz3_q10_sl",
-      "paper": "May 2025 Physics Paper 2 TZ3 SL",
-      "session": "May",
-      "session_code": "m25",
-      "paper_type": "Paper 2",
-      "level": "SL",
-      "question_number": "10",
-      "title": "Q10",
-      "topic": "Unsorted",
-      "subtopic": "Unsorted",
-      "topic_confidence": 0.0,
-      "topic_reason": [
-        "physics keyword scorer v2"
-      ],
-      "question_text": "",
-      "answer_text": "",
-      "marks": null,
-      "has_markscheme": true,
-      "source": {
-        "paper_file": "Physics_paper_2_TZ3_SL.pdf",
-        "markscheme_file": "Physics_paper_2_TZ3_SL_markscheme.pdf"
-      },
-      "question_image_paths": [
-        "images/questions/phys_m25_p2_tz3_q10_sl_p1.png",
-        "images/questions/phys_m25_p2_tz3_q10_sl_p2.png",
-        "images/questions/phys_m25_p2_tz3_q10_sl_p3.png",
-        "images/questions/phys_m25_p2_tz3_q10_sl_p4.png"
-      ],
-      "markscheme_image_paths": [
-        "images/markschemes/shared/Physics_paper_2_TZ3_SL_markscheme_p4.png",
-        "images/markschemes/shared/Physics_paper_2_TZ3_SL_markscheme_p6.png",
-        "images/markschemes/shared/Physics_paper_2_TZ3_SL_markscheme_p8.png",
-        "images/markschemes/shared/Physics_paper_2_TZ3_SL_markscheme_p9.png",
-        "images/markschemes/shared/Physics_paper_2_TZ3_SL_markscheme_p10.png",
-        "images/markschemes/shared/Physics_paper_2_TZ3_SL_markscheme_p11.png"
-      ],
-      "question_images": [
-        "images/questions/phys_m25_p2_tz3_q10_sl_p1.png",
-        "images/questions/phys_m25_p2_tz3_q10_sl_p2.png",
-        "images/questions/phys_m25_p2_tz3_q10_sl_p3.png",
-        "images/questions/phys_m25_p2_tz3_q10_sl_p4.png"
+        "images/questions/phys_m25_p2_tz3_q6_sl_p4.png",
+        "images/questions/phys_m25_p2_tz3_q6_sl_p5.png",
+        "images/questions/phys_m25_p2_tz3_q6_sl_p6.png",
+        "images/questions/phys_m25_p2_tz3_q6_sl_p7.png"
       ],
       "markscheme_images": [
         "images/markschemes/shared/Physics_paper_2_TZ3_SL_markscheme_p4.png",

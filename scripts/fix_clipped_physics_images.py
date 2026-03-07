@@ -69,7 +69,6 @@ def detect_question_positions(doc: fitz.Document) -> List[Pos]:
                 qn: Optional[int] = None
                 m_inline = re.match(r"^(\d{1,2})\.\s+", text)
                 m_dot = re.match(r"^(\d{1,2})\.$", text)
-                m_plain = re.match(r"^(\d{1,2})$", text)
                 m_marks = re.match(r"^(\d{1,2})\s+\[", text)
 
                 if m_inline:
@@ -79,10 +78,6 @@ def detect_question_positions(doc: fitz.Document) -> List[Pos]:
                     pending_x = x
                     pending_y = y
                     qn = pending_num
-                elif m_plain:
-                    pending_num = int(m_plain.group(1))
-                    pending_x = x
-                    pending_y = y
                 elif m_marks:
                     qn = int(m_marks.group(1))
                 elif pending_num is not None and re.match(r"^(?:\(|[A-Za-z])", text) and abs(y - pending_y) <= 120:
@@ -195,12 +190,12 @@ def main() -> None:
     remove_ids: set[str] = set()
 
     for paper_file, rows in grouped.items():
-        # Rebuild all Paper 1B crops (they are most sensitive to continuation-page clipping),
+        # Rebuild all Paper 1B and Paper 2 crops (most sensitive to continuation-page clipping),
         # and also any other rows detected as clipped.
         to_fix = [
             q
             for q in rows
-            if str(q.get("paper_type", "")).strip() == "Paper 1B"
+            if str(q.get("paper_type", "")).strip() in {"Paper 1B", "Paper 2"}
             or has_clipped_image(list(q.get("question_image_paths") or []))
         ]
         if not to_fix:
@@ -212,9 +207,9 @@ def main() -> None:
         positions = detect_question_positions(doc)
         detected_qnums = {p.qnum for p in positions}
 
-        # Cleanup stale/invalid Paper 1B rows created by earlier false split detection.
+        # Cleanup stale/invalid rows created by earlier false split detection.
         for q in rows:
-            if str(q.get("paper_type", "")).strip() != "Paper 1B":
+            if str(q.get("paper_type", "")).strip() not in {"Paper 1B", "Paper 2"}:
                 continue
             qid = str(q.get("id", "")).strip()
             qnum = int(str(q.get("question_number", "0")) or 0)
