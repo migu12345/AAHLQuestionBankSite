@@ -486,7 +486,7 @@ button:hover {
 .compare-modal-panel {
   position: relative;
   width: min(1220px, 95vw);
-  max-height: 90vh;
+  height: min(90vh, 920px);
   margin: 4vh auto 0;
   background: #fff;
   border: 1px solid var(--line-strong);
@@ -516,10 +516,12 @@ button:hover {
   display: grid;
   grid-template-columns: 1fr 1fr;
   min-height: 0;
+  overflow: hidden;
 }
 
 .compare-col {
   min-width: 0;
+  min-height: 0;
   border-right: 1px solid var(--line);
   display: grid;
   grid-template-rows: auto minmax(0, 1fr);
@@ -542,9 +544,11 @@ button:hover {
 
 .compare-body {
   overflow: auto;
+  min-height: 0;
   padding: 0.8rem;
   display: grid;
   gap: 0.8rem;
+  align-content: start;
 }
 
 .compare-body img {
@@ -708,7 +712,7 @@ button:hover {
   .compare-modal-panel {
     width: 96vw;
     margin-top: 2vh;
-    max-height: 95vh;
+    height: 95vh;
   }
 
   .compare-grid {
