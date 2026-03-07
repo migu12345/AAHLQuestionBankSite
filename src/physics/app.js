@@ -672,7 +672,6 @@ function cleanPreviewText(text) {
 
 function inferDifficulty(q) {
   const marks = Number(q?.marks || 0);
-  const level = inferLevel(q);
   const paperType = String(q?.paper_type || "").toLowerCase();
   const paperMatch = paperType.match(/paper\s*([123])/);
   const paperNo = paperMatch ? Number(paperMatch[1]) : 0;
@@ -684,16 +683,13 @@ function inferDifficulty(q) {
     score += 1;
   }
 
-  if (level === "HL") {
-    score += 1;
-  }
   if (paperNo === 3) {
     score += 1;
   } else if (paperNo === 2) {
     score += 0.5;
   }
 
-  if (marks <= 4 && level === "SL" && paperNo === 1) {
+  if (marks <= 4 && paperNo === 1) {
     score -= 1;
   }
 

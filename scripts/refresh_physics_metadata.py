@@ -22,6 +22,23 @@ TOPIC_RULES = [
             ("Forces and momentum", ["force", "newton", "momentum", "impulse", "collision", "equilibrium", "friction"]),
             ("Work, energy and power", ["work done", "kinetic energy", "potential energy", "power", "efficiency"]),
             ("Circular and rotational motion", ["centripetal", "angular", "torque", "moment of inertia", "rotation"]),
+            (
+                "A5 relativity",
+                [
+                    "relativity",
+                    "special relativity",
+                    "frame of reference",
+                    "time dilation",
+                    "length contraction",
+                    "proper time",
+                    "proper length",
+                    "lorentz factor",
+                    "relativistic",
+                    "speed of light",
+                    "moving in the positive x direction",
+                    "moving in the negative x direction",
+                ],
+            ),
         ],
     ),
     (

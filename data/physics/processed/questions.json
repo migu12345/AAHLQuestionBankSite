@@ -305,9 +305,9 @@
       "level": "HL",
       "question_number": "9",
       "title": "Q9: Observer X sees a spacecraft moving in the positive  x-direction at a speed of 0.50c. \nObserver Y sees the same spacecra",
-      "topic": "Unsorted",
-      "subtopic": "Unsorted",
-      "topic_confidence": 0.05,
+      "topic": "Space, time and motion",
+      "subtopic": "A5 relativity",
+      "topic_confidence": 0.79,
       "topic_reason": [
         "physics keyword scorer v2"
       ],
@@ -5115,8 +5115,8 @@
       "level": "HL",
       "question_number": "9",
       "title": "Q9: A pendulum has a period of 3.0 s as measured in its inertial frame of reference. An observer is \nmoving with a speed of ",
-      "topic": "Wave behaviour",
-      "subtopic": "Wave properties",
+      "topic": "Space, time and motion",
+      "subtopic": "A5 relativity",
       "topic_confidence": 0.43,
       "topic_reason": [
         "physics keyword scorer v2"
