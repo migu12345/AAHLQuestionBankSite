@@ -25,11 +25,13 @@
           <iframe id="formulaIframe" title="AA HL Formula Booklet" src="${pdfBaseUrl}#view=FitH"></iframe>
         </div>
       </div>
+      <div class="formula-widget-resize" id="formulaWidgetResize" aria-hidden="true"></div>
     `;
     document.body.appendChild(widget);
 
     const header = document.getElementById("formulaWidgetHeader");
     const closeBtn = document.getElementById("formulaClose");
+    const resizeHandle = document.getElementById("formulaWidgetResize");
 
     const launcher = document.createElement("button");
     launcher.type = "button";
@@ -42,8 +44,22 @@
     let dragging = false;
     let dragOffsetX = 0;
     let dragOffsetY = 0;
+    let resizing = false;
+    let resizeStartX = 0;
+    let resizeStartY = 0;
+    let resizeStartW = 0;
+    let resizeStartH = 0;
 
     function onMove(ev) {
+      if (resizing) {
+        const nextW = resizeStartW + (ev.clientX - resizeStartX);
+        const nextH = resizeStartH + (ev.clientY - resizeStartY);
+        const maxW = Math.max(280, window.innerWidth - 16);
+        const maxH = Math.max(260, window.innerHeight - 16);
+        widget.style.width = `${clamp(nextW, 280, maxW)}px`;
+        widget.style.height = `${clamp(nextH, 260, maxH)}px`;
+        return;
+      }
       if (!dragging) {
         return;
       }
@@ -57,6 +73,7 @@
 
     function onUp() {
       dragging = false;
+      resizing = false;
       document.removeEventListener("pointermove", onMove);
       document.removeEventListener("pointerup", onUp);
     }
@@ -70,6 +87,21 @@
         const rect = widget.getBoundingClientRect();
         dragOffsetX = ev.clientX - rect.left;
         dragOffsetY = ev.clientY - rect.top;
+        document.addEventListener("pointermove", onMove);
+        document.addEventListener("pointerup", onUp);
+      });
+    }
+
+    if (resizeHandle) {
+      resizeHandle.addEventListener("pointerdown", (ev) => {
+        ev.preventDefault();
+        ev.stopPropagation();
+        resizing = true;
+        const rect = widget.getBoundingClientRect();
+        resizeStartX = ev.clientX;
+        resizeStartY = ev.clientY;
+        resizeStartW = rect.width;
+        resizeStartH = rect.height;
         document.addEventListener("pointermove", onMove);
         document.addEventListener("pointerup", onUp);
       });

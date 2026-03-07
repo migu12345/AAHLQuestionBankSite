@@ -353,7 +353,7 @@ body {
   overflow: hidden;
   display: grid;
   grid-template-rows: auto minmax(0, 1fr);
-  resize: both;
+  resize: none;
 }
 
 .formula-widget-header {
@@ -415,6 +415,19 @@ body {
   height: 100%;
   border: 0;
   background: #fff;
+}
+
+.formula-widget-resize {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 18px;
+  height: 18px;
+  cursor: nwse-resize;
+  background:
+    linear-gradient(135deg, transparent 45%, #8ea6bf 45%, #8ea6bf 52%, transparent 52%) no-repeat,
+    linear-gradient(135deg, transparent 60%, #8ea6bf 60%, #8ea6bf 67%, transparent 67%) no-repeat;
+  background-size: 100% 100%, 100% 100%;
 }
 
 .filters {
@@ -970,7 +983,7 @@ button:hover {
     min-width: 0;
     height: min(48vh, 430px);
     min-height: 220px;
-    resize: both;
+    resize: none;
   }
 
   .compare-modal-panel {
