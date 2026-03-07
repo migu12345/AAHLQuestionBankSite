@@ -226,7 +226,7 @@ function filterQuestions() {
   const selectedSubtopic = subtopicFilter.value;
   const searchTerm = searchInput.value.trim();
 
-  return state.allQuestions.filter((q) => {
+  let rows = state.allQuestions.filter((q) => {
     const level = inferLevel(q);
     const levelMatch = !selectedLevel || level === selectedLevel;
     const paperTypeMatch = !selectedPaperType || q.paper_type === selectedPaperType;
@@ -248,6 +248,11 @@ function filterQuestions() {
       searchMatch
     );
   });
+
+  if (!selectedLevel) {
+    rows = dedupeForAllLevels(rows);
+  }
+  return rows;
 }
 
 function parsePaperMeta(paperLabel) {
@@ -264,6 +269,26 @@ function parsePaperMeta(paperLabel) {
     timezone: m[4] || "No TZ",
     level: m[5].toUpperCase(),
   };
+}
+
+function dedupeForAllLevels(rows) {
+  const byKey = new Map();
+  rows.forEach((q) => {
+    const meta = parsePaperMeta(q.paper);
+    const key = meta
+      ? [meta.session, meta.year, meta.paperNo, meta.timezone, q.paper_type || "", q.question_number || ""].join("|")
+      : `${q.paper || ""}|${q.paper_type || ""}|${q.question_number || ""}`;
+
+    const existing = byKey.get(key);
+    if (!existing) {
+      byKey.set(key, q);
+      return;
+    }
+    if (inferLevel(q) === "SL" && inferLevel(existing) !== "SL") {
+      byKey.set(key, q);
+    }
+  });
+  return [...byKey.values()];
 }
 
 function filterQuestionsByBundle() {
