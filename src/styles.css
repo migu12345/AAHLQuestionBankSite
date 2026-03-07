@@ -162,6 +162,53 @@ body {
   color: var(--muted);
 }
 
+.paper-picker {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 0.9rem;
+  background: rgba(255, 255, 255, 0.9);
+  border: 1px solid rgba(201, 192, 177, 0.75);
+  border-radius: 16px;
+  box-shadow: var(--shadow);
+  padding: 0.9rem;
+  margin-bottom: 0.95rem;
+}
+
+.paper-launcher {
+  background: rgba(255, 255, 255, 0.9);
+  border: 1px solid rgba(201, 192, 177, 0.75);
+  border-radius: 16px;
+  box-shadow: var(--shadow);
+  padding: 0.95rem;
+}
+
+.paper-buttons {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 0.8rem;
+}
+
+.paper-open-btn {
+  min-height: 4rem;
+  text-align: left;
+  padding: 0.7rem 0.8rem;
+  display: grid;
+  gap: 0.2rem;
+  background: #edf5ff;
+  border-color: #cadcf6;
+  color: #1f3561;
+}
+
+.paper-open-btn:hover {
+  background: #e1eefc;
+}
+
+.paper-open-btn span {
+  font-weight: 600;
+  font-size: 0.86rem;
+  color: #334d79;
+}
+
 .filters {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));

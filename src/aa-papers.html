@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Math AA Papers</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="hero">
+      <div class="hero-row">
+        <h1>Math AA Papers</h1>
+        <a class="hero-link" href="index.html">Home</a>
+      </div>
+      <p>Select level, year, session, timezone, then open the exact paper.</p>
+    </header>
+
+    <main class="layout">
+      <section class="paper-picker">
+        <label>
+          Level
+          <select id="paperLevelFilter">
+            <option value="">Choose level</option>
+          </select>
+        </label>
+
+        <label>
+          Year
+          <select id="paperYearFilter">
+            <option value="">Choose year</option>
+          </select>
+        </label>
+
+        <label>
+          Session
+          <select id="paperSessionFilter">
+            <option value="">Choose session</option>
+          </select>
+        </label>
+
+        <label>
+          Time zone
+          <select id="paperTzFilter">
+            <option value="">Choose timezone</option>
+          </select>
+        </label>
+      </section>
+
+      <section class="paper-launcher">
+        <p id="paperSelectionLabel" class="count-line"></p>
+        <div id="paperButtons" class="paper-buttons"></div>
+      </section>
+    </main>
+
+    <script src="aa-papers.js"></script>
+  </body>
+</html>

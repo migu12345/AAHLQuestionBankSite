@@ -410,6 +410,40 @@ function createImageWithFallback(relPath, altText) {
   return img;
 }
 
+function applyInitialQueryFilters() {
+  const params = new URLSearchParams(window.location.search);
+  const level = params.get("level");
+  const paperType = params.get("paperType");
+  const paper = params.get("paper");
+  const topic = params.get("topic");
+  const subtopic = params.get("subtopic");
+  const difficulty = params.get("difficulty");
+  const search = params.get("search");
+
+  if (level && [...levelFilter.options].some((o) => o.value === level)) {
+    levelFilter.value = level;
+  }
+  if (paperType && [...paperTypeFilter.options].some((o) => o.value === paperType)) {
+    paperTypeFilter.value = paperType;
+  }
+  if (paper && [...paperFilter.options].some((o) => o.value === paper)) {
+    paperFilter.value = paper;
+  }
+  if (topic && [...topicFilter.options].some((o) => o.value === topic)) {
+    topicFilter.value = topic;
+    updateSubtopicOptions();
+  }
+  if (subtopic && [...subtopicFilter.options].some((o) => o.value === subtopic)) {
+    subtopicFilter.value = subtopic;
+  }
+  if (difficulty && [...difficultyFilter.options].some((o) => o.value === difficulty)) {
+    difficultyFilter.value = difficulty;
+  }
+  if (search) {
+    searchInput.value = search;
+  }
+}
+
 function bindEvents() {
   levelFilter.addEventListener("change", () => renderQuestions(true));
   paperTypeFilter.addEventListener("change", () => renderQuestions(true));
@@ -464,6 +498,7 @@ async function start() {
   try {
     await loadData();
     hydrateFilters();
+    applyInitialQueryFilters();
     bindEvents();
     renderQuestions(true);
   } catch (error) {
