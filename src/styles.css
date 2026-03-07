@@ -153,6 +153,46 @@ body {
   margin: 0 auto 2.8rem;
 }
 
+.site-cover {
+  position: relative;
+  overflow: hidden;
+  border-radius: 18px;
+  border: 1px solid rgba(180, 197, 214, 0.7);
+  box-shadow: var(--shadow);
+  background:
+    linear-gradient(135deg, rgba(16, 62, 84, 0.92), rgba(32, 100, 128, 0.88)),
+    radial-gradient(620px 280px at 85% 20%, rgba(255, 255, 255, 0.16), transparent 70%);
+  color: #f5fbff;
+  margin-bottom: 1rem;
+}
+
+.site-cover-inner {
+  padding: clamp(1rem, 3vw, 2rem);
+}
+
+.cover-kicker {
+  margin: 0 0 0.35rem;
+  text-transform: uppercase;
+  letter-spacing: 0.09em;
+  font-size: 0.76rem;
+  font-weight: 700;
+  color: #c9e8f8;
+}
+
+.site-cover h2 {
+  margin: 0;
+  font-size: clamp(1.4rem, 3.1vw, 2.2rem);
+  line-height: 1.2;
+  letter-spacing: 0.01em;
+}
+
+.cover-subtitle {
+  margin: 0.6rem 0 0;
+  max-width: 68ch;
+  color: #e2f3fb;
+  font-size: 0.98rem;
+}
+
 .home-grid {
   display: grid;
   gap: 1rem;
