@@ -55,9 +55,13 @@
         "paper_file": "Physics_paper_1A_TZ1_HL.pdf",
         "markscheme_file": "Physics_paper_1A_TZ1_HL_markscheme.pdf"
       },
-      "question_image_paths": [],
+      "question_image_paths": [
+        "images/questions/phys_m25_p1a_tz1_q2_hl.png"
+      ],
       "markscheme_image_paths": [],
-      "question_images": [],
+      "question_images": [
+        "images/questions/phys_m25_p1a_tz1_q2_hl.png"
+      ],
       "markscheme_images": []
     },
     {
@@ -1313,9 +1317,13 @@
         "paper_file": "Physics_paper_1A_TZ1_HL.pdf",
         "markscheme_file": "Physics_paper_1A_TZ1_HL_markscheme.pdf"
       },
-      "question_image_paths": [],
+      "question_image_paths": [
+        "images/questions/phys_m25_p1a_tz1_q53_hl.png"
+      ],
       "markscheme_image_paths": [],
-      "question_images": [],
+      "question_images": [
+        "images/questions/phys_m25_p1a_tz1_q53_hl.png"
+      ],
       "markscheme_images": []
     },
     {
@@ -1405,9 +1413,13 @@
         "paper_file": "Physics_paper_1A_TZ1_SL.pdf",
         "markscheme_file": "Physics_paper_1A_TZ1_SL_markscheme.pdf"
       },
-      "question_image_paths": [],
+      "question_image_paths": [
+        "images/questions/phys_m25_p1a_tz1_q2_sl.png"
+      ],
       "markscheme_image_paths": [],
-      "question_images": [],
+      "question_images": [
+        "images/questions/phys_m25_p1a_tz1_q2_sl.png"
+      ],
       "markscheme_images": []
     },
     {
@@ -2179,9 +2191,13 @@
         "paper_file": "Physics_paper_1A_TZ1_SL.pdf",
         "markscheme_file": "Physics_paper_1A_TZ1_SL_markscheme.pdf"
       },
-      "question_image_paths": [],
+      "question_image_paths": [
+        "images/questions/phys_m25_p1a_tz1_q53_sl.png"
+      ],
       "markscheme_image_paths": [],
-      "question_images": [],
+      "question_images": [
+        "images/questions/phys_m25_p1a_tz1_q53_sl.png"
+      ],
       "markscheme_images": []
     },
     {
@@ -2533,9 +2549,13 @@
         "paper_file": "Physics_paper_1A_TZ2_HL.pdf",
         "markscheme_file": "Physics_paper_1A_TZ2_HL_markscheme.pdf"
       },
-      "question_image_paths": [],
+      "question_image_paths": [
+        "images/questions/phys_m25_p1a_tz2_q10_hl.png"
+      ],
       "markscheme_image_paths": [],
-      "question_images": [],
+      "question_images": [
+        "images/questions/phys_m25_p1a_tz2_q10_hl.png"
+      ],
       "markscheme_images": []
     },
     {
@@ -2691,11 +2711,15 @@
         "paper_file": "Physics_paper_1A_TZ2_HL.pdf",
         "markscheme_file": "Physics_paper_1A_TZ2_HL_markscheme.pdf"
       },
-      "question_image_paths": [],
+      "question_image_paths": [
+        "images/questions/phys_m25_p1a_tz2_q15_hl.png"
+      ],
       "markscheme_image_paths": [
         "images/markschemes/phys_m25_p1a_tz2_q15_hl.png"
       ],
-      "question_images": [],
+      "question_images": [
+        "images/questions/phys_m25_p1a_tz2_q15_hl.png"
+      ],
       "markscheme_images": [
         "images/markschemes/phys_m25_p1a_tz2_q15_hl.png"
       ]
@@ -4337,9 +4361,13 @@
         "paper_file": "Physics_paper_1A_TZ3_HL.pdf",
         "markscheme_file": "Physics_paper_1A_TZ3_HL_markscheme.pdf"
       },
-      "question_image_paths": [],
+      "question_image_paths": [
+        "images/questions/phys_m25_p1a_tz3_q1_hl.png"
+      ],
       "markscheme_image_paths": [],
-      "question_images": [],
+      "question_images": [
+        "images/questions/phys_m25_p1a_tz3_q1_hl.png"
+      ],
       "markscheme_images": []
     },
     {
@@ -4399,12 +4427,16 @@
         "paper_file": "Physics_paper_1A_TZ3_HL.pdf",
         "markscheme_file": "Physics_paper_1A_TZ3_HL_markscheme.pdf"
       },
-      "question_image_paths": [],
+      "question_image_paths": [
+        "images/questions/phys_m25_p1a_tz3_q3_hl.png"
+      ],
       "markscheme_image_paths": [
         "images/markschemes/phys_m25_p1a_tz3_q3_hl_p1.png",
         "images/markschemes/phys_m25_p1a_tz3_q3_hl_p2.png"
       ],
-      "question_images": [],
+      "question_images": [
+        "images/questions/phys_m25_p1a_tz3_q3_hl.png"
+      ],
       "markscheme_images": [
         "images/markschemes/phys_m25_p1a_tz3_q3_hl_p1.png",
         "images/markschemes/phys_m25_p1a_tz3_q3_hl_p2.png"
@@ -4433,9 +4465,13 @@
         "paper_file": "Physics_paper_1A_TZ3_HL.pdf",
         "markscheme_file": "Physics_paper_1A_TZ3_HL_markscheme.pdf"
       },
-      "question_image_paths": [],
+      "question_image_paths": [
+        "images/questions/phys_m25_p1a_tz3_q4_hl.png"
+      ],
       "markscheme_image_paths": [],
-      "question_images": [],
+      "question_images": [
+        "images/questions/phys_m25_p1a_tz3_q4_hl.png"
+      ],
       "markscheme_images": []
     },
     {
@@ -5617,9 +5653,13 @@
         "paper_file": "Physics_paper_1A_TZ3_SL.pdf",
         "markscheme_file": "Physics_paper_1A_TZ3_SL_markscheme.pdf"
       },
-      "question_image_paths": [],
+      "question_image_paths": [
+        "images/questions/phys_m25_p1a_tz3_q1_sl.png"
+      ],
       "markscheme_image_paths": [],
-      "question_images": [],
+      "question_images": [
+        "images/questions/phys_m25_p1a_tz3_q1_sl.png"
+      ],
       "markscheme_images": []
     },
     {
@@ -5679,12 +5719,16 @@
         "paper_file": "Physics_paper_1A_TZ3_SL.pdf",
         "markscheme_file": "Physics_paper_1A_TZ3_SL_markscheme.pdf"
       },
-      "question_image_paths": [],
+      "question_image_paths": [
+        "images/questions/phys_m25_p1a_tz3_q3_sl.png"
+      ],
       "markscheme_image_paths": [
         "images/markschemes/phys_m25_p1a_tz3_q3_sl_p1.png",
         "images/markschemes/phys_m25_p1a_tz3_q3_sl_p2.png"
       ],
-      "question_images": [],
+      "question_images": [
+        "images/questions/phys_m25_p1a_tz3_q3_sl.png"
+      ],
       "markscheme_images": [
         "images/markschemes/phys_m25_p1a_tz3_q3_sl_p1.png",
         "images/markschemes/phys_m25_p1a_tz3_q3_sl_p2.png"
@@ -5713,9 +5757,13 @@
         "paper_file": "Physics_paper_1A_TZ3_SL.pdf",
         "markscheme_file": "Physics_paper_1A_TZ3_SL_markscheme.pdf"
       },
-      "question_image_paths": [],
+      "question_image_paths": [
+        "images/questions/phys_m25_p1a_tz3_q4_sl.png"
+      ],
       "markscheme_image_paths": [],
-      "question_images": [],
+      "question_images": [
+        "images/questions/phys_m25_p1a_tz3_q4_sl.png"
+      ],
       "markscheme_images": []
     },
     {
@@ -7167,9 +7215,13 @@
         "paper_file": "Physics_paper_1B_TZ3_HL.pdf",
         "markscheme_file": "Physics_paper_1B_TZ3_HL_markscheme.pdf"
       },
-      "question_image_paths": [],
+      "question_image_paths": [
+        "images/questions/phys_m25_p1b_tz3_q50_hl.png"
+      ],
       "markscheme_image_paths": [],
-      "question_images": [],
+      "question_images": [
+        "images/questions/phys_m25_p1b_tz3_q50_hl.png"
+      ],
       "markscheme_images": []
     },
     {
@@ -7301,9 +7353,13 @@
         "paper_file": "Physics_paper_1B_TZ3_SL.pdf",
         "markscheme_file": "Physics_paper_1B_TZ3_SL_markscheme.pdf"
       },
-      "question_image_paths": [],
+      "question_image_paths": [
+        "images/questions/phys_m25_p1b_tz3_q50_sl.png"
+      ],
       "markscheme_image_paths": [],
-      "question_images": [],
+      "question_images": [
+        "images/questions/phys_m25_p1b_tz3_q50_sl.png"
+      ],
       "markscheme_images": []
     },
     {
@@ -8595,9 +8651,25 @@
         "paper_file": "Physics_paper_2_TZ3_HL.pdf",
         "markscheme_file": "Physics_paper_2_TZ3_HL_markscheme.pdf"
       },
-      "question_image_paths": [],
+      "question_image_paths": [
+        "images/questions/phys_m25_p2_tz3_q3_hl_p1.png",
+        "images/questions/phys_m25_p2_tz3_q3_hl_p2.png",
+        "images/questions/phys_m25_p2_tz3_q3_hl_p3.png",
+        "images/questions/phys_m25_p2_tz3_q3_hl_p4.png",
+        "images/questions/phys_m25_p2_tz3_q3_hl_p6.png",
+        "images/questions/phys_m25_p2_tz3_q3_hl_p7.png",
+        "images/questions/phys_m25_p2_tz3_q3_hl_p8.png"
+      ],
       "markscheme_image_paths": [],
-      "question_images": [],
+      "question_images": [
+        "images/questions/phys_m25_p2_tz3_q3_hl_p1.png",
+        "images/questions/phys_m25_p2_tz3_q3_hl_p2.png",
+        "images/questions/phys_m25_p2_tz3_q3_hl_p3.png",
+        "images/questions/phys_m25_p2_tz3_q3_hl_p4.png",
+        "images/questions/phys_m25_p2_tz3_q3_hl_p6.png",
+        "images/questions/phys_m25_p2_tz3_q3_hl_p7.png",
+        "images/questions/phys_m25_p2_tz3_q3_hl_p8.png"
+      ],
       "markscheme_images": []
     },
     {
