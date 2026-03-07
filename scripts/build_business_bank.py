@@ -379,11 +379,11 @@ def extract_tz_from_filename(filename: str) -> Optional[int]:
 
 def is_case_study_candidate(filename: str) -> bool:
     low = filename.lower()
-    if "paper_1" not in low:
-        return False
-    if "markscheme" in low:
-        return False
-    return True
+    return (
+        "paper_1" in low
+        and "markscheme" not in low
+        and ("case_study" in low or "pre-released_statement" in low)
+    )
 
 
 def case_study_score(filename: str) -> int:
@@ -392,10 +392,6 @@ def case_study_score(filename: str) -> int:
         return 6
     if "case_study" in low:
         return 5
-    if "hlsl" in low:
-        return 4
-    if "paper_1" in low:
-        return 3
     return 1
 
 

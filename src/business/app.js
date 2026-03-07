@@ -19,6 +19,11 @@ const resultCount = document.getElementById("resultCount");
 const questionTemplate = document.getElementById("questionTemplate");
 const loadMoreWrap = document.getElementById("loadMoreWrap");
 const loadMoreBtn = document.getElementById("loadMoreBtn");
+const caseStudyModal = document.getElementById("caseStudyModal");
+const caseStudyBackdrop = document.getElementById("caseStudyBackdrop");
+const caseStudyCloseBtn = document.getElementById("caseStudyCloseBtn");
+const caseStudyFrame = document.getElementById("caseStudyFrame");
+const caseStudyTitle = document.getElementById("caseStudyTitle");
 
 function inferLevel(q) {
   if (q.level === "SL" || q.level === "HL") {
@@ -136,6 +141,25 @@ function cleanPreviewText(text) {
     .trim();
 }
 
+function openCaseStudyModal(fileName, paperLabel) {
+  if (!caseStudyModal || !caseStudyFrame || !fileName) {
+    return;
+  }
+  caseStudyFrame.src = `../data/business/raw/papers/${fileName}`;
+  caseStudyTitle.textContent = paperLabel ? `Case study - ${paperLabel}` : "Case study";
+  caseStudyModal.hidden = false;
+  document.body.style.overflow = "hidden";
+}
+
+function closeCaseStudyModal() {
+  if (!caseStudyModal || !caseStudyFrame) {
+    return;
+  }
+  caseStudyModal.hidden = true;
+  caseStudyFrame.src = "";
+  document.body.style.overflow = "";
+}
+
 function buildQuestionNode(q) {
   const node = questionTemplate.content.cloneNode(true);
   const questionImagesEl = node.querySelector(".question-images");
@@ -160,13 +184,12 @@ function buildQuestionNode(q) {
   }
 
   if (q.paper_type === "Paper 2" && q.case_study_file) {
-    const caseLink = document.createElement("a");
-    caseLink.className = "case-study-link";
-    caseLink.href = `../data/business/raw/papers/${q.case_study_file}`;
-    caseLink.target = "_blank";
-    caseLink.rel = "noopener noreferrer";
-    caseLink.textContent = "Case study";
-    titleEl.after(caseLink);
+    const caseBtn = document.createElement("button");
+    caseBtn.className = "case-study-link";
+    caseBtn.type = "button";
+    caseBtn.textContent = "Case study";
+    caseBtn.addEventListener("click", () => openCaseStudyModal(q.case_study_file, q.paper));
+    titleEl.after(caseBtn);
   }
 
   if (qImages.length > 0) {
@@ -274,6 +297,18 @@ function bindEvents() {
   }
 
   loadMoreBtn.addEventListener("click", () => renderQuestions(false));
+
+  if (caseStudyBackdrop) {
+    caseStudyBackdrop.addEventListener("click", closeCaseStudyModal);
+  }
+  if (caseStudyCloseBtn) {
+    caseStudyCloseBtn.addEventListener("click", closeCaseStudyModal);
+  }
+  document.addEventListener("keydown", (event) => {
+    if (event.key === "Escape" && caseStudyModal && !caseStudyModal.hidden) {
+      closeCaseStudyModal();
+    }
+  });
 }
 
 async function start() {
