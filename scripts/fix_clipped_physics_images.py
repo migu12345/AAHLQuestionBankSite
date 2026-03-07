@@ -67,30 +67,39 @@ def detect_question_positions(doc: fitz.Document) -> List[Pos]:
                     continue
 
                 qn: Optional[int] = None
-                m = re.match(r"^(\d{1,2})[.)]\s+", text)
-                if m:
-                    qn = int(m.group(1))
-                else:
-                    m2 = re.match(r"^(\d{1,2})\s+\[", text)
-                    if m2:
-                        qn = int(m2.group(1))
-                    else:
-                        m3 = re.match(r"^(\d{1,2})$", text)
-                        if m3:
-                            pending_num = int(m3.group(1))
-                            pending_x = x
-                            pending_y = y
-                        elif pending_num is not None and re.match(r"^(?:\(|[A-Za-z])", text):
-                            qn = pending_num
-                            x = pending_x
-                            y = pending_y
-                            pending_num = None
+                m_inline = re.match(r"^(\d{1,2})\.\s+", text)
+                m_dot = re.match(r"^(\d{1,2})\.$", text)
+                m_plain = re.match(r"^(\d{1,2})$", text)
+                m_marks = re.match(r"^(\d{1,2})\s+\[", text)
+
+                if m_inline:
+                    qn = int(m_inline.group(1))
+                elif m_dot:
+                    pending_num = int(m_dot.group(1))
+                    pending_x = x
+                    pending_y = y
+                    qn = pending_num
+                elif m_plain:
+                    pending_num = int(m_plain.group(1))
+                    pending_x = x
+                    pending_y = y
+                elif m_marks:
+                    qn = int(m_marks.group(1))
+                elif pending_num is not None and re.match(r"^(?:\(|[A-Za-z])", text) and abs(y - pending_y) <= 120:
+                    qn = pending_num
+                    x = pending_x
+                    y = pending_y
+                    pending_num = None
 
                 if qn is None or not (1 <= qn <= 60):
                     continue
+                if y > 220:
+                    # Start markers are near top/upper-middle of page; deeper matches are often graph labels.
+                    continue
                 if qn in first_by_q:
                     continue
-                first_by_q[qn] = Pos(qnum=qn, page=pno, y=y, x=x)
+                if x <= 140:
+                    first_by_q[qn] = Pos(qnum=qn, page=pno, y=y, x=x)
 
     return sorted(first_by_q.values(), key=lambda p: (p.page, p.y, p.x))
 
@@ -176,7 +185,14 @@ def main() -> None:
     scanned = 0
 
     for paper_file, rows in grouped.items():
-        to_fix = [q for q in rows if has_clipped_image(list(q.get("question_image_paths") or []))]
+        # Rebuild all Paper 1B crops (they are most sensitive to continuation-page clipping),
+        # and also any other rows detected as clipped.
+        to_fix = [
+            q
+            for q in rows
+            if str(q.get("paper_type", "")).strip() == "Paper 1B"
+            or has_clipped_image(list(q.get("question_image_paths") or []))
+        ]
         if not to_fix:
             continue
         pdf_path = find_pdf_by_filename(paper_file)
@@ -206,4 +222,3 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
-
