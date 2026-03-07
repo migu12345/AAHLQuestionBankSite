@@ -215,6 +215,20 @@ def crop_question(
 def ensure_dirs() -> None:
     (OUT_DIR / "questions").mkdir(parents=True, exist_ok=True)
     (OUT_DIR / "markschemes").mkdir(parents=True, exist_ok=True)
+    (OUT_DIR / "case_studies").mkdir(parents=True, exist_ok=True)
+
+
+def render_case_study_doc(doc: fitz.Document, out_prefix: Path) -> List[str]:
+    image_paths: List[str] = []
+    for pno in range(len(doc)):
+        page = doc[pno]
+        clip = fitz.Rect(18.0, 18.0, float(page.rect.width) - 18.0, float(page.rect.height) - 18.0)
+        pix = page.get_pixmap(matrix=fitz.Matrix(2.0, 2.0), clip=clip, alpha=False)
+        out_file = out_prefix.parent / f"{out_prefix.name}_p{pno + 1}.png"
+        pix.save(str(out_file))
+        rel = out_file.relative_to(ROOT / "data" / "business" / "processed").as_posix()
+        image_paths.append(rel)
+    return image_paths
 
 
 def main() -> None:
@@ -227,6 +241,7 @@ def main() -> None:
     ms_docs: Dict[str, fitz.Document] = {}
     paper_starts: Dict[str, List[StartPos]] = {}
     ms_starts: Dict[str, List[StartPos]] = {}
+    case_doc_cache: Dict[str, List[str]] = {}
 
     for q in questions:
         source = q.get("source", {})
@@ -275,6 +290,20 @@ def main() -> None:
 
         q["question_image_paths"] = q_imgs
         q["markscheme_image_paths"] = a_imgs
+        q["case_study_image_paths"] = []
+
+        case_file = q.get("case_study_file")
+        if isinstance(case_file, str) and case_file:
+            if case_file not in case_doc_cache:
+                case_path = PAPERS_DIR / case_file
+                if case_path.exists():
+                    case_doc = fitz.open(str(case_path))
+                    out_prefix = OUT_DIR / "case_studies" / Path(case_file).stem
+                    case_doc_cache[case_file] = render_case_study_doc(case_doc, out_prefix)
+                    case_doc.close()
+                else:
+                    case_doc_cache[case_file] = []
+            q["case_study_image_paths"] = case_doc_cache.get(case_file, [])
 
     for d in paper_docs.values():
         d.close()

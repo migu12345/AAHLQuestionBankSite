@@ -176,7 +176,16 @@ def parse_questions_from_paper(path: Path) -> Dict[int, Dict[str, object]]:
         if len(body) < 20:
             continue
 
-        part_marks = [int(x) for x in re.findall(r"\[(\d+)\s*marks?\]", body, flags=re.IGNORECASE)]
+        # Avoid picking bibliography/source lines in case study pages as questions.
+        has_question_structure = bool(
+            re.search(r"\([a-z]\)", body, flags=re.IGNORECASE)
+            or re.search(r"\[(\d+)(?:\s*marks?)?\]", body, flags=re.IGNORECASE)
+            or re.search(r"maximum mark", body, flags=re.IGNORECASE)
+        )
+        if not has_question_structure:
+            continue
+
+        part_marks = [int(x) for x in re.findall(r"\[(\d+)(?:\s*marks?)?\]", body, flags=re.IGNORECASE)]
         marks = sum(part_marks) if part_marks else 0
 
         out[qn] = {
@@ -230,6 +239,25 @@ def parse_answers_from_markscheme(path: Path) -> Dict[int, str]:
         text_block = re.sub(r"\n{3,}", "\n\n", text_block)
         result[qn] = normalize_ws(text_block)
     return result
+
+
+def infer_marks_from_answer(answer_text: str) -> int:
+    if not answer_text:
+        return 0
+
+    total_m = re.search(r"\btotal\s*\[(\d+)(?:\s*marks?)?\]", answer_text, flags=re.IGNORECASE)
+    if total_m:
+        return int(total_m.group(1))
+
+    part_marks = [
+        int(x)
+        for x in re.findall(
+            r"\([a-z]\)[^\n\[]{0,120}\[(\d+)(?:\s*marks?)?\]",
+            answer_text,
+            flags=re.IGNORECASE,
+        )
+    ]
+    return sum(part_marks) if part_marks else 0
 
 
 def classify_topic(question_text: str, answer_text: str) -> Tuple[str, str, float, List[str]]:
@@ -470,6 +498,9 @@ def build() -> Dict[str, object]:
         for qn in sorted(q_map.keys()):
             q = q_map[qn]
             ans = a_map.get(qn, "Markscheme content not extracted for this question.")
+            marks = int(q.get("marks", 0) or 0)
+            if marks == 0:
+                marks = infer_marks_from_answer(ans)
             topic, subtopic, confidence, reasons = classify_topic(str(q["question_text"]), ans)
 
             tz_part = f"_tz{meta.tz}" if meta.tz is not None else ""
@@ -491,7 +522,7 @@ def build() -> Dict[str, object]:
                     "topic_reason": reasons,
                     "question_text": q["question_text"],
                     "answer_text": ans,
-                    "marks": q["marks"],
+                    "marks": marks,
                     "source": {
                         "paper_file": paper_path.name,
                         "markscheme_file": ms_path.name,

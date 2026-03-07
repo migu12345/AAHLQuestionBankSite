@@ -22,7 +22,7 @@ const loadMoreBtn = document.getElementById("loadMoreBtn");
 const caseStudyModal = document.getElementById("caseStudyModal");
 const caseStudyBackdrop = document.getElementById("caseStudyBackdrop");
 const caseStudyCloseBtn = document.getElementById("caseStudyCloseBtn");
-const caseStudyFrame = document.getElementById("caseStudyFrame");
+const caseStudyBody = document.getElementById("caseStudyBody");
 const caseStudyTitle = document.getElementById("caseStudyTitle");
 
 function inferLevel(q) {
@@ -141,22 +141,36 @@ function cleanPreviewText(text) {
     .trim();
 }
 
-function openCaseStudyModal(fileName, paperLabel) {
-  if (!caseStudyModal || !caseStudyFrame || !fileName) {
+function openCaseStudyModal(imagePaths, paperLabel) {
+  if (!caseStudyModal || !caseStudyBody || !Array.isArray(imagePaths)) {
     return;
   }
-  caseStudyFrame.src = `../data/business/raw/papers/${fileName}`;
+  caseStudyBody.innerHTML = "";
+  if (imagePaths.length === 0) {
+    const msg = document.createElement("p");
+    msg.className = "case-modal-empty";
+    msg.textContent = "Case study images are not available for this question yet.";
+    caseStudyBody.appendChild(msg);
+  } else {
+    imagePaths.forEach((imgPath, idx) => {
+      const img = document.createElement("img");
+      img.src = `../data/business/processed/${imgPath}`;
+      img.alt = `Case study page ${idx + 1}`;
+      img.loading = "lazy";
+      caseStudyBody.appendChild(img);
+    });
+  }
   caseStudyTitle.textContent = paperLabel ? `Case study - ${paperLabel}` : "Case study";
   caseStudyModal.hidden = false;
   document.body.style.overflow = "hidden";
 }
 
 function closeCaseStudyModal() {
-  if (!caseStudyModal || !caseStudyFrame) {
+  if (!caseStudyModal || !caseStudyBody) {
     return;
   }
   caseStudyModal.hidden = true;
-  caseStudyFrame.src = "";
+  caseStudyBody.innerHTML = "";
   document.body.style.overflow = "";
 }
 
@@ -188,7 +202,7 @@ function buildQuestionNode(q) {
     caseBtn.className = "case-study-link";
     caseBtn.type = "button";
     caseBtn.textContent = "Case study";
-    caseBtn.addEventListener("click", () => openCaseStudyModal(q.case_study_file, q.paper));
+    caseBtn.addEventListener("click", () => openCaseStudyModal(q.case_study_image_paths || [], q.paper));
     titleEl.after(caseBtn);
   }
 

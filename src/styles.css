@@ -350,6 +350,28 @@ button:hover {
   flex: 1;
 }
 
+.case-modal-body {
+  flex: 1;
+  overflow: auto;
+  padding: 0.65rem;
+  background: #f6f7fb;
+  display: grid;
+  gap: 0.6rem;
+}
+
+.case-modal-body img {
+  width: 100%;
+  height: auto;
+  border: 1px solid var(--line-strong);
+  border-radius: 10px;
+  background: #fff;
+}
+
+.case-modal-empty {
+  margin: 0;
+  color: var(--muted);
+}
+
 .question-card .question,
 .question-card .answer {
   white-space: pre-wrap;
