@@ -169,20 +169,6 @@ function refreshTimezoneOptions() {
   }
 }
 
-function openPaper(paper) {
-  const params = buildBaseParams(paper);
-  if (paper.isManual && paper.paperFile) {
-    params.set("sourcePaper", paper.paperFile);
-    if (paper.paperPath) {
-      params.set("sourcePaperPath", paper.paperPath);
-    }
-    if (paper.hasMarkscheme === false) {
-      params.set("noMs", "1");
-    }
-  }
-  window.location.href = `aa-bank.html?${params.toString()}`;
-}
-
 function getExamDurationMinutes(level, paperNo) {
   const lvl = String(level || "").toUpperCase();
   const p = Number(paperNo);
@@ -266,12 +252,6 @@ function renderPaperButtons() {
     const actions = document.createElement("div");
     actions.className = "paper-open-actions";
 
-    const openBtn = document.createElement("button");
-    openBtn.type = "button";
-    openBtn.className = "paper-open-btn";
-    openBtn.textContent = "Open paper";
-    openBtn.addEventListener("click", () => openPaper(paper));
-
     const examBtn = document.createElement("button");
     examBtn.type = "button";
     examBtn.className = "paper-exam-btn";
@@ -290,7 +270,6 @@ function renderPaperButtons() {
       wrapper.appendChild(note);
     }
 
-    actions.appendChild(openBtn);
     actions.appendChild(examBtn);
     wrapper.appendChild(head);
     wrapper.appendChild(sub);

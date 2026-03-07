@@ -14,9 +14,24 @@ function sortPaperCode(a, b) {
 }
 
 async function loadData() {
-  const res = await fetch("/data/physics/processed/manual_papers.json");
-  if (!res.ok) {
-    throw new Error(`HTTP ${res.status}`);
+  const candidates = [
+    "/data/physics/processed/manual_papers.json",
+    "/data/processed/physics_manual_papers.json",
+  ];
+
+  let res = null;
+  let lastStatus = "";
+  for (const url of candidates) {
+    const attempt = await fetch(url);
+    if (attempt.ok) {
+      res = attempt;
+      break;
+    }
+    lastStatus = `${attempt.status}`;
+  }
+
+  if (!res) {
+    throw new Error(`HTTP ${lastStatus || "404"}`);
   }
   const payload = await res.json();
   const papers = Array.isArray(payload.papers) ? payload.papers : [];

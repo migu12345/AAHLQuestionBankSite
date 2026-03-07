@@ -3,6 +3,7 @@ const state = {
   topics: [],
   filteredQuestions: [],
   visibleCount: 0,
+  slPriorityDuplicateKeys: new Set(),
   userActions: {},
   paperBundle: null,
   paperSourceFile: "",
@@ -93,6 +94,7 @@ async function loadData() {
 
   state.allQuestions = questionData.questions || [];
   state.topics = topicData.topics || [];
+  buildSlPriorityDuplicateKeys();
 }
 
 function hydrateFilters() {
@@ -237,8 +239,19 @@ function filterQuestions() {
     const topicMatch = !selectedTopic || q.topic === selectedTopic;
     const subtopicMatch = !selectedSubtopic || q.subtopic === selectedSubtopic;
     const searchMatch = matchesSearchQuery(q, searchTerm, level);
+    const duplicateMatch = !shouldHideAsCrossLevelDuplicate(q);
 
-    return levelMatch && paperTypeMatch && paperMatch && difficultyMatch && savedMatch && topicMatch && subtopicMatch && searchMatch;
+    return (
+      levelMatch &&
+      paperTypeMatch &&
+      paperMatch &&
+      difficultyMatch &&
+      savedMatch &&
+      topicMatch &&
+      subtopicMatch &&
+      searchMatch &&
+      duplicateMatch
+    );
   });
 }
 
@@ -254,6 +267,58 @@ function parsePaperMeta(paperLabel) {
     timezone: m[4] || "No TZ",
     level: m[5].toUpperCase(),
   };
+}
+
+function buildCrossLevelDuplicateKey(q) {
+  const meta = parsePaperMeta(q.paper);
+  if (!meta) {
+    return null;
+  }
+  const textBasis = normalizeForSearch(q.question_text || q.title || "");
+  if (textBasis.length < 24) {
+    return null;
+  }
+  return [
+    meta.session,
+    meta.year,
+    meta.paperNo,
+    meta.timezone,
+    normalizeForSearch(q.paper_type || ""),
+    String(Number.isFinite(q.marks) ? q.marks : ""),
+    normalizeForSearch(q.topic || ""),
+    normalizeForSearch(q.subtopic || ""),
+    textBasis.slice(0, 260),
+  ].join("|");
+}
+
+function buildSlPriorityDuplicateKeys() {
+  const seen = new Map();
+  state.allQuestions.forEach((q) => {
+    const key = buildCrossLevelDuplicateKey(q);
+    if (!key) {
+      return;
+    }
+    const level = inferLevel(q);
+    if (!seen.has(key)) {
+      seen.set(key, new Set());
+    }
+    seen.get(key).add(level);
+  });
+
+  state.slPriorityDuplicateKeys = new Set(
+    [...seen.entries()].filter(([, levels]) => levels.has("SL") && levels.has("HL")).map(([key]) => key)
+  );
+}
+
+function shouldHideAsCrossLevelDuplicate(q) {
+  if (inferLevel(q) !== "HL") {
+    return false;
+  }
+  const key = buildCrossLevelDuplicateKey(q);
+  if (!key) {
+    return false;
+  }
+  return state.slPriorityDuplicateKeys.has(key);
 }
 
 function filterQuestionsByBundle() {
@@ -287,7 +352,8 @@ function filterQuestionsByBundle() {
     const action = getUserAction(q.id);
     const savedMatch = !selectedSaved || (selectedSaved === "saved" ? action.saved : action.done);
     const searchMatch = matchesSearchQuery(q, searchTerm, inferLevel(q));
-    return topicMatch && subtopicMatch && difficultyMatch && savedMatch && searchMatch;
+    const duplicateMatch = !shouldHideAsCrossLevelDuplicate(q);
+    return topicMatch && subtopicMatch && difficultyMatch && savedMatch && searchMatch && duplicateMatch;
   });
 
   if (bundle.level === "HL") {
@@ -301,7 +367,7 @@ function filterQuestionsByBundle() {
       }
       const currLevel = inferLevel(q);
       const prevLevel = inferLevel(existing);
-      if (currLevel === "HL" && prevLevel !== "HL") {
+      if (currLevel === "SL" && prevLevel !== "SL") {
         byQNum.set(qn, q);
       }
     });

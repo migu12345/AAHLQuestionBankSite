@@ -1,0 +1,184 @@
+{
+  "papers": [
+    {
+      "paperLabel": "May 2025 Physics Paper 1A TZ1 HL",
+      "session": "May",
+      "year": 2025,
+      "paperCode": "1A",
+      "timezone": "TZ1",
+      "level": "HL",
+      "paper_path": "resources/physics/m25/Physics_paper_1A_TZ1_HL.pdf",
+      "markscheme_path": "resources/physics/m25/Physics_paper_1A_TZ1_HL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "May 2025 Physics Paper 1A TZ1 SL",
+      "session": "May",
+      "year": 2025,
+      "paperCode": "1A",
+      "timezone": "TZ1",
+      "level": "SL",
+      "paper_path": "resources/physics/m25/Physics_paper_1A_TZ1_SL.pdf",
+      "markscheme_path": "resources/physics/m25/Physics_paper_1A_TZ1_SL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "May 2025 Physics Paper 1A TZ2 HL",
+      "session": "May",
+      "year": 2025,
+      "paperCode": "1A",
+      "timezone": "TZ2",
+      "level": "HL",
+      "paper_path": "resources/physics/m25/Physics_paper_1A_TZ2_HL.pdf",
+      "markscheme_path": "resources/physics/m25/Physics_paper_1A_TZ2_HL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "May 2025 Physics Paper 1A TZ2 SL",
+      "session": "May",
+      "year": 2025,
+      "paperCode": "1A",
+      "timezone": "TZ2",
+      "level": "SL",
+      "paper_path": "resources/physics/m25/Physics_paper_1A_TZ2_SL.pdf",
+      "markscheme_path": "resources/physics/m25/Physics_paper_1A_TZ2_SL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "May 2025 Physics Paper 1A TZ3 HL",
+      "session": "May",
+      "year": 2025,
+      "paperCode": "1A",
+      "timezone": "TZ3",
+      "level": "HL",
+      "paper_path": "resources/physics/m25/Physics_paper_1A_TZ3_HL.pdf",
+      "markscheme_path": "resources/physics/m25/Physics_paper_1A_TZ3_HL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "May 2025 Physics Paper 1A TZ3 SL",
+      "session": "May",
+      "year": 2025,
+      "paperCode": "1A",
+      "timezone": "TZ3",
+      "level": "SL",
+      "paper_path": "resources/physics/m25/Physics_paper_1A_TZ3_SL.pdf",
+      "markscheme_path": "resources/physics/m25/Physics_paper_1A_TZ3_SL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "May 2025 Physics Paper 1B TZ1 HL",
+      "session": "May",
+      "year": 2025,
+      "paperCode": "1B",
+      "timezone": "TZ1",
+      "level": "HL",
+      "paper_path": "resources/physics/m25/Physics_paper_1B_TZ1_HL.pdf",
+      "markscheme_path": "resources/physics/m25/Physics_paper_1B_TZ1_HL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "May 2025 Physics Paper 1B TZ1 SL",
+      "session": "May",
+      "year": 2025,
+      "paperCode": "1B",
+      "timezone": "TZ1",
+      "level": "SL",
+      "paper_path": "resources/physics/m25/Physics_paper_1B_TZ1_SL.pdf",
+      "markscheme_path": "resources/physics/m25/Physics_paper_1B_TZ1_SL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "May 2025 Physics Paper 1B TZ2 HL",
+      "session": "May",
+      "year": 2025,
+      "paperCode": "1B",
+      "timezone": "TZ2",
+      "level": "HL",
+      "paper_path": "resources/physics/m25/Physics_paper_1B_TZ2_HL.pdf",
+      "markscheme_path": "resources/physics/m25/Physics_paper_1B_TZ2_HL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "May 2025 Physics Paper 1B TZ2 SL",
+      "session": "May",
+      "year": 2025,
+      "paperCode": "1B",
+      "timezone": "TZ2",
+      "level": "SL",
+      "paper_path": "resources/physics/m25/Physics_paper_1B_TZ2_SL.pdf",
+      "markscheme_path": "resources/physics/m25/Physics_paper_1B_TZ2_SL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "May 2025 Physics Paper 1B TZ3 HL",
+      "session": "May",
+      "year": 2025,
+      "paperCode": "1B",
+      "timezone": "TZ3",
+      "level": "HL",
+      "paper_path": "resources/physics/m25/Physics_paper_1B_TZ3_HL.pdf",
+      "markscheme_path": "resources/physics/m25/Physics_paper_1B_TZ3_HL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "May 2025 Physics Paper 1B TZ3 SL",
+      "session": "May",
+      "year": 2025,
+      "paperCode": "1B",
+      "timezone": "TZ3",
+      "level": "SL",
+      "paper_path": "resources/physics/m25/Physics_paper_1B_TZ3_SL.pdf",
+      "markscheme_path": "resources/physics/m25/Physics_paper_1B_TZ3_SL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "May 2025 Physics Paper 2 TZ1 HL",
+      "session": "May",
+      "year": 2025,
+      "paperCode": "2",
+      "timezone": "TZ1",
+      "level": "HL",
+      "paper_path": "resources/physics/m25/Physics_paper_2_TZ1_HL.pdf",
+      "markscheme_path": "resources/physics/m25/Physics_paper_2_TZ1_HL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "May 2025 Physics Paper 2 TZ1 SL",
+      "session": "May",
+      "year": 2025,
+      "paperCode": "2",
+      "timezone": "TZ1",
+      "level": "SL",
+      "paper_path": "resources/physics/m25/Physics_paper_2_TZ1_SL.pdf",
+      "markscheme_path": "resources/physics/m25/Physics_paper_2_TZ1_SL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "May 2025 Physics Paper 2 TZ2 HL",
+      "session": "May",
+      "year": 2025,
+      "paperCode": "2",
+      "timezone": "TZ2",
+      "level": "HL",
+      "paper_path": "resources/physics/m25/Physics_paper_2_TZ2_HL.pdf",
+      "markscheme_path": "resources/physics/m25/Physics_paper_2_TZ2_HL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "May 2025 Physics Paper 2 TZ2 SL",
+      "session": "May",
+      "year": 2025,
+      "paperCode": "2",
+      "timezone": "TZ2",
+      "level": "SL",
+      "paper_path": "resources/physics/m25/Physics_paper_2_TZ2_SL.pdf",
+      "markscheme_path": "resources/physics/m25/Physics_paper_2_TZ2_SL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "May 2025 Physics Paper 2 TZ3 HL",
+      "session": "May",
+      "year": 2025,
+      "paperCode": "2",
+      "timezone": "TZ3",
+      "level": "HL",
+      "paper_path": "resources/physics/m25/Physics_paper_2_TZ3_HL.pdf",
+      "markscheme_path": "resources/physics/m25/Physics_paper_2_TZ3_HL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "May 2025 Physics Paper 2 TZ3 SL",
+      "session": "May",
+      "year": 2025,
+      "paperCode": "2",
+      "timezone": "TZ3",
+      "level": "SL",
+      "paper_path": "resources/physics/m25/Physics_paper_2_TZ3_SL.pdf",
+      "markscheme_path": "resources/physics/m25/Physics_paper_2_TZ3_SL_markscheme.pdf"
+    }
+  ]
+}
