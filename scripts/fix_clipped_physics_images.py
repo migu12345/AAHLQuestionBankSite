@@ -191,6 +191,8 @@ def main() -> None:
 
     fixed = 0
     scanned = 0
+    removed = 0
+    remove_ids: set[str] = set()
 
     for paper_file, rows in grouped.items():
         # Rebuild all Paper 1B crops (they are most sensitive to continuation-page clipping),
@@ -208,11 +210,28 @@ def main() -> None:
             continue
         doc = fitz.open(pdf_path)
         positions = detect_question_positions(doc)
+        detected_qnums = {p.qnum for p in positions}
+
+        # Cleanup stale/invalid Paper 1B rows created by earlier false split detection.
+        for q in rows:
+            if str(q.get("paper_type", "")).strip() != "Paper 1B":
+                continue
+            qid = str(q.get("id", "")).strip()
+            qnum = int(str(q.get("question_number", "0")) or 0)
+            if not qid or qnum <= 0:
+                continue
+            if qnum not in detected_qnums:
+                remove_ids.add(qid)
+                for old in Q_IMG_DIR.glob(f"{qid}*.png"):
+                    old.unlink(missing_ok=True)
+                removed += 1
 
         for q in to_fix:
             scanned += 1
             qid = str(q.get("id", "")).strip()
             qnum = int(str(q.get("question_number", "0")) or 0)
+            if qid in remove_ids:
+                continue
             if not qid or qnum <= 0:
                 continue
             out_base = Q_IMG_DIR / qid
@@ -223,9 +242,13 @@ def main() -> None:
                 fixed += 1
         doc.close()
 
+    if remove_ids:
+        payload["questions"] = [q for q in questions if str(q.get("id", "")).strip() not in remove_ids]
+
     QUESTIONS_JSON.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
     print(f"Scanned clipped candidates: {scanned}")
     print(f"Fixed question image sets: {fixed}")
+    print(f"Removed stale question rows: {removed}")
 
 
 if __name__ == "__main__":
