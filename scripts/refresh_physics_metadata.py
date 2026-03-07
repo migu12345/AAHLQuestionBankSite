@@ -105,6 +105,16 @@ def to_rel(paths: list[Path]) -> list[str]:
     return [p.relative_to(REL_BASE).as_posix() for p in paths]
 
 
+def existing_rels_if_valid(rels: list[str]) -> list[str]:
+    if not rels:
+        return []
+    valid: list[str] = []
+    for rel in rels:
+        if (REL_BASE / rel).exists():
+            valid.append(rel)
+    return valid
+
+
 def main() -> None:
     payload = json.loads(QUESTIONS_JSON.read_text(encoding="utf-8"))
     questions = payload.get("questions", [])
@@ -114,19 +124,28 @@ def main() -> None:
 
     for q in questions:
         qid = q.get("id", "")
-        exact_q = Q_IMG_DIR / f"{qid}.png"
-        exact_ms = MS_IMG_DIR / f"{qid}.png"
-        if exact_q.exists():
-            q_paths = [exact_q]
-        else:
-            q_paths = sorted(Q_IMG_DIR.glob(f"{qid}*.png"), key=image_sort_key)
-        if exact_ms.exists():
-            ms_paths = [exact_ms]
-        else:
-            ms_paths = sorted(MS_IMG_DIR.glob(f"{qid}*.png"), key=image_sort_key)
+        existing_q = existing_rels_if_valid(list(q.get("question_image_paths") or []))
+        existing_ms = existing_rels_if_valid(list(q.get("markscheme_image_paths") or []))
 
-        q_rel = to_rel(q_paths)
-        ms_rel = to_rel(ms_paths)
+        if existing_q:
+            q_rel = existing_q
+        else:
+            exact_q = Q_IMG_DIR / f"{qid}.png"
+            if exact_q.exists():
+                q_paths = [exact_q]
+            else:
+                q_paths = sorted(Q_IMG_DIR.glob(f"{qid}*.png"), key=image_sort_key)
+            q_rel = to_rel(q_paths)
+
+        if existing_ms:
+            ms_rel = existing_ms
+        else:
+            exact_ms = MS_IMG_DIR / f"{qid}.png"
+            if exact_ms.exists():
+                ms_paths = [exact_ms]
+            else:
+                ms_paths = sorted(MS_IMG_DIR.glob(f"{qid}*.png"), key=image_sort_key)
+            ms_rel = to_rel(ms_paths)
 
         if q_rel:
             with_q_images += 1
