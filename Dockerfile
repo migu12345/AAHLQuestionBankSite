@@ -7,6 +7,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 COPY src ./src
 COPY data/processed ./data/processed
+COPY data/resources ./data/resources
 COPY data/business ./data/business
 COPY data/tutoring ./data/tutoring
 COPY data/topic-map.json ./data/topic-map.json
