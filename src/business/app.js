@@ -44,8 +44,8 @@ function inferLevel(q) {
 
 async function loadData() {
   const [questionRes, topicRes] = await Promise.all([
-    fetch("/data/business/processed/questions.json"),
-    fetch("/data/business/topic-map.json"),
+    window.assetFetch("/data/business/processed/questions.json"),
+    window.assetFetch("/data/business/topic-map.json"),
   ]);
 
   if (!questionRes.ok || !topicRes.ok) {
@@ -213,13 +213,13 @@ function createImageWithFallback(relPath, altText) {
   const img = document.createElement("img");
   img.alt = altText;
   img.loading = "lazy";
-  img.src = `../data/business/processed/${relPath}`;
+  img.src = window.assetUrl(`/data/business/processed/${relPath}`);
   const legacyRelPath = legacyImageRelPath(relPath);
   if (legacyRelPath !== relPath) {
     img.addEventListener(
       "error",
       () => {
-        img.src = `../data/business/processed/${legacyRelPath}`;
+        img.src = window.assetUrl(`/data/business/processed/${legacyRelPath}`);
       },
       { once: true }
     );
@@ -240,7 +240,7 @@ function openCaseStudyModal(imagePaths, paperLabel) {
   } else {
     imagePaths.forEach((imgPath, idx) => {
       const img = document.createElement("img");
-      img.src = `../data/business/processed/${imgPath}`;
+      img.src = window.assetUrl(`/data/business/processed/${imgPath}`);
       img.alt = `Case study page ${idx + 1}`;
       img.loading = "lazy";
       caseStudyBody.appendChild(img);

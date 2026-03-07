@@ -31,6 +31,35 @@ python3 server.py
 
 Open `http://localhost:8080`.
 
+## Optional: External Asset Storage (Oracle / R2)
+
+The frontend now supports a single asset base URL so you can move heavy files without rewriting code.
+
+- Default (no setting): serve assets from this app (`/data/...`).
+- External mode: set `ASSET_BASE_URL` to your bucket/CDN origin.
+
+### Quick browser test
+
+Open DevTools Console and run:
+
+```js
+setAssetBaseUrl("https://your-asset-domain.example.com");
+location.reload();
+```
+
+To reset back to local assets:
+
+```js
+setAssetBaseUrl("");
+location.reload();
+```
+
+You can also hardcode it globally before app scripts:
+
+```html
+<script>window.ASSET_BASE_URL = "https://your-asset-domain.example.com";</script>
+```
+
 ## Deploy For Friends (No Code Needed For Them)
 
 ### Option A: Render (recommended)

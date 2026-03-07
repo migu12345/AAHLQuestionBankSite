@@ -81,8 +81,8 @@ function inferLevel(q) {
 
 async function loadData() {
   const [questionRes, topicRes] = await Promise.all([
-    fetch("/data/processed/questions.json"),
-    fetch("/data/topic-map.json"),
+    window.assetFetch("/data/processed/questions.json"),
+    window.assetFetch("/data/topic-map.json"),
   ]);
 
   if (!questionRes.ok || !topicRes.ok) {
@@ -662,7 +662,7 @@ function renderQuestions(reset = true) {
           .filter(Boolean)
           .map((part) => encodeURIComponent(part))
           .join("/");
-        const paperUrl = `/data/${safePath}`;
+        const paperUrl = window.assetUrl(`/data/${safePath}`);
         const msNote = state.paperNoMarkscheme
           ? '<p class="paper-only-note">No markscheme available for this paper yet.</p>'
           : "";
@@ -750,13 +750,13 @@ function createImageWithFallback(relPath, altText) {
   const img = document.createElement("img");
   img.alt = altText;
   img.loading = "lazy";
-  img.src = `../data/processed/${relPath}`;
+  img.src = window.assetUrl(`/data/processed/${relPath}`);
   const legacyRelPath = legacyImageRelPath(relPath);
   if (legacyRelPath !== relPath) {
     img.addEventListener(
       "error",
       () => {
-        img.src = `../data/processed/${legacyRelPath}`;
+        img.src = window.assetUrl(`/data/processed/${legacyRelPath}`);
       },
       { once: true }
     );

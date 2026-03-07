@@ -5,7 +5,7 @@
 
   function initFormulaWidget(options) {
     const pdfUrl = (options && options.pdfUrl) || "/data/resources/aa_hl_formula_booklet_2024.pdf";
-    const pdfBaseUrl = String(pdfUrl).split("#")[0];
+    const pdfBaseUrl = String((window.assetUrl ? window.assetUrl(pdfUrl) : pdfUrl)).split("#")[0];
     if (document.getElementById("formulaWidget")) {
       return;
     }

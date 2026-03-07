@@ -37,8 +37,8 @@ function parsePaperLabel(paperLabel) {
 
 async function loadData() {
   const [res, manualRes] = await Promise.all([
-    fetch("/data/processed/questions.json"),
-    fetch("/data/processed/manual_papers.json").catch(() => null),
+    window.assetFetch("/data/processed/questions.json"),
+    window.assetFetch("/data/processed/manual_papers.json").catch(() => null),
   ]);
   if (!res.ok) {
     throw new Error(`HTTP ${res.status}`);

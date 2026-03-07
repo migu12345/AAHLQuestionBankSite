@@ -80,8 +80,8 @@ function inferLevel(q) {
 
 async function loadData() {
   const [questionRes, topicRes] = await Promise.all([
-    fetch("/data/physics/processed/questions.json"),
-    fetch("/data/physics/topic-map.json"),
+    window.assetFetch("/data/physics/processed/questions.json"),
+    window.assetFetch("/data/physics/topic-map.json"),
   ]);
 
   if (!questionRes.ok || !topicRes.ok) {
@@ -626,7 +626,7 @@ function renderQuestions(reset = true) {
           .filter(Boolean)
           .map((part) => encodeURIComponent(part))
           .join("/");
-        const paperUrl = `/data/${safePath}`;
+        const paperUrl = window.assetUrl(`/data/${safePath}`);
         const msNote = state.paperNoMarkscheme
           ? '<p class="paper-only-note">No markscheme available for this paper yet.</p>'
           : "";
@@ -710,13 +710,13 @@ function createImageWithFallback(relPath, altText) {
   const img = document.createElement("img");
   img.alt = altText;
   img.loading = "lazy";
-  img.src = `../data/physics/processed/${relPath}`;
+  img.src = window.assetUrl(`/data/physics/processed/${relPath}`);
   const legacyRelPath = legacyImageRelPath(relPath);
   if (legacyRelPath !== relPath) {
     img.addEventListener(
       "error",
       () => {
-        img.src = `../data/physics/processed/${legacyRelPath}`;
+        img.src = window.assetUrl(`/data/physics/processed/${legacyRelPath}`);
       },
       { once: true }
     );

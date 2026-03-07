@@ -18,8 +18,8 @@ const tutorLoadMoreBtn = document.getElementById("tutorLoadMoreBtn");
 
 async function loadData() {
   const [qRes, msRes] = await Promise.all([
-    fetch("/data/tutoring/processed/questions.json"),
-    fetch("/data/tutoring/processed/markschemes.json"),
+    window.assetFetch("/data/tutoring/processed/questions.json"),
+    window.assetFetch("/data/tutoring/processed/markschemes.json"),
   ]);
   const qData = await qRes.json();
   const msData = await msRes.json();
@@ -108,13 +108,13 @@ function createImageWithFallback(relPath, altText) {
   const img = document.createElement("img");
   img.alt = altText;
   img.loading = "lazy";
-  img.src = `/data/tutoring/processed/${relPath}`;
+  img.src = window.assetUrl(`/data/tutoring/processed/${relPath}`);
   const legacyRelPath = legacyImageRelPath(relPath);
   if (legacyRelPath !== relPath) {
     img.addEventListener(
       "error",
       () => {
-        img.src = `/data/tutoring/processed/${legacyRelPath}`;
+        img.src = window.assetUrl(`/data/tutoring/processed/${legacyRelPath}`);
       },
       { once: true }
     );
