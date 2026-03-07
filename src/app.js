@@ -226,11 +226,15 @@ function filterQuestionsByBundle() {
     if (!meta) {
       return false;
     }
+    const timezoneMatch =
+      bundle.timezone === "No TZ"
+        ? true
+        : meta.timezone === bundle.timezone;
     const examMatch =
       meta.year === bundle.year &&
       meta.session === bundle.session &&
       meta.paperNo === bundle.paperNo &&
-      meta.timezone === bundle.timezone;
+      timezoneMatch;
     if (!examMatch) {
       return false;
     }
