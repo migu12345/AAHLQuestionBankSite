@@ -5,6 +5,7 @@
 
   function initFormulaWidget(options) {
     const pdfUrl = (options && options.pdfUrl) || "/data/resources/aa_hl_formula_booklet_2024.pdf";
+    const pdfBaseUrl = String(pdfUrl).split("#")[0];
     if (document.getElementById("formulaWidget")) {
       return;
     }
@@ -24,7 +25,7 @@
       </header>
       <div class="formula-widget-body" id="formulaWidgetBody">
         <div class="formula-pdf-stage" id="formulaPdfStage">
-          <iframe id="formulaIframe" title="AA HL Formula Booklet" src="${pdfUrl}#view=FitH"></iframe>
+          <iframe id="formulaIframe" title="AA HL Formula Booklet" src="${pdfBaseUrl}#view=FitH"></iframe>
         </div>
       </div>
     `;
@@ -32,28 +33,24 @@
 
     const header = document.getElementById("formulaWidgetHeader");
     const body = document.getElementById("formulaWidgetBody");
-    const stage = document.getElementById("formulaPdfStage");
     const iframe = document.getElementById("formulaIframe");
     const zoomInBtn = document.getElementById("formulaZoomIn");
     const zoomOutBtn = document.getElementById("formulaZoomOut");
     const zoomResetBtn = document.getElementById("formulaZoomReset");
     const toggleBtn = document.getElementById("formulaToggle");
 
-    let scale = 1;
+    let zoomPercent = 100;
     let dragging = false;
     let dragOffsetX = 0;
     let dragOffsetY = 0;
 
-    function applyScale() {
-      if (!stage || !iframe) {
+    function applyZoom() {
+      if (!iframe) {
         return;
       }
-      iframe.style.transform = `scale(${scale})`;
-      iframe.style.transformOrigin = "top left";
-      iframe.style.width = `${100 / scale}%`;
-      iframe.style.height = `${100 / scale}%`;
+      iframe.src = `${pdfBaseUrl}#zoom=${zoomPercent}`;
       if (zoomResetBtn) {
-        zoomResetBtn.textContent = `${Math.round(scale * 100)}%`;
+        zoomResetBtn.textContent = `${zoomPercent}%`;
       }
     }
 
@@ -91,20 +88,20 @@
 
     if (zoomInBtn) {
       zoomInBtn.addEventListener("click", () => {
-        scale = clamp(scale + 0.1, 0.6, 2.4);
-        applyScale();
+        zoomPercent = clamp(zoomPercent + 10, 60, 240);
+        applyZoom();
       });
     }
     if (zoomOutBtn) {
       zoomOutBtn.addEventListener("click", () => {
-        scale = clamp(scale - 0.1, 0.6, 2.4);
-        applyScale();
+        zoomPercent = clamp(zoomPercent - 10, 60, 240);
+        applyZoom();
       });
     }
     if (zoomResetBtn) {
       zoomResetBtn.addEventListener("click", () => {
-        scale = 1;
-        applyScale();
+        zoomPercent = 100;
+        applyZoom();
       });
     }
     if (toggleBtn && body) {
@@ -115,7 +112,7 @@
       });
     }
 
-    applyScale();
+    applyZoom();
   }
 
   window.initFormulaWidget = initFormulaWidget;
