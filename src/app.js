@@ -3,6 +3,7 @@ const state = {
   topics: [],
   filteredQuestions: [],
   visibleCount: 0,
+  userActions: {},
   paperBundle: null,
   paperSourceFile: "",
   paperSourcePath: "",
@@ -17,10 +18,12 @@ const state = {
   },
 };
 const PAGE_SIZE = 10;
+const USER_ACTIONS_KEY = "aa_bank_user_actions_v1";
 
 const paperTypeFilter = document.getElementById("paperTypeFilter");
 const paperFilter = document.getElementById("paperFilter");
 const difficultyFilter = document.getElementById("difficultyFilter");
+const savedFilter = document.getElementById("savedFilter");
 const topicFilter = document.getElementById("topicFilter");
 const subtopicFilter = document.getElementById("subtopicFilter");
 const levelFilter = document.getElementById("levelFilter");
@@ -42,6 +45,27 @@ const examModeBar = document.getElementById("examModeBar");
 const examModeInfo = document.getElementById("examModeInfo");
 const examModeStartBtn = document.getElementById("examModeStartBtn");
 const examModeEndBtn = document.getElementById("examModeEndBtn");
+
+function loadUserActions() {
+  try {
+    const raw = window.localStorage.getItem(USER_ACTIONS_KEY);
+    state.userActions = raw ? JSON.parse(raw) : {};
+  } catch (_error) {
+    state.userActions = {};
+  }
+}
+
+function persistUserActions() {
+  try {
+    window.localStorage.setItem(USER_ACTIONS_KEY, JSON.stringify(state.userActions));
+  } catch (_error) {
+    // Ignore storage failures in private/restricted mode.
+  }
+}
+
+function getUserAction(qid) {
+  return state.userActions[qid] || { saved: false, done: false };
+}
 
 function inferLevel(q) {
   if (q.level === "SL" || q.level === "HL") {
@@ -197,6 +221,7 @@ function filterQuestions() {
   const selectedPaperType = paperTypeFilter.value;
   const selectedPaper = paperFilter.value;
   const selectedDifficulty = difficultyFilter.value;
+  const selectedSaved = savedFilter.value;
   const selectedTopic = topicFilter.value;
   const selectedSubtopic = subtopicFilter.value;
   const searchTerm = searchInput.value.trim();
@@ -207,11 +232,13 @@ function filterQuestions() {
     const paperTypeMatch = !selectedPaperType || q.paper_type === selectedPaperType;
     const paperMatch = !selectedPaper || q.paper === selectedPaper;
     const difficultyMatch = !selectedDifficulty || inferDifficulty(q) === selectedDifficulty;
+    const action = getUserAction(q.id);
+    const savedMatch = !selectedSaved || (selectedSaved === "saved" ? action.saved : action.done);
     const topicMatch = !selectedTopic || q.topic === selectedTopic;
     const subtopicMatch = !selectedSubtopic || q.subtopic === selectedSubtopic;
     const searchMatch = matchesSearchQuery(q, searchTerm, level);
 
-    return levelMatch && paperTypeMatch && paperMatch && difficultyMatch && topicMatch && subtopicMatch && searchMatch;
+    return levelMatch && paperTypeMatch && paperMatch && difficultyMatch && savedMatch && topicMatch && subtopicMatch && searchMatch;
   });
 }
 
@@ -234,6 +261,7 @@ function filterQuestionsByBundle() {
   const selectedTopic = topicFilter.value;
   const selectedSubtopic = subtopicFilter.value;
   const selectedDifficulty = difficultyFilter.value;
+  const selectedSaved = savedFilter.value;
   const searchTerm = searchInput.value.trim();
 
   let rows = state.allQuestions.filter((q) => {
@@ -256,8 +284,10 @@ function filterQuestionsByBundle() {
     const topicMatch = !selectedTopic || q.topic === selectedTopic;
     const subtopicMatch = !selectedSubtopic || q.subtopic === selectedSubtopic;
     const difficultyMatch = !selectedDifficulty || inferDifficulty(q) === selectedDifficulty;
+    const action = getUserAction(q.id);
+    const savedMatch = !selectedSaved || (selectedSaved === "saved" ? action.saved : action.done);
     const searchMatch = matchesSearchQuery(q, searchTerm, inferLevel(q));
-    return topicMatch && subtopicMatch && difficultyMatch && searchMatch;
+    return topicMatch && subtopicMatch && difficultyMatch && savedMatch && searchMatch;
   });
 
   if (bundle.level === "HL") {
@@ -290,6 +320,8 @@ function buildQuestionNode(q) {
   const answerTextEl = node.querySelector(".answer");
   const titleEl = node.querySelector(".title");
   const tagsEl = node.querySelector(".card-tags");
+  const saveBtn = node.querySelector(".save-btn");
+  const doneBtn = node.querySelector(".done-btn");
   const sideBySideBtn = node.querySelector(".side-by-side-btn");
   const markschemeDetails = node.querySelector("details");
 
@@ -321,6 +353,43 @@ function buildQuestionNode(q) {
     badge.className = `difficulty-tag difficulty-${difficulty.toLowerCase()}`;
     badge.textContent = difficulty;
     tagsEl.appendChild(badge);
+  }
+  const action = getUserAction(q.id);
+  if (action.saved && tagsEl) {
+    const badge = document.createElement("span");
+    badge.className = "difficulty-tag difficulty-medium";
+    badge.textContent = "Saved";
+    tagsEl.appendChild(badge);
+  }
+  if (action.done && tagsEl) {
+    const badge = document.createElement("span");
+    badge.className = "difficulty-tag difficulty-easy";
+    badge.textContent = "Done";
+    tagsEl.appendChild(badge);
+  }
+  if (saveBtn) {
+    saveBtn.textContent = action.saved ? "Saved" : "Save";
+    if (action.saved) {
+      saveBtn.classList.add("active");
+    }
+    saveBtn.addEventListener("click", () => {
+      const current = getUserAction(q.id);
+      state.userActions[q.id] = { ...current, saved: !current.saved };
+      persistUserActions();
+      renderQuestions(true);
+    });
+  }
+  if (doneBtn) {
+    doneBtn.textContent = action.done ? "Done" : "Mark done";
+    if (action.done) {
+      doneBtn.classList.add("active");
+    }
+    doneBtn.addEventListener("click", () => {
+      const current = getUserAction(q.id);
+      state.userActions[q.id] = { ...current, done: !current.done };
+      persistUserActions();
+      renderQuestions(true);
+    });
   }
   const examLocked = state.examMode.enabled && state.examMode.started && !state.examMode.ended;
   if (examLocked) {
@@ -707,6 +776,7 @@ function bindEvents() {
   paperTypeFilter.addEventListener("change", () => renderQuestions(true));
   paperFilter.addEventListener("change", () => renderQuestions(true));
   difficultyFilter.addEventListener("change", () => renderQuestions(true));
+  savedFilter.addEventListener("change", () => renderQuestions(true));
 
   topicFilter.addEventListener("change", () => {
     updateSubtopicOptions();
@@ -754,6 +824,7 @@ function bindEvents() {
 
 async function start() {
   try {
+    loadUserActions();
     await loadData();
     hydrateFilters();
     applyInitialQueryFilters();

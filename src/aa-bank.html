@@ -59,6 +59,15 @@
           </select>
         </label>
 
+        <label>
+          Study
+          <select id="savedFilter">
+            <option value="">All questions</option>
+            <option value="saved">Saved only</option>
+            <option value="done">Done only</option>
+          </select>
+        </label>
+
         <label class="filter-hidden" aria-hidden="true">
           Paper
           <select id="paperFilter" tabindex="-1">
@@ -96,6 +105,10 @@
         <p class="meta"></p>
         <h3 class="title"></h3>
         <div class="card-tags"></div>
+        <div class="question-actions">
+          <button type="button" class="save-btn">Save</button>
+          <button type="button" class="done-btn">Mark done</button>
+        </div>
         <button type="button" class="side-by-side-btn">Side by side</button>
         <div class="question-images"></div>
         <p class="question fallback-text"></p>

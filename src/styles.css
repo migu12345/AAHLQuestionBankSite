@@ -549,6 +549,26 @@ button:hover {
   margin: -0.2rem 0 0.65rem;
 }
 
+.question-actions {
+  display: flex;
+  gap: 0.45rem;
+  margin: 0 0 0.65rem;
+  flex-wrap: wrap;
+}
+
+.save-btn,
+.done-btn {
+  min-height: 2rem;
+  padding: 0.34rem 0.62rem;
+}
+
+.save-btn.active,
+.done-btn.active {
+  background: #1e8a67;
+  color: #fff;
+  border-color: #1e8a67;
+}
+
 .difficulty-tag {
   display: inline-flex;
   align-items: center;
