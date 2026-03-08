@@ -66,12 +66,12 @@ def infer_topic(question_text: str, paper_code: str) -> tuple[str, str, float, L
             "Work, energy and power",
         ),
         (
-            ["circular", "rotational", "angular velocity", "angular acceleration", "torque", "moment of inertia"],
+            ["circular", "rotational", "angular velocity", "angular acceleration", "torque", "moment of inertia", "horizontal circle", "rope length", "rope breaks", "centripetal"],
             "Space, time and motion",
             "Circular and rotational motion",
         ),
         (
-            ["specific heat", "latent heat", "thermal", "thermodynamic", "entropy", "temperature", "internal energy"],
+            ["specific heat", "latent heat", "thermal", "thermodynamic", "entropy", "temperature", "internal energy", "conduction", "convection", "radiation"],
             "The particulate nature of matter",
             "Thermal physics",
         ),
@@ -101,7 +101,7 @@ def infer_topic(question_text: str, paper_code: str) -> tuple[str, str, float, L
             "Optics",
         ),
         (
-            ["standing wave", "superposition", "node", "antinode", "harmonic", "beats"],
+            ["standing wave", "superposition", "node", "antinode", "harmonic", "beats", "pulse", "pulses", "overlap"],
             "Wave behaviour",
             "Superposition and standing waves",
         ),
@@ -116,12 +116,12 @@ def infer_topic(question_text: str, paper_code: str) -> tuple[str, str, float, L
             "Capacitance",
         ),
         (
-            ["electric field", "magnetic field", "lorentz", "coulomb"],
+            ["electrical energy", "electric field", "magnetic field", "lorentz", "coulomb"],
             "Fields",
             "Electric and magnetic fields",
         ),
         (
-            ["induction", "flux", "faraday", "lenz", "generator", "transformer"],
+            ["induction", "flux", "faraday", "lenz", "generator", "transformer", "bar magnet", "aluminium ring", "aluminum ring"],
             "Fields",
             "Electromagnetic induction",
         ),
@@ -136,12 +136,12 @@ def infer_topic(question_text: str, paper_code: str) -> tuple[str, str, float, L
             "Quantum/modern physics",
         ),
         (
-            ["radioactive", "decay", "half life"],
+            ["radioactive", "decay", "decays to", "half life", "electron capture", "antineutrino"],
             "Nuclear and quantum physics",
             "Radioactivity",
         ),
         (
-            ["fission", "fusion", "binding energy", "mass defect", "nuclear reaction"],
+            ["fission", "fusion", "binding energy", "binding energies", "mass defect", "nuclear reaction", "energy equivalent", "nuclide", "nucleus", "isotope"],
             "Nuclear and quantum physics",
             "Nuclear reactions",
         ),

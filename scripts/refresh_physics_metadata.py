@@ -43,7 +43,7 @@ TOPIC_RULES = [
             ("Kinematics", ["velocity", "acceleration", "displacement", "distance", "projectile", "free fall", "position time", "x direction", "initial speed", "vertically", "suvat", "vertical speed", "parachutist"]),
             ("Forces and momentum", ["force", "newton", "momentum", "impulse", "collision", "equilibrium", "friction", "weight", "air resistance", "spring", "tension", "hooke"]),
             ("Work, energy and power", ["work done", "kinetic energy", "potential energy", "power", "efficiency", "conservation of energy"]),
-            ("Circular and rotational motion", ["centripetal", "angular velocity", "angular acceleration", "torque", "moment of inertia", "vertical circle", "rotated"]),
+            ("Circular and rotational motion", ["centripetal", "angular velocity", "angular acceleration", "torque", "moment of inertia", "vertical circle", "horizontal circle", "rope length", "rope breaks", "rotated"]),
             (
                 "A5 relativity",
                 [
@@ -69,7 +69,7 @@ TOPIC_RULES = [
     (
         "The particulate nature of matter",
         [
-            ("Thermal physics", ["temperature", "thermal", "internal energy", "specific heat", "latent heat", "entropy"]),
+            ("Thermal physics", ["temperature", "thermal", "internal energy", "specific heat", "latent heat", "entropy", "conduction", "convection", "radiation"]),
             ("Gas laws", ["ideal gas", "gas law", "boyle", "charles", "avogadro", "pv", "nrt", "molar", "mole", "moles", "molecules"]),
             ("Electric circuits", ["current", "voltage", "emf", "circuit", "kirchhoff", "ohm", "series", "parallel", "cell", "battery", "resistor", "potential difference"]),
             ("Material properties", ["young modulus", "stress", "strain", "density", "elastic"]),
@@ -88,17 +88,23 @@ TOPIC_RULES = [
         "Fields",
         [
             ("Gravitational fields", ["gravitational field", "g =", "orbit", "escape speed", "parallax", "luminosity", "apparent brightness", "albedo"]),
-            ("Electric and magnetic fields", ["electric field", "electric charge", "potential difference", "magnetic field", "lorentz", "flux", "permittivity", "permeability", "m0", "e0", "m 0 e 0", "mu 0", "epsilon 0", "epsilon", "millikan", "quantized"]),
-            ("Electromagnetic induction", ["induction", "faraday", "lenz", "alternating current", "transformer", "generator"]),
+            ("Electric and magnetic fields", ["electrical energy", "electric field", "electric charge", "potential difference", "magnetic field", "lorentz", "flux", "permittivity", "permeability", "m0", "e0", "m 0 e 0", "mu 0", "epsilon 0", "epsilon", "millikan", "quantized"]),
+            ("Electromagnetic induction", ["induction", "faraday", "lenz", "alternating current", "transformer", "generator", "bar magnet", "aluminium ring", "aluminum ring"]),
             ("Capacitance", ["capacitor", "capacitance", "dielectric", "time constant", "rc circuit"]),
         ],
     ),
     (
         "Nuclear and quantum physics",
         [
-            ("Radioactivity", ["half life", "decay", "alpha", "beta", "gamma", "activity", "radioactive"]),
-            ("Nuclear reactions", ["fission", "fusion", "binding energy", "mass defect", "reactor", "moderator", "uranium", "isotope", "nuclear notation", "protons", "neutrons"]),
+            ("Radioactivity", ["half life", "decay", "decays to", "alpha", "beta", "gamma", "activity", "radioactive", "electron capture", "antineutrino"]),
+            ("Nuclear reactions", ["fission", "fusion", "binding energy", "binding energies", "mass defect", "energy equivalent", "reactor", "moderator", "uranium", "isotope", "nuclear notation", "nuclide", "nucleus", "protons", "neutrons"]),
             ("Quantum/modern physics", ["photon", "de broglie", "photoelectric", "quantum", "energy level", "energy levels", "emission spectrum", "planck", "atom", "fundamental force", "strong nuclear", "weak nuclear"]),
+        ],
+    ),
+    (
+        "Wave behaviour",
+        [
+            ("Superposition and standing waves", ["pulse", "pulses", "overlap"]),
         ],
     ),
 ]
