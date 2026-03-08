@@ -46,7 +46,7 @@ TOPIC_RULES = [
     (
         "Space, time and motion",
         [
-            ("Kinematics", ["velocity", "acceleration", "displacement", "distance", "projectile", "free fall", "position time", "x direction", "initial speed", "vertically", "suvat", "vertical speed", "parachutist"]),
+            ("Kinematics", ["velocity", "acceleration", "displacement", "distance", "projectile", "free fall", "position time", "x direction", "initial speed", "vertically", "suvat", "vertical speed", "parachutist", "speed varies with time", "speed v varies with time", "from rest", "river flows", "boat crosses", "vector"]),
             ("Forces and momentum", ["force", "newton", "momentum", "impulse", "collision", "equilibrium", "friction", "weight", "air resistance", "spring", "tension", "hooke", "drag", "buoyancy", "terminal speed"]),
             ("Work, energy and power", ["work done", "kinetic energy", "potential energy", "power", "efficiency", "conservation of energy", "mechanical energy", "gravitational potential", "elastic potential"]),
             ("Circular and rotational motion", ["centripetal", "angular velocity", "angular acceleration", "torque", "moment of inertia", "angular momentum", "vertical circle", "horizontal circle", "rope length", "rope breaks", "rotated", "rotation", "rigid body"]),
@@ -56,6 +56,9 @@ TOPIC_RULES = [
                     "relativity",
                     "special relativity",
                     "black hole",
+                    "big bang",
+                    "dark matter",
+                    "dark energy",
                     "distant observer",
                     "observer views",
                     "ticks once every second",
@@ -94,8 +97,8 @@ TOPIC_RULES = [
         "Wave behaviour",
         [
             ("Simple harmonic motion", ["simple harmonic", "shm", "oscillation", "oscillator", "restoring force", "periodic motion"]),
-            ("Wave model", ["wave model", "transverse wave", "longitudinal wave", "wave speed", "wavelength", "frequency", "period", "amplitude"]),
-            ("Wave phenomena", ["interference", "diffraction", "polarization", "superposition", "phase difference", "coherent"]),
+            ("Wave model", ["wave model", "transverse wave", "longitudinal wave", "wave speed", "wavelength", "frequency", "period", "amplitude", "water wave", "displacement"]),
+            ("Wave phenomena", ["interference", "diffraction", "polarization", "polarized", "superposition", "phase difference", "coherent"]),
             ("Standing waves and resonance", ["standing wave", "node", "antinode", "resonance", "harmonic", "fundamental frequency"]),
             ("Optics", ["refraction", "reflection", "refractive index", "snell", "critical angle", "total internal reflection", "lens", "focal"]),
             ("Doppler and sound", ["doppler", "sound", "intensity", "decibel"]),
@@ -105,7 +108,7 @@ TOPIC_RULES = [
         "Fields",
         [
             ("Gravitational fields", ["gravitational field", "g =", "g field", "orbital", "orbit", "escape speed", "gravitational potential", "parallax", "luminosity", "apparent brightness", "albedo"]),
-            ("Electric and magnetic fields", ["electric field", "electric charge", "potential difference", "magnetic field", "lorentz", "flux density", "coulomb", "permittivity", "permeability", "m0", "e0", "m 0 e 0", "mu 0", "epsilon 0", "epsilon", "millikan", "quantized"]),
+            ("Electric and magnetic fields", ["electric field", "electric charge", "point charge", "electric potential", "potential difference", "magnetic field", "lorentz", "flux density", "coulomb", "permittivity", "permeability", "m0", "e0", "m 0 e 0", "mu 0", "epsilon 0", "epsilon", "millikan", "quantized"]),
             ("Motion in electromagnetic fields", ["motion in electromagnetic fields", "charged particle", "velocity selector", "cyclotron", "helical path", "radius of path"]),
             ("Electromagnetic induction", ["induction", "faraday", "lenz", "alternating current", "transformer", "generator", "bar magnet", "aluminium ring", "aluminum ring", "mutual induction"]),
             ("Capacitance", ["capacitor", "capacitance", "dielectric", "time constant", "rc circuit"]),
@@ -116,11 +119,11 @@ TOPIC_RULES = [
         "Nuclear and quantum physics",
         [
             ("Structure of the atom", ["atom", "atomic", "energy levels", "emission spectrum", "line spectrum", "nucleus", "nuclide", "isotope", "protons", "neutrons"]),
-            ("Quantum physics", ["photon", "de broglie", "photoelectric", "quantum", "wave particle", "planck", "uncertainty principle"]),
+            ("Quantum physics", ["photon", "de broglie", "photoelectric", "quantum", "wave particle", "planck", "uncertainty principle", "higgs boson", "tunnel", "tunnelling", "potential barrier"]),
             ("Radioactive decay", ["half life", "decay", "decays to", "alpha", "beta", "gamma", "activity", "radioactive", "electron capture", "antineutrino"]),
             ("Fission", ["fission", "chain reaction", "moderator", "control rods", "reactor"]),
             ("Fusion and stars", ["fusion", "stellar", "star", "main sequence", "supernova", "white dwarf", "black hole", "red giant", "hubble", "redshift"]),
-            ("Nuclear reactions", ["binding energy", "binding energies", "mass defect", "energy equivalent", "uranium", "nuclear notation", "fundamental force", "strong nuclear", "weak nuclear"]),
+            ("Nuclear reactions", ["binding energy", "binding energies", "mass defect", "energy equivalent", "uranium", "nuclear notation", "fundamental force", "strong nuclear", "weak nuclear", "conservation law", "strangeness", "lepton number", "baryon number"]),
             ("Quantum/modern physics", ["electronvolt", "matter wave", "probability amplitude"]),
         ],
     ),
@@ -146,8 +149,18 @@ def normalize(text: str) -> str:
 
 
 def has_keyword(text: str, keyword: str) -> bool:
-    pattern = r"\b" + re.escape(keyword.lower()) + r"\b"
-    return re.search(pattern, text) is not None
+    kw = keyword.lower().strip()
+    if not kw:
+        return False
+    pattern = r"\b" + re.escape(kw) + r"\b"
+    if re.search(pattern, text) is not None:
+        return True
+    # Allow simple plural/suffix variants for single-word tokens.
+    if " " not in kw:
+        for suffix in ("s", "es"):
+            if re.search(r"\b" + re.escape(kw + suffix) + r"\b", text) is not None:
+                return True
+    return False
 
 
 def text_signature(text: str) -> str:

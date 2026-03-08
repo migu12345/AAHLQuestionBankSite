@@ -48,15 +48,24 @@ def clean_text_for_topic(s: str) -> str:
 
 def keyword_in_text(text: str, keyword: str) -> bool:
     # Match full terms only (e.g. avoid matching "current" inside "currently").
-    pattern = r"\b" + re.escape(keyword.lower()) + r"\b"
-    return re.search(pattern, text) is not None
+    kw = keyword.lower().strip()
+    if not kw:
+        return False
+    pattern = r"\b" + re.escape(kw) + r"\b"
+    if re.search(pattern, text) is not None:
+        return True
+    if " " not in kw:
+        for suffix in ("s", "es"):
+            if re.search(r"\b" + re.escape(kw + suffix) + r"\b", text) is not None:
+                return True
+    return False
 
 
 def infer_topic(question_text: str, paper_code: str) -> tuple[str, str, float, List[str]]:
     t = clean_text_for_topic(question_text)
     common_rules = [
         (
-            ["velocity", "acceleration", "displacement", "position time", "speed time", "kinematic", "initial speed", "vertically", "free fall", "suvat", "vertical speed", "parachutist"],
+            ["velocity", "acceleration", "displacement", "position time", "speed time", "kinematic", "initial speed", "vertically", "free fall", "suvat", "vertical speed", "parachutist", "speed varies with time", "speed v varies with time", "from rest", "river flows", "boat crosses", "vector"],
             "Space, time and motion",
             "Kinematics",
         ),
@@ -106,7 +115,7 @@ def infer_topic(question_text: str, paper_code: str) -> tuple[str, str, float, L
             "Electric circuits",
         ),
         (
-            ["wave", "water wave", "frequency", "wavelength", "interference", "diffraction"],
+            ["wave", "water wave", "frequency", "wavelength", "interference", "diffraction", "displacement"],
             "Wave behaviour",
             "Wave properties",
         ),
@@ -116,7 +125,7 @@ def infer_topic(question_text: str, paper_code: str) -> tuple[str, str, float, L
             "Optics",
         ),
         (
-            ["standing wave", "superposition", "node", "antinode", "harmonic", "beats", "pulse", "pulses", "overlap"],
+            ["standing wave", "superposition", "node", "antinode", "harmonic", "beats", "pulse", "pulses", "overlap", "polarized", "polarization"],
             "Wave behaviour",
             "Superposition and standing waves",
         ),
@@ -131,7 +140,7 @@ def infer_topic(question_text: str, paper_code: str) -> tuple[str, str, float, L
             "Capacitance",
         ),
         (
-            ["electric field", "magnetic field", "lorentz", "coulomb", "flux density", "electrical energy"],
+            ["electric field", "electric potential", "point charge", "magnetic field", "lorentz", "coulomb", "flux density", "electrical energy"],
             "Fields",
             "Electric and magnetic fields",
         ),
@@ -156,7 +165,7 @@ def infer_topic(question_text: str, paper_code: str) -> tuple[str, str, float, L
             "Gravitational fields",
         ),
         (
-            ["photon", "de broglie", "quantum", "electronvolt", "photoelectric", "matter wave", "atom", "energy levels", "emission spectrum", "strong nuclear", "weak nuclear", "fundamental forces", "wave particle", "uncertainty principle"],
+            ["photon", "de broglie", "quantum", "electronvolt", "photoelectric", "matter wave", "atom", "energy levels", "emission spectrum", "strong nuclear", "weak nuclear", "fundamental forces", "wave particle", "uncertainty principle", "higgs boson", "tunnel", "tunnelling", "potential barrier"],
             "Nuclear and quantum physics",
             "Quantum/modern physics",
         ),
@@ -166,7 +175,7 @@ def infer_topic(question_text: str, paper_code: str) -> tuple[str, str, float, L
             "Radioactivity",
         ),
         (
-            ["fission", "fusion", "binding energy", "binding energies", "mass defect", "nuclear reaction", "energy equivalent", "nuclide", "nucleus", "isotope"],
+            ["fission", "fusion", "binding energy", "binding energies", "mass defect", "nuclear reaction", "energy equivalent", "nuclide", "nucleus", "isotope", "conservation law", "strangeness", "lepton number", "baryon number"],
             "Nuclear and quantum physics",
             "Nuclear reactions",
         ),
