@@ -1,6 +1,7 @@
 (function () {
   const STORAGE_KEY = "asset_base_url_v1";
   const DEFAULT_ASSET_BASE_URL = "https://pub-f7419ca433e9434bad2f9e89e252c205.r2.dev";
+  const ASSET_VERSION = "20260308-physics-fix-1";
 
   function normalizeBase(raw) {
     const value = String(raw || "").trim();
@@ -43,9 +44,17 @@
       return rawPath;
     }
     if (rawPath.startsWith("/")) {
-      return `${base}${rawPath}`;
+      return withVersion(`${base}${rawPath}`);
     }
-    return `${base}/${rawPath}`;
+    return withVersion(`${base}/${rawPath}`);
+  }
+
+  function withVersion(url) {
+    if (!ASSET_VERSION || !url) {
+      return url;
+    }
+    const joiner = url.includes("?") ? "&" : "?";
+    return `${url}${joiner}v=${encodeURIComponent(ASSET_VERSION)}`;
   }
 
   function setAssetBaseUrl(nextBase) {
