@@ -209,6 +209,10 @@ def main() -> None:
         q["topic_confidence"] = conf
         q["topic_reason"] = ["physics keyword scorer v2"]
 
+        paper_type = str(q.get("paper_type", "")).strip()
+        if paper_type in {"Paper 1A", "Paper 1"}:
+            q["marks"] = 1
+
         q["question_image_paths"] = q_rel
         q["markscheme_image_paths"] = ms_rel
         # Compatibility aliases for any future UI readers.

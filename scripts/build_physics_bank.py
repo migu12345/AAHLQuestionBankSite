@@ -542,13 +542,15 @@ def main() -> None:
             block = q_text.get(qn, "")
             topic, subtopic, topic_confidence, topic_reason = infer_topic(block, str(p["paperCode"]))
 
+            paper_type = "Paper 1A" if is_mcq_paper else f"Paper {p['paperCode']}"
+            marks_value = 1 if is_mcq_paper else parse_marks_from_text(block)
             questions.append(
                 {
                     "id": base,
                     "paper": p["paperLabel"],
                     "session": p["session"],
                     "session_code": session_code,
-                    "paper_type": "Paper 1A" if is_mcq_paper else f"Paper {p['paperCode']}",
+                    "paper_type": paper_type,
                     "level": p["level"],
                     "question_number": str(qn),
                     "title": f"Q{qn}: {block[:120]}" if block else f"Q{qn}",
@@ -559,7 +561,7 @@ def main() -> None:
                     "question_text": block,
                     "answer_text": (f"Answer: {mcq_answer}" if mcq_answer else (ms_block or ms_text_fallback)),
                     "mcq_answer": mcq_answer,
-                    "marks": parse_marks_from_text(block),
+                    "marks": marks_value,
                     "has_markscheme": bool(ms_images or mcq_answer or ms_block or ms_text_fallback),
                     "source": {
                         "paper_file": Path(paper_rel).name,
