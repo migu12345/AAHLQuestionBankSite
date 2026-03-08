@@ -231,9 +231,10 @@ def main() -> None:
             doc.close()
             continue
 
-        # Paper 3 markschemes are frequently option-scoped and often do not
-        # preserve the same absolute question numbers as the source paper.
-        # For Paper 3, map by visual order instead of numeric q-number.
+        # Paper 3 can be option-scoped, but when question numbers are present
+        # in the markscheme table they should be treated as authoritative.
+        # First try exact q-number mapping, then fall back to visual order only
+        # for unresolved rows.
         paper3_rows = [r for r in rows if str(r.get("paper_type", "")).strip().lower() == "paper 3"]
         paper3_ids = {r.get("id", "") for r in paper3_rows}
         if paper3_rows:
@@ -241,16 +242,40 @@ def main() -> None:
                 paper3_rows,
                 key=lambda r: int(str(r.get("question_number", "0")) or 0),
             )
-            for i, q in enumerate(ordered_p3):
+            unresolved: List[dict] = []
+            used_qnums: set[int] = set()
+
+            # Pass 1: exact question-number mapping.
+            for q in ordered_p3:
                 qid = q.get("id", "")
+                qn = int(str(q.get("question_number", "0")) or 0)
                 for stale in MS_IMG_DIR.glob(f"{qid}*.png"):
                     stale.unlink(missing_ok=True)
-                rels = crop_ms_by_index(doc, starts, i, MS_IMG_DIR / qid)
+                rels = crop_ms(doc, starts, qn, MS_IMG_DIR / qid) if qn > 0 else []
                 q["markscheme_image_paths"] = rels
                 q["markscheme_images"] = rels
                 q["has_markscheme"] = bool(rels)
                 if rels:
+                    used_qnums.add(qn)
                     total_attached += 1
+                else:
+                    unresolved.append(q)
+
+            # Pass 2: visual-order fallback for rows not found by q-number.
+            if unresolved:
+                remaining_starts = [s for s in starts if s.qnum not in used_qnums]
+                for i, q in enumerate(unresolved):
+                    if i >= len(remaining_starts):
+                        break
+                    qid = q.get("id", "")
+                    for stale in MS_IMG_DIR.glob(f"{qid}*.png"):
+                        stale.unlink(missing_ok=True)
+                    rels = crop_ms_by_index(doc, remaining_starts, i, MS_IMG_DIR / qid)
+                    q["markscheme_image_paths"] = rels
+                    q["markscheme_images"] = rels
+                    q["has_markscheme"] = bool(rels)
+                    if rels:
+                        total_attached += 1
 
         for q in rows:
             if q.get("id", "") in paper3_ids:
