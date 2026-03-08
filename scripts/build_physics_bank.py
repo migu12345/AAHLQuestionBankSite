@@ -51,12 +51,12 @@ def infer_topic(question_text: str, paper_code: str) -> tuple[str, str, float, L
     t = clean_text_for_topic(question_text)
     common_rules = [
         (
-            ["velocity", "acceleration", "displacement", "position time", "speed time", "kinematic", "initial speed", "vertically", "free fall", "suvat"],
+            ["velocity", "acceleration", "displacement", "position time", "speed time", "kinematic", "initial speed", "vertically", "free fall", "suvat", "vertical speed"],
             "Space, time and motion",
             "Kinematics",
         ),
         (
-            ["force", "momentum", "newton", "projectile", "impulse", "collision", "air resistance", "friction"],
+            ["force", "momentum", "newton", "projectile", "impulse", "collision", "air resistance", "friction", "spring", "tension", "hooke"],
             "Space, time and motion",
             "Forces and momentum",
         ),
@@ -76,7 +76,7 @@ def infer_topic(question_text: str, paper_code: str) -> tuple[str, str, float, L
             "Thermal physics",
         ),
         (
-            ["gas law", "boyle", "charles", "ideal gas", "avogadro", "pressure volume", "pv"],
+            ["gas law", "boyle", "charles", "ideal gas", "avogadro", "pressure volume", "pv", "molar", "mole", "molecules"],
             "The particulate nature of matter",
             "Gas laws",
         ),
@@ -91,7 +91,7 @@ def infer_topic(question_text: str, paper_code: str) -> tuple[str, str, float, L
             "Electric circuits",
         ),
         (
-            ["wave", "frequency", "wavelength", "interference", "diffraction"],
+            ["wave", "water wave", "frequency", "wavelength", "interference", "diffraction"],
             "Wave behaviour",
             "Wave properties",
         ),
@@ -131,7 +131,7 @@ def infer_topic(question_text: str, paper_code: str) -> tuple[str, str, float, L
             "Gravitational fields",
         ),
         (
-            ["photon", "de broglie", "quantum", "electronvolt", "photoelectric", "matter wave"],
+            ["photon", "de broglie", "quantum", "electronvolt", "photoelectric", "matter wave", "atom", "energy levels", "emission spectrum", "strong nuclear", "weak nuclear", "fundamental forces"],
             "Nuclear and quantum physics",
             "Quantum/modern physics",
         ),

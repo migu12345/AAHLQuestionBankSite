@@ -40,8 +40,8 @@ TOPIC_RULES = [
     (
         "Space, time and motion",
         [
-            ("Kinematics", ["velocity", "acceleration", "displacement", "distance", "projectile", "free fall", "position time", "x direction", "initial speed", "vertically", "suvat"]),
-            ("Forces and momentum", ["force", "newton", "momentum", "impulse", "collision", "equilibrium", "friction", "weight", "air resistance"]),
+            ("Kinematics", ["velocity", "acceleration", "displacement", "distance", "projectile", "free fall", "position time", "x direction", "initial speed", "vertically", "suvat", "vertical speed", "parachutist"]),
+            ("Forces and momentum", ["force", "newton", "momentum", "impulse", "collision", "equilibrium", "friction", "weight", "air resistance", "spring", "tension", "hooke"]),
             ("Work, energy and power", ["work done", "kinetic energy", "potential energy", "power", "efficiency", "conservation of energy"]),
             ("Circular and rotational motion", ["centripetal", "angular velocity", "angular acceleration", "torque", "moment of inertia", "vertical circle", "rotated"]),
             (
@@ -70,7 +70,7 @@ TOPIC_RULES = [
         "The particulate nature of matter",
         [
             ("Thermal physics", ["temperature", "thermal", "internal energy", "specific heat", "latent heat", "entropy"]),
-            ("Gas laws", ["ideal gas", "gas law", "boyle", "charles", "avogadro", "pv", "nrt"]),
+            ("Gas laws", ["ideal gas", "gas law", "boyle", "charles", "avogadro", "pv", "nrt", "molar", "mole", "moles", "molecules"]),
             ("Electric circuits", ["current", "voltage", "emf", "circuit", "kirchhoff", "ohm", "series", "parallel", "cell", "battery", "resistor", "potential difference"]),
             ("Material properties", ["young modulus", "stress", "strain", "density", "elastic"]),
         ],
@@ -78,7 +78,7 @@ TOPIC_RULES = [
     (
         "Wave behaviour",
         [
-            ("Wave properties", ["wavelength", "frequency", "amplitude", "period", "speed of wave", "transverse wave", "longitudinal"]),
+            ("Wave properties", ["wavelength", "frequency", "amplitude", "period", "speed of wave", "transverse wave", "longitudinal", "water wave"]),
             ("Superposition and standing waves", ["interference", "diffraction", "standing wave", "node", "antinode", "in phase", "out of phase"]),
             ("Optics", ["refraction", "reflection", "refractive index", "snell", "critical angle", "total internal reflection", "lens", "focal"]),
             ("Doppler and sound", ["doppler", "sound", "intensity", "decibel"]),
@@ -98,7 +98,7 @@ TOPIC_RULES = [
         [
             ("Radioactivity", ["half life", "decay", "alpha", "beta", "gamma", "activity", "radioactive"]),
             ("Nuclear reactions", ["fission", "fusion", "binding energy", "mass defect", "reactor", "moderator", "uranium", "isotope", "nuclear notation", "protons", "neutrons"]),
-            ("Quantum/modern physics", ["photon", "de broglie", "photoelectric", "quantum", "energy level", "planck"]),
+            ("Quantum/modern physics", ["photon", "de broglie", "photoelectric", "quantum", "energy level", "energy levels", "emission spectrum", "planck", "atom", "fundamental force", "strong nuclear", "weak nuclear"]),
         ],
     ),
 ]
