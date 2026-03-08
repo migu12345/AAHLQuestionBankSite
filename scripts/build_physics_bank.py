@@ -403,13 +403,74 @@ def parse_marks_from_text(block: str) -> Optional[int]:
 def parse_mcq_answers(ms_doc: Optional[fitz.Document]) -> Dict[int, str]:
     if ms_doc is None:
         return {}
+    answers: Dict[int, str] = {}
+
+    # Pass 1: table-style extraction from positioned words (robust for wrapped/offset cells).
+    for pno in range(len(ms_doc)):
+        page = ms_doc[pno]
+        words = page.get_text("words") or []
+        if not words:
+            continue
+        q_tokens = []
+        a_tokens = []
+        for w in words:
+            x0, y0, _x1, _y1, txt, *_ = w
+            t = str(txt).strip().replace("–", "-").replace("—", "-")
+            m_q = re.fullmatch(r"(\d{1,2})\.", t)
+            if m_q:
+                qn = int(m_q.group(1))
+                if 1 <= qn <= 60:
+                    q_tokens.append((float(x0), float(y0), qn))
+                continue
+            if re.fullmatch(r"[A-D\-]", t):
+                a_tokens.append((float(x0), float(y0), t))
+
+        # Only treat as answer-table page if it clearly contains many question-number cells.
+        if len(q_tokens) < 10:
+            continue
+
+        # Group by approximate row (y) to match q-number to the nearest answer in same row.
+        row_buckets: Dict[float, List[tuple[float, str, int]]] = {}
+        tol = 3.0
+
+        def bucket_for(y: float) -> float:
+            for ky in row_buckets.keys():
+                if abs(ky - y) <= tol:
+                    return ky
+            return y
+
+        for x, y, qn in q_tokens:
+            ky = bucket_for(y)
+            row_buckets.setdefault(ky, []).append((x, "Q", qn))
+        for x, y, ans in a_tokens:
+            ky = bucket_for(y)
+            row_buckets.setdefault(ky, []).append((x, "A", ans))
+
+        for ky, row in row_buckets.items():
+            row.sort(key=lambda t: t[0])
+            q_cells = [(x, val) for x, kind, val in row if kind == "Q"]
+            a_cells = [(x, val) for x, kind, val in row if kind == "A"]
+            if not q_cells or not a_cells:
+                continue
+            for i, (qx, qn) in enumerate(q_cells):
+                next_qx = q_cells[i + 1][0] if i + 1 < len(q_cells) else float("inf")
+                # Pick first answer token between this q and next q, or nearest one to the right.
+                candidates = [(ax, a) for ax, a in a_cells if qx < ax < next_qx]
+                if not candidates:
+                    candidates = [(ax, a) for ax, a in a_cells if ax > qx]
+                if not candidates:
+                    continue
+                ans = sorted(candidates, key=lambda t: t[0])[0][1]
+                if ans in {"A", "B", "C", "D"}:
+                    answers[int(qn)] = ans
+
+    # Pass 2: text regex fallback for non-tabular pages.
     text = "\n".join((ms_doc[p].get_text("text") or "") for p in range(len(ms_doc)))
     text = text.replace("–", "-").replace("—", "-")
-    answers: Dict[int, str] = {}
     patt = re.compile(r"(?:(?<=\n)|(?<=\s))(\d{1,2})\.?\s*([A-D]|-)\b")
     for m in patt.finditer(text):
         qn = int(m.group(1))
-        if not (1 <= qn <= 60):
+        if not (1 <= qn <= 60) or qn in answers:
             continue
         ans = m.group(2).upper()
         if ans in {"A", "B", "C", "D"}:
