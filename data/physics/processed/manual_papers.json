@@ -639,6 +639,86 @@
       "level": "SL",
       "paper_path": "resources/physics/n22/Physics_paper_2__SL.pdf",
       "markscheme_path": "resources/physics/n22/Physics_paper_2__SL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "May 2022 Physics Paper 1 TZ1 HL",
+      "session": "May",
+      "year": 2022,
+      "paperCode": "1",
+      "timezone": "TZ1",
+      "level": "HL",
+      "paper_path": "resources/physics/m22/Physics_paper_1__TZ1_HL.pdf",
+      "markscheme_path": "resources/physics/m22/Physics_paper_1__TZ1_HL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "May 2022 Physics Paper 1 TZ1 SL",
+      "session": "May",
+      "year": 2022,
+      "paperCode": "1",
+      "timezone": "TZ1",
+      "level": "SL",
+      "paper_path": "resources/physics/m22/Physics_paper_1__TZ1_SL.pdf",
+      "markscheme_path": "resources/physics/m22/Physics_paper_1__TZ1_SL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "May 2022 Physics Paper 1 TZ2 HL",
+      "session": "May",
+      "year": 2022,
+      "paperCode": "1",
+      "timezone": "TZ2",
+      "level": "HL",
+      "paper_path": "resources/physics/m22/Physics_paper_1__TZ2_HL.pdf",
+      "markscheme_path": "resources/physics/m22/Physics_paper_1__TZ2_HL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "May 2022 Physics Paper 1 TZ2 SL",
+      "session": "May",
+      "year": 2022,
+      "paperCode": "1",
+      "timezone": "TZ2",
+      "level": "SL",
+      "paper_path": "resources/physics/m22/Physics_paper_1__TZ2_SL.pdf",
+      "markscheme_path": "resources/physics/m22/Physics_paper_1__TZ2_SL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "May 2022 Physics Paper 2 TZ1 HL",
+      "session": "May",
+      "year": 2022,
+      "paperCode": "2",
+      "timezone": "TZ1",
+      "level": "HL",
+      "paper_path": "resources/physics/m22/Physics_paper_2__TZ1_HL.pdf",
+      "markscheme_path": "resources/physics/m22/Physics_paper_2__TZ1_HL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "May 2022 Physics Paper 2 TZ1 SL",
+      "session": "May",
+      "year": 2022,
+      "paperCode": "2",
+      "timezone": "TZ1",
+      "level": "SL",
+      "paper_path": "resources/physics/m22/Physics_paper_2__TZ1_SL.pdf",
+      "markscheme_path": "resources/physics/m22/Physics_paper_2__TZ1_SL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "May 2022 Physics Paper 2 TZ2 HL",
+      "session": "May",
+      "year": 2022,
+      "paperCode": "2",
+      "timezone": "TZ2",
+      "level": "HL",
+      "paper_path": "resources/physics/m22/Physics_paper_2__TZ2_HL.pdf",
+      "markscheme_path": "resources/physics/m22/Physics_paper_2__TZ2_HL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "May 2022 Physics Paper 2 TZ2 SL",
+      "session": "May",
+      "year": 2022,
+      "paperCode": "2",
+      "timezone": "TZ2",
+      "level": "SL",
+      "paper_path": "resources/physics/m22/Physics_paper_2__TZ2_SL.pdf",
+      "markscheme_path": "resources/physics/m22/Physics_paper_2__TZ2_SL_markscheme.pdf"
     }
   ]
 }
