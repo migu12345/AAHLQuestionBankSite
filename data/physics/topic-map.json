@@ -12,15 +12,20 @@
         "Capacitance",
         "Electric and magnetic fields",
         "Electromagnetic induction",
-        "Gravitational fields"
+        "Electromagnetic waves",
+        "Gravitational fields",
+        "Motion in electromagnetic fields"
       ]
     },
     {
       "name": "Nuclear and quantum physics",
       "subtopics": [
+        "Fission",
+        "Fusion and stars",
         "Nuclear reactions",
-        "Quantum/modern physics",
-        "Radioactivity"
+        "Quantum physics",
+        "Radioactive decay",
+        "Structure of the atom"
       ]
     },
     {
@@ -38,8 +43,10 @@
       "subtopics": [
         "Electric circuits",
         "Gas laws",
+        "Greenhouse effect",
         "Material properties",
-        "Thermal physics"
+        "Thermal physics",
+        "Thermodynamics"
       ]
     },
     {
@@ -53,8 +60,11 @@
       "subtopics": [
         "Doppler and sound",
         "Optics",
+        "Simple harmonic motion",
+        "Standing waves and resonance",
         "Superposition and standing waves",
-        "Wave properties"
+        "Wave model",
+        "Wave phenomena"
       ]
     }
   ]

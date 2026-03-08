@@ -3,6 +3,7 @@ from __future__ import annotations
 
 import json
 import re
+from collections import Counter, defaultdict
 from pathlib import Path
 
 
@@ -33,6 +34,11 @@ TOPIC_RULES = [
                     "gradient",
                     "intercept",
                     "significant figures",
+                    "line of best fit",
+                    "uncertainties",
+                    "percentage error",
+                    "absolute error",
+                    "random uncertainty",
                 ],
             ),
         ],
@@ -41,9 +47,9 @@ TOPIC_RULES = [
         "Space, time and motion",
         [
             ("Kinematics", ["velocity", "acceleration", "displacement", "distance", "projectile", "free fall", "position time", "x direction", "initial speed", "vertically", "suvat", "vertical speed", "parachutist"]),
-            ("Forces and momentum", ["force", "newton", "momentum", "impulse", "collision", "equilibrium", "friction", "weight", "air resistance", "spring", "tension", "hooke"]),
-            ("Work, energy and power", ["work done", "kinetic energy", "potential energy", "power", "efficiency", "conservation of energy"]),
-            ("Circular and rotational motion", ["centripetal", "angular velocity", "angular acceleration", "torque", "moment of inertia", "vertical circle", "horizontal circle", "rope length", "rope breaks", "rotated"]),
+            ("Forces and momentum", ["force", "newton", "momentum", "impulse", "collision", "equilibrium", "friction", "weight", "air resistance", "spring", "tension", "hooke", "drag", "buoyancy", "terminal speed"]),
+            ("Work, energy and power", ["work done", "kinetic energy", "potential energy", "power", "efficiency", "conservation of energy", "mechanical energy", "gravitational potential", "elastic potential"]),
+            ("Circular and rotational motion", ["centripetal", "angular velocity", "angular acceleration", "torque", "moment of inertia", "angular momentum", "vertical circle", "horizontal circle", "rope length", "rope breaks", "rotated", "rotation", "rigid body"]),
             (
                 "A5 relativity",
                 [
@@ -53,6 +59,9 @@ TOPIC_RULES = [
                     "distant observer",
                     "observer views",
                     "ticks once every second",
+                    "simultaneity",
+                    "proper mass",
+                    "rest mass",
                     "frame of reference",
                     "time dilation",
                     "length contraction",
@@ -73,17 +82,21 @@ TOPIC_RULES = [
     (
         "The particulate nature of matter",
         [
-            ("Thermal physics", ["temperature", "thermal", "internal energy", "specific heat", "latent heat", "entropy", "conduction", "convection", "radiation"]),
-            ("Gas laws", ["ideal gas", "gas law", "boyle", "charles", "avogadro", "pv", "nrt", "molar", "mole", "moles", "molecules"]),
-            ("Electric circuits", ["current", "voltage", "emf", "circuit", "kirchhoff", "ohm", "series", "parallel", "cell", "battery", "resistor", "potential difference"]),
+            ("Thermal physics", ["temperature", "thermal", "internal energy", "specific heat", "latent heat", "entropy", "conduction", "convection", "radiation", "heat capacity", "black body", "stefan", "wien"]),
+            ("Greenhouse effect", ["greenhouse", "infrared radiation", "albedo", "carbon dioxide", "methane", "atmosphere", "climate"]),
+            ("Gas laws", ["ideal gas", "gas law", "boyle", "charles", "avogadro", "pv", "nrt", "molar", "mole", "moles", "molecules", "pressure volume"]),
+            ("Thermodynamics", ["first law", "second law", "carnot", "heat engine", "entropy change", "thermal efficiency"]),
+            ("Electric circuits", ["current", "voltage", "emf", "circuit", "kirchhoff", "ohm", "series", "parallel", "cell", "battery", "resistor", "potential difference", "internal resistance", "terminal potential difference", "electrical energy"]),
             ("Material properties", ["young modulus", "stress", "strain", "density", "elastic"]),
         ],
     ),
     (
         "Wave behaviour",
         [
-            ("Wave properties", ["wavelength", "frequency", "amplitude", "period", "speed of wave", "transverse wave", "longitudinal", "water wave"]),
-            ("Superposition and standing waves", ["interference", "diffraction", "standing wave", "node", "antinode", "in phase", "out of phase"]),
+            ("Simple harmonic motion", ["simple harmonic", "shm", "oscillation", "oscillator", "restoring force", "periodic motion"]),
+            ("Wave model", ["wave model", "transverse wave", "longitudinal wave", "wave speed", "wavelength", "frequency", "period", "amplitude"]),
+            ("Wave phenomena", ["interference", "diffraction", "polarization", "superposition", "phase difference", "coherent"]),
+            ("Standing waves and resonance", ["standing wave", "node", "antinode", "resonance", "harmonic", "fundamental frequency"]),
             ("Optics", ["refraction", "reflection", "refractive index", "snell", "critical angle", "total internal reflection", "lens", "focal"]),
             ("Doppler and sound", ["doppler", "sound", "intensity", "decibel"]),
         ],
@@ -91,9 +104,10 @@ TOPIC_RULES = [
     (
         "Fields",
         [
-            ("Gravitational fields", ["gravitational field", "g =", "orbit", "escape speed", "parallax", "luminosity", "apparent brightness", "albedo"]),
-            ("Electric and magnetic fields", ["electrical energy", "electric field", "electric charge", "potential difference", "magnetic field", "lorentz", "flux", "permittivity", "permeability", "m0", "e0", "m 0 e 0", "mu 0", "epsilon 0", "epsilon", "millikan", "quantized"]),
-            ("Electromagnetic induction", ["induction", "faraday", "lenz", "alternating current", "transformer", "generator", "bar magnet", "aluminium ring", "aluminum ring"]),
+            ("Gravitational fields", ["gravitational field", "g =", "g field", "orbital", "orbit", "escape speed", "gravitational potential", "parallax", "luminosity", "apparent brightness", "albedo"]),
+            ("Electric and magnetic fields", ["electric field", "electric charge", "potential difference", "magnetic field", "lorentz", "flux density", "coulomb", "permittivity", "permeability", "m0", "e0", "m 0 e 0", "mu 0", "epsilon 0", "epsilon", "millikan", "quantized"]),
+            ("Motion in electromagnetic fields", ["motion in electromagnetic fields", "charged particle", "velocity selector", "cyclotron", "helical path", "radius of path"]),
+            ("Electromagnetic induction", ["induction", "faraday", "lenz", "alternating current", "transformer", "generator", "bar magnet", "aluminium ring", "aluminum ring", "mutual induction"]),
             ("Capacitance", ["capacitor", "capacitance", "dielectric", "time constant", "rc circuit"]),
             ("Electromagnetic waves", ["monochromatic light", "optic fibre", "optical fibre", "graded index", "waveguide dispersion", "cladding", "core"]),
         ],
@@ -101,9 +115,13 @@ TOPIC_RULES = [
     (
         "Nuclear and quantum physics",
         [
-            ("Radioactivity", ["half life", "decay", "decays to", "alpha", "beta", "gamma", "activity", "radioactive", "electron capture", "antineutrino"]),
-            ("Nuclear reactions", ["fission", "fusion", "binding energy", "binding energies", "mass defect", "energy equivalent", "reactor", "moderator", "uranium", "isotope", "nuclear notation", "nuclide", "nucleus", "protons", "neutrons"]),
-            ("Quantum/modern physics", ["photon", "de broglie", "photoelectric", "quantum", "energy level", "energy levels", "emission spectrum", "planck", "atom", "fundamental force", "strong nuclear", "weak nuclear"]),
+            ("Structure of the atom", ["atom", "atomic", "energy levels", "emission spectrum", "line spectrum", "nucleus", "nuclide", "isotope", "protons", "neutrons"]),
+            ("Quantum physics", ["photon", "de broglie", "photoelectric", "quantum", "wave particle", "planck", "uncertainty principle"]),
+            ("Radioactive decay", ["half life", "decay", "decays to", "alpha", "beta", "gamma", "activity", "radioactive", "electron capture", "antineutrino"]),
+            ("Fission", ["fission", "chain reaction", "moderator", "control rods", "reactor"]),
+            ("Fusion and stars", ["fusion", "stellar", "star", "main sequence", "supernova", "white dwarf", "black hole", "red giant", "hubble", "redshift"]),
+            ("Nuclear reactions", ["binding energy", "binding energies", "mass defect", "energy equivalent", "uranium", "nuclear notation", "fundamental force", "strong nuclear", "weak nuclear"]),
+            ("Quantum/modern physics", ["electronvolt", "matter wave", "probability amplitude"]),
         ],
     ),
     (
@@ -130,6 +148,19 @@ def normalize(text: str) -> str:
 def has_keyword(text: str, keyword: str) -> bool:
     pattern = r"\b" + re.escape(keyword.lower()) + r"\b"
     return re.search(pattern, text) is not None
+
+
+def text_signature(text: str) -> str:
+    t = normalize(text or "")
+    if not t:
+        return ""
+    # Drop OCR filler and answer option prefixes for cross-paper matching.
+    t = re.sub(r"\b[a-d]\b", " ", t)
+    t = re.sub(r"\b(?:question|turn over|continued|option)\b", " ", t)
+    t = re.sub(r"\s+", " ", t).strip()
+    if len(t) < 50:
+        return ""
+    return t[:400]
 
 
 def image_sort_key(path: Path) -> tuple[int, str]:
@@ -189,6 +220,8 @@ def main() -> None:
     with_q_images = 0
     with_ms_images = 0
 
+    provisional: list[tuple[str, str, float, list[str]]] = []
+
     for q in questions:
         qid = q.get("id", "")
         existing_q = existing_rels_if_valid(list(q.get("question_image_paths") or []))
@@ -223,12 +256,10 @@ def main() -> None:
         override = TOPIC_OVERRIDES.get(str(q.get("id", "")))
         if override is not None:
             topic, subtopic, conf, reason = override
-            q["topic_reason"] = [reason]
+            reason_list = [reason]
         else:
-            q["topic_reason"] = ["physics keyword scorer v2"]
-        q["topic"] = topic
-        q["subtopic"] = subtopic
-        q["topic_confidence"] = conf
+            reason_list = ["physics keyword scorer v2"]
+        provisional.append((topic, subtopic, conf, reason_list))
 
         paper_type = str(q.get("paper_type", "")).strip()
         if paper_type in {"Paper 1A", "Paper 1"}:
@@ -242,6 +273,28 @@ def main() -> None:
         has_answer_text = bool(str(q.get("answer_text") or "").strip())
         has_mcq_answer = bool(str(q.get("mcq_answer") or "").strip())
         q["has_markscheme"] = bool(ms_rel or has_answer_text or has_mcq_answer)
+
+    # Second pass: borrow classification for duplicate/near-identical question text.
+    sig_votes: dict[str, Counter[tuple[str, str]]] = defaultdict(Counter)
+    for q, (topic, subtopic, _conf, _reason) in zip(questions, provisional):
+        if topic == "Unsorted" or subtopic == "Unsorted":
+            continue
+        sig = text_signature(str(q.get("question_text", "")))
+        if sig:
+            sig_votes[sig][(topic, subtopic)] += 1
+
+    for idx, q in enumerate(questions):
+        topic, subtopic, conf, reason_list = provisional[idx]
+        if topic == "Unsorted" or subtopic == "Unsorted":
+            sig = text_signature(str(q.get("question_text", "")))
+            if sig and sig in sig_votes and sig_votes[sig]:
+                (topic, subtopic), _ = sig_votes[sig].most_common(1)[0]
+                conf = max(conf, 0.55)
+                reason_list = ["borrowed from matching question text"]
+        q["topic"] = topic
+        q["subtopic"] = subtopic
+        q["topic_confidence"] = conf
+        q["topic_reason"] = reason_list
 
     QUESTIONS_JSON.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
 

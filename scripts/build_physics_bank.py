@@ -56,7 +56,7 @@ def infer_topic(question_text: str, paper_code: str) -> tuple[str, str, float, L
     t = clean_text_for_topic(question_text)
     common_rules = [
         (
-            ["velocity", "acceleration", "displacement", "position time", "speed time", "kinematic", "initial speed", "vertically", "free fall", "suvat", "vertical speed"],
+            ["velocity", "acceleration", "displacement", "position time", "speed time", "kinematic", "initial speed", "vertically", "free fall", "suvat", "vertical speed", "parachutist"],
             "Space, time and motion",
             "Kinematics",
         ),
@@ -66,7 +66,7 @@ def infer_topic(question_text: str, paper_code: str) -> tuple[str, str, float, L
             "Forces and momentum",
         ),
         (
-            ["kinetic", "potential energy", "power", "work done", "efficiency"],
+            ["kinetic", "potential energy", "power", "work done", "efficiency", "mechanical energy", "gravitational potential"],
             "Space, time and motion",
             "Work, energy and power",
         ),
@@ -76,9 +76,19 @@ def infer_topic(question_text: str, paper_code: str) -> tuple[str, str, float, L
             "Circular and rotational motion",
         ),
         (
-            ["specific heat", "latent heat", "thermal", "thermodynamic", "entropy", "temperature", "internal energy", "conduction", "convection", "radiation"],
+            ["specific heat", "latent heat", "thermal", "thermodynamic", "entropy", "temperature", "internal energy", "conduction", "convection", "radiation", "heat capacity", "black body", "stefan", "wien"],
             "The particulate nature of matter",
             "Thermal physics",
+        ),
+        (
+            ["greenhouse", "infrared radiation", "albedo", "carbon dioxide", "methane", "atmosphere", "climate"],
+            "The particulate nature of matter",
+            "Greenhouse effect",
+        ),
+        (
+            ["first law", "second law", "carnot", "heat engine", "entropy change", "thermal efficiency"],
+            "The particulate nature of matter",
+            "Thermodynamics",
         ),
         (
             ["gas law", "boyle", "charles", "ideal gas", "avogadro", "pressure volume", "pv", "molar", "mole", "molecules"],
@@ -121,9 +131,14 @@ def infer_topic(question_text: str, paper_code: str) -> tuple[str, str, float, L
             "Capacitance",
         ),
         (
-            ["electrical energy", "electric field", "magnetic field", "lorentz", "coulomb"],
+            ["electric field", "magnetic field", "lorentz", "coulomb", "flux density", "electrical energy"],
             "Fields",
             "Electric and magnetic fields",
+        ),
+        (
+            ["motion in electromagnetic fields", "charged particle", "velocity selector", "cyclotron", "helical path", "radius of path"],
+            "Fields",
+            "Motion in electromagnetic fields",
         ),
         (
             ["induction", "flux", "faraday", "lenz", "generator", "transformer", "bar magnet", "aluminium ring", "aluminum ring"],
@@ -131,12 +146,17 @@ def infer_topic(question_text: str, paper_code: str) -> tuple[str, str, float, L
             "Electromagnetic induction",
         ),
         (
+            ["monochromatic light", "optic fibre", "optical fibre", "graded index", "waveguide dispersion", "cladding", "core"],
+            "Fields",
+            "Electromagnetic waves",
+        ),
+        (
             ["gravitational field", "g field", "gravitational potential"],
             "Fields",
             "Gravitational fields",
         ),
         (
-            ["photon", "de broglie", "quantum", "electronvolt", "photoelectric", "matter wave", "atom", "energy levels", "emission spectrum", "strong nuclear", "weak nuclear", "fundamental forces"],
+            ["photon", "de broglie", "quantum", "electronvolt", "photoelectric", "matter wave", "atom", "energy levels", "emission spectrum", "strong nuclear", "weak nuclear", "fundamental forces", "wave particle", "uncertainty principle"],
             "Nuclear and quantum physics",
             "Quantum/modern physics",
         ),
