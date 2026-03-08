@@ -43,7 +43,7 @@ def clean_text_for_topic(s: str) -> str:
 
 def infer_topic(question_text: str, paper_code: str) -> tuple[str, str]:
     t = clean_text_for_topic(question_text)
-    if paper_code.upper() == "1A":
+    if paper_code.upper() in {"1", "1A"}:
         return ("A-E mixed", "Multiple-choice mixed")
 
     rules = [
@@ -265,7 +265,9 @@ def main() -> None:
 
         q_starts = detect_starts(paper_doc, "paper")
         ms_starts = detect_starts(ms_doc, "markscheme") if ms_doc else []
-        mcq_answers = parse_mcq_answers(ms_doc) if str(p.get("paperCode")) == "1" else {}
+        paper_code = str(p.get("paperCode", "")).upper()
+        is_mcq_paper = paper_code in {"1", "1A"}
+        mcq_answers = parse_mcq_answers(ms_doc) if is_mcq_paper else {}
         q_text = parse_question_text_blocks(paper_doc)
 
         qnums = sorted({s.qnum for s in q_starts})
@@ -278,12 +280,11 @@ def main() -> None:
             q_img_prefix = IMAGES_ROOT / "questions" / base
             ms_img_prefix = IMAGES_ROOT / "markschemes" / base
 
-            is_paper1 = str(p.get("paperCode")) == "1"
-            q_top_offset = -16.0 if is_paper1 else -8.0
+            q_top_offset = -16.0 if is_mcq_paper else -8.0
             q_images = crop_question(paper_doc, q_starts, qn, q_img_prefix, "paper", top_offset=q_top_offset)
             ms_images = (
                 []
-                if is_paper1
+                if is_mcq_paper
                 else (crop_question(ms_doc, ms_starts, qn, ms_img_prefix, "markscheme") if ms_doc else [])
             )
             mcq_answer = mcq_answers.get(qn, "")
@@ -297,7 +298,7 @@ def main() -> None:
                     "paper": p["paperLabel"],
                     "session": p["session"],
                     "session_code": session_code,
-                    "paper_type": f"Paper {p['paperCode']}",
+                    "paper_type": "Paper 1A" if is_mcq_paper else f"Paper {p['paperCode']}",
                     "level": p["level"],
                     "question_number": str(qn),
                     "title": f"Q{qn}: {block[:120]}" if block else f"Q{qn}",
