@@ -55,7 +55,7 @@ def detect_ms_starts(doc: fitz.Document) -> List[StartPos]:
                 y = float(line.get("bbox", [0, 0, 0, 0])[1])
                 if y < 55 or y > h - 75:
                     continue
-                if x > 115:
+                if x > 95:
                     continue
 
                 qn = None
