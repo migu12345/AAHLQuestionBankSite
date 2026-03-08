@@ -35,7 +35,27 @@ def find_pdf(name: str) -> Optional[Path]:
 
 def detect_ms_starts(doc: fitz.Document) -> List[StartPos]:
     starts: Dict[int, tuple[int, float]] = {}
+    ms_data_start_page = 0
     for pno in range(len(doc)):
+        text = (doc[pno].get_text("text") or "").lower()
+        if (
+            "section a" in text
+            and "question" in text
+            and "answers" in text
+            and "total" in text
+            and "subject details" not in text
+            and "mark allocation" not in text
+        ):
+            ms_data_start_page = pno
+            break
+    if ms_data_start_page == 0:
+        for pno in range(len(doc)):
+            text = (doc[pno].get_text("text") or "").lower()
+            if "question" in text and "answers" in text and "total" in text and "subject details" not in text:
+                ms_data_start_page = pno
+                break
+
+    for pno in range(ms_data_start_page, len(doc)):
         page = doc[pno]
         h = float(page.rect.height)
         blocks = page.get_text("dict").get("blocks", [])
@@ -55,7 +75,7 @@ def detect_ms_starts(doc: fitz.Document) -> List[StartPos]:
                 y = float(line.get("bbox", [0, 0, 0, 0])[1])
                 if y < 55 or y > h - 75:
                     continue
-                if x > 95:
+                if x > 130:
                     continue
 
                 qn = None

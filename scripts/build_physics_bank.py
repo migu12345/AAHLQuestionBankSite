@@ -239,9 +239,22 @@ def detect_starts(doc: fitz.Document, kind: str) -> List[StartPos]:
         # Skip preface/instructions and start where tabular markscheme content begins.
         for pno in range(len(doc)):
             t = (doc[pno].get_text("text") or "").lower()
-            if "question" in t and "answers" in t and "total" in t:
+            if (
+                "section a" in t
+                and "question" in t
+                and "answers" in t
+                and "total" in t
+                and "subject details" not in t
+                and "mark allocation" not in t
+            ):
                 ms_data_start_page = pno
                 break
+        if ms_data_start_page == 0:
+            for pno in range(len(doc)):
+                t = (doc[pno].get_text("text") or "").lower()
+                if "question" in t and "answers" in t and "total" in t and "subject details" not in t:
+                    ms_data_start_page = pno
+                    break
 
     for pno in range(len(doc)):
         if kind == "markscheme" and pno < ms_data_start_page:
@@ -275,7 +288,7 @@ def detect_starts(doc: fitz.Document, kind: str) -> List[StartPos]:
                 m_dot = re.match(r"^(\d{1,2})\.$", text)
                 m_inline = re.match(r"^(\d{1,2})\.\s+", text)
 
-                if m_plain and ((kind == "markscheme" and x <= 80) or x <= 90):
+                if m_plain and ((kind == "markscheme" and x <= 130) or x <= 90):
                     pending = int(m_plain.group(1))
                     pending_y = y
                     pending_x = x
