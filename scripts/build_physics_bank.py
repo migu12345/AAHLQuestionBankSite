@@ -65,6 +65,16 @@ def infer_topic(question_text: str, paper_code: str) -> tuple[str, str, float, L
             "Wave phenomena",
         ),
         (
+            ["lens", "mirror", "focal length", "magnification", "telescope", "microscope", "refraction", "refractive index", "critical angle", "total internal reflection", "polarization", "optical"],
+            "Wave behaviour",
+            "Optics",
+        ),
+        (
+            ["oscillation", "oscillating", "simple harmonic", "shm", "period", "amplitude", "phase", "damping", "resonance", "spring mass", "pendulum"],
+            "Wave behaviour",
+            "Oscillations",
+        ),
+        (
             ["electric field", "magnetic field", "gravitational field", "induction", "flux", "lorentz", "coulomb"],
             "Fields",
             "Electric/magnetic/gravitational fields",
@@ -78,6 +88,11 @@ def infer_topic(question_text: str, paper_code: str) -> tuple[str, str, float, L
             ["relativity", "time dilation", "length contraction", "proper time", "lorentz factor", "speed of light"],
             "Space, time and motion",
             "Relativity",
+        ),
+        (
+            ["black hole", "nebula", "hubble", "redshift", "big bang", "dark matter", "dark energy", "supernova", "white dwarf", "cosmic", "galaxy", "stellar", "jeans criterion"],
+            "Space, time and motion",
+            "Astrophysics and cosmology",
         ),
         (
             ["uncertainty", "percentage uncertainty", "gradient", "best fit", "error bars", "precision", "accuracy", "systematic"],
@@ -101,6 +116,13 @@ def infer_topic(question_text: str, paper_code: str) -> tuple[str, str, float, L
         if hits > 0:
             confidence = 0.75 if hits >= 2 else 0.6
             return (topic, sub, confidence, [f"keyword match: {hits}"])
+
+    # Avoid large "Unsorted" buckets for old papers with sparse/OCR-light text.
+    pcode = paper_code.upper()
+    if pcode == "3":
+        return ("Experimental analysis", "Option/extension mixed", 0.2, ["paper 3 fallback"])
+    if pcode == "2":
+        return ("Experimental analysis", "Core mixed", 0.2, ["paper 2 fallback"])
     return ("Unsorted", "Unsorted", 0.1, ["no keyword match"])
 
 
@@ -133,7 +155,7 @@ def detect_starts(doc: fitz.Document, kind: str) -> List[StartPos]:
                 m_dot = re.match(r"^(\d{1,2})\.$", text)
                 m_inline = re.match(r"^(\d{1,2})\.\s+", text)
 
-                if m_plain:
+                if m_plain and (kind == "markscheme" or x <= 90):
                     pending = int(m_plain.group(1))
                     pending_y = y
                     pending_x = x
