@@ -49,6 +49,10 @@ TOPIC_RULES = [
                 [
                     "relativity",
                     "special relativity",
+                    "black hole",
+                    "distant observer",
+                    "observer views",
+                    "ticks once every second",
                     "frame of reference",
                     "time dilation",
                     "length contraction",
@@ -91,6 +95,7 @@ TOPIC_RULES = [
             ("Electric and magnetic fields", ["electrical energy", "electric field", "electric charge", "potential difference", "magnetic field", "lorentz", "flux", "permittivity", "permeability", "m0", "e0", "m 0 e 0", "mu 0", "epsilon 0", "epsilon", "millikan", "quantized"]),
             ("Electromagnetic induction", ["induction", "faraday", "lenz", "alternating current", "transformer", "generator", "bar magnet", "aluminium ring", "aluminum ring"]),
             ("Capacitance", ["capacitor", "capacitance", "dielectric", "time constant", "rc circuit"]),
+            ("Electromagnetic waves", ["monochromatic light", "optic fibre", "optical fibre", "graded index", "waveguide dispersion", "cladding", "core"]),
         ],
     ),
     (
@@ -108,6 +113,11 @@ TOPIC_RULES = [
         ],
     ),
 ]
+
+TOPIC_OVERRIDES = {
+    # OCR in this source is dotted filler; map using the equivalent SL question.
+    "phys_m17_p2_tz2_q1_hl": ("Space, time and motion", "Kinematics", 0.95, "manual override: OCR-empty variant"),
+}
 
 
 def normalize(text: str) -> str:
@@ -210,10 +220,15 @@ def main() -> None:
             with_ms_images += 1
 
         topic, subtopic, conf = classify_topic(q.get("question_text", ""), q.get("paper_type", ""))
+        override = TOPIC_OVERRIDES.get(str(q.get("id", "")))
+        if override is not None:
+            topic, subtopic, conf, reason = override
+            q["topic_reason"] = [reason]
+        else:
+            q["topic_reason"] = ["physics keyword scorer v2"]
         q["topic"] = topic
         q["subtopic"] = subtopic
         q["topic_confidence"] = conf
-        q["topic_reason"] = ["physics keyword scorer v2"]
 
         paper_type = str(q.get("paper_type", "")).strip()
         if paper_type in {"Paper 1A", "Paper 1"}:

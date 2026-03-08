@@ -19,6 +19,11 @@ MANUAL = ROOT / "data" / "physics" / "processed" / "manual_papers.json"
 OUT = ROOT / "data" / "physics" / "processed" / "questions.json"
 IMAGES_ROOT = ROOT / "data" / "physics" / "processed" / "images"
 
+TOPIC_OVERRIDES = {
+    # OCR in this source is dotted filler; map using the equivalent SL question.
+    "phys_m17_p2_tz2_q1_hl": ("Space, time and motion", "Kinematics", 0.95, ["manual override: OCR-empty variant"]),
+}
+
 
 @dataclass
 class StartPos:
@@ -151,9 +156,14 @@ def infer_topic(question_text: str, paper_code: str) -> tuple[str, str, float, L
             "Relativity",
         ),
         (
-            ["black hole", "nebula", "hubble", "redshift", "big bang", "dark matter", "dark energy", "supernova", "white dwarf", "cosmic", "galaxy", "stellar", "jeans criterion"],
+            ["black hole", "distant observer", "observer views", "ticks once every second", "nebula", "hubble", "redshift", "big bang", "dark matter", "dark energy", "supernova", "white dwarf", "cosmic", "galaxy", "stellar", "jeans criterion"],
             "Space, time and motion",
             "A5 relativity",
+        ),
+        (
+            ["monochromatic light", "optic fibre", "optical fibre", "graded index", "waveguide dispersion", "cladding", "core"],
+            "Fields",
+            "Electromagnetic waves",
         ),
         (
             ["uncertainty", "percentage uncertainty", "gradient", "best fit", "error bars", "precision", "accuracy", "systematic"],
@@ -541,6 +551,9 @@ def main() -> None:
 
             block = q_text.get(qn, "")
             topic, subtopic, topic_confidence, topic_reason = infer_topic(block, str(p["paperCode"]))
+            override = TOPIC_OVERRIDES.get(base)
+            if override is not None:
+                topic, subtopic, topic_confidence, topic_reason = override
 
             paper_type = "Paper 1A" if is_mcq_paper else f"Paper {p['paperCode']}"
             marks_value = 1 if is_mcq_paper else parse_marks_from_text(block)
