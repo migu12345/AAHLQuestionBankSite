@@ -157,7 +157,14 @@ def is_blank_answer_page(page: fitz.Page, clip: fitz.Rect) -> bool:
     return len(alpha) < 16
 
 
-def crop_question(doc: fitz.Document, starts: List[StartPos], qnum: int, out_prefix: Path, kind: str) -> List[str]:
+def crop_question(
+    doc: fitz.Document,
+    starts: List[StartPos],
+    qnum: int,
+    out_prefix: Path,
+    kind: str,
+    top_offset: float = -8.0,
+) -> List[str]:
     idx = next((i for i, s in enumerate(starts) if s.qnum == qnum), None)
     if idx is None:
         return []
@@ -173,7 +180,7 @@ def crop_question(doc: fitz.Document, starts: List[StartPos], qnum: int, out_pre
         top = 42.0
         bottom = float(page.rect.height) - 18.0
         if pno == s.page:
-            top = max(32.0, s.y - 8.0)
+            top = max(32.0, s.y + top_offset)
         if n is not None and pno == n.page:
             bottom = min(bottom, n.y - 2.0)
         if bottom <= top + 80.0:
@@ -271,8 +278,14 @@ def main() -> None:
             q_img_prefix = IMAGES_ROOT / "questions" / base
             ms_img_prefix = IMAGES_ROOT / "markschemes" / base
 
-            q_images = crop_question(paper_doc, q_starts, qn, q_img_prefix, "paper")
-            ms_images = crop_question(ms_doc, ms_starts, qn, ms_img_prefix, "markscheme") if ms_doc else []
+            is_paper1 = str(p.get("paperCode")) == "1"
+            q_top_offset = 6.0 if is_paper1 else -8.0
+            q_images = crop_question(paper_doc, q_starts, qn, q_img_prefix, "paper", top_offset=q_top_offset)
+            ms_images = (
+                []
+                if is_paper1
+                else (crop_question(ms_doc, ms_starts, qn, ms_img_prefix, "markscheme") if ms_doc else [])
+            )
             mcq_answer = mcq_answers.get(qn, "")
 
             block = q_text.get(qn, "")
