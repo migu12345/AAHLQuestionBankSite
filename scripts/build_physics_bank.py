@@ -45,24 +45,49 @@ def infer_topic(question_text: str, paper_code: str) -> tuple[str, str, float, L
     t = clean_text_for_topic(question_text)
     common_rules = [
         (
-            ["velocity", "acceleration", "force", "momentum", "newton", "projectile", "kinetic", "potential energy", "power", "circular"],
+            ["velocity", "acceleration", "displacement", "position time", "speed time", "kinematic"],
             "Space, time and motion",
-            "Mechanics",
+            "Kinematics",
         ),
         (
-            ["specific heat", "latent heat", "thermal", "temperature", "gas", "pressure", "internal energy"],
-            "Particulate nature of matter",
+            ["force", "momentum", "newton", "projectile", "impulse", "collision"],
+            "Space, time and motion",
+            "Forces and momentum",
+        ),
+        (
+            ["kinetic", "potential energy", "power", "work done", "efficiency"],
+            "Space, time and motion",
+            "Work, energy and power",
+        ),
+        (
+            ["circular", "rotational", "angular velocity", "angular acceleration", "torque", "moment of inertia"],
+            "Space, time and motion",
+            "Circular and rotational motion",
+        ),
+        (
+            ["specific heat", "latent heat", "thermal", "thermodynamic", "entropy", "temperature", "internal energy"],
+            "The particulate nature of matter",
             "Thermal physics",
         ),
         (
+            ["gas law", "boyle", "charles", "ideal gas", "avogadro", "pressure volume", "pv"],
+            "The particulate nature of matter",
+            "Gas laws",
+        ),
+        (
+            ["density", "young modulus", "stress", "strain", "material"],
+            "The particulate nature of matter",
+            "Material properties",
+        ),
+        (
             ["current", "voltage", "resistance", "emf", "circuit", "ohm", "kirchhoff", "capacitor"],
-            "Particulate nature of matter",
+            "The particulate nature of matter",
             "Electric circuits",
         ),
         (
-            ["wave", "frequency", "wavelength", "interference", "diffraction", "standing wave", "doppler", "superposition"],
+            ["wave", "frequency", "wavelength", "interference", "diffraction"],
             "Wave behaviour",
-            "Wave phenomena",
+            "Wave properties",
         ),
         (
             ["lens", "mirror", "focal length", "magnification", "telescope", "microscope", "refraction", "refractive index", "critical angle", "total internal reflection", "polarization", "optical"],
@@ -70,19 +95,49 @@ def infer_topic(question_text: str, paper_code: str) -> tuple[str, str, float, L
             "Optics",
         ),
         (
-            ["oscillation", "oscillating", "simple harmonic", "shm", "period", "amplitude", "phase", "damping", "resonance", "spring mass", "pendulum"],
+            ["standing wave", "superposition", "node", "antinode", "harmonic", "beats"],
             "Wave behaviour",
-            "Oscillations",
+            "Superposition and standing waves",
         ),
         (
-            ["electric field", "magnetic field", "gravitational field", "induction", "flux", "lorentz", "coulomb"],
+            ["doppler", "sound level", "decibel", "intensity level", "open pipe", "closed pipe"],
+            "Wave behaviour",
+            "Doppler and sound",
+        ),
+        (
+            ["capacitor", "capacitance", "dielectric"],
             "Fields",
-            "Electric/magnetic/gravitational fields",
+            "Capacitance",
         ),
         (
-            ["radioactive", "decay", "nuclear", "half life", "fission", "fusion", "photon", "de broglie", "quantum", "electronvolt"],
+            ["electric field", "magnetic field", "lorentz", "coulomb"],
+            "Fields",
+            "Electric and magnetic fields",
+        ),
+        (
+            ["induction", "flux", "faraday", "lenz", "generator", "transformer"],
+            "Fields",
+            "Electromagnetic induction",
+        ),
+        (
+            ["gravitational field", "g field", "gravitational potential"],
+            "Fields",
+            "Gravitational fields",
+        ),
+        (
+            ["photon", "de broglie", "quantum", "electronvolt", "photoelectric", "matter wave"],
             "Nuclear and quantum physics",
-            "Nuclear / quantum",
+            "Quantum/modern physics",
+        ),
+        (
+            ["radioactive", "decay", "half life"],
+            "Nuclear and quantum physics",
+            "Radioactivity",
+        ),
+        (
+            ["fission", "fusion", "binding energy", "mass defect", "nuclear reaction"],
+            "Nuclear and quantum physics",
+            "Nuclear reactions",
         ),
         (
             ["relativity", "time dilation", "length contraction", "proper time", "lorentz factor", "speed of light"],
@@ -92,7 +147,7 @@ def infer_topic(question_text: str, paper_code: str) -> tuple[str, str, float, L
         (
             ["black hole", "nebula", "hubble", "redshift", "big bang", "dark matter", "dark energy", "supernova", "white dwarf", "cosmic", "galaxy", "stellar", "jeans criterion"],
             "Space, time and motion",
-            "Astrophysics and cosmology",
+            "A5 relativity",
         ),
         (
             ["uncertainty", "percentage uncertainty", "gradient", "best fit", "error bars", "precision", "accuracy", "systematic"],
@@ -120,9 +175,9 @@ def infer_topic(question_text: str, paper_code: str) -> tuple[str, str, float, L
     # Avoid large "Unsorted" buckets for old papers with sparse/OCR-light text.
     pcode = paper_code.upper()
     if pcode == "3":
-        return ("Experimental analysis", "Option/extension mixed", 0.2, ["paper 3 fallback"])
+        return ("Experimental analysis", "Data-based and practical skills", 0.2, ["paper 3 fallback"])
     if pcode == "2":
-        return ("Experimental analysis", "Core mixed", 0.2, ["paper 2 fallback"])
+        return ("Experimental analysis", "Data-based and practical skills", 0.2, ["paper 2 fallback"])
     return ("Unsorted", "Unsorted", 0.1, ["no keyword match"])
 
 
