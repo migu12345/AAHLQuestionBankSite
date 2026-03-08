@@ -894,11 +894,11 @@ async function start() {
     await loadData();
     hydrateFilters();
     applyInitialQueryFilters();
-    if (!state.paperBundle) {
-      state.examMode.enabled = false;
-      if (examModeBar) {
-        examModeBar.remove();
-      }
+    // AA main question bank should never show exam mode UI.
+    state.examMode.enabled = false;
+    state.paperBundle = null;
+    if (examModeBar) {
+      examModeBar.remove();
     }
     setupExamModeUi();
     bindEvents();

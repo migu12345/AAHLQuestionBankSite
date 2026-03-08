@@ -12,6 +12,11 @@
   }
 
   function getBase() {
+    const host = String(window.location && window.location.hostname ? window.location.hostname : "").toLowerCase();
+    // In local dev, use same-origin relative paths to avoid cross-origin fetch/CORS issues.
+    if (host === "localhost" || host === "127.0.0.1") {
+      return "";
+    }
     const fromWindow = normalizeBase(window.ASSET_BASE_URL);
     if (fromWindow) {
       return fromWindow;
