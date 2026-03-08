@@ -224,7 +224,7 @@ def detect_starts(doc: fitz.Document, kind: str) -> List[StartPos]:
                 m_dot = re.match(r"^(\d{1,2})\.$", text)
                 m_inline = re.match(r"^(\d{1,2})\.\s+", text)
 
-                if m_plain and ((kind == "markscheme" and x <= 150) or x <= 90):
+                if m_plain and ((kind == "markscheme" and x <= 240) or x <= 90):
                     pending = int(m_plain.group(1))
                     pending_y = y
                     pending_x = x
@@ -241,7 +241,7 @@ def detect_starts(doc: fitz.Document, kind: str) -> List[StartPos]:
 
                 if kind == "markscheme":
                     m_ms = re.match(r"^(\d{1,2})\s+", text)
-                    if m_ms and x <= 150:
+                    if m_ms and x <= 240:
                         qn = int(m_ms.group(1))
                         score = max(score, 6)
 
@@ -439,6 +439,7 @@ def main() -> None:
         is_mcq_paper = paper_code in {"1", "1A"}
         mcq_answers = parse_mcq_answers(ms_doc) if is_mcq_paper else {}
         q_text = parse_question_text_blocks(paper_doc)
+        ms_text = parse_question_text_blocks(ms_doc) if ms_doc else {}
 
         qnums = sorted({s.qnum for s in q_starts})
 
@@ -458,6 +459,12 @@ def main() -> None:
                 else (crop_question(ms_doc, ms_starts, qn, ms_img_prefix, "markscheme") if ms_doc else [])
             )
             mcq_answer = mcq_answers.get(qn, "")
+            ms_block = "" if is_mcq_paper else norm_ws(ms_text.get(qn, ""))
+            ms_text_fallback = (
+                "Markscheme available in source PDF (image mapping for this question is still being refined)."
+                if (not is_mcq_paper and ms_doc is not None and not ms_block)
+                else ""
+            )
 
             block = q_text.get(qn, "")
             topic, subtopic, topic_confidence, topic_reason = infer_topic(block, str(p["paperCode"]))
@@ -477,10 +484,10 @@ def main() -> None:
                     "topic_confidence": topic_confidence,
                     "topic_reason": topic_reason,
                     "question_text": block,
-                    "answer_text": f"Answer: {mcq_answer}" if mcq_answer else "",
+                    "answer_text": (f"Answer: {mcq_answer}" if mcq_answer else (ms_block or ms_text_fallback)),
                     "mcq_answer": mcq_answer,
                     "marks": parse_marks_from_text(block),
-                    "has_markscheme": bool(ms_images or mcq_answer),
+                    "has_markscheme": bool(ms_images or mcq_answer or ms_block or ms_text_fallback),
                     "source": {
                         "paper_file": Path(paper_rel).name,
                         "markscheme_file": Path(ms_rel).name if ms_rel else "",

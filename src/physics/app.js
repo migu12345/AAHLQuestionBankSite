@@ -448,6 +448,9 @@ function buildQuestionNode(q) {
       markschemeImagesEl.appendChild(img);
     });
     answerTextEl.hidden = true;
+  } else if (q.answer_text && q.answer_text.trim()) {
+    answerTextEl.textContent = q.answer_text;
+    answerTextEl.hidden = false;
   } else {
     answerTextEl.textContent = "Markscheme screenshot is being prepared.";
     answerTextEl.hidden = false;
@@ -493,6 +496,11 @@ function openCompareModal(q) {
         createImageWithFallback(imgPath, `Markscheme ${q.question_number || ""} image ${index + 1}`)
       );
     });
+  } else if (q.answer_text && q.answer_text.trim()) {
+    const p = document.createElement("p");
+    p.className = "compare-fallback";
+    p.textContent = q.answer_text;
+    compareMarkschemeBody.appendChild(p);
   } else {
     const p = document.createElement("p");
     p.className = "compare-fallback";
