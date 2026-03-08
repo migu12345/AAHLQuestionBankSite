@@ -719,6 +719,46 @@
       "level": "SL",
       "paper_path": "resources/physics/m22/Physics_paper_2__TZ2_SL.pdf",
       "markscheme_path": "resources/physics/m22/Physics_paper_2__TZ2_SL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "November 2021 Physics Paper 1 HL",
+      "session": "November",
+      "year": 2021,
+      "paperCode": "1",
+      "timezone": "NTZ",
+      "level": "HL",
+      "paper_path": "resources/physics/n21/Physics_paper_1__HL.pdf",
+      "markscheme_path": "resources/physics/n21/Physics_paper_1__HL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "November 2021 Physics Paper 1 SL",
+      "session": "November",
+      "year": 2021,
+      "paperCode": "1",
+      "timezone": "NTZ",
+      "level": "SL",
+      "paper_path": "resources/physics/n21/Physics_paper_1__SL.pdf",
+      "markscheme_path": "resources/physics/n21/Physics_paper_1__SL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "November 2021 Physics Paper 2 HL",
+      "session": "November",
+      "year": 2021,
+      "paperCode": "2",
+      "timezone": "NTZ",
+      "level": "HL",
+      "paper_path": "resources/physics/n21/Physics_paper_2__HL.pdf",
+      "markscheme_path": "resources/physics/n21/Physics_paper_2__HL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "November 2021 Physics Paper 2 SL",
+      "session": "November",
+      "year": 2021,
+      "paperCode": "2",
+      "timezone": "NTZ",
+      "level": "SL",
+      "paper_path": "resources/physics/n21/Physics_paper_2__SL.pdf",
+      "markscheme_path": "resources/physics/n21/Physics_paper_2__SL_markscheme.pdf"
     }
   ]
 }
