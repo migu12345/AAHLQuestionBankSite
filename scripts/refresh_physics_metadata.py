@@ -16,6 +16,28 @@ REL_BASE = ROOT / "data" / "physics" / "processed"
 
 TOPIC_RULES = [
     (
+        "Experimental analysis",
+        [
+            (
+                "Data-based and practical skills",
+                [
+                    "uncertainty",
+                    "percentage uncertainty",
+                    "absolute uncertainty",
+                    "error bars",
+                    "precision",
+                    "accuracy",
+                    "systematic error",
+                    "random error",
+                    "best fit",
+                    "gradient",
+                    "intercept",
+                    "significant figures",
+                ],
+            ),
+        ],
+    ),
+    (
         "Space, time and motion",
         [
             ("Kinematics", ["velocity", "acceleration", "displacement", "distance", "projectile", "free fall", "position time", "x direction", "initial speed", "vertically", "suvat"]),
@@ -48,7 +70,7 @@ TOPIC_RULES = [
         "The particulate nature of matter",
         [
             ("Thermal physics", ["temperature", "thermal", "internal energy", "specific heat", "latent heat", "entropy"]),
-            ("Gas laws", ["ideal gas", "pressure", "volume", "boyle", "charles", "avogadro", "moles"]),
+            ("Gas laws", ["ideal gas", "gas law", "boyle", "charles", "avogadro", "pv", "nrt"]),
             ("Electric circuits", ["current", "voltage", "emf", "circuit", "kirchhoff", "ohm", "series", "parallel", "cell", "battery", "resistor", "potential difference"]),
             ("Material properties", ["young modulus", "stress", "strain", "density", "elastic"]),
         ],
@@ -192,7 +214,9 @@ def main() -> None:
         # Compatibility aliases for any future UI readers.
         q["question_images"] = q_rel
         q["markscheme_images"] = ms_rel
-        q["has_markscheme"] = bool(ms_rel)
+        has_answer_text = bool(str(q.get("answer_text") or "").strip())
+        has_mcq_answer = bool(str(q.get("mcq_answer") or "").strip())
+        q["has_markscheme"] = bool(ms_rel or has_answer_text or has_mcq_answer)
 
     QUESTIONS_JSON.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
 
