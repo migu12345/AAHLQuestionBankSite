@@ -3,6 +3,7 @@ from __future__ import annotations
 
 import json
 import re
+import runpy
 import sys
 from dataclasses import dataclass
 from pathlib import Path
@@ -178,27 +179,11 @@ def crop_ms_by_index(doc: fitz.Document, starts: List[StartPos], idx: int, out_b
     return rels
 
 
-def render_shared_ms_pages(doc: fitz.Document, ms_file: str) -> List[str]:
-    stem = Path(ms_file).stem
-    out_rels: List[str] = []
-    for pno in range(len(doc)):
-        page = doc[pno]
-        text = page.get_text("text").lower()
-        if pno <= 1:
-            continue
-        if "subject details" in text or "mark allocation" in text:
-            continue
-        if "question" not in text and "answers" not in text:
-            continue
-        out_file = MS_IMG_DIR / "shared" / f"{stem}_p{pno+1}.png"
-        out_file.parent.mkdir(parents=True, exist_ok=True)
-        pix = page.get_pixmap(matrix=fitz.Matrix(2.0, 2.0), alpha=False)
-        pix.save(str(out_file))
-        out_rels.append(out_file.relative_to(REL_BASE).as_posix())
-    return out_rels
-
-
 def main() -> None:
+    bank_mod = runpy.run_path(str(ROOT / "scripts" / "build_physics_bank.py"))
+    detect_starts = bank_mod["detect_starts"]
+    crop_question = bank_mod["crop_question"]
+
     payload = json.loads(QUESTIONS_JSON.read_text(encoding="utf-8"))
     questions = payload.get("questions", [])
     manual_map = load_manual_papers()
@@ -219,22 +204,17 @@ def main() -> None:
         if not pdf.exists():
             continue
         doc = fitz.open(pdf)
-        starts = detect_ms_starts(doc)
-        shared_pages = render_shared_ms_pages(doc, pdf.name)
+        starts = detect_starts(doc, "markscheme")
         if not starts:
             for q in rows:
-                q["markscheme_image_paths"] = shared_pages
-                q["markscheme_images"] = shared_pages
-                q["has_markscheme"] = bool(shared_pages)
-                if shared_pages:
-                    total_attached += 1
+                q["markscheme_image_paths"] = []
+                q["markscheme_images"] = []
+                q["has_markscheme"] = False
             doc.close()
             continue
 
-        # Paper 3 can be option-scoped, but when question numbers are present
-        # in the markscheme table they should be treated as authoritative.
-        # First try exact q-number mapping, then fall back to visual order only
-        # for unresolved rows.
+        # Paper 3 can be option-scoped; only attach markschemes by exact
+        # question-number match to avoid leaking other questions' rubrics.
         paper3_rows = [r for r in rows if str(r.get("paper_type", "")).strip().lower() == "paper 3"]
         paper3_ids = {r.get("id", "") for r in paper3_rows}
         if paper3_rows:
@@ -242,40 +222,17 @@ def main() -> None:
                 paper3_rows,
                 key=lambda r: int(str(r.get("question_number", "0")) or 0),
             )
-            unresolved: List[dict] = []
-            used_qnums: set[int] = set()
-
-            # Pass 1: exact question-number mapping.
             for q in ordered_p3:
                 qid = q.get("id", "")
                 qn = int(str(q.get("question_number", "0")) or 0)
                 for stale in MS_IMG_DIR.glob(f"{qid}*.png"):
                     stale.unlink(missing_ok=True)
-                rels = crop_ms(doc, starts, qn, MS_IMG_DIR / qid) if qn > 0 else []
+                rels = crop_question(doc, starts, qn, MS_IMG_DIR / qid, "markscheme") if qn > 0 else []
                 q["markscheme_image_paths"] = rels
                 q["markscheme_images"] = rels
                 q["has_markscheme"] = bool(rels)
                 if rels:
-                    used_qnums.add(qn)
                     total_attached += 1
-                else:
-                    unresolved.append(q)
-
-            # Pass 2: visual-order fallback for rows not found by q-number.
-            if unresolved:
-                remaining_starts = [s for s in starts if s.qnum not in used_qnums]
-                for i, q in enumerate(unresolved):
-                    if i >= len(remaining_starts):
-                        break
-                    qid = q.get("id", "")
-                    for stale in MS_IMG_DIR.glob(f"{qid}*.png"):
-                        stale.unlink(missing_ok=True)
-                    rels = crop_ms_by_index(doc, remaining_starts, i, MS_IMG_DIR / qid)
-                    q["markscheme_image_paths"] = rels
-                    q["markscheme_images"] = rels
-                    q["has_markscheme"] = bool(rels)
-                    if rels:
-                        total_attached += 1
 
         for q in rows:
             if q.get("id", "") in paper3_ids:
@@ -284,11 +241,7 @@ def main() -> None:
             qn = int(str(q.get("question_number", "0")) or 0)
             for stale in MS_IMG_DIR.glob(f"{qid}*.png"):
                 stale.unlink(missing_ok=True)
-            rels = crop_ms(doc, starts, qn, MS_IMG_DIR / qid)
-            # Do not attach shared-page fallbacks for Paper 3;
-            # broad fallback pages can show the wrong question's rubric.
-            if not rels and str(q.get("paper_type", "")).strip().lower() != "paper 3":
-                rels = shared_pages
+            rels = crop_question(doc, starts, qn, MS_IMG_DIR / qid, "markscheme")
             q["markscheme_image_paths"] = rels
             q["markscheme_images"] = rels
             q["has_markscheme"] = bool(rels)

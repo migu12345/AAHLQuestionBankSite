@@ -352,7 +352,9 @@ def detect_starts(doc: fitz.Document, kind: str) -> List[StartPos]:
                 qn = int(txt)
                 if not (1 <= qn <= 60):
                     continue
-                if not (92 <= float(x0) <= 135 and float(y0) >= 760):
+                # Footer question numbers vary by session/template; keep this
+                # broad enough to capture both legacy and newer layouts.
+                if not (70 <= float(x0) <= 150 and float(y0) >= 730):
                     continue
                 eff_x = float(x0)
                 # Footer indicator gives the active question number, but not its true top.
