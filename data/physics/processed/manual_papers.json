@@ -1,6 +1,46 @@
 {
   "papers": [
     {
+      "paperLabel": "November 2020 Physics Paper 1 HL",
+      "session": "November",
+      "year": 2020,
+      "paperCode": "1",
+      "timezone": "NTZ",
+      "level": "HL",
+      "paper_path": "resources/physics/n20/Physics_paper_1__HL.pdf",
+      "markscheme_path": "resources/physics/n20/Physics_paper_1__HL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "November 2020 Physics Paper 1 SL",
+      "session": "November",
+      "year": 2020,
+      "paperCode": "1",
+      "timezone": "NTZ",
+      "level": "SL",
+      "paper_path": "resources/physics/n20/Physics_paper_1__SL.pdf",
+      "markscheme_path": "resources/physics/n20/Physics_paper_1__SL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "November 2020 Physics Paper 2 HL",
+      "session": "November",
+      "year": 2020,
+      "paperCode": "2",
+      "timezone": "NTZ",
+      "level": "HL",
+      "paper_path": "resources/physics/n20/Physics_paper_2__HL.pdf",
+      "markscheme_path": "resources/physics/n20/Physics_paper_2__HL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "November 2020 Physics Paper 2 SL",
+      "session": "November",
+      "year": 2020,
+      "paperCode": "2",
+      "timezone": "NTZ",
+      "level": "SL",
+      "paper_path": "resources/physics/n20/Physics_paper_2__SL.pdf",
+      "markscheme_path": "resources/physics/n20/Physics_paper_2__SL_markscheme.pdf"
+    },
+    {
       "paperLabel": "May 2025 Physics Paper 1A TZ1 HL",
       "session": "May",
       "year": 2025,
