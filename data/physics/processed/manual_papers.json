@@ -359,6 +359,126 @@
       "level": "SL",
       "paper_path": "resources/physics/n24/Physics_paper_3__SL.pdf",
       "markscheme_path": "resources/physics/n24/Physics_paper_3__SL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "November 2023 Physics Paper 1 TZ1 HL",
+      "session": "November",
+      "year": 2023,
+      "paperCode": "1",
+      "timezone": "TZ1",
+      "level": "HL",
+      "paper_path": "resources/physics/n23/Physics_paper_1__TZ1_HL.pdf",
+      "markscheme_path": "resources/physics/n23/Physics_paper_1__TZ1_HL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "November 2023 Physics Paper 1 TZ1 SL",
+      "session": "November",
+      "year": 2023,
+      "paperCode": "1",
+      "timezone": "TZ1",
+      "level": "SL",
+      "paper_path": "resources/physics/n23/Physics_paper_1__TZ1_SL.pdf",
+      "markscheme_path": "resources/physics/n23/Physics_paper_1__TZ1_SL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "November 2023 Physics Paper 1 TZ2 HL",
+      "session": "November",
+      "year": 2023,
+      "paperCode": "1",
+      "timezone": "TZ2",
+      "level": "HL",
+      "paper_path": "resources/physics/n23/Physics_paper_1__TZ2_HL.pdf",
+      "markscheme_path": "resources/physics/n23/Physics_paper_1__TZ2_HL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "November 2023 Physics Paper 1 TZ2 SL",
+      "session": "November",
+      "year": 2023,
+      "paperCode": "1",
+      "timezone": "TZ2",
+      "level": "SL",
+      "paper_path": "resources/physics/n23/Physics_paper_1__TZ2_SL.pdf",
+      "markscheme_path": "resources/physics/n23/Physics_paper_1__TZ2_SL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "November 2023 Physics Paper 2 TZ1 HL",
+      "session": "November",
+      "year": 2023,
+      "paperCode": "2",
+      "timezone": "TZ1",
+      "level": "HL",
+      "paper_path": "resources/physics/n23/Physics_paper_2__TZ1_HL.pdf",
+      "markscheme_path": "resources/physics/n23/Physics_paper_2__TZ1_HL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "November 2023 Physics Paper 2 TZ1 SL",
+      "session": "November",
+      "year": 2023,
+      "paperCode": "2",
+      "timezone": "TZ1",
+      "level": "SL",
+      "paper_path": "resources/physics/n23/Physics_paper_2__TZ1_SL.pdf",
+      "markscheme_path": "resources/physics/n23/Physics_paper_2__TZ1_SL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "November 2023 Physics Paper 2 TZ2 HL",
+      "session": "November",
+      "year": 2023,
+      "paperCode": "2",
+      "timezone": "TZ2",
+      "level": "HL",
+      "paper_path": "resources/physics/n23/Physics_paper_2__TZ2_HL.pdf",
+      "markscheme_path": "resources/physics/n23/Physics_paper_2__TZ2_HL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "November 2023 Physics Paper 2 TZ2 SL",
+      "session": "November",
+      "year": 2023,
+      "paperCode": "2",
+      "timezone": "TZ2",
+      "level": "SL",
+      "paper_path": "resources/physics/n23/Physics_paper_2__TZ2_SL.pdf",
+      "markscheme_path": "resources/physics/n23/Physics_paper_2__TZ2_SL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "November 2023 Physics Paper 3 TZ1 HL",
+      "session": "November",
+      "year": 2023,
+      "paperCode": "3",
+      "timezone": "TZ1",
+      "level": "HL",
+      "paper_path": "resources/physics/n23/Physics_paper_3__TZ1_HL.pdf",
+      "markscheme_path": "resources/physics/n23/Physics_paper_3__TZ1_HL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "November 2023 Physics Paper 3 TZ1 SL",
+      "session": "November",
+      "year": 2023,
+      "paperCode": "3",
+      "timezone": "TZ1",
+      "level": "SL",
+      "paper_path": "resources/physics/n23/Physics_paper_3__TZ1_SL.pdf",
+      "markscheme_path": "resources/physics/n23/Physics_paper_3__TZ1_SL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "November 2023 Physics Paper 3 TZ2 HL",
+      "session": "November",
+      "year": 2023,
+      "paperCode": "3",
+      "timezone": "TZ2",
+      "level": "HL",
+      "paper_path": "resources/physics/n23/Physics_paper_3__TZ2_HL.pdf",
+      "markscheme_path": "resources/physics/n23/Physics_paper_3__TZ2_HL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "November 2023 Physics Paper 3 TZ2 SL",
+      "session": "November",
+      "year": 2023,
+      "paperCode": "3",
+      "timezone": "TZ2",
+      "level": "SL",
+      "paper_path": "resources/physics/n23/Physics_paper_3__TZ2_SL.pdf",
+      "markscheme_path": "resources/physics/n23/Physics_paper_3__TZ2_SL_markscheme.pdf"
     }
   ]
 }
