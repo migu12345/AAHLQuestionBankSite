@@ -18,8 +18,8 @@ TOPIC_RULES = [
     (
         "Space, time and motion",
         [
-            ("Kinematics", ["velocity", "acceleration", "displacement", "distance", "projectile", "free fall", "position time", "x direction"]),
-            ("Forces and momentum", ["force", "newton", "momentum", "impulse", "collision", "equilibrium", "friction", "weight"]),
+            ("Kinematics", ["velocity", "acceleration", "displacement", "distance", "projectile", "free fall", "position time", "x direction", "initial speed", "vertically", "suvat"]),
+            ("Forces and momentum", ["force", "newton", "momentum", "impulse", "collision", "equilibrium", "friction", "weight", "air resistance"]),
             ("Work, energy and power", ["work done", "kinetic energy", "potential energy", "power", "efficiency", "conservation of energy"]),
             ("Circular and rotational motion", ["centripetal", "angular velocity", "angular acceleration", "torque", "moment of inertia", "vertical circle", "rotated"]),
             (
@@ -49,7 +49,7 @@ TOPIC_RULES = [
         [
             ("Thermal physics", ["temperature", "thermal", "internal energy", "specific heat", "latent heat", "entropy"]),
             ("Gas laws", ["ideal gas", "pressure", "volume", "boyle", "charles", "avogadro", "moles"]),
-            ("Electric circuits", ["current", "voltage", "resistance", "emf", "circuit", "kirchhoff", "ohm", "series", "parallel"]),
+            ("Electric circuits", ["current", "voltage", "emf", "circuit", "kirchhoff", "ohm", "series", "parallel", "cell", "battery", "resistor", "potential difference"]),
             ("Material properties", ["young modulus", "stress", "strain", "density", "elastic"]),
         ],
     ),
@@ -89,6 +89,11 @@ def normalize(text: str) -> str:
     return t.strip()
 
 
+def has_keyword(text: str, keyword: str) -> bool:
+    pattern = r"\b" + re.escape(keyword.lower()) + r"\b"
+    return re.search(pattern, text) is not None
+
+
 def image_sort_key(path: Path) -> tuple[int, str]:
     name = path.stem
     m = re.search(r"_p(\d+)$", name)
@@ -113,7 +118,7 @@ def classify_topic(question_text: str, paper_type: str = "") -> tuple[str, str, 
         for subtopic, keywords in subgroups:
             score = 0.0
             for kw in keywords:
-                if kw in text:
+                if has_keyword(text, kw):
                     # Longer / more specific phrases should win tie-breaks.
                     score += 1.0 + min(len(kw), 24) / 24.0
             if score > best_score:

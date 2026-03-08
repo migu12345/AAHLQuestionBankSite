@@ -41,16 +41,22 @@ def clean_text_for_topic(s: str) -> str:
     return s
 
 
+def keyword_in_text(text: str, keyword: str) -> bool:
+    # Match full terms only (e.g. avoid matching "current" inside "currently").
+    pattern = r"\b" + re.escape(keyword.lower()) + r"\b"
+    return re.search(pattern, text) is not None
+
+
 def infer_topic(question_text: str, paper_code: str) -> tuple[str, str, float, List[str]]:
     t = clean_text_for_topic(question_text)
     common_rules = [
         (
-            ["velocity", "acceleration", "displacement", "position time", "speed time", "kinematic"],
+            ["velocity", "acceleration", "displacement", "position time", "speed time", "kinematic", "initial speed", "vertically", "free fall", "suvat"],
             "Space, time and motion",
             "Kinematics",
         ),
         (
-            ["force", "momentum", "newton", "projectile", "impulse", "collision"],
+            ["force", "momentum", "newton", "projectile", "impulse", "collision", "air resistance", "friction"],
             "Space, time and motion",
             "Forces and momentum",
         ),
@@ -80,7 +86,7 @@ def infer_topic(question_text: str, paper_code: str) -> tuple[str, str, float, L
             "Material properties",
         ),
         (
-            ["current", "voltage", "resistance", "emf", "circuit", "ohm", "kirchhoff", "capacitor"],
+            ["current", "voltage", "emf", "circuit", "ohm", "kirchhoff", "capacitor", "resistor", "cell", "battery", "potential difference", "series", "parallel"],
             "The particulate nature of matter",
             "Electric circuits",
         ),
@@ -157,20 +163,26 @@ def infer_topic(question_text: str, paper_code: str) -> tuple[str, str, float, L
     ]
 
     is_mcq = paper_code.upper() in {"1", "1A"}
+    scored: List[tuple[int, str, str, List[str]]] = []
+    for kws, topic, sub in common_rules:
+        matched = [kw for kw in kws if keyword_in_text(t, kw)]
+        if matched:
+            # Prefer specific rules with more matches and slightly longer matched terms.
+            score = len(matched) * 10 + sum(min(len(m), 20) for m in matched)
+            scored.append((score, topic, sub, matched))
+
+    if scored:
+        scored.sort(key=lambda x: x[0], reverse=True)
+        best_score, best_topic, best_sub, matched = scored[0]
+        confidence = 0.8 if len(matched) >= 2 else (0.65 if is_mcq else 0.6)
+        reasons = [f"keyword match: {len(matched)}", f"matched: {', '.join(matched[:4])}"]
+        if len(scored) > 1:
+            reasons.append(f"runner-up score: {scored[1][0]}")
+        return (best_topic, best_sub, confidence, reasons)
+
     # Use richer matching for MCQ papers; fall back to mixed bucket only when no rules match.
     if is_mcq:
-        for kws, topic, sub in common_rules:
-            hits = sum(1 for kw in kws if kw in t)
-            if hits > 0:
-                confidence = 0.8 if hits >= 2 else 0.65
-                return (topic, sub, confidence, [f"keyword match: {hits}"])
         return ("A-E mixed", "Multiple-choice mixed", 0.25, ["no confident MCQ keyword match"])
-
-    for kws, topic, sub in common_rules:
-        hits = sum(1 for kw in kws if kw in t)
-        if hits > 0:
-            confidence = 0.75 if hits >= 2 else 0.6
-            return (topic, sub, confidence, [f"keyword match: {hits}"])
 
     # Avoid large "Unsorted" buckets for old papers with sparse/OCR-light text.
     pcode = paper_code.upper()
