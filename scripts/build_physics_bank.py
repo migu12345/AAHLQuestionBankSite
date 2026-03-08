@@ -60,7 +60,7 @@ def infer_topic(question_text: str, paper_code: str) -> tuple[str, str]:
 
 
 def detect_starts(doc: fitz.Document, kind: str) -> List[StartPos]:
-    starts: Dict[int, tuple[int, float]] = {}
+    starts: Dict[int, tuple[int, float, float, int]] = {}
     for pno in range(len(doc)):
         page = doc[pno]
         blocks = page.get_text("dict").get("blocks", [])
@@ -83,6 +83,7 @@ def detect_starts(doc: fitz.Document, kind: str) -> List[StartPos]:
                 y = float(line.get("bbox", [0, 0, 0, 0])[1])
 
                 qn: Optional[int] = None
+                score = 0
                 m_plain = re.match(r"^(\d{1,2})$", text)
                 m_dot = re.match(r"^(\d{1,2})\.$", text)
                 m_inline = re.match(r"^(\d{1,2})\.\s+", text)
@@ -91,32 +92,57 @@ def detect_starts(doc: fitz.Document, kind: str) -> List[StartPos]:
                     pending = int(m_plain.group(1))
                     pending_y = y
                     pending_x = x
+                    score = 1
                 elif m_dot:
                     pending = int(m_dot.group(1))
                     pending_y = y
                     pending_x = x
                     qn = pending
+                    score = 4
                 elif m_inline:
                     qn = int(m_inline.group(1))
+                    score = 5
 
                 if kind == "markscheme":
                     m_ms = re.match(r"^(\d{1,2})\s+", text)
-                    if m_ms and x <= 95:
+                    if m_ms:
                         qn = int(m_ms.group(1))
+                        score = max(score, 6)
 
                 if qn is None and pending is not None and x <= 120 and re.match(r"^(?:\(|[A-Za-z])", text):
                     qn = pending
+                    score = max(score, 2)
 
-                if qn is not None and 1 <= qn <= 60 and qn not in starts:
-                    if x <= 120 or (pending_x is not None and pending_x <= 120):
-                        starts[qn] = (pno, pending_y if pending_y is not None else y)
+                if qn is not None and 1 <= qn <= 60:
+                    eff_y = pending_y if pending_y is not None else y
+                    eff_x = pending_x if pending_x is not None else x
+                    left_bonus = 2 if eff_x <= 70 else (1 if eff_x <= 120 else 0)
+                    cand_score = score + left_bonus
+
+                    if eff_x <= 120 or kind == "markscheme":
+                        prev = starts.get(qn)
+                        replace = False
+                        if prev is None:
+                            replace = True
+                        else:
+                            prev_page, prev_y, prev_x, prev_score = prev
+                            if cand_score > prev_score:
+                                replace = True
+                            elif cand_score == prev_score:
+                                # Prefer the leftmost candidate, then earlier page/y.
+                                if eff_x < prev_x - 0.5:
+                                    replace = True
+                                elif abs(eff_x - prev_x) <= 0.5 and (pno < prev_page or (pno == prev_page and eff_y < prev_y)):
+                                    replace = True
+                        if replace:
+                            starts[qn] = (pno, eff_y, eff_x, cand_score)
                         pending = None
                         pending_y = None
                         pending_x = None
 
                 prev = text
 
-    out = [StartPos(qnum=q, page=pg, y=y) for q, (pg, y) in starts.items()]
+    out = [StartPos(qnum=q, page=pg, y=y) for q, (pg, y, _x, _score) in starts.items()]
     out.sort(key=lambda s: (s.page, s.y))
     return out
 
@@ -197,6 +223,23 @@ def parse_marks_from_text(block: str) -> Optional[int]:
     return s
 
 
+def parse_mcq_answers(ms_doc: Optional[fitz.Document]) -> Dict[int, str]:
+    if ms_doc is None:
+        return {}
+    text = "\n".join((ms_doc[p].get_text("text") or "") for p in range(len(ms_doc)))
+    text = text.replace("–", "-").replace("—", "-")
+    answers: Dict[int, str] = {}
+    patt = re.compile(r"(?:(?<=\n)|(?<=\s))(\d{1,2})\.?\s*([A-D]|-)\b")
+    for m in patt.finditer(text):
+        qn = int(m.group(1))
+        if not (1 <= qn <= 60):
+            continue
+        ans = m.group(2).upper()
+        if ans in {"A", "B", "C", "D"}:
+            answers[qn] = ans
+    return answers
+
+
 def main() -> None:
     payload = json.loads(MANUAL.read_text(encoding="utf-8"))
     papers = payload.get("papers", [])
@@ -215,6 +258,7 @@ def main() -> None:
 
         q_starts = detect_starts(paper_doc, "paper")
         ms_starts = detect_starts(ms_doc, "markscheme") if ms_doc else []
+        mcq_answers = parse_mcq_answers(ms_doc) if str(p.get("paperCode")) == "1" else {}
         q_text = parse_question_text_blocks(paper_doc)
 
         qnums = sorted({s.qnum for s in q_starts})
@@ -229,6 +273,7 @@ def main() -> None:
 
             q_images = crop_question(paper_doc, q_starts, qn, q_img_prefix, "paper")
             ms_images = crop_question(ms_doc, ms_starts, qn, ms_img_prefix, "markscheme") if ms_doc else []
+            mcq_answer = mcq_answers.get(qn, "")
 
             block = q_text.get(qn, "")
             topic, subtopic = infer_topic(block, str(p["paperCode"]))
@@ -248,9 +293,10 @@ def main() -> None:
                     "topic_confidence": 0.55 if topic != "Unsorted" else 0.1,
                     "topic_reason": ["physics keyword classification"],
                     "question_text": block,
-                    "answer_text": "",
+                    "answer_text": f"Answer: {mcq_answer}" if mcq_answer else "",
+                    "mcq_answer": mcq_answer,
                     "marks": parse_marks_from_text(block),
-                    "has_markscheme": bool(ms_images),
+                    "has_markscheme": bool(ms_images or mcq_answer),
                     "source": {
                         "paper_file": Path(paper_rel).name,
                         "markscheme_file": Path(ms_rel).name if ms_rel else "",

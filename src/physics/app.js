@@ -434,7 +434,9 @@ function buildQuestionNode(q) {
     questionTextEl.hidden = false;
   }
 
-  if (mcqAnswer && String(q.paper_type || "").trim() === "Paper 1A") {
+  const isMcqPaper = ["Paper 1A", "Paper 1"].includes(String(q.paper_type || "").trim());
+
+  if (mcqAnswer && isMcqPaper) {
     const answerChip = document.createElement("p");
     answerChip.className = "compare-fallback";
     answerChip.textContent = `Answer: ${mcqAnswer}`;
@@ -479,7 +481,8 @@ function openCompareModal(q) {
     compareQuestionBody.appendChild(p);
   }
 
-  if (mcqAnswer && String(q.paper_type || "").trim() === "Paper 1A") {
+  const isMcqPaper = ["Paper 1A", "Paper 1"].includes(String(q.paper_type || "").trim());
+  if (mcqAnswer && isMcqPaper) {
     const p = document.createElement("p");
     p.className = "compare-fallback";
     p.textContent = `Answer: ${mcqAnswer}`;
