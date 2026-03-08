@@ -83,10 +83,10 @@ def detect_ms_starts(doc: fitz.Document) -> List[StartPos]:
                 y = float(line.get("bbox", [0, 0, 0, 0])[1])
                 if y < 55 or y > h - 75:
                     continue
-                # In IB markscheme tables, the question-number/subpart columns are near the left.
-                # Keep this bound moderate to include layouts with indented question numbers,
-                # while still excluding most equation content in answer cells.
-                if x > 90:
+                # In some paper-3 markschemes, the question number column can be
+                # shifted right (x ~150-190). Keep this permissive enough to catch
+                # those layouts while still avoiding most answer-cell content.
+                if x > 220:
                     continue
 
                 qn = None

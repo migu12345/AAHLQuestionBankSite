@@ -288,7 +288,7 @@ def detect_starts(doc: fitz.Document, kind: str) -> List[StartPos]:
                 m_dot = re.match(r"^(\d{1,2})\.$", text)
                 m_inline = re.match(r"^(\d{1,2})\.\s+", text)
 
-                if m_plain and ((kind == "markscheme" and x <= 130) or x <= 90):
+                if m_plain and ((kind == "markscheme" and x <= 220) or x <= 90):
                     pending = int(m_plain.group(1))
                     pending_y = y
                     pending_x = x
@@ -309,7 +309,7 @@ def detect_starts(doc: fitz.Document, kind: str) -> List[StartPos]:
                         qn = int(m_ms.group(1))
                         score = max(score, 6)
 
-                if qn is None and pending is not None and x <= 120 and re.match(r"^(?:\(|[A-Za-z])", text):
+                if qn is None and pending is not None and ((kind == "markscheme" and x <= 240) or x <= 120) and re.match(r"^(?:\(|[A-Za-z])", text):
                     qn = pending
                     score = max(score, 2)
 

@@ -344,7 +344,9 @@ function buildQuestionNode(q) {
 
   const marks = Number.isFinite(q.marks) ? `${q.marks} marks` : "marks n/a";
   node.querySelector(".meta").textContent = `${q.paper || "Unknown paper"} | ${q.topic || "Unsorted"} | ${q.subtopic || "Unsorted"} | ${marks}`;
-  const hasMarkscheme = q.has_markscheme !== false;
+  const msImages = Array.isArray(q.markscheme_image_paths) ? q.markscheme_image_paths : [];
+  const isPaper3 = String(q.paper_type || "").trim() === "Paper 3";
+  const hasMarkscheme = isPaper3 ? msImages.length > 0 : q.has_markscheme !== false;
   if (!hasMarkscheme && tagsEl) {
     const badge = document.createElement("span");
     badge.className = "difficulty-tag difficulty-medium";
@@ -353,7 +355,6 @@ function buildQuestionNode(q) {
   }
 
   const qImages = Array.isArray(q.question_image_paths) ? q.question_image_paths : [];
-  const msImages = Array.isArray(q.markscheme_image_paths) ? q.markscheme_image_paths : [];
   const mcqAnswer = String(q.mcq_answer || "").trim().toUpperCase();
   const hasAnyImage = qImages.length > 0 || msImages.length > 0;
   const questionNumber = `${q.question_number || ""}`.trim();
@@ -448,7 +449,7 @@ function buildQuestionNode(q) {
       markschemeImagesEl.appendChild(img);
     });
     answerTextEl.hidden = true;
-  } else if (q.answer_text && q.answer_text.trim()) {
+  } else if (!isPaper3 && q.answer_text && q.answer_text.trim()) {
     answerTextEl.textContent = q.answer_text;
     answerTextEl.hidden = false;
   } else {
@@ -485,6 +486,7 @@ function openCompareModal(q) {
   }
 
   const isMcqPaper = ["Paper 1A", "Paper 1"].includes(String(q.paper_type || "").trim());
+  const isPaper3 = String(q.paper_type || "").trim() === "Paper 3";
   if (mcqAnswer && isMcqPaper) {
     const p = document.createElement("p");
     p.className = "compare-fallback";
@@ -496,7 +498,7 @@ function openCompareModal(q) {
         createImageWithFallback(imgPath, `Markscheme ${q.question_number || ""} image ${index + 1}`)
       );
     });
-  } else if (q.answer_text && q.answer_text.trim()) {
+  } else if (!isPaper3 && q.answer_text && q.answer_text.trim()) {
     const p = document.createElement("p");
     p.className = "compare-fallback";
     p.textContent = q.answer_text;
