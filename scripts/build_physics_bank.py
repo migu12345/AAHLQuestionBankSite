@@ -41,22 +41,67 @@ def clean_text_for_topic(s: str) -> str:
     return s
 
 
-def infer_topic(question_text: str, paper_code: str) -> tuple[str, str]:
+def infer_topic(question_text: str, paper_code: str) -> tuple[str, str, float, List[str]]:
     t = clean_text_for_topic(question_text)
-    if paper_code.upper() in {"1", "1A"}:
-        return ("A-E mixed", "Multiple-choice mixed")
-
-    rules = [
-        (["velocity", "acceleration", "force", "momentum", "energy", "power", "circular"], "Space, time and motion", "Mechanics"),
-        (["thermal", "temperature", "gas", "pressure", "internal energy", "current", "voltage", "resistance", "circuit"], "Particulate nature of matter", "Thermal / electricity"),
-        (["wave", "frequency", "wavelength", "interference", "diffraction", "standing wave", "doppler"], "Wave behaviour", "Wave phenomena"),
-        (["electric field", "magnetic field", "gravitational field", "induction", "flux", "capacitor"], "Fields", "Electric/magnetic/gravitational fields"),
-        (["nuclear", "radioactive", "decay", "quantum", "photon", "fission", "fusion", "half life"], "Nuclear and quantum physics", "Nuclear / quantum"),
+    common_rules = [
+        (
+            ["velocity", "acceleration", "force", "momentum", "newton", "projectile", "kinetic", "potential energy", "power", "circular"],
+            "Space, time and motion",
+            "Mechanics",
+        ),
+        (
+            ["specific heat", "latent heat", "thermal", "temperature", "gas", "pressure", "internal energy"],
+            "Particulate nature of matter",
+            "Thermal physics",
+        ),
+        (
+            ["current", "voltage", "resistance", "emf", "circuit", "ohm", "kirchhoff", "capacitor"],
+            "Particulate nature of matter",
+            "Electric circuits",
+        ),
+        (
+            ["wave", "frequency", "wavelength", "interference", "diffraction", "standing wave", "doppler", "superposition"],
+            "Wave behaviour",
+            "Wave phenomena",
+        ),
+        (
+            ["electric field", "magnetic field", "gravitational field", "induction", "flux", "lorentz", "coulomb"],
+            "Fields",
+            "Electric/magnetic/gravitational fields",
+        ),
+        (
+            ["radioactive", "decay", "nuclear", "half life", "fission", "fusion", "photon", "de broglie", "quantum", "electronvolt"],
+            "Nuclear and quantum physics",
+            "Nuclear / quantum",
+        ),
+        (
+            ["relativity", "time dilation", "length contraction", "proper time", "lorentz factor", "speed of light"],
+            "Space, time and motion",
+            "Relativity",
+        ),
+        (
+            ["uncertainty", "percentage uncertainty", "gradient", "best fit", "error bars", "precision", "accuracy", "systematic"],
+            "Experimental analysis",
+            "Data-based and practical skills",
+        ),
     ]
-    for kws, topic, sub in rules:
-        if any(kw in t for kw in kws):
-            return (topic, sub)
-    return ("Unsorted", "Unsorted")
+
+    is_mcq = paper_code.upper() in {"1", "1A"}
+    # Use richer matching for MCQ papers; fall back to mixed bucket only when no rules match.
+    if is_mcq:
+        for kws, topic, sub in common_rules:
+            hits = sum(1 for kw in kws if kw in t)
+            if hits > 0:
+                confidence = 0.8 if hits >= 2 else 0.65
+                return (topic, sub, confidence, [f"keyword match: {hits}"])
+        return ("A-E mixed", "Multiple-choice mixed", 0.25, ["no confident MCQ keyword match"])
+
+    for kws, topic, sub in common_rules:
+        hits = sum(1 for kw in kws if kw in t)
+        if hits > 0:
+            confidence = 0.75 if hits >= 2 else 0.6
+            return (topic, sub, confidence, [f"keyword match: {hits}"])
+    return ("Unsorted", "Unsorted", 0.1, ["no keyword match"])
 
 
 def detect_starts(doc: fitz.Document, kind: str) -> List[StartPos]:
@@ -290,7 +335,7 @@ def main() -> None:
             mcq_answer = mcq_answers.get(qn, "")
 
             block = q_text.get(qn, "")
-            topic, subtopic = infer_topic(block, str(p["paperCode"]))
+            topic, subtopic, topic_confidence, topic_reason = infer_topic(block, str(p["paperCode"]))
 
             questions.append(
                 {
@@ -304,8 +349,8 @@ def main() -> None:
                     "title": f"Q{qn}: {block[:120]}" if block else f"Q{qn}",
                     "topic": topic,
                     "subtopic": subtopic,
-                    "topic_confidence": 0.55 if topic != "Unsorted" else 0.1,
-                    "topic_reason": ["physics keyword classification"],
+                    "topic_confidence": topic_confidence,
+                    "topic_reason": topic_reason,
                     "question_text": block,
                     "answer_text": f"Answer: {mcq_answer}" if mcq_answer else "",
                     "mcq_answer": mcq_answer,
