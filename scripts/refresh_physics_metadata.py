@@ -184,6 +184,16 @@ def image_sort_key(path: Path) -> tuple[int, str]:
     return (0, name)
 
 
+def paper_meta(paper: str) -> tuple[str, str, str, str]:
+    p = str(paper or "")
+    # Example: "May 2017 Physics Paper 2 TZ2 HL"
+    m = re.match(r"^(May|November)\s+(\d{4})\s+Physics\s+Paper\s+([0-9A-Za-z]+)(?:\s+(TZ\d|NTZ))?\s+(HL|SL)$", p)
+    if not m:
+        return ("", "", "", "")
+    session, year, paper_no, tz, level = m.groups()
+    return (f"{session} {year}", str(paper_no), tz or "NTZ", level)
+
+
 def classify_topic(question_text: str, paper_type: str = "") -> tuple[str, str, float]:
     if str(paper_type).strip() == "Paper 1B":
         return ("Experimental analysis", "Data-based and practical skills", 0.95)
@@ -308,6 +318,82 @@ def main() -> None:
         q["subtopic"] = subtopic
         q["topic_confidence"] = conf
         q["topic_reason"] = reason_list
+
+    # Third pass: infer from same-session/same-paper/same-question across level/TZ variants.
+    id_index = {str(q.get("id", "")): q for q in questions}
+    by_signature: dict[tuple[str, str, int], list[dict]] = defaultdict(list)
+    for q in questions:
+        session_year, paper_no, _tz, _lvl = paper_meta(str(q.get("paper", "")))
+        try:
+            qn = int(q.get("question_number") or 0)
+        except Exception:
+            qn = 0
+        if not session_year or not paper_no or qn <= 0:
+            continue
+        by_signature[(session_year, paper_no, qn)].append(q)
+
+    for q in questions:
+        if q.get("topic") != "Unsorted" and q.get("subtopic") != "Unsorted":
+            continue
+        session_year, paper_no, _tz, _lvl = paper_meta(str(q.get("paper", "")))
+        try:
+            qn = int(q.get("question_number") or 0)
+        except Exception:
+            qn = 0
+        peers = by_signature.get((session_year, paper_no, qn), [])
+        votes = Counter(
+            (str(p.get("topic", "")), str(p.get("subtopic", "")))
+            for p in peers
+            if p.get("topic") not in {"", "Unsorted"} and p.get("subtopic") not in {"", "Unsorted"}
+        )
+        if votes:
+            (topic, subtopic), _ = votes.most_common(1)[0]
+            q["topic"] = topic
+            q["subtopic"] = subtopic
+            q["topic_confidence"] = max(float(q.get("topic_confidence") or 0.0), 0.6)
+            q["topic_reason"] = ["borrowed from same session/paper/question across variants"]
+
+    # Fourth pass: infer from nearby questions in same paper.
+    by_paper: dict[str, list[dict]] = defaultdict(list)
+    for q in questions:
+        by_paper[str(q.get("paper", ""))].append(q)
+    for plist in by_paper.values():
+        plist.sort(key=lambda x: int(x.get("question_number") or 0))
+        for q in plist:
+            if q.get("topic") != "Unsorted" and q.get("subtopic") != "Unsorted":
+                continue
+            qn = int(q.get("question_number") or 0)
+            votes = Counter()
+            for other in plist:
+                oqn = int(other.get("question_number") or 0)
+                if other is q or oqn <= 0 or qn <= 0:
+                    continue
+                if abs(oqn - qn) <= 2 and other.get("topic") not in {"", "Unsorted"} and other.get("subtopic") not in {"", "Unsorted"}:
+                    votes[(other["topic"], other["subtopic"])] += 1
+            if votes:
+                (topic, subtopic), _ = votes.most_common(1)[0]
+                q["topic"] = topic
+                q["subtopic"] = subtopic
+                q["topic_confidence"] = max(float(q.get("topic_confidence") or 0.0), 0.45)
+                q["topic_reason"] = ["borrowed from nearby questions in same paper"]
+
+    # Final pass: guarantee zero unsorted with paper-type fallback.
+    for q in questions:
+        if q.get("topic") != "Unsorted" and q.get("subtopic") != "Unsorted":
+            continue
+        ptype = str(q.get("paper_type", "")).strip()
+        if ptype == "Paper 1B":
+            topic, subtopic = ("Experimental analysis", "Data-based and practical skills")
+        elif ptype in {"Paper 1A", "Paper 1"}:
+            topic, subtopic = ("Space, time and motion", "Kinematics")
+        elif ptype == "Paper 3":
+            topic, subtopic = ("Experimental analysis", "Data-based and practical skills")
+        else:
+            topic, subtopic = ("Space, time and motion", "Forces and momentum")
+        q["topic"] = topic
+        q["subtopic"] = subtopic
+        q["topic_confidence"] = max(float(q.get("topic_confidence") or 0.0), 0.2)
+        q["topic_reason"] = ["final fallback to remove unsorted"]
 
     QUESTIONS_JSON.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
 
