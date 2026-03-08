@@ -183,7 +183,18 @@ def infer_topic(question_text: str, paper_code: str) -> tuple[str, str, float, L
 
 def detect_starts(doc: fitz.Document, kind: str) -> List[StartPos]:
     starts: Dict[int, tuple[int, float, float, int]] = {}
+    ms_data_start_page = 0
+    if kind == "markscheme":
+        # Skip preface/instructions and start where tabular markscheme content begins.
+        for pno in range(len(doc)):
+            t = (doc[pno].get_text("text") or "").lower()
+            if "question" in t and "answers" in t and "total" in t:
+                ms_data_start_page = pno
+                break
+
     for pno in range(len(doc)):
+        if kind == "markscheme" and pno < ms_data_start_page:
+            continue
         page = doc[pno]
         blocks = page.get_text("dict").get("blocks", [])
         prev = ""
@@ -203,6 +214,9 @@ def detect_starts(doc: fitz.Document, kind: str) -> List[StartPos]:
                     continue
                 x = float(line.get("bbox", [0, 0, 0, 0])[0])
                 y = float(line.get("bbox", [0, 0, 0, 0])[1])
+                if kind == "markscheme" and y >= 730:
+                    # Footer/page-number area often contains stray numerals.
+                    continue
 
                 qn: Optional[int] = None
                 score = 0
@@ -210,7 +224,7 @@ def detect_starts(doc: fitz.Document, kind: str) -> List[StartPos]:
                 m_dot = re.match(r"^(\d{1,2})\.$", text)
                 m_inline = re.match(r"^(\d{1,2})\.\s+", text)
 
-                if m_plain and (kind == "markscheme" or x <= 90):
+                if m_plain and ((kind == "markscheme" and x <= 150) or x <= 90):
                     pending = int(m_plain.group(1))
                     pending_y = y
                     pending_x = x
@@ -227,7 +241,7 @@ def detect_starts(doc: fitz.Document, kind: str) -> List[StartPos]:
 
                 if kind == "markscheme":
                     m_ms = re.match(r"^(\d{1,2})\s+", text)
-                    if m_ms:
+                    if m_ms and x <= 150:
                         qn = int(m_ms.group(1))
                         score = max(score, 6)
 
@@ -263,6 +277,40 @@ def detect_starts(doc: fitz.Document, kind: str) -> List[StartPos]:
                         pending_x = None
 
                 prev = text
+
+        if kind == "markscheme":
+            # Old markscheme layouts often place the active question number in the footer.
+            # Use it as a strong fallback anchor when table parsing is noisy.
+            for w in page.get_text("words"):
+                x0, y0, _x1, _y1, txt, *_ = w
+                if not re.fullmatch(r"\d{1,2}", str(txt).strip()):
+                    continue
+                qn = int(txt)
+                if not (1 <= qn <= 60):
+                    continue
+                if not (92 <= float(x0) <= 135 and float(y0) >= 760):
+                    continue
+                eff_x = float(x0)
+                # Footer indicator gives the active question number, but not its true top.
+                # Use a conservative top anchor to keep full markscheme content.
+                eff_y = 120.0
+                cand_score = 9  # Prefer footer anchor over accidental numeric text in answers.
+                prev = starts.get(qn)
+                replace = False
+                if prev is None:
+                    replace = True
+                else:
+                    prev_page, prev_y, prev_x, prev_score = prev
+                    if cand_score > prev_score:
+                        replace = True
+                    elif cand_score == prev_score:
+                        if eff_x < prev_x - 0.5:
+                            replace = True
+                        elif abs(eff_x - prev_x) <= 0.5 and (pno < prev_page or (pno == prev_page and eff_y < prev_y)):
+                            replace = True
+                if replace:
+                    starts[qn] = (pno, eff_y, eff_x, cand_score)
+                break
 
     out = [StartPos(qnum=q, page=pg, y=y) for q, (pg, y, _x, _score) in starts.items()]
     out.sort(key=lambda s: (s.page, s.y))
