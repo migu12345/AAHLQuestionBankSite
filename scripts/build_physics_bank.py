@@ -279,7 +279,7 @@ def main() -> None:
             ms_img_prefix = IMAGES_ROOT / "markschemes" / base
 
             is_paper1 = str(p.get("paperCode")) == "1"
-            q_top_offset = 6.0 if is_paper1 else -8.0
+            q_top_offset = -16.0 if is_paper1 else -8.0
             q_images = crop_question(paper_doc, q_starts, qn, q_img_prefix, "paper", top_offset=q_top_offset)
             ms_images = (
                 []
