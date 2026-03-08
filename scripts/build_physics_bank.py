@@ -219,8 +219,11 @@ def main() -> None:
 
         qnums = sorted({s.qnum for s in q_starts})
 
+        session_prefix = "m" if str(p.get("session", "")).lower().startswith("may") else "n"
+        session_code = f"{session_prefix}{str(p['year'])[-2:]}"
+
         for qn in qnums:
-            base = f"phys_m{str(p['year'])[-2:]}_p{str(p['paperCode']).lower()}_{str(p['timezone']).lower()}_q{qn}_{str(p['level']).lower()}"
+            base = f"phys_{session_code}_p{str(p['paperCode']).lower()}_{str(p['timezone']).lower()}_q{qn}_{str(p['level']).lower()}"
             q_img_prefix = IMAGES_ROOT / "questions" / base
             ms_img_prefix = IMAGES_ROOT / "markschemes" / base
 
@@ -235,7 +238,7 @@ def main() -> None:
                     "id": base,
                     "paper": p["paperLabel"],
                     "session": p["session"],
-                    "session_code": f"m{str(p['year'])[-2:]}",
+                    "session_code": session_code,
                     "paper_type": f"Paper {p['paperCode']}",
                     "level": p["level"],
                     "question_number": str(qn),
