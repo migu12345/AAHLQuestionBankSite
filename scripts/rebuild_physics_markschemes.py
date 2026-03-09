@@ -221,8 +221,12 @@ def crop_ms(doc: fitz.Document, starts: List[StartPos], qnum: int, out_base: Pat
         top = 46.0
         bottom = h - 18.0
         if pno == cur.page:
-            # Keep a small downward offset, but avoid trimming first-answer rows.
-            top = max(46.0, cur.y + 2.0)
+            # Keep context above detected anchors so first rows are not clipped.
+            # If anchor is already near top, start from the standard page margin.
+            if cur.y <= 160.0:
+                top = 46.0
+            else:
+                top = max(46.0, cur.y - 24.0)
         if nxt is not None and pno == nxt.page and pno > cur.page and nxt.y <= 140.0:
             # When the next question clearly starts near page top, do not keep
             # a tiny sliver of this page for the current question.

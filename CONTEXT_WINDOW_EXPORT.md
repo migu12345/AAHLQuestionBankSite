@@ -2,7 +2,7 @@
 
 Date: 2026-03-09
 Project: `AA-HL-Question-Bank`
-Latest pushed commit: `f2e699f` (main)
+Latest pushed commit: `b273a1e` (main)
 
 ## Current State
 - Physics bank is active focus.
@@ -12,10 +12,16 @@ Latest pushed commit: `f2e699f` (main)
 - User preference: keep `CONTEXT_WINDOW_EXPORT.md` updated after each completed task for chat handoff continuity.
 
 ## Most Recent Change (last task)
-- Request: side-by-side markscheme panel looked like it started at the bottom.
-- UI fix applied in `src/physics/app.js`:
-  - reset question and markscheme pane scroll position to top on each modal open;
-  - enforce reset again on next animation frame after unhide (prevents retained scroll from prior card).
+- Request: Paper 2 markscheme still visibly clipped at top for some questions (example: May 2016 Paper 2 Q1).
+- Root cause: generated markscheme image crops used an overly aggressive first-page top anchor (`cur.y + 2`), cutting first lines.
+- Fix applied in `scripts/rebuild_physics_markschemes.py`:
+  - first page crop now keeps context above anchor;
+  - if anchor is near top (`<=160`), use normal page top margin;
+  - otherwise use `cur.y - 24` instead of `cur.y + 2`.
+- Rebuilt only affected papers (surgical):
+  - `May 2016 Physics Paper 2 SL`
+  - `May 2016 Physics Paper 2 HL`
+- Result: regenerated 18 affected markscheme mappings/images; top clipping fixed for `phys_m16_p2_ntz_q1_sl_p1`.
 - Commit/push: pending in current task.
 
 ## Key Decisions Already Made
