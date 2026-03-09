@@ -2,7 +2,7 @@
 
 Date: 2026-03-10
 Project: `AA-HL-Question-Bank`
-Latest pushed commit: `83bb289` (main)
+Latest pushed commit: `abc47d2` (main)
 
 ## Current State
 - Physics bank is active focus.
@@ -14,13 +14,12 @@ Latest pushed commit: `83bb289` (main)
 - User constraint: do not change Paper 1A / Paper 2 / Paper 3 logic when fixing current Paper 1B issues.
 
 ## Most Recent Change (last task)
-- Request: exam mode in Physics did not hide markschemes.
-- Root cause: Physics page has no exam-mode control bar, so `examMode.started` never became true.
-- Fix applied in `src/physics/app.js`:
-  - exam lock now applies whenever exam mode is enabled and not ended;
-  - when opened via exam query params, exam mode auto-starts immediately (sets started/endTs);
-  - side-by-side modal is blocked while exam is locked.
-- Scope: Physics UI logic only; no Paper 1A/2/3 extraction logic changes.
+- Request: make Physics exam mode behave like AA Math: click Start to begin timer/lock; click finish/unlock to reveal markschemes.
+- Fix applied:
+  - `src/physics/index.html`: added exam-mode bar with `Start Exam Mode` and `Unlock Markschemes` buttons.
+  - `src/physics/app.js`: lock condition now requires `examMode.started && !examMode.ended` (same behavior pattern as AA).
+  - removed prior auto-start lock behavior from exam query parsing.
+- Scope: Physics UI exam flow only.
 - Commit/push: pending in current task.
 
 ## Key Decisions Already Made

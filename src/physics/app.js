@@ -472,7 +472,7 @@ function buildQuestionNode(q) {
       renderQuestions(true);
     });
   }
-  const examLocked = state.examMode.enabled && !state.examMode.ended;
+  const examLocked = state.examMode.enabled && state.examMode.started && !state.examMode.ended;
   if (examLocked) {
     sideBySideBtn.hidden = true;
     if (markschemeDetails) {
@@ -521,7 +521,7 @@ function buildQuestionNode(q) {
 }
 
 function openCompareModal(q) {
-  const examLocked = state.examMode.enabled && !state.examMode.ended;
+  const examLocked = state.examMode.enabled && state.examMode.started && !state.examMode.ended;
   if (examLocked) {
     return;
   }
@@ -872,11 +872,6 @@ function applyInitialQueryFilters() {
       if (Number.isFinite(mins) && mins > 0) {
         state.examMode.enabled = true;
         state.examMode.durationSeconds = Math.round(mins * 60);
-        // Physics page has no exam control bar. Lock markschemes immediately
-        // when opened via exam-mode launcher.
-        state.examMode.started = true;
-        state.examMode.ended = false;
-        state.examMode.endTs = Date.now() + state.examMode.durationSeconds * 1000;
       }
     }
     return;
