@@ -2,7 +2,7 @@
 
 Date: 2026-03-09
 Project: `AA-HL-Question-Bank`
-Latest pushed commit: `2e39796` (main)
+Latest pushed commit: `264efa2` (main)
 
 ## Current State
 - Physics bank is active focus.
@@ -25,7 +25,7 @@ Latest pushed commit: `2e39796` (main)
 - Result:
   - regenerated/reattached markscheme mappings for `673` questions;
   - clipping fix applied across the rebuilt set.
-- Commit/push: pending in current task.
+- Commit/push: `264efa2` to `origin/main`.
 
 ## Key Decisions Already Made
 - Old Physics MCQ `Paper 1` should be treated as `Paper 1A` equivalent behavior.
