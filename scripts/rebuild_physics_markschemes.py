@@ -1,13 +1,13 @@
 #!/usr/bin/env python3
 from __future__ import annotations
 
+import argparse
 import json
 import re
-import runpy
 import sys
 from dataclasses import dataclass
 from pathlib import Path
-from typing import Dict, List, Optional
+from typing import Dict, Iterable, List, Optional, Tuple
 
 ROOT = Path(__file__).resolve().parents[1]
 DEPS = ROOT / ".deps"
@@ -42,8 +42,17 @@ def load_manual_papers() -> Dict[str, str]:
     return out
 
 
-def detect_ms_starts(doc: fitz.Document) -> List[StartPos]:
-    starts: Dict[int, tuple[int, float]] = {}
+def _to_qnum(value: object) -> int:
+    s = str(value or "").strip()
+    if not s:
+        return 0
+    try:
+        return int(s)
+    except ValueError:
+        return 0
+
+
+def _find_ms_data_start_page(doc: fitz.Document) -> int:
     ms_data_start_page = 0
     for pno in range(len(doc)):
         text = (doc[pno].get_text("text") or "").lower()
@@ -63,53 +72,137 @@ def detect_ms_starts(doc: fitz.Document) -> List[StartPos]:
             if "question" in text and "answers" in text and "total" in text and "subject details" not in text:
                 ms_data_start_page = pno
                 break
+    return ms_data_start_page
 
-    for pno in range(ms_data_start_page, len(doc)):
+
+def detect_ms_starts(doc: fitz.Document, allowed_qnums: Iterable[int]) -> List[StartPos]:
+    allowed = {q for q in allowed_qnums if 1 <= q <= 60}
+    if not allowed:
+        return []
+
+    candidates: Dict[int, List[Tuple[int, float, int]]] = {q: [] for q in allowed}
+
+    def add_candidate(qn: int, pno: int, y: float, score: int) -> None:
+        if qn in candidates:
+            candidates[qn].append((pno, y, score))
+
+    for pno in range(len(doc)):
         page = doc[pno]
-        h = float(page.rect.height)
-        blocks = page.get_text("dict").get("blocks", [])
-        pending: Optional[int] = None
-        pending_y: Optional[float] = None
-        for block in blocks:
-            if block.get("type") != 0:
-                continue
-            for line in block.get("lines", []):
-                spans = line.get("spans", [])
-                if not spans:
-                    continue
-                text = "".join(s.get("text", "") for s in spans).strip()
-                if not text:
-                    continue
-                x = float(line.get("bbox", [0, 0, 0, 0])[0])
-                y = float(line.get("bbox", [0, 0, 0, 0])[1])
-                if y < 55 or y > h - 75:
-                    continue
-                # In some paper-3 markschemes, the question number column can be
-                # shifted right (x ~150-190). Keep this permissive enough to catch
-                # those layouts while still avoiding most answer-cell content.
-                if x > 220:
-                    continue
+        page_text = page.get_text("text") or ""
+        page_text_l = page_text.lower()
+        has_table_header = (
+            "question" in page_text_l
+            and "answers" in page_text_l
+            and "total" in page_text_l
+            and "subject details" not in page_text_l
+            and "mark allocation" not in page_text_l
+        )
+        is_rubric_page = any(
+            phrase in page_text_l
+            for phrase in (
+                "each row in the",
+                "maximum mark for each question subpart",
+                "marking point",
+                "alternative wording",
+                "alternative answer",
+                "alternative markscheme",
+            )
+        )
 
-                qn = None
-                m_num = re.match(r"^(\d{1,2})$", text)
-                m_inline = re.match(r"^(\d{1,2})\s+[A-Za-z(]", text)
-                if m_num:
-                    pending = int(m_num.group(1))
-                    pending_y = y
-                    qn = pending
-                elif m_inline:
-                    qn = int(m_inline.group(1))
-                elif pending is not None and re.match(r"^[a-z]\s*$", text, re.I):
-                    qn = pending
+        # Heading fallback for layouts with explicit "Question X" labels.
+        for m in re.finditer(r"(?im)^\s*question\s+(\d{1,2})\b", page_text):
+            qn = int(m.group(1))
+            if qn in allowed:
+                add_candidate(qn, pno, 120.0, 6)
 
-                if qn is None or not (1 <= qn <= 60):
+        # Text-line fallback for older table layouts where OCR loses precise
+        # word coordinates for the question column (common in Paper 2).
+        if has_table_header:
+            lines = [ln.strip() for ln in page_text.splitlines() if ln.strip()]
+            for i, ln in enumerate(lines[:-1]):
+                if not re.fullmatch(r"\d{1,2}", ln):
                     continue
-                if qn not in starts:
-                    starts[qn] = (pno, pending_y if pending_y is not None else y)
+                if i > 40:
+                    continue
+                qn = int(ln)
+                if qn not in allowed:
+                    continue
+                lookahead = lines[i + 1 : i + 5]
+                has_subpart_a = any(re.fullmatch(r"a", nxt.lower()) for nxt in lookahead)
+                has_total_then_subpart_a = (
+                    len(lookahead) >= 2
+                    and re.fullmatch(r"\d{1,2}", lookahead[0])
+                    and re.fullmatch(r"a", lookahead[1].lower())
+                )
+                if has_subpart_a or has_total_then_subpart_a:
+                    add_candidate(qn, pno, 120.0, 8)
 
-    out = [StartPos(qnum=q, page=pg, y=y) for q, (pg, y) in starts.items()]
-    out.sort(key=lambda s: (s.page, s.y))
-    return out
+        # Table-row anchors: left "Question" column usually sits around x<=72, y~300-520.
+        if has_table_header:
+            words = page.get_text("words")
+            for w in words:
+                x0, y0, _x1, _y1, txt, *_ = w
+                t = str(txt).strip()
+                if not re.fullmatch(r"\d{1,2}\.?", t):
+                    continue
+                qn = int(t.rstrip("."))
+                if qn not in allowed:
+                    continue
+                x = float(x0)
+                y = float(y0)
+                # Many IB table layouts place the question number for each new
+                # question near the lower-left of the page around x≈110,y≈780.
+                # Treat this as a strong "new question starts on this page"
+                # signal and anchor at a conservative top crop.
+                if 95.0 <= x <= 130.0 and y >= 730.0:
+                    add_candidate(qn, pno, 120.0, 15)
+                    continue
+                if x <= 72.0 and 280.0 <= y <= 540.0:
+                    # Avoid page-number false positives: require a likely subpart
+                    # letter on the same baseline to the right of the number.
+                    line_tokens = [
+                        str(v[4]).strip().lower()
+                        for v in words
+                        if abs(float(v[1]) - y) <= 2.0 and float(v[0]) > x and float(v[0]) <= x + 120.0
+                    ]
+                    if any(re.fullmatch(r"[a-e]", tok) for tok in line_tokens):
+                        add_candidate(qn, pno, y, 10)
+                elif 70.0 <= x <= 150.0 and y >= 730.0:
+                    # Footer question indicator, conservative top anchor.
+                    add_candidate(qn, pno, 120.0, 12)
+        elif not is_rubric_page:
+            # OCR on some old pages misses table headers completely.
+            # Accept left-column numeric anchors unless this is clearly a rubric page.
+            words = page.get_text("words")
+            for w in words:
+                x0, y0, _x1, _y1, txt, *_ = w
+                t = str(txt).strip()
+                if not re.fullmatch(r"\d{1,2}", t):
+                    continue
+                qn = int(t)
+                if qn not in allowed:
+                    continue
+                x = float(x0)
+                y = float(y0)
+                if x <= 72.0 and 320.0 <= y <= 520.0:
+                    line_tokens = [
+                        str(v[4]).strip().lower()
+                        for v in words
+                        if abs(float(v[1]) - y) <= 2.0 and float(v[0]) > x and float(v[0]) <= x + 120.0
+                    ]
+                    if any(re.fullmatch(r"[a-e]", tok) for tok in line_tokens):
+                        add_candidate(qn, pno, y, 7)
+
+    starts: List[StartPos] = []
+    for qn in sorted(allowed):
+        cands = candidates.get(qn, [])
+        if not cands:
+            continue
+        pno, y, _score = sorted(cands, key=lambda t: (-t[2], t[0], t[1]))[0]
+        starts.append(StartPos(qnum=qn, page=pno, y=y))
+
+    starts.sort(key=lambda s: (s.page, s.y, s.qnum))
+    return starts
 
 
 def crop_ms(doc: fitz.Document, starts: List[StartPos], qnum: int, out_base: Path) -> List[str]:
@@ -128,14 +221,37 @@ def crop_ms(doc: fitz.Document, starts: List[StartPos], qnum: int, out_base: Pat
         top = 46.0
         bottom = h - 18.0
         if pno == cur.page:
-            top = max(40.0, cur.y - 8.0)
+            # Keep a small downward offset, but avoid trimming first-answer rows.
+            top = max(46.0, cur.y + 2.0)
+        if nxt is not None and pno == nxt.page and pno > cur.page and nxt.y <= 140.0:
+            # When the next question clearly starts near page top, do not keep
+            # a tiny sliver of this page for the current question.
+            continue
         if nxt is not None and pno == nxt.page:
             bottom = min(bottom, nxt.y - 2.0)
-        if bottom <= top + 70.0:
+        if bottom <= top + 90.0:
             continue
 
         clip = fitz.Rect(18.0, top, w - 18.0, bottom)
         pix = page.get_pixmap(matrix=fitz.Matrix(2.0, 2.0), clip=clip, alpha=False)
+        # Guard against empty / whitespace-only crops when OCR anchors are weak.
+        data = pix.samples
+        comps = int(pix.n or 0)
+        if comps >= 3 and pix.width > 0 and pix.height > 0:
+            total = pix.width * pix.height
+            step = max(1, total // 50000)
+            white = 0
+            checked = 0
+            for i in range(0, total, step):
+                base = i * comps
+                r = data[base]
+                g = data[base + 1]
+                b = data[base + 2]
+                if r > 245 and g > 245 and b > 245:
+                    white += 1
+                checked += 1
+            if checked > 0 and (white / checked) > 0.998:
+                continue
         if cur.page == last_page:
             out_file = out_base.with_suffix(".png")
         else:
@@ -146,43 +262,20 @@ def crop_ms(doc: fitz.Document, starts: List[StartPos], qnum: int, out_base: Pat
     return rels
 
 
-def crop_ms_by_index(doc: fitz.Document, starts: List[StartPos], idx: int, out_base: Path) -> List[str]:
-    if idx < 0 or idx >= len(starts):
-        return []
-    cur = starts[idx]
-    nxt = starts[idx + 1] if idx + 1 < len(starts) else None
-    last_page = nxt.page if nxt else len(doc) - 1
-
-    rels: List[str] = []
-    for pno in range(cur.page, last_page + 1):
-        page = doc[pno]
-        w = float(page.rect.width)
-        h = float(page.rect.height)
-        top = 46.0
-        bottom = h - 18.0
-        if pno == cur.page:
-            top = max(40.0, cur.y - 8.0)
-        if nxt is not None and pno == nxt.page:
-            bottom = min(bottom, nxt.y - 2.0)
-        if bottom <= top + 70.0:
-            continue
-
-        clip = fitz.Rect(18.0, top, w - 18.0, bottom)
-        pix = page.get_pixmap(matrix=fitz.Matrix(2.0, 2.0), clip=clip, alpha=False)
-        if cur.page == last_page:
-            out_file = out_base.with_suffix(".png")
-        else:
-            out_file = out_base.parent / f"{out_base.name}_p{pno - cur.page + 1}.png"
-        out_file.parent.mkdir(parents=True, exist_ok=True)
-        pix.save(str(out_file))
-        rels.append(out_file.relative_to(REL_BASE).as_posix())
-    return rels
+def _parse_args() -> argparse.Namespace:
+    parser = argparse.ArgumentParser(description="Rebuild physics markscheme screenshots.")
+    parser.add_argument(
+        "--paper-label",
+        action="append",
+        default=[],
+        help="Only rebuild this exact paper label (repeatable).",
+    )
+    return parser.parse_args()
 
 
 def main() -> None:
-    bank_mod = runpy.run_path(str(ROOT / "scripts" / "build_physics_bank.py"))
-    detect_starts = bank_mod["detect_starts"]
-    crop_question = bank_mod["crop_question"]
+    args = _parse_args()
+    label_filter = {str(v).strip() for v in (args.paper_label or []) if str(v).strip()}
 
     payload = json.loads(QUESTIONS_JSON.read_text(encoding="utf-8"))
     questions = payload.get("questions", [])
@@ -198,53 +291,65 @@ def main() -> None:
 
     total_attached = 0
     for ms_rel, rows in by_ms_path.items():
+        if not rows:
+            continue
+        if label_filter and not any(str(r.get("paper", "")).strip() in label_filter for r in rows):
+            continue
+
+        # Keep already-working Paper 3 mappings untouched in this pass.
+        paper3_rows = [r for r in rows if str(r.get("paper_type", "")).strip().lower() == "paper 3"]
+        paper1a_rows = [
+            r
+            for r in rows
+            if str(r.get("paper_type", "")).strip().lower() in {"paper 1a", "paper 1"}
+        ]
+        rebuild_rows = [
+            r
+            for r in rows
+            if str(r.get("paper_type", "")).strip().lower() in {"paper 2", "paper 1b"}
+        ]
+
+        # Paper 1A uses answer-key mapping; never label as "No markscheme" when
+        # the MCQ answer text is present.
+        for q in paper1a_rows:
+            answer_text = str(q.get("answer_text") or "").strip()
+            mcq_answer = str(q.get("mcq_answer") or "").strip()
+            if not answer_text and mcq_answer:
+                q["answer_text"] = f"Answer: {mcq_answer}"
+                answer_text = str(q.get("answer_text") or "").strip()
+            has_images = bool(q.get("markscheme_image_paths") or [])
+            q["has_markscheme"] = bool(has_images or mcq_answer or answer_text)
+
+        if not rebuild_rows:
+            continue
+
         pdf = ROOT / "data" / ms_rel
         if not pdf:
             continue
         if not pdf.exists():
             continue
         doc = fitz.open(pdf)
-        starts = detect_starts(doc, "markscheme")
+        starts = detect_ms_starts(doc, range(1, 61))
         if not starts:
-            for q in rows:
-                q["markscheme_image_paths"] = []
-                q["markscheme_images"] = []
-                q["has_markscheme"] = False
             doc.close()
             continue
 
-        # Paper 3 can be option-scoped; only attach markschemes by exact
-        # question-number match to avoid leaking other questions' rubrics.
-        paper3_rows = [r for r in rows if str(r.get("paper_type", "")).strip().lower() == "paper 3"]
-        paper3_ids = {r.get("id", "") for r in paper3_rows}
-        if paper3_rows:
-            ordered_p3 = sorted(
-                paper3_rows,
-                key=lambda r: int(str(r.get("question_number", "0")) or 0),
-            )
-            for q in ordered_p3:
-                qid = q.get("id", "")
-                qn = int(str(q.get("question_number", "0")) or 0)
+        for q in rebuild_rows:
+            qid = q.get("id", "")
+            qn = _to_qnum(q.get("question_number", "0"))
+            old_rels = list(q.get("markscheme_image_paths") or [])
+            rels = crop_ms(doc, starts, qn, MS_IMG_DIR / qid) if qn > 0 else []
+            if rels:
                 for stale in MS_IMG_DIR.glob(f"{qid}*.png"):
                     stale.unlink(missing_ok=True)
-                rels = crop_question(doc, starts, qn, MS_IMG_DIR / qid, "markscheme") if qn > 0 else []
-                q["markscheme_image_paths"] = rels
-                q["markscheme_images"] = rels
-                q["has_markscheme"] = bool(rels)
-                if rels:
-                    total_attached += 1
-
-        for q in rows:
-            if q.get("id", "") in paper3_ids:
-                continue
-            qid = q.get("id", "")
-            qn = int(str(q.get("question_number", "0")) or 0)
-            for stale in MS_IMG_DIR.glob(f"{qid}*.png"):
-                stale.unlink(missing_ok=True)
-            rels = crop_question(doc, starts, qn, MS_IMG_DIR / qid, "markscheme")
-            q["markscheme_image_paths"] = rels
-            q["markscheme_images"] = rels
-            q["has_markscheme"] = bool(rels)
+                # Re-render after cleanup so only fresh files are referenced.
+                rels = crop_ms(doc, starts, qn, MS_IMG_DIR / qid) if qn > 0 else []
+            final_rels = rels if rels else old_rels
+            q["markscheme_image_paths"] = final_rels
+            q["markscheme_images"] = final_rels
+            answer_text = str(q.get("answer_text") or "").strip()
+            mcq_answer = str(q.get("mcq_answer") or "").strip()
+            q["has_markscheme"] = bool(final_rels or answer_text or mcq_answer)
             if rels:
                 total_attached += 1
         doc.close()

@@ -345,8 +345,15 @@ function buildQuestionNode(q) {
   const marks = Number.isFinite(q.marks) ? `${q.marks} marks` : "marks n/a";
   node.querySelector(".meta").textContent = `${q.paper || "Unknown paper"} | ${q.topic || "Unsorted"} | ${q.subtopic || "Unsorted"} | ${marks}`;
   const msImages = Array.isArray(q.markscheme_image_paths) ? q.markscheme_image_paths : [];
-  const isPaper3 = String(q.paper_type || "").trim() === "Paper 3";
-  const hasMarkscheme = isPaper3 ? msImages.length > 0 : q.has_markscheme !== false;
+  const paperType = String(q.paper_type || "").trim();
+  const isPaper3 = paperType === "Paper 3";
+  const isMcqPaper = ["Paper 1A", "Paper 1"].includes(paperType);
+  const mcqAnswer = String(q.mcq_answer || "").trim().toUpperCase();
+  const hasMarkscheme = isPaper3
+    ? msImages.length > 0
+    : isMcqPaper
+      ? true
+      : q.has_markscheme !== false;
   if (!hasMarkscheme && tagsEl) {
     const badge = document.createElement("span");
     badge.className = "difficulty-tag difficulty-medium";
@@ -355,7 +362,6 @@ function buildQuestionNode(q) {
   }
 
   const qImages = Array.isArray(q.question_image_paths) ? q.question_image_paths : [];
-  const mcqAnswer = String(q.mcq_answer || "").trim().toUpperCase();
   const hasAnyImage = qImages.length > 0 || msImages.length > 0;
   const questionNumber = `${q.question_number || ""}`.trim();
   const fallbackTitle = questionNumber ? `Q${questionNumber}` : "Question";
@@ -435,8 +441,6 @@ function buildQuestionNode(q) {
     questionTextEl.hidden = false;
   }
 
-  const isMcqPaper = ["Paper 1A", "Paper 1"].includes(String(q.paper_type || "").trim());
-
   if (mcqAnswer && isMcqPaper) {
     const answerChip = document.createElement("p");
     answerChip.className = "compare-fallback";
@@ -467,10 +471,14 @@ function openCompareModal(q) {
 
   compareQuestionBody.innerHTML = "";
   compareMarkschemeBody.innerHTML = "";
+  compareMarkschemeBody.classList.remove("compare-ms-paper2");
 
   const qImages = Array.isArray(q.question_image_paths) ? q.question_image_paths : [];
   const msImages = Array.isArray(q.markscheme_image_paths) ? q.markscheme_image_paths : [];
   const mcqAnswer = String(q.mcq_answer || "").trim().toUpperCase();
+  if (String(q.paper_type || "").trim() === "Paper 2") {
+    compareMarkschemeBody.classList.add("compare-ms-paper2");
+  }
 
   if (qImages.length > 0) {
     qImages.forEach((imgPath, index) => {

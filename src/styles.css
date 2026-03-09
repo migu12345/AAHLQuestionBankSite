@@ -807,6 +807,10 @@ button:hover {
   align-content: start;
 }
 
+.compare-body.compare-ms-paper2 {
+  padding-top: 1.5rem;
+}
+
 .compare-body img {
   width: 100%;
   border: 1px solid var(--line);
