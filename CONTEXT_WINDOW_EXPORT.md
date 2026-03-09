@@ -2,7 +2,7 @@
 
 Date: 2026-03-09
 Project: `AA-HL-Question-Bank`
-Latest pushed commit: `264efa2` (main)
+Latest pushed commit: `318d04c` (main)
 
 ## Current State
 - Physics bank is active focus.
@@ -19,7 +19,7 @@ Latest pushed commit: `264efa2` (main)
   - normalized paper type in dedupe key;
   - explicit level ranking (`SL` > `HL` > unknown) for conflict resolution.
 - Scope: UI/question list dedupe only; markscheme data and rendering untouched.
-- Commit/push: pending in current task.
+- Commit/push: `318d04c` to `origin/main`.
 
 ## Key Decisions Already Made
 - Old Physics MCQ `Paper 1` should be treated as `Paper 1A` equivalent behavior.
