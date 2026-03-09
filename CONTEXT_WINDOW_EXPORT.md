@@ -2,7 +2,7 @@
 
 Date: 2026-03-10
 Project: `AA-HL-Question-Bank`
-Latest pushed commit: `2f9c271` (main)
+Latest pushed commit: `3b422fa` (main)
 
 ## Current State
 - Physics bank is active focus.
@@ -21,6 +21,7 @@ Latest pushed commit: `2f9c271` (main)
   - combined exam mode duration is the official Paper 1 total (`SL 90m`, `HL 120m`);
   - non-2025 papers and other paper codes remain unchanged.
 - Commit/push: pending in current task.
+- Commit/push: `3b422fa` to `origin/main`.
 
 ## Key Decisions Already Made
 - Old Physics MCQ `Paper 1` should be treated as `Paper 1A` equivalent behavior.
