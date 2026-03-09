@@ -2,7 +2,7 @@
 
 Date: 2026-03-09
 Project: `AA-HL-Question-Bank`
-Latest pushed commit: `b334963` (main)
+Latest pushed commit: `f05cb81` (main)
 
 ## Current State
 - Physics bank is active focus.
@@ -20,7 +20,7 @@ Latest pushed commit: `b334963` (main)
   - adds safe fallback to question number only when both fingerprints are empty;
   - explicit level ranking (`SL` > `HL` > unknown) for conflict resolution.
 - Scope: UI/question list dedupe only; markscheme data and rendering untouched.
-- Commit/push: pending in current task.
+- Commit/push: `f05cb81` to `origin/main`.
 
 ## Key Decisions Already Made
 - Old Physics MCQ `Paper 1` should be treated as `Paper 1A` equivalent behavior.
