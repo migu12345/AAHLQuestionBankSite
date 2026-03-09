@@ -521,8 +521,15 @@ function openCompareModal(q) {
 
   const qLabel = `${q.question_number || ""}`.trim();
   compareTitle.textContent = qLabel ? `Side by side - Q${qLabel}` : "Side by side view";
+  // Always reset both columns to the top for each newly opened question.
+  compareQuestionBody.scrollTop = 0;
+  compareMarkschemeBody.scrollTop = 0;
   compareModal.hidden = false;
   document.body.style.overflow = "hidden";
+  requestAnimationFrame(() => {
+    compareQuestionBody.scrollTop = 0;
+    compareMarkschemeBody.scrollTop = 0;
+  });
 }
 
 function closeCompareModal() {
