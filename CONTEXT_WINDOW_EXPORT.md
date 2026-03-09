@@ -2,7 +2,7 @@
 
 Date: 2026-03-10
 Project: `AA-HL-Question-Bank`
-Latest pushed commit: `c57aa1a` (main)
+Latest pushed commit: `ed770a2` (main)
 
 ## Current State
 - Physics bank is active focus.
@@ -31,7 +31,7 @@ Latest pushed commit: `c57aa1a` (main)
 - Source references used for timings:
   - IB DP Physics subject brief (first assessment 2025)
   - IB exam schedule archives (for pre-2025 durations)
-- Commit/push: pending in current task.
+- Commit/push: `ed770a2` to `origin/main`.
 
 ## Key Decisions Already Made
 - Old Physics MCQ `Paper 1` should be treated as `Paper 1A` equivalent behavior.
