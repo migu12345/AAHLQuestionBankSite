@@ -342,7 +342,8 @@ function buildQuestionNode(q) {
   const sideBySideBtn = node.querySelector(".side-by-side-btn");
   const markschemeDetails = node.querySelector("details");
 
-  const marks = Number.isFinite(q.marks) ? `${q.marks} marks` : "marks n/a";
+  const normalizedMarks = getNormalizedMarks(q);
+  const marks = Number.isFinite(normalizedMarks) ? `${normalizedMarks} marks` : "marks n/a";
   node.querySelector(".meta").textContent = `${q.paper || "Unknown paper"} | ${q.topic || "Unsorted"} | ${q.subtopic || "Unsorted"} | ${marks}`;
   const msImages = Array.isArray(q.markscheme_image_paths) ? q.markscheme_image_paths : [];
   const paperType = String(q.paper_type || "").trim();
@@ -691,8 +692,22 @@ function cleanPreviewText(text) {
     .trim();
 }
 
+function getNormalizedMarks(q) {
+  const paperType = String(q?.paper_type || "").trim();
+  if (paperType === "Paper 1A" || paperType === "Paper 1") {
+    return 1;
+  }
+
+  const numeric = Number(q?.marks);
+  if (Number.isFinite(numeric) && numeric > 0) {
+    return numeric;
+  }
+
+  return null;
+}
+
 function inferDifficulty(q) {
-  const marks = Number(q?.marks || 0);
+  const marks = getNormalizedMarks(q) ?? 0;
   const paperType = String(q?.paper_type || "").toLowerCase();
   const paperMatch = paperType.match(/paper\s*([123])/);
   const paperNo = paperMatch ? Number(paperMatch[1]) : 0;
