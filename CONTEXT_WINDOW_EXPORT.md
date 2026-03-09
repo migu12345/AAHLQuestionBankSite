@@ -2,7 +2,7 @@
 
 Date: 2026-03-10
 Project: `AA-HL-Question-Bank`
-Latest pushed commit: `abc47d2` (main)
+Latest pushed commit: `684a945` (main)
 
 ## Current State
 - Physics bank is active focus.
@@ -20,7 +20,7 @@ Latest pushed commit: `abc47d2` (main)
   - `src/physics/app.js`: lock condition now requires `examMode.started && !examMode.ended` (same behavior pattern as AA).
   - removed prior auto-start lock behavior from exam query parsing.
 - Scope: Physics UI exam flow only.
-- Commit/push: pending in current task.
+- Commit/push: `684a945` to `origin/main`.
 
 ## Key Decisions Already Made
 - Old Physics MCQ `Paper 1` should be treated as `Paper 1A` equivalent behavior.
