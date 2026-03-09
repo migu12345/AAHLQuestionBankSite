@@ -2,7 +2,7 @@
 
 Date: 2026-03-10
 Project: `AA-HL-Question-Bank`
-Latest pushed commit: `cb91c72` (main)
+Latest pushed commit: `d8fbd20` (main)
 
 ## Current State
 - Physics bank is active focus.
@@ -25,7 +25,7 @@ Latest pushed commit: `cb91c72` (main)
 - Validation:
   - `phys_m25_p1b_tz1_q1_hl_p1` now starts at the correct top of Q1 table;
   - `phys_m25_p1b_tz1_q2_hl` no longer includes Q3 content.
-- Commit/push: pending in current task.
+- Commit/push: `d8fbd20` to `origin/main`.
 
 ## Key Decisions Already Made
 - Old Physics MCQ `Paper 1` should be treated as `Paper 1A` equivalent behavior.
