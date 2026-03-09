@@ -262,10 +262,12 @@ function parsePaperMeta(paperLabel) {
   if (!m) {
     return null;
   }
+  const code = String(m[3]).toUpperCase();
   return {
     session: m[1],
     year: Number(m[2]),
-    paperNo: Number(String(m[3]).replace(/[^0-9]/g, "")),
+    paperCode: code,
+    paperNo: Number(code.replace(/[^0-9]/g, "")),
     timezone: m[4] || "No TZ",
     level: m[5].toUpperCase(),
   };
@@ -360,7 +362,8 @@ function filterQuestionsByBundle() {
       meta.year === bundle.year &&
       meta.session === bundle.session &&
       meta.paperNo === bundle.paperNo &&
-      meta.timezone === bundle.timezone;
+      meta.timezone === bundle.timezone &&
+      (!bundle.paperCode || meta.paperCode === bundle.paperCode);
     if (!examMatch) {
       return false;
     }
@@ -829,6 +832,7 @@ function applyInitialQueryFilters() {
   const session = params.get("session");
   const tz = params.get("tz");
   const paperNo = params.get("paperNo");
+  const paperCode = params.get("paperCode");
   const topic = params.get("topic");
   const subtopic = params.get("subtopic");
   const difficulty = params.get("difficulty");
@@ -846,6 +850,7 @@ function applyInitialQueryFilters() {
       session,
       timezone: tz,
       paperNo: Number(paperNo),
+      paperCode: paperCode ? String(paperCode).toUpperCase() : "",
     };
     state.paperSourceFile = sourcePaper || "";
     state.paperSourcePath = sourcePaperPath || "";
@@ -853,7 +858,7 @@ function applyInitialQueryFilters() {
     if ([...levelFilter.options].some((o) => o.value === level)) {
       levelFilter.value = level;
     }
-    const pType = `Paper ${paperNo}`;
+    const pType = `Paper ${state.paperBundle.paperCode || paperNo}`;
     if ([...paperTypeFilter.options].some((o) => o.value === pType)) {
       paperTypeFilter.value = pType;
     }

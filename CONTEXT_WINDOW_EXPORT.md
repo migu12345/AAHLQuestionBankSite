@@ -2,7 +2,7 @@
 
 Date: 2026-03-10
 Project: `AA-HL-Question-Bank`
-Latest pushed commit: `d8fbd20` (main)
+Latest pushed commit: `c57aa1a` (main)
 
 ## Current State
 - Physics bank is active focus.
@@ -14,18 +14,24 @@ Latest pushed commit: `d8fbd20` (main)
 - User constraint: do not change Paper 1A / Paper 2 / Paper 3 logic when fixing current Paper 1B issues.
 
 ## Most Recent Change (last task)
-- Request: Paper 1B markschemes still show wrong/cropped slices (example: m25 tz1 Q1/Q2).
-- Root cause: Paper 1B start anchors were detected too low, and missing next-question anchors caused bleed into following question pages.
-- Fix applied in `scripts/rebuild_physics_markschemes.py`:
-  - added `--paper-type` filter to run targeted rebuilds (used for `Paper 1B` only);
-  - added Paper 1B-specific top-table anchor preference and top-clamp for first-page starts;
-  - added Paper 1B next-page bleed guard when next question is anchored in upper section.
-- Rebuild scope:
-  - Paper 1B only (`python3 scripts/rebuild_physics_markschemes.py --paper-type "Paper 1B"`).
-- Validation:
-  - `phys_m25_p1b_tz1_q1_hl_p1` now starts at the correct top of Q1 table;
-  - `phys_m25_p1b_tz1_q2_hl` no longer includes Q3 content.
-- Commit/push: `d8fbd20` to `origin/main`.
+- Request: create a new `Physics Papers` launcher page like Math Papers and wire exam mode timings for Physics SL/HL.
+- Added:
+  - `src/physics-papers.html`
+  - `src/physics-papers.js`
+- Navigation wired:
+  - new home card on `src/index.html`
+  - direct link from `src/physics/index.html` to `physics-papers.html`
+- Physics bundle improvements (`src/physics/app.js`):
+  - added support for `paperCode` query param (`1`, `1A`, `1B`, `2`, `3`);
+  - bundle filtering now matches exact paper code when provided;
+  - bundle paper type preselect now respects paper code (for example `Paper 1B`).
+- Exam mode durations configured in Physics Papers:
+  - 2025+ (new syllabus): SL `1A/1B = 90m`, `2 = 90m`; HL `1A/1B = 120m`, `2 = 150m`.
+  - pre-2025 (legacy): SL `1 = 45m`, `2 = 75m`, `3 = 60m`; HL `1 = 60m`, `2 = 135m`, `3 = 75m`.
+- Source references used for timings:
+  - IB DP Physics subject brief (first assessment 2025)
+  - IB exam schedule archives (for pre-2025 durations)
+- Commit/push: pending in current task.
 
 ## Key Decisions Already Made
 - Old Physics MCQ `Paper 1` should be treated as `Paper 1A` equivalent behavior.
