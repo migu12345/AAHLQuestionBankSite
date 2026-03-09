@@ -272,19 +272,52 @@ function parsePaperMeta(paperLabel) {
 }
 
 function dedupeForAllLevels(rows) {
+  const normalizePaperType = (paperType) =>
+    String(paperType || "")
+      .trim()
+      .toLowerCase()
+      .replace(/\s+/g, " ");
+  const questionFingerprint = (q) =>
+    normalizeForSearch(q.question_text || q.title || "")
+      .replace(/\s+/g, " ")
+      .trim()
+      .slice(0, 220);
+  const rankLevel = (q) => {
+    const level = inferLevel(q);
+    if (level === "SL") {
+      return 0;
+    }
+    if (level === "HL") {
+      return 1;
+    }
+    return 2;
+  };
+
   const byKey = new Map();
   rows.forEach((q) => {
     const meta = parsePaperMeta(q.paper);
     const key = meta
-      ? [meta.session, meta.year, meta.paperNo, meta.timezone, q.paper_type || "", q.question_number || ""].join("|")
-      : `${q.paper || ""}|${q.paper_type || ""}|${q.question_number || ""}`;
+      ? [
+          meta.session,
+          meta.year,
+          meta.paperNo,
+          meta.timezone,
+          normalizePaperType(q.paper_type),
+          q.question_number || "",
+          questionFingerprint(q),
+        ].join("|")
+      : [
+          normalizePaperType(q.paper_type),
+          q.question_number || "",
+          questionFingerprint(q),
+        ].join("|");
 
     const existing = byKey.get(key);
     if (!existing) {
       byKey.set(key, q);
       return;
     }
-    if (inferLevel(q) === "SL" && inferLevel(existing) !== "SL") {
+    if (rankLevel(q) < rankLevel(existing)) {
       byKey.set(key, q);
     }
   });

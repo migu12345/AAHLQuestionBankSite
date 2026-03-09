@@ -10,22 +10,16 @@ Latest pushed commit: `264efa2` (main)
 - User preference: **surgical fixes only** (avoid global rebuilds that break already-good mappings).
 - User preference: auto **commit + push** after work unless told otherwise.
 - User preference: keep `CONTEXT_WINDOW_EXPORT.md` updated after each completed task for chat handoff continuity.
+- User preference: when `All levels` is selected, prioritize `SL` and suppress `HL` duplicates.
 
 ## Most Recent Change (last task)
-- Request: apply the crop fix across all Physics markschemes.
-- Root cause: generated markscheme image crops used an overly aggressive first-page top anchor (`cur.y + 2`), cutting first lines on many papers.
-- Fix applied in `scripts/rebuild_physics_markschemes.py`:
-  - first page crop now keeps context above anchor;
-  - if anchor is near top (`<=160`), use normal page top margin;
-  - otherwise use `cur.y - 24` instead of `cur.y + 2`.
-- Scope expansion:
-  - markscheme rebuild now includes `Paper 3` (in addition to `Paper 2` and `Paper 1B`).
-- Rebuilt globally:
-  - all Physics markscheme image papers via `scripts/rebuild_physics_markschemes.py`.
-- Result:
-  - regenerated/reattached markscheme mappings for `673` questions;
-  - clipping fix applied across the rebuilt set.
-- Commit/push: `264efa2` to `origin/main`.
+- Request: with `All levels`, prioritize `SL` and remove `HL` duplicates, without touching markschemes.
+- Fix applied in `src/physics/app.js`:
+  - strengthened `dedupeForAllLevels` matching key with a question-text fingerprint;
+  - normalized paper type in dedupe key;
+  - explicit level ranking (`SL` > `HL` > unknown) for conflict resolution.
+- Scope: UI/question list dedupe only; markscheme data and rendering untouched.
+- Commit/push: pending in current task.
 
 ## Key Decisions Already Made
 - Old Physics MCQ `Paper 1` should be treated as `Paper 1A` equivalent behavior.
