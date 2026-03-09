@@ -2,7 +2,7 @@
 
 Date: 2026-03-10
 Project: `AA-HL-Question-Bank`
-Latest pushed commit: `3b422fa` (main)
+Latest pushed commit: `83bb289` (main)
 
 ## Current State
 - Physics bank is active focus.
@@ -14,14 +14,14 @@ Latest pushed commit: `3b422fa` (main)
 - User constraint: do not change Paper 1A / Paper 2 / Paper 3 logic when fixing current Paper 1B issues.
 
 ## Most Recent Change (last task)
-- Request: combine Paper 1A and Paper 1B in Physics Papers to match real exam flow.
-- Fix applied in `src/physics-papers.js`:
-  - for 2025+ sessions, merges `Paper 1A` + `Paper 1B` into a single launcher card: `Paper 1 (1A + 1B)`;
-  - combined card opens physics bundle mode for `paperNo=1` without exact paper-code lock, so both sections load together;
-  - combined exam mode duration is the official Paper 1 total (`SL 90m`, `HL 120m`);
-  - non-2025 papers and other paper codes remain unchanged.
+- Request: exam mode in Physics did not hide markschemes.
+- Root cause: Physics page has no exam-mode control bar, so `examMode.started` never became true.
+- Fix applied in `src/physics/app.js`:
+  - exam lock now applies whenever exam mode is enabled and not ended;
+  - when opened via exam query params, exam mode auto-starts immediately (sets started/endTs);
+  - side-by-side modal is blocked while exam is locked.
+- Scope: Physics UI logic only; no Paper 1A/2/3 extraction logic changes.
 - Commit/push: pending in current task.
-- Commit/push: `3b422fa` to `origin/main`.
 
 ## Key Decisions Already Made
 - Old Physics MCQ `Paper 1` should be treated as `Paper 1A` equivalent behavior.
