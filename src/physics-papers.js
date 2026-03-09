@@ -38,6 +38,50 @@ function parsePaperLabel(paperLabel) {
   };
 }
 
+function combinePaper1AB(papers) {
+  const nonPaper1 = [];
+  const byPaper1Group = new Map();
+
+  papers.forEach((paper) => {
+    const code = String(paper.paperCode || "").toUpperCase();
+    const isNewSyllabusPaper1Section = paper.year >= 2025 && (code === "1A" || code === "1B");
+    if (!isNewSyllabusPaper1Section) {
+      nonPaper1.push(paper);
+      return;
+    }
+    const key = [paper.level, paper.year, paper.session, paper.timezone].join("|");
+    if (!byPaper1Group.has(key)) {
+      byPaper1Group.set(key, []);
+    }
+    byPaper1Group.get(key).push(paper);
+  });
+
+  const combinedPaper1 = [];
+  byPaper1Group.forEach((items) => {
+    const has1A = items.some((p) => String(p.paperCode).toUpperCase() === "1A");
+    const has1B = items.some((p) => String(p.paperCode).toUpperCase() === "1B");
+    if (!(has1A && has1B)) {
+      combinedPaper1.push(...items);
+      return;
+    }
+    const base = items[0];
+    combinedPaper1.push({
+      session: base.session,
+      year: base.year,
+      paperCode: "1",
+      paperNo: 1,
+      timezone: base.timezone,
+      level: base.level,
+      paperLabel: `${base.session} ${base.year} Physics Paper 1 ${base.timezone} ${base.level}`,
+      hasMarkscheme: items.some((p) => p.hasMarkscheme !== false),
+      combinedPaper1AB: true,
+      isManual: false,
+    });
+  });
+
+  return [...nonPaper1, ...combinedPaper1];
+}
+
 function normalizeTimezone(value) {
   const tz = String(value || "").trim().toUpperCase();
   if (!tz || tz === "NO TZ") {
@@ -105,21 +149,23 @@ async function loadData() {
     });
   });
 
-  state.papers = [...byPaper.values()].filter((p) => p.level && p.year && p.session && p.paperCode).sort((a, b) => {
-    if (a.year !== b.year) {
-      return b.year - a.year;
-    }
-    if (a.session !== b.session) {
-      return a.session === "May" ? -1 : 1;
-    }
-    if (a.timezone !== b.timezone) {
-      return a.timezone.localeCompare(b.timezone);
-    }
-    if (a.paperNo !== b.paperNo) {
-      return a.paperNo - b.paperNo;
-    }
-    return a.paperCode.localeCompare(b.paperCode);
-  });
+  state.papers = combinePaper1AB([...byPaper.values()])
+    .filter((p) => p.level && p.year && p.session && p.paperCode)
+    .sort((a, b) => {
+      if (a.year !== b.year) {
+        return b.year - a.year;
+      }
+      if (a.session !== b.session) {
+        return a.session === "May" ? -1 : 1;
+      }
+      if (a.timezone !== b.timezone) {
+        return a.timezone.localeCompare(b.timezone);
+      }
+      if (a.paperNo !== b.paperNo) {
+        return a.paperNo - b.paperNo;
+      }
+      return a.paperCode.localeCompare(b.paperCode);
+    });
 }
 
 function setOptions(selectEl, values, placeholder) {
@@ -205,6 +251,9 @@ function getExamDurationMinutes(level, paperCode, year) {
 
   if (isNewSyllabus) {
     if (lvl === "SL") {
+      if (code === "1") {
+        return 90;
+      }
       if (code === "1A" || code === "1B") {
         return 90;
       }
@@ -214,6 +263,9 @@ function getExamDurationMinutes(level, paperCode, year) {
       return null;
     }
     if (lvl === "HL") {
+      if (code === "1") {
+        return 120;
+      }
       if (code === "1A" || code === "1B") {
         return 120;
       }
@@ -259,7 +311,9 @@ function buildBaseParams(paper) {
   params.set("session", paper.session);
   params.set("tz", paper.timezone === "NTZ" ? "No TZ" : paper.timezone);
   params.set("paperNo", String(paper.paperNo));
-  params.set("paperCode", paper.paperCode);
+  if (!paper.combinedPaper1AB) {
+    params.set("paperCode", paper.paperCode);
+  }
   return params;
 }
 
@@ -310,7 +364,9 @@ function renderPaperButtons() {
 
     const sub = document.createElement("p");
     sub.className = "paper-open-sub";
-    sub.textContent = `Paper ${paper.paperCode} • ${paper.level}`;
+    sub.textContent = paper.combinedPaper1AB
+      ? `Paper 1 (1A + 1B) • ${paper.level}`
+      : `Paper ${paper.paperCode} • ${paper.level}`;
 
     const actions = document.createElement("div");
     actions.className = "paper-open-actions";
@@ -327,7 +383,12 @@ function renderPaperButtons() {
       examBtn.disabled = true;
     }
 
-    if ((paper.paperCode === "1A" || paper.paperCode === "1B") && paper.year >= 2025) {
+    if (paper.combinedPaper1AB) {
+      const note = document.createElement("p");
+      note.className = "paper-open-note";
+      note.textContent = "Combined exam mode includes both Paper 1A and Paper 1B.";
+      wrapper.appendChild(note);
+    } else if ((paper.paperCode === "1A" || paper.paperCode === "1B") && paper.year >= 2025) {
       const note = document.createElement("p");
       note.className = "paper-open-note";
       note.textContent = "Duration uses official Paper 1 total time (Paper 1A + 1B).";

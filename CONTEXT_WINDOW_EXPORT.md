@@ -2,7 +2,7 @@
 
 Date: 2026-03-10
 Project: `AA-HL-Question-Bank`
-Latest pushed commit: `ed770a2` (main)
+Latest pushed commit: `2f9c271` (main)
 
 ## Current State
 - Physics bank is active focus.
@@ -14,24 +14,13 @@ Latest pushed commit: `ed770a2` (main)
 - User constraint: do not change Paper 1A / Paper 2 / Paper 3 logic when fixing current Paper 1B issues.
 
 ## Most Recent Change (last task)
-- Request: create a new `Physics Papers` launcher page like Math Papers and wire exam mode timings for Physics SL/HL.
-- Added:
-  - `src/physics-papers.html`
-  - `src/physics-papers.js`
-- Navigation wired:
-  - new home card on `src/index.html`
-  - direct link from `src/physics/index.html` to `physics-papers.html`
-- Physics bundle improvements (`src/physics/app.js`):
-  - added support for `paperCode` query param (`1`, `1A`, `1B`, `2`, `3`);
-  - bundle filtering now matches exact paper code when provided;
-  - bundle paper type preselect now respects paper code (for example `Paper 1B`).
-- Exam mode durations configured in Physics Papers:
-  - 2025+ (new syllabus): SL `1A/1B = 90m`, `2 = 90m`; HL `1A/1B = 120m`, `2 = 150m`.
-  - pre-2025 (legacy): SL `1 = 45m`, `2 = 75m`, `3 = 60m`; HL `1 = 60m`, `2 = 135m`, `3 = 75m`.
-- Source references used for timings:
-  - IB DP Physics subject brief (first assessment 2025)
-  - IB exam schedule archives (for pre-2025 durations)
-- Commit/push: `ed770a2` to `origin/main`.
+- Request: combine Paper 1A and Paper 1B in Physics Papers to match real exam flow.
+- Fix applied in `src/physics-papers.js`:
+  - for 2025+ sessions, merges `Paper 1A` + `Paper 1B` into a single launcher card: `Paper 1 (1A + 1B)`;
+  - combined card opens physics bundle mode for `paperNo=1` without exact paper-code lock, so both sections load together;
+  - combined exam mode duration is the official Paper 1 total (`SL 90m`, `HL 120m`);
+  - non-2025 papers and other paper codes remain unchanged.
+- Commit/push: pending in current task.
 
 ## Key Decisions Already Made
 - Old Physics MCQ `Paper 1` should be treated as `Paper 1A` equivalent behavior.
