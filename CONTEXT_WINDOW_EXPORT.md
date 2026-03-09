@@ -2,7 +2,7 @@
 
 Date: 2026-03-09
 Project: `AA-HL-Question-Bank`
-Latest pushed commit: `318d04c` (main)
+Latest pushed commit: `b334963` (main)
 
 ## Current State
 - Physics bank is active focus.
@@ -13,13 +13,14 @@ Latest pushed commit: `318d04c` (main)
 - User preference: when `All levels` is selected, prioritize `SL` and suppress `HL` duplicates.
 
 ## Most Recent Change (last task)
-- Request: with `All levels`, prioritize `SL` and remove `HL` duplicates, without touching markschemes.
+- Request: duplicates still visible in `All levels` for same question content with different HL/SL numbers (example: Paper 3 Q7 SL vs Q8 HL).
 - Fix applied in `src/physics/app.js`:
-  - strengthened `dedupeForAllLevels` matching key with a question-text fingerprint;
-  - normalized paper type in dedupe key;
+  - dedupe key now uses content identity (question text fingerprint + image-path fingerprint), not question number;
+  - keeps normalized paper type in dedupe key;
+  - adds safe fallback to question number only when both fingerprints are empty;
   - explicit level ranking (`SL` > `HL` > unknown) for conflict resolution.
 - Scope: UI/question list dedupe only; markscheme data and rendering untouched.
-- Commit/push: `318d04c` to `origin/main`.
+- Commit/push: pending in current task.
 
 ## Key Decisions Already Made
 - Old Physics MCQ `Paper 1` should be treated as `Paper 1A` equivalent behavior.

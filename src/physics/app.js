@@ -277,11 +277,25 @@ function dedupeForAllLevels(rows) {
       .trim()
       .toLowerCase()
       .replace(/\s+/g, " ");
+  const imageFingerprint = (q) => {
+    const first = Array.isArray(q.question_image_paths) ? q.question_image_paths[0] : "";
+    const name = String(first || "")
+      .split("/")
+      .pop()
+      .toLowerCase();
+    if (!name) {
+      return "";
+    }
+    return name
+      .replace(/_q\d+_(hl|sl)/i, "_qx_lx")
+      .replace(/_p\d+\.png$/i, "")
+      .trim();
+  };
   const questionFingerprint = (q) =>
     normalizeForSearch(q.question_text || q.title || "")
       .replace(/\s+/g, " ")
       .trim()
-      .slice(0, 220);
+      .slice(0, 260);
   const rankLevel = (q) => {
     const level = inferLevel(q);
     if (level === "SL") {
@@ -296,6 +310,9 @@ function dedupeForAllLevels(rows) {
   const byKey = new Map();
   rows.forEach((q) => {
     const meta = parsePaperMeta(q.paper);
+    const imgFp = imageFingerprint(q);
+    const txtFp = questionFingerprint(q);
+    const fallbackQnum = !imgFp && !txtFp ? String(q.question_number || "") : "";
     const key = meta
       ? [
           meta.session,
@@ -303,13 +320,15 @@ function dedupeForAllLevels(rows) {
           meta.paperNo,
           meta.timezone,
           normalizePaperType(q.paper_type),
-          q.question_number || "",
-          questionFingerprint(q),
+          imgFp,
+          txtFp,
+          fallbackQnum,
         ].join("|")
       : [
           normalizePaperType(q.paper_type),
-          q.question_number || "",
-          questionFingerprint(q),
+          imgFp,
+          txtFp,
+          fallbackQnum,
         ].join("|");
 
     const existing = byKey.get(key);
