@@ -75,7 +75,12 @@ def _find_ms_data_start_page(doc: fitz.Document) -> int:
     return ms_data_start_page
 
 
-def detect_ms_starts(doc: fitz.Document, allowed_qnums: Iterable[int]) -> List[StartPos]:
+def detect_ms_starts(
+    doc: fitz.Document,
+    allowed_qnums: Iterable[int],
+    *,
+    prefer_top_table_for_p1b: bool = False,
+) -> List[StartPos]:
     allowed = {q for q in allowed_qnums if 1 <= q <= 60}
     if not allowed:
         return []
@@ -127,6 +132,8 @@ def detect_ms_starts(doc: fitz.Document, allowed_qnums: Iterable[int]) -> List[S
                 qn = int(ln)
                 if qn not in allowed:
                     continue
+                if prefer_top_table_for_p1b and i <= 12:
+                    add_candidate(qn, pno, 120.0, 14)
                 lookahead = lines[i + 1 : i + 5]
                 has_subpart_a = any(re.fullmatch(r"a", nxt.lower()) for nxt in lookahead)
                 has_total_then_subpart_a = (
@@ -135,6 +142,8 @@ def detect_ms_starts(doc: fitz.Document, allowed_qnums: Iterable[int]) -> List[S
                     and re.fullmatch(r"a", lookahead[1].lower())
                 )
                 if has_subpart_a or has_total_then_subpart_a:
+                    if prefer_top_table_for_p1b and i <= 20:
+                        add_candidate(qn, pno, 120.0, 16)
                     add_candidate(qn, pno, 120.0, 8)
 
         # Table-row anchors: left "Question" column usually sits around x<=72, y~300-520.
@@ -150,6 +159,9 @@ def detect_ms_starts(doc: fitz.Document, allowed_qnums: Iterable[int]) -> List[S
                     continue
                 x = float(x0)
                 y = float(y0)
+                if prefer_top_table_for_p1b and x <= 90.0 and 120.0 <= y <= 360.0:
+                    add_candidate(qn, pno, 120.0, 14)
+                    continue
                 # Many IB table layouts place the question number for each new
                 # question near the lower-left of the page around x≈110,y≈780.
                 # Treat this as a strong "new question starts on this page"
@@ -202,10 +214,19 @@ def detect_ms_starts(doc: fitz.Document, allowed_qnums: Iterable[int]) -> List[S
         starts.append(StartPos(qnum=qn, page=pno, y=y))
 
     starts.sort(key=lambda s: (s.page, s.y, s.qnum))
+    if prefer_top_table_for_p1b:
+        starts = [StartPos(qnum=s.qnum, page=s.page, y=min(s.y, 120.0)) for s in starts]
     return starts
 
 
-def crop_ms(doc: fitz.Document, starts: List[StartPos], qnum: int, out_base: Path) -> List[str]:
+def crop_ms(
+    doc: fitz.Document,
+    starts: List[StartPos],
+    qnum: int,
+    out_base: Path,
+    *,
+    paper_type: str = "",
+) -> List[str]:
     idx = next((i for i, s in enumerate(starts) if s.qnum == qnum), None)
     if idx is None:
         return []
@@ -227,6 +248,17 @@ def crop_ms(doc: fitz.Document, starts: List[StartPos], qnum: int, out_base: Pat
                 top = 46.0
             else:
                 top = max(46.0, cur.y - 24.0)
+        # Paper 1B rows often start very near page top in a compact table.
+        # Treat the next-question page as belonging entirely to the next row
+        # when its anchor is in the upper section to avoid cross-question bleed.
+        if (
+            paper_type == "paper 1b"
+            and nxt is not None
+            and pno == nxt.page
+            and pno > cur.page
+            and nxt.y <= 360.0
+        ):
+            continue
         if nxt is not None and pno == nxt.page and pno > cur.page and nxt.y <= 140.0:
             # When the next question clearly starts near page top, do not keep
             # a tiny sliver of this page for the current question.
@@ -274,12 +306,19 @@ def _parse_args() -> argparse.Namespace:
         default=[],
         help="Only rebuild this exact paper label (repeatable).",
     )
+    parser.add_argument(
+        "--paper-type",
+        action="append",
+        default=[],
+        help="Only rebuild this exact paper type (repeatable), e.g. 'Paper 1B'.",
+    )
     return parser.parse_args()
 
 
 def main() -> None:
     args = _parse_args()
     label_filter = {str(v).strip() for v in (args.paper_label or []) if str(v).strip()}
+    paper_type_filter = {str(v).strip().lower() for v in (args.paper_type or []) if str(v).strip()}
 
     payload = json.loads(QUESTIONS_JSON.read_text(encoding="utf-8"))
     questions = payload.get("questions", [])
@@ -299,6 +338,10 @@ def main() -> None:
             continue
         if label_filter and not any(str(r.get("paper", "")).strip() in label_filter for r in rows):
             continue
+        if paper_type_filter and not any(
+            str(r.get("paper_type", "")).strip().lower() in paper_type_filter for r in rows
+        ):
+            continue
 
         paper1a_rows = [
             r
@@ -310,6 +353,12 @@ def main() -> None:
             for r in rows
             if str(r.get("paper_type", "")).strip().lower() in {"paper 2", "paper 1b", "paper 3"}
         ]
+        if paper_type_filter:
+            rebuild_rows = [
+                r
+                for r in rebuild_rows
+                if str(r.get("paper_type", "")).strip().lower() in paper_type_filter
+            ]
 
         # Paper 1A uses answer-key mapping; never label as "No markscheme" when
         # the MCQ answer text is present.
@@ -331,7 +380,9 @@ def main() -> None:
         if not pdf.exists():
             continue
         doc = fitz.open(pdf)
-        starts = detect_ms_starts(doc, range(1, 61))
+        rebuild_types = {str(r.get("paper_type", "")).strip().lower() for r in rebuild_rows}
+        prefer_top_table_for_p1b = rebuild_types == {"paper 1b"}
+        starts = detect_ms_starts(doc, range(1, 61), prefer_top_table_for_p1b=prefer_top_table_for_p1b)
         if not starts:
             doc.close()
             continue
@@ -339,13 +390,16 @@ def main() -> None:
         for q in rebuild_rows:
             qid = q.get("id", "")
             qn = _to_qnum(q.get("question_number", "0"))
+            qtype = str(q.get("paper_type", "")).strip().lower()
             old_rels = list(q.get("markscheme_image_paths") or [])
-            rels = crop_ms(doc, starts, qn, MS_IMG_DIR / qid) if qn > 0 else []
+            rels = crop_ms(doc, starts, qn, MS_IMG_DIR / qid, paper_type=qtype) if qn > 0 else []
             if rels:
                 for stale in MS_IMG_DIR.glob(f"{qid}*.png"):
                     stale.unlink(missing_ok=True)
                 # Re-render after cleanup so only fresh files are referenced.
-                rels = crop_ms(doc, starts, qn, MS_IMG_DIR / qid) if qn > 0 else []
+                rels = (
+                    crop_ms(doc, starts, qn, MS_IMG_DIR / qid, paper_type=qtype) if qn > 0 else []
+                )
             final_rels = rels if rels else old_rels
             q["markscheme_image_paths"] = final_rels
             q["markscheme_images"] = final_rels

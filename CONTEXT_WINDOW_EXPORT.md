@@ -1,8 +1,8 @@
 # Context Window Export (for new chat)
 
-Date: 2026-03-09
+Date: 2026-03-10
 Project: `AA-HL-Question-Bank`
-Latest pushed commit: `f05cb81` (main)
+Latest pushed commit: `cb91c72` (main)
 
 ## Current State
 - Physics bank is active focus.
@@ -11,16 +11,21 @@ Latest pushed commit: `f05cb81` (main)
 - User preference: auto **commit + push** after work unless told otherwise.
 - User preference: keep `CONTEXT_WINDOW_EXPORT.md` updated after each completed task for chat handoff continuity.
 - User preference: when `All levels` is selected, prioritize `SL` and suppress `HL` duplicates.
+- User constraint: do not change Paper 1A / Paper 2 / Paper 3 logic when fixing current Paper 1B issues.
 
 ## Most Recent Change (last task)
-- Request: duplicates still visible in `All levels` for same question content with different HL/SL numbers (example: Paper 3 Q7 SL vs Q8 HL).
-- Fix applied in `src/physics/app.js`:
-  - dedupe key now uses content identity (question text fingerprint + image-path fingerprint), not question number;
-  - keeps normalized paper type in dedupe key;
-  - adds safe fallback to question number only when both fingerprints are empty;
-  - explicit level ranking (`SL` > `HL` > unknown) for conflict resolution.
-- Scope: UI/question list dedupe only; markscheme data and rendering untouched.
-- Commit/push: `f05cb81` to `origin/main`.
+- Request: Paper 1B markschemes still show wrong/cropped slices (example: m25 tz1 Q1/Q2).
+- Root cause: Paper 1B start anchors were detected too low, and missing next-question anchors caused bleed into following question pages.
+- Fix applied in `scripts/rebuild_physics_markschemes.py`:
+  - added `--paper-type` filter to run targeted rebuilds (used for `Paper 1B` only);
+  - added Paper 1B-specific top-table anchor preference and top-clamp for first-page starts;
+  - added Paper 1B next-page bleed guard when next question is anchored in upper section.
+- Rebuild scope:
+  - Paper 1B only (`python3 scripts/rebuild_physics_markschemes.py --paper-type "Paper 1B"`).
+- Validation:
+  - `phys_m25_p1b_tz1_q1_hl_p1` now starts at the correct top of Q1 table;
+  - `phys_m25_p1b_tz1_q2_hl` no longer includes Q3 content.
+- Commit/push: pending in current task.
 
 ## Key Decisions Already Made
 - Old Physics MCQ `Paper 1` should be treated as `Paper 1A` equivalent behavior.
