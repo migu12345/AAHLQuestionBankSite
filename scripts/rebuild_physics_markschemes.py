@@ -300,8 +300,6 @@ def main() -> None:
         if label_filter and not any(str(r.get("paper", "")).strip() in label_filter for r in rows):
             continue
 
-        # Keep already-working Paper 3 mappings untouched in this pass.
-        paper3_rows = [r for r in rows if str(r.get("paper_type", "")).strip().lower() == "paper 3"]
         paper1a_rows = [
             r
             for r in rows
@@ -310,7 +308,7 @@ def main() -> None:
         rebuild_rows = [
             r
             for r in rows
-            if str(r.get("paper_type", "")).strip().lower() in {"paper 2", "paper 1b"}
+            if str(r.get("paper_type", "")).strip().lower() in {"paper 2", "paper 1b", "paper 3"}
         ]
 
         # Paper 1A uses answer-key mapping; never label as "No markscheme" when

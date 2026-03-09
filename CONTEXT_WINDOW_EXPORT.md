@@ -2,7 +2,7 @@
 
 Date: 2026-03-09
 Project: `AA-HL-Question-Bank`
-Latest pushed commit: `b273a1e` (main)
+Latest pushed commit: `2e39796` (main)
 
 ## Current State
 - Physics bank is active focus.
@@ -12,16 +12,19 @@ Latest pushed commit: `b273a1e` (main)
 - User preference: keep `CONTEXT_WINDOW_EXPORT.md` updated after each completed task for chat handoff continuity.
 
 ## Most Recent Change (last task)
-- Request: Paper 2 markscheme still visibly clipped at top for some questions (example: May 2016 Paper 2 Q1).
-- Root cause: generated markscheme image crops used an overly aggressive first-page top anchor (`cur.y + 2`), cutting first lines.
+- Request: apply the crop fix across all Physics markschemes.
+- Root cause: generated markscheme image crops used an overly aggressive first-page top anchor (`cur.y + 2`), cutting first lines on many papers.
 - Fix applied in `scripts/rebuild_physics_markschemes.py`:
   - first page crop now keeps context above anchor;
   - if anchor is near top (`<=160`), use normal page top margin;
   - otherwise use `cur.y - 24` instead of `cur.y + 2`.
-- Rebuilt only affected papers (surgical):
-  - `May 2016 Physics Paper 2 SL`
-  - `May 2016 Physics Paper 2 HL`
-- Result: regenerated 18 affected markscheme mappings/images; top clipping fixed for `phys_m16_p2_ntz_q1_sl_p1`.
+- Scope expansion:
+  - markscheme rebuild now includes `Paper 3` (in addition to `Paper 2` and `Paper 1B`).
+- Rebuilt globally:
+  - all Physics markscheme image papers via `scripts/rebuild_physics_markschemes.py`.
+- Result:
+  - regenerated/reattached markscheme mappings for `673` questions;
+  - clipping fix applied across the rebuilt set.
 - Commit/push: pending in current task.
 
 ## Key Decisions Already Made
