@@ -197,6 +197,9 @@ function buildBaseParams(paper) {
   params.set("session", paper.session);
   params.set("tz", paper.timezone);
   params.set("paperNo", String(paper.paperNo));
+  if (paper.paperLabel) {
+    params.set("bundlePapers", String(paper.paperLabel));
+  }
   return params;
 }
 

@@ -338,7 +338,10 @@ function filterQuestionsByBundle() {
       meta.year === bundle.year &&
       meta.session === bundle.session &&
       meta.paperNo === bundle.paperNo &&
-      meta.timezone === bundle.timezone;
+      meta.timezone === bundle.timezone &&
+      (!Array.isArray(bundle.paperLabels) ||
+        bundle.paperLabels.length === 0 ||
+        bundle.paperLabels.includes(String(q.paper || "").trim()));
     if (!examMatch) {
       return false;
     }
@@ -774,6 +777,7 @@ function applyInitialQueryFilters() {
   const session = params.get("session");
   const tz = params.get("tz");
   const paperNo = params.get("paperNo");
+  const bundlePapersRaw = params.get("bundlePapers");
   const topic = params.get("topic");
   const subtopic = params.get("subtopic");
   const difficulty = params.get("difficulty");
@@ -785,12 +789,17 @@ function applyInitialQueryFilters() {
   const noMs = params.get("noMs");
 
   if (bundle === "1" && level && year && session && tz && paperNo) {
+    const bundlePaperLabels = String(bundlePapersRaw || "")
+      .split("||")
+      .map((v) => v.trim())
+      .filter(Boolean);
     state.paperBundle = {
       level,
       year: Number(year),
       session,
       timezone: tz,
       paperNo: Number(paperNo),
+      paperLabels: bundlePaperLabels,
     };
     state.paperSourceFile = sourcePaper || "";
     state.paperSourcePath = sourcePaperPath || "";

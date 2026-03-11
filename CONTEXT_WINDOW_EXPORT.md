@@ -2,7 +2,7 @@
 
 Date: 2026-03-10
 Project: `AA-HL-Question-Bank`
-Latest pushed commit: `2ad0107` (main)
+Latest pushed commit: `9b4ba5b` (main)
 
 ## Current State
 - Physics bank is active focus.
@@ -14,13 +14,12 @@ Latest pushed commit: `2ad0107` (main)
 - User constraint: do not change Paper 1A / Paper 2 / Paper 3 logic when fixing current Paper 1B issues.
 
 ## Most Recent Change (last task)
-- Request: exam mode paper launch still showed mixed questions from other papers/years.
-- Root cause: bundle filtering relied on parsed metadata only; combined Paper 1 launch (1A+1B) needed strict paper-label gating.
+- Request: this mixed-paper exam-mode issue was intended for Math as well.
 - Fix applied:
-  - `src/physics-papers.js`: launcher now passes exact `bundlePapers` label list in URL params.
-  - `src/physics/app.js`: bundle mode now parses `bundlePapers` and requires question paper label to be in that set.
-- Scope: Physics paper launcher + bundle filter precision only.
-- Commit/push: `2ad0107` to `origin/main`.
+  - `src/aa-papers.js`: launcher now passes exact selected paper label via `bundlePapers`.
+  - `src/app.js`: bundle mode now parses `bundlePapers` and enforces question paper label membership in that set.
+- Scope: Math paper launcher + bundle filter precision only.
+- Commit/push: pending in current task.
 
 ## Key Decisions Already Made
 - Old Physics MCQ `Paper 1` should be treated as `Paper 1A` equivalent behavior.
