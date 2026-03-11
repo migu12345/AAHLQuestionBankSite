@@ -73,6 +73,7 @@ function combinePaper1AB(papers) {
       timezone: base.timezone,
       level: base.level,
       paperLabel: `${base.session} ${base.year} Physics Paper 1 ${base.timezone} ${base.level}`,
+      bundlePaperLabels: items.map((p) => String(p.paperLabel || "").trim()).filter(Boolean),
       hasMarkscheme: items.some((p) => p.hasMarkscheme !== false),
       combinedPaper1AB: true,
       isManual: false,
@@ -311,6 +312,12 @@ function buildBaseParams(paper) {
   params.set("session", paper.session);
   params.set("tz", paper.timezone === "NTZ" ? "No TZ" : paper.timezone);
   params.set("paperNo", String(paper.paperNo));
+  const labels = Array.isArray(paper.bundlePaperLabels) && paper.bundlePaperLabels.length > 0
+    ? paper.bundlePaperLabels
+    : [paper.paperLabel].filter(Boolean);
+  if (labels.length > 0) {
+    params.set("bundlePapers", labels.join("||"));
+  }
   if (!paper.combinedPaper1AB) {
     params.set("paperCode", paper.paperCode);
   }

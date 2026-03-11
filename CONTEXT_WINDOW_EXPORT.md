@@ -2,7 +2,7 @@
 
 Date: 2026-03-10
 Project: `AA-HL-Question-Bank`
-Latest pushed commit: `684a945` (main)
+Latest pushed commit: `ea44da3` (main)
 
 ## Current State
 - Physics bank is active focus.
@@ -14,13 +14,13 @@ Latest pushed commit: `684a945` (main)
 - User constraint: do not change Paper 1A / Paper 2 / Paper 3 logic when fixing current Paper 1B issues.
 
 ## Most Recent Change (last task)
-- Request: make Physics exam mode behave like AA Math: click Start to begin timer/lock; click finish/unlock to reveal markschemes.
+- Request: exam mode paper launch still showed mixed questions from other papers/years.
+- Root cause: bundle filtering relied on parsed metadata only; combined Paper 1 launch (1A+1B) needed strict paper-label gating.
 - Fix applied:
-  - `src/physics/index.html`: added exam-mode bar with `Start Exam Mode` and `Unlock Markschemes` buttons.
-  - `src/physics/app.js`: lock condition now requires `examMode.started && !examMode.ended` (same behavior pattern as AA).
-  - removed prior auto-start lock behavior from exam query parsing.
-- Scope: Physics UI exam flow only.
-- Commit/push: `684a945` to `origin/main`.
+  - `src/physics-papers.js`: launcher now passes exact `bundlePapers` label list in URL params.
+  - `src/physics/app.js`: bundle mode now parses `bundlePapers` and requires question paper label to be in that set.
+- Scope: Physics paper launcher + bundle filter precision only.
+- Commit/push: pending in current task.
 
 ## Key Decisions Already Made
 - Old Physics MCQ `Paper 1` should be treated as `Paper 1A` equivalent behavior.

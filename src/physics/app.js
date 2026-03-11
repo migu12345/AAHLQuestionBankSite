@@ -363,7 +363,10 @@ function filterQuestionsByBundle() {
       meta.session === bundle.session &&
       meta.paperNo === bundle.paperNo &&
       meta.timezone === bundle.timezone &&
-      (!bundle.paperCode || meta.paperCode === bundle.paperCode);
+      (!bundle.paperCode || meta.paperCode === bundle.paperCode) &&
+      (!Array.isArray(bundle.paperLabels) ||
+        bundle.paperLabels.length === 0 ||
+        bundle.paperLabels.includes(String(q.paper || "").trim()));
     if (!examMatch) {
       return false;
     }
@@ -837,6 +840,7 @@ function applyInitialQueryFilters() {
   const tz = params.get("tz");
   const paperNo = params.get("paperNo");
   const paperCode = params.get("paperCode");
+  const bundlePapersRaw = params.get("bundlePapers");
   const topic = params.get("topic");
   const subtopic = params.get("subtopic");
   const difficulty = params.get("difficulty");
@@ -848,6 +852,10 @@ function applyInitialQueryFilters() {
   const noMs = params.get("noMs");
 
   if (bundle === "1" && level && year && session && tz && paperNo) {
+    const bundlePaperLabels = String(bundlePapersRaw || "")
+      .split("||")
+      .map((v) => v.trim())
+      .filter(Boolean);
     state.paperBundle = {
       level,
       year: Number(year),
@@ -855,6 +863,7 @@ function applyInitialQueryFilters() {
       timezone: tz,
       paperNo: Number(paperNo),
       paperCode: paperCode ? String(paperCode).toUpperCase() : "",
+      paperLabels: bundlePaperLabels,
     };
     state.paperSourceFile = sourcePaper || "";
     state.paperSourcePath = sourcePaperPath || "";
