@@ -21,6 +21,19 @@ Latest pushed commit: `3526cb0` (main)
 - Scope: Math paper launcher + bundle filter precision only.
 - Commit/push: `3526cb0` to `origin/main`.
 
+## Latest Local Fix (not pushed yet)
+- Request: Math still opened mixed questions (example: selecting 2025 Paper 2 showed ~97 questions from other years).
+- Root cause found:
+  - In `src/app.js` `start()`, bundle state was being force-cleared after query parsing:
+    - `state.paperBundle = null`
+    - exam mode bar removed
+  - This disabled paper-bundle filtering and reverted to global question filtering.
+- Fix applied:
+  - Removed the forced reset/removal in `start()` so URL bundle params remain active.
+  - Math paper launch now stays constrained to the selected paper bundle.
+- Files changed:
+  - `src/app.js`
+
 ## Key Decisions Already Made
 - Old Physics MCQ `Paper 1` should be treated as `Paper 1A` equivalent behavior.
 - Paper 1A/1 questions are 1 mark each.

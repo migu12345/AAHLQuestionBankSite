@@ -330,18 +330,19 @@ function filterQuestionsByBundle() {
   const searchTerm = searchInput.value.trim();
 
   let rows = state.allQuestions.filter((q) => {
-    const meta = parsePaperMeta(q.paper);
-    if (!meta) {
-      return false;
-    }
-    const examMatch =
+    const paperLabel = String(q.paper || "").trim();
+    const labelMatch =
+      Array.isArray(bundle.paperLabels) &&
+      bundle.paperLabels.length > 0 &&
+      bundle.paperLabels.includes(paperLabel);
+    const meta = parsePaperMeta(paperLabel);
+    const metaMatch =
+      !!meta &&
       meta.year === bundle.year &&
       meta.session === bundle.session &&
       meta.paperNo === bundle.paperNo &&
-      meta.timezone === bundle.timezone &&
-      (!Array.isArray(bundle.paperLabels) ||
-        bundle.paperLabels.length === 0 ||
-        bundle.paperLabels.includes(String(q.paper || "").trim()));
+      meta.timezone === bundle.timezone;
+    const examMatch = labelMatch || metaMatch;
     if (!examMatch) {
       return false;
     }
@@ -787,12 +788,12 @@ function applyInitialQueryFilters() {
   const sourcePaper = params.get("sourcePaper");
   const sourcePaperPath = params.get("sourcePaperPath");
   const noMs = params.get("noMs");
+  const bundlePaperLabels = String(bundlePapersRaw || "")
+    .split("||")
+    .map((v) => v.trim())
+    .filter(Boolean);
 
   if (bundle === "1" && level && year && session && tz && paperNo) {
-    const bundlePaperLabels = String(bundlePapersRaw || "")
-      .split("||")
-      .map((v) => v.trim())
-      .filter(Boolean);
     state.paperBundle = {
       level,
       year: Number(year),
@@ -820,6 +821,37 @@ function applyInitialQueryFilters() {
       }
     }
     return;
+  }
+
+  // Fallback: if paper labels are provided but bundle tuple is incomplete, still
+  // lock to the exact selected paper labels.
+  if (bundlePaperLabels.length > 0) {
+    const parsed = parsePaperMeta(bundlePaperLabels[0]);
+    if (parsed) {
+      state.paperBundle = {
+        level: level || parsed.level,
+        year: parsed.year,
+        session: parsed.session,
+        timezone: parsed.timezone,
+        paperNo: parsed.paperNo,
+        paperLabels: bundlePaperLabels,
+      };
+      if ([...levelFilter.options].some((o) => o.value === state.paperBundle.level)) {
+        levelFilter.value = state.paperBundle.level;
+      }
+      const pType = `Paper ${state.paperBundle.paperNo}`;
+      if ([...paperTypeFilter.options].some((o) => o.value === pType)) {
+        paperTypeFilter.value = pType;
+      }
+      if (exam === "1" && durationMin) {
+        const mins = Number(durationMin);
+        if (Number.isFinite(mins) && mins > 0) {
+          state.examMode.enabled = true;
+          state.examMode.durationSeconds = Math.round(mins * 60);
+        }
+      }
+      return;
+    }
   }
 
   if (level && [...levelFilter.options].some((o) => o.value === level)) {
@@ -903,12 +935,6 @@ async function start() {
     await loadData();
     hydrateFilters();
     applyInitialQueryFilters();
-    // AA main question bank should never show exam mode UI.
-    state.examMode.enabled = false;
-    state.paperBundle = null;
-    if (examModeBar) {
-      examModeBar.remove();
-    }
     setupExamModeUi();
     bindEvents();
     renderQuestions(true);
