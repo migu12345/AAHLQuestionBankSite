@@ -2,7 +2,7 @@
 
 Date: 2026-03-10
 Project: `AA-HL-Question-Bank`
-Latest pushed commit: `9b4ba5b` (main)
+Latest pushed commit: `3526cb0` (main)
 
 ## Current State
 - Physics bank is active focus.
@@ -19,7 +19,7 @@ Latest pushed commit: `9b4ba5b` (main)
   - `src/aa-papers.js`: launcher now passes exact selected paper label via `bundlePapers`.
   - `src/app.js`: bundle mode now parses `bundlePapers` and enforces question paper label membership in that set.
 - Scope: Math paper launcher + bundle filter precision only.
-- Commit/push: pending in current task.
+- Commit/push: `3526cb0` to `origin/main`.
 
 ## Key Decisions Already Made
 - Old Physics MCQ `Paper 1` should be treated as `Paper 1A` equivalent behavior.
