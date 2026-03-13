@@ -34,6 +34,15 @@ Latest pushed commit: `3526cb0` (main)
 - Files changed:
   - `src/app.js`
 
+## Latest Local UI Change (not pushed yet)
+- Request: add a new tab for History.
+- Added:
+  - homepage card linking to History
+  - new placeholder page at `src/history/index.html`
+- Files changed:
+  - `src/index.html`
+  - `src/history/index.html`
+
 ## Key Decisions Already Made
 - Old Physics MCQ `Paper 1` should be treated as `Paper 1A` equivalent behavior.
 - Paper 1A/1 questions are 1 mark each.
