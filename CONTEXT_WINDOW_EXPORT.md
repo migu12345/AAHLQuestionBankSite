@@ -2,7 +2,7 @@
 
 Date: 2026-03-10
 Project: `AA-HL-Question-Bank`
-Latest pushed commit: `3526cb0` (main)
+Latest pushed commit: `2aa1d255` (main)
 
 ## Current State
 - Physics bank is active focus.
@@ -21,7 +21,7 @@ Latest pushed commit: `3526cb0` (main)
 - Scope: Math paper launcher + bundle filter precision only.
 - Commit/push: `3526cb0` to `origin/main`.
 
-## Latest Local Fix (not pushed yet)
+## Latest Math Fix
 - Request: Math still opened mixed questions (example: selecting 2025 Paper 2 showed ~97 questions from other years).
 - Root cause found:
   - In `src/app.js` `start()`, bundle state was being force-cleared after query parsing:
@@ -33,8 +33,9 @@ Latest pushed commit: `3526cb0` (main)
   - Math paper launch now stays constrained to the selected paper bundle.
 - Files changed:
   - `src/app.js`
+- Commit/push: `3b744d54` to `origin/main`.
 
-## Latest Local UI Change (not pushed yet)
+## Latest UI Change
 - Request: add a new tab for History.
 - Added:
   - homepage card linking to History
@@ -42,6 +43,16 @@ Latest pushed commit: `3526cb0` (main)
 - Files changed:
   - `src/index.html`
   - `src/history/index.html`
+- Commit/push: `2aa1d255` to `origin/main`.
+
+## Latest Local UI Change (not pushed yet)
+- Request: add a new tab for ESS.
+- Added:
+  - homepage card linking to ESS
+  - new placeholder page at `src/ess/index.html`
+- Files changed:
+  - `src/index.html`
+  - `src/ess/index.html`
 
 ## Key Decisions Already Made
 - Old Physics MCQ `Paper 1` should be treated as `Paper 1A` equivalent behavior.
