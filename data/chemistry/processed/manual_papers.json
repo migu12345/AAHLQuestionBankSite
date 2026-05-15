@@ -1,0 +1,1884 @@
+{
+  "papers": [
+    {
+      "paperLabel": "May 2016 Chemistry Paper 1 TZ1 HL",
+      "session": "May",
+      "year": 2016,
+      "paperCode": "1",
+      "timezone": "TZ1",
+      "level": "HL",
+      "paper_path": "resources/chemistry/m16/Chemistry_paper_1_TZ1_HL.pdf",
+      "markscheme_path": "resources/chemistry/m16/Chemistry_paper_1_TZ1_HL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "May 2016 Chemistry Paper 1 TZ1 SL",
+      "session": "May",
+      "year": 2016,
+      "paperCode": "1",
+      "timezone": "TZ1",
+      "level": "SL",
+      "paper_path": "resources/chemistry/m16/Chemistry_paper_1_TZ1_SL.pdf",
+      "markscheme_path": "resources/chemistry/m16/Chemistry_paper_1_TZ1_SL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "May 2016 Chemistry Paper 2 TZ1 HL",
+      "session": "May",
+      "year": 2016,
+      "paperCode": "2",
+      "timezone": "TZ1",
+      "level": "HL",
+      "paper_path": "resources/chemistry/m16/Chemistry_paper_2_TZ1_HL.pdf",
+      "markscheme_path": "resources/chemistry/m16/Chemistry_paper_2_TZ1_HL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "May 2016 Chemistry Paper 2 TZ1 SL",
+      "session": "May",
+      "year": 2016,
+      "paperCode": "2",
+      "timezone": "TZ1",
+      "level": "SL",
+      "paper_path": "resources/chemistry/m16/Chemistry_paper_2_TZ1_SL.pdf",
+      "markscheme_path": "resources/chemistry/m16/Chemistry_paper_2_TZ1_SL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "May 2016 Chemistry Paper 3 TZ1 HL",
+      "session": "May",
+      "year": 2016,
+      "paperCode": "3",
+      "timezone": "TZ1",
+      "level": "HL",
+      "paper_path": "resources/chemistry/m16/Chemistry_paper_3_TZ1_HL.pdf",
+      "markscheme_path": "resources/chemistry/m16/Chemistry_paper_3_TZ1_HL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "May 2016 Chemistry Paper 3 TZ1 SL",
+      "session": "May",
+      "year": 2016,
+      "paperCode": "3",
+      "timezone": "TZ1",
+      "level": "SL",
+      "paper_path": "resources/chemistry/m16/Chemistry_paper_3_TZ1_SL.pdf",
+      "markscheme_path": "resources/chemistry/m16/Chemistry_paper_3_TZ1_SL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "November 2016 Chemistry Paper 1 NTZ HL",
+      "session": "November",
+      "year": 2016,
+      "paperCode": "1",
+      "timezone": "NTZ",
+      "level": "HL",
+      "paper_path": "resources/chemistry/n16/Chemistry_paper_1__HL.pdf",
+      "markscheme_path": "resources/chemistry/n16/Chemistry_paper_1__HL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "November 2016 Chemistry Paper 1 NTZ SL",
+      "session": "November",
+      "year": 2016,
+      "paperCode": "1",
+      "timezone": "NTZ",
+      "level": "SL",
+      "paper_path": "resources/chemistry/n16/Chemistry_paper_1__SL.pdf",
+      "markscheme_path": "resources/chemistry/n16/Chemistry_paper_1__SL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "November 2016 Chemistry Paper 2 NTZ HL",
+      "session": "November",
+      "year": 2016,
+      "paperCode": "2",
+      "timezone": "NTZ",
+      "level": "HL",
+      "paper_path": "resources/chemistry/n16/Chemistry_paper_2__HL.pdf",
+      "markscheme_path": "resources/chemistry/n16/Chemistry_paper_2__HL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "November 2016 Chemistry Paper 2 NTZ SL",
+      "session": "November",
+      "year": 2016,
+      "paperCode": "2",
+      "timezone": "NTZ",
+      "level": "SL",
+      "paper_path": "resources/chemistry/n16/Chemistry_paper_2__SL.pdf",
+      "markscheme_path": "resources/chemistry/n16/Chemistry_paper_2__SL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "November 2016 Chemistry Paper 3 NTZ HL",
+      "session": "November",
+      "year": 2016,
+      "paperCode": "3",
+      "timezone": "NTZ",
+      "level": "HL",
+      "paper_path": "resources/chemistry/n16/Chemistry_paper_3__HL.pdf",
+      "markscheme_path": "resources/chemistry/n16/Chemistry_paper_3__HL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "November 2016 Chemistry Paper 3 NTZ SL",
+      "session": "November",
+      "year": 2016,
+      "paperCode": "3",
+      "timezone": "NTZ",
+      "level": "SL",
+      "paper_path": "resources/chemistry/n16/Chemistry_paper_3__SL.pdf",
+      "markscheme_path": "resources/chemistry/n16/Chemistry_paper_3__SL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "May 2017 Chemistry Paper 1 TZ1 HL",
+      "session": "May",
+      "year": 2017,
+      "paperCode": "1",
+      "timezone": "TZ1",
+      "level": "HL",
+      "paper_path": "resources/chemistry/m17/Chemistry_paper_1_TZ1_HL.pdf",
+      "markscheme_path": "resources/chemistry/m17/Chemistry_paper_1_TZ1_HL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "May 2017 Chemistry Paper 1 TZ2 HL",
+      "session": "May",
+      "year": 2017,
+      "paperCode": "1",
+      "timezone": "TZ2",
+      "level": "HL",
+      "paper_path": "resources/chemistry/m17/Chemistry_paper_1_TZ2_HL.pdf",
+      "markscheme_path": "resources/chemistry/m17/Chemistry_paper_1_TZ2_HL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "May 2017 Chemistry Paper 1 TZ1 SL",
+      "session": "May",
+      "year": 2017,
+      "paperCode": "1",
+      "timezone": "TZ1",
+      "level": "SL",
+      "paper_path": "resources/chemistry/m17/Chemistry_paper_1_TZ1_SL.pdf",
+      "markscheme_path": "resources/chemistry/m17/Chemistry_paper_1_TZ1_SL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "May 2017 Chemistry Paper 1 TZ2 SL",
+      "session": "May",
+      "year": 2017,
+      "paperCode": "1",
+      "timezone": "TZ2",
+      "level": "SL",
+      "paper_path": "resources/chemistry/m17/Chemistry_paper_1_TZ2_SL.pdf",
+      "markscheme_path": "resources/chemistry/m17/Chemistry_paper_1_TZ2_SL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "May 2017 Chemistry Paper 2 TZ1 HL",
+      "session": "May",
+      "year": 2017,
+      "paperCode": "2",
+      "timezone": "TZ1",
+      "level": "HL",
+      "paper_path": "resources/chemistry/m17/Chemistry_paper_2_TZ1_HL.pdf",
+      "markscheme_path": "resources/chemistry/m17/Chemistry_paper_2_TZ1_HL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "May 2017 Chemistry Paper 2 TZ2 HL",
+      "session": "May",
+      "year": 2017,
+      "paperCode": "2",
+      "timezone": "TZ2",
+      "level": "HL",
+      "paper_path": "resources/chemistry/m17/Chemistry_paper_2_TZ2_HL.pdf",
+      "markscheme_path": "resources/chemistry/m17/Chemistry_paper_2_TZ2_HL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "May 2017 Chemistry Paper 2 TZ1 SL",
+      "session": "May",
+      "year": 2017,
+      "paperCode": "2",
+      "timezone": "TZ1",
+      "level": "SL",
+      "paper_path": "resources/chemistry/m17/Chemistry_paper_2_TZ1_SL.pdf",
+      "markscheme_path": "resources/chemistry/m17/Chemistry_paper_2_TZ1_SL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "May 2017 Chemistry Paper 2 TZ2 SL",
+      "session": "May",
+      "year": 2017,
+      "paperCode": "2",
+      "timezone": "TZ2",
+      "level": "SL",
+      "paper_path": "resources/chemistry/m17/Chemistry_paper_2_TZ2_SL.pdf",
+      "markscheme_path": "resources/chemistry/m17/Chemistry_paper_2_TZ2_SL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "May 2017 Chemistry Paper 3 TZ1 HL",
+      "session": "May",
+      "year": 2017,
+      "paperCode": "3",
+      "timezone": "TZ1",
+      "level": "HL",
+      "paper_path": "resources/chemistry/m17/Chemistry_paper_3_TZ1_HL.pdf",
+      "markscheme_path": "resources/chemistry/m17/Chemistry_paper_3_TZ1_HL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "May 2017 Chemistry Paper 3 TZ2 HL",
+      "session": "May",
+      "year": 2017,
+      "paperCode": "3",
+      "timezone": "TZ2",
+      "level": "HL",
+      "paper_path": "resources/chemistry/m17/Chemistry_paper_3_TZ2_HL.pdf",
+      "markscheme_path": "resources/chemistry/m17/Chemistry_paper_3_TZ2_HL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "May 2017 Chemistry Paper 3 TZ1 SL",
+      "session": "May",
+      "year": 2017,
+      "paperCode": "3",
+      "timezone": "TZ1",
+      "level": "SL",
+      "paper_path": "resources/chemistry/m17/Chemistry_paper_3_TZ1_SL.pdf",
+      "markscheme_path": "resources/chemistry/m17/Chemistry_paper_3_TZ1_SL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "May 2017 Chemistry Paper 3 TZ2 SL",
+      "session": "May",
+      "year": 2017,
+      "paperCode": "3",
+      "timezone": "TZ2",
+      "level": "SL",
+      "paper_path": "resources/chemistry/m17/Chemistry_paper_3_TZ2_SL.pdf",
+      "markscheme_path": "resources/chemistry/m17/Chemistry_paper_3_TZ2_SL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "November 2017 Chemistry Paper 1 NTZ HL",
+      "session": "November",
+      "year": 2017,
+      "paperCode": "1",
+      "timezone": "NTZ",
+      "level": "HL",
+      "paper_path": "resources/chemistry/n17/Chemistry_paper_1__HL.pdf",
+      "markscheme_path": "resources/chemistry/n17/Chemistry_paper_1__HL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "November 2017 Chemistry Paper 1 NTZ SL",
+      "session": "November",
+      "year": 2017,
+      "paperCode": "1",
+      "timezone": "NTZ",
+      "level": "SL",
+      "paper_path": "resources/chemistry/n17/Chemistry_paper_1__SL.pdf",
+      "markscheme_path": "resources/chemistry/n17/Chemistry_paper_1__SL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "November 2017 Chemistry Paper 2 NTZ HL",
+      "session": "November",
+      "year": 2017,
+      "paperCode": "2",
+      "timezone": "NTZ",
+      "level": "HL",
+      "paper_path": "resources/chemistry/n17/Chemistry_paper_2__HL.pdf",
+      "markscheme_path": "resources/chemistry/n17/Chemistry_paper_2__HL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "November 2017 Chemistry Paper 2 NTZ SL",
+      "session": "November",
+      "year": 2017,
+      "paperCode": "2",
+      "timezone": "NTZ",
+      "level": "SL",
+      "paper_path": "resources/chemistry/n17/Chemistry_paper_2__SL.pdf",
+      "markscheme_path": "resources/chemistry/n17/Chemistry_paper_2__SL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "November 2017 Chemistry Paper 3 NTZ HL",
+      "session": "November",
+      "year": 2017,
+      "paperCode": "3",
+      "timezone": "NTZ",
+      "level": "HL",
+      "paper_path": "resources/chemistry/n17/Chemistry_paper_3__HL.pdf",
+      "markscheme_path": "resources/chemistry/n17/Chemistry_paper_3__HL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "November 2017 Chemistry Paper 3 NTZ SL",
+      "session": "November",
+      "year": 2017,
+      "paperCode": "3",
+      "timezone": "NTZ",
+      "level": "SL",
+      "paper_path": "resources/chemistry/n17/Chemistry_paper_3__SL.pdf",
+      "markscheme_path": "resources/chemistry/n17/Chemistry_paper_3__SL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "May 2018 Chemistry Paper 1 TZ1 HL",
+      "session": "May",
+      "year": 2018,
+      "paperCode": "1",
+      "timezone": "TZ1",
+      "level": "HL",
+      "paper_path": "resources/chemistry/m18/Chemistry_paper_1_TZ1_HL.pdf",
+      "markscheme_path": "resources/chemistry/m18/Chemistry_paper_1_TZ1_HL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "May 2018 Chemistry Paper 1 TZ2 HL",
+      "session": "May",
+      "year": 2018,
+      "paperCode": "1",
+      "timezone": "TZ2",
+      "level": "HL",
+      "paper_path": "resources/chemistry/m18/Chemistry_paper_1_TZ2_HL.pdf",
+      "markscheme_path": "resources/chemistry/m18/Chemistry_paper_1_TZ2_HL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "May 2018 Chemistry Paper 1 TZ1 SL",
+      "session": "May",
+      "year": 2018,
+      "paperCode": "1",
+      "timezone": "TZ1",
+      "level": "SL",
+      "paper_path": "resources/chemistry/m18/Chemistry_paper_1_TZ1_SL.pdf",
+      "markscheme_path": "resources/chemistry/m18/Chemistry_paper_1_TZ1_SL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "May 2018 Chemistry Paper 1 TZ2 SL",
+      "session": "May",
+      "year": 2018,
+      "paperCode": "1",
+      "timezone": "TZ2",
+      "level": "SL",
+      "paper_path": "resources/chemistry/m18/Chemistry_paper_1_TZ2_SL.pdf",
+      "markscheme_path": "resources/chemistry/m18/Chemistry_paper_1_TZ2_SL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "May 2018 Chemistry Paper 2 TZ1 HL",
+      "session": "May",
+      "year": 2018,
+      "paperCode": "2",
+      "timezone": "TZ1",
+      "level": "HL",
+      "paper_path": "resources/chemistry/m18/Chemistry_paper_2_TZ1_HL.pdf",
+      "markscheme_path": "resources/chemistry/m18/Chemistry_paper_2_TZ1_HL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "May 2018 Chemistry Paper 2 TZ2 HL",
+      "session": "May",
+      "year": 2018,
+      "paperCode": "2",
+      "timezone": "TZ2",
+      "level": "HL",
+      "paper_path": "resources/chemistry/m18/Chemistry_paper_2_TZ2_HL.pdf",
+      "markscheme_path": "resources/chemistry/m18/Chemistry_paper_2_TZ2_HL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "May 2018 Chemistry Paper 2 TZ1 SL",
+      "session": "May",
+      "year": 2018,
+      "paperCode": "2",
+      "timezone": "TZ1",
+      "level": "SL",
+      "paper_path": "resources/chemistry/m18/Chemistry_paper_2_TZ1_SL.pdf",
+      "markscheme_path": "resources/chemistry/m18/Chemistry_paper_2_TZ1_SL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "May 2018 Chemistry Paper 2 TZ2 SL",
+      "session": "May",
+      "year": 2018,
+      "paperCode": "2",
+      "timezone": "TZ2",
+      "level": "SL",
+      "paper_path": "resources/chemistry/m18/Chemistry_paper_2_TZ2_SL.pdf",
+      "markscheme_path": "resources/chemistry/m18/Chemistry_paper_2_TZ2_SL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "May 2018 Chemistry Paper 3 TZ1 HL",
+      "session": "May",
+      "year": 2018,
+      "paperCode": "3",
+      "timezone": "TZ1",
+      "level": "HL",
+      "paper_path": "resources/chemistry/m18/Chemistry_paper_3_TZ1_HL.pdf",
+      "markscheme_path": "resources/chemistry/m18/Chemistry_paper_3_TZ1_HL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "May 2018 Chemistry Paper 3 TZ2 HL",
+      "session": "May",
+      "year": 2018,
+      "paperCode": "3",
+      "timezone": "TZ2",
+      "level": "HL",
+      "paper_path": "resources/chemistry/m18/Chemistry_paper_3_TZ2_HL.pdf",
+      "markscheme_path": "resources/chemistry/m18/Chemistry_paper_3_TZ2_HL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "May 2018 Chemistry Paper 3 TZ1 SL",
+      "session": "May",
+      "year": 2018,
+      "paperCode": "3",
+      "timezone": "TZ1",
+      "level": "SL",
+      "paper_path": "resources/chemistry/m18/Chemistry_paper_3_TZ1_SL.pdf",
+      "markscheme_path": "resources/chemistry/m18/Chemistry_paper_3_TZ1_SL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "May 2018 Chemistry Paper 3 TZ2 SL",
+      "session": "May",
+      "year": 2018,
+      "paperCode": "3",
+      "timezone": "TZ2",
+      "level": "SL",
+      "paper_path": "resources/chemistry/m18/Chemistry_paper_3_TZ2_SL.pdf",
+      "markscheme_path": "resources/chemistry/m18/Chemistry_paper_3_TZ2_SL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "November 2018 Chemistry Paper 1 NTZ HL",
+      "session": "November",
+      "year": 2018,
+      "paperCode": "1",
+      "timezone": "NTZ",
+      "level": "HL",
+      "paper_path": "resources/chemistry/n18/Chemistry_paper_1__HL.pdf",
+      "markscheme_path": "resources/chemistry/n18/Chemistry_paper_1__HL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "November 2018 Chemistry Paper 1 NTZ SL",
+      "session": "November",
+      "year": 2018,
+      "paperCode": "1",
+      "timezone": "NTZ",
+      "level": "SL",
+      "paper_path": "resources/chemistry/n18/Chemistry_paper_1__SL.pdf",
+      "markscheme_path": "resources/chemistry/n18/Chemistry_paper_1__SL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "November 2018 Chemistry Paper 2 NTZ HL",
+      "session": "November",
+      "year": 2018,
+      "paperCode": "2",
+      "timezone": "NTZ",
+      "level": "HL",
+      "paper_path": "resources/chemistry/n18/Chemistry_paper_2__HL.pdf",
+      "markscheme_path": "resources/chemistry/n18/Chemistry_paper_2__HL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "November 2018 Chemistry Paper 2 NTZ SL",
+      "session": "November",
+      "year": 2018,
+      "paperCode": "2",
+      "timezone": "NTZ",
+      "level": "SL",
+      "paper_path": "resources/chemistry/n18/Chemistry_paper_2__SL.pdf",
+      "markscheme_path": "resources/chemistry/n18/Chemistry_paper_2__SL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "November 2018 Chemistry Paper 3 NTZ HL",
+      "session": "November",
+      "year": 2018,
+      "paperCode": "3",
+      "timezone": "NTZ",
+      "level": "HL",
+      "paper_path": "resources/chemistry/n18/Chemistry_paper_3__HL.pdf",
+      "markscheme_path": "resources/chemistry/n18/Chemistry_paper_3__HL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "November 2018 Chemistry Paper 3 NTZ SL",
+      "session": "November",
+      "year": 2018,
+      "paperCode": "3",
+      "timezone": "NTZ",
+      "level": "SL",
+      "paper_path": "resources/chemistry/n18/Chemistry_paper_3__SL.pdf",
+      "markscheme_path": "resources/chemistry/n18/Chemistry_paper_3__SL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "May 2019 Chemistry Paper 1 TZ1 HL",
+      "session": "May",
+      "year": 2019,
+      "paperCode": "1",
+      "timezone": "TZ1",
+      "level": "HL",
+      "paper_path": "resources/chemistry/m19/Chemistry_paper_1_TZ1_HL.pdf",
+      "markscheme_path": "resources/chemistry/m19/Chemistry_paper_1_TZ1_HL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "May 2019 Chemistry Paper 1 TZ2 HL",
+      "session": "May",
+      "year": 2019,
+      "paperCode": "1",
+      "timezone": "TZ2",
+      "level": "HL",
+      "paper_path": "resources/chemistry/m19/Chemistry_paper_1_TZ2_HL.pdf",
+      "markscheme_path": "resources/chemistry/m19/Chemistry_paper_1_TZ2_HL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "May 2019 Chemistry Paper 1 TZ1 SL",
+      "session": "May",
+      "year": 2019,
+      "paperCode": "1",
+      "timezone": "TZ1",
+      "level": "SL",
+      "paper_path": "resources/chemistry/m19/Chemistry_paper_1_TZ1_SL.pdf",
+      "markscheme_path": "resources/chemistry/m19/Chemistry_paper_1_TZ1_SL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "May 2019 Chemistry Paper 1 TZ2 SL",
+      "session": "May",
+      "year": 2019,
+      "paperCode": "1",
+      "timezone": "TZ2",
+      "level": "SL",
+      "paper_path": "resources/chemistry/m19/Chemistry_paper_1_TZ2_SL.pdf",
+      "markscheme_path": "resources/chemistry/m19/Chemistry_paper_1_TZ2_SL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "May 2019 Chemistry Paper 2 TZ1 HL",
+      "session": "May",
+      "year": 2019,
+      "paperCode": "2",
+      "timezone": "TZ1",
+      "level": "HL",
+      "paper_path": "resources/chemistry/m19/Chemistry_paper_2_TZ1_HL.pdf",
+      "markscheme_path": "resources/chemistry/m19/Chemistry_paper_2_TZ1_HL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "May 2019 Chemistry Paper 2 TZ2 HL",
+      "session": "May",
+      "year": 2019,
+      "paperCode": "2",
+      "timezone": "TZ2",
+      "level": "HL",
+      "paper_path": "resources/chemistry/m19/Chemistry_paper_2_TZ2_HL.pdf",
+      "markscheme_path": "resources/chemistry/m19/Chemistry_paper_2_TZ2_HL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "May 2019 Chemistry Paper 2 TZ1 SL",
+      "session": "May",
+      "year": 2019,
+      "paperCode": "2",
+      "timezone": "TZ1",
+      "level": "SL",
+      "paper_path": "resources/chemistry/m19/Chemistry_paper_2_TZ1_SL.pdf",
+      "markscheme_path": "resources/chemistry/m19/Chemistry_paper_2_TZ1_SL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "May 2019 Chemistry Paper 2 TZ2 SL",
+      "session": "May",
+      "year": 2019,
+      "paperCode": "2",
+      "timezone": "TZ2",
+      "level": "SL",
+      "paper_path": "resources/chemistry/m19/Chemistry_paper_2_TZ2_SL.pdf",
+      "markscheme_path": "resources/chemistry/m19/Chemistry_paper_2_TZ2_SL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "May 2019 Chemistry Paper 3 TZ1 HL",
+      "session": "May",
+      "year": 2019,
+      "paperCode": "3",
+      "timezone": "TZ1",
+      "level": "HL",
+      "paper_path": "resources/chemistry/m19/Chemistry_paper_3_TZ1_HL.pdf",
+      "markscheme_path": "resources/chemistry/m19/Chemistry_paper_3_TZ1_HL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "May 2019 Chemistry Paper 3 TZ2 HL",
+      "session": "May",
+      "year": 2019,
+      "paperCode": "3",
+      "timezone": "TZ2",
+      "level": "HL",
+      "paper_path": "resources/chemistry/m19/Chemistry_paper_3_TZ2_HL.pdf",
+      "markscheme_path": "resources/chemistry/m19/Chemistry_paper_3_TZ2_HL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "May 2019 Chemistry Paper 3 TZ1 SL",
+      "session": "May",
+      "year": 2019,
+      "paperCode": "3",
+      "timezone": "TZ1",
+      "level": "SL",
+      "paper_path": "resources/chemistry/m19/Chemistry_paper_3_TZ1_SL.pdf",
+      "markscheme_path": "resources/chemistry/m19/Chemistry_paper_3_TZ1_SL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "May 2019 Chemistry Paper 3 TZ2 SL",
+      "session": "May",
+      "year": 2019,
+      "paperCode": "3",
+      "timezone": "TZ2",
+      "level": "SL",
+      "paper_path": "resources/chemistry/m19/Chemistry_paper_3_TZ2_SL.pdf",
+      "markscheme_path": "resources/chemistry/m19/Chemistry_paper_3_TZ2_SL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "November 2019 Chemistry Paper 1 NTZ HL",
+      "session": "November",
+      "year": 2019,
+      "paperCode": "1",
+      "timezone": "NTZ",
+      "level": "HL",
+      "paper_path": "resources/chemistry/n19/Chemistry_paper_1__HL.pdf",
+      "markscheme_path": "resources/chemistry/n19/Chemistry_paper_1__HL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "November 2019 Chemistry Paper 1 NTZ SL",
+      "session": "November",
+      "year": 2019,
+      "paperCode": "1",
+      "timezone": "NTZ",
+      "level": "SL",
+      "paper_path": "resources/chemistry/n19/Chemistry_paper_1__SL.pdf",
+      "markscheme_path": "resources/chemistry/n19/Chemistry_paper_1__SL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "November 2019 Chemistry Paper 2 NTZ HL",
+      "session": "November",
+      "year": 2019,
+      "paperCode": "2",
+      "timezone": "NTZ",
+      "level": "HL",
+      "paper_path": "resources/chemistry/n19/Chemistry_paper_2__HL.pdf",
+      "markscheme_path": "resources/chemistry/n19/Chemistry_paper_2__HL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "November 2019 Chemistry Paper 2 NTZ SL",
+      "session": "November",
+      "year": 2019,
+      "paperCode": "2",
+      "timezone": "NTZ",
+      "level": "SL",
+      "paper_path": "resources/chemistry/n19/Chemistry_paper_2__SL.pdf",
+      "markscheme_path": "resources/chemistry/n19/Chemistry_paper_2__SL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "November 2019 Chemistry Paper 3 NTZ HL",
+      "session": "November",
+      "year": 2019,
+      "paperCode": "3",
+      "timezone": "NTZ",
+      "level": "HL",
+      "paper_path": "resources/chemistry/n19/Chemistry_paper_3__HL.pdf",
+      "markscheme_path": "resources/chemistry/n19/Chemistry_paper_3__HL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "November 2019 Chemistry Paper 3 NTZ SL",
+      "session": "November",
+      "year": 2019,
+      "paperCode": "3",
+      "timezone": "NTZ",
+      "level": "SL",
+      "paper_path": "resources/chemistry/n19/Chemistry_paper_3__SL.pdf",
+      "markscheme_path": "resources/chemistry/n19/Chemistry_paper_3__SL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "November 2020 Chemistry Paper 1 NTZ HL",
+      "session": "November",
+      "year": 2020,
+      "paperCode": "1",
+      "timezone": "NTZ",
+      "level": "HL",
+      "paper_path": "resources/chemistry/n20/Chemistry_paper_1__HL.pdf",
+      "markscheme_path": "resources/chemistry/n20/Chemistry_paper_1__HL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "November 2020 Chemistry Paper 1 NTZ SL",
+      "session": "November",
+      "year": 2020,
+      "paperCode": "1",
+      "timezone": "NTZ",
+      "level": "SL",
+      "paper_path": "resources/chemistry/n20/Chemistry_paper_1__SL.pdf",
+      "markscheme_path": "resources/chemistry/n20/Chemistry_paper_1__SL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "November 2020 Chemistry Paper 2 NTZ HL",
+      "session": "November",
+      "year": 2020,
+      "paperCode": "2",
+      "timezone": "NTZ",
+      "level": "HL",
+      "paper_path": "resources/chemistry/n20/Chemistry_paper_2__HL.pdf",
+      "markscheme_path": "resources/chemistry/n20/Chemistry_paper_2__HL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "November 2020 Chemistry Paper 2 NTZ SL",
+      "session": "November",
+      "year": 2020,
+      "paperCode": "2",
+      "timezone": "NTZ",
+      "level": "SL",
+      "paper_path": "resources/chemistry/n20/Chemistry_paper_2__SL.pdf",
+      "markscheme_path": "resources/chemistry/n20/Chemistry_paper_2__SL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "November 2020 Chemistry Paper 3 NTZ HL",
+      "session": "November",
+      "year": 2020,
+      "paperCode": "3",
+      "timezone": "NTZ",
+      "level": "HL",
+      "paper_path": "resources/chemistry/n20/Chemistry_paper_3__HL.pdf",
+      "markscheme_path": "resources/chemistry/n20/Chemistry_paper_3__HL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "November 2020 Chemistry Paper 3 NTZ SL",
+      "session": "November",
+      "year": 2020,
+      "paperCode": "3",
+      "timezone": "NTZ",
+      "level": "SL",
+      "paper_path": "resources/chemistry/n20/Chemistry_paper_3__SL.pdf",
+      "markscheme_path": "resources/chemistry/n20/Chemistry_paper_3__SL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "May 2021 Chemistry Paper 1 TZ1 HL",
+      "session": "May",
+      "year": 2021,
+      "paperCode": "1",
+      "timezone": "TZ1",
+      "level": "HL",
+      "paper_path": "resources/chemistry/m21/Chemistry_paper_1_TZ1_HL.pdf",
+      "markscheme_path": "resources/chemistry/m21/Chemistry_paper_1_TZ1_HL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "May 2021 Chemistry Paper 1 TZ2 HL",
+      "session": "May",
+      "year": 2021,
+      "paperCode": "1",
+      "timezone": "TZ2",
+      "level": "HL",
+      "paper_path": "resources/chemistry/m21/Chemistry_paper_1_TZ2_HL.pdf",
+      "markscheme_path": "resources/chemistry/m21/Chemistry_paper_1_TZ2_HL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "May 2021 Chemistry Paper 1 TZ1 SL",
+      "session": "May",
+      "year": 2021,
+      "paperCode": "1",
+      "timezone": "TZ1",
+      "level": "SL",
+      "paper_path": "resources/chemistry/m21/Chemistry_paper_1_TZ1_SL.pdf",
+      "markscheme_path": "resources/chemistry/m21/Chemistry_paper_1_TZ1_SL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "May 2021 Chemistry Paper 1 TZ2 SL",
+      "session": "May",
+      "year": 2021,
+      "paperCode": "1",
+      "timezone": "TZ2",
+      "level": "SL",
+      "paper_path": "resources/chemistry/m21/Chemistry_paper_1_TZ2_SL.pdf",
+      "markscheme_path": "resources/chemistry/m21/Chemistry_paper_1_TZ2_SL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "May 2021 Chemistry Paper 2 TZ1 HL",
+      "session": "May",
+      "year": 2021,
+      "paperCode": "2",
+      "timezone": "TZ1",
+      "level": "HL",
+      "paper_path": "resources/chemistry/m21/Chemistry_paper_2_TZ1_HL.pdf",
+      "markscheme_path": "resources/chemistry/m21/Chemistry_paper_2_TZ1_HL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "May 2021 Chemistry Paper 2 TZ2 HL",
+      "session": "May",
+      "year": 2021,
+      "paperCode": "2",
+      "timezone": "TZ2",
+      "level": "HL",
+      "paper_path": "resources/chemistry/m21/Chemistry_paper_2_TZ2_HL.pdf",
+      "markscheme_path": "resources/chemistry/m21/Chemistry_paper_2_TZ2_HL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "May 2021 Chemistry Paper 2 TZ1 SL",
+      "session": "May",
+      "year": 2021,
+      "paperCode": "2",
+      "timezone": "TZ1",
+      "level": "SL",
+      "paper_path": "resources/chemistry/m21/Chemistry_paper_2_TZ1_SL.pdf",
+      "markscheme_path": "resources/chemistry/m21/Chemistry_paper_2_TZ1_SL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "May 2021 Chemistry Paper 2 TZ2 SL",
+      "session": "May",
+      "year": 2021,
+      "paperCode": "2",
+      "timezone": "TZ2",
+      "level": "SL",
+      "paper_path": "resources/chemistry/m21/Chemistry_paper_2_TZ2_SL.pdf",
+      "markscheme_path": "resources/chemistry/m21/Chemistry_paper_2_TZ2_SL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "November 2021 Chemistry Paper 1 NTZ HL",
+      "session": "November",
+      "year": 2021,
+      "paperCode": "1",
+      "timezone": "NTZ",
+      "level": "HL",
+      "paper_path": "resources/chemistry/n21/Chemistry_paper_1__HL.pdf",
+      "markscheme_path": "resources/chemistry/n21/Chemistry_paper_1__HL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "November 2021 Chemistry Paper 1 NTZ SL",
+      "session": "November",
+      "year": 2021,
+      "paperCode": "1",
+      "timezone": "NTZ",
+      "level": "SL",
+      "paper_path": "resources/chemistry/n21/Chemistry_paper_1__SL.pdf",
+      "markscheme_path": "resources/chemistry/n21/Chemistry_paper_1__SL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "November 2021 Chemistry Paper 2 NTZ HL",
+      "session": "November",
+      "year": 2021,
+      "paperCode": "2",
+      "timezone": "NTZ",
+      "level": "HL",
+      "paper_path": "resources/chemistry/n21/Chemistry_paper_2__HL.pdf",
+      "markscheme_path": "resources/chemistry/n21/Chemistry_paper_2__HL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "November 2021 Chemistry Paper 2 NTZ SL",
+      "session": "November",
+      "year": 2021,
+      "paperCode": "2",
+      "timezone": "NTZ",
+      "level": "SL",
+      "paper_path": "resources/chemistry/n21/Chemistry_paper_2__SL.pdf",
+      "markscheme_path": "resources/chemistry/n21/Chemistry_paper_2__SL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "May 2022 Chemistry Paper 1 TZ1 HL",
+      "session": "May",
+      "year": 2022,
+      "paperCode": "1",
+      "timezone": "TZ1",
+      "level": "HL",
+      "paper_path": "resources/chemistry/m22/Chemistry_paper_1_TZ1_HL.pdf",
+      "markscheme_path": "resources/chemistry/m22/Chemistry_paper_1_TZ1_HL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "May 2022 Chemistry Paper 1 TZ2 HL",
+      "session": "May",
+      "year": 2022,
+      "paperCode": "1",
+      "timezone": "TZ2",
+      "level": "HL",
+      "paper_path": "resources/chemistry/m22/Chemistry_paper_1_TZ2_HL.pdf",
+      "markscheme_path": "resources/chemistry/m22/Chemistry_paper_1_TZ2_HL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "May 2022 Chemistry Paper 1 TZ1 SL",
+      "session": "May",
+      "year": 2022,
+      "paperCode": "1",
+      "timezone": "TZ1",
+      "level": "SL",
+      "paper_path": "resources/chemistry/m22/Chemistry_paper_1_TZ1_SL.pdf",
+      "markscheme_path": "resources/chemistry/m22/Chemistry_paper_1_TZ1_SL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "May 2022 Chemistry Paper 1 TZ2 SL",
+      "session": "May",
+      "year": 2022,
+      "paperCode": "1",
+      "timezone": "TZ2",
+      "level": "SL",
+      "paper_path": "resources/chemistry/m22/Chemistry_paper_1_TZ2_SL.pdf",
+      "markscheme_path": "resources/chemistry/m22/Chemistry_paper_1_TZ2_SL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "May 2022 Chemistry Paper 2 TZ1 HL",
+      "session": "May",
+      "year": 2022,
+      "paperCode": "2",
+      "timezone": "TZ1",
+      "level": "HL",
+      "paper_path": "resources/chemistry/m22/Chemistry_paper_2_TZ1_HL.pdf",
+      "markscheme_path": "resources/chemistry/m22/Chemistry_paper_2_TZ1_HL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "May 2022 Chemistry Paper 2 TZ2 HL",
+      "session": "May",
+      "year": 2022,
+      "paperCode": "2",
+      "timezone": "TZ2",
+      "level": "HL",
+      "paper_path": "resources/chemistry/m22/Chemistry_paper_2_TZ2_HL.pdf",
+      "markscheme_path": "resources/chemistry/m22/Chemistry_paper_2_TZ2_HL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "May 2022 Chemistry Paper 2 TZ1 SL",
+      "session": "May",
+      "year": 2022,
+      "paperCode": "2",
+      "timezone": "TZ1",
+      "level": "SL",
+      "paper_path": "resources/chemistry/m22/Chemistry_paper_2_TZ1_SL.pdf",
+      "markscheme_path": "resources/chemistry/m22/Chemistry_paper_2_TZ1_SL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "May 2022 Chemistry Paper 2 TZ2 SL",
+      "session": "May",
+      "year": 2022,
+      "paperCode": "2",
+      "timezone": "TZ2",
+      "level": "SL",
+      "paper_path": "resources/chemistry/m22/Chemistry_paper_2_TZ2_SL.pdf",
+      "markscheme_path": "resources/chemistry/m22/Chemistry_paper_2_TZ2_SL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "November 2022 Chemistry Paper 1 NTZ HL",
+      "session": "November",
+      "year": 2022,
+      "paperCode": "1",
+      "timezone": "NTZ",
+      "level": "HL",
+      "paper_path": "resources/chemistry/n22/Chemistry_paper_1__HL.pdf",
+      "markscheme_path": "resources/chemistry/n22/Chemistry_paper_1__HL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "November 2022 Chemistry Paper 1 NTZ HL",
+      "session": "November",
+      "year": 2022,
+      "paperCode": "1",
+      "timezone": "NTZ",
+      "level": "HL",
+      "paper_path": "resources/chemistry/n22/Chemistry_paper_1__HL.pdf",
+      "markscheme_path": "resources/chemistry/n22/Chemistry_paper_1__HL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "November 2022 Chemistry Paper 1 NTZ SL",
+      "session": "November",
+      "year": 2022,
+      "paperCode": "1",
+      "timezone": "NTZ",
+      "level": "SL",
+      "paper_path": "resources/chemistry/n22/Chemistry_paper_1__SL.pdf",
+      "markscheme_path": "resources/chemistry/n22/Chemistry_paper_1__SL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "November 2022 Chemistry Paper 1 NTZ SL",
+      "session": "November",
+      "year": 2022,
+      "paperCode": "1",
+      "timezone": "NTZ",
+      "level": "SL",
+      "paper_path": "resources/chemistry/n22/Chemistry_paper_1__SL.pdf",
+      "markscheme_path": "resources/chemistry/n22/Chemistry_paper_1__SL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "November 2022 Chemistry Paper 2 NTZ HL",
+      "session": "November",
+      "year": 2022,
+      "paperCode": "2",
+      "timezone": "NTZ",
+      "level": "HL",
+      "paper_path": "resources/chemistry/n22/Chemistry_paper_2__HL.pdf",
+      "markscheme_path": "resources/chemistry/n22/Chemistry_paper_2__HL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "November 2022 Chemistry Paper 2 NTZ HL",
+      "session": "November",
+      "year": 2022,
+      "paperCode": "2",
+      "timezone": "NTZ",
+      "level": "HL",
+      "paper_path": "resources/chemistry/n22/Chemistry_paper_2__HL.pdf",
+      "markscheme_path": "resources/chemistry/n22/Chemistry_paper_2__HL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "November 2022 Chemistry Paper 2 NTZ SL",
+      "session": "November",
+      "year": 2022,
+      "paperCode": "2",
+      "timezone": "NTZ",
+      "level": "SL",
+      "paper_path": "resources/chemistry/n22/Chemistry_paper_2__SL.pdf",
+      "markscheme_path": "resources/chemistry/n22/Chemistry_paper_2__SL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "November 2022 Chemistry Paper 2 NTZ SL",
+      "session": "November",
+      "year": 2022,
+      "paperCode": "2",
+      "timezone": "NTZ",
+      "level": "SL",
+      "paper_path": "resources/chemistry/n22/Chemistry_paper_2__SL.pdf",
+      "markscheme_path": "resources/chemistry/n22/Chemistry_paper_2__SL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "May 2023 Chemistry Paper 1 TZ1 HL",
+      "session": "May",
+      "year": 2023,
+      "paperCode": "1",
+      "timezone": "TZ1",
+      "level": "HL",
+      "paper_path": "resources/chemistry/m23/Chemistry_paper_1_TZ1_HL.pdf",
+      "markscheme_path": "resources/chemistry/m23/Chemistry_paper_1_TZ1_HL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "May 2023 Chemistry Paper 1 TZ2 HL",
+      "session": "May",
+      "year": 2023,
+      "paperCode": "1",
+      "timezone": "TZ2",
+      "level": "HL",
+      "paper_path": "resources/chemistry/m23/Chemistry_paper_1_TZ2_HL.pdf",
+      "markscheme_path": "resources/chemistry/m23/Chemistry_paper_1_TZ2_HL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "May 2023 Chemistry Paper 1 TZ1 SL",
+      "session": "May",
+      "year": 2023,
+      "paperCode": "1",
+      "timezone": "TZ1",
+      "level": "SL",
+      "paper_path": "resources/chemistry/m23/Chemistry_paper_1_TZ1_SL.pdf",
+      "markscheme_path": "resources/chemistry/m23/Chemistry_paper_1_TZ1_SL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "May 2023 Chemistry Paper 1 TZ1 SL",
+      "session": "May",
+      "year": 2023,
+      "paperCode": "1",
+      "timezone": "TZ1",
+      "level": "SL",
+      "paper_path": "resources/chemistry/m23/Chemistry_paper_1_TZ1_SL.pdf",
+      "markscheme_path": "resources/chemistry/m23/Chemistry_paper_1_TZ1_SL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "May 2023 Chemistry Paper 1 TZ2 SL",
+      "session": "May",
+      "year": 2023,
+      "paperCode": "1",
+      "timezone": "TZ2",
+      "level": "SL",
+      "paper_path": "resources/chemistry/m23/Chemistry_paper_1_TZ2_SL.pdf",
+      "markscheme_path": "resources/chemistry/m23/Chemistry_paper_1_TZ2_SL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "May 2023 Chemistry Paper 2 TZ1 HL",
+      "session": "May",
+      "year": 2023,
+      "paperCode": "2",
+      "timezone": "TZ1",
+      "level": "HL",
+      "paper_path": "resources/chemistry/m23/Chemistry_paper_2_TZ1_HL.pdf",
+      "markscheme_path": "resources/chemistry/m23/Chemistry_paper_2_TZ1_HL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "May 2023 Chemistry Paper 2 TZ2 HL",
+      "session": "May",
+      "year": 2023,
+      "paperCode": "2",
+      "timezone": "TZ2",
+      "level": "HL",
+      "paper_path": "resources/chemistry/m23/Chemistry_paper_2_TZ2_HL.pdf",
+      "markscheme_path": "resources/chemistry/m23/Chemistry_paper_2_TZ2_HL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "May 2023 Chemistry Paper 2 TZ1 SL",
+      "session": "May",
+      "year": 2023,
+      "paperCode": "2",
+      "timezone": "TZ1",
+      "level": "SL",
+      "paper_path": "resources/chemistry/m23/Chemistry_paper_2_TZ1_SL.pdf",
+      "markscheme_path": "resources/chemistry/m23/Chemistry_paper_2_TZ1_SL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "May 2023 Chemistry Paper 2 TZ1 SL",
+      "session": "May",
+      "year": 2023,
+      "paperCode": "2",
+      "timezone": "TZ1",
+      "level": "SL",
+      "paper_path": "resources/chemistry/m23/Chemistry_paper_2_TZ1_SL.pdf",
+      "markscheme_path": "resources/chemistry/m23/Chemistry_paper_2_TZ1_SL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "May 2023 Chemistry Paper 2 TZ2 SL",
+      "session": "May",
+      "year": 2023,
+      "paperCode": "2",
+      "timezone": "TZ2",
+      "level": "SL",
+      "paper_path": "resources/chemistry/m23/Chemistry_paper_2_TZ2_SL.pdf",
+      "markscheme_path": "resources/chemistry/m23/Chemistry_paper_2_TZ2_SL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "May 2023 Chemistry Paper 3 TZ1 HL",
+      "session": "May",
+      "year": 2023,
+      "paperCode": "3",
+      "timezone": "TZ1",
+      "level": "HL",
+      "paper_path": "resources/chemistry/m23/Chemistry_paper_3_TZ1_HL.pdf",
+      "markscheme_path": "resources/chemistry/m23/Chemistry_paper_3_TZ1_HL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "May 2023 Chemistry Paper 3 TZ2 HL",
+      "session": "May",
+      "year": 2023,
+      "paperCode": "3",
+      "timezone": "TZ2",
+      "level": "HL",
+      "paper_path": "resources/chemistry/m23/Chemistry_paper_3_TZ2_HL.pdf",
+      "markscheme_path": "resources/chemistry/m23/Chemistry_paper_3_TZ2_HL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "May 2023 Chemistry Paper 3 TZ1 SL",
+      "session": "May",
+      "year": 2023,
+      "paperCode": "3",
+      "timezone": "TZ1",
+      "level": "SL",
+      "paper_path": "resources/chemistry/m23/Chemistry_paper_3_TZ1_SL.pdf",
+      "markscheme_path": "resources/chemistry/m23/Chemistry_paper_3_TZ1_SL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "May 2023 Chemistry Paper 3 TZ2 SL",
+      "session": "May",
+      "year": 2023,
+      "paperCode": "3",
+      "timezone": "TZ2",
+      "level": "SL",
+      "paper_path": "resources/chemistry/m23/Chemistry_paper_3_TZ2_SL.pdf",
+      "markscheme_path": "resources/chemistry/m23/Chemistry_paper_3_TZ2_SL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "November 2023 Chemistry Paper 1 NTZ HL",
+      "session": "November",
+      "year": 2023,
+      "paperCode": "1",
+      "timezone": "NTZ",
+      "level": "HL",
+      "paper_path": "resources/chemistry/n23/Chemistry_paper_1__HL.pdf",
+      "markscheme_path": null
+    },
+    {
+      "paperLabel": "November 2023 Chemistry Paper 1 TZ1 HL",
+      "session": "November",
+      "year": 2023,
+      "paperCode": "1",
+      "timezone": "TZ1",
+      "level": "HL",
+      "paper_path": "resources/chemistry/n23/Chemistry_paper_1_TZ1_HL.pdf",
+      "markscheme_path": "resources/chemistry/n23/Chemistry_paper_1_TZ1_HL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "November 2023 Chemistry Paper 1 TZ2 HL",
+      "session": "November",
+      "year": 2023,
+      "paperCode": "1",
+      "timezone": "TZ2",
+      "level": "HL",
+      "paper_path": "resources/chemistry/n23/Chemistry_paper_1_TZ2_HL.pdf",
+      "markscheme_path": "resources/chemistry/n23/Chemistry_paper_1_TZ2_HL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "November 2023 Chemistry Paper 1 TZ1 SL",
+      "session": "November",
+      "year": 2023,
+      "paperCode": "1",
+      "timezone": "TZ1",
+      "level": "SL",
+      "paper_path": "resources/chemistry/n23/Chemistry_paper_1_TZ1_SL.pdf",
+      "markscheme_path": "resources/chemistry/n23/Chemistry_paper_1_TZ1_SL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "November 2023 Chemistry Paper 1 TZ2 SL",
+      "session": "November",
+      "year": 2023,
+      "paperCode": "1",
+      "timezone": "TZ2",
+      "level": "SL",
+      "paper_path": "resources/chemistry/n23/Chemistry_paper_1_TZ2_SL.pdf",
+      "markscheme_path": "resources/chemistry/n23/Chemistry_paper_1_TZ2_SL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "November 2023 Chemistry Paper 2 NTZ HL",
+      "session": "November",
+      "year": 2023,
+      "paperCode": "2",
+      "timezone": "NTZ",
+      "level": "HL",
+      "paper_path": "resources/chemistry/n23/Chemistry_paper_2__HL.pdf",
+      "markscheme_path": null
+    },
+    {
+      "paperLabel": "November 2023 Chemistry Paper 2 TZ1 HL",
+      "session": "November",
+      "year": 2023,
+      "paperCode": "2",
+      "timezone": "TZ1",
+      "level": "HL",
+      "paper_path": "resources/chemistry/n23/Chemistry_paper_2_TZ1_HL.pdf",
+      "markscheme_path": "resources/chemistry/n23/Chemistry_paper_2_TZ1_HL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "November 2023 Chemistry Paper 2 TZ2 HL",
+      "session": "November",
+      "year": 2023,
+      "paperCode": "2",
+      "timezone": "TZ2",
+      "level": "HL",
+      "paper_path": "resources/chemistry/n23/Chemistry_paper_2_TZ2_HL.pdf",
+      "markscheme_path": "resources/chemistry/n23/Chemistry_paper_2_TZ2_HL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "November 2023 Chemistry Paper 2 TZ1 SL",
+      "session": "November",
+      "year": 2023,
+      "paperCode": "2",
+      "timezone": "TZ1",
+      "level": "SL",
+      "paper_path": "resources/chemistry/n23/Chemistry_paper_2_TZ1_SL.pdf",
+      "markscheme_path": "resources/chemistry/n23/Chemistry_paper_2_TZ1_SL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "November 2023 Chemistry Paper 2 TZ2 SL",
+      "session": "November",
+      "year": 2023,
+      "paperCode": "2",
+      "timezone": "TZ2",
+      "level": "SL",
+      "paper_path": "resources/chemistry/n23/Chemistry_paper_2_TZ2_SL.pdf",
+      "markscheme_path": "resources/chemistry/n23/Chemistry_paper_2_TZ2_SL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "November 2023 Chemistry Paper 3 TZ1 HL",
+      "session": "November",
+      "year": 2023,
+      "paperCode": "3",
+      "timezone": "TZ1",
+      "level": "HL",
+      "paper_path": "resources/chemistry/n23/Chemistry_paper_3_TZ1_HL.pdf",
+      "markscheme_path": "resources/chemistry/n23/Chemistry_paper_3_TZ1_HL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "November 2023 Chemistry Paper 3 TZ2 HL",
+      "session": "November",
+      "year": 2023,
+      "paperCode": "3",
+      "timezone": "TZ2",
+      "level": "HL",
+      "paper_path": "resources/chemistry/n23/Chemistry_paper_3_TZ2_HL.pdf",
+      "markscheme_path": "resources/chemistry/n23/Chemistry_paper_3_TZ2_HL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "November 2023 Chemistry Paper 3 TZ1 SL",
+      "session": "November",
+      "year": 2023,
+      "paperCode": "3",
+      "timezone": "TZ1",
+      "level": "SL",
+      "paper_path": "resources/chemistry/n23/Chemistry_paper_3_TZ1_SL.pdf",
+      "markscheme_path": "resources/chemistry/n23/Chemistry_paper_3_TZ1_SL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "November 2023 Chemistry Paper 3 TZ2 SL",
+      "session": "November",
+      "year": 2023,
+      "paperCode": "3",
+      "timezone": "TZ2",
+      "level": "SL",
+      "paper_path": "resources/chemistry/n23/Chemistry_paper_3_TZ2_SL.pdf",
+      "markscheme_path": "resources/chemistry/n23/Chemistry_paper_3_TZ2_SL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "May 2024 Chemistry Paper 1 TZ1 HL",
+      "session": "May",
+      "year": 2024,
+      "paperCode": "1",
+      "timezone": "TZ1",
+      "level": "HL",
+      "paper_path": "resources/chemistry/m24/Chemistry_paper_1_TZ1_HL.pdf",
+      "markscheme_path": "resources/chemistry/m24/Chemistry_paper_1_TZ1_HL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "May 2024 Chemistry Paper 1 TZ1 HL",
+      "session": "May",
+      "year": 2024,
+      "paperCode": "1",
+      "timezone": "TZ1",
+      "level": "HL",
+      "paper_path": "resources/chemistry/m24/Chemistry_paper_1_TZ1_HL.pdf",
+      "markscheme_path": "resources/chemistry/m24/Chemistry_paper_1_TZ1_HL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "May 2024 Chemistry Paper 1 TZ2 HL",
+      "session": "May",
+      "year": 2024,
+      "paperCode": "1",
+      "timezone": "TZ2",
+      "level": "HL",
+      "paper_path": "resources/chemistry/m24/Chemistry_paper_1_TZ2_HL.pdf",
+      "markscheme_path": "resources/chemistry/m24/Chemistry_paper_1_TZ2_HL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "May 2024 Chemistry Paper 1 TZ2 HL",
+      "session": "May",
+      "year": 2024,
+      "paperCode": "1",
+      "timezone": "TZ2",
+      "level": "HL",
+      "paper_path": "resources/chemistry/m24/Chemistry_paper_1_TZ2_HL.pdf",
+      "markscheme_path": "resources/chemistry/m24/Chemistry_paper_1_TZ2_HL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "May 2024 Chemistry Paper 1 TZ1 SL",
+      "session": "May",
+      "year": 2024,
+      "paperCode": "1",
+      "timezone": "TZ1",
+      "level": "SL",
+      "paper_path": "resources/chemistry/m24/Chemistry_paper_1_TZ1_SL.pdf",
+      "markscheme_path": "resources/chemistry/m24/Chemistry_paper_1_TZ1_SL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "May 2024 Chemistry Paper 1 TZ1 SL",
+      "session": "May",
+      "year": 2024,
+      "paperCode": "1",
+      "timezone": "TZ1",
+      "level": "SL",
+      "paper_path": "resources/chemistry/m24/Chemistry_paper_1_TZ1_SL.pdf",
+      "markscheme_path": "resources/chemistry/m24/Chemistry_paper_1_TZ1_SL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "May 2024 Chemistry Paper 1 TZ1 SL",
+      "session": "May",
+      "year": 2024,
+      "paperCode": "1",
+      "timezone": "TZ1",
+      "level": "SL",
+      "paper_path": "resources/chemistry/m24/Chemistry_paper_1_TZ1_SL.pdf",
+      "markscheme_path": "resources/chemistry/m24/Chemistry_paper_1_TZ1_SL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "May 2024 Chemistry Paper 1 TZ2 SL",
+      "session": "May",
+      "year": 2024,
+      "paperCode": "1",
+      "timezone": "TZ2",
+      "level": "SL",
+      "paper_path": "resources/chemistry/m24/Chemistry_paper_1_TZ2_SL.pdf",
+      "markscheme_path": "resources/chemistry/m24/Chemistry_paper_1_TZ2_SL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "May 2024 Chemistry Paper 1 TZ2 SL",
+      "session": "May",
+      "year": 2024,
+      "paperCode": "1",
+      "timezone": "TZ2",
+      "level": "SL",
+      "paper_path": "resources/chemistry/m24/Chemistry_paper_1_TZ2_SL.pdf",
+      "markscheme_path": "resources/chemistry/m24/Chemistry_paper_1_TZ2_SL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "May 2024 Chemistry Paper 2 TZ1 HL",
+      "session": "May",
+      "year": 2024,
+      "paperCode": "2",
+      "timezone": "TZ1",
+      "level": "HL",
+      "paper_path": "resources/chemistry/m24/Chemistry_paper_2_TZ1_HL.pdf",
+      "markscheme_path": "resources/chemistry/m24/Chemistry_paper_2_TZ1_HL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "May 2024 Chemistry Paper 2 TZ1 HL",
+      "session": "May",
+      "year": 2024,
+      "paperCode": "2",
+      "timezone": "TZ1",
+      "level": "HL",
+      "paper_path": "resources/chemistry/m24/Chemistry_paper_2_TZ1_HL.pdf",
+      "markscheme_path": "resources/chemistry/m24/Chemistry_paper_2_TZ1_HL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "May 2024 Chemistry Paper 2 TZ2 HL",
+      "session": "May",
+      "year": 2024,
+      "paperCode": "2",
+      "timezone": "TZ2",
+      "level": "HL",
+      "paper_path": "resources/chemistry/m24/Chemistry_paper_2_TZ2_HL.pdf",
+      "markscheme_path": "resources/chemistry/m24/Chemistry_paper_2_TZ2_HL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "May 2024 Chemistry Paper 2 TZ2 HL",
+      "session": "May",
+      "year": 2024,
+      "paperCode": "2",
+      "timezone": "TZ2",
+      "level": "HL",
+      "paper_path": "resources/chemistry/m24/Chemistry_paper_2_TZ2_HL.pdf",
+      "markscheme_path": "resources/chemistry/m24/Chemistry_paper_2_TZ2_HL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "May 2024 Chemistry Paper 2 TZ1 SL",
+      "session": "May",
+      "year": 2024,
+      "paperCode": "2",
+      "timezone": "TZ1",
+      "level": "SL",
+      "paper_path": "resources/chemistry/m24/Chemistry_paper_2_TZ1_SL.pdf",
+      "markscheme_path": "resources/chemistry/m24/Chemistry_paper_2_TZ1_SL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "May 2024 Chemistry Paper 2 TZ1 SL",
+      "session": "May",
+      "year": 2024,
+      "paperCode": "2",
+      "timezone": "TZ1",
+      "level": "SL",
+      "paper_path": "resources/chemistry/m24/Chemistry_paper_2_TZ1_SL.pdf",
+      "markscheme_path": "resources/chemistry/m24/Chemistry_paper_2_TZ1_SL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "May 2024 Chemistry Paper 2 TZ2 SL",
+      "session": "May",
+      "year": 2024,
+      "paperCode": "2",
+      "timezone": "TZ2",
+      "level": "SL",
+      "paper_path": "resources/chemistry/m24/Chemistry_paper_2_TZ2_SL.pdf",
+      "markscheme_path": "resources/chemistry/m24/Chemistry_paper_2_TZ2_SL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "May 2024 Chemistry Paper 2 TZ2 SL",
+      "session": "May",
+      "year": 2024,
+      "paperCode": "2",
+      "timezone": "TZ2",
+      "level": "SL",
+      "paper_path": "resources/chemistry/m24/Chemistry_paper_2_TZ2_SL.pdf",
+      "markscheme_path": "resources/chemistry/m24/Chemistry_paper_2_TZ2_SL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "May 2024 Chemistry Paper 3 TZ1 HL",
+      "session": "May",
+      "year": 2024,
+      "paperCode": "3",
+      "timezone": "TZ1",
+      "level": "HL",
+      "paper_path": "resources/chemistry/m24/Chemistry_paper_3_TZ1_HL.pdf",
+      "markscheme_path": "resources/chemistry/m24/Chemistry_paper_3_TZ1_HL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "May 2024 Chemistry Paper 3 TZ1 HL",
+      "session": "May",
+      "year": 2024,
+      "paperCode": "3",
+      "timezone": "TZ1",
+      "level": "HL",
+      "paper_path": "resources/chemistry/m24/Chemistry_paper_3_TZ1_HL.pdf",
+      "markscheme_path": "resources/chemistry/m24/Chemistry_paper_3_TZ1_HL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "May 2024 Chemistry Paper 3 TZ1 HL",
+      "session": "May",
+      "year": 2024,
+      "paperCode": "3",
+      "timezone": "TZ1",
+      "level": "HL",
+      "paper_path": "resources/chemistry/m24/Chemistry_paper_3_TZ1_HL.pdf",
+      "markscheme_path": "resources/chemistry/m24/Chemistry_paper_3_TZ1_HL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "May 2024 Chemistry Paper 3 TZ2 HL",
+      "session": "May",
+      "year": 2024,
+      "paperCode": "3",
+      "timezone": "TZ2",
+      "level": "HL",
+      "paper_path": "resources/chemistry/m24/Chemistry_paper_3_TZ2_HL.pdf",
+      "markscheme_path": "resources/chemistry/m24/Chemistry_paper_3_TZ2_HL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "May 2024 Chemistry Paper 3 TZ2 HL",
+      "session": "May",
+      "year": 2024,
+      "paperCode": "3",
+      "timezone": "TZ2",
+      "level": "HL",
+      "paper_path": "resources/chemistry/m24/Chemistry_paper_3_TZ2_HL.pdf",
+      "markscheme_path": "resources/chemistry/m24/Chemistry_paper_3_TZ2_HL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "May 2024 Chemistry Paper 3 TZ1 SL",
+      "session": "May",
+      "year": 2024,
+      "paperCode": "3",
+      "timezone": "TZ1",
+      "level": "SL",
+      "paper_path": "resources/chemistry/m24/Chemistry_paper_3_TZ1_SL.pdf",
+      "markscheme_path": "resources/chemistry/m24/Chemistry_paper_3_TZ1_SL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "May 2024 Chemistry Paper 3 TZ1 SL",
+      "session": "May",
+      "year": 2024,
+      "paperCode": "3",
+      "timezone": "TZ1",
+      "level": "SL",
+      "paper_path": "resources/chemistry/m24/Chemistry_paper_3_TZ1_SL.pdf",
+      "markscheme_path": "resources/chemistry/m24/Chemistry_paper_3_TZ1_SL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "May 2024 Chemistry Paper 3 TZ2 SL",
+      "session": "May",
+      "year": 2024,
+      "paperCode": "3",
+      "timezone": "TZ2",
+      "level": "SL",
+      "paper_path": "resources/chemistry/m24/Chemistry_paper_3_TZ2_SL.pdf",
+      "markscheme_path": "resources/chemistry/m24/Chemistry_paper_3_TZ2_SL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "May 2024 Chemistry Paper 3 TZ2 SL",
+      "session": "May",
+      "year": 2024,
+      "paperCode": "3",
+      "timezone": "TZ2",
+      "level": "SL",
+      "paper_path": "resources/chemistry/m24/Chemistry_paper_3_TZ2_SL.pdf",
+      "markscheme_path": "resources/chemistry/m24/Chemistry_paper_3_TZ2_SL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "November 2024 Chemistry Paper 1 NTZ HL",
+      "session": "November",
+      "year": 2024,
+      "paperCode": "1",
+      "timezone": "NTZ",
+      "level": "HL",
+      "paper_path": "resources/chemistry/n24/Chemistry_paper_1__HL.pdf",
+      "markscheme_path": "resources/chemistry/n24/Chemistry_paper_1__HL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "November 2024 Chemistry Paper 1 NTZ HL",
+      "session": "November",
+      "year": 2024,
+      "paperCode": "1",
+      "timezone": "NTZ",
+      "level": "HL",
+      "paper_path": "resources/chemistry/n24/Chemistry_paper_1__HL.pdf",
+      "markscheme_path": "resources/chemistry/n24/Chemistry_paper_1__HL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "November 2024 Chemistry Paper 1 NTZ SL",
+      "session": "November",
+      "year": 2024,
+      "paperCode": "1",
+      "timezone": "NTZ",
+      "level": "SL",
+      "paper_path": "resources/chemistry/n24/Chemistry_paper_1__SL.pdf",
+      "markscheme_path": "resources/chemistry/n24/Chemistry_paper_1__SL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "November 2024 Chemistry Paper 2 NTZ HL",
+      "session": "November",
+      "year": 2024,
+      "paperCode": "2",
+      "timezone": "NTZ",
+      "level": "HL",
+      "paper_path": "resources/chemistry/n24/Chemistry_paper_2__HL.pdf",
+      "markscheme_path": "resources/chemistry/n24/Chemistry_paper_2__HL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "November 2024 Chemistry Paper 2 NTZ HL",
+      "session": "November",
+      "year": 2024,
+      "paperCode": "2",
+      "timezone": "NTZ",
+      "level": "HL",
+      "paper_path": "resources/chemistry/n24/Chemistry_paper_2__HL.pdf",
+      "markscheme_path": "resources/chemistry/n24/Chemistry_paper_2__HL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "November 2024 Chemistry Paper 2 NTZ SL",
+      "session": "November",
+      "year": 2024,
+      "paperCode": "2",
+      "timezone": "NTZ",
+      "level": "SL",
+      "paper_path": "resources/chemistry/n24/Chemistry_paper_2__SL.pdf",
+      "markscheme_path": "resources/chemistry/n24/Chemistry_paper_2__SL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "November 2024 Chemistry Paper 3 NTZ HL",
+      "session": "November",
+      "year": 2024,
+      "paperCode": "3",
+      "timezone": "NTZ",
+      "level": "HL",
+      "paper_path": "resources/chemistry/n24/Chemistry_paper_3__HL.pdf",
+      "markscheme_path": "resources/chemistry/n24/Chemistry_paper_3__HL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "November 2024 Chemistry Paper 3 NTZ HL",
+      "session": "November",
+      "year": 2024,
+      "paperCode": "3",
+      "timezone": "NTZ",
+      "level": "HL",
+      "paper_path": "resources/chemistry/n24/Chemistry_paper_3__HL.pdf",
+      "markscheme_path": "resources/chemistry/n24/Chemistry_paper_3__HL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "November 2024 Chemistry Paper 3 NTZ SL",
+      "session": "November",
+      "year": 2024,
+      "paperCode": "3",
+      "timezone": "NTZ",
+      "level": "SL",
+      "paper_path": "resources/chemistry/n24/Chemistry_paper_3__SL.pdf",
+      "markscheme_path": "resources/chemistry/n24/Chemistry_paper_3__SL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "May 2025 Chemistry Paper 1 TZ1 HL",
+      "session": "May",
+      "year": 2025,
+      "paperCode": "1",
+      "timezone": "TZ1",
+      "level": "HL",
+      "paper_path": "resources/chemistry/m25/Chemistry_paper_1_TZ1_HL.pdf",
+      "markscheme_path": "resources/chemistry/m25/Chemistry_paper_1_TZ1_HL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "May 2025 Chemistry Paper 1 TZ1 HL",
+      "session": "May",
+      "year": 2025,
+      "paperCode": "1",
+      "timezone": "TZ1",
+      "level": "HL",
+      "paper_path": "resources/chemistry/m25/Chemistry_paper_1_TZ1_HL.pdf",
+      "markscheme_path": "resources/chemistry/m25/Chemistry_paper_1_TZ1_HL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "May 2025 Chemistry Paper 1 TZ1 HL",
+      "session": "May",
+      "year": 2025,
+      "paperCode": "1",
+      "timezone": "TZ1",
+      "level": "HL",
+      "paper_path": "resources/chemistry/m25/Chemistry_paper_1_TZ1_HL.pdf",
+      "markscheme_path": "resources/chemistry/m25/Chemistry_paper_1_TZ1_HL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "May 2025 Chemistry Paper 1 TZ1 HL",
+      "session": "May",
+      "year": 2025,
+      "paperCode": "1",
+      "timezone": "TZ1",
+      "level": "HL",
+      "paper_path": "resources/chemistry/m25/Chemistry_paper_1_TZ1_HL.pdf",
+      "markscheme_path": "resources/chemistry/m25/Chemistry_paper_1_TZ1_HL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "May 2025 Chemistry Paper 1 TZ1 HL",
+      "session": "May",
+      "year": 2025,
+      "paperCode": "1",
+      "timezone": "TZ1",
+      "level": "HL",
+      "paper_path": "resources/chemistry/m25/Chemistry_paper_1_TZ1_HL.pdf",
+      "markscheme_path": "resources/chemistry/m25/Chemistry_paper_1_TZ1_HL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "May 2025 Chemistry Paper 1 TZ1 HL",
+      "session": "May",
+      "year": 2025,
+      "paperCode": "1",
+      "timezone": "TZ1",
+      "level": "HL",
+      "paper_path": "resources/chemistry/m25/Chemistry_paper_1_TZ1_HL.pdf",
+      "markscheme_path": "resources/chemistry/m25/Chemistry_paper_1_TZ1_HL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "May 2025 Chemistry Paper 1 TZ2 HL",
+      "session": "May",
+      "year": 2025,
+      "paperCode": "1",
+      "timezone": "TZ2",
+      "level": "HL",
+      "paper_path": "resources/chemistry/m25/Chemistry_paper_1_TZ2_HL.pdf",
+      "markscheme_path": "resources/chemistry/m25/Chemistry_paper_1_TZ2_HL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "May 2025 Chemistry Paper 1 TZ2 HL",
+      "session": "May",
+      "year": 2025,
+      "paperCode": "1",
+      "timezone": "TZ2",
+      "level": "HL",
+      "paper_path": "resources/chemistry/m25/Chemistry_paper_1_TZ2_HL.pdf",
+      "markscheme_path": "resources/chemistry/m25/Chemistry_paper_1_TZ2_HL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "May 2025 Chemistry Paper 1 TZ1 SL",
+      "session": "May",
+      "year": 2025,
+      "paperCode": "1",
+      "timezone": "TZ1",
+      "level": "SL",
+      "paper_path": "resources/chemistry/m25/Chemistry_paper_1_TZ1_SL.pdf",
+      "markscheme_path": "resources/chemistry/m25/Chemistry_paper_1_TZ1_SL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "May 2025 Chemistry Paper 1 TZ1 SL",
+      "session": "May",
+      "year": 2025,
+      "paperCode": "1",
+      "timezone": "TZ1",
+      "level": "SL",
+      "paper_path": "resources/chemistry/m25/Chemistry_paper_1_TZ1_SL.pdf",
+      "markscheme_path": "resources/chemistry/m25/Chemistry_paper_1_TZ1_SL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "May 2025 Chemistry Paper 1 TZ1 SL",
+      "session": "May",
+      "year": 2025,
+      "paperCode": "1",
+      "timezone": "TZ1",
+      "level": "SL",
+      "paper_path": "resources/chemistry/m25/Chemistry_paper_1_TZ1_SL.pdf",
+      "markscheme_path": "resources/chemistry/m25/Chemistry_paper_1_TZ1_SL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "May 2025 Chemistry Paper 1 TZ1 SL",
+      "session": "May",
+      "year": 2025,
+      "paperCode": "1",
+      "timezone": "TZ1",
+      "level": "SL",
+      "paper_path": "resources/chemistry/m25/Chemistry_paper_1_TZ1_SL.pdf",
+      "markscheme_path": "resources/chemistry/m25/Chemistry_paper_1_TZ1_SL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "May 2025 Chemistry Paper 1 TZ1 SL",
+      "session": "May",
+      "year": 2025,
+      "paperCode": "1",
+      "timezone": "TZ1",
+      "level": "SL",
+      "paper_path": "resources/chemistry/m25/Chemistry_paper_1_TZ1_SL.pdf",
+      "markscheme_path": "resources/chemistry/m25/Chemistry_paper_1_TZ1_SL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "May 2025 Chemistry Paper 1 TZ1 SL",
+      "session": "May",
+      "year": 2025,
+      "paperCode": "1",
+      "timezone": "TZ1",
+      "level": "SL",
+      "paper_path": "resources/chemistry/m25/Chemistry_paper_1_TZ1_SL.pdf",
+      "markscheme_path": "resources/chemistry/m25/Chemistry_paper_1_TZ1_SL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "May 2025 Chemistry Paper 1 TZ2 SL",
+      "session": "May",
+      "year": 2025,
+      "paperCode": "1",
+      "timezone": "TZ2",
+      "level": "SL",
+      "paper_path": "resources/chemistry/m25/Chemistry_paper_1_TZ2_SL.pdf",
+      "markscheme_path": "resources/chemistry/m25/Chemistry_paper_1_TZ2_SL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "May 2025 Chemistry Paper 1 TZ2 SL",
+      "session": "May",
+      "year": 2025,
+      "paperCode": "1",
+      "timezone": "TZ2",
+      "level": "SL",
+      "paper_path": "resources/chemistry/m25/Chemistry_paper_1_TZ2_SL.pdf",
+      "markscheme_path": "resources/chemistry/m25/Chemistry_paper_1_TZ2_SL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "May 2025 Chemistry Paper 2 TZ1 HL",
+      "session": "May",
+      "year": 2025,
+      "paperCode": "2",
+      "timezone": "TZ1",
+      "level": "HL",
+      "paper_path": "resources/chemistry/m25/Chemistry_paper_2_TZ1_HL.pdf",
+      "markscheme_path": "resources/chemistry/m25/Chemistry_paper_2_TZ1_HL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "May 2025 Chemistry Paper 2 TZ1 HL",
+      "session": "May",
+      "year": 2025,
+      "paperCode": "2",
+      "timezone": "TZ1",
+      "level": "HL",
+      "paper_path": "resources/chemistry/m25/Chemistry_paper_2_TZ1_HL.pdf",
+      "markscheme_path": "resources/chemistry/m25/Chemistry_paper_2_TZ1_HL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "May 2025 Chemistry Paper 2 TZ1 HL",
+      "session": "May",
+      "year": 2025,
+      "paperCode": "2",
+      "timezone": "TZ1",
+      "level": "HL",
+      "paper_path": "resources/chemistry/m25/Chemistry_paper_2_TZ1_HL.pdf",
+      "markscheme_path": "resources/chemistry/m25/Chemistry_paper_2_TZ1_HL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "May 2025 Chemistry Paper 2 TZ2 HL",
+      "session": "May",
+      "year": 2025,
+      "paperCode": "2",
+      "timezone": "TZ2",
+      "level": "HL",
+      "paper_path": "resources/chemistry/m25/Chemistry_paper_2_TZ2_HL.pdf",
+      "markscheme_path": "resources/chemistry/m25/Chemistry_paper_2_TZ2_HL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "May 2025 Chemistry Paper 2 TZ1 SL",
+      "session": "May",
+      "year": 2025,
+      "paperCode": "2",
+      "timezone": "TZ1",
+      "level": "SL",
+      "paper_path": "resources/chemistry/m25/Chemistry_paper_2_TZ1_SL.pdf",
+      "markscheme_path": "resources/chemistry/m25/Chemistry_paper_2_TZ1_SL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "May 2025 Chemistry Paper 2 TZ1 SL",
+      "session": "May",
+      "year": 2025,
+      "paperCode": "2",
+      "timezone": "TZ1",
+      "level": "SL",
+      "paper_path": "resources/chemistry/m25/Chemistry_paper_2_TZ1_SL.pdf",
+      "markscheme_path": "resources/chemistry/m25/Chemistry_paper_2_TZ1_SL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "May 2025 Chemistry Paper 2 TZ1 SL",
+      "session": "May",
+      "year": 2025,
+      "paperCode": "2",
+      "timezone": "TZ1",
+      "level": "SL",
+      "paper_path": "resources/chemistry/m25/Chemistry_paper_2_TZ1_SL.pdf",
+      "markscheme_path": "resources/chemistry/m25/Chemistry_paper_2_TZ1_SL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "May 2025 Chemistry Paper 2 TZ1 SL",
+      "session": "May",
+      "year": 2025,
+      "paperCode": "2",
+      "timezone": "TZ1",
+      "level": "SL",
+      "paper_path": "resources/chemistry/m25/Chemistry_paper_2_TZ1_SL.pdf",
+      "markscheme_path": "resources/chemistry/m25/Chemistry_paper_2_TZ1_SL_markscheme.pdf"
+    },
+    {
+      "paperLabel": "May 2025 Chemistry Paper 2 TZ2 SL",
+      "session": "May",
+      "year": 2025,
+      "paperCode": "2",
+      "timezone": "TZ2",
+      "level": "SL",
+      "paper_path": "resources/chemistry/m25/Chemistry_paper_2_TZ2_SL.pdf",
+      "markscheme_path": "resources/chemistry/m25/Chemistry_paper_2_TZ2_SL_markscheme.pdf"
+    }
+  ]
+}
