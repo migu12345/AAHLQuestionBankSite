@@ -8315,10 +8315,7 @@
         "images/questions/chem_m17_p2_tz1_q1_hl_p4.png",
         "images/questions/chem_m17_p2_tz1_q1_hl_p5.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m17_p2_tz1_q1_hl_p1.png",
-        "images/markschemes/chem_m17_p2_tz1_q1_hl_p2.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m17_p2_tz1_q2_hl",
@@ -8353,10 +8350,7 @@
         "images/questions/chem_m17_p2_tz1_q2_hl_p4.png",
         "images/questions/chem_m17_p2_tz1_q2_hl_p5.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m17_p2_tz1_q2_hl_p1.png",
-        "images/markschemes/chem_m17_p2_tz1_q2_hl_p2.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m17_p2_tz1_q3_hl",
@@ -8388,9 +8382,7 @@
         "images/questions/chem_m17_p2_tz1_q3_hl_p1.png",
         "images/questions/chem_m17_p2_tz1_q3_hl_p2.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m17_p2_tz1_q3_hl_p1.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m17_p2_tz1_q4_hl",
@@ -8423,10 +8415,7 @@
         "images/questions/chem_m17_p2_tz1_q4_hl_p2.png",
         "images/questions/chem_m17_p2_tz1_q4_hl_p3.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m17_p2_tz1_q4_hl_p1.png",
-        "images/markschemes/chem_m17_p2_tz1_q4_hl_p2.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m17_p2_tz1_q5_hl",
@@ -8460,11 +8449,7 @@
         "images/questions/chem_m17_p2_tz1_q5_hl_p3.png",
         "images/questions/chem_m17_p2_tz1_q5_hl_p4.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m17_p2_tz1_q5_hl_p1.png",
-        "images/markschemes/chem_m17_p2_tz1_q5_hl_p2.png",
-        "images/markschemes/chem_m17_p2_tz1_q5_hl_p3.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m17_p2_tz1_q6_hl",
@@ -8499,10 +8484,7 @@
         "images/questions/chem_m17_p2_tz1_q6_hl_p4.png",
         "images/questions/chem_m17_p2_tz1_q6_hl_p5.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m17_p2_tz1_q6_hl_p1.png",
-        "images/markschemes/chem_m17_p2_tz1_q6_hl_p2.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m17_p2_tz1_q7_hl",
@@ -8534,10 +8516,7 @@
         "images/questions/chem_m17_p2_tz1_q7_hl_p1.png",
         "images/questions/chem_m17_p2_tz1_q7_hl_p2.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m17_p2_tz1_q7_hl_p1.png",
-        "images/markschemes/chem_m17_p2_tz1_q7_hl_p2.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m17_p2_tz1_q8_hl",
@@ -8600,9 +8579,7 @@
         "images/questions/chem_m17_p2_tz1_q1_sl_p2.png",
         "images/questions/chem_m17_p2_tz1_q1_sl_p3.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m17_p2_tz1_q1_sl_p1.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m17_p2_tz1_q2_sl",
@@ -8636,10 +8613,7 @@
         "images/questions/chem_m17_p2_tz1_q2_sl_p3.png",
         "images/questions/chem_m17_p2_tz1_q2_sl_p4.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m17_p2_tz1_q2_sl_p1.png",
-        "images/markschemes/chem_m17_p2_tz1_q2_sl_p2.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m17_p2_tz1_q3_sl",
@@ -8704,10 +8678,7 @@
         "images/questions/chem_m17_p2_tz1_q4_sl_p3.png",
         "images/questions/chem_m17_p2_tz1_q4_sl_p4.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m17_p2_tz1_q4_sl_p1.png",
-        "images/markschemes/chem_m17_p2_tz1_q4_sl_p2.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m17_p2_tz1_q5_sl",
@@ -8740,10 +8711,7 @@
         "images/questions/chem_m17_p2_tz1_q5_sl_p2.png",
         "images/questions/chem_m17_p2_tz1_q5_sl_p3.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m17_p2_tz1_q5_sl_p1.png",
-        "images/markschemes/chem_m17_p2_tz1_q5_sl_p2.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m17_p2_tz1_q6_sl",
@@ -8805,10 +8773,7 @@
         "images/questions/chem_m17_p2_tz2_q1_hl_p1.png",
         "images/questions/chem_m17_p2_tz2_q1_hl_p2.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m17_p2_tz2_q1_hl_p1.png",
-        "images/markschemes/chem_m17_p2_tz2_q1_hl_p2.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m17_p2_tz2_q2_hl",
@@ -8840,10 +8805,7 @@
         "images/questions/chem_m17_p2_tz2_q2_hl_p1.png",
         "images/questions/chem_m17_p2_tz2_q2_hl_p2.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m17_p2_tz2_q2_hl_p1.png",
-        "images/markschemes/chem_m17_p2_tz2_q2_hl_p2.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m17_p2_tz2_q3_hl",
@@ -8875,9 +8837,7 @@
         "images/questions/chem_m17_p2_tz2_q3_hl_p1.png",
         "images/questions/chem_m17_p2_tz2_q3_hl_p2.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m17_p2_tz2_q3_hl_p1.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m17_p2_tz2_q4_hl",
@@ -8910,11 +8870,7 @@
         "images/questions/chem_m17_p2_tz2_q4_hl_p2.png",
         "images/questions/chem_m17_p2_tz2_q4_hl_p3.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m17_p2_tz2_q4_hl_p1.png",
-        "images/markschemes/chem_m17_p2_tz2_q4_hl_p2.png",
-        "images/markschemes/chem_m17_p2_tz2_q4_hl_p3.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m17_p2_tz2_q5_hl",
@@ -8947,10 +8903,7 @@
         "images/questions/chem_m17_p2_tz2_q5_hl_p2.png",
         "images/questions/chem_m17_p2_tz2_q5_hl_p3.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m17_p2_tz2_q5_hl_p1.png",
-        "images/markschemes/chem_m17_p2_tz2_q5_hl_p2.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m17_p2_tz2_q6_hl",
@@ -8981,9 +8934,7 @@
       "question_image_paths": [
         "images/questions/chem_m17_p2_tz2_q6_hl_p1.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m17_p2_tz2_q6_hl_p1.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m17_p2_tz2_q7_hl",
@@ -9014,10 +8965,7 @@
       "question_image_paths": [
         "images/questions/chem_m17_p2_tz2_q7_hl.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m17_p2_tz2_q7_hl_p1.png",
-        "images/markschemes/chem_m17_p2_tz2_q7_hl_p2.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m17_p2_tz2_q8_hl",
@@ -9050,10 +8998,7 @@
         "images/questions/chem_m17_p2_tz2_q8_hl_p2.png",
         "images/questions/chem_m17_p2_tz2_q8_hl_p3.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m17_p2_tz2_q8_hl_p1.png",
-        "images/markschemes/chem_m17_p2_tz2_q8_hl_p2.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m17_p2_tz2_q9_hl",
@@ -9085,9 +9030,7 @@
         "images/questions/chem_m17_p2_tz2_q9_hl_p1.png",
         "images/questions/chem_m17_p2_tz2_q9_hl_p2.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m17_p2_tz2_q9_hl.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m17_p2_tz2_q10_hl",
@@ -9150,10 +9093,7 @@
         "images/questions/chem_m17_p2_tz2_q1_sl_p1.png",
         "images/questions/chem_m17_p2_tz2_q1_sl_p2.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m17_p2_tz2_q1_sl_p1.png",
-        "images/markschemes/chem_m17_p2_tz2_q1_sl_p2.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m17_p2_tz2_q2_sl",
@@ -9185,9 +9125,7 @@
         "images/questions/chem_m17_p2_tz2_q2_sl_p1.png",
         "images/questions/chem_m17_p2_tz2_q2_sl_p2.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m17_p2_tz2_q2_sl_p1.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m17_p2_tz2_q3_sl",
@@ -9219,9 +9157,7 @@
         "images/questions/chem_m17_p2_tz2_q3_sl_p1.png",
         "images/questions/chem_m17_p2_tz2_q3_sl_p2.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m17_p2_tz2_q3_sl_p1.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m17_p2_tz2_q4_sl",
@@ -9253,9 +9189,7 @@
         "images/questions/chem_m17_p2_tz2_q4_sl_p1.png",
         "images/questions/chem_m17_p2_tz2_q4_sl_p2.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m17_p2_tz2_q4_sl_p1.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m17_p2_tz2_q5_sl",
@@ -9287,9 +9221,7 @@
         "images/questions/chem_m17_p2_tz2_q5_sl_p1.png",
         "images/questions/chem_m17_p2_tz2_q5_sl_p2.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m17_p2_tz2_q5_sl_p1.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m17_p2_tz2_q6_sl",
@@ -9320,9 +9252,7 @@
       "question_image_paths": [
         "images/questions/chem_m17_p2_tz2_q6_sl_p1.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m17_p2_tz2_q6_sl_p1.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m17_p2_tz2_q7_sl",
@@ -9353,9 +9283,7 @@
       "question_image_paths": [
         "images/questions/chem_m17_p2_tz2_q7_sl_p1.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m17_p2_tz2_q7_sl_p1.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m17_p2_tz2_q8_sl",
@@ -9387,9 +9315,7 @@
         "images/questions/chem_m17_p2_tz2_q8_sl_p1.png",
         "images/questions/chem_m17_p2_tz2_q8_sl_p2.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m17_p2_tz2_q8_sl.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m17_p3_tz1_q1_hl",
@@ -9420,9 +9346,7 @@
       "question_image_paths": [
         "images/questions/chem_m17_p3_tz1_q1_hl_p1.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m17_p3_tz1_q1_hl_p1.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m17_p3_tz1_q2_hl",
@@ -9513,9 +9437,7 @@
       "question_image_paths": [
         "images/questions/chem_m17_p3_tz1_q4_hl_p1.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m17_p3_tz1_q4_hl_p1.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m17_p3_tz1_q5_hl",
@@ -9548,9 +9470,7 @@
         "images/questions/chem_m17_p3_tz1_q5_hl_p2.png",
         "images/questions/chem_m17_p3_tz1_q5_hl_p3.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m17_p3_tz1_q5_hl_p1.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m17_p3_tz1_q6_hl",
@@ -9581,9 +9501,7 @@
       "question_image_paths": [
         "images/questions/chem_m17_p3_tz1_q6_hl.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m17_p3_tz1_q6_hl_p1.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m17_p3_tz1_q7_hl",
@@ -9646,9 +9564,7 @@
       "question_image_paths": [
         "images/questions/chem_m17_p3_tz1_q8_hl_p1.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m17_p3_tz1_q8_hl_p1.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m17_p3_tz1_q9_hl",
@@ -9711,9 +9627,7 @@
       "question_image_paths": [
         "images/questions/chem_m17_p3_tz1_q10_hl_p1.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m17_p3_tz1_q10_hl.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m17_p3_tz1_q11_hl",
@@ -9744,9 +9658,7 @@
         "images/questions/chem_m17_p3_tz1_q11_hl_p1.png",
         "images/questions/chem_m17_p3_tz1_q11_hl_p2.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m17_p3_tz1_q11_hl_p1.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m17_p3_tz1_q12_hl",
@@ -9777,9 +9689,7 @@
       "question_image_paths": [
         "images/questions/chem_m17_p3_tz1_q12_hl_p1.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m17_p3_tz1_q12_hl_p1.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m17_p3_tz1_q13_hl",
@@ -9811,9 +9721,7 @@
         "images/questions/chem_m17_p3_tz1_q13_hl_p1.png",
         "images/questions/chem_m17_p3_tz1_q13_hl_p2.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m17_p3_tz1_q13_hl_p1.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m17_p3_tz1_q14_hl",
@@ -9845,9 +9753,7 @@
         "images/questions/chem_m17_p3_tz1_q14_hl_p1.png",
         "images/questions/chem_m17_p3_tz1_q14_hl_p2.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m17_p3_tz1_q14_hl_p1.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m17_p3_tz1_q15_hl",
@@ -9880,9 +9786,7 @@
         "images/questions/chem_m17_p3_tz1_q15_hl_p2.png",
         "images/questions/chem_m17_p3_tz1_q15_hl_p3.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m17_p3_tz1_q15_hl_p1.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m17_p3_tz1_q16_hl",
@@ -9913,9 +9817,7 @@
       "question_image_paths": [
         "images/questions/chem_m17_p3_tz1_q16_hl_p1.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m17_p3_tz1_q16_hl_p1.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m17_p3_tz1_q17_hl",
@@ -9974,9 +9876,7 @@
       "question_image_paths": [
         "images/questions/chem_m17_p3_tz1_q18_hl_p1.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m17_p3_tz1_q18_hl_p1.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m17_p3_tz1_q19_hl",
@@ -10039,9 +9939,7 @@
         "images/questions/chem_m17_p3_tz1_q20_hl_p1.png",
         "images/questions/chem_m17_p3_tz1_q20_hl_p2.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m17_p3_tz1_q20_hl_p1.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m17_p3_tz1_q21_hl",
@@ -10104,9 +10002,7 @@
         "images/questions/chem_m17_p3_tz1_q22_hl_p1.png",
         "images/questions/chem_m17_p3_tz1_q22_hl_p2.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m17_p3_tz1_q22_hl_p1.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m17_p3_tz1_q23_hl",
@@ -10138,9 +10034,7 @@
         "images/questions/chem_m17_p3_tz1_q23_hl_p1.png",
         "images/questions/chem_m17_p3_tz1_q23_hl_p2.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m17_p3_tz1_q23_hl_p1.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m17_p3_tz1_q24_hl",
@@ -10169,10 +10063,7 @@
       "question_image_paths": [
         "images/questions/chem_m17_p3_tz1_q24_hl_p1.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m17_p3_tz1_q24_hl_p1.png",
-        "images/markschemes/chem_m17_p3_tz1_q24_hl_p2.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m17_p3_tz1_q25_hl",
@@ -10205,9 +10096,7 @@
         "images/questions/chem_m17_p3_tz1_q25_hl_p2.png",
         "images/questions/chem_m17_p3_tz1_q25_hl_p3.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m17_p3_tz1_q25_hl_p1.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m17_p3_tz1_q26_hl",
@@ -10238,9 +10127,7 @@
       "question_image_paths": [
         "images/questions/chem_m17_p3_tz1_q26_hl_p1.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m17_p3_tz1_q26_hl_p1.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m17_p3_tz1_q27_hl",
@@ -10270,9 +10157,7 @@
       "question_image_paths": [
         "images/questions/chem_m17_p3_tz1_q27_hl_p1.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m17_p3_tz1_q27_hl_p1.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m17_p3_tz1_q28_hl",
@@ -10302,9 +10187,7 @@
       "question_image_paths": [
         "images/questions/chem_m17_p3_tz1_q28_hl.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m17_p3_tz1_q28_hl_p1.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m17_p3_tz1_q29_hl",
@@ -10336,9 +10219,7 @@
         "images/questions/chem_m17_p3_tz1_q29_hl_p1.png",
         "images/questions/chem_m17_p3_tz1_q29_hl_p2.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m17_p3_tz1_q29_hl.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m17_p3_tz1_q1_sl",
@@ -10369,9 +10250,7 @@
       "question_image_paths": [
         "images/questions/chem_m17_p3_tz1_q1_sl_p1.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m17_p3_tz1_q1_sl_p1.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m17_p3_tz1_q2_sl",
@@ -10462,9 +10341,7 @@
       "question_image_paths": [
         "images/questions/chem_m17_p3_tz1_q4_sl_p1.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m17_p3_tz1_q4_sl_p1.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m17_p3_tz1_q5_sl",
@@ -10497,9 +10374,7 @@
         "images/questions/chem_m17_p3_tz1_q5_sl_p2.png",
         "images/questions/chem_m17_p3_tz1_q5_sl_p3.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m17_p3_tz1_q5_sl_p1.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m17_p3_tz1_q6_sl",
@@ -10530,9 +10405,7 @@
       "question_image_paths": [
         "images/questions/chem_m17_p3_tz1_q6_sl.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m17_p3_tz1_q6_sl_p1.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m17_p3_tz1_q7_sl",
@@ -10595,9 +10468,7 @@
       "question_image_paths": [
         "images/questions/chem_m17_p3_tz1_q8_sl_p1.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m17_p3_tz1_q8_sl_p1.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m17_p3_tz1_q9_sl",
@@ -10659,10 +10530,7 @@
         "images/questions/chem_m17_p3_tz1_q10_sl_p1.png",
         "images/questions/chem_m17_p3_tz1_q10_sl_p2.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m17_p3_tz1_q10_sl_p1.png",
-        "images/markschemes/chem_m17_p3_tz1_q10_sl_p2.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m17_p3_tz1_q11_sl",
@@ -10694,9 +10562,7 @@
         "images/questions/chem_m17_p3_tz1_q11_sl_p1.png",
         "images/questions/chem_m17_p3_tz1_q11_sl_p2.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m17_p3_tz1_q11_sl_p1.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m17_p3_tz1_q12_sl",
@@ -10728,9 +10594,7 @@
         "images/questions/chem_m17_p3_tz1_q12_sl_p1.png",
         "images/questions/chem_m17_p3_tz1_q12_sl_p2.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m17_p3_tz1_q12_sl_p1.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m17_p3_tz1_q13_sl",
@@ -10763,9 +10627,7 @@
         "images/questions/chem_m17_p3_tz1_q13_sl_p2.png",
         "images/questions/chem_m17_p3_tz1_q13_sl_p3.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m17_p3_tz1_q13_sl_p1.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m17_p3_tz1_q14_sl",
@@ -10794,9 +10656,7 @@
       "question_image_paths": [
         "images/questions/chem_m17_p3_tz1_q14_sl_p1.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m17_p3_tz1_q14_sl_p1.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m17_p3_tz1_q15_sl",
@@ -10828,9 +10688,7 @@
         "images/questions/chem_m17_p3_tz1_q15_sl_p1.png",
         "images/questions/chem_m17_p3_tz1_q15_sl_p2.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m17_p3_tz1_q15_sl_p1.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m17_p3_tz1_q16_sl",
@@ -10861,9 +10719,7 @@
       "question_image_paths": [
         "images/questions/chem_m17_p3_tz1_q16_sl_p1.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m17_p3_tz1_q16_sl_p1.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m17_p3_tz1_q17_sl",
@@ -10895,9 +10751,7 @@
         "images/questions/chem_m17_p3_tz1_q17_sl_p1.png",
         "images/questions/chem_m17_p3_tz1_q17_sl_p2.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m17_p3_tz1_q17_sl_p1.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m17_p3_tz1_q18_sl",
@@ -10927,9 +10781,7 @@
         "images/questions/chem_m17_p3_tz1_q18_sl_p1.png",
         "images/questions/chem_m17_p3_tz1_q18_sl_p2.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m17_p3_tz1_q18_sl_p1.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m17_p3_tz1_q19_sl",
@@ -10962,10 +10814,7 @@
         "images/questions/chem_m17_p3_tz1_q19_sl_p2.png",
         "images/questions/chem_m17_p3_tz1_q19_sl_p3.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m17_p3_tz1_q19_sl_p1.png",
-        "images/markschemes/chem_m17_p3_tz1_q19_sl_p2.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m17_p3_tz1_q20_sl",
@@ -10996,9 +10845,7 @@
       "question_image_paths": [
         "images/questions/chem_m17_p3_tz1_q20_sl_p1.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m17_p3_tz1_q20_sl.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m17_p3_tz1_q21_sl",
@@ -11028,9 +10875,7 @@
       "question_image_paths": [
         "images/questions/chem_m17_p3_tz1_q21_sl.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m17_p3_tz1_q21_sl.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m17_p3_tz2_q1_hl",
@@ -11064,9 +10909,7 @@
         "images/questions/chem_m17_p3_tz2_q1_hl_p3.png",
         "images/questions/chem_m17_p3_tz2_q1_hl_p4.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m17_p3_tz2_q1_hl_p1.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m17_p3_tz2_q2_hl",
@@ -11098,10 +10941,7 @@
         "images/questions/chem_m17_p3_tz2_q2_hl_p1.png",
         "images/questions/chem_m17_p3_tz2_q2_hl_p2.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m17_p3_tz2_q2_hl_p1.png",
-        "images/markschemes/chem_m17_p3_tz2_q2_hl_p2.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m17_p3_tz2_q3_hl",
@@ -11134,9 +10974,7 @@
         "images/questions/chem_m17_p3_tz2_q3_hl_p2.png",
         "images/questions/chem_m17_p3_tz2_q3_hl_p3.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m17_p3_tz2_q3_hl_p1.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m17_p3_tz2_q4_hl",
@@ -11168,9 +11006,7 @@
         "images/questions/chem_m17_p3_tz2_q4_hl_p1.png",
         "images/questions/chem_m17_p3_tz2_q4_hl_p2.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m17_p3_tz2_q4_hl_p1.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m17_p3_tz2_q5_hl",
@@ -11203,12 +11039,7 @@
         "images/questions/chem_m17_p3_tz2_q5_hl_p2.png",
         "images/questions/chem_m17_p3_tz2_q5_hl_p3.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m17_p3_tz2_q5_hl_p1.png",
-        "images/markschemes/chem_m17_p3_tz2_q5_hl_p2.png",
-        "images/markschemes/chem_m17_p3_tz2_q5_hl_p3.png",
-        "images/markschemes/chem_m17_p3_tz2_q5_hl_p4.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m17_p3_tz2_q6_hl",
@@ -11239,10 +11070,7 @@
       "question_image_paths": [
         "images/questions/chem_m17_p3_tz2_q6_hl_p1.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m17_p3_tz2_q6_hl_p1.png",
-        "images/markschemes/chem_m17_p3_tz2_q6_hl_p2.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m17_p3_tz2_q7_hl",
@@ -11271,10 +11099,7 @@
       "question_image_paths": [
         "images/questions/chem_m17_p3_tz2_q7_hl_p1.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m17_p3_tz2_q7_hl_p1.png",
-        "images/markschemes/chem_m17_p3_tz2_q7_hl_p2.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m17_p3_tz2_q8_hl",
@@ -11306,9 +11131,7 @@
         "images/questions/chem_m17_p3_tz2_q8_hl_p1.png",
         "images/questions/chem_m17_p3_tz2_q8_hl_p2.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m17_p3_tz2_q8_hl_p1.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m17_p3_tz2_q9_hl",
@@ -11339,9 +11162,7 @@
       "question_image_paths": [
         "images/questions/chem_m17_p3_tz2_q9_hl_p1.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m17_p3_tz2_q9_hl_p1.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m17_p3_tz2_q10_hl",
@@ -11372,9 +11193,7 @@
       "question_image_paths": [
         "images/questions/chem_m17_p3_tz2_q10_hl_p1.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m17_p3_tz2_q10_hl_p1.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m17_p3_tz2_q11_hl",
@@ -11406,10 +11225,7 @@
         "images/questions/chem_m17_p3_tz2_q11_hl_p1.png",
         "images/questions/chem_m17_p3_tz2_q11_hl_p2.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m17_p3_tz2_q11_hl_p1.png",
-        "images/markschemes/chem_m17_p3_tz2_q11_hl_p2.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m17_p3_tz2_q12_hl",
@@ -11438,9 +11254,7 @@
       "question_image_paths": [
         "images/questions/chem_m17_p3_tz2_q12_hl_p1.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m17_p3_tz2_q12_hl_p1.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m17_p3_tz2_q13_hl",
@@ -11471,9 +11285,7 @@
       "question_image_paths": [
         "images/questions/chem_m17_p3_tz2_q13_hl_p1.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m17_p3_tz2_q13_hl_p1.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m17_p3_tz2_q14_hl",
@@ -11504,9 +11316,7 @@
       "question_image_paths": [
         "images/questions/chem_m17_p3_tz2_q14_hl_p1.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m17_p3_tz2_q14_hl_p1.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m17_p3_tz2_q15_hl",
@@ -11565,10 +11375,7 @@
       "question_image_paths": [
         "images/questions/chem_m17_p3_tz2_q16_hl_p1.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m17_p3_tz2_q16_hl_p1.png",
-        "images/markschemes/chem_m17_p3_tz2_q16_hl_p2.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m17_p3_tz2_q17_hl",
@@ -11600,10 +11407,7 @@
         "images/questions/chem_m17_p3_tz2_q17_hl_p1.png",
         "images/questions/chem_m17_p3_tz2_q17_hl_p2.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m17_p3_tz2_q17_hl_p1.png",
-        "images/markschemes/chem_m17_p3_tz2_q17_hl_p2.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m17_p3_tz2_q18_hl",
@@ -11635,10 +11439,7 @@
         "images/questions/chem_m17_p3_tz2_q18_hl_p1.png",
         "images/questions/chem_m17_p3_tz2_q18_hl_p2.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m17_p3_tz2_q18_hl_p1.png",
-        "images/markschemes/chem_m17_p3_tz2_q18_hl_p2.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m17_p3_tz2_q19_hl",
@@ -11668,11 +11469,7 @@
       "question_image_paths": [
         "images/questions/chem_m17_p3_tz2_q19_hl_p1.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m17_p3_tz2_q19_hl_p1.png",
-        "images/markschemes/chem_m17_p3_tz2_q19_hl_p2.png",
-        "images/markschemes/chem_m17_p3_tz2_q19_hl_p3.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m17_p3_tz2_q20_hl",
@@ -11704,9 +11501,7 @@
         "images/questions/chem_m17_p3_tz2_q20_hl_p1.png",
         "images/questions/chem_m17_p3_tz2_q20_hl_p2.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m17_p3_tz2_q20_hl_p1.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m17_p3_tz2_q21_hl",
@@ -11738,9 +11533,7 @@
         "images/questions/chem_m17_p3_tz2_q21_hl_p1.png",
         "images/questions/chem_m17_p3_tz2_q21_hl_p2.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m17_p3_tz2_q21_hl_p1.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m17_p3_tz2_q22_hl",
@@ -11771,9 +11564,7 @@
       "question_image_paths": [
         "images/questions/chem_m17_p3_tz2_q22_hl_p1.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m17_p3_tz2_q22_hl_p1.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m17_p3_tz2_q23_hl",
@@ -11803,10 +11594,7 @@
       "question_image_paths": [
         "images/questions/chem_m17_p3_tz2_q23_hl.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m17_p3_tz2_q23_hl_p1.png",
-        "images/markschemes/chem_m17_p3_tz2_q23_hl_p2.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m17_p3_tz2_q24_hl",
@@ -11836,9 +11624,7 @@
       "question_image_paths": [
         "images/questions/chem_m17_p3_tz2_q24_hl_p1.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m17_p3_tz2_q24_hl_p1.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m17_p3_tz2_q25_hl",
@@ -11867,9 +11653,7 @@
       "question_image_paths": [
         "images/questions/chem_m17_p3_tz2_q25_hl.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m17_p3_tz2_q25_hl_p1.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m17_p3_tz2_q26_hl",
@@ -11900,9 +11684,7 @@
         "images/questions/chem_m17_p3_tz2_q26_hl_p1.png",
         "images/questions/chem_m17_p3_tz2_q26_hl_p2.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m17_p3_tz2_q26_hl.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m17_p3_tz2_q1_sl",
@@ -11936,9 +11718,7 @@
         "images/questions/chem_m17_p3_tz2_q1_sl_p3.png",
         "images/questions/chem_m17_p3_tz2_q1_sl_p4.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m17_p3_tz2_q1_sl_p1.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m17_p3_tz2_q2_sl",
@@ -11970,10 +11750,7 @@
         "images/questions/chem_m17_p3_tz2_q2_sl_p1.png",
         "images/questions/chem_m17_p3_tz2_q2_sl_p2.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m17_p3_tz2_q2_sl_p1.png",
-        "images/markschemes/chem_m17_p3_tz2_q2_sl_p2.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m17_p3_tz2_q3_sl",
@@ -12004,9 +11781,7 @@
       "question_image_paths": [
         "images/questions/chem_m17_p3_tz2_q3_sl_p1.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m17_p3_tz2_q3_sl_p1.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m17_p3_tz2_q4_sl",
@@ -12035,9 +11810,7 @@
       "question_image_paths": [
         "images/questions/chem_m17_p3_tz2_q4_sl_p1.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m17_p3_tz2_q4_sl_p1.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m17_p3_tz2_q5_sl",
@@ -12068,10 +11841,7 @@
       "question_image_paths": [
         "images/questions/chem_m17_p3_tz2_q5_sl_p1.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m17_p3_tz2_q5_sl_p1.png",
-        "images/markschemes/chem_m17_p3_tz2_q5_sl_p2.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m17_p3_tz2_q6_sl",
@@ -12102,10 +11872,7 @@
       "question_image_paths": [
         "images/questions/chem_m17_p3_tz2_q6_sl_p1.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m17_p3_tz2_q6_sl_p1.png",
-        "images/markschemes/chem_m17_p3_tz2_q6_sl_p2.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m17_p3_tz2_q7_sl",
@@ -12136,9 +11903,7 @@
       "question_image_paths": [
         "images/questions/chem_m17_p3_tz2_q7_sl_p1.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m17_p3_tz2_q7_sl_p1.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m17_p3_tz2_q8_sl",
@@ -12169,9 +11934,7 @@
       "question_image_paths": [
         "images/questions/chem_m17_p3_tz2_q8_sl_p1.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m17_p3_tz2_q8_sl_p1.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m17_p3_tz2_q9_sl",
@@ -12202,9 +11965,7 @@
       "question_image_paths": [
         "images/questions/chem_m17_p3_tz2_q9_sl_p1.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m17_p3_tz2_q9_sl_p1.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m17_p3_tz2_q10_sl",
@@ -12236,10 +11997,7 @@
         "images/questions/chem_m17_p3_tz2_q10_sl_p1.png",
         "images/questions/chem_m17_p3_tz2_q10_sl_p2.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m17_p3_tz2_q10_sl_p1.png",
-        "images/markschemes/chem_m17_p3_tz2_q10_sl_p2.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m17_p3_tz2_q11_sl",
@@ -12268,9 +12026,7 @@
       "question_image_paths": [
         "images/questions/chem_m17_p3_tz2_q11_sl_p1.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m17_p3_tz2_q11_sl_p1.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m17_p3_tz2_q12_sl",
@@ -12300,9 +12056,7 @@
       "question_image_paths": [
         "images/questions/chem_m17_p3_tz2_q12_sl_p1.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m17_p3_tz2_q12_sl_p1.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m17_p3_tz2_q13_sl",
@@ -12332,10 +12086,7 @@
       "question_image_paths": [
         "images/questions/chem_m17_p3_tz2_q13_sl_p1.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m17_p3_tz2_q13_sl_p1.png",
-        "images/markschemes/chem_m17_p3_tz2_q13_sl_p2.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m17_p3_tz2_q14_sl",
@@ -12367,12 +12118,7 @@
         "images/questions/chem_m17_p3_tz2_q14_sl_p1.png",
         "images/questions/chem_m17_p3_tz2_q14_sl_p2.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m17_p3_tz2_q14_sl_p1.png",
-        "images/markschemes/chem_m17_p3_tz2_q14_sl_p2.png",
-        "images/markschemes/chem_m17_p3_tz2_q14_sl_p3.png",
-        "images/markschemes/chem_m17_p3_tz2_q14_sl_p4.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m17_p3_tz2_q15_sl",
@@ -12404,9 +12150,7 @@
         "images/questions/chem_m17_p3_tz2_q15_sl_p1.png",
         "images/questions/chem_m17_p3_tz2_q15_sl_p2.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m17_p3_tz2_q15_sl_p1.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m17_p3_tz2_q16_sl",
@@ -12435,9 +12179,7 @@
       "question_image_paths": [
         "images/questions/chem_m17_p3_tz2_q16_sl_p1.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m17_p3_tz2_q16_sl_p1.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m17_p3_tz2_q17_sl",
@@ -12468,9 +12210,7 @@
       "question_image_paths": [
         "images/questions/chem_m17_p3_tz2_q17_sl_p1.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m17_p3_tz2_q17_sl_p1.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m17_p3_tz2_q18_sl",
@@ -12501,10 +12241,7 @@
       "question_image_paths": [
         "images/questions/chem_m17_p3_tz2_q18_sl_p1.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m17_p3_tz2_q18_sl_p1.png",
-        "images/markschemes/chem_m17_p3_tz2_q18_sl_p2.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m17_p3_tz2_q19_sl",
@@ -12534,9 +12271,7 @@
       "question_image_paths": [
         "images/questions/chem_m17_p3_tz2_q19_sl.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m17_p3_tz2_q19_sl.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m18_p1_tz1_q1_hl",
@@ -16838,9 +16573,7 @@
         "images/questions/chem_m18_p2_tz1_q1_hl_p7.png",
         "images/questions/chem_m18_p2_tz1_q1_hl_p8.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m18_p2_tz1_q1_hl_p1.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m18_p2_tz1_q2_hl",
@@ -16874,11 +16607,7 @@
         "images/questions/chem_m18_p2_tz1_q2_hl_p3.png",
         "images/questions/chem_m18_p2_tz1_q2_hl_p4.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m18_p2_tz1_q2_hl_p1.png",
-        "images/markschemes/chem_m18_p2_tz1_q2_hl_p2.png",
-        "images/markschemes/chem_m18_p2_tz1_q2_hl_p3.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m18_p2_tz1_q3_hl",
@@ -16912,13 +16641,7 @@
         "images/questions/chem_m18_p2_tz1_q3_hl_p3.png",
         "images/questions/chem_m18_p2_tz1_q3_hl_p4.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m18_p2_tz1_q3_hl_p1.png",
-        "images/markschemes/chem_m18_p2_tz1_q3_hl_p2.png",
-        "images/markschemes/chem_m18_p2_tz1_q3_hl_p3.png",
-        "images/markschemes/chem_m18_p2_tz1_q3_hl_p4.png",
-        "images/markschemes/chem_m18_p2_tz1_q3_hl_p5.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m18_p2_tz1_q4_hl",
@@ -16951,9 +16674,7 @@
         "images/questions/chem_m18_p2_tz1_q4_hl_p2.png",
         "images/questions/chem_m18_p2_tz1_q4_hl_p3.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m18_p2_tz1_q4_hl_p1.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m18_p2_tz1_q5_hl",
@@ -16985,10 +16706,7 @@
         "images/questions/chem_m18_p2_tz1_q5_hl_p1.png",
         "images/questions/chem_m18_p2_tz1_q5_hl_p2.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m18_p2_tz1_q5_hl_p1.png",
-        "images/markschemes/chem_m18_p2_tz1_q5_hl_p2.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m18_p2_tz1_q6_hl",
@@ -17020,9 +16738,7 @@
         "images/questions/chem_m18_p2_tz1_q6_hl_p1.png",
         "images/questions/chem_m18_p2_tz1_q6_hl_p2.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m18_p2_tz1_q6_hl_p1.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m18_p2_tz1_q7_hl",
@@ -17054,10 +16770,7 @@
         "images/questions/chem_m18_p2_tz1_q7_hl_p1.png",
         "images/questions/chem_m18_p2_tz1_q7_hl_p2.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m18_p2_tz1_q7_hl_p1.png",
-        "images/markschemes/chem_m18_p2_tz1_q7_hl_p2.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m18_p2_tz1_q1_sl",
@@ -17093,11 +16806,7 @@
         "images/questions/chem_m18_p2_tz1_q1_sl_p5.png",
         "images/questions/chem_m18_p2_tz1_q1_sl_p6.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m18_p2_tz1_q1_sl_p1.png",
-        "images/markschemes/chem_m18_p2_tz1_q1_sl_p2.png",
-        "images/markschemes/chem_m18_p2_tz1_q1_sl_p3.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m18_p2_tz1_q2_sl",
@@ -17129,9 +16838,7 @@
         "images/questions/chem_m18_p2_tz1_q2_sl_p1.png",
         "images/questions/chem_m18_p2_tz1_q2_sl_p2.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m18_p2_tz1_q2_sl_p1.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m18_p2_tz1_q3_sl",
@@ -17164,10 +16871,7 @@
         "images/questions/chem_m18_p2_tz1_q3_sl_p2.png",
         "images/questions/chem_m18_p2_tz1_q3_sl_p3.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m18_p2_tz1_q3_sl_p1.png",
-        "images/markschemes/chem_m18_p2_tz1_q3_sl_p2.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m18_p2_tz1_q4_sl",
@@ -17199,9 +16903,7 @@
         "images/questions/chem_m18_p2_tz1_q4_sl_p1.png",
         "images/questions/chem_m18_p2_tz1_q4_sl_p2.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m18_p2_tz1_q4_sl_p1.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m18_p2_tz1_q5_sl",
@@ -17232,9 +16934,7 @@
       "question_image_paths": [
         "images/questions/chem_m18_p2_tz1_q5_sl_p1.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m18_p2_tz1_q5_sl_p1.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m18_p2_tz1_q6_sl",
@@ -17265,9 +16965,7 @@
       "question_image_paths": [
         "images/questions/chem_m18_p2_tz1_q6_sl_p1.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m18_p2_tz1_q6_sl.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m18_p2_tz2_q1_hl",
@@ -17299,9 +16997,7 @@
         "images/questions/chem_m18_p2_tz2_q1_hl_p1.png",
         "images/questions/chem_m18_p2_tz2_q1_hl_p2.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m18_p2_tz2_q1_hl_p1.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m18_p2_tz2_q2_hl",
@@ -17335,12 +17031,7 @@
         "images/questions/chem_m18_p2_tz2_q2_hl_p3.png",
         "images/questions/chem_m18_p2_tz2_q2_hl_p4.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m18_p2_tz2_q2_hl_p1.png",
-        "images/markschemes/chem_m18_p2_tz2_q2_hl_p2.png",
-        "images/markschemes/chem_m18_p2_tz2_q2_hl_p3.png",
-        "images/markschemes/chem_m18_p2_tz2_q2_hl_p4.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m18_p2_tz2_q3_hl",
@@ -17373,11 +17064,7 @@
         "images/questions/chem_m18_p2_tz2_q3_hl_p2.png",
         "images/questions/chem_m18_p2_tz2_q3_hl_p3.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m18_p2_tz2_q3_hl_p1.png",
-        "images/markschemes/chem_m18_p2_tz2_q3_hl_p2.png",
-        "images/markschemes/chem_m18_p2_tz2_q3_hl_p3.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m18_p2_tz2_q4_hl",
@@ -17408,9 +17095,7 @@
       "question_image_paths": [
         "images/questions/chem_m18_p2_tz2_q4_hl_p1.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m18_p2_tz2_q4_hl_p1.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m18_p2_tz2_q5_hl",
@@ -17442,10 +17127,7 @@
         "images/questions/chem_m18_p2_tz2_q5_hl_p1.png",
         "images/questions/chem_m18_p2_tz2_q5_hl_p2.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m18_p2_tz2_q5_hl_p1.png",
-        "images/markschemes/chem_m18_p2_tz2_q5_hl_p2.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m18_p2_tz2_q6_hl",
@@ -17477,10 +17159,7 @@
         "images/questions/chem_m18_p2_tz2_q6_hl_p1.png",
         "images/questions/chem_m18_p2_tz2_q6_hl_p2.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m18_p2_tz2_q6_hl_p1.png",
-        "images/markschemes/chem_m18_p2_tz2_q6_hl_p2.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m18_p2_tz2_q7_hl",
@@ -17514,10 +17193,7 @@
         "images/questions/chem_m18_p2_tz2_q7_hl_p3.png",
         "images/questions/chem_m18_p2_tz2_q7_hl_p4.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m18_p2_tz2_q7_hl_p1.png",
-        "images/markschemes/chem_m18_p2_tz2_q7_hl_p2.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m18_p2_tz2_q8_hl",
@@ -17551,11 +17227,7 @@
         "images/questions/chem_m18_p2_tz2_q8_hl_p3.png",
         "images/questions/chem_m18_p2_tz2_q8_hl_p4.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m18_p2_tz2_q8_hl_p1.png",
-        "images/markschemes/chem_m18_p2_tz2_q8_hl_p2.png",
-        "images/markschemes/chem_m18_p2_tz2_q8_hl_p3.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m18_p2_tz2_q9_hl",
@@ -17589,10 +17261,7 @@
         "images/questions/chem_m18_p2_tz2_q9_hl_p3.png",
         "images/questions/chem_m18_p2_tz2_q9_hl_p4.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m18_p2_tz2_q9_hl_p1.png",
-        "images/markschemes/chem_m18_p2_tz2_q9_hl_p2.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m18_p2_tz2_q1_sl",
@@ -17624,9 +17293,7 @@
         "images/questions/chem_m18_p2_tz2_q1_sl_p1.png",
         "images/questions/chem_m18_p2_tz2_q1_sl_p2.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m18_p2_tz2_q1_sl_p1.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m18_p2_tz2_q2_sl",
@@ -17658,11 +17325,7 @@
         "images/questions/chem_m18_p2_tz2_q2_sl_p1.png",
         "images/questions/chem_m18_p2_tz2_q2_sl_p2.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m18_p2_tz2_q2_sl_p1.png",
-        "images/markschemes/chem_m18_p2_tz2_q2_sl_p2.png",
-        "images/markschemes/chem_m18_p2_tz2_q2_sl_p3.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m18_p2_tz2_q3_sl",
@@ -17694,10 +17357,7 @@
         "images/questions/chem_m18_p2_tz2_q3_sl_p1.png",
         "images/questions/chem_m18_p2_tz2_q3_sl_p2.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m18_p2_tz2_q3_sl_p1.png",
-        "images/markschemes/chem_m18_p2_tz2_q3_sl_p2.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m18_p2_tz2_q4_sl",
@@ -17729,9 +17389,7 @@
         "images/questions/chem_m18_p2_tz2_q4_sl_p1.png",
         "images/questions/chem_m18_p2_tz2_q4_sl_p2.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m18_p2_tz2_q4_sl_p1.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m18_p2_tz2_q5_sl",
@@ -17794,9 +17452,7 @@
         "images/questions/chem_m18_p2_tz2_q6_sl_p1.png",
         "images/questions/chem_m18_p2_tz2_q6_sl_p2.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m18_p2_tz2_q6_sl_p1.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m18_p2_tz2_q7_sl",
@@ -17830,11 +17486,7 @@
         "images/questions/chem_m18_p2_tz2_q7_sl_p3.png",
         "images/questions/chem_m18_p2_tz2_q7_sl_p4.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m18_p2_tz2_q7_sl_p1.png",
-        "images/markschemes/chem_m18_p2_tz2_q7_sl_p2.png",
-        "images/markschemes/chem_m18_p2_tz2_q7_sl_p3.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m18_p3_tz1_q1_hl",
@@ -17867,9 +17519,7 @@
         "images/questions/chem_m18_p3_tz1_q1_hl_p2.png",
         "images/questions/chem_m18_p3_tz1_q1_hl_p3.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m18_p3_tz1_q1_hl_p1.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m18_p3_tz1_q2_hl",
@@ -17902,10 +17552,7 @@
         "images/questions/chem_m18_p3_tz1_q2_hl_p2.png",
         "images/questions/chem_m18_p3_tz1_q2_hl_p3.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m18_p3_tz1_q2_hl_p1.png",
-        "images/markschemes/chem_m18_p3_tz1_q2_hl_p2.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m18_p3_tz1_q3_hl",
@@ -17937,9 +17584,7 @@
         "images/questions/chem_m18_p3_tz1_q3_hl_p1.png",
         "images/questions/chem_m18_p3_tz1_q3_hl_p2.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m18_p3_tz1_q3_hl_p1.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m18_p3_tz1_q4_hl",
@@ -17972,10 +17617,7 @@
         "images/questions/chem_m18_p3_tz1_q4_hl_p2.png",
         "images/questions/chem_m18_p3_tz1_q4_hl_p3.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m18_p3_tz1_q4_hl_p1.png",
-        "images/markschemes/chem_m18_p3_tz1_q4_hl_p2.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m18_p3_tz1_q5_hl",
@@ -18008,10 +17650,7 @@
         "images/questions/chem_m18_p3_tz1_q5_hl_p2.png",
         "images/questions/chem_m18_p3_tz1_q5_hl_p3.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m18_p3_tz1_q5_hl_p1.png",
-        "images/markschemes/chem_m18_p3_tz1_q5_hl_p2.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m18_p3_tz1_q6_hl",
@@ -18043,9 +17682,7 @@
         "images/questions/chem_m18_p3_tz1_q6_hl_p1.png",
         "images/questions/chem_m18_p3_tz1_q6_hl_p2.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m18_p3_tz1_q6_hl_p1.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m18_p3_tz1_q7_hl",
@@ -18077,10 +17714,7 @@
         "images/questions/chem_m18_p3_tz1_q7_hl_p1.png",
         "images/questions/chem_m18_p3_tz1_q7_hl_p2.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m18_p3_tz1_q7_hl_p1.png",
-        "images/markschemes/chem_m18_p3_tz1_q7_hl_p2.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m18_p3_tz1_q8_hl",
@@ -18110,9 +17744,7 @@
       "question_image_paths": [
         "images/questions/chem_m18_p3_tz1_q8_hl.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m18_p3_tz1_q8_hl_p1.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m18_p3_tz1_q9_hl",
@@ -18143,9 +17775,7 @@
         "images/questions/chem_m18_p3_tz1_q9_hl_p1.png",
         "images/questions/chem_m18_p3_tz1_q9_hl_p2.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m18_p3_tz1_q9_hl_p1.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m18_p3_tz1_q10_hl",
@@ -18176,9 +17806,7 @@
       "question_image_paths": [
         "images/questions/chem_m18_p3_tz1_q10_hl_p1.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m18_p3_tz1_q10_hl_p1.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m18_p3_tz1_q11_hl",
@@ -18209,9 +17837,7 @@
       "question_image_paths": [
         "images/questions/chem_m18_p3_tz1_q11_hl_p1.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m18_p3_tz1_q11_hl_p1.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m18_p3_tz1_q12_hl",
@@ -18242,9 +17868,7 @@
       "question_image_paths": [
         "images/questions/chem_m18_p3_tz1_q12_hl_p1.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m18_p3_tz1_q12_hl.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m18_p3_tz1_q13_hl",
@@ -18275,9 +17899,7 @@
       "question_image_paths": [
         "images/questions/chem_m18_p3_tz1_q13_hl_p1.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m18_p3_tz1_q13_hl_p1.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m18_p3_tz1_q14_hl",
@@ -18310,10 +17932,7 @@
         "images/questions/chem_m18_p3_tz1_q14_hl_p2.png",
         "images/questions/chem_m18_p3_tz1_q14_hl_p3.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m18_p3_tz1_q14_hl_p1.png",
-        "images/markschemes/chem_m18_p3_tz1_q14_hl_p2.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m18_p3_tz1_q15_hl",
@@ -18345,12 +17964,7 @@
         "images/questions/chem_m18_p3_tz1_q15_hl_p1.png",
         "images/questions/chem_m18_p3_tz1_q15_hl_p2.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m18_p3_tz1_q15_hl_p1.png",
-        "images/markschemes/chem_m18_p3_tz1_q15_hl_p2.png",
-        "images/markschemes/chem_m18_p3_tz1_q15_hl_p3.png",
-        "images/markschemes/chem_m18_p3_tz1_q15_hl_p4.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m18_p3_tz1_q16_hl",
@@ -18384,9 +17998,7 @@
         "images/questions/chem_m18_p3_tz1_q16_hl_p3.png",
         "images/questions/chem_m18_p3_tz1_q16_hl_p4.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m18_p3_tz1_q16_hl_p1.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m18_p3_tz1_q17_hl",
@@ -18446,9 +18058,7 @@
       "question_image_paths": [
         "images/questions/chem_m18_p3_tz1_q18_hl.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m18_p3_tz1_q18_hl_p1.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m18_p3_tz1_q19_hl",
@@ -18509,9 +18119,7 @@
       "question_image_paths": [
         "images/questions/chem_m18_p3_tz1_q20_hl.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m18_p3_tz1_q20_hl.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m18_p3_tz1_q1_sl",
@@ -18544,9 +18152,7 @@
         "images/questions/chem_m18_p3_tz1_q1_sl_p2.png",
         "images/questions/chem_m18_p3_tz1_q1_sl_p3.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m18_p3_tz1_q1_sl_p1.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m18_p3_tz1_q2_sl",
@@ -18579,10 +18185,7 @@
         "images/questions/chem_m18_p3_tz1_q2_sl_p2.png",
         "images/questions/chem_m18_p3_tz1_q2_sl_p3.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m18_p3_tz1_q2_sl_p1.png",
-        "images/markschemes/chem_m18_p3_tz1_q2_sl_p2.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m18_p3_tz1_q3_sl",
@@ -18614,9 +18217,7 @@
         "images/questions/chem_m18_p3_tz1_q3_sl_p1.png",
         "images/questions/chem_m18_p3_tz1_q3_sl_p2.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m18_p3_tz1_q3_sl_p1.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m18_p3_tz1_q4_sl",
@@ -18648,10 +18249,7 @@
         "images/questions/chem_m18_p3_tz1_q4_sl_p1.png",
         "images/questions/chem_m18_p3_tz1_q4_sl_p2.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m18_p3_tz1_q4_sl_p1.png",
-        "images/markschemes/chem_m18_p3_tz1_q4_sl_p2.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m18_p3_tz1_q5_sl",
@@ -18713,9 +18311,7 @@
         "images/questions/chem_m18_p3_tz1_q6_sl_p1.png",
         "images/questions/chem_m18_p3_tz1_q6_sl_p2.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m18_p3_tz1_q6_sl_p1.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m18_p3_tz1_q7_sl",
@@ -18747,10 +18343,7 @@
         "images/questions/chem_m18_p3_tz1_q7_sl_p1.png",
         "images/questions/chem_m18_p3_tz1_q7_sl_p2.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m18_p3_tz1_q7_sl_p1.png",
-        "images/markschemes/chem_m18_p3_tz1_q7_sl_p2.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m18_p3_tz1_q8_sl",
@@ -18780,9 +18373,7 @@
       "question_image_paths": [
         "images/questions/chem_m18_p3_tz1_q8_sl_p1.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m18_p3_tz1_q8_sl_p1.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m18_p3_tz1_q9_sl",
@@ -18813,9 +18404,7 @@
       "question_image_paths": [
         "images/questions/chem_m18_p3_tz1_q9_sl_p1.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m18_p3_tz1_q9_sl_p1.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m18_p3_tz1_q10_sl",
@@ -18847,10 +18436,7 @@
         "images/questions/chem_m18_p3_tz1_q10_sl_p1.png",
         "images/questions/chem_m18_p3_tz1_q10_sl_p2.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m18_p3_tz1_q10_sl_p1.png",
-        "images/markschemes/chem_m18_p3_tz1_q10_sl_p2.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m18_p3_tz1_q11_sl",
@@ -18882,9 +18468,7 @@
         "images/questions/chem_m18_p3_tz1_q11_sl_p1.png",
         "images/questions/chem_m18_p3_tz1_q11_sl_p2.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m18_p3_tz1_q11_sl_p1.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m18_p3_tz1_q12_sl",
@@ -18947,11 +18531,7 @@
         "images/questions/chem_m18_p3_tz1_q13_sl_p2.png",
         "images/questions/chem_m18_p3_tz1_q13_sl_p3.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m18_p3_tz1_q13_sl_p1.png",
-        "images/markschemes/chem_m18_p3_tz1_q13_sl_p2.png",
-        "images/markschemes/chem_m18_p3_tz1_q13_sl_p3.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m18_p3_tz1_q14_sl",
@@ -18981,9 +18561,7 @@
       "question_image_paths": [
         "images/questions/chem_m18_p3_tz1_q14_sl_p1.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m18_p3_tz1_q14_sl.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m18_p3_tz1_q15_sl",
@@ -19046,9 +18624,7 @@
         "images/questions/chem_m18_p3_tz2_q1_hl_p2.png",
         "images/questions/chem_m18_p3_tz2_q1_hl_p3.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m18_p3_tz2_q1_hl_p1.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m18_p3_tz2_q2_hl",
@@ -19081,13 +18657,7 @@
         "images/questions/chem_m18_p3_tz2_q2_hl_p2.png",
         "images/questions/chem_m18_p3_tz2_q2_hl_p3.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m18_p3_tz2_q2_hl_p1.png",
-        "images/markschemes/chem_m18_p3_tz2_q2_hl_p2.png",
-        "images/markschemes/chem_m18_p3_tz2_q2_hl_p3.png",
-        "images/markschemes/chem_m18_p3_tz2_q2_hl_p4.png",
-        "images/markschemes/chem_m18_p3_tz2_q2_hl_p5.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m18_p3_tz2_q3_hl",
@@ -19121,9 +18691,7 @@
         "images/questions/chem_m18_p3_tz2_q3_hl_p3.png",
         "images/questions/chem_m18_p3_tz2_q3_hl_p4.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m18_p3_tz2_q3_hl_p1.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m18_p3_tz2_q4_hl",
@@ -19155,10 +18723,7 @@
         "images/questions/chem_m18_p3_tz2_q4_hl_p1.png",
         "images/questions/chem_m18_p3_tz2_q4_hl_p2.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m18_p3_tz2_q4_hl_p1.png",
-        "images/markschemes/chem_m18_p3_tz2_q4_hl_p2.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m18_p3_tz2_q5_hl",
@@ -19189,10 +18754,7 @@
         "images/questions/chem_m18_p3_tz2_q5_hl_p1.png",
         "images/questions/chem_m18_p3_tz2_q5_hl_p2.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m18_p3_tz2_q5_hl_p1.png",
-        "images/markschemes/chem_m18_p3_tz2_q5_hl_p2.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m18_p3_tz2_q6_hl",
@@ -19223,10 +18785,7 @@
       "question_image_paths": [
         "images/questions/chem_m18_p3_tz2_q6_hl_p1.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m18_p3_tz2_q6_hl_p1.png",
-        "images/markschemes/chem_m18_p3_tz2_q6_hl_p2.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m18_p3_tz2_q7_hl",
@@ -19258,9 +18817,7 @@
         "images/questions/chem_m18_p3_tz2_q7_hl_p1.png",
         "images/questions/chem_m18_p3_tz2_q7_hl_p2.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m18_p3_tz2_q7_hl_p1.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m18_p3_tz2_q8_hl",
@@ -19293,10 +18850,7 @@
         "images/questions/chem_m18_p3_tz2_q8_hl_p2.png",
         "images/questions/chem_m18_p3_tz2_q8_hl_p3.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m18_p3_tz2_q8_hl_p1.png",
-        "images/markschemes/chem_m18_p3_tz2_q8_hl_p2.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m18_p3_tz2_q9_hl",
@@ -19325,9 +18879,7 @@
       "question_image_paths": [
         "images/questions/chem_m18_p3_tz2_q9_hl.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m18_p3_tz2_q9_hl_p1.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m18_p3_tz2_q10_hl",
@@ -19356,9 +18908,7 @@
       "question_image_paths": [
         "images/questions/chem_m18_p3_tz2_q10_hl_p1.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m18_p3_tz2_q10_hl_p1.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m18_p3_tz2_q11_hl",
@@ -19389,9 +18939,7 @@
       "question_image_paths": [
         "images/questions/chem_m18_p3_tz2_q11_hl.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m18_p3_tz2_q11_hl_p1.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m18_p3_tz2_q12_hl",
@@ -19420,10 +18968,7 @@
       "question_image_paths": [
         "images/questions/chem_m18_p3_tz2_q12_hl_p1.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m18_p3_tz2_q12_hl_p1.png",
-        "images/markschemes/chem_m18_p3_tz2_q12_hl_p2.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m18_p3_tz2_q13_hl",
@@ -19455,9 +19000,7 @@
         "images/questions/chem_m18_p3_tz2_q13_hl_p1.png",
         "images/questions/chem_m18_p3_tz2_q13_hl_p2.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m18_p3_tz2_q13_hl_p1.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m18_p3_tz2_q14_hl",
@@ -19489,10 +19032,7 @@
         "images/questions/chem_m18_p3_tz2_q14_hl_p1.png",
         "images/questions/chem_m18_p3_tz2_q14_hl_p2.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m18_p3_tz2_q14_hl_p1.png",
-        "images/markschemes/chem_m18_p3_tz2_q14_hl_p2.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m18_p3_tz2_q15_hl",
@@ -19554,11 +19094,7 @@
         "images/questions/chem_m18_p3_tz2_q16_hl_p1.png",
         "images/questions/chem_m18_p3_tz2_q16_hl_p2.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m18_p3_tz2_q16_hl_p1.png",
-        "images/markschemes/chem_m18_p3_tz2_q16_hl_p2.png",
-        "images/markschemes/chem_m18_p3_tz2_q16_hl_p3.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m18_p3_tz2_q17_hl",
@@ -19589,9 +19125,7 @@
       "question_image_paths": [
         "images/questions/chem_m18_p3_tz2_q17_hl_p1.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m18_p3_tz2_q17_hl_p1.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m18_p3_tz2_q18_hl",
@@ -19623,9 +19157,7 @@
         "images/questions/chem_m18_p3_tz2_q18_hl_p1.png",
         "images/questions/chem_m18_p3_tz2_q18_hl_p2.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m18_p3_tz2_q18_hl_p1.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m18_p3_tz2_q19_hl",
@@ -19654,9 +19186,7 @@
       "question_image_paths": [
         "images/questions/chem_m18_p3_tz2_q19_hl.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m18_p3_tz2_q19_hl_p1.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m18_p3_tz2_q20_hl",
@@ -19686,10 +19216,7 @@
       "question_image_paths": [
         "images/questions/chem_m18_p3_tz2_q20_hl_p1.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m18_p3_tz2_q20_hl_p1.png",
-        "images/markschemes/chem_m18_p3_tz2_q20_hl_p2.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m18_p3_tz2_q21_hl",
@@ -19748,9 +19275,7 @@
       "question_image_paths": [
         "images/questions/chem_m18_p3_tz2_q22_hl_p1.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m18_p3_tz2_q22_hl_p1.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m18_p3_tz2_q23_hl",
@@ -19780,9 +19305,7 @@
       "question_image_paths": [
         "images/questions/chem_m18_p3_tz2_q23_hl.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m18_p3_tz2_q23_hl_p1.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m18_p3_tz2_q24_hl",
@@ -19811,9 +19334,7 @@
       "question_image_paths": [
         "images/questions/chem_m18_p3_tz2_q24_hl.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m18_p3_tz2_q24_hl_p1.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m18_p3_tz2_q25_hl",
@@ -19842,9 +19363,7 @@
       "question_image_paths": [
         "images/questions/chem_m18_p3_tz2_q25_hl_p1.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m18_p3_tz2_q25_hl_p1.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m18_p3_tz2_q26_hl",
@@ -19874,10 +19393,7 @@
       "question_image_paths": [
         "images/questions/chem_m18_p3_tz2_q26_hl_p1.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m18_p3_tz2_q26_hl_p1.png",
-        "images/markschemes/chem_m18_p3_tz2_q26_hl_p2.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m18_p3_tz2_q27_hl",
@@ -19908,9 +19424,7 @@
       "question_image_paths": [
         "images/questions/chem_m18_p3_tz2_q27_hl_p1.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m18_p3_tz2_q27_hl.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m18_p3_tz2_q1_sl",
@@ -19943,9 +19457,7 @@
         "images/questions/chem_m18_p3_tz2_q1_sl_p2.png",
         "images/questions/chem_m18_p3_tz2_q1_sl_p3.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m18_p3_tz2_q1_sl_p1.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m18_p3_tz2_q2_sl",
@@ -19978,13 +19490,7 @@
         "images/questions/chem_m18_p3_tz2_q2_sl_p2.png",
         "images/questions/chem_m18_p3_tz2_q2_sl_p3.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m18_p3_tz2_q2_sl_p1.png",
-        "images/markschemes/chem_m18_p3_tz2_q2_sl_p2.png",
-        "images/markschemes/chem_m18_p3_tz2_q2_sl_p3.png",
-        "images/markschemes/chem_m18_p3_tz2_q2_sl_p4.png",
-        "images/markschemes/chem_m18_p3_tz2_q2_sl_p5.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m18_p3_tz2_q3_sl",
@@ -20018,9 +19524,7 @@
         "images/questions/chem_m18_p3_tz2_q3_sl_p3.png",
         "images/questions/chem_m18_p3_tz2_q3_sl_p4.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m18_p3_tz2_q3_sl_p1.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m18_p3_tz2_q4_sl",
@@ -20051,10 +19555,7 @@
         "images/questions/chem_m18_p3_tz2_q4_sl_p1.png",
         "images/questions/chem_m18_p3_tz2_q4_sl_p2.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m18_p3_tz2_q4_sl_p1.png",
-        "images/markschemes/chem_m18_p3_tz2_q4_sl_p2.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m18_p3_tz2_q5_sl",
@@ -20085,10 +19586,7 @@
       "question_image_paths": [
         "images/questions/chem_m18_p3_tz2_q5_sl_p1.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m18_p3_tz2_q5_sl_p1.png",
-        "images/markschemes/chem_m18_p3_tz2_q5_sl_p2.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m18_p3_tz2_q6_sl",
@@ -20120,10 +19618,7 @@
         "images/questions/chem_m18_p3_tz2_q6_sl_p1.png",
         "images/questions/chem_m18_p3_tz2_q6_sl_p2.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m18_p3_tz2_q6_sl_p1.png",
-        "images/markschemes/chem_m18_p3_tz2_q6_sl_p2.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m18_p3_tz2_q7_sl",
@@ -20153,9 +19648,7 @@
       "question_image_paths": [
         "images/questions/chem_m18_p3_tz2_q7_sl_p1.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m18_p3_tz2_q7_sl_p1.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m18_p3_tz2_q8_sl",
@@ -20184,9 +19677,7 @@
       "question_image_paths": [
         "images/questions/chem_m18_p3_tz2_q8_sl.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m18_p3_tz2_q8_sl_p1.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m18_p3_tz2_q9_sl",
@@ -20215,10 +19706,7 @@
       "question_image_paths": [
         "images/questions/chem_m18_p3_tz2_q9_sl_p1.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m18_p3_tz2_q9_sl_p1.png",
-        "images/markschemes/chem_m18_p3_tz2_q9_sl_p2.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m18_p3_tz2_q10_sl",
@@ -20250,9 +19738,7 @@
         "images/questions/chem_m18_p3_tz2_q10_sl_p1.png",
         "images/questions/chem_m18_p3_tz2_q10_sl_p2.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m18_p3_tz2_q10_sl_p1.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m18_p3_tz2_q11_sl",
@@ -20283,10 +19769,7 @@
       "question_image_paths": [
         "images/questions/chem_m18_p3_tz2_q11_sl_p1.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m18_p3_tz2_q11_sl_p1.png",
-        "images/markschemes/chem_m18_p3_tz2_q11_sl_p2.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m18_p3_tz2_q12_sl",
@@ -20347,10 +19830,7 @@
       "question_image_paths": [
         "images/questions/chem_m18_p3_tz2_q13_sl_p1.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m18_p3_tz2_q13_sl_p1.png",
-        "images/markschemes/chem_m18_p3_tz2_q13_sl_p2.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m18_p3_tz2_q14_sl",
@@ -20410,9 +19890,7 @@
       "question_image_paths": [
         "images/questions/chem_m18_p3_tz2_q15_sl.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m18_p3_tz2_q15_sl_p1.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m18_p3_tz2_q16_sl",
@@ -20442,9 +19920,7 @@
       "question_image_paths": [
         "images/questions/chem_m18_p3_tz2_q16_sl_p1.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m18_p3_tz2_q16_sl_p1.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m18_p3_tz2_q17_sl",
@@ -20473,9 +19949,7 @@
       "question_image_paths": [
         "images/questions/chem_m18_p3_tz2_q17_sl.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m18_p3_tz2_q17_sl_p1.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m18_p3_tz2_q18_sl",
@@ -20535,9 +20009,7 @@
       "question_image_paths": [
         "images/questions/chem_m18_p3_tz2_q19_sl.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m18_p3_tz2_q19_sl_p1.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m18_p3_tz2_q20_sl",
@@ -20566,9 +20038,7 @@
       "question_image_paths": [
         "images/questions/chem_m18_p3_tz2_q20_sl_p1.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m18_p3_tz2_q20_sl.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m19_p1_tz1_q1_hl",
@@ -25340,11 +24810,7 @@
         "images/questions/chem_m19_p2_tz2_q1_hl_p4.png",
         "images/questions/chem_m19_p2_tz2_q1_hl_p6.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m19_p2_tz2_q1_hl_p1.png",
-        "images/markschemes/chem_m19_p2_tz2_q1_hl_p2.png",
-        "images/markschemes/chem_m19_p2_tz2_q1_hl_p3.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m19_p2_tz2_q2_hl",
@@ -25375,12 +24841,7 @@
       "question_image_paths": [
         "images/questions/chem_m19_p2_tz2_q2_hl.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m19_p2_tz2_q2_hl_p1.png",
-        "images/markschemes/chem_m19_p2_tz2_q2_hl_p2.png",
-        "images/markschemes/chem_m19_p2_tz2_q2_hl_p3.png",
-        "images/markschemes/chem_m19_p2_tz2_q2_hl_p4.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m19_p2_tz2_q3_hl",
@@ -25413,10 +24874,7 @@
         "images/questions/chem_m19_p2_tz2_q3_hl_p2.png",
         "images/questions/chem_m19_p2_tz2_q3_hl_p3.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m19_p2_tz2_q3_hl_p1.png",
-        "images/markschemes/chem_m19_p2_tz2_q3_hl_p2.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m19_p2_tz2_q4_hl",
@@ -25449,10 +24907,7 @@
         "images/questions/chem_m19_p2_tz2_q4_hl_p2.png",
         "images/questions/chem_m19_p2_tz2_q4_hl_p4.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m19_p2_tz2_q4_hl_p1.png",
-        "images/markschemes/chem_m19_p2_tz2_q4_hl_p2.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m19_p2_tz2_q5_hl",
@@ -25486,11 +24941,7 @@
         "images/questions/chem_m19_p2_tz2_q5_hl_p3.png",
         "images/questions/chem_m19_p2_tz2_q5_hl_p4.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m19_p2_tz2_q5_hl_p1.png",
-        "images/markschemes/chem_m19_p2_tz2_q5_hl_p2.png",
-        "images/markschemes/chem_m19_p2_tz2_q5_hl_p3.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m19_p2_tz2_q6_hl",
@@ -25523,10 +24974,7 @@
         "images/questions/chem_m19_p2_tz2_q6_hl_p2.png",
         "images/questions/chem_m19_p2_tz2_q6_hl_p3.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m19_p2_tz2_q6_hl_p1.png",
-        "images/markschemes/chem_m19_p2_tz2_q6_hl_p2.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m19_p2_tz2_q50_hl",
@@ -25593,11 +25041,7 @@
         "images/questions/chem_m19_p2_tz2_q1_sl_p4.png",
         "images/questions/chem_m19_p2_tz2_q1_sl_p6.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m19_p2_tz2_q1_sl_p1.png",
-        "images/markschemes/chem_m19_p2_tz2_q1_sl_p2.png",
-        "images/markschemes/chem_m19_p2_tz2_q1_sl_p3.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m19_p2_tz2_q2_sl",
@@ -25628,10 +25072,7 @@
       "question_image_paths": [
         "images/questions/chem_m19_p2_tz2_q2_sl.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m19_p2_tz2_q2_sl_p1.png",
-        "images/markschemes/chem_m19_p2_tz2_q2_sl_p2.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m19_p2_tz2_q3_sl",
@@ -25662,9 +25103,7 @@
       "question_image_paths": [
         "images/questions/chem_m19_p2_tz2_q3_sl_p1.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m19_p2_tz2_q3_sl_p1.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m19_p2_tz2_q4_sl",
@@ -25695,9 +25134,7 @@
       "question_image_paths": [
         "images/questions/chem_m19_p2_tz2_q4_sl_p1.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m19_p2_tz2_q4_sl_p1.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m19_p2_tz2_q5_sl",
@@ -25729,9 +25166,7 @@
         "images/questions/chem_m19_p2_tz2_q5_sl_p1.png",
         "images/questions/chem_m19_p2_tz2_q5_sl_p2.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m19_p2_tz2_q5_sl.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m19_p2_tz2_q50_sl",
@@ -27061,7 +26496,9 @@
         "images/questions/chem_m19_p3_tz1_q13_sl_p1.png"
       ],
       "markscheme_image_paths": [
-        "images/markschemes/chem_m19_p3_tz1_q13_sl.png"
+        "images/markschemes/chem_m19_p3_tz1_q13_sl_p1.png",
+        "images/markschemes/chem_m19_p3_tz1_q13_sl_p2.png",
+        "images/markschemes/chem_m19_p3_tz1_q13_sl_p3.png"
       ]
     },
     {
@@ -27288,9 +26725,7 @@
         "images/questions/chem_m19_p3_tz2_q1_hl_p2.png",
         "images/questions/chem_m19_p3_tz2_q1_hl_p3.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m19_p3_tz2_q1_hl_p1.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m19_p3_tz2_q2_hl",
@@ -27323,10 +26758,7 @@
         "images/questions/chem_m19_p3_tz2_q2_hl_p2.png",
         "images/questions/chem_m19_p3_tz2_q2_hl_p3.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m19_p3_tz2_q2_hl_p1.png",
-        "images/markschemes/chem_m19_p3_tz2_q2_hl_p2.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m19_p3_tz2_q3_hl",
@@ -27357,9 +26789,7 @@
       "question_image_paths": [
         "images/questions/chem_m19_p3_tz2_q3_hl.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m19_p3_tz2_q3_hl_p1.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m19_p3_tz2_q4_hl",
@@ -27391,9 +26821,7 @@
         "images/questions/chem_m19_p3_tz2_q4_hl_p1.png",
         "images/questions/chem_m19_p3_tz2_q4_hl_p2.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m19_p3_tz2_q4_hl_p1.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m19_p3_tz2_q5_hl",
@@ -27426,10 +26854,7 @@
         "images/questions/chem_m19_p3_tz2_q5_hl_p2.png",
         "images/questions/chem_m19_p3_tz2_q5_hl_p3.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m19_p3_tz2_q5_hl_p1.png",
-        "images/markschemes/chem_m19_p3_tz2_q5_hl_p2.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m19_p3_tz2_q6_hl",
@@ -27461,9 +26886,7 @@
         "images/questions/chem_m19_p3_tz2_q6_hl_p1.png",
         "images/questions/chem_m19_p3_tz2_q6_hl_p2.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m19_p3_tz2_q6_hl_p1.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m19_p3_tz2_q7_hl",
@@ -27525,10 +26948,7 @@
       "question_image_paths": [
         "images/questions/chem_m19_p3_tz2_q8_hl_p1.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m19_p3_tz2_q8_hl_p1.png",
-        "images/markschemes/chem_m19_p3_tz2_q8_hl_p2.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m19_p3_tz2_q9_hl",
@@ -27560,9 +26980,7 @@
         "images/questions/chem_m19_p3_tz2_q9_hl_p1.png",
         "images/questions/chem_m19_p3_tz2_q9_hl_p2.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m19_p3_tz2_q9_hl_p1.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m19_p3_tz2_q10_hl",
@@ -27593,9 +27011,7 @@
       "question_image_paths": [
         "images/questions/chem_m19_p3_tz2_q10_hl_p1.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m19_p3_tz2_q10_hl_p1.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m19_p3_tz2_q11_hl",
@@ -27627,10 +27043,7 @@
         "images/questions/chem_m19_p3_tz2_q11_hl_p1.png",
         "images/questions/chem_m19_p3_tz2_q11_hl_p2.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m19_p3_tz2_q11_hl_p1.png",
-        "images/markschemes/chem_m19_p3_tz2_q11_hl_p2.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m19_p3_tz2_q12_hl",
@@ -27661,9 +27074,7 @@
       "question_image_paths": [
         "images/questions/chem_m19_p3_tz2_q12_hl_p1.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m19_p3_tz2_q12_hl_p1.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m19_p3_tz2_q13_hl",
@@ -27695,10 +27106,7 @@
         "images/questions/chem_m19_p3_tz2_q13_hl_p1.png",
         "images/questions/chem_m19_p3_tz2_q13_hl_p2.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m19_p3_tz2_q13_hl_p1.png",
-        "images/markschemes/chem_m19_p3_tz2_q13_hl_p2.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m19_p3_tz2_q14_hl",
@@ -27729,9 +27137,7 @@
       "question_image_paths": [
         "images/questions/chem_m19_p3_tz2_q14_hl.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m19_p3_tz2_q14_hl_p1.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m19_p3_tz2_q15_hl",
@@ -27762,10 +27168,7 @@
         "images/questions/chem_m19_p3_tz2_q15_hl_p1.png",
         "images/questions/chem_m19_p3_tz2_q15_hl_p2.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m19_p3_tz2_q15_hl_p1.png",
-        "images/markschemes/chem_m19_p3_tz2_q15_hl_p2.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m19_p3_tz2_q16_hl",
@@ -27797,9 +27200,7 @@
         "images/questions/chem_m19_p3_tz2_q16_hl_p1.png",
         "images/questions/chem_m19_p3_tz2_q16_hl_p2.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m19_p3_tz2_q16_hl_p1.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m19_p3_tz2_q17_hl",
@@ -27829,9 +27230,7 @@
       "question_image_paths": [
         "images/questions/chem_m19_p3_tz2_q17_hl.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m19_p3_tz2_q17_hl_p1.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m19_p3_tz2_q18_hl",
@@ -27863,9 +27262,7 @@
         "images/questions/chem_m19_p3_tz2_q18_hl_p1.png",
         "images/questions/chem_m19_p3_tz2_q18_hl_p2.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m19_p3_tz2_q18_hl_p1.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m19_p3_tz2_q19_hl",
@@ -27897,10 +27294,7 @@
         "images/questions/chem_m19_p3_tz2_q19_hl_p1.png",
         "images/questions/chem_m19_p3_tz2_q19_hl_p2.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m19_p3_tz2_q19_hl_p1.png",
-        "images/markschemes/chem_m19_p3_tz2_q19_hl_p2.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m19_p3_tz2_q20_hl",
@@ -27931,9 +27325,7 @@
       "question_image_paths": [
         "images/questions/chem_m19_p3_tz2_q20_hl_p1.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m19_p3_tz2_q20_hl_p1.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m19_p3_tz2_q21_hl",
@@ -27962,9 +27354,7 @@
       "question_image_paths": [
         "images/questions/chem_m19_p3_tz2_q21_hl_p1.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m19_p3_tz2_q21_hl_p1.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m19_p3_tz2_q22_hl",
@@ -27996,9 +27386,7 @@
         "images/questions/chem_m19_p3_tz2_q22_hl_p1.png",
         "images/questions/chem_m19_p3_tz2_q22_hl_p2.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m19_p3_tz2_q22_hl_p1.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m19_p3_tz2_q23_hl",
@@ -28029,9 +27417,7 @@
         "images/questions/chem_m19_p3_tz2_q23_hl_p1.png",
         "images/questions/chem_m19_p3_tz2_q23_hl_p2.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m19_p3_tz2_q23_hl_p1.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m19_p3_tz2_q24_hl",
@@ -28060,10 +27446,7 @@
       "question_image_paths": [
         "images/questions/chem_m19_p3_tz2_q24_hl_p1.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m19_p3_tz2_q24_hl_p1.png",
-        "images/markschemes/chem_m19_p3_tz2_q24_hl_p2.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m19_p3_tz2_q25_hl",
@@ -28092,9 +27475,7 @@
       "question_image_paths": [
         "images/questions/chem_m19_p3_tz2_q25_hl_p1.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m19_p3_tz2_q25_hl_p1.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m19_p3_tz2_q26_hl",
@@ -28124,9 +27505,7 @@
       "question_image_paths": [
         "images/questions/chem_m19_p3_tz2_q26_hl_p1.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m19_p3_tz2_q26_hl_p1.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m19_p3_tz2_q27_hl",
@@ -28157,9 +27536,7 @@
       "question_image_paths": [
         "images/questions/chem_m19_p3_tz2_q27_hl_p1.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m19_p3_tz2_q27_hl.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m19_p3_tz2_q1_sl",
@@ -33785,7 +33162,8 @@
       "markscheme_image_paths": [
         "images/markschemes/chem_m21_p2_tz2_q1_sl_p1.png",
         "images/markschemes/chem_m21_p2_tz2_q1_sl_p2.png",
-        "images/markschemes/chem_m21_p2_tz2_q1_sl_p3.png"
+        "images/markschemes/chem_m21_p2_tz2_q1_sl_p3.png",
+        "images/markschemes/chem_m21_p2_tz2_q1_sl_p4.png"
       ]
     },
     {
@@ -38641,7 +38019,8 @@
         "images/questions/chem_m22_p2_tz2_q4_hl_p3.png"
       ],
       "markscheme_image_paths": [
-        "images/markschemes/chem_m22_p2_tz2_q4_hl.png"
+        "images/markschemes/chem_m22_p2_tz2_q4_hl_p1.png",
+        "images/markschemes/chem_m22_p2_tz2_q4_hl_p2.png"
       ]
     },
     {
@@ -42366,11 +41745,7 @@
         "images/questions/chem_m23_p2_tz1_q1_hl_p3.png",
         "images/questions/chem_m23_p2_tz1_q1_hl_p4.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m23_p2_tz1_q1_hl_p1.png",
-        "images/markschemes/chem_m23_p2_tz1_q1_hl_p2.png",
-        "images/markschemes/chem_m23_p2_tz1_q1_hl_p3.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m23_p2_tz1_q2_hl",
@@ -42406,12 +41781,7 @@
         "images/questions/chem_m23_p2_tz1_q2_hl_p5.png",
         "images/questions/chem_m23_p2_tz1_q2_hl_p7.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m23_p2_tz1_q2_hl_p1.png",
-        "images/markschemes/chem_m23_p2_tz1_q2_hl_p2.png",
-        "images/markschemes/chem_m23_p2_tz1_q2_hl_p3.png",
-        "images/markschemes/chem_m23_p2_tz1_q2_hl_p4.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m23_p2_tz1_q3_hl",
@@ -42444,11 +41814,7 @@
         "images/questions/chem_m23_p2_tz1_q3_hl_p2.png",
         "images/questions/chem_m23_p2_tz1_q3_hl_p3.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m23_p2_tz1_q3_hl_p1.png",
-        "images/markschemes/chem_m23_p2_tz1_q3_hl_p2.png",
-        "images/markschemes/chem_m23_p2_tz1_q3_hl_p3.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m23_p2_tz1_q4_hl",
@@ -42479,10 +41845,7 @@
       "question_image_paths": [
         "images/questions/chem_m23_p2_tz1_q4_hl_p1.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m23_p2_tz1_q4_hl_p1.png",
-        "images/markschemes/chem_m23_p2_tz1_q4_hl_p2.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m23_p2_tz1_q5_hl",
@@ -42515,10 +41878,7 @@
         "images/questions/chem_m23_p2_tz1_q5_hl_p2.png",
         "images/questions/chem_m23_p2_tz1_q5_hl_p3.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m23_p2_tz1_q5_hl_p1.png",
-        "images/markschemes/chem_m23_p2_tz1_q5_hl_p2.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m23_p2_tz1_q6_hl",
@@ -42551,11 +41911,7 @@
         "images/questions/chem_m23_p2_tz1_q6_hl_p2.png",
         "images/questions/chem_m23_p2_tz1_q6_hl_p3.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m23_p2_tz1_q6_hl_p1.png",
-        "images/markschemes/chem_m23_p2_tz1_q6_hl_p2.png",
-        "images/markschemes/chem_m23_p2_tz1_q6_hl_p3.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m23_p2_tz1_q7_hl",
@@ -42586,9 +41942,7 @@
       "question_image_paths": [
         "images/questions/chem_m23_p2_tz1_q7_hl_p1.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m23_p2_tz1_q7_hl_p1.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m23_p2_tz1_q8_hl",
@@ -42619,9 +41973,7 @@
       "question_image_paths": [
         "images/questions/chem_m23_p2_tz1_q8_hl_p1.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m23_p2_tz1_q8_hl_p1.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m23_p2_tz1_q9_hl",
@@ -42654,9 +42006,7 @@
         "images/questions/chem_m23_p2_tz1_q9_hl_p2.png",
         "images/questions/chem_m23_p2_tz1_q9_hl_p3.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m23_p2_tz1_q9_hl.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m23_p2_tz2_q1_hl",
@@ -45285,7 +44635,9 @@
       "question_image_paths": [
         "images/questions/chem_m23_p3_tz2_q26_hl.png"
       ],
-      "markscheme_image_paths": []
+      "markscheme_image_paths": [
+        "images/markschemes/chem_m23_p3_tz2_q26_hl_p1.png"
+      ]
     },
     {
       "id": "chem_m23_p3_tz2_q27_hl",
@@ -53709,9 +53061,7 @@
         "images/questions/chem_m24_p2_tz1_q1_hl_p2.png",
         "images/questions/chem_m24_p2_tz1_q1_hl_p4.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m24_p2_tz1_q1_hl.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m24_p2_tz1_q1_hl",
@@ -53744,9 +53094,7 @@
         "images/questions/chem_m24_p2_tz1_q1_hl_p2.png",
         "images/questions/chem_m24_p2_tz1_q1_hl_p4.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m24_p2_tz1_q1_hl.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m24_p2_tz1_q2_hl",
@@ -53982,7 +53330,7 @@
         "images/questions/chem_m24_p2_tz1_q5_hl_p4.png"
       ],
       "markscheme_image_paths": [
-        "images/markschemes/chem_m24_p2_tz1_q5_hl.png"
+        "images/markschemes/chem_m24_p2_tz1_q5_hl_p1.png"
       ]
     },
     {
@@ -54017,7 +53365,7 @@
         "images/questions/chem_m24_p2_tz1_q5_hl_p4.png"
       ],
       "markscheme_image_paths": [
-        "images/markschemes/chem_m24_p2_tz1_q5_hl.png"
+        "images/markschemes/chem_m24_p2_tz1_q5_hl_p1.png"
       ]
     },
     {
@@ -57688,7 +57036,8 @@
         "images/questions/chem_m24_p3_tz2_q11_hl_p2.png"
       ],
       "markscheme_image_paths": [
-        "images/markschemes/chem_m24_p3_tz2_q11_hl.png"
+        "images/markschemes/chem_m24_p3_tz2_q11_hl_p1.png",
+        "images/markschemes/chem_m24_p3_tz2_q11_hl_p2.png"
       ]
     },
     {
@@ -57722,7 +57071,8 @@
         "images/questions/chem_m24_p3_tz2_q11_hl_p2.png"
       ],
       "markscheme_image_paths": [
-        "images/markschemes/chem_m24_p3_tz2_q11_hl.png"
+        "images/markschemes/chem_m24_p3_tz2_q11_hl_p1.png",
+        "images/markschemes/chem_m24_p3_tz2_q11_hl_p2.png"
       ]
     },
     {
@@ -58931,7 +58281,8 @@
         "images/questions/chem_m24_p3_tz2_q9_sl_p1.png"
       ],
       "markscheme_image_paths": [
-        "images/markschemes/chem_m24_p3_tz2_q9_sl.png"
+        "images/markschemes/chem_m24_p3_tz2_q9_sl_p1.png",
+        "images/markschemes/chem_m24_p3_tz2_q9_sl_p2.png"
       ]
     },
     {
@@ -58964,7 +58315,8 @@
         "images/questions/chem_m24_p3_tz2_q9_sl_p1.png"
       ],
       "markscheme_image_paths": [
-        "images/markschemes/chem_m24_p3_tz2_q9_sl.png"
+        "images/markschemes/chem_m24_p3_tz2_q9_sl_p1.png",
+        "images/markschemes/chem_m24_p3_tz2_q9_sl_p2.png"
       ]
     },
     {
@@ -61441,7 +60793,13 @@
         "images/questions/chem_m25_p2_tz2_q1_hl_p5.png"
       ],
       "markscheme_image_paths": [
-        "images/markschemes/chem_m25_p2_tz2_q1_hl.png"
+        "images/markschemes/chem_m25_p2_tz2_q1_hl_p1.png",
+        "images/markschemes/chem_m25_p2_tz2_q1_hl_p2.png",
+        "images/markschemes/chem_m25_p2_tz2_q1_hl_p3.png",
+        "images/markschemes/chem_m25_p2_tz2_q1_hl_p4.png",
+        "images/markschemes/chem_m25_p2_tz2_q1_hl_p5.png",
+        "images/markschemes/chem_m25_p2_tz2_q1_hl_p6.png",
+        "images/markschemes/chem_m25_p2_tz2_q1_hl_p7.png"
       ]
     },
     {
@@ -61482,13 +60840,7 @@
         "images/markschemes/chem_m25_p2_tz2_q2_hl_p3.png",
         "images/markschemes/chem_m25_p2_tz2_q2_hl_p4.png",
         "images/markschemes/chem_m25_p2_tz2_q2_hl_p5.png",
-        "images/markschemes/chem_m25_p2_tz2_q2_hl_p6.png",
-        "images/markschemes/chem_m25_p2_tz2_q2_hl_p7.png",
-        "images/markschemes/chem_m25_p2_tz2_q2_hl_p8.png",
-        "images/markschemes/chem_m25_p2_tz2_q2_hl_p9.png",
-        "images/markschemes/chem_m25_p2_tz2_q2_hl_p10.png",
-        "images/markschemes/chem_m25_p2_tz2_q2_hl_p11.png",
-        "images/markschemes/chem_m25_p2_tz2_q2_hl_p12.png"
+        "images/markschemes/chem_m25_p2_tz2_q2_hl_p6.png"
       ]
     },
     {
@@ -61600,7 +60952,10 @@
         "images/questions/chem_m25_p2_tz2_q1_sl_p2.png"
       ],
       "markscheme_image_paths": [
-        "images/markschemes/chem_m25_p2_tz2_q1_sl.png"
+        "images/markschemes/chem_m25_p2_tz2_q1_sl_p1.png",
+        "images/markschemes/chem_m25_p2_tz2_q1_sl_p2.png",
+        "images/markschemes/chem_m25_p2_tz2_q1_sl_p3.png",
+        "images/markschemes/chem_m25_p2_tz2_q1_sl_p4.png"
       ]
     },
     {
@@ -61638,10 +60993,7 @@
         "images/markschemes/chem_m25_p2_tz2_q2_sl_p1.png",
         "images/markschemes/chem_m25_p2_tz2_q2_sl_p2.png",
         "images/markschemes/chem_m25_p2_tz2_q2_sl_p3.png",
-        "images/markschemes/chem_m25_p2_tz2_q2_sl_p4.png",
-        "images/markschemes/chem_m25_p2_tz2_q2_sl_p5.png",
-        "images/markschemes/chem_m25_p2_tz2_q2_sl_p6.png",
-        "images/markschemes/chem_m25_p2_tz2_q2_sl_p7.png"
+        "images/markschemes/chem_m25_p2_tz2_q2_sl_p4.png"
       ]
     },
     {
@@ -63962,7 +63314,11 @@
         "images/questions/chem_n16_p2_ntz_q3_hl_p5.png"
       ],
       "markscheme_image_paths": [
-        "images/markschemes/chem_n16_p2_ntz_q3_hl_p1.png"
+        "images/markschemes/chem_n16_p2_ntz_q3_hl_p1.png",
+        "images/markschemes/chem_n16_p2_ntz_q3_hl_p2.png",
+        "images/markschemes/chem_n16_p2_ntz_q3_hl_p3.png",
+        "images/markschemes/chem_n16_p2_ntz_q3_hl_p4.png",
+        "images/markschemes/chem_n16_p2_ntz_q3_hl_p5.png"
       ]
     },
     {
@@ -64210,7 +63566,11 @@
         "images/questions/chem_n16_p2_ntz_q3_sl_p4.png"
       ],
       "markscheme_image_paths": [
-        "images/markschemes/chem_n16_p2_ntz_q3_sl_p1.png"
+        "images/markschemes/chem_n16_p2_ntz_q3_sl_p1.png",
+        "images/markschemes/chem_n16_p2_ntz_q3_sl_p2.png",
+        "images/markschemes/chem_n16_p2_ntz_q3_sl_p3.png",
+        "images/markschemes/chem_n16_p2_ntz_q3_sl_p4.png",
+        "images/markschemes/chem_n16_p2_ntz_q3_sl_p5.png"
       ]
     },
     {
@@ -64652,7 +64012,8 @@
         "images/questions/chem_n16_p3_ntz_q11_hl_p2.png"
       ],
       "markscheme_image_paths": [
-        "images/markschemes/chem_n16_p3_ntz_q11_hl.png"
+        "images/markschemes/chem_n16_p3_ntz_q11_hl_p1.png",
+        "images/markschemes/chem_n16_p3_ntz_q11_hl_p2.png"
       ]
     },
     {
@@ -65538,7 +64899,8 @@
         "images/questions/chem_n16_p3_ntz_q8_sl_p2.png"
       ],
       "markscheme_image_paths": [
-        "images/markschemes/chem_n16_p3_ntz_q8_sl.png"
+        "images/markschemes/chem_n16_p3_ntz_q8_sl_p1.png",
+        "images/markschemes/chem_n16_p3_ntz_q8_sl_p2.png"
       ]
     },
     {
@@ -68115,11 +67477,7 @@
         "images/questions/chem_n17_p2_ntz_q1_hl_p3.png",
         "images/questions/chem_n17_p2_ntz_q1_hl_p4.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_n17_p2_ntz_q1_hl_p1.png",
-        "images/markschemes/chem_n17_p2_ntz_q1_hl_p2.png",
-        "images/markschemes/chem_n17_p2_ntz_q1_hl_p3.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_n17_p2_ntz_q2_hl",
@@ -68152,11 +67510,7 @@
         "images/questions/chem_n17_p2_ntz_q2_hl_p2.png",
         "images/questions/chem_n17_p2_ntz_q2_hl_p3.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_n17_p2_ntz_q2_hl_p1.png",
-        "images/markschemes/chem_n17_p2_ntz_q2_hl_p2.png",
-        "images/markschemes/chem_n17_p2_ntz_q2_hl_p3.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_n17_p2_ntz_q3_hl",
@@ -68188,9 +67542,7 @@
         "images/questions/chem_n17_p2_ntz_q3_hl_p1.png",
         "images/questions/chem_n17_p2_ntz_q3_hl_p2.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_n17_p2_ntz_q3_hl_p1.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_n17_p2_ntz_q4_hl",
@@ -68221,9 +67573,7 @@
       "question_image_paths": [
         "images/questions/chem_n17_p2_ntz_q4_hl_p1.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_n17_p2_ntz_q4_hl_p1.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_n17_p2_ntz_q5_hl",
@@ -68254,9 +67604,7 @@
       "question_image_paths": [
         "images/questions/chem_n17_p2_ntz_q5_hl_p1.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_n17_p2_ntz_q5_hl_p1.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_n17_p2_ntz_q6_hl",
@@ -68289,11 +67637,7 @@
         "images/questions/chem_n17_p2_ntz_q6_hl_p2.png",
         "images/questions/chem_n17_p2_ntz_q6_hl_p3.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_n17_p2_ntz_q6_hl_p1.png",
-        "images/markschemes/chem_n17_p2_ntz_q6_hl_p2.png",
-        "images/markschemes/chem_n17_p2_ntz_q6_hl_p3.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_n17_p2_ntz_q7_hl",
@@ -68325,10 +67669,7 @@
         "images/questions/chem_n17_p2_ntz_q7_hl_p1.png",
         "images/questions/chem_n17_p2_ntz_q7_hl_p2.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_n17_p2_ntz_q7_hl_p1.png",
-        "images/markschemes/chem_n17_p2_ntz_q7_hl_p2.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_n17_p2_ntz_q8_hl",
@@ -68362,11 +67703,7 @@
         "images/questions/chem_n17_p2_ntz_q8_hl_p3.png",
         "images/questions/chem_n17_p2_ntz_q8_hl_p4.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_n17_p2_ntz_q8_hl_p1.png",
-        "images/markschemes/chem_n17_p2_ntz_q8_hl_p2.png",
-        "images/markschemes/chem_n17_p2_ntz_q8_hl_p3.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_n17_p2_ntz_q1_sl",
@@ -68399,11 +67736,7 @@
         "images/questions/chem_n17_p2_ntz_q1_sl_p2.png",
         "images/questions/chem_n17_p2_ntz_q1_sl_p3.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_n17_p2_ntz_q1_sl_p1.png",
-        "images/markschemes/chem_n17_p2_ntz_q1_sl_p2.png",
-        "images/markschemes/chem_n17_p2_ntz_q1_sl_p3.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_n17_p2_ntz_q2_sl",
@@ -68435,10 +67768,7 @@
         "images/questions/chem_n17_p2_ntz_q2_sl_p1.png",
         "images/questions/chem_n17_p2_ntz_q2_sl_p2.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_n17_p2_ntz_q2_sl_p1.png",
-        "images/markschemes/chem_n17_p2_ntz_q2_sl_p2.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_n17_p2_ntz_q3_sl",
@@ -68469,9 +67799,7 @@
       "question_image_paths": [
         "images/questions/chem_n17_p2_ntz_q3_sl.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_n17_p2_ntz_q3_sl_p1.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_n17_p2_ntz_q4_sl",
@@ -68503,9 +67831,7 @@
         "images/questions/chem_n17_p2_ntz_q4_sl_p1.png",
         "images/questions/chem_n17_p2_ntz_q4_sl_p2.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_n17_p2_ntz_q4_sl_p1.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_n17_p2_ntz_q5_sl",
@@ -68537,10 +67863,7 @@
         "images/questions/chem_n17_p2_ntz_q5_sl_p1.png",
         "images/questions/chem_n17_p2_ntz_q5_sl_p2.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_n17_p2_ntz_q5_sl_p1.png",
-        "images/markschemes/chem_n17_p2_ntz_q5_sl_p2.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_n17_p2_ntz_q6_sl",
@@ -68572,10 +67895,7 @@
         "images/questions/chem_n17_p2_ntz_q6_sl_p1.png",
         "images/questions/chem_n17_p2_ntz_q6_sl_p2.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_n17_p2_ntz_q6_sl_p1.png",
-        "images/markschemes/chem_n17_p2_ntz_q6_sl_p2.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_n17_p3_ntz_q1_hl",
@@ -68608,10 +67928,7 @@
         "images/questions/chem_n17_p3_ntz_q1_hl_p2.png",
         "images/questions/chem_n17_p3_ntz_q1_hl_p3.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_n17_p3_ntz_q1_hl_p1.png",
-        "images/markschemes/chem_n17_p3_ntz_q1_hl_p2.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_n17_p3_ntz_q2_hl",
@@ -68643,9 +67960,7 @@
         "images/questions/chem_n17_p3_ntz_q2_hl_p1.png",
         "images/questions/chem_n17_p3_ntz_q2_hl_p2.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_n17_p3_ntz_q2_hl_p1.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_n17_p3_ntz_q3_hl",
@@ -68674,9 +67989,7 @@
         "markscheme_file": "Chemistry_paper_3__HL_markscheme.pdf"
       },
       "question_image_paths": [],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_n17_p3_ntz_q3_hl.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_n17_p3_ntz_q4_hl",
@@ -68708,9 +68021,7 @@
         "images/questions/chem_n17_p3_ntz_q4_hl_p1.png",
         "images/questions/chem_n17_p3_ntz_q4_hl_p2.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_n17_p3_ntz_q4_hl_p1.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_n17_p3_ntz_q5_hl",
@@ -68740,9 +68051,7 @@
       "question_image_paths": [
         "images/questions/chem_n17_p3_ntz_q5_hl_p1.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_n17_p3_ntz_q5_hl_p1.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_n17_p3_ntz_q6_hl",
@@ -68774,9 +68083,7 @@
         "images/questions/chem_n17_p3_ntz_q6_hl_p1.png",
         "images/questions/chem_n17_p3_ntz_q6_hl_p2.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_n17_p3_ntz_q6_hl_p1.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_n17_p3_ntz_q7_hl",
@@ -68809,9 +68116,7 @@
         "images/questions/chem_n17_p3_ntz_q7_hl_p2.png",
         "images/questions/chem_n17_p3_ntz_q7_hl_p3.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_n17_p3_ntz_q7_hl_p1.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_n17_p3_ntz_q8_hl",
@@ -68843,9 +68148,7 @@
         "images/questions/chem_n17_p3_ntz_q8_hl_p1.png",
         "images/questions/chem_n17_p3_ntz_q8_hl_p2.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_n17_p3_ntz_q8_hl_p1.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_n17_p3_ntz_q9_hl",
@@ -68876,10 +68179,7 @@
       "question_image_paths": [
         "images/questions/chem_n17_p3_ntz_q9_hl_p1.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_n17_p3_ntz_q9_hl_p1.png",
-        "images/markschemes/chem_n17_p3_ntz_q9_hl_p2.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_n17_p3_ntz_q10_hl",
@@ -68911,9 +68211,7 @@
         "images/questions/chem_n17_p3_ntz_q10_hl_p1.png",
         "images/questions/chem_n17_p3_ntz_q10_hl_p2.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_n17_p3_ntz_q10_hl_p1.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_n17_p3_ntz_q11_hl",
@@ -68945,11 +68243,7 @@
         "images/questions/chem_n17_p3_ntz_q11_hl_p1.png",
         "images/questions/chem_n17_p3_ntz_q11_hl_p2.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_n17_p3_ntz_q11_hl_p1.png",
-        "images/markschemes/chem_n17_p3_ntz_q11_hl_p2.png",
-        "images/markschemes/chem_n17_p3_ntz_q11_hl_p3.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_n17_p3_ntz_q12_hl",
@@ -68979,10 +68273,7 @@
         "images/questions/chem_n17_p3_ntz_q12_hl_p1.png",
         "images/questions/chem_n17_p3_ntz_q12_hl_p2.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_n17_p3_ntz_q12_hl_p1.png",
-        "images/markschemes/chem_n17_p3_ntz_q12_hl_p2.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_n17_p3_ntz_q13_hl",
@@ -69043,9 +68334,7 @@
       "question_image_paths": [
         "images/questions/chem_n17_p3_ntz_q14_hl.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_n17_p3_ntz_q14_hl_p1.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_n17_p3_ntz_q15_hl",
@@ -69077,9 +68366,7 @@
         "images/questions/chem_n17_p3_ntz_q15_hl_p1.png",
         "images/questions/chem_n17_p3_ntz_q15_hl_p2.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_n17_p3_ntz_q15_hl_p1.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_n17_p3_ntz_q16_hl",
@@ -69109,9 +68396,7 @@
       "question_image_paths": [
         "images/questions/chem_n17_p3_ntz_q16_hl_p1.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_n17_p3_ntz_q16_hl_p1.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_n17_p3_ntz_q17_hl",
@@ -69141,10 +68426,7 @@
       "question_image_paths": [
         "images/questions/chem_n17_p3_ntz_q17_hl_p1.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_n17_p3_ntz_q17_hl_p1.png",
-        "images/markschemes/chem_n17_p3_ntz_q17_hl_p2.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_n17_p3_ntz_q18_hl",
@@ -69177,10 +68459,7 @@
         "images/questions/chem_n17_p3_ntz_q18_hl_p2.png",
         "images/questions/chem_n17_p3_ntz_q18_hl_p3.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_n17_p3_ntz_q18_hl_p1.png",
-        "images/markschemes/chem_n17_p3_ntz_q18_hl_p2.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_n17_p3_ntz_q19_hl",
@@ -69212,9 +68491,7 @@
         "images/questions/chem_n17_p3_ntz_q19_hl_p1.png",
         "images/questions/chem_n17_p3_ntz_q19_hl_p2.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_n17_p3_ntz_q19_hl_p1.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_n17_p3_ntz_q20_hl",
@@ -69246,10 +68523,7 @@
         "images/questions/chem_n17_p3_ntz_q20_hl_p1.png",
         "images/questions/chem_n17_p3_ntz_q20_hl_p2.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_n17_p3_ntz_q20_hl_p1.png",
-        "images/markschemes/chem_n17_p3_ntz_q20_hl_p2.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_n17_p3_ntz_q21_hl",
@@ -69279,9 +68553,7 @@
       "question_image_paths": [
         "images/questions/chem_n17_p3_ntz_q21_hl_p1.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_n17_p3_ntz_q21_hl_p1.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_n17_p3_ntz_q22_hl",
@@ -69313,10 +68585,7 @@
         "images/questions/chem_n17_p3_ntz_q22_hl_p2.png",
         "images/questions/chem_n17_p3_ntz_q22_hl_p3.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_n17_p3_ntz_q22_hl_p1.png",
-        "images/markschemes/chem_n17_p3_ntz_q22_hl_p2.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_n17_p3_ntz_q23_hl",
@@ -69345,9 +68614,7 @@
       "question_image_paths": [
         "images/questions/chem_n17_p3_ntz_q23_hl_p1.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_n17_p3_ntz_q23_hl_p1.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_n17_p3_ntz_q24_hl",
@@ -69378,9 +68645,7 @@
       "question_image_paths": [
         "images/questions/chem_n17_p3_ntz_q24_hl.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_n17_p3_ntz_q24_hl_p1.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_n17_p3_ntz_q25_hl",
@@ -69440,9 +68705,7 @@
       "question_image_paths": [
         "images/questions/chem_n17_p3_ntz_q26_hl.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_n17_p3_ntz_q26_hl.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_n17_p3_ntz_q27_hl",
@@ -69473,10 +68736,7 @@
       "question_image_paths": [
         "images/questions/chem_n17_p3_ntz_q27_hl.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_n17_p3_ntz_q27_hl_p1.png",
-        "images/markschemes/chem_n17_p3_ntz_q27_hl_p2.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_n17_p3_ntz_q40_hl",
@@ -69540,9 +68800,7 @@
         "images/questions/chem_n17_p3_ntz_q1_sl_p2.png",
         "images/questions/chem_n17_p3_ntz_q1_sl_p3.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_n17_p3_ntz_q1_sl_p1.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_n17_p3_ntz_q2_sl",
@@ -69574,10 +68832,7 @@
         "images/questions/chem_n17_p3_ntz_q2_sl_p1.png",
         "images/questions/chem_n17_p3_ntz_q2_sl_p2.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_n17_p3_ntz_q2_sl_p1.png",
-        "images/markschemes/chem_n17_p3_ntz_q2_sl_p2.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_n17_p3_ntz_q3_sl",
@@ -69606,9 +68861,7 @@
         "markscheme_file": "Chemistry_paper_3__SL_markscheme.pdf"
       },
       "question_image_paths": [],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_n17_p3_ntz_q3_sl.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_n17_p3_ntz_q4_sl",
@@ -69640,9 +68893,7 @@
         "images/questions/chem_n17_p3_ntz_q4_sl_p1.png",
         "images/questions/chem_n17_p3_ntz_q4_sl_p2.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_n17_p3_ntz_q4_sl_p1.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_n17_p3_ntz_q5_sl",
@@ -69672,9 +68923,7 @@
       "question_image_paths": [
         "images/questions/chem_n17_p3_ntz_q5_sl_p1.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_n17_p3_ntz_q5_sl_p1.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_n17_p3_ntz_q6_sl",
@@ -69705,9 +68954,7 @@
       "question_image_paths": [
         "images/questions/chem_n17_p3_ntz_q6_sl_p1.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_n17_p3_ntz_q6_sl_p1.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_n17_p3_ntz_q7_sl",
@@ -69740,10 +68987,7 @@
         "images/questions/chem_n17_p3_ntz_q7_sl_p2.png",
         "images/questions/chem_n17_p3_ntz_q7_sl_p3.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_n17_p3_ntz_q7_sl_p1.png",
-        "images/markschemes/chem_n17_p3_ntz_q7_sl_p2.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_n17_p3_ntz_q8_sl",
@@ -69775,9 +69019,7 @@
         "images/questions/chem_n17_p3_ntz_q8_sl_p1.png",
         "images/questions/chem_n17_p3_ntz_q8_sl_p2.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_n17_p3_ntz_q8_sl_p1.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_n17_p3_ntz_q9_sl",
@@ -69807,10 +69049,7 @@
         "images/questions/chem_n17_p3_ntz_q9_sl_p1.png",
         "images/questions/chem_n17_p3_ntz_q9_sl_p2.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_n17_p3_ntz_q9_sl_p1.png",
-        "images/markschemes/chem_n17_p3_ntz_q9_sl_p2.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_n17_p3_ntz_q10_sl",
@@ -69839,9 +69078,7 @@
       "question_image_paths": [
         "images/questions/chem_n17_p3_ntz_q10_sl_p1.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_n17_p3_ntz_q10_sl_p1.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_n17_p3_ntz_q11_sl",
@@ -69872,9 +69109,7 @@
       "question_image_paths": [
         "images/questions/chem_n17_p3_ntz_q11_sl_p1.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_n17_p3_ntz_q11_sl_p1.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_n17_p3_ntz_q12_sl",
@@ -69904,9 +69139,7 @@
       "question_image_paths": [
         "images/questions/chem_n17_p3_ntz_q12_sl_p1.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_n17_p3_ntz_q12_sl_p1.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_n17_p3_ntz_q13_sl",
@@ -69937,10 +69170,7 @@
         "images/questions/chem_n17_p3_ntz_q13_sl_p1.png",
         "images/questions/chem_n17_p3_ntz_q13_sl_p2.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_n17_p3_ntz_q13_sl_p1.png",
-        "images/markschemes/chem_n17_p3_ntz_q13_sl_p2.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_n17_p3_ntz_q14_sl",
@@ -69970,9 +69200,7 @@
       "question_image_paths": [
         "images/questions/chem_n17_p3_ntz_q14_sl_p1.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_n17_p3_ntz_q14_sl_p1.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_n17_p3_ntz_q15_sl",
@@ -70003,9 +69231,7 @@
       "question_image_paths": [
         "images/questions/chem_n17_p3_ntz_q15_sl_p1.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_n17_p3_ntz_q15_sl_p1.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_n17_p3_ntz_q16_sl",
@@ -70034,9 +69260,7 @@
       "question_image_paths": [
         "images/questions/chem_n17_p3_ntz_q16_sl.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_n17_p3_ntz_q16_sl_p1.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_n17_p3_ntz_q17_sl",
@@ -70067,9 +69291,7 @@
       "question_image_paths": [
         "images/questions/chem_n17_p3_ntz_q17_sl_p1.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_n17_p3_ntz_q17_sl_p1.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_n17_p3_ntz_q18_sl",
@@ -70098,9 +69320,7 @@
       "question_image_paths": [
         "images/questions/chem_n17_p3_ntz_q18_sl.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_n17_p3_ntz_q18_sl_p1.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_n17_p3_ntz_q19_sl",
@@ -70161,9 +69381,7 @@
       "question_image_paths": [
         "images/questions/chem_n17_p3_ntz_q20_sl.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_n17_p3_ntz_q20_sl_p1.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_n17_p3_ntz_q21_sl",
@@ -70193,9 +69411,7 @@
       "question_image_paths": [
         "images/questions/chem_n17_p3_ntz_q21_sl_p1.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_n17_p3_ntz_q21_sl.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_n17_p3_ntz_q40_sl",
@@ -72386,13 +71602,7 @@
         "images/questions/chem_n18_p2_ntz_q1_hl_p2.png",
         "images/questions/chem_n18_p2_ntz_q1_hl_p3.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_n18_p2_ntz_q1_hl_p1.png",
-        "images/markschemes/chem_n18_p2_ntz_q1_hl_p2.png",
-        "images/markschemes/chem_n18_p2_ntz_q1_hl_p3.png",
-        "images/markschemes/chem_n18_p2_ntz_q1_hl_p4.png",
-        "images/markschemes/chem_n18_p2_ntz_q1_hl_p5.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_n18_p2_ntz_q2_hl",
@@ -72424,9 +71634,7 @@
         "images/questions/chem_n18_p2_ntz_q2_hl_p1.png",
         "images/questions/chem_n18_p2_ntz_q2_hl_p2.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_n18_p2_ntz_q2_hl_p1.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_n18_p2_ntz_q3_hl",
@@ -72459,11 +71667,7 @@
         "images/questions/chem_n18_p2_ntz_q3_hl_p2.png",
         "images/questions/chem_n18_p2_ntz_q3_hl_p3.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_n18_p2_ntz_q3_hl_p1.png",
-        "images/markschemes/chem_n18_p2_ntz_q3_hl_p2.png",
-        "images/markschemes/chem_n18_p2_ntz_q3_hl_p3.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_n18_p2_ntz_q4_hl",
@@ -72495,10 +71699,7 @@
         "images/questions/chem_n18_p2_ntz_q4_hl_p1.png",
         "images/questions/chem_n18_p2_ntz_q4_hl_p2.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_n18_p2_ntz_q4_hl_p1.png",
-        "images/markschemes/chem_n18_p2_ntz_q4_hl_p2.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_n18_p2_ntz_q5_hl",
@@ -72530,9 +71731,7 @@
         "images/questions/chem_n18_p2_ntz_q5_hl_p1.png",
         "images/questions/chem_n18_p2_ntz_q5_hl_p2.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_n18_p2_ntz_q5_hl_p1.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_n18_p2_ntz_q6_hl",
@@ -72566,13 +71765,7 @@
         "images/questions/chem_n18_p2_ntz_q6_hl_p3.png",
         "images/questions/chem_n18_p2_ntz_q6_hl_p4.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_n18_p2_ntz_q6_hl_p1.png",
-        "images/markschemes/chem_n18_p2_ntz_q6_hl_p2.png",
-        "images/markschemes/chem_n18_p2_ntz_q6_hl_p3.png",
-        "images/markschemes/chem_n18_p2_ntz_q6_hl_p4.png",
-        "images/markschemes/chem_n18_p2_ntz_q6_hl_p5.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_n18_p2_ntz_q7_hl",
@@ -72603,9 +71796,7 @@
         "images/questions/chem_n18_p2_ntz_q7_hl_p1.png",
         "images/questions/chem_n18_p2_ntz_q7_hl_p2.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_n18_p2_ntz_q7_hl_p1.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_n18_p2_ntz_q8_hl",
@@ -72637,9 +71828,7 @@
         "images/questions/chem_n18_p2_ntz_q8_hl_p1.png",
         "images/questions/chem_n18_p2_ntz_q8_hl_p2.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_n18_p2_ntz_q8_hl_p1.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_n18_p2_ntz_q9_hl",
@@ -72671,10 +71860,7 @@
         "images/questions/chem_n18_p2_ntz_q9_hl_p1.png",
         "images/questions/chem_n18_p2_ntz_q9_hl_p2.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_n18_p2_ntz_q9_hl_p1.png",
-        "images/markschemes/chem_n18_p2_ntz_q9_hl_p2.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_n18_p2_ntz_q10_hl",
@@ -72737,12 +71923,7 @@
         "images/questions/chem_n18_p2_ntz_q1_sl_p2.png",
         "images/questions/chem_n18_p2_ntz_q1_sl_p3.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_n18_p2_ntz_q1_sl_p1.png",
-        "images/markschemes/chem_n18_p2_ntz_q1_sl_p2.png",
-        "images/markschemes/chem_n18_p2_ntz_q1_sl_p3.png",
-        "images/markschemes/chem_n18_p2_ntz_q1_sl_p4.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_n18_p2_ntz_q2_sl",
@@ -72774,9 +71955,7 @@
         "images/questions/chem_n18_p2_ntz_q2_sl_p1.png",
         "images/questions/chem_n18_p2_ntz_q2_sl_p2.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_n18_p2_ntz_q2_sl_p1.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_n18_p2_ntz_q3_sl",
@@ -72808,10 +71987,7 @@
         "images/questions/chem_n18_p2_ntz_q3_sl_p1.png",
         "images/questions/chem_n18_p2_ntz_q3_sl_p2.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_n18_p2_ntz_q3_sl_p1.png",
-        "images/markschemes/chem_n18_p2_ntz_q3_sl_p2.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_n18_p2_ntz_q4_sl",
@@ -72842,9 +72018,7 @@
       "question_image_paths": [
         "images/questions/chem_n18_p2_ntz_q4_sl.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_n18_p2_ntz_q4_sl_p1.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_n18_p2_ntz_q5_sl",
@@ -72908,10 +72082,7 @@
         "images/questions/chem_n18_p2_ntz_q6_sl_p1.png",
         "images/questions/chem_n18_p2_ntz_q6_sl_p2.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_n18_p2_ntz_q6_sl_p1.png",
-        "images/markschemes/chem_n18_p2_ntz_q6_sl_p2.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_n18_p2_ntz_q7_sl",
@@ -72942,9 +72113,7 @@
         "images/questions/chem_n18_p2_ntz_q7_sl_p1.png",
         "images/questions/chem_n18_p2_ntz_q7_sl_p2.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_n18_p2_ntz_q7_sl.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_n18_p3_ntz_q1_hl",
@@ -72980,10 +72149,7 @@
         "images/questions/chem_n18_p3_ntz_q1_hl_p5.png",
         "images/questions/chem_n18_p3_ntz_q1_hl_p6.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_n18_p3_ntz_q1_hl_p1.png",
-        "images/markschemes/chem_n18_p3_ntz_q1_hl_p2.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_n18_p3_ntz_q2_hl",
@@ -73018,10 +72184,7 @@
         "images/questions/chem_n18_p3_ntz_q2_hl_p4.png",
         "images/questions/chem_n18_p3_ntz_q2_hl_p5.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_n18_p3_ntz_q2_hl_p1.png",
-        "images/markschemes/chem_n18_p3_ntz_q2_hl_p2.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_n18_p3_ntz_q3_hl",
@@ -73054,10 +72217,7 @@
         "images/questions/chem_n18_p3_ntz_q3_hl_p2.png",
         "images/questions/chem_n18_p3_ntz_q3_hl_p3.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_n18_p3_ntz_q3_hl_p1.png",
-        "images/markschemes/chem_n18_p3_ntz_q3_hl_p2.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_n18_p3_ntz_q4_hl",
@@ -73089,9 +72249,7 @@
         "images/questions/chem_n18_p3_ntz_q4_hl_p1.png",
         "images/questions/chem_n18_p3_ntz_q4_hl_p2.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_n18_p3_ntz_q4_hl_p1.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_n18_p3_ntz_q5_hl",
@@ -73122,9 +72280,7 @@
         "images/questions/chem_n18_p3_ntz_q5_hl_p1.png",
         "images/questions/chem_n18_p3_ntz_q5_hl_p2.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_n18_p3_ntz_q5_hl_p1.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_n18_p3_ntz_q6_hl",
@@ -73154,9 +72310,7 @@
       "question_image_paths": [
         "images/questions/chem_n18_p3_ntz_q6_hl_p1.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_n18_p3_ntz_q6_hl_p1.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_n18_p3_ntz_q7_hl",
@@ -73185,9 +72339,7 @@
       "question_image_paths": [
         "images/questions/chem_n18_p3_ntz_q7_hl.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_n18_p3_ntz_q7_hl_p1.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_n18_p3_ntz_q8_hl",
@@ -73218,10 +72370,7 @@
         "images/questions/chem_n18_p3_ntz_q8_hl_p1.png",
         "images/questions/chem_n18_p3_ntz_q8_hl_p2.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_n18_p3_ntz_q8_hl_p1.png",
-        "images/markschemes/chem_n18_p3_ntz_q8_hl_p2.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_n18_p3_ntz_q9_hl",
@@ -73252,9 +72401,7 @@
       "question_image_paths": [
         "images/questions/chem_n18_p3_ntz_q9_hl_p1.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_n18_p3_ntz_q9_hl_p1.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_n18_p3_ntz_q10_hl",
@@ -73285,9 +72432,7 @@
         "images/questions/chem_n18_p3_ntz_q10_hl_p1.png",
         "images/questions/chem_n18_p3_ntz_q10_hl_p2.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_n18_p3_ntz_q10_hl_p1.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_n18_p3_ntz_q11_hl",
@@ -73318,10 +72463,7 @@
         "images/questions/chem_n18_p3_ntz_q11_hl_p1.png",
         "images/questions/chem_n18_p3_ntz_q11_hl_p2.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_n18_p3_ntz_q11_hl_p1.png",
-        "images/markschemes/chem_n18_p3_ntz_q11_hl_p2.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_n18_p3_ntz_q12_hl",
@@ -73353,9 +72495,7 @@
         "images/questions/chem_n18_p3_ntz_q12_hl_p1.png",
         "images/questions/chem_n18_p3_ntz_q12_hl_p2.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_n18_p3_ntz_q12_hl_p1.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_n18_p3_ntz_q13_hl",
@@ -73387,9 +72527,7 @@
         "images/questions/chem_n18_p3_ntz_q13_hl_p1.png",
         "images/questions/chem_n18_p3_ntz_q13_hl_p2.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_n18_p3_ntz_q13_hl_p1.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_n18_p3_ntz_q14_hl",
@@ -73421,11 +72559,7 @@
         "images/questions/chem_n18_p3_ntz_q14_hl_p1.png",
         "images/questions/chem_n18_p3_ntz_q14_hl_p3.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_n18_p3_ntz_q14_hl_p1.png",
-        "images/markschemes/chem_n18_p3_ntz_q14_hl_p2.png",
-        "images/markschemes/chem_n18_p3_ntz_q14_hl_p3.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_n18_p3_ntz_q15_hl",
@@ -73458,9 +72592,7 @@
         "images/questions/chem_n18_p3_ntz_q15_hl_p2.png",
         "images/questions/chem_n18_p3_ntz_q15_hl_p3.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_n18_p3_ntz_q15_hl_p1.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_n18_p3_ntz_q16_hl",
@@ -73491,9 +72623,7 @@
       "question_image_paths": [
         "images/questions/chem_n18_p3_ntz_q16_hl_p1.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_n18_p3_ntz_q16_hl_p1.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_n18_p3_ntz_q17_hl",
@@ -73522,9 +72652,7 @@
       "question_image_paths": [
         "images/questions/chem_n18_p3_ntz_q17_hl.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_n18_p3_ntz_q17_hl_p1.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_n18_p3_ntz_q18_hl",
@@ -73556,9 +72684,7 @@
         "images/questions/chem_n18_p3_ntz_q18_hl_p1.png",
         "images/questions/chem_n18_p3_ntz_q18_hl_p2.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_n18_p3_ntz_q18_hl_p1.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_n18_p3_ntz_q19_hl",
@@ -73616,9 +72742,7 @@
       "question_image_paths": [
         "images/questions/chem_n18_p3_ntz_q20_hl.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_n18_p3_ntz_q20_hl_p1.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_n18_p3_ntz_q21_hl",
@@ -73649,9 +72773,7 @@
         "images/questions/chem_n18_p3_ntz_q21_hl_p1.png",
         "images/questions/chem_n18_p3_ntz_q21_hl_p2.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_n18_p3_ntz_q21_hl_p1.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_n18_p3_ntz_q22_hl",
@@ -73683,9 +72805,7 @@
         "images/questions/chem_n18_p3_ntz_q22_hl_p1.png",
         "images/questions/chem_n18_p3_ntz_q22_hl_p2.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_n18_p3_ntz_q22_hl_p1.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_n18_p3_ntz_q23_hl",
@@ -73716,9 +72836,7 @@
       "question_image_paths": [
         "images/questions/chem_n18_p3_ntz_q23_hl_p1.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_n18_p3_ntz_q23_hl.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_n18_p3_ntz_q1_sl",
@@ -73753,11 +72871,7 @@
         "images/questions/chem_n18_p3_ntz_q1_sl_p4.png",
         "images/questions/chem_n18_p3_ntz_q1_sl_p6.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_n18_p3_ntz_q1_sl_p1.png",
-        "images/markschemes/chem_n18_p3_ntz_q1_sl_p2.png",
-        "images/markschemes/chem_n18_p3_ntz_q1_sl_p3.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_n18_p3_ntz_q2_sl",
@@ -73792,10 +72906,7 @@
         "images/questions/chem_n18_p3_ntz_q2_sl_p4.png",
         "images/questions/chem_n18_p3_ntz_q2_sl_p5.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_n18_p3_ntz_q2_sl_p1.png",
-        "images/markschemes/chem_n18_p3_ntz_q2_sl_p2.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_n18_p3_ntz_q3_sl",
@@ -73827,9 +72938,7 @@
         "images/questions/chem_n18_p3_ntz_q3_sl_p1.png",
         "images/questions/chem_n18_p3_ntz_q3_sl_p2.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_n18_p3_ntz_q3_sl_p1.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_n18_p3_ntz_q4_sl",
@@ -73861,9 +72970,7 @@
         "images/questions/chem_n18_p3_ntz_q4_sl_p1.png",
         "images/questions/chem_n18_p3_ntz_q4_sl_p2.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_n18_p3_ntz_q4_sl_p1.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_n18_p3_ntz_q5_sl",
@@ -73893,9 +73000,7 @@
       "question_image_paths": [
         "images/questions/chem_n18_p3_ntz_q5_sl.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_n18_p3_ntz_q5_sl_p1.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_n18_p3_ntz_q6_sl",
@@ -73926,10 +73031,7 @@
         "images/questions/chem_n18_p3_ntz_q6_sl_p1.png",
         "images/questions/chem_n18_p3_ntz_q6_sl_p2.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_n18_p3_ntz_q6_sl_p1.png",
-        "images/markschemes/chem_n18_p3_ntz_q6_sl_p2.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_n18_p3_ntz_q7_sl",
@@ -73961,9 +73063,7 @@
         "images/questions/chem_n18_p3_ntz_q7_sl_p1.png",
         "images/questions/chem_n18_p3_ntz_q7_sl_p2.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_n18_p3_ntz_q7_sl_p1.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_n18_p3_ntz_q8_sl",
@@ -74024,9 +73124,7 @@
       "question_image_paths": [
         "images/questions/chem_n18_p3_ntz_q9_sl_p1.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_n18_p3_ntz_q9_sl_p1.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_n18_p3_ntz_q10_sl",
@@ -74058,10 +73156,7 @@
         "images/questions/chem_n18_p3_ntz_q10_sl_p1.png",
         "images/questions/chem_n18_p3_ntz_q10_sl_p2.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_n18_p3_ntz_q10_sl_p1.png",
-        "images/markschemes/chem_n18_p3_ntz_q10_sl_p2.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_n18_p3_ntz_q11_sl",
@@ -74094,11 +73189,7 @@
         "images/questions/chem_n18_p3_ntz_q11_sl_p2.png",
         "images/questions/chem_n18_p3_ntz_q11_sl_p3.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_n18_p3_ntz_q11_sl_p1.png",
-        "images/markschemes/chem_n18_p3_ntz_q11_sl_p2.png",
-        "images/markschemes/chem_n18_p3_ntz_q11_sl_p3.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_n18_p3_ntz_q12_sl",
@@ -74130,9 +73221,7 @@
         "images/questions/chem_n18_p3_ntz_q12_sl_p1.png",
         "images/questions/chem_n18_p3_ntz_q12_sl_p2.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_n18_p3_ntz_q12_sl_p1.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_n18_p3_ntz_q13_sl",
@@ -74161,9 +73250,7 @@
       "question_image_paths": [
         "images/questions/chem_n18_p3_ntz_q13_sl_p1.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_n18_p3_ntz_q13_sl_p1.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_n18_p3_ntz_q14_sl",
@@ -74194,9 +73281,7 @@
       "question_image_paths": [
         "images/questions/chem_n18_p3_ntz_q14_sl_p1.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_n18_p3_ntz_q14_sl_p1.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_n18_p3_ntz_q15_sl",
@@ -74225,9 +73310,7 @@
       "question_image_paths": [
         "images/questions/chem_n18_p3_ntz_q15_sl.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_n18_p3_ntz_q15_sl_p1.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_n18_p3_ntz_q16_sl",
@@ -74256,9 +73339,7 @@
       "question_image_paths": [
         "images/questions/chem_n18_p3_ntz_q16_sl_p1.png"
       ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_n18_p3_ntz_q16_sl.png"
-      ]
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_n19_p1_ntz_q1_hl",
@@ -80763,7 +79844,9 @@
         "images/questions/chem_n20_p2_ntz_q6_hl_p1.png",
         "images/questions/chem_n20_p2_ntz_q6_hl_p2.png"
       ],
-      "markscheme_image_paths": []
+      "markscheme_image_paths": [
+        "images/markschemes/chem_n20_p2_ntz_q6_hl_p1.png"
+      ]
     },
     {
       "id": "chem_n20_p2_ntz_q7_hl",
@@ -81471,7 +80554,8 @@
         "images/questions/chem_n20_p3_ntz_q15_hl_p2.png"
       ],
       "markscheme_image_paths": [
-        "images/markschemes/chem_n20_p3_ntz_q15_hl.png"
+        "images/markschemes/chem_n20_p3_ntz_q15_hl_p1.png",
+        "images/markschemes/chem_n20_p3_ntz_q15_hl_p2.png"
       ]
     },
     {
@@ -89182,10 +88266,7 @@
       "markscheme_image_paths": [
         "images/markschemes/chem_n23_p2_tz1_q1_hl_p1.png",
         "images/markschemes/chem_n23_p2_tz1_q1_hl_p2.png",
-        "images/markschemes/chem_n23_p2_tz1_q1_hl_p3.png",
-        "images/markschemes/chem_n23_p2_tz1_q1_hl_p4.png",
-        "images/markschemes/chem_n23_p2_tz1_q1_hl_p5.png",
-        "images/markschemes/chem_n23_p2_tz1_q1_hl_p6.png"
+        "images/markschemes/chem_n23_p2_tz1_q1_hl_p3.png"
       ]
     },
     {
@@ -89332,7 +88413,9 @@
         "images/questions/chem_n23_p2_tz1_q5_hl_p6.png"
       ],
       "markscheme_image_paths": [
-        "images/markschemes/chem_n23_p2_tz1_q5_hl.png"
+        "images/markschemes/chem_n23_p2_tz1_q5_hl_p1.png",
+        "images/markschemes/chem_n23_p2_tz1_q5_hl_p2.png",
+        "images/markschemes/chem_n23_p2_tz1_q5_hl_p3.png"
       ]
     },
     {
@@ -89406,10 +88489,7 @@
       ],
       "markscheme_image_paths": [
         "images/markschemes/chem_n23_p2_tz1_q1_sl_p1.png",
-        "images/markschemes/chem_n23_p2_tz1_q1_sl_p2.png",
-        "images/markschemes/chem_n23_p2_tz1_q1_sl_p3.png",
-        "images/markschemes/chem_n23_p2_tz1_q1_sl_p4.png",
-        "images/markschemes/chem_n23_p2_tz1_q1_sl_p5.png"
+        "images/markschemes/chem_n23_p2_tz1_q1_sl_p2.png"
       ]
     },
     {
@@ -89445,7 +88525,9 @@
         "images/questions/chem_n23_p2_tz1_q2_sl_p4.png"
       ],
       "markscheme_image_paths": [
-        "images/markschemes/chem_n23_p2_tz1_q2_sl.png"
+        "images/markschemes/chem_n23_p2_tz1_q2_sl_p1.png",
+        "images/markschemes/chem_n23_p2_tz1_q2_sl_p2.png",
+        "images/markschemes/chem_n23_p2_tz1_q2_sl_p3.png"
       ]
     },
     {
@@ -89515,7 +88597,7 @@
         "images/questions/chem_n23_p2_tz1_q4_sl_p2.png"
       ],
       "markscheme_image_paths": [
-        "images/markschemes/chem_n23_p2_tz1_q4_sl.png"
+        "images/markschemes/chem_n23_p2_tz1_q4_sl_p1.png"
       ]
     },
     {
@@ -89588,10 +88670,7 @@
       "markscheme_image_paths": [
         "images/markschemes/chem_n23_p2_tz2_q1_hl_p1.png",
         "images/markschemes/chem_n23_p2_tz2_q1_hl_p2.png",
-        "images/markschemes/chem_n23_p2_tz2_q1_hl_p3.png",
-        "images/markschemes/chem_n23_p2_tz2_q1_hl_p4.png",
-        "images/markschemes/chem_n23_p2_tz2_q1_hl_p5.png",
-        "images/markschemes/chem_n23_p2_tz2_q1_hl_p6.png"
+        "images/markschemes/chem_n23_p2_tz2_q1_hl_p3.png"
       ]
     },
     {
@@ -89738,7 +88817,9 @@
         "images/questions/chem_n23_p2_tz2_q5_hl_p6.png"
       ],
       "markscheme_image_paths": [
-        "images/markschemes/chem_n23_p2_tz2_q5_hl.png"
+        "images/markschemes/chem_n23_p2_tz2_q5_hl_p1.png",
+        "images/markschemes/chem_n23_p2_tz2_q5_hl_p2.png",
+        "images/markschemes/chem_n23_p2_tz2_q5_hl_p3.png"
       ]
     },
     {
@@ -89812,10 +88893,7 @@
       ],
       "markscheme_image_paths": [
         "images/markschemes/chem_n23_p2_tz2_q1_sl_p1.png",
-        "images/markschemes/chem_n23_p2_tz2_q1_sl_p2.png",
-        "images/markschemes/chem_n23_p2_tz2_q1_sl_p3.png",
-        "images/markschemes/chem_n23_p2_tz2_q1_sl_p4.png",
-        "images/markschemes/chem_n23_p2_tz2_q1_sl_p5.png"
+        "images/markschemes/chem_n23_p2_tz2_q1_sl_p2.png"
       ]
     },
     {
@@ -89851,7 +88929,9 @@
         "images/questions/chem_n23_p2_tz2_q2_sl_p4.png"
       ],
       "markscheme_image_paths": [
-        "images/markschemes/chem_n23_p2_tz2_q2_sl.png"
+        "images/markschemes/chem_n23_p2_tz2_q2_sl_p1.png",
+        "images/markschemes/chem_n23_p2_tz2_q2_sl_p2.png",
+        "images/markschemes/chem_n23_p2_tz2_q2_sl_p3.png"
       ]
     },
     {
@@ -89921,7 +89001,7 @@
         "images/questions/chem_n23_p2_tz2_q4_sl_p2.png"
       ],
       "markscheme_image_paths": [
-        "images/markschemes/chem_n23_p2_tz2_q4_sl.png"
+        "images/markschemes/chem_n23_p2_tz2_q4_sl_p1.png"
       ]
     },
     {
@@ -93245,7 +92325,8 @@
       ],
       "markscheme_image_paths": [
         "images/markschemes/chem_n24_p2_ntz_q2_sl_p1.png",
-        "images/markschemes/chem_n24_p2_ntz_q2_sl_p2.png"
+        "images/markschemes/chem_n24_p2_ntz_q2_sl_p2.png",
+        "images/markschemes/chem_n24_p2_ntz_q2_sl_p3.png"
       ]
     },
     {
