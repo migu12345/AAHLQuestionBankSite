@@ -257,7 +257,7 @@ function filterQuestions() {
 
 function parsePaperMeta(paperLabel) {
   const m = String(paperLabel || "").match(
-    /^(May|November)\s+(\d{4})(?:\s+Chemistry)?\s+Paper\s+([123](?:[AB])?)(?:\s+(TZ\d))?\s+(HL|SL)$/i
+    /^(May|November)\s+(\d{4})(?:\s+Chemistry)?\s+Paper\s+([123](?:[AB])?)(?:\s+(TZ\d|NTZ))?\s+(HL|SL)$/i
   );
   if (!m) {
     return null;
