@@ -380,8 +380,12 @@ def detect_starts(doc: fitz.Document, kind: str) -> List[StartPos]:
                 if not (float(x0) <= 240 and float(y0) >= 720):
                     continue
                 eff_x = float(x0)
-                eff_y = 120.0
                 cand_score = 9
+                # "6." at bottom of page pno means content starts at TOP of page pno+1,
+                # not at y=120 on pno — using pno caused Q5's crop to cut off at y=118
+                # and Q6's crop to show all of Q5's page content.
+                next_pno = pno + 1 if pno + 1 < len(doc) else pno
+                store_y = 42.0 if next_pno > pno else 900.0
                 prev_val = starts.get(qn)
                 replace = False
                 if prev_val is None:
@@ -391,12 +395,10 @@ def detect_starts(doc: fitz.Document, kind: str) -> List[StartPos]:
                     if cand_score > prev_score:
                         replace = True
                     elif cand_score == prev_score:
-                        if eff_x < prev_x - 0.5:
-                            replace = True
-                        elif abs(eff_x - prev_x) <= 0.5 and (pno < prev_page or (pno == prev_page and eff_y < prev_y)):
+                        if next_pno < prev_page or (next_pno == prev_page and store_y < prev_y):
                             replace = True
                 if replace:
-                    starts[qn] = (pno, eff_y, eff_x, cand_score)
+                    starts[qn] = (next_pno, store_y, eff_x, cand_score)
                 break
 
     out = [StartPos(qnum=q, page=pg, y=y) for q, (pg, y, _x, _score) in starts.items()]
@@ -438,6 +440,7 @@ def crop_question(
     s = starts[idx]
     n = starts[idx + 1] if idx + 1 < len(starts) else None
     last_page = n.page if n is not None else len(doc) - 1
+    last_page = min(last_page, len(doc) - 1)  # guard: fallback stores pno+1 which may equal len(doc)
     out: List[str] = []
 
     for pno in range(s.page, last_page + 1):
