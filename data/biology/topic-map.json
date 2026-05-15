@@ -1,0 +1,40 @@
+{
+  "topics": [
+    {
+      "name": "A: Unity and Diversity",
+      "subtopics": [
+        "A1 Water and nucleic acids",
+        "A2 Cell structure",
+        "A3 Diversity of organisms",
+        "A4 Conservation of biodiversity"
+      ]
+    },
+    {
+      "name": "B: Form and Function",
+      "subtopics": [
+        "B1 Molecules",
+        "B2 Membranes and organelles",
+        "B3 Movement",
+        "B4 Ecology and adaptation"
+      ]
+    },
+    {
+      "name": "C: Interaction and Interdependence",
+      "subtopics": [
+        "C1 Metabolism",
+        "C2 Signaling",
+        "C3 Integration of body systems",
+        "C4 Ecosystems"
+      ]
+    },
+    {
+      "name": "D: Continuity and Change",
+      "subtopics": [
+        "D1 DNA and proteins",
+        "D2 Cell continuity",
+        "D3 Reproduction and inheritance",
+        "D4 Evolution"
+      ]
+    }
+  ]
+}

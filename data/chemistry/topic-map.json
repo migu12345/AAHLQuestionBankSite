@@ -1,0 +1,56 @@
+{
+  "topics": [
+    {
+      "name": "Structure 1: Particulate nature of matter",
+      "subtopics": [
+        "S1.1 Introduction to particulate matter",
+        "S1.2 The nuclear atom",
+        "S1.3 Electron configurations",
+        "S1.4 Counting particles: The mole",
+        "S1.5 Ideal gases"
+      ]
+    },
+    {
+      "name": "Structure 2: Bonding and structure",
+      "subtopics": [
+        "S2.1 Ionic bonding and structure",
+        "S2.2 Covalent bonding and structure",
+        "S2.3 Metallic bonding and structure",
+        "S2.4 From models to materials (HL)"
+      ]
+    },
+    {
+      "name": "Structure 3: Classification of matter",
+      "subtopics": [
+        "S3.1 The periodic table",
+        "S3.2 Functional groups and organic compounds"
+      ]
+    },
+    {
+      "name": "Reactivity 1: What drives chemical reactions?",
+      "subtopics": [
+        "R1.1 Measuring enthalpy changes",
+        "R1.2 Energy cycles in reactions (HL)",
+        "R1.3 Energy from fuels",
+        "R1.4 Entropy and spontaneity"
+      ]
+    },
+    {
+      "name": "Reactivity 2: How much, how fast and how far?",
+      "subtopics": [
+        "R2.1 How much? Stoichiometry",
+        "R2.2 How fast? Reaction kinetics",
+        "R2.3 How far? Chemical equilibrium"
+      ]
+    },
+    {
+      "name": "Reactivity 3: What are the mechanisms of change?",
+      "subtopics": [
+        "R3.1 Proton transfer (acid-base) reactions",
+        "R3.2 Electron transfer (redox) reactions",
+        "R3.3 Electron sharing reactions",
+        "R3.4 Electron pair sharing reactions (HL)"
+      ]
+    }
+  ]
+}
