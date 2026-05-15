@@ -65,6 +65,9 @@ Behavior changes:
    - `May 2016 Physics Paper 2 SL`
    - `May 2017 Physics Paper 2 TZ2 HL`
 
+## Local UI Updates
+- Added Biology and Chemistry homepage tabs and placeholder landing pages in `src/biology/index.html` and `src/chemistry/index.html`.
+
 ## Remaining Risk Areas / Likely Next Work
 - Physics markscheme mapping still needs spot-checking on user-reported edge examples.
 - Paper 3 mappings may still contain isolated bad links; user wants per-question exactness.
