@@ -371,12 +371,13 @@ def detect_starts(doc: fitz.Document, kind: str) -> List[StartPos]:
         if kind == "markscheme":
             for w in page.get_text("words"):
                 x0, y0, _x1, _y1, txt, *_ = w
-                if not re.fullmatch(r"\d{1,2}", str(txt).strip()):
+                txt_clean = str(txt).strip().rstrip(".")
+                if not re.fullmatch(r"\d{1,2}", txt_clean):
                     continue
-                qn = int(txt)
+                qn = int(txt_clean)
                 if not (1 <= qn <= 60):
                     continue
-                if not (70 <= float(x0) <= 150 and float(y0) >= 730):
+                if not (float(x0) <= 240 and float(y0) >= 720):
                     continue
                 eff_x = float(x0)
                 eff_y = 120.0
@@ -410,7 +411,13 @@ def is_blank_answer_page(page: fitz.Page, clip: fitz.Rect) -> bool:
     if "answers written on this page" in text and "will not be marked" in text:
         return True
     alpha = re.sub(r"[^a-z]+", "", text)
-    return len(alpha) < 16
+    if len(alpha) < 16:
+        return True
+    if "turn over" in text:
+        stripped = re.sub(r"[a-z]\d+/[\d/a-z]+", " ", text)
+        if len(re.sub(r"[^a-z]+", "", stripped)) < 25:
+            return True
+    return False
 
 
 def crop_question(
