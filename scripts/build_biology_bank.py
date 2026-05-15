@@ -337,12 +337,13 @@ def is_blank_answer_page(page: fitz.Page, clip: fitz.Rect) -> bool:
     alpha = re.sub(r"[^a-z]+", "", text)
     if len(alpha) < 16:
         return True
-    # "Turn over" pages: exam header + barcode + dotted answer lines only.
-    # Strip exam codes (e.g. m16/4/biolo/hp2/eng/tz0/xx) then check remaining alpha.
-    if "turn over" in text:
-        stripped = re.sub(r"[a-z]\d+/[\d/a-z]+", " ", text)
-        if len(re.sub(r"[^a-z]+", "", stripped)) < 25:
-            return True
+    # Strip IB exam codes (e.g. m16/4/biolo/hp2/eng/tz0/xx), page numbers, and
+    # "turn over" — blank answer-space pages have virtually nothing left after this.
+    stripped = re.sub(r"[a-z]\d+/[\d/a-z]+", " ", text)
+    stripped = re.sub(r"[–\-]\s*\d+\s*[–\-]", " ", stripped)
+    stripped = stripped.replace("turn over", " ")
+    if len(re.sub(r"[^a-z]+", "", stripped)) < 30:
+        return True
     return False
 
 

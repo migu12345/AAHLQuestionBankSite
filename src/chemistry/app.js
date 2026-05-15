@@ -314,7 +314,10 @@ function dedupeForAllLevels(rows) {
     const meta = parsePaperMeta(q.paper);
     const imgFp = imageFingerprint(q);
     const txtFp = questionFingerprint(q);
-    const fallbackQnum = !imgFp && !txtFp ? String(q.question_number || "") : "";
+    // Use image fingerprint as the sole content key when available — it encodes
+    // year/paper/question/timezone so it's specific enough. Including txtFp causes
+    // false non-deduplication when SL/HL text differs (e.g. mark allocations).
+    const contentKey = imgFp || txtFp || String(q.question_number || "");
     const key = meta
       ? [
           meta.session,
@@ -322,15 +325,11 @@ function dedupeForAllLevels(rows) {
           meta.paperNo,
           meta.timezone,
           normalizePaperType(q.paper_type),
-          imgFp,
-          txtFp,
-          fallbackQnum,
+          contentKey,
         ].join("|")
       : [
           normalizePaperType(q.paper_type),
-          imgFp,
-          txtFp,
-          fallbackQnum,
+          contentKey,
         ].join("|");
 
     const existing = byKey.get(key);
