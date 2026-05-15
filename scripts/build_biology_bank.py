@@ -236,28 +236,37 @@ def detect_starts(doc: fitz.Document, kind: str) -> List[StartPos]:
                 m_dot = re.match(r"^(\d{1,2})\.$", text)
                 m_inline = re.match(r"^(\d{1,2})\.\s+", text)
 
-                if m_plain and ((kind == "markscheme" and x <= 220) or x <= 90):
+                # Biology/chemistry markscheme table: question numbers appear in the
+                # leftmost "Question" column at x ≈ 48. Restrict to x <= 65 to avoid
+                # false positives from answer content (e.g. "20 different amino acids"
+                # at x=147) which previously created phantom questions that truncated
+                # real questions' crops to zero height.
+                ms_q_col = kind == "markscheme" and x <= 65
+
+                if m_plain and (ms_q_col or (kind != "markscheme" and x <= 90)):
                     pending = int(m_plain.group(1))
                     pending_y = y
                     pending_x = x
                     score = 1
                 elif m_dot:
-                    pending = int(m_dot.group(1))
-                    pending_y = y
-                    pending_x = x
-                    qn = pending
-                    score = 4
+                    if kind != "markscheme" or x <= 65:
+                        pending = int(m_dot.group(1))
+                        pending_y = y
+                        pending_x = x
+                        qn = pending
+                        score = 4
                 elif m_inline:
-                    qn = int(m_inline.group(1))
-                    score = 5
+                    if kind != "markscheme" or x <= 65:
+                        qn = int(m_inline.group(1))
+                        score = 5
 
                 if kind == "markscheme":
                     m_ms = re.match(r"^(\d{1,2})\s+[A-Za-z(]", text)
-                    if m_ms and x <= 240:
+                    if m_ms and x <= 65:
                         qn = int(m_ms.group(1))
                         score = max(score, 6)
 
-                if qn is None and pending is not None and ((kind == "markscheme" and x <= 240) or x <= 120) and re.match(r"^(?:\(|[A-Za-z])", text):
+                if qn is None and pending is not None and ((kind == "markscheme" and x <= 150) or x <= 120) and re.match(r"^(?:\(|[A-Za-z])", text):
                     qn = pending
                     score = max(score, 2)
 
@@ -290,26 +299,24 @@ def detect_starts(doc: fitz.Document, kind: str) -> List[StartPos]:
                 prev = text
 
         if kind == "markscheme":
+            # Fallback: some biology/chemistry markschemes place the next question's
+            # table-header row at the bottom of the current page (y >= 720). This row
+            # is in the Question column (x ≈ 48, well within x <= 65). Use actual y0
+            # so crop_question ends Q_prev at y-2 and starts Q_next at y-8 (tiny crop
+            # on this page, skipped by the <80px guard, then continues on next page).
             for w in page.get_text("words"):
                 x0, y0, _x1, _y1, txt, *_ = w
-                # Accept "7" or "7." (period stripped) — Biology markschemes use "7." format
                 txt_clean = str(txt).strip().rstrip(".")
                 if not re.fullmatch(r"\d{1,2}", txt_clean):
                     continue
                 qn = int(txt_clean)
                 if not (1 <= qn <= 60):
                     continue
-                # Biology/Chemistry markschemes place new question numbers at the bottom of
-                # the preceding page in the Question column (x <= 240, y >= 720)
-                if not (float(x0) <= 240 and float(y0) >= 720):
+                if not (float(x0) <= 65 and float(y0) >= 720):
                     continue
                 eff_x = float(x0)
+                eff_y = float(y0)
                 cand_score = 9
-                # "6." at bottom of page pno means content starts at TOP of page pno+1,
-                # not at y=120 on pno — using pno caused Q5's crop to cut off at y=118
-                # and Q6's crop to show all of Q5's page content.
-                next_pno = pno + 1 if pno + 1 < len(doc) else pno
-                store_y = 42.0 if next_pno > pno else 900.0
                 prev = starts.get(qn)
                 replace = False
                 if prev is None:
@@ -319,10 +326,10 @@ def detect_starts(doc: fitz.Document, kind: str) -> List[StartPos]:
                     if cand_score > prev_score:
                         replace = True
                     elif cand_score == prev_score:
-                        if next_pno < prev_page or (next_pno == prev_page and store_y < prev_y):
+                        if pno < prev_page or (pno == prev_page and eff_y < prev_y):
                             replace = True
                 if replace:
-                    starts[qn] = (next_pno, store_y, eff_x, cand_score)
+                    starts[qn] = (pno, eff_y, eff_x, cand_score)
                 break
 
     out = [StartPos(qnum=q, page=pg, y=y) for q, (pg, y, _x, _score) in starts.items()]
@@ -364,7 +371,6 @@ def crop_question(
     s = starts[idx]
     n = starts[idx + 1] if idx + 1 < len(starts) else None
     last_page = n.page if n is not None else len(doc) - 1
-    last_page = min(last_page, len(doc) - 1)  # guard: fallback stores pno+1 which may equal len(doc)
     out: List[str] = []
 
     for pno in range(s.page, last_page + 1):
