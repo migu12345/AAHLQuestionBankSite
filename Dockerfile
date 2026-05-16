@@ -11,6 +11,10 @@ COPY data/physics ./data/physics
 COPY data/resources ./data/resources
 COPY data/business ./data/business
 COPY data/tutoring ./data/tutoring
+COPY data/biology/processed/questions.json ./data/biology/processed/questions.json
+COPY data/biology/processed/manual_papers.json ./data/biology/processed/manual_papers.json
+COPY data/chemistry/processed/questions.json ./data/chemistry/processed/questions.json
+COPY data/chemistry/processed/manual_papers.json ./data/chemistry/processed/manual_papers.json
 COPY data/topic-map.json ./data/topic-map.json
 COPY server.py ./server.py
 

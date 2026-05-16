@@ -80,6 +80,12 @@
   window.setAssetBaseUrl = setAssetBaseUrl;
   window.assetUrl = assetUrl;
   window.assetFetch = function assetFetch(path, init) {
-    return fetch(assetUrl(path), init);
+    const cleanPath = String(path || "");
+    // JSON files are served same-origin from the Docker container on all environments.
+    // Only binary assets (images, PDFs) are served from the R2 CDN.
+    if (cleanPath.endsWith(".json")) {
+      return fetch(cleanPath, init);
+    }
+    return fetch(assetUrl(cleanPath), init);
   };
 })();
