@@ -37151,7 +37151,8 @@
         "images/questions/bio_m22_p2_tz1_q1_hl_p2.png",
         "images/questions/bio_m22_p2_tz1_q1_hl_p3.png",
         "images/questions/bio_m22_p2_tz1_q1_hl_p4.png",
-        "images/questions/bio_m22_p2_tz1_q1_hl_p5.png"
+        "images/questions/bio_m22_p2_tz1_q1_hl_p5.png",
+        "images/questions/bio_m22_p2_tz1_q1_hl_p6.png"
       ],
       "markscheme_image_paths": [
         "images/markschemes/bio_m22_p2_tz1_q1_hl_p1.png",
@@ -37391,36 +37392,6 @@
         "images/markschemes/bio_m22_p2_tz1_q8_hl_p1.png",
         "images/markschemes/bio_m22_p2_tz1_q8_hl_p2.png"
       ]
-    },
-    {
-      "id": "bio_m22_p2_tz1_q60_hl",
-      "paper": "May 2022 Biology Paper 2 TZ1 HL",
-      "session": "May",
-      "session_code": "m22",
-      "paper_type": "Paper 2",
-      "level": "HL",
-      "question_number": "60",
-      "title": "Q60",
-      "topic": "C: Interaction and Interdependence",
-      "subtopic": "C4 Ecosystems",
-      "topic_confidence": 0.2,
-      "topic_reason": [
-        "paper 2 fallback"
-      ],
-      "question_text": "",
-      "answer_text": "Markscheme available in source PDF (image mapping for this question is still being refined).",
-      "mcq_answer": "",
-      "marks": null,
-      "has_markscheme": true,
-      "source": {
-        "paper_file": "Biology_paper_2_TZ1_HL.pdf",
-        "markscheme_file": "Biology_paper_2_TZ1_HL_markscheme.pdf"
-      },
-      "question_image_paths": [
-        "images/questions/bio_m22_p2_tz1_q60_hl_p1.png",
-        "images/questions/bio_m22_p2_tz1_q60_hl_p2.png"
-      ],
-      "markscheme_image_paths": []
     },
     {
       "id": "bio_m22_p2_tz1_q1_sl",
@@ -37958,7 +37929,10 @@
       },
       "question_image_paths": [
         "images/questions/bio_m22_p2_tz2_q1_sl_p1.png",
-        "images/questions/bio_m22_p2_tz2_q1_sl_p2.png"
+        "images/questions/bio_m22_p2_tz2_q1_sl_p2.png",
+        "images/questions/bio_m22_p2_tz2_q1_sl_p3.png",
+        "images/questions/bio_m22_p2_tz2_q1_sl_p4.png",
+        "images/questions/bio_m22_p2_tz2_q1_sl_p5.png"
       ],
       "markscheme_image_paths": [
         "images/markschemes/bio_m22_p2_tz2_q1_sl_p1.png",
@@ -38162,38 +38136,6 @@
         "images/markschemes/bio_m22_p2_tz2_q7_sl_p1.png",
         "images/markschemes/bio_m22_p2_tz2_q7_sl_p2.png"
       ]
-    },
-    {
-      "id": "bio_m22_p2_tz2_q50_sl",
-      "paper": "May 2022 Biology Paper 2 TZ2 SL",
-      "session": "May",
-      "session_code": "m22",
-      "paper_type": "Paper 2",
-      "level": "SL",
-      "question_number": "50",
-      "title": "Q50",
-      "topic": "C: Interaction and Interdependence",
-      "subtopic": "C4 Ecosystems",
-      "topic_confidence": 0.2,
-      "topic_reason": [
-        "paper 2 fallback"
-      ],
-      "question_text": "",
-      "answer_text": "Markscheme available in source PDF (image mapping for this question is still being refined).",
-      "mcq_answer": "",
-      "marks": null,
-      "has_markscheme": true,
-      "source": {
-        "paper_file": "Biology_paper_2_TZ2_SL.pdf",
-        "markscheme_file": "Biology_paper_2_TZ2_SL_markscheme.pdf"
-      },
-      "question_image_paths": [
-        "images/questions/bio_m22_p2_tz2_q50_sl_p1.png",
-        "images/questions/bio_m22_p2_tz2_q50_sl_p2.png",
-        "images/questions/bio_m22_p2_tz2_q50_sl_p3.png",
-        "images/questions/bio_m22_p2_tz2_q50_sl_p4.png"
-      ],
-      "markscheme_image_paths": []
     },
     {
       "id": "bio_m23_p1_tz1_q1_sl",
@@ -43866,7 +43808,8 @@
         "markscheme_file": "Biology_paper_3_TZ2_SL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/bio_m23_p3_tz2_q13_sl.png"
+        "images/questions/bio_m23_p3_tz2_q13_sl_p1.png",
+        "images/questions/bio_m23_p3_tz2_q13_sl_p2.png"
       ],
       "markscheme_image_paths": [
         "images/markschemes/bio_m23_p3_tz2_q13_sl_p1.png"
@@ -44101,36 +44044,6 @@
       ]
     },
     {
-      "id": "bio_m23_p3_tz2_q50_sl",
-      "paper": "May 2023 Biology Paper 3 TZ2 SL",
-      "session": "May",
-      "session_code": "m23",
-      "paper_type": "Paper 3",
-      "level": "SL",
-      "question_number": "50",
-      "title": "Q50",
-      "topic": "C: Interaction and Interdependence",
-      "subtopic": "C3 Integration of body systems",
-      "topic_confidence": 0.2,
-      "topic_reason": [
-        "paper 3 fallback"
-      ],
-      "question_text": "",
-      "answer_text": "Markscheme available in source PDF (image mapping for this question is still being refined).",
-      "mcq_answer": "",
-      "marks": null,
-      "has_markscheme": true,
-      "source": {
-        "paper_file": "Biology_paper_3_TZ2_SL.pdf",
-        "markscheme_file": "Biology_paper_3_TZ2_SL_markscheme.pdf"
-      },
-      "question_image_paths": [
-        "images/questions/bio_m23_p3_tz2_q50_sl_p1.png",
-        "images/questions/bio_m23_p3_tz2_q50_sl_p2.png"
-      ],
-      "markscheme_image_paths": []
-    },
-    {
       "id": "bio_m24_p1_tz1_q1_hl",
       "paper": "May 2024 Biology Paper 1 TZ1 HL",
       "session": "May",
@@ -59685,7 +59598,8 @@
         "markscheme_file": "Biology_paper_3_TZ2_SL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/bio_m24_p3_tz2_q11_sl.png"
+        "images/questions/bio_m24_p3_tz2_q11_sl_p1.png",
+        "images/questions/bio_m24_p3_tz2_q11_sl_p2.png"
       ],
       "markscheme_image_paths": [
         "images/markschemes/bio_m24_p3_tz2_q11_sl_p1.png"
@@ -59716,7 +59630,8 @@
         "markscheme_file": "Biology_paper_3_TZ2_SL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/bio_m24_p3_tz2_q11_sl.png"
+        "images/questions/bio_m24_p3_tz2_q11_sl_p1.png",
+        "images/questions/bio_m24_p3_tz2_q11_sl_p2.png"
       ],
       "markscheme_image_paths": [
         "images/markschemes/bio_m24_p3_tz2_q11_sl_p1.png"
@@ -60235,66 +60150,6 @@
       "markscheme_image_paths": [
         "images/markschemes/bio_m24_p3_tz2_q19_sl.png"
       ]
-    },
-    {
-      "id": "bio_m24_p3_tz2_q40_sl",
-      "paper": "May 2024 Biology Paper 3 TZ2 SL",
-      "session": "May",
-      "session_code": "m24",
-      "paper_type": "Paper 3",
-      "level": "SL",
-      "question_number": "40",
-      "title": "Q40",
-      "topic": "C: Interaction and Interdependence",
-      "subtopic": "C3 Integration of body systems",
-      "topic_confidence": 0.2,
-      "topic_reason": [
-        "paper 3 fallback"
-      ],
-      "question_text": "",
-      "answer_text": "Markscheme available in source PDF (image mapping for this question is still being refined).",
-      "mcq_answer": "",
-      "marks": null,
-      "has_markscheme": true,
-      "source": {
-        "paper_file": "Biology_paper_3_TZ2_SL.pdf",
-        "markscheme_file": "Biology_paper_3_TZ2_SL_markscheme.pdf"
-      },
-      "question_image_paths": [
-        "images/questions/bio_m24_p3_tz2_q40_sl_p1.png",
-        "images/questions/bio_m24_p3_tz2_q40_sl_p2.png"
-      ],
-      "markscheme_image_paths": []
-    },
-    {
-      "id": "bio_m24_p3_tz2_q40_sl",
-      "paper": "May 2024 Biology Paper 3 TZ2 SL",
-      "session": "May",
-      "session_code": "m24",
-      "paper_type": "Paper 3",
-      "level": "SL",
-      "question_number": "40",
-      "title": "Q40",
-      "topic": "C: Interaction and Interdependence",
-      "subtopic": "C3 Integration of body systems",
-      "topic_confidence": 0.2,
-      "topic_reason": [
-        "paper 3 fallback"
-      ],
-      "question_text": "",
-      "answer_text": "Markscheme available in source PDF (image mapping for this question is still being refined).",
-      "mcq_answer": "",
-      "marks": null,
-      "has_markscheme": true,
-      "source": {
-        "paper_file": "Biology_paper_3_TZ2_SL.pdf",
-        "markscheme_file": "Biology_paper_3_TZ2_SL_markscheme.pdf"
-      },
-      "question_image_paths": [
-        "images/questions/bio_m24_p3_tz2_q40_sl_p1.png",
-        "images/questions/bio_m24_p3_tz2_q40_sl_p2.png"
-      ],
-      "markscheme_image_paths": []
     },
     {
       "id": "bio_m25_p1_tz2_q1_hl",
@@ -75385,7 +75240,8 @@
         "markscheme_file": "Biology_paper_3__HL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/bio_n18_p3_ntz_q19_hl.png"
+        "images/questions/bio_n18_p3_ntz_q19_hl_p1.png",
+        "images/questions/bio_n18_p3_ntz_q19_hl_p2.png"
       ],
       "markscheme_image_paths": [
         "images/markschemes/bio_n18_p3_ntz_q19_hl_p1.png"
@@ -75455,36 +75311,6 @@
       "markscheme_image_paths": [
         "images/markschemes/bio_n18_p3_ntz_q21_hl.png"
       ]
-    },
-    {
-      "id": "bio_n18_p3_ntz_q60_hl",
-      "paper": "November 2018 Biology Paper 3 NTZ HL",
-      "session": "November",
-      "session_code": "n18",
-      "paper_type": "Paper 3",
-      "level": "HL",
-      "question_number": "60",
-      "title": "Q60",
-      "topic": "C: Interaction and Interdependence",
-      "subtopic": "C3 Integration of body systems",
-      "topic_confidence": 0.2,
-      "topic_reason": [
-        "paper 3 fallback"
-      ],
-      "question_text": "",
-      "answer_text": "Markscheme available in source PDF (image mapping for this question is still being refined).",
-      "mcq_answer": "",
-      "marks": null,
-      "has_markscheme": true,
-      "source": {
-        "paper_file": "Biology_paper_3__HL.pdf",
-        "markscheme_file": "Biology_paper_3__HL_markscheme.pdf"
-      },
-      "question_image_paths": [
-        "images/questions/bio_n18_p3_ntz_q60_hl_p1.png",
-        "images/questions/bio_n18_p3_ntz_q60_hl_p2.png"
-      ],
-      "markscheme_image_paths": []
     },
     {
       "id": "bio_n18_p3_ntz_q1_sl",
@@ -83189,7 +83015,8 @@
         "markscheme_file": "Biology_paper_3__HL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/bio_n20_p3_ntz_q15_hl.png"
+        "images/questions/bio_n20_p3_ntz_q15_hl_p1.png",
+        "images/questions/bio_n20_p3_ntz_q15_hl_p2.png"
       ],
       "markscheme_image_paths": [
         "images/markschemes/bio_n20_p3_ntz_q15_hl_p1.png"
@@ -83489,36 +83316,6 @@
       "markscheme_image_paths": [
         "images/markschemes/bio_n20_p3_ntz_q24_hl.png"
       ]
-    },
-    {
-      "id": "bio_n20_p3_ntz_q50_hl",
-      "paper": "November 2020 Biology Paper 3 NTZ HL",
-      "session": "November",
-      "session_code": "n20",
-      "paper_type": "Paper 3",
-      "level": "HL",
-      "question_number": "50",
-      "title": "Q50",
-      "topic": "C: Interaction and Interdependence",
-      "subtopic": "C3 Integration of body systems",
-      "topic_confidence": 0.2,
-      "topic_reason": [
-        "paper 3 fallback"
-      ],
-      "question_text": "",
-      "answer_text": "Markscheme available in source PDF (image mapping for this question is still being refined).",
-      "mcq_answer": "",
-      "marks": null,
-      "has_markscheme": true,
-      "source": {
-        "paper_file": "Biology_paper_3__HL.pdf",
-        "markscheme_file": "Biology_paper_3__HL_markscheme.pdf"
-      },
-      "question_image_paths": [
-        "images/questions/bio_n20_p3_ntz_q50_hl_p1.png",
-        "images/questions/bio_n20_p3_ntz_q50_hl_p2.png"
-      ],
-      "markscheme_image_paths": []
     },
     {
       "id": "bio_n20_p3_ntz_q1_sl",
@@ -88855,7 +88652,11 @@
         "images/questions/bio_n22_p2_ntz_q1_hl_p2.png",
         "images/questions/bio_n22_p2_ntz_q1_hl_p3.png",
         "images/questions/bio_n22_p2_ntz_q1_hl_p4.png",
-        "images/questions/bio_n22_p2_ntz_q1_hl_p5.png"
+        "images/questions/bio_n22_p2_ntz_q1_hl_p5.png",
+        "images/questions/bio_n22_p2_ntz_q1_hl_p6.png",
+        "images/questions/bio_n22_p2_ntz_q1_hl_p7.png",
+        "images/questions/bio_n22_p2_ntz_q1_hl_p8.png",
+        "images/questions/bio_n22_p2_ntz_q1_hl_p9.png"
       ],
       "markscheme_image_paths": [
         "images/markschemes/bio_n22_p2_ntz_q1_hl_p1.png",
@@ -89098,39 +88899,6 @@
         "images/markschemes/bio_n22_p2_ntz_q8_hl_p1.png",
         "images/markschemes/bio_n22_p2_ntz_q8_hl_p2.png"
       ]
-    },
-    {
-      "id": "bio_n22_p2_ntz_q40_hl",
-      "paper": "November 2022 Biology Paper 2 NTZ HL",
-      "session": "November",
-      "session_code": "n22",
-      "paper_type": "Paper 2",
-      "level": "HL",
-      "question_number": "40",
-      "title": "Q40",
-      "topic": "C: Interaction and Interdependence",
-      "subtopic": "C4 Ecosystems",
-      "topic_confidence": 0.2,
-      "topic_reason": [
-        "paper 2 fallback"
-      ],
-      "question_text": "",
-      "answer_text": "Markscheme available in source PDF (image mapping for this question is still being refined).",
-      "mcq_answer": "",
-      "marks": null,
-      "has_markscheme": true,
-      "source": {
-        "paper_file": "Biology_paper_2__HL.pdf",
-        "markscheme_file": "Biology_paper_2__HL_markscheme.pdf"
-      },
-      "question_image_paths": [
-        "images/questions/bio_n22_p2_ntz_q40_hl_p1.png",
-        "images/questions/bio_n22_p2_ntz_q40_hl_p2.png",
-        "images/questions/bio_n22_p2_ntz_q40_hl_p3.png",
-        "images/questions/bio_n22_p2_ntz_q40_hl_p4.png",
-        "images/questions/bio_n22_p2_ntz_q40_hl_p5.png"
-      ],
-      "markscheme_image_paths": []
     },
     {
       "id": "bio_n23_p1_tz1_q1_hl",
@@ -93855,35 +93623,6 @@
       ]
     },
     {
-      "id": "bio_n23_p2_tz1_q50_sl",
-      "paper": "November 2023 Biology Paper 2 TZ1 SL",
-      "session": "November",
-      "session_code": "n23",
-      "paper_type": "Paper 2",
-      "level": "SL",
-      "question_number": "50",
-      "title": "Q50",
-      "topic": "C: Interaction and Interdependence",
-      "subtopic": "C4 Ecosystems",
-      "topic_confidence": 0.2,
-      "topic_reason": [
-        "paper 2 fallback"
-      ],
-      "question_text": "",
-      "answer_text": "Markscheme available in source PDF (image mapping for this question is still being refined).",
-      "mcq_answer": "",
-      "marks": null,
-      "has_markscheme": true,
-      "source": {
-        "paper_file": "Biology_paper_2_TZ1_SL.pdf",
-        "markscheme_file": "Biology_paper_2_TZ1_SL_markscheme.pdf"
-      },
-      "question_image_paths": [
-        "images/questions/bio_n23_p2_tz1_q50_sl_p1.png"
-      ],
-      "markscheme_image_paths": []
-    },
-    {
       "id": "bio_n23_p2_tz2_q1_hl",
       "paper": "November 2023 Biology Paper 2 TZ2 HL",
       "session": "November",
@@ -94368,35 +94107,6 @@
         "images/markschemes/bio_n23_p2_tz2_q7_sl_p1.png",
         "images/markschemes/bio_n23_p2_tz2_q7_sl_p2.png"
       ]
-    },
-    {
-      "id": "bio_n23_p2_tz2_q50_sl",
-      "paper": "November 2023 Biology Paper 2 TZ2 SL",
-      "session": "November",
-      "session_code": "n23",
-      "paper_type": "Paper 2",
-      "level": "SL",
-      "question_number": "50",
-      "title": "Q50",
-      "topic": "C: Interaction and Interdependence",
-      "subtopic": "C4 Ecosystems",
-      "topic_confidence": 0.2,
-      "topic_reason": [
-        "paper 2 fallback"
-      ],
-      "question_text": "",
-      "answer_text": "Markscheme available in source PDF (image mapping for this question is still being refined).",
-      "mcq_answer": "",
-      "marks": null,
-      "has_markscheme": true,
-      "source": {
-        "paper_file": "Biology_paper_2_TZ2_SL.pdf",
-        "markscheme_file": "Biology_paper_2_TZ2_SL_markscheme.pdf"
-      },
-      "question_image_paths": [
-        "images/questions/bio_n23_p2_tz2_q50_sl_p1.png"
-      ],
-      "markscheme_image_paths": []
     },
     {
       "id": "bio_n23_p3_tz1_q1_hl",
@@ -101441,7 +101151,8 @@
         "markscheme_file": "Biology_paper_3__HL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/bio_n24_p3_ntz_q14_hl.png"
+        "images/questions/bio_n24_p3_ntz_q14_hl_p1.png",
+        "images/questions/bio_n24_p3_ntz_q14_hl_p2.png"
       ],
       "markscheme_image_paths": [
         "images/markschemes/bio_n24_p3_ntz_q14_hl_p1.png"
@@ -101746,36 +101457,6 @@
       "markscheme_image_paths": [
         "images/markschemes/bio_n24_p3_ntz_q23_hl.png"
       ]
-    },
-    {
-      "id": "bio_n24_p3_ntz_q56_hl",
-      "paper": "November 2024 Biology Paper 3 NTZ HL",
-      "session": "November",
-      "session_code": "n24",
-      "paper_type": "Paper 3",
-      "level": "HL",
-      "question_number": "56",
-      "title": "Q56",
-      "topic": "C: Interaction and Interdependence",
-      "subtopic": "C3 Integration of body systems",
-      "topic_confidence": 0.2,
-      "topic_reason": [
-        "paper 3 fallback"
-      ],
-      "question_text": "",
-      "answer_text": "Markscheme available in source PDF (image mapping for this question is still being refined).",
-      "mcq_answer": "",
-      "marks": null,
-      "has_markscheme": true,
-      "source": {
-        "paper_file": "Biology_paper_3__HL.pdf",
-        "markscheme_file": "Biology_paper_3__HL_markscheme.pdf"
-      },
-      "question_image_paths": [
-        "images/questions/bio_n24_p3_ntz_q56_hl_p1.png",
-        "images/questions/bio_n24_p3_ntz_q56_hl_p2.png"
-      ],
-      "markscheme_image_paths": []
     },
     {
       "id": "bio_n24_p3_tz1_q1_sl",
@@ -102869,7 +102550,8 @@
         "markscheme_file": "Biology_paper_3_TZ2_SL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/bio_n24_p3_tz2_q14_sl.png"
+        "images/questions/bio_n24_p3_tz2_q14_sl_p1.png",
+        "images/questions/bio_n24_p3_tz2_q14_sl_p2.png"
       ],
       "markscheme_image_paths": [
         "images/markschemes/bio_n24_p3_tz2_q14_sl_p1.png"
@@ -103097,36 +102779,6 @@
       "markscheme_image_paths": [
         "images/markschemes/bio_n24_p3_tz2_q21_sl.png"
       ]
-    },
-    {
-      "id": "bio_n24_p3_tz2_q56_sl",
-      "paper": "November 2024 Biology Paper 3 TZ2 SL",
-      "session": "November",
-      "session_code": "n24",
-      "paper_type": "Paper 3",
-      "level": "SL",
-      "question_number": "56",
-      "title": "Q56",
-      "topic": "C: Interaction and Interdependence",
-      "subtopic": "C3 Integration of body systems",
-      "topic_confidence": 0.2,
-      "topic_reason": [
-        "paper 3 fallback"
-      ],
-      "question_text": "",
-      "answer_text": "Markscheme available in source PDF (image mapping for this question is still being refined).",
-      "mcq_answer": "",
-      "marks": null,
-      "has_markscheme": true,
-      "source": {
-        "paper_file": "Biology_paper_3_TZ2_SL.pdf",
-        "markscheme_file": "Biology_paper_3_TZ2_SL_markscheme.pdf"
-      },
-      "question_image_paths": [
-        "images/questions/bio_n24_p3_tz2_q56_sl_p1.png",
-        "images/questions/bio_n24_p3_tz2_q56_sl_p2.png"
-      ],
-      "markscheme_image_paths": []
     }
   ]
 }

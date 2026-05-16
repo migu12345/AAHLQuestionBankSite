@@ -25251,7 +25251,10 @@
         "markscheme_file": "Chemistry_paper_2_TZ2_HL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/chem_m19_p2_tz2_q2_hl.png"
+        "images/questions/chem_m19_p2_tz2_q2_hl_p1.png",
+        "images/questions/chem_m19_p2_tz2_q2_hl_p2.png",
+        "images/questions/chem_m19_p2_tz2_q2_hl_p3.png",
+        "images/questions/chem_m19_p2_tz2_q2_hl_p4.png"
       ],
       "markscheme_image_paths": [
         "images/markschemes/chem_m19_p2_tz2_q2_hl_p1.png",
@@ -25407,38 +25410,6 @@
       ]
     },
     {
-      "id": "chem_m19_p2_tz2_q50_hl",
-      "paper": "May 2019 Chemistry Paper 2 TZ2 HL",
-      "session": "May",
-      "session_code": "m19",
-      "paper_type": "Paper 2",
-      "level": "HL",
-      "question_number": "50",
-      "title": "Q50",
-      "topic": "Reactivity 2: How much, how fast and how far?",
-      "subtopic": "R2.1 How much? Stoichiometry",
-      "topic_confidence": 0.2,
-      "topic_reason": [
-        "paper 2 fallback"
-      ],
-      "question_text": "",
-      "answer_text": "Markscheme available in source PDF (image mapping for this question is still being refined).",
-      "mcq_answer": "",
-      "marks": null,
-      "has_markscheme": true,
-      "source": {
-        "paper_file": "Chemistry_paper_2_TZ2_HL.pdf",
-        "markscheme_file": "Chemistry_paper_2_TZ2_HL_markscheme.pdf"
-      },
-      "question_image_paths": [
-        "images/questions/chem_m19_p2_tz2_q50_hl_p1.png",
-        "images/questions/chem_m19_p2_tz2_q50_hl_p2.png",
-        "images/questions/chem_m19_p2_tz2_q50_hl_p3.png",
-        "images/questions/chem_m19_p2_tz2_q50_hl_p4.png"
-      ],
-      "markscheme_image_paths": []
-    },
-    {
       "id": "chem_m19_p2_tz2_q1_sl",
       "paper": "May 2019 Chemistry Paper 2 TZ2 SL",
       "session": "May",
@@ -25504,7 +25475,8 @@
         "markscheme_file": "Chemistry_paper_2_TZ2_SL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/chem_m19_p2_tz2_q2_sl.png"
+        "images/questions/chem_m19_p2_tz2_q2_sl_p1.png",
+        "images/questions/chem_m19_p2_tz2_q2_sl_p2.png"
       ],
       "markscheme_image_paths": [
         "images/markschemes/chem_m19_p2_tz2_q2_sl_p1.png",
@@ -25610,36 +25582,6 @@
       "markscheme_image_paths": [
         "images/markschemes/chem_m19_p2_tz2_q5_sl.png"
       ]
-    },
-    {
-      "id": "chem_m19_p2_tz2_q50_sl",
-      "paper": "May 2019 Chemistry Paper 2 TZ2 SL",
-      "session": "May",
-      "session_code": "m19",
-      "paper_type": "Paper 2",
-      "level": "SL",
-      "question_number": "50",
-      "title": "Q50",
-      "topic": "Reactivity 2: How much, how fast and how far?",
-      "subtopic": "R2.1 How much? Stoichiometry",
-      "topic_confidence": 0.2,
-      "topic_reason": [
-        "paper 2 fallback"
-      ],
-      "question_text": "",
-      "answer_text": "Markscheme available in source PDF (image mapping for this question is still being refined).",
-      "mcq_answer": "",
-      "marks": null,
-      "has_markscheme": true,
-      "source": {
-        "paper_file": "Chemistry_paper_2_TZ2_SL.pdf",
-        "markscheme_file": "Chemistry_paper_2_TZ2_SL_markscheme.pdf"
-      },
-      "question_image_paths": [
-        "images/questions/chem_m19_p2_tz2_q50_sl_p1.png",
-        "images/questions/chem_m19_p2_tz2_q50_sl_p2.png"
-      ],
-      "markscheme_image_paths": []
     },
     {
       "id": "chem_m19_p3_tz1_q1_hl",
@@ -27200,9 +27142,7 @@
         "markscheme_file": "Chemistry_paper_3_TZ2_HL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/chem_m19_p3_tz2_q2_hl_p1.png",
-        "images/questions/chem_m19_p3_tz2_q2_hl_p2.png",
-        "images/questions/chem_m19_p3_tz2_q2_hl_p3.png"
+        "images/questions/chem_m19_p3_tz2_q2_hl.png"
       ],
       "markscheme_image_paths": [
         "images/markschemes/chem_m19_p3_tz2_q2_hl_p1.png",
@@ -28027,6 +27967,37 @@
       "markscheme_image_paths": []
     },
     {
+      "id": "chem_m19_p3_tz2_q30_hl",
+      "paper": "May 2019 Chemistry Paper 3 TZ2 HL",
+      "session": "May",
+      "session_code": "m19",
+      "paper_type": "Paper 3",
+      "level": "HL",
+      "question_number": "30",
+      "title": "Q30",
+      "topic": "Reactivity 3: What are the mechanisms of change?",
+      "subtopic": "R3.3 Electron sharing reactions",
+      "topic_confidence": 0.2,
+      "topic_reason": [
+        "paper 3 fallback"
+      ],
+      "question_text": "",
+      "answer_text": "Markscheme available in source PDF (image mapping for this question is still being refined).",
+      "mcq_answer": "",
+      "marks": null,
+      "has_markscheme": true,
+      "source": {
+        "paper_file": "Chemistry_paper_3_TZ2_HL.pdf",
+        "markscheme_file": "Chemistry_paper_3_TZ2_HL_markscheme.pdf"
+      },
+      "question_image_paths": [
+        "images/questions/chem_m19_p3_tz2_q30_hl_p1.png",
+        "images/questions/chem_m19_p3_tz2_q30_hl_p2.png",
+        "images/questions/chem_m19_p3_tz2_q30_hl_p3.png"
+      ],
+      "markscheme_image_paths": []
+    },
+    {
       "id": "chem_m19_p3_tz2_q1_sl",
       "paper": "May 2019 Chemistry Paper 3 TZ2 SL",
       "session": "May",
@@ -28089,9 +28060,7 @@
         "markscheme_file": "Chemistry_paper_3_TZ2_SL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/chem_m19_p3_tz2_q2_sl_p1.png",
-        "images/questions/chem_m19_p3_tz2_q2_sl_p2.png",
-        "images/questions/chem_m19_p3_tz2_q2_sl_p3.png"
+        "images/questions/chem_m19_p3_tz2_q2_sl.png"
       ],
       "markscheme_image_paths": [
         "images/markschemes/chem_m19_p3_tz2_q2_sl_p1.png",
@@ -28605,6 +28574,37 @@
         "images/markschemes/chem_m19_p3_tz2_q17_sl_p1.png",
         "images/markschemes/chem_m19_p3_tz2_q17_sl_p2.png"
       ]
+    },
+    {
+      "id": "chem_m19_p3_tz2_q30_sl",
+      "paper": "May 2019 Chemistry Paper 3 TZ2 SL",
+      "session": "May",
+      "session_code": "m19",
+      "paper_type": "Paper 3",
+      "level": "SL",
+      "question_number": "30",
+      "title": "Q30",
+      "topic": "Reactivity 3: What are the mechanisms of change?",
+      "subtopic": "R3.3 Electron sharing reactions",
+      "topic_confidence": 0.2,
+      "topic_reason": [
+        "paper 3 fallback"
+      ],
+      "question_text": "",
+      "answer_text": "Markscheme available in source PDF (image mapping for this question is still being refined).",
+      "mcq_answer": "",
+      "marks": null,
+      "has_markscheme": true,
+      "source": {
+        "paper_file": "Chemistry_paper_3_TZ2_SL.pdf",
+        "markscheme_file": "Chemistry_paper_3_TZ2_SL_markscheme.pdf"
+      },
+      "question_image_paths": [
+        "images/questions/chem_m19_p3_tz2_q30_sl_p1.png",
+        "images/questions/chem_m19_p3_tz2_q30_sl_p2.png",
+        "images/questions/chem_m19_p3_tz2_q30_sl_p3.png"
+      ],
+      "markscheme_image_paths": []
     },
     {
       "id": "chem_m21_p1_tz1_q1_hl",
@@ -68426,7 +68426,11 @@
         "paper_file": "Chemistry_paper_3__HL.pdf",
         "markscheme_file": "Chemistry_paper_3__HL_markscheme.pdf"
       },
-      "question_image_paths": [],
+      "question_image_paths": [
+        "images/questions/chem_n17_p3_ntz_q3_hl_p1.png",
+        "images/questions/chem_n17_p3_ntz_q3_hl_p2.png",
+        "images/questions/chem_n17_p3_ntz_q3_hl_p3.png"
+      ],
       "markscheme_image_paths": [
         "images/markschemes/chem_n17_p3_ntz_q3_hl_p1.png",
         "images/markschemes/chem_n17_p3_ntz_q3_hl_p2.png",
@@ -69216,37 +69220,6 @@
       "markscheme_image_paths": []
     },
     {
-      "id": "chem_n17_p3_ntz_q40_hl",
-      "paper": "November 2017 Chemistry Paper 3 NTZ HL",
-      "session": "November",
-      "session_code": "n17",
-      "paper_type": "Paper 3",
-      "level": "HL",
-      "question_number": "40",
-      "title": "Q40",
-      "topic": "Reactivity 3: What are the mechanisms of change?",
-      "subtopic": "R3.3 Electron sharing reactions",
-      "topic_confidence": 0.2,
-      "topic_reason": [
-        "paper 3 fallback"
-      ],
-      "question_text": "",
-      "answer_text": "Markscheme available in source PDF (image mapping for this question is still being refined).",
-      "mcq_answer": "",
-      "marks": null,
-      "has_markscheme": true,
-      "source": {
-        "paper_file": "Chemistry_paper_3__HL.pdf",
-        "markscheme_file": "Chemistry_paper_3__HL_markscheme.pdf"
-      },
-      "question_image_paths": [
-        "images/questions/chem_n17_p3_ntz_q40_hl_p1.png",
-        "images/questions/chem_n17_p3_ntz_q40_hl_p2.png",
-        "images/questions/chem_n17_p3_ntz_q40_hl_p3.png"
-      ],
-      "markscheme_image_paths": []
-    },
-    {
       "id": "chem_n17_p3_ntz_q1_sl",
       "paper": "November 2017 Chemistry Paper 3 NTZ SL",
       "session": "November",
@@ -69343,7 +69316,11 @@
         "paper_file": "Chemistry_paper_3__SL.pdf",
         "markscheme_file": "Chemistry_paper_3__SL_markscheme.pdf"
       },
-      "question_image_paths": [],
+      "question_image_paths": [
+        "images/questions/chem_n17_p3_ntz_q3_sl_p1.png",
+        "images/questions/chem_n17_p3_ntz_q3_sl_p2.png",
+        "images/questions/chem_n17_p3_ntz_q3_sl_p3.png"
+      ],
       "markscheme_image_paths": [
         "images/markschemes/chem_n17_p3_ntz_q3_sl_p1.png",
         "images/markschemes/chem_n17_p3_ntz_q3_sl_p2.png",
@@ -69924,37 +69901,6 @@
       },
       "question_image_paths": [
         "images/questions/chem_n17_p3_ntz_q21_sl_p1.png"
-      ],
-      "markscheme_image_paths": []
-    },
-    {
-      "id": "chem_n17_p3_ntz_q40_sl",
-      "paper": "November 2017 Chemistry Paper 3 NTZ SL",
-      "session": "November",
-      "session_code": "n17",
-      "paper_type": "Paper 3",
-      "level": "SL",
-      "question_number": "40",
-      "title": "Q40",
-      "topic": "Reactivity 3: What are the mechanisms of change?",
-      "subtopic": "R3.3 Electron sharing reactions",
-      "topic_confidence": 0.2,
-      "topic_reason": [
-        "paper 3 fallback"
-      ],
-      "question_text": "",
-      "answer_text": "Markscheme available in source PDF (image mapping for this question is still being refined).",
-      "mcq_answer": "",
-      "marks": null,
-      "has_markscheme": true,
-      "source": {
-        "paper_file": "Chemistry_paper_3__SL.pdf",
-        "markscheme_file": "Chemistry_paper_3__SL_markscheme.pdf"
-      },
-      "question_image_paths": [
-        "images/questions/chem_n17_p3_ntz_q40_sl_p1.png",
-        "images/questions/chem_n17_p3_ntz_q40_sl_p2.png",
-        "images/questions/chem_n17_p3_ntz_q40_sl_p3.png"
       ],
       "markscheme_image_paths": []
     },

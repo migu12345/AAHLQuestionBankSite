@@ -259,7 +259,7 @@ def detect_starts(doc: fitz.Document, kind: str) -> List[StartPos]:
                 # real questions' crops to zero height.
                 ms_q_col = kind == "markscheme" and x <= 65
 
-                if m_plain and (ms_q_col or (kind != "markscheme" and x <= 90)):
+                if m_plain and (ms_q_col or (kind != "markscheme" and x <= 65)):
                     pending = int(m_plain.group(1))
                     pending_y = y
                     pending_x = x
