@@ -40,10 +40,9 @@
         }
       ],
       "worked_solution_text": "1.\n(a)\n  (i)  Tᵣ₊₁=C(n,r)·a^(n-r)·b^r\n  (ii)  match power: n-r=k or r=k\n  (iii)  substitute r\n  (iv)  Number of terms = n + 1 = 12\n  (v)  Answer: 12\n\n(b)\n  (i)  Tᵣ₊₁=C(n,r)·a^(n-r)·b^r\n  (ii)  match power: n-r=k or r=k\n  (iii)  substitute r\n  (iv)  simplify\n  (v)  T = C(11,2)·2⁹·x²\n  (vi)  T = 28160x²\n  (7)  Answer: 28160x²",
-      "draft": true,
-      "markscheme_image_paths": [
-        "images/markschemes/t1_binomila_theorem_q1.svg"
-      ]
+      "draft": false,
+      "markscheme_image_paths": [],
+      "latex_solution": "<div class='ms-solution'><p><strong>(a)</strong></p><p>Number of terms \\(= n + 1 = 11 + 1\\) <span class='ms-mark'>A1</span></p><p>\\[= 12\\]</p><hr><p><strong>(b)</strong></p><p>General term of \\((x+2)^{11}\\):</p><p>\\[T_{r+1} = \\binom{11}{r}\\, x^{11-r}\\cdot 2^r\\] <span class='ms-mark'>M1</span></p><p>For the term in \\(x^2\\), set \\(11 - r = 2\\):</p><p>\\[r = 9\\] <span class='ms-mark'>A1</span></p><p>\\[T_{10} = \\binom{11}{9}\\cdot 2^9 \\cdot x^2\\] <span class='ms-mark'>M1</span></p><p>\\[= 55 \\times 512 \\cdot x^2\\]</p><p>\\[= 28160x^2\\] <span class='ms-mark'>A1</span></p></div>"
     },
     {
       "id": "t1_binomila_theorem_q2",

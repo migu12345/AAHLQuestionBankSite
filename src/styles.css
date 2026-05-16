@@ -836,6 +836,21 @@ button:hover {
   gap: 0.65rem;
 }
 
+.ms-solution { line-height: 1.7; }
+.ms-solution p { margin: 0.3rem 0; }
+.ms-solution hr { border: none; border-top: 1px solid var(--line-strong); margin: 0.7rem 0; }
+.ms-mark {
+  display: inline-block;
+  margin-left: 0.5rem;
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: #fff;
+  background: #2563eb;
+  border-radius: 3px;
+  padding: 0 5px;
+  vertical-align: middle;
+}
+
 .question-images img,
 .markscheme-images img {
   width: 100%;

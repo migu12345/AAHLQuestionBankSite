@@ -1,6 +1,7 @@
 const state = {
   allQuestions: [],
   markschemesById: {},
+  markschemeLatexById: {},
   markschemeImagesById: {},
   filteredQuestions: [],
   visibleCount: 0,
@@ -30,6 +31,21 @@ const compareCloseBtn = document.getElementById("compareCloseBtn");
 const compareTitle = document.getElementById("compareTitle");
 const compareQuestionBody = document.getElementById("compareQuestionBody");
 const compareMarkschemeBody = document.getElementById("compareMarkschemeBody");
+
+function renderKatex(el) {
+  if (window.renderMathInElement) {
+    window.renderMathInElement(el, {
+      delimiters: [
+        { left: "$$", right: "$$", display: true },
+        { left: "\\(", right: "\\)", display: false },
+        { left: "\\[", right: "\\]", display: true },
+      ],
+      throwOnError: false,
+    });
+  } else {
+    document.addEventListener("katex-ready", () => renderKatex(el), { once: true });
+  }
+}
 
 function loadUserActions() {
   try {
@@ -64,6 +80,9 @@ async function loadData() {
   const markschemes = Array.isArray(msData.questions) ? msData.questions : [];
   state.markschemesById = Object.fromEntries(
     markschemes.map((entry) => [entry.id, entry.worked_solution_text || ""])
+  );
+  state.markschemeLatexById = Object.fromEntries(
+    markschemes.filter((entry) => entry.latex_solution).map((entry) => [entry.id, entry.latex_solution])
   );
   state.markschemeImagesById = Object.fromEntries(
     markschemes.map((entry) => [entry.id, Array.isArray(entry.markscheme_image_paths) ? entry.markscheme_image_paths : []])
@@ -339,9 +358,16 @@ function buildQuestionNode(q) {
     });
     answerTextEl.hidden = true;
   } else {
-    const msText = state.markschemesById[q.id] || q.answer_text || "";
-    answerTextEl.textContent = msText || "No markscheme available yet.";
-    answerTextEl.hidden = false;
+    const latex = state.markschemeLatexById[q.id];
+    if (latex) {
+      answerTextEl.hidden = false;
+      answerTextEl.innerHTML = latex;
+      renderKatex(answerTextEl);
+    } else {
+      const msText = state.markschemesById[q.id] || q.answer_text || "";
+      answerTextEl.textContent = msText || "No markscheme available yet.";
+      answerTextEl.hidden = false;
+    }
   }
 
   return node;
@@ -372,10 +398,17 @@ function openCompareModal(q) {
       compareMarkschemeBody.appendChild(createImageWithFallback(imgPath, `Markscheme ${q.question_number || ""} image ${index + 1}`));
     });
   } else {
-    const p = document.createElement("p");
+    const latex = state.markschemeLatexById[q.id];
+    const p = document.createElement("div");
     p.className = "compare-fallback";
-    p.textContent = state.markschemesById[q.id] || q.answer_text || "No markscheme available yet.";
-    compareMarkschemeBody.appendChild(p);
+    if (latex) {
+      p.innerHTML = latex;
+      compareMarkschemeBody.appendChild(p);
+      renderKatex(p);
+    } else {
+      p.textContent = state.markschemesById[q.id] || q.answer_text || "No markscheme available yet.";
+      compareMarkschemeBody.appendChild(p);
+    }
   }
 
   const qLabel = `${q.question_number || ""}`.trim();
