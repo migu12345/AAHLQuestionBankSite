@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="300" viewBox="0 0 1400 300">
+  <rect x="20" y="20" width="1360" height="260" rx="18" ry="18" fill="#f5f7fb" stroke="#c6cfdf" stroke-width="2"/>
+  <rect x="20" y="20" width="1360" height="54" rx="18" ry="18" fill="#e7eef9" stroke="#c6cfdf" stroke-width="2"/>
+  <text x="50" y="57" font-family="Arial, Helvetica, sans-serif" font-size="36" font-weight="700" fill="#213a6a">Markscheme answer</text>
+  <text x="70" y="110" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="700" fill="#243451">Q4</text>
+  <text x="70" y="160" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="500" fill="#1f2a44">4.</text><text x="70" y="190" font-family="Cambria Math, STIX Two Math, Times New Roman, serif" font-size="28" font-weight="500" fill="#1f2a44">(i)  Tᵣ₊₁=C(n,r)·aⁿ⁻ʳ·bʳ</text><text x="70" y="220" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="500" fill="#1f2a44">(ii)  match required power</text><text x="70" y="250" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="500" fill="#1f2a44">(iii)  substitute and simplify</text>
+</svg>

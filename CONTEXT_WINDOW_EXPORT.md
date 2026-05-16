@@ -2,95 +2,126 @@
 
 Date: 2026-05-16
 Project: `AA-HL-Question-Bank`
-Latest pushed commit: `487d2fed` (main)
 
 ## Current State
 - Biology bank: LIVE with 3299 questions from 182 papers (2016–2025).
 - Chemistry bank: LIVE with questions from 188 papers (2016–2025).
 - Physics bank: stable, existing.
-- Tutoring bank: **145 questions** — Topic 1 Number & Algebra (109 q) + Topic 2 Functions (36 q).
+- **Math/Tutoring bank: 717 questions across Topics 1–5 (HL + SL), full AA bank UI parity.**
 - User preference: **surgical fixes only**.
 - User preference: auto **commit + push** after work.
 - User preference: keep `CONTEXT_WINDOW_EXPORT.md` updated.
-- User preference: when `All levels` is selected, prioritize `SL` and suppress `HL` duplicates.
+- User preference: when `All levels` is selected, prioritize `SL` and suppress `HL` duplicates (biology/chemistry only).
 - User constraint: do not change Paper 1A / Paper 2 / Paper 3 logic when fixing unrelated issues.
 
-## Most Recent Completed Work (this session)
+## Most Recent Completed Work (2026-05-16)
 
-### Tutoring Bank — Topic 2 Functions
-- Processed `Math_SL_Functions_Equations_2023.pdf` (20 pages, 36 questions).
-- Generated 55 PNG question image crops (multi-page questions split across `_p1`, `_p2`, etc.).
-- Generated draft SVG markscheme images for all 36 questions.
-- Subtopics inferred: Composite/inverse functions (4), Quadratic functions (9), Transformations (5), Exponential/logarithmic (5), Trigonometric (4), Domain/range (1), General (8).
-- **New script**: `scripts/tutoring/build_topic2.py` — self-contained script (parse + crop + markscheme + SVG render + JSON update).
-- **UI update**: Added `Unit` filter dropdown to tutoring page (filter Topic 1 vs Topic 2).
-- **UI update**: Updated search placeholder and meta display to show unit.
-- Data files updated: `data/tutoring/processed/questions.json` (145 total), `data/tutoring/processed/markschemes.json` (145 total).
+### Math/Tutoring Bank — Full Rebuild
+- Processed **18 new PDFs** from `~/Downloads/Math/` covering Topics 1–5.
+- **717 total questions** (up from 145): 342 HL + 375 SL.
+- By topic: T1=173, T2=92, T3=59, T4=98, T5=295.
+- All questions have: `level` (HL/SL), `marks`, `paper_type` (where applicable), `subtopic`.
+- Question images (PNG) cropped from PDFs using fitz. All questions have ≥1 image.
+- Draft markscheme SVGs auto-generated for all 717 questions.
+
+### UI Upgrade — Tutoring page → AA bank feature parity
+- **`src/tutoring/index.html`** — completely rewritten to match `aa-bank.html`:
+  - Level filter, Paper Type filter, Difficulty filter, Study (saved/done) filter
+  - Topic filter (dynamic subtopics), Subtopic filter
+  - Search bar with toggle button
+  - Question cards with Save/Done buttons + Side-by-side button
+  - Compare modal (side-by-side view)
+- **`src/tutoring/app.js`** — rewritten to match `src/app.js`:
+  - localStorage saved/done state (`math_bank_user_actions_v1`)
+  - `inferLevel()`, `inferDifficulty()` (from marks + level + paper)
+  - Dynamic subtopic filtering based on selected topic
+  - Side-by-side compare modal
+  - Search supports `hl`, `sl`, `p1`, `p2`, `q4` shortcuts
+
+### New Scripts
+- `scripts/tutoring/enrich_metadata.py` — adds level/marks/paper_type to existing questions
+- `scripts/tutoring/build_all_new_pdfs.py` — processes all new PDFs from Downloads/Math
 
 ## Key Architecture
 
 ### Build Pipeline
 1. `scripts/setup_bio_chem_papers.py` → copies PDFs + writes `manual_papers.json`
-2. `python3 scripts/build_biology_bank.py` → reads `manual_papers.json`, crops PNGs, writes `questions.json`
-3. `python3 scripts/build_chemistry_bank.py` → same for chemistry
-4. `python3 scripts/tutoring/build_topic1.py` → parse Topic 1 PDFs → questions.json
-5. `python3 scripts/tutoring/generate_images.py` → crop question PNGs for Topic 1
-6. `python3 scripts/tutoring/generate_markschemes.py` → draft markschemes → markschemes.json
-7. `python3 scripts/tutoring/generate_markscheme_images.py` → SVG markscheme images
-8. `python3 scripts/tutoring/build_topic2.py` → all-in-one for Topic 2 (parse + crop + markscheme + SVG)
+2. `python3 scripts/build_biology_bank.py` → biology questions
+3. `python3 scripts/build_chemistry_bank.py` → chemistry questions
+4. `python3 scripts/tutoring/build_topic1.py` → original Topic 1 questions (legacy)
+5. `python3 scripts/tutoring/build_topic2.py` → original Topic 2 questions (legacy)
+6. `python3 scripts/tutoring/enrich_metadata.py` → adds level/marks to all questions
+7. `python3 scripts/tutoring/build_all_new_pdfs.py` → processes all new PDFs
 
-### Tutoring Source PDFs
-- Topic 1: `/Users/s933863@aics.espritscholen.nl/Documents/Tutoring Questions/Topic 1 Number and Algebra/`
-  - `Binomila Theorem.pdf`, `Math_SL_Algebra.pdf`, `Math_SL_Algebra_Exp_Log.pdf`,
-    `Topic_1_2_Algebra_Exponents_Logarithms_2023.pdf`,
-    `Topic_1_4_Algebra_Mathematical_Induction.pdf`, `Topic_1_5_Algebra_Complex_Numbers.pdf`
-- Topic 2: `/Users/s933863@aics.espritscholen.nl/Documents/Tutoring Questions/Topic 2 Functions/`
-  - `Math_SL_Functions_Equations_2023.pdf`
+### Math/Tutoring Source PDFs (~/Downloads/Math/)
+Already processed (original 145 questions):
+- Topic 1: `Binomila Theorem.pdf` (SL), `Math_SL_Algebra.pdf` (SL), `Math_SL_Algebra_Exp_Log.pdf` (SL),
+  `Topic_1_2_Algebra_Exponents_Logarithms_2023.pdf` (HL), `Topic_1_4_Algebra_Mathematical_Induction.pdf` (HL),
+  `Topic_1_5_Algebra_Complex_Numbers.pdf` (HL)
+- Topic 2: `Math_SL_Functions_Equations_2023.pdf` (SL)
 
-### manual_papers.json Entry Format
+New PDFs (572 questions added in this session):
+- Topic 1: `Topic_1_1_Algebra_Sequences_Series.pdf` (HL), `Topic_1_3_Algebra_Counting_Principles (1).pdf` (HL),
+  `Topic 1 Part 1 T.pdf` (SL)
+- Topic 2: `T2-5 T (2).pdf` (HL), `Topic 2 Part 1 T.pdf` (SL)
+- Topic 3: `Math_SL_Circular_FunctionsTrigonometry.pdf` (SL), `Topic 3 Part 1 T (1).pdf` (SL)
+- Topic 4: `Math_SL_Statistics_Probability_2022 (1).pdf` (SL), `statistics (1).pdf` (HL)
+- Topic 5: `Math_SL_Calculus_Julius (1).pdf` (SL), `Limits_derivatives (1).pdf` (HL),
+  `Topic_6_Calculus.pdf` (HL), `T6-1 T HL.pdf` (HL), `T6-2P1 T.pdf` (HL P1),
+  `T6-2P2 T.pdf` (HL P2), `T2-6 T (1).pdf` (HL), `Topic 6 Part 1 T SL.pdf` (SL)
+
+Skipped: `DP1_and_DP2_AA_HL_Course_Overview_2025_2027.pdf` (course outline, no questions),
+         `Math test Miguel (2).pdf` (personal test, not IB practice)
+
+### Tutoring Data Schema (questions.json)
 ```json
 {
-  "paperLabel": "May 2022 Biology Paper 2 TZ1 HL",
-  "session": "May",
-  "year": 2022,
-  "paperCode": "2",
-  "timezone": "TZ1",
+  "id": "t5_hl_q1",
+  "unit": "Topic 5 Calculus",
+  "topic": "Calculus",
+  "subtopic": "Integration techniques",
+  "source_file": "Topic_6_Calculus.pdf",
+  "question_number": "1",
+  "title": "Q1",
+  "question_text": "...",
+  "question_image_paths": ["images/questions/t5_hl_q1.png"],
   "level": "HL",
-  "paper_path": "resources/biology/m22/Biology_paper_2_TZ1_HL.pdf",
-  "markscheme_path": "resources/biology/m22/Biology_paper_2_TZ1_HL_markscheme.pdf"
+  "paper_type": "Paper 1",
+  "marks": 6
 }
 ```
 
 ### Image Naming
-- `bio_{session}_{paper}_{tz}_{level}_q{n}.png`
-- `chem_{session}_{paper}_{tz}_{level}_q{n}.png`
-- `t1_{stem}_q{n}.png` (tutoring Topic 1)
-- `t2_{stem}_q{n}.png` or `t2_{stem}_q{n}_p{page}.png` (tutoring Topic 2)
+- Legacy Topic 1/2: `t1_{stem}_q{n}.png`, `t2_{stem}_q{n}.png`
+- New PDFs: `{id_prefix}_q{n}.png` or `{id_prefix}_q{n}_p{page}.png`
+- Markscheme SVGs: `images/markschemes/{id}.svg`
 
-## Key Decisions Already Made
+## Key Decisions
 - Old Physics MCQ `Paper 1` → treated as `Paper 1A` equivalent.
 - Paper 1A/1 questions are 1 mark each.
 - Side-by-side markscheme overlay is required UX pattern.
 - Biology/Chemistry images served relative to `data/{subject}/processed/`.
-- Biology/Chemistry deduplication: SL preferred over HL when `All levels` selected (via `dedupeForAllLevels()`).
-- Tutoring images served same-origin (copied into Docker container via `COPY data/tutoring`).
+- Biology/Chemistry deduplication: SL preferred over HL when `All levels` selected.
+- Tutoring/Math images served same-origin (copied into Docker container).
+- Math bank uses `math_bank_user_actions_v1` localStorage key.
+- Difficulty is computed client-side from marks + level + paper type.
 
 ## Important Files
 - Physics UI: `src/physics/app.js`
 - Biology UI: `src/biology/app.js`
 - Chemistry UI: `src/chemistry/app.js`
-- Tutoring UI: `src/tutoring/app.js`, `src/tutoring/index.html`
+- Math/Tutoring UI: `src/tutoring/app.js`, `src/tutoring/index.html`
 - Styles: `src/styles.css`
 - Physics data: `data/physics/processed/questions.json`
 - Biology data: `data/biology/processed/questions.json`
 - Chemistry data: `data/chemistry/processed/questions.json`
-- Tutoring data: `data/tutoring/processed/questions.json`, `data/tutoring/processed/markschemes.json`
+- Math data: `data/tutoring/processed/questions.json` (717 q), `data/tutoring/processed/markschemes.json`
 
 ## Infra Context
 - Deploy target: Render (Docker).
 - Asset offload: Cloudflare R2 at `https://pub-f7419ca433e9434bad2f9e89e252c205.r2.dev`
   - Bio/chem images are on R2 (too large for Docker image).
-  - Tutoring images are in the Docker container (served same-origin).
+  - Math/Tutoring images are in the Docker container (served same-origin).
 - R2 upload script likely at root level (check existing scripts for physics).
 
 ## Local Run (quick)
@@ -98,4 +129,4 @@ Latest pushed commit: `487d2fed` (main)
 cd /Users/s933863@aics.espritscholen.nl/Downloads/Project/AA-HL-Question-Bank
 python3 server.py
 ```
-Then open: `http://localhost:8080`
+Then open: `http://localhost:8080/tutoring/`
