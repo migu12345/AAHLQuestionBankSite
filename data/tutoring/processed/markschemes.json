@@ -4343,6 +4343,1539 @@
       "markscheme_image_paths": [
         "images/markschemes/t1_topic_1_5_algebra_complex_numbers_q11.svg"
       ]
+    },
+    {
+      "id": "t2_math_sl_functions_equations_2023_q1",
+      "title": "Q1",
+      "source_file": "Math_SL_Functions_Equations_2023.pdf",
+      "topic": "Functions",
+      "subtopic": "Composite and inverse functions",
+      "question_number": "1",
+      "total_marks": 5,
+      "parts": [
+        {
+          "part": "a",
+          "marks": 2,
+          "prompt_excerpt": "Find (g \u00b0 f)(x). (2)",
+          "worked_steps": [
+            "(g\u2218f)(x) = g(f(x))",
+            "substitute f(x) into g"
+          ]
+        },
+        {
+          "part": "b",
+          "marks": 1,
+          "prompt_excerpt": "Write down g\u20131(x). (1)",
+          "worked_steps": [
+            "(g\u2218f)(x) = g(f(x))",
+            "substitute f(x) into g"
+          ]
+        },
+        {
+          "part": "c",
+          "marks": 5,
+          "prompt_excerpt": "Find (f \u00b0 g\u20131)(5). (2) (Total 5 marks)",
+          "worked_steps": [
+            "(g\u2218f)(x) = g(f(x))",
+            "substitute f(x) into g",
+            "simplify"
+          ]
+        }
+      ],
+      "worked_solution_text": "1.\n(a)\n  (i)  (g\u2218f)(x) = g(f(x))\n  (ii)  substitute f(x) into g\n\n(b)\n  (i)  (g\u2218f)(x) = g(f(x))\n  (ii)  substitute f(x) into g\n\n(c)\n  (i)  (g\u2218f)(x) = g(f(x))\n  (ii)  substitute f(x) into g\n  (iii)  simplify",
+      "draft": true,
+      "markscheme_image_paths": [
+        "images/markschemes/t2_math_sl_functions_equations_2023_q1.svg"
+      ]
+    },
+    {
+      "id": "t2_math_sl_functions_equations_2023_q2",
+      "title": "Q2",
+      "source_file": "Math_SL_Functions_Equations_2023.pdf",
+      "topic": "Functions",
+      "subtopic": "Quadratic functions",
+      "question_number": "2",
+      "total_marks": 7,
+      "parts": [
+        {
+          "part": "a",
+          "marks": 5,
+          "prompt_excerpt": "Find the value of k. (5)",
+          "worked_steps": [
+            "ax\u00b2+bx+c=0",
+            "\u0394=b\u00b2-4ac",
+            "x=(-b\u00b1\u221a\u0394)/(2a)",
+            "x \u2208 domain"
+          ]
+        },
+        {
+          "part": "b",
+          "marks": 2,
+          "prompt_excerpt": "The line y = p intersects the graph of f. Find all possible values of p. (2) (Total 7 marks)",
+          "worked_steps": [
+            "ax\u00b2+bx+c=0",
+            "\u0394=b\u00b2-4ac"
+          ]
+        }
+      ],
+      "worked_solution_text": "2.\n(a)\n  (i)  ax\u00b2+bx+c=0\n  (ii)  \u0394=b\u00b2-4ac\n  (iii)  x=(-b\u00b1\u221a\u0394)/(2a)\n  (iv)  x \u2208 domain\n\n(b)\n  (i)  ax\u00b2+bx+c=0\n  (ii)  \u0394=b\u00b2-4ac",
+      "draft": true,
+      "markscheme_image_paths": [
+        "images/markschemes/t2_math_sl_functions_equations_2023_q2.svg"
+      ]
+    },
+    {
+      "id": "t2_math_sl_functions_equations_2023_q3",
+      "title": "Q3",
+      "source_file": "Math_SL_Functions_Equations_2023.pdf",
+      "topic": "Functions",
+      "subtopic": "Quadratic functions",
+      "question_number": "3",
+      "total_marks": 15,
+      "parts": [
+        {
+          "part": "a",
+          "marks": 2,
+          "prompt_excerpt": "Write down f(x) in the form f(x) = \u201310(x \u2013 p)(x \u2013 q). (2)",
+          "worked_steps": [
+            "find intercepts: f(x)=0, f(0)",
+            "find vertex/turning point"
+          ]
+        },
+        {
+          "part": "b",
+          "marks": 4,
+          "prompt_excerpt": "Find another expression for f(x) in the form f(x) = \u201310(x \u2013 h)2 + k. (4)",
+          "worked_steps": [
+            "find intercepts: f(x)=0, f(0)",
+            "find vertex/turning point",
+            "note symmetry/asymptotes"
+          ]
+        },
+        {
+          "part": "c",
+          "marks": 2,
+          "prompt_excerpt": "Show that f(x) can also be written in the form f(x) = 240 + 20x \u2013 10x2. (2) A particle moves along a straight line so that its velocity, v m s\u20131, at time t seconds is given by v = ",
+          "worked_steps": [
+            "find intercepts: f(x)=0, f(0)",
+            "find vertex/turning point"
+          ]
+        },
+        {
+          "part": "d",
+          "marks": 7,
+          "prompt_excerpt": "(i) Find the value of t when the speed of the particle is greatest. (ii) Find the acceleration of the particle when its speed is zero. (7) (Total 15 marks)",
+          "worked_steps": [
+            "find intercepts: f(x)=0, f(0)",
+            "find vertex/turning point",
+            "note symmetry/asymptotes"
+          ]
+        }
+      ],
+      "worked_solution_text": "3.\n(a)\n  (i)  find intercepts: f(x)=0, f(0)\n  (ii)  find vertex/turning point\n\n(b)\n  (i)  find intercepts: f(x)=0, f(0)\n  (ii)  find vertex/turning point\n  (iii)  note symmetry/asymptotes\n\n(c)\n  (i)  find intercepts: f(x)=0, f(0)\n  (ii)  find vertex/turning point\n\n(d)\n  (i)  find intercepts: f(x)=0, f(0)\n  (ii)  find vertex/turning point\n  (iii)  note symmetry/asymptotes",
+      "draft": true,
+      "markscheme_image_paths": [
+        "images/markschemes/t2_math_sl_functions_equations_2023_q3.svg"
+      ]
+    },
+    {
+      "id": "t2_math_sl_functions_equations_2023_q4",
+      "title": "Q4",
+      "source_file": "Math_SL_Functions_Equations_2023.pdf",
+      "topic": "Functions",
+      "subtopic": "Quadratic functions",
+      "question_number": "4",
+      "total_marks": 6,
+      "parts": [
+        {
+          "part": "a",
+          "marks": 2,
+          "prompt_excerpt": "Write down the coordinates of the vertex of the graph of g. (2)",
+          "worked_steps": [
+            "f(x-h)+k: shift right h, up k",
+            "af(x): vertical stretch a"
+          ]
+        },
+        {
+          "part": "b",
+          "marks": 2,
+          "prompt_excerpt": "Express g in the form g(x) = 3(x \u2013 p)2 + q. (2) The graph of h is the reflection of the graph of g in the x-axis.",
+          "worked_steps": [
+            "f(x-h)+k: shift right h, up k",
+            "af(x): vertical stretch a"
+          ]
+        },
+        {
+          "part": "c",
+          "marks": 2,
+          "prompt_excerpt": "Write down the coordinates of the vertex of the graph of h. (2) (Total 6 marks)",
+          "worked_steps": [
+            "f(x-h)+k: shift right h, up k",
+            "af(x): vertical stretch a"
+          ]
+        }
+      ],
+      "worked_solution_text": "4.\n(a)\n  (i)  f(x-h)+k: shift right h, up k\n  (ii)  af(x): vertical stretch a\n\n(b)\n  (i)  f(x-h)+k: shift right h, up k\n  (ii)  af(x): vertical stretch a\n\n(c)\n  (i)  f(x-h)+k: shift right h, up k\n  (ii)  af(x): vertical stretch a",
+      "draft": true,
+      "markscheme_image_paths": [
+        "images/markschemes/t2_math_sl_functions_equations_2023_q4.svg"
+      ]
+    },
+    {
+      "id": "t2_math_sl_functions_equations_2023_q5",
+      "title": "Q5",
+      "source_file": "Math_SL_Functions_Equations_2023.pdf",
+      "topic": "Functions",
+      "subtopic": "Functions and equations",
+      "question_number": "5",
+      "total_marks": 5,
+      "parts": [
+        {
+          "part": "a",
+          "marks": 2,
+          "prompt_excerpt": "Find h(x). (2)",
+          "worked_steps": [
+            "(g\u2218f)(x) = g(f(x))",
+            "substitute f(x) into g"
+          ]
+        },
+        {
+          "part": "b",
+          "marks": 3,
+          "prompt_excerpt": "Find h\u20131(x). (3) (Total 5 marks)",
+          "worked_steps": [
+            "(g\u2218f)(x) = g(f(x))",
+            "substitute f(x) into g",
+            "simplify"
+          ]
+        }
+      ],
+      "worked_solution_text": "5.\n(a)\n  (i)  (g\u2218f)(x) = g(f(x))\n  (ii)  substitute f(x) into g\n\n(b)\n  (i)  (g\u2218f)(x) = g(f(x))\n  (ii)  substitute f(x) into g\n  (iii)  simplify",
+      "draft": true,
+      "markscheme_image_paths": [
+        "images/markschemes/t2_math_sl_functions_equations_2023_q5.svg"
+      ]
+    },
+    {
+      "id": "t2_math_sl_functions_equations_2023_q6",
+      "title": "Q6",
+      "source_file": "Math_SL_Functions_Equations_2023.pdf",
+      "topic": "Functions",
+      "subtopic": "Trigonometric functions",
+      "question_number": "6",
+      "total_marks": 6,
+      "parts": [
+        {
+          "part": "a",
+          "marks": 4,
+          "prompt_excerpt": "Sketch the graph of g on the following set of axes. (4)",
+          "worked_steps": [
+            "find intercepts: f(x)=0, f(0)",
+            "find vertex/turning point",
+            "note symmetry/asymptotes"
+          ]
+        },
+        {
+          "part": "b",
+          "marks": 2,
+          "prompt_excerpt": "Hence find the value of x for which g(x) = \u20131. (2) (Total 6 marks)",
+          "worked_steps": [
+            "find intercepts: f(x)=0, f(0)",
+            "find vertex/turning point"
+          ]
+        }
+      ],
+      "worked_solution_text": "6.\n(a)\n  (i)  find intercepts: f(x)=0, f(0)\n  (ii)  find vertex/turning point\n  (iii)  note symmetry/asymptotes\n\n(b)\n  (i)  find intercepts: f(x)=0, f(0)\n  (ii)  find vertex/turning point",
+      "draft": true,
+      "markscheme_image_paths": [
+        "images/markschemes/t2_math_sl_functions_equations_2023_q6.svg"
+      ]
+    },
+    {
+      "id": "t2_math_sl_functions_equations_2023_q7",
+      "title": "Q7",
+      "source_file": "Math_SL_Functions_Equations_2023.pdf",
+      "topic": "Functions",
+      "subtopic": "Quadratic functions",
+      "question_number": "7",
+      "total_marks": 7,
+      "parts": [
+        {
+          "part": "a",
+          "marks": 4,
+          "prompt_excerpt": "Find the x-intercepts of the graph. (4)",
+          "worked_steps": [
+            "find intercepts: f(x)=0, f(0)",
+            "find vertex/turning point",
+            "note symmetry/asymptotes"
+          ]
+        },
+        {
+          "part": "b",
+          "marks": 3,
+          "prompt_excerpt": "(i) Write down the equation of the axis of symmetry. (ii) Find the y-coordinate of the vertex. (3) (Total 7 marks)",
+          "worked_steps": [
+            "find intercepts: f(x)=0, f(0)",
+            "find vertex/turning point",
+            "note symmetry/asymptotes"
+          ]
+        }
+      ],
+      "worked_solution_text": "7.\n(a)\n  (i)  find intercepts: f(x)=0, f(0)\n  (ii)  find vertex/turning point\n  (iii)  note symmetry/asymptotes\n\n(b)\n  (i)  find intercepts: f(x)=0, f(0)\n  (ii)  find vertex/turning point\n  (iii)  note symmetry/asymptotes",
+      "draft": true,
+      "markscheme_image_paths": [
+        "images/markschemes/t2_math_sl_functions_equations_2023_q7.svg"
+      ]
+    },
+    {
+      "id": "t2_math_sl_functions_equations_2023_q8",
+      "title": "Q8",
+      "source_file": "Math_SL_Functions_Equations_2023.pdf",
+      "topic": "Functions",
+      "subtopic": "Transformations of functions",
+      "question_number": "8",
+      "total_marks": 14,
+      "parts": [
+        {
+          "part": "a",
+          "marks": 8,
+          "prompt_excerpt": "Find the coordinates of A. (8)",
+          "worked_steps": [
+            "f(x-h)+k: shift right h, up k",
+            "af(x): vertical stretch a",
+            "f(bx): horizontal stretch 1/b"
+          ]
+        },
+        {
+          "part": "b",
+          "marks": 6,
+          "prompt_excerpt": "Write down the coordinates of (i) the image of B after reflection in the y-axis; (ii) the image of B after translation by the vector \uf0f7\uf0f7 \uf0f8 \uf0f6 \uf0e7\uf0e7 \uf0e8 \uf0e6 \u2212 5 2 ; (iii) the image of B afte",
+          "worked_steps": [
+            "f(x-h)+k: shift right h, up k",
+            "af(x): vertical stretch a",
+            "f(bx): horizontal stretch 1/b"
+          ]
+        }
+      ],
+      "worked_solution_text": "8.\n(a)\n  (i)  f(x-h)+k: shift right h, up k\n  (ii)  af(x): vertical stretch a\n  (iii)  f(bx): horizontal stretch 1/b\n\n(b)\n  (i)  f(x-h)+k: shift right h, up k\n  (ii)  af(x): vertical stretch a\n  (iii)  f(bx): horizontal stretch 1/b",
+      "draft": true,
+      "markscheme_image_paths": [
+        "images/markschemes/t2_math_sl_functions_equations_2023_q8.svg"
+      ]
+    },
+    {
+      "id": "t2_math_sl_functions_equations_2023_q9",
+      "title": "Q9",
+      "source_file": "Math_SL_Functions_Equations_2023.pdf",
+      "topic": "Functions",
+      "subtopic": "Functions and equations",
+      "question_number": "9",
+      "total_marks": 6,
+      "parts": [
+        {
+          "part": "a",
+          "marks": 2,
+          "prompt_excerpt": "Write down the value of q and of r. (2)",
+          "worked_steps": [
+            "find intercepts: f(x)=0, f(0)",
+            "find vertex/turning point"
+          ]
+        },
+        {
+          "part": "b",
+          "marks": 1,
+          "prompt_excerpt": "Write down the equation of the axis of symmetry. (1)",
+          "worked_steps": [
+            "find intercepts: f(x)=0, f(0)",
+            "find vertex/turning point"
+          ]
+        },
+        {
+          "part": "c",
+          "marks": 3,
+          "prompt_excerpt": "Find the value of p. (3) (Total 6 marks)",
+          "worked_steps": [
+            "find intercepts: f(x)=0, f(0)",
+            "find vertex/turning point",
+            "note symmetry/asymptotes"
+          ]
+        }
+      ],
+      "worked_solution_text": "9.\n(a)\n  (i)  find intercepts: f(x)=0, f(0)\n  (ii)  find vertex/turning point\n\n(b)\n  (i)  find intercepts: f(x)=0, f(0)\n  (ii)  find vertex/turning point\n\n(c)\n  (i)  find intercepts: f(x)=0, f(0)\n  (ii)  find vertex/turning point\n  (iii)  note symmetry/asymptotes",
+      "draft": true,
+      "markscheme_image_paths": [
+        "images/markschemes/t2_math_sl_functions_equations_2023_q9.svg"
+      ]
+    },
+    {
+      "id": "t2_math_sl_functions_equations_2023_q10",
+      "title": "Q10",
+      "source_file": "Math_SL_Functions_Equations_2023.pdf",
+      "topic": "Functions",
+      "subtopic": "Composite and inverse functions",
+      "question_number": "10",
+      "total_marks": 7,
+      "parts": [
+        {
+          "part": "a",
+          "marks": 2,
+          "prompt_excerpt": "Find \uf0f7 \uf0f8 \uf0f6\uf0e7 \uf0e8 \uf0e6 2 \u03c0f . (2)",
+          "worked_steps": [
+            "(g\u2218f)(x) = g(f(x))",
+            "substitute f(x) into g"
+          ]
+        },
+        {
+          "part": "b",
+          "marks": 2,
+          "prompt_excerpt": "Find (g \u00b0 f) \uf0f7 \uf0f8 \uf0f6\uf0e7 \uf0e8 \uf0e6 2 \u03c0 . (2)",
+          "worked_steps": [
+            "(g\u2218f)(x) = g(f(x))",
+            "substitute f(x) into g"
+          ]
+        },
+        {
+          "part": "c",
+          "marks": 3,
+          "prompt_excerpt": "Given that (g \u00b0 f)(x) can be written as cos (kx), find the value of k, k \uf0ce . (3) (Total 7 marks)",
+          "worked_steps": [
+            "(g\u2218f)(x) = g(f(x))",
+            "substitute f(x) into g",
+            "simplify"
+          ]
+        }
+      ],
+      "worked_solution_text": "10.\n(a)\n  (i)  (g\u2218f)(x) = g(f(x))\n  (ii)  substitute f(x) into g\n\n(b)\n  (i)  (g\u2218f)(x) = g(f(x))\n  (ii)  substitute f(x) into g\n\n(c)\n  (i)  (g\u2218f)(x) = g(f(x))\n  (ii)  substitute f(x) into g\n  (iii)  simplify",
+      "draft": true,
+      "markscheme_image_paths": [
+        "images/markschemes/t2_math_sl_functions_equations_2023_q10.svg"
+      ]
+    },
+    {
+      "id": "t2_math_sl_functions_equations_2023_q11",
+      "title": "Q11",
+      "source_file": "Math_SL_Functions_Equations_2023.pdf",
+      "topic": "Functions",
+      "subtopic": "Transformations of functions",
+      "question_number": "11",
+      "total_marks": 17,
+      "parts": [
+        {
+          "part": "a",
+          "marks": 5,
+          "prompt_excerpt": "Solve for 0 \u2264 x < 2\u03c0. (i) 6 + 6sin x = 6; (ii) 6 + 6 sin x = 0. (5)",
+          "worked_steps": [
+            "ax\u00b2+bx+c=0",
+            "\u0394=b\u00b2-4ac",
+            "x=(-b\u00b1\u221a\u0394)/(2a)",
+            "x \u2208 domain"
+          ]
+        },
+        {
+          "part": "b",
+          "marks": 1,
+          "prompt_excerpt": "Write down the exact value of the x-intercept of f, for 0 \u2264 x < 2. (1)",
+          "worked_steps": [
+            "ax\u00b2+bx+c=0",
+            "\u0394=b\u00b2-4ac"
+          ]
+        },
+        {
+          "part": "c",
+          "marks": 6,
+          "prompt_excerpt": "The area of the shaded region is k. Find the value of k, giving your answer in terms of \u03c0. (6) Let g(x) = 6 + 6sin \uf0f7 \uf0f8 \uf0f6\uf0e7 \uf0e8 \uf0e6 \u2212 2 \u03c0x . The graph of f is transformed to the graph of",
+          "worked_steps": [
+            "ax\u00b2+bx+c=0",
+            "\u0394=b\u00b2-4ac",
+            "x=(-b\u00b1\u221a\u0394)/(2a)",
+            "x \u2208 domain"
+          ]
+        },
+        {
+          "part": "d",
+          "marks": 2,
+          "prompt_excerpt": "Give a full geometric description of this transformation. (2)",
+          "worked_steps": [
+            "ax\u00b2+bx+c=0",
+            "\u0394=b\u00b2-4ac"
+          ]
+        },
+        {
+          "part": "e",
+          "marks": 3,
+          "prompt_excerpt": "Given that \uf0f2 + 2 \u03c03 d)( p p xxg = k and 0 \u2264 p < 2\u03c0, write down the two values of p. (3) (Total 17 marks)",
+          "worked_steps": [
+            "ax\u00b2+bx+c=0",
+            "\u0394=b\u00b2-4ac",
+            "x=(-b\u00b1\u221a\u0394)/(2a)",
+            "x \u2208 domain"
+          ]
+        }
+      ],
+      "worked_solution_text": "11.\n(a)\n  (i)  ax\u00b2+bx+c=0\n  (ii)  \u0394=b\u00b2-4ac\n  (iii)  x=(-b\u00b1\u221a\u0394)/(2a)\n  (iv)  x \u2208 domain\n\n(b)\n  (i)  ax\u00b2+bx+c=0\n  (ii)  \u0394=b\u00b2-4ac\n\n(c)\n  (i)  ax\u00b2+bx+c=0\n  (ii)  \u0394=b\u00b2-4ac\n  (iii)  x=(-b\u00b1\u221a\u0394)/(2a)\n  (iv)  x \u2208 domain\n\n(d)\n  (i)  ax\u00b2+bx+c=0\n  (ii)  \u0394=b\u00b2-4ac\n\n(e)\n  (i)  ax\u00b2+bx+c=0\n  (ii)  \u0394=b\u00b2-4ac\n  (iii)  x=(-b\u00b1\u221a\u0394)/(2a)\n  (iv)  x \u2208 domain",
+      "draft": true,
+      "markscheme_image_paths": [
+        "images/markschemes/t2_math_sl_functions_equations_2023_q11.svg"
+      ]
+    },
+    {
+      "id": "t2_math_sl_functions_equations_2023_q12",
+      "title": "Q12",
+      "source_file": "Math_SL_Functions_Equations_2023.pdf",
+      "topic": "Functions",
+      "subtopic": "Trigonometric functions",
+      "question_number": "12",
+      "total_marks": 7,
+      "parts": [
+        {
+          "part": "a",
+          "marks": 3,
+          "prompt_excerpt": "On the diagram above, sketch the graph of g. (3)",
+          "worked_steps": [
+            "ax\u00b2+bx+c=0",
+            "\u0394=b\u00b2-4ac",
+            "x=(-b\u00b1\u221a\u0394)/(2a)",
+            "x \u2208 domain"
+          ]
+        },
+        {
+          "part": "b",
+          "marks": 2,
+          "prompt_excerpt": "Solve f(x) = g(x). (2)",
+          "worked_steps": [
+            "ax\u00b2+bx+c=0",
+            "\u0394=b\u00b2-4ac"
+          ]
+        },
+        {
+          "part": "c",
+          "marks": 2,
+          "prompt_excerpt": "Write down the set of values of x such that f(x) > g(x). (2) (Total 7 marks)",
+          "worked_steps": [
+            "ax\u00b2+bx+c=0",
+            "\u0394=b\u00b2-4ac"
+          ]
+        }
+      ],
+      "worked_solution_text": "12.\n(a)\n  (i)  ax\u00b2+bx+c=0\n  (ii)  \u0394=b\u00b2-4ac\n  (iii)  x=(-b\u00b1\u221a\u0394)/(2a)\n  (iv)  x \u2208 domain\n\n(b)\n  (i)  ax\u00b2+bx+c=0\n  (ii)  \u0394=b\u00b2-4ac\n\n(c)\n  (i)  ax\u00b2+bx+c=0\n  (ii)  \u0394=b\u00b2-4ac",
+      "draft": true,
+      "markscheme_image_paths": [
+        "images/markschemes/t2_math_sl_functions_equations_2023_q12.svg"
+      ]
+    },
+    {
+      "id": "t2_math_sl_functions_equations_2023_q13",
+      "title": "Q13",
+      "source_file": "Math_SL_Functions_Equations_2023.pdf",
+      "topic": "Functions",
+      "subtopic": "Exponential and logarithmic functions",
+      "question_number": "13",
+      "total_marks": 8,
+      "parts": [
+        {
+          "part": "a",
+          "marks": 2,
+          "prompt_excerpt": "Find the value of n when t = 0. (2)",
+          "worked_steps": [
+            "equation setup",
+            "algebra simplify"
+          ]
+        },
+        {
+          "part": "b",
+          "marks": 2,
+          "prompt_excerpt": "Find the rate at which n is increasing when t = 15. (2)",
+          "worked_steps": [
+            "equation setup",
+            "algebra simplify"
+          ]
+        },
+        {
+          "part": "c",
+          "marks": 4,
+          "prompt_excerpt": "After k minutes, the rate of increase in n is greater than 10 000 bacteria per minute. Find the least value of k, where k \uf0ce . (4) (Total 8 marks)",
+          "worked_steps": [
+            "equation setup",
+            "algebra simplify",
+            "check domain/restriction"
+          ]
+        }
+      ],
+      "worked_solution_text": "13.\n(a)\n  (i)  equation setup\n  (ii)  algebra simplify\n\n(b)\n  (i)  equation setup\n  (ii)  algebra simplify\n\n(c)\n  (i)  equation setup\n  (ii)  algebra simplify\n  (iii)  check domain/restriction",
+      "draft": true,
+      "markscheme_image_paths": [
+        "images/markschemes/t2_math_sl_functions_equations_2023_q13.svg"
+      ]
+    },
+    {
+      "id": "t2_math_sl_functions_equations_2023_q14",
+      "title": "Q14",
+      "source_file": "Math_SL_Functions_Equations_2023.pdf",
+      "topic": "Functions",
+      "subtopic": "Exponential and logarithmic functions",
+      "question_number": "14",
+      "total_marks": 14,
+      "parts": [
+        {
+          "part": "a",
+          "marks": 5,
+          "prompt_excerpt": "Let P and Q be points on the curve of f where the tangent to the graph of f is parallel to the x-axis. (i) Find the x-coordinate of P and of Q. (ii) Consider f(x) = k. Write down a",
+          "worked_steps": [
+            "log(ab)=loga+logb",
+            "log(a\u1d4f)=kloga",
+            "log\u2090x=y \u21d4 a\u02b8=x",
+            "argument>0"
+          ]
+        },
+        {
+          "part": "b",
+          "marks": 4,
+          "prompt_excerpt": "Show that g\u2032(x) = )4ln(3 4 2 22 2 4 xx x x \u2212+ \u2212 \u2212 . (4)",
+          "worked_steps": [
+            "log(ab)=loga+logb",
+            "log(a\u1d4f)=kloga",
+            "log\u2090x=y \u21d4 a\u02b8=x",
+            "argument>0"
+          ]
+        },
+        {
+          "part": "c",
+          "marks": 2,
+          "prompt_excerpt": "Sketch the graph of g\u2032. (2)",
+          "worked_steps": [
+            "log(ab)=loga+logb",
+            "log(a\u1d4f)=kloga"
+          ]
+        },
+        {
+          "part": "d",
+          "marks": 3,
+          "prompt_excerpt": "Consider g\u2032(x) = w. Write down all values of w for which there are exactly two solutions. (3) (Total 14 marks)",
+          "worked_steps": [
+            "log(ab)=loga+logb",
+            "log(a\u1d4f)=kloga",
+            "log\u2090x=y \u21d4 a\u02b8=x",
+            "argument>0"
+          ]
+        }
+      ],
+      "worked_solution_text": "14.\n(a)\n  (i)  log(ab)=loga+logb\n  (ii)  log(a\u1d4f)=kloga\n  (iii)  log\u2090x=y \u21d4 a\u02b8=x\n  (iv)  argument>0\n\n(b)\n  (i)  log(ab)=loga+logb\n  (ii)  log(a\u1d4f)=kloga\n  (iii)  log\u2090x=y \u21d4 a\u02b8=x\n  (iv)  argument>0\n\n(c)\n  (i)  log(ab)=loga+logb\n  (ii)  log(a\u1d4f)=kloga\n\n(d)\n  (i)  log(ab)=loga+logb\n  (ii)  log(a\u1d4f)=kloga\n  (iii)  log\u2090x=y \u21d4 a\u02b8=x\n  (iv)  argument>0",
+      "draft": true,
+      "markscheme_image_paths": [
+        "images/markschemes/t2_math_sl_functions_equations_2023_q14.svg"
+      ]
+    },
+    {
+      "id": "t2_math_sl_functions_equations_2023_q15",
+      "title": "Q15",
+      "source_file": "Math_SL_Functions_Equations_2023.pdf",
+      "topic": "Functions",
+      "subtopic": "Quadratic functions",
+      "question_number": "15",
+      "total_marks": 12,
+      "parts": [
+        {
+          "part": "a",
+          "marks": 2,
+          "prompt_excerpt": "Find (f \u00b0 g)(x). (2) The vector \uf0f7\uf0f7 \uf0f8 \uf0f6 \uf0e7\uf0e7 \uf0e8 \uf0e6 \u22121 3 translates the graph of (f \u00b0 g) to the graph of h.",
+          "worked_steps": [
+            "(g\u2218f)(x) = g(f(x))",
+            "substitute f(x) into g"
+          ]
+        },
+        {
+          "part": "b",
+          "marks": 3,
+          "prompt_excerpt": "Find the coordinates of the vertex of the graph of h. (3)",
+          "worked_steps": [
+            "(g\u2218f)(x) = g(f(x))",
+            "substitute f(x) into g",
+            "simplify"
+          ]
+        },
+        {
+          "part": "c",
+          "marks": 2,
+          "prompt_excerpt": "Show that h(x) = x2 \u2013 8x + 19. (2)",
+          "worked_steps": [
+            "(g\u2218f)(x) = g(f(x))",
+            "substitute f(x) into g"
+          ]
+        },
+        {
+          "part": "d",
+          "marks": 5,
+          "prompt_excerpt": "The line y = 2x \u2013 6 is a tangent to the graph of h at the point P. Find the x-coordinate of P. (5) (Total 12 marks)",
+          "worked_steps": [
+            "(g\u2218f)(x) = g(f(x))",
+            "substitute f(x) into g",
+            "simplify"
+          ]
+        }
+      ],
+      "worked_solution_text": "15.\n(a)\n  (i)  (g\u2218f)(x) = g(f(x))\n  (ii)  substitute f(x) into g\n\n(b)\n  (i)  (g\u2218f)(x) = g(f(x))\n  (ii)  substitute f(x) into g\n  (iii)  simplify\n\n(c)\n  (i)  (g\u2218f)(x) = g(f(x))\n  (ii)  substitute f(x) into g\n\n(d)\n  (i)  (g\u2218f)(x) = g(f(x))\n  (ii)  substitute f(x) into g\n  (iii)  simplify",
+      "draft": true,
+      "markscheme_image_paths": [
+        "images/markschemes/t2_math_sl_functions_equations_2023_q15.svg"
+      ]
+    },
+    {
+      "id": "t2_math_sl_functions_equations_2023_q16",
+      "title": "Q16",
+      "source_file": "Math_SL_Functions_Equations_2023.pdf",
+      "topic": "Functions",
+      "subtopic": "Transformations of functions",
+      "question_number": "16",
+      "total_marks": 6,
+      "parts": [
+        {
+          "part": "a",
+          "marks": 2,
+          "prompt_excerpt": "The graph of g can be obtained from the graph of f using two transformations. Give a full geometric description of each of the two transformations. (2)",
+          "worked_steps": [
+            "f(x-h)+k: shift right h, up k",
+            "af(x): vertical stretch a"
+          ]
+        },
+        {
+          "part": "b",
+          "marks": 4,
+          "prompt_excerpt": "The graph of g is translated by the vector \uf0f7\uf0f7 \uf0f8 \uf0f6 \uf0e7\uf0e7 \uf0e8 \uf0e6 \u2212 2 3 to give the graph of h. The point (\u20131, 1) on the graph of f is translated to the point P on the graph of h. Find the ",
+          "worked_steps": [
+            "f(x-h)+k: shift right h, up k",
+            "af(x): vertical stretch a",
+            "f(bx): horizontal stretch 1/b"
+          ]
+        }
+      ],
+      "worked_solution_text": "16.\n(a)\n  (i)  f(x-h)+k: shift right h, up k\n  (ii)  af(x): vertical stretch a\n\n(b)\n  (i)  f(x-h)+k: shift right h, up k\n  (ii)  af(x): vertical stretch a\n  (iii)  f(bx): horizontal stretch 1/b",
+      "draft": true,
+      "markscheme_image_paths": [
+        "images/markschemes/t2_math_sl_functions_equations_2023_q16.svg"
+      ]
+    },
+    {
+      "id": "t2_math_sl_functions_equations_2023_q17",
+      "title": "Q17",
+      "source_file": "Math_SL_Functions_Equations_2023.pdf",
+      "topic": "Functions",
+      "subtopic": "Exponential and logarithmic functions",
+      "question_number": "17",
+      "total_marks": 7,
+      "parts": [
+        {
+          "part": "a",
+          "marks": 3,
+          "prompt_excerpt": "(i) Show that f\u20131(x) = ln x \u2013 3. (ii) Write down the domain of f\u20131. (3)",
+          "worked_steps": [
+            "ax\u00b2+bx+c=0",
+            "\u0394=b\u00b2-4ac",
+            "x=(-b\u00b1\u221a\u0394)/(2a)",
+            "x \u2208 domain"
+          ]
+        },
+        {
+          "part": "b",
+          "marks": 4,
+          "prompt_excerpt": "Solve the equation f\u20131(x) = \uf0f7 \uf0f8 \uf0f6\uf0e7 \uf0e8 \uf0e6 x 1ln . (4) (Total 7 marks)",
+          "worked_steps": [
+            "ax\u00b2+bx+c=0",
+            "\u0394=b\u00b2-4ac",
+            "x=(-b\u00b1\u221a\u0394)/(2a)",
+            "x \u2208 domain"
+          ]
+        }
+      ],
+      "worked_solution_text": "17.\n(a)\n  (i)  ax\u00b2+bx+c=0\n  (ii)  \u0394=b\u00b2-4ac\n  (iii)  x=(-b\u00b1\u221a\u0394)/(2a)\n  (iv)  x \u2208 domain\n\n(b)\n  (i)  ax\u00b2+bx+c=0\n  (ii)  \u0394=b\u00b2-4ac\n  (iii)  x=(-b\u00b1\u221a\u0394)/(2a)\n  (iv)  x \u2208 domain",
+      "draft": true,
+      "markscheme_image_paths": [
+        "images/markschemes/t2_math_sl_functions_equations_2023_q17.svg"
+      ]
+    },
+    {
+      "id": "t2_math_sl_functions_equations_2023_q18",
+      "title": "Q18",
+      "source_file": "Math_SL_Functions_Equations_2023.pdf",
+      "topic": "Functions",
+      "subtopic": "Functions and equations",
+      "question_number": "18",
+      "total_marks": 5,
+      "parts": [
+        {
+          "part": "a",
+          "marks": 2,
+          "prompt_excerpt": "Find g\u20131(x). (2)",
+          "worked_steps": [
+            "(g\u2218f)(x) = g(f(x))",
+            "substitute f(x) into g"
+          ]
+        },
+        {
+          "part": "b",
+          "marks": 4,
+          "prompt_excerpt": "Find (f \u00b0 g)(4). (3) (Total 5 marks)",
+          "worked_steps": [
+            "(g\u2218f)(x) = g(f(x))",
+            "substitute f(x) into g",
+            "simplify"
+          ]
+        }
+      ],
+      "worked_solution_text": "18.\n(a)\n  (i)  (g\u2218f)(x) = g(f(x))\n  (ii)  substitute f(x) into g\n\n(b)\n  (i)  (g\u2218f)(x) = g(f(x))\n  (ii)  substitute f(x) into g\n  (iii)  simplify",
+      "draft": true,
+      "markscheme_image_paths": [
+        "images/markschemes/t2_math_sl_functions_equations_2023_q18.svg"
+      ]
+    },
+    {
+      "id": "t2_math_sl_functions_equations_2023_q19",
+      "title": "Q19",
+      "source_file": "Math_SL_Functions_Equations_2023.pdf",
+      "topic": "Functions",
+      "subtopic": "Composite and inverse functions",
+      "question_number": "19",
+      "total_marks": 6,
+      "parts": [
+        {
+          "part": "a",
+          "marks": 3,
+          "prompt_excerpt": "Find an expression for h(x). (3)",
+          "worked_steps": [
+            "(g\u2218f)(x) = g(f(x))",
+            "substitute f(x) into g",
+            "simplify"
+          ]
+        },
+        {
+          "part": "b",
+          "marks": 1,
+          "prompt_excerpt": "Write down the period of h. (1)",
+          "worked_steps": [
+            "(g\u2218f)(x) = g(f(x))",
+            "substitute f(x) into g"
+          ]
+        },
+        {
+          "part": "c",
+          "marks": 2,
+          "prompt_excerpt": "Write down the range of h. (2) (Total 6 marks)",
+          "worked_steps": [
+            "(g\u2218f)(x) = g(f(x))",
+            "substitute f(x) into g"
+          ]
+        }
+      ],
+      "worked_solution_text": "19.\n(a)\n  (i)  (g\u2218f)(x) = g(f(x))\n  (ii)  substitute f(x) into g\n  (iii)  simplify\n\n(b)\n  (i)  (g\u2218f)(x) = g(f(x))\n  (ii)  substitute f(x) into g\n\n(c)\n  (i)  (g\u2218f)(x) = g(f(x))\n  (ii)  substitute f(x) into g",
+      "draft": true,
+      "markscheme_image_paths": [
+        "images/markschemes/t2_math_sl_functions_equations_2023_q19.svg"
+      ]
+    },
+    {
+      "id": "t2_math_sl_functions_equations_2023_q20",
+      "title": "Q20",
+      "source_file": "Math_SL_Functions_Equations_2023.pdf",
+      "topic": "Functions",
+      "subtopic": "Quadratic functions",
+      "question_number": "20",
+      "total_marks": 7,
+      "parts": [
+        {
+          "part": "a",
+          "marks": 5,
+          "prompt_excerpt": "Find the possible values of k. (5)",
+          "worked_steps": [
+            "equation setup",
+            "algebra simplify",
+            "check domain/restriction"
+          ]
+        },
+        {
+          "part": "b",
+          "marks": 2,
+          "prompt_excerpt": "Write down the values of k for which x2 + (k \u2013 3)x + k = 0 has two equal real roots. (2) (Total 7 marks)",
+          "worked_steps": [
+            "equation setup",
+            "algebra simplify"
+          ]
+        }
+      ],
+      "worked_solution_text": "20.\n(a)\n  (i)  equation setup\n  (ii)  algebra simplify\n  (iii)  check domain/restriction\n\n(b)\n  (i)  equation setup\n  (ii)  algebra simplify",
+      "draft": true,
+      "markscheme_image_paths": [
+        "images/markschemes/t2_math_sl_functions_equations_2023_q20.svg"
+      ]
+    },
+    {
+      "id": "t2_math_sl_functions_equations_2023_q21",
+      "title": "Q21",
+      "source_file": "Math_SL_Functions_Equations_2023.pdf",
+      "topic": "Functions",
+      "subtopic": "Functions and equations",
+      "question_number": "21",
+      "total_marks": 8,
+      "parts": [
+        {
+          "part": "a",
+          "marks": 0,
+          "prompt_excerpt": "(i) Find g(0). (ii) Find (f \u00b0 g)(0). (5)",
+          "worked_steps": [
+            "(g\u2218f)(x) = g(f(x))",
+            "substitute f(x) into g"
+          ]
+        },
+        {
+          "part": "b",
+          "marks": 0,
+          "prompt_excerpt": "Find f\u20131(x). (3) (Total 8 marks)",
+          "worked_steps": [
+            "(g\u2218f)(x) = g(f(x))",
+            "substitute f(x) into g"
+          ]
+        }
+      ],
+      "worked_solution_text": "21.\n(a)\n  (i)  (g\u2218f)(x) = g(f(x))\n  (ii)  substitute f(x) into g\n\n(b)\n  (i)  (g\u2218f)(x) = g(f(x))\n  (ii)  substitute f(x) into g",
+      "draft": true,
+      "markscheme_image_paths": [
+        "images/markschemes/t2_math_sl_functions_equations_2023_q21.svg"
+      ]
+    },
+    {
+      "id": "t2_math_sl_functions_equations_2023_q22",
+      "title": "Q22",
+      "source_file": "Math_SL_Functions_Equations_2023.pdf",
+      "topic": "Functions",
+      "subtopic": "Trigonometric functions",
+      "question_number": "22",
+      "total_marks": 15,
+      "parts": [
+        {
+          "part": "a",
+          "marks": 3,
+          "prompt_excerpt": "On the same diagram, sketch the graphs of f and g. (3)",
+          "worked_steps": [
+            "\u222bx\u207fdx=x\u207f\u207a\u00b9/(n+1)+C",
+            "\u222be\u02e3dx=e\u02e3+C",
+            "evaluate bounds"
+          ]
+        },
+        {
+          "part": "b",
+          "marks": 4,
+          "prompt_excerpt": "Consider the graph of f. Write down (i) the x-intercept that lies between x = 0 and x =3; (ii) the period; (iii) the amplitude. (4)",
+          "worked_steps": [
+            "\u222bx\u207fdx=x\u207f\u207a\u00b9/(n+1)+C",
+            "\u222be\u02e3dx=e\u02e3+C",
+            "evaluate bounds"
+          ]
+        },
+        {
+          "part": "c",
+          "marks": 3,
+          "prompt_excerpt": "Consider the graph of g. Write down (i) the two x-intercepts; (ii) the equation of the axis of symmetry. (3)",
+          "worked_steps": [
+            "\u222bx\u207fdx=x\u207f\u207a\u00b9/(n+1)+C",
+            "\u222be\u02e3dx=e\u02e3+C",
+            "evaluate bounds"
+          ]
+        },
+        {
+          "part": "d",
+          "marks": 5,
+          "prompt_excerpt": "Let R be the region enclosed by the graphs of f and g. Find the area of R. (5) (Total 15 marks)",
+          "worked_steps": [
+            "\u222bx\u207fdx=x\u207f\u207a\u00b9/(n+1)+C",
+            "\u222be\u02e3dx=e\u02e3+C",
+            "evaluate bounds"
+          ]
+        }
+      ],
+      "worked_solution_text": "22.\n(a)\n  (i)  \u222bx\u207fdx=x\u207f\u207a\u00b9/(n+1)+C\n  (ii)  \u222be\u02e3dx=e\u02e3+C\n  (iii)  evaluate bounds\n\n(b)\n  (i)  \u222bx\u207fdx=x\u207f\u207a\u00b9/(n+1)+C\n  (ii)  \u222be\u02e3dx=e\u02e3+C\n  (iii)  evaluate bounds\n\n(c)\n  (i)  \u222bx\u207fdx=x\u207f\u207a\u00b9/(n+1)+C\n  (ii)  \u222be\u02e3dx=e\u02e3+C\n  (iii)  evaluate bounds\n\n(d)\n  (i)  \u222bx\u207fdx=x\u207f\u207a\u00b9/(n+1)+C\n  (ii)  \u222be\u02e3dx=e\u02e3+C\n  (iii)  evaluate bounds",
+      "draft": true,
+      "markscheme_image_paths": [
+        "images/markschemes/t2_math_sl_functions_equations_2023_q22.svg"
+      ]
+    },
+    {
+      "id": "t2_math_sl_functions_equations_2023_q23",
+      "title": "Q23",
+      "source_file": "Math_SL_Functions_Equations_2023.pdf",
+      "topic": "Functions",
+      "subtopic": "Quadratic functions",
+      "question_number": "23",
+      "total_marks": 15,
+      "parts": [
+        {
+          "part": "a",
+          "marks": 2,
+          "prompt_excerpt": "Show that f (x) = 3x2 + 6x \u2013 9. (2)",
+          "worked_steps": [
+            "f(x-h)+k: shift right h, up k",
+            "af(x): vertical stretch a"
+          ]
+        },
+        {
+          "part": "b",
+          "marks": 8,
+          "prompt_excerpt": "For the graph of f (i) write down the coordinates of the vertex; (ii) write down the equation of the axis of symmetry; (iii) write down the y-intercept; (iv) find both x-intercepts",
+          "worked_steps": [
+            "f(x-h)+k: shift right h, up k",
+            "af(x): vertical stretch a",
+            "f(bx): horizontal stretch 1/b"
+          ]
+        },
+        {
+          "part": "c",
+          "marks": 2,
+          "prompt_excerpt": "Hence sketch the graph of f. (2)",
+          "worked_steps": [
+            "f(x-h)+k: shift right h, up k",
+            "af(x): vertical stretch a"
+          ]
+        },
+        {
+          "part": "d",
+          "marks": 3,
+          "prompt_excerpt": "Let g (x) = x2. The graph of f may be obtained from the graph of g by the two transformations: a stretch of scale factor t in the y-direction followed by a translation of .\uf0f7\uf0f7 \uf0f8 \uf0f6 \uf0e7",
+          "worked_steps": [
+            "f(x-h)+k: shift right h, up k",
+            "af(x): vertical stretch a",
+            "f(bx): horizontal stretch 1/b"
+          ]
+        }
+      ],
+      "worked_solution_text": "23.\n(a)\n  (i)  f(x-h)+k: shift right h, up k\n  (ii)  af(x): vertical stretch a\n\n(b)\n  (i)  f(x-h)+k: shift right h, up k\n  (ii)  af(x): vertical stretch a\n  (iii)  f(bx): horizontal stretch 1/b\n\n(c)\n  (i)  f(x-h)+k: shift right h, up k\n  (ii)  af(x): vertical stretch a\n\n(d)\n  (i)  f(x-h)+k: shift right h, up k\n  (ii)  af(x): vertical stretch a\n  (iii)  f(bx): horizontal stretch 1/b",
+      "draft": true,
+      "markscheme_image_paths": [
+        "images/markschemes/t2_math_sl_functions_equations_2023_q23.svg"
+      ]
+    },
+    {
+      "id": "t2_math_sl_functions_equations_2023_q24",
+      "title": "Q24",
+      "source_file": "Math_SL_Functions_Equations_2023.pdf",
+      "topic": "Functions",
+      "subtopic": "Quadratic functions",
+      "question_number": "24",
+      "total_marks": 6,
+      "parts": [
+        {
+          "part": "a",
+          "marks": 4,
+          "prompt_excerpt": "Find both x-intercepts. (4)",
+          "worked_steps": [
+            "find intercepts: f(x)=0, f(0)",
+            "find vertex/turning point",
+            "note symmetry/asymptotes"
+          ]
+        },
+        {
+          "part": "b",
+          "marks": 2,
+          "prompt_excerpt": "Find the x-coordinate of the vertex. (2) (Total 6 marks)",
+          "worked_steps": [
+            "find intercepts: f(x)=0, f(0)",
+            "find vertex/turning point"
+          ]
+        }
+      ],
+      "worked_solution_text": "24.\n(a)\n  (i)  find intercepts: f(x)=0, f(0)\n  (ii)  find vertex/turning point\n  (iii)  note symmetry/asymptotes\n\n(b)\n  (i)  find intercepts: f(x)=0, f(0)\n  (ii)  find vertex/turning point",
+      "draft": true,
+      "markscheme_image_paths": [
+        "images/markschemes/t2_math_sl_functions_equations_2023_q24.svg"
+      ]
+    },
+    {
+      "id": "t2_math_sl_functions_equations_2023_q25",
+      "title": "Q25",
+      "source_file": "Math_SL_Functions_Equations_2023.pdf",
+      "topic": "Functions",
+      "subtopic": "Transformations of functions",
+      "question_number": "25",
+      "total_marks": 6,
+      "parts": [
+        {
+          "part": "a",
+          "marks": 2,
+          "prompt_excerpt": "On the same diagram sketch the graph of y = \u2212 f (x). (2)",
+          "worked_steps": [
+            "f(x-h)+k: shift right h, up k",
+            "af(x): vertical stretch a"
+          ]
+        },
+        {
+          "part": "b",
+          "marks": 4,
+          "prompt_excerpt": "Let g (x) = f (x + 3). (i) Find g (\u22123). (ii) Describe fully the transformation that maps the graph of f to the graph of g. (4) (Total 6 marks)",
+          "worked_steps": [
+            "f(x-h)+k: shift right h, up k",
+            "af(x): vertical stretch a",
+            "f(bx): horizontal stretch 1/b"
+          ]
+        }
+      ],
+      "worked_solution_text": "25.\n(a)\n  (i)  f(x-h)+k: shift right h, up k\n  (ii)  af(x): vertical stretch a\n\n(b)\n  (i)  f(x-h)+k: shift right h, up k\n  (ii)  af(x): vertical stretch a\n  (iii)  f(bx): horizontal stretch 1/b",
+      "draft": true,
+      "markscheme_image_paths": [
+        "images/markschemes/t2_math_sl_functions_equations_2023_q25.svg"
+      ]
+    },
+    {
+      "id": "t2_math_sl_functions_equations_2023_q26",
+      "title": "Q26",
+      "source_file": "Math_SL_Functions_Equations_2023.pdf",
+      "topic": "Functions",
+      "subtopic": "Functions and equations",
+      "question_number": "26",
+      "total_marks": 17,
+      "parts": [
+        {
+          "part": "a",
+          "marks": 6,
+          "prompt_excerpt": "(i) Find the number of taxis in the city at the end of 2005. (ii) Find the year in which the number of taxis is double the number of taxis there were at the end of 2000. (6)",
+          "worked_steps": [
+            "equation setup",
+            "algebra simplify",
+            "check domain/restriction"
+          ]
+        },
+        {
+          "part": "b",
+          "marks": 6,
+          "prompt_excerpt": "At the end of 2000 there were 25 600 people in the city who used taxis. After n years the number of people, P, in the city who used taxis is given by P = . e9010 0005602 0.1\u2013 n+ (i",
+          "worked_steps": [
+            "equation setup",
+            "algebra simplify",
+            "check domain/restriction"
+          ]
+        },
+        {
+          "part": "c",
+          "marks": 5,
+          "prompt_excerpt": "Let R be the ratio of the number of people using taxis in the city to the number of taxis. The city will reduce the number of taxis if R \uf03c 70. (i) Find the value of R at the end of",
+          "worked_steps": [
+            "equation setup",
+            "algebra simplify",
+            "check domain/restriction"
+          ]
+        }
+      ],
+      "worked_solution_text": "26.\n(a)\n  (i)  equation setup\n  (ii)  algebra simplify\n  (iii)  check domain/restriction\n\n(b)\n  (i)  equation setup\n  (ii)  algebra simplify\n  (iii)  check domain/restriction\n\n(c)\n  (i)  equation setup\n  (ii)  algebra simplify\n  (iii)  check domain/restriction",
+      "draft": true,
+      "markscheme_image_paths": [
+        "images/markschemes/t2_math_sl_functions_equations_2023_q26.svg"
+      ]
+    },
+    {
+      "id": "t2_math_sl_functions_equations_2023_q27",
+      "title": "Q27",
+      "source_file": "Math_SL_Functions_Equations_2023.pdf",
+      "topic": "Functions",
+      "subtopic": "Transformations of functions",
+      "question_number": "27",
+      "total_marks": 16,
+      "parts": [
+        {
+          "part": "a",
+          "marks": 7,
+          "prompt_excerpt": "(i) Find the value of a. (ii) Show that b = 6 \u03c0 . (iii) Find the value of d. (iv) Write down a value for c. (7) The transformation P is given by a horizontal stretch of a scale fac",
+          "worked_steps": [
+            "f(x-h)+k: shift right h, up k",
+            "af(x): vertical stretch a",
+            "f(bx): horizontal stretch 1/b"
+          ]
+        },
+        {
+          "part": "b",
+          "marks": 2,
+          "prompt_excerpt": "Let M\u2032 be the image of M under P. Find the coordinates of M\u2032. (2) The graph of g is the image of the graph of f under P.",
+          "worked_steps": [
+            "f(x-h)+k: shift right h, up k",
+            "af(x): vertical stretch a"
+          ]
+        },
+        {
+          "part": "c",
+          "marks": 4,
+          "prompt_excerpt": "Find g(t) in the form g(t) = 7 cos B(t \u2013 C) + D. (4)",
+          "worked_steps": [
+            "f(x-h)+k: shift right h, up k",
+            "af(x): vertical stretch a",
+            "f(bx): horizontal stretch 1/b"
+          ]
+        },
+        {
+          "part": "d",
+          "marks": 3,
+          "prompt_excerpt": "Give a full geometric description of the transformation that maps the graph of g to the graph of f. (3) (Total 16 marks)",
+          "worked_steps": [
+            "f(x-h)+k: shift right h, up k",
+            "af(x): vertical stretch a",
+            "f(bx): horizontal stretch 1/b"
+          ]
+        }
+      ],
+      "worked_solution_text": "27.\n(a)\n  (i)  f(x-h)+k: shift right h, up k\n  (ii)  af(x): vertical stretch a\n  (iii)  f(bx): horizontal stretch 1/b\n\n(b)\n  (i)  f(x-h)+k: shift right h, up k\n  (ii)  af(x): vertical stretch a\n\n(c)\n  (i)  f(x-h)+k: shift right h, up k\n  (ii)  af(x): vertical stretch a\n  (iii)  f(bx): horizontal stretch 1/b\n\n(d)\n  (i)  f(x-h)+k: shift right h, up k\n  (ii)  af(x): vertical stretch a\n  (iii)  f(bx): horizontal stretch 1/b",
+      "draft": true,
+      "markscheme_image_paths": [
+        "images/markschemes/t2_math_sl_functions_equations_2023_q27.svg"
+      ]
+    },
+    {
+      "id": "t2_math_sl_functions_equations_2023_q28",
+      "title": "Q28",
+      "source_file": "Math_SL_Functions_Equations_2023.pdf",
+      "topic": "Functions",
+      "subtopic": "Functions and equations",
+      "question_number": "28",
+      "total_marks": 6,
+      "parts": [
+        {
+          "part": "a",
+          "marks": 3,
+          "prompt_excerpt": "Express f(x) in the form f(x) = 2(x \u2013 h)2 + k. (3)",
+          "worked_steps": [
+            "find intercepts: f(x)=0, f(0)",
+            "find vertex/turning point",
+            "note symmetry/asymptotes"
+          ]
+        },
+        {
+          "part": "b",
+          "marks": 1,
+          "prompt_excerpt": "Write down the equation of the axis of symmetry of the graph of f. (1)",
+          "worked_steps": [
+            "find intercepts: f(x)=0, f(0)",
+            "find vertex/turning point"
+          ]
+        },
+        {
+          "part": "c",
+          "marks": 2,
+          "prompt_excerpt": "Express f(x) in the form f(x) = 2(x \u2013 p)(x \u2013 q). (2) (Total 6 marks)",
+          "worked_steps": [
+            "find intercepts: f(x)=0, f(0)",
+            "find vertex/turning point"
+          ]
+        }
+      ],
+      "worked_solution_text": "28.\n(a)\n  (i)  find intercepts: f(x)=0, f(0)\n  (ii)  find vertex/turning point\n  (iii)  note symmetry/asymptotes\n\n(b)\n  (i)  find intercepts: f(x)=0, f(0)\n  (ii)  find vertex/turning point\n\n(c)\n  (i)  find intercepts: f(x)=0, f(0)\n  (ii)  find vertex/turning point",
+      "draft": true,
+      "markscheme_image_paths": [
+        "images/markschemes/t2_math_sl_functions_equations_2023_q28.svg"
+      ]
+    },
+    {
+      "id": "t2_math_sl_functions_equations_2023_q29",
+      "title": "Q29",
+      "source_file": "Math_SL_Functions_Equations_2023.pdf",
+      "topic": "Functions",
+      "subtopic": "Trigonometric functions",
+      "question_number": "29",
+      "total_marks": 8,
+      "parts": [
+        {
+          "part": "a",
+          "marks": 3,
+          "prompt_excerpt": "Sketch the graph of f on the following set of axes. (3)",
+          "worked_steps": [
+            "(g\u2218f)(x) = g(f(x))",
+            "substitute f(x) into g",
+            "simplify"
+          ]
+        },
+        {
+          "part": "b",
+          "marks": 1,
+          "prompt_excerpt": "The graph of f intersects the x-axis when x = a, a \u2260 0. Write down the value of a. (1)",
+          "worked_steps": [
+            "(g\u2218f)(x) = g(f(x))",
+            "substitute f(x) into g"
+          ]
+        },
+        {
+          "part": "c",
+          "marks": 4,
+          "prompt_excerpt": "The graph of f is revolved 360\u00b0 about the x-axis from x = 0 to x = a. Find the volume of the solid formed. (4) (Total 8 marks)",
+          "worked_steps": [
+            "(g\u2218f)(x) = g(f(x))",
+            "substitute f(x) into g",
+            "simplify"
+          ]
+        }
+      ],
+      "worked_solution_text": "29.\n(a)\n  (i)  (g\u2218f)(x) = g(f(x))\n  (ii)  substitute f(x) into g\n  (iii)  simplify\n\n(b)\n  (i)  (g\u2218f)(x) = g(f(x))\n  (ii)  substitute f(x) into g\n\n(c)\n  (i)  (g\u2218f)(x) = g(f(x))\n  (ii)  substitute f(x) into g\n  (iii)  simplify",
+      "draft": true,
+      "markscheme_image_paths": [
+        "images/markschemes/t2_math_sl_functions_equations_2023_q29.svg"
+      ]
+    },
+    {
+      "id": "t2_math_sl_functions_equations_2023_q30",
+      "title": "Q30",
+      "source_file": "Math_SL_Functions_Equations_2023.pdf",
+      "topic": "Functions",
+      "subtopic": "Composite and inverse functions",
+      "question_number": "30",
+      "total_marks": 7,
+      "parts": [
+        {
+          "part": "a",
+          "marks": 11,
+          "prompt_excerpt": "Find (i) f(11); (ii) f(86); (iii) f(5). (3)",
+          "worked_steps": [
+            "(g\u2218f)(x) = g(f(x))",
+            "substitute f(x) into g",
+            "simplify"
+          ]
+        },
+        {
+          "part": "b",
+          "marks": 86,
+          "prompt_excerpt": "Find the values of x for which f is undefined. (2)",
+          "worked_steps": [
+            "(g\u2218f)(x) = g(f(x))",
+            "substitute f(x) into g",
+            "simplify"
+          ]
+        },
+        {
+          "part": "c",
+          "marks": 5,
+          "prompt_excerpt": "Let g(x) = x2. Find (g \u00b0 f)(x). (2) (Total 7 marks)",
+          "worked_steps": [
+            "(g\u2218f)(x) = g(f(x))",
+            "substitute f(x) into g",
+            "simplify"
+          ]
+        }
+      ],
+      "worked_solution_text": "30.\n(a)\n  (i)  (g\u2218f)(x) = g(f(x))\n  (ii)  substitute f(x) into g\n  (iii)  simplify\n\n(b)\n  (i)  (g\u2218f)(x) = g(f(x))\n  (ii)  substitute f(x) into g\n  (iii)  simplify\n\n(c)\n  (i)  (g\u2218f)(x) = g(f(x))\n  (ii)  substitute f(x) into g\n  (iii)  simplify",
+      "draft": true,
+      "markscheme_image_paths": [
+        "images/markschemes/t2_math_sl_functions_equations_2023_q30.svg"
+      ]
+    },
+    {
+      "id": "t2_math_sl_functions_equations_2023_q31",
+      "title": "Q31",
+      "source_file": "Math_SL_Functions_Equations_2023.pdf",
+      "topic": "Functions",
+      "subtopic": "Quadratic functions",
+      "question_number": "31",
+      "total_marks": 6,
+      "parts": [
+        {
+          "part": "a",
+          "marks": 3,
+          "prompt_excerpt": "Write f in the form f(x) = 3(x \u2013 h)2 \u2013 k. (3)",
+          "worked_steps": [
+            "f(x-h)+k: shift right h, up k",
+            "af(x): vertical stretch a",
+            "f(bx): horizontal stretch 1/b"
+          ]
+        },
+        {
+          "part": "b",
+          "marks": 3,
+          "prompt_excerpt": "The graph of f is translated 3 units in the positive x-direction and 5 units in the positive y-direction. Find the function g for the translated graph, giving your answer in the fo",
+          "worked_steps": [
+            "f(x-h)+k: shift right h, up k",
+            "af(x): vertical stretch a",
+            "f(bx): horizontal stretch 1/b"
+          ]
+        }
+      ],
+      "worked_solution_text": "31.\n(a)\n  (i)  f(x-h)+k: shift right h, up k\n  (ii)  af(x): vertical stretch a\n  (iii)  f(bx): horizontal stretch 1/b\n\n(b)\n  (i)  f(x-h)+k: shift right h, up k\n  (ii)  af(x): vertical stretch a\n  (iii)  f(bx): horizontal stretch 1/b",
+      "draft": true,
+      "markscheme_image_paths": [
+        "images/markschemes/t2_math_sl_functions_equations_2023_q31.svg"
+      ]
+    },
+    {
+      "id": "t2_math_sl_functions_equations_2023_q32",
+      "title": "Q32",
+      "source_file": "Math_SL_Functions_Equations_2023.pdf",
+      "topic": "Functions",
+      "subtopic": "Domain, range and asymptotes",
+      "question_number": "32",
+      "total_marks": 6,
+      "parts": [
+        {
+          "part": "a",
+          "marks": 2,
+          "prompt_excerpt": "On the grid below, sketch the graph of f. (2)",
+          "worked_steps": [
+            "set domain: exclude values where undefined",
+            "range: consider shape/asymptotes"
+          ]
+        },
+        {
+          "part": "b",
+          "marks": 2,
+          "prompt_excerpt": "Write down the equation of each vertical asymptote. (2)",
+          "worked_steps": [
+            "set domain: exclude values where undefined",
+            "range: consider shape/asymptotes"
+          ]
+        },
+        {
+          "part": "c",
+          "marks": 2,
+          "prompt_excerpt": "Write down the range of the function f. (2) (Total 6 marks)",
+          "worked_steps": [
+            "set domain: exclude values where undefined",
+            "range: consider shape/asymptotes"
+          ]
+        }
+      ],
+      "worked_solution_text": "32.\n(a)\n  (i)  set domain: exclude values where undefined\n  (ii)  range: consider shape/asymptotes\n\n(b)\n  (i)  set domain: exclude values where undefined\n  (ii)  range: consider shape/asymptotes\n\n(c)\n  (i)  set domain: exclude values where undefined\n  (ii)  range: consider shape/asymptotes",
+      "draft": true,
+      "markscheme_image_paths": [
+        "images/markschemes/t2_math_sl_functions_equations_2023_q32.svg"
+      ]
+    },
+    {
+      "id": "t2_math_sl_functions_equations_2023_q33",
+      "title": "Q33",
+      "source_file": "Math_SL_Functions_Equations_2023.pdf",
+      "topic": "Functions",
+      "subtopic": "Functions and equations",
+      "question_number": "33",
+      "total_marks": 6,
+      "parts": [
+        {
+          "part": "a",
+          "marks": 2,
+          "prompt_excerpt": "Find an expression for (f \u00b0 g)(x). (2)",
+          "worked_steps": [
+            "(g\u2218f)(x) = g(f(x))",
+            "substitute f(x) into g"
+          ]
+        },
+        {
+          "part": "b",
+          "marks": 18,
+          "prompt_excerpt": "Find f\u20131(18) + g\u20131(18). (4) (Total 6 marks)",
+          "worked_steps": [
+            "(g\u2218f)(x) = g(f(x))",
+            "substitute f(x) into g",
+            "simplify"
+          ]
+        }
+      ],
+      "worked_solution_text": "33.\n(a)\n  (i)  (g\u2218f)(x) = g(f(x))\n  (ii)  substitute f(x) into g\n\n(b)\n  (i)  (g\u2218f)(x) = g(f(x))\n  (ii)  substitute f(x) into g\n  (iii)  simplify",
+      "draft": true,
+      "markscheme_image_paths": [
+        "images/markschemes/t2_math_sl_functions_equations_2023_q33.svg"
+      ]
+    },
+    {
+      "id": "t2_math_sl_functions_equations_2023_q34",
+      "title": "Q34",
+      "source_file": "Math_SL_Functions_Equations_2023.pdf",
+      "topic": "Functions",
+      "subtopic": "Functions and equations",
+      "question_number": "34",
+      "total_marks": 6,
+      "parts": [
+        {
+          "part": "a",
+          "marks": 3,
+          "prompt_excerpt": "Given that (2x)2 + (2x) \u221212 can be written as (2x + a)(2x + b), where a, b \uf0ce , find the value of a and of b.",
+          "worked_steps": [
+            "equation setup",
+            "algebra simplify",
+            "check domain/restriction"
+          ]
+        },
+        {
+          "part": "b",
+          "marks": 3,
+          "prompt_excerpt": "Hence find the exact solution of the equation (2x)2 + (2x) \u221212 = 0, and explain why there is only one solution. (Total 6 marks)",
+          "worked_steps": [
+            "equation setup",
+            "algebra simplify",
+            "check domain/restriction"
+          ]
+        }
+      ],
+      "worked_solution_text": "34.\n(a)\n  (i)  equation setup\n  (ii)  algebra simplify\n  (iii)  check domain/restriction\n\n(b)\n  (i)  equation setup\n  (ii)  algebra simplify\n  (iii)  check domain/restriction",
+      "draft": true,
+      "markscheme_image_paths": [
+        "images/markschemes/t2_math_sl_functions_equations_2023_q34.svg"
+      ]
+    },
+    {
+      "id": "t2_math_sl_functions_equations_2023_q35",
+      "title": "Q35",
+      "source_file": "Math_SL_Functions_Equations_2023.pdf",
+      "topic": "Functions",
+      "subtopic": "Exponential and logarithmic functions",
+      "question_number": "35",
+      "total_marks": 6,
+      "parts": [
+        {
+          "part": "a",
+          "marks": 3,
+          "prompt_excerpt": "Write down the population at the end of 1973.",
+          "worked_steps": [
+            "equation setup",
+            "algebra simplify",
+            "check domain/restriction"
+          ]
+        },
+        {
+          "part": "b",
+          "marks": 3,
+          "prompt_excerpt": "Find the population at the end of 2002. (Total 6 marks)",
+          "worked_steps": [
+            "equation setup",
+            "algebra simplify",
+            "check domain/restriction"
+          ]
+        }
+      ],
+      "worked_solution_text": "35.\n(a)\n  (i)  equation setup\n  (ii)  algebra simplify\n  (iii)  check domain/restriction\n\n(b)\n  (i)  equation setup\n  (ii)  algebra simplify\n  (iii)  check domain/restriction",
+      "draft": true,
+      "markscheme_image_paths": [
+        "images/markschemes/t2_math_sl_functions_equations_2023_q35.svg"
+      ]
+    },
+    {
+      "id": "t2_math_sl_functions_equations_2023_q36",
+      "title": "Q36",
+      "source_file": "Math_SL_Functions_Equations_2023.pdf",
+      "topic": "Functions",
+      "subtopic": "Exponential and logarithmic functions",
+      "question_number": "36",
+      "total_marks": 6,
+      "parts": [
+        {
+          "part": "a",
+          "marks": 4,
+          "prompt_excerpt": "Show that k = 0.2. (4)",
+          "worked_steps": [
+            "\u222bx\u207fdx=x\u207f\u207a\u00b9/(n+1)+C",
+            "\u222be\u02e3dx=e\u02e3+C",
+            "evaluate bounds"
+          ]
+        },
+        {
+          "part": "b",
+          "marks": 2,
+          "prompt_excerpt": "Given that A0 = e 1 , find the value of t when 100 km2 are affected. (2) (Total 6 marks)",
+          "worked_steps": [
+            "\u222bx\u207fdx=x\u207f\u207a\u00b9/(n+1)+C",
+            "\u222be\u02e3dx=e\u02e3+C"
+          ]
+        }
+      ],
+      "worked_solution_text": "36.\n(a)\n  (i)  \u222bx\u207fdx=x\u207f\u207a\u00b9/(n+1)+C\n  (ii)  \u222be\u02e3dx=e\u02e3+C\n  (iii)  evaluate bounds\n\n(b)\n  (i)  \u222bx\u207fdx=x\u207f\u207a\u00b9/(n+1)+C\n  (ii)  \u222be\u02e3dx=e\u02e3+C",
+      "draft": true,
+      "markscheme_image_paths": [
+        "images/markschemes/t2_math_sl_functions_equations_2023_q36.svg"
+      ]
     }
   ]
 }

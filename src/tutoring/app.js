@@ -8,6 +8,7 @@ const state = {
 const PAGE_SIZE = 10;
 
 const searchTutorInput = document.getElementById("searchTutorInput");
+const unitFilter = document.getElementById("unitFilter");
 const subtopicFilter = document.getElementById("subtopicFilter");
 const sourceFilter = document.getElementById("sourceFilter");
 const tutorCount = document.getElementById("tutorCount");
@@ -35,8 +36,16 @@ async function loadData() {
 }
 
 function hydrateFilters() {
+  const units = [...new Set(state.allQuestions.map((q) => q.unit).filter(Boolean))].sort();
   const subtopics = [...new Set(state.allQuestions.map((q) => q.subtopic).filter(Boolean))].sort();
   const sources = [...new Set(state.allQuestions.map((q) => q.source_file).filter(Boolean))].sort();
+
+  units.forEach((unit) => {
+    const option = document.createElement("option");
+    option.value = unit;
+    option.textContent = unit;
+    unitFilter.appendChild(option);
+  });
 
   subtopics.forEach((subtopic) => {
     const option = document.createElement("option");
@@ -81,7 +90,7 @@ function matchesSearchQuery(q, rawQuery) {
 
   const tokens = query.split(/\s+/).filter(Boolean);
   const normalizedHaystack = normalizeForSearch(
-    [q.title, q.question_text, q.source_file, q.topic, q.subtopic, q.question_number].join(" ")
+    [q.title, q.question_text, q.source_file, q.unit, q.topic, q.subtopic, q.question_number].join(" ")
   );
 
   return tokens.every((token) => matchesSearchToken(q, token, normalizedHaystack));
@@ -89,14 +98,16 @@ function matchesSearchQuery(q, rawQuery) {
 
 function filteredQuestions() {
   const searchTerm = searchTutorInput.value.trim();
+  const unit = unitFilter.value;
   const subtopic = subtopicFilter.value;
   const source = sourceFilter.value;
 
   return state.allQuestions.filter((q) => {
+    const unitMatch = !unit || q.unit === unit;
     const subtopicMatch = !subtopic || q.subtopic === subtopic;
     const sourceMatch = !source || q.source_file === source;
     const searchMatch = matchesSearchQuery(q, searchTerm);
-    return subtopicMatch && sourceMatch && searchMatch;
+    return unitMatch && subtopicMatch && sourceMatch && searchMatch;
   });
 }
 
@@ -128,7 +139,7 @@ function buildTutorNode(q) {
   const markschemeImagesEl = node.querySelector(".markscheme-images");
   const questionTextEl = node.querySelector(".question");
   const markschemeTextEl = node.querySelector(".answer");
-  node.querySelector(".meta").textContent = `${q.topic} | ${q.subtopic} | ${q.source_file}`;
+  node.querySelector(".meta").textContent = `${q.unit || q.topic} | ${q.subtopic} | ${q.source_file}`;
   node.querySelector(".title").textContent = `${q.title || "Question"} (${q.source_file || "Unknown file"})`;
 
   const qImages = Array.isArray(q.question_image_paths) ? q.question_image_paths : [];
@@ -196,6 +207,7 @@ function render(reset = true) {
 
 function bindEvents() {
   searchTutorInput.addEventListener("input", () => render(true));
+  unitFilter.addEventListener("change", () => render(true));
   subtopicFilter.addEventListener("change", () => render(true));
   sourceFilter.addEventListener("change", () => render(true));
   tutorLoadMoreBtn.addEventListener("click", () => render(false));
