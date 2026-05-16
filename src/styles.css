@@ -836,19 +836,46 @@ button:hover {
   gap: 0.65rem;
 }
 
-.ms-solution { line-height: 1.7; }
-.ms-solution p { margin: 0.3rem 0; }
-.ms-solution hr { border: none; border-top: 1px solid var(--line-strong); margin: 0.7rem 0; }
-.ms-mark {
-  display: inline-block;
-  margin-left: 0.5rem;
-  font-size: 0.75rem;
+.ms-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.95rem;
+  line-height: 1.8;
+}
+.ms-table td {
+  padding: 0.15rem 0.4rem;
+  vertical-align: top;
+}
+.ms-qnum {
   font-weight: 700;
-  color: #fff;
-  background: #2563eb;
-  border-radius: 3px;
-  padding: 0 5px;
-  vertical-align: middle;
+  white-space: nowrap;
+  width: 2rem;
+}
+.ms-part {
+  white-space: nowrap;
+  width: 2.5rem;
+}
+.ms-subpart {
+  white-space: nowrap;
+  width: 2.5rem;
+  color: #555;
+}
+.ms-content {
+  width: 100%;
+}
+.ms-mark {
+  white-space: nowrap;
+  font-weight: 700;
+  font-style: italic;
+  text-align: right;
+  padding-left: 1.5rem;
+}
+.ms-total {
+  text-align: right;
+  font-style: italic;
+  font-size: 0.88rem;
+  padding-top: 0.2rem;
+  color: #444;
 }
 
 .question-images img,
