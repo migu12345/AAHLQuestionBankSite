@@ -82,10 +82,9 @@
         }
       ],
       "worked_solution_text": "2.\n(a)\n  (i)  Tᵣ₊₁=C(n,r)·a^(n-r)·b^r\n  (ii)  match power: n-r=k or r=k\n  (iii)  substitute r\n  (iv)  simplify\n  (v)  (x + 2)⁴ = 16 + 32x + 24x² + 8x³ + x⁴\n  (vi)  Answer: 16 + 32x + 24x² + 8x³ + x⁴\n\n(b)\n  (i)  Tᵣ₊₁=C(n,r)·a^(n-r)·b^r\n  (ii)  match power: n-r=k or r=k\n  (iii)  substitute r\n  (iv)  simplify\n  (v)  T = C(4,2)·2²·x²\n  (vi)  T = 24x²\n  (7)  Answer: 24x²",
-      "draft": true,
-      "markscheme_image_paths": [
-        "images/markschemes/t1_binomila_theorem_q2.svg"
-      ]
+      "draft": false,
+      "markscheme_image_paths": [],
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>2.</td><td class='ms-part'>(a)</td><td class='ms-content'>\\((2+x)^4 = 1 \\cdot 2^4 + 4 \\cdot 2^3 x + 6 \\cdot 2^2 x^2 + 4 \\cdot 2 x^3 + x^4\\)</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(= 16 + 32x + 24x^2 + 8x^3 + x^4\\)</td><td class='ms-mark'>A1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(b)</td><td class='ms-content'>Using expansion from (a), term in \\(x^2\\) is \\(24x^2\\)</td><td class='ms-mark'>M1A1A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[6 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t1_binomila_theorem_q3",
@@ -109,10 +108,9 @@
         }
       ],
       "worked_solution_text": "3.\n(a)\n  (i)  Tᵣ₊₁=C(n,r)·a^(n-r)·b^r\n  (ii)  match power: n-r=k or r=k\n  (iii)  substitute r\n  (iv)  simplify",
-      "draft": true,
-      "markscheme_image_paths": [
-        "images/markschemes/t1_binomila_theorem_q3.svg"
-      ]
+      "draft": false,
+      "markscheme_image_paths": [],
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>3.</td><td class='ms-part'></td><td class='ms-content'>\\(T_{r+1} = \\dbinom{5}{r}(3x^2)^{5-r}\\!\\left(-\\tfrac{2}{x}\\right)^{\\!r} = \\dbinom{5}{r} 3^{5-r}(-2)^r\\, x^{10-3r}\\)</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>For \\(x^4\\colon\\quad 10 - 3r = 4 \\implies r = 2\\)</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(T_3 = \\dbinom{5}{2} \\cdot 27 \\cdot 4\\, x^4 = 10 \\cdot 108\\, x^4 = 1080x^4\\)</td><td class='ms-mark'>A1A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[6 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t1_binomila_theorem_q4",
@@ -156,10 +154,9 @@
         }
       ],
       "worked_solution_text": "4.\n(a)\n  (i)  Tᵣ₊₁=C(n,r)·a^(n-r)·b^r\n  (ii)  match power: n-r=k or r=k\n  (iii)  substitute r\n\n(b)\n  (i)  Tᵣ₊₁=C(n,r)·a^(n-r)·b^r\n  (ii)  match power: n-r=k or r=k\n  (iii)  substitute r\n\n(c)\n  (i)  Tᵣ₊₁=C(n,r)·a^(n-r)·b^r\n  (ii)  match power: n-r=k or r=k\n  (iii)  substitute r\n  (iv)  simplify",
-      "draft": true,
-      "markscheme_image_paths": [
-        "images/markschemes/t1_binomila_theorem_q4.svg"
-      ]
+      "draft": false,
+      "markscheme_image_paths": [],
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>4.</td><td class='ms-part'>(a)</td><td class='ms-content'>\\(n = 10\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(b)</td><td class='ms-content'>\\(a = p,\\quad b = 2q\\)</td><td class='ms-mark'>A1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(c)</td><td class='ms-content'>\\(T_6 = \\dbinom{10}{5}\\,p^5\\,(2q)^5\\)</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(= 252 \\times 32\\,p^5 q^5 = 8064\\,p^5 q^5\\)</td><td class='ms-mark'>A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[6 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t1_binomila_theorem_q5",
@@ -226,10 +223,9 @@
         }
       ],
       "worked_solution_text": "5.\n(a)\n  (i)  LHS = ...\n  (ii)  = ...\n  (iii)  = RHS\n\n(b)\n  (i)  LHS = ...\n  (ii)  = ...\n  (iii)  = RHS\n  (iv)  ∴ proved\n  (v)  Answer: 3x2 – 4\n\n(c)\n  (i)  LHS = ...\n  (ii)  = ...\n  (iii)  = RHS\n  (iv)  ∴ proved\n\n(d)\n  (i)  LHS = ...\n  (ii)  = ...\n  (iii)  = RHS\n  (iv)  ∴ proved\n\n(e)\n  (i)  LHS = ...\n  (ii)  = ...\n  (iii)  = RHS",
-      "draft": true,
-      "markscheme_image_paths": [
-        "images/markschemes/t1_binomila_theorem_q5.svg"
-      ]
+      "draft": false,
+      "markscheme_image_paths": [],
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>5.</td><td class='ms-part'>(a)</td><td class='ms-content'>\\((x+h)^3 = x^3 + 3x^2h + 3xh^2 + h^3\\)</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(b)</td><td class='ms-content'>\\(f'(x) = \\lim_{h\\to 0}\\dfrac{f(x+h)-f(x)}{h} = \\lim_{h\\to 0}\\dfrac{3x^2h + 3xh^2 + h^3 - 4h}{h}\\)</td><td class='ms-mark'>M1M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(= \\lim_{h\\to 0}(3x^2 + 3xh + h^2 - 4) = 3x^2 - 4\\quad\\blacksquare\\)</td><td class='ms-mark'>A1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(c)</td><td class='ms-content'>\\(f'(1) = -1\\). Solve \\(3x^2 - 4 = -1 \\implies x^2 = 1 \\implies x = -1\\) (at Q)</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(f(-1) = -1 + 4 + 1 = 4\\), so \\(Q = (-1,\\, 4)\\)</td><td class='ms-mark'>A1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(d)</td><td class='ms-content'>\\(f'(x) < 0 \\implies 3x^2 < 4 \\implies -\\tfrac{2}{\\sqrt{3}} < x < \\tfrac{2}{\\sqrt{3}}\\)</td><td class='ms-mark'>M1A1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(e)</td><td class='ms-content'>Minimum gradient \\(= f'\\!\\left(\\pm\\tfrac{2}{\\sqrt{3}}\\right) = -4\\), so gradient \\(\\geq -4\\)</td><td class='ms-mark'>A1A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[15 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t1_binomila_theorem_q6",
@@ -253,10 +249,9 @@
         }
       ],
       "worked_solution_text": "6.\n(a)\n  (i)  Tᵣ₊₁=C(n,r)·a^(n-r)·b^r\n  (ii)  match power: n-r=k or r=k\n  (iii)  substitute r\n  (iv)  simplify",
-      "draft": true,
-      "markscheme_image_paths": [
-        "images/markschemes/t1_binomila_theorem_q6.svg"
-      ]
+      "draft": false,
+      "markscheme_image_paths": [],
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>6.</td><td class='ms-part'></td><td class='ms-content'>\\(T_{r+1} = \\dbinom{8}{r} x^{8-r}\\!\\left(-\\tfrac{3}{2}\\right)^{\\!r}\\)</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>For \\(x^3\\colon\\quad 8 - r = 3 \\implies r = 5\\)</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(T_6 = \\dbinom{8}{5}\\!\\left(-\\tfrac{3}{2}\\right)^{\\!5} x^3 = 56 \\cdot \\left(-\\tfrac{243}{32}\\right) x^3\\)</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(= -\\dfrac{1701}{4}\\,x^3\\)</td><td class='ms-mark'>A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[5 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t1_binomila_theorem_q7",
@@ -291,10 +286,9 @@
         }
       ],
       "worked_solution_text": "7.\n(a)\n  (i)  Tᵣ₊₁=C(n,r)·a^(n-r)·b^r\n  (ii)  match power: n-r=k or r=k\n  (iii)  substitute r\n  (iv)  simplify\n\n(b)\n  (i)  Tᵣ₊₁=C(n,r)·a^(n-r)·b^r\n  (ii)  match power: n-r=k or r=k\n  (iii)  substitute r\n  (iv)  simplify",
-      "draft": true,
-      "markscheme_image_paths": [
-        "images/markschemes/t1_binomila_theorem_q7.svg"
-      ]
+      "draft": false,
+      "markscheme_image_paths": [],
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>7.</td><td class='ms-part'>(a)</td><td class='ms-content'>\\(T_{r+1} = \\dbinom{4}{r}x^{4-r}(-2)^r\\)</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\((x-2)^4 = x^4 - 8x^3 + 24x^2 - 32x + 16\\)</td><td class='ms-mark'>A1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(b)</td><td class='ms-content'>Term in \\(x^3\\) from \\((3x+4)(x-2)^4\\):</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(3x \\cdot 24x^2 + 4 \\cdot (-8x^3) = 72x^3 - 32x^3\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(= 40x^3\\)</td><td class='ms-mark'>A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[6 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t1_binomila_theorem_q8",
@@ -331,10 +325,9 @@
         }
       ],
       "worked_solution_text": "8.\n(a)\n  (i)  Tᵣ₊₁=C(n,r)·a^(n-r)·b^r\n  (ii)  match power: n-r=k or r=k\n  (iii)  substitute r\n  (iv)  simplify\n  (v)  Number of terms = n + 1 = 7\n  (vi)  Answer: 7\n\n(b)\n  (i)  Tᵣ₊₁=C(n,r)·a^(n-r)·b^r\n  (ii)  match power: n-r=k or r=k\n  (iii)  substitute r\n  (iv)  simplify",
-      "draft": true,
-      "markscheme_image_paths": [
-        "images/markschemes/t1_binomila_theorem_q8.svg"
-      ]
+      "draft": false,
+      "markscheme_image_paths": [],
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>8.</td><td class='ms-part'>(a)</td><td class='ms-content'>Number of terms \\(= 6 + 1 = 7\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(b)</td><td class='ms-content'>\\(T_{r+1} = \\dbinom{6}{r}(x^3)^{6-r}(-3x)^r = \\dbinom{6}{r}(-3)^r\\, x^{18-2r}\\)</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>For \\(x^{12}\\colon\\quad 18 - 2r = 12 \\implies r = 3\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(T_4 = \\dbinom{6}{3}(-3)^3\\, x^{12} = 20 \\cdot (-27)\\, x^{12} = -540x^{12}\\)</td><td class='ms-mark'>A1A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[6 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t1_binomila_theorem_q9",
@@ -360,10 +353,9 @@
         }
       ],
       "worked_solution_text": "9.\n(a)\n  (i)  Tᵣ₊₁=C(n,r)·a^(n-r)·b^r\n  (ii)  match power: n-r=k or r=k\n  (iii)  substitute r\n  (iv)  simplify\n  (v)  a = C(10,2)·2² = 180\n  (vi)  Answer: a = 180",
-      "draft": true,
-      "markscheme_image_paths": [
-        "images/markschemes/t1_binomila_theorem_q9.svg"
-      ]
+      "draft": false,
+      "markscheme_image_paths": [],
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>9.</td><td class='ms-part'></td><td class='ms-content'>\\(T_{r+1} = \\dbinom{10}{r}x^{10-r}(2y)^r = \\dbinom{10}{r} 2^r\\, x^{10-r} y^r\\)</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>For \\(x^8 y^2\\colon\\quad r = 2\\)</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(T_3 = \\dbinom{10}{2} \\cdot 4 \\cdot x^8 y^2 = 45 \\cdot 4 \\cdot x^8 y^2\\)</td><td class='ms-mark'>A1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(a = 180\\)</td><td class='ms-mark'>A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[6 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t1_binomila_theorem_q10",
@@ -397,10 +389,9 @@
         }
       ],
       "worked_solution_text": "10.\n(a)\n  (i)  Tᵣ₊₁=C(n,r)·a^(n-r)·b^r\n  (ii)  match power: n-r=k or r=k\n  (iii)  substitute r\n  (iv)  simplify\n\n(b)\n  (i)  Tᵣ₊₁=C(n,r)·a^(n-r)·b^r\n  (ii)  match power: n-r=k or r=k\n  (iii)  substitute r",
-      "draft": true,
-      "markscheme_image_paths": [
-        "images/markschemes/t1_binomila_theorem_q10.svg"
-      ]
+      "draft": false,
+      "markscheme_image_paths": [],
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>10.</td><td class='ms-part'>(a)</td><td class='ms-content'>\\(\\left(e + e^{-1}\\right)^4 = e^4 + 4e^2 + 6 + 4e^{-2} + e^{-4}\\)</td><td class='ms-mark'>M1M1A1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(b)</td><td class='ms-content'>Similarly \\(\\left(e - e^{-1}\\right)^4 = e^4 - 4e^2 + 6 - 4e^{-2} + e^{-4}\\)</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Sum \\(= 2e^4 + 12 + 2e^{-4}\\)</td><td class='ms-mark'>A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[6 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t1_math_sl_algebra_q1",
@@ -6092,10 +6083,9 @@
       "subtopic": "Binomial theorem",
       "question_number": "2",
       "worked_solution_text": "2.\n  (i)  Tᵣ₊₁=C(n,r)·aⁿ⁻ʳ·bʳ\n  (ii)  match required power\n  (iii)  substitute and simplify",
-      "markscheme_image_paths": [
-        "images/markschemes/t1_cnt_q2.svg"
-      ],
-      "draft": true
+      "markscheme_image_paths": [],
+      "draft": false,
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>2.</td><td class='ms-part'></td><td class='ms-content'>\\((1-2x)^5 \\approx 1 - 10x + 40x^2 - \\cdots\\)</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\((1+x)^7 \\approx 1 + 7x + 21x^2 + \\cdots\\)</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Constant: \\(1 \\cdot 1 = 1\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(x\\)-term: \\(7 - 10 = -3\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(x^2\\)-term: \\(21 - 70 + 40 = -9\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>First three terms: \\(1 - 3x - 9x^2\\)</td><td class='ms-mark'></td></tr><tr><td colspan='3'></td><td class='ms-total'>[5 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t1_cnt_q3",
@@ -6118,10 +6108,9 @@
       "subtopic": "Binomial theorem",
       "question_number": "4",
       "worked_solution_text": "4.\n  (i)  Tᵣ₊₁=C(n,r)·aⁿ⁻ʳ·bʳ\n  (ii)  match required power\n  (iii)  substitute and simplify",
-      "markscheme_image_paths": [
-        "images/markschemes/t1_cnt_q4.svg"
-      ],
-      "draft": true
+      "markscheme_image_paths": [],
+      "draft": false,
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>4.</td><td class='ms-part'>(a)</td><td class='ms-content'>Coefficient of \\(x^3 = \\dbinom{n}{3}\\!\\left(\\tfrac{1}{2}\\right)^3 = \\dfrac{n(n-1)(n-2)}{48} = 70\\)</td><td class='ms-mark'>M1M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(n(n-1)(n-2) = 3360\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Testing \\(n=16\\colon\\; 16 \\cdot 15 \\cdot 14 = 3360\\) \\(\\checkmark\\quad n = 16\\)</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(b)</td><td class='ms-content'>Coefficient of \\(x^2 = \\dbinom{16}{2}\\!\\left(\\tfrac{1}{2}\\right)^2 = 120 \\cdot \\tfrac{1}{4} = 30\\)</td><td class='ms-mark'>A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[6 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t1_cnt_q5",
@@ -6183,10 +6172,9 @@
       "subtopic": "Binomial theorem",
       "question_number": "9",
       "worked_solution_text": "9.\n  (i)  Tᵣ₊₁=C(n,r)·aⁿ⁻ʳ·bʳ\n  (ii)  match required power\n  (iii)  substitute and simplify",
-      "markscheme_image_paths": [
-        "images/markschemes/t1_cnt_q9.svg"
-      ],
-      "draft": true
+      "markscheme_image_paths": [],
+      "draft": false,
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>9.</td><td class='ms-part'>(a)</td><td class='ms-content'>\\(\\dbinom{n}{3} - \\dbinom{n}{2} = \\dfrac{n(n-1)(n-2)}{6} - \\dfrac{n(n-1)}{2}\\)</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(= \\dfrac{n(n-1)}{6}\\bigl[(n-2)-3\\bigr] = \\dfrac{n(n-1)(n-5)}{6}\\)</td><td class='ms-mark'>M1A1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(b)</td><td class='ms-content'>\\(\\dfrac{n(n-1)(n-5)}{6} > 32n \\implies (n-1)(n-5) > 192\\)</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(n^2 - 6n - 187 > 0 \\implies (n-17)(n+11) > 0 \\implies n \\geq 18\\)</td><td class='ms-mark'>A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[6 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t1_cnt_q10",
@@ -6209,10 +6197,9 @@
       "subtopic": "Binomial theorem",
       "question_number": "11",
       "worked_solution_text": "11.\n  (i)  Tᵣ₊₁=C(n,r)·aⁿ⁻ʳ·bʳ\n  (ii)  match required power\n  (iii)  substitute and simplify",
-      "markscheme_image_paths": [
-        "images/markschemes/t1_cnt_q11.svg"
-      ],
-      "draft": true
+      "markscheme_image_paths": [],
+      "draft": false,
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>11.</td><td class='ms-part'>(a)</td><td class='ms-content'>\\(2x^2 + x - 3 = (2x+3)(x-1)\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(b)</td><td class='ms-content'>Coefficient of \\(x\\) in \\((2x+3)^8(x-1)^8\\):</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(\\text{const}(2x+3)^8 \\cdot \\text{coeff}(x,\\,(x-1)^8) = 3^8 \\cdot (-8) = -52488\\)</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(\\text{coeff}(x,\\,(2x+3)^8) \\cdot \\text{const}(x-1)^8 = 8 \\cdot 2 \\cdot 3^7 \\cdot 1 = 34992\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Total coefficient of \\(x = -52488 + 34992 = -17496\\)</td><td class='ms-mark'>A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[5 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t1_cnt_q12",
@@ -6222,10 +6209,9 @@
       "subtopic": "Binomial theorem",
       "question_number": "12",
       "worked_solution_text": "12.\n  (i)  Tᵣ₊₁=C(n,r)·aⁿ⁻ʳ·bʳ\n  (ii)  match required power\n  (iii)  substitute and simplify",
-      "markscheme_image_paths": [
-        "images/markschemes/t1_cnt_q12.svg"
-      ],
-      "draft": true
+      "markscheme_image_paths": [],
+      "draft": false,
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>12.</td><td class='ms-part'>(a)</td><td class='ms-content'>\\((\\cos\\theta + i\\sin\\theta)^3 = \\cos^3\\!\\theta - 3\\cos\\theta\\sin^2\\!\\theta + i(3\\cos^2\\!\\theta\\sin\\theta - \\sin^3\\!\\theta)\\)</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(b)</td><td class='ms-content'>By de Moivre, real part \\(= \\cos 3\\theta = \\cos^3\\theta - 3\\cos\\theta(1-\\cos^2\\theta)\\)</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(= 4\\cos^3\\theta - 3\\cos\\theta\\quad\\blacksquare\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(c)</td><td class='ms-content'>\\((\\cos\\theta + i\\sin\\theta)^5\\) real part: collect \\(\\cos^k\\theta\\) terms using \\(\\sin^2\\theta = 1-\\cos^2\\theta\\)</td><td class='ms-mark'>M1M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(\\cos 5\\theta = 16\\cos^5\\theta - 20\\cos^3\\theta + 5\\cos\\theta\\quad\\blacksquare\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(d)</td><td class='ms-content'>Substitute (b),(c): \\((16\\cos^5\\theta - 20\\cos^3\\theta + 5\\cos\\theta) + (4\\cos^3\\theta - 3\\cos\\theta) + \\cos\\theta = 0\\)</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(\\cos\\theta(16\\cos^4\\theta - 16\\cos^2\\theta + 3) = 0\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(\\cos\\theta = 0\\) or \\(\\cos^2\\theta = \\tfrac{1}{4}\\) or \\(\\cos^2\\theta = \\tfrac{3}{4}\\)</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(\\theta \\in \\left\\{0, \\pm\\tfrac{\\pi}{2}, \\pm\\tfrac{\\pi}{3}, \\pm\\tfrac{\\pi}{6}\\right\\}\\) (restricted to \\(\\left[-\\tfrac{\\pi}{2},\\tfrac{\\pi}{2}\\right]\\))</td><td class='ms-mark'>A1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(e)</td><td class='ms-content'>\\(\\cos 5\\theta = 0 \\implies 5\\theta = \\tfrac{\\pi}{2}, \\tfrac{3\\pi}{2}, \\ldots \\implies \\theta = \\tfrac{\\pi}{10}, \\tfrac{3\\pi}{10}, \\ldots\\)</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Roots of \\(16t^5 - 20t^3 + 5t = 0\\) include \\(t = \\cos\\tfrac{\\pi}{10}\\). Factor and solve to show \\(\\cos\\tfrac{\\pi}{10} = \\tfrac{\\sqrt{5+\\sqrt5}}{8}^{1/2}\\)</td><td class='ms-mark'>M1M1A1A1A1A1A1A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[22 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t1p1_q1",
@@ -6274,10 +6260,9 @@
       "subtopic": "Binomial theorem",
       "question_number": "4",
       "worked_solution_text": "4.\n  (i)  Tᵣ₊₁=C(n,r)·aⁿ⁻ʳ·bʳ\n  (ii)  match required power\n  (iii)  substitute and simplify",
-      "markscheme_image_paths": [
-        "images/markschemes/t1p1_q4.svg"
-      ],
-      "draft": true
+      "markscheme_image_paths": [],
+      "draft": false,
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>4.</td><td class='ms-part'></td><td class='ms-content'>Number of terms in \\((x+3)^{10}\\) is \\(10 + 1 = 11\\)</td><td class='ms-mark'>A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[1 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t1p1_q5",
@@ -6326,10 +6311,9 @@
       "subtopic": "Binomial theorem",
       "question_number": "8",
       "worked_solution_text": "8.\n  (i)  Tᵣ₊₁=C(n,r)·aⁿ⁻ʳ·bʳ\n  (ii)  match required power\n  (iii)  substitute and simplify",
-      "markscheme_image_paths": [
-        "images/markschemes/t1p1_q8.svg"
-      ],
-      "draft": true
+      "markscheme_image_paths": [],
+      "draft": false,
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>7.</td><td class='ms-part'></td><td class='ms-content'>\\(T_{r+1} = \\dbinom{8}{r}\\!\\left(x^{2/3}\\right)^{8-r}\\!\\left(\\dfrac{k}{x^2}\\right)^{\\!r} = \\dbinom{8}{r} k^r\\, x^{\\frac{16-8r}{3}}\\)</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Constant term when \\(\\dfrac{16-8r}{3} = 0 \\implies r = 2\\)</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(T_3 = \\dbinom{8}{2} k^2 = 28k^2 = 16128\\)</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(k^2 = 576 \\implies k = \\pm 24\\)</td><td class='ms-mark'>A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[7 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t1p1_q9",
@@ -6378,10 +6362,9 @@
       "subtopic": "Binomial theorem",
       "question_number": "12",
       "worked_solution_text": "12.\n  (i)  Tᵣ₊₁=C(n,r)·aⁿ⁻ʳ·bʳ\n  (ii)  match required power\n  (iii)  substitute and simplify",
-      "markscheme_image_paths": [
-        "images/markschemes/t1p1_q12.svg"
-      ],
-      "draft": true
+      "markscheme_image_paths": [],
+      "draft": false,
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>11.</td><td class='ms-part'></td><td class='ms-content'>\\(T_{r+1} = \\dbinom{8}{r}(px^3)^{8-r}\\!\\left(\\tfrac{3}{x}\\right)^{\\!r} = \\dbinom{8}{r} p^{8-r} 3^r\\, x^{24-4r}\\)</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Constant term: \\(24 - 4r = 0 \\implies r = 6\\)</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(T_7 = \\dbinom{8}{6} p^2 \\cdot 3^6 = 28 \\cdot 729\\, p^2 = 20412\\, p^2 = 5103\\)</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(p^2 = \\tfrac{1}{4} \\implies p = \\pm\\tfrac{1}{2}\\)</td><td class='ms-mark'>A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[6 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t1p1_q13",
@@ -6404,10 +6387,9 @@
       "subtopic": "Binomial theorem",
       "question_number": "14",
       "worked_solution_text": "14.\n  (i)  Tᵣ₊₁=C(n,r)·aⁿ⁻ʳ·bʳ\n  (ii)  match required power\n  (iii)  substitute and simplify",
-      "markscheme_image_paths": [
-        "images/markschemes/t1p1_q14.svg"
-      ],
-      "draft": true
+      "markscheme_image_paths": [],
+      "draft": false,
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>13.</td><td class='ms-part'></td><td class='ms-content'>\\(T_{r+1} = \\dbinom{n}{r}(3x)^{n-r} \\cdot 1^r\\). Term in \\(x^2\\) when \\(n - r = 2\\).</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Coefficient of \\(x^2 = \\dbinom{n}{n-2} \\cdot 3^2 = \\dbinom{n}{2} \\cdot 9 = 135\\)</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(\\dbinom{n}{2} = 15 \\implies \\dfrac{n(n-1)}{2} = 15 \\implies n(n-1) = 30\\)</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(n = 6\\) (since \\(6 \\cdot 5 = 30\\) and \\(n \\in \\mathbb{Z}^+\\))</td><td class='ms-mark'>A1A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[7 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t1p1_q15",
@@ -6456,10 +6438,9 @@
       "subtopic": "Binomial theorem",
       "question_number": "18",
       "worked_solution_text": "18.\n  (i)  Tᵣ₊₁=C(n,r)·aⁿ⁻ʳ·bʳ\n  (ii)  match required power\n  (iii)  substitute and simplify",
-      "markscheme_image_paths": [
-        "images/markschemes/t1p1_q18.svg"
-      ],
-      "draft": true
+      "markscheme_image_paths": [],
+      "draft": false,
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>17.</td><td class='ms-part'></td><td class='ms-content'>\\(T_3 = T_{2+1} = \\dbinom{6}{2}(2x)^4\\, p^2 = 15 \\cdot 16x^4 \\cdot p^2 = 240p^2 x^4\\)</td><td class='ms-mark'>M1M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(240p^2 x^4 = 60x^4 \\implies p^2 = \\tfrac{1}{4}\\)</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(p = \\pm\\tfrac{1}{2}\\)</td><td class='ms-mark'>A1A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[7 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t1p1_q19",
@@ -6495,10 +6476,9 @@
       "subtopic": "Binomial theorem",
       "question_number": "21",
       "worked_solution_text": "21.\n  (i)  Tᵣ₊₁=C(n,r)·aⁿ⁻ʳ·bʳ\n  (ii)  match required power\n  (iii)  substitute and simplify",
-      "markscheme_image_paths": [
-        "images/markschemes/t1p1_q21.svg"
-      ],
-      "draft": true
+      "markscheme_image_paths": [],
+      "draft": false,
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>21.</td><td class='ms-part'></td><td class='ms-content'>Expansion of \\((bx^3 + 2)^8\\): first term \\(= 2^8 = 256\\,\\checkmark\\)</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Second term \\(= \\dbinom{8}{1}(bx^3) \\cdot 2^7 = 1024b\\, x^3 = 3072x^3\\)</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(b = 3\\)</td><td class='ms-mark'>A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[3 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t1p1_q22",
@@ -6534,10 +6514,9 @@
       "subtopic": "Binomial theorem",
       "question_number": "24",
       "worked_solution_text": "24.\n  (i)  Tᵣ₊₁=C(n,r)·aⁿ⁻ʳ·bʳ\n  (ii)  match required power\n  (iii)  substitute and simplify",
-      "markscheme_image_paths": [
-        "images/markschemes/t1p1_q24.svg"
-      ],
-      "draft": true
+      "markscheme_image_paths": [],
+      "draft": false,
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>24.</td><td class='ms-part'>(a)</td><td class='ms-content'>\\(T_{r+1} = \\dbinom{12}{r}(3x)^{12-r}(-2)^r\\). For \\(x^5\\colon 12 - r = 5 \\implies r = 7\\).</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(p = 12,\\; q = 7,\\; r = 5\\) (or equivalent with \\(r\\) counted from left)</td><td class='ms-mark'>A1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(b)</td><td class='ms-content'>\\(T_8 = \\dbinom{12}{7}(3x)^5(-2)^7 = 792 \\cdot 243 \\cdot (-128)\\, x^5\\)</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Coefficient of \\(x^5 = -24634368\\)  (or \\(-\\dbinom{12}{7}\\cdot 3^5 \\cdot 2^7\\))</td><td class='ms-mark'>A1A1A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[8 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t1p1_q25",
@@ -6586,10 +6565,9 @@
       "subtopic": "Binomial theorem",
       "question_number": "28",
       "worked_solution_text": "28.\n  (i)  Tᵣ₊₁=C(n,r)·aⁿ⁻ʳ·bʳ\n  (ii)  match required power\n  (iii)  substitute and simplify",
-      "markscheme_image_paths": [
-        "images/markschemes/t1p1_q28.svg"
-      ],
-      "draft": true
+      "markscheme_image_paths": [],
+      "draft": false,
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>27.</td><td class='ms-part'></td><td class='ms-content'>\\(T_{r+1} = \\dbinom{6}{r}x^{6-r}\\!\\left(\\dfrac{a^2}{x}\\right)^{\\!r} = \\dbinom{6}{r}\\,a^{2r}\\,x^{6-2r}\\)</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Constant term when \\(6 - 2r = 0 \\implies r = 3\\)</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(\\dbinom{6}{3}\\,a^6 = 20a^6 = 1280 \\implies a^6 = 64\\)</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(a = \\pm 2\\)</td><td class='ms-mark'>A1A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[7 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t1p1_q29",
@@ -6651,10 +6629,9 @@
       "subtopic": "Binomial theorem",
       "question_number": "33",
       "worked_solution_text": "33.\n  (i)  Tᵣ₊₁=C(n,r)·aⁿ⁻ʳ·bʳ\n  (ii)  match required power\n  (iii)  substitute and simplify",
-      "markscheme_image_paths": [
-        "images/markschemes/t1p1_q33.svg"
-      ],
-      "draft": true
+      "markscheme_image_paths": [],
+      "draft": false,
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>33.</td><td class='ms-part'>(a)</td><td class='ms-content'>Number of terms in \\((3 + 2x^2)^9\\) is \\(9 + 1 = 10\\)</td><td class='ms-mark'>A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[1 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t1p1_q34",
