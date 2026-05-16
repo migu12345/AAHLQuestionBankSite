@@ -119,14 +119,35 @@ Skipped: `DP1_and_DP2_AA_HL_Course_Overview_2025_2027.pdf` (course outline, no q
 
 ## Infra Context
 - Deploy target: Render (Docker).
-- Asset offload: Cloudflare R2 at `https://pub-f7419ca433e9434bad2f9e89e252c205.r2.dev`
-  - Bio/chem images are on R2 (too large for Docker image).
-  - Math/Tutoring images are in the Docker container (served same-origin).
-- R2 upload script likely at root level (check existing scripts for physics).
+- Asset offload: Cloudflare R2 bucket `aahl-assets` at `https://pub-f7419ca433e9434bad2f9e89e252c205.r2.dev`
+  - **ALL subject images now on R2** (biology, chemistry, physics, math, tutoring, business).
+  - R2 keys mirror repo paths: `data/<subject>/processed/images/...`
+  - `asset-base.js` handles routing: JSON files served same-origin, images/PDFs from R2.
+- **R2 Upload (future):** use rclone — dramatically faster than REST API.
+  - rclone binary: `~/Downloads/rclone_bin/rclone-v1.74.1-osx-arm64/rclone`
+  - Create a temp `rclone.conf` (delete after use — contains credentials):
+    ```ini
+    [r2]
+    type = s3
+    provider = Cloudflare
+    access_key_id = <Account API token access key>
+    secret_access_key = <secret>
+    endpoint = https://b958f16085766c52a302e26353ade3f1.r2.cloudflarestorage.com
+    ```
+  - Upload command:
+    ```bash
+    rclone copy ./data r2:aahl-assets/data \
+      --config rclone.conf \
+      --exclude "raw/**" \
+      --include "*.png" --include "*.jpg" --include "*.pdf" \
+      --transfers 32 --s3-upload-concurrency 8 --progress
+    ```
+  - S3 endpoint: `https://b958f16085766c52a302e26353ade3f1.r2.cloudflarestorage.com`
+  - Get credentials: Cloudflare dashboard → R2 → Manage R2 API Tokens → Create Account API token
 
 ## Local Run (quick)
 ```bash
-cd /Users/s933863@aics.espritscholen.nl/Downloads/Project/AA-HL-Question-Bank
+cd "/Users/s933863@aics.espritscholen.nl/Desktop/Downloads/Project/AAHLQuestionBankSite"
 python3 server.py
 ```
-Then open: `http://localhost:8080/tutoring/`
+Then open: `http://localhost:8080/`
