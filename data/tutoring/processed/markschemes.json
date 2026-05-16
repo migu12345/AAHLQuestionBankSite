@@ -442,10 +442,9 @@
         }
       ],
       "worked_solution_text": "1.\n(a)\n  (i)  uₙ=u₁+(n-1)d\n  (ii)  Sₙ=n/2[2u₁+(n-1)d]\n  (iii)  uₙ=u₁r^(n-1), Sₙ=u₁(1-rⁿ)/(1-r)\n  (iv)  d = 3\n  (v)  Answer: d = 3\n\n(b)\n  (i)  uₙ=u₁+(n-1)d\n  (ii)  Sₙ=n/2[2u₁+(n-1)d]\n  (iii)  uₙ=u₁r^(n-1), Sₙ=u₁(1-rⁿ)/(1-r)\n  (iv)  uₙ = u₁ + (n-1)d\n  (v)  u20 = 2 + 19·3 = 59\n  (vi)  Answer: u20 = 59\n\n(c)\n  (i)  uₙ=u₁+(n-1)d\n  (ii)  Sₙ=n/2[2u₁+(n-1)d]\n  (iii)  uₙ=u₁r^(n-1), Sₙ=u₁(1-rⁿ)/(1-r)\n  (iv)  Sₙ = n/2 [2u₁ + (n-1)d]\n  (v)  S20 = 20/2 [2(2) + 19(3)] = 610\n  (vi)  Answer: S20 = 610",
-      "draft": true,
-      "markscheme_image_paths": [
-        "images/markschemes/t1_math_sl_algebra_q1.svg"
-      ]
+      "draft": false,
+      "markscheme_image_paths": [],
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>1.</td><td class='ms-part'>(a)</td><td class='ms-content'>\\(u_3=u_1+2d:\\;2+2d=8\\implies d=3\\)</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(b)</td><td class='ms-content'>\\(u_{20}=2+19(3)=59\\)</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(c)</td><td class='ms-content'>\\(S_{20}=\\frac{20}{2}(2+59)=10\\times61=610\\)</td><td class='ms-mark'>M1A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[6 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t1_math_sl_algebra_q2",
@@ -483,10 +482,9 @@
         }
       ],
       "worked_solution_text": "2.\n(a)\n  (i)  uₙ=u₁+(n-1)d\n  (ii)  Sₙ=n/2[2u₁+(n-1)d]\n  (iii)  uₙ=u₁r^(n-1), Sₙ=u₁(1-rⁿ)/(1-r)\n  (iv)  d = 3\n  (v)  Answer: d = 3\n\n(b)\n  (i)  uₙ=u₁+(n-1)d\n  (ii)  Sₙ=n/2[2u₁+(n-1)d]\n  (iii)  uₙ=u₁r^(n-1), Sₙ=u₁(1-rⁿ)/(1-r)\n  (iv)  uₙ = u₁ + (n-1)d = 3709\n  (v)  n = ((3709 - 7)/3) + 1 = 1235\n  (vi)  Answer: n = 1235",
-      "draft": true,
-      "markscheme_image_paths": [
-        "images/markschemes/t1_math_sl_algebra_q2.svg"
-      ]
+      "draft": false,
+      "markscheme_image_paths": [],
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>2.</td><td class='ms-part'>(a)</td><td class='ms-content'>\\(u_{20}=u_1+19d:\\;64=7+19d\\implies d=3\\)</td><td class='ms-mark'>M1A1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(b)</td><td class='ms-content'>\\(u_n=7+(n-1)(3)=3709\\implies n=1235\\)</td><td class='ms-mark'>M1A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[5 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t1_math_sl_algebra_q3",
@@ -534,10 +532,9 @@
         }
       ],
       "worked_solution_text": "3.\n(a)\n  (i)  uₙ=u₁+(n-1)d\n  (ii)  Sₙ=n/2[2u₁+(n-1)d]\n  (iii)  uₙ=u₁r^(n-1), Sₙ=u₁(1-rⁿ)/(1-r)\n  (iv)  d = 6\n  (v)  Answer: d = 6\n\n(b)\n  (i)  uₙ=u₁+(n-1)d\n  (ii)  Sₙ=n/2[2u₁+(n-1)d]\n  (iii)  uₙ=u₁r^(n-1), Sₙ=u₁(1-rⁿ)/(1-r)\n  (iv)  uₙ = u₁ + (n-1)d\n  (v)  n = ((1353 - 3)/6) + 1 = 226\n  (vi)  Answer: number of terms = 226\n\n(c)\n  (i)  uₙ=u₁+(n-1)d\n  (ii)  Sₙ=n/2[2u₁+(n-1)d]\n  (iii)  uₙ=u₁r^(n-1), Sₙ=u₁(1-rⁿ)/(1-r)",
-      "draft": true,
-      "markscheme_image_paths": [
-        "images/markschemes/t1_math_sl_algebra_q3.svg"
-      ]
+      "draft": false,
+      "markscheme_image_paths": [],
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>3.</td><td class='ms-part'>(a)</td><td class='ms-content'>\\(d=6\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(b)</td><td class='ms-content'>\\(1353=3+(n-1)(6)\\implies n=226\\)</td><td class='ms-mark'>M1A1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(c)</td><td class='ms-content'>\\(S_{226}=\\frac{226}{2}(3+1353)=113\\times1356=153228\\)</td><td class='ms-mark'>M1A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[6 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t1_math_sl_algebra_q4",
@@ -570,10 +567,9 @@
         }
       ],
       "worked_solution_text": "4.\n(a)\n  (i)  uₙ=u₁+(n-1)d\n  (ii)  Sₙ=n/2[2u₁+(n-1)d]\n  (iii)  uₙ=u₁r^(n-1), Sₙ=u₁(1-rⁿ)/(1-r)\n\n(b)\n  (i)  uₙ=u₁+(n-1)d\n  (ii)  Sₙ=n/2[2u₁+(n-1)d]\n  (iii)  uₙ=u₁r^(n-1), Sₙ=u₁(1-rⁿ)/(1-r)",
-      "draft": true,
-      "markscheme_image_paths": [
-        "images/markschemes/t1_math_sl_algebra_q4.svg"
-      ]
+      "draft": false,
+      "markscheme_image_paths": [],
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>4.</td><td class='ms-part'>(a)</td><td class='ms-content'>\\(u_{27}=u_1+26(11)=263\\implies u_1=-23\\)</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(b)(i)</td><td class='ms-content'>\\(-23+(n-1)(11)=516\\implies n=50\\)</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(b)(ii)</td><td class='ms-content'>\\(S_{50}=\\frac{50}{2}(-23+516)=25\\times493=12325\\)</td><td class='ms-mark'>M1A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[6 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t1_math_sl_algebra_q5",
@@ -616,10 +612,9 @@
         }
       ],
       "worked_solution_text": "5.\n(a)\n  (i)  uₙ=u₁+(n-1)d\n  (ii)  Sₙ=n/2[2u₁+(n-1)d]\n  (iii)  uₙ=u₁r^(n-1), Sₙ=u₁(1-rⁿ)/(1-r)\n\n(b)\n  (i)  uₙ=u₁+(n-1)d\n  (ii)  Sₙ=n/2[2u₁+(n-1)d]\n  (iii)  uₙ=u₁r^(n-1), Sₙ=u₁(1-rⁿ)/(1-r)\n\n(c)\n  (i)  uₙ=u₁+(n-1)d\n  (ii)  Sₙ=n/2[2u₁+(n-1)d]\n  (iii)  uₙ=u₁r^(n-1), Sₙ=u₁(1-rⁿ)/(1-r)",
-      "draft": true,
-      "markscheme_image_paths": [
-        "images/markschemes/t1_math_sl_algebra_q5.svg"
-      ]
+      "draft": false,
+      "markscheme_image_paths": [],
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>5.</td><td class='ms-part'>(a)</td><td class='ms-content'>\\(r=\\tfrac{16}{32}=\\tfrac{1}{2}\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(b)</td><td class='ms-content'>\\(u_6=32\\!\\left(\\tfrac{1}{2}\\right)^5=1\\)</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(c)</td><td class='ms-content'>\\(S_\\infty=\\dfrac{32}{1-\\frac{1}{2}}=64\\)</td><td class='ms-mark'>M1A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[5 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t1_math_sl_algebra_q6",
@@ -652,10 +647,9 @@
         }
       ],
       "worked_solution_text": "6.\n(a)\n  (i)  uₙ=u₁+(n-1)d\n  (ii)  Sₙ=n/2[2u₁+(n-1)d]\n  (iii)  uₙ=u₁r^(n-1), Sₙ=u₁(1-rⁿ)/(1-r)\n\n(b)\n  (i)  uₙ=u₁+(n-1)d\n  (ii)  Sₙ=n/2[2u₁+(n-1)d]\n  (iii)  uₙ=u₁r^(n-1), Sₙ=u₁(1-rⁿ)/(1-r)",
-      "draft": true,
-      "markscheme_image_paths": [
-        "images/markschemes/t1_math_sl_algebra_q6.svg"
-      ]
+      "draft": false,
+      "markscheme_image_paths": [],
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>6.</td><td class='ms-part'>(a)</td><td class='ms-content'>\\(d=2\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(b)(i)</td><td class='ms-content'>\\(5+2n=115\\implies n=55\\)</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(b)(ii)</td><td class='ms-content'>\\(u_1=7,\\;S_{55}=\\frac{55}{2}(7+115)=55\\times61=3355\\)</td><td class='ms-mark'>M1A1A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[6 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t1_math_sl_algebra_q7",
@@ -688,10 +682,9 @@
         }
       ],
       "worked_solution_text": "7.\n(a)\n  (i)  uₙ=u₁+(n-1)d\n  (ii)  Sₙ=n/2[2u₁+(n-1)d]\n  (iii)  uₙ=u₁r^(n-1), Sₙ=u₁(1-rⁿ)/(1-r)\n\n(b)\n  (i)  uₙ=u₁+(n-1)d\n  (ii)  Sₙ=n/2[2u₁+(n-1)d]\n  (iii)  uₙ=u₁r^(n-1), Sₙ=u₁(1-rⁿ)/(1-r)",
-      "draft": true,
-      "markscheme_image_paths": [
-        "images/markschemes/t1_math_sl_algebra_q7.svg"
-      ]
+      "draft": false,
+      "markscheme_image_paths": [],
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>7.</td><td class='ms-part'>(a)</td><td class='ms-content'>\\(S_{20}=10(2(-7)+19d)=620\\implies 19d=76\\implies d=4\\)</td><td class='ms-mark'>M1M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(b)</td><td class='ms-content'>\\(u_{78}=-7+77(4)=301\\)</td><td class='ms-mark'>M1A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[5 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t1_math_sl_algebra_q8",
@@ -724,10 +717,9 @@
         }
       ],
       "worked_solution_text": "8.\n(a)\n  (i)  uₙ=u₁+(n-1)d\n  (ii)  Sₙ=n/2[2u₁+(n-1)d]\n  (iii)  uₙ=u₁r^(n-1), Sₙ=u₁(1-rⁿ)/(1-r)\n\n(b)\n  (i)  uₙ=u₁+(n-1)d\n  (ii)  Sₙ=n/2[2u₁+(n-1)d]\n  (iii)  uₙ=u₁r^(n-1), Sₙ=u₁(1-rⁿ)/(1-r)",
-      "draft": true,
-      "markscheme_image_paths": [
-        "images/markschemes/t1_math_sl_algebra_q8.svg"
-      ]
+      "draft": false,
+      "markscheme_image_paths": [],
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>8.</td><td class='ms-part'>(a)</td><td class='ms-content'>\\(u_4=u_1 r^3:\\;\\frac{1}{81}r^3=\\frac{1}{3}\\implies r^3=27\\implies r=3\\)</td><td class='ms-mark'>M1A1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(b)</td><td class='ms-content'>\\(S_n=\\frac{\\frac{1}{81}(3^n-1)}{2}>40\\implies 3^n>6481;\\quad 3^8=6561>6481\\)</td><td class='ms-mark'>M1M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Smallest \\(n=8\\)</td><td class='ms-mark'>A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[7 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t1_math_sl_algebra_q9",
@@ -761,10 +753,9 @@
         }
       ],
       "worked_solution_text": "9.\n(a)\n  (i)  Tᵣ₊₁=C(n,r)·a^(n-r)·b^r\n  (ii)  match power: n-r=k or r=k\n  (iii)  substitute r\n\n(b)\n  (i)  Tᵣ₊₁=C(n,r)·a^(n-r)·b^r\n  (ii)  match power: n-r=k or r=k\n  (iii)  substitute r\n  (iv)  simplify",
-      "draft": true,
-      "markscheme_image_paths": [
-        "images/markschemes/t1_math_sl_algebra_q9.svg"
-      ]
+      "draft": false,
+      "markscheme_image_paths": [],
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>9.</td><td class='ms-part'>(a)</td><td class='ms-content'>\\(\\sum_{r=4}^{7}2^r=2^4+2^5+2^6+2^7=16+32+64+128\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(b)(i)</td><td class='ms-content'>\\(\\sum_{r=4}^{30}2^r=\\dfrac{16(2^{27}-1)}{1}=2^{31}-16\\)</td><td class='ms-mark'>M1A1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(b)(ii)</td><td class='ms-content'>\\(\\sum_{r=4}^{\\infty}2^r\\) diverges since \\(|r|=2>1\\): geometric series with ratio \\(\\geq1\\) has no finite sum</td><td class='ms-mark'>R1A1R1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[7 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t1_math_sl_algebra_q10",
@@ -787,10 +778,9 @@
         }
       ],
       "worked_solution_text": "10.\n(a)\n  (i)  uₙ=u₁+(n-1)d\n  (ii)  Sₙ=n/2[2u₁+(n-1)d]\n  (iii)  uₙ=u₁r^(n-1), Sₙ=u₁(1-rⁿ)/(1-r)",
-      "draft": true,
-      "markscheme_image_paths": [
-        "images/markschemes/t1_math_sl_algebra_q10.svg"
-      ]
+      "draft": false,
+      "markscheme_image_paths": [],
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>10.</td><td class='ms-part'></td><td class='ms-content'>\\(S_{40}=20(u_1+u_{40}):\\;20(u_1+106)=1900\\implies u_1=-11\\)</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(u_{40}=u_1+39d:\\;-11+39d=106\\implies d=3\\)</td><td class='ms-mark'>M1A1A1A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[6 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t1_math_sl_algebra_q11",
@@ -823,10 +813,9 @@
         }
       ],
       "worked_solution_text": "11.\n(a)\n  (i)  uₙ=u₁+(n-1)d\n  (ii)  Sₙ=n/2[2u₁+(n-1)d]\n  (iii)  uₙ=u₁r^(n-1), Sₙ=u₁(1-rⁿ)/(1-r)\n\n(b)\n  (i)  uₙ=u₁+(n-1)d\n  (ii)  Sₙ=n/2[2u₁+(n-1)d]\n  (iii)  uₙ=u₁r^(n-1), Sₙ=u₁(1-rⁿ)/(1-r)",
-      "draft": true,
-      "markscheme_image_paths": [
-        "images/markschemes/t1_math_sl_algebra_q11.svg"
-      ]
+      "draft": false,
+      "markscheme_image_paths": [],
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>11.</td><td class='ms-part'>(a)</td><td class='ms-content'>\\(u_{101}=2+100(3)=302\\)</td><td class='ms-mark'>M1A1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(b)</td><td class='ms-content'>\\(2+(n-1)(3)=152\\implies n=51\\)</td><td class='ms-mark'>M1A1A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[6 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t1_math_sl_algebra_q12",
@@ -869,10 +858,9 @@
         }
       ],
       "worked_solution_text": "12.\n(a)\n  (i)  uₙ=u₁+(n-1)d\n  (ii)  Sₙ=n/2[2u₁+(n-1)d]\n  (iii)  uₙ=u₁r^(n-1), Sₙ=u₁(1-rⁿ)/(1-r)\n\n(b)\n  (i)  uₙ=u₁+(n-1)d\n  (ii)  Sₙ=n/2[2u₁+(n-1)d]\n  (iii)  uₙ=u₁r^(n-1), Sₙ=u₁(1-rⁿ)/(1-r)\n\n(c)\n  (i)  uₙ=u₁+(n-1)d\n  (ii)  Sₙ=n/2[2u₁+(n-1)d]\n  (iii)  uₙ=u₁r^(n-1), Sₙ=u₁(1-rⁿ)/(1-r)",
-      "draft": true,
-      "markscheme_image_paths": [
-        "images/markschemes/t1_math_sl_algebra_q12.svg"
-      ]
+      "draft": false,
+      "markscheme_image_paths": [],
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>12.</td><td class='ms-part'>(a)</td><td class='ms-content'>\\(r=\\dfrac{-1800}{3000}=-\\dfrac{3}{5}\\)</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(b)</td><td class='ms-content'>\\(u_{10}=3000\\!\\left(-\\tfrac{3}{5}\\right)^9=-\\dfrac{472392}{15625}\\approx-30.2\\)</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(c)</td><td class='ms-content'>\\(S_\\infty=\\dfrac{3000}{1+\\frac{3}{5}}=\\dfrac{3000}{\\frac{8}{5}}=\\dfrac{15000}{8}=1875\\)</td><td class='ms-mark'>M1A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[6 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t1_math_sl_algebra_q13",
@@ -905,10 +893,9 @@
         }
       ],
       "worked_solution_text": "13.\n(a)\n  (i)  uₙ=u₁+(n-1)d\n  (ii)  Sₙ=n/2[2u₁+(n-1)d]\n  (iii)  uₙ=u₁r^(n-1), Sₙ=u₁(1-rⁿ)/(1-r)\n\n(b)\n  (i)  uₙ=u₁+(n-1)d\n  (ii)  Sₙ=n/2[2u₁+(n-1)d]\n  (iii)  uₙ=u₁r^(n-1), Sₙ=u₁(1-rⁿ)/(1-r)",
-      "draft": true,
-      "markscheme_image_paths": [
-        "images/markschemes/t1_math_sl_algebra_q13.svg"
-      ]
+      "draft": false,
+      "markscheme_image_paths": [],
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>13.</td><td class='ms-part'>(a)</td><td class='ms-content'>\\(u_{10}=3(0.9)^9\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(b)</td><td class='ms-content'>\\(S_\\infty=\\dfrac{3}{1-0.9}=\\dfrac{3}{0.1}=30\\)</td><td class='ms-mark'>M1A1A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[5 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t1_math_sl_algebra_q14",
@@ -941,10 +928,9 @@
         }
       ],
       "worked_solution_text": "14.\n(a)\n  (i)  equation setup\n  (ii)  algebra simplify\n  (iii)  domain/restriction check\n\n(b)\n  (i)  equation setup\n  (ii)  algebra simplify\n  (iii)  domain/restriction check",
-      "draft": true,
-      "markscheme_image_paths": [
-        "images/markschemes/t1_math_sl_algebra_q14.svg"
-      ]
+      "draft": false,
+      "markscheme_image_paths": [],
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>14.</td><td class='ms-part'>(a)</td><td class='ms-content'>\\(u_{20}=15+19(2)=53\\) seats</td><td class='ms-mark'>M1A1A1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(b)</td><td class='ms-content'>\\(S_{20}=\\frac{20}{2}(15+53)=10\\times68=680\\)</td><td class='ms-mark'>M1A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[6 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t1_math_sl_algebra_q15",
@@ -987,10 +973,9 @@
         }
       ],
       "worked_solution_text": "15.\n(a)\n  (i)  uₙ=u₁+(n-1)d\n  (ii)  Sₙ=n/2[2u₁+(n-1)d]\n  (iii)  uₙ=u₁r^(n-1), Sₙ=u₁(1-rⁿ)/(1-r)\n\n(b)\n  (i)  uₙ=u₁+(n-1)d\n  (ii)  Sₙ=n/2[2u₁+(n-1)d]\n  (iii)  uₙ=u₁r^(n-1), Sₙ=u₁(1-rⁿ)/(1-r)\n\n(c)\n  (i)  uₙ=u₁+(n-1)d\n  (ii)  Sₙ=n/2[2u₁+(n-1)d]\n  (iii)  uₙ=u₁r^(n-1), Sₙ=u₁(1-rⁿ)/(1-r)",
-      "draft": true,
-      "markscheme_image_paths": [
-        "images/markschemes/t1_math_sl_algebra_q15.svg"
-      ]
+      "draft": false,
+      "markscheme_image_paths": [],
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>15.</td><td class='ms-part'>(a)</td><td class='ms-content'>Value \\(= 5000(1.063)^n\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(b)</td><td class='ms-content'>\\(5000(1.063)^5\\approx \\$6786\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(c)(i)</td><td class='ms-content'>\\(5000(1.063)^n>10000\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(c)(ii)</td><td class='ms-content'>\\((1.063)^n>2\\implies n>\\dfrac{\\ln2}{\\ln1.063}\\approx11.35\\implies n_{\\min}=12\\)</td><td class='ms-mark'>M1A1A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[6 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t1_math_sl_algebra_q16",
@@ -1033,10 +1018,9 @@
         }
       ],
       "worked_solution_text": "16.\n(a)\n  (i)  uₙ=u₁+(n-1)d\n  (ii)  Sₙ=n/2[2u₁+(n-1)d]\n  (iii)  uₙ=u₁r^(n-1), Sₙ=u₁(1-rⁿ)/(1-r)\n\n(b)\n  (i)  uₙ=u₁+(n-1)d\n  (ii)  Sₙ=n/2[2u₁+(n-1)d]\n  (iii)  uₙ=u₁r^(n-1), Sₙ=u₁(1-rⁿ)/(1-r)\n\n(c)\n  (i)  uₙ=u₁+(n-1)d\n  (ii)  Sₙ=n/2[2u₁+(n-1)d]\n  (iii)  uₙ=u₁r^(n-1), Sₙ=u₁(1-rⁿ)/(1-r)",
-      "draft": true,
-      "markscheme_image_paths": [
-        "images/markschemes/t1_math_sl_algebra_q16.svg"
-      ]
+      "draft": false,
+      "markscheme_image_paths": [],
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>16.</td><td class='ms-part'>(a)</td><td class='ms-content'>\\(r=\\tfrac{5}{25}=\\tfrac{1}{5}\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(b)(i)</td><td class='ms-content'>\\(u_{10}=25\\!\\left(\\tfrac{1}{5}\\right)^9=\\tfrac{1}{5^7}=\\tfrac{1}{78125}\\)</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(b)(ii)</td><td class='ms-content'>\\(u_n=25\\!\\left(\\tfrac{1}{5}\\right)^{n-1}=5^{3-n}\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(c)</td><td class='ms-content'>\\(S_\\infty=\\dfrac{25}{1-\\frac{1}{5}}=\\dfrac{125}{4}=31.25\\)</td><td class='ms-mark'>M1A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[6 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t1_math_sl_algebra_q17",
@@ -1071,10 +1055,9 @@
         }
       ],
       "worked_solution_text": "17.\n(a)\n  (i)  LHS = ...\n  (ii)  = ...\n  (iii)  = RHS\n  (iv)  Answer: a geometric sequence\n\n(b)\n  (i)  LHS = ...\n  (ii)  = ...\n  (iii)  = RHS\n  (iv)  ∴ proved",
-      "draft": true,
-      "markscheme_image_paths": [
-        "images/markschemes/t1_math_sl_algebra_q17.svg"
-      ]
+      "draft": false,
+      "markscheme_image_paths": [],
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>17.</td><td class='ms-part'>(a)</td><td class='ms-content'>\\(\\tfrac{54}{18}=\\tfrac{162}{54}=\\tfrac{486}{162}=3\\) — constant ratio \\(\\implies\\) geometric\\quad\\(\\blacksquare\\)</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(b)(i)</td><td class='ms-content'>\\(u_n=18\\cdot3^{n-1}=2\\cdot3^n\\)</td><td class='ms-mark'>A1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(b)(ii)</td><td class='ms-content'>\\(2\\cdot3^n=1062882\\implies 3^n=531441=3^{12}\\implies n=12\\)</td><td class='ms-mark'>M1A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[6 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t1_math_sl_algebra_q18",
@@ -1107,10 +1090,9 @@
         }
       ],
       "worked_solution_text": "18.\n(a)\n  (i)  uₙ=u₁+(n-1)d\n  (ii)  Sₙ=n/2[2u₁+(n-1)d]\n  (iii)  uₙ=u₁r^(n-1), Sₙ=u₁(1-rⁿ)/(1-r)\n\n(b)\n  (i)  uₙ=u₁+(n-1)d\n  (ii)  Sₙ=n/2[2u₁+(n-1)d]\n  (iii)  uₙ=u₁r^(n-1), Sₙ=u₁(1-rⁿ)/(1-r)",
-      "draft": true,
-      "markscheme_image_paths": [
-        "images/markschemes/t1_math_sl_algebra_q18.svg"
-      ]
+      "draft": false,
+      "markscheme_image_paths": [],
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>18.</td><td class='ms-part'>(a)</td><td class='ms-content'>\\(u_1=3,\\;u_2=9,\\;u_3=27\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(b)(i)</td><td class='ms-content'>\\(\\sum_{n=1}^{20}3^n=\\dfrac{3(3^{20}-1)}{2}=\\dfrac{3^{21}-3}{2}\\)</td><td class='ms-mark'>M1A1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(b)(ii)</td><td class='ms-content'>\\(\\sum_{n=21}^{100}3^n=\\sum_{1}^{100}3^n-\\sum_{1}^{20}3^n=\\dfrac{3^{101}-3^{21}}{2}\\)</td><td class='ms-mark'>M1A1A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[6 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t1_math_sl_algebra_q19",
@@ -1156,10 +1138,9 @@
         }
       ],
       "worked_solution_text": "19.\n(a)\n  (i)  LHS = ...\n  (ii)  = ...\n  (iii)  = RHS\n  (iv)  ∴ proved\n\n(b)\n  (i)  LHS = ...\n  (ii)  = ...\n  (iii)  = RHS\n  (iv)  ∴ proved\n\n(c)\n  (i)  LHS = ...\n  (ii)  = ...\n  (iii)  = RHS\n  (iv)  ∴ proved",
-      "draft": true,
-      "markscheme_image_paths": [
-        "images/markschemes/t1_math_sl_algebra_q19.svg"
-      ]
+      "draft": false,
+      "markscheme_image_paths": [],
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>19.</td><td class='ms-part'>(a)</td><td class='ms-content'>\\(S_n=\\tfrac{n(n+1)}{2}:\\;S_{20}=\\tfrac{20\\times21}{2}=210\\quad\\blacksquare\\)</td><td class='ms-mark'>M1A1A1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(b)</td><td class='ms-content'>\\(\\tfrac{n(n+1)}{2}=3240\\implies n(n+1)=6480\\implies n=80\\)</td><td class='ms-mark'>M1A1A1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(c)(i)</td><td class='ms-content'>\\(S=\\tfrac{n(n+1)}{2}\\implies n^2+n=2S\\implies n^2+n-2S=0\\quad\\blacksquare\\)</td><td class='ms-mark'>M1A1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(c)(ii)</td><td class='ms-content'>\\(n^2+n-4200=0\\implies n=\\tfrac{-1+\\sqrt{16801}}{2}\\approx64.3\\notin\\mathbb{Z}^+\\implies\\) impossible</td><td class='ms-mark'>M1A1R1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[14 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t1_math_sl_algebra_q20",
@@ -1192,10 +1173,9 @@
         }
       ],
       "worked_solution_text": "20.\n(a)\n  (i)  equation setup\n  (ii)  algebra simplify\n  (iii)  domain/restriction check\n\n(b)\n  (i)  equation setup\n  (ii)  algebra simplify\n  (iii)  domain/restriction check",
-      "draft": true,
-      "markscheme_image_paths": [
-        "images/markschemes/t1_math_sl_algebra_q20.svg"
-      ]
+      "draft": false,
+      "markscheme_image_paths": [],
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>20.</td><td class='ms-part'>(a)</td><td class='ms-content'>\\(u_{20}=15+19(2)=53\\)</td><td class='ms-mark'>M1A1A1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(b)</td><td class='ms-content'>\\(S_{20}=10(15+53)=680\\)</td><td class='ms-mark'>M1A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[6 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t1_math_sl_algebra_q21",
@@ -1238,10 +1218,9 @@
         }
       ],
       "worked_solution_text": "21.\n(a)\n  (i)  uₙ=u₁+(n-1)d\n  (ii)  Sₙ=n/2[2u₁+(n-1)d]\n  (iii)  uₙ=u₁r^(n-1), Sₙ=u₁(1-rⁿ)/(1-r)\n\n(b)\n  (i)  uₙ=u₁+(n-1)d\n  (ii)  Sₙ=n/2[2u₁+(n-1)d]\n  (iii)  uₙ=u₁r^(n-1), Sₙ=u₁(1-rⁿ)/(1-r)\n\n(c)\n  (i)  uₙ=u₁+(n-1)d\n  (ii)  Sₙ=n/2[2u₁+(n-1)d]\n  (iii)  uₙ=u₁r^(n-1), Sₙ=u₁(1-rⁿ)/(1-r)",
-      "draft": true,
-      "markscheme_image_paths": [
-        "images/markschemes/t1_math_sl_algebra_q21.svg"
-      ]
+      "draft": false,
+      "markscheme_image_paths": [],
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>21.</td><td class='ms-part'>(a)</td><td class='ms-content'>\\(5000(1.063)^n\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(b)</td><td class='ms-content'>\\(\\approx\\$6786\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(c)(i)</td><td class='ms-content'>\\(5000(1.063)^n>10000\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(c)(ii)</td><td class='ms-content'>\\(n>\\dfrac{\\ln2}{\\ln1.063}\\approx11.35\\implies n_{\\min}=12\\)</td><td class='ms-mark'>M1A1A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[6 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t1_math_sl_algebra_q22",
@@ -1276,10 +1255,9 @@
         }
       ],
       "worked_solution_text": "22.\n(a)\n  (i)  log(ab)=loga+logb\n  (ii)  log(a^k)=kloga\n  (iii)  logₐx=y ⇔ aʸ=x\n  (iv)  argument>0\n\n(b)\n  (i)  log(ab)=loga+logb\n  (ii)  log(a^k)=kloga\n  (iii)  logₐx=y ⇔ aʸ=x\n  (iv)  argument>0",
-      "draft": true,
-      "markscheme_image_paths": [
-        "images/markschemes/t1_math_sl_algebra_q22.svg"
-      ]
+      "draft": false,
+      "markscheme_image_paths": [],
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>22.</td><td class='ms-part'>(a)</td><td class='ms-content'>\\(g(x)=\\ln5+3\\ln x=f(x)+\\ln5\\implies a=5\\)</td><td class='ms-mark'>M1A1A1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(b)</td><td class='ms-content'>Vertical translation upward by \\(\\ln5\\)</td><td class='ms-mark'>A1A1A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[7 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t1_math_sl_algebra_q23",
@@ -1344,10 +1322,9 @@
         }
       ],
       "worked_solution_text": "23.\n(a)\n  (i)  LHS = ...\n  (ii)  = ...\n  (iii)  = RHS\n\n(b)\n  (i)  LHS = ...\n  (ii)  = ...\n  (iii)  = RHS\n  (iv)  ∴ proved\n\n(c)\n  (i)  LHS = ...\n  (ii)  = ...\n  (iii)  = RHS\n  (iv)  ∴ proved\n\n(d)\n  (i)  LHS = ...\n  (ii)  = ...\n  (iii)  = RHS\n\n(e)\n  (i)  LHS = ...\n  (ii)  = ...\n  (iii)  = RHS",
-      "draft": true,
-      "markscheme_image_paths": [
-        "images/markschemes/t1_math_sl_algebra_q23.svg"
-      ]
+      "draft": false,
+      "markscheme_image_paths": [],
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>23.</td><td class='ms-part'>(a)</td><td class='ms-content'>\\(f(x)=\\log_3\\!\\tfrac{x}{2}+\\log_3 16-\\log_3 4=\\log_3\\!\\tfrac{16x}{8}=\\log_3 2x\\quad\\blacksquare\\)</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(b)</td><td class='ms-content'>\\(f(0.5)=\\log_3 1=0;\\;f(4.5)=\\log_3 9=2\\)</td><td class='ms-mark'>A1A1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(c)(i)</td><td class='ms-content'>\\(a=2,\\;b=3\\)</td><td class='ms-mark'>A1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(c)(ii-iii)</td><td class='ms-content'>Sketch of \\(\\log_3 2x\\); asymptote \\(x=0\\)</td><td class='ms-mark'>A1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(d)</td><td class='ms-content'>\\(f^{-1}(0)=\\tfrac{1}{2}\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(e)</td><td class='ms-content'>Reflection of \\(f\\) in \\(y=x\\); image of A at \\((2,4.5)\\)</td><td class='ms-mark'>A1A1A1A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[16 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t1_math_sl_algebra_q24",
@@ -1390,10 +1367,9 @@
         }
       ],
       "worked_solution_text": "24.\n(a)\n  (i)  LHS = ...\n  (ii)  = ...\n  (iii)  = RHS\n\n(b)\n  (i)  LHS = ...\n  (ii)  = ...\n  (iii)  = RHS\n\n(c)\n  (i)  LHS = ...\n  (ii)  = ...\n  (iii)  = RHS",
-      "draft": true,
-      "markscheme_image_paths": [
-        "images/markschemes/t1_math_sl_algebra_q24.svg"
-      ]
+      "draft": false,
+      "markscheme_image_paths": [],
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>24.</td><td class='ms-part'>(a)</td><td class='ms-content'>\\(y=\\log_3\\!\\sqrt{x}\\implies\\sqrt{x}=3^y\\implies x=3^{2y}\\implies f^{-1}(x)=3^{2x}\\quad\\blacksquare\\)</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(b)</td><td class='ms-content'>Range of \\(f^{-1}\\) is \\(x>0\\) (or \\(\\mathbb{R}^+\\))</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(c)</td><td class='ms-content'>\\((f^{-1}\\circ g)(2)=f^{-1}(\\log_3 2)=3^{2\\log_3 2}=(3^{\\log_3 2})^2=4\\)</td><td class='ms-mark'>M1A1A1A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[7 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t1_math_sl_algebra_q25",
@@ -1417,10 +1393,9 @@
         }
       ],
       "worked_solution_text": "25.\n(a)\n  (i)  ax²+bx+c=0\n  (ii)  Δ=b²-4ac\n  (iii)  x=(-b±√Δ)/(2a)\n  (iv)  x ∈ domain",
-      "draft": true,
-      "markscheme_image_paths": [
-        "images/markschemes/t1_math_sl_algebra_q25.svg"
-      ]
+      "draft": false,
+      "markscheme_image_paths": [],
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>25.</td><td class='ms-part'></td><td class='ms-content'>\\(\\log_2 x(x-2)=3\\implies x(x-2)=8\\implies x^2-2x-8=0\\)</td><td class='ms-mark'>M1A1M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\((x-4)(x+2)=0;\\quad x=4\\) (since \\(x>2\\))</td><td class='ms-mark'>A1A1A1A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[7 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t1_math_sl_algebra_q26",
@@ -1454,10 +1429,9 @@
         }
       ],
       "worked_solution_text": "26.\n(a)\n  (i)  log(ab)=loga+logb\n  (ii)  log(a^k)=kloga\n  (iii)  logₐx=y ⇔ aʸ=x\n\n(b)\n  (i)  log(ab)=loga+logb\n  (ii)  log(a^k)=kloga\n  (iii)  logₐx=y ⇔ aʸ=x\n  (iv)  argument>0",
-      "draft": true,
-      "markscheme_image_paths": [
-        "images/markschemes/t1_math_sl_algebra_q26.svg"
-      ]
+      "draft": false,
+      "markscheme_image_paths": [],
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>26.</td><td class='ms-part'>(a)</td><td class='ms-content'>\\(\\log_2 32=5\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(b)</td><td class='ms-content'>\\(\\log_2\\!\\dfrac{32^x}{8^y}=x\\log_2 32-y\\log_2 8=5x-3y\\implies p=5,\\;q=-3\\)</td><td class='ms-mark'>M1A1A1A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[5 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t1_math_sl_algebra_q27",
@@ -1491,10 +1465,9 @@
         }
       ],
       "worked_solution_text": "27.\n(a)\n  (i)  log(ab)=loga+logb\n  (ii)  log(a^k)=kloga\n  (iii)  logₐx=y ⇔ aʸ=x\n\n(b)\n  (i)  log(ab)=loga+logb\n  (ii)  log(a^k)=kloga\n  (iii)  logₐx=y ⇔ aʸ=x\n  (iv)  argument>0",
-      "draft": true,
-      "markscheme_image_paths": [
-        "images/markschemes/t1_math_sl_algebra_q27.svg"
-      ]
+      "draft": false,
+      "markscheme_image_paths": [],
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>27.</td><td class='ms-part'>(a)</td><td class='ms-content'>\\(f^{-1}(1)=8:\\;2^{1/k}=8=2^3\\implies k=\\tfrac{1}{3}\\)</td><td class='ms-mark'>M1A1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(b)</td><td class='ms-content'>\\(f^{-1}(x)=2^{3x}:\\;f^{-1}\\!\\left(\\tfrac{2}{3}\\right)=2^2=4\\)</td><td class='ms-mark'>M1A1A1A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[7 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t1_math_sl_algebra_q28",
@@ -1550,10 +1523,9 @@
         }
       ],
       "worked_solution_text": "28.\n(a)\n  (i)  ax²+bx+c=0\n  (ii)  Δ=b²-4ac\n  (iii)  x=(-b±√Δ)/(2a)\n  (iv)  x ∈ domain\n\n(b)\n  (i)  ax²+bx+c=0\n  (ii)  Δ=b²-4ac\n  (iii)  x=(-b±√Δ)/(2a)\n\n(c)\n  (i)  ax²+bx+c=0\n  (ii)  Δ=b²-4ac\n  (iii)  x=(-b±√Δ)/(2a)\n  (iv)  x ∈ domain\n\n(d)\n  (i)  ax²+bx+c=0\n  (ii)  Δ=b²-4ac\n  (iii)  x=(-b±√Δ)/(2a)\n  (iv)  x ∈ domain",
-      "draft": true,
-      "markscheme_image_paths": [
-        "images/markschemes/t1_math_sl_algebra_q28.svg"
-      ]
+      "draft": false,
+      "markscheme_image_paths": [],
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>28.</td><td class='ms-part'>(a)</td><td class='ms-content'>\\(x^2=49\\implies x=7\\)</td><td class='ms-mark'>M1A1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(b)</td><td class='ms-content'>\\(2^x=8\\implies x=3\\)</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(c)</td><td class='ms-content'>\\(x=25^{1/2}=5\\)</td><td class='ms-mark'>M1A1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(d)</td><td class='ms-content'>\\(x(x-7)=8\\implies x^2-7x-8=0\\implies(x-8)(x+1)=0\\implies x=8\\)</td><td class='ms-mark'>M1A1M1A1A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[13 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t1_math_sl_algebra_q29",
@@ -1596,10 +1568,9 @@
         }
       ],
       "worked_solution_text": "29.\n(a)\n  (i)  log(ab)=loga+logb\n  (ii)  log(a^k)=kloga\n  (iii)  logₐx=y ⇔ aʸ=x\n\n(b)\n  (i)  log(ab)=loga+logb\n  (ii)  log(a^k)=kloga\n  (iii)  logₐx=y ⇔ aʸ=x\n\n(c)\n  (i)  log(ab)=loga+logb\n  (ii)  log(a^k)=kloga\n  (iii)  logₐx=y ⇔ aʸ=x",
-      "draft": true,
-      "markscheme_image_paths": [
-        "images/markschemes/t1_math_sl_algebra_q29.svg"
-      ]
+      "draft": false,
+      "markscheme_image_paths": [],
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>29.</td><td class='ms-part'>(a)</td><td class='ms-content'>\\(\\log_a 10=\\log_a(5\\times2)=p+q\\)</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(b)</td><td class='ms-content'>\\(\\log_a 8=\\log_a 2^3=3q\\)</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(c)</td><td class='ms-content'>\\(\\log_a 2.5=\\log_a\\tfrac{5}{2}=p-q\\)</td><td class='ms-mark'>M1A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[6 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t1_math_sl_algebra_q30",
@@ -1633,10 +1604,9 @@
         }
       ],
       "worked_solution_text": "30.\n(a)\n  (i)  Tᵣ₊₁=C(n,r)·a^(n-r)·b^r\n  (ii)  match power: n-r=k or r=k\n  (iii)  substitute r\n  (iv)  simplify\n\n(b)\n  (i)  Tᵣ₊₁=C(n,r)·a^(n-r)·b^r\n  (ii)  match power: n-r=k or r=k\n  (iii)  substitute r",
-      "draft": true,
-      "markscheme_image_paths": [
-        "images/markschemes/t1_math_sl_algebra_q30.svg"
-      ]
+      "draft": false,
+      "markscheme_image_paths": [],
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>30.</td><td class='ms-part'>(a)</td><td class='ms-content'>\\(\\left(e+e^{-1}\\right)^4=e^4+4e^2+6+4e^{-2}+e^{-4}\\)</td><td class='ms-mark'>M1M1A1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(b)</td><td class='ms-content'>\\(\\left(e-e^{-1}\\right)^4=e^4-4e^2+6-4e^{-2}+e^{-4};\\quad\\text{sum}=2e^4+12+2e^{-4}\\)</td><td class='ms-mark'>M1A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[6 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t1_math_sl_algebra_q31",
@@ -1671,10 +1641,9 @@
         }
       ],
       "worked_solution_text": "31.\n(a)\n  (i)  log(ab)=loga+logb\n  (ii)  log(a^k)=kloga\n  (iii)  logₐx=y ⇔ aʸ=x\n  (iv)  argument>0\n\n(b)\n  (i)  log(ab)=loga+logb\n  (ii)  log(a^k)=kloga\n  (iii)  logₐx=y ⇔ aʸ=x\n  (iv)  argument>0",
-      "draft": true,
-      "markscheme_image_paths": [
-        "images/markschemes/t1_math_sl_algebra_q31.svg"
-      ]
+      "draft": false,
+      "markscheme_image_paths": [],
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>31.</td><td class='ms-part'>(a)(i)</td><td class='ms-content'>\\(\\log_c 15=\\log_c(3\\times5)=p+q\\)</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(a)(ii)</td><td class='ms-content'>\\(\\log_c 25=2q\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(b)</td><td class='ms-content'>\\(\\log_d 6=\\tfrac{1}{2}\\implies d^{1/2}=6\\implies d=36\\)</td><td class='ms-mark'>M1A1A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[6 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t1_math_sl_algebra_q32",
@@ -1709,10 +1678,9 @@
         }
       ],
       "worked_solution_text": "32.\n(a)\n  (i)  log(ab)=loga+logb\n  (ii)  log(a^k)=kloga\n  (iii)  logₐx=y ⇔ aʸ=x\n  (iv)  argument>0\n\n(b)\n  (i)  log(ab)=loga+logb\n  (ii)  log(a^k)=kloga\n  (iii)  logₐx=y ⇔ aʸ=x\n  (iv)  argument>0",
-      "draft": true,
-      "markscheme_image_paths": [
-        "images/markschemes/t1_math_sl_algebra_q32.svg"
-      ]
+      "draft": false,
+      "markscheme_image_paths": [],
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>32.</td><td class='ms-part'>(a)</td><td class='ms-content'>\\(\\ln(a^3 b)=3\\ln a+\\ln b=3p+q\\)</td><td class='ms-mark'>M1A1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(b)</td><td class='ms-content'>\\(\\ln\\!\\sqrt{\\tfrac{a}{b}}=\\tfrac{1}{2}(\\ln a-\\ln b)=\\dfrac{p-q}{2}\\)</td><td class='ms-mark'>M1A1A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[6 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t1_math_sl_algebra_q33",
@@ -1735,10 +1703,9 @@
         }
       ],
       "worked_solution_text": "33.\n(a)\n  (i)  equation setup\n  (ii)  algebra simplify\n  (iii)  domain/restriction check",
-      "draft": true,
-      "markscheme_image_paths": [
-        "images/markschemes/t1_math_sl_algebra_q33.svg"
-      ]
+      "draft": false,
+      "markscheme_image_paths": [],
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>33.</td><td class='ms-part'></td><td class='ms-content'>\\(9^{2x}=27^{1-x}\\implies 3^{4x}=3^{3(1-x)}\\implies 4x=3-3x\\)</td><td class='ms-mark'>M1M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(7x=3\\implies x=\\dfrac{3}{7}\\)</td><td class='ms-mark'>A1A1A1A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[6 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t1_math_sl_algebra_q34",
@@ -1791,10 +1758,9 @@
         }
       ],
       "worked_solution_text": "34.\n(a)\n  (i)  ax²+bx+c=0\n  (ii)  Δ=b²-4ac\n  (iii)  x=(-b±√Δ)/(2a)\n\n(b)\n  (i)  ax²+bx+c=0\n  (ii)  Δ=b²-4ac\n  (iii)  x=(-b±√Δ)/(2a)\n\n(a)\n  (i)  ax²+bx+c=0\n  (ii)  Δ=b²-4ac\n  (iii)  x=(-b±√Δ)/(2a)\n\n(b)\n  (i)  ax²+bx+c=0\n  (ii)  Δ=b²-4ac\n  (iii)  x=(-b±√Δ)/(2a)",
-      "draft": true,
-      "markscheme_image_paths": [
-        "images/markschemes/t1_math_sl_algebra_q34.svg"
-      ]
+      "draft": false,
+      "markscheme_image_paths": [],
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>34.</td><td class='ms-part'>(a)</td><td class='ms-content'>\\(A=\\dfrac{x}{x-5}\\)</td><td class='ms-mark'>M1A1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(b)</td><td class='ms-content'>\\(\\dfrac{x}{x-5}=3\\implies x=3x-15\\implies x=\\dfrac{15}{2}\\)</td><td class='ms-mark'>M1A1A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[6 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t1_math_sl_algebra_q35",
@@ -1833,10 +1799,9 @@
         }
       ],
       "worked_solution_text": "35.\n(a)\n  (i)  Tᵣ₊₁=C(n,r)·a^(n-r)·b^r\n  (ii)  match power: n-r=k or r=k\n  (iii)  substitute r\n  (iv)  Number of terms = n + 1 = 12\n  (v)  Answer: 12\n\n(b)\n  (i)  Tᵣ₊₁=C(n,r)·a^(n-r)·b^r\n  (ii)  match power: n-r=k or r=k\n  (iii)  substitute r\n  (iv)  simplify\n  (v)  T = C(11,2)·2⁹·x²\n  (vi)  T = 28160x²\n  (7)  Answer: 28160x²",
-      "draft": true,
-      "markscheme_image_paths": [
-        "images/markschemes/t1_math_sl_algebra_q35.svg"
-      ]
+      "draft": false,
+      "markscheme_image_paths": [],
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'></td><td class='ms-part'>(a)</td><td class='ms-content'>Number of terms \\(= 11 + 1 = 12\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(b)</td><td class='ms-content'>\\(T_{r+1} = \\dbinom{11}{r} x^{11-r} \\cdot 2^r\\);\\quad \\(11-r=2 \\implies r=9\\)</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(T_{10} = \\dbinom{11}{9}\\cdot 2^9 x^2 = 55\\times512\\,x^2 = 28160x^2\\)</td><td class='ms-mark'>M1A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[5 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t1_math_sl_algebra_q36",
@@ -1876,10 +1841,9 @@
         }
       ],
       "worked_solution_text": "36.\n(a)\n  (i)  Tᵣ₊₁=C(n,r)·a^(n-r)·b^r\n  (ii)  match power: n-r=k or r=k\n  (iii)  substitute r\n  (iv)  simplify\n  (v)  (x + 2)⁴ = 16 + 32x + 24x² + 8x³ + x⁴\n  (vi)  Answer: 16 + 32x + 24x² + 8x³ + x⁴\n\n(b)\n  (i)  Tᵣ₊₁=C(n,r)·a^(n-r)·b^r\n  (ii)  match power: n-r=k or r=k\n  (iii)  substitute r\n  (iv)  simplify\n  (v)  T = C(4,2)·2²·x²\n  (vi)  T = 24x²\n  (7)  Answer: 24x²",
-      "draft": true,
-      "markscheme_image_paths": [
-        "images/markschemes/t1_math_sl_algebra_q36.svg"
-      ]
+      "draft": false,
+      "markscheme_image_paths": [],
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'></td><td class='ms-part'>(a)</td><td class='ms-content'>\\((2+x)^4 = 16 + 32x + 24x^2 + 8x^3 + x^4\\)</td><td class='ms-mark'>M1A1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(b)</td><td class='ms-content'>Term in \\(x^2\\) is \\(24x^2\\)</td><td class='ms-mark'>M1A1A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[6 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t1_math_sl_algebra_q37",
@@ -1903,10 +1867,9 @@
         }
       ],
       "worked_solution_text": "37.\n(a)\n  (i)  Tᵣ₊₁=C(n,r)·a^(n-r)·b^r\n  (ii)  match power: n-r=k or r=k\n  (iii)  substitute r\n  (iv)  simplify",
-      "draft": true,
-      "markscheme_image_paths": [
-        "images/markschemes/t1_math_sl_algebra_q37.svg"
-      ]
+      "draft": false,
+      "markscheme_image_paths": [],
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(T_{r+1}=\\dbinom{5}{r}(3x^2)^{5-r}\\!\\left(-\\tfrac{2}{x}\\right)^r\\!,\\quad 10-3r=4\\implies r=2\\)</td><td class='ms-mark'>M1M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(T_3=\\dbinom{5}{2}\\cdot27\\cdot4\\,x^4=1080x^4\\)</td><td class='ms-mark'>M1A1A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[6 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t1_math_sl_algebra_q38",
@@ -1950,10 +1913,9 @@
         }
       ],
       "worked_solution_text": "38.\n(a)\n  (i)  Tᵣ₊₁=C(n,r)·a^(n-r)·b^r\n  (ii)  match power: n-r=k or r=k\n  (iii)  substitute r\n\n(b)\n  (i)  Tᵣ₊₁=C(n,r)·a^(n-r)·b^r\n  (ii)  match power: n-r=k or r=k\n  (iii)  substitute r\n\n(c)\n  (i)  Tᵣ₊₁=C(n,r)·a^(n-r)·b^r\n  (ii)  match power: n-r=k or r=k\n  (iii)  substitute r\n  (iv)  simplify",
-      "draft": true,
-      "markscheme_image_paths": [
-        "images/markschemes/t1_math_sl_algebra_q38.svg"
-      ]
+      "draft": false,
+      "markscheme_image_paths": [],
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'></td><td class='ms-part'>(a)</td><td class='ms-content'>\\(n=10\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(b)</td><td class='ms-content'>\\(a=p,\\quad b=2q\\)</td><td class='ms-mark'>A1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(c)</td><td class='ms-content'>\\(T_6=\\dbinom{10}{5}p^5(2q)^5=252\\times32\\,p^5q^5=8064\\,p^5q^5\\)</td><td class='ms-mark'>M1A1A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[6 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t1_math_sl_algebra_q39",
@@ -2020,10 +1982,9 @@
         }
       ],
       "worked_solution_text": "39.\n(a)\n  (i)  LHS = ...\n  (ii)  = ...\n  (iii)  = RHS\n\n(b)\n  (i)  LHS = ...\n  (ii)  = ...\n  (iii)  = RHS\n  (iv)  ∴ proved\n  (v)  Answer: 3x2 – 4\n\n(c)\n  (i)  LHS = ...\n  (ii)  = ...\n  (iii)  = RHS\n  (iv)  ∴ proved\n\n(d)\n  (i)  LHS = ...\n  (ii)  = ...\n  (iii)  = RHS\n  (iv)  ∴ proved\n\n(e)\n  (i)  LHS = ...\n  (ii)  = ...\n  (iii)  = RHS",
-      "draft": true,
-      "markscheme_image_paths": [
-        "images/markschemes/t1_math_sl_algebra_q39.svg"
-      ]
+      "draft": false,
+      "markscheme_image_paths": [],
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'></td><td class='ms-part'>(a)</td><td class='ms-content'>\\((x+h)^3=x^3+3x^2h+3xh^2+h^3\\)</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(b)</td><td class='ms-content'>\\(\\lim_{h\\to0}\\tfrac{3x^2h+3xh^2+h^3-4h}{h}=\\lim_{h\\to0}(3x^2+3xh+h^2-4)=3x^2-4\\quad\\blacksquare\\)</td><td class='ms-mark'>M1M1A1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(c)</td><td class='ms-content'>\\(f'(1)=-1;\\;3x^2-4=-1\\implies x=-1;\\;f(-1)=4\\implies Q=(-1,\\,4)\\)</td><td class='ms-mark'>M1A1A1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(d)</td><td class='ms-content'>\\(f'(x)<0:\\;-\\tfrac{2}{\\sqrt3}<x<\\tfrac{2}{\\sqrt3}\\)</td><td class='ms-mark'>M1A1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(e)</td><td class='ms-content'>Gradient \\(\\geq-4\\)</td><td class='ms-mark'>A1A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[15 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t1_math_sl_algebra_q40",
@@ -2047,10 +2008,9 @@
         }
       ],
       "worked_solution_text": "40.\n(a)\n  (i)  Tᵣ₊₁=C(n,r)·a^(n-r)·b^r\n  (ii)  match power: n-r=k or r=k\n  (iii)  substitute r\n  (iv)  simplify",
-      "draft": true,
-      "markscheme_image_paths": [
-        "images/markschemes/t1_math_sl_algebra_q40.svg"
-      ]
+      "draft": false,
+      "markscheme_image_paths": [],
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(T_{r+1}=\\dbinom{8}{r}x^{8-r}\\!\\left(-\\tfrac{3}{2}\\right)^r;\\quad r=5\\)</td><td class='ms-mark'>M1M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(T_6=56\\cdot\\left(-\\tfrac{243}{32}\\right)x^3=-\\dfrac{1701}{4}x^3\\)</td><td class='ms-mark'>M1A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[5 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t1_math_sl_algebra_q41",
@@ -2085,10 +2045,9 @@
         }
       ],
       "worked_solution_text": "41.\n(a)\n  (i)  Tᵣ₊₁=C(n,r)·a^(n-r)·b^r\n  (ii)  match power: n-r=k or r=k\n  (iii)  substitute r\n  (iv)  simplify\n\n(b)\n  (i)  Tᵣ₊₁=C(n,r)·a^(n-r)·b^r\n  (ii)  match power: n-r=k or r=k\n  (iii)  substitute r\n  (iv)  simplify",
-      "draft": true,
-      "markscheme_image_paths": [
-        "images/markschemes/t1_math_sl_algebra_q41.svg"
-      ]
+      "draft": false,
+      "markscheme_image_paths": [],
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'></td><td class='ms-part'>(a)</td><td class='ms-content'>\\((x-2)^4=x^4-8x^3+24x^2-32x+16\\)</td><td class='ms-mark'>M1A1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(b)</td><td class='ms-content'>\\(3x\\cdot24x^2+4\\cdot(-8x^3)=72x^3-32x^3=40x^3\\)</td><td class='ms-mark'>M1A1A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[6 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t1_math_sl_algebra_q42",
@@ -2125,10 +2084,9 @@
         }
       ],
       "worked_solution_text": "42.\n(a)\n  (i)  Tᵣ₊₁=C(n,r)·a^(n-r)·b^r\n  (ii)  match power: n-r=k or r=k\n  (iii)  substitute r\n  (iv)  simplify\n  (v)  Number of terms = n + 1 = 7\n  (vi)  Answer: 7\n\n(b)\n  (i)  Tᵣ₊₁=C(n,r)·a^(n-r)·b^r\n  (ii)  match power: n-r=k or r=k\n  (iii)  substitute r\n  (iv)  simplify",
-      "draft": true,
-      "markscheme_image_paths": [
-        "images/markschemes/t1_math_sl_algebra_q42.svg"
-      ]
+      "draft": false,
+      "markscheme_image_paths": [],
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'></td><td class='ms-part'>(a)</td><td class='ms-content'>7 terms</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(b)</td><td class='ms-content'>\\(T_{r+1}=\\dbinom{6}{r}(-3)^r x^{18-2r};\\quad 18-2r=12\\implies r=3\\)</td><td class='ms-mark'>M1A1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(T_4=\\dbinom{6}{3}(-27)x^{12}=-540x^{12}\\)</td><td class='ms-mark'>A1A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[6 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t1_math_sl_algebra_q43",
@@ -2154,10 +2112,9 @@
         }
       ],
       "worked_solution_text": "43.\n(a)\n  (i)  Tᵣ₊₁=C(n,r)·a^(n-r)·b^r\n  (ii)  match power: n-r=k or r=k\n  (iii)  substitute r\n  (iv)  simplify\n  (v)  a = C(10,2)·2² = 180\n  (vi)  Answer: a = 180",
-      "draft": true,
-      "markscheme_image_paths": [
-        "images/markschemes/t1_math_sl_algebra_q43.svg"
-      ]
+      "draft": false,
+      "markscheme_image_paths": [],
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(T_{r+1}=\\dbinom{10}{r}2^r x^{10-r}y^r;\\quad r=2\\)</td><td class='ms-mark'>M1M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(T_3=45\\cdot4\\cdot x^8y^2\\implies a=180\\)</td><td class='ms-mark'>A1A1A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[6 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t1_math_sl_algebra_q44",
@@ -2212,10 +2169,9 @@
         }
       ],
       "worked_solution_text": "44.\n(a)\n  (i)  Tᵣ₊₁=C(n,r)·a^(n-r)·b^r\n  (ii)  match power: n-r=k or r=k\n  (iii)  substitute r\n  (iv)  Number of terms = n + 1 = 6\n  (v)  Answer: 6\n\n(b)\n  (i)  Tᵣ₊₁=C(n,r)·a^(n-r)·b^r\n  (ii)  match power: n-r=k or r=k\n  (iii)  substitute r\n\n(a)\n  (i)  Tᵣ₊₁=C(n,r)·a^(n-r)·b^r\n  (ii)  match power: n-r=k or r=k\n  (iii)  substitute r\n\n(b)\n  (i)  Tᵣ₊₁=C(n,r)·a^(n-r)·b^r\n  (ii)  match power: n-r=k or r=k\n  (iii)  substitute r",
-      "draft": true,
-      "markscheme_image_paths": [
-        "images/markschemes/t1_math_sl_algebra_q44.svg"
-      ]
+      "draft": false,
+      "markscheme_image_paths": [],
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>44.</td><td class='ms-part'>(a)</td><td class='ms-content'>6 terms</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(b)</td><td class='ms-content'>\\(T_4=\\dbinom{5}{3}(x^2)^2(-2)^3=10\\times4\\times(-8)\\,x^4\\implies A=-80\\)</td><td class='ms-mark'>M1A1A1A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[6 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t1_math_sl_algebra_q45",
@@ -2268,10 +2224,9 @@
         }
       ],
       "worked_solution_text": "45.\n(a)\n  (i)  equation setup\n  (ii)  algebra simplify\n  (iii)  domain/restriction check\n\n(b)\n  (i)  equation setup\n  (ii)  algebra simplify\n  (iii)  domain/restriction check\n\n(a)\n  (i)  equation setup\n  (ii)  algebra simplify\n  (iii)  domain/restriction check\n\n(b)\n  (i)  equation setup\n  (ii)  algebra simplify\n  (iii)  domain/restriction check",
-      "draft": true,
-      "markscheme_image_paths": [
-        "images/markschemes/t1_math_sl_algebra_q45.svg"
-      ]
+      "draft": false,
+      "markscheme_image_paths": [],
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>45.</td><td class='ms-part'></td><td class='ms-content'>\\((3+\\sqrt7)^3=27+27\\sqrt7+63+7\\sqrt7=(27+63)+(27+7)\\sqrt7\\)</td><td class='ms-mark'>M1M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(p=90,\\quad q=34\\)</td><td class='ms-mark'>A1A1A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[6 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t1_math_sl_algebra_q46",
@@ -2295,10 +2250,9 @@
         }
       ],
       "worked_solution_text": "46.\n(a)\n  (i)  Tᵣ₊₁=C(n,r)·a^(n-r)·b^r\n  (ii)  match power: n-r=k or r=k\n  (iii)  substitute r\n  (iv)  simplify",
-      "draft": true,
-      "markscheme_image_paths": [
-        "images/markschemes/t1_math_sl_algebra_q46.svg"
-      ]
+      "draft": false,
+      "markscheme_image_paths": [],
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>46.</td><td class='ms-part'></td><td class='ms-content'>\\(\\dbinom{10}{3}2^7 a^3=120\\times128\\times a^3=15360\\,a^3=414720\\)</td><td class='ms-mark'>M1A1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(a^3=27\\implies a=3\\)</td><td class='ms-mark'>M1A1A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[6 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t1_math_sl_algebra_q47",
@@ -2322,10 +2276,9 @@
         }
       ],
       "worked_solution_text": "47.\n(a)\n  (i)  Tᵣ₊₁=C(n,r)·a^(n-r)·b^r\n  (ii)  match power: n-r=k or r=k\n  (iii)  substitute r\n  (iv)  simplify",
-      "draft": true,
-      "markscheme_image_paths": [
-        "images/markschemes/t1_math_sl_algebra_q47.svg"
-      ]
+      "draft": false,
+      "markscheme_image_paths": [],
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>47.</td><td class='ms-part'></td><td class='ms-content'>\\(T_4=\\dbinom{8}{3}2^5(-3x)^3=56\\times32\\times(-27)\\,x^3\\)</td><td class='ms-mark'>M1A1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(=-48384\\,x^3\\)</td><td class='ms-mark'>M1A1A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[6 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t1_math_sl_algebra_q48",
@@ -2349,10 +2302,9 @@
         }
       ],
       "worked_solution_text": "48.\n(a)\n  (i)  Tᵣ₊₁=C(n,r)·a^(n-r)·b^r\n  (ii)  match power: n-r=k or r=k\n  (iii)  substitute r\n  (iv)  simplify",
-      "draft": true,
-      "markscheme_image_paths": [
-        "images/markschemes/t1_math_sl_algebra_q48.svg"
-      ]
+      "draft": false,
+      "markscheme_image_paths": [],
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>48.</td><td class='ms-part'></td><td class='ms-content'>\\(T_{r+1}=\\dbinom{7}{r}5^{7-r}(2x^2)^r;\\quad 2r=10\\implies r=5\\)</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(T_6=\\dbinom{7}{5}\\cdot25\\cdot32\\,x^{10}=21\\times800\\,x^{10}=16800\\,x^{10}\\)</td><td class='ms-mark'>M1A1A1A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[6 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t1_math_sl_algebra_q49",
@@ -2405,10 +2357,9 @@
         }
       ],
       "worked_solution_text": "49.\n(a)\n  (i)  Tᵣ₊₁=C(n,r)·a^(n-r)·b^r\n  (ii)  match power: n-r=k or r=k\n  (iii)  substitute r\n\n(b)\n  (i)  Tᵣ₊₁=C(n,r)·a^(n-r)·b^r\n  (ii)  match power: n-r=k or r=k\n  (iii)  substitute r\n\n(a)\n  (i)  Tᵣ₊₁=C(n,r)·a^(n-r)·b^r\n  (ii)  match power: n-r=k or r=k\n  (iii)  substitute r\n\n(b)\n  (i)  Tᵣ₊₁=C(n,r)·a^(n-r)·b^r\n  (ii)  match power: n-r=k or r=k\n  (iii)  substitute r",
-      "draft": true,
-      "markscheme_image_paths": [
-        "images/markschemes/t1_math_sl_algebra_q49.svg"
-      ]
+      "draft": false,
+      "markscheme_image_paths": [],
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>49.</td><td class='ms-part'>(a)</td><td class='ms-content'>10 terms</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(b)</td><td class='ms-content'>\\(T_{r+1}=\\dbinom{9}{r}(x^2)^{9-r}(-x^{-1})^r=\\dbinom{9}{r}(-1)^r x^{18-3r};\\quad r=6\\)</td><td class='ms-mark'>M1A1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(T_7=\\dbinom{9}{6}(-1)^6=84\\)</td><td class='ms-mark'>A1A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[6 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t1_math_sl_algebra_q50",
@@ -2432,10 +2383,9 @@
         }
       ],
       "worked_solution_text": "50.\n(a)\n  (i)  Tᵣ₊₁=C(n,r)·a^(n-r)·b^r\n  (ii)  match power: n-r=k or r=k\n  (iii)  substitute r\n  (iv)  simplify",
-      "draft": true,
-      "markscheme_image_paths": [
-        "images/markschemes/t1_math_sl_algebra_q50.svg"
-      ]
+      "draft": false,
+      "markscheme_image_paths": [],
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>50.</td><td class='ms-part'></td><td class='ms-content'>\\(T_4=\\dbinom{5}{3}2^2(-x)^3=10\\times4\\times(-1)\\,x^3=-40x^3\\)</td><td class='ms-mark'>M1A1A1A1A1A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[6 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t1_math_sl_algebra_q51",
@@ -2459,10 +2409,9 @@
         }
       ],
       "worked_solution_text": "51.\n(a)\n  (i)  Tᵣ₊₁=C(n,r)·a^(n-r)·b^r\n  (ii)  match power: n-r=k or r=k\n  (iii)  substitute r\n  (iv)  simplify",
-      "draft": true,
-      "markscheme_image_paths": [
-        "images/markschemes/t1_math_sl_algebra_q51.svg"
-      ]
+      "draft": false,
+      "markscheme_image_paths": [],
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>51.</td><td class='ms-part'></td><td class='ms-content'>\\(T_{r+1}=\\dbinom{9}{r}(x^2)^{9-r}\\!\\left(-\\tfrac{2}{x}\\right)^r=\\dbinom{9}{r}(-2)^r x^{18-3r};\\quad r=6\\)</td><td class='ms-mark'>M1A1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(T_7=\\dbinom{9}{6}(-2)^6=84\\times64=5376\\)</td><td class='ms-mark'>M1A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[4 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t1_math_sl_algebra_q52",
@@ -2486,10 +2435,9 @@
         }
       ],
       "worked_solution_text": "52.\n(a)\n  (i)  Tᵣ₊₁=C(n,r)·a^(n-r)·b^r\n  (ii)  match power: n-r=k or r=k\n  (iii)  substitute r\n  (iv)  simplify",
-      "draft": true,
-      "markscheme_image_paths": [
-        "images/markschemes/t1_math_sl_algebra_q52.svg"
-      ]
+      "draft": false,
+      "markscheme_image_paths": [],
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>52.</td><td class='ms-part'></td><td class='ms-content'>\\(T_5=\\dbinom{7}{4}(5a)^3\\,b^4=35\\times125\\,a^3 b^4=4375\\,a^3 b^4\\)</td><td class='ms-mark'>M1A1A1A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[4 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t1_math_sl_algebra_exp_log_q1",
@@ -5875,10 +5823,9 @@
       "subtopic": "Sequences and series",
       "question_number": "1",
       "worked_solution_text": "1.\n  (i)  identify type (arithmetic/geometric)\n  (ii)  write general term\n  (iii)  apply sum formula",
-      "markscheme_image_paths": [
-        "images/markschemes/t1_seq_q1.svg"
-      ],
-      "draft": true
+      "markscheme_image_paths": [],
+      "draft": false,
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>1.</td><td class='ms-part'></td><td class='ms-content'>\\(u_n=2(1.05)^{n-1}>500\\implies(1.05)^{n-1}>\\!250\\)</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\((n-1)\\ln1.05>\\ln250\\implies n-1>\\dfrac{\\ln250}{\\ln1.05}\\approx113.2\\)</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Smallest \\(n=115;\\quad u_{115}=2(1.05)^{114}\\approx518\\)</td><td class='ms-mark'>A1A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[5 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t1_seq_q2",
@@ -5888,10 +5835,9 @@
       "subtopic": "Sequences and series",
       "question_number": "2",
       "worked_solution_text": "2.\n  (i)  identify type (arithmetic/geometric)\n  (ii)  write general term\n  (iii)  apply sum formula",
-      "markscheme_image_paths": [
-        "images/markschemes/t1_seq_q2.svg"
-      ],
-      "draft": true
+      "markscheme_image_paths": [],
+      "draft": false,
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>2.</td><td class='ms-part'></td><td class='ms-content'>\\(S_n=\\dfrac{n(u_1+u_n)}{2}=\\dfrac{n(1.5+7.5)}{2}=\\dfrac{9n}{2}=81\\implies n=18\\)</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(d=\\dfrac{u_n-u_1}{n-1}=\\dfrac{6}{17}\\)</td><td class='ms-mark'>M1A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[4 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t1_seq_q3",
@@ -5914,10 +5860,9 @@
       "subtopic": "Sequences and series",
       "question_number": "4",
       "worked_solution_text": "4.\n  (i)  identify type (arithmetic/geometric)\n  (ii)  write general term\n  (iii)  apply sum formula",
-      "markscheme_image_paths": [
-        "images/markschemes/t1_seq_q4.svg"
-      ],
-      "draft": true
+      "markscheme_image_paths": [],
+      "draft": false,
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>4.</td><td class='ms-part'>(a)</td><td class='ms-content'>\\(|2x|<1\\implies -\\tfrac{1}{2}<x<\\tfrac{1}{2}\\)</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(b)</td><td class='ms-content'>\\(S_\\infty=\\dfrac{35}{1-2x}=40\\implies 80x=35-40=-5\\implies x=\\dfrac{1}{16}\\)</td><td class='ms-mark'>M1A1A1A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[6 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t1_seq_q5",
@@ -5927,10 +5872,9 @@
       "subtopic": "Sequences and series",
       "question_number": "5",
       "worked_solution_text": "5.\n  (i)  identify type (arithmetic/geometric)\n  (ii)  write general term\n  (iii)  apply sum formula",
-      "markscheme_image_paths": [
-        "images/markschemes/t1_seq_q5.svg"
-      ],
-      "draft": true
+      "markscheme_image_paths": [],
+      "draft": false,
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>5.</td><td class='ms-part'></td><td class='ms-content'>Let \\(u_1=\\theta\\) (smallest), \\(u_{12}=2\\theta\\) (largest), \\(d=\\dfrac{\\theta}{11}\\)</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(S_{12}=\\tfrac{12}{2}(\\theta+2\\theta)=18\\theta=2\\pi\\implies\\theta=\\dfrac{\\pi}{9}\\)</td><td class='ms-mark'>M1A1A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[5 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t1_seq_q6",
@@ -5979,10 +5923,9 @@
       "subtopic": "Sequences and series",
       "question_number": "9",
       "worked_solution_text": "9.\n  (i)  identify type (arithmetic/geometric)\n  (ii)  write general term\n  (iii)  apply sum formula",
-      "markscheme_image_paths": [
-        "images/markschemes/t1_seq_q9.svg"
-      ],
-      "draft": true
+      "markscheme_image_paths": [],
+      "draft": false,
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>9.</td><td class='ms-part'>(a)</td><td class='ms-content'>\\(u_n=S_n-S_{n-1}=\\dfrac{6a}{7^n}\\) for \\(n\\geq2\\)</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(b)</td><td class='ms-content'>Show \\(a=1\\): \\(u_1=S_1=\\dfrac{7-a}{7};\\;r=\\tfrac{1}{7}\\) requires \\(u_1=\\tfrac{6}{7}\\implies a=1\\)</td><td class='ms-mark'>M1A1M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(c)(i)</td><td class='ms-content'>\\(|r|=\\tfrac{1}{7}<1\\) always, so sum to infinity always exists for \\(a>0\\)</td><td class='ms-mark'>R1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(c)(ii)</td><td class='ms-content'>\\(S_\\infty=S_n\\to1\\) as \\(n\\to\\infty\\), or \\(\\dfrac{u_1}{1-r}=\\dfrac{6/7}{6/7}=1\\)</td><td class='ms-mark'>A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[8 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t1_seq_q10",
@@ -5992,10 +5935,9 @@
       "subtopic": "Sequences and series",
       "question_number": "10",
       "worked_solution_text": "10.\n  (i)  identify type (arithmetic/geometric)\n  (ii)  write general term\n  (iii)  apply sum formula",
-      "markscheme_image_paths": [
-        "images/markschemes/t1_seq_q10.svg"
-      ],
-      "draft": true
+      "markscheme_image_paths": [],
+      "draft": false,
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>10.</td><td class='ms-part'></td><td class='ms-content'>\\(S_{10}=60:\\;2u_1+9d=12\\)</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(S_{20}=320:\\;2u_1+19d=32\\implies10d=20\\implies d=2,\\;u_1=-3\\)</td><td class='ms-mark'>M1A1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(u_{15}=-3+14(2)=25\\)</td><td class='ms-mark'>M1A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[6 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t1_seq_q11",
@@ -6018,10 +5960,9 @@
       "subtopic": "Sequences and series",
       "question_number": "12",
       "worked_solution_text": "12.\n  (i)  identify type (arithmetic/geometric)\n  (ii)  write general term\n  (iii)  apply sum formula",
-      "markscheme_image_paths": [
-        "images/markschemes/t1_seq_q12.svg"
-      ],
-      "draft": true
+      "markscheme_image_paths": [],
+      "draft": false,
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>12.</td><td class='ms-part'>(a)</td><td class='ms-content'>\\(u_n=8+(n-1)(18)=18n-10\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(b)</td><td class='ms-content'>\\(\\displaystyle\\sum_{r=1}^{n}(18r-10)\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(c)</td><td class='ms-content'>\\(u_{15}=260;\\;S_{15}=\\tfrac{15}{2}(8+260)=15\\times134=2010\\)</td><td class='ms-mark'>M1A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[4 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t1_seq_q13",
@@ -6031,10 +5972,9 @@
       "subtopic": "Sequences and series",
       "question_number": "13",
       "worked_solution_text": "13.\n  (i)  identify type (arithmetic/geometric)\n  (ii)  write general term\n  (iii)  apply sum formula",
-      "markscheme_image_paths": [
-        "images/markschemes/t1_seq_q13.svg"
-      ],
-      "draft": true
+      "markscheme_image_paths": [],
+      "draft": false,
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>13.</td><td class='ms-part'></td><td class='ms-content'>Sum of all 3-digit numbers: \\(\\tfrac{900}{2}(100+999)=494550\\)</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Sum of 3-digit multiples of 3 (102 to 999, \\(n=300\\)): \\(150(102+999)=165150\\)</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Answer: \\(494550-165150=329400\\)</td><td class='ms-mark'>A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[5 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t1_seq_q14",
@@ -6057,10 +5997,9 @@
       "subtopic": "Sequences and series",
       "question_number": "15",
       "worked_solution_text": "15.\n  (i)  identify type (arithmetic/geometric)\n  (ii)  write general term\n  (iii)  apply sum formula",
-      "markscheme_image_paths": [
-        "images/markschemes/t1_seq_q15.svg"
-      ],
-      "draft": true
+      "markscheme_image_paths": [],
+      "draft": false,
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>15.</td><td class='ms-part'></td><td class='ms-content'>\\(u_4=7,\\;u_9=22\\implies5d=15\\implies d=3,\\;u_1=-2\\)</td><td class='ms-mark'>M1A1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(S_n=\\tfrac{n(3n-7)}{2}>10000\\implies3n^2-7n-20000>0\\)</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(n>\\tfrac{7+\\sqrt{240049}}{6}\\approx82.8\\implies n_{\\min}=83\\)</td><td class='ms-mark'>M1A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[5 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t1_cnt_q1",
@@ -6221,10 +6160,9 @@
       "subtopic": "Sequences and series",
       "question_number": "1",
       "worked_solution_text": "1.\n  (i)  identify type (arithmetic/geometric)\n  (ii)  write general term\n  (iii)  apply sum formula",
-      "markscheme_image_paths": [
-        "images/markschemes/t1p1_q1.svg"
-      ],
-      "draft": true
+      "markscheme_image_paths": [],
+      "draft": false,
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>1.</td><td class='ms-part'>(a)</td><td class='ms-content'>\\(u_5-u_3=2d=6\\implies d=3\\)</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(b)</td><td class='ms-content'>\\(u_1=u_3-2d=10-6=4\\)</td><td class='ms-mark'>M1A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[4 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t1p1_q2",
@@ -6323,10 +6261,9 @@
       "subtopic": "Sequences and series",
       "question_number": "9",
       "worked_solution_text": "9.\n  (i)  identify type (arithmetic/geometric)\n  (ii)  write general term\n  (iii)  apply sum formula",
-      "markscheme_image_paths": [
-        "images/markschemes/t1p1_q9.svg"
-      ],
-      "draft": true
+      "markscheme_image_paths": [],
+      "draft": false,
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>9.</td><td class='ms-part'>(a)</td><td class='ms-content'>\\(d=5-2=3\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(b)</td><td class='ms-content'>\\(u_8=2+7(3)=23\\)</td><td class='ms-mark'>M1A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[4 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t1p1_q10",
@@ -6412,10 +6349,9 @@
       "subtopic": "Sequences and series",
       "question_number": "16",
       "worked_solution_text": "16.\n  (i)  identify type (arithmetic/geometric)\n  (ii)  write general term\n  (iii)  apply sum formula",
-      "markscheme_image_paths": [
-        "images/markschemes/t1p1_q16.svg"
-      ],
-      "draft": true
+      "markscheme_image_paths": [],
+      "draft": false,
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>16.</td><td class='ms-part'>(a)</td><td class='ms-content'>\\(d=6.7-5=1.7\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(b)</td><td class='ms-content'>\\(u_{28}=5+27(1.7)=5+45.9=50.9\\)</td><td class='ms-mark'>M1A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[4 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t1p1_q17",
@@ -6425,10 +6361,9 @@
       "subtopic": "Sequences and series",
       "question_number": "17",
       "worked_solution_text": "17.\n  (i)  identify type (arithmetic/geometric)\n  (ii)  write general term",
-      "markscheme_image_paths": [
-        "images/markschemes/t1p1_q17.svg"
-      ],
-      "draft": true
+      "markscheme_image_paths": [],
+      "draft": false,
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>17.</td><td class='ms-part'></td><td class='ms-content'>\\(S_{28}=\\tfrac{28}{2}(5+50.9)=14\\times55.9=782.6\\)</td><td class='ms-mark'>M1A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[2 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t1p1_q18",
@@ -6450,10 +6385,9 @@
       "subtopic": "Sequences and series",
       "question_number": "19",
       "worked_solution_text": "19.\n  (i)  identify type (arithmetic/geometric)\n  (ii)  write general term\n  (iii)  apply sum formula",
-      "markscheme_image_paths": [
-        "images/markschemes/t1p1_q19.svg"
-      ],
-      "draft": true
+      "markscheme_image_paths": [],
+      "draft": false,
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>19.</td><td class='ms-part'></td><td class='ms-content'>\\(S_4=\\dfrac{200(1-r^4)}{1-r}=324.8\\implies\\dfrac{1-r^4}{1-r}=1.624\\)</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Testing \\(r=0.4\\colon\\;\\dfrac{1-0.0256}{0.6}=1.624\\checkmark\\implies r=0.4\\)</td><td class='ms-mark'>M1A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[4 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t1p1_q20",
@@ -6463,10 +6397,9 @@
       "subtopic": "Sequences and series",
       "question_number": "20",
       "worked_solution_text": "20.\n  (i)  identify type (arithmetic/geometric)\n  (ii)  write general term\n  (iii)  apply sum formula",
-      "markscheme_image_paths": [
-        "images/markschemes/t1p1_q20.svg"
-      ],
-      "draft": true
+      "markscheme_image_paths": [],
+      "draft": false,
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>20.</td><td class='ms-part'></td><td class='ms-content'>\\(u_{10}=200(0.4)^9\\approx0.0524\\)</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Arithmetic 36,40,44: \\(d=4,\\;u_8=36+7(4)=64\\)</td><td class='ms-mark'>A1A1A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[5 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t1p1_q21",
@@ -6552,10 +6485,9 @@
       "subtopic": "Sequences and series",
       "question_number": "27",
       "worked_solution_text": "27.\n  (i)  identify type (arithmetic/geometric)\n  (ii)  write general term\n  (iii)  apply sum formula",
-      "markscheme_image_paths": [
-        "images/markschemes/t1p1_q27.svg"
-      ],
-      "draft": true
+      "markscheme_image_paths": [],
+      "draft": false,
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>27.</td><td class='ms-part'></td><td class='ms-content'>\\(S_\\infty=\\dfrac{u_1}{1-r}=440\\implies u_1=440(1-r)\\)</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(S_3=u_1\\dfrac{1-r^3}{1-r}=440(1-r^3)=62.755\\)</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(r^3=1-\\dfrac{62.755}{440}=0.857375=(0.95)^3\\implies r=0.95\\)</td><td class='ms-mark'>M1A1A1A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[6 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t1p1_q28",
@@ -6577,10 +6509,9 @@
       "subtopic": "Sequences and series",
       "question_number": "29",
       "worked_solution_text": "29.\n  (i)  identify type (arithmetic/geometric)\n  (ii)  write general term\n  (iii)  apply sum formula",
-      "markscheme_image_paths": [
-        "images/markschemes/t1p1_q29.svg"
-      ],
-      "draft": true
+      "markscheme_image_paths": [],
+      "draft": false,
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'></td><td class='ms-part'>(a)</td><td class='ms-content'>\\((2+x)^4 = 16 + 32x + 24x^2 + 8x^3 + x^4\\)</td><td class='ms-mark'>M1A1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(b)</td><td class='ms-content'>Term in \\(x^2\\) is \\(24x^2\\)</td><td class='ms-mark'>M1A1A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[6 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t1p1_q30",
@@ -6641,10 +6572,9 @@
       "subtopic": "Sequences and series",
       "question_number": "34",
       "worked_solution_text": "34.\n  (i)  identify type (arithmetic/geometric)\n  (ii)  write general term\n  (iii)  apply sum formula",
-      "markscheme_image_paths": [
-        "images/markschemes/t1p1_q34.svg"
-      ],
-      "draft": true
+      "markscheme_image_paths": [],
+      "draft": false,
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>34.</td><td class='ms-part'>geo(i)</td><td class='ms-content'>\\(u_4=40\\!\\left(\\tfrac{1}{2}\\right)^3=5\\)</td><td class='ms-mark'>A1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>geo(ii)</td><td class='ms-content'>\\(S_\\infty=\\dfrac{40}{1-\\frac{1}{2}}=80\\)</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>arith(i)</td><td class='ms-content'>\\(d=\\dfrac{-8-(-36)}{7}=4\\)</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>arith(ii)</td><td class='ms-content'>\\(S_n=\\tfrac{n}{2}(2(-36)+(n-1)4)=n(2n-38)=2n^2-38n\\quad\\blacksquare\\)</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(c)</td><td class='ms-content'>\\(80=2(2n^2-38n)\\implies n^2-19n-20=0\\implies(n-20)(n+1)=0\\implies n=20\\)</td><td class='ms-mark'>M1A1A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[14 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t1p1_q35",
@@ -6654,10 +6584,9 @@
       "subtopic": "Sequences and series",
       "question_number": "35",
       "worked_solution_text": "35.\n  (i)  identify type (arithmetic/geometric)\n  (ii)  write general term\n  (iii)  apply sum formula",
-      "markscheme_image_paths": [
-        "images/markschemes/t1p1_q35.svg"
-      ],
-      "draft": true
+      "markscheme_image_paths": [],
+      "draft": false,
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>35.</td><td class='ms-part'></td><td class='ms-content'>\\(d=\\dfrac{64-7}{19}=3\\)</td><td class='ms-mark'>M1A1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(u_n=7+(n-1)(3)=3709\\implies n=1235\\)</td><td class='ms-mark'>M1A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[5 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t1p1_q36",
