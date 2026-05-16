@@ -209,6 +209,8 @@ def detect_starts(doc: fitz.Document, kind: str) -> List[StartPos]:
         if kind == "markscheme" and pno < ms_data_start_page:
             continue
         page = doc[pno]
+        page_rot = page.rotation
+        rot_mat = page.rotation_matrix  # transforms native PDF coords → visual coords
         blocks = page.get_text("dict").get("blocks", [])
         prev = ""
         pending: Optional[int] = None
@@ -225,8 +227,13 @@ def detect_starts(doc: fitz.Document, kind: str) -> List[StartPos]:
                 text = "".join(span.get("text", "") for span in spans).strip()
                 if not text:
                     continue
-                x = float(line.get("bbox", [0, 0, 0, 0])[0])
-                y = float(line.get("bbox", [0, 0, 0, 0])[1])
+                x_raw = float(line.get("bbox", [0, 0, 0, 0])[0])
+                y_raw = float(line.get("bbox", [0, 0, 0, 0])[1])
+                if page_rot != 0:
+                    pt = fitz.Point(x_raw, y_raw) * rot_mat
+                    x, y = pt.x, pt.y
+                else:
+                    x, y = x_raw, y_raw
                 if kind == "markscheme" and y >= 730:
                     continue
 
@@ -312,10 +319,15 @@ def detect_starts(doc: fitz.Document, kind: str) -> List[StartPos]:
                 qn = int(txt_clean)
                 if not (1 <= qn <= 60):
                     continue
-                if not (float(x0) <= 65 and float(y0) >= 720):
+                if page_rot != 0:
+                    pt = fitz.Point(float(x0), float(y0)) * rot_mat
+                    x_vis, y_vis = pt.x, pt.y
+                else:
+                    x_vis, y_vis = float(x0), float(y0)
+                if not (x_vis <= 65 and y_vis >= 720):
                     continue
-                eff_x = float(x0)
-                eff_y = float(y0)
+                eff_x = x_vis
+                eff_y = y_vis
                 cand_score = 9
                 prev = starts.get(qn)
                 replace = False

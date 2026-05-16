@@ -2158,7 +2158,12 @@
         "images/questions/bio_m16_p2_tz1_q1_hl_p5.png",
         "images/questions/bio_m16_p2_tz1_q1_hl_p6.png"
       ],
-      "markscheme_image_paths": []
+      "markscheme_image_paths": [
+        "images/markschemes/bio_m16_p2_tz1_q1_hl_p1.png",
+        "images/markschemes/bio_m16_p2_tz1_q1_hl_p2.png",
+        "images/markschemes/bio_m16_p2_tz1_q1_hl_p3.png",
+        "images/markschemes/bio_m16_p2_tz1_q1_hl_p4.png"
+      ]
     },
     {
       "id": "bio_m16_p2_tz1_q2_hl",
@@ -2190,7 +2195,9 @@
         "images/questions/bio_m16_p2_tz1_q2_hl_p1.png",
         "images/questions/bio_m16_p2_tz1_q2_hl_p2.png"
       ],
-      "markscheme_image_paths": []
+      "markscheme_image_paths": [
+        "images/markschemes/bio_m16_p2_tz1_q2_hl_p1.png"
+      ]
     },
     {
       "id": "bio_m16_p2_tz1_q3_hl",
@@ -2222,7 +2229,9 @@
         "images/questions/bio_m16_p2_tz1_q3_hl_p1.png",
         "images/questions/bio_m16_p2_tz1_q3_hl_p2.png"
       ],
-      "markscheme_image_paths": []
+      "markscheme_image_paths": [
+        "images/markschemes/bio_m16_p2_tz1_q3_hl_p1.png"
+      ]
     },
     {
       "id": "bio_m16_p2_tz1_q4_hl",
@@ -2255,7 +2264,11 @@
         "images/questions/bio_m16_p2_tz1_q4_hl_p2.png",
         "images/questions/bio_m16_p2_tz1_q4_hl_p3.png"
       ],
-      "markscheme_image_paths": []
+      "markscheme_image_paths": [
+        "images/markschemes/bio_m16_p2_tz1_q4_hl_p1.png",
+        "images/markschemes/bio_m16_p2_tz1_q4_hl_p2.png",
+        "images/markschemes/bio_m16_p2_tz1_q4_hl_p3.png"
+      ]
     },
     {
       "id": "bio_m16_p2_tz1_q5_hl",
@@ -2286,7 +2299,11 @@
       "question_image_paths": [
         "images/questions/bio_m16_p2_tz1_q5_hl.png"
       ],
-      "markscheme_image_paths": []
+      "markscheme_image_paths": [
+        "images/markschemes/bio_m16_p2_tz1_q5_hl_p1.png",
+        "images/markschemes/bio_m16_p2_tz1_q5_hl_p2.png",
+        "images/markschemes/bio_m16_p2_tz1_q5_hl_p3.png"
+      ]
     },
     {
       "id": "bio_m16_p2_tz1_q6_hl",
@@ -2317,7 +2334,11 @@
       "question_image_paths": [
         "images/questions/bio_m16_p2_tz1_q6_hl.png"
       ],
-      "markscheme_image_paths": []
+      "markscheme_image_paths": [
+        "images/markschemes/bio_m16_p2_tz1_q6_hl_p1.png",
+        "images/markschemes/bio_m16_p2_tz1_q6_hl_p2.png",
+        "images/markschemes/bio_m16_p2_tz1_q6_hl_p3.png"
+      ]
     },
     {
       "id": "bio_m16_p2_tz1_q7_hl",
@@ -2348,7 +2369,10 @@
       "question_image_paths": [
         "images/questions/bio_m16_p2_tz1_q7_hl_p1.png"
       ],
-      "markscheme_image_paths": []
+      "markscheme_image_paths": [
+        "images/markschemes/bio_m16_p2_tz1_q7_hl_p1.png",
+        "images/markschemes/bio_m16_p2_tz1_q7_hl_p2.png"
+      ]
     },
     {
       "id": "bio_m16_p2_tz1_q1_sl",
@@ -2384,7 +2408,10 @@
         "images/questions/bio_m16_p2_tz1_q1_sl_p5.png",
         "images/questions/bio_m16_p2_tz1_q1_sl_p6.png"
       ],
-      "markscheme_image_paths": []
+      "markscheme_image_paths": [
+        "images/markschemes/bio_m16_p2_tz1_q1_sl_p1.png",
+        "images/markschemes/bio_m16_p2_tz1_q1_sl_p2.png"
+      ]
     },
     {
       "id": "bio_m16_p2_tz1_q2_sl",
@@ -2416,7 +2443,9 @@
         "images/questions/bio_m16_p2_tz1_q2_sl_p1.png",
         "images/questions/bio_m16_p2_tz1_q2_sl_p2.png"
       ],
-      "markscheme_image_paths": []
+      "markscheme_image_paths": [
+        "images/markschemes/bio_m16_p2_tz1_q2_sl_p1.png"
+      ]
     },
     {
       "id": "bio_m16_p2_tz1_q3_sl",
@@ -2447,7 +2476,10 @@
         "images/questions/bio_m16_p2_tz1_q3_sl_p1.png",
         "images/questions/bio_m16_p2_tz1_q3_sl_p2.png"
       ],
-      "markscheme_image_paths": []
+      "markscheme_image_paths": [
+        "images/markschemes/bio_m16_p2_tz1_q3_sl_p1.png",
+        "images/markschemes/bio_m16_p2_tz1_q3_sl_p2.png"
+      ]
     },
     {
       "id": "bio_m16_p2_tz1_q4_sl",
@@ -2480,7 +2512,10 @@
         "images/questions/bio_m16_p2_tz1_q4_sl_p2.png",
         "images/questions/bio_m16_p2_tz1_q4_sl_p3.png"
       ],
-      "markscheme_image_paths": []
+      "markscheme_image_paths": [
+        "images/markschemes/bio_m16_p2_tz1_q4_sl_p1.png",
+        "images/markschemes/bio_m16_p2_tz1_q4_sl_p2.png"
+      ]
     },
     {
       "id": "bio_m16_p2_tz1_q5_sl",
@@ -2511,7 +2546,11 @@
       "question_image_paths": [
         "images/questions/bio_m16_p2_tz1_q5_sl.png"
       ],
-      "markscheme_image_paths": []
+      "markscheme_image_paths": [
+        "images/markschemes/bio_m16_p2_tz1_q5_sl_p1.png",
+        "images/markschemes/bio_m16_p2_tz1_q5_sl_p2.png",
+        "images/markschemes/bio_m16_p2_tz1_q5_sl_p3.png"
+      ]
     },
     {
       "id": "bio_m16_p2_tz1_q6_sl",
@@ -2542,7 +2581,11 @@
       "question_image_paths": [
         "images/questions/bio_m16_p2_tz1_q6_sl_p1.png"
       ],
-      "markscheme_image_paths": []
+      "markscheme_image_paths": [
+        "images/markschemes/bio_m16_p2_tz1_q6_sl_p1.png",
+        "images/markschemes/bio_m16_p2_tz1_q6_sl_p2.png",
+        "images/markschemes/bio_m16_p2_tz1_q6_sl_p3.png"
+      ]
     },
     {
       "id": "bio_m16_p3_tz1_q1_hl",
@@ -2572,7 +2615,9 @@
         "images/questions/bio_m16_p3_tz1_q1_hl_p1.png",
         "images/questions/bio_m16_p3_tz1_q1_hl_p2.png"
       ],
-      "markscheme_image_paths": []
+      "markscheme_image_paths": [
+        "images/markschemes/bio_m16_p3_tz1_q1_hl_p1.png"
+      ]
     },
     {
       "id": "bio_m16_p3_tz1_q2_hl",
@@ -2603,7 +2648,9 @@
         "images/questions/bio_m16_p3_tz1_q2_hl_p1.png",
         "images/questions/bio_m16_p3_tz1_q2_hl_p2.png"
       ],
-      "markscheme_image_paths": []
+      "markscheme_image_paths": [
+        "images/markschemes/bio_m16_p3_tz1_q2_hl.png"
+      ]
     },
     {
       "id": "bio_m16_p3_tz1_q3_hl",
@@ -2636,7 +2683,10 @@
         "images/questions/bio_m16_p3_tz1_q3_hl_p2.png",
         "images/questions/bio_m16_p3_tz1_q3_hl_p3.png"
       ],
-      "markscheme_image_paths": []
+      "markscheme_image_paths": [
+        "images/markschemes/bio_m16_p3_tz1_q3_hl_p1.png",
+        "images/markschemes/bio_m16_p3_tz1_q3_hl_p2.png"
+      ]
     },
     {
       "id": "bio_m16_p3_tz1_q4_hl",
@@ -2668,7 +2718,9 @@
         "images/questions/bio_m16_p3_tz1_q4_hl_p1.png",
         "images/questions/bio_m16_p3_tz1_q4_hl_p2.png"
       ],
-      "markscheme_image_paths": []
+      "markscheme_image_paths": [
+        "images/markschemes/bio_m16_p3_tz1_q4_hl_p1.png"
+      ]
     },
     {
       "id": "bio_m16_p3_tz1_q5_hl",
@@ -2699,7 +2751,9 @@
         "images/questions/bio_m16_p3_tz1_q5_hl_p1.png",
         "images/questions/bio_m16_p3_tz1_q5_hl_p2.png"
       ],
-      "markscheme_image_paths": []
+      "markscheme_image_paths": [
+        "images/markschemes/bio_m16_p3_tz1_q5_hl_p1.png"
+      ]
     },
     {
       "id": "bio_m16_p3_tz1_q6_hl",
@@ -2730,7 +2784,9 @@
       "question_image_paths": [
         "images/questions/bio_m16_p3_tz1_q6_hl_p1.png"
       ],
-      "markscheme_image_paths": []
+      "markscheme_image_paths": [
+        "images/markschemes/bio_m16_p3_tz1_q6_hl_p1.png"
+      ]
     },
     {
       "id": "bio_m16_p3_tz1_q7_hl",
@@ -2762,7 +2818,9 @@
         "images/questions/bio_m16_p3_tz1_q7_hl_p1.png",
         "images/questions/bio_m16_p3_tz1_q7_hl_p2.png"
       ],
-      "markscheme_image_paths": []
+      "markscheme_image_paths": [
+        "images/markschemes/bio_m16_p3_tz1_q7_hl_p1.png"
+      ]
     },
     {
       "id": "bio_m16_p3_tz1_q8_hl",
@@ -2792,7 +2850,9 @@
       "question_image_paths": [
         "images/questions/bio_m16_p3_tz1_q8_hl_p1.png"
       ],
-      "markscheme_image_paths": []
+      "markscheme_image_paths": [
+        "images/markschemes/bio_m16_p3_tz1_q8_hl_p1.png"
+      ]
     },
     {
       "id": "bio_m16_p3_tz1_q9_hl",
@@ -2824,7 +2884,22 @@
         "images/questions/bio_m16_p3_tz1_q9_hl_p1.png",
         "images/questions/bio_m16_p3_tz1_q9_hl_p2.png"
       ],
-      "markscheme_image_paths": []
+      "markscheme_image_paths": [
+        "images/markschemes/bio_m16_p3_tz1_q9_hl_p1.png",
+        "images/markschemes/bio_m16_p3_tz1_q9_hl_p2.png",
+        "images/markschemes/bio_m16_p3_tz1_q9_hl_p3.png",
+        "images/markschemes/bio_m16_p3_tz1_q9_hl_p4.png",
+        "images/markschemes/bio_m16_p3_tz1_q9_hl_p5.png",
+        "images/markschemes/bio_m16_p3_tz1_q9_hl_p6.png",
+        "images/markschemes/bio_m16_p3_tz1_q9_hl_p7.png",
+        "images/markschemes/bio_m16_p3_tz1_q9_hl_p8.png",
+        "images/markschemes/bio_m16_p3_tz1_q9_hl_p9.png",
+        "images/markschemes/bio_m16_p3_tz1_q9_hl_p10.png",
+        "images/markschemes/bio_m16_p3_tz1_q9_hl_p11.png",
+        "images/markschemes/bio_m16_p3_tz1_q9_hl_p12.png",
+        "images/markschemes/bio_m16_p3_tz1_q9_hl_p13.png",
+        "images/markschemes/bio_m16_p3_tz1_q9_hl_p14.png"
+      ]
     },
     {
       "id": "bio_m16_p3_tz1_q10_hl",
@@ -3262,24 +3337,7 @@
         "images/questions/bio_m16_p3_tz1_q1_sl_p2.png"
       ],
       "markscheme_image_paths": [
-        "images/markschemes/bio_m16_p3_tz1_q1_sl_p1.png",
-        "images/markschemes/bio_m16_p3_tz1_q1_sl_p2.png",
-        "images/markschemes/bio_m16_p3_tz1_q1_sl_p3.png",
-        "images/markschemes/bio_m16_p3_tz1_q1_sl_p4.png",
-        "images/markschemes/bio_m16_p3_tz1_q1_sl_p5.png",
-        "images/markschemes/bio_m16_p3_tz1_q1_sl_p6.png",
-        "images/markschemes/bio_m16_p3_tz1_q1_sl_p7.png",
-        "images/markschemes/bio_m16_p3_tz1_q1_sl_p8.png",
-        "images/markschemes/bio_m16_p3_tz1_q1_sl_p9.png",
-        "images/markschemes/bio_m16_p3_tz1_q1_sl_p10.png",
-        "images/markschemes/bio_m16_p3_tz1_q1_sl_p11.png",
-        "images/markschemes/bio_m16_p3_tz1_q1_sl_p12.png",
-        "images/markschemes/bio_m16_p3_tz1_q1_sl_p13.png",
-        "images/markschemes/bio_m16_p3_tz1_q1_sl_p14.png",
-        "images/markschemes/bio_m16_p3_tz1_q1_sl_p15.png",
-        "images/markschemes/bio_m16_p3_tz1_q1_sl_p16.png",
-        "images/markschemes/bio_m16_p3_tz1_q1_sl_p17.png",
-        "images/markschemes/bio_m16_p3_tz1_q1_sl_p18.png"
+        "images/markschemes/bio_m16_p3_tz1_q1_sl_p1.png"
       ]
     },
     {
@@ -3312,7 +3370,9 @@
         "images/questions/bio_m16_p3_tz1_q2_sl_p1.png",
         "images/questions/bio_m16_p3_tz1_q2_sl_p2.png"
       ],
-      "markscheme_image_paths": []
+      "markscheme_image_paths": [
+        "images/markschemes/bio_m16_p3_tz1_q2_sl_p1.png"
+      ]
     },
     {
       "id": "bio_m16_p3_tz1_q3_sl",
@@ -3342,7 +3402,9 @@
         "images/questions/bio_m16_p3_tz1_q3_sl_p1.png",
         "images/questions/bio_m16_p3_tz1_q3_sl_p2.png"
       ],
-      "markscheme_image_paths": []
+      "markscheme_image_paths": [
+        "images/markschemes/bio_m16_p3_tz1_q3_sl_p1.png"
+      ]
     },
     {
       "id": "bio_m16_p3_tz1_q4_sl",
@@ -3373,7 +3435,9 @@
       "question_image_paths": [
         "images/questions/bio_m16_p3_tz1_q4_sl_p1.png"
       ],
-      "markscheme_image_paths": []
+      "markscheme_image_paths": [
+        "images/markschemes/bio_m16_p3_tz1_q4_sl.png"
+      ]
     },
     {
       "id": "bio_m16_p3_tz1_q5_sl",
@@ -3403,7 +3467,9 @@
       "question_image_paths": [
         "images/questions/bio_m16_p3_tz1_q5_sl_p1.png"
       ],
-      "markscheme_image_paths": []
+      "markscheme_image_paths": [
+        "images/markschemes/bio_m16_p3_tz1_q5_sl_p1.png"
+      ]
     },
     {
       "id": "bio_m16_p3_tz1_q6_sl",
@@ -3432,7 +3498,9 @@
       "question_image_paths": [
         "images/questions/bio_m16_p3_tz1_q6_sl_p1.png"
       ],
-      "markscheme_image_paths": []
+      "markscheme_image_paths": [
+        "images/markschemes/bio_m16_p3_tz1_q6_sl.png"
+      ]
     },
     {
       "id": "bio_m16_p3_tz1_q7_sl",
@@ -3463,7 +3531,9 @@
         "images/questions/bio_m16_p3_tz1_q7_sl_p1.png",
         "images/questions/bio_m16_p3_tz1_q7_sl_p2.png"
       ],
-      "markscheme_image_paths": []
+      "markscheme_image_paths": [
+        "images/markschemes/bio_m16_p3_tz1_q7_sl_p1.png"
+      ]
     },
     {
       "id": "bio_m16_p3_tz1_q8_sl",
@@ -3493,7 +3563,9 @@
       "question_image_paths": [
         "images/questions/bio_m16_p3_tz1_q8_sl_p1.png"
       ],
-      "markscheme_image_paths": []
+      "markscheme_image_paths": [
+        "images/markschemes/bio_m16_p3_tz1_q8_sl_p1.png"
+      ]
     },
     {
       "id": "bio_m16_p3_tz1_q9_sl",
@@ -3523,7 +3595,20 @@
       "question_image_paths": [
         "images/questions/bio_m16_p3_tz1_q9_sl_p1.png"
       ],
-      "markscheme_image_paths": []
+      "markscheme_image_paths": [
+        "images/markschemes/bio_m16_p3_tz1_q9_sl_p1.png",
+        "images/markschemes/bio_m16_p3_tz1_q9_sl_p2.png",
+        "images/markschemes/bio_m16_p3_tz1_q9_sl_p3.png",
+        "images/markschemes/bio_m16_p3_tz1_q9_sl_p4.png",
+        "images/markschemes/bio_m16_p3_tz1_q9_sl_p5.png",
+        "images/markschemes/bio_m16_p3_tz1_q9_sl_p6.png",
+        "images/markschemes/bio_m16_p3_tz1_q9_sl_p7.png",
+        "images/markschemes/bio_m16_p3_tz1_q9_sl_p8.png",
+        "images/markschemes/bio_m16_p3_tz1_q9_sl_p9.png",
+        "images/markschemes/bio_m16_p3_tz1_q9_sl_p10.png",
+        "images/markschemes/bio_m16_p3_tz1_q9_sl_p11.png",
+        "images/markschemes/bio_m16_p3_tz1_q9_sl_p12.png"
+      ]
     },
     {
       "id": "bio_m16_p3_tz1_q10_sl",
@@ -8613,7 +8698,11 @@
         "images/questions/bio_m17_p2_tz2_q1_hl_p5.png",
         "images/questions/bio_m17_p2_tz2_q1_hl_p6.png"
       ],
-      "markscheme_image_paths": []
+      "markscheme_image_paths": [
+        "images/markschemes/bio_m17_p2_tz2_q1_hl_p1.png",
+        "images/markschemes/bio_m17_p2_tz2_q1_hl_p2.png",
+        "images/markschemes/bio_m17_p2_tz2_q1_hl_p3.png"
+      ]
     },
     {
       "id": "bio_m17_p2_tz2_q2_hl",
@@ -8645,7 +8734,9 @@
         "images/questions/bio_m17_p2_tz2_q2_hl_p1.png",
         "images/questions/bio_m17_p2_tz2_q2_hl_p2.png"
       ],
-      "markscheme_image_paths": []
+      "markscheme_image_paths": [
+        "images/markschemes/bio_m17_p2_tz2_q2_hl_p1.png"
+      ]
     },
     {
       "id": "bio_m17_p2_tz2_q3_hl",
@@ -8677,7 +8768,9 @@
         "images/questions/bio_m17_p2_tz2_q3_hl_p1.png",
         "images/questions/bio_m17_p2_tz2_q3_hl_p2.png"
       ],
-      "markscheme_image_paths": []
+      "markscheme_image_paths": [
+        "images/markschemes/bio_m17_p2_tz2_q3_hl_p1.png"
+      ]
     },
     {
       "id": "bio_m17_p2_tz2_q4_hl",
@@ -8708,7 +8801,9 @@
         "images/questions/bio_m17_p2_tz2_q4_hl_p1.png",
         "images/questions/bio_m17_p2_tz2_q4_hl_p2.png"
       ],
-      "markscheme_image_paths": []
+      "markscheme_image_paths": [
+        "images/markschemes/bio_m17_p2_tz2_q4_hl_p1.png"
+      ]
     },
     {
       "id": "bio_m17_p2_tz2_q5_hl",
@@ -8741,7 +8836,11 @@
         "images/questions/bio_m17_p2_tz2_q5_hl_p2.png",
         "images/questions/bio_m17_p2_tz2_q5_hl_p3.png"
       ],
-      "markscheme_image_paths": []
+      "markscheme_image_paths": [
+        "images/markschemes/bio_m17_p2_tz2_q5_hl_p1.png",
+        "images/markschemes/bio_m17_p2_tz2_q5_hl_p2.png",
+        "images/markschemes/bio_m17_p2_tz2_q5_hl_p3.png"
+      ]
     },
     {
       "id": "bio_m17_p2_tz2_q6_hl",
@@ -8772,7 +8871,11 @@
       "question_image_paths": [
         "images/questions/bio_m17_p2_tz2_q6_hl.png"
       ],
-      "markscheme_image_paths": []
+      "markscheme_image_paths": [
+        "images/markschemes/bio_m17_p2_tz2_q6_hl_p1.png",
+        "images/markschemes/bio_m17_p2_tz2_q6_hl_p2.png",
+        "images/markschemes/bio_m17_p2_tz2_q6_hl_p3.png"
+      ]
     },
     {
       "id": "bio_m17_p2_tz2_q7_hl",
@@ -8803,7 +8906,10 @@
       "question_image_paths": [
         "images/questions/bio_m17_p2_tz2_q7_hl.png"
       ],
-      "markscheme_image_paths": []
+      "markscheme_image_paths": [
+        "images/markschemes/bio_m17_p2_tz2_q7_hl_p1.png",
+        "images/markschemes/bio_m17_p2_tz2_q7_hl_p2.png"
+      ]
     },
     {
       "id": "bio_m17_p2_tz2_q8_hl",
@@ -8834,7 +8940,11 @@
       "question_image_paths": [
         "images/questions/bio_m17_p2_tz2_q8_hl_p1.png"
       ],
-      "markscheme_image_paths": []
+      "markscheme_image_paths": [
+        "images/markschemes/bio_m17_p2_tz2_q8_hl_p1.png",
+        "images/markschemes/bio_m17_p2_tz2_q8_hl_p2.png",
+        "images/markschemes/bio_m17_p2_tz2_q8_hl_p3.png"
+      ]
     },
     {
       "id": "bio_m17_p2_tz2_q1_sl",
@@ -8868,7 +8978,12 @@
         "images/questions/bio_m17_p2_tz2_q1_sl_p5.png",
         "images/questions/bio_m17_p2_tz2_q1_sl_p6.png"
       ],
-      "markscheme_image_paths": []
+      "markscheme_image_paths": [
+        "images/markschemes/bio_m17_p2_tz2_q1_sl_p1.png",
+        "images/markschemes/bio_m17_p2_tz2_q1_sl_p2.png",
+        "images/markschemes/bio_m17_p2_tz2_q1_sl_p3.png",
+        "images/markschemes/bio_m17_p2_tz2_q1_sl_p4.png"
+      ]
     },
     {
       "id": "bio_m17_p2_tz2_q2_sl",
@@ -8901,7 +9016,9 @@
         "images/questions/bio_m17_p2_tz2_q2_sl_p2.png",
         "images/questions/bio_m17_p2_tz2_q2_sl_p3.png"
       ],
-      "markscheme_image_paths": []
+      "markscheme_image_paths": [
+        "images/markschemes/bio_m17_p2_tz2_q2_sl_p1.png"
+      ]
     },
     {
       "id": "bio_m17_p2_tz2_q3_sl",
@@ -8931,7 +9048,9 @@
       "question_image_paths": [
         "images/questions/bio_m17_p2_tz2_q3_sl_p1.png"
       ],
-      "markscheme_image_paths": []
+      "markscheme_image_paths": [
+        "images/markschemes/bio_m17_p2_tz2_q3_sl_p1.png"
+      ]
     },
     {
       "id": "bio_m17_p2_tz2_q4_sl",
@@ -8964,7 +9083,11 @@
         "images/questions/bio_m17_p2_tz2_q4_sl_p2.png",
         "images/questions/bio_m17_p2_tz2_q4_sl_p3.png"
       ],
-      "markscheme_image_paths": []
+      "markscheme_image_paths": [
+        "images/markschemes/bio_m17_p2_tz2_q4_sl_p1.png",
+        "images/markschemes/bio_m17_p2_tz2_q4_sl_p2.png",
+        "images/markschemes/bio_m17_p2_tz2_q4_sl_p3.png"
+      ]
     },
     {
       "id": "bio_m17_p2_tz2_q5_sl",
@@ -8995,7 +9118,11 @@
       "question_image_paths": [
         "images/questions/bio_m17_p2_tz2_q5_sl.png"
       ],
-      "markscheme_image_paths": []
+      "markscheme_image_paths": [
+        "images/markschemes/bio_m17_p2_tz2_q5_sl_p1.png",
+        "images/markschemes/bio_m17_p2_tz2_q5_sl_p2.png",
+        "images/markschemes/bio_m17_p2_tz2_q5_sl_p3.png"
+      ]
     },
     {
       "id": "bio_m17_p2_tz2_q6_sl",
@@ -9026,7 +9153,10 @@
       "question_image_paths": [
         "images/questions/bio_m17_p2_tz2_q6_sl_p1.png"
       ],
-      "markscheme_image_paths": []
+      "markscheme_image_paths": [
+        "images/markschemes/bio_m17_p2_tz2_q6_sl_p1.png",
+        "images/markschemes/bio_m17_p2_tz2_q6_sl_p2.png"
+      ]
     },
     {
       "id": "bio_m17_p3_tz1_q1_hl",
@@ -10478,7 +10608,9 @@
         "images/questions/bio_m17_p3_tz2_q1_hl_p1.png",
         "images/questions/bio_m17_p3_tz2_q1_hl_p2.png"
       ],
-      "markscheme_image_paths": []
+      "markscheme_image_paths": [
+        "images/markschemes/bio_m17_p3_tz2_q1_hl.png"
+      ]
     },
     {
       "id": "bio_m17_p3_tz2_q2_hl",
@@ -10509,7 +10641,9 @@
         "images/questions/bio_m17_p3_tz2_q2_hl_p1.png",
         "images/questions/bio_m17_p3_tz2_q2_hl_p2.png"
       ],
-      "markscheme_image_paths": []
+      "markscheme_image_paths": [
+        "images/markschemes/bio_m17_p3_tz2_q2_hl_p1.png"
+      ]
     },
     {
       "id": "bio_m17_p3_tz2_q3_hl",
@@ -10541,7 +10675,9 @@
         "images/questions/bio_m17_p3_tz2_q3_hl_p1.png",
         "images/questions/bio_m17_p3_tz2_q3_hl_p3.png"
       ],
-      "markscheme_image_paths": []
+      "markscheme_image_paths": [
+        "images/markschemes/bio_m17_p3_tz2_q3_hl_p1.png"
+      ]
     },
     {
       "id": "bio_m17_p3_tz2_q4_hl",
@@ -10571,7 +10707,9 @@
         "images/questions/bio_m17_p3_tz2_q4_hl_p1.png",
         "images/questions/bio_m17_p3_tz2_q4_hl_p2.png"
       ],
-      "markscheme_image_paths": []
+      "markscheme_image_paths": [
+        "images/markschemes/bio_m17_p3_tz2_q4_hl_p1.png"
+      ]
     },
     {
       "id": "bio_m17_p3_tz2_q5_hl",
@@ -10600,7 +10738,9 @@
       "question_image_paths": [
         "images/questions/bio_m17_p3_tz2_q5_hl_p1.png"
       ],
-      "markscheme_image_paths": []
+      "markscheme_image_paths": [
+        "images/markschemes/bio_m17_p3_tz2_q5_hl.png"
+      ]
     },
     {
       "id": "bio_m17_p3_tz2_q6_hl",
@@ -10631,7 +10771,10 @@
         "images/questions/bio_m17_p3_tz2_q6_hl_p1.png",
         "images/questions/bio_m17_p3_tz2_q6_hl_p2.png"
       ],
-      "markscheme_image_paths": []
+      "markscheme_image_paths": [
+        "images/markschemes/bio_m17_p3_tz2_q6_hl_p1.png",
+        "images/markschemes/bio_m17_p3_tz2_q6_hl_p2.png"
+      ]
     },
     {
       "id": "bio_m17_p3_tz2_q7_hl",
@@ -10661,7 +10804,9 @@
       "question_image_paths": [
         "images/questions/bio_m17_p3_tz2_q7_hl_p1.png"
       ],
-      "markscheme_image_paths": []
+      "markscheme_image_paths": [
+        "images/markschemes/bio_m17_p3_tz2_q7_hl_p1.png"
+      ]
     },
     {
       "id": "bio_m17_p3_tz2_q8_hl",
@@ -10691,7 +10836,9 @@
       "question_image_paths": [
         "images/questions/bio_m17_p3_tz2_q8_hl_p1.png"
       ],
-      "markscheme_image_paths": []
+      "markscheme_image_paths": [
+        "images/markschemes/bio_m17_p3_tz2_q8_hl_p1.png"
+      ]
     },
     {
       "id": "bio_m17_p3_tz2_q9_hl",
@@ -10723,7 +10870,21 @@
         "images/questions/bio_m17_p3_tz2_q9_hl_p1.png",
         "images/questions/bio_m17_p3_tz2_q9_hl_p2.png"
       ],
-      "markscheme_image_paths": []
+      "markscheme_image_paths": [
+        "images/markschemes/bio_m17_p3_tz2_q9_hl_p1.png",
+        "images/markschemes/bio_m17_p3_tz2_q9_hl_p2.png",
+        "images/markschemes/bio_m17_p3_tz2_q9_hl_p3.png",
+        "images/markschemes/bio_m17_p3_tz2_q9_hl_p4.png",
+        "images/markschemes/bio_m17_p3_tz2_q9_hl_p5.png",
+        "images/markschemes/bio_m17_p3_tz2_q9_hl_p6.png",
+        "images/markschemes/bio_m17_p3_tz2_q9_hl_p7.png",
+        "images/markschemes/bio_m17_p3_tz2_q9_hl_p8.png",
+        "images/markschemes/bio_m17_p3_tz2_q9_hl_p9.png",
+        "images/markschemes/bio_m17_p3_tz2_q9_hl_p10.png",
+        "images/markschemes/bio_m17_p3_tz2_q9_hl_p11.png",
+        "images/markschemes/bio_m17_p3_tz2_q9_hl_p12.png",
+        "images/markschemes/bio_m17_p3_tz2_q9_hl_p13.png"
+      ]
     },
     {
       "id": "bio_m17_p3_tz2_q10_hl",
@@ -17783,7 +17944,9 @@
         "images/questions/bio_m18_p3_tz1_q1_sl_p1.png",
         "images/questions/bio_m18_p3_tz1_q1_sl_p2.png"
       ],
-      "markscheme_image_paths": []
+      "markscheme_image_paths": [
+        "images/markschemes/bio_m18_p3_tz1_q1_sl_p1.png"
+      ]
     },
     {
       "id": "bio_m18_p3_tz1_q2_sl",
@@ -17815,7 +17978,9 @@
         "images/questions/bio_m18_p3_tz1_q2_sl_p1.png",
         "images/questions/bio_m18_p3_tz1_q2_sl_p2.png"
       ],
-      "markscheme_image_paths": []
+      "markscheme_image_paths": [
+        "images/markschemes/bio_m18_p3_tz1_q2_sl.png"
+      ]
     },
     {
       "id": "bio_m18_p3_tz1_q3_sl",
@@ -17847,7 +18012,9 @@
         "images/questions/bio_m18_p3_tz1_q3_sl_p2.png",
         "images/questions/bio_m18_p3_tz1_q3_sl_p3.png"
       ],
-      "markscheme_image_paths": []
+      "markscheme_image_paths": [
+        "images/markschemes/bio_m18_p3_tz1_q3_sl_p1.png"
+      ]
     },
     {
       "id": "bio_m18_p3_tz1_q4_sl",
@@ -17879,7 +18046,9 @@
         "images/questions/bio_m18_p3_tz1_q4_sl_p1.png",
         "images/questions/bio_m18_p3_tz1_q4_sl_p2.png"
       ],
-      "markscheme_image_paths": []
+      "markscheme_image_paths": [
+        "images/markschemes/bio_m18_p3_tz1_q4_sl_p1.png"
+      ]
     },
     {
       "id": "bio_m18_p3_tz1_q5_sl",
@@ -17909,7 +18078,9 @@
       "question_image_paths": [
         "images/questions/bio_m18_p3_tz1_q5_sl_p1.png"
       ],
-      "markscheme_image_paths": []
+      "markscheme_image_paths": [
+        "images/markschemes/bio_m18_p3_tz1_q5_sl_p1.png"
+      ]
     },
     {
       "id": "bio_m18_p3_tz1_q6_sl",
@@ -17939,7 +18110,9 @@
         "images/questions/bio_m18_p3_tz1_q6_sl_p1.png",
         "images/questions/bio_m18_p3_tz1_q6_sl_p2.png"
       ],
-      "markscheme_image_paths": []
+      "markscheme_image_paths": [
+        "images/markschemes/bio_m18_p3_tz1_q6_sl_p1.png"
+      ]
     },
     {
       "id": "bio_m18_p3_tz1_q7_sl",
@@ -17969,7 +18142,9 @@
       "question_image_paths": [
         "images/questions/bio_m18_p3_tz1_q7_sl_p1.png"
       ],
-      "markscheme_image_paths": []
+      "markscheme_image_paths": [
+        "images/markschemes/bio_m18_p3_tz1_q7_sl_p1.png"
+      ]
     },
     {
       "id": "bio_m18_p3_tz1_q8_sl",
@@ -18000,7 +18175,9 @@
         "images/questions/bio_m18_p3_tz1_q8_sl_p1.png",
         "images/questions/bio_m18_p3_tz1_q8_sl_p2.png"
       ],
-      "markscheme_image_paths": []
+      "markscheme_image_paths": [
+        "images/markschemes/bio_m18_p3_tz1_q8_sl_p1.png"
+      ]
     },
     {
       "id": "bio_m18_p3_tz1_q9_sl",
@@ -18030,7 +18207,18 @@
         "images/questions/bio_m18_p3_tz1_q9_sl_p1.png",
         "images/questions/bio_m18_p3_tz1_q9_sl_p2.png"
       ],
-      "markscheme_image_paths": []
+      "markscheme_image_paths": [
+        "images/markschemes/bio_m18_p3_tz1_q9_sl_p1.png",
+        "images/markschemes/bio_m18_p3_tz1_q9_sl_p2.png",
+        "images/markschemes/bio_m18_p3_tz1_q9_sl_p3.png",
+        "images/markschemes/bio_m18_p3_tz1_q9_sl_p4.png",
+        "images/markschemes/bio_m18_p3_tz1_q9_sl_p5.png",
+        "images/markschemes/bio_m18_p3_tz1_q9_sl_p6.png",
+        "images/markschemes/bio_m18_p3_tz1_q9_sl_p7.png",
+        "images/markschemes/bio_m18_p3_tz1_q9_sl_p8.png",
+        "images/markschemes/bio_m18_p3_tz1_q9_sl_p9.png",
+        "images/markschemes/bio_m18_p3_tz1_q9_sl_p10.png"
+      ]
     },
     {
       "id": "bio_m18_p3_tz1_q10_sl",
@@ -24974,7 +25162,9 @@
         "images/questions/bio_m19_p3_tz1_q1_hl_p1.png",
         "images/questions/bio_m19_p3_tz1_q1_hl_p2.png"
       ],
-      "markscheme_image_paths": []
+      "markscheme_image_paths": [
+        "images/markschemes/bio_m19_p3_tz1_q1_hl_p1.png"
+      ]
     },
     {
       "id": "bio_m19_p3_tz1_q2_hl",
@@ -25004,7 +25194,10 @@
         "images/questions/bio_m19_p3_tz1_q2_hl_p1.png",
         "images/questions/bio_m19_p3_tz1_q2_hl_p2.png"
       ],
-      "markscheme_image_paths": []
+      "markscheme_image_paths": [
+        "images/markschemes/bio_m19_p3_tz1_q2_hl_p1.png",
+        "images/markschemes/bio_m19_p3_tz1_q2_hl_p2.png"
+      ]
     },
     {
       "id": "bio_m19_p3_tz1_q3_hl",
@@ -25034,7 +25227,9 @@
         "images/questions/bio_m19_p3_tz1_q3_hl_p1.png",
         "images/questions/bio_m19_p3_tz1_q3_hl_p2.png"
       ],
-      "markscheme_image_paths": []
+      "markscheme_image_paths": [
+        "images/markschemes/bio_m19_p3_tz1_q3_hl_p1.png"
+      ]
     },
     {
       "id": "bio_m19_p3_tz1_q4_hl",
@@ -25065,7 +25260,9 @@
         "images/questions/bio_m19_p3_tz1_q4_hl_p1.png",
         "images/questions/bio_m19_p3_tz1_q4_hl_p2.png"
       ],
-      "markscheme_image_paths": []
+      "markscheme_image_paths": [
+        "images/markschemes/bio_m19_p3_tz1_q4_hl_p1.png"
+      ]
     },
     {
       "id": "bio_m19_p3_tz1_q5_hl",
@@ -25096,7 +25293,9 @@
       "question_image_paths": [
         "images/questions/bio_m19_p3_tz1_q5_hl_p1.png"
       ],
-      "markscheme_image_paths": []
+      "markscheme_image_paths": [
+        "images/markschemes/bio_m19_p3_tz1_q5_hl.png"
+      ]
     },
     {
       "id": "bio_m19_p3_tz1_q6_hl",
@@ -25126,7 +25325,9 @@
         "images/questions/bio_m19_p3_tz1_q6_hl_p1.png",
         "images/questions/bio_m19_p3_tz1_q6_hl_p2.png"
       ],
-      "markscheme_image_paths": []
+      "markscheme_image_paths": [
+        "images/markschemes/bio_m19_p3_tz1_q6_hl_p1.png"
+      ]
     },
     {
       "id": "bio_m19_p3_tz1_q7_hl",
@@ -25157,7 +25358,9 @@
         "images/questions/bio_m19_p3_tz1_q7_hl_p1.png",
         "images/questions/bio_m19_p3_tz1_q7_hl_p2.png"
       ],
-      "markscheme_image_paths": []
+      "markscheme_image_paths": [
+        "images/markschemes/bio_m19_p3_tz1_q7_hl_p1.png"
+      ]
     },
     {
       "id": "bio_m19_p3_tz1_q8_hl",
@@ -25186,7 +25389,9 @@
       "question_image_paths": [
         "images/questions/bio_m19_p3_tz1_q8_hl_p1.png"
       ],
-      "markscheme_image_paths": []
+      "markscheme_image_paths": [
+        "images/markschemes/bio_m19_p3_tz1_q8_hl_p1.png"
+      ]
     },
     {
       "id": "bio_m19_p3_tz1_q9_hl",
@@ -25217,7 +25422,10 @@
         "images/questions/bio_m19_p3_tz1_q9_hl_p1.png",
         "images/questions/bio_m19_p3_tz1_q9_hl_p2.png"
       ],
-      "markscheme_image_paths": []
+      "markscheme_image_paths": [
+        "images/markschemes/bio_m19_p3_tz1_q9_hl_p1.png",
+        "images/markschemes/bio_m19_p3_tz1_q9_hl_p2.png"
+      ]
     },
     {
       "id": "bio_m19_p3_tz1_q10_hl",
@@ -25279,7 +25487,19 @@
         "images/questions/bio_m19_p3_tz1_q11_hl_p1.png",
         "images/questions/bio_m19_p3_tz1_q11_hl_p2.png"
       ],
-      "markscheme_image_paths": []
+      "markscheme_image_paths": [
+        "images/markschemes/bio_m19_p3_tz1_q11_hl_p1.png",
+        "images/markschemes/bio_m19_p3_tz1_q11_hl_p2.png",
+        "images/markschemes/bio_m19_p3_tz1_q11_hl_p3.png",
+        "images/markschemes/bio_m19_p3_tz1_q11_hl_p4.png",
+        "images/markschemes/bio_m19_p3_tz1_q11_hl_p5.png",
+        "images/markschemes/bio_m19_p3_tz1_q11_hl_p6.png",
+        "images/markschemes/bio_m19_p3_tz1_q11_hl_p7.png",
+        "images/markschemes/bio_m19_p3_tz1_q11_hl_p8.png",
+        "images/markschemes/bio_m19_p3_tz1_q11_hl_p9.png",
+        "images/markschemes/bio_m19_p3_tz1_q11_hl_p10.png",
+        "images/markschemes/bio_m19_p3_tz1_q11_hl_p11.png"
+      ]
     },
     {
       "id": "bio_m19_p3_tz1_q12_hl",
@@ -25714,7 +25934,9 @@
         "images/questions/bio_m19_p3_tz1_q1_sl_p1.png",
         "images/questions/bio_m19_p3_tz1_q1_sl_p2.png"
       ],
-      "markscheme_image_paths": []
+      "markscheme_image_paths": [
+        "images/markschemes/bio_m19_p3_tz1_q1_sl_p1.png"
+      ]
     },
     {
       "id": "bio_m19_p3_tz1_q2_sl",
@@ -25745,7 +25967,9 @@
         "images/questions/bio_m19_p3_tz1_q2_sl_p1.png",
         "images/questions/bio_m19_p3_tz1_q2_sl_p2.png"
       ],
-      "markscheme_image_paths": []
+      "markscheme_image_paths": [
+        "images/markschemes/bio_m19_p3_tz1_q2_sl.png"
+      ]
     },
     {
       "id": "bio_m19_p3_tz1_q3_sl",
@@ -25776,7 +26000,9 @@
         "images/questions/bio_m19_p3_tz1_q3_sl_p1.png",
         "images/questions/bio_m19_p3_tz1_q3_sl_p2.png"
       ],
-      "markscheme_image_paths": []
+      "markscheme_image_paths": [
+        "images/markschemes/bio_m19_p3_tz1_q3_sl_p1.png"
+      ]
     },
     {
       "id": "bio_m19_p3_tz1_q4_sl",
@@ -25807,7 +26033,9 @@
         "images/questions/bio_m19_p3_tz1_q4_sl_p1.png",
         "images/questions/bio_m19_p3_tz1_q4_sl_p2.png"
       ],
-      "markscheme_image_paths": []
+      "markscheme_image_paths": [
+        "images/markschemes/bio_m19_p3_tz1_q4_sl_p1.png"
+      ]
     },
     {
       "id": "bio_m19_p3_tz1_q5_sl",
@@ -25837,7 +26065,9 @@
       "question_image_paths": [
         "images/questions/bio_m19_p3_tz1_q5_sl_p1.png"
       ],
-      "markscheme_image_paths": []
+      "markscheme_image_paths": [
+        "images/markschemes/bio_m19_p3_tz1_q5_sl_p1.png"
+      ]
     },
     {
       "id": "bio_m19_p3_tz1_q6_sl",
@@ -25868,7 +26098,9 @@
         "images/questions/bio_m19_p3_tz1_q6_sl_p1.png",
         "images/questions/bio_m19_p3_tz1_q6_sl_p2.png"
       ],
-      "markscheme_image_paths": []
+      "markscheme_image_paths": [
+        "images/markschemes/bio_m19_p3_tz1_q6_sl_p1.png"
+      ]
     },
     {
       "id": "bio_m19_p3_tz1_q7_sl",
@@ -25900,7 +26132,9 @@
         "images/questions/bio_m19_p3_tz1_q7_sl_p1.png",
         "images/questions/bio_m19_p3_tz1_q7_sl_p2.png"
       ],
-      "markscheme_image_paths": []
+      "markscheme_image_paths": [
+        "images/markschemes/bio_m19_p3_tz1_q7_sl.png"
+      ]
     },
     {
       "id": "bio_m19_p3_tz1_q8_sl",
@@ -25931,7 +26165,9 @@
         "images/questions/bio_m19_p3_tz1_q8_sl_p1.png",
         "images/questions/bio_m19_p3_tz1_q8_sl_p2.png"
       ],
-      "markscheme_image_paths": []
+      "markscheme_image_paths": [
+        "images/markschemes/bio_m19_p3_tz1_q8_sl_p1.png"
+      ]
     },
     {
       "id": "bio_m19_p3_tz1_q9_sl",
@@ -25961,7 +26197,14 @@
       "question_image_paths": [
         "images/questions/bio_m19_p3_tz1_q9_sl_p1.png"
       ],
-      "markscheme_image_paths": []
+      "markscheme_image_paths": [
+        "images/markschemes/bio_m19_p3_tz1_q9_sl_p1.png",
+        "images/markschemes/bio_m19_p3_tz1_q9_sl_p2.png",
+        "images/markschemes/bio_m19_p3_tz1_q9_sl_p3.png",
+        "images/markschemes/bio_m19_p3_tz1_q9_sl_p4.png",
+        "images/markschemes/bio_m19_p3_tz1_q9_sl_p5.png",
+        "images/markschemes/bio_m19_p3_tz1_q9_sl_p6.png"
+      ]
     },
     {
       "id": "bio_m19_p3_tz1_q10_sl",
@@ -66439,7 +66682,12 @@
         "images/questions/bio_n16_p2_ntz_q1_hl_p6.png",
         "images/questions/bio_n16_p2_ntz_q1_hl_p7.png"
       ],
-      "markscheme_image_paths": []
+      "markscheme_image_paths": [
+        "images/markschemes/bio_n16_p2_ntz_q1_hl_p1.png",
+        "images/markschemes/bio_n16_p2_ntz_q1_hl_p2.png",
+        "images/markschemes/bio_n16_p2_ntz_q1_hl_p3.png",
+        "images/markschemes/bio_n16_p2_ntz_q1_hl_p4.png"
+      ]
     },
     {
       "id": "bio_n16_p2_ntz_q2_hl",
@@ -66471,7 +66719,10 @@
         "images/questions/bio_n16_p2_ntz_q2_hl_p1.png",
         "images/questions/bio_n16_p2_ntz_q2_hl_p2.png"
       ],
-      "markscheme_image_paths": []
+      "markscheme_image_paths": [
+        "images/markschemes/bio_n16_p2_ntz_q2_hl_p1.png",
+        "images/markschemes/bio_n16_p2_ntz_q2_hl_p2.png"
+      ]
     },
     {
       "id": "bio_n16_p2_ntz_q3_hl",
@@ -66502,7 +66753,9 @@
       "question_image_paths": [
         "images/questions/bio_n16_p2_ntz_q3_hl_p1.png"
       ],
-      "markscheme_image_paths": []
+      "markscheme_image_paths": [
+        "images/markschemes/bio_n16_p2_ntz_q3_hl_p1.png"
+      ]
     },
     {
       "id": "bio_n16_p2_ntz_q4_hl",
@@ -66533,7 +66786,9 @@
       "question_image_paths": [
         "images/questions/bio_n16_p2_ntz_q4_hl_p1.png"
       ],
-      "markscheme_image_paths": []
+      "markscheme_image_paths": [
+        "images/markschemes/bio_n16_p2_ntz_q4_hl_p1.png"
+      ]
     },
     {
       "id": "bio_n16_p2_ntz_q5_hl",
@@ -66565,7 +66820,10 @@
         "images/questions/bio_n16_p2_ntz_q5_hl_p1.png",
         "images/questions/bio_n16_p2_ntz_q5_hl_p2.png"
       ],
-      "markscheme_image_paths": []
+      "markscheme_image_paths": [
+        "images/markschemes/bio_n16_p2_ntz_q5_hl_p1.png",
+        "images/markschemes/bio_n16_p2_ntz_q5_hl_p2.png"
+      ]
     },
     {
       "id": "bio_n16_p2_ntz_q6_hl",
@@ -66596,7 +66854,10 @@
       "question_image_paths": [
         "images/questions/bio_n16_p2_ntz_q6_hl.png"
       ],
-      "markscheme_image_paths": []
+      "markscheme_image_paths": [
+        "images/markschemes/bio_n16_p2_ntz_q6_hl_p1.png",
+        "images/markschemes/bio_n16_p2_ntz_q6_hl_p2.png"
+      ]
     },
     {
       "id": "bio_n16_p2_ntz_q7_hl",
@@ -66627,7 +66888,10 @@
       "question_image_paths": [
         "images/questions/bio_n16_p2_ntz_q7_hl.png"
       ],
-      "markscheme_image_paths": []
+      "markscheme_image_paths": [
+        "images/markschemes/bio_n16_p2_ntz_q7_hl_p1.png",
+        "images/markschemes/bio_n16_p2_ntz_q7_hl_p2.png"
+      ]
     },
     {
       "id": "bio_n16_p2_ntz_q8_hl",
@@ -66657,7 +66921,10 @@
       "question_image_paths": [
         "images/questions/bio_n16_p2_ntz_q8_hl_p1.png"
       ],
-      "markscheme_image_paths": []
+      "markscheme_image_paths": [
+        "images/markschemes/bio_n16_p2_ntz_q8_hl_p1.png",
+        "images/markschemes/bio_n16_p2_ntz_q8_hl_p2.png"
+      ]
     },
     {
       "id": "bio_n16_p2_ntz_q1_sl",
@@ -66692,7 +66959,10 @@
         "images/questions/bio_n16_p2_ntz_q1_sl_p4.png",
         "images/questions/bio_n16_p2_ntz_q1_sl_p6.png"
       ],
-      "markscheme_image_paths": []
+      "markscheme_image_paths": [
+        "images/markschemes/bio_n16_p2_ntz_q1_sl_p1.png",
+        "images/markschemes/bio_n16_p2_ntz_q1_sl_p2.png"
+      ]
     },
     {
       "id": "bio_n16_p2_ntz_q2_sl",
@@ -66724,7 +66994,9 @@
         "images/questions/bio_n16_p2_ntz_q2_sl_p1.png",
         "images/questions/bio_n16_p2_ntz_q2_sl_p2.png"
       ],
-      "markscheme_image_paths": []
+      "markscheme_image_paths": [
+        "images/markschemes/bio_n16_p2_ntz_q2_sl_p1.png"
+      ]
     },
     {
       "id": "bio_n16_p2_ntz_q3_sl",
@@ -66754,7 +67026,9 @@
       "question_image_paths": [
         "images/questions/bio_n16_p2_ntz_q3_sl_p1.png"
       ],
-      "markscheme_image_paths": []
+      "markscheme_image_paths": [
+        "images/markschemes/bio_n16_p2_ntz_q3_sl_p1.png"
+      ]
     },
     {
       "id": "bio_n16_p2_ntz_q4_sl",
@@ -66785,7 +67059,9 @@
       "question_image_paths": [
         "images/questions/bio_n16_p2_ntz_q4_sl_p1.png"
       ],
-      "markscheme_image_paths": []
+      "markscheme_image_paths": [
+        "images/markschemes/bio_n16_p2_ntz_q4_sl_p1.png"
+      ]
     },
     {
       "id": "bio_n16_p2_ntz_q5_sl",
@@ -66817,7 +67093,10 @@
         "images/questions/bio_n16_p2_ntz_q5_sl_p1.png",
         "images/questions/bio_n16_p2_ntz_q5_sl_p2.png"
       ],
-      "markscheme_image_paths": []
+      "markscheme_image_paths": [
+        "images/markschemes/bio_n16_p2_ntz_q5_sl_p1.png",
+        "images/markschemes/bio_n16_p2_ntz_q5_sl_p2.png"
+      ]
     },
     {
       "id": "bio_n16_p2_ntz_q6_sl",
@@ -66847,7 +67126,11 @@
       "question_image_paths": [
         "images/questions/bio_n16_p2_ntz_q6_sl.png"
       ],
-      "markscheme_image_paths": []
+      "markscheme_image_paths": [
+        "images/markschemes/bio_n16_p2_ntz_q6_sl_p1.png",
+        "images/markschemes/bio_n16_p2_ntz_q6_sl_p2.png",
+        "images/markschemes/bio_n16_p2_ntz_q6_sl_p3.png"
+      ]
     },
     {
       "id": "bio_n16_p2_ntz_q7_sl",
@@ -66877,7 +67160,10 @@
       "question_image_paths": [
         "images/questions/bio_n16_p2_ntz_q7_sl_p1.png"
       ],
-      "markscheme_image_paths": []
+      "markscheme_image_paths": [
+        "images/markschemes/bio_n16_p2_ntz_q7_sl_p1.png",
+        "images/markschemes/bio_n16_p2_ntz_q7_sl_p2.png"
+      ]
     },
     {
       "id": "bio_n16_p3_ntz_q1_hl",
@@ -66907,7 +67193,9 @@
         "images/questions/bio_n16_p3_ntz_q1_hl_p1.png",
         "images/questions/bio_n16_p3_ntz_q1_hl_p2.png"
       ],
-      "markscheme_image_paths": []
+      "markscheme_image_paths": [
+        "images/markschemes/bio_n16_p3_ntz_q1_hl_p1.png"
+      ]
     },
     {
       "id": "bio_n16_p3_ntz_q2_hl",
@@ -66937,7 +67225,9 @@
         "images/questions/bio_n16_p3_ntz_q2_hl_p1.png",
         "images/questions/bio_n16_p3_ntz_q2_hl_p2.png"
       ],
-      "markscheme_image_paths": []
+      "markscheme_image_paths": [
+        "images/markschemes/bio_n16_p3_ntz_q2_hl_p1.png"
+      ]
     },
     {
       "id": "bio_n16_p3_ntz_q3_hl",
@@ -66970,7 +67260,9 @@
         "images/questions/bio_n16_p3_ntz_q3_hl_p2.png",
         "images/questions/bio_n16_p3_ntz_q3_hl_p3.png"
       ],
-      "markscheme_image_paths": []
+      "markscheme_image_paths": [
+        "images/markschemes/bio_n16_p3_ntz_q3_hl_p1.png"
+      ]
     },
     {
       "id": "bio_n16_p3_ntz_q4_hl",
@@ -67001,7 +67293,9 @@
         "images/questions/bio_n16_p3_ntz_q4_hl_p1.png",
         "images/questions/bio_n16_p3_ntz_q4_hl_p2.png"
       ],
-      "markscheme_image_paths": []
+      "markscheme_image_paths": [
+        "images/markschemes/bio_n16_p3_ntz_q4_hl_p1.png"
+      ]
     },
     {
       "id": "bio_n16_p3_ntz_q5_hl",
@@ -67032,7 +67326,9 @@
         "images/questions/bio_n16_p3_ntz_q5_hl_p1.png",
         "images/questions/bio_n16_p3_ntz_q5_hl_p2.png"
       ],
-      "markscheme_image_paths": []
+      "markscheme_image_paths": [
+        "images/markschemes/bio_n16_p3_ntz_q5_hl_p1.png"
+      ]
     },
     {
       "id": "bio_n16_p3_ntz_q6_hl",
@@ -67061,7 +67357,9 @@
       "question_image_paths": [
         "images/questions/bio_n16_p3_ntz_q6_hl_p1.png"
       ],
-      "markscheme_image_paths": []
+      "markscheme_image_paths": [
+        "images/markschemes/bio_n16_p3_ntz_q6_hl.png"
+      ]
     },
     {
       "id": "bio_n16_p3_ntz_q7_hl",
@@ -67090,7 +67388,10 @@
       "question_image_paths": [
         "images/questions/bio_n16_p3_ntz_q7_hl_p1.png"
       ],
-      "markscheme_image_paths": []
+      "markscheme_image_paths": [
+        "images/markschemes/bio_n16_p3_ntz_q7_hl_p1.png",
+        "images/markschemes/bio_n16_p3_ntz_q7_hl_p2.png"
+      ]
     },
     {
       "id": "bio_n16_p3_ntz_q8_hl",
@@ -67120,7 +67421,9 @@
       "question_image_paths": [
         "images/questions/bio_n16_p3_ntz_q8_hl_p1.png"
       ],
-      "markscheme_image_paths": []
+      "markscheme_image_paths": [
+        "images/markschemes/bio_n16_p3_ntz_q8_hl_p1.png"
+      ]
     },
     {
       "id": "bio_n16_p3_ntz_q9_hl",
@@ -67151,7 +67454,27 @@
       "question_image_paths": [
         "images/questions/bio_n16_p3_ntz_q9_hl_p1.png"
       ],
-      "markscheme_image_paths": []
+      "markscheme_image_paths": [
+        "images/markschemes/bio_n16_p3_ntz_q9_hl_p1.png",
+        "images/markschemes/bio_n16_p3_ntz_q9_hl_p2.png",
+        "images/markschemes/bio_n16_p3_ntz_q9_hl_p3.png",
+        "images/markschemes/bio_n16_p3_ntz_q9_hl_p4.png",
+        "images/markschemes/bio_n16_p3_ntz_q9_hl_p5.png",
+        "images/markschemes/bio_n16_p3_ntz_q9_hl_p6.png",
+        "images/markschemes/bio_n16_p3_ntz_q9_hl_p7.png",
+        "images/markschemes/bio_n16_p3_ntz_q9_hl_p8.png",
+        "images/markschemes/bio_n16_p3_ntz_q9_hl_p9.png",
+        "images/markschemes/bio_n16_p3_ntz_q9_hl_p10.png",
+        "images/markschemes/bio_n16_p3_ntz_q9_hl_p11.png",
+        "images/markschemes/bio_n16_p3_ntz_q9_hl_p12.png",
+        "images/markschemes/bio_n16_p3_ntz_q9_hl_p13.png",
+        "images/markschemes/bio_n16_p3_ntz_q9_hl_p14.png",
+        "images/markschemes/bio_n16_p3_ntz_q9_hl_p15.png",
+        "images/markschemes/bio_n16_p3_ntz_q9_hl_p16.png",
+        "images/markschemes/bio_n16_p3_ntz_q9_hl_p17.png",
+        "images/markschemes/bio_n16_p3_ntz_q9_hl_p18.png",
+        "images/markschemes/bio_n16_p3_ntz_q9_hl_p19.png"
+      ]
     },
     {
       "id": "bio_n16_p3_ntz_q10_hl",
@@ -67606,7 +67929,9 @@
         "images/questions/bio_n16_p3_ntz_q1_sl_p1.png",
         "images/questions/bio_n16_p3_ntz_q1_sl_p2.png"
       ],
-      "markscheme_image_paths": []
+      "markscheme_image_paths": [
+        "images/markschemes/bio_n16_p3_ntz_q1_sl_p1.png"
+      ]
     },
     {
       "id": "bio_n16_p3_ntz_q2_sl",
@@ -67636,7 +67961,9 @@
         "images/questions/bio_n16_p3_ntz_q2_sl_p1.png",
         "images/questions/bio_n16_p3_ntz_q2_sl_p2.png"
       ],
-      "markscheme_image_paths": []
+      "markscheme_image_paths": [
+        "images/markschemes/bio_n16_p3_ntz_q2_sl_p1.png"
+      ]
     },
     {
       "id": "bio_n16_p3_ntz_q3_sl",
@@ -67667,7 +67994,10 @@
         "images/questions/bio_n16_p3_ntz_q3_sl_p2.png",
         "images/questions/bio_n16_p3_ntz_q3_sl_p3.png"
       ],
-      "markscheme_image_paths": []
+      "markscheme_image_paths": [
+        "images/markschemes/bio_n16_p3_ntz_q3_sl_p1.png",
+        "images/markschemes/bio_n16_p3_ntz_q3_sl_p2.png"
+      ]
     },
     {
       "id": "bio_n16_p3_ntz_q4_sl",
@@ -67697,7 +68027,9 @@
         "images/questions/bio_n16_p3_ntz_q4_sl_p1.png",
         "images/questions/bio_n16_p3_ntz_q4_sl_p2.png"
       ],
-      "markscheme_image_paths": []
+      "markscheme_image_paths": [
+        "images/markschemes/bio_n16_p3_ntz_q4_sl.png"
+      ]
     },
     {
       "id": "bio_n16_p3_ntz_q5_sl",
@@ -67727,7 +68059,10 @@
       "question_image_paths": [
         "images/questions/bio_n16_p3_ntz_q5_sl_p1.png"
       ],
-      "markscheme_image_paths": []
+      "markscheme_image_paths": [
+        "images/markschemes/bio_n16_p3_ntz_q5_sl_p1.png",
+        "images/markschemes/bio_n16_p3_ntz_q5_sl_p2.png"
+      ]
     },
     {
       "id": "bio_n16_p3_ntz_q6_sl",
@@ -67758,7 +68093,9 @@
       "question_image_paths": [
         "images/questions/bio_n16_p3_ntz_q6_sl_p1.png"
       ],
-      "markscheme_image_paths": []
+      "markscheme_image_paths": [
+        "images/markschemes/bio_n16_p3_ntz_q6_sl_p1.png"
+      ]
     },
     {
       "id": "bio_n16_p3_ntz_q7_sl",
@@ -67789,7 +68126,9 @@
       "question_image_paths": [
         "images/questions/bio_n16_p3_ntz_q7_sl_p1.png"
       ],
-      "markscheme_image_paths": []
+      "markscheme_image_paths": [
+        "images/markschemes/bio_n16_p3_ntz_q7_sl_p1.png"
+      ]
     },
     {
       "id": "bio_n16_p3_ntz_q8_sl",
@@ -67820,7 +68159,9 @@
         "images/questions/bio_n16_p3_ntz_q8_sl_p1.png",
         "images/questions/bio_n16_p3_ntz_q8_sl_p2.png"
       ],
-      "markscheme_image_paths": []
+      "markscheme_image_paths": [
+        "images/markschemes/bio_n16_p3_ntz_q8_sl_p1.png"
+      ]
     },
     {
       "id": "bio_n16_p3_ntz_q9_sl",
@@ -67850,7 +68191,17 @@
         "images/questions/bio_n16_p3_ntz_q9_sl_p1.png",
         "images/questions/bio_n16_p3_ntz_q9_sl_p2.png"
       ],
-      "markscheme_image_paths": []
+      "markscheme_image_paths": [
+        "images/markschemes/bio_n16_p3_ntz_q9_sl_p1.png",
+        "images/markschemes/bio_n16_p3_ntz_q9_sl_p2.png",
+        "images/markschemes/bio_n16_p3_ntz_q9_sl_p3.png",
+        "images/markschemes/bio_n16_p3_ntz_q9_sl_p4.png",
+        "images/markschemes/bio_n16_p3_ntz_q9_sl_p5.png",
+        "images/markschemes/bio_n16_p3_ntz_q9_sl_p6.png",
+        "images/markschemes/bio_n16_p3_ntz_q9_sl_p7.png",
+        "images/markschemes/bio_n16_p3_ntz_q9_sl_p8.png",
+        "images/markschemes/bio_n16_p3_ntz_q9_sl_p9.png"
+      ]
     },
     {
       "id": "bio_n16_p3_ntz_q10_sl",
@@ -70270,7 +70621,11 @@
         "images/questions/bio_n17_p2_ntz_q1_hl_p4.png",
         "images/questions/bio_n17_p2_ntz_q1_hl_p5.png"
       ],
-      "markscheme_image_paths": []
+      "markscheme_image_paths": [
+        "images/markschemes/bio_n17_p2_ntz_q1_hl_p1.png",
+        "images/markschemes/bio_n17_p2_ntz_q1_hl_p2.png",
+        "images/markschemes/bio_n17_p2_ntz_q1_hl_p3.png"
+      ]
     },
     {
       "id": "bio_n17_p2_ntz_q2_hl",
@@ -70301,7 +70656,9 @@
         "images/questions/bio_n17_p2_ntz_q2_hl_p1.png",
         "images/questions/bio_n17_p2_ntz_q2_hl_p2.png"
       ],
-      "markscheme_image_paths": []
+      "markscheme_image_paths": [
+        "images/markschemes/bio_n17_p2_ntz_q2_hl_p1.png"
+      ]
     },
     {
       "id": "bio_n17_p2_ntz_q3_hl",
@@ -70332,7 +70689,10 @@
       "question_image_paths": [
         "images/questions/bio_n17_p2_ntz_q3_hl_p1.png"
       ],
-      "markscheme_image_paths": []
+      "markscheme_image_paths": [
+        "images/markschemes/bio_n17_p2_ntz_q3_hl_p1.png",
+        "images/markschemes/bio_n17_p2_ntz_q3_hl_p2.png"
+      ]
     },
     {
       "id": "bio_n17_p2_ntz_q4_hl",
@@ -70362,7 +70722,9 @@
       "question_image_paths": [
         "images/questions/bio_n17_p2_ntz_q4_hl_p1.png"
       ],
-      "markscheme_image_paths": []
+      "markscheme_image_paths": [
+        "images/markschemes/bio_n17_p2_ntz_q4_hl_p1.png"
+      ]
     },
     {
       "id": "bio_n17_p2_ntz_q5_hl",
@@ -70394,7 +70756,10 @@
         "images/questions/bio_n17_p2_ntz_q5_hl_p1.png",
         "images/questions/bio_n17_p2_ntz_q5_hl_p2.png"
       ],
-      "markscheme_image_paths": []
+      "markscheme_image_paths": [
+        "images/markschemes/bio_n17_p2_ntz_q5_hl_p1.png",
+        "images/markschemes/bio_n17_p2_ntz_q5_hl_p2.png"
+      ]
     },
     {
       "id": "bio_n17_p2_ntz_q6_hl",
@@ -70424,7 +70789,11 @@
       "question_image_paths": [
         "images/questions/bio_n17_p2_ntz_q6_hl.png"
       ],
-      "markscheme_image_paths": []
+      "markscheme_image_paths": [
+        "images/markschemes/bio_n17_p2_ntz_q6_hl_p1.png",
+        "images/markschemes/bio_n17_p2_ntz_q6_hl_p2.png",
+        "images/markschemes/bio_n17_p2_ntz_q6_hl_p3.png"
+      ]
     },
     {
       "id": "bio_n17_p2_ntz_q7_hl",
@@ -70454,7 +70823,10 @@
       "question_image_paths": [
         "images/questions/bio_n17_p2_ntz_q7_hl.png"
       ],
-      "markscheme_image_paths": []
+      "markscheme_image_paths": [
+        "images/markschemes/bio_n17_p2_ntz_q7_hl_p1.png",
+        "images/markschemes/bio_n17_p2_ntz_q7_hl_p2.png"
+      ]
     },
     {
       "id": "bio_n17_p2_ntz_q8_hl",
@@ -70485,7 +70857,11 @@
       "question_image_paths": [
         "images/questions/bio_n17_p2_ntz_q8_hl_p1.png"
       ],
-      "markscheme_image_paths": []
+      "markscheme_image_paths": [
+        "images/markschemes/bio_n17_p2_ntz_q8_hl_p1.png",
+        "images/markschemes/bio_n17_p2_ntz_q8_hl_p2.png",
+        "images/markschemes/bio_n17_p2_ntz_q8_hl_p3.png"
+      ]
     },
     {
       "id": "bio_n17_p2_ntz_q1_sl",
@@ -70518,7 +70894,10 @@
         "images/questions/bio_n17_p2_ntz_q1_sl_p4.png",
         "images/questions/bio_n17_p2_ntz_q1_sl_p5.png"
       ],
-      "markscheme_image_paths": []
+      "markscheme_image_paths": [
+        "images/markschemes/bio_n17_p2_ntz_q1_sl_p1.png",
+        "images/markschemes/bio_n17_p2_ntz_q1_sl_p2.png"
+      ]
     },
     {
       "id": "bio_n17_p2_ntz_q2_sl",
@@ -70548,7 +70927,9 @@
       "question_image_paths": [
         "images/questions/bio_n17_p2_ntz_q2_sl_p1.png"
       ],
-      "markscheme_image_paths": []
+      "markscheme_image_paths": [
+        "images/markschemes/bio_n17_p2_ntz_q2_sl_p1.png"
+      ]
     },
     {
       "id": "bio_n17_p2_ntz_q3_sl",
@@ -70578,7 +70959,9 @@
       "question_image_paths": [
         "images/questions/bio_n17_p2_ntz_q3_sl_p1.png"
       ],
-      "markscheme_image_paths": []
+      "markscheme_image_paths": [
+        "images/markschemes/bio_n17_p2_ntz_q3_sl_p1.png"
+      ]
     },
     {
       "id": "bio_n17_p2_ntz_q4_sl",
@@ -70608,7 +70991,9 @@
       "question_image_paths": [
         "images/questions/bio_n17_p2_ntz_q4_sl_p1.png"
       ],
-      "markscheme_image_paths": []
+      "markscheme_image_paths": [
+        "images/markschemes/bio_n17_p2_ntz_q4_sl_p1.png"
+      ]
     },
     {
       "id": "bio_n17_p2_ntz_q5_sl",
@@ -70640,7 +71025,10 @@
         "images/questions/bio_n17_p2_ntz_q5_sl_p1.png",
         "images/questions/bio_n17_p2_ntz_q5_sl_p2.png"
       ],
-      "markscheme_image_paths": []
+      "markscheme_image_paths": [
+        "images/markschemes/bio_n17_p2_ntz_q5_sl_p1.png",
+        "images/markschemes/bio_n17_p2_ntz_q5_sl_p2.png"
+      ]
     },
     {
       "id": "bio_n17_p2_ntz_q6_sl",
@@ -70671,7 +71059,11 @@
       "question_image_paths": [
         "images/questions/bio_n17_p2_ntz_q6_sl.png"
       ],
-      "markscheme_image_paths": []
+      "markscheme_image_paths": [
+        "images/markschemes/bio_n17_p2_ntz_q6_sl_p1.png",
+        "images/markschemes/bio_n17_p2_ntz_q6_sl_p2.png",
+        "images/markschemes/bio_n17_p2_ntz_q6_sl_p3.png"
+      ]
     },
     {
       "id": "bio_n17_p2_ntz_q7_sl",
@@ -70701,7 +71093,10 @@
       "question_image_paths": [
         "images/questions/bio_n17_p2_ntz_q7_sl_p1.png"
       ],
-      "markscheme_image_paths": []
+      "markscheme_image_paths": [
+        "images/markschemes/bio_n17_p2_ntz_q7_sl_p1.png",
+        "images/markschemes/bio_n17_p2_ntz_q7_sl_p2.png"
+      ]
     },
     {
       "id": "bio_n17_p3_ntz_q1_hl",
@@ -70731,7 +71126,9 @@
         "images/questions/bio_n17_p3_ntz_q1_hl_p1.png",
         "images/questions/bio_n17_p3_ntz_q1_hl_p2.png"
       ],
-      "markscheme_image_paths": []
+      "markscheme_image_paths": [
+        "images/markschemes/bio_n17_p3_ntz_q1_hl_p1.png"
+      ]
     },
     {
       "id": "bio_n17_p3_ntz_q2_hl",
@@ -70761,7 +71158,9 @@
         "images/questions/bio_n17_p3_ntz_q2_hl_p1.png",
         "images/questions/bio_n17_p3_ntz_q2_hl_p2.png"
       ],
-      "markscheme_image_paths": []
+      "markscheme_image_paths": [
+        "images/markschemes/bio_n17_p3_ntz_q2_hl_p1.png"
+      ]
     },
     {
       "id": "bio_n17_p3_ntz_q3_hl",
@@ -70791,7 +71190,9 @@
         "images/questions/bio_n17_p3_ntz_q3_hl_p1.png",
         "images/questions/bio_n17_p3_ntz_q3_hl_p2.png"
       ],
-      "markscheme_image_paths": []
+      "markscheme_image_paths": [
+        "images/markschemes/bio_n17_p3_ntz_q3_hl_p1.png"
+      ]
     },
     {
       "id": "bio_n17_p3_ntz_q4_hl",
@@ -70823,7 +71224,9 @@
         "images/questions/bio_n17_p3_ntz_q4_hl_p1.png",
         "images/questions/bio_n17_p3_ntz_q4_hl_p2.png"
       ],
-      "markscheme_image_paths": []
+      "markscheme_image_paths": [
+        "images/markschemes/bio_n17_p3_ntz_q4_hl_p1.png"
+      ]
     },
     {
       "id": "bio_n17_p3_ntz_q5_hl",
@@ -70853,7 +71256,9 @@
         "images/questions/bio_n17_p3_ntz_q5_hl_p1.png",
         "images/questions/bio_n17_p3_ntz_q5_hl_p2.png"
       ],
-      "markscheme_image_paths": []
+      "markscheme_image_paths": [
+        "images/markschemes/bio_n17_p3_ntz_q5_hl.png"
+      ]
     },
     {
       "id": "bio_n17_p3_ntz_q6_hl",
@@ -70883,7 +71288,9 @@
       "question_image_paths": [
         "images/questions/bio_n17_p3_ntz_q6_hl_p1.png"
       ],
-      "markscheme_image_paths": []
+      "markscheme_image_paths": [
+        "images/markschemes/bio_n17_p3_ntz_q6_hl_p1.png"
+      ]
     },
     {
       "id": "bio_n17_p3_ntz_q7_hl",
@@ -70915,7 +71322,9 @@
         "images/questions/bio_n17_p3_ntz_q7_hl_p1.png",
         "images/questions/bio_n17_p3_ntz_q7_hl_p2.png"
       ],
-      "markscheme_image_paths": []
+      "markscheme_image_paths": [
+        "images/markschemes/bio_n17_p3_ntz_q7_hl_p1.png"
+      ]
     },
     {
       "id": "bio_n17_p3_ntz_q8_hl",
@@ -70944,7 +71353,9 @@
       "question_image_paths": [
         "images/questions/bio_n17_p3_ntz_q8_hl_p1.png"
       ],
-      "markscheme_image_paths": []
+      "markscheme_image_paths": [
+        "images/markschemes/bio_n17_p3_ntz_q8_hl_p1.png"
+      ]
     },
     {
       "id": "bio_n17_p3_ntz_q9_hl",
@@ -70976,7 +71387,20 @@
         "images/questions/bio_n17_p3_ntz_q9_hl_p1.png",
         "images/questions/bio_n17_p3_ntz_q9_hl_p2.png"
       ],
-      "markscheme_image_paths": []
+      "markscheme_image_paths": [
+        "images/markschemes/bio_n17_p3_ntz_q9_hl_p1.png",
+        "images/markschemes/bio_n17_p3_ntz_q9_hl_p2.png",
+        "images/markschemes/bio_n17_p3_ntz_q9_hl_p3.png",
+        "images/markschemes/bio_n17_p3_ntz_q9_hl_p4.png",
+        "images/markschemes/bio_n17_p3_ntz_q9_hl_p5.png",
+        "images/markschemes/bio_n17_p3_ntz_q9_hl_p6.png",
+        "images/markschemes/bio_n17_p3_ntz_q9_hl_p7.png",
+        "images/markschemes/bio_n17_p3_ntz_q9_hl_p8.png",
+        "images/markschemes/bio_n17_p3_ntz_q9_hl_p9.png",
+        "images/markschemes/bio_n17_p3_ntz_q9_hl_p10.png",
+        "images/markschemes/bio_n17_p3_ntz_q9_hl_p11.png",
+        "images/markschemes/bio_n17_p3_ntz_q9_hl_p12.png"
+      ]
     },
     {
       "id": "bio_n17_p3_ntz_q10_hl",
@@ -71435,7 +71859,9 @@
         "images/questions/bio_n17_p3_ntz_q1_sl_p1.png",
         "images/questions/bio_n17_p3_ntz_q1_sl_p2.png"
       ],
-      "markscheme_image_paths": []
+      "markscheme_image_paths": [
+        "images/markschemes/bio_n17_p3_ntz_q1_sl_p1.png"
+      ]
     },
     {
       "id": "bio_n17_p3_ntz_q2_sl",
@@ -71465,7 +71891,9 @@
       "question_image_paths": [
         "images/questions/bio_n17_p3_ntz_q2_sl_p1.png"
       ],
-      "markscheme_image_paths": []
+      "markscheme_image_paths": [
+        "images/markschemes/bio_n17_p3_ntz_q2_sl.png"
+      ]
     },
     {
       "id": "bio_n17_p3_ntz_q3_sl",
@@ -71496,7 +71924,9 @@
         "images/questions/bio_n17_p3_ntz_q3_sl_p1.png",
         "images/questions/bio_n17_p3_ntz_q3_sl_p2.png"
       ],
-      "markscheme_image_paths": []
+      "markscheme_image_paths": [
+        "images/markschemes/bio_n17_p3_ntz_q3_sl_p1.png"
+      ]
     },
     {
       "id": "bio_n17_p3_ntz_q4_sl",
@@ -71527,7 +71957,9 @@
         "images/questions/bio_n17_p3_ntz_q4_sl_p1.png",
         "images/questions/bio_n17_p3_ntz_q4_sl_p2.png"
       ],
-      "markscheme_image_paths": []
+      "markscheme_image_paths": [
+        "images/markschemes/bio_n17_p3_ntz_q4_sl_p1.png"
+      ]
     },
     {
       "id": "bio_n17_p3_ntz_q5_sl",
@@ -71558,7 +71990,10 @@
         "images/questions/bio_n17_p3_ntz_q5_sl_p1.png",
         "images/questions/bio_n17_p3_ntz_q5_sl_p2.png"
       ],
-      "markscheme_image_paths": []
+      "markscheme_image_paths": [
+        "images/markschemes/bio_n17_p3_ntz_q5_sl_p1.png",
+        "images/markschemes/bio_n17_p3_ntz_q5_sl_p2.png"
+      ]
     },
     {
       "id": "bio_n17_p3_ntz_q6_sl",
@@ -71588,7 +72023,9 @@
         "images/questions/bio_n17_p3_ntz_q6_sl_p1.png",
         "images/questions/bio_n17_p3_ntz_q6_sl_p2.png"
       ],
-      "markscheme_image_paths": []
+      "markscheme_image_paths": [
+        "images/markschemes/bio_n17_p3_ntz_q6_sl_p1.png"
+      ]
     },
     {
       "id": "bio_n17_p3_ntz_q7_sl",
@@ -71618,7 +72055,9 @@
       "question_image_paths": [
         "images/questions/bio_n17_p3_ntz_q7_sl_p1.png"
       ],
-      "markscheme_image_paths": []
+      "markscheme_image_paths": [
+        "images/markschemes/bio_n17_p3_ntz_q7_sl_p1.png"
+      ]
     },
     {
       "id": "bio_n17_p3_ntz_q8_sl",
@@ -71649,7 +72088,9 @@
         "images/questions/bio_n17_p3_ntz_q8_sl_p1.png",
         "images/questions/bio_n17_p3_ntz_q8_sl_p2.png"
       ],
-      "markscheme_image_paths": []
+      "markscheme_image_paths": [
+        "images/markschemes/bio_n17_p3_ntz_q8_sl_p1.png"
+      ]
     },
     {
       "id": "bio_n17_p3_ntz_q9_sl",
@@ -71679,7 +72120,16 @@
       "question_image_paths": [
         "images/questions/bio_n17_p3_ntz_q9_sl_p1.png"
       ],
-      "markscheme_image_paths": []
+      "markscheme_image_paths": [
+        "images/markschemes/bio_n17_p3_ntz_q9_sl_p1.png",
+        "images/markschemes/bio_n17_p3_ntz_q9_sl_p2.png",
+        "images/markschemes/bio_n17_p3_ntz_q9_sl_p3.png",
+        "images/markschemes/bio_n17_p3_ntz_q9_sl_p4.png",
+        "images/markschemes/bio_n17_p3_ntz_q9_sl_p5.png",
+        "images/markschemes/bio_n17_p3_ntz_q9_sl_p6.png",
+        "images/markschemes/bio_n17_p3_ntz_q9_sl_p7.png",
+        "images/markschemes/bio_n17_p3_ntz_q9_sl_p8.png"
+      ]
     },
     {
       "id": "bio_n17_p3_ntz_q10_sl",
@@ -74151,7 +74601,12 @@
         "images/questions/bio_n18_p2_ntz_q1_hl_p4.png",
         "images/questions/bio_n18_p2_ntz_q1_hl_p5.png"
       ],
-      "markscheme_image_paths": []
+      "markscheme_image_paths": [
+        "images/markschemes/bio_n18_p2_ntz_q1_hl_p1.png",
+        "images/markschemes/bio_n18_p2_ntz_q1_hl_p2.png",
+        "images/markschemes/bio_n18_p2_ntz_q1_hl_p3.png",
+        "images/markschemes/bio_n18_p2_ntz_q1_hl_p4.png"
+      ]
     },
     {
       "id": "bio_n18_p2_ntz_q2_hl",
@@ -74182,7 +74637,10 @@
       "question_image_paths": [
         "images/questions/bio_n18_p2_ntz_q2_hl_p1.png"
       ],
-      "markscheme_image_paths": []
+      "markscheme_image_paths": [
+        "images/markschemes/bio_n18_p2_ntz_q2_hl_p1.png",
+        "images/markschemes/bio_n18_p2_ntz_q2_hl_p2.png"
+      ]
     },
     {
       "id": "bio_n18_p2_ntz_q3_hl",
@@ -74211,7 +74669,9 @@
       "question_image_paths": [
         "images/questions/bio_n18_p2_ntz_q3_hl_p1.png"
       ],
-      "markscheme_image_paths": []
+      "markscheme_image_paths": [
+        "images/markschemes/bio_n18_p2_ntz_q3_hl_p1.png"
+      ]
     },
     {
       "id": "bio_n18_p2_ntz_q4_hl",
@@ -74244,7 +74704,10 @@
         "images/questions/bio_n18_p2_ntz_q4_hl_p2.png",
         "images/questions/bio_n18_p2_ntz_q4_hl_p3.png"
       ],
-      "markscheme_image_paths": []
+      "markscheme_image_paths": [
+        "images/markschemes/bio_n18_p2_ntz_q4_hl_p1.png",
+        "images/markschemes/bio_n18_p2_ntz_q4_hl_p2.png"
+      ]
     },
     {
       "id": "bio_n18_p2_ntz_q5_hl",
@@ -74275,7 +74738,10 @@
         "images/questions/bio_n18_p2_ntz_q5_hl_p1.png",
         "images/questions/bio_n18_p2_ntz_q5_hl_p2.png"
       ],
-      "markscheme_image_paths": []
+      "markscheme_image_paths": [
+        "images/markschemes/bio_n18_p2_ntz_q5_hl_p1.png",
+        "images/markschemes/bio_n18_p2_ntz_q5_hl_p2.png"
+      ]
     },
     {
       "id": "bio_n18_p2_ntz_q6_hl",
@@ -74306,7 +74772,11 @@
       "question_image_paths": [
         "images/questions/bio_n18_p2_ntz_q6_hl.png"
       ],
-      "markscheme_image_paths": []
+      "markscheme_image_paths": [
+        "images/markschemes/bio_n18_p2_ntz_q6_hl_p1.png",
+        "images/markschemes/bio_n18_p2_ntz_q6_hl_p2.png",
+        "images/markschemes/bio_n18_p2_ntz_q6_hl_p3.png"
+      ]
     },
     {
       "id": "bio_n18_p2_ntz_q7_hl",
@@ -74337,7 +74807,10 @@
       "question_image_paths": [
         "images/questions/bio_n18_p2_ntz_q7_hl.png"
       ],
-      "markscheme_image_paths": []
+      "markscheme_image_paths": [
+        "images/markschemes/bio_n18_p2_ntz_q7_hl_p1.png",
+        "images/markschemes/bio_n18_p2_ntz_q7_hl_p2.png"
+      ]
     },
     {
       "id": "bio_n18_p2_ntz_q8_hl",
@@ -74368,7 +74841,10 @@
       "question_image_paths": [
         "images/questions/bio_n18_p2_ntz_q8_hl_p1.png"
       ],
-      "markscheme_image_paths": []
+      "markscheme_image_paths": [
+        "images/markschemes/bio_n18_p2_ntz_q8_hl_p1.png",
+        "images/markschemes/bio_n18_p2_ntz_q8_hl_p2.png"
+      ]
     },
     {
       "id": "bio_n18_p2_ntz_q1_sl",
