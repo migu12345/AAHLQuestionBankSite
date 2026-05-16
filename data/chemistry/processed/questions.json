@@ -29815,8 +29815,7 @@
         "markscheme_file": "Chemistry_paper_1_TZ1_HL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/chem_m21_p1_tz1_q40_hl_p1.png",
-        "images/questions/chem_m21_p1_tz1_q40_hl_p2.png"
+        "images/questions/chem_m21_p1_tz1_q40_hl_p1.png"
       ],
       "markscheme_image_paths": []
     },
@@ -30725,8 +30724,7 @@
         "markscheme_file": "Chemistry_paper_1_TZ1_SL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/chem_m21_p1_tz1_q30_sl_p1.png",
-        "images/questions/chem_m21_p1_tz1_q30_sl_p2.png"
+        "images/questions/chem_m21_p1_tz1_q30_sl_p1.png"
       ],
       "markscheme_image_paths": []
     },
@@ -31938,8 +31936,7 @@
         "markscheme_file": "Chemistry_paper_1_TZ2_HL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/chem_m21_p1_tz2_q40_hl_p1.png",
-        "images/questions/chem_m21_p1_tz2_q40_hl_p2.png"
+        "images/questions/chem_m21_p1_tz2_q40_hl_p1.png"
       ],
       "markscheme_image_paths": []
     },
@@ -33113,40 +33110,6 @@
       ]
     },
     {
-      "id": "chem_m21_p2_tz1_q8_hl",
-      "paper": "May 2021 Chemistry Paper 2 TZ1 HL",
-      "session": "May",
-      "session_code": "m21",
-      "paper_type": "Paper 2",
-      "level": "HL",
-      "question_number": "8",
-      "title": "Q8: Propanoic acid, CH3CH2COOH, is a weak organic acid.\n(a) \nCalculate the pH of 0.00100 mol dm-3 propanoic acid solution. U",
-      "topic": "Reactivity 3: What are the mechanisms of change?",
-      "subtopic": "R3.1 Proton transfer (acid-base) reactions",
-      "topic_confidence": 0.8,
-      "topic_reason": [
-        "keyword match: 2",
-        "matched: acid, ph",
-        "runner-up score: 17"
-      ],
-      "question_text": "Propanoic acid, CH3CH2COOH, is a weak organic acid.\n(a) \nCalculate the pH of 0.00100 mol dm-3 propanoic acid solution. Use section 21 of the \ndata booklet.\b\n[3]\n\b���������������������������������������������������������������������������������������������������������������������������������������������������\n\b���������������������������������������������������������������������������������������������������������������������������������������������������\n\b���������������������������������������������������������������������������������������������������������������������������������������������������\n\b���������������������������������������������������������������������������������������������������������������������������������������������������\n\b���������������������������������������������������������������������������������������������������������������������������������������������������\n\b���������������������������������������������������������������������������������������������������������������������������������������������������\n(b) \nSketch the general shape of the variation of pH when 50 cm3 of 0.001 mol dm-3 \nNaOH (aq) is gradually added to 25 cm3 of 0.001 mol dm-3 CH3CH2COOH (aq).\b\n[3]\n14\n12\npH\nVolume of 0.001 mol dm−3 NaOH / cm−3\n10\n8\n6\n4\n2\n0\n0\n10\n20\n30\n40\n50\n\b\nReferences:\nAll other texts, graphics and illustrations © International Baccalaureate Organization 2021\n24EP23\n– 23 –\n2221 – 6108\n\n24EP24\nPlease do not write on this page.\nAnswers written on this page \nwill not be marked.",
-      "answer_text": "b \nAny three of: \ncorrect “S” shape ✔ \nequivalence point at 25 cm3 ✔ \nfinal pH tends to 11 ✔ \npH at equivalence point 7 ✔ \nstarting pH between 3.8 - 4 ✔ \npH at half equivalence approx. 5 ✔ \nDo not penalize for incorrect points. \nAward any 3 correct. \n3",
-      "mcq_answer": "",
-      "marks": 6,
-      "has_markscheme": true,
-      "source": {
-        "paper_file": "Chemistry_paper_2_TZ1_HL.pdf",
-        "markscheme_file": "Chemistry_paper_2_TZ1_HL_markscheme.pdf"
-      },
-      "question_image_paths": [
-        "images/questions/chem_m21_p2_tz1_q8_hl_p1.png"
-      ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m21_p2_tz1_q8_hl_p1.png",
-        "images/markschemes/chem_m21_p2_tz1_q8_hl_p2.png"
-      ]
-    },
-    {
       "id": "chem_m21_p2_tz1_q1_sl",
       "paper": "May 2021 Chemistry Paper 2 TZ1 SL",
       "session": "May",
@@ -33608,8 +33571,7 @@
         "markscheme_file": "Chemistry_paper_2_TZ2_HL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/chem_m21_p2_tz2_q7_hl_p1.png",
-        "images/questions/chem_m21_p2_tz2_q7_hl_p2.png"
+        "images/questions/chem_m21_p2_tz2_q7_hl_p1.png"
       ],
       "markscheme_image_paths": [
         "images/markschemes/chem_m21_p2_tz2_q7_hl.png"
@@ -33754,8 +33716,7 @@
         "images/questions/chem_m21_p2_tz2_q4_sl_p1.png",
         "images/questions/chem_m21_p2_tz2_q4_sl_p2.png",
         "images/questions/chem_m21_p2_tz2_q4_sl_p3.png",
-        "images/questions/chem_m21_p2_tz2_q4_sl_p4.png",
-        "images/questions/chem_m21_p2_tz2_q4_sl_p5.png"
+        "images/questions/chem_m21_p2_tz2_q4_sl_p4.png"
       ],
       "markscheme_image_paths": [
         "images/markschemes/chem_m21_p2_tz2_q4_sl_p1.png",
@@ -34978,8 +34939,7 @@
         "markscheme_file": "Chemistry_paper_1_TZ1_HL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/chem_m22_p1_tz1_q40_hl_p1.png",
-        "images/questions/chem_m22_p1_tz1_q40_hl_p2.png"
+        "images/questions/chem_m22_p1_tz1_q40_hl_p1.png"
       ],
       "markscheme_image_paths": []
     },
@@ -35895,8 +35855,7 @@
         "markscheme_file": "Chemistry_paper_1_TZ1_SL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/chem_m22_p1_tz1_q30_sl_p1.png",
-        "images/questions/chem_m22_p1_tz1_q30_sl_p2.png"
+        "images/questions/chem_m22_p1_tz1_q30_sl_p1.png"
       ],
       "markscheme_image_paths": []
     },
@@ -38248,8 +38207,7 @@
       },
       "question_image_paths": [
         "images/questions/chem_m22_p2_tz1_q6_hl_p1.png",
-        "images/questions/chem_m22_p2_tz1_q6_hl_p2.png",
-        "images/questions/chem_m22_p2_tz1_q6_hl_p3.png"
+        "images/questions/chem_m22_p2_tz1_q6_hl_p2.png"
       ],
       "markscheme_image_paths": [
         "images/markschemes/chem_m22_p2_tz1_q6_hl_p1.png",
@@ -38646,8 +38604,7 @@
         "images/questions/chem_m22_p2_tz2_q8_hl_p1.png",
         "images/questions/chem_m22_p2_tz2_q8_hl_p2.png",
         "images/questions/chem_m22_p2_tz2_q8_hl_p3.png",
-        "images/questions/chem_m22_p2_tz2_q8_hl_p4.png",
-        "images/questions/chem_m22_p2_tz2_q8_hl_p5.png"
+        "images/questions/chem_m22_p2_tz2_q8_hl_p4.png"
       ],
       "markscheme_image_paths": [
         "images/markschemes/chem_m22_p2_tz2_q8_hl_p1.png",
@@ -38802,39 +38759,6 @@
         "images/markschemes/chem_m22_p2_tz2_q4_sl_p4.png",
         "images/markschemes/chem_m22_p2_tz2_q4_sl_p5.png",
         "images/markschemes/chem_m22_p2_tz2_q4_sl_p6.png"
-      ]
-    },
-    {
-      "id": "chem_m22_p2_tz2_q5_sl",
-      "paper": "May 2022 Chemistry Paper 2 TZ2 SL",
-      "session": "May",
-      "session_code": "m22",
-      "paper_type": "Paper 2",
-      "level": "SL",
-      "question_number": "5",
-      "title": "Q5: Molten zinc chloride undergoes electrolysis in an electrolytic cell at 450 C.\n(a) \nDeduce the half-equations for the re",
-      "topic": "Reactivity 3: What are the mechanisms of change?",
-      "subtopic": "R3.2 Electron transfer (redox) reactions",
-      "topic_confidence": 0.8,
-      "topic_reason": [
-        "keyword match: 5",
-        "matched: electrolysis, electrode, electrolytic cell, anode",
-        "runner-up score: 18"
-      ],
-      "question_text": "Molten zinc chloride undergoes electrolysis in an electrolytic cell at 450 C.\n(a) \nDeduce the half-equations for the reaction at each electrode.\b\n[2]\n \nCathode (negative electrode):\n \n. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . \n \n. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . \n \n \nAnode (positive electrode):\n \n. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . \n \n. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . \n(b) \nDeduce the overall cell reaction including state symbols. Use section 7 of the \ndata booklet.\b\n[2]\n\b���������������������������������������������������������������������������������������������������������������������������������������������������\n\b���������������������������������������������������������������������������������������������������������������������������������������������������\n \nReferences:\nAll other texts, graphics and illustrations © International Baccalaureate Organization 2022\n12EP12",
-      "answer_text": "b \nZnCl2 (l) → Zn (l) + Cl2 (g) \nbalanced equation ✔ \ncorrect state symbols ✔ \nAccept ionic equation. \n2",
-      "mcq_answer": "",
-      "marks": 4,
-      "has_markscheme": true,
-      "source": {
-        "paper_file": "Chemistry_paper_2_TZ2_SL.pdf",
-        "markscheme_file": "Chemistry_paper_2_TZ2_SL_markscheme.pdf"
-      },
-      "question_image_paths": [
-        "images/questions/chem_m22_p2_tz2_q5_sl.png"
-      ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_m22_p2_tz2_q5_sl.png"
       ]
     },
     {
@@ -40053,8 +39977,7 @@
         "markscheme_file": "Chemistry_paper_1_TZ1_HL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/chem_m23_p1_tz1_q40_hl_p1.png",
-        "images/questions/chem_m23_p1_tz1_q40_hl_p2.png"
+        "images/questions/chem_m23_p1_tz1_q40_hl_p1.png"
       ],
       "markscheme_image_paths": []
     },
@@ -41278,8 +41201,7 @@
         "markscheme_file": "Chemistry_paper_1_TZ2_HL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/chem_m23_p1_tz2_q40_hl_p1.png",
-        "images/questions/chem_m23_p1_tz2_q40_hl_p2.png"
+        "images/questions/chem_m23_p1_tz2_q40_hl_p1.png"
       ],
       "markscheme_image_paths": []
     },
@@ -42196,8 +42118,7 @@
         "markscheme_file": "Chemistry_paper_1_TZ2_SL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/chem_m23_p1_tz2_q30_sl_p1.png",
-        "images/questions/chem_m23_p1_tz2_q30_sl_p2.png"
+        "images/questions/chem_m23_p1_tz2_q30_sl_p1.png"
       ],
       "markscheme_image_paths": []
     },
@@ -42491,8 +42412,7 @@
       },
       "question_image_paths": [
         "images/questions/chem_m23_p2_tz1_q9_hl_p1.png",
-        "images/questions/chem_m23_p2_tz1_q9_hl_p2.png",
-        "images/questions/chem_m23_p2_tz1_q9_hl_p3.png"
+        "images/questions/chem_m23_p2_tz1_q9_hl_p2.png"
       ],
       "markscheme_image_paths": []
     },
@@ -42808,8 +42728,7 @@
         "markscheme_file": "Chemistry_paper_2_TZ2_HL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/chem_m23_p2_tz2_q9_hl_p1.png",
-        "images/questions/chem_m23_p2_tz2_q9_hl_p2.png"
+        "images/questions/chem_m23_p2_tz2_q9_hl_p1.png"
       ],
       "markscheme_image_paths": [
         "images/markschemes/chem_m23_p2_tz2_q9_hl_p1.png",
@@ -43017,8 +42936,7 @@
       "question_image_paths": [
         "images/questions/chem_m23_p2_tz2_q6_sl_p1.png",
         "images/questions/chem_m23_p2_tz2_q6_sl_p2.png",
-        "images/questions/chem_m23_p2_tz2_q6_sl_p3.png",
-        "images/questions/chem_m23_p2_tz2_q6_sl_p4.png"
+        "images/questions/chem_m23_p2_tz2_q6_sl_p3.png"
       ],
       "markscheme_image_paths": [
         "images/markschemes/chem_m23_p2_tz2_q6_sl_p1.png",
@@ -43742,8 +43660,7 @@
       "question_image_paths": [
         "images/questions/chem_m23_p3_tz1_q21_hl_p1.png",
         "images/questions/chem_m23_p3_tz1_q21_hl_p2.png",
-        "images/questions/chem_m23_p3_tz1_q21_hl_p3.png",
-        "images/questions/chem_m23_p3_tz1_q21_hl_p4.png"
+        "images/questions/chem_m23_p3_tz1_q21_hl_p3.png"
       ],
       "markscheme_image_paths": [
         "images/markschemes/chem_m23_p3_tz1_q21_hl.png"
@@ -44258,8 +44175,7 @@
         "markscheme_file": "Chemistry_paper_3_TZ1_SL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/chem_m23_p3_tz1_q15_sl_p1.png",
-        "images/questions/chem_m23_p3_tz1_q15_sl_p2.png"
+        "images/questions/chem_m23_p3_tz1_q15_sl_p1.png"
       ],
       "markscheme_image_paths": [
         "images/markschemes/chem_m23_p3_tz1_q15_sl.png"
@@ -45879,8 +45795,7 @@
         "markscheme_file": "Chemistry_paper_3_TZ2_SL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/chem_m23_p3_tz2_q21_sl_p1.png",
-        "images/questions/chem_m23_p3_tz2_q21_sl_p2.png"
+        "images/questions/chem_m23_p3_tz2_q21_sl_p1.png"
       ],
       "markscheme_image_paths": [
         "images/markschemes/chem_m23_p3_tz2_q21_sl.png"
@@ -48292,8 +48207,7 @@
         "markscheme_file": "Chemistry_paper_1_TZ1_HL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/chem_m24_p1_tz1_q40_hl_p1.png",
-        "images/questions/chem_m24_p1_tz1_q40_hl_p2.png"
+        "images/questions/chem_m24_p1_tz1_q40_hl_p1.png"
       ],
       "markscheme_image_paths": []
     },
@@ -48323,8 +48237,7 @@
         "markscheme_file": "Chemistry_paper_1_TZ1_HL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/chem_m24_p1_tz1_q40_hl_p1.png",
-        "images/questions/chem_m24_p1_tz1_q40_hl_p2.png"
+        "images/questions/chem_m24_p1_tz1_q40_hl_p1.png"
       ],
       "markscheme_image_paths": []
     },
@@ -54943,8 +54856,7 @@
       "question_image_paths": [
         "images/questions/chem_m24_p2_tz2_q7_hl_p1.png",
         "images/questions/chem_m24_p2_tz2_q7_hl_p2.png",
-        "images/questions/chem_m24_p2_tz2_q7_hl_p3.png",
-        "images/questions/chem_m24_p2_tz2_q7_hl_p4.png"
+        "images/questions/chem_m24_p2_tz2_q7_hl_p3.png"
       ],
       "markscheme_image_paths": [
         "images/markschemes/chem_m24_p2_tz2_q7_hl_p1.png",
@@ -54981,8 +54893,7 @@
       "question_image_paths": [
         "images/questions/chem_m24_p2_tz2_q7_hl_p1.png",
         "images/questions/chem_m24_p2_tz2_q7_hl_p2.png",
-        "images/questions/chem_m24_p2_tz2_q7_hl_p3.png",
-        "images/questions/chem_m24_p2_tz2_q7_hl_p4.png"
+        "images/questions/chem_m24_p2_tz2_q7_hl_p3.png"
       ],
       "markscheme_image_paths": [
         "images/markschemes/chem_m24_p2_tz2_q7_hl_p1.png",
@@ -55375,8 +55286,7 @@
         "markscheme_file": "Chemistry_paper_2_TZ2_SL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/chem_m24_p2_tz2_q6_sl_p1.png",
-        "images/questions/chem_m24_p2_tz2_q6_sl_p2.png"
+        "images/questions/chem_m24_p2_tz2_q6_sl_p1.png"
       ],
       "markscheme_image_paths": [
         "images/markschemes/chem_m24_p2_tz2_q6_sl.png"
@@ -55409,8 +55319,7 @@
         "markscheme_file": "Chemistry_paper_2_TZ2_SL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/chem_m24_p2_tz2_q6_sl_p1.png",
-        "images/questions/chem_m24_p2_tz2_q6_sl_p2.png"
+        "images/questions/chem_m24_p2_tz2_q6_sl_p1.png"
       ],
       "markscheme_image_paths": [
         "images/markschemes/chem_m24_p2_tz2_q6_sl.png"
@@ -56746,8 +56655,7 @@
         "markscheme_file": "Chemistry_paper_3_TZ1_SL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/chem_m24_p3_tz1_q17_sl_p1.png",
-        "images/questions/chem_m24_p3_tz1_q17_sl_p2.png"
+        "images/questions/chem_m24_p3_tz1_q17_sl_p1.png"
       ],
       "markscheme_image_paths": [
         "images/markschemes/chem_m24_p3_tz1_q17_sl.png"
@@ -56778,8 +56686,7 @@
         "markscheme_file": "Chemistry_paper_3_TZ1_SL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/chem_m24_p3_tz1_q17_sl_p1.png",
-        "images/questions/chem_m24_p3_tz1_q17_sl_p2.png"
+        "images/questions/chem_m24_p3_tz1_q17_sl_p1.png"
       ],
       "markscheme_image_paths": [
         "images/markschemes/chem_m24_p3_tz1_q17_sl.png"
@@ -58128,8 +58035,7 @@
         "markscheme_file": "Chemistry_paper_3_TZ2_HL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/chem_m24_p3_tz2_q20_hl_p1.png",
-        "images/questions/chem_m24_p3_tz2_q20_hl_p2.png"
+        "images/questions/chem_m24_p3_tz2_q20_hl_p1.png"
       ],
       "markscheme_image_paths": [
         "images/markschemes/chem_m24_p3_tz2_q20_hl_p1.png",
@@ -58163,8 +58069,7 @@
         "markscheme_file": "Chemistry_paper_3_TZ2_HL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/chem_m24_p3_tz2_q20_hl_p1.png",
-        "images/questions/chem_m24_p3_tz2_q20_hl_p2.png"
+        "images/questions/chem_m24_p3_tz2_q20_hl_p1.png"
       ],
       "markscheme_image_paths": [
         "images/markschemes/chem_m24_p3_tz2_q20_hl_p1.png",
@@ -59172,8 +59077,7 @@
         "markscheme_file": "Chemistry_paper_3_TZ2_SL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/chem_m24_p3_tz2_q15_sl_p1.png",
-        "images/questions/chem_m24_p3_tz2_q15_sl_p2.png"
+        "images/questions/chem_m24_p3_tz2_q15_sl_p1.png"
       ],
       "markscheme_image_paths": [
         "images/markschemes/chem_m24_p3_tz2_q15_sl.png"
@@ -59204,8 +59108,7 @@
         "markscheme_file": "Chemistry_paper_3_TZ2_SL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/chem_m24_p3_tz2_q15_sl_p1.png",
-        "images/questions/chem_m24_p3_tz2_q15_sl_p2.png"
+        "images/questions/chem_m24_p3_tz2_q15_sl_p1.png"
       ],
       "markscheme_image_paths": [
         "images/markschemes/chem_m24_p3_tz2_q15_sl.png"
@@ -61400,8 +61303,7 @@
       },
       "question_image_paths": [
         "images/questions/chem_m25_p2_tz2_q4_hl_p1.png",
-        "images/questions/chem_m25_p2_tz2_q4_hl_p2.png",
-        "images/questions/chem_m25_p2_tz2_q4_hl_p3.png"
+        "images/questions/chem_m25_p2_tz2_q4_hl_p2.png"
       ],
       "markscheme_image_paths": [
         "images/markschemes/chem_m25_p2_tz2_q4_hl_p1.png",
@@ -79444,8 +79346,7 @@
         "markscheme_file": "Chemistry_paper_1__HL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/chem_n20_p1_ntz_q40_hl_p1.png",
-        "images/questions/chem_n20_p1_ntz_q40_hl_p2.png"
+        "images/questions/chem_n20_p1_ntz_q40_hl_p1.png"
       ],
       "markscheme_image_paths": []
     },
@@ -80616,8 +80517,7 @@
       },
       "question_image_paths": [
         "images/questions/chem_n20_p2_ntz_q7_hl_p1.png",
-        "images/questions/chem_n20_p2_ntz_q7_hl_p2.png",
-        "images/questions/chem_n20_p2_ntz_q7_hl_p3.png"
+        "images/questions/chem_n20_p2_ntz_q7_hl_p2.png"
       ],
       "markscheme_image_paths": [
         "images/markschemes/chem_n20_p2_ntz_q7_hl.png"
@@ -80763,8 +80663,7 @@
       },
       "question_image_paths": [
         "images/questions/chem_n20_p2_ntz_q4_sl_p1.png",
-        "images/questions/chem_n20_p2_ntz_q4_sl_p2.png",
-        "images/questions/chem_n20_p2_ntz_q4_sl_p3.png"
+        "images/questions/chem_n20_p2_ntz_q4_sl_p2.png"
       ],
       "markscheme_image_paths": [
         "images/markschemes/chem_n20_p2_ntz_q4_sl_p1.png",
@@ -81427,8 +81326,7 @@
       },
       "question_image_paths": [
         "images/questions/chem_n20_p3_ntz_q19_hl_p1.png",
-        "images/questions/chem_n20_p3_ntz_q19_hl_p2.png",
-        "images/questions/chem_n20_p3_ntz_q19_hl_p3.png"
+        "images/questions/chem_n20_p3_ntz_q19_hl_p2.png"
       ],
       "markscheme_image_paths": [
         "images/markschemes/chem_n20_p3_ntz_q19_hl_p1.png",
@@ -81913,8 +81811,7 @@
       },
       "question_image_paths": [
         "images/questions/chem_n20_p3_ntz_q14_sl_p1.png",
-        "images/questions/chem_n20_p3_ntz_q14_sl_p2.png",
-        "images/questions/chem_n20_p3_ntz_q14_sl_p3.png"
+        "images/questions/chem_n20_p3_ntz_q14_sl_p2.png"
       ],
       "markscheme_image_paths": [
         "images/markschemes/chem_n20_p3_ntz_q14_sl_p1.png",
@@ -83134,8 +83031,7 @@
         "markscheme_file": "Chemistry_paper_1__HL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/chem_n21_p1_ntz_q40_hl_p1.png",
-        "images/questions/chem_n21_p1_ntz_q40_hl_p2.png"
+        "images/questions/chem_n21_p1_ntz_q40_hl_p1.png"
       ],
       "markscheme_image_paths": []
     },
@@ -84053,8 +83949,7 @@
         "markscheme_file": "Chemistry_paper_1__SL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/chem_n21_p1_ntz_q30_sl_p1.png",
-        "images/questions/chem_n21_p1_ntz_q30_sl_p2.png"
+        "images/questions/chem_n21_p1_ntz_q30_sl_p1.png"
       ],
       "markscheme_image_paths": []
     },
@@ -84084,7 +83979,9 @@
         "markscheme_file": "Chemistry_paper_2__HL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/chem_n21_p2_ntz_q1_hl.png"
+        "images/questions/chem_n21_p2_ntz_q1_hl_p1.png",
+        "images/questions/chem_n21_p2_ntz_q1_hl_p2.png",
+        "images/questions/chem_n21_p2_ntz_q1_hl_p3.png"
       ],
       "markscheme_image_paths": [
         "images/markschemes/chem_n21_p2_ntz_q1_hl_p1.png",
@@ -84119,10 +84016,7 @@
         "markscheme_file": "Chemistry_paper_2__HL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/chem_n21_p2_ntz_q2_hl_p1.png",
-        "images/questions/chem_n21_p2_ntz_q2_hl_p2.png",
-        "images/questions/chem_n21_p2_ntz_q2_hl_p3.png",
-        "images/questions/chem_n21_p2_ntz_q2_hl_p4.png"
+        "images/questions/chem_n21_p2_ntz_q2_hl.png"
       ],
       "markscheme_image_paths": [
         "images/markschemes/chem_n21_p2_ntz_q2_hl.png"
@@ -84153,7 +84047,10 @@
         "markscheme_file": "Chemistry_paper_2__HL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/chem_n21_p2_ntz_q3_hl.png"
+        "images/questions/chem_n21_p2_ntz_q3_hl_p1.png",
+        "images/questions/chem_n21_p2_ntz_q3_hl_p2.png",
+        "images/questions/chem_n21_p2_ntz_q3_hl_p3.png",
+        "images/questions/chem_n21_p2_ntz_q3_hl_p4.png"
       ],
       "markscheme_image_paths": [
         "images/markschemes/chem_n21_p2_ntz_q3_hl_p1.png",
@@ -84465,7 +84362,9 @@
         "markscheme_file": "Chemistry_paper_2__SL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/chem_n21_p2_ntz_q1_sl.png"
+        "images/questions/chem_n21_p2_ntz_q1_sl_p1.png",
+        "images/questions/chem_n21_p2_ntz_q1_sl_p2.png",
+        "images/questions/chem_n21_p2_ntz_q1_sl_p3.png"
       ],
       "markscheme_image_paths": [
         "images/markschemes/chem_n21_p2_ntz_q1_sl_p1.png",
@@ -85924,8 +85823,7 @@
         "markscheme_file": "Chemistry_paper_1_TZ1_HL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/chem_n23_p1_tz1_q40_hl_p1.png",
-        "images/questions/chem_n23_p1_tz1_q40_hl_p2.png"
+        "images/questions/chem_n23_p1_tz1_q40_hl_p1.png"
       ],
       "markscheme_image_paths": []
     },
@@ -88053,8 +87951,7 @@
         "markscheme_file": "Chemistry_paper_1_TZ2_HL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/chem_n23_p1_tz2_q40_hl_p1.png",
-        "images/questions/chem_n23_p1_tz2_q40_hl_p2.png"
+        "images/questions/chem_n23_p1_tz2_q40_hl_p1.png"
       ],
       "markscheme_image_paths": []
     },
@@ -89187,8 +89084,7 @@
       "question_image_paths": [
         "images/questions/chem_n23_p2_tz1_q6_hl_p1.png",
         "images/questions/chem_n23_p2_tz1_q6_hl_p2.png",
-        "images/questions/chem_n23_p2_tz1_q6_hl_p4.png",
-        "images/questions/chem_n23_p2_tz1_q6_hl_p5.png"
+        "images/questions/chem_n23_p2_tz1_q6_hl_p4.png"
       ],
       "markscheme_image_paths": [
         "images/markschemes/chem_n23_p2_tz1_q6_hl_p1.png",
@@ -89368,8 +89264,7 @@
       },
       "question_image_paths": [
         "images/questions/chem_n23_p2_tz1_q5_sl_p1.png",
-        "images/questions/chem_n23_p2_tz1_q5_sl_p2.png",
-        "images/questions/chem_n23_p2_tz1_q5_sl_p3.png"
+        "images/questions/chem_n23_p2_tz1_q5_sl_p2.png"
       ],
       "markscheme_image_paths": [
         "images/markschemes/chem_n23_p2_tz1_q5_sl.png"
@@ -89591,8 +89486,7 @@
       "question_image_paths": [
         "images/questions/chem_n23_p2_tz2_q6_hl_p1.png",
         "images/questions/chem_n23_p2_tz2_q6_hl_p2.png",
-        "images/questions/chem_n23_p2_tz2_q6_hl_p4.png",
-        "images/questions/chem_n23_p2_tz2_q6_hl_p5.png"
+        "images/questions/chem_n23_p2_tz2_q6_hl_p4.png"
       ],
       "markscheme_image_paths": [
         "images/markschemes/chem_n23_p2_tz2_q6_hl_p1.png",
@@ -89772,8 +89666,7 @@
       },
       "question_image_paths": [
         "images/questions/chem_n23_p2_tz2_q5_sl_p1.png",
-        "images/questions/chem_n23_p2_tz2_q5_sl_p2.png",
-        "images/questions/chem_n23_p2_tz2_q5_sl_p3.png"
+        "images/questions/chem_n23_p2_tz2_q5_sl_p2.png"
       ],
       "markscheme_image_paths": [
         "images/markschemes/chem_n23_p2_tz2_q5_sl.png"
@@ -90432,8 +90325,7 @@
       },
       "question_image_paths": [
         "images/questions/chem_n23_p3_tz1_q19_hl_p1.png",
-        "images/questions/chem_n23_p3_tz1_q19_hl_p2.png",
-        "images/questions/chem_n23_p3_tz1_q19_hl_p3.png"
+        "images/questions/chem_n23_p3_tz1_q19_hl_p2.png"
       ],
       "markscheme_image_paths": [
         "images/markschemes/chem_n23_p3_tz1_q19_hl_p1.png",
@@ -90919,8 +90811,7 @@
       },
       "question_image_paths": [
         "images/questions/chem_n23_p3_tz1_q14_sl_p1.png",
-        "images/questions/chem_n23_p3_tz1_q14_sl_p2.png",
-        "images/questions/chem_n23_p3_tz1_q14_sl_p3.png"
+        "images/questions/chem_n23_p3_tz1_q14_sl_p2.png"
       ],
       "markscheme_image_paths": [
         "images/markschemes/chem_n23_p3_tz1_q14_sl_p1.png",
@@ -91580,8 +91471,7 @@
       },
       "question_image_paths": [
         "images/questions/chem_n23_p3_tz2_q19_hl_p1.png",
-        "images/questions/chem_n23_p3_tz2_q19_hl_p2.png",
-        "images/questions/chem_n23_p3_tz2_q19_hl_p3.png"
+        "images/questions/chem_n23_p3_tz2_q19_hl_p2.png"
       ],
       "markscheme_image_paths": [
         "images/markschemes/chem_n23_p3_tz2_q19_hl_p1.png",
@@ -92067,8 +91957,7 @@
       },
       "question_image_paths": [
         "images/questions/chem_n23_p3_tz2_q14_sl_p1.png",
-        "images/questions/chem_n23_p3_tz2_q14_sl_p2.png",
-        "images/questions/chem_n23_p3_tz2_q14_sl_p3.png"
+        "images/questions/chem_n23_p3_tz2_q14_sl_p2.png"
       ],
       "markscheme_image_paths": [
         "images/markschemes/chem_n23_p3_tz2_q14_sl_p1.png",
@@ -92992,8 +92881,7 @@
         "markscheme_file": "Chemistry_paper_1__SL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/chem_n24_p1_ntz_q30_sl_p1.png",
-        "images/questions/chem_n24_p1_ntz_q30_sl_p2.png"
+        "images/questions/chem_n24_p1_ntz_q30_sl_p1.png"
       ],
       "markscheme_image_paths": []
     },
@@ -93135,8 +93023,7 @@
       },
       "question_image_paths": [
         "images/questions/chem_n24_p2_ntz_q4_sl_p1.png",
-        "images/questions/chem_n24_p2_ntz_q4_sl_p2.png",
-        "images/questions/chem_n24_p2_ntz_q4_sl_p3.png"
+        "images/questions/chem_n24_p2_ntz_q4_sl_p2.png"
       ],
       "markscheme_image_paths": [
         "images/markschemes/chem_n24_p2_ntz_q4_sl_p1.png",
@@ -93629,39 +93516,6 @@
         "images/markschemes/chem_n24_p3_ntz_q14_sl_p1.png",
         "images/markschemes/chem_n24_p3_ntz_q14_sl_p2.png",
         "images/markschemes/chem_n24_p3_ntz_q14_sl_p3.png"
-      ]
-    },
-    {
-      "id": "chem_n24_p3_ntz_q15_sl",
-      "paper": "November 2024 Chemistry Paper 3 NTZ SL",
-      "session": "November",
-      "session_code": "n24",
-      "paper_type": "Paper 3",
-      "level": "SL",
-      "question_number": "15",
-      "title": "Q15: Many people require medication to regulate the pH of their stomachs.\n(a) \nWrite an equation for the neutralization react",
-      "topic": "Reactivity 3: What are the mechanisms of change?",
-      "subtopic": "R3.1 Proton transfer (acid-base) reactions",
-      "topic_confidence": 0.8,
-      "topic_reason": [
-        "keyword match: 4",
-        "matched: acid, ph, neutralization, hydroxide",
-        "runner-up score: 19"
-      ],
-      "question_text": "Many people require medication to regulate the pH of their stomachs.\n(a) \nWrite an equation for the neutralization reaction of calcium hydroxide and stomach acid.\b\n[1]\n\b���������������������������������������������������������������������������������������������������������������������������������������������������\n\b���������������������������������������������������������������������������������������������������������������������������������������������������\n(b) \nCalculate the pH, to 2 decimal places, of an antacid that contains 0.0150 mol dm-3 \ncarbonate ions and 0.0200 mol dm-3 hydrogencarbonate ions. Use section 1 of the data \nbooklet. Ka (hydrogencarbonate ion) = 4.80  10-11.\b\n[2]\n\b���������������������������������������������������������������������������������������������������������������������������������������������������\n\b���������������������������������������������������������������������������������������������������������������������������������������������������\n\b���������������������������������������������������������������������������������������������������������������������������������������������������\n\b���������������������������������������������������������������������������������������������������������������������������������������������������\n\b���������������������������������������������������������������������������������������������������������������������������������������������������\n\b���������������������������������������������������������������������������������������������������������������������������������������������������\nEnd of Option D\n\b",
-      "answer_text": "b \npKa = 10.32 ✔ \npH «= pKa + log(\n[𝐴−]\n[𝐻𝐴]) = 10.32 + log (\n0.015\n0.020) » = 10.20 ✔ \nAccept “10.31” for M1. \nAccept “10.19” for M2. \nAward [2] for correct final answer. \nAward [1 max] if the final answer is not \nto 2 decimal places. \n2",
-      "mcq_answer": "",
-      "marks": 3,
-      "has_markscheme": true,
-      "source": {
-        "paper_file": "Chemistry_paper_3__SL.pdf",
-        "markscheme_file": "Chemistry_paper_3__SL_markscheme.pdf"
-      },
-      "question_image_paths": [
-        "images/questions/chem_n24_p3_ntz_q15_sl.png"
-      ],
-      "markscheme_image_paths": [
-        "images/markschemes/chem_n24_p3_ntz_q15_sl.png"
       ]
     }
   ]

@@ -209,6 +209,15 @@ def detect_starts(doc: fitz.Document, kind: str) -> List[StartPos]:
         if kind == "markscheme" and pno < ms_data_start_page:
             continue
         page = doc[pno]
+        page_text_lower = (page.get_text("text") or "").lower()
+        # Skip IB source/disclaimer pages — numbered citations (e.g. "4.", "5.") on
+        # these pages would otherwise be detected as false question starts.
+        if "all other texts, graphics and illustrations" in page_text_lower:
+            continue
+        if "disclaimer:" in page_text_lower and "references:" in page_text_lower:
+            continue
+        if page_text_lower.lstrip().startswith("references:"):
+            continue
         page_rot = page.rotation
         rot_mat = page.rotation_matrix  # transforms native PDF coords → visual coords
         blocks = page.get_text("dict").get("blocks", [])
@@ -305,7 +314,7 @@ def detect_starts(doc: fitz.Document, kind: str) -> List[StartPos]:
 
                 prev = text
 
-        if kind == "markscheme":
+        if kind == "markscheme" and "all other texts, graphics and illustrations" not in page_text_lower:
             # Fallback: some biology/chemistry markschemes place the next question's
             # table-header row at the bottom of the current page (y >= 720). This row
             # is in the Question column (x ≈ 48, well within x <= 65). Use actual y0
@@ -354,6 +363,13 @@ def is_blank_answer_page(page: fitz.Page, clip: fitz.Rect) -> bool:
     if "please do not write on this page" in text:
         return True
     if "answers written on this page" in text and "will not be marked" in text:
+        return True
+    # IB source/disclaimer pages: blank answer space with references appended at bottom
+    if "all other texts, graphics and illustrations" in text:
+        return True
+    if "disclaimer:" in text and "references:" in text:
+        return True
+    if text.lstrip().startswith("references:"):
         return True
     alpha = re.sub(r"[^a-z]+", "", text)
     if len(alpha) < 16:

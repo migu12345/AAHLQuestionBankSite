@@ -29070,8 +29070,7 @@
         "markscheme_file": "Biology_paper_1_TZ1_HL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/bio_m21_p1_tz1_q40_hl_p1.png",
-        "images/questions/bio_m21_p1_tz1_q40_hl_p2.png"
+        "images/questions/bio_m21_p1_tz1_q40_hl_p1.png"
       ],
       "markscheme_image_paths": []
     },
@@ -29974,8 +29973,7 @@
         "markscheme_file": "Biology_paper_1_TZ1_SL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/bio_m21_p1_tz1_q30_sl_p1.png",
-        "images/questions/bio_m21_p1_tz1_q30_sl_p2.png"
+        "images/questions/bio_m21_p1_tz1_q30_sl_p1.png"
       ],
       "markscheme_image_paths": []
     },
@@ -31181,8 +31179,7 @@
         "markscheme_file": "Biology_paper_1_TZ2_HL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/bio_m21_p1_tz2_q40_hl_p1.png",
-        "images/questions/bio_m21_p1_tz2_q40_hl_p2.png"
+        "images/questions/bio_m21_p1_tz2_q40_hl_p1.png"
       ],
       "markscheme_image_paths": []
     },
@@ -32031,68 +32028,6 @@
       "markscheme_image_paths": []
     },
     {
-      "id": "bio_m21_p1_tz2_q29_sl",
-      "paper": "May 2021 Biology Paper 1 TZ2 SL",
-      "session": "May",
-      "session_code": "m21",
-      "paper_type": "Paper 1A",
-      "level": "SL",
-      "question_number": "29",
-      "title": "Q29: What is the function of the hormone leptin?\nA. \nIncrease the uptake of glucose from the blood\nB. \nReduce appetite\nC. \nIn",
-      "topic": "B: Form and Function",
-      "subtopic": "B1 Molecules",
-      "topic_confidence": 0.6,
-      "topic_reason": [
-        "keyword match: 1",
-        "matched: glucose",
-        "runner-up score: 17"
-      ],
-      "question_text": "What is the function of the hormone leptin?\nA. \nIncrease the uptake of glucose from the blood\nB. \nReduce appetite\nC. \nIncrease metabolic rate\nD. \nPromote sleep",
-      "answer_text": "Answer: B",
-      "mcq_answer": "B",
-      "marks": 1,
-      "has_markscheme": true,
-      "source": {
-        "paper_file": "Biology_paper_1_TZ2_SL.pdf",
-        "markscheme_file": "Biology_paper_1_TZ2_SL_markscheme.pdf"
-      },
-      "question_image_paths": [
-        "images/questions/bio_m21_p1_tz2_q29_sl.png"
-      ],
-      "markscheme_image_paths": []
-    },
-    {
-      "id": "bio_m21_p1_tz2_q30_sl",
-      "paper": "May 2021 Biology Paper 1 TZ2 SL",
-      "session": "May",
-      "session_code": "m21",
-      "paper_type": "Paper 1A",
-      "level": "SL",
-      "question_number": "30",
-      "title": "Q30: What is a similarity between the testes of males and the ovaries of females in humans?\nA. \nThey produce gametes througho",
-      "topic": "D: Continuity and Change",
-      "subtopic": "D2 Cell continuity",
-      "topic_confidence": 0.6,
-      "topic_reason": [
-        "keyword match: 1",
-        "matched: chromosome",
-        "runner-up score: 17"
-      ],
-      "question_text": "What is a similarity between the testes of males and the ovaries of females in humans?\nA. \nThey produce gametes throughout the life of the individual.\nB. \nThey secrete hormones into the blood stream. \nC. \nTheir development is controlled by a gene on the Y chromosome.\nD. \nThey release products to the outside of the body directly through the urethra.\n \nReferences:",
-      "answer_text": "Answer: B",
-      "mcq_answer": "B",
-      "marks": 1,
-      "has_markscheme": true,
-      "source": {
-        "paper_file": "Biology_paper_1_TZ2_SL.pdf",
-        "markscheme_file": "Biology_paper_1_TZ2_SL_markscheme.pdf"
-      },
-      "question_image_paths": [
-        "images/questions/bio_m21_p1_tz2_q30_sl.png"
-      ],
-      "markscheme_image_paths": []
-    },
-    {
       "id": "bio_m21_p2_tz1_q1_hl",
       "paper": "May 2021 Biology Paper 2 TZ1 HL",
       "session": "May",
@@ -32355,8 +32290,7 @@
         "markscheme_file": "Biology_paper_2_TZ1_HL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/bio_m21_p2_tz1_q8_hl_p1.png",
-        "images/questions/bio_m21_p2_tz1_q8_hl_p8.png"
+        "images/questions/bio_m21_p2_tz1_q8_hl_p1.png"
       ],
       "markscheme_image_paths": [
         "images/markschemes/bio_m21_p2_tz1_q8_hl_p1.png",
@@ -32591,8 +32525,7 @@
         "markscheme_file": "Biology_paper_2_TZ1_SL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/bio_m21_p2_tz1_q7_sl_p1.png",
-        "images/questions/bio_m21_p2_tz1_q7_sl_p5.png"
+        "images/questions/bio_m21_p2_tz1_q7_sl_p1.png"
       ],
       "markscheme_image_paths": [
         "images/markschemes/bio_m21_p2_tz1_q7_sl_p1.png",
@@ -32835,8 +32768,7 @@
         "markscheme_file": "Biology_paper_2_TZ2_HL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/bio_m21_p2_tz2_q7_hl_p1.png",
-        "images/questions/bio_m21_p2_tz2_q7_hl_p7.png"
+        "images/questions/bio_m21_p2_tz2_q7_hl_p1.png"
       ],
       "markscheme_image_paths": [
         "images/markschemes/bio_m21_p2_tz2_q7_hl_p1.png",
@@ -33044,8 +32976,7 @@
         "markscheme_file": "Biology_paper_2_TZ2_SL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/bio_m21_p2_tz2_q6_sl_p1.png",
-        "images/questions/bio_m21_p2_tz2_q6_sl_p5.png"
+        "images/questions/bio_m21_p2_tz2_q6_sl_p1.png"
       ],
       "markscheme_image_paths": [
         "images/markschemes/bio_m21_p2_tz2_q6_sl_p1.png",
@@ -34201,67 +34132,6 @@
       "markscheme_image_paths": []
     },
     {
-      "id": "bio_m22_p1_tz1_q39_hl",
-      "paper": "May 2022 Biology Paper 1 TZ1 HL",
-      "session": "May",
-      "session_code": "m22",
-      "paper_type": "Paper 1A",
-      "level": "HL",
-      "question_number": "39",
-      "title": "Q39: Glucose moves from the filtrate in the nephron into the bloodstream during normal kidney function. \nWhich location and m",
-      "topic": "B: Form and Function",
-      "subtopic": "B2 Membranes and organelles",
-      "topic_confidence": 0.6,
-      "topic_reason": [
-        "keyword match: 1",
-        "matched: active transport",
-        "runner-up score: 19"
-      ],
-      "question_text": "Glucose moves from the filtrate in the nephron into the bloodstream during normal kidney function. \nWhich location and method describe this movement of glucose?\nLocation\nMethod\nA.\nGlomerulus\nUltrafiltration\nB.\nProximal convoluted tubule\nUltrafiltration\nC.\nGlomerulus\nActive transport\nD.\nProximal convoluted tubule\nActive transport",
-      "answer_text": "Answer: D",
-      "mcq_answer": "D",
-      "marks": 1,
-      "has_markscheme": true,
-      "source": {
-        "paper_file": "Biology_paper_1_TZ1_HL.pdf",
-        "markscheme_file": "Biology_paper_1_TZ1_HL_markscheme.pdf"
-      },
-      "question_image_paths": [
-        "images/questions/bio_m22_p1_tz1_q39_hl.png"
-      ],
-      "markscheme_image_paths": []
-    },
-    {
-      "id": "bio_m22_p1_tz1_q40_hl",
-      "paper": "May 2022 Biology Paper 1 TZ1 HL",
-      "session": "May",
-      "session_code": "m22",
-      "paper_type": "Paper 1A",
-      "level": "HL",
-      "question_number": "40",
-      "title": "Q40: What is the role of HCG in early pregnancy?\n \nA. \nIt prevents the degeneration of the corpus luteum in the ovary.\n \nB. \n",
-      "topic": "C: Interaction and Interdependence",
-      "subtopic": "C2 Signaling",
-      "topic_confidence": 0.6,
-      "topic_reason": [
-        "keyword match: 1",
-        "matched: estrogen"
-      ],
-      "question_text": "What is the role of HCG in early pregnancy?\n \nA. \nIt prevents the degeneration of the corpus luteum in the ovary.\n \nB. \nIt initiates the development of the uterus lining.\n \nC. \nIt inhibits the production of estrogen.\n \nD. \nIt stimulates uterine contractions.\n\b\nReferences:",
-      "answer_text": "Answer: A",
-      "mcq_answer": "A",
-      "marks": 1,
-      "has_markscheme": true,
-      "source": {
-        "paper_file": "Biology_paper_1_TZ1_HL.pdf",
-        "markscheme_file": "Biology_paper_1_TZ1_HL_markscheme.pdf"
-      },
-      "question_image_paths": [
-        "images/questions/bio_m22_p1_tz1_q40_hl.png"
-      ],
-      "markscheme_image_paths": []
-    },
-    {
       "id": "bio_m22_p1_tz1_q1_sl",
       "paper": "May 2022 Biology Paper 1 TZ1 SL",
       "session": "May",
@@ -35137,37 +35007,6 @@
       },
       "question_image_paths": [
         "images/questions/bio_m22_p1_tz1_q29_sl_p1.png"
-      ],
-      "markscheme_image_paths": []
-    },
-    {
-      "id": "bio_m22_p1_tz1_q30_sl",
-      "paper": "May 2022 Biology Paper 1 TZ1 SL",
-      "session": "May",
-      "session_code": "m22",
-      "paper_type": "Paper 1A",
-      "level": "SL",
-      "question_number": "30",
-      "title": "Q30: What is most likely to increase in the presence of insulin?\n \nA. \nThe rate of anaerobic respiration\n \nB. \nThe chances of",
-      "topic": "C: Interaction and Interdependence",
-      "subtopic": "C2 Signaling",
-      "topic_confidence": 0.8,
-      "topic_reason": [
-        "keyword match: 2",
-        "matched: insulin, glucagon",
-        "runner-up score: 19"
-      ],
-      "question_text": "What is most likely to increase in the presence of insulin?\n \nA. \nThe rate of anaerobic respiration\n \nB. \nThe chances of Type I diabetes\n \nC. \nThe uptake of glucose by muscles\n \nD. \nThe concentration of glucagon\n\b\nReferences:",
-      "answer_text": "Answer: C",
-      "mcq_answer": "C",
-      "marks": 1,
-      "has_markscheme": true,
-      "source": {
-        "paper_file": "Biology_paper_1_TZ1_SL.pdf",
-        "markscheme_file": "Biology_paper_1_TZ1_SL_markscheme.pdf"
-      },
-      "question_image_paths": [
-        "images/questions/bio_m22_p1_tz1_q30_sl.png"
       ],
       "markscheme_image_paths": []
     },
@@ -36372,8 +36211,7 @@
         "markscheme_file": "Biology_paper_1_TZ2_HL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/bio_m22_p1_tz2_q40_hl_p1.png",
-        "images/questions/bio_m22_p1_tz2_q40_hl_p2.png"
+        "images/questions/bio_m22_p1_tz2_q40_hl_p1.png"
       ],
       "markscheme_image_paths": []
     },
@@ -37279,8 +37117,7 @@
         "markscheme_file": "Biology_paper_1_TZ2_SL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/bio_m22_p1_tz2_q30_sl_p1.png",
-        "images/questions/bio_m22_p1_tz2_q30_sl_p2.png"
+        "images/questions/bio_m22_p1_tz2_q30_sl_p1.png"
       ],
       "markscheme_image_paths": []
     },
@@ -37310,7 +37147,11 @@
         "markscheme_file": "Biology_paper_2_TZ1_HL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/bio_m22_p2_tz1_q1_hl.png"
+        "images/questions/bio_m22_p2_tz1_q1_hl_p1.png",
+        "images/questions/bio_m22_p2_tz1_q1_hl_p2.png",
+        "images/questions/bio_m22_p2_tz1_q1_hl_p3.png",
+        "images/questions/bio_m22_p2_tz1_q1_hl_p4.png",
+        "images/questions/bio_m22_p2_tz1_q1_hl_p5.png"
       ],
       "markscheme_image_paths": [
         "images/markschemes/bio_m22_p2_tz1_q1_hl_p1.png",
@@ -37606,7 +37447,13 @@
         "markscheme_file": "Biology_paper_2_TZ1_SL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/bio_m22_p2_tz1_q1_sl.png"
+        "images/questions/bio_m22_p2_tz1_q1_sl_p1.png",
+        "images/questions/bio_m22_p2_tz1_q1_sl_p2.png",
+        "images/questions/bio_m22_p2_tz1_q1_sl_p3.png",
+        "images/questions/bio_m22_p2_tz1_q1_sl_p4.png",
+        "images/questions/bio_m22_p2_tz1_q1_sl_p5.png",
+        "images/questions/bio_m22_p2_tz1_q1_sl_p6.png",
+        "images/questions/bio_m22_p2_tz1_q1_sl_p7.png"
       ],
       "markscheme_image_paths": [
         "images/markschemes/bio_m22_p2_tz1_q1_sl_p1.png",
@@ -37803,8 +37650,7 @@
         "markscheme_file": "Biology_paper_2_TZ1_SL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/bio_m22_p2_tz1_q7_sl_p1.png",
-        "images/questions/bio_m22_p2_tz1_q7_sl_p7.png"
+        "images/questions/bio_m22_p2_tz1_q7_sl_p1.png"
       ],
       "markscheme_image_paths": [
         "images/markschemes/bio_m22_p2_tz1_q7_sl_p1.png",
@@ -37843,9 +37689,7 @@
         "images/questions/bio_m22_p2_tz2_q1_hl_p3.png",
         "images/questions/bio_m22_p2_tz2_q1_hl_p4.png",
         "images/questions/bio_m22_p2_tz2_q1_hl_p5.png",
-        "images/questions/bio_m22_p2_tz2_q1_hl_p6.png",
-        "images/questions/bio_m22_p2_tz2_q1_hl_p7.png",
-        "images/questions/bio_m22_p2_tz2_q1_hl_p8.png"
+        "images/questions/bio_m22_p2_tz2_q1_hl_p6.png"
       ],
       "markscheme_image_paths": [
         "images/markschemes/bio_m22_p2_tz2_q1_hl_p1.png",
@@ -37879,7 +37723,8 @@
         "markscheme_file": "Biology_paper_2_TZ2_HL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/bio_m22_p2_tz2_q2_hl.png"
+        "images/questions/bio_m22_p2_tz2_q2_hl_p1.png",
+        "images/questions/bio_m22_p2_tz2_q2_hl_p2.png"
       ],
       "markscheme_image_paths": [
         "images/markschemes/bio_m22_p2_tz2_q2_hl_p1.png"
@@ -37942,10 +37787,7 @@
         "markscheme_file": "Biology_paper_2_TZ2_HL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/bio_m22_p2_tz2_q4_hl_p1.png",
-        "images/questions/bio_m22_p2_tz2_q4_hl_p2.png",
-        "images/questions/bio_m22_p2_tz2_q4_hl_p3.png",
-        "images/questions/bio_m22_p2_tz2_q4_hl_p4.png"
+        "images/questions/bio_m22_p2_tz2_q4_hl_p1.png"
       ],
       "markscheme_image_paths": [
         "images/markschemes/bio_m22_p2_tz2_q4_hl_p1.png"
@@ -37976,7 +37818,9 @@
         "markscheme_file": "Biology_paper_2_TZ2_HL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/bio_m22_p2_tz2_q5_hl.png"
+        "images/questions/bio_m22_p2_tz2_q5_hl_p1.png",
+        "images/questions/bio_m22_p2_tz2_q5_hl_p2.png",
+        "images/questions/bio_m22_p2_tz2_q5_hl_p3.png"
       ],
       "markscheme_image_paths": [
         "images/markschemes/bio_m22_p2_tz2_q5_hl_p1.png",
@@ -38113,7 +37957,8 @@
         "markscheme_file": "Biology_paper_2_TZ2_SL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/bio_m22_p2_tz2_q1_sl.png"
+        "images/questions/bio_m22_p2_tz2_q1_sl_p1.png",
+        "images/questions/bio_m22_p2_tz2_q1_sl_p2.png"
       ],
       "markscheme_image_paths": [
         "images/markschemes/bio_m22_p2_tz2_q1_sl_p1.png",
@@ -38178,9 +38023,7 @@
         "markscheme_file": "Biology_paper_2_TZ2_SL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/bio_m22_p2_tz2_q3_sl_p1.png",
-        "images/questions/bio_m22_p2_tz2_q3_sl_p2.png",
-        "images/questions/bio_m22_p2_tz2_q3_sl_p3.png"
+        "images/questions/bio_m22_p2_tz2_q3_sl_p1.png"
       ],
       "markscheme_image_paths": [
         "images/markschemes/bio_m22_p2_tz2_q3_sl_p1.png"
@@ -38211,7 +38054,8 @@
         "markscheme_file": "Biology_paper_2_TZ2_SL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/bio_m22_p2_tz2_q4_sl.png"
+        "images/questions/bio_m22_p2_tz2_q4_sl_p1.png",
+        "images/questions/bio_m22_p2_tz2_q4_sl_p2.png"
       ],
       "markscheme_image_paths": [
         "images/markschemes/bio_m22_p2_tz2_q4_sl_p1.png"
@@ -39252,8 +39096,7 @@
         "markscheme_file": "Biology_paper_1_TZ1_SL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/bio_m23_p1_tz1_q30_sl_p1.png",
-        "images/questions/bio_m23_p1_tz1_q30_sl_p2.png"
+        "images/questions/bio_m23_p1_tz1_q30_sl_p1.png"
       ],
       "markscheme_image_paths": []
     },
@@ -40468,8 +40311,7 @@
         "markscheme_file": "Biology_paper_1_TZ2_HL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/bio_m23_p1_tz2_q40_hl_p1.png",
-        "images/questions/bio_m23_p1_tz2_q40_hl_p2.png"
+        "images/questions/bio_m23_p1_tz2_q40_hl_p1.png"
       ],
       "markscheme_image_paths": []
     },
@@ -41374,8 +41216,7 @@
         "markscheme_file": "Biology_paper_1_TZ2_SL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/bio_m23_p1_tz2_q30_sl_p1.png",
-        "images/questions/bio_m23_p1_tz2_q30_sl_p2.png"
+        "images/questions/bio_m23_p1_tz2_q30_sl_p1.png"
       ],
       "markscheme_image_paths": []
     },
@@ -41608,8 +41449,7 @@
         "markscheme_file": "Biology_paper_2_TZ1_SL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/bio_m23_p2_tz1_q7_sl_p1.png",
-        "images/questions/bio_m23_p2_tz1_q7_sl_p6.png"
+        "images/questions/bio_m23_p2_tz1_q7_sl_p1.png"
       ],
       "markscheme_image_paths": [
         "images/markschemes/bio_m23_p2_tz1_q7_sl_p1.png",
@@ -41887,8 +41727,7 @@
         "markscheme_file": "Biology_paper_2_TZ2_HL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/bio_m23_p2_tz2_q8_hl_p1.png",
-        "images/questions/bio_m23_p2_tz2_q8_hl_p8.png"
+        "images/questions/bio_m23_p2_tz2_q8_hl_p1.png"
       ],
       "markscheme_image_paths": [
         "images/markschemes/bio_m23_p2_tz2_q8_hl_p1.png",
@@ -42127,8 +41966,7 @@
         "markscheme_file": "Biology_paper_2_TZ2_SL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/bio_m23_p2_tz2_q7_sl_p1.png",
-        "images/questions/bio_m23_p2_tz2_q7_sl_p9.png"
+        "images/questions/bio_m23_p2_tz2_q7_sl_p1.png"
       ],
       "markscheme_image_paths": [
         "images/markschemes/bio_m23_p2_tz2_q7_sl_p1.png",
@@ -42734,8 +42572,7 @@
         "markscheme_file": "Biology_paper_3_TZ1_SL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/bio_m23_p3_tz1_q19_sl_p1.png",
-        "images/questions/bio_m23_p3_tz1_q19_sl_p2.png"
+        "images/questions/bio_m23_p3_tz1_q19_sl_p1.png"
       ],
       "markscheme_image_paths": [
         "images/markschemes/bio_m23_p3_tz1_q19_sl.png"
@@ -43606,9 +43443,7 @@
         "markscheme_file": "Biology_paper_3_TZ2_HL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/bio_m23_p3_tz2_q27_hl_p1.png",
-        "images/questions/bio_m23_p3_tz2_q27_hl_p2.png",
-        "images/questions/bio_m23_p3_tz2_q27_hl_p3.png"
+        "images/questions/bio_m23_p3_tz2_q27_hl_p1.png"
       ],
       "markscheme_image_paths": [
         "images/markschemes/bio_m23_p3_tz2_q27_hl.png"
@@ -44259,8 +44094,7 @@
       },
       "question_image_paths": [
         "images/questions/bio_m23_p3_tz2_q20_sl_p1.png",
-        "images/questions/bio_m23_p3_tz2_q20_sl_p2.png",
-        "images/questions/bio_m23_p3_tz2_q20_sl_p3.png"
+        "images/questions/bio_m23_p3_tz2_q20_sl_p2.png"
       ],
       "markscheme_image_paths": [
         "images/markschemes/bio_m23_p3_tz2_q20_sl.png"
@@ -46657,68 +46491,6 @@
       "markscheme_image_paths": []
     },
     {
-      "id": "bio_m24_p1_tz1_q40_hl",
-      "paper": "May 2024 Biology Paper 1 TZ1 HL",
-      "session": "May",
-      "session_code": "m24",
-      "paper_type": "Paper 1A",
-      "level": "HL",
-      "question_number": "40",
-      "title": "Q40: What is a function of human chorionic gonadotropin (HCG)?\nA. \nTo stimulate the corpus luteum to produce progesterone dur",
-      "topic": "D: Continuity and Change",
-      "subtopic": "D3 Reproduction and inheritance",
-      "topic_confidence": 0.6,
-      "topic_reason": [
-        "keyword match: 1",
-        "matched: fertilization",
-        "runner-up score: 16"
-      ],
-      "question_text": "What is a function of human chorionic gonadotropin (HCG)?\nA. \nTo stimulate the corpus luteum to produce progesterone during early pregnancy\nB. \nTo stimulate contraction of uterine muscles at the onset of birth\nC. \nTo inhibit the production of progesterone and prevent menstruation during pregnancy\nD. \nTo prevent polyspermy during fertilization in the fallopian tubes\n\b",
-      "answer_text": "Answer: A",
-      "mcq_answer": "A",
-      "marks": 1,
-      "has_markscheme": true,
-      "source": {
-        "paper_file": "Biology_paper_1_TZ1_HL.pdf",
-        "markscheme_file": "Biology_paper_1_TZ1_HL_markscheme.pdf"
-      },
-      "question_image_paths": [
-        "images/questions/bio_m24_p1_tz1_q40_hl.png"
-      ],
-      "markscheme_image_paths": []
-    },
-    {
-      "id": "bio_m24_p1_tz1_q40_hl",
-      "paper": "May 2024 Biology Paper 1 TZ1 HL",
-      "session": "May",
-      "session_code": "m24",
-      "paper_type": "Paper 1A",
-      "level": "HL",
-      "question_number": "40",
-      "title": "Q40: What is a function of human chorionic gonadotropin (HCG)?\nA. \nTo stimulate the corpus luteum to produce progesterone dur",
-      "topic": "D: Continuity and Change",
-      "subtopic": "D3 Reproduction and inheritance",
-      "topic_confidence": 0.6,
-      "topic_reason": [
-        "keyword match: 1",
-        "matched: fertilization",
-        "runner-up score: 16"
-      ],
-      "question_text": "What is a function of human chorionic gonadotropin (HCG)?\nA. \nTo stimulate the corpus luteum to produce progesterone during early pregnancy\nB. \nTo stimulate contraction of uterine muscles at the onset of birth\nC. \nTo inhibit the production of progesterone and prevent menstruation during pregnancy\nD. \nTo prevent polyspermy during fertilization in the fallopian tubes\n\b",
-      "answer_text": "Answer: A",
-      "mcq_answer": "A",
-      "marks": 1,
-      "has_markscheme": true,
-      "source": {
-        "paper_file": "Biology_paper_1_TZ1_HL.pdf",
-        "markscheme_file": "Biology_paper_1_TZ1_HL_markscheme.pdf"
-      },
-      "question_image_paths": [
-        "images/questions/bio_m24_p1_tz1_q40_hl.png"
-      ],
-      "markscheme_image_paths": []
-    },
-    {
       "id": "bio_m24_p1_tz1_q1_sl",
       "paper": "May 2024 Biology Paper 1 TZ1 SL",
       "session": "May",
@@ -48493,8 +48265,7 @@
         "markscheme_file": "Biology_paper_1_TZ1_SL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/bio_m24_p1_tz1_q30_sl_p1.png",
-        "images/questions/bio_m24_p1_tz1_q30_sl_p2.png"
+        "images/questions/bio_m24_p1_tz1_q30_sl_p1.png"
       ],
       "markscheme_image_paths": []
     },
@@ -48525,8 +48296,7 @@
         "markscheme_file": "Biology_paper_1_TZ1_SL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/bio_m24_p1_tz1_q30_sl_p1.png",
-        "images/questions/bio_m24_p1_tz1_q30_sl_p2.png"
+        "images/questions/bio_m24_p1_tz1_q30_sl_p1.png"
       ],
       "markscheme_image_paths": []
     },
@@ -50927,8 +50697,7 @@
         "markscheme_file": "Biology_paper_1_TZ2_HL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/bio_m24_p1_tz2_q40_hl_p1.png",
-        "images/questions/bio_m24_p1_tz2_q40_hl_p2.png"
+        "images/questions/bio_m24_p1_tz2_q40_hl_p1.png"
       ],
       "markscheme_image_paths": []
     },
@@ -50959,8 +50728,7 @@
         "markscheme_file": "Biology_paper_1_TZ2_HL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/bio_m24_p1_tz2_q40_hl_p1.png",
-        "images/questions/bio_m24_p1_tz2_q40_hl_p2.png"
+        "images/questions/bio_m24_p1_tz2_q40_hl_p1.png"
       ],
       "markscheme_image_paths": []
     },
@@ -52756,8 +52524,7 @@
         "markscheme_file": "Biology_paper_1_TZ2_SL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/bio_m24_p1_tz2_q30_sl_p1.png",
-        "images/questions/bio_m24_p1_tz2_q30_sl_p2.png"
+        "images/questions/bio_m24_p1_tz2_q30_sl_p1.png"
       ],
       "markscheme_image_paths": []
     },
@@ -52787,8 +52554,7 @@
         "markscheme_file": "Biology_paper_1_TZ2_SL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/bio_m24_p1_tz2_q30_sl_p1.png",
-        "images/questions/bio_m24_p1_tz2_q30_sl_p2.png"
+        "images/questions/bio_m24_p1_tz2_q30_sl_p1.png"
       ],
       "markscheme_image_paths": []
     },
@@ -52818,7 +52584,12 @@
         "markscheme_file": "Biology_paper_2_TZ1_HL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/bio_m24_p2_tz1_q1_hl.png"
+        "images/questions/bio_m24_p2_tz1_q1_hl_p1.png",
+        "images/questions/bio_m24_p2_tz1_q1_hl_p2.png",
+        "images/questions/bio_m24_p2_tz1_q1_hl_p3.png",
+        "images/questions/bio_m24_p2_tz1_q1_hl_p4.png",
+        "images/questions/bio_m24_p2_tz1_q1_hl_p5.png",
+        "images/questions/bio_m24_p2_tz1_q1_hl_p6.png"
       ],
       "markscheme_image_paths": [
         "images/markschemes/bio_m24_p2_tz1_q1_hl_p1.png",
@@ -52852,7 +52623,12 @@
         "markscheme_file": "Biology_paper_2_TZ1_HL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/bio_m24_p2_tz1_q1_hl.png"
+        "images/questions/bio_m24_p2_tz1_q1_hl_p1.png",
+        "images/questions/bio_m24_p2_tz1_q1_hl_p2.png",
+        "images/questions/bio_m24_p2_tz1_q1_hl_p3.png",
+        "images/questions/bio_m24_p2_tz1_q1_hl_p4.png",
+        "images/questions/bio_m24_p2_tz1_q1_hl_p5.png",
+        "images/questions/bio_m24_p2_tz1_q1_hl_p6.png"
       ],
       "markscheme_image_paths": [
         "images/markschemes/bio_m24_p2_tz1_q1_hl_p1.png",
@@ -52886,9 +52662,7 @@
         "markscheme_file": "Biology_paper_2_TZ1_HL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/bio_m24_p2_tz1_q2_hl_p1.png",
-        "images/questions/bio_m24_p2_tz1_q2_hl_p2.png",
-        "images/questions/bio_m24_p2_tz1_q2_hl_p3.png"
+        "images/questions/bio_m24_p2_tz1_q2_hl_p1.png"
       ],
       "markscheme_image_paths": [
         "images/markschemes/bio_m24_p2_tz1_q2_hl_p1.png"
@@ -52920,9 +52694,7 @@
         "markscheme_file": "Biology_paper_2_TZ1_HL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/bio_m24_p2_tz1_q2_hl_p1.png",
-        "images/questions/bio_m24_p2_tz1_q2_hl_p2.png",
-        "images/questions/bio_m24_p2_tz1_q2_hl_p3.png"
+        "images/questions/bio_m24_p2_tz1_q2_hl_p1.png"
       ],
       "markscheme_image_paths": [
         "images/markschemes/bio_m24_p2_tz1_q2_hl_p1.png"
@@ -52953,7 +52725,8 @@
         "markscheme_file": "Biology_paper_2_TZ1_HL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/bio_m24_p2_tz1_q3_hl.png"
+        "images/questions/bio_m24_p2_tz1_q3_hl_p1.png",
+        "images/questions/bio_m24_p2_tz1_q3_hl_p2.png"
       ],
       "markscheme_image_paths": [
         "images/markschemes/bio_m24_p2_tz1_q3_hl_p1.png"
@@ -52984,7 +52757,8 @@
         "markscheme_file": "Biology_paper_2_TZ1_HL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/bio_m24_p2_tz1_q3_hl.png"
+        "images/questions/bio_m24_p2_tz1_q3_hl_p1.png",
+        "images/questions/bio_m24_p2_tz1_q3_hl_p2.png"
       ],
       "markscheme_image_paths": [
         "images/markschemes/bio_m24_p2_tz1_q3_hl_p1.png"
@@ -53285,8 +53059,7 @@
         "markscheme_file": "Biology_paper_2_TZ1_HL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/bio_m24_p2_tz1_q8_hl_p1.png",
-        "images/questions/bio_m24_p2_tz1_q8_hl_p7.png"
+        "images/questions/bio_m24_p2_tz1_q8_hl_p1.png"
       ],
       "markscheme_image_paths": [
         "images/markschemes/bio_m24_p2_tz1_q8_hl_p1.png",
@@ -53320,8 +53093,7 @@
         "markscheme_file": "Biology_paper_2_TZ1_HL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/bio_m24_p2_tz1_q8_hl_p1.png",
-        "images/questions/bio_m24_p2_tz1_q8_hl_p7.png"
+        "images/questions/bio_m24_p2_tz1_q8_hl_p1.png"
       ],
       "markscheme_image_paths": [
         "images/markschemes/bio_m24_p2_tz1_q8_hl_p1.png",
@@ -53354,7 +53126,12 @@
         "markscheme_file": "Biology_paper_2_TZ1_SL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/bio_m24_p2_tz1_q1_sl.png"
+        "images/questions/bio_m24_p2_tz1_q1_sl_p1.png",
+        "images/questions/bio_m24_p2_tz1_q1_sl_p2.png",
+        "images/questions/bio_m24_p2_tz1_q1_sl_p3.png",
+        "images/questions/bio_m24_p2_tz1_q1_sl_p4.png",
+        "images/questions/bio_m24_p2_tz1_q1_sl_p5.png",
+        "images/questions/bio_m24_p2_tz1_q1_sl_p6.png"
       ],
       "markscheme_image_paths": [
         "images/markschemes/bio_m24_p2_tz1_q1_sl_p1.png",
@@ -53388,7 +53165,12 @@
         "markscheme_file": "Biology_paper_2_TZ1_SL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/bio_m24_p2_tz1_q1_sl.png"
+        "images/questions/bio_m24_p2_tz1_q1_sl_p1.png",
+        "images/questions/bio_m24_p2_tz1_q1_sl_p2.png",
+        "images/questions/bio_m24_p2_tz1_q1_sl_p3.png",
+        "images/questions/bio_m24_p2_tz1_q1_sl_p4.png",
+        "images/questions/bio_m24_p2_tz1_q1_sl_p5.png",
+        "images/questions/bio_m24_p2_tz1_q1_sl_p6.png"
       ],
       "markscheme_image_paths": [
         "images/markschemes/bio_m24_p2_tz1_q1_sl_p1.png",
@@ -53753,8 +53535,7 @@
         "markscheme_file": "Biology_paper_2_TZ1_SL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/bio_m24_p2_tz1_q7_sl_p1.png",
-        "images/questions/bio_m24_p2_tz1_q7_sl_p7.png"
+        "images/questions/bio_m24_p2_tz1_q7_sl_p1.png"
       ],
       "markscheme_image_paths": [
         "images/markschemes/bio_m24_p2_tz1_q7_sl_p1.png",
@@ -53788,8 +53569,7 @@
         "markscheme_file": "Biology_paper_2_TZ1_SL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/bio_m24_p2_tz1_q7_sl_p1.png",
-        "images/questions/bio_m24_p2_tz1_q7_sl_p7.png"
+        "images/questions/bio_m24_p2_tz1_q7_sl_p1.png"
       ],
       "markscheme_image_paths": [
         "images/markschemes/bio_m24_p2_tz1_q7_sl_p1.png",
@@ -53899,11 +53679,7 @@
         "markscheme_file": "Biology_paper_2_TZ2_HL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/bio_m24_p2_tz2_q2_hl_p1.png",
-        "images/questions/bio_m24_p2_tz2_q2_hl_p2.png",
-        "images/questions/bio_m24_p2_tz2_q2_hl_p3.png",
-        "images/questions/bio_m24_p2_tz2_q2_hl_p4.png",
-        "images/questions/bio_m24_p2_tz2_q2_hl_p5.png"
+        "images/questions/bio_m24_p2_tz2_q2_hl_p1.png"
       ],
       "markscheme_image_paths": [
         "images/markschemes/bio_m24_p2_tz2_q2_hl_p1.png"
@@ -53934,11 +53710,7 @@
         "markscheme_file": "Biology_paper_2_TZ2_HL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/bio_m24_p2_tz2_q2_hl_p1.png",
-        "images/questions/bio_m24_p2_tz2_q2_hl_p2.png",
-        "images/questions/bio_m24_p2_tz2_q2_hl_p3.png",
-        "images/questions/bio_m24_p2_tz2_q2_hl_p4.png",
-        "images/questions/bio_m24_p2_tz2_q2_hl_p5.png"
+        "images/questions/bio_m24_p2_tz2_q2_hl_p1.png"
       ],
       "markscheme_image_paths": [
         "images/markschemes/bio_m24_p2_tz2_q2_hl_p1.png"
@@ -53968,7 +53740,9 @@
         "paper_file": "Biology_paper_2_TZ2_HL.pdf",
         "markscheme_file": "Biology_paper_2_TZ2_HL_markscheme.pdf"
       },
-      "question_image_paths": [],
+      "question_image_paths": [
+        "images/questions/bio_m24_p2_tz2_q3_hl_p1.png"
+      ],
       "markscheme_image_paths": [
         "images/markschemes/bio_m24_p2_tz2_q3_hl_p1.png",
         "images/markschemes/bio_m24_p2_tz2_q3_hl_p2.png"
@@ -53998,7 +53772,9 @@
         "paper_file": "Biology_paper_2_TZ2_HL.pdf",
         "markscheme_file": "Biology_paper_2_TZ2_HL_markscheme.pdf"
       },
-      "question_image_paths": [],
+      "question_image_paths": [
+        "images/questions/bio_m24_p2_tz2_q3_hl_p1.png"
+      ],
       "markscheme_image_paths": [
         "images/markschemes/bio_m24_p2_tz2_q3_hl_p1.png",
         "images/markschemes/bio_m24_p2_tz2_q3_hl_p2.png"
@@ -54029,7 +53805,9 @@
         "markscheme_file": "Biology_paper_2_TZ2_HL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/bio_m24_p2_tz2_q4_hl.png"
+        "images/questions/bio_m24_p2_tz2_q4_hl_p1.png",
+        "images/questions/bio_m24_p2_tz2_q4_hl_p2.png",
+        "images/questions/bio_m24_p2_tz2_q4_hl_p3.png"
       ],
       "markscheme_image_paths": [
         "images/markschemes/bio_m24_p2_tz2_q4_hl_p1.png"
@@ -54060,7 +53838,9 @@
         "markscheme_file": "Biology_paper_2_TZ2_HL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/bio_m24_p2_tz2_q4_hl.png"
+        "images/questions/bio_m24_p2_tz2_q4_hl_p1.png",
+        "images/questions/bio_m24_p2_tz2_q4_hl_p2.png",
+        "images/questions/bio_m24_p2_tz2_q4_hl_p3.png"
       ],
       "markscheme_image_paths": [
         "images/markschemes/bio_m24_p2_tz2_q4_hl_p1.png"
@@ -54303,8 +54083,7 @@
         "markscheme_file": "Biology_paper_2_TZ2_HL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/bio_m24_p2_tz2_q8_hl_p1.png",
-        "images/questions/bio_m24_p2_tz2_q8_hl_p9.png"
+        "images/questions/bio_m24_p2_tz2_q8_hl_p1.png"
       ],
       "markscheme_image_paths": [
         "images/markschemes/bio_m24_p2_tz2_q8_hl_p1.png",
@@ -54337,8 +54116,7 @@
         "markscheme_file": "Biology_paper_2_TZ2_HL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/bio_m24_p2_tz2_q8_hl_p1.png",
-        "images/questions/bio_m24_p2_tz2_q8_hl_p9.png"
+        "images/questions/bio_m24_p2_tz2_q8_hl_p1.png"
       ],
       "markscheme_image_paths": [
         "images/markschemes/bio_m24_p2_tz2_q8_hl_p1.png",
@@ -54371,7 +54149,12 @@
         "markscheme_file": "Biology_paper_2_TZ2_SL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/bio_m24_p2_tz2_q1_sl.png"
+        "images/questions/bio_m24_p2_tz2_q1_sl_p1.png",
+        "images/questions/bio_m24_p2_tz2_q1_sl_p2.png",
+        "images/questions/bio_m24_p2_tz2_q1_sl_p3.png",
+        "images/questions/bio_m24_p2_tz2_q1_sl_p5.png",
+        "images/questions/bio_m24_p2_tz2_q1_sl_p6.png",
+        "images/questions/bio_m24_p2_tz2_q1_sl_p7.png"
       ],
       "markscheme_image_paths": [
         "images/markschemes/bio_m24_p2_tz2_q1_sl_p1.png",
@@ -54404,7 +54187,12 @@
         "markscheme_file": "Biology_paper_2_TZ2_SL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/bio_m24_p2_tz2_q1_sl.png"
+        "images/questions/bio_m24_p2_tz2_q1_sl_p1.png",
+        "images/questions/bio_m24_p2_tz2_q1_sl_p2.png",
+        "images/questions/bio_m24_p2_tz2_q1_sl_p3.png",
+        "images/questions/bio_m24_p2_tz2_q1_sl_p5.png",
+        "images/questions/bio_m24_p2_tz2_q1_sl_p6.png",
+        "images/questions/bio_m24_p2_tz2_q1_sl_p7.png"
       ],
       "markscheme_image_paths": [
         "images/markschemes/bio_m24_p2_tz2_q1_sl_p1.png",
@@ -54438,7 +54226,8 @@
         "markscheme_file": "Biology_paper_2_TZ2_SL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/bio_m24_p2_tz2_q2_sl.png"
+        "images/questions/bio_m24_p2_tz2_q2_sl_p1.png",
+        "images/questions/bio_m24_p2_tz2_q2_sl_p2.png"
       ],
       "markscheme_image_paths": [
         "images/markschemes/bio_m24_p2_tz2_q2_sl_p1.png"
@@ -54470,7 +54259,8 @@
         "markscheme_file": "Biology_paper_2_TZ2_SL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/bio_m24_p2_tz2_q2_sl.png"
+        "images/questions/bio_m24_p2_tz2_q2_sl_p1.png",
+        "images/questions/bio_m24_p2_tz2_q2_sl_p2.png"
       ],
       "markscheme_image_paths": [
         "images/markschemes/bio_m24_p2_tz2_q2_sl_p1.png"
@@ -54707,8 +54497,7 @@
         "markscheme_file": "Biology_paper_2_TZ2_SL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/bio_m24_p2_tz2_q6_sl_p1.png",
-        "images/questions/bio_m24_p2_tz2_q6_sl_p9.png"
+        "images/questions/bio_m24_p2_tz2_q6_sl_p1.png"
       ],
       "markscheme_image_paths": [
         "images/markschemes/bio_m24_p2_tz2_q6_sl_p1.png",
@@ -54742,8 +54531,7 @@
         "markscheme_file": "Biology_paper_2_TZ2_SL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/bio_m24_p2_tz2_q6_sl_p1.png",
-        "images/questions/bio_m24_p2_tz2_q6_sl_p9.png"
+        "images/questions/bio_m24_p2_tz2_q6_sl_p1.png"
       ],
       "markscheme_image_paths": [
         "images/markschemes/bio_m24_p2_tz2_q6_sl_p1.png",
@@ -56320,9 +56108,7 @@
         "markscheme_file": "Biology_paper_3_TZ1_HL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/bio_m24_p3_tz1_q25_hl_p1.png",
-        "images/questions/bio_m24_p3_tz1_q25_hl_p2.png",
-        "images/questions/bio_m24_p3_tz1_q25_hl_p3.png"
+        "images/questions/bio_m24_p3_tz1_q25_hl_p1.png"
       ],
       "markscheme_image_paths": [
         "images/markschemes/bio_m24_p3_tz1_q25_hl.png"
@@ -56354,9 +56140,7 @@
         "markscheme_file": "Biology_paper_3_TZ1_HL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/bio_m24_p3_tz1_q25_hl_p1.png",
-        "images/questions/bio_m24_p3_tz1_q25_hl_p2.png",
-        "images/questions/bio_m24_p3_tz1_q25_hl_p3.png"
+        "images/questions/bio_m24_p3_tz1_q25_hl_p1.png"
       ],
       "markscheme_image_paths": [
         "images/markschemes/bio_m24_p3_tz1_q25_hl.png"
@@ -56516,8 +56300,7 @@
       "question_image_paths": [
         "images/questions/bio_m24_p3_tz1_q3_sl_p1.png",
         "images/questions/bio_m24_p3_tz1_q3_sl_p2.png",
-        "images/questions/bio_m24_p3_tz1_q3_sl_p3.png",
-        "images/questions/bio_m24_p3_tz1_q3_sl_p4.png"
+        "images/questions/bio_m24_p3_tz1_q3_sl_p3.png"
       ],
       "markscheme_image_paths": [
         "images/markschemes/bio_m24_p3_tz1_q3_sl_p1.png",
@@ -56553,8 +56336,7 @@
       "question_image_paths": [
         "images/questions/bio_m24_p3_tz1_q3_sl_p1.png",
         "images/questions/bio_m24_p3_tz1_q3_sl_p2.png",
-        "images/questions/bio_m24_p3_tz1_q3_sl_p3.png",
-        "images/questions/bio_m24_p3_tz1_q3_sl_p4.png"
+        "images/questions/bio_m24_p3_tz1_q3_sl_p3.png"
       ],
       "markscheme_image_paths": [
         "images/markschemes/bio_m24_p3_tz1_q3_sl_p1.png",
@@ -56588,7 +56370,8 @@
         "markscheme_file": "Biology_paper_3_TZ1_SL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/bio_m24_p3_tz1_q4_sl.png"
+        "images/questions/bio_m24_p3_tz1_q4_sl_p1.png",
+        "images/questions/bio_m24_p3_tz1_q4_sl_p2.png"
       ],
       "markscheme_image_paths": [
         "images/markschemes/bio_m24_p3_tz1_q4_sl_p1.png"
@@ -56620,7 +56403,8 @@
         "markscheme_file": "Biology_paper_3_TZ1_SL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/bio_m24_p3_tz1_q4_sl.png"
+        "images/questions/bio_m24_p3_tz1_q4_sl_p1.png",
+        "images/questions/bio_m24_p3_tz1_q4_sl_p2.png"
       ],
       "markscheme_image_paths": [
         "images/markschemes/bio_m24_p3_tz1_q4_sl_p1.png"
@@ -57034,9 +56818,7 @@
         "markscheme_file": "Biology_paper_3_TZ1_SL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/bio_m24_p3_tz1_q11_sl_p1.png",
-        "images/questions/bio_m24_p3_tz1_q11_sl_p2.png",
-        "images/questions/bio_m24_p3_tz1_q11_sl_p3.png"
+        "images/questions/bio_m24_p3_tz1_q11_sl_p1.png"
       ],
       "markscheme_image_paths": [
         "images/markschemes/bio_m24_p3_tz1_q11_sl_p1.png"
@@ -57068,9 +56850,7 @@
         "markscheme_file": "Biology_paper_3_TZ1_SL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/bio_m24_p3_tz1_q11_sl_p1.png",
-        "images/questions/bio_m24_p3_tz1_q11_sl_p2.png",
-        "images/questions/bio_m24_p3_tz1_q11_sl_p3.png"
+        "images/questions/bio_m24_p3_tz1_q11_sl_p1.png"
       ],
       "markscheme_image_paths": [
         "images/markschemes/bio_m24_p3_tz1_q11_sl_p1.png"
@@ -57621,8 +57401,7 @@
         "markscheme_file": "Biology_paper_3_TZ1_SL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/bio_m24_p3_tz1_q20_sl_p1.png",
-        "images/questions/bio_m24_p3_tz1_q20_sl_p2.png"
+        "images/questions/bio_m24_p3_tz1_q20_sl_p1.png"
       ],
       "markscheme_image_paths": [
         "images/markschemes/bio_m24_p3_tz1_q20_sl.png"
@@ -57653,8 +57432,7 @@
         "markscheme_file": "Biology_paper_3_TZ1_SL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/bio_m24_p3_tz1_q20_sl_p1.png",
-        "images/questions/bio_m24_p3_tz1_q20_sl_p2.png"
+        "images/questions/bio_m24_p3_tz1_q20_sl_p1.png"
       ],
       "markscheme_image_paths": [
         "images/markschemes/bio_m24_p3_tz1_q20_sl.png"
@@ -57686,7 +57464,8 @@
         "markscheme_file": "Biology_paper_3_TZ2_HL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/bio_m24_p3_tz2_q1_hl.png"
+        "images/questions/bio_m24_p3_tz2_q1_hl_p1.png",
+        "images/questions/bio_m24_p3_tz2_q1_hl_p2.png"
       ],
       "markscheme_image_paths": [
         "images/markschemes/bio_m24_p3_tz2_q1_hl_p1.png"
@@ -57718,7 +57497,8 @@
         "markscheme_file": "Biology_paper_3_TZ2_HL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/bio_m24_p3_tz2_q1_hl.png"
+        "images/questions/bio_m24_p3_tz2_q1_hl_p1.png",
+        "images/questions/bio_m24_p3_tz2_q1_hl_p2.png"
       ],
       "markscheme_image_paths": [
         "images/markschemes/bio_m24_p3_tz2_q1_hl_p1.png"
@@ -57750,10 +57530,7 @@
       },
       "question_image_paths": [
         "images/questions/bio_m24_p3_tz2_q2_hl_p1.png",
-        "images/questions/bio_m24_p3_tz2_q2_hl_p2.png",
-        "images/questions/bio_m24_p3_tz2_q2_hl_p3.png",
-        "images/questions/bio_m24_p3_tz2_q2_hl_p4.png",
-        "images/questions/bio_m24_p3_tz2_q2_hl_p5.png"
+        "images/questions/bio_m24_p3_tz2_q2_hl_p2.png"
       ],
       "markscheme_image_paths": [
         "images/markschemes/bio_m24_p3_tz2_q2_hl_p1.png",
@@ -57786,10 +57563,7 @@
       },
       "question_image_paths": [
         "images/questions/bio_m24_p3_tz2_q2_hl_p1.png",
-        "images/questions/bio_m24_p3_tz2_q2_hl_p2.png",
-        "images/questions/bio_m24_p3_tz2_q2_hl_p3.png",
-        "images/questions/bio_m24_p3_tz2_q2_hl_p4.png",
-        "images/questions/bio_m24_p3_tz2_q2_hl_p5.png"
+        "images/questions/bio_m24_p3_tz2_q2_hl_p2.png"
       ],
       "markscheme_image_paths": [
         "images/markschemes/bio_m24_p3_tz2_q2_hl_p1.png",
@@ -57821,7 +57595,9 @@
         "markscheme_file": "Biology_paper_3_TZ2_HL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/bio_m24_p3_tz2_q3_hl.png"
+        "images/questions/bio_m24_p3_tz2_q3_hl_p1.png",
+        "images/questions/bio_m24_p3_tz2_q3_hl_p2.png",
+        "images/questions/bio_m24_p3_tz2_q3_hl_p3.png"
       ],
       "markscheme_image_paths": [
         "images/markschemes/bio_m24_p3_tz2_q3_hl_p1.png",
@@ -57854,7 +57630,9 @@
         "markscheme_file": "Biology_paper_3_TZ2_HL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/bio_m24_p3_tz2_q3_hl.png"
+        "images/questions/bio_m24_p3_tz2_q3_hl_p1.png",
+        "images/questions/bio_m24_p3_tz2_q3_hl_p2.png",
+        "images/questions/bio_m24_p3_tz2_q3_hl_p3.png"
       ],
       "markscheme_image_paths": [
         "images/markschemes/bio_m24_p3_tz2_q3_hl_p1.png",
@@ -57889,9 +57667,7 @@
       },
       "question_image_paths": [
         "images/questions/bio_m24_p3_tz2_q4_hl_p1.png",
-        "images/questions/bio_m24_p3_tz2_q4_hl_p2.png",
-        "images/questions/bio_m24_p3_tz2_q4_hl_p3.png",
-        "images/questions/bio_m24_p3_tz2_q4_hl_p4.png"
+        "images/questions/bio_m24_p3_tz2_q4_hl_p2.png"
       ],
       "markscheme_image_paths": [
         "images/markschemes/bio_m24_p3_tz2_q4_hl_p1.png"
@@ -57924,9 +57700,7 @@
       },
       "question_image_paths": [
         "images/questions/bio_m24_p3_tz2_q4_hl_p1.png",
-        "images/questions/bio_m24_p3_tz2_q4_hl_p2.png",
-        "images/questions/bio_m24_p3_tz2_q4_hl_p3.png",
-        "images/questions/bio_m24_p3_tz2_q4_hl_p4.png"
+        "images/questions/bio_m24_p3_tz2_q4_hl_p2.png"
       ],
       "markscheme_image_paths": [
         "images/markschemes/bio_m24_p3_tz2_q4_hl_p1.png"
@@ -57957,7 +57731,10 @@
         "paper_file": "Biology_paper_3_TZ2_HL.pdf",
         "markscheme_file": "Biology_paper_3_TZ2_HL_markscheme.pdf"
       },
-      "question_image_paths": [],
+      "question_image_paths": [
+        "images/questions/bio_m24_p3_tz2_q5_hl_p1.png",
+        "images/questions/bio_m24_p3_tz2_q5_hl_p2.png"
+      ],
       "markscheme_image_paths": [
         "images/markschemes/bio_m24_p3_tz2_q5_hl_p1.png",
         "images/markschemes/bio_m24_p3_tz2_q5_hl_p2.png"
@@ -57988,7 +57765,10 @@
         "paper_file": "Biology_paper_3_TZ2_HL.pdf",
         "markscheme_file": "Biology_paper_3_TZ2_HL_markscheme.pdf"
       },
-      "question_image_paths": [],
+      "question_image_paths": [
+        "images/questions/bio_m24_p3_tz2_q5_hl_p1.png",
+        "images/questions/bio_m24_p3_tz2_q5_hl_p2.png"
+      ],
       "markscheme_image_paths": [
         "images/markschemes/bio_m24_p3_tz2_q5_hl_p1.png",
         "images/markschemes/bio_m24_p3_tz2_q5_hl_p2.png"
@@ -58146,9 +57926,7 @@
         "markscheme_file": "Biology_paper_3_TZ2_HL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/bio_m24_p3_tz2_q8_hl_p1.png",
-        "images/questions/bio_m24_p3_tz2_q8_hl_p2.png",
-        "images/questions/bio_m24_p3_tz2_q8_hl_p3.png"
+        "images/questions/bio_m24_p3_tz2_q8_hl_p1.png"
       ],
       "markscheme_image_paths": [
         "images/markschemes/bio_m24_p3_tz2_q8_hl_p1.png",
@@ -58181,9 +57959,7 @@
         "markscheme_file": "Biology_paper_3_TZ2_HL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/bio_m24_p3_tz2_q8_hl_p1.png",
-        "images/questions/bio_m24_p3_tz2_q8_hl_p2.png",
-        "images/questions/bio_m24_p3_tz2_q8_hl_p3.png"
+        "images/questions/bio_m24_p3_tz2_q8_hl_p1.png"
       ],
       "markscheme_image_paths": [
         "images/markschemes/bio_m24_p3_tz2_q8_hl_p1.png",
@@ -58217,7 +57993,8 @@
         "markscheme_file": "Biology_paper_3_TZ2_HL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/bio_m24_p3_tz2_q9_hl.png"
+        "images/questions/bio_m24_p3_tz2_q9_hl_p1.png",
+        "images/questions/bio_m24_p3_tz2_q9_hl_p2.png"
       ],
       "markscheme_image_paths": [
         "images/markschemes/bio_m24_p3_tz2_q9_hl_p1.png",
@@ -58251,7 +58028,8 @@
         "markscheme_file": "Biology_paper_3_TZ2_HL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/bio_m24_p3_tz2_q9_hl.png"
+        "images/questions/bio_m24_p3_tz2_q9_hl_p1.png",
+        "images/questions/bio_m24_p3_tz2_q9_hl_p2.png"
       ],
       "markscheme_image_paths": [
         "images/markschemes/bio_m24_p3_tz2_q9_hl_p1.png",
@@ -58607,8 +58385,7 @@
       "question_image_paths": [
         "images/questions/bio_m24_p3_tz2_q15_hl_p1.png",
         "images/questions/bio_m24_p3_tz2_q15_hl_p2.png",
-        "images/questions/bio_m24_p3_tz2_q15_hl_p3.png",
-        "images/questions/bio_m24_p3_tz2_q15_hl_p4.png"
+        "images/questions/bio_m24_p3_tz2_q15_hl_p3.png"
       ],
       "markscheme_image_paths": [
         "images/markschemes/bio_m24_p3_tz2_q15_hl_p1.png",
@@ -58643,8 +58420,7 @@
       "question_image_paths": [
         "images/questions/bio_m24_p3_tz2_q15_hl_p1.png",
         "images/questions/bio_m24_p3_tz2_q15_hl_p2.png",
-        "images/questions/bio_m24_p3_tz2_q15_hl_p3.png",
-        "images/questions/bio_m24_p3_tz2_q15_hl_p4.png"
+        "images/questions/bio_m24_p3_tz2_q15_hl_p3.png"
       ],
       "markscheme_image_paths": [
         "images/markschemes/bio_m24_p3_tz2_q15_hl_p1.png",
@@ -58677,7 +58453,8 @@
         "markscheme_file": "Biology_paper_3_TZ2_HL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/bio_m24_p3_tz2_q16_hl.png"
+        "images/questions/bio_m24_p3_tz2_q16_hl_p1.png",
+        "images/questions/bio_m24_p3_tz2_q16_hl_p2.png"
       ],
       "markscheme_image_paths": [
         "images/markschemes/bio_m24_p3_tz2_q16_hl_p1.png"
@@ -58708,7 +58485,8 @@
         "markscheme_file": "Biology_paper_3_TZ2_HL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/bio_m24_p3_tz2_q16_hl.png"
+        "images/questions/bio_m24_p3_tz2_q16_hl_p1.png",
+        "images/questions/bio_m24_p3_tz2_q16_hl_p2.png"
       ],
       "markscheme_image_paths": [
         "images/markschemes/bio_m24_p3_tz2_q16_hl_p1.png"
@@ -58997,9 +58775,7 @@
       },
       "question_image_paths": [
         "images/questions/bio_m24_p3_tz2_q21_hl_p1.png",
-        "images/questions/bio_m24_p3_tz2_q21_hl_p2.png",
-        "images/questions/bio_m24_p3_tz2_q21_hl_p3.png",
-        "images/questions/bio_m24_p3_tz2_q21_hl_p4.png"
+        "images/questions/bio_m24_p3_tz2_q21_hl_p2.png"
       ],
       "markscheme_image_paths": [
         "images/markschemes/bio_m24_p3_tz2_q21_hl_p1.png"
@@ -59032,9 +58808,7 @@
       },
       "question_image_paths": [
         "images/questions/bio_m24_p3_tz2_q21_hl_p1.png",
-        "images/questions/bio_m24_p3_tz2_q21_hl_p2.png",
-        "images/questions/bio_m24_p3_tz2_q21_hl_p3.png",
-        "images/questions/bio_m24_p3_tz2_q21_hl_p4.png"
+        "images/questions/bio_m24_p3_tz2_q21_hl_p2.png"
       ],
       "markscheme_image_paths": [
         "images/markschemes/bio_m24_p3_tz2_q21_hl_p1.png"
@@ -59065,7 +58839,8 @@
         "markscheme_file": "Biology_paper_3_TZ2_HL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/bio_m24_p3_tz2_q22_hl.png"
+        "images/questions/bio_m24_p3_tz2_q22_hl_p1.png",
+        "images/questions/bio_m24_p3_tz2_q22_hl_p2.png"
       ],
       "markscheme_image_paths": [
         "images/markschemes/bio_m24_p3_tz2_q22_hl_p1.png",
@@ -59097,7 +58872,8 @@
         "markscheme_file": "Biology_paper_3_TZ2_HL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/bio_m24_p3_tz2_q22_hl.png"
+        "images/questions/bio_m24_p3_tz2_q22_hl_p1.png",
+        "images/questions/bio_m24_p3_tz2_q22_hl_p2.png"
       ],
       "markscheme_image_paths": [
         "images/markschemes/bio_m24_p3_tz2_q22_hl_p1.png",
@@ -59393,10 +59169,7 @@
       "question_image_paths": [
         "images/questions/bio_m24_p3_tz2_q3_sl_p1.png",
         "images/questions/bio_m24_p3_tz2_q3_sl_p2.png",
-        "images/questions/bio_m24_p3_tz2_q3_sl_p3.png",
-        "images/questions/bio_m24_p3_tz2_q3_sl_p4.png",
-        "images/questions/bio_m24_p3_tz2_q3_sl_p5.png",
-        "images/questions/bio_m24_p3_tz2_q3_sl_p6.png"
+        "images/questions/bio_m24_p3_tz2_q3_sl_p3.png"
       ],
       "markscheme_image_paths": [
         "images/markschemes/bio_m24_p3_tz2_q3_sl_p1.png",
@@ -59430,10 +59203,7 @@
       "question_image_paths": [
         "images/questions/bio_m24_p3_tz2_q3_sl_p1.png",
         "images/questions/bio_m24_p3_tz2_q3_sl_p2.png",
-        "images/questions/bio_m24_p3_tz2_q3_sl_p3.png",
-        "images/questions/bio_m24_p3_tz2_q3_sl_p4.png",
-        "images/questions/bio_m24_p3_tz2_q3_sl_p5.png",
-        "images/questions/bio_m24_p3_tz2_q3_sl_p6.png"
+        "images/questions/bio_m24_p3_tz2_q3_sl_p3.png"
       ],
       "markscheme_image_paths": [
         "images/markschemes/bio_m24_p3_tz2_q3_sl_p1.png",
@@ -59464,7 +59234,10 @@
         "paper_file": "Biology_paper_3_TZ2_SL.pdf",
         "markscheme_file": "Biology_paper_3_TZ2_SL_markscheme.pdf"
       },
-      "question_image_paths": [],
+      "question_image_paths": [
+        "images/questions/bio_m24_p3_tz2_q4_sl_p1.png",
+        "images/questions/bio_m24_p3_tz2_q4_sl_p2.png"
+      ],
       "markscheme_image_paths": [
         "images/markschemes/bio_m24_p3_tz2_q4_sl_p1.png"
       ]
@@ -59493,7 +59266,10 @@
         "paper_file": "Biology_paper_3_TZ2_SL.pdf",
         "markscheme_file": "Biology_paper_3_TZ2_SL_markscheme.pdf"
       },
-      "question_image_paths": [],
+      "question_image_paths": [
+        "images/questions/bio_m24_p3_tz2_q4_sl_p1.png",
+        "images/questions/bio_m24_p3_tz2_q4_sl_p2.png"
+      ],
       "markscheme_image_paths": [
         "images/markschemes/bio_m24_p3_tz2_q4_sl_p1.png"
       ]
@@ -59522,7 +59298,10 @@
         "paper_file": "Biology_paper_3_TZ2_SL.pdf",
         "markscheme_file": "Biology_paper_3_TZ2_SL_markscheme.pdf"
       },
-      "question_image_paths": [],
+      "question_image_paths": [
+        "images/questions/bio_m24_p3_tz2_q5_sl_p1.png",
+        "images/questions/bio_m24_p3_tz2_q5_sl_p2.png"
+      ],
       "markscheme_image_paths": [
         "images/markschemes/bio_m24_p3_tz2_q5_sl_p1.png"
       ]
@@ -59551,7 +59330,10 @@
         "paper_file": "Biology_paper_3_TZ2_SL.pdf",
         "markscheme_file": "Biology_paper_3_TZ2_SL_markscheme.pdf"
       },
-      "question_image_paths": [],
+      "question_image_paths": [
+        "images/questions/bio_m24_p3_tz2_q5_sl_p1.png",
+        "images/questions/bio_m24_p3_tz2_q5_sl_p2.png"
+      ],
       "markscheme_image_paths": [
         "images/markschemes/bio_m24_p3_tz2_q5_sl_p1.png"
       ]
@@ -59582,11 +59364,7 @@
         "markscheme_file": "Biology_paper_3_TZ2_SL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/bio_m24_p3_tz2_q6_sl_p1.png",
-        "images/questions/bio_m24_p3_tz2_q6_sl_p2.png",
-        "images/questions/bio_m24_p3_tz2_q6_sl_p3.png",
-        "images/questions/bio_m24_p3_tz2_q6_sl_p4.png",
-        "images/questions/bio_m24_p3_tz2_q6_sl_p5.png"
+        "images/questions/bio_m24_p3_tz2_q6_sl_p1.png"
       ],
       "markscheme_image_paths": [
         "images/markschemes/bio_m24_p3_tz2_q6_sl_p1.png",
@@ -59619,11 +59397,7 @@
         "markscheme_file": "Biology_paper_3_TZ2_SL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/bio_m24_p3_tz2_q6_sl_p1.png",
-        "images/questions/bio_m24_p3_tz2_q6_sl_p2.png",
-        "images/questions/bio_m24_p3_tz2_q6_sl_p3.png",
-        "images/questions/bio_m24_p3_tz2_q6_sl_p4.png",
-        "images/questions/bio_m24_p3_tz2_q6_sl_p5.png"
+        "images/questions/bio_m24_p3_tz2_q6_sl_p1.png"
       ],
       "markscheme_image_paths": [
         "images/markschemes/bio_m24_p3_tz2_q6_sl_p1.png",
@@ -59654,7 +59428,9 @@
         "paper_file": "Biology_paper_3_TZ2_SL.pdf",
         "markscheme_file": "Biology_paper_3_TZ2_SL_markscheme.pdf"
       },
-      "question_image_paths": [],
+      "question_image_paths": [
+        "images/questions/bio_m24_p3_tz2_q7_sl_p1.png"
+      ],
       "markscheme_image_paths": [
         "images/markschemes/bio_m24_p3_tz2_q7_sl_p1.png"
       ]
@@ -59683,7 +59459,9 @@
         "paper_file": "Biology_paper_3_TZ2_SL.pdf",
         "markscheme_file": "Biology_paper_3_TZ2_SL_markscheme.pdf"
       },
-      "question_image_paths": [],
+      "question_image_paths": [
+        "images/questions/bio_m24_p3_tz2_q7_sl_p1.png"
+      ],
       "markscheme_image_paths": [
         "images/markschemes/bio_m24_p3_tz2_q7_sl_p1.png"
       ]
@@ -59713,7 +59491,10 @@
         "paper_file": "Biology_paper_3_TZ2_SL.pdf",
         "markscheme_file": "Biology_paper_3_TZ2_SL_markscheme.pdf"
       },
-      "question_image_paths": [],
+      "question_image_paths": [
+        "images/questions/bio_m24_p3_tz2_q8_sl_p1.png",
+        "images/questions/bio_m24_p3_tz2_q8_sl_p2.png"
+      ],
       "markscheme_image_paths": [
         "images/markschemes/bio_m24_p3_tz2_q8_sl_p1.png"
       ]
@@ -59743,7 +59524,10 @@
         "paper_file": "Biology_paper_3_TZ2_SL.pdf",
         "markscheme_file": "Biology_paper_3_TZ2_SL_markscheme.pdf"
       },
-      "question_image_paths": [],
+      "question_image_paths": [
+        "images/questions/bio_m24_p3_tz2_q8_sl_p1.png",
+        "images/questions/bio_m24_p3_tz2_q8_sl_p2.png"
+      ],
       "markscheme_image_paths": [
         "images/markschemes/bio_m24_p3_tz2_q8_sl_p1.png"
       ]
@@ -59772,7 +59556,9 @@
         "paper_file": "Biology_paper_3_TZ2_SL.pdf",
         "markscheme_file": "Biology_paper_3_TZ2_SL_markscheme.pdf"
       },
-      "question_image_paths": [],
+      "question_image_paths": [
+        "images/questions/bio_m24_p3_tz2_q9_sl_p1.png"
+      ],
       "markscheme_image_paths": [
         "images/markschemes/bio_m24_p3_tz2_q9_sl_p1.png"
       ]
@@ -59801,7 +59587,9 @@
         "paper_file": "Biology_paper_3_TZ2_SL.pdf",
         "markscheme_file": "Biology_paper_3_TZ2_SL_markscheme.pdf"
       },
-      "question_image_paths": [],
+      "question_image_paths": [
+        "images/questions/bio_m24_p3_tz2_q9_sl_p1.png"
+      ],
       "markscheme_image_paths": [
         "images/markschemes/bio_m24_p3_tz2_q9_sl_p1.png"
       ]
@@ -59832,8 +59620,7 @@
         "markscheme_file": "Biology_paper_3_TZ2_SL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/bio_m24_p3_tz2_q10_sl_p1.png",
-        "images/questions/bio_m24_p3_tz2_q10_sl_p2.png"
+        "images/questions/bio_m24_p3_tz2_q10_sl_p1.png"
       ],
       "markscheme_image_paths": [
         "images/markschemes/bio_m24_p3_tz2_q10_sl_p1.png",
@@ -59866,8 +59653,7 @@
         "markscheme_file": "Biology_paper_3_TZ2_SL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/bio_m24_p3_tz2_q10_sl_p1.png",
-        "images/questions/bio_m24_p3_tz2_q10_sl_p2.png"
+        "images/questions/bio_m24_p3_tz2_q10_sl_p1.png"
       ],
       "markscheme_image_paths": [
         "images/markschemes/bio_m24_p3_tz2_q10_sl_p1.png",
@@ -59898,7 +59684,9 @@
         "paper_file": "Biology_paper_3_TZ2_SL.pdf",
         "markscheme_file": "Biology_paper_3_TZ2_SL_markscheme.pdf"
       },
-      "question_image_paths": [],
+      "question_image_paths": [
+        "images/questions/bio_m24_p3_tz2_q11_sl.png"
+      ],
       "markscheme_image_paths": [
         "images/markschemes/bio_m24_p3_tz2_q11_sl_p1.png"
       ]
@@ -59927,7 +59715,9 @@
         "paper_file": "Biology_paper_3_TZ2_SL.pdf",
         "markscheme_file": "Biology_paper_3_TZ2_SL_markscheme.pdf"
       },
-      "question_image_paths": [],
+      "question_image_paths": [
+        "images/questions/bio_m24_p3_tz2_q11_sl.png"
+      ],
       "markscheme_image_paths": [
         "images/markschemes/bio_m24_p3_tz2_q11_sl_p1.png"
       ]
@@ -59957,7 +59747,8 @@
         "markscheme_file": "Biology_paper_3_TZ2_SL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/bio_m24_p3_tz2_q12_sl.png"
+        "images/questions/bio_m24_p3_tz2_q12_sl_p1.png",
+        "images/questions/bio_m24_p3_tz2_q12_sl_p2.png"
       ],
       "markscheme_image_paths": [
         "images/markschemes/bio_m24_p3_tz2_q12_sl_p1.png"
@@ -59988,7 +59779,8 @@
         "markscheme_file": "Biology_paper_3_TZ2_SL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/bio_m24_p3_tz2_q12_sl.png"
+        "images/questions/bio_m24_p3_tz2_q12_sl_p1.png",
+        "images/questions/bio_m24_p3_tz2_q12_sl_p2.png"
       ],
       "markscheme_image_paths": [
         "images/markschemes/bio_m24_p3_tz2_q12_sl_p1.png"
@@ -60019,7 +59811,7 @@
         "markscheme_file": "Biology_paper_3_TZ2_SL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/bio_m24_p3_tz2_q13_sl.png"
+        "images/questions/bio_m24_p3_tz2_q13_sl_p1.png"
       ],
       "markscheme_image_paths": [
         "images/markschemes/bio_m24_p3_tz2_q13_sl_p1.png"
@@ -60050,7 +59842,7 @@
         "markscheme_file": "Biology_paper_3_TZ2_SL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/bio_m24_p3_tz2_q13_sl.png"
+        "images/questions/bio_m24_p3_tz2_q13_sl_p1.png"
       ],
       "markscheme_image_paths": [
         "images/markschemes/bio_m24_p3_tz2_q13_sl_p1.png"
@@ -60406,8 +60198,7 @@
         "markscheme_file": "Biology_paper_3_TZ2_SL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/bio_m24_p3_tz2_q19_sl_p1.png",
-        "images/questions/bio_m24_p3_tz2_q19_sl_p2.png"
+        "images/questions/bio_m24_p3_tz2_q19_sl_p1.png"
       ],
       "markscheme_image_paths": [
         "images/markschemes/bio_m24_p3_tz2_q19_sl.png"
@@ -60439,8 +60230,7 @@
         "markscheme_file": "Biology_paper_3_TZ2_SL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/bio_m24_p3_tz2_q19_sl_p1.png",
-        "images/questions/bio_m24_p3_tz2_q19_sl_p2.png"
+        "images/questions/bio_m24_p3_tz2_q19_sl_p1.png"
       ],
       "markscheme_image_paths": [
         "images/markschemes/bio_m24_p3_tz2_q19_sl.png"
@@ -60472,10 +60262,7 @@
       },
       "question_image_paths": [
         "images/questions/bio_m24_p3_tz2_q40_sl_p1.png",
-        "images/questions/bio_m24_p3_tz2_q40_sl_p2.png",
-        "images/questions/bio_m24_p3_tz2_q40_sl_p3.png",
-        "images/questions/bio_m24_p3_tz2_q40_sl_p4.png",
-        "images/questions/bio_m24_p3_tz2_q40_sl_p5.png"
+        "images/questions/bio_m24_p3_tz2_q40_sl_p2.png"
       ],
       "markscheme_image_paths": []
     },
@@ -60505,10 +60292,7 @@
       },
       "question_image_paths": [
         "images/questions/bio_m24_p3_tz2_q40_sl_p1.png",
-        "images/questions/bio_m24_p3_tz2_q40_sl_p2.png",
-        "images/questions/bio_m24_p3_tz2_q40_sl_p3.png",
-        "images/questions/bio_m24_p3_tz2_q40_sl_p4.png",
-        "images/questions/bio_m24_p3_tz2_q40_sl_p5.png"
+        "images/questions/bio_m24_p3_tz2_q40_sl_p2.png"
       ],
       "markscheme_image_paths": []
     },
@@ -60722,8 +60506,7 @@
       },
       "question_image_paths": [
         "images/questions/bio_m25_p1_tz2_q4_hl_p1.png",
-        "images/questions/bio_m25_p1_tz2_q4_hl_p2.png",
-        "images/questions/bio_m25_p1_tz2_q4_hl_p3.png"
+        "images/questions/bio_m25_p1_tz2_q4_hl_p2.png"
       ],
       "markscheme_image_paths": []
     },
@@ -60753,8 +60536,7 @@
       },
       "question_image_paths": [
         "images/questions/bio_m25_p1_tz2_q4_hl_p1.png",
-        "images/questions/bio_m25_p1_tz2_q4_hl_p2.png",
-        "images/questions/bio_m25_p1_tz2_q4_hl_p3.png"
+        "images/questions/bio_m25_p1_tz2_q4_hl_p2.png"
       ],
       "markscheme_image_paths": []
     },
@@ -62515,68 +62297,6 @@
       "markscheme_image_paths": []
     },
     {
-      "id": "bio_m25_p1_tz2_q30_sl",
-      "paper": "May 2025 Biology Paper 1 TZ2 SL",
-      "session": "May",
-      "session_code": "m25",
-      "paper_type": "Paper 1A",
-      "level": "SL",
-      "question_number": "30",
-      "title": "Q30: What results from global warming?\nA. \nAn increase in absorption of solar radiation decreases poleward shift of temperate",
-      "topic": "C: Interaction and Interdependence",
-      "subtopic": "C4 Ecosystems",
-      "topic_confidence": 0.6,
-      "topic_reason": [
-        "keyword match: 1",
-        "matched: global warming",
-        "runner-up score: 20"
-      ],
-      "question_text": "What results from global warming?\nA. \nAn increase in absorption of solar radiation decreases poleward shift of temperate species.\nB. \nRelease of carbon dioxide from the deep ocean causes decreased rates of decomposition.\nC. \nRelease of methane from melting permafrost causes a decrease in absorption of solar radiation.\nD. \nLoss of snow and ice causes an increase in absorption of solar radiation.\n\b",
-      "answer_text": "Answer: D",
-      "mcq_answer": "D",
-      "marks": 1,
-      "has_markscheme": true,
-      "source": {
-        "paper_file": "Biology_paper_1_TZ2_SL.pdf",
-        "markscheme_file": "Biology_paper_1_TZ2_SL_markscheme.pdf"
-      },
-      "question_image_paths": [
-        "images/questions/bio_m25_p1_tz2_q30_sl.png"
-      ],
-      "markscheme_image_paths": []
-    },
-    {
-      "id": "bio_m25_p1_tz2_q30_sl",
-      "paper": "May 2025 Biology Paper 1 TZ2 SL",
-      "session": "May",
-      "session_code": "m25",
-      "paper_type": "Paper 1A",
-      "level": "SL",
-      "question_number": "30",
-      "title": "Q30: What results from global warming?\nA. \nAn increase in absorption of solar radiation decreases poleward shift of temperate",
-      "topic": "C: Interaction and Interdependence",
-      "subtopic": "C4 Ecosystems",
-      "topic_confidence": 0.6,
-      "topic_reason": [
-        "keyword match: 1",
-        "matched: global warming",
-        "runner-up score: 20"
-      ],
-      "question_text": "What results from global warming?\nA. \nAn increase in absorption of solar radiation decreases poleward shift of temperate species.\nB. \nRelease of carbon dioxide from the deep ocean causes decreased rates of decomposition.\nC. \nRelease of methane from melting permafrost causes a decrease in absorption of solar radiation.\nD. \nLoss of snow and ice causes an increase in absorption of solar radiation.\n\b",
-      "answer_text": "Answer: D",
-      "mcq_answer": "D",
-      "marks": 1,
-      "has_markscheme": true,
-      "source": {
-        "paper_file": "Biology_paper_1_TZ2_SL.pdf",
-        "markscheme_file": "Biology_paper_1_TZ2_SL_markscheme.pdf"
-      },
-      "question_image_paths": [
-        "images/questions/bio_m25_p1_tz2_q30_sl.png"
-      ],
-      "markscheme_image_paths": []
-    },
-    {
       "id": "bio_m25_p2_tz1_q1_hl",
       "paper": "May 2025 Biology Paper 2 TZ1 HL",
       "session": "May",
@@ -63810,8 +63530,7 @@
         "markscheme_file": "Biology_paper_2_TZ1_HL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/bio_m25_p2_tz1_q10_hl_p1.png",
-        "images/questions/bio_m25_p2_tz1_q10_hl_p9.png"
+        "images/questions/bio_m25_p2_tz1_q10_hl_p1.png"
       ],
       "markscheme_image_paths": [
         "images/markschemes/bio_m25_p2_tz1_q10_hl_p1.png",
@@ -63844,8 +63563,7 @@
         "markscheme_file": "Biology_paper_2_TZ1_HL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/bio_m25_p2_tz1_q10_hl_p1.png",
-        "images/questions/bio_m25_p2_tz1_q10_hl_p9.png"
+        "images/questions/bio_m25_p2_tz1_q10_hl_p1.png"
       ],
       "markscheme_image_paths": [
         "images/markschemes/bio_m25_p2_tz1_q10_hl_p1.png",
@@ -63878,8 +63596,7 @@
         "markscheme_file": "Biology_paper_2_TZ1_HL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/bio_m25_p2_tz1_q10_hl_p1.png",
-        "images/questions/bio_m25_p2_tz1_q10_hl_p9.png"
+        "images/questions/bio_m25_p2_tz1_q10_hl_p1.png"
       ],
       "markscheme_image_paths": [
         "images/markschemes/bio_m25_p2_tz1_q10_hl_p1.png",
@@ -63912,8 +63629,7 @@
         "markscheme_file": "Biology_paper_2_TZ1_HL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/bio_m25_p2_tz1_q10_hl_p1.png",
-        "images/questions/bio_m25_p2_tz1_q10_hl_p9.png"
+        "images/questions/bio_m25_p2_tz1_q10_hl_p1.png"
       ],
       "markscheme_image_paths": [
         "images/markschemes/bio_m25_p2_tz1_q10_hl_p1.png",
@@ -64250,8 +63966,7 @@
         "markscheme_file": "Biology_paper_2_TZ2_HL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/bio_m25_p2_tz2_q10_hl_p1.png",
-        "images/questions/bio_m25_p2_tz2_q10_hl_p7.png"
+        "images/questions/bio_m25_p2_tz2_q10_hl_p1.png"
       ],
       "markscheme_image_paths": [
         "images/markschemes/bio_m25_p2_tz2_q10_hl_p1.png",
@@ -64514,8 +64229,7 @@
         "markscheme_file": "Biology_paper_2_TZ2_SL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/bio_m25_p2_tz2_q8_sl_p1.png",
-        "images/questions/bio_m25_p2_tz2_q8_sl_p7.png"
+        "images/questions/bio_m25_p2_tz2_q8_sl_p1.png"
       ],
       "markscheme_image_paths": [
         "images/markschemes/bio_m25_p2_tz2_q8_sl.png"
@@ -81609,8 +81323,7 @@
         "markscheme_file": "Biology_paper_1__HL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/bio_n20_p1_ntz_q40_hl_p1.png",
-        "images/questions/bio_n20_p1_ntz_q40_hl_p2.png"
+        "images/questions/bio_n20_p1_ntz_q40_hl_p1.png"
       ],
       "markscheme_image_paths": []
     },
@@ -82515,8 +82228,7 @@
         "markscheme_file": "Biology_paper_1__SL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/bio_n20_p1_ntz_q30_sl_p1.png",
-        "images/questions/bio_n20_p1_ntz_q30_sl_p2.png"
+        "images/questions/bio_n20_p1_ntz_q30_sl_p1.png"
       ],
       "markscheme_image_paths": []
     },
@@ -82785,8 +82497,7 @@
         "markscheme_file": "Biology_paper_2__HL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/bio_n20_p2_ntz_q8_hl_p1.png",
-        "images/questions/bio_n20_p2_ntz_q8_hl_p8.png"
+        "images/questions/bio_n20_p2_ntz_q8_hl_p1.png"
       ],
       "markscheme_image_paths": [
         "images/markschemes/bio_n20_p2_ntz_q8_hl.png"
@@ -82989,8 +82700,7 @@
         "markscheme_file": "Biology_paper_2__SL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/bio_n20_p2_ntz_q6_sl_p1.png",
-        "images/questions/bio_n20_p2_ntz_q6_sl_p7.png"
+        "images/questions/bio_n20_p2_ntz_q6_sl_p1.png"
       ],
       "markscheme_image_paths": [
         "images/markschemes/bio_n20_p2_ntz_q6_sl_p1.png",
@@ -83774,7 +83484,6 @@
       },
       "question_image_paths": [
         "images/questions/bio_n20_p3_ntz_q24_hl_p1.png",
-        "images/questions/bio_n20_p3_ntz_q24_hl_p2.png",
         "images/questions/bio_n20_p3_ntz_q24_hl_p3.png"
       ],
       "markscheme_image_paths": [
@@ -84422,8 +84131,7 @@
         "markscheme_file": "Biology_paper_3__SL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/bio_n20_p3_ntz_q19_sl_p1.png",
-        "images/questions/bio_n20_p3_ntz_q19_sl_p2.png"
+        "images/questions/bio_n20_p3_ntz_q19_sl_p1.png"
       ],
       "markscheme_image_paths": [
         "images/markschemes/bio_n20_p3_ntz_q19_sl.png"
@@ -85628,9 +85336,7 @@
         "markscheme_file": "Biology_paper_1__HL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/bio_n21_p1_ntz_q40_hl_p1.png",
-        "images/questions/bio_n21_p1_ntz_q40_hl_p2.png",
-        "images/questions/bio_n21_p1_ntz_q40_hl_p3.png"
+        "images/questions/bio_n21_p1_ntz_q40_hl_p1.png"
       ],
       "markscheme_image_paths": []
     },
@@ -86531,8 +86237,7 @@
         "markscheme_file": "Biology_paper_1__SL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/bio_n21_p1_ntz_q30_sl_p1.png",
-        "images/questions/bio_n21_p1_ntz_q30_sl_p2.png"
+        "images/questions/bio_n21_p1_ntz_q30_sl_p1.png"
       ],
       "markscheme_image_paths": []
     },
@@ -86561,7 +86266,12 @@
         "markscheme_file": "Biology_paper_2__HL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/bio_n21_p2_ntz_q1_hl.png"
+        "images/questions/bio_n21_p2_ntz_q1_hl_p1.png",
+        "images/questions/bio_n21_p2_ntz_q1_hl_p2.png",
+        "images/questions/bio_n21_p2_ntz_q1_hl_p3.png",
+        "images/questions/bio_n21_p2_ntz_q1_hl_p4.png",
+        "images/questions/bio_n21_p2_ntz_q1_hl_p5.png",
+        "images/questions/bio_n21_p2_ntz_q1_hl_p6.png"
       ],
       "markscheme_image_paths": [
         "images/markschemes/bio_n21_p2_ntz_q1_hl_p1.png",
@@ -86799,8 +86509,7 @@
         "images/questions/bio_n21_p2_ntz_q8_hl_p1.png"
       ],
       "markscheme_image_paths": [
-        "images/markschemes/bio_n21_p2_ntz_q8_hl_p1.png",
-        "images/markschemes/bio_n21_p2_ntz_q8_hl_p2.png"
+        "images/markschemes/bio_n21_p2_ntz_q8_hl_p1.png"
       ]
     },
     {
@@ -86827,7 +86536,12 @@
         "paper_file": "Biology_paper_2__SL.pdf",
         "markscheme_file": "Biology_paper_2__SL_markscheme.pdf"
       },
-      "question_image_paths": [],
+      "question_image_paths": [
+        "images/questions/bio_n21_p2_ntz_q1_sl_p1.png",
+        "images/questions/bio_n21_p2_ntz_q1_sl_p2.png",
+        "images/questions/bio_n21_p2_ntz_q1_sl_p3.png",
+        "images/questions/bio_n21_p2_ntz_q1_sl_p4.png"
+      ],
       "markscheme_image_paths": [
         "images/markschemes/bio_n21_p2_ntz_q1_sl_p1.png",
         "images/markschemes/bio_n21_p2_ntz_q1_sl_p2.png"
@@ -86859,9 +86573,7 @@
         "markscheme_file": "Biology_paper_2__SL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/bio_n21_p2_ntz_q2_sl_p1.png",
-        "images/questions/bio_n21_p2_ntz_q2_sl_p2.png",
-        "images/questions/bio_n21_p2_ntz_q2_sl_p3.png"
+        "images/questions/bio_n21_p2_ntz_q2_sl_p1.png"
       ],
       "markscheme_image_paths": [
         "images/markschemes/bio_n21_p2_ntz_q2_sl_p1.png"
@@ -86892,7 +86604,8 @@
         "markscheme_file": "Biology_paper_2__SL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/bio_n21_p2_ntz_q3_sl.png"
+        "images/questions/bio_n21_p2_ntz_q3_sl_p1.png",
+        "images/questions/bio_n21_p2_ntz_q3_sl_p2.png"
       ],
       "markscheme_image_paths": [
         "images/markschemes/bio_n21_p2_ntz_q3_sl_p1.png",
@@ -86996,8 +86709,7 @@
       ],
       "markscheme_image_paths": [
         "images/markschemes/bio_n21_p2_ntz_q6_sl_p1.png",
-        "images/markschemes/bio_n21_p2_ntz_q6_sl_p2.png",
-        "images/markschemes/bio_n21_p2_ntz_q6_sl_p3.png"
+        "images/markschemes/bio_n21_p2_ntz_q6_sl_p2.png"
       ]
     },
     {
@@ -88200,8 +87912,7 @@
         "markscheme_file": "Biology_paper_1__HL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/bio_n22_p1_ntz_q40_hl_p1.png",
-        "images/questions/bio_n22_p1_ntz_q40_hl_p2.png"
+        "images/questions/bio_n22_p1_ntz_q40_hl_p1.png"
       ],
       "markscheme_image_paths": []
     },
@@ -89110,8 +88821,7 @@
         "markscheme_file": "Biology_paper_1__SL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/bio_n22_p1_ntz_q30_sl_p1.png",
-        "images/questions/bio_n22_p1_ntz_q30_sl_p2.png"
+        "images/questions/bio_n22_p1_ntz_q30_sl_p1.png"
       ],
       "markscheme_image_paths": []
     },
@@ -89382,8 +89092,7 @@
         "markscheme_file": "Biology_paper_2__HL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/bio_n22_p2_ntz_q8_hl_p1.png",
-        "images/questions/bio_n22_p2_ntz_q8_hl_p7.png"
+        "images/questions/bio_n22_p2_ntz_q8_hl_p1.png"
       ],
       "markscheme_image_paths": [
         "images/markschemes/bio_n22_p2_ntz_q8_hl_p1.png",
@@ -90634,8 +90343,7 @@
         "markscheme_file": "Biology_paper_1_TZ1_HL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/bio_n23_p1_tz1_q40_hl_p1.png",
-        "images/questions/bio_n23_p1_tz1_q40_hl_p2.png"
+        "images/questions/bio_n23_p1_tz1_q40_hl_p1.png"
       ],
       "markscheme_image_paths": []
     },
@@ -91538,8 +91246,7 @@
         "markscheme_file": "Biology_paper_1_TZ1_SL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/bio_n23_p1_tz1_q30_sl_p1.png",
-        "images/questions/bio_n23_p1_tz1_q30_sl_p2.png"
+        "images/questions/bio_n23_p1_tz1_q30_sl_p1.png"
       ],
       "markscheme_image_paths": []
     },
@@ -92754,8 +92461,7 @@
         "markscheme_file": "Biology_paper_1_TZ2_HL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/bio_n23_p1_tz2_q40_hl_p1.png",
-        "images/questions/bio_n23_p1_tz2_q40_hl_p2.png"
+        "images/questions/bio_n23_p1_tz2_q40_hl_p1.png"
       ],
       "markscheme_image_paths": []
     },
@@ -93658,8 +93364,7 @@
         "markscheme_file": "Biology_paper_1_TZ2_SL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/bio_n23_p1_tz2_q30_sl_p1.png",
-        "images/questions/bio_n23_p1_tz2_q30_sl_p2.png"
+        "images/questions/bio_n23_p1_tz2_q30_sl_p1.png"
       ],
       "markscheme_image_paths": []
     },
@@ -93907,8 +93612,7 @@
         "markscheme_file": "Biology_paper_2_TZ1_HL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/bio_n23_p2_tz1_q8_hl_p1.png",
-        "images/questions/bio_n23_p2_tz1_q8_hl_p8.png"
+        "images/questions/bio_n23_p2_tz1_q8_hl_p1.png"
       ],
       "markscheme_image_paths": []
     },
@@ -94143,8 +93847,7 @@
         "markscheme_file": "Biology_paper_2_TZ1_SL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/bio_n23_p2_tz1_q7_sl_p1.png",
-        "images/questions/bio_n23_p2_tz1_q7_sl_p7.png"
+        "images/questions/bio_n23_p2_tz1_q7_sl_p1.png"
       ],
       "markscheme_image_paths": [
         "images/markschemes/bio_n23_p2_tz1_q7_sl_p1.png",
@@ -94424,8 +94127,7 @@
         "markscheme_file": "Biology_paper_2_TZ2_HL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/bio_n23_p2_tz2_q8_hl_p1.png",
-        "images/questions/bio_n23_p2_tz2_q8_hl_p8.png"
+        "images/questions/bio_n23_p2_tz2_q8_hl_p1.png"
       ],
       "markscheme_image_paths": []
     },
@@ -94660,8 +94362,7 @@
         "markscheme_file": "Biology_paper_2_TZ2_SL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/bio_n23_p2_tz2_q7_sl_p1.png",
-        "images/questions/bio_n23_p2_tz2_q7_sl_p7.png"
+        "images/questions/bio_n23_p2_tz2_q7_sl_p1.png"
       ],
       "markscheme_image_paths": [
         "images/markschemes/bio_n23_p2_tz2_q7_sl_p1.png",
@@ -95485,9 +95186,7 @@
         "markscheme_file": "Biology_paper_3_TZ1_HL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/bio_n23_p3_tz1_q26_hl_p1.png",
-        "images/questions/bio_n23_p3_tz1_q26_hl_p2.png",
-        "images/questions/bio_n23_p3_tz1_q26_hl_p3.png"
+        "images/questions/bio_n23_p3_tz1_q26_hl_p1.png"
       ],
       "markscheme_image_paths": []
     },
@@ -95578,11 +95277,7 @@
       "question_image_paths": [
         "images/questions/bio_n23_p3_tz1_q3_sl_p1.png",
         "images/questions/bio_n23_p3_tz1_q3_sl_p2.png",
-        "images/questions/bio_n23_p3_tz1_q3_sl_p4.png",
-        "images/questions/bio_n23_p3_tz1_q3_sl_p5.png",
-        "images/questions/bio_n23_p3_tz1_q3_sl_p6.png",
-        "images/questions/bio_n23_p3_tz1_q3_sl_p7.png",
-        "images/questions/bio_n23_p3_tz1_q3_sl_p8.png"
+        "images/questions/bio_n23_p3_tz1_q3_sl_p4.png"
       ],
       "markscheme_image_paths": [
         "images/markschemes/bio_n23_p3_tz1_q3_sl_p1.png",
@@ -95613,7 +95308,11 @@
         "paper_file": "Biology_paper_3_TZ1_SL.pdf",
         "markscheme_file": "Biology_paper_3_TZ1_SL_markscheme.pdf"
       },
-      "question_image_paths": [],
+      "question_image_paths": [
+        "images/questions/bio_n23_p3_tz1_q4_sl_p1.png",
+        "images/questions/bio_n23_p3_tz1_q4_sl_p2.png",
+        "images/questions/bio_n23_p3_tz1_q4_sl_p3.png"
+      ],
       "markscheme_image_paths": [
         "images/markschemes/bio_n23_p3_tz1_q4_sl_p1.png"
       ]
@@ -95643,7 +95342,8 @@
         "markscheme_file": "Biology_paper_3_TZ1_SL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/bio_n23_p3_tz1_q5_sl.png"
+        "images/questions/bio_n23_p3_tz1_q5_sl_p1.png",
+        "images/questions/bio_n23_p3_tz1_q5_sl_p2.png"
       ],
       "markscheme_image_paths": [
         "images/markschemes/bio_n23_p3_tz1_q5_sl_p1.png"
@@ -95738,9 +95438,7 @@
       },
       "question_image_paths": [
         "images/questions/bio_n23_p3_tz1_q8_sl_p1.png",
-        "images/questions/bio_n23_p3_tz1_q8_sl_p2.png",
-        "images/questions/bio_n23_p3_tz1_q8_sl_p3.png",
-        "images/questions/bio_n23_p3_tz1_q8_sl_p4.png"
+        "images/questions/bio_n23_p3_tz1_q8_sl_p2.png"
       ],
       "markscheme_image_paths": [
         "images/markschemes/bio_n23_p3_tz1_q8_sl_p1.png"
@@ -95772,7 +95470,8 @@
       },
       "question_image_paths": [
         "images/questions/bio_n23_p3_tz1_q9_sl_p1.png",
-        "images/questions/bio_n23_p3_tz1_q9_sl_p2.png"
+        "images/questions/bio_n23_p3_tz1_q9_sl_p2.png",
+        "images/questions/bio_n23_p3_tz1_q9_sl_p3.png"
       ],
       "markscheme_image_paths": [
         "images/markschemes/bio_n23_p3_tz1_q9_sl_p1.png"
@@ -95869,9 +95568,7 @@
         "markscheme_file": "Biology_paper_3_TZ1_SL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/bio_n23_p3_tz1_q12_sl_p1.png",
-        "images/questions/bio_n23_p3_tz1_q12_sl_p2.png",
-        "images/questions/bio_n23_p3_tz1_q12_sl_p3.png"
+        "images/questions/bio_n23_p3_tz1_q12_sl_p1.png"
       ],
       "markscheme_image_paths": [
         "images/markschemes/bio_n23_p3_tz1_q12_sl_p1.png"
@@ -95903,7 +95600,8 @@
         "markscheme_file": "Biology_paper_3_TZ1_SL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/bio_n23_p3_tz1_q13_sl.png"
+        "images/questions/bio_n23_p3_tz1_q13_sl_p1.png",
+        "images/questions/bio_n23_p3_tz1_q13_sl_p2.png"
       ],
       "markscheme_image_paths": [
         "images/markschemes/bio_n23_p3_tz1_q13_sl_p1.png"
@@ -96065,8 +95763,7 @@
       },
       "question_image_paths": [
         "images/questions/bio_n23_p3_tz1_q18_sl_p1.png",
-        "images/questions/bio_n23_p3_tz1_q18_sl_p2.png",
-        "images/questions/bio_n23_p3_tz1_q18_sl_p3.png"
+        "images/questions/bio_n23_p3_tz1_q18_sl_p2.png"
       ],
       "markscheme_image_paths": [
         "images/markschemes/bio_n23_p3_tz1_q18_sl.png"
@@ -96860,9 +96557,7 @@
         "markscheme_file": "Biology_paper_3_TZ2_HL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/bio_n23_p3_tz2_q26_hl_p1.png",
-        "images/questions/bio_n23_p3_tz2_q26_hl_p2.png",
-        "images/questions/bio_n23_p3_tz2_q26_hl_p3.png"
+        "images/questions/bio_n23_p3_tz2_q26_hl_p1.png"
       ],
       "markscheme_image_paths": []
     },
@@ -97523,8 +97218,7 @@
         "markscheme_file": "Biology_paper_3_TZ2_SL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/bio_n23_p3_tz2_q22_sl_p1.png",
-        "images/questions/bio_n23_p3_tz2_q22_sl_p2.png"
+        "images/questions/bio_n23_p3_tz2_q22_sl_p1.png"
       ],
       "markscheme_image_paths": []
     },
@@ -98732,8 +98426,7 @@
         "markscheme_file": "Biology_paper_1__HL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/bio_n24_p1_ntz_q40_hl_p1.png",
-        "images/questions/bio_n24_p1_ntz_q40_hl_p2.png"
+        "images/questions/bio_n24_p1_ntz_q40_hl_p1.png"
       ],
       "markscheme_image_paths": []
     },
@@ -99632,8 +99325,7 @@
         "markscheme_file": "Biology_paper_1_TZ1_SL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/bio_n24_p1_tz1_q30_sl_p1.png",
-        "images/questions/bio_n24_p1_tz1_q30_sl_p2.png"
+        "images/questions/bio_n24_p1_tz1_q30_sl_p1.png"
       ],
       "markscheme_image_paths": []
     },
@@ -100539,8 +100231,7 @@
         "markscheme_file": "Biology_paper_1_TZ2_SL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/bio_n24_p1_tz2_q30_sl_p1.png",
-        "images/questions/bio_n24_p1_tz2_q30_sl_p2.png"
+        "images/questions/bio_n24_p1_tz2_q30_sl_p1.png"
       ],
       "markscheme_image_paths": []
     },
@@ -100815,8 +100506,7 @@
         "markscheme_file": "Biology_paper_2__HL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/bio_n24_p2_ntz_q8_hl_p1.png",
-        "images/questions/bio_n24_p2_ntz_q8_hl_p8.png"
+        "images/questions/bio_n24_p2_ntz_q8_hl_p1.png"
       ],
       "markscheme_image_paths": [
         "images/markschemes/bio_n24_p2_ntz_q8_hl_p1.png",
@@ -101055,8 +100745,7 @@
         "markscheme_file": "Biology_paper_2_TZ1_SL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/bio_n24_p2_tz1_q7_sl_p1.png",
-        "images/questions/bio_n24_p2_tz1_q7_sl_p7.png"
+        "images/questions/bio_n24_p2_tz1_q7_sl_p1.png"
       ],
       "markscheme_image_paths": [
         "images/markschemes/bio_n24_p2_tz1_q7_sl_p1.png",
@@ -101095,8 +100784,7 @@
         "images/questions/bio_n24_p2_tz2_q1_sl_p3.png",
         "images/questions/bio_n24_p2_tz2_q1_sl_p4.png",
         "images/questions/bio_n24_p2_tz2_q1_sl_p5.png",
-        "images/questions/bio_n24_p2_tz2_q1_sl_p6.png",
-        "images/questions/bio_n24_p2_tz2_q1_sl_p8.png"
+        "images/questions/bio_n24_p2_tz2_q1_sl_p6.png"
       ],
       "markscheme_image_paths": [
         "images/markschemes/bio_n24_p2_tz2_q1_sl_p1.png",
@@ -101128,7 +100816,7 @@
         "markscheme_file": "Biology_paper_2_TZ2_SL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/bio_n24_p2_tz2_q2_sl.png"
+        "images/questions/bio_n24_p2_tz2_q2_sl_p1.png"
       ],
       "markscheme_image_paths": [
         "images/markschemes/bio_n24_p2_tz2_q2_sl.png"
@@ -101294,8 +100982,7 @@
         "markscheme_file": "Biology_paper_2_TZ2_SL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/bio_n24_p2_tz2_q7_sl_p1.png",
-        "images/questions/bio_n24_p2_tz2_q7_sl_p6.png"
+        "images/questions/bio_n24_p2_tz2_q7_sl_p1.png"
       ],
       "markscheme_image_paths": [
         "images/markschemes/bio_n24_p2_tz2_q7_sl_p1.png",
@@ -102054,8 +101741,7 @@
         "markscheme_file": "Biology_paper_3__HL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/bio_n24_p3_ntz_q23_hl_p1.png",
-        "images/questions/bio_n24_p3_ntz_q23_hl_p2.png"
+        "images/questions/bio_n24_p3_ntz_q23_hl_p1.png"
       ],
       "markscheme_image_paths": [
         "images/markschemes/bio_n24_p3_ntz_q23_hl.png"
@@ -102733,8 +102419,7 @@
         "markscheme_file": "Biology_paper_3_TZ1_SL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/bio_n24_p3_tz1_q20_sl_p1.png",
-        "images/questions/bio_n24_p3_tz1_q20_sl_p2.png"
+        "images/questions/bio_n24_p3_tz1_q20_sl_p1.png"
       ],
       "markscheme_image_paths": [
         "images/markschemes/bio_n24_p3_tz1_q20_sl.png"
@@ -103407,8 +103092,7 @@
         "markscheme_file": "Biology_paper_3_TZ2_SL_markscheme.pdf"
       },
       "question_image_paths": [
-        "images/questions/bio_n24_p3_tz2_q21_sl_p1.png",
-        "images/questions/bio_n24_p3_tz2_q21_sl_p2.png"
+        "images/questions/bio_n24_p3_tz2_q21_sl_p1.png"
       ],
       "markscheme_image_paths": [
         "images/markschemes/bio_n24_p3_tz2_q21_sl.png"
