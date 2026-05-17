@@ -7152,7 +7152,8 @@
       "markscheme_image_paths": [
         "images/markschemes/t3_trig_q1.svg"
       ],
-      "draft": true
+      "draft": true,
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>1</td><td class='ms-part'></td><td class='ms-content'>\\(2\\cos x = \\sin 2x\\)</td><td class='ms-mark'></td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(2\\cos x = 2\\sin x\\cos x\\)</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(2\\cos x - 2\\sin x\\cos x = 0\\)</td><td class='ms-mark'></td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(2\\cos x(1 - \\sin x) = 0\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(\\cos x = 0\\) or \\(\\sin x = 1\\)</td><td class='ms-mark'></td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(x = \\dfrac{\\pi}{2},\\, \\dfrac{3\\pi}{2},\\, \\dfrac{5\\pi}{2}\\)</td><td class='ms-mark'>A2</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>(all three values required for A2; one or two correct for A1)</td><td class='ms-mark'></td></tr><tr><td colspan='3'></td><td class='ms-total'>[7 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t3_trig_q2",
@@ -7165,7 +7166,8 @@
       "markscheme_image_paths": [
         "images/markschemes/t3_trig_q2.svg"
       ],
-      "draft": true
+      "draft": true,
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>2</td><td class='ms-part'>a</td><td class='ms-content'>Amplitude = \\(\\dfrac{100}{2} = 50\\)</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Centre height \\(c = 50\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(a = -50\\) (starts at minimum)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>b</td><td class='ms-content'>Period = 20 min \\(\\Rightarrow b = \\dfrac{2\\pi}{20} = \\dfrac{\\pi}{10}\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>c</td><td class='ms-content'>\\(h(8) = -50\\cos\\!\\left(\\dfrac{8\\pi}{10}\\right) + 50 = -50\\cos\\!\\left(\\dfrac{4\\pi}{5}\\right) + 50\\)</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(= -50(-0.809\\ldots) + 50 \\approx 90.5\\) m</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>d</td><td class='ms-content'>\\(h(21) = -50\\cos\\!\\left(\\dfrac{21\\pi}{10}\\right) + 50\\)</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(= -50\\cos\\!\\left(\\dfrac{\\pi}{10}\\right) + 50 \\approx -50(0.951) + 50\\approx 2.45\\) m</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>e</td><td class='ms-content'>Sketch: sinusoidal, period 20, min at \\(t=0\\) (\\(h=0\\)), max at \\(t=10\\) (\\(h=100\\))</td><td class='ms-mark'>A2</td></tr><tr><td colspan='3'></td><td class='ms-total'>[14 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t3_trig_q3",
@@ -7178,7 +7180,8 @@
       "markscheme_image_paths": [
         "images/markschemes/t3_trig_q3.svg"
       ],
-      "draft": true
+      "draft": true,
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>3</td><td class='ms-part'>a</td><td class='ms-content'>By cosine rule: \\(AC^2 = 7^2 + 9^2 - 2(7)(9)\\cos 120°\\)</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(= 49 + 81 - 126\\!\\left(-\\dfrac{1}{2}\\right) = 130 + 63 = 193\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(AC = \\sqrt{193} \\approx 13.9\\) cm</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>b</td><td class='ms-content'>By sine rule: \\(\\dfrac{\\sin\\widehat{BAC}}{9} = \\dfrac{\\sin 120°}{\\sqrt{193}}\\)</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(\\sin\\widehat{BAC} = \\dfrac{9\\sin 120°}{\\sqrt{193}} = \\dfrac{9\\sqrt{3}/2}{\\sqrt{193}}\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(\\widehat{BAC} \\approx 16.3°\\)</td><td class='ms-mark'>A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[6 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t3_trig_q4",
@@ -7191,7 +7194,8 @@
       "markscheme_image_paths": [
         "images/markschemes/t3_trig_q4.svg"
       ],
-      "draft": true
+      "draft": true,
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>4</td><td class='ms-part'>a</td><td class='ms-content'>Radius = 4 m; \\(a = 4\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>b</td><td class='ms-content'>Period = 30 s \\(\\Rightarrow b = \\dfrac{2\\pi}{30} = \\dfrac{\\pi}{15}\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>c</td><td class='ms-content'>\\(h'(t) = 4 \\cdot \\dfrac{\\pi}{15}\\cos\\!\\left(\\dfrac{\\pi t}{15}\\right) = \\dfrac{4\\pi}{15}\\cos\\!\\left(\\dfrac{\\pi t}{15}\\right)\\)</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Descending at 0.5 m/s: \\(h'(t) = -0.5\\)</td><td class='ms-mark'></td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(\\cos\\!\\left(\\dfrac{\\pi t}{15}\\right) = -\\dfrac{0.5 \\times 15}{4\\pi} = -\\dfrac{7.5}{4\\pi} \\approx -0.5968\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(\\dfrac{\\pi t}{15} = \\arccos(-0.5968) \\approx 2.212\\) rad \\(\\Rightarrow t_1 \\approx 10.6\\) s</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Second value: \\(t_2 \\approx 19.4\\) s</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>d</td><td class='ms-content'>At \\(t_2\\approx 19.4\\): \\(h = 4\\sin\\!\\left(\\dfrac{19.4\\pi}{15}\\right)+2 \\approx -1.21\\) m \\(< 0\\) \\(\\Rightarrow\\) underwater</td><td class='ms-mark'>M1 A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[14 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t3_trig_q5",
@@ -7204,7 +7208,8 @@
       "markscheme_image_paths": [
         "images/markschemes/t3_trig_q5.svg"
       ],
-      "draft": true
+      "draft": true,
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>5</td><td class='ms-part'>a</td><td class='ms-content'>Setting U at origin, A is at \\((25\\cos 4°,\\, 25\\sin 4°)\\) along the hill</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Height of tower base above U: \\(25\\sin 4° \\approx 1.74\\) m</td><td class='ms-mark'></td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Top of tower T is \\(36 + 1.74 = 37.74\\) m above U vertically</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Horizontal distance U to base of tower: \\(25\\cos 4° \\approx 24.94\\) m</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Wire length \\(x = \\sqrt{(24.94)^2 + (37.74)^2}\\)</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(= \\sqrt{621.9 + 1424.1} = \\sqrt{2046} \\approx 45.2\\) m</td><td class='ms-mark'>A2</td></tr><tr><td colspan='3'></td><td class='ms-total'>[7 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t3_trig_q6",
@@ -7217,7 +7222,8 @@
       "markscheme_image_paths": [
         "images/markschemes/t3_trig_q6.svg"
       ],
-      "draft": true
+      "draft": true,
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>6</td><td class='ms-part'>a</td><td class='ms-content'>Width of trapezium: \\(2 + 2\\cos\\theta + 2\\cos\\theta = 2 + 4\\cos\\theta\\); height = \\(2\\sin\\theta\\)</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Area = \\(\\dfrac{1}{2}(2 + 2 + 4\\cos\\theta)(2\\sin\\theta) = (2+2\\cos\\theta)(2\\sin\\theta)\\)</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(= 4\\sin\\theta + 4\\sin\\theta\\cos\\theta = 4\\sin\\theta + 2\\sin 2\\theta\\)</td><td class='ms-mark'>A1 AG</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>b</td><td class='ms-content'>\\(4\\sin\\theta + 2\\sin 2\\theta = 5\\) solved numerically</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(\\theta \\approx 0.524\\) rad \\((\\approx 30°)\\) or \\(\\theta \\approx 1.30\\) rad</td><td class='ms-mark'>A1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>c</td><td class='ms-content'>Maximum area: \\(\\dfrac{dA}{d\\theta} = 4\\cos\\theta + 4\\cos 2\\theta = 0\\)</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(4\\cos\\theta + 4(2\\cos^2\\theta-1) = 0 \\Rightarrow 8\\cos^2\\theta + 4\\cos\\theta - 4 = 0\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(\\cos\\theta = \\dfrac{1}{2}\\) (rejecting negative root for \\(0<\\theta<\\pi/2\\)) \\(\\Rightarrow \\theta = \\dfrac{\\pi}{3}\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Maximum area \\(= 4\\sin\\!\\tfrac{\\pi}{3} + 2\\sin\\!\\tfrac{2\\pi}{3} = 4\\!\\cdot\\!\\tfrac{\\sqrt{3}}{2} + 2\\!\\cdot\\!\\tfrac{\\sqrt{3}}{2} = 3\\sqrt{3} \\approx 5.20\\) m²</td><td class='ms-mark'>A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[16 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t3_trig_q7",
@@ -7230,7 +7236,8 @@
       "markscheme_image_paths": [
         "images/markschemes/t3_trig_q7.svg"
       ],
-      "draft": true
+      "draft": true,
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>7</td><td class='ms-part'>a</td><td class='ms-content'>\\(\\tan\\theta = \\dfrac{3}{4}\\)</td><td class='ms-mark'></td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>From right triangle: \\(\\sin\\theta = \\dfrac{3}{5},\\; \\cos\\theta = \\dfrac{4}{5}\\)</td><td class='ms-mark'>M1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>b</td><td class='ms-content'>\\(\\sin 2\\theta = 2\\sin\\theta\\cos\\theta = 2 \\cdot \\dfrac{3}{5} \\cdot \\dfrac{4}{5} = \\dfrac{24}{25}\\)</td><td class='ms-mark'>M1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>c</td><td class='ms-content'>\\(\\cos 2\\theta = \\cos^2\\theta - \\sin^2\\theta = \\dfrac{16}{25} - \\dfrac{9}{25} = \\dfrac{7}{25}\\)</td><td class='ms-mark'>M1 A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[7 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t3_trig_q8",
@@ -7243,7 +7250,8 @@
       "markscheme_image_paths": [
         "images/markschemes/t3_trig_q8.svg"
       ],
-      "draft": true
+      "draft": true,
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>8</td><td class='ms-part'>a</td><td class='ms-content'>\\(f\\!\\left(\\dfrac{\\pi}{2}\\right) = \\cos\\!\\left(2 \\cdot \\dfrac{\\pi}{2}\\right) = \\cos\\pi = -1\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>b</td><td class='ms-content'>\\((g \\circ f)\\!\\left(\\dfrac{\\pi}{2}\\right) = g(-1) = 2(-1)^2 - 1 = 1\\)</td><td class='ms-mark'>M1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>c</td><td class='ms-content'>\\((g \\circ f)(x) = g(\\cos 2x) = 2\\cos^2(2x) - 1 = \\cos(4x)\\)</td><td class='ms-mark'>M1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(k = 4\\)</td><td class='ms-mark'>A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[7 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t3_trig_q9",
@@ -7256,7 +7264,8 @@
       "markscheme_image_paths": [
         "images/markschemes/t3_trig_q9.svg"
       ],
-      "draft": true
+      "draft": true,
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>9</td><td class='ms-part'>a</td><td class='ms-content'>Amplitude \\(= \\dfrac{7-(-3)}{2} = 5 \\Rightarrow p = 5\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Midline \\(r = \\dfrac{7+(-3)}{2} = 2\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Half period = \\(4 \\Rightarrow\\) period \\(= 8 \\Rightarrow q = \\dfrac{2\\pi}{8} = \\dfrac{\\pi}{4}\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>b</td><td class='ms-content'>Exactly 2 solutions when \\(k = 7\\) (maximum value, attained at 2 points per domain of 2 periods)</td><td class='ms-mark'>M1 A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[7 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t3_trig_q10",
@@ -7269,7 +7278,8 @@
       "markscheme_image_paths": [
         "images/markschemes/t3_trig_q10.svg"
       ],
-      "draft": true
+      "draft": true,
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>10</td><td class='ms-part'>a</td><td class='ms-content'>In \\(\\triangle ABC\\): by cosine rule, \\(AC^2 = 5^2 + 4^2 - 2(5)(4)\\cos x = 41 - 40\\cos x\\)</td><td class='ms-mark'>M1 A1 AG</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>b</td><td class='ms-content'>By sine rule in \\(\\triangle ABC\\): \\(\\dfrac{\\sin 30°}{4} = \\dfrac{\\sin x}{\\sqrt{41-40\\cos x}}\\)</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(\\dfrac{1}{8} = \\dfrac{\\sin x}{\\sqrt{41-40\\cos x}}\\) \\(\\Rightarrow \\sin x = \\dfrac{\\sqrt{41-40\\cos x}}{8}\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Solving numerically: \\(x \\approx 55.8°\\) (\\(\\approx 0.974\\) rad)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(AC = \\sqrt{41 - 40\\cos 55.8°} \\approx \\sqrt{41 - 22.6} \\approx 4.29\\) cm</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>c</td><td class='ms-content'>In \\(\\triangle ACD\\) with \\(AC \\approx 4.29\\), \\(CD = AD = 4\\): find angle \\(y\\) by cosine/sine rule</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Area of \\(\\triangle ACD = \\frac{1}{2}(4)(4)\\sin y\\) (compute \\(y\\) via cosine rule)</td><td class='ms-mark'>A2</td></tr><tr><td colspan='3'></td><td class='ms-total'>[14 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t3_trig_q11",
@@ -7282,7 +7292,8 @@
       "markscheme_image_paths": [
         "images/markschemes/t3_trig_q11.svg"
       ],
-      "draft": true
+      "draft": true,
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>11</td><td class='ms-part'>a</td><td class='ms-content'>\\(\\text{Arc length} = r\\theta\\): \\(6 = 8\\theta \\Rightarrow \\theta = \\dfrac{3}{4}\\) rad</td><td class='ms-mark'>M1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>b</td><td class='ms-content'>Shaded area = sector \\(OAC\\) − triangle \\(OAC\\)</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(= \\tfrac{1}{2}(64)(\\tfrac{3}{4}) - \\tfrac{1}{2}(64)\\sin\\tfrac{3}{4}\\)</td><td class='ms-mark'></td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(= 24 - 32\\sin 0.75 \\approx 24 - 21.7 \\approx 2.28\\) cm²</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>c</td><td class='ms-content'>Sector \\(OCDE\\) area = 45 cm²: \\(\\tfrac{1}{2}r^2\\alpha = 45 \\Rightarrow 32\\alpha = 45 \\Rightarrow \\alpha = \\dfrac{45}{32}\\) rad</td><td class='ms-mark'>M1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(EF = 2r\\sin(\\alpha/2) = 16\\sin\\!\\left(\\dfrac{45}{64}\\right) \\approx 16 \\times 0.671 \\approx 10.7\\) cm</td><td class='ms-mark'>M1 A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[15 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t3_trig_q12",
@@ -7295,7 +7306,8 @@
       "markscheme_image_paths": [
         "images/markschemes/t3_trig_q12.svg"
       ],
-      "draft": true
+      "draft": true,
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>12</td><td class='ms-part'>a</td><td class='ms-content'>\\(\\text{Arc } ACB = R\\theta = 10 \\cdot \\dfrac{\\pi}{3} = \\dfrac{10\\pi}{3}\\)</td><td class='ms-mark'>M1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>b</td><td class='ms-content'>Shaded area = sector (outer) − sector (inner)</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(= \\dfrac{1}{2}R^2\\theta - \\dfrac{1}{2}r^2\\theta = \\dfrac{1}{2}\\theta(R^2 - r^2)\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(= \\dfrac{1}{2} \\cdot \\dfrac{\\pi}{3}(100-64) = \\dfrac{\\pi}{6}(36) = 6\\pi\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(\\approx 18.8\\) cm²</td><td class='ms-mark'>A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[6 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t3_trig_q13",
@@ -7308,7 +7320,8 @@
       "markscheme_image_paths": [
         "images/markschemes/t3_trig_q13.svg"
       ],
-      "draft": true
+      "draft": true,
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>13</td><td class='ms-part'></td><td class='ms-content'>\\(4 - \\cos 2\\theta + 5\\sin\\theta = 0\\)</td><td class='ms-mark'></td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Use \\(\\cos 2\\theta = 1 - 2\\sin^2\\theta\\)</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(4 - (1-2\\sin^2\\theta) + 5\\sin\\theta = 0\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(2\\sin^2\\theta + 5\\sin\\theta + 3 = 0\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\((2\\sin\\theta + 3)(\\sin\\theta + 1) = 0\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(\\sin\\theta = -\\dfrac{3}{2}\\) (impossible) or \\(\\sin\\theta = -1\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(\\theta = \\dfrac{3\\pi}{2}\\)</td><td class='ms-mark'>A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[7 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t3_trig_q14",
@@ -7321,7 +7334,8 @@
       "markscheme_image_paths": [
         "images/markschemes/t3_trig_q14.svg"
       ],
-      "draft": true
+      "draft": true,
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>14</td><td class='ms-part'>a</td><td class='ms-content'>Area \\(= \\tfrac{1}{2}(AC)(BC)\\sin C\\): \\(\\tfrac{1}{2}(5)(13.6)\\sin C = 20\\)</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(\\sin C = \\dfrac{40}{68} = \\dfrac{10}{17} \\approx 0.588\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(C\\) obtuse: \\(C \\approx 180° - 36.0° = 144.0°\\) (\\(\\approx 2.513\\) rad)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>b</td><td class='ms-content'>\\(AB^2 = AC^2 + BC^2 - 2(AC)(BC)\\cos C\\)</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(= 25 + 184.96 - 2(5)(13.6)\\cos(144°)\\)</td><td class='ms-mark'></td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(= 209.96 - 136(-0.809) \\approx 209.96 + 110.0 = 320.0\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(AB \\approx 17.9\\) cm</td><td class='ms-mark'>A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[7 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t3_trig_q15",
@@ -7334,7 +7348,8 @@
       "markscheme_image_paths": [
         "images/markschemes/t3_trig_q15.svg"
       ],
-      "draft": true
+      "draft": true,
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>15</td><td class='ms-part'>a</td><td class='ms-content'>Height after 15 min: \\(h(15) = 50\\sin\\!\\left(\\dfrac{\\pi}{15}(15-7.5)\\right)+51 = 50\\sin\\!\\left(\\dfrac{\\pi}{2}\\right)+51 = 101\\) m</td><td class='ms-mark'>M1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>b</td><td class='ms-content'>Height at Q (\\(t=6\\) min): \\(h(6) = 50\\sin\\!\\left(\\dfrac{\\pi}{15}(6-7.5)\\right)+51 = 50\\sin\\!\\left(-\\dfrac{\\pi}{10}\\right)+51\\)</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(= 50(-0.309)+51 \\approx 35.5\\) m</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>c</td><td class='ms-content'>\\(h(t) = 50\\sin\\!\\left(\\dfrac{\\pi}{15}(t-7.5)\\right)+51\\): period \\(= 30\\) min \\(\\Rightarrow b = \\dfrac{\\pi}{15}\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>At \\(t=0\\): \\(50\\sin(-\\tfrac{\\pi}{2})+51 = -50+51 = 1\\) m ✓ \\(\\Rightarrow c = 7.5\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>d</td><td class='ms-content'>\\(h = 96\\): \\(50\\sin\\!\\left(\\dfrac{\\pi(t-7.5)}{15}\\right) = 45 \\Rightarrow \\sin(\\ldots) = 0.9\\)</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(\\dfrac{\\pi(t-7.5)}{15} = \\arcsin(0.9) \\approx 1.120\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(t = 7.5 + \\dfrac{15 \\times 1.120}{\\pi} \\approx 7.5 + 5.35 \\approx 12.9\\) min</td><td class='ms-mark'>A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[16 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t3_trig_q16",
@@ -7347,7 +7362,8 @@
       "markscheme_image_paths": [
         "images/markschemes/t3_trig_q16.svg"
       ],
-      "draft": true
+      "draft": true,
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>16</td><td class='ms-part'>a</td><td class='ms-content'>Let half-width \\(= 3\\cos\\theta\\), half-height \\(= 3\\sin\\theta\\)</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Area \\(A = (2 \\cdot 3\\cos\\theta)(2 \\cdot 3\\sin\\theta) = 36\\sin\\theta\\cos\\theta = 18\\sin 2\\theta\\)</td><td class='ms-mark'>M1 A1 AG</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>b</td><td class='ms-content'>\\(\\dfrac{dA}{d\\theta} = 36\\cos 2\\theta = 0 \\Rightarrow 2\\theta = \\dfrac{\\pi}{2} \\Rightarrow \\theta = \\dfrac{\\pi}{4}\\)</td><td class='ms-mark'>M1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Maximum area \\(= 18\\sin\\!\\left(2 \\cdot \\dfrac{\\pi}{4}\\right) = 18\\sin\\!\\left(\\dfrac{\\pi}{2}\\right) = 18\\) cm²</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>c</td><td class='ms-content'>\\(\\dfrac{d^2A}{d\\theta^2} = -72\\sin 2\\theta < 0\\) at \\(\\theta = \\pi/4\\) \\(\\Rightarrow\\) maximum</td><td class='ms-mark'>R1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[13 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t3_trig_q17",
@@ -7360,7 +7376,8 @@
       "markscheme_image_paths": [
         "images/markschemes/t3_trig_q17.svg"
       ],
-      "draft": true
+      "draft": true,
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>17</td><td class='ms-part'></td><td class='ms-content'>\\(e^{2x}(\\sqrt{3}\\sin x + \\cos x) = 0\\)</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Since \\(e^{2x} \\neq 0\\): \\(\\sqrt{3}\\sin x + \\cos x = 0\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(\\tan x = -\\dfrac{1}{\\sqrt{3}}\\)</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>In \\([0,\\pi]\\): \\(x = \\pi - \\dfrac{\\pi}{6} = \\dfrac{5\\pi}{6}\\)</td><td class='ms-mark'>A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[6 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t3_trig_q18",
@@ -7373,7 +7390,8 @@
       "markscheme_image_paths": [
         "images/markschemes/t3_trig_q18.svg"
       ],
-      "draft": true
+      "draft": true,
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>18</td><td class='ms-part'>a</td><td class='ms-content'>\\(AB = 2r\\sin\\!\\left(\\dfrac{\\theta}{2}\\right) = 2(3.9)\\sin(0.9) \\approx 7.8 \\times 0.7833 \\approx 6.11\\) cm</td><td class='ms-mark'>M1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>b</td><td class='ms-content'>Area of sector \\(= \\tfrac{1}{2}r^2\\theta = \\tfrac{1}{2}(15.21)(1.8) \\approx 13.69\\) cm²</td><td class='ms-mark'>M1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Area of triangle \\(= \\tfrac{1}{2}r^2\\sin\\theta = \\tfrac{1}{2}(15.21)\\sin 1.8 \\approx \\tfrac{1}{2}(15.21)(0.9738) \\approx 7.41\\) cm²</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Shaded (segment) \\(= 13.69 - 7.41 \\approx 6.28\\) cm²</td><td class='ms-mark'>A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[7 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t3_trig_q19",
@@ -7386,7 +7404,8 @@
       "markscheme_image_paths": [
         "images/markschemes/t3_trig_q19.svg"
       ],
-      "draft": true
+      "draft": true,
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>19</td><td class='ms-part'>a</td><td class='ms-content'>\\(h(x) = (g \\circ f)(x) = g\\!\\left(\\dfrac{3x}{2}+1\\right) = 4\\cos\\!\\left(\\dfrac{\\frac{3x}{2}+1}{3}\\right)-1\\)</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(= 4\\cos\\!\\left(\\dfrac{x}{2}+\\dfrac{1}{3}\\right)-1\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>b</td><td class='ms-content'>Period \\(= \\dfrac{2\\pi}{1/2} = 4\\pi\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>c</td><td class='ms-content'>Range: \\(-4 \\leq 4\\cos(\\ldots) \\leq 4\\) \\(\\Rightarrow\\) range of \\(h\\) is \\([-5,\\,3]\\)</td><td class='ms-mark'>M1 A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[6 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t3_trig_q20",
@@ -7399,7 +7418,8 @@
       "markscheme_image_paths": [
         "images/markschemes/t3_trig_q20.svg"
       ],
-      "draft": true
+      "draft": true,
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>20</td><td class='ms-part'>a</td><td class='ms-content'>In \\(\\triangle ABC\\) (isoceles, \\(BC=AC=7\\), \\(AB=13\\))</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(\\cos(\\angle ACB) = \\dfrac{7^2+7^2-13^2}{2(7)(7)} = \\dfrac{98-169}{98} = -\\dfrac{71}{98}\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(\\angle ACB \\approx 136.5°\\)</td><td class='ms-mark'></td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>b</td><td class='ms-content'>\\(\\angle ACD = 180° - 136.5° = 43.5°\\) (if D on line BC beyond C)</td><td class='ms-mark'>M1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>In \\(\\triangle ACD\\): sine rule \\(\\dfrac{\\sin(\\angle CAD)}{CD} = \\dfrac{\\sin(\\angle ACD)}{AD}\\)</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(\\sin(\\angle CAD) = \\dfrac{CD \\cdot \\sin 43.5°}{6.5}\\) (use \\(CD\\) found from context)</td><td class='ms-mark'>A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[8 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t3_trig_q21",
@@ -7412,7 +7432,8 @@
       "markscheme_image_paths": [
         "images/markschemes/t3_trig_q21.svg"
       ],
-      "draft": true
+      "draft": true,
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>21</td><td class='ms-part'></td><td class='ms-content'>\\(\\cos 2x - 3\\cos x - 3 - \\cos^2 x = \\sin^2 x\\)</td><td class='ms-mark'></td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(\\cos 2x - 3\\cos x - 3 = \\cos^2 x + \\sin^2 x = 1\\)</td><td class='ms-mark'>M1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(\\cos 2x - 3\\cos x = 4\\)</td><td class='ms-mark'></td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(2\\cos^2 x - 1 - 3\\cos x = 4 \\Rightarrow 2\\cos^2 x - 3\\cos x - 5 = 0\\)</td><td class='ms-mark'>M1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\((2\\cos x - 5)(\\cos x + 1) = 0\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(\\cos x = -1 \\Rightarrow x = \\pi\\)</td><td class='ms-mark'>A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[7 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t3_trig_q22",
@@ -7425,7 +7446,8 @@
       "markscheme_image_paths": [
         "images/markschemes/t3_trig_q22.svg"
       ],
-      "draft": true
+      "draft": true,
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>22</td><td class='ms-part'>a</td><td class='ms-content'>\\(\\angle AOC = 0.8\\) rad (central angle); in \\(\\triangle AOD\\) with \\(\\angle ADC = 0.3\\)</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(AD\\) by sine rule in \\(\\triangle\\): \\(\\dfrac{AD}{\\sin(\\angle AOD)} = \\dfrac{OA}{\\sin(\\angle ADO)}\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>b</td><td class='ms-content'>Area of sector \\(OABC = \\tfrac{1}{2}(16)(0.8) = 6.4\\) cm²</td><td class='ms-mark'>M1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>c</td><td class='ms-content'>Region \\(ABCD\\) = sector \\(OABC\\) + area of \\(\\triangle OCD\\) − area of \\(\\triangle OAD\\)</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Compute each area using \\(\\tfrac{1}{2}r^2\\sin\\theta\\) and trig values</td><td class='ms-mark'>A2</td></tr><tr><td colspan='3'></td><td class='ms-total'>[13 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t3_trig_q23",
@@ -7438,7 +7460,8 @@
       "markscheme_image_paths": [
         "images/markschemes/t3_trig_q23.svg"
       ],
-      "draft": true
+      "draft": true,
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>23</td><td class='ms-part'>a</td><td class='ms-content'>\\(\\sin 140° = \\sin(180° - 40°) = \\sin 40° = p\\)</td><td class='ms-mark'>M1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>b</td><td class='ms-content'>\\(\\cos 70° = \\cos(180° - 110°) = -\\cos 110° = -q\\)</td><td class='ms-mark'>M1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>c</td><td class='ms-content'>\\(\\cos 140° = 2\\cos^2 70° - 1 = 2(-q)^2 - 1 = 2q^2 - 1\\)</td><td class='ms-mark'>M1 A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[6 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t3_trig_q24",
@@ -7451,7 +7474,8 @@
       "markscheme_image_paths": [
         "images/markschemes/t3_trig_q24.svg"
       ],
-      "draft": true
+      "draft": true,
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>24</td><td class='ms-part'>a</td><td class='ms-content'>\\(\\cos 2A = 2\\cos^2 A - 1 = 2\\left(\\dfrac{1}{9}\\right) - 1 = -\\dfrac{7}{9}\\)</td><td class='ms-mark'>M1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>b</td><td class='ms-content'>\\(\\cos^2 B = 1 - \\sin^2 B = 1 - \\dfrac{4}{9} = \\dfrac{5}{9}\\)</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Since \\(\\pi/2 \\leq B \\leq \\pi\\): \\(\\cos B = -\\dfrac{\\sqrt{5}}{3}\\)</td><td class='ms-mark'>A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[6 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t3_trig_q25",
@@ -7464,7 +7488,8 @@
       "markscheme_image_paths": [
         "images/markschemes/t3_trig_q25.svg"
       ],
-      "draft": true
+      "draft": true,
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>25</td><td class='ms-part'>a</td><td class='ms-content'>Range of \\(\\sin^3 x\\) is \\([-1,\\,1]\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>b</td><td class='ms-content'>\\(f(x) = 1\\) when \\(\\sin x = 1\\), i.e. \\(x = \\dfrac{\\pi}{2}\\) — exactly 1 solution in \\([0, 2\\pi]\\)</td><td class='ms-mark'>M1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>c</td><td class='ms-content'>\\(f'(x) = 3\\sin^2 x \\cos x\\)</td><td class='ms-mark'>M1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>d</td><td class='ms-content'>Volume \\(= \\pi\\displaystyle\\int_0^{\\pi/2} \\sin^6 x\\, dx\\) (using GDC)</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(\\approx \\pi \\times 0.589 \\approx 1.85\\) (units³)</td><td class='ms-mark'>A2</td></tr><tr><td colspan='3'></td><td class='ms-total'>[14 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t3_trig_q26",
@@ -7477,7 +7502,8 @@
       "markscheme_image_paths": [
         "images/markschemes/t3_trig_q26.svg"
       ],
-      "draft": true
+      "draft": true,
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>26</td><td class='ms-part'>a</td><td class='ms-content'>Area \\(OPB = \\tfrac{1}{2}(2)(2)\\sin\\theta = 2\\sin\\theta\\)</td><td class='ms-mark'>M1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>b</td><td class='ms-content'>Total shaded \\(S = 2\\pi - 2 \\times 2\\sin\\theta = 2\\pi - 4\\sin\\theta = 2(\\pi - 2\\sin\\theta)\\)</td><td class='ms-mark'>M1 A1 AG</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>c</td><td class='ms-content'>\\(\\dfrac{dS}{d\\theta} = -4\\cos\\theta = 0 \\Rightarrow \\theta = \\dfrac{\\pi}{2}\\)</td><td class='ms-mark'>M1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(\\dfrac{d^2S}{d\\theta^2} = 4\\sin\\theta > 0\\) at \\(\\theta = \\pi/2\\) \\(\\Rightarrow\\) minimum</td><td class='ms-mark'>R1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(S_{\\min} = 2(\\pi - 2) \\approx 2.28\\) at \\(\\theta = \\pi/2\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>d</td><td class='ms-content'>Maximum at endpoints: as \\(\\theta \\to 0^+\\), \\(S \\to 2\\pi\\)</td><td class='ms-mark'>A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[18 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t3_trig_q27",
@@ -7490,7 +7516,8 @@
       "markscheme_image_paths": [
         "images/markschemes/t3_trig_q27.svg"
       ],
-      "draft": true
+      "draft": true,
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>27</td><td class='ms-part'>a</td><td class='ms-content'>By sine rule: \\(\\dfrac{\\sin(\\angle QPR)}{QR} = \\dfrac{\\sin 75°}{PR}\\)</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(\\sin(\\angle QPR) = \\dfrac{QR \\sin 75°}{10}\\) (use cosine rule for QR if needed)</td><td class='ms-mark'></td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>QR² = PQ² + PR² − 2(PQ)(PR)cos(∠QPR): solve via sine/cosine rule</td><td class='ms-mark'>A2</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>b</td><td class='ms-content'>Area \\(= \\tfrac{1}{2}(PQ)(PR)\\sin(\\angle QPR) = \\tfrac{1}{2}(7)(10)\\sin(\\angle QPR)\\)</td><td class='ms-mark'>M1 A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[6 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t3_trig_q28",
@@ -7503,7 +7530,8 @@
       "markscheme_image_paths": [
         "images/markschemes/t3_trig_q28.svg"
       ],
-      "draft": true
+      "draft": true,
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>28</td><td class='ms-part'>a</td><td class='ms-content'>Arc \\(ABC = r(2\\pi - \\tfrac{2\\pi}{9}) = r \\cdot \\dfrac{16\\pi}{9} = 3\\pi\\)</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(r = \\dfrac{3\\pi \\times 9}{16\\pi} = \\dfrac{27}{2}\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>b</td><td class='ms-content'>Perimeter of sector \\(OABC = 2r + \\text{arc} = 27 + 3\\pi\\)</td><td class='ms-mark'>M1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>c</td><td class='ms-content'>Area of sector \\(= \\tfrac{1}{2}r^2\\theta = \\tfrac{1}{2}\\!\\left(\\dfrac{27}{2}\\right)^2 \\!\\cdot\\! \\dfrac{16\\pi}{9} = \\dfrac{1}{2} \\cdot \\dfrac{729}{4} \\cdot \\dfrac{16\\pi}{9} = \\dfrac{729 \\times 8\\pi}{18} = \\dfrac{324\\pi}{4} = 81\\pi\\)</td><td class='ms-mark'>M1 A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[6 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t3_trig_q29",
@@ -7516,7 +7544,8 @@
       "markscheme_image_paths": [
         "images/markschemes/t3_trig_q29.svg"
       ],
-      "draft": true
+      "draft": true,
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>29</td><td class='ms-part'>a</td><td class='ms-content'>\\(f(x) = \\sin^3 x + \\cos^3 x \\cdot \\dfrac{\\sin x}{\\cos x} = \\sin^3 x + \\cos^2 x \\sin x\\)</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(= \\sin x(\\sin^2 x + \\cos^2 x) = \\sin x\\)</td><td class='ms-mark'>A1 AG</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>b</td><td class='ms-content'>\\(\\pi/2 < x < \\pi\\): \\(\\cos x = -\\sqrt{1 - \\tfrac{4}{9}} = -\\dfrac{\\sqrt{5}}{3}\\)</td><td class='ms-mark'>M1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>c</td><td class='ms-content'>\\(f(2x) = \\sin 2x = 2\\sin x \\cos x = 2 \\cdot \\dfrac{2}{3} \\cdot \\left(-\\dfrac{\\sqrt{5}}{3}\\right) = -\\dfrac{4\\sqrt{5}}{9}\\)</td><td class='ms-mark'>M1 A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[7 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t3p1_q1",
@@ -7542,7 +7571,8 @@
       "markscheme_image_paths": [
         "images/markschemes/t3p1_q2.svg"
       ],
-      "draft": true
+      "draft": true,
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>2a</td><td class='ms-part'></td><td class='ms-content'>\\(P(5)=210\\sin(0.5\\times5-2.6)+990=210\\sin(-0.1)+990\\)</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(\\approx 969\\) deer</td><td class='ms-mark'>A1A1</td></tr><tr><td class='ms-qnum'>2b</td><td class='ms-part'></td><td class='ms-content'>\\(P'(t)=210\\times0.5\\cos(0.5t-2.6)=105\\cos(0.5t-2.6)\\)</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(P'(5)=105\\cos(-0.1)\\approx 104.5\\) deer per month</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'>2c</td><td class='ms-part'></td><td class='ms-content'>The deer population is increasing at approximately 104.5 deer per month on 1 May 2014</td><td class='ms-mark'>R1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[6 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t3p1_q3",
@@ -7555,7 +7585,8 @@
       "markscheme_image_paths": [
         "images/markschemes/t3p1_q3.svg"
       ],
-      "draft": true
+      "draft": true,
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>3a</td><td class='ms-part'></td><td class='ms-content'>Correct sinusoidal shape, amplitude \\(\\sqrt{2}\\), period \\(8\\), on domain \\([-4,4]\\)</td><td class='ms-mark'>A1A1A1</td></tr><tr><td class='ms-qnum'>3b</td><td class='ms-part'></td><td class='ms-content'>\\(f(x)=\\sqrt{2}\\sin\\!\\left(\\frac{\\pi}{4}(x+1)\\right)\\); max at \\(x=1\\), min at \\(x=-3\\)</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Decreasing on \\((-4,\\,-3)\\) and \\((1,\\,4)\\)</td><td class='ms-mark'>A1A1</td></tr><tr><td class='ms-qnum'>3c</td><td class='ms-part'></td><td class='ms-content'>\\(a=\\sqrt{2}\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'>3d</td><td class='ms-part'></td><td class='ms-content'>At max: \\(\\frac{\\pi}{4}(x+c)=\\frac{\\pi}{2}\\Rightarrow c=1\\)</td><td class='ms-mark'>A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[9 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t3p1_q4",
@@ -7568,7 +7599,8 @@
       "markscheme_image_paths": [
         "images/markschemes/t3p1_q4.svg"
       ],
-      "draft": true
+      "draft": true,
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>4a</td><td class='ms-part'></td><td class='ms-content'>Adjacent \\(=\\sqrt{13^2-5^2}=\\sqrt{144}=12\\)</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(\\cos A=\\frac{12}{13}\\) AG</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'>4b</td><td class='ms-part'></td><td class='ms-content'>\\(\\cos 2A=2\\cos^2\\!A-1=2\\left(\\frac{12}{13}\\right)^2-1\\)</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(=\\frac{288}{169}-\\frac{169}{169}=\\frac{119}{169}\\)</td><td class='ms-mark'>A1A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[5 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t3p1_q5",
@@ -7581,7 +7613,8 @@
       "markscheme_image_paths": [
         "images/markschemes/t3p1_q5.svg"
       ],
-      "draft": true
+      "draft": true,
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>5a</td><td class='ms-part'></td><td class='ms-content'>Arc \\(ABC=r\\theta=5\\times0.7=3.5\\) cm</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'>5b</td><td class='ms-part'></td><td class='ms-content'>Perimeter\\(=\\)arc\\(+2r=3.5+10=13.5\\) cm</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'>5c</td><td class='ms-part'></td><td class='ms-content'>Area\\(=\\tfrac{1}{2}r^2\\theta=\\tfrac{1}{2}(25)(0.7)=8.75\\) cm\\(^2\\)</td><td class='ms-mark'>M1A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[6 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t3p1_q6",
@@ -7594,7 +7627,8 @@
       "markscheme_image_paths": [
         "images/markschemes/t3p1_q6.svg"
       ],
-      "draft": true
+      "draft": true,
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>6a</td><td class='ms-part'></td><td class='ms-content'>\\(\\tfrac{1}{2}(6)(8)\\sin\\hat{A}=16\\Rightarrow\\sin\\hat{A}=\\tfrac{2}{3}\\)</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(\\hat{A}\\approx41.8^\\circ\\) or \\(\\hat{A}\\approx138.2^\\circ\\)</td><td class='ms-mark'>A1A1</td></tr><tr><td class='ms-qnum'>6b</td><td class='ms-part'></td><td class='ms-content'>\\(\\hat{A}\\approx138.2^\\circ\\) (obtuse)</td><td class='ms-mark'></td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(BC^2=6^2+8^2-2(6)(8)\\cos138.2^\\circ\\approx171.5\\)</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(BC\\approx13.1\\) cm</td><td class='ms-mark'>A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[7 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t3p1_q7",
@@ -7607,7 +7641,8 @@
       "markscheme_image_paths": [
         "images/markschemes/t3p1_q7.svg"
       ],
-      "draft": true
+      "draft": true,
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>7a</td><td class='ms-part'></td><td class='ms-content'>Midline\\(=10\\); max at \\(x=4\\): \\(q(4+r)=0\\Rightarrow r=-4\\)</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'>7b</td><td class='ms-part'></td><td class='ms-content'>Amplitude\\(=\\tfrac{18-2}{2}=8\\Rightarrow p=8\\)</td><td class='ms-mark'>A1A1</td></tr><tr><td class='ms-qnum'>7c</td><td class='ms-part'></td><td class='ms-content'>Period\\(=2(16-4)=24\\Rightarrow q=\\frac{2\\pi}{24}=\\frac{\\pi}{12}\\)</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'>7d</td><td class='ms-part'></td><td class='ms-content'>\\(8\\cos\\!\\left(\\frac{\\pi}{12}(x-4)\\right)+10=7\\Rightarrow\\cos\\!\\left(\\frac{\\pi}{12}(x-4)\\right)=-\\frac{3}{8}\\)</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(x=4+\\frac{12}{\\pi}\\arccos\\!\\left(-\\frac{3}{8}\\right)\\approx11.5\\)</td><td class='ms-mark'>A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[8 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t3p1_q8",
@@ -7620,7 +7655,8 @@
       "markscheme_image_paths": [
         "images/markschemes/t3p1_q8.svg"
       ],
-      "draft": true
+      "draft": true,
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>8</td><td class='ms-part'></td><td class='ms-content'>\\(\\cos\\theta=\\frac{\\vec{AB}\\cdot\\vec{AC}}{|\\vec{AB}||\\vec{AC}|}=\\frac{-5\\sqrt{3}}{10}=-\\frac{\\sqrt{3}}{2}\\)</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(\\theta=\\frac{5\\pi}{6}\\) (150°)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Area\\(=\\tfrac{1}{2}|\\vec{AB}||\\vec{AC}|\\sin\\theta=\\tfrac{1}{2}(10)\\sin150^\\circ=2.5\\) cm\\(^2\\)</td><td class='ms-mark'>M1A1A1A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[6 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t3p1_q9",
@@ -7633,7 +7669,8 @@
       "markscheme_image_paths": [
         "images/markschemes/t3p1_q9.svg"
       ],
-      "draft": true
+      "draft": true,
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>9a</td><td class='ms-part'></td><td class='ms-content'>Arc \\(ACB=r(2\\pi-\\theta)=8(2\\pi-1.2)\\approx40.7\\) cm</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'>9b</td><td class='ms-part'></td><td class='ms-content'>\\(AB^2=8^2+8^2-2(8)(8)\\cos1.2=128(1-\\cos1.2)\\)</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(128(1-0.362)\\approx81.7\\Rightarrow AB\\approx9.04\\) cm</td><td class='ms-mark'>A1A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[5 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t3p1_q10",
@@ -7646,7 +7683,8 @@
       "markscheme_image_paths": [
         "images/markschemes/t3p1_q10.svg"
       ],
-      "draft": true
+      "draft": true,
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>9c</td><td class='ms-part'></td><td class='ms-content'>Perimeter\\(=\\)arc \\(ACB+AB\\approx40.7+9.04\\approx49.7\\) cm</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'>10a</td><td class='ms-part'></td><td class='ms-content'>Max\\(=r+p=2\\), Min\\(=r-p=1\\Rightarrow p=\\frac{1}{2}\\)</td><td class='ms-mark'>A1A1</td></tr><tr><td class='ms-qnum'>10b</td><td class='ms-part'></td><td class='ms-content'>\\(r=\\frac{2+1}{2}=\\frac{3}{2}\\) (midline)</td><td class='ms-mark'>A1A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[6 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t3p1_q11",
@@ -7659,7 +7697,8 @@
       "markscheme_image_paths": [
         "images/markschemes/t3p1_q11.svg"
       ],
-      "draft": true
+      "draft": true,
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>10c</td><td class='ms-part'></td><td class='ms-content'>Half period\\(=\\frac{\\pi}{2}-\\frac{\\pi}{6}=\\frac{\\pi}{3}\\Rightarrow\\)period\\(=\\frac{2\\pi}{3}\\)</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(q=\\frac{2\\pi}{2\\pi/3}=3\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'>11a</td><td class='ms-part'></td><td class='ms-content'>Amplitude of \\(f(x)=3\\sin(\\pi x)\\) is \\(\\mathbf{3}\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'>11b</td><td class='ms-part'></td><td class='ms-content'>Period\\(=\\frac{2\\pi}{\\pi}=2\\)</td><td class='ms-mark'>A1A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[5 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t3p1_q12",
@@ -7672,7 +7711,8 @@
       "markscheme_image_paths": [
         "images/markschemes/t3p1_q12.svg"
       ],
-      "draft": true
+      "draft": true,
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>11c</td><td class='ms-part'></td><td class='ms-content'>Correct sinusoidal shape, amplitude 3, period 2, on \\([0,3]\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Max \\((0.5,\\,3)\\), Min \\((1.5,\\,-3)\\), correct intercepts at \\(x=0,1,2,3\\)</td><td class='ms-mark'>A1A1A1</td></tr><tr><td class='ms-qnum'>12a</td><td class='ms-part'></td><td class='ms-content'>Arc \\(ABC=r(2\\pi-1.3)=3(2\\pi-1.3)\\approx14.95\\) cm</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'>12b</td><td class='ms-part'></td><td class='ms-content'>Shaded area\\(=\\tfrac{1}{2}r^2(2\\pi-1.3)=\\tfrac{9}{2}(2\\pi-1.3)\\approx22.4\\) cm\\(^2\\)</td><td class='ms-mark'>M1A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[8 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t3p1_q13",
@@ -7685,7 +7725,8 @@
       "markscheme_image_paths": [
         "images/markschemes/t3p1_q13.svg"
       ],
-      "draft": true
+      "draft": true,
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>13a</td><td class='ms-part'></td><td class='ms-content'>Sine rule: \\(\\frac{AC}{\\sin44^\\circ}=\\frac{15}{\\sin83^\\circ}\\)</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(AC=\\frac{15\\sin44^\\circ}{\\sin83^\\circ}\\approx10.50\\) cm</td><td class='ms-mark'>A1A1</td></tr><tr><td class='ms-qnum'>13b</td><td class='ms-part'></td><td class='ms-content'>\\(B\\hat{A}C=180^\\circ-83^\\circ-44^\\circ=53^\\circ\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Area\\(=\\tfrac{1}{2}(10.50)(15)\\sin53^\\circ\\approx62.9\\) cm\\(^2\\)</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'>13c</td><td class='ms-part'></td><td class='ms-content'>\\(\\tfrac{1}{2}(6)(10.50)\\sin\\theta=\\tfrac{1}{2}(62.9)\\Rightarrow\\sin\\theta\\approx0.998\\)</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(\\theta\\approx86.7^\\circ\\) or \\(\\theta\\approx93.3^\\circ\\)</td><td class='ms-mark'>A1A1</td></tr><tr><td class='ms-qnum'>13d</td><td class='ms-part'></td><td class='ms-content'>Using \\(\\theta\\approx93.3^\\circ\\): \\(CD^2=6^2+10.50^2-2(6)(10.50)\\cos93.3^\\circ\\)</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(CD\\approx12.4\\) cm</td><td class='ms-mark'>A1A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[15 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t3p1_q14",
@@ -7698,7 +7739,8 @@
       "markscheme_image_paths": [
         "images/markschemes/t3p1_q14.svg"
       ],
-      "draft": true
+      "draft": true,
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>14a</td><td class='ms-part'></td><td class='ms-content'>100° in 2nd quadrant: \\(\\cos100^\\circ=-\\sqrt{1-\\sin^2100^\\circ}=-\\sqrt{1-m^2}\\)</td><td class='ms-mark'>M1A1A1</td></tr><tr><td class='ms-qnum'>14b</td><td class='ms-part'></td><td class='ms-content'>\\(\\tan100^\\circ=\\frac{\\sin100^\\circ}{\\cos100^\\circ}=\\frac{m}{-\\sqrt{1-m^2}}=-\\frac{m}{\\sqrt{1-m^2}}\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'>14c</td><td class='ms-part'></td><td class='ms-content'>\\(\\sin200^\\circ=2\\sin100^\\circ\\cos100^\\circ=2m\\cdot\\left(-\\sqrt{1-m^2}\\right)\\)</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(=-2m\\sqrt{1-m^2}\\)</td><td class='ms-mark'>A1A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[7 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t3p1_q15",
@@ -7711,7 +7753,8 @@
       "markscheme_image_paths": [
         "images/markschemes/t3p1_q15.svg"
       ],
-      "draft": true
+      "draft": true,
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>15a</td><td class='ms-part'>(i)</td><td class='ms-content'>Amplitude\\(=\\frac{5-(-5)}{2}=5\\Rightarrow a=5\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>(ii) Max at \\(x=3\\Rightarrow b(3-c)=0\\Rightarrow c=3\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'>15b</td><td class='ms-part'></td><td class='ms-content'>Half period\\(=7-3=4\\Rightarrow\\)period\\(=8\\Rightarrow b=\\frac{2\\pi}{8}=\\frac{\\pi}{4}\\)</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'>15c</td><td class='ms-part'></td><td class='ms-content'>\\(5\\cos\\!\\left(\\frac{\\pi}{4}(x-3)\\right)=0\\Rightarrow\\frac{\\pi}{4}(x-3)=\\frac{\\pi}{2}\\Rightarrow x=5\\)</td><td class='ms-mark'>M1A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[6 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t3p1_q16",
@@ -7724,7 +7767,8 @@
       "markscheme_image_paths": [
         "images/markschemes/t3p1_q16.svg"
       ],
-      "draft": true
+      "draft": true,
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>16a</td><td class='ms-part'></td><td class='ms-content'>Cosine rule: \\(AC^2=8^2+11.5^2-2(8)(11.5)\\cos104^\\circ\\)</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(=196.25-184(-0.242)\\approx240.8\\Rightarrow AC\\approx15.5\\) m</td><td class='ms-mark'>A1A1</td></tr><tr><td class='ms-qnum'>16b</td><td class='ms-part'>(i)</td><td class='ms-content'>Sine rule: \\(\\sin(A\\hat{C}D)=\\frac{8\\sin104^\\circ}{15.5}\\approx0.500\\)</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(A\\hat{C}D\\approx30^\\circ\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>(ii) \\(A\\hat{C}B=73^\\circ-30^\\circ=43^\\circ\\)</td><td class='ms-mark'>A1A1</td></tr><tr><td class='ms-qnum'>16c</td><td class='ms-part'></td><td class='ms-content'>Area\\(\\triangle ADC=\\tfrac{1}{2}(8)(11.5)\\sin104^\\circ\\approx44.6\\) m\\(^2\\)</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'>16d/e</td><td class='ms-part'></td><td class='ms-content'>Area\\(\\triangle ABC\\) by inscribed angle: chord \\(AB=2(8)\\sin43^\\circ\\approx10.9\\) m</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Area\\(\\triangle ABC=\\tfrac{1}{2}(10.9)(15.5)\\sin43^\\circ\\approx57.9\\) m\\(^2\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Total shaded\\(=\\pi r^2-\\)(area \\(ABCD\\))\\(=201.1-102.5\\approx98.6\\) m\\(^2\\)</td><td class='ms-mark'>M1A1A1A1A1A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[20 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t3p1_q17",
@@ -7737,7 +7781,8 @@
       "markscheme_image_paths": [
         "images/markschemes/t3p1_q17.svg"
       ],
-      "draft": true
+      "draft": true,
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>17a</td><td class='ms-part'></td><td class='ms-content'>Max height\\(=13+122=135\\) m</td><td class='ms-mark'>A1A1</td></tr><tr><td class='ms-qnum'>17b</td><td class='ms-part'>(i)</td><td class='ms-content'>Period\\(=\\frac{60}{2.4}=25\\) minutes (shown)</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>(ii) \\(a=-61\\) (seat starts at bottom: \\(h(0)=74+a=13\\Rightarrow a=-61\\))</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(b=\\frac{2\\pi}{25}\\)</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'>17c/d</td><td class='ms-part'></td><td class='ms-content'>Various intermediate values using \\(h=74-61\\cos\\!\\left(\\frac{2\\pi t}{25}\\right)\\)</td><td class='ms-mark'>M1A1A1A1A1A1A1A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[18 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t3p1_q18",
@@ -7750,7 +7795,8 @@
       "markscheme_image_paths": [
         "images/markschemes/t3p1_q18.svg"
       ],
-      "draft": true
+      "draft": true,
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>17f</td><td class='ms-part'></td><td class='ms-content'>\\(74-61\\cos\\!\\left(\\frac{2\\pi t}{25}\\right)>105\\Rightarrow\\cos\\!\\left(\\frac{2\\pi t}{25}\\right)<-\\frac{31}{61}\\)</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(\\frac{2\\pi t}{25}\\in(\\arccos\\!\\left(-\\frac{31}{61}\\right),\\,2\\pi-\\arccos\\!\\left(-\\frac{31}{61}\\right))\\)</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Fraction of period\\(=\\frac{2\\pi-2\\arccos(-31/61)}{2\\pi}\\approx0.331\\)</td><td class='ms-mark'>M1A1A1</td></tr><tr><td class='ms-qnum'>18a</td><td class='ms-part'>(a)</td><td class='ms-content'>\\(p=3\\) (amplitude)</td><td class='ms-mark'>A1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>(b) \\(q=\\frac{\\pi}{2}\\) (period\\(=4\\))</td><td class='ms-mark'>A1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>(c) \\(r=2\\) (midline/vertical shift)</td><td class='ms-mark'>A1A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[11 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t3p1_q19",
@@ -7763,7 +7809,8 @@
       "markscheme_image_paths": [
         "images/markschemes/t3p1_q19.svg"
       ],
-      "draft": true
+      "draft": true,
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>19a</td><td class='ms-part'></td><td class='ms-content'>\\(\\tfrac{1}{2}(18)(x)\\sin50^\\circ=80\\Rightarrow x=\\frac{80}{9\\sin50^\\circ}\\approx11.6\\) cm</td><td class='ms-mark'>M1A1A1</td></tr><tr><td class='ms-qnum'>19b</td><td class='ms-part'></td><td class='ms-content'>\\(BC^2=18^2+11.6^2-2(18)(11.6)\\cos50^\\circ\\)</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(=324+134.6-417.6(0.643)\\approx189.9\\Rightarrow BC\\approx13.8\\) cm</td><td class='ms-mark'>A1A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[6 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t3p1_q20",
@@ -7776,7 +7823,8 @@
       "markscheme_image_paths": [
         "images/markschemes/t3p1_q20.svg"
       ],
-      "draft": true
+      "draft": true,
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>20a</td><td class='ms-part'></td><td class='ms-content'>\\(OC=r\\cos1.4\\) (or \\(BC=r\\sin1.4\\))</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'>20b</td><td class='ms-part'></td><td class='ms-content'>Shaded area\\(=\\)sector\\(OAB-\\triangle OCB\\)</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(=\\tfrac{1}{2}r^2(1.4)-\\tfrac{1}{2}(r\\cos1.4)(r\\sin1.4)\\)</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(=\\frac{r^2}{2}\\left[1.4-\\cos(1.4)\\sin(1.4)\\right]=25\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(r^2\\approx40.6\\Rightarrow r\\approx6.37\\) cm</td><td class='ms-mark'>M1A1A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[8 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t3p1_q21",
@@ -7789,7 +7837,8 @@
       "markscheme_image_paths": [
         "images/markschemes/t3p1_q21.svg"
       ],
-      "draft": true
+      "draft": true,
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>20b</td><td class='ms-part'></td><td class='ms-content'>(continued) \\(r\\approx6.37\\) cm</td><td class='ms-mark'></td></tr><tr><td class='ms-qnum'>21a</td><td class='ms-part'></td><td class='ms-content'>From the graph, \\(k=5\\)</td><td class='ms-mark'>M1A1A1</td></tr><tr><td class='ms-qnum'>21b</td><td class='ms-part'></td><td class='ms-content'>Min of \\(f=k+\\min(\\sin)=5+(-1)=4\\)</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'>21c</td><td class='ms-part'></td><td class='ms-content'>Translation vector: horizontal shift \\(=-\\frac{\\pi}{4}\\), vertical shift \\(=5\\)</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(p=-\\frac{\\pi}{4},\\quad q=5\\)</td><td class='ms-mark'>A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[7 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t3p1_q22",
@@ -7802,7 +7851,8 @@
       "markscheme_image_paths": [
         "images/markschemes/t3p1_q22.svg"
       ],
-      "draft": true
+      "draft": true,
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>22a</td><td class='ms-part'></td><td class='ms-content'>By extended sine rule / inscribed angle: \\(\\frac{BC}{\\sin(B\\hat{A}C)}=2r=14\\)</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(\\sin(B\\hat{A}C)=\\frac{10.4}{14}\\approx0.743\\Rightarrow B\\hat{A}C\\approx0.835\\) rad</td><td class='ms-mark'>A1A1</td></tr><tr><td class='ms-qnum'>22b</td><td class='ms-part'></td><td class='ms-content'>\\(A\\hat{B}C=\\pi-1.058-0.835\\approx1.249\\) rad</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(\\frac{AC}{\\sin(A\\hat{B}C)}=14\\Rightarrow AC=14\\sin(1.249)\\approx13.3\\) cm</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'>22c</td><td class='ms-part'></td><td class='ms-content'>Arc \\(ABC=2r(A\\hat{C}B+B\\hat{A}C)=14(1.058+0.835)\\approx26.5\\) cm</td><td class='ms-mark'>M1A1A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[9 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t3p1_q23",
@@ -7815,7 +7865,8 @@
       "markscheme_image_paths": [
         "images/markschemes/t3p1_q23.svg"
       ],
-      "draft": true
+      "draft": true,
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>23a</td><td class='ms-part'></td><td class='ms-content'>Chord \\(AB=2r\\sin\\!\\left(\\frac{AOB}{2}\\right)=2(20)\\sin0.75\\approx27.3\\) m</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'>23b</td><td class='ms-part'></td><td class='ms-content'>Area\\(\\triangle AOB=\\tfrac{1}{2}(20)^2\\sin1.5\\approx199.5\\) m\\(^2\\)</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'>23c</td><td class='ms-part'></td><td class='ms-content'>\\(A\\hat{O}C=2\\pi-(AOB+BOC)=2\\pi-3.9\\approx2.38\\) rad</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Arc \\(ADC=20(2\\pi-3.9)\\approx47.7\\) m</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'>23d</td><td class='ms-part'></td><td class='ms-content'>Shaded\\(=\\triangle AOB+\\)sector\\(AOC=199.5+\\tfrac{1}{2}(20)^2(2.38)\\approx675.5\\approx676\\) m\\(^2\\)</td><td class='ms-mark'>M1A1A1</td></tr><tr><td class='ms-qnum'>23e</td><td class='ms-part'></td><td class='ms-content'>Tins required\\(=\\lceil676/140\\rceil=5\\) tins</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Total cost\\(=5\\times32=\\$160\\)</td><td class='ms-mark'>A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[14 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t3p1_q24",
@@ -7828,7 +7879,8 @@
       "markscheme_image_paths": [
         "images/markschemes/t3p1_q24.svg"
       ],
-      "draft": true
+      "draft": true,
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>24a</td><td class='ms-part'></td><td class='ms-content'>Amplitude: \\(a=3\\)</td><td class='ms-mark'>A1A1</td></tr><tr><td class='ms-qnum'>24b</td><td class='ms-part'></td><td class='ms-content'>Period\\(=4\\Rightarrow b=\\frac{2\\pi}{4}=\\frac{\\pi}{2}\\)</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'>24c</td><td class='ms-part'></td><td class='ms-content'>At \\(x=2\\): \\(f'(2)=3\\cdot\\frac{\\pi}{2}\\cos(\\pi)=-3\\frac{\\pi}{2}\\neq0\\)... gradient\\(=0\\) at stationary point</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Gradient of tangent\\(=0\\Rightarrow\\)normal is vertical: equation \\(x=2\\)</td><td class='ms-mark'>A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[6 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t3p1_q25",
@@ -7841,7 +7893,8 @@
       "markscheme_image_paths": [
         "images/markschemes/t3p1_q25.svg"
       ],
-      "draft": true
+      "draft": true,
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>25a</td><td class='ms-part'></td><td class='ms-content'>\\(R\\hat{P}Q=180^\\circ-(55^\\circ+60^\\circ)=65^\\circ\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'>25b</td><td class='ms-part'></td><td class='ms-content'>Sine rule: \\(\\frac{PR}{\\sin(PQR)}=\\frac{QR}{\\sin(RPQ)}\\)</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(PR=\\frac{QR\\sin60^\\circ}{\\sin65^\\circ}\\approx7.02\\) cm</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'>25c</td><td class='ms-part'></td><td class='ms-content'>Area\\(=\\tfrac{1}{2}(PR)(QR)\\sin(PRQ)=\\tfrac{1}{2}(7.02)(...)\\sin55^\\circ\\approx29.7\\) cm\\(^2\\)</td><td class='ms-mark'>M1A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[4 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t3p1_q26",
@@ -7854,7 +7907,8 @@
       "markscheme_image_paths": [
         "images/markschemes/t3p1_q26.svg"
       ],
-      "draft": true
+      "draft": true,
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>26a</td><td class='ms-part'></td><td class='ms-content'>In triangle OPQ: \\(PQ=2r\\sin\\theta\\) (by sine rule / half-angle) AG</td><td class='ms-mark'>M1A1A1A1</td></tr><tr><td class='ms-qnum'>26b</td><td class='ms-part'></td><td class='ms-content'>Constraint gives \\(f(\\theta)=0\\); solving numerically \\(\\theta\\approx1.22\\) rad</td><td class='ms-mark'>M1A1A1</td></tr><tr><td class='ms-qnum'>26c</td><td class='ms-part'></td><td class='ms-content'>Since \\(PQ < l\\) requires \\(2r\\sin\\theta < l\\), valid for \\(0<\\theta<1.22\\)</td><td class='ms-mark'>M1A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[8 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t3p1_q27",
@@ -7867,7 +7921,8 @@
       "markscheme_image_paths": [
         "images/markschemes/t3p1_q27.svg"
       ],
-      "draft": true
+      "draft": true,
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>27a</td><td class='ms-part'></td><td class='ms-content'>Amplitude\\(=3\\Rightarrow a=3\\)</td><td class='ms-mark'>A1A1</td></tr><tr><td class='ms-qnum'>27b</td><td class='ms-part'></td><td class='ms-content'>Period\\(=\\pi\\Rightarrow b=\\frac{2\\pi}{\\pi}=2\\)</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'>27c</td><td class='ms-part'></td><td class='ms-content'>Phase shift: \\(c=\\frac{\\pi}{4}\\) (from maximum position)</td><td class='ms-mark'>M1A1A1A1A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[9 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t3p1_q28",
@@ -7880,7 +7935,8 @@
       "markscheme_image_paths": [
         "images/markschemes/t3p1_q28.svg"
       ],
-      "draft": true
+      "draft": true,
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>28a</td><td class='ms-part'></td><td class='ms-content'>Show: use double angle / expansion to rewrite in required form AG</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'>28b</td><td class='ms-part'></td><td class='ms-content'>Sketch: sinusoidal with correct shift and amplitude</td><td class='ms-mark'>A1A1</td></tr><tr><td class='ms-qnum'>28c</td><td class='ms-part'></td><td class='ms-content'>\\(p=2,\\quad k=-\\frac{\\pi}{2}\\)</td><td class='ms-mark'>A1A1A1A1A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[5 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t3p1_q29",
@@ -7893,7 +7949,8 @@
       "markscheme_image_paths": [
         "images/markschemes/t3p1_q29.svg"
       ],
-      "draft": true
+      "draft": true,
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>29a</td><td class='ms-part'>(i)</td><td class='ms-content'>Using cosine rule in the triangle: \\(AB^2=(p+4)^2+p^2-2(p+4)p\\cos0.7\\)</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(AB=6\\), so \\(36=p^2(41-40\\cos0.7)\\) AG</td><td class='ms-mark'>M1A1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>(ii) \\(41-40\\cos0.7=41-40(0.7648)\\approx10.41\\)</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(p^2=\\frac{36}{10.41}\\approx3.46\\Rightarrow p\\approx1.86\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'>29b</td><td class='ms-part'></td><td class='ms-content'>\\(BD=p+p+4=2p+4=2(1.86)+4\\approx... \\); \\(BD=6\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'>29c</td><td class='ms-part'></td><td class='ms-content'>\\(A\\hat{D}B=\\arccos\\!\\left(\\frac{4^2+p^2-36}{2(4)p}\\right)\\)... \\(\\approx2.21\\) rad</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'>29d</td><td class='ms-part'></td><td class='ms-content'>Shaded area\\(=\\)sector\\(-\\)triangle\\(\\approx5.93\\) cm\\(^2\\)</td><td class='ms-mark'>M1A1A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[11 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t3p1_q30",
@@ -7906,7 +7963,8 @@
       "markscheme_image_paths": [
         "images/markschemes/t3p1_q30.svg"
       ],
-      "draft": true
+      "draft": true,
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>30a</td><td class='ms-part'></td><td class='ms-content'>Given information \\(\\Rightarrow\\sin\\theta=\\frac{2}{\\sqrt{13}}\\), \\(\\theta\\) obtuse</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(\\cos\\theta=-\\sqrt{1-\\frac{4}{13}}=-\\sqrt{\\frac{9}{13}}=-\\frac{3}{\\sqrt{13}}\\)</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(=-\\frac{3\\sqrt{13}}{13}\\)</td><td class='ms-mark'></td></tr><tr><td class='ms-qnum'>30b</td><td class='ms-part'></td><td class='ms-content'>\\(\\tan\\theta=\\frac{\\sin\\theta}{\\cos\\theta}=\\frac{2/\\sqrt{13}}{-3/\\sqrt{13}}=-\\frac{2}{3}\\)</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(\\tan2\\theta=\\frac{2\\tan\\theta}{1-\\tan^2\\theta}=\\frac{2(-2/3)}{1-4/9}=\\frac{-4/3}{5/9}\\)</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(=-\\frac{4}{3}\\cdot\\frac{9}{5}=-\\frac{12}{5}\\)</td><td class='ms-mark'>A1A1A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[8 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t4_sl_q1",

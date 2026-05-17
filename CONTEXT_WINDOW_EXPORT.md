@@ -16,19 +16,20 @@ Project: `AA-HL-Question-Bank`
 
 ## Most Recent Completed Work (2026-05-17)
 
-### KaTeX Markschemes — t2p1, t2_5, t2_math_sl (2026-05-17)
+### KaTeX Markschemes — t2_6, t3_trig, t3p1 (2026-05-17)
 
-- **t2p1 (38 questions):** All 38 t2p1 markschemes corrected and overwritten (previous session had 21 wrong entries from garbled PDF extraction). Answers verified from question images directly.
-- **t2_5 (17 questions):** All 17 t2_5 markschemes added — polynomial long division, remainder/factor theorem, complex numbers.
-- **t2_math_sl_functions_equations_2023 (36 questions):** All 36 markschemes added — composite/inverse functions, quadratic/trig models, transformations, exponential growth.
-- **Total with latex_solution now: ~212** (was 137 at session start, +75 this session across t2p1 fix + t2_5 + t2_math_sl)
+- **t2_6 (32 questions):** All 32 markschemes added — trig equations, double-angle identities, compound angles, trig models.
+- **t3_trig (29 questions):** All 29 markschemes added — circular functions, sinusoidal models, Ferris wheel, area formula, trig proofs.
+- **t3p1 (29/30 questions):** 29 markschemes added (q1 skipped — triangle diagram not in image). Covers deer population sinusoidal, arc/sector geometry, triangle trig (sine/cosine rules), double-angle identities, Ferris wheel probability, inscribed circle problems.
+- **Total with latex_solution now: ~270** (was ~212 at session start, +58 this session)
 - Committed and pushed to main.
 
 **Remaining t2 topics:**
-- t2_6 (32 questions — NOT YET STARTED)
+- t2_6 ✓ DONE
 
-**Remaining topics after t2:**
-- t3 (trig/circular), t4 (stats/probability), t5/t6 (calculus — 244+ questions, largest block)
+**Remaining topics (in order):**
+- t4 (stats/probability — ~98 questions)
+- t5/t6 (calculus — 244+ questions, largest block)
 
 ### Math/Tutoring Bank — Full Rebuild
 - Processed **18 new PDFs** from `~/Downloads/Math/` covering Topics 1–5.
