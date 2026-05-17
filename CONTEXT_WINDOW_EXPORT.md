@@ -1,6 +1,6 @@
 # Context Window Export (for new chat)
 
-Date: 2026-05-16
+Date: 2026-05-17
 Project: `AA-HL-Question-Bank`
 
 ## Current State
@@ -14,7 +14,21 @@ Project: `AA-HL-Question-Bank`
 - User preference: when `All levels` is selected, prioritize `SL` and suppress `HL` duplicates (biology/chemistry only).
 - User constraint: do not change Paper 1A / Paper 2 / Paper 3 logic when fixing unrelated issues.
 
-## Most Recent Completed Work (2026-05-16)
+## Most Recent Completed Work (2026-05-17)
+
+### KaTeX Markschemes — t2p1, t2_5, t2_math_sl (2026-05-17)
+
+- **t2p1 (38 questions):** All 38 t2p1 markschemes corrected and overwritten (previous session had 21 wrong entries from garbled PDF extraction). Answers verified from question images directly.
+- **t2_5 (17 questions):** All 17 t2_5 markschemes added — polynomial long division, remainder/factor theorem, complex numbers.
+- **t2_math_sl_functions_equations_2023 (36 questions):** All 36 markschemes added — composite/inverse functions, quadratic/trig models, transformations, exponential growth.
+- **Total with latex_solution now: ~212** (was 137 at session start, +75 this session across t2p1 fix + t2_5 + t2_math_sl)
+- Committed and pushed to main.
+
+**Remaining t2 topics:**
+- t2_6 (32 questions — NOT YET STARTED)
+
+**Remaining topics after t2:**
+- t3 (trig/circular), t4 (stats/probability), t5/t6 (calculus — 244+ questions, largest block)
 
 ### Math/Tutoring Bank — Full Rebuild
 - Processed **18 new PDFs** from `~/Downloads/Math/` covering Topics 1–5.
@@ -115,7 +129,7 @@ Skipped: `DP1_and_DP2_AA_HL_Course_Overview_2025_2027.pdf` (course outline, no q
 - Physics data: `data/physics/processed/questions.json`
 - Biology data: `data/biology/processed/questions.json`
 - Chemistry data: `data/chemistry/processed/questions.json`
-- Math data: `data/tutoring/processed/questions.json` (717 q), `data/tutoring/processed/markschemes.json`
+- Math data: `data/tutoring/processed/questions.json` (717 q), `data/tutoring/processed/markschemes.json` (~212 with latex_solution)
 
 ## Infra Context
 - Deploy target: Render (Docker).
