@@ -6585,7 +6585,7 @@
         "images/markschemes/t2p1_q1.svg"
       ],
       "draft": true,
-      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>1.</td><td class='ms-part'>(a)</td><td class='ms-content'>Substituting \\((2, 9)\\): \\(f(2) = 8a + 4b + c = 9\\quad\\blacksquare\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(b)</td><td class='ms-content'>\\(f'(x) = 3ax^2 + 2bx\\); at local min \\(x=1\\): \\(f'(1) = 3a + 2b = 0\\)</td><td class='ms-mark'>M1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(f(1) = a + b + c = 4\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(c)</td><td class='ms-content'>From \\(3a+2b=0\\): \\(b = -\\tfrac{3a}{2}\\)</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Subtracting \\(f(1)=4\\) from \\(f(2)=9\\): \\(7a+3b=5 \\Rightarrow 7a - \\tfrac{9a}{2} = 5 \\Rightarrow a = 2\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(b = -3,\\quad c = 5\\)</td><td class='ms-mark'>A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[7 marks]</td></tr></tbody></table>"
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>1</td><td class='ms-part'></td><td class='ms-content'>\\(f'(x) = 3ax^2 + 2bx\\); at stationary point \\(x=1\\): \\(3a + 2b = 0\\)</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(f(0) = c = 5\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(f(1) = a + b + c = 4 \\Rightarrow a + b = -1\\)</td><td class='ms-mark'></td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Substituting \\(b = -\\frac{3a}{2}\\): \\(a = 2,\\ b = -3\\)</td><td class='ms-mark'>A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[3 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t2p1_q2",
@@ -6599,7 +6599,7 @@
         "images/markschemes/t2p1_q2.svg"
       ],
       "draft": true,
-      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>2.</td><td class='ms-part'>(a)</td><td class='ms-content'>By cosine rule: \\(PQ^2 = r^2 + r^2 - 2r^2\\cos(2\\theta) = 2r^2(1-\\cos 2\\theta)\\)</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Using \\(1-\\cos2\\theta = 2\\sin^2\\theta\\): \\(PQ^2 = 4r^2\\sin^2\\theta\\)</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Since \\(0<\\theta<\\pi\\), \\(\\sin\\theta>0\\), so \\(PQ = 2r\\sin\\theta\\quad\\blacksquare\\)</td><td class='ms-mark'>A1 AG</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(b)</td><td class='ms-content'>Arc length \\(l = r\\cdot 2\\theta = 2r\\theta\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(1.3\\cdot PQ - l = 0 \\Rightarrow 1.3(2r\\sin\\theta) - 2r\\theta = 0 \\Rightarrow 1.3\\sin\\theta = \\theta\\)</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>From GDC (or graph of \\(f(\\theta) = 2.6\\sin\\theta - 2\\theta\\)): \\(\\theta \\approx 1.28\\) rad</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(c)</td><td class='ms-content'>\\(f(\\theta) = 2.6\\sin\\theta - 2\\theta\\), root at \\(\\theta \\approx 1.28\\) where graph crosses \\(x\\)-axis</td><td class='ms-mark'>A2</td></tr><tr><td colspan='3'></td><td class='ms-total'>[9 marks]</td></tr></tbody></table>"
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>2</td><td class='ms-part'>a</td><td class='ms-content'>Half the central angle is \\(\\theta\\); \\(\\text{PQ}/2 = r\\sin\\theta\\), so \\(\\text{PQ} = 2r\\sin\\theta\\)</td><td class='ms-mark'>AG</td></tr><tr><td class='ms-qnum'>2</td><td class='ms-part'>b</td><td class='ms-content'>\\(1.3\\sin\\theta = \\theta\\) solved using GDC</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(\\theta \\approx 1.28\\) (radians)</td><td class='ms-mark'>A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[3 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t2p1_q3",
@@ -6613,7 +6613,7 @@
         "images/markschemes/t2p1_q3.svg"
       ],
       "draft": true,
-      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>3.</td><td class='ms-part'>(a)</td><td class='ms-content'>Axis of symmetry: \\(x = 4\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(b)</td><td class='ms-content'>\\(h = 4,\\quad k = 2\\)</td><td class='ms-mark'>A1 A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[3 marks]</td></tr></tbody></table>"
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>3</td><td class='ms-part'>a</td><td class='ms-content'>Axis of symmetry \\(x = 4\\), so \\(h = 4\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Vertex at \\((4,\\,2)\\), so \\(k = 2\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'>3</td><td class='ms-part'>b</td><td class='ms-content'>Using \\(f(0) = 6\\): \\(a(0-4)^2 + 2 = 6 \\Rightarrow 16a = 4\\)</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(a = \\dfrac{1}{4}\\)</td><td class='ms-mark'>A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[4 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t2p1_q4",
@@ -6627,7 +6627,7 @@
         "images/markschemes/t2p1_q4.svg"
       ],
       "draft": true,
-      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>4.</td><td class='ms-part'>(a)</td><td class='ms-content'>Equal roots \\(\\Rightarrow \\Delta = 0\\): \\(k^2 - 4\\cdot\\tfrac{1}{2}\\cdot 8 = 0\\)</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(k^2 = 16 \\Rightarrow k = \\pm 4\\)</td><td class='ms-mark'>A1 A1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(b)</td><td class='ms-content'>No roots when \\(\\Delta < 0\\): \\(k^2 < 16 \\Rightarrow -4 < k < 4\\)</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Integer values of \\(k\\) in \\([-5,5]\\) with no roots: \\(-3,-2,-1,0,1,2,3\\) \\(\\Rightarrow 7\\) values</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Total integer values in \\([-5,5]\\): \\(11\\). \\(P = \\dfrac{7}{11}\\)</td><td class='ms-mark'>M1 A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[8 marks]</td></tr></tbody></table>"
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>4</td><td class='ms-part'>a</td><td class='ms-content'>Equal roots when discriminant \\(= 0\\): \\(k^2 - 4(1)(4) = 0 \\Rightarrow k^2 = 16\\)</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(k = \\pm 4\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'>4</td><td class='ms-part'>b</td><td class='ms-content'>\\(k \\in \\{-5,-4,-3,\\ldots,5\\}\\) (11 values); no real roots when \\(-4 < k < 4\\): 7 values</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(P(\\text{no real roots}) = \\dfrac{7}{11}\\)</td><td class='ms-mark'>A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[4 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t2p1_q5",
@@ -6641,7 +6641,7 @@
         "images/markschemes/t2p1_q5.svg"
       ],
       "draft": true,
-      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>5.</td><td class='ms-part'>(a)</td><td class='ms-content'>Let \\(y = 2x+4 \\Rightarrow x = \\dfrac{y-4}{2}\\)</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(f^{-1}(x) = \\dfrac{x-4}{2}\\)</td><td class='ms-mark'>A1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(b)</td><td class='ms-content'>\\((f\\circ g)(x) = f(7x^2) = 2(7x^2)+4 = 14x^2+4\\)</td><td class='ms-mark'>M1 A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[5 marks]</td></tr></tbody></table>"
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>5</td><td class='ms-part'>a</td><td class='ms-content'>\\(f^{-1}(x) = \\dfrac{x-4}{2}\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'>5</td><td class='ms-part'>b</td><td class='ms-content'>\\((f \\circ g)(x) = f(7x^2) = 14x^2 + 4\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'>5</td><td class='ms-part'>c</td><td class='ms-content'>\\((f \\circ g)(3.5) = 14(3.5)^2 + 4 = 14(12.25) + 4 = 175.5\\)</td><td class='ms-mark'>A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[3 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t2p1_q6",
@@ -6655,7 +6655,7 @@
         "images/markschemes/t2p1_q6.svg"
       ],
       "draft": true,
-      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>6.</td><td class='ms-part'>(a)</td><td class='ms-content'>\\(A(0) = 10\\times(0.5)^0 = 10\\) mg L\\(^{-1}\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(b)</td><td class='ms-content'>\\(A(50) = 10\\times(0.5)^{0.7} \\approx 6.16\\) mg L\\(^{-1}\\)</td><td class='ms-mark'>M1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(c)</td><td class='ms-content'>Solve \\(10(0.5)^{0.014t} = 0.395\\):</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\((0.5)^{0.014t} = 0.0395\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(0.014t\\ln(0.5) = \\ln(0.0395) \\Rightarrow t = \\dfrac{\\ln(0.0395)}{0.014\\ln(0.5)} \\approx 324\\) min</td><td class='ms-mark'>M1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(13{:}00 + 324\\text{ min} = 18{:}24\\)</td><td class='ms-mark'>A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[8 marks]</td></tr></tbody></table>"
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>6</td><td class='ms-part'>a</td><td class='ms-content'>\\(A(0) = 10\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'>6</td><td class='ms-part'>b</td><td class='ms-content'>\\(A(50) \\approx 6.16\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'>6</td><td class='ms-part'>c</td><td class='ms-content'>Time \\(\\approx\\) 18 h 24 min (i.e. 18:24)</td><td class='ms-mark'>A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[3 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t2p1_q7",
@@ -6669,7 +6669,7 @@
         "images/markschemes/t2p1_q7.svg"
       ],
       "draft": true,
-      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>7.</td><td class='ms-part'>(a)</td><td class='ms-content'>Stretch by \\(\\tfrac{1}{3}\\) in \\(y\\)-direction: \\(\\tfrac{1}{3}f(t) = \\dfrac{2}{3} + \\dfrac{7}{3}t^2\\)</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Then translate by \\(\\binom{2}{-4}\\): replace \\(t\\) with \\(t-2\\), subtract 4:</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(v(t) = \\dfrac{2}{3} + \\dfrac{7}{3}(t-2)^2 - 4 = \\dfrac{7}{3}(t-2)^2 - \\dfrac{10}{3}\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(a = \\dfrac{7}{3},\\quad b = 2,\\quad c = -\\dfrac{10}{3}\\)</td><td class='ms-mark'>A1 A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[5 marks]</td></tr></tbody></table>"
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>7</td><td class='ms-part'>a</td><td class='ms-content'>\\(v(t) = \\dfrac{7}{3}(t-2)^2 - \\dfrac{10}{3}\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'>7</td><td class='ms-part'>b</td><td class='ms-content'>Distance \\(= \\displaystyle\\int_0^T |v(t)|\\,\\mathrm{d}t\\) (GDC, splitting at sign-change of \\(v\\))</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Distance \\(\\approx 59.0\\)</td><td class='ms-mark'>A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[3 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t2p1_q8",
@@ -6683,7 +6683,7 @@
         "images/markschemes/t2p1_q8.svg"
       ],
       "draft": true,
-      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>8.</td><td class='ms-part'>(a)(i)</td><td class='ms-content'>\\(u_4 = 40\\!\\left(\\tfrac{1}{2}\\right)^3 = 5\\)</td><td class='ms-mark'>A1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(a)(ii)</td><td class='ms-content'>\\(S_\\infty = \\dfrac{40}{1-\\frac{1}{2}} = 80\\)</td><td class='ms-mark'>M1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(b)(i)</td><td class='ms-content'>\\(d = \\dfrac{-8-(-36)}{7} = 4\\)</td><td class='ms-mark'>M1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(b)(ii)</td><td class='ms-content'>\\(S_n = \\dfrac{n}{2}\\bigl(2(-36)+(n-1)\\cdot4\\bigr) = n(2n-38) = 2n^2-38n\\quad\\blacksquare\\)</td><td class='ms-mark'>M1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(c)</td><td class='ms-content'>\\(S_\\infty = 2S_n\\Rightarrow 80 = 2(2n^2-38n)\\Rightarrow n^2-19n-20=0\\)</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\((n-20)(n+1)=0 \\Rightarrow n = 20\\)</td><td class='ms-mark'>A1 A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[14 marks]</td></tr></tbody></table>"
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>8</td><td class='ms-part'>a</td><td class='ms-content'>\\(u_4 = u_1 r^3 = 5\\) and \\(S_\\infty = \\dfrac{u_1}{1-r} = 80\\)</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Solving: \\(r = \\dfrac{1}{2},\\ u_1 = 40\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'>8</td><td class='ms-part'>b</td><td class='ms-content'>\\(d = 4\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'>8</td><td class='ms-part'>c</td><td class='ms-content'>\\(S_n = \\dfrac{n}{2}\\bigl(2u_1 + (n-1)d\\bigr) = 2n^2 - 38n\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'>8</td><td class='ms-part'>d</td><td class='ms-content'>\\(S_n > 0\\) first at \\(n = 20\\) (since \\(S_{19} = 0\\))</td><td class='ms-mark'>A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[5 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t2p1_q9",
@@ -6697,7 +6697,7 @@
         "images/markschemes/t2p1_q9.svg"
       ],
       "draft": true,
-      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>9.</td><td class='ms-part'>(a)</td><td class='ms-content'>Sketch: starts at \\((0,0)\\), rises to max near \\(x = \\tfrac{10}{3}\\approx 3.33\\), then decreases toward 0.</td><td class='ms-mark'>A2</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(b)(i)</td><td class='ms-content'>\\(x\\)-coordinate of max: \\(x = \\dfrac{10}{3}\\approx 3.33\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(b)(ii)</td><td class='ms-content'>\\(f\\) increasing on \\(\\left[0,\\,\\dfrac{10}{3}\\right]\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(c)</td><td class='ms-content'>\\(f'(x) = 20e^{-0.3x} + 20x\\cdot(-0.3)e^{-0.3x}\\)</td><td class='ms-mark'>M1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(= e^{-0.3x}(20 - 6x) = (20-6x)e^{-0.3x}\\quad\\blacksquare\\)</td><td class='ms-mark'>A1 AG</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(d)</td><td class='ms-content'>Rate of change is \\(f'(x) = (20-6x)e^{-0.3x}\\). Differentiate again:</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(f''(x) = -6e^{-0.3x} + (20-6x)(-0.3)e^{-0.3x} = e^{-0.3x}(1.8x-12)\\)</td><td class='ms-mark'>A1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(f''(x)>0\\) when \\(x > \\dfrac{12}{1.8} = \\dfrac{20}{3}\\approx 6.67\\)</td><td class='ms-mark'>A1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Rate of change of \\(f\\) is increasing for \\(x > \\dfrac{20}{3}\\)</td><td class='ms-mark'>A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[15 marks]</td></tr></tbody></table>"
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>9</td><td class='ms-part'>a</td><td class='ms-content'>\\(f(x) = 20x\\,e^{-0.3x}\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'>9</td><td class='ms-part'>b</td><td class='ms-content'>\\(f'(x) = 20e^{-0.3x} + 20x(-0.3)e^{-0.3x} = (20-6x)e^{-0.3x}\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Maximum when \\(f'(x) = 0 \\Rightarrow x = \\dfrac{10}{3}\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'>9</td><td class='ms-part'>c</td><td class='ms-content'>\\(f''(x) = (1.8x - 12)e^{-0.3x}\\); \\(f''(x) > 0\\) when \\(x > \\dfrac{20}{3}\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Rate of change of \\(f\\) is increasing for \\(x > \\dfrac{20}{3}\\)</td><td class='ms-mark'></td></tr><tr><td colspan='3'></td><td class='ms-total'>[4 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t2p1_q10",
@@ -6711,7 +6711,7 @@
         "images/markschemes/t2p1_q10.svg"
       ],
       "draft": true,
-      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>10.</td><td class='ms-part'>(a)</td><td class='ms-content'>\\((g\\circ f)(x) = g(7-2x) = (7-2x)+3 = 10-2x\\)</td><td class='ms-mark'>A1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(b)</td><td class='ms-content'>\\(g^{-1}(x) = x - 3\\)</td><td class='ms-mark'>A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[3 marks]</td></tr></tbody></table>"
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>10</td><td class='ms-part'>a</td><td class='ms-content'>\\((g \\circ f)(x) = g(7-2x) = (7-2x)+3 = 10-2x\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'>10</td><td class='ms-part'>b</td><td class='ms-content'>\\(g^{-1}(x) = x - 3\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'>10</td><td class='ms-part'>c</td><td class='ms-content'>\\((f \\circ g^{-1})(5) = f(g^{-1}(5)) = f(2) = 7-4 = 3\\)</td><td class='ms-mark'>A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[3 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t2p1_q11",
@@ -6725,7 +6725,7 @@
         "images/markschemes/t2p1_q11.svg"
       ],
       "draft": true,
-      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>11.</td><td class='ms-part'>(a)</td><td class='ms-content'>Equal roots \\(\\Rightarrow \\Delta = 0\\): \\((-4k)^2 - 4(2k)(1) = 0\\)</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(16k^2 - 8k = 0 \\Rightarrow 8k(2k-1) = 0\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Since \\(k\\neq 0\\): \\(k = \\dfrac{1}{2}\\)</td><td class='ms-mark'>A1 A1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(b)</td><td class='ms-content'>When \\(k=\\tfrac{1}{2}\\): \\(f(x) = x^2-2x+1 = (x-1)^2\\), vertex \\((1,0)\\)</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(y=p\\) intersects \\(f\\) iff \\(p \\geq 0\\)</td><td class='ms-mark'>A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[7 marks]</td></tr></tbody></table>"
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>11</td><td class='ms-part'>a</td><td class='ms-content'>\\(k = \\dfrac{1}{2}\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'>11</td><td class='ms-part'>b</td><td class='ms-content'>\\(p \\geq 0\\)</td><td class='ms-mark'>A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[2 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t2p1_q12",
@@ -6739,7 +6739,7 @@
         "images/markschemes/t2p1_q12.svg"
       ],
       "draft": true,
-      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>12.</td><td class='ms-part'>(a)</td><td class='ms-content'>\\(v(0) = 2(0)+\\cos(0) = 1\\) m s\\(^{-1}\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(b)(i)</td><td class='ms-content'>\\(\\dfrac{dv}{dt} = 2 - 2\\sin 2t = 0 \\Rightarrow \\sin 2k = 1 \\Rightarrow 2k = \\dfrac{\\pi}{2} \\Rightarrow k = \\dfrac{\\pi}{4}\\quad\\blacksquare\\)</td><td class='ms-mark'>M1 A1 AG</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(b)(ii)</td><td class='ms-content'>\\(v\\!\\left(\\dfrac{\\pi}{4}\\right) = 2\\cdot\\dfrac{\\pi}{4}+\\cos\\!\\left(\\dfrac{\\pi}{2}\\right) = \\dfrac{\\pi}{2}\\) m s\\(^{-1}\\)</td><td class='ms-mark'>M1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(c)</td><td class='ms-content'>\\(\\dfrac{dv}{dt} = 2-2\\sin2t \\geq 0\\) for all \\(t\\in[0,2]\\), so \\(v\\) is always increasing.</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Sketch: smooth increasing curve from \\((0,1)\\) with inflection at \\(t=\\pi/4\\approx0.785\\).</td><td class='ms-mark'>A1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(d)</td><td class='ms-content'>\\(d = \\displaystyle\\int_0^1 v\\,dt = \\left[t^2+\\dfrac{\\sin 2t}{2}\\right]_0^1 = 1+\\dfrac{\\sin 2}{2}\\approx 1.46\\) m</td><td class='ms-mark'>M1 A1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Represent \\(d\\) as the area under the \\(v\\)-\\(t\\) graph from \\(t=0\\) to \\(t=1\\).</td><td class='ms-mark'>A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[13 marks]</td></tr></tbody></table>"
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>12</td><td class='ms-part'>a</td><td class='ms-content'>\\(v(0) = 1\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'>12</td><td class='ms-part'>b</td><td class='ms-content'>\\(k = \\dfrac{\\pi}{4}\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'>12</td><td class='ms-part'>c</td><td class='ms-content'>\\(v\\!\\left(\\dfrac{\\pi}{4}\\right) = \\dfrac{\\pi}{2}\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'>12</td><td class='ms-part'>d</td><td class='ms-content'>\\(d = 1 + \\dfrac{\\sin 2}{2}\\)</td><td class='ms-mark'>A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[4 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t2p1_q13",
@@ -6753,7 +6753,7 @@
         "images/markschemes/t2p1_q13.svg"
       ],
       "draft": true,
-      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>13.</td><td class='ms-part'>(a)</td><td class='ms-content'>Vertex of \\(g\\): \\((1,\\,-2)\\)</td><td class='ms-mark'>A1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(b)</td><td class='ms-content'>\\(h = 1,\\quad k = -2\\)</td><td class='ms-mark'>A1 A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[4 marks]</td></tr></tbody></table>"
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>13</td><td class='ms-part'>a</td><td class='ms-content'>Vertex of \\(g\\) is \\((1,\\,-2)\\), so \\(p = 1,\\ q = -2\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'>13</td><td class='ms-part'>b</td><td class='ms-content'>Vertex of \\(h\\) is \\((1,\\,2)\\)</td><td class='ms-mark'>A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[3 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t2p1_q14",
@@ -6767,7 +6767,7 @@
         "images/markschemes/t2p1_q14.svg"
       ],
       "draft": true,
-      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>14.</td><td class='ms-part'></td><td class='ms-content'>Reflection in \\(x\\)-axis negates the \\(y\\)-coordinate of vertex: vertex of \\(h = (1,\\,2)\\)</td><td class='ms-mark'>A1 A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[2 marks]</td></tr></tbody></table>"
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>14</td><td class='ms-part'></td><td class='ms-content'>Area \\(\\approx 2.26\\) (GDC)</td><td class='ms-mark'>A2</td></tr><tr><td colspan='3'></td><td class='ms-total'>[2 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t2p1_q15",
@@ -6781,7 +6781,7 @@
         "images/markschemes/t2p1_q15.svg"
       ],
       "draft": true,
-      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>15.</td><td class='ms-part'>(area)</td><td class='ms-content'>Intersection at \\(x=0\\): \\(\\cos(0)=1=e^0\\). From GDC, also intersect near \\(x\\approx-1.11\\).</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(\\text{Area} = \\displaystyle\\int_{-1.5}^{0.5}|\\cos(x^2)-e^x|\\,dx \\approx 2.26\\) (GDC)</td><td class='ms-mark'>A1 A1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(pts of inflexion)</td><td class='ms-content'>Identify two points where curve changes concavity (approx. \\(x\\approx\\pm 0.7\\) from graph).</td><td class='ms-mark'>A1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(b)(i)</td><td class='ms-content'>\\(f'(x) = -2x\\,e^{-x^2}\\)</td><td class='ms-mark'>A1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(b)(ii)</td><td class='ms-content'>\\(f''(x) = -2e^{-x^2} + 4x^2 e^{-x^2} = (4x^2-2)e^{-x^2}\\quad\\blacksquare\\)</td><td class='ms-mark'>M1 A1 AG</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(c)</td><td class='ms-content'>\\(f''(x)=0\\Rightarrow 4x^2-2=0\\Rightarrow x = \\pm\\dfrac{1}{\\sqrt{2}} = \\pm\\dfrac{\\sqrt{2}}{2}\\approx \\pm 0.707\\)</td><td class='ms-mark'>M1 A1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(d)</td><td class='ms-content'>At \\(x=\\tfrac{1}{\\sqrt{2}}\\): \\(f''\\) changes sign \\(-\\to+\\), confirming point of inflexion.</td><td class='ms-mark'>M1 A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[17 marks]</td></tr></tbody></table>"
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>15</td><td class='ms-part'>a</td><td class='ms-content'>Inflexion points at \\(B\\) and \\(D\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'>15</td><td class='ms-part'>b</td><td class='ms-content'>\\(f'(x) = -2x\\,e^{-x^2}\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'>15</td><td class='ms-part'>c</td><td class='ms-content'>\\(f''(x) = -2e^{-x^2} + 4x^2 e^{-x^2} = (4x^2-2)e^{-x^2}\\)</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(f''(x) = 0 \\Rightarrow x = \\pm\\dfrac{1}{\\sqrt{2}}\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Sign of \\(f''\\) changes at \\(x = \\pm\\dfrac{1}{\\sqrt{2}}\\) (negative inside, positive outside), confirming inflexion</td><td class='ms-mark'>R1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[5 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t2p1_q16",
@@ -6795,7 +6795,7 @@
         "images/markschemes/t2p1_q16.svg"
       ],
       "draft": true,
-      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>16.</td><td class='ms-part'>(a)</td><td class='ms-content'>\\(f(x) = \\log_3 x + \\log_3 16 - \\log_3 8 = \\log_3\\!\\dfrac{16x}{8} = \\log_3(2x)\\quad\\blacksquare\\)</td><td class='ms-mark'>M1 AG</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(b)</td><td class='ms-content'>\\(f(0.5) = \\log_3(1) = 0\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(f(4.5) = \\log_3(9) = 2\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(c)(i)</td><td class='ms-content'>\\(f(x) = \\dfrac{\\ln(2x)}{\\ln 3}\\), so \\(a=2,\\;b=3\\)</td><td class='ms-mark'>A1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(c)(ii)</td><td class='ms-content'>Sketch: log shape through \\((0.5,0)\\) and \\((4.5,2)\\), domain \\(x>0\\), range \\(\\mathbb{R}\\).</td><td class='ms-mark'>A2</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(c)(iii)</td><td class='ms-content'>Vertical asymptote: \\(x = 0\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(d)</td><td class='ms-content'>\\(f^{-1}(0) = 0.5\\) (since \\(f(0.5)=0\\))</td><td class='ms-mark'>A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[12 marks]</td></tr></tbody></table>"
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>16</td><td class='ms-part'>a</td><td class='ms-content'>\\(f = \\log_3\\!\\left(\\dfrac{x}{2}\\right) + \\log_3 16 - \\log_3 4 = \\log_3\\!\\left(\\dfrac{16x}{8}\\right) = \\log_3(2x)\\)</td><td class='ms-mark'>AG</td></tr><tr><td class='ms-qnum'>16</td><td class='ms-part'>b</td><td class='ms-content'>\\(f(0.5) = \\log_3(1) = 0\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(f(4.5) = \\log_3(9) = 2\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'>16</td><td class='ms-part'>c</td><td class='ms-content'>\\(a = 2,\\ b = 3\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'>16</td><td class='ms-part'>d</td><td class='ms-content'>Vertical asymptote: \\(x = 0\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'>16</td><td class='ms-part'>e</td><td class='ms-content'>\\(f^{-1}(x) = \\dfrac{3^x}{2}\\); \\(f^{-1}(0) = \\dfrac{1}{2} = 0.5\\)</td><td class='ms-mark'>A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[6 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t2p1_q17",
@@ -6809,7 +6809,7 @@
         "images/markschemes/t2p1_q17.svg"
       ],
       "draft": true,
-      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>17.</td><td class='ms-part'>(a)</td><td class='ms-content'>\\(g(x) = \\ln(5x^3) = \\ln 5 + 3\\ln x = f(x) + \\ln 5\\)</td><td class='ms-mark'>M1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>So \\(g(x) = f(x) + \\ln a\\) with \\(a = 5\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(b)</td><td class='ms-content'>\\(g(x) = f(x) + \\ln 5\\): the graph of \\(f\\) is translated vertically up by \\(\\ln 5\\) to give \\(g\\).</td><td class='ms-mark'>A1 A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[5 marks]</td></tr></tbody></table>"
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>17</td><td class='ms-part'>a</td><td class='ms-content'>\\(g(x) = f(x) + \\ln 5\\), so \\(a = 5\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'>17</td><td class='ms-part'>b</td><td class='ms-content'>Translation upward by \\(\\ln 5\\)</td><td class='ms-mark'>A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[2 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t2p1_q18",
@@ -6823,7 +6823,7 @@
         "images/markschemes/t2p1_q18.svg"
       ],
       "draft": true,
-      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>18.</td><td class='ms-part'>(a)</td><td class='ms-content'>\\(f(x) = -10(x+4)(x-6)\\)  [verify: \\(f(0)=-10(4)(-6)=240\\,\\checkmark\\)]</td><td class='ms-mark'>A1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(b)</td><td class='ms-content'>Axis of symmetry: \\(x = \\dfrac{-4+6}{2} = 1\\)</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(f(1) = -10(5)(-5) = 250\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(f(x) = -10(x-1)^2+250\\)</td><td class='ms-mark'>A1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(c)</td><td class='ms-content'>\\(-10(x-1)^2+250 = -10(x^2-2x+1)+250 = -10x^2+20x-10+250\\)</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(= 240+20x-10x^2\\quad\\blacksquare\\)</td><td class='ms-mark'>A1 AG</td></tr><tr><td colspan='3'></td><td class='ms-total'>[8 marks]</td></tr></tbody></table>"
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>18</td><td class='ms-part'>a</td><td class='ms-content'>\\(-10(x+4)(x-6) = -10(x^2-2x-24) = -10x^2+20x+240 = 240+20x-10x^2\\)</td><td class='ms-mark'>AG</td></tr><tr><td class='ms-qnum'>18</td><td class='ms-part'>b</td><td class='ms-content'>Vertex: \\(x = \\dfrac{-4+6}{2} = 1\\), \\(f(1) = -10(5)(-5) = 250\\); vertex \\((1,\\,250)\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'>18</td><td class='ms-part'>c</td><td class='ms-content'>\\(v(t) = 240+20t-10t^2\\); \\(v'(t) = 20-20t = 0 \\Rightarrow t = 1\\) (max speed)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(v = 0\\) when \\(t = 6\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Acceleration at \\(t = 6\\): \\(v'(6) = 20-120 = -100\\) m s\\(^{-2}\\)</td><td class='ms-mark'>A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[4 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t2p1_q19",
@@ -6837,7 +6837,7 @@
         "images/markschemes/t2p1_q19.svg"
       ],
       "draft": true,
-      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>19.</td><td class='ms-part'>(a)</td><td class='ms-content'>\\(h(x) = f(g(x)) = f(2x-5) = 3(2x-5) = 6x-15\\)</td><td class='ms-mark'>A1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(b)</td><td class='ms-content'>Let \\(y = 6x-15 \\Rightarrow x = \\dfrac{y+15}{6}\\)</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(h^{-1}(x) = \\dfrac{x+15}{6}\\)</td><td class='ms-mark'>A1 A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[5 marks]</td></tr></tbody></table>"
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>19</td><td class='ms-part'>a</td><td class='ms-content'>\\(h(x) = 6x - 15\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'>19</td><td class='ms-part'>b</td><td class='ms-content'>\\(h^{-1}(x) = \\dfrac{x+15}{6}\\)</td><td class='ms-mark'>A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[2 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t2p1_q20",
@@ -6851,7 +6851,7 @@
         "images/markschemes/t2p1_q20.svg"
       ],
       "draft": true,
-      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>20.</td><td class='ms-part'>(a)</td><td class='ms-content'>Sketch: \\(g(0)=0\\), rises to max near \\(x\\approx2.03\\) then decreases, crossing zero again near \\(x\\approx\\pi\\).</td><td class='ms-mark'>A2 A1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(b)</td><td class='ms-content'>From GDC: \\(g(x)=-1 \\Rightarrow x\\approx 3.60\\)</td><td class='ms-mark'>M1 A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[6 marks]</td></tr></tbody></table>"
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>20</td><td class='ms-part'>a</td><td class='ms-content'>Correct sketch of \\(g(x) = \\tfrac{1}{2}x\\sin x\\) (GDC)</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'>20</td><td class='ms-part'>b</td><td class='ms-content'>\\(x \\approx 3.60\\) where \\(g(x) = -1\\)</td><td class='ms-mark'>A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[2 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t2p1_q21",
@@ -6864,7 +6864,8 @@
       "markscheme_image_paths": [
         "images/markschemes/t2p1_q21.svg"
       ],
-      "draft": true
+      "draft": true,
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>21</td><td class='ms-part'>a</td><td class='ms-content'>Number of terms in \\((x+2)^{11}\\): \\(11 + 1 = 12\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'>21</td><td class='ms-part'>b</td><td class='ms-content'>Term with \\(x^2\\): \\(\\dbinom{11}{9}\\,x^2\\cdot 2^9 = 55 \\times 512\\,x^2\\)</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(= 28160x^2\\)</td><td class='ms-mark'>A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[3 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t2p1_q22",
@@ -6877,7 +6878,8 @@
       "markscheme_image_paths": [
         "images/markschemes/t2p1_q22.svg"
       ],
-      "draft": true
+      "draft": true,
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>22</td><td class='ms-part'>a</td><td class='ms-content'>\\((f \\circ g)(x) = x^2 - 2x + 5\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'>22</td><td class='ms-part'>b</td><td class='ms-content'>\\(h(x) = x^2 - 8x + 19 = (x-4)^2 + 3\\); vertex \\((4,\\,3)\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Show \\(h(x) = x^2 - 8x + 19\\) (shown)</td><td class='ms-mark'>AG</td></tr><tr><td class='ms-qnum'>22</td><td class='ms-part'>c</td><td class='ms-content'>Tangent to \\(h\\) at point \\(P\\) where \\(x = 5\\)</td><td class='ms-mark'>A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[4 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t2p1_q23",
@@ -6890,7 +6892,8 @@
       "markscheme_image_paths": [
         "images/markschemes/t2p1_q23.svg"
       ],
-      "draft": true
+      "draft": true,
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>23</td><td class='ms-part'></td><td class='ms-content'>\\(8x - 2x^2 = 2x(4-x) = 0\\)</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(x = 0\\) and \\(x = 4\\)</td><td class='ms-mark'>A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[2 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t2p1_q24",
@@ -6903,7 +6906,8 @@
       "markscheme_image_paths": [
         "images/markschemes/t2p1_q24.svg"
       ],
-      "draft": true
+      "draft": true,
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>24</td><td class='ms-part'></td><td class='ms-content'>Point of tangency at \\(x = 5\\)</td><td class='ms-mark'>A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[1 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t2p1_q25",
@@ -6916,7 +6920,8 @@
       "markscheme_image_paths": [
         "images/markschemes/t2p1_q25.svg"
       ],
-      "draft": true
+      "draft": true,
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>25</td><td class='ms-part'>a</td><td class='ms-content'>Axis of symmetry: \\(x = 2\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'>25</td><td class='ms-part'>b</td><td class='ms-content'>\\(f(2) = 16-8 = 8\\); maximum value \\(= 8\\)</td><td class='ms-mark'>A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[2 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t2p1_q26",
@@ -6929,7 +6934,8 @@
       "markscheme_image_paths": [
         "images/markschemes/t2p1_q26.svg"
       ],
-      "draft": true
+      "draft": true,
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>26</td><td class='ms-part'></td><td class='ms-content'>Let \\(y = \\dfrac{1}{2}\\log_3 x \\Rightarrow 2y = \\log_3 x \\Rightarrow x = 3^{2y}\\)</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(f^{-1}(x) = 3^{2x}\\)</td><td class='ms-mark'>AG</td></tr><tr><td colspan='3'></td><td class='ms-total'>[2 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t2p1_q27",
@@ -6942,7 +6948,8 @@
       "markscheme_image_paths": [
         "images/markschemes/t2p1_q27.svg"
       ],
-      "draft": true
+      "draft": true,
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>27</td><td class='ms-part'>a</td><td class='ms-content'>Axis of symmetry: \\(x = 2\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'>27</td><td class='ms-part'>b</td><td class='ms-content'>Maximum value: \\(y = 8\\)</td><td class='ms-mark'>A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[2 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t2p1_q28",
@@ -6955,7 +6962,8 @@
       "markscheme_image_paths": [
         "images/markschemes/t2p1_q28.svg"
       ],
-      "draft": true
+      "draft": true,
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>28</td><td class='ms-part'>a</td><td class='ms-content'>Range of \\(f^{-1}(x) = 3^{2x}\\) is \\((0,\\,\\infty)\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'>28</td><td class='ms-part'>b</td><td class='ms-content'>\\((f^{-1} \\circ g)(2) = 4\\)</td><td class='ms-mark'>A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[2 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t2p1_q29",
@@ -6968,7 +6976,8 @@
       "markscheme_image_paths": [
         "images/markschemes/t2p1_q29.svg"
       ],
-      "draft": true
+      "draft": true,
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>29</td><td class='ms-part'>a</td><td class='ms-content'>\\(f'(x) = x^2 - 2x - 3 = (x-3)(x+1) = 0 \\Rightarrow x = -1,\\,3\\)</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(f(-1) = -\\tfrac{1}{3} - 1 + 3 = \\tfrac{5}{3}\\); \\(A = \\left(-1,\\,\\dfrac{5}{3}\\right)\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(f(3) = 9 - 9 - 9 = -9\\); \\(B = (3,\\,-9)\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'>29</td><td class='ms-part'>b</td><td class='ms-content'>Transformed coordinates: \\((-3,\\,-9)\\), \\((1,\\,-4)\\), \\(\\left(\\dfrac{3}{2},\\,9\\right)\\)</td><td class='ms-mark'>A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[4 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t2p1_q30",
@@ -6981,7 +6990,8 @@
       "markscheme_image_paths": [
         "images/markschemes/t2p1_q30.svg"
       ],
-      "draft": true
+      "draft": true,
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>30</td><td class='ms-part'>a</td><td class='ms-content'>\\(q = -2,\\ r = 4\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'>30</td><td class='ms-part'>b</td><td class='ms-content'>Axis of symmetry: \\(x = 1\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'>30</td><td class='ms-part'>c</td><td class='ms-content'>\\(p = \\dfrac{1}{2}\\)</td><td class='ms-mark'>A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[3 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t2p1_q31",
@@ -6994,7 +7004,8 @@
       "markscheme_image_paths": [
         "images/markschemes/t2p1_q31.svg"
       ],
-      "draft": true
+      "draft": true,
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>31</td><td class='ms-part'>a</td><td class='ms-content'>\\(f\\!\\left(\\dfrac{\\pi}{2}\\right) = -1\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'>31</td><td class='ms-part'>b</td><td class='ms-content'>\\((g \\circ f)\\!\\left(\\dfrac{\\pi}{2}\\right) = g(-1) = 1\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'>31</td><td class='ms-part'>c</td><td class='ms-content'>\\(k = 4\\)</td><td class='ms-mark'>A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[3 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t2p1_q32",
@@ -7007,7 +7018,8 @@
       "markscheme_image_paths": [
         "images/markschemes/t2p1_q32.svg"
       ],
-      "draft": true
+      "draft": true,
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>32</td><td class='ms-part'></td><td class='ms-content'>\\(x = 4\\)</td><td class='ms-mark'>A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[1 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t2p1_q33",
@@ -7020,7 +7032,8 @@
       "markscheme_image_paths": [
         "images/markschemes/t2p1_q33.svg"
       ],
-      "draft": true
+      "draft": true,
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>33</td><td class='ms-part'>a</td><td class='ms-content'>\\(\\sin x = 0 \\Rightarrow x = 0,\\,\\pi\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(\\sin x = -1 \\Rightarrow x = \\dfrac{3\\pi}{2}\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'>33</td><td class='ms-part'>b</td><td class='ms-content'>\\(x\\)-intercept at \\(x = \\dfrac{3\\pi}{2}\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'>33</td><td class='ms-part'>c</td><td class='ms-content'>Area \\(k = 9\\pi + 6\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'>33</td><td class='ms-part'>d</td><td class='ms-content'>\\(g\\) is a translation of \\(f\\) to the right by \\(\\dfrac{\\pi}{2}\\)</td><td class='ms-mark'>A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[5 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t2p1_q34",
@@ -7033,7 +7046,8 @@
       "markscheme_image_paths": [
         "images/markschemes/t2p1_q34.svg"
       ],
-      "draft": true
+      "draft": true,
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>34</td><td class='ms-part'></td><td class='ms-content'>Correct shape of \\(v(t)\\) with \\(t\\)-axis from 0 to 25 (GDC sketch)</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Correct \\(t\\)-intercepts and turning point labelled</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Appropriate scale on \\(v\\)-axis</td><td class='ms-mark'>A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[3 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t2p1_q35",
@@ -7046,7 +7060,8 @@
       "markscheme_image_paths": [
         "images/markschemes/t2p1_q35.svg"
       ],
-      "draft": true
+      "draft": true,
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>35</td><td class='ms-part'>a</td><td class='ms-content'>\\(f'(x) = -24x^3 + 9x^2 + 3x + 1\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'>35</td><td class='ms-part'>b</td><td class='ms-content'>\\(f''(x) = -72x^2 + 18x + 3 = 0\\) at \\(x \\approx 0.364\\) and \\(x \\approx -0.114\\) (GDC)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'>35</td><td class='ms-part'>c</td><td class='ms-content'>\\(g(x) = f''(x) = -72x^2 + 18x + 3\\) is a quadratic function</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(g''(x) = f''''(x) = -144 \\neq 0\\) (constant), so \\(g''(x) = 0\\) has no solution</td><td class='ms-mark'>R1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Therefore \\(g\\) has no points of inflexion</td><td class='ms-mark'>R1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[5 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t2p1_q36",
@@ -7059,7 +7074,8 @@
       "markscheme_image_paths": [
         "images/markschemes/t2p1_q36.svg"
       ],
-      "draft": true
+      "draft": true,
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>36</td><td class='ms-part'></td><td class='ms-content'>\\(x\\ln(4-x^2) = 0 \\Rightarrow x = 0\\) or \\(\\ln(4-x^2) = 0\\)</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(4 - x^2 = 1 \\Rightarrow x = \\pm\\sqrt{3}\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(a = -\\sqrt{3} \\approx -1.73\\), \\(b = \\sqrt{3} \\approx 1.73\\)</td><td class='ms-mark'>A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[3 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t2p1_q37",
@@ -7072,7 +7088,8 @@
       "markscheme_image_paths": [
         "images/markschemes/t2p1_q37.svg"
       ],
-      "draft": true
+      "draft": true,
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>37</td><td class='ms-part'></td><td class='ms-content'>\\(g'(x) = f'''(x) < 0\\) for all \\(x\\) in the domain \\(-2 < x < 2\\) (GDC or calculation)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Since \\(g'\\) does not change sign (\\(g\\) is strictly decreasing), \\(g\\) has no points of inflexion</td><td class='ms-mark'>R1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[2 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t2p1_q38",
@@ -7085,7 +7102,8 @@
       "markscheme_image_paths": [
         "images/markschemes/t2p1_q38.svg"
       ],
-      "draft": true
+      "draft": true,
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>38a</td><td class='ms-part'></td><td class='ms-content'>\\(x\\ln(4-x^2) = 0 \\Rightarrow x = 0\\) or \\(4-x^2 = 1\\)</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(a = -\\sqrt{3}\\), \\(b = \\sqrt{3}\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'>38b</td><td class='ms-part'></td><td class='ms-content'>\\(f'(x) = \\ln(4-x^2) - \\dfrac{2x^2}{4-x^2} = 0\\) (GDC) \\(\\Rightarrow c \\approx 1.15\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'>38c</td><td class='ms-part'></td><td class='ms-content'>\\(V = \\pi\\displaystyle\\int_0^c \\!\\bigl[x\\ln(4-x^2)\\bigr]^2\\,\\mathrm{d}x\\) (GDC)</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(V \\approx 2.16\\) (accept answers in range \\([2.1,\\,2.2]\\))</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'>38d</td><td class='ms-part'></td><td class='ms-content'>\\(A = \\left|\\displaystyle\\int_a^0 f\\,\\mathrm{d}x\\right| + \\displaystyle\\int_0^c f\\,\\mathrm{d}x\\)</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Antiderivative: \\(F(x) = -\\tfrac{1}{2}(4-x^2)\\ln(4-x^2) + \\tfrac{1}{2}(4-x^2)\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(\\left|F(0)-F(-\\sqrt{3})\\right| = 2\\ln 4 - \\tfrac{3}{2} \\approx 1.27\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Total area \\(\\approx 2.07\\) (GDC)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'>38e</td><td class='ms-part'></td><td class='ms-content'>Same as 38b: \\(c \\approx 1.15\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'>38f</td><td class='ms-part'></td><td class='ms-content'>Same as 38c: \\(V \\approx 2.16\\)</td><td class='ms-mark'>A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[12 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t3_trig_q1",
