@@ -352,22 +352,20 @@ function buildQuestionNode(q) {
   }
 
   const msImages = state.markschemeImagesById[q.id] || [];
-  if (msImages.length > 0) {
+  const latex = state.markschemeLatexById[q.id];
+  if (latex) {
+    answerTextEl.hidden = false;
+    answerTextEl.innerHTML = latex;
+    renderKatex(answerTextEl);
+  } else if (msImages.length > 0) {
     msImages.forEach((imgPath, index) => {
       markschemeImagesEl.appendChild(createImageWithFallback(imgPath, `Markscheme ${questionNumber} image ${index + 1}`));
     });
     answerTextEl.hidden = true;
   } else {
-    const latex = state.markschemeLatexById[q.id];
-    if (latex) {
-      answerTextEl.hidden = false;
-      answerTextEl.innerHTML = latex;
-      renderKatex(answerTextEl);
-    } else {
-      const msText = state.markschemesById[q.id] || q.answer_text || "";
-      answerTextEl.textContent = msText || "No markscheme available yet.";
-      answerTextEl.hidden = false;
-    }
+    const msText = state.markschemesById[q.id] || q.answer_text || "";
+    answerTextEl.textContent = msText || "No markscheme available yet.";
+    answerTextEl.hidden = false;
   }
 
   return node;
@@ -393,22 +391,22 @@ function openCompareModal(q) {
     compareQuestionBody.appendChild(p);
   }
 
-  if (msImages.length > 0) {
+  const msLatex = state.markschemeLatexById[q.id];
+  if (msLatex) {
+    const p = document.createElement("div");
+    p.className = "compare-fallback";
+    p.innerHTML = msLatex;
+    compareMarkschemeBody.appendChild(p);
+    renderKatex(p);
+  } else if (msImages.length > 0) {
     msImages.forEach((imgPath, index) => {
       compareMarkschemeBody.appendChild(createImageWithFallback(imgPath, `Markscheme ${q.question_number || ""} image ${index + 1}`));
     });
   } else {
-    const latex = state.markschemeLatexById[q.id];
     const p = document.createElement("div");
     p.className = "compare-fallback";
-    if (latex) {
-      p.innerHTML = latex;
-      compareMarkschemeBody.appendChild(p);
-      renderKatex(p);
-    } else {
-      p.textContent = state.markschemesById[q.id] || q.answer_text || "No markscheme available yet.";
-      compareMarkschemeBody.appendChild(p);
-    }
+    p.textContent = state.markschemesById[q.id] || q.answer_text || "No markscheme available yet.";
+    compareMarkschemeBody.appendChild(p);
   }
 
   const qLabel = `${q.question_number || ""}`.trim();
