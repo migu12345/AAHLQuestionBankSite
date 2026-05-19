@@ -7977,7 +7977,8 @@
       "markscheme_image_paths": [
         "images/markschemes/t4_sl_q1.svg"
       ],
-      "draft": true
+      "draft": false,
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>1.</td><td class='ms-part'>(a)</td><td class='ms-content'>\\(P(X=2) = \\dfrac{2^2}{14} = \\dfrac{4}{14} = \\dfrac{2}{7}\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(b)</td><td class='ms-content'>\\(P(X=1)+P(X=2)+P(X=k)=1\\)</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(\\dfrac{2}{14}+\\dfrac{4}{14}+\\dfrac{2^k}{14}=1\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(2^k = 14-6 = 8\\)</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(k=3\\) &nbsp;(AG)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(c)</td><td class='ms-content'>\\(E(X)=1\\cdot\\tfrac{1}{7}+2\\cdot\\tfrac{2}{7}+3\\cdot\\tfrac{4}{7} = \\dfrac{1+4+12}{7} = \\dfrac{17}{7}\\)</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(E(X) = \\dfrac{17}{7} \\approx 2.43\\)</td><td class='ms-mark'>A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[7 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t4_sl_q2",
@@ -7990,7 +7991,8 @@
       "markscheme_image_paths": [
         "images/markschemes/t4_sl_q2.svg"
       ],
-      "draft": true
+      "draft": false,
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>2.</td><td class='ms-part'>(a)(i)</td><td class='ms-content'>\\(s = 1\\) (neither art nor music)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(a)(ii)</td><td class='ms-content'>\\(n(A\\cup M) = 16-1 = 15\\)</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(q = n(A)+n(M)-n(A\\cup M) = 12+8-15 = 5\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(a)(iii)</td><td class='ms-content'>\\(p = 12-5 = 7,\\quad r = 8-5 = 3\\)</td><td class='ms-mark'>A1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(b)(i)</td><td class='ms-content'>\\(P(\\text{art}\\mid\\text{music}) = \\dfrac{5}{8}\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(b)(ii)</td><td class='ms-content'>\\(P(\\text{art}) = \\dfrac{12}{16} = \\dfrac{3}{4} \\neq \\dfrac{5}{8} = P(\\text{art}\\mid\\text{music})\\)</td><td class='ms-mark'>R1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(\\therefore\\) art and music are not independent</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(c)</td><td class='ms-content'>\\(P(\\text{first music only})\\times P(\\text{second art only}) = \\dfrac{3}{16}\\times\\dfrac{7}{15}\\)</td><td class='ms-mark'>M1 A1 M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(= \\dfrac{21}{240} = \\dfrac{7}{80}\\)</td><td class='ms-mark'>A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[13 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t4_sl_q3",
@@ -8003,7 +8005,8 @@
       "markscheme_image_paths": [
         "images/markschemes/t4_sl_q3.svg"
       ],
-      "draft": true
+      "draft": false,
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>3.</td><td class='ms-part'>(a)(i)</td><td class='ms-content'>\\(n = P(A\\cap B) = 0.1\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(a)(ii)</td><td class='ms-content'>\\(P(B) = P(A\\cup B)-P(A)+P(A\\cap B) = 0.6-0.3+0.1 = 0.4\\)</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(m = P(A\\text{ only}) = 0.3-0.1 = 0.2\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(p = P(B\\text{ only}) = 0.4-0.1 = 0.3\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(q = 1-P(A\\cup B) = 1-0.6 = 0.4\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(b)</td><td class='ms-content'>\\(P(B') = 1-P(B) = 1-0.4 = 0.6\\)</td><td class='ms-mark'>M1 A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[6 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t4_sl_q4",
@@ -8016,7 +8019,8 @@
       "markscheme_image_paths": [
         "images/markschemes/t4_sl_q4.svg"
       ],
-      "draft": true
+      "draft": false,
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>4.</td><td class='ms-part'>(a)</td><td class='ms-content'>Range = (maximum of all 200 fish) \\(- \\)(minimum of all 200 fish)</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Read max and min from both box plots; range = max\\(_{\\text{all}}\\) \\(-\\) min\\(_{\\text{all}}\\)</td><td class='ms-mark'>M1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(b)</td><td class='ms-content'>Select the cumulative frequency graph whose median, Q1, Q3 match the female box plot</td><td class='ms-mark'>M1 A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[5 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t4_sl_q5",
@@ -8029,7 +8033,8 @@
       "markscheme_image_paths": [
         "images/markschemes/t4_sl_q5.svg"
       ],
-      "draft": true
+      "draft": false,
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>5.</td><td class='ms-part'>(a)</td><td class='ms-content'>\\(X\\sim N(20,\\,9)\\), so \\(\\mu=20,\\;\\sigma=3\\)</td><td class='ms-mark'></td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(P(X\\leq 24.5)=P\\!\\left(Z\\leq\\dfrac{24.5-20}{3}\\right)=P(Z\\leq 1.5)\\)</td><td class='ms-mark'>M1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(= 0.933\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(b)</td><td class='ms-content'>\\(P(X\\leq k)=0.85 \\Rightarrow z=0.8416\\)</td><td class='ms-mark'>M1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(k = 20+0.8416\\times 3 = 22.5\\)</td><td class='ms-mark'>M1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Shade left tail up to \\(k\\) on diagram</td><td class='ms-mark'>A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[8 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t4_sl_q6",
@@ -8042,7 +8047,8 @@
       "markscheme_image_paths": [
         "images/markschemes/t4_sl_q6.svg"
       ],
-      "draft": true
+      "draft": false,
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>6.</td><td class='ms-part'></td><td class='ms-content'>\\(X\\sim B(240,\\,0.05)\\)</td><td class='ms-mark'></td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(a)</td><td class='ms-content'>\\(E(X)=np=240\\times 0.05=12\\)</td><td class='ms-mark'>A1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(b)</td><td class='ms-content'>\\(P(X=15)=\\dbinom{240}{15}(0.05)^{15}(0.95)^{225}\\)</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(\\approx 0.0660\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(c)</td><td class='ms-content'>\\(P(X\\geq 10)=1-P(X\\leq 9)\\)</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(=1-0.1597\\approx 0.840\\)</td><td class='ms-mark'>M1 A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[7 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t4_sl_q7",
@@ -8055,7 +8061,8 @@
       "markscheme_image_paths": [
         "images/markschemes/t4_sl_q7.svg"
       ],
-      "draft": true
+      "draft": false,
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>7.</td><td class='ms-part'>(a)</td><td class='ms-content'>\\(P(\\text{pass})=0.6\\times0.80+0.4\\times0.90\\)</td><td class='ms-mark'>M1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(=0.48+0.36=0.84\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(b)</td><td class='ms-content'>Let \\(x\\) = proportion from B.  \\((1-x)(0.80)+x(0.90)=0.87\\)</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(0.80+0.10x=0.87\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(x=0.70\\), so \\(70\\%\\) from machine B</td><td class='ms-mark'>A1 A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[7 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t4_sl_q8",
@@ -8068,7 +8075,8 @@
       "markscheme_image_paths": [
         "images/markschemes/t4_sl_q8.svg"
       ],
-      "draft": true
+      "draft": false,
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>8.</td><td class='ms-part'>(a)</td><td class='ms-content'>By symmetry of the normal curve about \\(\\mu=25\\):</td><td class='ms-mark'></td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(P(X>27)=0.5-P(25<X<27)=0.5-0.30=0.20\\)</td><td class='ms-mark'>A1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(b)</td><td class='ms-content'>\\(P(X>27)=0.20\\Rightarrow z_{0.80}=0.8416\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(\\dfrac{27-25}{\\sigma}=0.8416\\)</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(\\sigma=\\dfrac{2}{0.8416}\\approx 2.37\\)</td><td class='ms-mark'>M1 A1 A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[7 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t4_sl_q9",
@@ -8081,7 +8089,8 @@
       "markscheme_image_paths": [
         "images/markschemes/t4_sl_q9.svg"
       ],
-      "draft": true
+      "draft": false,
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>9.</td><td class='ms-part'>(a)</td><td class='ms-content'>Pairs (red, green) summing to 6: \\((2,4),\\,(3,3),\\,(4,2)\\)</td><td class='ms-mark'>A1 A1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(b)</td><td class='ms-content'>\\(p=P(\\text{sum}=2)=\\dfrac{1}{16}\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(q=P(\\text{sum}=3)=\\dfrac{2}{16}=\\dfrac{1}{8}\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(r=P(\\text{sum}=7)=\\dfrac{2}{16}=\\dfrac{1}{8}\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(c)</td><td class='ms-content'>\\(P(\\text{sum}=5)=\\dfrac{4}{16}=\\dfrac{1}{4}\\);  let \\(X\\sim B\\!\\left(4,\\tfrac{1}{4}\\right)\\)</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(P(X=3)=\\dbinom{4}{3}\\!\\left(\\tfrac{1}{4}\\right)^3\\!\\left(\\tfrac{3}{4}\\right)=\\dfrac{12}{256}\\)</td><td class='ms-mark'>M1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(P(X=4)=\\left(\\tfrac{1}{4}\\right)^4=\\dfrac{1}{256}\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(P(X\\geq3)=\\dfrac{13}{256}\\approx 0.0508\\)</td><td class='ms-mark'>A1 A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[12 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t4_sl_q10",
@@ -8094,7 +8103,8 @@
       "markscheme_image_paths": [
         "images/markschemes/t4_sl_q10.svg"
       ],
-      "draft": true
+      "draft": false,
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>10.</td><td class='ms-part'>(a)(i)</td><td class='ms-content'>\\(p=P(A\\cap B')=P(A)-P(A\\cap B)=0.5-0.3=0.2\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(a)(ii)</td><td class='ms-content'>\\(q=P(A\\cap B)=0.3\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(a)(iii)</td><td class='ms-content'>\\(r=1-P(A\\cup B)=1-(0.5+0.7-0.3)=0.1\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(b)</td><td class='ms-content'>\\(P(A\\mid B')=\\dfrac{P(A\\cap B')}{P(B')}=\\dfrac{0.2}{0.3}=\\dfrac{2}{3}\\)</td><td class='ms-mark'>M1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(c)</td><td class='ms-content'>\\(P(A)\\times P(B')=0.5\\times0.3=0.15\\neq0.2=P(A\\cap B')\\)</td><td class='ms-mark'>R1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(\\therefore A\\) and \\(B\\) are not independent</td><td class='ms-mark'></td></tr><tr><td colspan='3'></td><td class='ms-total'>[6 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t4_sl_q11",
@@ -8107,7 +8117,8 @@
       "markscheme_image_paths": [
         "images/markschemes/t4_sl_q11.svg"
       ],
-      "draft": true
+      "draft": false,
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>11.</td><td class='ms-part'>(a)(i)</td><td class='ms-content'>\\(P(E\\cap F)=\\tfrac{1}{3}\\times\\tfrac{7}{8}=\\dfrac{7}{24}\\)</td><td class='ms-mark'>M1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(a)(ii)</td><td class='ms-content'>\\(P(F)=\\tfrac{1}{3}\\cdot\\tfrac{7}{8}+\\tfrac{2}{3}\\cdot\\tfrac{3}{8}=\\dfrac{7}{24}+\\dfrac{6}{24}=\\dfrac{13}{24}\\)</td><td class='ms-mark'>M1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(b)(i)</td><td class='ms-content'>\\(P(E\\cap F')=\\tfrac{1}{3}\\times\\tfrac{1}{8}=\\dfrac{1}{24}\\)</td><td class='ms-mark'>M1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(b)(ii)</td><td class='ms-content'>\\(P(E\\mid F)=\\dfrac{P(E\\cap F)}{P(F)}=\\dfrac{7/24}{13/24}=\\dfrac{7}{13}\\)</td><td class='ms-mark'>M1 M1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(c)</td><td class='ms-content'>\\(P(X=0)=\\left(\\tfrac{1}{3}\\right)^2=\\tfrac{1}{9}\\) (given)</td><td class='ms-mark'></td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(P(X=6)=\\left(\\tfrac{2}{3}\\right)^2=\\tfrac{4}{9}\\)</td><td class='ms-mark'>M1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(P(X=3)=1-\\tfrac{1}{9}-\\tfrac{4}{9}=\\tfrac{4}{9}\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(d)</td><td class='ms-content'>\\(E(X)=0\\cdot\\tfrac{1}{9}+3\\cdot\\tfrac{4}{9}+6\\cdot\\tfrac{4}{9}=\\dfrac{36}{9}=4\\)</td><td class='ms-mark'>M1 A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[14 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t4_sl_q12",
@@ -8120,7 +8131,8 @@
       "markscheme_image_paths": [
         "images/markschemes/t4_sl_q12.svg"
       ],
-      "draft": true
+      "draft": false,
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>12.</td><td class='ms-part'>(a)</td><td class='ms-content'>\\(\\displaystyle\\frac{146+5x}{34+x}=4.5\\)</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(146+5x=153+4.5x\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(0.5x=7\\Rightarrow x=14\\)</td><td class='ms-mark'>A1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(b)</td><td class='ms-content'>\\(n=48,\\quad \\bar{x}=4.5\\)</td><td class='ms-mark'></td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(\\sigma=\\sqrt{\\dfrac{\\sum f x^2}{n}-\\bar{x}^2}=\\sqrt{\\dfrac{1086}{48}-20.25}\\approx 1.54\\)</td><td class='ms-mark'>M1 A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[6 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t4_sl_q13",
@@ -8133,7 +8145,8 @@
       "markscheme_image_paths": [
         "images/markschemes/t4_sl_q13.svg"
       ],
-      "draft": true
+      "draft": false,
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>13.</td><td class='ms-part'>(a)</td><td class='ms-content'>\\(X\\sim B(7,\\,0.9)\\)</td><td class='ms-mark'></td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(P(X=4)=\\dbinom{7}{4}(0.9)^4(0.1)^3=35\\times0.6561\\times0.001\\approx0.0230\\)</td><td class='ms-mark'>M1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(b)</td><td class='ms-content'>\\(P(Y=4)=\\dbinom{7}{4}p^4(1-p)^3=35p^4(1-p)^3\\)</td><td class='ms-mark'>M1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(c)</td><td class='ms-content'>\\(35p^4(1-p)^3=0.15\\)</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>By GDC: \\(p\\approx0.356\\) or \\(p\\approx0.770\\)</td><td class='ms-mark'>A1 A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[7 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t4_sl_q14",
@@ -8146,7 +8159,8 @@
       "markscheme_image_paths": [
         "images/markschemes/t4_sl_q14.svg"
       ],
-      "draft": true
+      "draft": false,
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>14.</td><td class='ms-part'>(a)</td><td class='ms-content'>\\(P(X>82)=1-0.05-0.80=0.15\\)</td><td class='ms-mark'>A1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(b)(i)</td><td class='ms-content'>\\(P(X<68)=0.05\\Rightarrow z=-1.645\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(b)(ii)</td><td class='ms-content'>\\(\\dfrac{68-76.6}{\\sigma}=-1.645\\Rightarrow\\sigma=\\dfrac{8.6}{1.645}\\approx5.23\\text{ kg}\\)</td><td class='ms-mark'>M1 A1 M1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(c)(i)</td><td class='ms-content'>Within \\(1.5\\sigma\\): \\([76.6-7.845,\\;76.6+7.845]=[68.8,\\;84.4]\\text{ kg}\\)</td><td class='ms-mark'>M1 A1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(c)(ii)</td><td class='ms-content'>\\(P(-1.5<Z<1.5)\\approx0.866\\)</td><td class='ms-mark'>M1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(d)</td><td class='ms-content'>\\(P(\\text{woman\\,}\\cap\\text{tournament})=0.25\\times0.70=0.175\\)</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(P(\\text{woman}\\mid\\text{tournament})=\\dfrac{0.175}{0.866}\\approx0.202\\)</td><td class='ms-mark'>M1 A1 A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[15 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t4_sl_q15",
@@ -8159,7 +8173,8 @@
       "markscheme_image_paths": [
         "images/markschemes/t4_sl_q15.svg"
       ],
-      "draft": true
+      "draft": false,
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>15.</td><td class='ms-part'>(a)(i)</td><td class='ms-content'>\\(p=9+25+35=69\\)</td><td class='ms-mark'>A1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(a)(ii)</td><td class='ms-content'>\\(q=109-69=40\\)</td><td class='ms-mark'>A1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(b)</td><td class='ms-content'>\\(\\bar{x}=\\dfrac{1(9)+2(25)+3(35)+4(40)+5(11)}{120}=\\dfrac{379}{120}\\approx3.16\\)</td><td class='ms-mark'>M1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(c)</td><td class='ms-content'>\\(\\sigma\\approx1.09\\) (by GDC)</td><td class='ms-mark'>A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[7 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t4_sl_q16",
@@ -8172,7 +8187,8 @@
       "markscheme_image_paths": [
         "images/markschemes/t4_sl_q16.svg"
       ],
-      "draft": true
+      "draft": false,
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>16.</td><td class='ms-part'>(a)</td><td class='ms-content'>Pairs summing to 5: \\((1,4),(2,3),(3,2),(4,1)\\) — 4 outcomes</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(P(\\text{sum}=5)=\\dfrac{4}{36}=\\dfrac{1}{9}\\)</td><td class='ms-mark'>A1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(b)</td><td class='ms-content'>\\(X\\sim B\\!\\left(8,\\tfrac{1}{9}\\right)\\)</td><td class='ms-mark'></td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(P(X=3)=\\dbinom{8}{3}\\!\\left(\\tfrac{1}{9}\\right)^3\\!\\left(\\tfrac{8}{9}\\right)^5\\approx0.0426\\)</td><td class='ms-mark'>M1 A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[5 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t4_sl_q17",
@@ -8185,7 +8201,8 @@
       "markscheme_image_paths": [
         "images/markschemes/t4_sl_q17.svg"
       ],
-      "draft": true
+      "draft": false,
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>17.</td><td class='ms-part'>(a)</td><td class='ms-content'>Read \\(p=P(A')\\) directly from the Venn diagram regions</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(b)</td><td class='ms-content'>\\(P(B)=P(A\\cap B)+P(A'\\cap B)\\)  [sum of regions inside \\(B\\)]</td><td class='ms-mark'>M1 M1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(c)</td><td class='ms-content'>\\(P(A'\\mid B)=\\dfrac{P(A'\\cap B)}{P(B)}\\)</td><td class='ms-mark'>M1 M1 A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[7 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t4_sl_q18",
@@ -8198,7 +8215,8 @@
       "markscheme_image_paths": [
         "images/markschemes/t4_sl_q18.svg"
       ],
-      "draft": true
+      "draft": false,
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>18.</td><td class='ms-part'>(a)</td><td class='ms-content'>Data: scores 1–6 with frequencies 3,5,4,6,10,8 (\\(n=36\\))</td><td class='ms-mark'></td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(\\bar{x}=\\dfrac{147}{36}\\approx4.08\\);  \\(\\sigma=\\sqrt{\\dfrac{693}{36}-\\bar{x}^2}\\approx1.61\\)</td><td class='ms-mark'>A1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(b)</td><td class='ms-content'>Cumulative frequencies: 1→3, 2→8, 3→12, 4→18, 5→28</td><td class='ms-mark'></td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>18th value = 4, 19th value = 5 \\(\\Rightarrow\\) median \\(=\\dfrac{4+5}{2}=4.5\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(c)</td><td class='ms-content'>\\(Q_1\\): 9th value \\(=3\\); \\(Q_3\\): 27th value \\(=5\\)</td><td class='ms-mark'>M1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(IQR = Q_3-Q_1=5-3=2\\)</td><td class='ms-mark'>A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[6 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t4_sl_q19",
@@ -8211,7 +8229,8 @@
       "markscheme_image_paths": [
         "images/markschemes/t4_sl_q19.svg"
       ],
-      "draft": true
+      "draft": false,
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>19.</td><td class='ms-part'>(a)(i)</td><td class='ms-content'>\\(X\\sim B\\!\\left(5,\\tfrac{1}{5}\\right)\\Rightarrow E(X)=5\\times\\tfrac{1}{5}=1\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(a)(ii)</td><td class='ms-content'>\\(P(X\\geq3)=P(3)+P(4)+P(5)\\)</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(=\\dfrac{160+20+1}{3125}=\\dfrac{181}{3125}\\approx0.0579\\)</td><td class='ms-mark'>M1 A1 M1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(b)(i)</td><td class='ms-content'>\\(\\sum P(Y=y)=1\\Rightarrow0.76+(4a+2b)=1\\Rightarrow 4a+2b=0.24\\) (AG)</td><td class='ms-mark'>M1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(b)(ii)</td><td class='ms-content'>\\(E(Y)=0.05+2(a+2b)+3(a-b)+4(2a+b)+0.20=1\\)</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(13a+5b=0.75\\) and \\(4a+2b=0.24\\Rightarrow b=0.12-2a\\)</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(13a+5(0.12-2a)=0.75\\Rightarrow3a=0.15\\Rightarrow a=0.05,\\;b=0.02\\)</td><td class='ms-mark'>A1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(c)</td><td class='ms-content'>\\(P(Y\\geq3)=3(0.05)+0.04=0.19\\)</td><td class='ms-mark'>M1 M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(P(X\\geq3)\\approx0.058 < 0.19\\) \\(\\Rightarrow\\) Bill more likely to pass</td><td class='ms-mark'>A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[17 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t4_sl_q20",
@@ -8224,7 +8243,8 @@
       "markscheme_image_paths": [
         "images/markschemes/t4_sl_q20.svg"
       ],
-      "draft": true
+      "draft": false,
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>20.</td><td class='ms-part'>(a)</td><td class='ms-content'>PROBABILITY has 11 cards; 1 card is A.</td><td class='ms-mark'></td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(P(A)=\\dfrac{1}{11}\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(b)</td><td class='ms-content'>Given first card is A, 10 remain with 2 B's.</td><td class='ms-mark'></td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(P(B\\mid A)=\\dfrac{2}{10}=\\dfrac{1}{5}\\)</td><td class='ms-mark'>A1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(c)</td><td class='ms-content'>\\(P(A\\cap B)=P(A)\\cdot P(B\\mid A)=\\dfrac{1}{11}\\times\\dfrac{2}{10}=\\dfrac{2}{110}=\\dfrac{1}{55}\\)</td><td class='ms-mark'>M1 M1 A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[6 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t4_sl_q21",
@@ -8237,7 +8257,8 @@
       "markscheme_image_paths": [
         "images/markschemes/t4_sl_q21.svg"
       ],
-      "draft": true
+      "draft": false,
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>21.</td><td class='ms-part'>(a)</td><td class='ms-content'>Box 1: \\(\\{3,5,7\\}\\); Box 2: \\(\\{9,10,10\\}\\). Complete table:</td><td class='ms-mark'></td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Row 5: (5,9),(5,10),(5,10); Row 7: (7,9),(7,10),(7,10)</td><td class='ms-mark'>A1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(b)</td><td class='ms-content'>\\(S\\in\\{12,13,14,15,16,17\\}\\)</td><td class='ms-mark'>A1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(c)</td><td class='ms-content'>\\(P(S=12)=\\tfrac{1}{9},\\;P(S=13)=\\tfrac{2}{9},\\;P(S=14)=\\tfrac{1}{9},\\;P(S=15)=\\tfrac{2}{9},\\;P(S=16)=\\tfrac{1}{9},\\;P(S=17)=\\tfrac{2}{9}\\)</td><td class='ms-mark'>A1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(d)</td><td class='ms-content'>\\(E(S)=\\dfrac{12+2(13)+14+2(15)+16+2(17)}{9}=\\dfrac{132}{9}=\\dfrac{44}{3}\\approx14.7\\)</td><td class='ms-mark'>M1 M1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(e)</td><td class='ms-content'>\\(P(S\\text{ even})=\\tfrac{1}{3},\\;P(S\\text{ odd})=\\tfrac{2}{3}\\)</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Expected gain per game \\(=50\\cdot\\tfrac{1}{3}+(-30)\\cdot\\tfrac{2}{3}=-\\tfrac{10}{3}\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>After 36 games: \\(36\\times\\left(-\\tfrac{10}{3}\\right)=-120\\) dollars</td><td class='ms-mark'>A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[12 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t4_sl_q22",
@@ -8250,7 +8271,8 @@
       "markscheme_image_paths": [
         "images/markschemes/t4_sl_q22.svg"
       ],
-      "draft": true
+      "draft": false,
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>22.</td><td class='ms-part'>(a)</td><td class='ms-content'>\\(X\\sim N(450,\\,400)\\), \\(\\sigma=20\\)</td><td class='ms-mark'></td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(P(X\\leq475)=P\\!\\left(Z\\leq\\dfrac{475-450}{20}\\right)=P(Z\\leq1.25)=0.894\\)</td><td class='ms-mark'>M1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(b)</td><td class='ms-content'>\\(P(X>a)=0.27\\Rightarrow P(X\\leq a)=0.73\\)</td><td class='ms-mark'></td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(z=0.6128\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(a=450+0.6128\\times20\\approx462\\)</td><td class='ms-mark'>M1 A1 A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[6 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t4_sl_q23",
@@ -8263,7 +8285,8 @@
       "markscheme_image_paths": [
         "images/markschemes/t4_sl_q23.svg"
       ],
-      "draft": true
+      "draft": false,
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>23.</td><td class='ms-part'>(a)</td><td class='ms-content'>\\(P(W)=P(\\text{home})\\cdot P(W\\mid\\text{home})+P(\\text{away})\\cdot P(W\\mid\\text{away})\\)</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(=0.65\\times0.83+0.35\\times0.26=0.5395+0.0910=0.6305\\)</td><td class='ms-mark'>A1 M1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(b)</td><td class='ms-content'>\\(P(\\text{home}\\mid W')=\\dfrac{P(\\text{home})\\cdot P(W'\\mid\\text{home})}{P(W')}\\)</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(=\\dfrac{0.65\\times0.17}{1-0.6305}=\\dfrac{0.1105}{0.3695}\\approx0.299\\)</td><td class='ms-mark'>A1 M1 A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[8 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t4_sl_q24",
@@ -8276,7 +8299,8 @@
       "markscheme_image_paths": [
         "images/markschemes/t4_sl_q24.svg"
       ],
-      "draft": true
+      "draft": false,
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>24.</td><td class='ms-part'>(a)</td><td class='ms-content'>Midpoints: 5,15,25,35,50,67.5,87.5; \\(\\bar{x}=5967.5/200\\approx29.8\\)</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(\\sigma=\\sqrt{\\tfrac{256306}{200}-29.84^2}\\approx19.8\\text{ cm}\\)</td><td class='ms-mark'>A1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(b)(i)</td><td class='ms-content'>Read \\(Q_1\\) and \\(Q_3\\) from CF diagram (50th and 150th values); \\(IQR = Q_3-Q_1\\approx26\\text{ cm}\\)</td><td class='ms-mark'>M1 A1 M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(b)(ii)</td><td class='ms-content'>60\\% of 200 = 120th fish; read \\(k\\approx30\\text{ cm}\\) from CF graph</td><td class='ms-mark'>A1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(c)</td><td class='ms-content'>\\(P(\\text{small})=\\dfrac{30+40}{200}=\\dfrac{70}{200}=0.35\\)</td><td class='ms-mark'>A1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(d)</td><td class='ms-content'>\\(P(\\text{large})=1-0.35-0.565=0.085\\)</td><td class='ms-mark'>A1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(e)</td><td class='ms-content'>\\(E(X)=4(0.35)+10(0.565)+12(0.085)=1.40+5.65+1.02=8.07\\)</td><td class='ms-mark'>M1 A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[15 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t4_sl_q25",
@@ -8289,7 +8313,8 @@
       "markscheme_image_paths": [
         "images/markschemes/t4_sl_q25.svg"
       ],
-      "draft": true
+      "draft": false,
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>25.</td><td class='ms-part'>(a)</td><td class='ms-content'>Read median from middle line of box plot [from diagram]</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(b)(i)</td><td class='ms-content'>\\(IQR=Q_3-Q_1=20\\); identify \\(a\\) and \\(Q_3\\) or \\(Q_1\\) from diagram</td><td class='ms-mark'>M1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(b)(ii)</td><td class='ms-content'>\\(\\text{range}=\\max-\\min=40\\); identify \\(b\\) using range and diagram values</td><td class='ms-mark'>M1 A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[5 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t4_sl_q26",
@@ -8302,7 +8327,8 @@
       "markscheme_image_paths": [
         "images/markschemes/t4_sl_q26.svg"
       ],
-      "draft": true
+      "draft": false,
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>26.</td><td class='ms-part'>(a)</td><td class='ms-content'>Route A: \\(X_A\\sim N(46,100)\\)</td><td class='ms-mark'></td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(P(X_A>60)=P\\!\\left(Z>\\dfrac{60-46}{10}\\right)=P(Z>1.4)\\approx0.0808\\)</td><td class='ms-mark'>M1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(b)</td><td class='ms-content'>Route B: \\(P(X_B<60)=0.85\\Rightarrow z=1.0364\\)</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(60=\\mu+1.0364\\times12\\Rightarrow\\mu=60-12.44\\approx47.6\\text{ min}\\)</td><td class='ms-mark'>A1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(c)(i)</td><td class='ms-content'>Take Route A</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(c)(ii)</td><td class='ms-content'>\\(P(A\\text{ arrives before }07{:}00)=1-0.0808=0.919>0.85=P(B\\text{ arrives before }07{:}00)\\)</td><td class='ms-mark'>R1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(d)(i)</td><td class='ms-content'>\\(Y\\sim B(5,\\,0.85)\\)</td><td class='ms-mark'></td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(P(Y=5)=(0.85)^5\\approx0.444\\)</td><td class='ms-mark'>M1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(d)(ii)</td><td class='ms-content'>\\(P(Y\\geq3)=P(3)+P(4)+P(5)\\)</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(=\\binom{5}{3}(0.85)^3(0.15)^2+\\binom{5}{4}(0.85)^4(0.15)+(0.85)^5\\)</td><td class='ms-mark'></td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(\\approx0.138+0.392+0.444=0.973\\)</td><td class='ms-mark'>M1 A1 A1 A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[13 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t4_sl_q27",
@@ -8315,7 +8341,8 @@
       "markscheme_image_paths": [
         "images/markschemes/t4_sl_q27.svg"
       ],
-      "draft": true
+      "draft": false,
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>27.</td><td class='ms-part'>(a)</td><td class='ms-content'>\\(X\\sim N(100,25)\\); shade region \\(X>105\\) (right tail beyond \\(\\mu+\\sigma\\))</td><td class='ms-mark'>A1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(b)</td><td class='ms-content'>By symmetry: \\(P(X<d)=P(X>105)\\Rightarrow d=100-(105-100)=95\\)</td><td class='ms-mark'>M1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(c)</td><td class='ms-content'>\\(P(d<X<105)=1-P(X<d)-P(X>105)=1-0.16-0.16=0.68\\)</td><td class='ms-mark'>M1 A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[6 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t4_sl_q28",
@@ -8328,7 +8355,8 @@
       "markscheme_image_paths": [
         "images/markschemes/t4_sl_q28.svg"
       ],
-      "draft": true
+      "draft": false,
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>28.</td><td class='ms-part'>(a)(i)</td><td class='ms-content'>\\(55+75-n(\\text{both})=100\\Rightarrow n(\\text{both})=30\\)</td><td class='ms-mark'>M1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(a)(ii)</td><td class='ms-content'>Rugby only \\(=75-30=45\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(b)(i)</td><td class='ms-content'>Football only \\(=55-30=25\\)</td><td class='ms-mark'></td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(P(\\text{only one sport})=\\dfrac{25+45}{100}=\\dfrac{70}{100}=0.7\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(b)(ii)</td><td class='ms-content'>\\(P(\\text{rugby}\\mid\\text{only one})=\\dfrac{45}{70}=\\dfrac{9}{14}\\)</td><td class='ms-mark'>M1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(c)</td><td class='ms-content'>\\(P(A\\cap B)=\\dfrac{30}{100}\\neq0\\), so they can both occur \\(\\Rightarrow\\) not mutually exclusive</td><td class='ms-mark'>R1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(d)</td><td class='ms-content'>\\(P(A)\\cdot P(B)=0.55\\times0.75=0.4125\\neq0.30=P(A\\cap B)\\)</td><td class='ms-mark'>M1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(\\therefore A\\) and \\(B\\) are not independent</td><td class='ms-mark'>A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[12 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t4_sl_q29",
@@ -8341,7 +8369,8 @@
       "markscheme_image_paths": [
         "images/markschemes/t4_sl_q29.svg"
       ],
-      "draft": true
+      "draft": false,
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>29.</td><td class='ms-part'>(a)</td><td class='ms-content'>\\(X\\sim B\\!\\left(10,\\tfrac{1}{5}\\right)\\Rightarrow E(X)=10\\times\\tfrac{1}{5}=2\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(b)</td><td class='ms-content'>\\(P(X=3)=\\dbinom{10}{3}\\!\\left(\\tfrac{1}{5}\\right)^3\\!\\left(\\tfrac{4}{5}\\right)^7\\approx0.201\\)</td><td class='ms-mark'>M1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(c)</td><td class='ms-content'>\\(P(X>3)=1-P(X\\leq3)\\)</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(=1-(0.1074+0.2684+0.3020+0.2013)=1-0.8791\\approx0.121\\)</td><td class='ms-mark'>M1 A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[6 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t4_sl_q30",
@@ -8354,7 +8383,8 @@
       "markscheme_image_paths": [
         "images/markschemes/t4_sl_q30.svg"
       ],
-      "draft": true
+      "draft": false,
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>30.</td><td class='ms-part'></td><td class='ms-content'>\\(A,B\\) independent; \\(P(B)=2P(A)\\); \\(P(A\\cup B)=0.52\\)</td><td class='ms-mark'></td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(P(A\\cup B)=P(A)+P(B)-P(A)P(B)=3P(A)-2P(A)^2=0.52\\)</td><td class='ms-mark'>M1 M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(2P(A)^2-3P(A)+0.52=0\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(P(A)=\\dfrac{3\\pm\\sqrt{9-4.16}}{4}=\\dfrac{3\\pm2.2}{4}\\)</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(P(A)=0.2\\) (reject \\(P(A)=1.3\\))</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(P(B)=2\\times0.2=0.4\\)</td><td class='ms-mark'>A1 A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[7 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t4_sl_q31",
@@ -8367,7 +8397,8 @@
       "markscheme_image_paths": [
         "images/markschemes/t4_sl_q31.svg"
       ],
-      "draft": true
+      "draft": false,
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>31.</td><td class='ms-part'>(a)(i)</td><td class='ms-content'>\\(P(B)=\\dfrac{3}{4}\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(a)(ii)</td><td class='ms-content'>\\(P(R)=\\dfrac{1}{4}\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(b)</td><td class='ms-content'>\\(p=\\tfrac{1}{4},\\;s=\\tfrac{3}{4},\\;t=\\tfrac{1}{4}\\)</td><td class='ms-mark'>A1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(c)(i)</td><td class='ms-content'>\\(P(X=3)=P(R_1)\\times P(B_2)=\\tfrac{1}{4}\\times\\tfrac{3}{4}=\\tfrac{3}{16}\\) (AG)</td><td class='ms-mark'>A1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(c)(ii)</td><td class='ms-content'>\\(P(X=2)=P(B_1)+P(R_1)P(R_2)=\\tfrac{3}{4}+\\tfrac{1}{4}\\cdot\\tfrac{1}{4}=\\tfrac{13}{16}\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(d)(i)</td><td class='ms-content'><table class='ms-inner'><tr><th>\\(X\\)</th><td>2</td><td>3</td></tr><tr><th>\\(P\\)</th><td>\\(\\tfrac{13}{16}\\)</td><td>\\(\\tfrac{3}{16}\\)</td></tr></table></td><td class='ms-mark'>A1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(d)(ii)</td><td class='ms-content'>\\(E(X)=2\\cdot\\tfrac{13}{16}+3\\cdot\\tfrac{3}{16}=\\dfrac{26+9}{16}=\\dfrac{35}{16}\\approx2.19\\)</td><td class='ms-mark'>M1 A1 M1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(e)</td><td class='ms-content'>Win exactly \\$10: one game \\(X=3\\) and other \\(X=2\\).</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(P=2\\times\\tfrac{3}{16}\\times\\tfrac{13}{16}=\\dfrac{78}{256}=\\dfrac{39}{128}\\approx0.305\\)</td><td class='ms-mark'>M1 A1 A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[16 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t4_sl_q32",
@@ -8380,7 +8411,8 @@
       "markscheme_image_paths": [
         "images/markschemes/t4_sl_q32.svg"
       ],
-      "draft": true
+      "draft": false,
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>32.</td><td class='ms-part'>(a)</td><td class='ms-content'>\\(26+10+20+k+29+11=100\\Rightarrow k=4\\)</td><td class='ms-mark'>M1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(b)(i)</td><td class='ms-content'>Cumulative: 1→26, 2→36, 3→56.  50th and 51st values both score 3.</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Median \\(=3\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(b)(ii)</td><td class='ms-content'>\\(Q_1\\): 25th value \\(=1\\)  (cum. freq. up to 1 is 26)</td><td class='ms-mark'>M1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(Q_3\\): 75th value \\(=5\\)  (cum. freq. up to 4 is 60, up to 5 is 89)</td><td class='ms-mark'>M1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(IQR=5-1=4\\)</td><td class='ms-mark'></td></tr><tr><td colspan='3'></td><td class='ms-total'>[7 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t4_sl_q33",
@@ -8393,7 +8425,8 @@
       "markscheme_image_paths": [
         "images/markschemes/t4_sl_q33.svg"
       ],
-      "draft": true
+      "draft": false,
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>33.</td><td class='ms-part'>(a)(i)</td><td class='ms-content'>\\(P(M\\cup T)=P(M)+P(T)-P(M\\cap T)=\\dfrac{9}{20}+\\dfrac{5}{20}-\\dfrac{2}{20}=\\dfrac{12}{20}=\\dfrac{3}{5}\\)</td><td class='ms-mark'>M1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(a)(ii)</td><td class='ms-content'>\\(P(\\text{not football}\\mid\\text{female})=\\dfrac{3+3}{11}=\\dfrac{6}{11}\\)</td><td class='ms-mark'>M1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(b)</td><td class='ms-content'>Non-football students: 11 (female) + 9 (male) – 9 (football) = 11 non-football</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(P(\\text{neither plays football})=\\dfrac{11}{20}\\times\\dfrac{10}{19}=\\dfrac{110}{380}=\\dfrac{11}{38}\\approx0.289\\)</td><td class='ms-mark'>A1 A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[7 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t4_sl_q34",
@@ -8406,7 +8439,8 @@
       "markscheme_image_paths": [
         "images/markschemes/t4_sl_q34.svg"
       ],
-      "draft": true
+      "draft": false,
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>34.</td><td class='ms-part'>(a)(i)</td><td class='ms-content'>\\(p = 11+21+33=65\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(a)(ii)</td><td class='ms-content'>\\(q=99-65=34\\)</td><td class='ms-mark'>M1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(b)</td><td class='ms-content'>\\(n=125\\), median at 63rd value. Cumulative: 15→11, 16→32, 17→65.</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>63rd value is in the 17 group \\(\\Rightarrow\\) median \\(=17\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(c)</td><td class='ms-content'>\\(\\bar{x}=\\dfrac{15(11)+16(21)+17(33)+18(34)+19(18)+20(8)}{125}=\\dfrac{2176}{125}=17.4\\)</td><td class='ms-mark'>M1 A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[7 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t4_sl_q35",
@@ -8419,7 +8453,8 @@
       "markscheme_image_paths": [
         "images/markschemes/t4_sl_q35.svg"
       ],
-      "draft": true
+      "draft": false,
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>35.</td><td class='ms-part'>(a)</td><td class='ms-content'>\\(X\\sim B(100,\\,0.04)\\Rightarrow E(X)=np=100\\times0.04=4\\)</td><td class='ms-mark'>A1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(b)</td><td class='ms-content'>\\(P(X=6)=\\dbinom{100}{6}(0.04)^6(0.96)^{94}\\approx0.105\\)</td><td class='ms-mark'>M1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(c)</td><td class='ms-content'>\\(P(X\\geq1)=1-P(X=0)=1-(0.96)^{100}\\approx1-0.0169=0.983\\)</td><td class='ms-mark'>M1 M1 A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[7 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t4_sl_q36",
@@ -8432,7 +8467,8 @@
       "markscheme_image_paths": [
         "images/markschemes/t4_sl_q36.svg"
       ],
-      "draft": true
+      "draft": false,
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>36.</td><td class='ms-part'>(a)(i)</td><td class='ms-content'>\\(X\\sim N(7,\\,0.25)\\), \\(\\sigma=0.5\\)</td><td class='ms-mark'></td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(P(X<8)=P\\!\\left(Z<\\dfrac{8-7}{0.5}\\right)=P(Z<2)\\approx0.977\\)</td><td class='ms-mark'>M1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(a)(ii)</td><td class='ms-content'>\\(P(6<X<8)=P(-2<Z<2)\\approx0.954\\)</td><td class='ms-mark'>M1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(b)(i)</td><td class='ms-content'>Shade left tail with 5\\% below \\(d\\) on normal curve</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(b)(ii)</td><td class='ms-content'>\\(P(X<d)=0.05\\Rightarrow z=-1.645\\)</td><td class='ms-mark'>M1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(d=7+(-1.645)(0.5)=7-0.8225\\approx6.18\\text{ g}\\)</td><td class='ms-mark'>M1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(c)</td><td class='ms-content'>\\(P(X_2<5)=0.20\\Rightarrow z=-0.8416\\)</td><td class='ms-mark'>M1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(5=\\mu+(-0.8416)(0.5)\\Rightarrow\\mu=5+0.421\\approx5.42\\text{ g}\\)</td><td class='ms-mark'>M1 A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[13 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t4_sl_q37",
@@ -8445,7 +8481,8 @@
       "markscheme_image_paths": [
         "images/markschemes/t4_sl_q37.svg"
       ],
-      "draft": true
+      "draft": false,
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>37.</td><td class='ms-part'>(a)</td><td class='ms-content'>\\(0.2+10k^2+0.4+3k=1\\Rightarrow10k^2+3k-0.4=0\\)</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(k=\\dfrac{-3\\pm\\sqrt{9+16}}{20}=\\dfrac{-3\\pm5}{20}\\)</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(k=0.1\\) (reject \\(k=-0.4\\) since \\(P(X=0)=10k^2\\geq0\\))</td><td class='ms-mark'>A1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(b)</td><td class='ms-content'>\\(E(X)=(-1)(0.2)+0(0.1)+2(0.4)+3(0.3)\\)</td><td class='ms-mark'>M1 M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(=-0.2+0+0.8+0.9=1.5\\)</td><td class='ms-mark'>A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[7 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t4_sl_q38",
@@ -8458,7 +8495,8 @@
       "markscheme_image_paths": [
         "images/markschemes/t4_sl_q38.svg"
       ],
-      "draft": true
+      "draft": false,
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>38.</td><td class='ms-part'>(a)</td><td class='ms-content'>Shade: left tail (category A, \\(<r\\)), middle (category B), right tail (category C, \\(>t\\))</td><td class='ms-mark'>A1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(b)</td><td class='ms-content'>\\(\\mu=6.84,\\;\\sigma=0.25\\)</td><td class='ms-mark'></td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Category A (shortest 12.92\\%): \\(P(X<r)=0.1292\\Rightarrow z=-1.131\\)</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(r=6.84+(-1.131)(0.25)=6.84-0.283\\approx6.56\\text{ cm}\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Category C (tallest 10.38\\%): \\(P(X>t)=0.1038\\Rightarrow z=1.261\\)</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(t=6.84+1.261(0.25)=6.84+0.315\\approx7.16\\text{ cm}\\)</td><td class='ms-mark'>A1 A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[7 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t4_sl_q39",
@@ -8471,7 +8509,8 @@
       "markscheme_image_paths": [
         "images/markschemes/t4_sl_q39.svg"
       ],
-      "draft": true
+      "draft": false,
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>39.</td><td class='ms-part'>(a)</td><td class='ms-content'>\\(X\\sim B\\!\\left(3,\\tfrac{1}{4}\\right)\\Rightarrow E(X)=3\\times\\tfrac{1}{4}=\\dfrac{3}{4}\\)</td><td class='ms-mark'>A1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(b)</td><td class='ms-content'>\\(P(X=2)=\\dbinom{3}{2}\\!\\left(\\tfrac{1}{4}\\right)^2\\!\\left(\\tfrac{3}{4}\\right)=\\dfrac{9}{64}\\approx0.141\\)</td><td class='ms-mark'>M1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(c)</td><td class='ms-content'>\\(P(X\\geq1)=1-P(X=0)=1-\\left(\\tfrac{3}{4}\\right)^3=1-\\dfrac{27}{64}=\\dfrac{37}{64}\\approx0.578\\)</td><td class='ms-mark'>M1 M1 A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[7 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t4_sl_q40",
@@ -8484,7 +8523,8 @@
       "markscheme_image_paths": [
         "images/markschemes/t4_sl_q40.svg"
       ],
-      "draft": true
+      "draft": false,
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>40.</td><td class='ms-part'>(a)</td><td class='ms-content'>\\(P(A\\cap B)=P(A)P(B)=0.6x\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(b)(i)</td><td class='ms-content'>\\(P(A\\cup B)=0.6+x-0.6x=0.8\\Rightarrow0.4x=0.2\\Rightarrow x=0.5\\)</td><td class='ms-mark'>M1 A1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(b)(ii)</td><td class='ms-content'>\\(P(A\\cap B)=0.6\\times0.5=0.3\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(c)</td><td class='ms-content'>\\(P(A\\cap B)=0.3\\neq0\\Rightarrow\\) both can occur simultaneously \\(\\Rightarrow\\) not mutually exclusive</td><td class='ms-mark'>R1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[6 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t4_sl_q41",
@@ -8497,7 +8537,8 @@
       "markscheme_image_paths": [
         "images/markschemes/t4_sl_q41.svg"
       ],
-      "draft": true
+      "draft": false,
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>41.</td><td class='ms-part'>(a)(i)</td><td class='ms-content'>Pairs summing to 6: (1,5),(2,4),(3,3),(4,2),(5,1) \\(\\Rightarrow P(X=6)=\\dfrac{5}{36}\\)</td><td class='ms-mark'>A1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(a)(ii)</td><td class='ms-content'>Sums 7–12: 6+5+4+3+2+1=21 outcomes. \\(P(X>6)=\\dfrac{21}{36}=\\dfrac{7}{12}\\)</td><td class='ms-mark'>A1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(a)(iii)</td><td class='ms-content'>\\(P(X>5)=\\dfrac{26}{36}\\)</td><td class='ms-mark'></td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(P(X=7\\mid X>5)=\\dfrac{P(X=7)}{P(X>5)}=\\dfrac{6/36}{26/36}=\\dfrac{6}{26}=\\dfrac{3}{13}\\)</td><td class='ms-mark'>M1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(b)</td><td class='ms-content'>\\(P(X=6)=\\tfrac{5}{36},\\;P(X>6)=\\tfrac{21}{36},\\;P(X<6)=\\tfrac{10}{36}\\)</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(E=3\\cdot\\tfrac{5}{36}+1\\cdot\\tfrac{21}{36}+(-k)\\cdot\\tfrac{10}{36}=0\\)</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(15+21-10k=0\\Rightarrow k=\\dfrac{36}{10}=3.6\\)</td><td class='ms-mark'>M1 A1 M1 M1 A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[13 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t4_sl_q42",
@@ -8510,7 +8551,8 @@
       "markscheme_image_paths": [
         "images/markschemes/t4_sl_q42.svg"
       ],
-      "draft": true
+      "draft": false,
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>42.</td><td class='ms-part'>(a)</td><td class='ms-content'>Read 40th percentile from CF graph \\(\\Rightarrow\\) median [from diagram]</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(b)</td><td class='ms-content'>\\(Q_1\\) at 20th, \\(Q_3\\) at 60th student from CF graph; \\(IQR=Q_3-Q_1\\) [from diagram]</td><td class='ms-mark'>M1 M1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(c)</td><td class='ms-content'>Total = 80. 10–20 freq: \\(80-5-20-24-6-y=25-y\\);</td><td class='ms-mark'></td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Read CF at \\(t=20\\) and \\(t=50\\) from graph to find 10–20 and 40–50 frequencies</td><td class='ms-mark'>A1 A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[6 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t4_sl_q43",
@@ -8523,7 +8565,8 @@
       "markscheme_image_paths": [
         "images/markschemes/t4_sl_q43.svg"
       ],
-      "draft": true
+      "draft": false,
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>43.</td><td class='ms-part'>(a)</td><td class='ms-content'>\\(X\\sim B(7,\\,0.18)\\)</td><td class='ms-mark'></td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(P(X=2)=\\dbinom{7}{2}(0.18)^2(0.82)^5=21\\times0.0324\\times0.3707\\approx0.252\\)</td><td class='ms-mark'>M1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(b)</td><td class='ms-content'>\\(P(X\\geq2)=1-P(X=0)-P(X=1)\\)</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(P(X=0)=(0.82)^7\\approx0.2288\\)</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(P(X=1)=7(0.18)(0.82)^6\\approx0.3515\\)</td><td class='ms-mark'></td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(P(X\\geq2)\\approx1-0.2288-0.3515=0.420\\)</td><td class='ms-mark'>A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[5 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t4_sl_q44",
@@ -8536,7 +8579,8 @@
       "markscheme_image_paths": [
         "images/markschemes/t4_sl_q44.svg"
       ],
-      "draft": true
+      "draft": false,
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>44.</td><td class='ms-part'>(a)</td><td class='ms-content'>\\(X\\sim N(21,\\sigma^2)\\).  \\(P(X<23.7)=0.80\\Rightarrow z=0.8416\\)</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(\\dfrac{23.7-21}{\\sigma}=0.8416\\Rightarrow\\sigma=\\dfrac{2.7}{0.8416}\\approx3.21\\)</td><td class='ms-mark'>A1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(b)(i)</td><td class='ms-content'>\\(z=\\dfrac{25.4-21}{3.21}=1.371\\Rightarrow P(X<25.4)\\approx0.915\\)</td><td class='ms-mark'>M1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(b)(ii)</td><td class='ms-content'>\\(P(X>b)=P(X<25.4)=0.915\\Rightarrow P(X<b)=0.085\\)</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(b=21+(-1.371)(3.21)\\approx16.6\\)</td><td class='ms-mark'>M1 A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[7 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t4_sl_q45",
@@ -8549,7 +8593,8 @@
       "markscheme_image_paths": [
         "images/markschemes/t4_sl_q45.svg"
       ],
-      "draft": true
+      "draft": false,
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>45.</td><td class='ms-part'>(a)</td><td class='ms-content'>Read CF value at mark = 40 from graph; number \\(\\approx\\) [from graph]</td><td class='ms-mark'>A1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(b)</td><td class='ms-content'>Middle 50\\%: between 25th and 75th percentile.</td><td class='ms-mark'></td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(a\\) = mark at 200th student from CF graph; \\(b\\) = mark at 600th student</td><td class='ms-mark'>M1 M1 A1 A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[6 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t4_sl_q46",
@@ -8562,7 +8607,8 @@
       "markscheme_image_paths": [
         "images/markschemes/t4_sl_q46.svg"
       ],
-      "draft": true
+      "draft": false,
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>46.</td><td class='ms-part'>(a)</td><td class='ms-content'>\\(X\\sim N(100,100)\\Rightarrow\\sigma=10\\)</td><td class='ms-mark'></td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(1.12\\) s.d. above mean: \\(X=100+1.12\\times10=111.2\\)</td><td class='ms-mark'>M1 A1 M1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(b)</td><td class='ms-content'>\\(1.12\\) s.d. below mean: \\(X=100-1.12\\times10=88.8\\)</td><td class='ms-mark'>M1 A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[6 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t4_sl_q47",
@@ -8575,7 +8621,8 @@
       "markscheme_image_paths": [
         "images/markschemes/t4_sl_q47.svg"
       ],
-      "draft": true
+      "draft": false,
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>47.</td><td class='ms-part'>(a)</td><td class='ms-content'>\\(\\tfrac{1}{5}+\\tfrac{2}{5}+\\tfrac{1}{10}+x=1\\Rightarrow\\tfrac{7}{10}+x=1\\Rightarrow x=\\dfrac{3}{10}\\)</td><td class='ms-mark'>M1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(b)</td><td class='ms-content'>\\(E(X)=1\\cdot\\tfrac{1}{5}+2\\cdot\\tfrac{2}{5}+3\\cdot\\tfrac{1}{10}+4\\cdot\\tfrac{3}{10}\\)</td><td class='ms-mark'>M1 M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(=\\tfrac{2}{10}+\\tfrac{8}{10}+\\tfrac{3}{10}+\\tfrac{12}{10}=\\dfrac{25}{10}=2.5\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(c)</td><td class='ms-content'>\\(P(\\text{score 3 twice})=\\left(\\tfrac{1}{10}\\right)^2=\\dfrac{1}{100}=0.01\\)</td><td class='ms-mark'>A1 A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[7 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t4_sl_q48",
@@ -8588,7 +8635,8 @@
       "markscheme_image_paths": [
         "images/markschemes/t4_sl_q48.svg"
       ],
-      "draft": true
+      "draft": false,
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>48.</td><td class='ms-part'>(a)</td><td class='ms-content'>\\(P(X<24)=1-0.06=0.94\\)</td><td class='ms-mark'>A1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(b)</td><td class='ms-content'>By symmetry about mean 17: \\(D=17-(24-17)=17-7=10\\text{ m}\\)</td><td class='ms-mark'>M1 A1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(c)</td><td class='ms-content'>\\(P(17<X<24)=P(X<24)-P(X<17)=0.94-0.50=0.44\\)</td><td class='ms-mark'>M1 M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(E(\\text{trees})=200\\times0.44=88\\text{ trees}\\)</td><td class='ms-mark'>M1 A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[9 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t4_hl_q1",
@@ -8601,7 +8649,8 @@
       "markscheme_image_paths": [
         "images/markschemes/t4_hl_q1.svg"
       ],
-      "draft": true
+      "draft": false,
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>1.</td><td class='ms-part'>(a)</td><td class='ms-content'>\\(n=1400,\\;\\hat{p}=852/1400=0.6086\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>95\\% CI: \\(\\hat{p}\\pm1.96\\sqrt{\\hat{p}(1-\\hat{p})/n}=0.6086\\pm0.0256\\)</td><td class='ms-mark'>M1 A1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(\\approx[0.583,\\;0.634]\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(b)(i)</td><td class='ms-content'>Midpoint \\(\\hat{p}=(0.2511+0.3155)/2=0.2833\\)</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(n\\hat{p}=600\\times0.2833\\approx170\\) people support Swiss cheese</td><td class='ms-mark'>A1 M1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(b)(ii)</td><td class='ms-content'>Half-width: \\(z\\sqrt{0.2833\\times0.7167/600}=z\\times0.01841=0.0322\\)</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(z=1.749\\Rightarrow\\alpha\\approx92\\) (confidence level 92\\%)</td><td class='ms-mark'>M1 A1 A1 A1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(c)</td><td class='ms-content'>\\(H_0\\): data follows \\(B(5,0.35)\\);  \\(H_1\\): data does not</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Expected: \\(E_0=20.88,\\,E_1=56.23,\\,E_2=60.56,\\,E_3=32.61,\\,E_{4+5}=9.72\\)</td><td class='ms-mark'>M1 A1 A1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(\\chi^2=1.660+0.930+0.325+0.353+2.873=6.14\\)</td><td class='ms-mark'>M1 A1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(df=4,\\;\\chi^2_{\\text{crit}}(4,5\\%)=9.488\\). Since \\(6.14<9.488\\) fail to reject \\(H_0\\)</td><td class='ms-mark'>A1 A1 M1 A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[24 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t4_hl_q2",
@@ -8614,7 +8663,8 @@
       "markscheme_image_paths": [
         "images/markschemes/t4_hl_q2.svg"
       ],
-      "draft": true
+      "draft": false,
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>2.</td><td class='ms-part'>(a)</td><td class='ms-content'>\\(\\bar{x}=130/10=13.0\\) min</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(s^2=(1719.84-10\\times169)/9=29.84/9\\approx3.316\\) min\\(^2\\)</td><td class='ms-mark'>M1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(b)</td><td class='ms-content'>\\(t_{9,0.025}=2.262\\);  CI: \\(13.0\\pm2.262\\times\\sqrt{3.316/10}=13.0\\pm1.302\\)</td><td class='ms-mark'>M1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(\\approx[11.7,\\;14.3]\\) min</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(c)(i)</td><td class='ms-content'>\\(H_0:\\mu=12.5\\);  \\(t=(13.0-12.5)/(\\sqrt{3.316/10})=0.5/0.576=0.869\\)</td><td class='ms-mark'>M1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(p\\text{-value}=2P(T_9>0.869)\\approx0.407\\)</td><td class='ms-mark'>M1 A1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(c)(ii)</td><td class='ms-content'>\\(p=0.407>0.01\\): fail to reject \\(H_0\\). Insufficient evidence \\(\\mu\\neq12.5\\)</td><td class='ms-mark'>R1 A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[12 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t4_hl_q3",
@@ -8627,7 +8677,8 @@
       "markscheme_image_paths": [
         "images/markschemes/t4_hl_q3.svg"
       ],
-      "draft": true
+      "draft": false,
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>3.</td><td class='ms-part'>(a)(i)</td><td class='ms-content'>\\(\\hat{\\mu}=\\bar{x}=1071/21=51\\text{ g}\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(s^2=(54705-21\\times51^2)/20=(54705-54621)/20=84/20=4.2\\text{ g}^2\\)</td><td class='ms-mark'>M1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(a)(ii)</td><td class='ms-content'>\\(t_{20,0.025}=2.086\\);  95\\% CI: \\(51\\pm2.086\\sqrt{4.2/21}=51\\pm0.933\\)</td><td class='ms-mark'>M1 A1 A1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(\\approx[50.1,\\;51.9]\\text{ g}\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(b)</td><td class='ms-content'>\\(\\text{Var}(S_{n-1})=E(S_{n-1}^2)-[E(S_{n-1})]^2\\geq0\\)</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Since \\(S_{n-1}^2\\) is unbiased for \\(\\sigma^2\\): \\(E(S_{n-1}^2)=\\sigma^2\\)</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(\\sigma^2-[E(S_{n-1})]^2\\geq0\\Rightarrow E(S_{n-1})\\leq\\sigma\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Unless \\(\\text{Var}(S_{n-1})=0\\) (impossible for finite \\(n>1\\)), \\(E(S_{n-1})<\\sigma\\)</td><td class='ms-mark'>R1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(\\therefore S_{n-1}\\) is not an unbiased estimator for \\(\\sigma\\). &nbsp;(AG)</td><td class='ms-mark'>A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[13 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t4_hl_q4",
@@ -8640,7 +8691,8 @@
       "markscheme_image_paths": [
         "images/markschemes/t4_hl_q4.svg"
       ],
-      "draft": true
+      "draft": false,
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>4.</td><td class='ms-part'></td><td class='ms-content'>\\(n=5\\), data: 6.5,12.4,18.2,3.7,5.4. \\;\\bar{x}=46.2/5=9.24\\)</td><td class='ms-mark'></td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(a)(i)</td><td class='ms-content'>\\(\\sigma^2=9\\) known. 95\\% CI: \\(9.24\\pm1.96\\times3/\\sqrt{5}=9.24\\pm2.63\\)</td><td class='ms-mark'>M1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(\\approx[6.61,\\;11.87]\\) months</td><td class='ms-mark'>A1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(a)(ii)</td><td class='ms-content'>Width \\(<2\\): \\(2\\times1.645\\times3/\\sqrt{n}<2\\Rightarrow\\sqrt{n}>4.935\\)</td><td class='ms-mark'>M1 A1 M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(n>24.35\\Rightarrow\\) minimum \\(n=25\\)</td><td class='ms-mark'>A1 A1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(b)</td><td class='ms-content'>\\(s^2=143.15/4=35.79,\\;s=5.983\\)</td><td class='ms-mark'>M1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(t_{4,0.025}=2.776\\);  95\\% CI: \\(9.24\\pm2.776\\times5.983/\\sqrt{5}=9.24\\pm7.42\\)</td><td class='ms-mark'>M1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(\\approx[1.82,\\;16.66]\\) months</td><td class='ms-mark'>A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[15 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t4_hl_q5",
@@ -8653,7 +8705,8 @@
       "markscheme_image_paths": [
         "images/markschemes/t4_hl_q5.svg"
       ],
-      "draft": true
+      "draft": false,
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>5.</td><td class='ms-part'>(a)</td><td class='ms-content'>\\(n=15,\\;\\bar{x}=18/15=1.2\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(s^2=(28.94-15\\times1.44)/14=7.34/14=0.5243\\)</td><td class='ms-mark'>M1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(H_0:\\mu=1.1\\);  \\(H_1:\\mu>1.1\\)  (one-tailed, increase)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(t=(1.2-1.1)/(\\sqrt{0.5243/15})=0.1/0.1869=0.535\\)</td><td class='ms-mark'>M1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(t_{14,0.05}=1.761\\). Since \\(0.535<1.761\\) fail to reject \\(H_0\\)</td><td class='ms-mark'>A1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(b)</td><td class='ms-content'>\\(n=15,\\;\\bar{x}=1.18,\\;\\sigma^2=0.0256\\) known. 90\\% CI:</td><td class='ms-mark'></td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(1.18\\pm1.645\\times0.16/\\sqrt{15}=1.18\\pm0.0680\\approx[1.11,\\;1.25]\\)</td><td class='ms-mark'>M1 A1 M1 A1 A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[13 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t4_hl_q6",
@@ -8666,7 +8719,8 @@
       "markscheme_image_paths": [
         "images/markschemes/t4_hl_q6.svg"
       ],
-      "draft": true
+      "draft": false,
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>6.</td><td class='ms-part'></td><td class='ms-content'>\\(H_0:p=0.5\\);  \\(H_1:p\\neq0.5\\)  (two-tailed, \\(\\alpha=0.01\\))</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Under \\(H_0\\): \\(X\\sim B(200,0.5)\\approx N(100,50)\\)</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(z=(115-100)/\\sqrt{50}=15/7.071=2.121\\)</td><td class='ms-mark'>A1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(z_{\\text{crit}}(\\alpha/2=0.005)=2.576\\). Since \\(2.121<2.576\\) fail to reject \\(H_0\\)</td><td class='ms-mark'>A1 A1 M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Insufficient evidence at 1\\% that the coin is biased</td><td class='ms-mark'>A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[8 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t4_hl_q7",
@@ -8679,7 +8733,8 @@
       "markscheme_image_paths": [
         "images/markschemes/t4_hl_q7.svg"
       ],
-      "draft": true
+      "draft": false,
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>7.</td><td class='ms-part'>(a)</td><td class='ms-content'>\\(\\sigma=1.6,\\;n=5,\\;\\bar{x}=(22.7+26.1)/2=24.4\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Half-width: \\(1.7=z\\times1.6/\\sqrt{5}\\Rightarrow z=1.7/0.7155=2.376\\)</td><td class='ms-mark'>M1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(P(Z<2.376)=0.9912\\Rightarrow\\) confidence level \\(=98.2\\%\\)</td><td class='ms-mark'>M1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(b)</td><td class='ms-content'>Width \\(<2\\): \\(2\\times1.96\\times1.6/\\sqrt{n}<2\\Rightarrow\\sqrt{n}>1.96\\times1.6=3.136\\)</td><td class='ms-mark'>M1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(n>9.83\\Rightarrow\\) minimum \\(n=10\\)</td><td class='ms-mark'>M1 A1 A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[10 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t4_hl_q8",
@@ -8692,7 +8747,8 @@
       "markscheme_image_paths": [
         "images/markschemes/t4_hl_q8.svg"
       ],
-      "draft": true
+      "draft": false,
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>8.</td><td class='ms-part'>(a)(i)</td><td class='ms-content'>\\(\\hat{p}=540/1200=0.45\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(a)(ii)</td><td class='ms-content'>\\(SE=\\sqrt{0.45\\times0.55/1200}=\\sqrt{0.000206}\\approx0.01437\\)</td><td class='ms-mark'>M1 A1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(a)(iii)</td><td class='ms-content'>95\\% CI: \\(0.45\\pm1.96\\times0.01437=0.45\\pm0.0282\\approx[0.422,\\;0.478]\\)</td><td class='ms-mark'>M1 A1 M1 A1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(b)</td><td class='ms-content'>The sample must be a simple random sample from the population</td><td class='ms-mark'>A1 A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[11 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t4_hl_q9",
@@ -8705,7 +8761,8 @@
       "markscheme_image_paths": [
         "images/markschemes/t4_hl_q9.svg"
       ],
-      "draft": true
+      "draft": false,
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>9.</td><td class='ms-part'>(a)</td><td class='ms-content'>Differences (before\\(-\\)after): 2.2,3.5,4.3,\\(-0.5\\),4.2,\\(-0.2\\),2.5,2.7,0.1,\\(-0.7\\)</td><td class='ms-mark'></td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(\\hat{\\mu}_d=\\bar{d}=18.1/10=1.81\\text{ kg}\\)</td><td class='ms-mark'>M1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(\\hat{\\sigma}_d^2=s_d^2=(67.55-10\\times1.81^2)/9=34.79/9\\approx3.866\\text{ kg}^2\\)</td><td class='ms-mark'>M1 A1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(b)(i)</td><td class='ms-content'>\\(H_0:\\mu_d=0\\);  \\(H_1:\\mu_d>0\\)  (diet causes mean weight loss)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(b)(ii)</td><td class='ms-content'>\\(t=\\bar{d}/(s_d/\\sqrt{n})=1.81/(1.966/\\sqrt{10})=1.81/0.6216=2.912\\)</td><td class='ms-mark'>M1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(b)(iii)</td><td class='ms-content'>\\(t_{9,0.01}=2.821\\). Since \\(2.912>2.821\\) reject \\(H_0\\). Diet causes significant weight loss (1\\%)</td><td class='ms-mark'>A1 A1 R1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(c)</td><td class='ms-content'>Midpoint \\(=1.81\\), half-width \\(=1.55\\). \\(t\\times s_d/\\sqrt{n}=t\\times0.6216=1.55\\Rightarrow t=2.493\\)</td><td class='ms-mark'>M1 A1 M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(P(T_9>2.493)\\approx0.0172\\Rightarrow\\) confidence level \\(\\approx96.6\\%\\)</td><td class='ms-mark'>A1 A1 A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[17 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t4_hl_q10",
@@ -8718,7 +8775,8 @@
       "markscheme_image_paths": [
         "images/markschemes/t4_hl_q10.svg"
       ],
-      "draft": true
+      "draft": false,
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>10.</td><td class='ms-part'></td><td class='ms-content'>\\(S=\\sum_{i=1}^{10}X_i\\sim\\text{Pois}(10\\mu)\\). Under \\(H_0\\): \\(S\\sim\\text{Pois}(30)\\)</td><td class='ms-mark'></td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(a)</td><td class='ms-content'>\\(\\alpha=P(S\\leq22)+P(S\\geq38)\\;\\big|\\;\\lambda=30\\)</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>By GDC: \\(P(S\\leq22)\\approx0.0806,\\;P(S\\geq38)\\approx0.0806\\)</td><td class='ms-mark'>A1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Significance level \\(\\approx0.161\\) (16.1\\%)</td><td class='ms-mark'>A1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(b)</td><td class='ms-content'>If \\(\\mu=2.5\\): \\(S\\sim\\text{Pois}(25)\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(P(\\text{Type II})=P(23\\leq S\\leq37\\mid\\lambda=25)\\)</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(=P(S\\leq37)-P(S\\leq22)\\approx0.9930-0.2237=0.769\\)</td><td class='ms-mark'>M1 A1 A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[10 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t4_hl_q11",
@@ -8731,7 +8789,8 @@
       "markscheme_image_paths": [
         "images/markschemes/t4_hl_q11.svg"
       ],
-      "draft": true
+      "draft": false,
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>11.</td><td class='ms-part'>(a)(i)</td><td class='ms-content'>\\(n=8,\\;\\bar{x}=3992/8=499.0\\text{ ml}\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(s^2=\\sum(x_i-\\bar{x})^2/7=26.60/7\\approx3.800\\text{ ml}^2\\)</td><td class='ms-mark'>M1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(a)(ii)</td><td class='ms-content'>\\(H_0:\\mu=500\\);  \\(H_1:\\mu<500\\). \\(t=(499-500)/(\\sqrt{3.8/8})=-1/0.689=-1.451\\)</td><td class='ms-mark'>M1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(t_{7,0.05}=1.895\\) (one-tailed). Since \\(|t|=1.451<1.895\\) fail to reject \\(H_0\\)</td><td class='ms-mark'>A1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(b)</td><td class='ms-content'>\\(S=X_1+X_2+X_3+X_4\\sim N(240,\\,144)\\), \\(\\sigma_S=12\\)</td><td class='ms-mark'>M1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(P(S<250)=P(Z<(250-240)/12)=P(Z<0.833)\\approx0.798\\)</td><td class='ms-mark'>M1 A1 A1 A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[11 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t4_hl_q12",
@@ -8744,7 +8803,8 @@
       "markscheme_image_paths": [
         "images/markschemes/t4_hl_q12.svg"
       ],
-      "draft": true
+      "draft": false,
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>12.</td><td class='ms-part'></td><td class='ms-content'>\\(S=\\sum_{i=1}^{10}X_i\\sim\\text{Pois}(10\\mu)\\). Critical region: \\(S\\geq15\\)</td><td class='ms-mark'></td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(a)</td><td class='ms-content'>Under \\(H_0\\) (\\(\\mu=1\\)): \\(S\\sim\\text{Pois}(10)\\)</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(P(\\text{Type I})=P(S\\geq15\\mid\\lambda=10)=1-P(S\\leq14)\\approx1-0.9165=0.0835\\)</td><td class='ms-mark'>M1 A1 A1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(b)</td><td class='ms-content'>Under \\(H_1\\) (\\(\\mu=2\\)): \\(S\\sim\\text{Pois}(20)\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(P(\\text{Type II})=P(S<15\\mid\\lambda=20)=P(S\\leq14)\\approx0.1049\\)</td><td class='ms-mark'>M1 M1 A1 A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[10 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t4_hl_q13",
@@ -8757,7 +8817,8 @@
       "markscheme_image_paths": [
         "images/markschemes/t4_hl_q13.svg"
       ],
-      "draft": true
+      "draft": false,
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>13.</td><td class='ms-part'>(a)</td><td class='ms-content'>Type I error: reject \\(H_0\\) when \\(H_0\\) is true.</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>(Accept \\(H_1\\) = password is JJJRRRR when it is actually JJJJJJRR)</td><td class='ms-mark'></td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(b)</td><td class='ms-content'>JJJJJJRR has 6 J's and 2 R's (8 letters). 2 letters chosen at random.</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(P(JJ\\mid H_0)=\\dbinom{6}{2}/\\dbinom{8}{2}=15/28\\)</td><td class='ms-mark'>A1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(P(\\text{Type I})=1-15/28=13/28\\approx0.464\\)</td><td class='ms-mark'>M1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(c)</td><td class='ms-content'>Type II error: accept \\(H_0\\) when \\(H_1\\) is true.</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>(Computer shows JJ when password is actually JJJRRRR)</td><td class='ms-mark'></td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(d)</td><td class='ms-content'>JJJRRRR has 3 J's and 4 R's (7 letters).</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(P(\\text{Type II})=P(JJ\\mid H_1)=\\dbinom{3}{2}/\\dbinom{7}{2}=3/21=\\dfrac{1}{7}\\approx0.143\\)</td><td class='ms-mark'>A1 A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[9 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t4_hl_q14",
@@ -8770,7 +8831,8 @@
       "markscheme_image_paths": [
         "images/markschemes/t4_hl_q14.svg"
       ],
-      "draft": true
+      "draft": false,
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>14.</td><td class='ms-part'>(a)</td><td class='ms-content'>\\(H_0:\\mu=28\\);  \\(H_1:\\mu\\neq28\\). Use two-tailed \\(z\\)-test since \\(\\sigma=0.54\\) known.</td><td class='ms-mark'>A1 A1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(\\bar{X}\\sim N(28,\\,0.54^2/24)\\). SE \\(=0.54/\\sqrt{24}=0.1102\\)</td><td class='ms-mark'>A1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(b)</td><td class='ms-content'>\\(\\alpha=3.5\\%\\), two-tailed: \\(z_{0.0175}=2.108\\)</td><td class='ms-mark'>M1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>CR: \\(\\bar{x}<28-2.108\\times0.1102\\) or \\(\\bar{x}>28+2.108\\times0.1102\\)</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>i.e.\\;\\(\\bar{x}<27.768\\) or \\(\\bar{x}>28.232\\)</td><td class='ms-mark'>A1 A1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(c)</td><td class='ms-content'>If \\(\\mu=28.1\\): \\(P(\\text{Type II})=P(27.768<\\bar{x}<28.232\\mid\\mu=28.1)\\)</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(z_L=(27.768-28.1)/0.1102=-3.01\\Rightarrow P\\approx0\\)</td><td class='ms-mark'></td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(z_U=(28.232-28.1)/0.1102=1.198\\Rightarrow P(Z<1.198)\\approx0.885\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(P(\\text{Type II})\\approx0.885\\)</td><td class='ms-mark'>A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[14 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t4_hl_q15",
@@ -8783,7 +8845,8 @@
       "markscheme_image_paths": [
         "images/markschemes/t4_hl_q15.svg"
       ],
-      "draft": true
+      "draft": false,
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>15.</td><td class='ms-part'>(a)</td><td class='ms-content'>\\(H_0:\\mu=2.5\\);  \\(H_1:\\mu\\neq2.5\\)</td><td class='ms-mark'>A1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(b)</td><td class='ms-content'>\\(\\sigma=0.1,\\;n=16\\). SE\\(=0.1/4=0.025\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>5\\% two-tailed: \\(z_{0.025}=1.96\\)</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>CR: \\(\\bar{x}<2.5-1.96\\times0.025\\) or \\(\\bar{x}>2.5+1.96\\times0.025\\)</td><td class='ms-mark'>M1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>i.e.\\;\\(\\bar{x}<2.451\\) or \\(\\bar{x}>2.549\\) kg</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(c)</td><td class='ms-content'>If \\(\\mu=2.6\\): \\(P(\\text{Type II})=P(2.451<\\bar{x}<2.549\\mid\\mu=2.6)\\)</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(z_U=(2.549-2.6)/0.025=-2.04\\Rightarrow P(Z<-2.04)=0.0207\\)</td><td class='ms-mark'>A1 A1 M1 A1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(P(\\text{Type II})\\approx0.0207\\)</td><td class='ms-mark'></td></tr><tr><td colspan='3'></td><td class='ms-total'>[13 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t4_hl_q16",
@@ -8796,7 +8859,8 @@
       "markscheme_image_paths": [
         "images/markschemes/t4_hl_q16.svg"
       ],
-      "draft": true
+      "draft": false,
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>16.</td><td class='ms-part'>(a)(i)</td><td class='ms-content'>\\(\\hat{\\mu}=(4.35+4.53)/2=4.44\\)</td><td class='ms-mark'>A1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(a)(ii)</td><td class='ms-content'>\\(t_{9,0.025}=2.262\\).  Half-width\\(=0.09\\Rightarrow SE=0.09/2.262=0.03979\\)</td><td class='ms-mark'>M1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(s=SE\\times\\sqrt{10}=0.1258\\Rightarrow\\hat{\\sigma}^2=s^2\\approx0.01583\\)</td><td class='ms-mark'>M1 A1 M1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(b)(i)</td><td class='ms-content'>\\(H_0:\\mu=4.5\\);  \\(H_1:\\mu<4.5\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(t=(4.44-4.50)/0.03979=-1.508\\)</td><td class='ms-mark'>A1 M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(p\\text{-value}=P(T_9<-1.508)\\approx0.082\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(b)(ii)(a)</td><td class='ms-content'>At 1\\%: \\(p=0.082>0.01\\Rightarrow\\) fail to reject \\(H_0\\)</td><td class='ms-mark'>A1 R1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(b)(ii)(b)</td><td class='ms-content'>At 10\\%: \\(p=0.082<0.10\\Rightarrow\\) reject \\(H_0\\)</td><td class='ms-mark'>A1 R1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[14 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t4_hl_q17",
@@ -8809,7 +8873,8 @@
       "markscheme_image_paths": [
         "images/markschemes/t4_hl_q17.svg"
       ],
-      "draft": true
+      "draft": false,
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>17.</td><td class='ms-part'>(a)</td><td class='ms-content'>\\(H_0:\\mu_d=0\\);  \\(H_1:\\mu_d>0\\)  (practice improves memory)</td><td class='ms-mark'>A1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(b)</td><td class='ms-content'>Differences \\(d=\\text{Test2}-\\text{Test1}\\): 3,2,1,\\(-2\\),2,2,1,3,2,\\(-2\\),\\(-1\\),2</td><td class='ms-mark'></td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(\\bar{d}=13/12\\approx1.083\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(s_d^2=(49-12\\times1.083^2)/11\\approx3.174\\Rightarrow s_d\\approx1.781\\)</td><td class='ms-mark'>M1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Paired \\(t\\)-test is appropriate (paired data, differences approximately normal)</td><td class='ms-mark'>R1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(t=\\bar{d}/(s_d/\\sqrt{n})=1.083/(1.781/\\sqrt{12})=1.083/0.5143=2.105\\)</td><td class='ms-mark'>M1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(t_{11,0.05}=1.796\\) (one-tailed). Since \\(2.105>1.796\\) reject \\(H_0\\)</td><td class='ms-mark'>A1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Practice sessions significantly improve memory at 5\\% level</td><td class='ms-mark'>A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[11 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t4_hl_q18",
@@ -8822,7 +8887,8 @@
       "markscheme_image_paths": [
         "images/markschemes/t4_hl_q18.svg"
       ],
-      "draft": true
+      "draft": false,
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>18.</td><td class='ms-part'></td><td class='ms-content'>\\(X\\sim N(\\mu,3)\\), \\(n=2\\). \\(\\bar{X}\\sim N(\\mu,\\,3/2)\\), \\(SE=\\sqrt{1.5}\\approx1.2247\\)</td><td class='ms-mark'></td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(a)(i)</td><td class='ms-content'>5\\% two-tailed: \\(z=1.96\\)</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>CR: \\(\\bar{x}<13-1.96\\times1.2247\\) or \\(\\bar{x}>13+1.96\\times1.2247\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>i.e.\\;\\(\\bar{x}<10.60\\) or \\(\\bar{x}>15.40\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(a)(ii)</td><td class='ms-content'>1\\% two-tailed: \\(z=2.576\\)</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>CR: \\(\\bar{x}<13-2.576\\times1.2247\\) or \\(\\bar{x}>13+2.576\\times1.2247\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>i.e.\\;\\(\\bar{x}<9.846\\) or \\(\\bar{x}>16.154\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(b)(i)</td><td class='ms-content'>\\(\\mu=15.2\\): \\(P(\\text{Type II})=P(10.60<\\bar{x}<15.40\\mid\\mu=15.2)\\)</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(z_U=(15.40-15.2)/1.2247=0.163\\Rightarrow P\\approx0.565\\)</td><td class='ms-mark'>M1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(b)(ii)</td><td class='ms-content'>\\(P(\\text{Type II})=P(9.846<\\bar{x}<16.154\\mid\\mu=15.2)\\)</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(z_U=(16.154-15.2)/1.2247=0.779\\Rightarrow P\\approx0.782\\)</td><td class='ms-mark'>M1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(c)</td><td class='ms-content'>Increasing \\(\\alpha\\) (from 1\\% to 5\\%) widens the acceptance region \\(\\Rightarrow\\) decreases \\(P(\\text{Type II})\\)</td><td class='ms-mark'>A1 A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[16 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t4_hl_q19",
@@ -8835,7 +8901,8 @@
       "markscheme_image_paths": [
         "images/markschemes/t4_hl_q19.svg"
       ],
-      "draft": true
+      "draft": false,
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>19.</td><td class='ms-part'>(a)</td><td class='ms-content'>\\(n=7\\), data: 32,16,57,28,55,12,45. \\;\\bar{x}=245/7=35\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(s^2=(\\sum x^2-7\\times35^2)/6=(10507-8575)/6=1932/6=322\\)</td><td class='ms-mark'>M1 A1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(b)</td><td class='ms-content'>\\(H_0:\\mu=42.3\\);  \\(H_1:\\mu<42.3\\)  (cutting cedars reduced disease)</td><td class='ms-mark'>A1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(t=(35-42.3)/(\\sqrt{322/7})=(-7.3)/6.782=-1.077\\)</td><td class='ms-mark'>M1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(t_{6,0.10}=1.440\\). Since \\(|t|=1.077<1.440\\) fail to reject \\(H_0\\) at 10\\%</td><td class='ms-mark'>A1 R1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Insufficient evidence that cutting cedars reduced disease</td><td class='ms-mark'></td></tr><tr><td colspan='3'></td><td class='ms-total'>[9 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t4_hl_q20",
@@ -8848,7 +8915,8 @@
       "markscheme_image_paths": [
         "images/markschemes/t4_hl_q20.svg"
       ],
-      "draft": true
+      "draft": false,
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>20.</td><td class='ms-part'>(a)</td><td class='ms-content'>\\(d=\\text{Puzzle2}-\\text{Puzzle1}\\): 1.5,0.6,0.3,\\(-0.2\\),2.0,0.6,1.5,0.1,0.5,\\(-0.4\\)</td><td class='ms-mark'>A1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(b)(i)</td><td class='ms-content'>\\(H_0:\\mu_d=0\\);  \\(H_1:\\mu_d>0\\)  (Puzzle 2 takes longer on average)</td><td class='ms-mark'>A1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(b)(ii)</td><td class='ms-content'>\\(\\bar{d}=6.5/10=0.65\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(s_d^2=(9.77-10\\times0.4225)/9=5.545/9=0.6161\\Rightarrow s_d=0.785\\)</td><td class='ms-mark'>M1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Paired \\(t\\)-test appropriate (same students, paired differences)</td><td class='ms-mark'>R1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(t=0.65/(0.785/\\sqrt{10})=0.65/0.248=2.619\\)</td><td class='ms-mark'>M1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(t_{9,0.01}=2.821\\) (one-tailed). Since \\(2.619<2.821\\) fail to reject \\(H_0\\) at 1\\%</td><td class='ms-mark'>A1 A1 R1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Insufficient evidence Puzzle 2 takes longer at 1\\% significance</td><td class='ms-mark'></td></tr><tr><td colspan='3'></td><td class='ms-total'>[13 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t4_hl_q21",
@@ -8861,7 +8929,8 @@
       "markscheme_image_paths": [
         "images/markschemes/t4_hl_q21.svg"
       ],
-      "draft": true
+      "draft": false,
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>21.</td><td class='ms-part'>(a)</td><td class='ms-content'>\\(U_n\\sim\\text{Uniform}[0,1]\\Rightarrow E(U_n)=\\tfrac{1}{2},\\;\\text{Var}(U_n)=\\tfrac{1}{12}\\)</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(E(Z)=\\sum_{n=1}^{12}E(U_n)-6=12\\times\\tfrac{1}{2}-6=0\\) &nbsp;(AG)</td><td class='ms-mark'>A1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(\\text{Var}(Z)=\\sum_{n=1}^{12}\\text{Var}(U_n)=12\\times\\tfrac{1}{12}=1\\) &nbsp;(AG)</td><td class='ms-mark'>A1 A1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(b)</td><td class='ms-content'>By the Central Limit Theorem, \\(Z\\) is a sum of 12 i.i.d. r.v.'s, so \\(Z\\approx N(0,1)\\)</td><td class='ms-mark'>A1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(c)(i)</td><td class='ms-content'>\\(H_0\\): data follows \\(N(0,1)\\);  \\(H_1\\): it does not</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Expected (\\(n=500\\)): 11.4, 68.0, 170.65, 170.65, 68.0, 11.4</td><td class='ms-mark'>M1 A1 A1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(\\chi^2=(16-11.4)^2/11.4+(66-68)^2/68+(180-170.65)^2/170.65+(155-170.65)^2/170.65+(65-68)^2/68+(18-11.4)^2/11.4\\)</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(\\approx1.855+0.059+0.513+1.438+0.132+3.816=7.813\\)</td><td class='ms-mark'>A1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(df=5,\\;\\chi^2_{\\text{crit}}=11.07\\) at 5\\%. Since \\(7.813<11.07\\) fail to reject \\(H_0\\)</td><td class='ms-mark'>A1 A1 A1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(c)(ii)(a)</td><td class='ms-content'>Type I error: reject \\(H_0\\) (N(0,1) not good fit) when it actually is</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(c)(ii)(b)</td><td class='ms-content'>Type II error: accept \\(H_0\\) (N(0,1) is good fit) when it actually is not</td><td class='ms-mark'>A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[24 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t4_hl_q22",
@@ -8874,7 +8943,8 @@
       "markscheme_image_paths": [
         "images/markschemes/t4_hl_q22.svg"
       ],
-      "draft": true
+      "draft": false,
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>22.</td><td class='ms-part'>(a)</td><td class='ms-content'>\\(H_0\\): \\(X\\sim\\text{Geo}(0.3)\\);  \\(H_1\\): \\(X\\) does not follow \\(\\text{Geo}(0.3)\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(b)</td><td class='ms-content'>\\(P(X=k)=(0.7)^{k-1}(0.3)\\). Expected (\\(n=100\\)):</td><td class='ms-mark'></td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(E_1=30,\\;E_2=21,\\;E_3=14.7,\\;E_4=10.29,\\;E_5=7.2,\\;E_{\\geq6}=17.0\\)</td><td class='ms-mark'>M1 A1 A1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(\\chi^2=0.833+0.429+0.115+0.049+1.089+2.889=5.404\\)</td><td class='ms-mark'>M1 A1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(df=5,\\;\\chi^2_{\\text{crit}}=11.07\\) at 5\\%. Since \\(5.404<11.07\\) fail to reject \\(H_0\\)</td><td class='ms-mark'>A1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Data consistent with Geo(0.3) at 5\\% level</td><td class='ms-mark'></td></tr><tr><td colspan='3'></td><td class='ms-total'>[10 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t4_hl_q23",
@@ -8887,7 +8957,8 @@
       "markscheme_image_paths": [
         "images/markschemes/t4_hl_q23.svg"
       ],
-      "draft": true
+      "draft": false,
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>23.</td><td class='ms-part'>(a)</td><td class='ms-content'>\\(P(a\\leq X\\leq b)=\\int_a^b\\frac{x}{18}\\,dx=\\left[\\frac{x^2}{36}\\right]_a^b=\\frac{b^2-a^2}{36}\\) &nbsp;(AG)</td><td class='ms-mark'>M1 A1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(b)</td><td class='ms-content'>\\(H_0\\): data follows \\(f(x)=x/18\\);  \\(H_1\\): it does not</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Expected (\\(n=180\\)): \\(E_0=5,\\;E_1=15,\\;E_2=25,\\;E_3=35,\\;E_4=45,\\;E_5=55\\)</td><td class='ms-mark'>M1 A1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(\\chi^2=\\dfrac{9}{5}+\\dfrac{9}{15}+\\dfrac{1}{25}+\\dfrac{4}{35}+\\dfrac{1}{45}+\\dfrac{36}{55}=1.800+0.600+0.040+0.114+0.022+0.655=3.231\\)</td><td class='ms-mark'>M1 A1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(df=5,\\;\\chi^2_{\\text{crit}}=11.07\\) at 5\\%. Since \\(3.231<11.07\\) fail to reject \\(H_0\\)</td><td class='ms-mark'>A1 A1 R1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[13 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t4_hl_q24",
@@ -8900,7 +8971,8 @@
       "markscheme_image_paths": [
         "images/markschemes/t4_hl_q24.svg"
       ],
-      "draft": true
+      "draft": false,
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>24.</td><td class='ms-part'></td><td class='ms-content'>\\(H_0\\): no association between entrance and degree performance; \\(H_1\\): association exists</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Row totals: 50, 25, 25. Column totals: 43, 32, 25. Grand total: 100.</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Expected: \\(E_{11}=21.5,\\,E_{12}=16,\\,E_{13}=12.5,\\,E_{21}=10.75,\\,E_{22}=8,\\,E_{23}=6.25,\\,E_{31}=10.75,\\,E_{32}=8,\\,E_{33}=6.25\\)</td><td class='ms-mark'>M1 A1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(\\chi^2=3.361+0.250+3.380+0.703+2.000+0.250+3.075+0.500+9.610=23.13\\)</td><td class='ms-mark'>M1 A1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(df=(3-1)(3-1)=4,\\;\\chi^2_{\\text{crit}}(4,1\\%)=13.28\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Since \\(23.13>13.28\\): reject \\(H_0\\). Evidence of association at 1\\%</td><td class='ms-mark'>R1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[7 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t4_hl_q25",
@@ -8913,7 +8985,8 @@
       "markscheme_image_paths": [
         "images/markschemes/t4_hl_q25.svg"
       ],
-      "draft": true
+      "draft": false,
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>25.</td><td class='ms-part'>(a)</td><td class='ms-content'>Column totals: Good\\(=60\\), Bad\\(=40\\). Row totals: Good soccer\\(=75\\), Bad\\(=25\\).</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Good/Good\\(=x\\), Good/Bad\\(=75-x\\), Bad/Good\\(=60-x\\), Bad/Bad\\(=x-35\\)</td><td class='ms-mark'>A1 A1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(b)</td><td class='ms-content'>\\(E_{GG}=75\\times60/100=45,\\;E_{GB}=30,\\;E_{BG}=15,\\;E_{BB}=10\\)</td><td class='ms-mark'>M1 A1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(c)</td><td class='ms-content'>\\(\\chi^2_{\\text{calc}}=\\dfrac{(x-45)^2}{45}+\\dfrac{(x-45)^2}{30}+\\dfrac{(x-45)^2}{15}+\\dfrac{(x-45)^2}{10}\\)</td><td class='ms-mark'>M1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(=(x-45)^2\\!\\left(\\tfrac{2+3+6+9}{90}\\right)=\\dfrac{2(x-45)^2}{9}\\) &nbsp;so \\(k=2/9\\)</td><td class='ms-mark'>A1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(d)</td><td class='ms-content'>Accept \\(H_0\\) at 5\\%: \\(\\chi^2_{\\text{calc}}<\\chi^2_{\\text{crit}}(1,5\\%)=3.841\\)</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(\\dfrac{2(x-45)^2}{9}<3.841\\Rightarrow(x-45)^2<17.28\\Rightarrow|x-45|<4.157\\)</td><td class='ms-mark'>M1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(40.84<x<49.16\\), so integer values: \\(x\\in\\{41,42,43,44,45,46,47,48,49\\}\\)</td><td class='ms-mark'>A1 A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[12 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t4_hl_q26",
@@ -8926,7 +8999,8 @@
       "markscheme_image_paths": [
         "images/markschemes/t4_hl_q26.svg"
       ],
-      "draft": true
+      "draft": false,
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>26.</td><td class='ms-part'>(a)</td><td class='ms-content'>\\(P(X\\geq x)=\\int_x^{\\infty}\\lambda e^{-\\lambda t}\\,dt=\\left[-e^{-\\lambda t}\\right]_x^{\\infty}=e^{-\\lambda x}\\) &nbsp;(AG)</td><td class='ms-mark'>M1 A1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(b)(i)</td><td class='ms-content'>Mean\\(=270/30=9\\text{ cm}\\Rightarrow 1/\\lambda=9\\Rightarrow\\lambda=1/9\\)</td><td class='ms-mark'>M1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(b)(ii)</td><td class='ms-content'>\\(P(X\\geq40)=e^{-40/9}\\)</td><td class='ms-mark'>A1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(b)(iii)</td><td class='ms-content'>\\(P(X<d)=0.35\\Rightarrow1-e^{-d/9}=0.35\\Rightarrow e^{-d/9}=0.65\\)</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(-d/9=\\ln(0.65)\\Rightarrow d=9\\ln(20/13)\\) &nbsp;(AG)</td><td class='ms-mark'>A1 A1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(c)</td><td class='ms-content'>\\(H_0\\): data follows \\(\\text{Exp}(0.1)\\);  \\(H_1\\): it does not</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Expected (\\(n=30\\), \\(\\lambda=0.1\\)): \\(E_{\\leq6}=13.54,\\;E_{(6,13]}=8.29,\\;E_{>13}=8.18\\) (combined last two)</td><td class='ms-mark'>M1 A1 A1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Observed: 18, 9, 3. \\(\\chi^2=(18-13.54)^2/13.54+(9-8.29)^2/8.29+(3-8.18)^2/8.18\\approx4.81\\)</td><td class='ms-mark'>M1 A1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(df=2,\\;\\chi^2_{\\text{crit}}=5.991\\). Since \\(4.81<5.991\\) fail to reject \\(H_0\\)</td><td class='ms-mark'>A1 A1 R1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[22 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t4_hl_q27",
@@ -8939,7 +9013,8 @@
       "markscheme_image_paths": [
         "images/markschemes/t4_hl_q27.svg"
       ],
-      "draft": true
+      "draft": false,
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>27.</td><td class='ms-part'>(a)</td><td class='ms-content'>\\(H_0\\): \\(X\\sim\\text{NegBin}(3,0.6)\\);  \\(H_1\\): \\(X\\) does not follow this distribution</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(b)</td><td class='ms-content'>\\(P(X=x)=\\binom{x-1}{2}(0.6)^3(0.4)^{x-3}\\)</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(E_3=21.60,\\;E_4=25.92,\\;E_5=20.74,\\;E_6=13.82,\\;E_7=8.29,\\;E_{\\geq8}=11.03\\)</td><td class='ms-mark'>A1 A1 A1 A1 A1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(c)</td><td class='ms-content'>\\(\\chi^2=0.535+0.934+0.026+0.101+1.659+1.472=4.727\\)</td><td class='ms-mark'>M1 A1 A1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(df=5\\). \\(p\\text{-value}\\approx0.45\\) (by GDC)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(d)</td><td class='ms-content'>\\(p=0.45>0.05\\): fail to reject \\(H_0\\). Data consistent with NegBin(3,\\,0.6)</td><td class='ms-mark'>R1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[15 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t4_hl_q28",
@@ -8952,7 +9027,8 @@
       "markscheme_image_paths": [
         "images/markschemes/t4_hl_q28.svg"
       ],
-      "draft": true
+      "draft": false,
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>28.</td><td class='ms-part'></td><td class='ms-content'>\\(H_0\\): data follows \\(\\text{Exp}(\\lambda=1/100)\\);  \\(H_1\\): it does not. \\;\\alpha=5\\%</td><td class='ms-mark'>A1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(P([0,100])=1-e^{-1}=0.6321\\rightarrow E=632.1\\)</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(E_{[100,200]}=232.6,\\;E_{[200,300]}=85.5,\\;E_{[300,400]}=31.5,\\;E_{[400,500]}=11.6,\\;E_{>500}=6.74\\)</td><td class='ms-mark'>A1 A1 A1 A1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(\\chi^2=0.161+0.248+1.290+0.008+0.169+4.106=5.982\\)</td><td class='ms-mark'>M1 A1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(df=5,\\;\\chi^2_{\\text{crit}}=11.07\\). Since \\(5.982<11.07\\) fail to reject \\(H_0\\)</td><td class='ms-mark'>A1 R1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[14 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t4_hl_q29",
@@ -8965,7 +9041,8 @@
       "markscheme_image_paths": [
         "images/markschemes/t4_hl_q29.svg"
       ],
-      "draft": true
+      "draft": false,
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>29.</td><td class='ms-part'>(a)</td><td class='ms-content'>\\(\\bar{x}=(0\\cdot9+1\\cdot12+2\\cdot22+3\\cdot10+4\\cdot11+5\\cdot8+6\\cdot8)/80=218/80=2.725\\)</td><td class='ms-mark'>M1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(b)</td><td class='ms-content'>\\(H_0\\): data follows Poisson with \\(\\hat{\\lambda}=2.725\\);  \\(H_1\\): it does not</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Expected (combining \\(x\\geq5\\)): \\(E_0=5.24,\\;E_1=14.28,\\;E_2=19.44,\\;E_3=17.66,\\;E_4=12.02,\\;E_{\\geq5}=11.36\\)</td><td class='ms-mark'>M1 A1 A1 A1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(\\chi^2=2.700+0.364+0.337+3.322+0.087+1.895=8.705\\)</td><td class='ms-mark'>M1 A1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(df=6-1-1=4\\) (mean estimated). \\(\\chi^2_{\\text{crit}}(4,5\\%)=9.488\\)</td><td class='ms-mark'>A1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Since \\(8.705<9.488\\): fail to reject \\(H_0\\). Data consistent with Poisson</td><td class='ms-mark'>R1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[14 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t4_hl_q30",
@@ -8978,7 +9055,8 @@
       "markscheme_image_paths": [
         "images/markschemes/t4_hl_q30.svg"
       ],
-      "draft": true
+      "draft": false,
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>30.</td><td class='ms-part'>(a)</td><td class='ms-content'>\\(\\hat{\\mu}=\\bar{x}=412.11/241\\approx1.710\\text{ m}\\)</td><td class='ms-mark'>M1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(\\hat{\\sigma}^2=s^2=(705.5721-241\\times1.710^2)/240\\approx0.00287\\text{ m}^2\\)</td><td class='ms-mark'>M1 A1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(b)(i)</td><td class='ms-content'>\\(H_0\\): heights follow \\(N(1.710,\\;0.00287)\\);  \\(H_1\\): they do not</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(b)(ii)</td><td class='ms-content'>Compute expected frequencies using \\(N(1.710,\\;0.0536)\\) for each interval</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(E_{<1.60}\\approx4.84,\\;E_{[1.60,1.65]}\\approx31.7,\\;E_{[1.65,1.70]}\\approx67.5,\\;E_{[1.70,1.75]}\\approx77.1,\\;E_{[1.75,1.80]}\\approx48.7,\\;E_{>1.80}\\approx11.2\\)</td><td class='ms-mark'>A1 A1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(\\chi^2\\) computed by GDC; \\(df=6-1-2=3\\) (2 parameters estimated)</td><td class='ms-mark'>A1 M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Compare to \\(\\chi^2_{\\text{crit}}(3,10\\%)=6.251\\); state conclusion</td><td class='ms-mark'>A1 A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[15 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t4_hl_q31",
@@ -8991,7 +9069,8 @@
       "markscheme_image_paths": [
         "images/markschemes/t4_hl_q31.svg"
       ],
-      "draft": true
+      "draft": false,
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>31.</td><td class='ms-part'>(a)</td><td class='ms-content'>\\(\\hat{p}=\\bar{x}/6\\) where \\(\\bar{x}=(0\\cdot7+1\\cdot32+2\\cdot35+3\\cdot50+4\\cdot22+5\\cdot4)/150=360/150=2.4\\)</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(\\hat{p}=2.4/6=0.4\\) &nbsp;(AG)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(b)</td><td class='ms-content'>\\(H_0\\): \\(X\\sim B(6,0.4)\\);  \\(H_1\\): \\(X\\) does not follow \\(B(6,0.4)\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Expected (combine \\(x=5,6\\)): \\(E_0=7.00,\\;E_1=27.99,\\;E_2=46.66,\\;E_3=41.47,\\;E_4=20.74,\\;E_{5+6}=6.14\\)</td><td class='ms-mark'>M1 A1 A1 A1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(\\chi^2=0+0.575+2.913+1.755+0.082+0.746=6.07\\)</td><td class='ms-mark'>M1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(df=6-1-1=4\\) (\\(p\\) estimated). \\(\\chi^2_{\\text{crit}}(4,5\\%)=9.488\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Since \\(6.07<9.488\\): fail to reject \\(H_0\\). Data consistent with \\(B(6,0.4)\\)</td><td class='ms-mark'>R1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[12 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t4_hl_q32",
@@ -9004,7 +9083,8 @@
       "markscheme_image_paths": [
         "images/markschemes/t4_hl_q32.svg"
       ],
-      "draft": true
+      "draft": false,
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>32.</td><td class='ms-part'>(a)</td><td class='ms-content'>\\(P(X<30)=0.40\\Rightarrow z_1=-0.2533\\Rightarrow30=\\mu-0.2533\\sigma\\)</td><td class='ms-mark'>M1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(P(X<55)=0.90\\Rightarrow z_2=1.282\\Rightarrow55=\\mu+1.282\\sigma\\)</td><td class='ms-mark'>M1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Solving: \\(\\sigma=(55-30)/(1.282+0.2533)=25/1.535\\approx16.3\\text{ min},\\;\\mu\\approx34.1\\text{ min}\\)</td><td class='ms-mark'>A1 A1 A1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(b)</td><td class='ms-content'>\\(P(X>60)=P(Z>(60-34.1)/16.3)=P(Z>1.589)\\approx0.0561\\)</td><td class='ms-mark'>M1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Number late \\(\\approx1200\\times0.0561\\approx67\\) students</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(c)</td><td class='ms-content'>\\(P(X>60\\mid X>30)=P(X>60)/P(X>30)=0.0561/0.60\\approx0.0935\\)</td><td class='ms-mark'>M1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(d)</td><td class='ms-content'>Poisson(720) for departures in 30 min. By normal approx:</td><td class='ms-mark'></td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(P(X_{\\text{dep}}\\geq700)\\approx P(Z\\geq(699.5-720)/\\sqrt{720})=P(Z\\geq-0.764)\\approx0.778\\)</td><td class='ms-mark'>M1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(e)(i)</td><td class='ms-content'>\\(Y\\sim B(200,\\,0.778)\\Rightarrow E(Y)=200\\times0.778\\approx156\\) days</td><td class='ms-mark'>M1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(e)(ii)</td><td class='ms-content'>\\(Y\\approx N(155.6,\\,34.56)\\). \\(P(Y>150)\\approx P(Z>-0.866)\\approx0.807\\)</td><td class='ms-mark'>M1 A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[17 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t4_hl_q33",
@@ -9017,7 +9097,8 @@
       "markscheme_image_paths": [
         "images/markschemes/t4_hl_q33.svg"
       ],
-      "draft": true
+      "draft": false,
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>33.</td><td class='ms-part'>(a)</td><td class='ms-content'>\\(P(X=0)=e^{-0.5}\\approx0.607\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(b)</td><td class='ms-content'>In 6 months \\(\\lambda=3\\): \\(P(X=0)=e^{-3}\\approx0.0498\\)</td><td class='ms-mark'>M1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(c)</td><td class='ms-content'>\\(P(X=0)=e^{-0.5t}<0.01\\Rightarrow-0.5t<\\ln(0.01)\\Rightarrow t>9.21\\)</td><td class='ms-mark'>M1 A1 M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Minimum complete months: \\(t=10\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(d)(i)</td><td class='ms-content'>\\(P(X=0)=e^{-0.5}\\approx0.6065,\\;P(X=1\\text{ or }2)\\approx0.3791\\)</td><td class='ms-mark'>M1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(E(\\text{bonus})=1000\\times0.6065+500\\times0.3791\\approx\\$796\\)</td><td class='ms-mark'>M1 A1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(d)(ii)</td><td class='ms-content'>Possible outcomes for total $2000 in 3 months:</td><td class='ms-mark'></td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Two \\$1000 + one \\$0: \\(P=3\\times(0.6065)^2\\times0.0144\\approx0.0159\\)</td><td class='ms-mark'>M1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>One \\$1000 + two \\$500: \\(P=3\\times0.6065\\times(0.3791)^2\\approx0.2615\\)</td><td class='ms-mark'>A1 M1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(P(\\text{total}=\\$2000)\\approx0.0159+0.2615=0.277\\)</td><td class='ms-mark'>A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[18 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t4_hl_q34",
@@ -9030,7 +9111,8 @@
       "markscheme_image_paths": [
         "images/markschemes/t4_hl_q34.svg"
       ],
-      "draft": true
+      "draft": false,
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>34.</td><td class='ms-part'></td><td class='ms-content'>\\(X\\sim B(6,\\,4/7)\\)</td><td class='ms-mark'></td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(\\dfrac{P(X=3)}{P(X=2)}=\\dfrac{\\binom{6}{3}(4/7)^3(3/7)^3}{\\binom{6}{2}(4/7)^2(3/7)^4}=\\dfrac{20}{15}\\cdot\\dfrac{4/7}{3/7}\\)</td><td class='ms-mark'>M1 M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(=\\dfrac{4}{3}\\times\\dfrac{4}{3}=\\dfrac{16}{9}\\)</td><td class='ms-mark'>A1 A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[4 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t4_hl_q35",
@@ -9043,7 +9125,8 @@
       "markscheme_image_paths": [
         "images/markschemes/t4_hl_q35.svg"
       ],
-      "draft": true
+      "draft": false,
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>35.</td><td class='ms-part'></td><td class='ms-content'>Rate: 1 per 10 min \\(= 6\\) per hour. \\(X\\sim\\text{Pois}(\\lambda)\\)</td><td class='ms-mark'></td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(a)</td><td class='ms-content'>In 30 min \\(\\lambda=3\\): \\(P(X=0)=e^{-3}\\approx0.0498\\)</td><td class='ms-mark'>M1 A1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(b)</td><td class='ms-content'>In 2 hours \\(\\lambda=12\\): \\(P(X<10)=\\sum_{k=0}^{9}e^{-12}12^k/k!\\approx0.242\\) (by GDC)</td><td class='ms-mark'>M1 A1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(c)</td><td class='ms-content'>\\(Y\\sim B(6,\\,0.242)\\). \\(P(Y\\leq3)=P(0)+P(1)+P(2)+P(3)\\approx0.190+0.364+0.290+0.124=0.967\\)</td><td class='ms-mark'>M1 M1 A1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(d)</td><td class='ms-content'>\\(P(X\\geq2)>0.95\\Rightarrow e^{-t/10}(1+t/10)<0.05\\). By GDC: \\(t\\approx38.3\\) min</td><td class='ms-mark'>M1 M1 A1 M1 A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[15 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t4_hl_q36",
@@ -9056,7 +9139,8 @@
       "markscheme_image_paths": [
         "images/markschemes/t4_hl_q36.svg"
       ],
-      "draft": true
+      "draft": false,
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>36.</td><td class='ms-part'>(a)</td><td class='ms-content'>\\(e^{-\\lambda}(1+\\lambda)=0.123\\)</td><td class='ms-mark'>M1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>By GDC (numerical): \\(\\lambda\\approx3.62\\)</td><td class='ms-mark'>M1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(b)</td><td class='ms-content'>\\(P(0<X<9)=P(X\\leq8)-P(X=0)\\approx0.993-0.0268=0.966\\)</td><td class='ms-mark'>M1 A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[6 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t4_hl_q37",
@@ -9069,7 +9153,8 @@
       "markscheme_image_paths": [
         "images/markschemes/t4_hl_q37.svg"
       ],
-      "draft": true
+      "draft": false,
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>37.</td><td class='ms-part'>(a)</td><td class='ms-content'>\\(me^{-m}+\\dfrac{m^3e^{-m}}{6}=e^{-m}+\\dfrac{m^2e^{-m}}{2}\\)</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Dividing by \\(e^{-m}\\): \\(m+m^3/6=1+m^2/2\\Rightarrow m^3-3m^2+6m-6=0\\)</td><td class='ms-mark'>M1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>By GDC: \\(m\\approx1.5937\\)</td><td class='ms-mark'>M1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(b)</td><td class='ms-content'>\\(P(1\\leq X\\leq2)=me^{-m}+m^2e^{-m}/2\\approx0.3242+0.2583=0.583\\)</td><td class='ms-mark'>M1 A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[6 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t4_hl_q38",
@@ -9082,7 +9167,8 @@
       "markscheme_image_paths": [
         "images/markschemes/t4_hl_q38.svg"
       ],
-      "draft": true
+      "draft": false,
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>38.</td><td class='ms-part'>(a)</td><td class='ms-content'>In 1 hour \\(\\lambda=0.6\\): \\(P(X\\geq1)=1-e^{-0.6}\\approx0.451\\)</td><td class='ms-mark'>M1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(b)</td><td class='ms-content'>In 4 hours \\(\\lambda=2.4\\): \\(P(X=3)=e^{-2.4}\\times2.4^3/6\\approx0.139\\)</td><td class='ms-mark'>M1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(c)</td><td class='ms-content'>Need \\(P(X>2)>0.80\\), i.e.\\;\\(e^{-0.6t}(1+0.6t+0.18t^2)<0.20\\)</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Test \\(t=7\\): \\(e^{-4.2}\\times14.02\\approx0.210>0.20\\). Test \\(t=8\\): \\(e^{-4.8}\\times17.32\\approx0.143<0.20\\)</td><td class='ms-mark'>M1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Minimum complete hours: \\(\\mathbf{8}\\) hours</td><td class='ms-mark'>A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[7 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t4_hl_q39",
@@ -9095,7 +9181,8 @@
       "markscheme_image_paths": [
         "images/markschemes/t4_hl_q39.svg"
       ],
-      "draft": true
+      "draft": false,
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>39.</td><td class='ms-part'>(a)</td><td class='ms-content'>\\(P(X_A>1000)=P(Z>(1000-998)/2.5)=P(Z>0.8)\\approx0.212\\) &nbsp;(AG)</td><td class='ms-mark'>M1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(b)</td><td class='ms-content'>\\(Y\\sim B(5,\\,0.212)\\): \\(P(Y=3)=\\binom{5}{3}(0.212)^3(0.788)^2\\approx0.0592\\)</td><td class='ms-mark'>M1 A1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(c)</td><td class='ms-content'>\\((0.788)^n<0.01\\Rightarrow n\\ln(0.788)<\\ln(0.01)\\Rightarrow n>19.35\\Rightarrow n\\geq20\\)</td><td class='ms-mark'>M1 A1 M1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(d)</td><td class='ms-content'>\\(P(X_B<996)=0.1151\\Rightarrow(996-\\mu)/\\sigma=-1.200\\)</td><td class='ms-mark'>M1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(P(X_B>1000)=0.3446\\Rightarrow(1000-\\mu)/\\sigma=0.400\\)</td><td class='ms-mark'>M1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Solving: \\(\\sigma=2.5\\text{ ml},\\;\\mu=999\\text{ ml}\\)</td><td class='ms-mark'>A1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(e)(i)</td><td class='ms-content'>\\(P(X=2)=P(X=3)+P(X=4)\\Rightarrow m^2/2=m^3/6+m^4/24\\)</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(m^2+4m-12=0\\Rightarrow m=2\\)</td><td class='ms-mark'>M1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(e)(ii)</td><td class='ms-content'>\\(P(X>2)=1-e^{-2}(1+2+2)=1-5e^{-2}\\approx0.323\\)</td><td class='ms-mark'>M1 A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[20 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t4_hl_q40",
@@ -9108,7 +9195,8 @@
       "markscheme_image_paths": [
         "images/markschemes/t4_hl_q40.svg"
       ],
-      "draft": true
+      "draft": false,
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>40.</td><td class='ms-part'>(a)</td><td class='ms-content'>\\(P(X\\leq2)=0.4\\Rightarrow e^{-\\lambda}(1+\\lambda+\\lambda^2/2)=0.4\\)</td><td class='ms-mark'>M1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>By GDC: \\(\\lambda\\approx3.08\\)</td><td class='ms-mark'>M1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(b)</td><td class='ms-content'>Since \\(\\lambda=3.08\\) is non-integer, mode \\(=\\lfloor\\lambda\\rfloor=3\\)</td><td class='ms-mark'>M1 A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[6 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t4_hl_q41",
@@ -9121,7 +9209,8 @@
       "markscheme_image_paths": [
         "images/markschemes/t4_hl_q41.svg"
       ],
-      "draft": true
+      "draft": false,
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>41.</td><td class='ms-part'></td><td class='ms-content'>\\(X\\sim\\text{Pois}(0.2)\\) per day. In June (30 days): \\(\\lambda_{\\text{June}}=6\\)</td><td class='ms-mark'></td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(a)</td><td class='ms-content'>\\(P(X=4)=e^{-6}\\times6^4/4!=e^{-6}\\times54\\approx0.134\\)</td><td class='ms-mark'>M1 A1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(b)</td><td class='ms-content'>\\(P(X>3)=1-P(X\\leq3)=1-e^{-6}(1+6+18+36)\\approx1-0.151=0.849\\)</td><td class='ms-mark'>M1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(c)</td><td class='ms-content'>In 5 days \\(\\lambda=1\\): \\(P(X=0)=e^{-1}\\approx0.368\\)</td><td class='ms-mark'>M1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(d)</td><td class='ms-content'>No breakdowns on June 1 and 2, breakdown on June 3:</td><td class='ms-mark'></td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(P=(e^{-0.2})^2\\times(1-e^{-0.2})=(0.819)^2\\times0.181\\approx0.121\\)</td><td class='ms-mark'>M1 A1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(e)</td><td class='ms-content'>\\(E(\\text{cost})=1850\\times E(X_{\\text{June}})=1850\\times6=\\textrm{€}11{,}100\\)</td><td class='ms-mark'>M1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(f)</td><td class='ms-content'>\\(P(\\text{no breakdown in exactly 4 of 5 days})=\\binom{5}{4}(e^{-0.2})^4(1-e^{-0.2})\\)</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(=5\\times(0.819)^4\\times0.181\\approx0.408\\)</td><td class='ms-mark'>A1 A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[13 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t4_hl_q42",
@@ -9134,7 +9223,8 @@
       "markscheme_image_paths": [
         "images/markschemes/t4_hl_q42.svg"
       ],
-      "draft": true
+      "draft": false,
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>42.</td><td class='ms-part'>(a)</td><td class='ms-content'>\\(P(X=2)=\\binom{n}{2}(0.4)^2(0.6)^{n-2}=0.08n(n-1)(0.6)^{n-2}\\)</td><td class='ms-mark'>M1 A1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(b)</td><td class='ms-content'>\\(0.08n(n-1)(0.6)^{n-2}=0.121\\)</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Test \\(n=10\\): \\(0.08\\times90\\times(0.6)^8=7.2\\times0.01680=0.1210\\approx0.121\\) \\(\\checkmark\\)</td><td class='ms-mark'>M1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(n=10\\)</td><td class='ms-mark'></td></tr><tr><td colspan='3'></td><td class='ms-total'>[6 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t4_hl_q43",
@@ -9147,7 +9237,8 @@
       "markscheme_image_paths": [
         "images/markschemes/t4_hl_q43.svg"
       ],
-      "draft": true
+      "draft": false,
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>43.</td><td class='ms-part'>(a)(i)</td><td class='ms-content'>\\(X\\sim N(6,\\,2.25)\\), \\(\\sigma=1.5\\)</td><td class='ms-mark'></td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(P(4.8<X<7.5)=P(-0.8<Z<1.0)=0.8413-0.2119=0.629\\)</td><td class='ms-mark'>M1 A1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(a)(ii)</td><td class='ms-content'>\\(P(X<d)=0.15\\Rightarrow z=-1.036\\Rightarrow d=6-1.036\\times1.5\\approx4.45\\text{ km}\\)</td><td class='ms-mark'>M1 A1 A1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(b)</td><td class='ms-content'>\\(P(X>8)=0.10\\Rightarrow(8-\\mu)/\\sigma=1.282\\) and \\(P(X<2)=0.05\\Rightarrow(2-\\mu)/\\sigma=-1.645\\)</td><td class='ms-mark'>M1 A1 M1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Solving: \\(\\sigma\\approx2.05\\text{ km},\\;\\mu\\approx5.37\\text{ km}\\)</td><td class='ms-mark'>A1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(c)(i)</td><td class='ms-content'>\\(T\\sim\\text{Pois}(3.5)\\). \\(P(T\\geq3)=1-P(T\\leq2)\\approx1-0.3208=0.679\\)</td><td class='ms-mark'>M1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(P(\\text{both intervals})=(0.679)^2\\approx0.461\\)</td><td class='ms-mark'>M1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(c)(ii)</td><td class='ms-content'>In 5 min \\(T_5\\sim\\text{Pois}(17.5)\\): \\(P(T_5=15)=e^{-17.5}\\times17.5^{15}/15!\\approx0.0769\\)</td><td class='ms-mark'>M1 A1 M1 A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[21 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t4_hl_q44",
@@ -9160,7 +9251,8 @@
       "markscheme_image_paths": [
         "images/markschemes/t4_hl_q44.svg"
       ],
-      "draft": true
+      "draft": false,
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>44.</td><td class='ms-part'></td><td class='ms-content'>\\(H_0:p=0.02\\);  \\(H_1:p>0.02\\)  (one-tailed, \\(\\alpha=0.01\\))</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Under \\(H_0\\): \\(X\\sim B(200,0.02)\\approx N(4,\\,3.92)\\)</td><td class='ms-mark'>M1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(z=(8-4)/\\sqrt{3.92}=4/1.980=2.020\\)</td><td class='ms-mark'>M1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(z_{\\text{crit}}(1\\%,\\text{one-tailed})=2.326\\). Since \\(2.020<2.326\\) fail to reject \\(H_0\\)</td><td class='ms-mark'>A1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Insufficient evidence at 1\\% to reject the manager's claim</td><td class='ms-mark'></td></tr><tr><td colspan='3'></td><td class='ms-total'>[7 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t4_hl_q45",
@@ -9173,7 +9265,8 @@
       "markscheme_image_paths": [
         "images/markschemes/t4_hl_q45.svg"
       ],
-      "draft": true
+      "draft": false,
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>45.</td><td class='ms-part'>(a)</td><td class='ms-content'>\\(P(Z=n)=\\displaystyle\\sum_{k=0}^{n}P(X=k)P(Y=n-k)=\\sum_{k=0}^{n}\\frac{e^{-\\alpha}\\alpha^k}{k!}\\cdot\\frac{e^{-\\beta}\\beta^{n-k}}{(n-k)!}\\)</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(=\\frac{e^{-(\\alpha+\\beta)}}{n!}\\sum_{k=0}^{n}\\binom{n}{k}\\alpha^k\\beta^{n-k}=\\frac{e^{-(\\alpha+\\beta)}(\\alpha+\\beta)^n}{n!}\\)</td><td class='ms-mark'>M1 A1 A1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(\\therefore Z\\sim\\text{Pois}(\\alpha+\\beta)\\) &nbsp;(AG)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(b)</td><td class='ms-content'>Base case \\(n=1\\): \\(U_1\\sim\\text{Pois}(m)\\) \\(\\checkmark\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Assume \\(\\sum_{r=1}^{k}U_r\\sim\\text{Pois}(km)\\) for some \\(k\\geq1\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Then \\(\\sum_{r=1}^{k+1}U_r=\\sum_{r=1}^{k}U_r+U_{k+1}\\sim\\text{Pois}(km)+\\text{Pois}(m)=\\text{Pois}((k+1)m)\\) by part (a)</td><td class='ms-mark'>M1 A1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>By induction, \\(\\sum_{r=1}^{n}U_r\\sim\\text{Pois}(nm)\\) for all \\(n\\in\\mathbb{Z}^+\\) &nbsp;(AG)</td><td class='ms-mark'>A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[12 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t4_hl_q46",
@@ -9186,7 +9279,8 @@
       "markscheme_image_paths": [
         "images/markschemes/t4_hl_q46.svg"
       ],
-      "draft": true
+      "draft": false,
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>46.</td><td class='ms-part'>(a)</td><td class='ms-content'>\\(P(X=4)=e^{-3.2}\\times3.2^4/4!=e^{-3.2}\\times10.486\\approx0.178\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(b)(i)</td><td class='ms-content'>\\(E(Y^2)=\\text{Var}(Y)+[E(Y)]^2=m+m^2=5.5\\)</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(m^2+m-5.5=0\\Rightarrow m=(-1+\\sqrt{23})/2\\approx1.898\\)</td><td class='ms-mark'>M1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(b)(ii)</td><td class='ms-content'>\\(P(Y=3)=e^{-m}\\times m^3/6\\approx e^{-1.898}\\times1.138\\approx0.170\\)</td><td class='ms-mark'>M1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(c)</td><td class='ms-content'>\\(P(X=4)\\times P(Y=3)\\approx0.178\\times0.170\\approx0.0303\\)</td><td class='ms-mark'>M1 A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[8 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t4_hl_q47",
@@ -9199,7 +9293,8 @@
       "markscheme_image_paths": [
         "images/markschemes/t4_hl_q47.svg"
       ],
-      "draft": true
+      "draft": false,
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>47.</td><td class='ms-part'>(a)</td><td class='ms-content'>\\(X\\sim N(231,\\,2.25)\\), \\(\\sigma=1.5\\)</td><td class='ms-mark'></td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(P(X<228)=P(Z<(228-231)/1.5)=P(Z<-2)\\approx0.0228\\)</td><td class='ms-mark'>M1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(b)(i)</td><td class='ms-content'>Keep \\(\\sigma=1.5\\). \\(P(X<228)=0.002\\Rightarrow z=-2.878\\)</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(228=\\mu_{\\text{new}}-2.878\\times1.5\\Rightarrow\\mu_{\\text{new}}=228+4.317\\approx232.3\\text{ g}\\)</td><td class='ms-mark'>M1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(b)(ii)</td><td class='ms-content'>Keep \\(\\mu=231\\). \\((228-231)/\\sigma_{\\text{new}}=-2.878\\Rightarrow\\sigma_{\\text{new}}=3/2.878\\approx1.042\\text{ g}\\)</td><td class='ms-mark'>M1 A1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(c)</td><td class='ms-content'>\\(W\\sim B(100,\\,0.002)\\)</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(P(W\\geq2)=1-P(W=0)-P(W=1)=1-(0.998)^{100}-100\\times0.002\\times(0.998)^{99}\\)</td><td class='ms-mark'>M1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(\\approx1-0.8187-0.1641=0.0172\\)</td><td class='ms-mark'>A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[11 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t4_hl_q48",
@@ -9212,7 +9307,8 @@
       "markscheme_image_paths": [
         "images/markschemes/t4_hl_q48.svg"
       ],
-      "draft": true
+      "draft": false,
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>48.</td><td class='ms-part'></td><td class='ms-content'>\\(X\\sim\\text{Pois}(\\mu)\\). Condition: \\(P(X=10)=2P(X=9)\\)</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(\\dfrac{e^{-\\mu}\\mu^{10}}{10!}=2\\cdot\\dfrac{e^{-\\mu}\\mu^9}{9!}\\)</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(\\dfrac{\\mu}{10}=2\\Rightarrow\\mu=20\\text{ flowering plants per m}^2\\)</td><td class='ms-mark'>A1 A1 A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[5 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t4_hl_q49",
@@ -9225,7 +9321,8 @@
       "markscheme_image_paths": [
         "images/markschemes/t4_hl_q49.svg"
       ],
-      "draft": true
+      "draft": false,
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>49.</td><td class='ms-part'>(a)</td><td class='ms-content'>\\(X\\sim\\text{Pois}(4)\\)</td><td class='ms-mark'></td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(P(3\\leq X\\leq5)=e^{-4}\\!\\left(\\dfrac{64}{6}+\\dfrac{256}{24}+\\dfrac{1024}{120}\\right)=e^{-4}\\times29.867\\approx0.547\\)</td><td class='ms-mark'>M1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(b)</td><td class='ms-content'>\\(P(X\\geq3)=1-P(X\\leq2)=1-e^{-4}(1+4+8)=1-13e^{-4}\\approx0.762\\)</td><td class='ms-mark'>M1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(c)</td><td class='ms-content'>\\(P(3\\leq X\\leq5\\mid X\\geq3)=\\dfrac{P(3\\leq X\\leq5)}{P(X\\geq3)}=\\dfrac{0.547}{0.762}\\approx0.718\\)</td><td class='ms-mark'>M1 A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[6 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t4_hl_q50",
@@ -9238,7 +9335,8 @@
       "markscheme_image_paths": [
         "images/markschemes/t4_hl_q50.svg"
       ],
-      "draft": true
+      "draft": false,
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>50.</td><td class='ms-part'>(a)</td><td class='ms-content'>\\(f(x)=\\tfrac{x}{6}(1+x^2)\\), \\(f(0)=0\\), \\(f(2)=5/3\\). Sketch: increasing curve on \\([0,2]\\)</td><td class='ms-mark'>A1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(b)</td><td class='ms-content'>\\(f'(x)=(1+3x^2)/6>0\\) for all \\(x\\Rightarrow f\\) is strictly increasing. Mode \\(=2\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(c)</td><td class='ms-content'>\\(E(X)=\\int_0^2 x\\cdot\\dfrac{x(1+x^2)}{6}\\,dx=\\dfrac{1}{6}\\int_0^2(x^2+x^4)\\,dx\\)</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(=\\dfrac{1}{6}\\left[\\dfrac{x^3}{3}+\\dfrac{x^5}{5}\\right]_0^2=\\dfrac{1}{6}\\left(\\dfrac{8}{3}+\\dfrac{32}{5}\\right)=\\dfrac{1}{6}\\cdot\\dfrac{136}{15}=\\dfrac{68}{45}\\)</td><td class='ms-mark'>A1 A1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(d)</td><td class='ms-content'>\\(F(m)=\\int_0^m\\dfrac{x(1+x^2)}{6}\\,dx=\\dfrac{1}{6}\\left[\\dfrac{x^2}{2}+\\dfrac{x^4}{4}\\right]_0^m=\\dfrac{m^2}{12}+\\dfrac{m^4}{24}=\\tfrac{1}{2}\\)</td><td class='ms-mark'>M1 A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(m^4+2m^2-12=0\\Rightarrow m^2=\\sqrt{13}-1\\Rightarrow m=\\sqrt{\\sqrt{13}-1}\\approx1.61\\)</td><td class='ms-mark'>M1 A1 A1 A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[12 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t5_sl_q1",

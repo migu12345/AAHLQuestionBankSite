@@ -1,6 +1,6 @@
 # Context Window Export (for new chat)
 
-Date: 2026-05-17
+Date: 2026-05-19
 Project: `AA-HL-Question-Bank`
 
 ## Current State
@@ -14,22 +14,20 @@ Project: `AA-HL-Question-Bank`
 - User preference: when `All levels` is selected, prioritize `SL` and suppress `HL` duplicates (biology/chemistry only).
 - User constraint: do not change Paper 1A / Paper 2 / Paper 3 logic when fixing unrelated issues.
 
-## Most Recent Completed Work (2026-05-17)
+## Most Recent Completed Work (2026-05-19)
 
-### KaTeX Markschemes — t2_6, t3_trig, t3p1 (2026-05-17)
+### KaTeX Markschemes — t4_sl, t4_hl (2026-05-19)
 
-- **t2_6 (32 questions):** All 32 markschemes added — trig equations, double-angle identities, compound angles, trig models.
-- **t3_trig (29 questions):** All 29 markschemes added — circular functions, sinusoidal models, Ferris wheel, area formula, trig proofs.
-- **t3p1 (29/30 questions):** 29 markschemes added (q1 skipped — triangle diagram not in image). Covers deer population sinusoidal, arc/sector geometry, triangle trig (sine/cosine rules), double-angle identities, Ferris wheel probability, inscribed circle problems.
-- **Total with latex_solution now: ~270** (was ~212 at session start, +58 this session)
+- **t4_sl (48 questions):** All 48 markschemes added — discrete distributions, probability (Venn/tree diagrams, conditional), normal distribution, binomial distribution, descriptive statistics (IQR, median, cumulative frequency).
+- **t4_hl (50 questions):** All 50 markschemes added — confidence intervals (z and t), hypothesis testing (z-tests, t-tests, paired t-tests, Type I/II errors), chi-squared goodness-of-fit, Poisson distribution, negative binomial, exponential distribution, geometric distribution.
+- **Total with latex_solution now: 422 / 717** (was ~270 before this session, +152 this session)
 - Committed and pushed to main.
 
-**Remaining t2 topics:**
-- t2_6 ✓ DONE
+**Previously completed (2026-05-17):**
+- t2_6 ✓, t3_trig ✓, t3p1 ✓ (29/30 — q1 skipped, triangle diagram not available)
 
 **Remaining topics (in order):**
-- t4 (stats/probability — ~98 questions)
-- t5/t6 (calculus — 244+ questions, largest block)
+- t5/t6 (calculus — ~295 questions, largest block)
 
 ### Math/Tutoring Bank — Full Rebuild
 - Processed **18 new PDFs** from `~/Downloads/Math/` covering Topics 1–5.
@@ -130,7 +128,7 @@ Skipped: `DP1_and_DP2_AA_HL_Course_Overview_2025_2027.pdf` (course outline, no q
 - Physics data: `data/physics/processed/questions.json`
 - Biology data: `data/biology/processed/questions.json`
 - Chemistry data: `data/chemistry/processed/questions.json`
-- Math data: `data/tutoring/processed/questions.json` (717 q), `data/tutoring/processed/markschemes.json` (~212 with latex_solution)
+- Math data: `data/tutoring/processed/questions.json` (717 q), `data/tutoring/processed/markschemes.json` (422/717 with latex_solution)
 
 ## Infra Context
 - Deploy target: Render (Docker).
