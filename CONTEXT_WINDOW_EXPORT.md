@@ -1,6 +1,6 @@
 # Context Window Export (for new chat)
 
-Date: 2026-05-19
+Date: 2026-05-20
 Project: `AA-HL-Question-Bank`
 
 ## Current State
@@ -14,17 +14,20 @@ Project: `AA-HL-Question-Bank`
 - User preference: when `All levels` is selected, prioritize `SL` and suppress `HL` duplicates (biology/chemistry only).
 - User constraint: do not change Paper 1A / Paper 2 / Paper 3 logic when fixing unrelated issues.
 
-## Most Recent Completed Work (2026-05-19)
+## Most Recent Completed Work (2026-05-20)
 
-### KaTeX Markschemes — t4_sl, t4_hl (2026-05-19)
+### KaTeX Markschemes — ALL COMPLETE (2026-05-20)
 
-- **t4_sl (48 questions):** All 48 markschemes added — discrete distributions, probability (Venn/tree diagrams, conditional), normal distribution, binomial distribution, descriptive statistics (IQR, median, cumulative frequency).
-- **t4_hl (50 questions):** All 50 markschemes added — confidence intervals (z and t), hypothesis testing (z-tests, t-tests, paired t-tests, Type I/II errors), chi-squared goodness-of-fit, Poisson distribution, negative binomial, exponential distribution, geometric distribution.
-- **Total with latex_solution now: 422 / 717** (was ~270 before this session, +152 this session)
-- Committed and pushed to main.
+- **ALL 717/717 questions now have `latex_solution`** — 100% complete.
+- This session added final 36 questions: t1_cnt (q1,q3,q5,q6,q7,q8,q10), t1_seq (q3,q6,q7,q8,q11,q14), t1_topic_1_4 induction (q1–q9), t1_topic_1_5 complex numbers (q1–q11), t1p1 (q7,q13), t3p1_q1.
+- Topics covered: combinatorics, de Moivre, induction proofs, sequences/series, complex numbers (polar form, loci, cube roots of unity, Möbius transforms).
+- All helper/generator scripts deleted after use.
 
-**Previously completed (2026-05-17):**
-- t2_6 ✓, t3_trig ✓, t3p1 ✓ (29/30 — q1 skipped, triangle diagram not available)
+**Previously completed (2026-05-19):**
+- t4_sl (48), t4_hl (50), t2_6, t3_trig, t3p1 (29 of 30)
+
+**Previously completed (earlier):**
+- t5_hl (85), t5_p1 (25), t5_p2 (33), t5_sl, t5_lim_t61, t2, t1 (many)
 
 **Remaining topics (in order):**
 - t5/t6 (calculus — ~295 questions, largest block)
@@ -128,7 +131,7 @@ Skipped: `DP1_and_DP2_AA_HL_Course_Overview_2025_2027.pdf` (course outline, no q
 - Physics data: `data/physics/processed/questions.json`
 - Biology data: `data/biology/processed/questions.json`
 - Chemistry data: `data/chemistry/processed/questions.json`
-- Math data: `data/tutoring/processed/questions.json` (717 q), `data/tutoring/processed/markschemes.json` (422/717 with latex_solution)
+- Math data: `data/tutoring/processed/questions.json` (717 q), `data/tutoring/processed/markschemes.json` (**717/717 with latex_solution — COMPLETE**)
 
 ## Infra Context
 - Deploy target: Render (Docker).
