@@ -283,7 +283,7 @@
         "images/case_studies/m16_Business_management_paper_1__case_study_HLSL_p3.png",
         "images/case_studies/m16_Business_management_paper_1__case_study_HLSL_p4.png"
       ],
-      "company": "AC"
+      "company": "Fair Coffee (FC)"
     },
     {
       "id": "m16_p2_q1_sl",
@@ -325,7 +325,7 @@
         "images/case_studies/m16_Business_management_paper_1__case_study_HLSL_p3.png",
         "images/case_studies/m16_Business_management_paper_1__case_study_HLSL_p4.png"
       ],
-      "company": "GCK"
+      "company": "RM"
     },
     {
       "id": "m16_p2_q2_hl",
@@ -370,7 +370,7 @@
         "images/case_studies/m16_Business_management_paper_1__case_study_HLSL_p3.png",
         "images/case_studies/m16_Business_management_paper_1__case_study_HLSL_p4.png"
       ],
-      "company": "AC"
+      "company": "Aroma Corporation (AC)"
     },
     {
       "id": "m16_p2_q2_sl",
@@ -414,7 +414,7 @@
         "images/case_studies/m16_Business_management_paper_1__case_study_HLSL_p3.png",
         "images/case_studies/m16_Business_management_paper_1__case_study_HLSL_p4.png"
       ],
-      "company": "GCK"
+      "company": "Parder"
     },
     {
       "id": "m16_p2_q3_hl",
@@ -456,7 +456,7 @@
         "images/case_studies/m16_Business_management_paper_1__case_study_HLSL_p3.png",
         "images/case_studies/m16_Business_management_paper_1__case_study_HLSL_p4.png"
       ],
-      "company": "AC"
+      "company": "Beta Lite"
     },
     {
       "id": "m16_p2_q3_sl",
@@ -498,7 +498,7 @@
         "images/case_studies/m16_Business_management_paper_1__case_study_HLSL_p3.png",
         "images/case_studies/m16_Business_management_paper_1__case_study_HLSL_p4.png"
       ],
-      "company": "GCK"
+      "company": "German Car Keys Limited (GCK)"
     },
     {
       "id": "m16_p2_q4_sl",
@@ -544,7 +544,7 @@
         "images/case_studies/m16_Business_management_paper_1__case_study_HLSL_p3.png",
         "images/case_studies/m16_Business_management_paper_1__case_study_HLSL_p4.png"
       ],
-      "company": "GCK"
+      "company": "Vinn"
     },
     {
       "id": "m16_p2_q5_sl",
@@ -591,7 +591,7 @@
         "images/case_studies/m16_Business_management_paper_1__case_study_HLSL_p3.png",
         "images/case_studies/m16_Business_management_paper_1__case_study_HLSL_p4.png"
       ],
-      "company": "GCK"
+      "company": "JustJet"
     },
     {
       "id": "m16_p2_q7_hl",
@@ -628,7 +628,7 @@
         "images/case_studies/m16_Business_management_paper_1__case_study_HLSL_p3.png",
         "images/case_studies/m16_Business_management_paper_1__case_study_HLSL_p4.png"
       ],
-      "company": "AC"
+      "company": null
     },
     {
       "id": "m16_p2_q8_hl",
@@ -667,7 +667,7 @@
         "images/case_studies/m16_Business_management_paper_1__case_study_HLSL_p3.png",
         "images/case_studies/m16_Business_management_paper_1__case_study_HLSL_p4.png"
       ],
-      "company": "AC"
+      "company": null
     },
     {
       "id": "m17_p1_q1_sl",
@@ -935,7 +935,7 @@
         "images/case_studies/m17_Business_management_paper_1__case_study_HLSL_p3.png",
         "images/case_studies/m17_Business_management_paper_1__case_study_HLSL_p4.png"
       ],
-      "company": "HS"
+      "company": "Bart Furniture (BF)"
     },
     {
       "id": "m17_p2_q1_sl",
@@ -977,7 +977,7 @@
         "images/case_studies/m17_Business_management_paper_1__case_study_HLSL_p3.png",
         "images/case_studies/m17_Business_management_paper_1__case_study_HLSL_p4.png"
       ],
-      "company": "SV"
+      "company": "Sotatsu Electronics (SE)"
     },
     {
       "id": "m17_p2_q2_hl",
@@ -1018,7 +1018,7 @@
         "images/case_studies/m17_Business_management_paper_1__case_study_HLSL_p3.png",
         "images/case_studies/m17_Business_management_paper_1__case_study_HLSL_p4.png"
       ],
-      "company": "HS"
+      "company": "Geo Dynamics (GD)"
     },
     {
       "id": "m17_p2_q2_sl",
@@ -1062,7 +1062,7 @@
         "images/case_studies/m17_Business_management_paper_1__case_study_HLSL_p3.png",
         "images/case_studies/m17_Business_management_paper_1__case_study_HLSL_p4.png"
       ],
-      "company": "SV"
+      "company": "Anubis"
     },
     {
       "id": "m17_p2_q3_hl",
@@ -1107,7 +1107,7 @@
         "images/case_studies/m17_Business_management_paper_1__case_study_HLSL_p3.png",
         "images/case_studies/m17_Business_management_paper_1__case_study_HLSL_p4.png"
       ],
-      "company": "HS"
+      "company": "Health Star (HS)"
     },
     {
       "id": "m17_p2_q3_sl",
@@ -1151,7 +1151,7 @@
         "images/case_studies/m17_Business_management_paper_1__case_study_HLSL_p3.png",
         "images/case_studies/m17_Business_management_paper_1__case_study_HLSL_p4.png"
       ],
-      "company": "SV"
+      "company": "Dales"
     },
     {
       "id": "m17_p2_q4_sl",
@@ -1196,7 +1196,7 @@
         "images/case_studies/m17_Business_management_paper_1__case_study_HLSL_p3.png",
         "images/case_studies/m17_Business_management_paper_1__case_study_HLSL_p4.png"
       ],
-      "company": "SV"
+      "company": "Secco Vineyards (SV)"
     },
     {
       "id": "m17_p2_q5_sl",
@@ -1241,7 +1241,7 @@
         "images/case_studies/m17_Business_management_paper_1__case_study_HLSL_p3.png",
         "images/case_studies/m17_Business_management_paper_1__case_study_HLSL_p4.png"
       ],
-      "company": "SV"
+      "company": "Gen Y"
     },
     {
       "id": "m17_p2_q6_sl",
@@ -1278,7 +1278,7 @@
         "images/case_studies/m17_Business_management_paper_1__case_study_HLSL_p3.png",
         "images/case_studies/m17_Business_management_paper_1__case_study_HLSL_p4.png"
       ],
-      "company": "SV"
+      "company": null
     },
     {
       "id": "m17_p2_q7_sl",
@@ -1315,7 +1315,7 @@
         "images/case_studies/m17_Business_management_paper_1__case_study_HLSL_p3.png",
         "images/case_studies/m17_Business_management_paper_1__case_study_HLSL_p4.png"
       ],
-      "company": "SV"
+      "company": null
     },
     {
       "id": "m17_p2_q8_sl",
@@ -1353,7 +1353,7 @@
         "images/case_studies/m17_Business_management_paper_1__case_study_HLSL_p3.png",
         "images/case_studies/m17_Business_management_paper_1__case_study_HLSL_p4.png"
       ],
-      "company": "SV"
+      "company": null
     },
     {
       "id": "m18_p1_q1_sl",
@@ -1390,7 +1390,7 @@
         "images/markschemes/m18_p1_q1_sl_p2.png"
       ],
       "case_study_image_paths": [],
-      "company": "AS"
+      "company": "Su"
     },
     {
       "id": "m18_p1_q2_sl",
@@ -1426,7 +1426,7 @@
         "images/markschemes/m18_p1_q2_sl_p3.png"
       ],
       "case_study_image_paths": [],
-      "company": "AS"
+      "company": "Su"
     },
     {
       "id": "m18_p1_q3_sl",
@@ -1463,7 +1463,7 @@
         "images/markschemes/m18_p1_q3_sl_p2.png"
       ],
       "case_study_image_paths": [],
-      "company": "AS"
+      "company": "Su"
     },
     {
       "id": "m18_p1_q4_hl",
@@ -1538,7 +1538,7 @@
         "images/markschemes/m18_p1_q4_sl_p2.png"
       ],
       "case_study_image_paths": [],
-      "company": "AS"
+      "company": "Su"
     },
     {
       "id": "m18_p1_q5_hl",
@@ -1621,7 +1621,7 @@
         "images/case_studies/m18_Business_management_paper_1__case_study_HLSL_p3.png",
         "images/case_studies/m18_Business_management_paper_1__case_study_HLSL_p4.png"
       ],
-      "company": "VT"
+      "company": "Visionary Toys (VT)"
     },
     {
       "id": "m18_p2_q1_sl",
@@ -1663,7 +1663,7 @@
         "images/case_studies/m18_Business_management_paper_1__case_study_HLSL_p3.png",
         "images/case_studies/m18_Business_management_paper_1__case_study_HLSL_p4.png"
       ],
-      "company": "HS"
+      "company": "Fishers"
     },
     {
       "id": "m18_p2_q2_hl",
@@ -1707,7 +1707,7 @@
         "images/case_studies/m18_Business_management_paper_1__case_study_HLSL_p3.png",
         "images/case_studies/m18_Business_management_paper_1__case_study_HLSL_p4.png"
       ],
-      "company": "VT"
+      "company": null
     },
     {
       "id": "m18_p2_q2_sl",
@@ -1751,7 +1751,7 @@
         "images/case_studies/m18_Business_management_paper_1__case_study_HLSL_p3.png",
         "images/case_studies/m18_Business_management_paper_1__case_study_HLSL_p4.png"
       ],
-      "company": "HS"
+      "company": "Visionary Toys (VT)"
     },
     {
       "id": "m18_p2_q3_hl",
@@ -1799,7 +1799,7 @@
         "images/case_studies/m18_Business_management_paper_1__case_study_HLSL_p3.png",
         "images/case_studies/m18_Business_management_paper_1__case_study_HLSL_p4.png"
       ],
-      "company": "VT"
+      "company": "Speedy Delivery (SD)"
     },
     {
       "id": "m18_p2_q3_sl",
@@ -1844,7 +1844,7 @@
         "images/case_studies/m18_Business_management_paper_1__case_study_HLSL_p3.png",
         "images/case_studies/m18_Business_management_paper_1__case_study_HLSL_p4.png"
       ],
-      "company": "HS"
+      "company": "JVS"
     },
     {
       "id": "m18_p2_q4_sl",
@@ -1890,7 +1890,7 @@
         "images/case_studies/m18_Business_management_paper_1__case_study_HLSL_p3.png",
         "images/case_studies/m18_Business_management_paper_1__case_study_HLSL_p4.png"
       ],
-      "company": "HS"
+      "company": "Healthy Start (HS)"
     },
     {
       "id": "m18_p2_q5_hl",
@@ -1936,7 +1936,7 @@
         "images/case_studies/m18_Business_management_paper_1__case_study_HLSL_p3.png",
         "images/case_studies/m18_Business_management_paper_1__case_study_HLSL_p4.png"
       ],
-      "company": "VT"
+      "company": "Taxi-M"
     },
     {
       "id": "m18_p2_q5_sl",
@@ -1981,7 +1981,7 @@
         "images/case_studies/m18_Business_management_paper_1__case_study_HLSL_p3.png",
         "images/case_studies/m18_Business_management_paper_1__case_study_HLSL_p4.png"
       ],
-      "company": "HS"
+      "company": "Creative Software Systems (CSS)"
     },
     {
       "id": "m18_p2_q6_hl",
@@ -2019,7 +2019,7 @@
         "images/case_studies/m18_Business_management_paper_1__case_study_HLSL_p3.png",
         "images/case_studies/m18_Business_management_paper_1__case_study_HLSL_p4.png"
       ],
-      "company": "VT"
+      "company": null
     },
     {
       "id": "m18_p2_q8_sl",
@@ -2061,7 +2061,7 @@
         "images/case_studies/m18_Business_management_paper_1__case_study_HLSL_p3.png",
         "images/case_studies/m18_Business_management_paper_1__case_study_HLSL_p4.png"
       ],
-      "company": "HS"
+      "company": null
     },
     {
       "id": "m19_p1_q1_sl",
@@ -2340,7 +2340,7 @@
         "images/case_studies/m19_Business_management_paper_1__case_study_HLSL_p6.png",
         "images/case_studies/m19_Business_management_paper_1__case_study_HLSL_p7.png"
       ],
-      "company": "CH"
+      "company": "Las Migas"
     },
     {
       "id": "m19_p2_q2_hl",
@@ -2388,7 +2388,7 @@
         "images/case_studies/m19_Business_management_paper_1__case_study_HLSL_p6.png",
         "images/case_studies/m19_Business_management_paper_1__case_study_HLSL_p7.png"
       ],
-      "company": "JP"
+      "company": "Enjuice"
     },
     {
       "id": "m19_p2_q2_sl",
@@ -2435,7 +2435,7 @@
         "images/case_studies/m19_Business_management_paper_1__case_study_HLSL_p6.png",
         "images/case_studies/m19_Business_management_paper_1__case_study_HLSL_p7.png"
       ],
-      "company": "CH"
+      "company": "DuffJD"
     },
     {
       "id": "m19_p2_q3_hl",
@@ -2533,7 +2533,7 @@
         "images/case_studies/m19_Business_management_paper_1__case_study_HLSL_p6.png",
         "images/case_studies/m19_Business_management_paper_1__case_study_HLSL_p7.png"
       ],
-      "company": "CH"
+      "company": null
     },
     {
       "id": "m19_p2_q4_hl",
@@ -2582,7 +2582,7 @@
         "images/case_studies/m19_Business_management_paper_1__case_study_HLSL_p6.png",
         "images/case_studies/m19_Business_management_paper_1__case_study_HLSL_p7.png"
       ],
-      "company": "JP"
+      "company": "The Warriors"
     },
     {
       "id": "m19_p2_q4_sl",
@@ -2630,7 +2630,7 @@
         "images/case_studies/m19_Business_management_paper_1__case_study_HLSL_p6.png",
         "images/case_studies/m19_Business_management_paper_1__case_study_HLSL_p7.png"
       ],
-      "company": "CH"
+      "company": "Willow Enterprises (WE)"
     },
     {
       "id": "m19_p2_q5_sl",
@@ -2679,7 +2679,7 @@
         "images/case_studies/m19_Business_management_paper_1__case_study_HLSL_p6.png",
         "images/case_studies/m19_Business_management_paper_1__case_study_HLSL_p7.png"
       ],
-      "company": "CH"
+      "company": "Copper Health (CH)"
     },
     {
       "id": "m19_p2_q6_sl",
@@ -2719,7 +2719,7 @@
         "images/case_studies/m19_Business_management_paper_1__case_study_HLSL_p6.png",
         "images/case_studies/m19_Business_management_paper_1__case_study_HLSL_p7.png"
       ],
-      "company": "CH"
+      "company": null
     },
     {
       "id": "m19_p2_q8_hl",
@@ -2765,7 +2765,7 @@
         "images/case_studies/m19_Business_management_paper_1__case_study_HLSL_p6.png",
         "images/case_studies/m19_Business_management_paper_1__case_study_HLSL_p7.png"
       ],
-      "company": "JP"
+      "company": null
     },
     {
       "id": "m19_p2_q8_sl",
@@ -2810,7 +2810,7 @@
         "images/case_studies/m19_Business_management_paper_1__case_study_HLSL_p6.png",
         "images/case_studies/m19_Business_management_paper_1__case_study_HLSL_p7.png"
       ],
-      "company": "CH"
+      "company": null
     },
     {
       "id": "m21_p1_q1_sl",
@@ -2848,7 +2848,7 @@
         "images/markschemes/m21_p1_q1_sl_p3.png"
       ],
       "case_study_image_paths": [],
-      "company": "SF"
+      "company": "MM"
     },
     {
       "id": "m21_p1_q2_sl",
@@ -2884,7 +2884,7 @@
         "images/markschemes/m21_p1_q2_sl_p3.png"
       ],
       "case_study_image_paths": [],
-      "company": "SF"
+      "company": "MM"
     },
     {
       "id": "m21_p1_q3_sl",
@@ -2921,7 +2921,7 @@
         "images/markschemes/m21_p1_q3_sl_p3.png"
       ],
       "case_study_image_paths": [],
-      "company": "SF"
+      "company": "MM"
     },
     {
       "id": "m21_p1_q4_hl",
@@ -2998,7 +2998,7 @@
         "images/markschemes/m21_p1_q4_sl_p3.png"
       ],
       "case_study_image_paths": [],
-      "company": "SF"
+      "company": "MM"
     },
     {
       "id": "m21_p2_q1_sl",
@@ -3041,7 +3041,7 @@
         "images/case_studies/m21_Business_management_paper_1__case_study_HLSL_p5.png",
         "images/case_studies/m21_Business_management_paper_1__case_study_HLSL_p6.png"
       ],
-      "company": "KT"
+      "company": "Hafs"
     },
     {
       "id": "m21_p2_q2_hl",
@@ -3088,7 +3088,7 @@
         "images/case_studies/m21_Business_management_paper_1__case_study_HLSL_p5.png",
         "images/case_studies/m21_Business_management_paper_1__case_study_HLSL_p6.png"
       ],
-      "company": "SSC"
+      "company": "Super Lunches (SSL)"
     },
     {
       "id": "m21_p2_q2_sl",
@@ -3134,7 +3134,7 @@
         "images/case_studies/m21_Business_management_paper_1__case_study_HLSL_p5.png",
         "images/case_studies/m21_Business_management_paper_1__case_study_HLSL_p6.png"
       ],
-      "company": "KT"
+      "company": "The Pie Store (TPS)"
     },
     {
       "id": "m21_p2_q3_hl",
@@ -3181,7 +3181,7 @@
         "images/case_studies/m21_Business_management_paper_1__case_study_HLSL_p5.png",
         "images/case_studies/m21_Business_management_paper_1__case_study_HLSL_p6.png"
       ],
-      "company": "SSC"
+      "company": "Soft Skin Cosmetics (SSC)"
     },
     {
       "id": "m21_p2_q3_sl",
@@ -3227,7 +3227,7 @@
         "images/case_studies/m21_Business_management_paper_1__case_study_HLSL_p5.png",
         "images/case_studies/m21_Business_management_paper_1__case_study_HLSL_p6.png"
       ],
-      "company": "KT"
+      "company": "Buzza"
     },
     {
       "id": "m21_p2_q4_sl",
@@ -3274,7 +3274,7 @@
         "images/case_studies/m21_Business_management_paper_1__case_study_HLSL_p5.png",
         "images/case_studies/m21_Business_management_paper_1__case_study_HLSL_p6.png"
       ],
-      "company": "KT"
+      "company": "ReVolve Ltd (RV)"
     },
     {
       "id": "m21_p2_q5_sl",
@@ -3547,7 +3547,7 @@
         "images/case_studies/m22_Business_management_paper_1__case_study_HLSL_p5.png",
         "images/case_studies/m22_Business_management_paper_1__case_study_HLSL_p6.png"
       ],
-      "company": "BM"
+      "company": null
     },
     {
       "id": "m22_p2_q1_sl",
@@ -3592,7 +3592,7 @@
         "images/case_studies/m22_Business_management_paper_1__case_study_HLSL_p5.png",
         "images/case_studies/m22_Business_management_paper_1__case_study_HLSL_p6.png"
       ],
-      "company": "FR"
+      "company": null
     },
     {
       "id": "m22_p2_q2_hl",
@@ -3638,7 +3638,7 @@
         "images/case_studies/m22_Business_management_paper_1__case_study_HLSL_p5.png",
         "images/case_studies/m22_Business_management_paper_1__case_study_HLSL_p6.png"
       ],
-      "company": "BM"
+      "company": null
     },
     {
       "id": "m22_p2_q2_sl",
@@ -3685,7 +3685,7 @@
         "images/case_studies/m22_Business_management_paper_1__case_study_HLSL_p5.png",
         "images/case_studies/m22_Business_management_paper_1__case_study_HLSL_p6.png"
       ],
-      "company": "FR"
+      "company": "Ritev Enterprises (RE)"
     },
     {
       "id": "m22_p2_q3_hl",
@@ -3732,7 +3732,7 @@
         "images/case_studies/m22_Business_management_paper_1__case_study_HLSL_p5.png",
         "images/case_studies/m22_Business_management_paper_1__case_study_HLSL_p6.png"
       ],
-      "company": "BM"
+      "company": "Designs"
     },
     {
       "id": "m22_p2_q3_sl",
@@ -3779,7 +3779,7 @@
         "images/case_studies/m22_Business_management_paper_1__case_study_HLSL_p5.png",
         "images/case_studies/m22_Business_management_paper_1__case_study_HLSL_p6.png"
       ],
-      "company": "FR"
+      "company": "Hums Athletics (HA)"
     },
     {
       "id": "m22_p2_q4_hl",
@@ -3874,7 +3874,7 @@
         "images/case_studies/m22_Business_management_paper_1__case_study_HLSL_p5.png",
         "images/case_studies/m22_Business_management_paper_1__case_study_HLSL_p6.png"
       ],
-      "company": "FR"
+      "company": "Red Squirrel Apple Juice (RS)"
     },
     {
       "id": "m22_p2_q5_sl",
@@ -3924,7 +3924,7 @@
         "images/case_studies/m22_Business_management_paper_1__case_study_HLSL_p5.png",
         "images/case_studies/m22_Business_management_paper_1__case_study_HLSL_p6.png"
       ],
-      "company": "FR"
+      "company": "Frez PLC (FR)"
     },
     {
       "id": "m23_p1_tz1_q1_sl",
@@ -4422,7 +4422,7 @@
         "images/case_studies/m23_Business_management_paper_1__case_study_HLSL_p5.png",
         "images/case_studies/m23_Business_management_paper_1__case_study_HLSL_p6.png"
       ],
-      "company": "RC"
+      "company": "Joyce Trucking (JT)"
     },
     {
       "id": "m23_p2_tz1_q1_sl",
@@ -4466,7 +4466,7 @@
         "images/case_studies/m23_Business_management_paper_1__case_study_HLSL_p5.png",
         "images/case_studies/m23_Business_management_paper_1__case_study_HLSL_p6.png"
       ],
-      "company": "LA"
+      "company": "Make-Up"
     },
     {
       "id": "m23_p2_tz1_q2_hl",
@@ -4511,7 +4511,7 @@
         "images/case_studies/m23_Business_management_paper_1__case_study_HLSL_p5.png",
         "images/case_studies/m23_Business_management_paper_1__case_study_HLSL_p6.png"
       ],
-      "company": "RC"
+      "company": "Menlo Seat Covers (MSC)"
     },
     {
       "id": "m23_p2_tz1_q2_sl",
@@ -4558,7 +4558,7 @@
         "images/case_studies/m23_Business_management_paper_1__case_study_HLSL_p5.png",
         "images/case_studies/m23_Business_management_paper_1__case_study_HLSL_p6.png"
       ],
-      "company": "LA"
+      "company": "Windmills OPQ (WO)"
     },
     {
       "id": "m23_p2_tz1_q3_hl",
@@ -4606,7 +4606,7 @@
         "images/case_studies/m23_Business_management_paper_1__case_study_HLSL_p5.png",
         "images/case_studies/m23_Business_management_paper_1__case_study_HLSL_p6.png"
       ],
-      "company": "RC"
+      "company": "Dean West Tutoring (DWT)"
     },
     {
       "id": "m23_p2_tz1_q3_sl",
@@ -4653,7 +4653,7 @@
         "images/case_studies/m23_Business_management_paper_1__case_study_HLSL_p5.png",
         "images/case_studies/m23_Business_management_paper_1__case_study_HLSL_p6.png"
       ],
-      "company": "LA"
+      "company": "WszystkoMart"
     },
     {
       "id": "m23_p2_tz1_q4_sl",
@@ -4701,7 +4701,7 @@
         "images/case_studies/m23_Business_management_paper_1__case_study_HLSL_p5.png",
         "images/case_studies/m23_Business_management_paper_1__case_study_HLSL_p6.png"
       ],
-      "company": "LA"
+      "company": "Les Amis PLC (LA)"
     },
     {
       "id": "m23_p2_tz1_q5_hl",
@@ -4749,7 +4749,7 @@
         "images/case_studies/m23_Business_management_paper_1__case_study_HLSL_p5.png",
         "images/case_studies/m23_Business_management_paper_1__case_study_HLSL_p6.png"
       ],
-      "company": "RC"
+      "company": "Coffee Extra (CE)"
     },
     {
       "id": "m23_p2_tz1_q5_sl",
@@ -4796,7 +4796,7 @@
         "images/case_studies/m23_Business_management_paper_1__case_study_HLSL_p5.png",
         "images/case_studies/m23_Business_management_paper_1__case_study_HLSL_p6.png"
       ],
-      "company": "LA"
+      "company": "JP"
     },
     {
       "id": "m23_p2_tz1_q6_hl",
@@ -4835,7 +4835,7 @@
         "images/case_studies/m23_Business_management_paper_1__case_study_HLSL_p5.png",
         "images/case_studies/m23_Business_management_paper_1__case_study_HLSL_p6.png"
       ],
-      "company": "RC"
+      "company": null
     },
     {
       "id": "m23_p2_tz1_q7_hl",
@@ -4874,7 +4874,7 @@
         "images/case_studies/m23_Business_management_paper_1__case_study_HLSL_p5.png",
         "images/case_studies/m23_Business_management_paper_1__case_study_HLSL_p6.png"
       ],
-      "company": "RC"
+      "company": null
     },
     {
       "id": "m23_p2_tz1_q8_hl",
@@ -4917,7 +4917,7 @@
         "images/case_studies/m23_Business_management_paper_1__case_study_HLSL_p5.png",
         "images/case_studies/m23_Business_management_paper_1__case_study_HLSL_p6.png"
       ],
-      "company": "RC"
+      "company": null
     },
     {
       "id": "m23_p2_tz1_q8_sl",
@@ -4959,7 +4959,7 @@
         "images/case_studies/m23_Business_management_paper_1__case_study_HLSL_p5.png",
         "images/case_studies/m23_Business_management_paper_1__case_study_HLSL_p6.png"
       ],
-      "company": "LA"
+      "company": null
     },
     {
       "id": "m23_p2_tz2_q1_hl",
@@ -5005,7 +5005,7 @@
         "images/case_studies/m23_Business_management_paper_1__case_study_HLSL_p5.png",
         "images/case_studies/m23_Business_management_paper_1__case_study_HLSL_p6.png"
       ],
-      "company": "RC"
+      "company": "Magic"
     },
     {
       "id": "m23_p2_tz2_q1_sl",
@@ -5051,7 +5051,7 @@
         "images/case_studies/m23_Business_management_paper_1__case_study_HLSL_p5.png",
         "images/case_studies/m23_Business_management_paper_1__case_study_HLSL_p6.png"
       ],
-      "company": "LA"
+      "company": "Lusanka Company (LC)"
     },
     {
       "id": "m23_p2_tz2_q2_hl",
@@ -5098,7 +5098,7 @@
         "images/case_studies/m23_Business_management_paper_1__case_study_HLSL_p5.png",
         "images/case_studies/m23_Business_management_paper_1__case_study_HLSL_p6.png"
       ],
-      "company": "RC"
+      "company": "Urban Express (UE)"
     },
     {
       "id": "m23_p2_tz2_q2_sl",
@@ -5145,7 +5145,7 @@
         "images/case_studies/m23_Business_management_paper_1__case_study_HLSL_p5.png",
         "images/case_studies/m23_Business_management_paper_1__case_study_HLSL_p6.png"
       ],
-      "company": "LA"
+      "company": "Alfombras Horizonte (AH)"
     },
     {
       "id": "m23_p2_tz2_q3_hl",
@@ -5193,7 +5193,7 @@
         "images/case_studies/m23_Business_management_paper_1__case_study_HLSL_p5.png",
         "images/case_studies/m23_Business_management_paper_1__case_study_HLSL_p6.png"
       ],
-      "company": "RC"
+      "company": "Dean West Tutoring (DWT)"
     },
     {
       "id": "m23_p2_tz2_q3_sl",
@@ -5240,7 +5240,7 @@
         "images/case_studies/m23_Business_management_paper_1__case_study_HLSL_p5.png",
         "images/case_studies/m23_Business_management_paper_1__case_study_HLSL_p6.png"
       ],
-      "company": "LA"
+      "company": "WszystkoMart"
     },
     {
       "id": "m23_p2_tz2_q4_sl",
@@ -5288,7 +5288,7 @@
         "images/case_studies/m23_Business_management_paper_1__case_study_HLSL_p5.png",
         "images/case_studies/m23_Business_management_paper_1__case_study_HLSL_p6.png"
       ],
-      "company": "LA"
+      "company": "Les Amis PLC (LA)"
     },
     {
       "id": "m23_p2_tz2_q5_hl",
@@ -5336,7 +5336,7 @@
         "images/case_studies/m23_Business_management_paper_1__case_study_HLSL_p5.png",
         "images/case_studies/m23_Business_management_paper_1__case_study_HLSL_p6.png"
       ],
-      "company": "RC"
+      "company": "Coffee Extra (CE)"
     },
     {
       "id": "m23_p2_tz2_q5_sl",
@@ -5383,7 +5383,7 @@
         "images/case_studies/m23_Business_management_paper_1__case_study_HLSL_p5.png",
         "images/case_studies/m23_Business_management_paper_1__case_study_HLSL_p6.png"
       ],
-      "company": "LA"
+      "company": "JP"
     },
     {
       "id": "m23_p2_tz2_q6_hl",
@@ -5423,7 +5423,7 @@
         "images/case_studies/m23_Business_management_paper_1__case_study_HLSL_p5.png",
         "images/case_studies/m23_Business_management_paper_1__case_study_HLSL_p6.png"
       ],
-      "company": "RC"
+      "company": null
     },
     {
       "id": "m23_p2_tz2_q7_hl",
@@ -5462,7 +5462,7 @@
         "images/case_studies/m23_Business_management_paper_1__case_study_HLSL_p5.png",
         "images/case_studies/m23_Business_management_paper_1__case_study_HLSL_p6.png"
       ],
-      "company": "RC"
+      "company": null
     },
     {
       "id": "m23_p2_tz2_q8_sl",
@@ -5503,7 +5503,7 @@
         "images/case_studies/m23_Business_management_paper_1__case_study_HLSL_p5.png",
         "images/case_studies/m23_Business_management_paper_1__case_study_HLSL_p6.png"
       ],
-      "company": "LA"
+      "company": null
     },
     {
       "id": "m24_p1_tz1_q1_hl",
@@ -6076,7 +6076,7 @@
         "images/case_studies/m24_Business_management_paper_1__case_study_HLSL_p3.png",
         "images/case_studies/m24_Business_management_paper_1__case_study_HLSL_p4.png"
       ],
-      "company": "AV"
+      "company": "Kimura Answers PLC (KA)"
     },
     {
       "id": "m24_p2_tz1_q1_sl",
@@ -6120,7 +6120,7 @@
         "images/case_studies/m24_Business_management_paper_1__case_study_HLSL_p3.png",
         "images/case_studies/m24_Business_management_paper_1__case_study_HLSL_p4.png"
       ],
-      "company": "WEL"
+      "company": null
     },
     {
       "id": "m24_p2_tz1_q2_hl",
@@ -6164,7 +6164,7 @@
         "images/case_studies/m24_Business_management_paper_1__case_study_HLSL_p3.png",
         "images/case_studies/m24_Business_management_paper_1__case_study_HLSL_p4.png"
       ],
-      "company": "AV"
+      "company": "Novus Orbis PLC (NOP)"
     },
     {
       "id": "m24_p2_tz1_q2_sl",
@@ -6210,7 +6210,7 @@
         "images/case_studies/m24_Business_management_paper_1__case_study_HLSL_p3.png",
         "images/case_studies/m24_Business_management_paper_1__case_study_HLSL_p4.png"
       ],
-      "company": "WEL"
+      "company": "Peak Pedometers PLC (PP)"
     },
     {
       "id": "m24_p2_tz1_q3_hl",
@@ -6253,7 +6253,7 @@
         "images/case_studies/m24_Business_management_paper_1__case_study_HLSL_p3.png",
         "images/case_studies/m24_Business_management_paper_1__case_study_HLSL_p4.png"
       ],
-      "company": "AV"
+      "company": "Sengku Vacuum Cleaners (SVC)"
     },
     {
       "id": "m24_p2_tz1_q3_sl",
@@ -6348,7 +6348,7 @@
         "images/case_studies/m24_Business_management_paper_1__case_study_HLSL_p3.png",
         "images/case_studies/m24_Business_management_paper_1__case_study_HLSL_p4.png"
       ],
-      "company": "AV"
+      "company": "Avuela PLC (AV)"
     },
     {
       "id": "m24_p2_tz1_q4_sl",
@@ -6397,7 +6397,7 @@
         "images/case_studies/m24_Business_management_paper_1__case_study_HLSL_p3.png",
         "images/case_studies/m24_Business_management_paper_1__case_study_HLSL_p4.png"
       ],
-      "company": "WEL"
+      "company": "East Africa Women Finance Trust (EAWFT)"
     },
     {
       "id": "m24_p2_tz1_q5_hl",
@@ -6445,7 +6445,7 @@
         "images/case_studies/m24_Business_management_paper_1__case_study_HLSL_p3.png",
         "images/case_studies/m24_Business_management_paper_1__case_study_HLSL_p4.png"
       ],
-      "company": "AV"
+      "company": "Airport Services (AS)"
     },
     {
       "id": "m24_p2_tz2_q1_hl",
@@ -6488,7 +6488,7 @@
         "images/case_studies/m24_Business_management_paper_1__case_study_HLSL_p3.png",
         "images/case_studies/m24_Business_management_paper_1__case_study_HLSL_p4.png"
       ],
-      "company": "AV"
+      "company": "Medias Calentitas (MC)"
     },
     {
       "id": "m24_p2_tz2_q1_sl",
@@ -6532,7 +6532,7 @@
         "images/case_studies/m24_Business_management_paper_1__case_study_HLSL_p3.png",
         "images/case_studies/m24_Business_management_paper_1__case_study_HLSL_p4.png"
       ],
-      "company": "WEL"
+      "company": "Hernan Gutierrez (HG)"
     },
     {
       "id": "m24_p2_tz2_q2_hl",
@@ -6574,7 +6574,7 @@
         "images/case_studies/m24_Business_management_paper_1__case_study_HLSL_p3.png",
         "images/case_studies/m24_Business_management_paper_1__case_study_HLSL_p4.png"
       ],
-      "company": "AV"
+      "company": "UEB"
     },
     {
       "id": "m24_p2_tz2_q2_sl",
@@ -6620,7 +6620,7 @@
         "images/case_studies/m24_Business_management_paper_1__case_study_HLSL_p3.png",
         "images/case_studies/m24_Business_management_paper_1__case_study_HLSL_p4.png"
       ],
-      "company": "WEL"
+      "company": "JnDj"
     },
     {
       "id": "m24_p2_tz2_q3_hl",
@@ -6662,7 +6662,7 @@
         "images/case_studies/m24_Business_management_paper_1__case_study_HLSL_p3.png",
         "images/case_studies/m24_Business_management_paper_1__case_study_HLSL_p4.png"
       ],
-      "company": "AV"
+      "company": "Sol Market (SM)"
     },
     {
       "id": "m24_p2_tz2_q3_sl",
@@ -6758,7 +6758,7 @@
         "images/case_studies/m24_Business_management_paper_1__case_study_HLSL_p3.png",
         "images/case_studies/m24_Business_management_paper_1__case_study_HLSL_p4.png"
       ],
-      "company": "AV"
+      "company": "Avuela PLC (AV)"
     },
     {
       "id": "m24_p2_tz2_q4_sl",
@@ -6808,7 +6808,7 @@
         "images/case_studies/m24_Business_management_paper_1__case_study_HLSL_p3.png",
         "images/case_studies/m24_Business_management_paper_1__case_study_HLSL_p4.png"
       ],
-      "company": "WEL"
+      "company": "East Africa Women Finance Trust (EAWFT)"
     },
     {
       "id": "m24_p2_tz2_q5_hl",
@@ -6855,7 +6855,7 @@
         "images/case_studies/m24_Business_management_paper_1__case_study_HLSL_p3.png",
         "images/case_studies/m24_Business_management_paper_1__case_study_HLSL_p4.png"
       ],
-      "company": "AV"
+      "company": "Airport Services (AS)"
     },
     {
       "id": "m24_p3_q1_hl",
@@ -7793,7 +7793,7 @@
         "images/case_studies/m25_Business_management_paper_1_pre-released_statement_HLSL_p3.png",
         "images/case_studies/m25_Business_management_paper_1_pre-released_statement_HLSL_p4.png"
       ],
-      "company": "VM"
+      "company": "Hot Chips (HC)"
     },
     {
       "id": "m25_p2_tz1_q1_sl",
@@ -7837,7 +7837,7 @@
         "images/case_studies/m25_Business_management_paper_1_pre-released_statement_HLSL_p3.png",
         "images/case_studies/m25_Business_management_paper_1_pre-released_statement_HLSL_p4.png"
       ],
-      "company": "GX"
+      "company": "Caramelo"
     },
     {
       "id": "m25_p2_tz1_q2_hl",
@@ -7881,7 +7881,7 @@
         "images/case_studies/m25_Business_management_paper_1_pre-released_statement_HLSL_p3.png",
         "images/case_studies/m25_Business_management_paper_1_pre-released_statement_HLSL_p4.png"
       ],
-      "company": "VM"
+      "company": "Qwest"
     },
     {
       "id": "m25_p2_tz1_q2_sl",
@@ -7925,7 +7925,7 @@
         "images/case_studies/m25_Business_management_paper_1_pre-released_statement_HLSL_p3.png",
         "images/case_studies/m25_Business_management_paper_1_pre-released_statement_HLSL_p4.png"
       ],
-      "company": "GX"
+      "company": "Famous Technology (FT)"
     },
     {
       "id": "m25_p2_tz1_q3_hl",
@@ -7970,7 +7970,7 @@
         "images/case_studies/m25_Business_management_paper_1_pre-released_statement_HLSL_p3.png",
         "images/case_studies/m25_Business_management_paper_1_pre-released_statement_HLSL_p4.png"
       ],
-      "company": "VM"
+      "company": "Dream Toys PLC (DT)"
     },
     {
       "id": "m25_p2_tz1_q3_sl",
@@ -8014,7 +8014,7 @@
         "images/case_studies/m25_Business_management_paper_1_pre-released_statement_HLSL_p3.png",
         "images/case_studies/m25_Business_management_paper_1_pre-released_statement_HLSL_p4.png"
       ],
-      "company": "GX"
+      "company": "GenX Tyre Company (GX)"
     },
     {
       "id": "m25_p2_tz1_q4_hl",
@@ -8061,7 +8061,7 @@
         "images/case_studies/m25_Business_management_paper_1_pre-released_statement_HLSL_p3.png",
         "images/case_studies/m25_Business_management_paper_1_pre-released_statement_HLSL_p4.png"
       ],
-      "company": "VM"
+      "company": "Very Mochi (VM)"
     },
     {
       "id": "m25_p2_tz1_q4_sl",
@@ -8109,7 +8109,7 @@
         "images/case_studies/m25_Business_management_paper_1_pre-released_statement_HLSL_p3.png",
         "images/case_studies/m25_Business_management_paper_1_pre-released_statement_HLSL_p4.png"
       ],
-      "company": "GX"
+      "company": "Forch"
     },
     {
       "id": "m25_p2_tz1_q5_hl",
@@ -8155,7 +8155,7 @@
         "images/case_studies/m25_Business_management_paper_1_pre-released_statement_HLSL_p3.png",
         "images/case_studies/m25_Business_management_paper_1_pre-released_statement_HLSL_p4.png"
       ],
-      "company": "VM"
+      "company": "Air Continental (AC)"
     },
     {
       "id": "m25_p2_tz2_q1_hl",
@@ -8199,7 +8199,7 @@
         "images/case_studies/m25_Business_management_paper_1_pre-released_statement_HLSL_p3.png",
         "images/case_studies/m25_Business_management_paper_1_pre-released_statement_HLSL_p4.png"
       ],
-      "company": "BD"
+      "company": null
     },
     {
       "id": "m25_p2_tz2_q1_sl",
@@ -8244,7 +8244,7 @@
         "images/case_studies/m25_Business_management_paper_1_pre-released_statement_HLSL_p3.png",
         "images/case_studies/m25_Business_management_paper_1_pre-released_statement_HLSL_p4.png"
       ],
-      "company": "VX"
+      "company": "Creative Wedding Cakes (CWC)"
     },
     {
       "id": "m25_p2_tz2_q2_hl",
@@ -8287,7 +8287,7 @@
         "images/case_studies/m25_Business_management_paper_1_pre-released_statement_HLSL_p3.png",
         "images/case_studies/m25_Business_management_paper_1_pre-released_statement_HLSL_p4.png"
       ],
-      "company": "BD"
+      "company": "Fashion Clothing (FC)"
     },
     {
       "id": "m25_p2_tz2_q2_sl",
@@ -8333,7 +8333,7 @@
         "images/case_studies/m25_Business_management_paper_1_pre-released_statement_HLSL_p3.png",
         "images/case_studies/m25_Business_management_paper_1_pre-released_statement_HLSL_p4.png"
       ],
-      "company": "VX"
+      "company": "Brandon Fish (BF)"
     },
     {
       "id": "m25_p2_tz2_q3_hl",
@@ -8378,7 +8378,7 @@
         "images/case_studies/m25_Business_management_paper_1_pre-released_statement_HLSL_p3.png",
         "images/case_studies/m25_Business_management_paper_1_pre-released_statement_HLSL_p4.png"
       ],
-      "company": "BD"
+      "company": "Veggie Beef (VB)"
     },
     {
       "id": "m25_p2_tz2_q3_sl",
@@ -8423,7 +8423,7 @@
         "images/case_studies/m25_Business_management_paper_1_pre-released_statement_HLSL_p3.png",
         "images/case_studies/m25_Business_management_paper_1_pre-released_statement_HLSL_p4.png"
       ],
-      "company": "VX"
+      "company": "Zenon PLC (ZN)"
     },
     {
       "id": "m25_p2_tz2_q4_hl",
@@ -8468,7 +8468,7 @@
         "images/case_studies/m25_Business_management_paper_1_pre-released_statement_HLSL_p3.png",
         "images/case_studies/m25_Business_management_paper_1_pre-released_statement_HLSL_p4.png"
       ],
-      "company": "BD"
+      "company": "CA"
     },
     {
       "id": "m25_p2_tz2_q4_sl",
@@ -8516,7 +8516,7 @@
         "images/case_studies/m25_Business_management_paper_1_pre-released_statement_HLSL_p3.png",
         "images/case_studies/m25_Business_management_paper_1_pre-released_statement_HLSL_p4.png"
       ],
-      "company": "VX"
+      "company": "Otramex"
     },
     {
       "id": "m25_p2_tz2_q5_hl",
@@ -8561,7 +8561,7 @@
         "images/case_studies/m25_Business_management_paper_1_pre-released_statement_HLSL_p3.png",
         "images/case_studies/m25_Business_management_paper_1_pre-released_statement_HLSL_p4.png"
       ],
-      "company": "BD"
+      "company": "Bling Denim (BD)"
     },
     {
       "id": "m25_p2_tz3_q1_hl",
@@ -8603,7 +8603,7 @@
         "images/case_studies/m25_Business_management_paper_1_pre-released_statement_HLSL_p3.png",
         "images/case_studies/m25_Business_management_paper_1_pre-released_statement_HLSL_p4.png"
       ],
-      "company": "LG"
+      "company": "Parta Cosmetics (PC)"
     },
     {
       "id": "m25_p2_tz3_q1_sl",
@@ -8645,7 +8645,7 @@
         "images/case_studies/m25_Business_management_paper_1_pre-released_statement_HLSL_p3.png",
         "images/case_studies/m25_Business_management_paper_1_pre-released_statement_HLSL_p4.png"
       ],
-      "company": "AA"
+      "company": "MS Cars (MSC)"
     },
     {
       "id": "m25_p2_tz3_q2_hl",
@@ -8688,7 +8688,7 @@
         "images/case_studies/m25_Business_management_paper_1_pre-released_statement_HLSL_p3.png",
         "images/case_studies/m25_Business_management_paper_1_pre-released_statement_HLSL_p4.png"
       ],
-      "company": "LG"
+      "company": "Bella Spa (LBS)"
     },
     {
       "id": "m25_p2_tz3_q2_sl",
@@ -8732,7 +8732,7 @@
         "images/case_studies/m25_Business_management_paper_1_pre-released_statement_HLSL_p3.png",
         "images/case_studies/m25_Business_management_paper_1_pre-released_statement_HLSL_p4.png"
       ],
-      "company": "AA"
+      "company": "Fru-Yo"
     },
     {
       "id": "m25_p2_tz3_q3_hl",
@@ -8774,7 +8774,7 @@
         "images/case_studies/m25_Business_management_paper_1_pre-released_statement_HLSL_p3.png",
         "images/case_studies/m25_Business_management_paper_1_pre-released_statement_HLSL_p4.png"
       ],
-      "company": "LG"
+      "company": "Mehta Enterprises (ME)"
     },
     {
       "id": "m25_p2_tz3_q3_sl",
@@ -8866,7 +8866,7 @@
         "images/case_studies/m25_Business_management_paper_1_pre-released_statement_HLSL_p3.png",
         "images/case_studies/m25_Business_management_paper_1_pre-released_statement_HLSL_p4.png"
       ],
-      "company": "LG"
+      "company": "Greenland Supermarkets (GD)"
     },
     {
       "id": "m25_p2_tz3_q4_sl",
@@ -8916,7 +8916,7 @@
         "images/case_studies/m25_Business_management_paper_1_pre-released_statement_HLSL_p3.png",
         "images/case_studies/m25_Business_management_paper_1_pre-released_statement_HLSL_p4.png"
       ],
-      "company": "AA"
+      "company": "HSM"
     },
     {
       "id": "m25_p2_tz3_q5_hl",
@@ -8963,7 +8963,7 @@
         "images/case_studies/m25_Business_management_paper_1_pre-released_statement_HLSL_p3.png",
         "images/case_studies/m25_Business_management_paper_1_pre-released_statement_HLSL_p4.png"
       ],
-      "company": "LG"
+      "company": "La Gauchita (LG)"
     },
     {
       "id": "m25_p3_q1_hl",
@@ -8997,7 +8997,7 @@
         "images/markschemes/m25_p3_q1_hl.png"
       ],
       "case_study_image_paths": [],
-      "company": "STB"
+      "company": null
     },
     {
       "id": "m25_p3_q2_hl",
@@ -9035,7 +9035,7 @@
         "images/markschemes/m25_p3_q2_hl_p3.png"
       ],
       "case_study_image_paths": [],
-      "company": "STB"
+      "company": null
     },
     {
       "id": "m25_p3_q3_hl",
@@ -9110,7 +9110,7 @@
         "images/markschemes/n16_p1_q1_hl_p2.png"
       ],
       "case_study_image_paths": [],
-      "company": "IBAT"
+      "company": "Medimatters"
     },
     {
       "id": "n16_p1_q2_sl",
@@ -9144,7 +9144,7 @@
         "images/markschemes/n16_p1_q2_sl_p2.png"
       ],
       "case_study_image_paths": [],
-      "company": "IBAT"
+      "company": "Medimatters"
     },
     {
       "id": "n16_p1_q3_sl",
@@ -9180,7 +9180,7 @@
         "images/markschemes/n16_p1_q3_sl_p2.png"
       ],
       "case_study_image_paths": [],
-      "company": "IBAT"
+      "company": "Medimatters"
     },
     {
       "id": "n16_p1_q4_hl",
@@ -9219,7 +9219,7 @@
         "images/markschemes/n16_p1_q4_hl_p4.png"
       ],
       "case_study_image_paths": [],
-      "company": "IBAT"
+      "company": "Medimatters"
     },
     {
       "id": "n16_p1_q4_sl",
@@ -9257,7 +9257,7 @@
         "images/markschemes/n16_p1_q4_sl_p3.png"
       ],
       "case_study_image_paths": [],
-      "company": "IBAT"
+      "company": "Medimatters"
     },
     {
       "id": "n16_p1_q5_hl",
@@ -9296,7 +9296,7 @@
         "images/markschemes/n16_p1_q5_hl_p3.png"
       ],
       "case_study_image_paths": [],
-      "company": "IBAT"
+      "company": "Medimatters"
     },
     {
       "id": "n16_p2_q1_hl",
@@ -9337,7 +9337,7 @@
         "images/case_studies/n16_Business_management_paper_1__case_study_HLSL_p3.png",
         "images/case_studies/n16_Business_management_paper_1__case_study_HLSL_p4.png"
       ],
-      "company": "CM"
+      "company": null
     },
     {
       "id": "n16_p2_q1_sl",
@@ -9378,7 +9378,7 @@
         "images/case_studies/n16_Business_management_paper_1__case_study_HLSL_p3.png",
         "images/case_studies/n16_Business_management_paper_1__case_study_HLSL_p4.png"
       ],
-      "company": "FC"
+      "company": "Valley Gardens (VG)"
     },
     {
       "id": "n16_p2_q2_sl",
@@ -9419,7 +9419,7 @@
         "images/case_studies/n16_Business_management_paper_1__case_study_HLSL_p3.png",
         "images/case_studies/n16_Business_management_paper_1__case_study_HLSL_p4.png"
       ],
-      "company": "FC"
+      "company": "Lucchini"
     },
     {
       "id": "n16_p2_q3_hl",
@@ -9465,7 +9465,7 @@
         "images/case_studies/n16_Business_management_paper_1__case_study_HLSL_p3.png",
         "images/case_studies/n16_Business_management_paper_1__case_study_HLSL_p4.png"
       ],
-      "company": "CM"
+      "company": "Chan Manufacturing (CM)"
     },
     {
       "id": "n16_p2_q3_sl",
@@ -9509,7 +9509,7 @@
         "images/case_studies/n16_Business_management_paper_1__case_study_HLSL_p3.png",
         "images/case_studies/n16_Business_management_paper_1__case_study_HLSL_p4.png"
       ],
-      "company": "FC"
+      "company": "Flussbiegung CityRoller (FC)"
     },
     {
       "id": "n16_p2_q4_sl",
@@ -9554,7 +9554,7 @@
         "images/case_studies/n16_Business_management_paper_1__case_study_HLSL_p3.png",
         "images/case_studies/n16_Business_management_paper_1__case_study_HLSL_p4.png"
       ],
-      "company": "FC"
+      "company": null
     },
     {
       "id": "n16_p2_q5_hl",
@@ -9601,7 +9601,7 @@
         "images/case_studies/n16_Business_management_paper_1__case_study_HLSL_p3.png",
         "images/case_studies/n16_Business_management_paper_1__case_study_HLSL_p4.png"
       ],
-      "company": "CM"
+      "company": "Thorns Hill (TH)"
     },
     {
       "id": "n16_p2_q5_sl",
@@ -9645,7 +9645,7 @@
         "images/case_studies/n16_Business_management_paper_1__case_study_HLSL_p3.png",
         "images/case_studies/n16_Business_management_paper_1__case_study_HLSL_p4.png"
       ],
-      "company": "FC"
+      "company": "Thorns Hill (TH)"
     },
     {
       "id": "n16_p2_q6_hl",
@@ -9684,7 +9684,7 @@
         "images/case_studies/n16_Business_management_paper_1__case_study_HLSL_p3.png",
         "images/case_studies/n16_Business_management_paper_1__case_study_HLSL_p4.png"
       ],
-      "company": "CM"
+      "company": null
     },
     {
       "id": "n16_p2_q6_sl",
@@ -9723,7 +9723,7 @@
         "images/case_studies/n16_Business_management_paper_1__case_study_HLSL_p3.png",
         "images/case_studies/n16_Business_management_paper_1__case_study_HLSL_p4.png"
       ],
-      "company": "FC"
+      "company": null
     },
     {
       "id": "n16_p2_q7_hl",
@@ -9760,7 +9760,7 @@
         "images/case_studies/n16_Business_management_paper_1__case_study_HLSL_p3.png",
         "images/case_studies/n16_Business_management_paper_1__case_study_HLSL_p4.png"
       ],
-      "company": "CM"
+      "company": null
     },
     {
       "id": "n16_p2_q8_sl",
@@ -9798,7 +9798,7 @@
         "images/case_studies/n16_Business_management_paper_1__case_study_HLSL_p3.png",
         "images/case_studies/n16_Business_management_paper_1__case_study_HLSL_p4.png"
       ],
-      "company": "FC"
+      "company": null
     },
     {
       "id": "n17_p1_q1_sl",
@@ -10063,7 +10063,7 @@
         "images/case_studies/n17_Business_management_paper_1__case_study_HLSL_p2.png",
         "images/case_studies/n17_Business_management_paper_1__case_study_HLSL_p3.png"
       ],
-      "company": "GC"
+      "company": "Pelican Pies (PP)"
     },
     {
       "id": "n17_p2_q2_hl",
@@ -10106,7 +10106,7 @@
         "images/case_studies/n17_Business_management_paper_1__case_study_HLSL_p2.png",
         "images/case_studies/n17_Business_management_paper_1__case_study_HLSL_p3.png"
       ],
-      "company": "MM"
+      "company": "Tasty Cupcake (TC)"
     },
     {
       "id": "n17_p2_q2_sl",
@@ -10148,7 +10148,7 @@
         "images/case_studies/n17_Business_management_paper_1__case_study_HLSL_p2.png",
         "images/case_studies/n17_Business_management_paper_1__case_study_HLSL_p3.png"
       ],
-      "company": "GC"
+      "company": "Moverse"
     },
     {
       "id": "n17_p2_q3_hl",
@@ -10192,7 +10192,7 @@
         "images/case_studies/n17_Business_management_paper_1__case_study_HLSL_p2.png",
         "images/case_studies/n17_Business_management_paper_1__case_study_HLSL_p3.png"
       ],
-      "company": "MM"
+      "company": null
     },
     {
       "id": "n17_p2_q3_sl",
@@ -10237,7 +10237,7 @@
         "images/case_studies/n17_Business_management_paper_1__case_study_HLSL_p2.png",
         "images/case_studies/n17_Business_management_paper_1__case_study_HLSL_p3.png"
       ],
-      "company": "GC"
+      "company": "Davenport Electronics (DE)"
     },
     {
       "id": "n17_p2_q4_hl",
@@ -10281,7 +10281,7 @@
         "images/case_studies/n17_Business_management_paper_1__case_study_HLSL_p2.png",
         "images/case_studies/n17_Business_management_paper_1__case_study_HLSL_p3.png"
       ],
-      "company": "MM"
+      "company": "Music Mania (MM)"
     },
     {
       "id": "n17_p2_q4_sl",
@@ -10325,7 +10325,7 @@
         "images/case_studies/n17_Business_management_paper_1__case_study_HLSL_p2.png",
         "images/case_studies/n17_Business_management_paper_1__case_study_HLSL_p3.png"
       ],
-      "company": "GC"
+      "company": "GT"
     },
     {
       "id": "n17_p2_q5_hl",
@@ -10370,7 +10370,7 @@
         "images/case_studies/n17_Business_management_paper_1__case_study_HLSL_p2.png",
         "images/case_studies/n17_Business_management_paper_1__case_study_HLSL_p3.png"
       ],
-      "company": "MM"
+      "company": "Green Clean (GC)"
     },
     {
       "id": "n17_p2_q5_sl",
@@ -10415,7 +10415,7 @@
         "images/case_studies/n17_Business_management_paper_1__case_study_HLSL_p2.png",
         "images/case_studies/n17_Business_management_paper_1__case_study_HLSL_p3.png"
       ],
-      "company": "GC"
+      "company": "Green Clean (GC)"
     },
     {
       "id": "n17_p2_q6_sl",
@@ -10451,7 +10451,7 @@
         "images/case_studies/n17_Business_management_paper_1__case_study_HLSL_p2.png",
         "images/case_studies/n17_Business_management_paper_1__case_study_HLSL_p3.png"
       ],
-      "company": "GC"
+      "company": null
     },
     {
       "id": "n17_p2_q7_sl",
@@ -10488,7 +10488,7 @@
         "images/case_studies/n17_Business_management_paper_1__case_study_HLSL_p2.png",
         "images/case_studies/n17_Business_management_paper_1__case_study_HLSL_p3.png"
       ],
-      "company": "GC"
+      "company": null
     },
     {
       "id": "n17_p2_q8_sl",
@@ -10525,7 +10525,7 @@
         "images/case_studies/n17_Business_management_paper_1__case_study_HLSL_p2.png",
         "images/case_studies/n17_Business_management_paper_1__case_study_HLSL_p3.png"
       ],
-      "company": "GC"
+      "company": null
     },
     {
       "id": "n18_p1_q1_sl",
@@ -10793,7 +10793,7 @@
         "images/case_studies/n18_Business_management_paper_1__case_study_HLSL_p3.png",
         "images/case_studies/n18_Business_management_paper_1__case_study_HLSL_p4.png"
       ],
-      "company": "KA"
+      "company": "Designer Dolls (DD)"
     },
     {
       "id": "n18_p2_q1_sl",
@@ -10835,7 +10835,7 @@
         "images/case_studies/n18_Business_management_paper_1__case_study_HLSL_p3.png",
         "images/case_studies/n18_Business_management_paper_1__case_study_HLSL_p4.png"
       ],
-      "company": "DH"
+      "company": "Piper Industrial (PI)"
     },
     {
       "id": "n18_p2_q2_hl",
@@ -10879,7 +10879,7 @@
         "images/case_studies/n18_Business_management_paper_1__case_study_HLSL_p3.png",
         "images/case_studies/n18_Business_management_paper_1__case_study_HLSL_p4.png"
       ],
-      "company": "KA"
+      "company": "Papel"
     },
     {
       "id": "n18_p2_q2_sl",
@@ -10923,7 +10923,7 @@
         "images/case_studies/n18_Business_management_paper_1__case_study_HLSL_p3.png",
         "images/case_studies/n18_Business_management_paper_1__case_study_HLSL_p4.png"
       ],
-      "company": "DH"
+      "company": "Patras Furniture (PF)"
     },
     {
       "id": "n18_p2_q3_hl",
@@ -11014,7 +11014,7 @@
         "images/case_studies/n18_Business_management_paper_1__case_study_HLSL_p3.png",
         "images/case_studies/n18_Business_management_paper_1__case_study_HLSL_p4.png"
       ],
-      "company": "DH"
+      "company": "Jacob Strutz (JS)"
     },
     {
       "id": "n18_p2_q4_hl",
@@ -11060,7 +11060,7 @@
         "images/case_studies/n18_Business_management_paper_1__case_study_HLSL_p3.png",
         "images/case_studies/n18_Business_management_paper_1__case_study_HLSL_p4.png"
       ],
-      "company": "KA"
+      "company": "La Bonita (LB)"
     },
     {
       "id": "n18_p2_q4_sl",
@@ -11105,7 +11105,7 @@
         "images/case_studies/n18_Business_management_paper_1__case_study_HLSL_p3.png",
         "images/case_studies/n18_Business_management_paper_1__case_study_HLSL_p4.png"
       ],
-      "company": "DH"
+      "company": "Handbags"
     },
     {
       "id": "n18_p2_q5_sl",
@@ -11151,7 +11151,7 @@
         "images/case_studies/n18_Business_management_paper_1__case_study_HLSL_p3.png",
         "images/case_studies/n18_Business_management_paper_1__case_study_HLSL_p4.png"
       ],
-      "company": "DH"
+      "company": null
     },
     {
       "id": "n18_p2_q6_hl",
@@ -11188,7 +11188,7 @@
         "images/case_studies/n18_Business_management_paper_1__case_study_HLSL_p3.png",
         "images/case_studies/n18_Business_management_paper_1__case_study_HLSL_p4.png"
       ],
-      "company": "KA"
+      "company": null
     },
     {
       "id": "n18_p2_q7_hl",
@@ -11225,7 +11225,7 @@
         "images/case_studies/n18_Business_management_paper_1__case_study_HLSL_p3.png",
         "images/case_studies/n18_Business_management_paper_1__case_study_HLSL_p4.png"
       ],
-      "company": "KA"
+      "company": null
     },
     {
       "id": "n18_p2_q8_sl",
@@ -11264,7 +11264,7 @@
         "images/case_studies/n18_Business_management_paper_1__case_study_HLSL_p3.png",
         "images/case_studies/n18_Business_management_paper_1__case_study_HLSL_p4.png"
       ],
-      "company": "DH"
+      "company": null
     },
     {
       "id": "n19_p1_q1_sl",
@@ -11534,7 +11534,7 @@
         "images/case_studies/n19_Business_management_paper_1__case_study_HLSL_p4.png",
         "images/case_studies/n19_Business_management_paper_1__case_study_HLSL_p5.png"
       ],
-      "company": "CM"
+      "company": "Sassy"
     },
     {
       "id": "n19_p2_q1_sl",
@@ -11576,7 +11576,7 @@
         "images/case_studies/n19_Business_management_paper_1__case_study_HLSL_p4.png",
         "images/case_studies/n19_Business_management_paper_1__case_study_HLSL_p5.png"
       ],
-      "company": "TS"
+      "company": "Small-Scale Hobbies (SSH)"
     },
     {
       "id": "n19_p2_q2_hl",
@@ -11621,7 +11621,7 @@
         "images/case_studies/n19_Business_management_paper_1__case_study_HLSL_p4.png",
         "images/case_studies/n19_Business_management_paper_1__case_study_HLSL_p5.png"
       ],
-      "company": "CM"
+      "company": "Mutombo Window Fans (MWF)"
     },
     {
       "id": "n19_p2_q2_sl",
@@ -11665,7 +11665,7 @@
         "images/case_studies/n19_Business_management_paper_1__case_study_HLSL_p4.png",
         "images/case_studies/n19_Business_management_paper_1__case_study_HLSL_p5.png"
       ],
-      "company": "TS"
+      "company": "Option"
     },
     {
       "id": "n19_p2_q3_hl",
@@ -11713,7 +11713,7 @@
         "images/case_studies/n19_Business_management_paper_1__case_study_HLSL_p4.png",
         "images/case_studies/n19_Business_management_paper_1__case_study_HLSL_p5.png"
       ],
-      "company": "CM"
+      "company": "Cool Meals (CM)"
     },
     {
       "id": "n19_p2_q3_sl",
@@ -11759,7 +11759,7 @@
         "images/case_studies/n19_Business_management_paper_1__case_study_HLSL_p4.png",
         "images/case_studies/n19_Business_management_paper_1__case_study_HLSL_p5.png"
       ],
-      "company": "TS"
+      "company": "Top Star (TS)"
     },
     {
       "id": "n19_p2_q4_sl",
@@ -11807,7 +11807,7 @@
         "images/case_studies/n19_Business_management_paper_1__case_study_HLSL_p4.png",
         "images/case_studies/n19_Business_management_paper_1__case_study_HLSL_p5.png"
       ],
-      "company": "TS"
+      "company": "Imperial Falls (IF)"
     },
     {
       "id": "n19_p2_q5_sl",
@@ -11852,7 +11852,7 @@
         "images/case_studies/n19_Business_management_paper_1__case_study_HLSL_p4.png",
         "images/case_studies/n19_Business_management_paper_1__case_study_HLSL_p5.png"
       ],
-      "company": "TS"
+      "company": "FrioAire Appliances (FA)"
     },
     {
       "id": "n19_p2_q6_hl",
@@ -11890,7 +11890,7 @@
         "images/case_studies/n19_Business_management_paper_1__case_study_HLSL_p4.png",
         "images/case_studies/n19_Business_management_paper_1__case_study_HLSL_p5.png"
       ],
-      "company": "CM"
+      "company": null
     },
     {
       "id": "n19_p2_q7_hl",
@@ -11928,7 +11928,7 @@
         "images/case_studies/n19_Business_management_paper_1__case_study_HLSL_p4.png",
         "images/case_studies/n19_Business_management_paper_1__case_study_HLSL_p5.png"
       ],
-      "company": "CM"
+      "company": null
     },
     {
       "id": "n19_p2_q8_sl",
@@ -11968,7 +11968,7 @@
         "images/case_studies/n19_Business_management_paper_1__case_study_HLSL_p4.png",
         "images/case_studies/n19_Business_management_paper_1__case_study_HLSL_p5.png"
       ],
-      "company": "TS"
+      "company": null
     },
     {
       "id": "n20_p1_q1_sl",
@@ -12239,7 +12239,7 @@
         "images/case_studies/n20_Business_management_paper_1__case_study_HLSL_p5.png",
         "images/case_studies/n20_Business_management_paper_1__case_study_HLSL_p6.png"
       ],
-      "company": "MC"
+      "company": "Jeans"
     },
     {
       "id": "n20_p2_q1_sl",
@@ -12284,7 +12284,7 @@
         "images/case_studies/n20_Business_management_paper_1__case_study_HLSL_p5.png",
         "images/case_studies/n20_Business_management_paper_1__case_study_HLSL_p6.png"
       ],
-      "company": "NS"
+      "company": "MiniVS"
     },
     {
       "id": "n20_p2_q2_hl",
@@ -12329,7 +12329,7 @@
         "images/case_studies/n20_Business_management_paper_1__case_study_HLSL_p5.png",
         "images/case_studies/n20_Business_management_paper_1__case_study_HLSL_p6.png"
       ],
-      "company": "MC"
+      "company": "Beautiful Benches (BB)"
     },
     {
       "id": "n20_p2_q2_sl",
@@ -12374,7 +12374,7 @@
         "images/case_studies/n20_Business_management_paper_1__case_study_HLSL_p5.png",
         "images/case_studies/n20_Business_management_paper_1__case_study_HLSL_p6.png"
       ],
-      "company": "NS"
+      "company": "KPJ"
     },
     {
       "id": "n20_p2_q3_hl",
@@ -12420,7 +12420,7 @@
         "images/case_studies/n20_Business_management_paper_1__case_study_HLSL_p5.png",
         "images/case_studies/n20_Business_management_paper_1__case_study_HLSL_p6.png"
       ],
-      "company": "MC"
+      "company": "MusiCology MusiCology (MC)"
     },
     {
       "id": "n20_p2_q3_sl",
@@ -12465,7 +12465,7 @@
         "images/case_studies/n20_Business_management_paper_1__case_study_HLSL_p5.png",
         "images/case_studies/n20_Business_management_paper_1__case_study_HLSL_p6.png"
       ],
-      "company": "NS"
+      "company": "The Burnt Tomato (BTO)"
     },
     {
       "id": "n20_p2_q4_hl",
@@ -12513,7 +12513,7 @@
         "images/case_studies/n20_Business_management_paper_1__case_study_HLSL_p5.png",
         "images/case_studies/n20_Business_management_paper_1__case_study_HLSL_p6.png"
       ],
-      "company": "MC"
+      "company": "ExotIce ExotIce (EI)"
     },
     {
       "id": "n20_p2_q4_sl",
@@ -12558,7 +12558,7 @@
         "images/case_studies/n20_Business_management_paper_1__case_study_HLSL_p5.png",
         "images/case_studies/n20_Business_management_paper_1__case_study_HLSL_p6.png"
       ],
-      "company": "NS"
+      "company": "Speroni"
     },
     {
       "id": "n20_p2_q5_hl",
@@ -12605,7 +12605,7 @@
         "images/case_studies/n20_Business_management_paper_1__case_study_HLSL_p5.png",
         "images/case_studies/n20_Business_management_paper_1__case_study_HLSL_p6.png"
       ],
-      "company": "MC"
+      "company": "Fort Industries (FI)"
     },
     {
       "id": "n20_p2_q5_sl",
@@ -12652,7 +12652,7 @@
         "images/case_studies/n20_Business_management_paper_1__case_study_HLSL_p5.png",
         "images/case_studies/n20_Business_management_paper_1__case_study_HLSL_p6.png"
       ],
-      "company": "NS"
+      "company": "Peanuts"
     },
     {
       "id": "n20_p2_q6_hl",
@@ -12691,7 +12691,7 @@
         "images/case_studies/n20_Business_management_paper_1__case_study_HLSL_p5.png",
         "images/case_studies/n20_Business_management_paper_1__case_study_HLSL_p6.png"
       ],
-      "company": "MC"
+      "company": null
     },
     {
       "id": "n20_p2_q7_hl",
@@ -12730,7 +12730,7 @@
         "images/case_studies/n20_Business_management_paper_1__case_study_HLSL_p5.png",
         "images/case_studies/n20_Business_management_paper_1__case_study_HLSL_p6.png"
       ],
-      "company": "MC"
+      "company": null
     },
     {
       "id": "n20_p2_q8_sl",
@@ -12772,7 +12772,7 @@
         "images/case_studies/n20_Business_management_paper_1__case_study_HLSL_p5.png",
         "images/case_studies/n20_Business_management_paper_1__case_study_HLSL_p6.png"
       ],
-      "company": "NS"
+      "company": null
     },
     {
       "id": "n21_p1_q1_sl",
@@ -13003,7 +13003,7 @@
         "images/case_studies/n21_Business_management_paper_1__case_study_HLSL_p5.png",
         "images/case_studies/n21_Business_management_paper_1__case_study_HLSL_p6.png"
       ],
-      "company": "SF"
+      "company": "PB Ltd"
     },
     {
       "id": "n21_p2_q1_sl",
@@ -13044,7 +13044,7 @@
         "images/case_studies/n21_Business_management_paper_1__case_study_HLSL_p5.png",
         "images/case_studies/n21_Business_management_paper_1__case_study_HLSL_p6.png"
       ],
-      "company": "HP"
+      "company": "Gloves"
     },
     {
       "id": "n21_p2_q2_hl",
@@ -13089,7 +13089,7 @@
         "images/case_studies/n21_Business_management_paper_1__case_study_HLSL_p5.png",
         "images/case_studies/n21_Business_management_paper_1__case_study_HLSL_p6.png"
       ],
-      "company": "SF"
+      "company": null
     },
     {
       "id": "n21_p2_q2_sl",
@@ -13136,7 +13136,7 @@
         "images/case_studies/n21_Business_management_paper_1__case_study_HLSL_p5.png",
         "images/case_studies/n21_Business_management_paper_1__case_study_HLSL_p6.png"
       ],
-      "company": "HP"
+      "company": "Wong Corporation (WC)"
     },
     {
       "id": "n21_p2_q3_hl",
@@ -13184,7 +13184,7 @@
         "images/case_studies/n21_Business_management_paper_1__case_study_HLSL_p5.png",
         "images/case_studies/n21_Business_management_paper_1__case_study_HLSL_p6.png"
       ],
-      "company": "SF"
+      "company": "Healthy Nation (HN)"
     },
     {
       "id": "n21_p2_q3_sl",
@@ -13230,7 +13230,7 @@
         "images/case_studies/n21_Business_management_paper_1__case_study_HLSL_p5.png",
         "images/case_studies/n21_Business_management_paper_1__case_study_HLSL_p6.png"
       ],
-      "company": "HP"
+      "company": "High Plains PLC (HP)"
     },
     {
       "id": "n21_p2_q4_hl",
@@ -13276,7 +13276,7 @@
         "images/case_studies/n21_Business_management_paper_1__case_study_HLSL_p5.png",
         "images/case_studies/n21_Business_management_paper_1__case_study_HLSL_p6.png"
       ],
-      "company": "SF"
+      "company": "Foods Ltd (SF)"
     },
     {
       "id": "n21_p2_q4_sl",
@@ -13322,7 +13322,7 @@
         "images/case_studies/n21_Business_management_paper_1__case_study_HLSL_p5.png",
         "images/case_studies/n21_Business_management_paper_1__case_study_HLSL_p6.png"
       ],
-      "company": "HP"
+      "company": "Green Glass (GG)"
     },
     {
       "id": "n21_p2_q5_sl",
@@ -13367,7 +13367,7 @@
         "images/case_studies/n21_Business_management_paper_1__case_study_HLSL_p5.png",
         "images/case_studies/n21_Business_management_paper_1__case_study_HLSL_p6.png"
       ],
-      "company": "HP"
+      "company": "Office Supplies (OS)"
     },
     {
       "id": "n22_p1_q1_sl",
@@ -13592,7 +13592,7 @@
         "images/case_studies/n22_Business_management_paper_1__case_study_HLSL_p5.png",
         "images/case_studies/n22_Business_management_paper_1__case_study_HLSL_p6.png"
       ],
-      "company": "ER"
+      "company": "SSA"
     },
     {
       "id": "n22_p2_q1_sl",
@@ -13637,7 +13637,7 @@
         "images/case_studies/n22_Business_management_paper_1__case_study_HLSL_p5.png",
         "images/case_studies/n22_Business_management_paper_1__case_study_HLSL_p6.png"
       ],
-      "company": "MM"
+      "company": "Tipin"
     },
     {
       "id": "n22_p2_q2_sl",
@@ -13681,7 +13681,7 @@
         "images/case_studies/n22_Business_management_paper_1__case_study_HLSL_p5.png",
         "images/case_studies/n22_Business_management_paper_1__case_study_HLSL_p6.png"
       ],
-      "company": "MM"
+      "company": "Florian Stones (FS)"
     },
     {
       "id": "n22_p2_q3_hl",
@@ -13728,7 +13728,7 @@
         "images/case_studies/n22_Business_management_paper_1__case_study_HLSL_p5.png",
         "images/case_studies/n22_Business_management_paper_1__case_study_HLSL_p6.png"
       ],
-      "company": "ER"
+      "company": "Big Game Industries (BGI)"
     },
     {
       "id": "n22_p2_q3_sl",
@@ -13775,7 +13775,7 @@
         "images/case_studies/n22_Business_management_paper_1__case_study_HLSL_p5.png",
         "images/case_studies/n22_Business_management_paper_1__case_study_HLSL_p6.png"
       ],
-      "company": "MM"
+      "company": "Tijeras"
     },
     {
       "id": "n22_p2_q4_hl",
@@ -13867,7 +13867,7 @@
         "images/case_studies/n22_Business_management_paper_1__case_study_HLSL_p5.png",
         "images/case_studies/n22_Business_management_paper_1__case_study_HLSL_p6.png"
       ],
-      "company": "MM"
+      "company": "MuraMerk"
     },
     {
       "id": "n22_p2_q5_sl",
@@ -13914,7 +13914,7 @@
         "images/case_studies/n22_Business_management_paper_1__case_study_HLSL_p5.png",
         "images/case_studies/n22_Business_management_paper_1__case_study_HLSL_p6.png"
       ],
-      "company": "MM"
+      "company": "Musical Musings (MM)"
     },
     {
       "id": "n23_p1_tz1_q1_sl",
@@ -14411,7 +14411,7 @@
         "images/case_studies/n23_Business_management_paper_1__case_study_HLSL_p5.png",
         "images/case_studies/n23_Business_management_paper_1__case_study_HLSL_p6.png"
       ],
-      "company": "UWG"
+      "company": "Xiaoping Enterprises (XE)"
     },
     {
       "id": "n23_p2_tz1_q1_sl",
@@ -14498,7 +14498,7 @@
         "images/case_studies/n23_Business_management_paper_1__case_study_HLSL_p5.png",
         "images/case_studies/n23_Business_management_paper_1__case_study_HLSL_p6.png"
       ],
-      "company": "UWG"
+      "company": "Bonds Electrical Supplies (BE)"
     },
     {
       "id": "n23_p2_tz1_q2_sl",
@@ -14541,7 +14541,7 @@
         "images/case_studies/n23_Business_management_paper_1__case_study_HLSL_p5.png",
         "images/case_studies/n23_Business_management_paper_1__case_study_HLSL_p6.png"
       ],
-      "company": "DD"
+      "company": "MotorZycle"
     },
     {
       "id": "n23_p2_tz1_q3_sl",
@@ -14587,7 +14587,7 @@
         "images/case_studies/n23_Business_management_paper_1__case_study_HLSL_p5.png",
         "images/case_studies/n23_Business_management_paper_1__case_study_HLSL_p6.png"
       ],
-      "company": "DD"
+      "company": "Paws Boutique (PB)"
     },
     {
       "id": "n23_p2_tz1_q4_hl",
@@ -14633,7 +14633,7 @@
         "images/case_studies/n23_Business_management_paper_1__case_study_HLSL_p5.png",
         "images/case_studies/n23_Business_management_paper_1__case_study_HLSL_p6.png"
       ],
-      "company": "UWG"
+      "company": "Vegan Supplies (VS)"
     },
     {
       "id": "n23_p2_tz1_q4_sl",
@@ -14678,7 +14678,7 @@
         "images/case_studies/n23_Business_management_paper_1__case_study_HLSL_p5.png",
         "images/case_studies/n23_Business_management_paper_1__case_study_HLSL_p6.png"
       ],
-      "company": "DD"
+      "company": "WindJam"
     },
     {
       "id": "n23_p2_tz1_q5_hl",
@@ -14723,7 +14723,7 @@
         "images/case_studies/n23_Business_management_paper_1__case_study_HLSL_p5.png",
         "images/case_studies/n23_Business_management_paper_1__case_study_HLSL_p6.png"
       ],
-      "company": "UWG"
+      "company": "Ultimate Warrior Gym PLC (UWG)"
     },
     {
       "id": "n23_p2_tz1_q5_sl",
@@ -14771,7 +14771,7 @@
         "images/case_studies/n23_Business_management_paper_1__case_study_HLSL_p5.png",
         "images/case_studies/n23_Business_management_paper_1__case_study_HLSL_p6.png"
       ],
-      "company": "DD"
+      "company": "Mattie Eats (ME)"
     },
     {
       "id": "n23_p2_tz1_q7_hl",
@@ -14810,7 +14810,7 @@
         "images/case_studies/n23_Business_management_paper_1__case_study_HLSL_p5.png",
         "images/case_studies/n23_Business_management_paper_1__case_study_HLSL_p6.png"
       ],
-      "company": "UWG"
+      "company": null
     },
     {
       "id": "n23_p2_tz1_q8_sl",
@@ -14850,7 +14850,7 @@
         "images/case_studies/n23_Business_management_paper_1__case_study_HLSL_p5.png",
         "images/case_studies/n23_Business_management_paper_1__case_study_HLSL_p6.png"
       ],
-      "company": "DD"
+      "company": null
     },
     {
       "id": "n23_p2_tz2_q1_hl",
@@ -14894,7 +14894,7 @@
         "images/case_studies/n23_Business_management_paper_1__case_study_HLSL_p5.png",
         "images/case_studies/n23_Business_management_paper_1__case_study_HLSL_p6.png"
       ],
-      "company": "UWG"
+      "company": "BCS"
     },
     {
       "id": "n23_p2_tz2_q1_sl",
@@ -14938,7 +14938,7 @@
         "images/case_studies/n23_Business_management_paper_1__case_study_HLSL_p5.png",
         "images/case_studies/n23_Business_management_paper_1__case_study_HLSL_p6.png"
       ],
-      "company": "WJ"
+      "company": "Wexel Flies (WF)"
     },
     {
       "id": "n23_p2_tz2_q2_hl",
@@ -14984,7 +14984,7 @@
         "images/case_studies/n23_Business_management_paper_1__case_study_HLSL_p5.png",
         "images/case_studies/n23_Business_management_paper_1__case_study_HLSL_p6.png"
       ],
-      "company": "UWG"
+      "company": "Dan James Delivery (DJD)"
     },
     {
       "id": "n23_p2_tz2_q2_sl",
@@ -15029,7 +15029,7 @@
         "images/case_studies/n23_Business_management_paper_1__case_study_HLSL_p5.png",
         "images/case_studies/n23_Business_management_paper_1__case_study_HLSL_p6.png"
       ],
-      "company": "WJ"
+      "company": "Aerial Photography (AAP)"
     },
     {
       "id": "n23_p2_tz2_q3_sl",
@@ -15075,7 +15075,7 @@
         "images/case_studies/n23_Business_management_paper_1__case_study_HLSL_p5.png",
         "images/case_studies/n23_Business_management_paper_1__case_study_HLSL_p6.png"
       ],
-      "company": "WJ"
+      "company": "Paws Boutique (PB)"
     },
     {
       "id": "n23_p2_tz2_q4_hl",
@@ -15122,7 +15122,7 @@
         "images/case_studies/n23_Business_management_paper_1__case_study_HLSL_p5.png",
         "images/case_studies/n23_Business_management_paper_1__case_study_HLSL_p6.png"
       ],
-      "company": "UWG"
+      "company": "Vegan Supplies (VS)"
     },
     {
       "id": "n23_p2_tz2_q4_sl",
@@ -15167,7 +15167,7 @@
         "images/case_studies/n23_Business_management_paper_1__case_study_HLSL_p5.png",
         "images/case_studies/n23_Business_management_paper_1__case_study_HLSL_p6.png"
       ],
-      "company": "WJ"
+      "company": "WindJam"
     },
     {
       "id": "n23_p2_tz2_q5_hl",
@@ -15213,7 +15213,7 @@
         "images/case_studies/n23_Business_management_paper_1__case_study_HLSL_p5.png",
         "images/case_studies/n23_Business_management_paper_1__case_study_HLSL_p6.png"
       ],
-      "company": "UWG"
+      "company": "Ultimate Warrior Gym PLC (UWG)"
     },
     {
       "id": "n23_p2_tz2_q5_sl",
@@ -15261,7 +15261,7 @@
         "images/case_studies/n23_Business_management_paper_1__case_study_HLSL_p5.png",
         "images/case_studies/n23_Business_management_paper_1__case_study_HLSL_p6.png"
       ],
-      "company": "WJ"
+      "company": "Mattie Eats (ME)"
     },
     {
       "id": "n23_p2_tz2_q6_hl",
@@ -15300,7 +15300,7 @@
         "images/case_studies/n23_Business_management_paper_1__case_study_HLSL_p5.png",
         "images/case_studies/n23_Business_management_paper_1__case_study_HLSL_p6.png"
       ],
-      "company": "UWG"
+      "company": null
     },
     {
       "id": "n23_p2_tz2_q7_hl",
@@ -15339,7 +15339,7 @@
         "images/case_studies/n23_Business_management_paper_1__case_study_HLSL_p5.png",
         "images/case_studies/n23_Business_management_paper_1__case_study_HLSL_p6.png"
       ],
-      "company": "UWG"
+      "company": null
     },
     {
       "id": "n23_p2_tz2_q8_sl",
@@ -15380,7 +15380,7 @@
         "images/case_studies/n23_Business_management_paper_1__case_study_HLSL_p5.png",
         "images/case_studies/n23_Business_management_paper_1__case_study_HLSL_p6.png"
       ],
-      "company": "WJ"
+      "company": null
     },
     {
       "id": "n24_p1_tz1_q1_hl",
@@ -15918,7 +15918,7 @@
         "images/case_studies/n24_Business_management_paper_1__pre-released_statement_HLSL_p3.png",
         "images/case_studies/n24_Business_management_paper_1__pre-released_statement_HLSL_p4.png"
       ],
-      "company": "CLX"
+      "company": "Fluffy Cloud Technology (FCT)"
     },
     {
       "id": "n24_p2_tz1_q1_sl",
@@ -15962,7 +15962,7 @@
         "images/case_studies/n24_Business_management_paper_1__pre-released_statement_HLSL_p3.png",
         "images/case_studies/n24_Business_management_paper_1__pre-released_statement_HLSL_p4.png"
       ],
-      "company": "BB"
+      "company": "Mdas Ltd (MSL)"
     },
     {
       "id": "n24_p2_tz1_q2_hl",
@@ -16007,7 +16007,7 @@
         "images/case_studies/n24_Business_management_paper_1__pre-released_statement_HLSL_p3.png",
         "images/case_studies/n24_Business_management_paper_1__pre-released_statement_HLSL_p4.png"
       ],
-      "company": "CLX"
+      "company": "Daniel January"
     },
     {
       "id": "n24_p2_tz1_q2_sl",
@@ -16052,7 +16052,7 @@
         "images/case_studies/n24_Business_management_paper_1__pre-released_statement_HLSL_p3.png",
         "images/case_studies/n24_Business_management_paper_1__pre-released_statement_HLSL_p4.png"
       ],
-      "company": "BB"
+      "company": "Fritos Food (FF)"
     },
     {
       "id": "n24_p2_tz1_q3_hl",
@@ -16097,7 +16097,7 @@
         "images/case_studies/n24_Business_management_paper_1__pre-released_statement_HLSL_p3.png",
         "images/case_studies/n24_Business_management_paper_1__pre-released_statement_HLSL_p4.png"
       ],
-      "company": "CLX"
+      "company": "Mulenga Enterprises (ME)"
     },
     {
       "id": "n24_p2_tz1_q3_sl",
@@ -16148,7 +16148,7 @@
         "images/case_studies/n24_Business_management_paper_1__pre-released_statement_HLSL_p3.png",
         "images/case_studies/n24_Business_management_paper_1__pre-released_statement_HLSL_p4.png"
       ],
-      "company": "BB"
+      "company": "Beepa Bakery (BB)"
     },
     {
       "id": "n24_p2_tz1_q4_hl",
@@ -16195,7 +16195,7 @@
         "images/case_studies/n24_Business_management_paper_1__pre-released_statement_HLSL_p3.png",
         "images/case_studies/n24_Business_management_paper_1__pre-released_statement_HLSL_p4.png"
       ],
-      "company": "CLX"
+      "company": "Chaltex PLC (CLX)"
     },
     {
       "id": "n24_p2_tz1_q4_sl",
@@ -16242,7 +16242,7 @@
         "images/case_studies/n24_Business_management_paper_1__pre-released_statement_HLSL_p3.png",
         "images/case_studies/n24_Business_management_paper_1__pre-released_statement_HLSL_p4.png"
       ],
-      "company": "BB"
+      "company": "AkvoBotelo"
     },
     {
       "id": "n24_p2_tz1_q5_hl",
@@ -16291,7 +16291,7 @@
         "images/case_studies/n24_Business_management_paper_1__pre-released_statement_HLSL_p3.png",
         "images/case_studies/n24_Business_management_paper_1__pre-released_statement_HLSL_p4.png"
       ],
-      "company": "CLX"
+      "company": "De Soto Paint Company (DSP)"
     },
     {
       "id": "n24_p2_tz2_q1_hl",
@@ -16375,7 +16375,7 @@
         "images/case_studies/n24_Business_management_paper_1__pre-released_statement_HLSL_p3.png",
         "images/case_studies/n24_Business_management_paper_1__pre-released_statement_HLSL_p4.png"
       ],
-      "company": "BB"
+      "company": "El Romero (ER)"
     },
     {
       "id": "n24_p2_tz2_q2_hl",
@@ -16420,7 +16420,7 @@
         "images/case_studies/n24_Business_management_paper_1__pre-released_statement_HLSL_p3.png",
         "images/case_studies/n24_Business_management_paper_1__pre-released_statement_HLSL_p4.png"
       ],
-      "company": "JJF"
+      "company": "Daniel January"
     },
     {
       "id": "n24_p2_tz2_q2_sl",
@@ -16466,7 +16466,7 @@
         "images/case_studies/n24_Business_management_paper_1__pre-released_statement_HLSL_p3.png",
         "images/case_studies/n24_Business_management_paper_1__pre-released_statement_HLSL_p4.png"
       ],
-      "company": "BB"
+      "company": "Fritos Food (FF)"
     },
     {
       "id": "n24_p2_tz2_q3_hl",
@@ -16510,7 +16510,7 @@
         "images/case_studies/n24_Business_management_paper_1__pre-released_statement_HLSL_p3.png",
         "images/case_studies/n24_Business_management_paper_1__pre-released_statement_HLSL_p4.png"
       ],
-      "company": "JJF"
+      "company": "Asia Coffee (AC)"
     },
     {
       "id": "n24_p2_tz2_q3_sl",
@@ -16560,7 +16560,7 @@
         "images/case_studies/n24_Business_management_paper_1__pre-released_statement_HLSL_p3.png",
         "images/case_studies/n24_Business_management_paper_1__pre-released_statement_HLSL_p4.png"
       ],
-      "company": "BB"
+      "company": "Beepa Bakery (BB)"
     },
     {
       "id": "n24_p2_tz2_q4_hl",
@@ -16607,7 +16607,7 @@
         "images/case_studies/n24_Business_management_paper_1__pre-released_statement_HLSL_p3.png",
         "images/case_studies/n24_Business_management_paper_1__pre-released_statement_HLSL_p4.png"
       ],
-      "company": "JJF"
+      "company": "Chaltex PLC (CLX)"
     },
     {
       "id": "n24_p2_tz2_q4_sl",
@@ -16654,7 +16654,7 @@
         "images/case_studies/n24_Business_management_paper_1__pre-released_statement_HLSL_p3.png",
         "images/case_studies/n24_Business_management_paper_1__pre-released_statement_HLSL_p4.png"
       ],
-      "company": "BB"
+      "company": "AkvoBotelo"
     },
     {
       "id": "n24_p2_tz2_q5_hl",
@@ -16703,7 +16703,7 @@
         "images/case_studies/n24_Business_management_paper_1__pre-released_statement_HLSL_p3.png",
         "images/case_studies/n24_Business_management_paper_1__pre-released_statement_HLSL_p4.png"
       ],
-      "company": "JJF"
+      "company": "De Soto Paint Company (DSP)"
     },
     {
       "id": "n24_p3_q1_hl",
