@@ -11,6 +11,7 @@ const paperTypeFilter = document.getElementById("paperTypeFilter");
 const paperFilter = document.getElementById("paperFilter");
 const topicFilter = document.getElementById("topicFilter");
 const subtopicFilter = document.getElementById("subtopicFilter");
+const companyFilter = document.getElementById("companyFilter");
 const searchInput = document.getElementById("searchInput");
 const searchToggle = document.getElementById("searchToggle");
 const heroSearch = document.getElementById("heroSearch");
@@ -92,6 +93,14 @@ function hydrateFilters() {
   });
 
   updateSubtopicOptions();
+
+  const companies = [...new Set(state.allQuestions.map((q) => q.company).filter(Boolean))].sort();
+  companies.forEach((company) => {
+    const option = document.createElement("option");
+    option.value = company;
+    option.textContent = company;
+    companyFilter.appendChild(option);
+  });
 }
 
 function updateSubtopicOptions() {
@@ -183,6 +192,7 @@ function filterQuestions() {
   const selectedPaper = paperFilter.value;
   const selectedTopic = topicFilter.value;
   const selectedSubtopic = subtopicFilter.value;
+  const selectedCompany = companyFilter.value;
   const searchTerm = searchInput.value.trim();
 
   return state.allQuestions.filter((q) => {
@@ -192,9 +202,10 @@ function filterQuestions() {
     const paperMatch = !selectedPaper || q.paper === selectedPaper;
     const topicMatch = !selectedTopic || q.topic === selectedTopic;
     const subtopicMatch = !selectedSubtopic || q.subtopic === selectedSubtopic;
+    const companyMatch = !selectedCompany || q.company === selectedCompany;
     const searchMatch = matchesSearchQuery(q, searchTerm, level);
 
-    return levelMatch && paperTypeMatch && paperMatch && topicMatch && subtopicMatch && searchMatch;
+    return levelMatch && paperTypeMatch && paperMatch && topicMatch && subtopicMatch && companyMatch && searchMatch;
   });
 }
 
@@ -417,6 +428,7 @@ function bindEvents() {
   });
 
   subtopicFilter.addEventListener("change", () => renderQuestions(true));
+  companyFilter.addEventListener("change", () => renderQuestions(true));
   searchInput.addEventListener("input", () => renderQuestions(true));
 
   if (searchToggle && heroSearch) {
