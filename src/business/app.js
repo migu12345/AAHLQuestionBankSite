@@ -170,6 +170,7 @@ function matchesSearchQuery(q, rawQuery, level) {
       q.subtopic,
       q.question_number,
       q.source?.paper_file,
+      q.company,
     ].join(" ")
   );
 
@@ -323,7 +324,8 @@ function buildQuestionNode(q) {
   const sideBySideBtn = node.querySelector(".side-by-side-btn");
 
   const marks = Number.isFinite(q.marks) ? `${q.marks} marks` : "marks n/a";
-  node.querySelector(".meta").textContent = `${q.paper || "Unknown paper"} | ${q.topic || "Unsorted"} | ${q.subtopic || "Unsorted"} | ${marks}`;
+  const companyTag = q.company ? ` · ${q.company}` : "";
+  node.querySelector(".meta").textContent = `${q.paper || "Unknown paper"}${companyTag} | ${q.topic || "Unsorted"} | ${q.subtopic || "Unsorted"} | ${marks}`;
 
   const qImages = Array.isArray(q.question_image_paths) ? q.question_image_paths : [];
   const msImages = Array.isArray(q.markscheme_image_paths) ? q.markscheme_image_paths : [];
