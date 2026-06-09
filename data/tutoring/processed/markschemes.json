@@ -11646,12 +11646,10 @@
       "topic": "Calculus",
       "subtopic": "Calculus",
       "question_number": "35",
-      "worked_solution_text": "35.\n  (i)  set up equation\n  (ii)  apply relevant rule\n  (iii)  simplify and state answer",
-      "markscheme_image_paths": [
-        "images/markschemes/t5_t61_q35.svg"
-      ],
-      "draft": true,
-      "latex_solution": ""
+      "worked_solution_text": "35. f(x)=x+2cosx on [0,2pi]. A,C intersect y=x; B is minimum.",
+      "markscheme_image_paths": [],
+      "draft": false,
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>35.</td><td class='ms-part'>(a)</td><td class='ms-content'>Intersections with \\(y=x\\): \\(x+2\\cos x=x\\Rightarrow\\cos x=0\\Rightarrow x=\\tfrac{\\pi}{2},\\tfrac{3\\pi}{2}\\)</td><td class='ms-mark'>M1A1</td></tr><tr><td></td><td></td><td class='ms-content'>So \\(A\\) has \\(x=\\tfrac{\\pi}{2}\\Rightarrow a=1\\); \\(C\\) has \\(x=\\tfrac{3\\pi}{2}\\Rightarrow c=3\\)</td><td class='ms-mark'>A1</td></tr><tr><td></td><td></td><td class='ms-content'>Minimum: \\(f'(x)=1-2\\sin x=0\\Rightarrow\\sin x=\\tfrac{1}{2}\\Rightarrow x=\\tfrac{5\\pi}{6}\\) (minimum in \\([\\tfrac{\\pi}{2},\\tfrac{3\\pi}{2}]\\))</td><td class='ms-mark'>M1A1</td></tr><tr><td></td><td></td><td class='ms-content'>\\(b=5\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(b)</td><td class='ms-content'>Critical values: \\(f(0)=2\\), \\(f\\!\\left(\\tfrac{\\pi}{6}\\right)=\\tfrac{\\pi}{6}+\\sqrt{3}\\) (local max), \\(f\\!\\left(\\tfrac{5\\pi}{6}\\right)=\\tfrac{5\\pi}{6}-\\sqrt{3}\\) (local min), \\(f(2\\pi)=2\\pi+2\\) (global max)</td><td class='ms-mark'>M1A1</td></tr><tr><td></td><td></td><td class='ms-content'>Range: \\(\\left[\\tfrac{5\\pi}{6}-\\sqrt{3},\\;2\\pi+2\\right]\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(c)</td><td class='ms-content'>\\(C=\\left(\\tfrac{3\\pi}{2},\\tfrac{3\\pi}{2}\\right)\\); \\(f'\\!\\left(\\tfrac{3\\pi}{2}\\right)=1-2\\sin\\tfrac{3\\pi}{2}=1+2=3\\)</td><td class='ms-mark'>M1A1</td></tr><tr><td></td><td></td><td class='ms-content'>Normal slope \\(=-\\tfrac{1}{3}\\)</td><td class='ms-mark'>A1</td></tr><tr><td></td><td></td><td class='ms-content'>\\(y-\\tfrac{3\\pi}{2}=-\\tfrac{1}{3}\\!\\left(x-\\tfrac{3\\pi}{2}\\right)\\Rightarrow y=-\\tfrac{1}{3}x+2\\pi\\quad(p=-\\tfrac{1}{3},\\;q=2\\pi)\\)</td><td class='ms-mark'>A1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(d)(i)</td><td class='ms-content'>\\(V=\\pi\\displaystyle\\int_{\\pi/2}^{3\\pi/2}\\!\\left[x^2-(x+2\\cos x)^2\\right]dx\\)</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(d)(ii)</td><td class='ms-content'>Expand: \\(x^2-(x+2\\cos x)^2=-4x\\cos x-4\\cos^2 x\\)</td><td class='ms-mark'>M1</td></tr><tr><td></td><td></td><td class='ms-content'>\\(\\displaystyle\\int_{\\pi/2}^{3\\pi/2}\\!x\\cos x\\,dx=\\left[x\\sin x+\\cos x\\right]_{\\pi/2}^{3\\pi/2}=-\\tfrac{3\\pi}{2}-\\tfrac{\\pi}{2}=-2\\pi\\)</td><td class='ms-mark'>M1A1</td></tr><tr><td></td><td></td><td class='ms-content'>\\(\\displaystyle\\int_{\\pi/2}^{3\\pi/2}\\!\\cos^2 x\\,dx=\\left[\\tfrac{x}{2}+\\tfrac{\\sin 2x}{4}\\right]_{\\pi/2}^{3\\pi/2}=\\tfrac{\\pi}{2}\\)</td><td class='ms-mark'>M1A1</td></tr><tr><td></td><td></td><td class='ms-content'>\\(V=-4\\pi(-2\\pi+\\tfrac{\\pi}{2})=-4\\pi\\cdot(-\\tfrac{3\\pi}{2})=6\\pi^2\\quad\\blacksquare\\)</td><td class='ms-mark'>A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[19 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t5_sl2_q1",
@@ -12178,12 +12176,10 @@
       "topic": "Calculus",
       "subtopic": "Differentiation",
       "question_number": "38",
-      "worked_solution_text": "38.\n  (i)  f′(x) = d/dx[...]\n  (ii)  apply chain/product/quotient rule\n  (iii)  simplify",
-      "markscheme_image_paths": [
-        "images/markschemes/t5_sl2_q38.svg"
-      ],
+      "worked_solution_text": "38. f(x)=6x/(x^2+1), domain [-8,8]. Odd function, inflexions, integration.",
+      "markscheme_image_paths": [],
       "draft": false,
-      "latex_solution": ""
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>38a.</td><td class='ms-part'></td><td class='ms-content'>\\(f(-x)=\\dfrac{6(-x)}{(-x)^2+1}=\\dfrac{-6x}{x^2+1}=-f(x)\\quad\\blacksquare\\)</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'>38b.</td><td class='ms-part'></td><td class='ms-content'>Set \\(f''(x)=\\dfrac{12x(x^2-3)}{(x^2+1)^3}=0\\)</td><td class='ms-mark'>M1</td></tr><tr><td></td><td></td><td class='ms-content'>\\(x=0\\) or \\(x^2=3\\Rightarrow x=\\pm\\sqrt{3}\\)</td><td class='ms-mark'>A1A1</td></tr><tr><td></td><td></td><td class='ms-content'>Check sign change of \\(f''\\) at each: confirmed inflexions</td><td class='ms-mark'>R1</td></tr><tr><td></td><td></td><td class='ms-content'>\\(f(0)=0\\); \\(f(\\sqrt{3})=\\dfrac{6\\sqrt{3}}{4}=\\dfrac{3\\sqrt{3}}{2}\\); \\(f(-\\sqrt{3})=-\\dfrac{3\\sqrt{3}}{2}\\)</td><td class='ms-mark'>A1A1</td></tr><tr><td></td><td></td><td class='ms-content'>Points of inflexion: \\((0,\\,0)\\), \\(\\left(\\sqrt{3},\\,\\dfrac{3\\sqrt{3}}{2}\\right)\\), \\(\\left(-\\sqrt{3},\\,-\\dfrac{3\\sqrt{3}}{2}\\right)\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'>38c.</td><td class='ms-part'>(i)</td><td class='ms-content'>Area \\(=\\displaystyle\\int_3^7\\!f(x)\\,dx=\\left[3\\ln(x^2+1)\\right]_3^7\\)</td><td class='ms-mark'>M1A1</td></tr><tr><td></td><td></td><td class='ms-content'>\\(=3\\ln 50-3\\ln 10=3\\ln 5\\)</td><td class='ms-mark'>A1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(ii)</td><td class='ms-content'>Substitution \\(u=x-1\\): \\(\\displaystyle\\int_4^8\\!2f(x-1)\\,dx=2\\int_3^7\\!f(u)\\,du\\)</td><td class='ms-mark'>M1A1</td></tr><tr><td></td><td></td><td class='ms-content'>\\(=2\\cdot 3\\ln 5=6\\ln 5\\)</td><td class='ms-mark'>A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[16 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t2_5_q1",
