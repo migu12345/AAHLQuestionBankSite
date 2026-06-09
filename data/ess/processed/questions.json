@@ -15,6 +15,7 @@
       "answer_text": "",
       "marks": null,
       "has_markscheme": true,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1_SL_markscheme.pdf"
@@ -45,6 +46,7 @@
       "answer_text": "",
       "marks": null,
       "has_markscheme": true,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1_SL_markscheme.pdf"
@@ -73,6 +75,7 @@
       "answer_text": "",
       "marks": 3,
       "has_markscheme": true,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1_SL_markscheme.pdf"
@@ -100,6 +103,7 @@
       "answer_text": "",
       "marks": 5,
       "has_markscheme": true,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1_SL_markscheme.pdf"
@@ -126,6 +130,7 @@
       "answer_text": "",
       "marks": 2,
       "has_markscheme": true,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1_SL_markscheme.pdf"
@@ -155,6 +160,7 @@
       "answer_text": "",
       "marks": 50,
       "has_markscheme": true,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_2_question_booklet_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2_SL_markscheme.pdf"
@@ -190,6 +196,7 @@
       "answer_text": "",
       "marks": 20,
       "has_markscheme": true,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_2_question_booklet_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2_SL_markscheme.pdf"
@@ -217,6 +224,7 @@
       "answer_text": "",
       "marks": 20,
       "has_markscheme": true,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_2_question_booklet_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2_SL_markscheme.pdf"
@@ -244,6 +252,7 @@
       "answer_text": "",
       "marks": 20,
       "has_markscheme": true,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_2_question_booklet_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2_SL_markscheme.pdf"
@@ -271,6 +280,7 @@
       "answer_text": "",
       "marks": 20,
       "has_markscheme": true,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_2_question_booklet_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2_SL_markscheme.pdf"
@@ -298,6 +308,7 @@
       "answer_text": "",
       "marks": null,
       "has_markscheme": false,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1_SL_markscheme.pdf"
@@ -325,6 +336,7 @@
       "answer_text": "",
       "marks": null,
       "has_markscheme": false,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1_SL_markscheme.pdf"
@@ -350,6 +362,7 @@
       "answer_text": "",
       "marks": 7,
       "has_markscheme": false,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1_SL_markscheme.pdf"
@@ -376,6 +389,7 @@
       "answer_text": "",
       "marks": 9,
       "has_markscheme": false,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1_SL_markscheme.pdf"
@@ -402,6 +416,7 @@
       "answer_text": "",
       "marks": 7,
       "has_markscheme": false,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1_SL_markscheme.pdf"
@@ -427,6 +442,7 @@
       "answer_text": "",
       "marks": 5,
       "has_markscheme": false,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1_SL_markscheme.pdf"
@@ -452,6 +468,7 @@
       "answer_text": "",
       "marks": 50,
       "has_markscheme": false,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_2_question_booklet_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2_SL_markscheme.pdf"
@@ -481,6 +498,7 @@
       "answer_text": "",
       "marks": 20,
       "has_markscheme": false,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_2_question_booklet_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2_SL_markscheme.pdf"
@@ -505,6 +523,7 @@
       "answer_text": "",
       "marks": 20,
       "has_markscheme": false,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_2_question_booklet_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2_SL_markscheme.pdf"
@@ -529,6 +548,7 @@
       "answer_text": "",
       "marks": 20,
       "has_markscheme": false,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_2_question_booklet_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2_SL_markscheme.pdf"
@@ -553,6 +573,7 @@
       "answer_text": "",
       "marks": 20,
       "has_markscheme": false,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_2_question_booklet_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2_SL_markscheme.pdf"
@@ -577,6 +598,7 @@
       "answer_text": "",
       "marks": null,
       "has_markscheme": false,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1_SL_markscheme.pdf"
@@ -602,6 +624,7 @@
       "answer_text": "",
       "marks": 3,
       "has_markscheme": false,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1_SL_markscheme.pdf"
@@ -627,6 +650,7 @@
       "answer_text": "",
       "marks": 6,
       "has_markscheme": false,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1_SL_markscheme.pdf"
@@ -653,6 +677,7 @@
       "answer_text": "",
       "marks": 8,
       "has_markscheme": false,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1_SL_markscheme.pdf"
@@ -678,6 +703,7 @@
       "answer_text": "",
       "marks": 5,
       "has_markscheme": false,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1_SL_markscheme.pdf"
@@ -704,6 +730,7 @@
       "answer_text": "",
       "marks": 4,
       "has_markscheme": false,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1_SL_markscheme.pdf"
@@ -728,6 +755,7 @@
       "answer_text": "",
       "marks": null,
       "has_markscheme": false,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_2_question_booklet_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2_SL_markscheme.pdf"
@@ -756,6 +784,7 @@
       "answer_text": "",
       "marks": 20,
       "has_markscheme": false,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_2_question_booklet_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2_SL_markscheme.pdf"
@@ -780,6 +809,7 @@
       "answer_text": "",
       "marks": 20,
       "has_markscheme": false,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_2_question_booklet_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2_SL_markscheme.pdf"
@@ -804,6 +834,7 @@
       "answer_text": "",
       "marks": 20,
       "has_markscheme": false,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_2_question_booklet_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2_SL_markscheme.pdf"
@@ -828,6 +859,7 @@
       "answer_text": "",
       "marks": 20,
       "has_markscheme": false,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_2_question_booklet_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2_SL_markscheme.pdf"
@@ -852,6 +884,7 @@
       "answer_text": "",
       "marks": null,
       "has_markscheme": false,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1_SL_markscheme.pdf"
@@ -877,6 +910,7 @@
       "answer_text": "",
       "marks": 9,
       "has_markscheme": false,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1_SL_markscheme.pdf"
@@ -904,6 +938,7 @@
       "answer_text": "",
       "marks": 8,
       "has_markscheme": false,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1_SL_markscheme.pdf"
@@ -931,6 +966,7 @@
       "answer_text": "",
       "marks": 5,
       "has_markscheme": false,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1_SL_markscheme.pdf"
@@ -956,6 +992,7 @@
       "answer_text": "",
       "marks": 6,
       "has_markscheme": false,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1_SL_markscheme.pdf"
@@ -981,6 +1018,7 @@
       "answer_text": "",
       "marks": 7,
       "has_markscheme": false,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1_SL_markscheme.pdf"
@@ -1006,6 +1044,7 @@
       "answer_text": "",
       "marks": 5,
       "has_markscheme": true,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1_SL_markscheme.pdf"
@@ -1033,6 +1072,7 @@
       "answer_text": "",
       "marks": null,
       "has_markscheme": false,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_2_question_booklet_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2_SL_markscheme.pdf"
@@ -1062,6 +1102,7 @@
       "answer_text": "",
       "marks": 20,
       "has_markscheme": false,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_2_question_booklet_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2_SL_markscheme.pdf"
@@ -1086,6 +1127,7 @@
       "answer_text": "",
       "marks": 20,
       "has_markscheme": false,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_2_question_booklet_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2_SL_markscheme.pdf"
@@ -1110,6 +1152,7 @@
       "answer_text": "",
       "marks": 20,
       "has_markscheme": false,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_2_question_booklet_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2_SL_markscheme.pdf"
@@ -1134,6 +1177,7 @@
       "answer_text": "",
       "marks": 20,
       "has_markscheme": false,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_2_question_booklet_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2_SL_markscheme.pdf"
@@ -1158,6 +1202,7 @@
       "answer_text": "",
       "marks": null,
       "has_markscheme": false,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1_SL_markscheme.pdf"
@@ -1184,6 +1229,7 @@
       "answer_text": "",
       "marks": null,
       "has_markscheme": false,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1_SL_markscheme.pdf"
@@ -1210,6 +1256,7 @@
       "answer_text": "",
       "marks": null,
       "has_markscheme": false,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1_SL_markscheme.pdf"
@@ -1235,6 +1282,7 @@
       "answer_text": "",
       "marks": 8,
       "has_markscheme": false,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1_SL_markscheme.pdf"
@@ -1260,6 +1308,7 @@
       "answer_text": "",
       "marks": 8,
       "has_markscheme": false,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1_SL_markscheme.pdf"
@@ -1286,6 +1335,7 @@
       "answer_text": "",
       "marks": 50,
       "has_markscheme": false,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_2_question_booklet_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2_SL_markscheme.pdf"
@@ -1314,6 +1364,7 @@
       "answer_text": "",
       "marks": 20,
       "has_markscheme": false,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_2_question_booklet_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2_SL_markscheme.pdf"
@@ -1338,6 +1389,7 @@
       "answer_text": "",
       "marks": 20,
       "has_markscheme": false,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_2_question_booklet_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2_SL_markscheme.pdf"
@@ -1362,6 +1414,7 @@
       "answer_text": "",
       "marks": 20,
       "has_markscheme": false,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_2_question_booklet_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2_SL_markscheme.pdf"
@@ -1386,6 +1439,7 @@
       "answer_text": "",
       "marks": 20,
       "has_markscheme": false,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_2_question_booklet_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2_SL_markscheme.pdf"
@@ -1410,6 +1464,7 @@
       "answer_text": "",
       "marks": 7,
       "has_markscheme": false,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1_SL_markscheme.pdf"
@@ -1435,6 +1490,7 @@
       "answer_text": "",
       "marks": 12,
       "has_markscheme": false,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1_SL_markscheme.pdf"
@@ -1462,6 +1518,7 @@
       "answer_text": "",
       "marks": 9,
       "has_markscheme": false,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1_SL_markscheme.pdf"
@@ -1487,6 +1544,7 @@
       "answer_text": "",
       "marks": 8,
       "has_markscheme": false,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1_SL_markscheme.pdf"
@@ -1512,6 +1570,7 @@
       "answer_text": "",
       "marks": 9,
       "has_markscheme": false,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1_SL_markscheme.pdf"
@@ -1537,6 +1596,7 @@
       "answer_text": "",
       "marks": 50,
       "has_markscheme": false,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_2_question_booklet_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2_SL_markscheme.pdf"
@@ -1565,6 +1625,7 @@
       "answer_text": "",
       "marks": 20,
       "has_markscheme": false,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_2_question_booklet_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2_SL_markscheme.pdf"
@@ -1589,6 +1650,7 @@
       "answer_text": "",
       "marks": 20,
       "has_markscheme": false,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_2_question_booklet_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2_SL_markscheme.pdf"
@@ -1613,6 +1675,7 @@
       "answer_text": "",
       "marks": 20,
       "has_markscheme": false,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_2_question_booklet_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2_SL_markscheme.pdf"
@@ -1637,6 +1700,7 @@
       "answer_text": "",
       "marks": 20,
       "has_markscheme": false,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_2_question_booklet_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2_SL_markscheme.pdf"
@@ -1661,6 +1725,7 @@
       "answer_text": "",
       "marks": 11,
       "has_markscheme": false,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1__SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1__SL_markscheme.pdf"
@@ -1688,6 +1753,7 @@
       "answer_text": "",
       "marks": 9,
       "has_markscheme": false,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1__SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1__SL_markscheme.pdf"
@@ -1713,6 +1779,7 @@
       "answer_text": "",
       "marks": 8,
       "has_markscheme": false,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1__SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1__SL_markscheme.pdf"
@@ -1738,6 +1805,7 @@
       "answer_text": "",
       "marks": 5,
       "has_markscheme": false,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1__SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1__SL_markscheme.pdf"
@@ -1762,6 +1830,7 @@
       "answer_text": "",
       "marks": 5,
       "has_markscheme": false,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1__SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1__SL_markscheme.pdf"
@@ -1787,6 +1856,7 @@
       "answer_text": "",
       "marks": 7,
       "has_markscheme": false,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1__SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1__SL_markscheme.pdf"
@@ -1813,6 +1883,7 @@
       "answer_text": "",
       "marks": 50,
       "has_markscheme": false,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_2__question_booklet_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2__SL_markscheme.pdf"
@@ -1841,6 +1912,7 @@
       "answer_text": "",
       "marks": 20,
       "has_markscheme": false,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_2__question_booklet_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2__SL_markscheme.pdf"
@@ -1865,6 +1937,7 @@
       "answer_text": "",
       "marks": 20,
       "has_markscheme": false,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_2__question_booklet_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2__SL_markscheme.pdf"
@@ -1889,6 +1962,7 @@
       "answer_text": "",
       "marks": 20,
       "has_markscheme": false,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_2__question_booklet_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2__SL_markscheme.pdf"
@@ -1913,6 +1987,7 @@
       "answer_text": "",
       "marks": 20,
       "has_markscheme": false,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_2__question_booklet_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2__SL_markscheme.pdf"
@@ -1937,6 +2012,7 @@
       "answer_text": "",
       "marks": 1,
       "has_markscheme": true,
+      "text_booklet_path": "text_booklets/ess_m17_p1_tz1_text_booklet.pdf",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1__question_booklet_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1__SL_markscheme.pdf"
@@ -1963,6 +2039,7 @@
       "answer_text": "",
       "marks": 4,
       "has_markscheme": true,
+      "text_booklet_path": "text_booklets/ess_m17_p1_tz1_text_booklet.pdf",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1__question_booklet_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1__SL_markscheme.pdf"
@@ -1989,6 +2066,7 @@
       "answer_text": "",
       "marks": 2,
       "has_markscheme": true,
+      "text_booklet_path": "text_booklets/ess_m17_p1_tz1_text_booklet.pdf",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1__question_booklet_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1__SL_markscheme.pdf"
@@ -2015,6 +2093,7 @@
       "answer_text": "",
       "marks": 2,
       "has_markscheme": true,
+      "text_booklet_path": "text_booklets/ess_m17_p1_tz1_text_booklet.pdf",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1__question_booklet_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1__SL_markscheme.pdf"
@@ -2041,6 +2120,7 @@
       "answer_text": "",
       "marks": 2,
       "has_markscheme": true,
+      "text_booklet_path": "text_booklets/ess_m17_p1_tz1_text_booklet.pdf",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1__question_booklet_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1__SL_markscheme.pdf"
@@ -2067,6 +2147,7 @@
       "answer_text": "",
       "marks": 3,
       "has_markscheme": true,
+      "text_booklet_path": "text_booklets/ess_m17_p1_tz1_text_booklet.pdf",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1__question_booklet_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1__SL_markscheme.pdf"
@@ -2093,6 +2174,7 @@
       "answer_text": "",
       "marks": 2,
       "has_markscheme": true,
+      "text_booklet_path": "text_booklets/ess_m17_p1_tz1_text_booklet.pdf",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1__question_booklet_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1__SL_markscheme.pdf"
@@ -2119,6 +2201,7 @@
       "answer_text": "",
       "marks": 1,
       "has_markscheme": true,
+      "text_booklet_path": "text_booklets/ess_m17_p1_tz1_text_booklet.pdf",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1__question_booklet_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1__SL_markscheme.pdf"
@@ -2145,6 +2228,7 @@
       "answer_text": "",
       "marks": 4,
       "has_markscheme": true,
+      "text_booklet_path": "text_booklets/ess_m17_p1_tz1_text_booklet.pdf",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1__question_booklet_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1__SL_markscheme.pdf"
@@ -2171,6 +2255,7 @@
       "answer_text": "",
       "marks": 6,
       "has_markscheme": true,
+      "text_booklet_path": "text_booklets/ess_m17_p1_tz1_text_booklet.pdf",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1__question_booklet_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1__SL_markscheme.pdf"
@@ -2197,6 +2282,7 @@
       "answer_text": "",
       "marks": 2,
       "has_markscheme": true,
+      "text_booklet_path": "text_booklets/ess_m17_p1_tz1_text_booklet.pdf",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1__question_booklet_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1__SL_markscheme.pdf"
@@ -2223,6 +2309,7 @@
       "answer_text": "",
       "marks": 6,
       "has_markscheme": true,
+      "text_booklet_path": "text_booklets/ess_m17_p1_tz1_text_booklet.pdf",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1__question_booklet_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1__SL_markscheme.pdf"
@@ -2250,6 +2337,7 @@
       "answer_text": "",
       "marks": 8,
       "has_markscheme": true,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_2__SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2__SL_markscheme.pdf"
@@ -2278,6 +2366,7 @@
       "answer_text": "",
       "marks": 6,
       "has_markscheme": true,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_2__SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2__SL_markscheme.pdf"
@@ -2305,6 +2394,7 @@
       "answer_text": "",
       "marks": 11,
       "has_markscheme": true,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_2__SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2__SL_markscheme.pdf"
@@ -2335,6 +2425,7 @@
       "answer_text": "",
       "marks": 20,
       "has_markscheme": true,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_2__SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2__SL_markscheme.pdf"
@@ -2362,6 +2453,7 @@
       "answer_text": "",
       "marks": 20,
       "has_markscheme": true,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_2__SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2__SL_markscheme.pdf"
@@ -2391,6 +2483,7 @@
       "answer_text": "",
       "marks": 20,
       "has_markscheme": true,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_2__SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2__SL_markscheme.pdf"
@@ -2419,6 +2512,7 @@
       "answer_text": "",
       "marks": 20,
       "has_markscheme": true,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_2__SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2__SL_markscheme.pdf"
@@ -2447,6 +2541,7 @@
       "answer_text": "",
       "marks": 1,
       "has_markscheme": false,
+      "text_booklet_path": "text_booklets/ess_m18_p1_tz1_text_booklet.pdf",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1__question_booklet_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1__SL_markscheme.pdf"
@@ -2471,6 +2566,7 @@
       "answer_text": "",
       "marks": 2,
       "has_markscheme": true,
+      "text_booklet_path": "text_booklets/ess_m18_p1_tz1_text_booklet.pdf",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1__question_booklet_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1__SL_markscheme.pdf"
@@ -2497,6 +2593,7 @@
       "answer_text": "",
       "marks": 4,
       "has_markscheme": true,
+      "text_booklet_path": "text_booklets/ess_m18_p1_tz1_text_booklet.pdf",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1__question_booklet_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1__SL_markscheme.pdf"
@@ -2523,6 +2620,7 @@
       "answer_text": "",
       "marks": 1,
       "has_markscheme": true,
+      "text_booklet_path": "text_booklets/ess_m18_p1_tz1_text_booklet.pdf",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1__question_booklet_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1__SL_markscheme.pdf"
@@ -2549,6 +2647,7 @@
       "answer_text": "",
       "marks": 1,
       "has_markscheme": true,
+      "text_booklet_path": "text_booklets/ess_m18_p1_tz1_text_booklet.pdf",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1__question_booklet_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1__SL_markscheme.pdf"
@@ -2575,6 +2674,7 @@
       "answer_text": "",
       "marks": 4,
       "has_markscheme": true,
+      "text_booklet_path": "text_booklets/ess_m18_p1_tz1_text_booklet.pdf",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1__question_booklet_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1__SL_markscheme.pdf"
@@ -2601,6 +2701,7 @@
       "answer_text": "",
       "marks": 3,
       "has_markscheme": true,
+      "text_booklet_path": "text_booklets/ess_m18_p1_tz1_text_booklet.pdf",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1__question_booklet_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1__SL_markscheme.pdf"
@@ -2627,6 +2728,7 @@
       "answer_text": "",
       "marks": 4,
       "has_markscheme": true,
+      "text_booklet_path": "text_booklets/ess_m18_p1_tz1_text_booklet.pdf",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1__question_booklet_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1__SL_markscheme.pdf"
@@ -2653,6 +2755,7 @@
       "answer_text": "",
       "marks": 2,
       "has_markscheme": true,
+      "text_booklet_path": "text_booklets/ess_m18_p1_tz1_text_booklet.pdf",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1__question_booklet_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1__SL_markscheme.pdf"
@@ -2679,6 +2782,7 @@
       "answer_text": "",
       "marks": 3,
       "has_markscheme": true,
+      "text_booklet_path": "text_booklets/ess_m18_p1_tz1_text_booklet.pdf",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1__question_booklet_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1__SL_markscheme.pdf"
@@ -2705,6 +2809,7 @@
       "answer_text": "",
       "marks": 2,
       "has_markscheme": true,
+      "text_booklet_path": "text_booklets/ess_m18_p1_tz1_text_booklet.pdf",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1__question_booklet_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1__SL_markscheme.pdf"
@@ -2731,6 +2836,7 @@
       "answer_text": "",
       "marks": 2,
       "has_markscheme": true,
+      "text_booklet_path": "text_booklets/ess_m18_p1_tz1_text_booklet.pdf",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1__question_booklet_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1__SL_markscheme.pdf"
@@ -2757,6 +2863,7 @@
       "answer_text": "",
       "marks": 6,
       "has_markscheme": true,
+      "text_booklet_path": "text_booklets/ess_m18_p1_tz1_text_booklet.pdf",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1__question_booklet_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1__SL_markscheme.pdf"
@@ -2783,6 +2890,7 @@
       "answer_text": "",
       "marks": 8,
       "has_markscheme": true,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_2__SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2__SL_markscheme.pdf"
@@ -2810,6 +2918,7 @@
       "answer_text": "",
       "marks": 9,
       "has_markscheme": true,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_2__SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2__SL_markscheme.pdf"
@@ -2839,6 +2948,7 @@
       "answer_text": "",
       "marks": 8,
       "has_markscheme": true,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_2__SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2__SL_markscheme.pdf"
@@ -2867,6 +2977,7 @@
       "answer_text": "",
       "marks": 20,
       "has_markscheme": true,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_2__SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2__SL_markscheme.pdf"
@@ -2894,6 +3005,7 @@
       "answer_text": "",
       "marks": 20,
       "has_markscheme": true,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_2__SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2__SL_markscheme.pdf"
@@ -2921,6 +3033,7 @@
       "answer_text": "",
       "marks": 20,
       "has_markscheme": true,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_2__SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2__SL_markscheme.pdf"
@@ -2948,6 +3061,7 @@
       "answer_text": "",
       "marks": 20,
       "has_markscheme": true,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_2__SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2__SL_markscheme.pdf"
@@ -2977,6 +3091,7 @@
       "answer_text": "",
       "marks": 1,
       "has_markscheme": false,
+      "text_booklet_path": "text_booklets/ess_m19_p1_tz1_text_booklet.pdf",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1__question_booklet_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1__SL_markscheme.pdf"
@@ -3001,6 +3116,7 @@
       "answer_text": "",
       "marks": 2,
       "has_markscheme": false,
+      "text_booklet_path": "text_booklets/ess_m19_p1_tz1_text_booklet.pdf",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1__question_booklet_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1__SL_markscheme.pdf"
@@ -3025,6 +3141,7 @@
       "answer_text": "",
       "marks": 1,
       "has_markscheme": false,
+      "text_booklet_path": "text_booklets/ess_m19_p1_tz1_text_booklet.pdf",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1__question_booklet_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1__SL_markscheme.pdf"
@@ -3049,6 +3166,7 @@
       "answer_text": "",
       "marks": 2,
       "has_markscheme": false,
+      "text_booklet_path": "text_booklets/ess_m19_p1_tz1_text_booklet.pdf",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1__question_booklet_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1__SL_markscheme.pdf"
@@ -3073,6 +3191,7 @@
       "answer_text": "",
       "marks": 2,
       "has_markscheme": false,
+      "text_booklet_path": "text_booklets/ess_m19_p1_tz1_text_booklet.pdf",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1__question_booklet_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1__SL_markscheme.pdf"
@@ -3097,6 +3216,7 @@
       "answer_text": "",
       "marks": 2,
       "has_markscheme": false,
+      "text_booklet_path": "text_booklets/ess_m19_p1_tz1_text_booklet.pdf",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1__question_booklet_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1__SL_markscheme.pdf"
@@ -3121,6 +3241,7 @@
       "answer_text": "",
       "marks": 4,
       "has_markscheme": false,
+      "text_booklet_path": "text_booklets/ess_m19_p1_tz1_text_booklet.pdf",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1__question_booklet_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1__SL_markscheme.pdf"
@@ -3145,6 +3266,7 @@
       "answer_text": "",
       "marks": 2,
       "has_markscheme": false,
+      "text_booklet_path": "text_booklets/ess_m19_p1_tz1_text_booklet.pdf",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1__question_booklet_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1__SL_markscheme.pdf"
@@ -3169,6 +3291,7 @@
       "answer_text": "",
       "marks": 2,
       "has_markscheme": true,
+      "text_booklet_path": "text_booklets/ess_m19_p1_tz1_text_booklet.pdf",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1__question_booklet_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1__SL_markscheme.pdf"
@@ -3195,6 +3318,7 @@
       "answer_text": "",
       "marks": 2,
       "has_markscheme": true,
+      "text_booklet_path": "text_booklets/ess_m19_p1_tz1_text_booklet.pdf",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1__question_booklet_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1__SL_markscheme.pdf"
@@ -3226,6 +3350,7 @@
       "answer_text": "",
       "marks": 4,
       "has_markscheme": true,
+      "text_booklet_path": "text_booklets/ess_m19_p1_tz1_text_booklet.pdf",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1__question_booklet_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1__SL_markscheme.pdf"
@@ -3253,6 +3378,7 @@
       "answer_text": "",
       "marks": 2,
       "has_markscheme": true,
+      "text_booklet_path": "text_booklets/ess_m19_p1_tz1_text_booklet.pdf",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1__question_booklet_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1__SL_markscheme.pdf"
@@ -3279,6 +3405,7 @@
       "answer_text": "",
       "marks": 2,
       "has_markscheme": true,
+      "text_booklet_path": "text_booklets/ess_m19_p1_tz1_text_booklet.pdf",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1__question_booklet_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1__SL_markscheme.pdf"
@@ -3305,6 +3432,7 @@
       "answer_text": "",
       "marks": 1,
       "has_markscheme": true,
+      "text_booklet_path": "text_booklets/ess_m19_p1_tz1_text_booklet.pdf",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1__question_booklet_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1__SL_markscheme.pdf"
@@ -3331,6 +3459,7 @@
       "answer_text": "",
       "marks": 6,
       "has_markscheme": true,
+      "text_booklet_path": "text_booklets/ess_m19_p1_tz1_text_booklet.pdf",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1__question_booklet_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1__SL_markscheme.pdf"
@@ -3358,6 +3487,7 @@
       "answer_text": "",
       "marks": 9,
       "has_markscheme": true,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_2__SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2__SL_markscheme.pdf"
@@ -3386,6 +3516,7 @@
       "answer_text": "",
       "marks": 7,
       "has_markscheme": false,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_2__SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2__SL_markscheme.pdf"
@@ -3412,6 +3543,7 @@
       "answer_text": "",
       "marks": 9,
       "has_markscheme": false,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_2__SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2__SL_markscheme.pdf"
@@ -3437,6 +3569,7 @@
       "answer_text": "",
       "marks": 20,
       "has_markscheme": false,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_2__SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2__SL_markscheme.pdf"
@@ -3461,6 +3594,7 @@
       "answer_text": "",
       "marks": 20,
       "has_markscheme": true,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_2__SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2__SL_markscheme.pdf"
@@ -3487,6 +3621,7 @@
       "answer_text": "",
       "marks": 20,
       "has_markscheme": false,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_2__SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2__SL_markscheme.pdf"
@@ -3511,6 +3646,7 @@
       "answer_text": "",
       "marks": 20,
       "has_markscheme": true,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_2__SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2__SL_markscheme.pdf"
@@ -3537,6 +3673,7 @@
       "answer_text": "",
       "marks": 2,
       "has_markscheme": false,
+      "text_booklet_path": "text_booklets/ess_m21_p1_tz1_text_booklet.pdf",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1__question_booklet_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1__SL_markscheme.pdf"
@@ -3561,6 +3698,7 @@
       "answer_text": "",
       "marks": 2,
       "has_markscheme": false,
+      "text_booklet_path": "text_booklets/ess_m21_p1_tz1_text_booklet.pdf",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1__question_booklet_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1__SL_markscheme.pdf"
@@ -3585,6 +3723,7 @@
       "answer_text": "",
       "marks": 1,
       "has_markscheme": false,
+      "text_booklet_path": "text_booklets/ess_m21_p1_tz1_text_booklet.pdf",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1__question_booklet_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1__SL_markscheme.pdf"
@@ -3609,6 +3748,7 @@
       "answer_text": "",
       "marks": 4,
       "has_markscheme": false,
+      "text_booklet_path": "text_booklets/ess_m21_p1_tz1_text_booklet.pdf",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1__question_booklet_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1__SL_markscheme.pdf"
@@ -3634,6 +3774,7 @@
       "answer_text": "",
       "marks": 5,
       "has_markscheme": false,
+      "text_booklet_path": "text_booklets/ess_m21_p1_tz1_text_booklet.pdf",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1__question_booklet_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1__SL_markscheme.pdf"
@@ -3658,6 +3799,7 @@
       "answer_text": "",
       "marks": 6,
       "has_markscheme": false,
+      "text_booklet_path": "text_booklets/ess_m21_p1_tz1_text_booklet.pdf",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1__question_booklet_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1__SL_markscheme.pdf"
@@ -3682,6 +3824,7 @@
       "answer_text": "",
       "marks": 4,
       "has_markscheme": false,
+      "text_booklet_path": "text_booklets/ess_m21_p1_tz1_text_booklet.pdf",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1__question_booklet_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1__SL_markscheme.pdf"
@@ -3706,6 +3849,7 @@
       "answer_text": "",
       "marks": 3,
       "has_markscheme": false,
+      "text_booklet_path": "text_booklets/ess_m21_p1_tz1_text_booklet.pdf",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1__question_booklet_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1__SL_markscheme.pdf"
@@ -3730,6 +3874,7 @@
       "answer_text": "",
       "marks": 2,
       "has_markscheme": true,
+      "text_booklet_path": "text_booklets/ess_m21_p1_tz1_text_booklet.pdf",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1__question_booklet_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1__SL_markscheme.pdf"
@@ -3756,6 +3901,7 @@
       "answer_text": "",
       "marks": 6,
       "has_markscheme": true,
+      "text_booklet_path": "text_booklets/ess_m21_p1_tz1_text_booklet.pdf",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1__question_booklet_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1__SL_markscheme.pdf"
@@ -3789,6 +3935,7 @@
       "answer_text": "",
       "marks": 10,
       "has_markscheme": true,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_2__SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2__SL_markscheme.pdf"
@@ -3817,6 +3964,7 @@
       "answer_text": "",
       "marks": 7,
       "has_markscheme": false,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_2__SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2__SL_markscheme.pdf"
@@ -3843,6 +3991,7 @@
       "answer_text": "",
       "marks": 8,
       "has_markscheme": false,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_2__SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2__SL_markscheme.pdf"
@@ -3868,6 +4017,7 @@
       "answer_text": "",
       "marks": 20,
       "has_markscheme": false,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_2__SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2__SL_markscheme.pdf"
@@ -3892,6 +4042,7 @@
       "answer_text": "",
       "marks": 20,
       "has_markscheme": true,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_2__SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2__SL_markscheme.pdf"
@@ -3918,6 +4069,7 @@
       "answer_text": "",
       "marks": 20,
       "has_markscheme": false,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_2__SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2__SL_markscheme.pdf"
@@ -3942,6 +4094,7 @@
       "answer_text": "",
       "marks": 20,
       "has_markscheme": true,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_2__SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2__SL_markscheme.pdf"
@@ -3968,6 +4121,7 @@
       "answer_text": "",
       "marks": 2,
       "has_markscheme": false,
+      "text_booklet_path": "text_booklets/ess_m22_p1_tz1_text_booklet.pdf",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1__question_booklet_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1__SL_markscheme.pdf"
@@ -3992,6 +4146,7 @@
       "answer_text": "",
       "marks": 4,
       "has_markscheme": false,
+      "text_booklet_path": "text_booklets/ess_m22_p1_tz1_text_booklet.pdf",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1__question_booklet_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1__SL_markscheme.pdf"
@@ -4016,6 +4171,7 @@
       "answer_text": "",
       "marks": 4,
       "has_markscheme": false,
+      "text_booklet_path": "text_booklets/ess_m22_p1_tz1_text_booklet.pdf",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1__question_booklet_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1__SL_markscheme.pdf"
@@ -4041,6 +4197,7 @@
       "answer_text": "",
       "marks": 5,
       "has_markscheme": false,
+      "text_booklet_path": "text_booklets/ess_m22_p1_tz1_text_booklet.pdf",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1__question_booklet_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1__SL_markscheme.pdf"
@@ -4065,6 +4222,7 @@
       "answer_text": "",
       "marks": 3,
       "has_markscheme": false,
+      "text_booklet_path": "text_booklets/ess_m22_p1_tz1_text_booklet.pdf",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1__question_booklet_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1__SL_markscheme.pdf"
@@ -4089,6 +4247,7 @@
       "answer_text": "",
       "marks": 3,
       "has_markscheme": false,
+      "text_booklet_path": "text_booklets/ess_m22_p1_tz1_text_booklet.pdf",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1__question_booklet_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1__SL_markscheme.pdf"
@@ -4113,6 +4272,7 @@
       "answer_text": "",
       "marks": 1,
       "has_markscheme": false,
+      "text_booklet_path": "text_booklets/ess_m22_p1_tz1_text_booklet.pdf",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1__question_booklet_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1__SL_markscheme.pdf"
@@ -4137,6 +4297,7 @@
       "answer_text": "",
       "marks": 5,
       "has_markscheme": true,
+      "text_booklet_path": "text_booklets/ess_m22_p1_tz1_text_booklet.pdf",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1__question_booklet_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1__SL_markscheme.pdf"
@@ -4164,6 +4325,7 @@
       "answer_text": "",
       "marks": 2,
       "has_markscheme": true,
+      "text_booklet_path": "text_booklets/ess_m22_p1_tz1_text_booklet.pdf",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1__question_booklet_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1__SL_markscheme.pdf"
@@ -4190,6 +4352,7 @@
       "answer_text": "",
       "marks": 6,
       "has_markscheme": true,
+      "text_booklet_path": "text_booklets/ess_m22_p1_tz1_text_booklet.pdf",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1__question_booklet_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1__SL_markscheme.pdf"
@@ -4226,6 +4389,7 @@
       "answer_text": "",
       "marks": 7,
       "has_markscheme": true,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_2__SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2__SL_markscheme.pdf"
@@ -4254,6 +4418,7 @@
       "answer_text": "",
       "marks": 8,
       "has_markscheme": false,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_2__SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2__SL_markscheme.pdf"
@@ -4280,6 +4445,7 @@
       "answer_text": "",
       "marks": 10,
       "has_markscheme": false,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_2__SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2__SL_markscheme.pdf"
@@ -4305,6 +4471,7 @@
       "answer_text": "",
       "marks": 20,
       "has_markscheme": false,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_2__SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2__SL_markscheme.pdf"
@@ -4329,6 +4496,7 @@
       "answer_text": "",
       "marks": 20,
       "has_markscheme": true,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_2__SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2__SL_markscheme.pdf"
@@ -4355,6 +4523,7 @@
       "answer_text": "",
       "marks": 20,
       "has_markscheme": false,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_2__SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2__SL_markscheme.pdf"
@@ -4379,6 +4548,7 @@
       "answer_text": "",
       "marks": 20,
       "has_markscheme": true,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_2__SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2__SL_markscheme.pdf"
@@ -4405,6 +4575,7 @@
       "answer_text": "",
       "marks": 4,
       "has_markscheme": true,
+      "text_booklet_path": "text_booklets/ess_m23_p1_tz1_text_booklet.pdf",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1__question_booklet_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1__SL_markscheme.pdf"
@@ -4431,6 +4602,7 @@
       "answer_text": "",
       "marks": 3,
       "has_markscheme": false,
+      "text_booklet_path": "text_booklets/ess_m23_p1_tz1_text_booklet.pdf",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1__question_booklet_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1__SL_markscheme.pdf"
@@ -4455,6 +4627,7 @@
       "answer_text": "",
       "marks": 3,
       "has_markscheme": false,
+      "text_booklet_path": "text_booklets/ess_m23_p1_tz1_text_booklet.pdf",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1__question_booklet_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1__SL_markscheme.pdf"
@@ -4479,6 +4652,7 @@
       "answer_text": "",
       "marks": 3,
       "has_markscheme": false,
+      "text_booklet_path": "text_booklets/ess_m23_p1_tz1_text_booklet.pdf",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1__question_booklet_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1__SL_markscheme.pdf"
@@ -4503,6 +4677,7 @@
       "answer_text": "",
       "marks": 3,
       "has_markscheme": true,
+      "text_booklet_path": "text_booklets/ess_m23_p1_tz1_text_booklet.pdf",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1__question_booklet_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1__SL_markscheme.pdf"
@@ -4529,6 +4704,7 @@
       "answer_text": "",
       "marks": 2,
       "has_markscheme": false,
+      "text_booklet_path": "text_booklets/ess_m23_p1_tz1_text_booklet.pdf",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1__question_booklet_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1__SL_markscheme.pdf"
@@ -4553,6 +4729,7 @@
       "answer_text": "",
       "marks": 4,
       "has_markscheme": true,
+      "text_booklet_path": "text_booklets/ess_m23_p1_tz1_text_booklet.pdf",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1__question_booklet_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1__SL_markscheme.pdf"
@@ -4579,6 +4756,7 @@
       "answer_text": "",
       "marks": 3,
       "has_markscheme": true,
+      "text_booklet_path": "text_booklets/ess_m23_p1_tz1_text_booklet.pdf",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1__question_booklet_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1__SL_markscheme.pdf"
@@ -4612,6 +4790,7 @@
       "answer_text": "",
       "marks": 2,
       "has_markscheme": true,
+      "text_booklet_path": "text_booklets/ess_m23_p1_tz1_text_booklet.pdf",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1__question_booklet_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1__SL_markscheme.pdf"
@@ -4638,6 +4817,7 @@
       "answer_text": "",
       "marks": 2,
       "has_markscheme": true,
+      "text_booklet_path": "text_booklets/ess_m23_p1_tz1_text_booklet.pdf",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1__question_booklet_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1__SL_markscheme.pdf"
@@ -4664,6 +4844,7 @@
       "answer_text": "",
       "marks": 6,
       "has_markscheme": true,
+      "text_booklet_path": "text_booklets/ess_m23_p1_tz1_text_booklet.pdf",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1__question_booklet_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1__SL_markscheme.pdf"
@@ -4691,6 +4872,7 @@
       "answer_text": "",
       "marks": 9,
       "has_markscheme": true,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_2__TZ1_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2__TZ1_SL_markscheme.pdf"
@@ -4719,6 +4901,7 @@
       "answer_text": "",
       "marks": 8,
       "has_markscheme": false,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_2__TZ1_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2__TZ1_SL_markscheme.pdf"
@@ -4744,6 +4927,7 @@
       "answer_text": "",
       "marks": 8,
       "has_markscheme": false,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_2__TZ1_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2__TZ1_SL_markscheme.pdf"
@@ -4770,6 +4954,7 @@
       "answer_text": "",
       "marks": 20,
       "has_markscheme": false,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_2__TZ1_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2__TZ1_SL_markscheme.pdf"
@@ -4794,6 +4979,7 @@
       "answer_text": "",
       "marks": 20,
       "has_markscheme": true,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_2__TZ1_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2__TZ1_SL_markscheme.pdf"
@@ -4820,6 +5006,7 @@
       "answer_text": "",
       "marks": 20,
       "has_markscheme": false,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_2__TZ1_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2__TZ1_SL_markscheme.pdf"
@@ -4844,6 +5031,7 @@
       "answer_text": "",
       "marks": 20,
       "has_markscheme": true,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_2__TZ1_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2__TZ1_SL_markscheme.pdf"
@@ -4870,6 +5058,7 @@
       "answer_text": "",
       "marks": 9,
       "has_markscheme": true,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_2__TZ2_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2__TZ2_SL_markscheme.pdf"
@@ -4898,6 +5087,7 @@
       "answer_text": "",
       "marks": 8,
       "has_markscheme": false,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_2__TZ2_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2__TZ2_SL_markscheme.pdf"
@@ -4923,6 +5113,7 @@
       "answer_text": "",
       "marks": 8,
       "has_markscheme": false,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_2__TZ2_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2__TZ2_SL_markscheme.pdf"
@@ -4949,6 +5140,7 @@
       "answer_text": "",
       "marks": 20,
       "has_markscheme": false,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_2__TZ2_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2__TZ2_SL_markscheme.pdf"
@@ -4973,6 +5165,7 @@
       "answer_text": "",
       "marks": 20,
       "has_markscheme": true,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_2__TZ2_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2__TZ2_SL_markscheme.pdf"
@@ -4999,6 +5192,7 @@
       "answer_text": "",
       "marks": 20,
       "has_markscheme": false,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_2__TZ2_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2__TZ2_SL_markscheme.pdf"
@@ -5023,6 +5217,7 @@
       "answer_text": "",
       "marks": 20,
       "has_markscheme": true,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_2__TZ2_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2__TZ2_SL_markscheme.pdf"
@@ -5049,6 +5244,7 @@
       "answer_text": "",
       "marks": 5,
       "has_markscheme": false,
+      "text_booklet_path": "text_booklets/ess_m24_p1_tz1_text_booklet.pdf",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1__question_booklet_TZ1_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1__TZ1_SL_markscheme.pdf"
@@ -5073,6 +5269,7 @@
       "answer_text": "",
       "marks": 6,
       "has_markscheme": false,
+      "text_booklet_path": "text_booklets/ess_m24_p1_tz1_text_booklet.pdf",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1__question_booklet_TZ1_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1__TZ1_SL_markscheme.pdf"
@@ -5097,6 +5294,7 @@
       "answer_text": "",
       "marks": 7,
       "has_markscheme": false,
+      "text_booklet_path": "text_booklets/ess_m24_p1_tz1_text_booklet.pdf",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1__question_booklet_TZ1_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1__TZ1_SL_markscheme.pdf"
@@ -5121,6 +5319,7 @@
       "answer_text": "",
       "marks": 4,
       "has_markscheme": false,
+      "text_booklet_path": "text_booklets/ess_m24_p1_tz1_text_booklet.pdf",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1__question_booklet_TZ1_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1__TZ1_SL_markscheme.pdf"
@@ -5145,6 +5344,7 @@
       "answer_text": "",
       "marks": 4,
       "has_markscheme": false,
+      "text_booklet_path": "text_booklets/ess_m24_p1_tz1_text_booklet.pdf",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1__question_booklet_TZ1_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1__TZ1_SL_markscheme.pdf"
@@ -5169,6 +5369,7 @@
       "answer_text": "",
       "marks": 3,
       "has_markscheme": false,
+      "text_booklet_path": "text_booklets/ess_m24_p1_tz1_text_booklet.pdf",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1__question_booklet_TZ1_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1__TZ1_SL_markscheme.pdf"
@@ -5193,6 +5394,7 @@
       "answer_text": "",
       "marks": 6,
       "has_markscheme": false,
+      "text_booklet_path": "text_booklets/ess_m24_p1_tz1_text_booklet.pdf",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1__question_booklet_TZ1_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1__TZ1_SL_markscheme.pdf"
@@ -5217,6 +5419,7 @@
       "answer_text": "",
       "marks": 5,
       "has_markscheme": false,
+      "text_booklet_path": "text_booklets/ess_m24_p1_tz2_text_booklet.pdf",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1__question_booklet_TZ2_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1__TZ2_SL_markscheme.pdf"
@@ -5241,6 +5444,7 @@
       "answer_text": "",
       "marks": 6,
       "has_markscheme": false,
+      "text_booklet_path": "text_booklets/ess_m24_p1_tz2_text_booklet.pdf",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1__question_booklet_TZ2_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1__TZ2_SL_markscheme.pdf"
@@ -5265,6 +5469,7 @@
       "answer_text": "",
       "marks": 7,
       "has_markscheme": false,
+      "text_booklet_path": "text_booklets/ess_m24_p1_tz2_text_booklet.pdf",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1__question_booklet_TZ2_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1__TZ2_SL_markscheme.pdf"
@@ -5289,6 +5494,7 @@
       "answer_text": "",
       "marks": 4,
       "has_markscheme": false,
+      "text_booklet_path": "text_booklets/ess_m24_p1_tz2_text_booklet.pdf",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1__question_booklet_TZ2_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1__TZ2_SL_markscheme.pdf"
@@ -5313,6 +5519,7 @@
       "answer_text": "",
       "marks": 4,
       "has_markscheme": false,
+      "text_booklet_path": "text_booklets/ess_m24_p1_tz2_text_booklet.pdf",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1__question_booklet_TZ2_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1__TZ2_SL_markscheme.pdf"
@@ -5337,6 +5544,7 @@
       "answer_text": "",
       "marks": 3,
       "has_markscheme": false,
+      "text_booklet_path": "text_booklets/ess_m24_p1_tz2_text_booklet.pdf",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1__question_booklet_TZ2_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1__TZ2_SL_markscheme.pdf"
@@ -5361,6 +5569,7 @@
       "answer_text": "",
       "marks": 6,
       "has_markscheme": false,
+      "text_booklet_path": "text_booklets/ess_m24_p1_tz2_text_booklet.pdf",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1__question_booklet_TZ2_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1__TZ2_SL_markscheme.pdf"
@@ -5385,6 +5594,7 @@
       "answer_text": "",
       "marks": 7,
       "has_markscheme": true,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_2__TZ1_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2__TZ1_SL_markscheme.pdf"
@@ -5413,6 +5623,7 @@
       "answer_text": "",
       "marks": 9,
       "has_markscheme": false,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_2__TZ1_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2__TZ1_SL_markscheme.pdf"
@@ -5439,6 +5650,7 @@
       "answer_text": "",
       "marks": 9,
       "has_markscheme": false,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_2__TZ1_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2__TZ1_SL_markscheme.pdf"
@@ -5464,6 +5676,7 @@
       "answer_text": "",
       "marks": 20,
       "has_markscheme": false,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_2__TZ1_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2__TZ1_SL_markscheme.pdf"
@@ -5488,6 +5701,7 @@
       "answer_text": "",
       "marks": 20,
       "has_markscheme": true,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_2__TZ1_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2__TZ1_SL_markscheme.pdf"
@@ -5514,6 +5728,7 @@
       "answer_text": "",
       "marks": 20,
       "has_markscheme": false,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_2__TZ1_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2__TZ1_SL_markscheme.pdf"
@@ -5538,6 +5753,7 @@
       "answer_text": "",
       "marks": 20,
       "has_markscheme": true,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_2__TZ1_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2__TZ1_SL_markscheme.pdf"
@@ -5564,6 +5780,7 @@
       "answer_text": "",
       "marks": 7,
       "has_markscheme": true,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_2__TZ2_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2__TZ2_SL_markscheme.pdf"
@@ -5592,6 +5809,7 @@
       "answer_text": "",
       "marks": 9,
       "has_markscheme": false,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_2__TZ2_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2__TZ2_SL_markscheme.pdf"
@@ -5618,6 +5836,7 @@
       "answer_text": "",
       "marks": 9,
       "has_markscheme": false,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_2__TZ2_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2__TZ2_SL_markscheme.pdf"
@@ -5643,6 +5862,7 @@
       "answer_text": "",
       "marks": 20,
       "has_markscheme": false,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_2__TZ2_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2__TZ2_SL_markscheme.pdf"
@@ -5667,6 +5887,7 @@
       "answer_text": "",
       "marks": 20,
       "has_markscheme": true,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_2__TZ2_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2__TZ2_SL_markscheme.pdf"
@@ -5693,6 +5914,7 @@
       "answer_text": "",
       "marks": 20,
       "has_markscheme": false,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_2__TZ2_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2__TZ2_SL_markscheme.pdf"
@@ -5717,6 +5939,7 @@
       "answer_text": "",
       "marks": 20,
       "has_markscheme": true,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_2__TZ2_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2__TZ2_SL_markscheme.pdf"
@@ -5743,6 +5966,7 @@
       "answer_text": "",
       "marks": 2,
       "has_markscheme": true,
+      "text_booklet_path": "text_booklets/ess_m25_p1_tz1_text_booklet.pdf",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1_question_booklet_TZ1_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1_TZ1_SL_markscheme.pdf"
@@ -5769,6 +5993,7 @@
       "answer_text": "",
       "marks": 5,
       "has_markscheme": false,
+      "text_booklet_path": "text_booklets/ess_m25_p1_tz1_text_booklet.pdf",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1_question_booklet_TZ1_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1_TZ1_SL_markscheme.pdf"
@@ -5793,6 +6018,7 @@
       "answer_text": "",
       "marks": 4,
       "has_markscheme": false,
+      "text_booklet_path": "text_booklets/ess_m25_p1_tz1_text_booklet.pdf",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1_question_booklet_TZ1_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1_TZ1_SL_markscheme.pdf"
@@ -5817,6 +6043,7 @@
       "answer_text": "",
       "marks": 1,
       "has_markscheme": false,
+      "text_booklet_path": "text_booklets/ess_m25_p1_tz1_text_booklet.pdf",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1_question_booklet_TZ1_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1_TZ1_SL_markscheme.pdf"
@@ -5841,6 +6068,7 @@
       "answer_text": "",
       "marks": 7,
       "has_markscheme": true,
+      "text_booklet_path": "text_booklets/ess_m25_p1_tz1_text_booklet.pdf",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1_question_booklet_TZ1_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1_TZ1_SL_markscheme.pdf"
@@ -5867,6 +6095,7 @@
       "answer_text": "",
       "marks": 3,
       "has_markscheme": false,
+      "text_booklet_path": "text_booklets/ess_m25_p1_tz1_text_booklet.pdf",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1_question_booklet_TZ1_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1_TZ1_SL_markscheme.pdf"
@@ -5891,6 +6120,7 @@
       "answer_text": "",
       "marks": 4,
       "has_markscheme": true,
+      "text_booklet_path": "text_booklets/ess_m25_p1_tz1_text_booklet.pdf",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1_question_booklet_TZ1_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1_TZ1_SL_markscheme.pdf"
@@ -5924,6 +6154,7 @@
       "answer_text": "",
       "marks": 3,
       "has_markscheme": true,
+      "text_booklet_path": "text_booklets/ess_m25_p1_tz1_text_booklet.pdf",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1_question_booklet_TZ1_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1_TZ1_SL_markscheme.pdf"
@@ -5950,6 +6181,7 @@
       "answer_text": "",
       "marks": 6,
       "has_markscheme": true,
+      "text_booklet_path": "text_booklets/ess_m25_p1_tz1_text_booklet.pdf",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1_question_booklet_TZ1_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1_TZ1_SL_markscheme.pdf"
@@ -5977,6 +6209,7 @@
       "answer_text": "",
       "marks": 1,
       "has_markscheme": true,
+      "text_booklet_path": "text_booklets/ess_m25_p1_tz2_text_booklet.pdf",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1_question_booklet_TZ2_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1_TZ2_SL_markscheme.pdf"
@@ -6003,6 +6236,7 @@
       "answer_text": "",
       "marks": 4,
       "has_markscheme": false,
+      "text_booklet_path": "text_booklets/ess_m25_p1_tz2_text_booklet.pdf",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1_question_booklet_TZ2_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1_TZ2_SL_markscheme.pdf"
@@ -6027,6 +6261,7 @@
       "answer_text": "",
       "marks": 5,
       "has_markscheme": false,
+      "text_booklet_path": "text_booklets/ess_m25_p1_tz2_text_booklet.pdf",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1_question_booklet_TZ2_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1_TZ2_SL_markscheme.pdf"
@@ -6051,6 +6286,7 @@
       "answer_text": "",
       "marks": 2,
       "has_markscheme": false,
+      "text_booklet_path": "text_booklets/ess_m25_p1_tz2_text_booklet.pdf",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1_question_booklet_TZ2_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1_TZ2_SL_markscheme.pdf"
@@ -6075,6 +6311,7 @@
       "answer_text": "",
       "marks": 9,
       "has_markscheme": true,
+      "text_booklet_path": "text_booklets/ess_m25_p1_tz2_text_booklet.pdf",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1_question_booklet_TZ2_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1_TZ2_SL_markscheme.pdf"
@@ -6101,6 +6338,7 @@
       "answer_text": "",
       "marks": 2,
       "has_markscheme": false,
+      "text_booklet_path": "text_booklets/ess_m25_p1_tz2_text_booklet.pdf",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1_question_booklet_TZ2_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1_TZ2_SL_markscheme.pdf"
@@ -6125,6 +6363,7 @@
       "answer_text": "",
       "marks": 4,
       "has_markscheme": true,
+      "text_booklet_path": "text_booklets/ess_m25_p1_tz2_text_booklet.pdf",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1_question_booklet_TZ2_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1_TZ2_SL_markscheme.pdf"
@@ -6158,6 +6397,7 @@
       "answer_text": "",
       "marks": 2,
       "has_markscheme": true,
+      "text_booklet_path": "text_booklets/ess_m25_p1_tz2_text_booklet.pdf",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1_question_booklet_TZ2_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1_TZ2_SL_markscheme.pdf"
@@ -6184,6 +6424,7 @@
       "answer_text": "",
       "marks": 6,
       "has_markscheme": true,
+      "text_booklet_path": "text_booklets/ess_m25_p1_tz2_text_booklet.pdf",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1_question_booklet_TZ2_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1_TZ2_SL_markscheme.pdf"
@@ -6210,6 +6451,7 @@
       "answer_text": "",
       "marks": 1,
       "has_markscheme": true,
+      "text_booklet_path": "text_booklets/ess_m25_p1_tz3_text_booklet.pdf",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1_question_booklet_TZ3_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1_TZ3_SL_markscheme.pdf"
@@ -6236,6 +6478,7 @@
       "answer_text": "",
       "marks": 5,
       "has_markscheme": false,
+      "text_booklet_path": "text_booklets/ess_m25_p1_tz3_text_booklet.pdf",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1_question_booklet_TZ3_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1_TZ3_SL_markscheme.pdf"
@@ -6260,6 +6503,7 @@
       "answer_text": "",
       "marks": 6,
       "has_markscheme": false,
+      "text_booklet_path": "text_booklets/ess_m25_p1_tz3_text_booklet.pdf",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1_question_booklet_TZ3_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1_TZ3_SL_markscheme.pdf"
@@ -6284,6 +6528,7 @@
       "answer_text": "",
       "marks": 1,
       "has_markscheme": false,
+      "text_booklet_path": "text_booklets/ess_m25_p1_tz3_text_booklet.pdf",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1_question_booklet_TZ3_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1_TZ3_SL_markscheme.pdf"
@@ -6308,6 +6553,7 @@
       "answer_text": "",
       "marks": 6,
       "has_markscheme": false,
+      "text_booklet_path": "text_booklets/ess_m25_p1_tz3_text_booklet.pdf",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1_question_booklet_TZ3_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1_TZ3_SL_markscheme.pdf"
@@ -6332,6 +6578,7 @@
       "answer_text": "",
       "marks": 2,
       "has_markscheme": false,
+      "text_booklet_path": "text_booklets/ess_m25_p1_tz3_text_booklet.pdf",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1_question_booklet_TZ3_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1_TZ3_SL_markscheme.pdf"
@@ -6356,6 +6603,7 @@
       "answer_text": "",
       "marks": 6,
       "has_markscheme": true,
+      "text_booklet_path": "text_booklets/ess_m25_p1_tz3_text_booklet.pdf",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1_question_booklet_TZ3_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1_TZ3_SL_markscheme.pdf"
@@ -6389,6 +6637,7 @@
       "answer_text": "",
       "marks": 2,
       "has_markscheme": true,
+      "text_booklet_path": "text_booklets/ess_m25_p1_tz3_text_booklet.pdf",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1_question_booklet_TZ3_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1_TZ3_SL_markscheme.pdf"
@@ -6415,6 +6664,7 @@
       "answer_text": "",
       "marks": 6,
       "has_markscheme": true,
+      "text_booklet_path": "text_booklets/ess_m25_p1_tz3_text_booklet.pdf",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1_question_booklet_TZ3_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1_TZ3_SL_markscheme.pdf"
@@ -6442,6 +6692,7 @@
       "answer_text": "",
       "marks": 9,
       "has_markscheme": true,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_2_TZ1_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2_TZ1_SL_markscheme.pdf"
@@ -6469,6 +6720,7 @@
       "answer_text": "",
       "marks": 8,
       "has_markscheme": false,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_2_TZ1_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2_TZ1_SL_markscheme.pdf"
@@ -6494,6 +6746,7 @@
       "answer_text": "",
       "marks": 8,
       "has_markscheme": false,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_2_TZ1_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2_TZ1_SL_markscheme.pdf"
@@ -6518,6 +6771,7 @@
       "answer_text": "",
       "marks": 20,
       "has_markscheme": false,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_2_TZ1_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2_TZ1_SL_markscheme.pdf"
@@ -6542,6 +6796,7 @@
       "answer_text": "",
       "marks": 20,
       "has_markscheme": true,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_2_TZ1_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2_TZ1_SL_markscheme.pdf"
@@ -6568,6 +6823,7 @@
       "answer_text": "",
       "marks": 20,
       "has_markscheme": false,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_2_TZ1_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2_TZ1_SL_markscheme.pdf"
@@ -6592,6 +6848,7 @@
       "answer_text": "",
       "marks": 20,
       "has_markscheme": true,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_2_TZ1_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2_TZ1_SL_markscheme.pdf"
@@ -6618,6 +6875,7 @@
       "answer_text": "",
       "marks": 9,
       "has_markscheme": true,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_2_TZ2_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2_TZ2_SL_markscheme.pdf"
@@ -6645,6 +6903,7 @@
       "answer_text": "",
       "marks": 8,
       "has_markscheme": false,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_2_TZ2_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2_TZ2_SL_markscheme.pdf"
@@ -6670,6 +6929,7 @@
       "answer_text": "",
       "marks": 8,
       "has_markscheme": false,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_2_TZ2_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2_TZ2_SL_markscheme.pdf"
@@ -6694,6 +6954,7 @@
       "answer_text": "",
       "marks": 20,
       "has_markscheme": false,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_2_TZ2_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2_TZ2_SL_markscheme.pdf"
@@ -6718,6 +6979,7 @@
       "answer_text": "",
       "marks": 20,
       "has_markscheme": true,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_2_TZ2_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2_TZ2_SL_markscheme.pdf"
@@ -6744,6 +7006,7 @@
       "answer_text": "",
       "marks": 20,
       "has_markscheme": false,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_2_TZ2_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2_TZ2_SL_markscheme.pdf"
@@ -6768,6 +7031,7 @@
       "answer_text": "",
       "marks": 20,
       "has_markscheme": true,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_2_TZ2_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2_TZ2_SL_markscheme.pdf"
@@ -6794,6 +7058,7 @@
       "answer_text": "",
       "marks": 9,
       "has_markscheme": true,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_2_TZ3_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2_TZ3_SL_markscheme.pdf"
@@ -6821,6 +7086,7 @@
       "answer_text": "",
       "marks": 8,
       "has_markscheme": false,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_2_TZ3_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2_TZ3_SL_markscheme.pdf"
@@ -6846,6 +7112,7 @@
       "answer_text": "",
       "marks": 8,
       "has_markscheme": false,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_2_TZ3_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2_TZ3_SL_markscheme.pdf"
@@ -6870,6 +7137,7 @@
       "answer_text": "",
       "marks": 20,
       "has_markscheme": false,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_2_TZ3_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2_TZ3_SL_markscheme.pdf"
@@ -6894,6 +7162,7 @@
       "answer_text": "",
       "marks": 20,
       "has_markscheme": true,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_2_TZ3_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2_TZ3_SL_markscheme.pdf"
@@ -6920,6 +7189,7 @@
       "answer_text": "",
       "marks": 20,
       "has_markscheme": false,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_2_TZ3_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2_TZ3_SL_markscheme.pdf"
@@ -6944,6 +7214,7 @@
       "answer_text": "",
       "marks": 20,
       "has_markscheme": true,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_2_TZ3_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2_TZ3_SL_markscheme.pdf"
@@ -6970,6 +7241,7 @@
       "answer_text": "",
       "marks": null,
       "has_markscheme": false,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1_SL_markscheme.pdf"
@@ -6996,6 +7268,7 @@
       "answer_text": "",
       "marks": 4,
       "has_markscheme": false,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1_SL_markscheme.pdf"
@@ -7020,6 +7293,7 @@
       "answer_text": "",
       "marks": 6,
       "has_markscheme": true,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1_SL_markscheme.pdf"
@@ -7047,6 +7321,7 @@
       "answer_text": "",
       "marks": 5,
       "has_markscheme": false,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1_SL_markscheme.pdf"
@@ -7072,6 +7347,7 @@
       "answer_text": "",
       "marks": 10,
       "has_markscheme": false,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1_SL_markscheme.pdf"
@@ -7098,6 +7374,7 @@
       "answer_text": "",
       "marks": 10,
       "has_markscheme": false,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1_SL_markscheme.pdf"
@@ -7122,6 +7399,7 @@
       "answer_text": "",
       "marks": null,
       "has_markscheme": false,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_2_question_booklet_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2_SL_markscheme.pdf"
@@ -7150,6 +7428,7 @@
       "answer_text": "",
       "marks": 20,
       "has_markscheme": false,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_2_question_booklet_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2_SL_markscheme.pdf"
@@ -7174,6 +7453,7 @@
       "answer_text": "",
       "marks": 20,
       "has_markscheme": false,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_2_question_booklet_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2_SL_markscheme.pdf"
@@ -7198,6 +7478,7 @@
       "answer_text": "",
       "marks": 20,
       "has_markscheme": false,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_2_question_booklet_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2_SL_markscheme.pdf"
@@ -7222,6 +7503,7 @@
       "answer_text": "",
       "marks": 20,
       "has_markscheme": false,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_2_question_booklet_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2_SL_markscheme.pdf"
@@ -7246,6 +7528,7 @@
       "answer_text": "",
       "marks": null,
       "has_markscheme": false,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1_SL_markscheme.pdf"
@@ -7271,6 +7554,7 @@
       "answer_text": "",
       "marks": null,
       "has_markscheme": false,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1_SL_markscheme.pdf"
@@ -7298,6 +7582,7 @@
       "answer_text": "",
       "marks": 3,
       "has_markscheme": false,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1_SL_markscheme.pdf"
@@ -7324,6 +7609,7 @@
       "answer_text": "",
       "marks": 9,
       "has_markscheme": false,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1_SL_markscheme.pdf"
@@ -7349,6 +7635,7 @@
       "answer_text": "",
       "marks": 6,
       "has_markscheme": false,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1_SL_markscheme.pdf"
@@ -7374,6 +7661,7 @@
       "answer_text": "",
       "marks": null,
       "has_markscheme": false,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_2_question_booklet_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2_SL_markscheme.pdf"
@@ -7402,6 +7690,7 @@
       "answer_text": "",
       "marks": 20,
       "has_markscheme": false,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_2_question_booklet_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2_SL_markscheme.pdf"
@@ -7426,6 +7715,7 @@
       "answer_text": "",
       "marks": 20,
       "has_markscheme": false,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_2_question_booklet_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2_SL_markscheme.pdf"
@@ -7450,6 +7740,7 @@
       "answer_text": "",
       "marks": 20,
       "has_markscheme": false,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_2_question_booklet_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2_SL_markscheme.pdf"
@@ -7474,6 +7765,7 @@
       "answer_text": "",
       "marks": 20,
       "has_markscheme": false,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_2_question_booklet_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2_SL_markscheme.pdf"
@@ -7498,6 +7790,7 @@
       "answer_text": "",
       "marks": 4,
       "has_markscheme": false,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1_SL_markscheme.pdf"
@@ -7522,6 +7815,7 @@
       "answer_text": "",
       "marks": 4,
       "has_markscheme": false,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1_SL_markscheme.pdf"
@@ -7547,6 +7841,7 @@
       "answer_text": "",
       "marks": 6,
       "has_markscheme": false,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1_SL_markscheme.pdf"
@@ -7572,6 +7867,7 @@
       "answer_text": "",
       "marks": 8,
       "has_markscheme": false,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1_SL_markscheme.pdf"
@@ -7597,6 +7893,7 @@
       "answer_text": "",
       "marks": 7,
       "has_markscheme": false,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1_SL_markscheme.pdf"
@@ -7623,6 +7920,7 @@
       "answer_text": "",
       "marks": 10,
       "has_markscheme": false,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1_SL_markscheme.pdf"
@@ -7649,6 +7947,7 @@
       "answer_text": "",
       "marks": 6,
       "has_markscheme": true,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1_SL_markscheme.pdf"
@@ -7676,6 +7975,7 @@
       "answer_text": "",
       "marks": 50,
       "has_markscheme": false,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_2_question_booklet_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2_SL_markscheme.pdf"
@@ -7704,6 +8004,7 @@
       "answer_text": "",
       "marks": 20,
       "has_markscheme": false,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_2_question_booklet_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2_SL_markscheme.pdf"
@@ -7728,6 +8029,7 @@
       "answer_text": "",
       "marks": 20,
       "has_markscheme": false,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_2_question_booklet_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2_SL_markscheme.pdf"
@@ -7752,6 +8054,7 @@
       "answer_text": "",
       "marks": 20,
       "has_markscheme": false,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_2_question_booklet_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2_SL_markscheme.pdf"
@@ -7776,6 +8079,7 @@
       "answer_text": "",
       "marks": 20,
       "has_markscheme": false,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_2_question_booklet_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2_SL_markscheme.pdf"
@@ -7800,6 +8104,7 @@
       "answer_text": "",
       "marks": 6,
       "has_markscheme": false,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1_SL_markscheme.pdf"
@@ -7825,6 +8130,7 @@
       "answer_text": "",
       "marks": 13,
       "has_markscheme": false,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1_SL_markscheme.pdf"
@@ -7851,6 +8157,7 @@
       "answer_text": "",
       "marks": 8,
       "has_markscheme": false,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1_SL_markscheme.pdf"
@@ -7876,6 +8183,7 @@
       "answer_text": "",
       "marks": 9,
       "has_markscheme": false,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1_SL_markscheme.pdf"
@@ -7901,6 +8209,7 @@
       "answer_text": "",
       "marks": 9,
       "has_markscheme": false,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1_SL_markscheme.pdf"
@@ -7926,6 +8235,7 @@
       "answer_text": "",
       "marks": null,
       "has_markscheme": false,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_2_question_booklet_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2_SL_markscheme.pdf"
@@ -7955,6 +8265,7 @@
       "answer_text": "",
       "marks": 20,
       "has_markscheme": false,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_2_question_booklet_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2_SL_markscheme.pdf"
@@ -7979,6 +8290,7 @@
       "answer_text": "",
       "marks": 20,
       "has_markscheme": false,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_2_question_booklet_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2_SL_markscheme.pdf"
@@ -8003,6 +8315,7 @@
       "answer_text": "",
       "marks": 20,
       "has_markscheme": false,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_2_question_booklet_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2_SL_markscheme.pdf"
@@ -8027,6 +8340,7 @@
       "answer_text": "",
       "marks": 20,
       "has_markscheme": false,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_2_question_booklet_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2_SL_markscheme.pdf"
@@ -8051,6 +8365,7 @@
       "answer_text": "",
       "marks": 9,
       "has_markscheme": false,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1_SL_markscheme.pdf"
@@ -8077,6 +8392,7 @@
       "answer_text": "",
       "marks": 7,
       "has_markscheme": false,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1_SL_markscheme.pdf"
@@ -8103,6 +8419,7 @@
       "answer_text": "",
       "marks": 9,
       "has_markscheme": false,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1_SL_markscheme.pdf"
@@ -8129,6 +8446,7 @@
       "answer_text": "",
       "marks": 8,
       "has_markscheme": false,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1_SL_markscheme.pdf"
@@ -8153,6 +8471,7 @@
       "answer_text": "",
       "marks": 7,
       "has_markscheme": false,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1_SL_markscheme.pdf"
@@ -8178,6 +8497,7 @@
       "answer_text": "",
       "marks": 5,
       "has_markscheme": false,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1_SL_markscheme.pdf"
@@ -8203,6 +8523,7 @@
       "answer_text": "",
       "marks": 50,
       "has_markscheme": false,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_2_question_booklet_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2_SL_markscheme.pdf"
@@ -8231,6 +8552,7 @@
       "answer_text": "",
       "marks": 20,
       "has_markscheme": false,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_2_question_booklet_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2_SL_markscheme.pdf"
@@ -8255,6 +8577,7 @@
       "answer_text": "",
       "marks": 20,
       "has_markscheme": false,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_2_question_booklet_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2_SL_markscheme.pdf"
@@ -8279,6 +8602,7 @@
       "answer_text": "",
       "marks": 20,
       "has_markscheme": false,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_2_question_booklet_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2_SL_markscheme.pdf"
@@ -8303,6 +8627,7 @@
       "answer_text": "",
       "marks": 20,
       "has_markscheme": false,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_2_question_booklet_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2_SL_markscheme.pdf"
@@ -8327,6 +8652,7 @@
       "answer_text": "",
       "marks": 6,
       "has_markscheme": false,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1_SL_markscheme.pdf"
@@ -8351,6 +8677,7 @@
       "answer_text": "",
       "marks": 11,
       "has_markscheme": false,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1_SL_markscheme.pdf"
@@ -8377,6 +8704,7 @@
       "answer_text": "",
       "marks": 6,
       "has_markscheme": false,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1_SL_markscheme.pdf"
@@ -8401,6 +8729,7 @@
       "answer_text": "",
       "marks": 4,
       "has_markscheme": false,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1_SL_markscheme.pdf"
@@ -8426,6 +8755,7 @@
       "answer_text": "",
       "marks": 9,
       "has_markscheme": false,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1_SL_markscheme.pdf"
@@ -8450,6 +8780,7 @@
       "answer_text": "",
       "marks": 9,
       "has_markscheme": false,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1_SL_markscheme.pdf"
@@ -8476,6 +8807,7 @@
       "answer_text": "",
       "marks": 50,
       "has_markscheme": false,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_2_question_booklet_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2_SL_markscheme.pdf"
@@ -8504,6 +8836,7 @@
       "answer_text": "",
       "marks": 20,
       "has_markscheme": false,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_2_question_booklet_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2_SL_markscheme.pdf"
@@ -8528,6 +8861,7 @@
       "answer_text": "",
       "marks": 20,
       "has_markscheme": false,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_2_question_booklet_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2_SL_markscheme.pdf"
@@ -8552,6 +8886,7 @@
       "answer_text": "",
       "marks": 20,
       "has_markscheme": false,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_2_question_booklet_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2_SL_markscheme.pdf"
@@ -8576,6 +8911,7 @@
       "answer_text": "",
       "marks": 20,
       "has_markscheme": false,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_2_question_booklet_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2_SL_markscheme.pdf"
@@ -8600,6 +8936,7 @@
       "answer_text": "",
       "marks": 7,
       "has_markscheme": false,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1__SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1__SL_markscheme.pdf"
@@ -8625,6 +8962,7 @@
       "answer_text": "",
       "marks": 8,
       "has_markscheme": false,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1__SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1__SL_markscheme.pdf"
@@ -8650,6 +8988,7 @@
       "answer_text": "",
       "marks": 8,
       "has_markscheme": false,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1__SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1__SL_markscheme.pdf"
@@ -8675,6 +9014,7 @@
       "answer_text": "",
       "marks": 6,
       "has_markscheme": false,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1__SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1__SL_markscheme.pdf"
@@ -8700,6 +9040,7 @@
       "answer_text": "",
       "marks": 8,
       "has_markscheme": false,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1__SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1__SL_markscheme.pdf"
@@ -8726,6 +9067,7 @@
       "answer_text": "",
       "marks": 8,
       "has_markscheme": false,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1__SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1__SL_markscheme.pdf"
@@ -8752,6 +9094,7 @@
       "answer_text": "",
       "marks": 50,
       "has_markscheme": false,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_2__question_booklet_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2__SL_markscheme.pdf"
@@ -8780,6 +9123,7 @@
       "answer_text": "",
       "marks": 20,
       "has_markscheme": false,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_2__question_booklet_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2__SL_markscheme.pdf"
@@ -8804,6 +9148,7 @@
       "answer_text": "",
       "marks": 20,
       "has_markscheme": false,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_2__question_booklet_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2__SL_markscheme.pdf"
@@ -8828,6 +9173,7 @@
       "answer_text": "",
       "marks": 20,
       "has_markscheme": false,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_2__question_booklet_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2__SL_markscheme.pdf"
@@ -8852,6 +9198,7 @@
       "answer_text": "",
       "marks": 20,
       "has_markscheme": false,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_2__question_booklet_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2__SL_markscheme.pdf"
@@ -8876,6 +9223,7 @@
       "answer_text": "",
       "marks": 3,
       "has_markscheme": true,
+      "text_booklet_path": "text_booklets/ess_n17_p1_ntz_text_booklet.pdf",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1__question_booklet_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1__SL_markscheme.pdf"
@@ -8902,6 +9250,7 @@
       "answer_text": "",
       "marks": 2,
       "has_markscheme": true,
+      "text_booklet_path": "text_booklets/ess_n17_p1_ntz_text_booklet.pdf",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1__question_booklet_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1__SL_markscheme.pdf"
@@ -8928,6 +9277,7 @@
       "answer_text": "",
       "marks": 8,
       "has_markscheme": true,
+      "text_booklet_path": "text_booklets/ess_n17_p1_ntz_text_booklet.pdf",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1__question_booklet_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1__SL_markscheme.pdf"
@@ -8955,6 +9305,7 @@
       "answer_text": "",
       "marks": 5,
       "has_markscheme": true,
+      "text_booklet_path": "text_booklets/ess_n17_p1_ntz_text_booklet.pdf",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1__question_booklet_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1__SL_markscheme.pdf"
@@ -8982,6 +9333,7 @@
       "answer_text": "",
       "marks": 7,
       "has_markscheme": true,
+      "text_booklet_path": "text_booklets/ess_n17_p1_ntz_text_booklet.pdf",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1__question_booklet_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1__SL_markscheme.pdf"
@@ -9010,6 +9362,7 @@
       "answer_text": "",
       "marks": 4,
       "has_markscheme": true,
+      "text_booklet_path": "text_booklets/ess_n17_p1_ntz_text_booklet.pdf",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1__question_booklet_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1__SL_markscheme.pdf"
@@ -9036,6 +9389,7 @@
       "answer_text": "",
       "marks": 6,
       "has_markscheme": true,
+      "text_booklet_path": "text_booklets/ess_n17_p1_ntz_text_booklet.pdf",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1__question_booklet_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1__SL_markscheme.pdf"
@@ -9063,6 +9417,7 @@
       "answer_text": "",
       "marks": 8,
       "has_markscheme": true,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_2__SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2__SL_markscheme.pdf"
@@ -9092,6 +9447,7 @@
       "answer_text": "",
       "marks": 11,
       "has_markscheme": true,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_2__SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2__SL_markscheme.pdf"
@@ -9122,6 +9478,7 @@
       "answer_text": "",
       "marks": 6,
       "has_markscheme": true,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_2__SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2__SL_markscheme.pdf"
@@ -9149,6 +9506,7 @@
       "answer_text": "",
       "marks": 20,
       "has_markscheme": true,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_2__SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2__SL_markscheme.pdf"
@@ -9176,6 +9534,7 @@
       "answer_text": "",
       "marks": 20,
       "has_markscheme": true,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_2__SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2__SL_markscheme.pdf"
@@ -9203,6 +9562,7 @@
       "answer_text": "",
       "marks": 20,
       "has_markscheme": true,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_2__SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2__SL_markscheme.pdf"
@@ -9230,6 +9590,7 @@
       "answer_text": "",
       "marks": 20,
       "has_markscheme": true,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_2__SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2__SL_markscheme.pdf"
@@ -9258,6 +9619,7 @@
       "answer_text": "",
       "marks": 1,
       "has_markscheme": true,
+      "text_booklet_path": "text_booklets/ess_n18_p1_ntz_text_booklet.pdf",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1__question_booklet_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1__SL_markscheme.pdf"
@@ -9284,6 +9646,7 @@
       "answer_text": "",
       "marks": 2,
       "has_markscheme": true,
+      "text_booklet_path": "text_booklets/ess_n18_p1_ntz_text_booklet.pdf",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1__question_booklet_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1__SL_markscheme.pdf"
@@ -9310,6 +9673,7 @@
       "answer_text": "",
       "marks": 4,
       "has_markscheme": true,
+      "text_booklet_path": "text_booklets/ess_n18_p1_ntz_text_booklet.pdf",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1__question_booklet_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1__SL_markscheme.pdf"
@@ -9336,6 +9700,7 @@
       "answer_text": "",
       "marks": 5,
       "has_markscheme": true,
+      "text_booklet_path": "text_booklets/ess_n18_p1_ntz_text_booklet.pdf",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1__question_booklet_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1__SL_markscheme.pdf"
@@ -9362,6 +9727,7 @@
       "answer_text": "",
       "marks": 2,
       "has_markscheme": true,
+      "text_booklet_path": "text_booklets/ess_n18_p1_ntz_text_booklet.pdf",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1__question_booklet_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1__SL_markscheme.pdf"
@@ -9388,6 +9754,7 @@
       "answer_text": "",
       "marks": 3,
       "has_markscheme": true,
+      "text_booklet_path": "text_booklets/ess_n18_p1_ntz_text_booklet.pdf",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1__question_booklet_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1__SL_markscheme.pdf"
@@ -9414,6 +9781,7 @@
       "answer_text": "",
       "marks": 3,
       "has_markscheme": true,
+      "text_booklet_path": "text_booklets/ess_n18_p1_ntz_text_booklet.pdf",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1__question_booklet_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1__SL_markscheme.pdf"
@@ -9440,6 +9808,7 @@
       "answer_text": "",
       "marks": 1,
       "has_markscheme": true,
+      "text_booklet_path": "text_booklets/ess_n18_p1_ntz_text_booklet.pdf",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1__question_booklet_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1__SL_markscheme.pdf"
@@ -9466,6 +9835,7 @@
       "answer_text": "",
       "marks": 2,
       "has_markscheme": true,
+      "text_booklet_path": "text_booklets/ess_n18_p1_ntz_text_booklet.pdf",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1__question_booklet_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1__SL_markscheme.pdf"
@@ -9492,6 +9862,7 @@
       "answer_text": "",
       "marks": 6,
       "has_markscheme": true,
+      "text_booklet_path": "text_booklets/ess_n18_p1_ntz_text_booklet.pdf",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1__question_booklet_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1__SL_markscheme.pdf"
@@ -9518,6 +9889,7 @@
       "answer_text": "",
       "marks": 6,
       "has_markscheme": true,
+      "text_booklet_path": "text_booklets/ess_n18_p1_ntz_text_booklet.pdf",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1__question_booklet_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1__SL_markscheme.pdf"
@@ -9545,6 +9917,7 @@
       "answer_text": "",
       "marks": 10,
       "has_markscheme": true,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_2__SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2__SL_markscheme.pdf"
@@ -9574,6 +9947,7 @@
       "answer_text": "",
       "marks": 8,
       "has_markscheme": true,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_2__SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2__SL_markscheme.pdf"
@@ -9602,6 +9976,7 @@
       "answer_text": "",
       "marks": 7,
       "has_markscheme": true,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_2__SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2__SL_markscheme.pdf"
@@ -9630,6 +10005,7 @@
       "answer_text": "",
       "marks": 20,
       "has_markscheme": true,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_2__SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2__SL_markscheme.pdf"
@@ -9658,6 +10034,7 @@
       "answer_text": "",
       "marks": 20,
       "has_markscheme": true,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_2__SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2__SL_markscheme.pdf"
@@ -9686,6 +10063,7 @@
       "answer_text": "",
       "marks": 20,
       "has_markscheme": true,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_2__SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2__SL_markscheme.pdf"
@@ -9713,6 +10091,7 @@
       "answer_text": "",
       "marks": 20,
       "has_markscheme": true,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_2__SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2__SL_markscheme.pdf"
@@ -9742,6 +10121,7 @@
       "answer_text": "",
       "marks": 6,
       "has_markscheme": false,
+      "text_booklet_path": "text_booklets/ess_n19_p1_ntz_text_booklet.pdf",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1__question_booklet_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1__SL_markscheme.pdf"
@@ -9766,6 +10146,7 @@
       "answer_text": "",
       "marks": 10,
       "has_markscheme": false,
+      "text_booklet_path": "text_booklets/ess_n19_p1_ntz_text_booklet.pdf",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1__question_booklet_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1__SL_markscheme.pdf"
@@ -9791,6 +10172,7 @@
       "answer_text": "",
       "marks": 7,
       "has_markscheme": false,
+      "text_booklet_path": "text_booklets/ess_n19_p1_ntz_text_booklet.pdf",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1__question_booklet_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1__SL_markscheme.pdf"
@@ -9816,6 +10198,7 @@
       "answer_text": "",
       "marks": 6,
       "has_markscheme": false,
+      "text_booklet_path": "text_booklets/ess_n19_p1_ntz_text_booklet.pdf",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1__question_booklet_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1__SL_markscheme.pdf"
@@ -9841,6 +10224,7 @@
       "answer_text": "",
       "marks": 6,
       "has_markscheme": false,
+      "text_booklet_path": "text_booklets/ess_n19_p1_ntz_text_booklet.pdf",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1__question_booklet_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1__SL_markscheme.pdf"
@@ -9865,6 +10249,7 @@
       "answer_text": "",
       "marks": 7,
       "has_markscheme": true,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_2__SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2__SL_markscheme.pdf"
@@ -9893,6 +10278,7 @@
       "answer_text": "",
       "marks": 6,
       "has_markscheme": false,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_2__SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2__SL_markscheme.pdf"
@@ -9919,6 +10305,7 @@
       "answer_text": "",
       "marks": 5,
       "has_markscheme": false,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_2__SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2__SL_markscheme.pdf"
@@ -9945,6 +10332,7 @@
       "answer_text": "",
       "marks": 7,
       "has_markscheme": false,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_2__SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2__SL_markscheme.pdf"
@@ -9970,6 +10358,7 @@
       "answer_text": "",
       "marks": 20,
       "has_markscheme": true,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_2__SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2__SL_markscheme.pdf"
@@ -9996,6 +10385,7 @@
       "answer_text": "",
       "marks": 20,
       "has_markscheme": false,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_2__SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2__SL_markscheme.pdf"
@@ -10020,6 +10410,7 @@
       "answer_text": "",
       "marks": 20,
       "has_markscheme": true,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_2__SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2__SL_markscheme.pdf"
@@ -10046,6 +10437,7 @@
       "answer_text": "",
       "marks": 20,
       "has_markscheme": true,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_2__SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2__SL_markscheme.pdf"
@@ -10087,6 +10479,7 @@
       "answer_text": "",
       "marks": 3,
       "has_markscheme": false,
+      "text_booklet_path": "text_booklets/ess_n20_p1_ntz_text_booklet.pdf",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1__question_booklet_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1__SL_markscheme.pdf"
@@ -10111,6 +10504,7 @@
       "answer_text": "",
       "marks": 8,
       "has_markscheme": false,
+      "text_booklet_path": "text_booklets/ess_n20_p1_ntz_text_booklet.pdf",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1__question_booklet_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1__SL_markscheme.pdf"
@@ -10136,6 +10530,7 @@
       "answer_text": "",
       "marks": 8,
       "has_markscheme": false,
+      "text_booklet_path": "text_booklets/ess_n20_p1_ntz_text_booklet.pdf",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1__question_booklet_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1__SL_markscheme.pdf"
@@ -10160,6 +10555,7 @@
       "answer_text": "",
       "marks": 3,
       "has_markscheme": false,
+      "text_booklet_path": "text_booklets/ess_n20_p1_ntz_text_booklet.pdf",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1__question_booklet_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1__SL_markscheme.pdf"
@@ -10184,6 +10580,7 @@
       "answer_text": "",
       "marks": 4,
       "has_markscheme": false,
+      "text_booklet_path": "text_booklets/ess_n20_p1_ntz_text_booklet.pdf",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1__question_booklet_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1__SL_markscheme.pdf"
@@ -10208,6 +10605,7 @@
       "answer_text": "",
       "marks": 3,
       "has_markscheme": false,
+      "text_booklet_path": "text_booklets/ess_n20_p1_ntz_text_booklet.pdf",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1__question_booklet_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1__SL_markscheme.pdf"
@@ -10232,6 +10630,7 @@
       "answer_text": "",
       "marks": 6,
       "has_markscheme": false,
+      "text_booklet_path": "text_booklets/ess_n20_p1_ntz_text_booklet.pdf",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1__question_booklet_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1__SL_markscheme.pdf"
@@ -10256,6 +10655,7 @@
       "answer_text": "",
       "marks": 8,
       "has_markscheme": true,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_2__SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2__SL_markscheme.pdf"
@@ -10284,6 +10684,7 @@
       "answer_text": "",
       "marks": 8,
       "has_markscheme": false,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_2__SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2__SL_markscheme.pdf"
@@ -10310,6 +10711,7 @@
       "answer_text": "",
       "marks": 9,
       "has_markscheme": false,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_2__SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2__SL_markscheme.pdf"
@@ -10335,6 +10737,7 @@
       "answer_text": "",
       "marks": 20,
       "has_markscheme": false,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_2__SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2__SL_markscheme.pdf"
@@ -10359,6 +10762,7 @@
       "answer_text": "",
       "marks": 20,
       "has_markscheme": true,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_2__SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2__SL_markscheme.pdf"
@@ -10385,6 +10789,7 @@
       "answer_text": "",
       "marks": 20,
       "has_markscheme": false,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_2__SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2__SL_markscheme.pdf"
@@ -10409,6 +10814,7 @@
       "answer_text": "",
       "marks": 20,
       "has_markscheme": true,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_2__SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2__SL_markscheme.pdf"
@@ -10436,6 +10842,7 @@
       "answer_text": "",
       "marks": 6,
       "has_markscheme": false,
+      "text_booklet_path": "text_booklets/ess_n21_p1_ntz_text_booklet.pdf",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1__question_booklet_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1__SL_markscheme.pdf"
@@ -10460,6 +10867,7 @@
       "answer_text": "",
       "marks": 5,
       "has_markscheme": false,
+      "text_booklet_path": "text_booklets/ess_n21_p1_ntz_text_booklet.pdf",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1__question_booklet_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1__SL_markscheme.pdf"
@@ -10484,6 +10892,7 @@
       "answer_text": "",
       "marks": 6,
       "has_markscheme": false,
+      "text_booklet_path": "text_booklets/ess_n21_p1_ntz_text_booklet.pdf",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1__question_booklet_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1__SL_markscheme.pdf"
@@ -10508,6 +10917,7 @@
       "answer_text": "",
       "marks": 8,
       "has_markscheme": false,
+      "text_booklet_path": "text_booklets/ess_n21_p1_ntz_text_booklet.pdf",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1__question_booklet_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1__SL_markscheme.pdf"
@@ -10532,6 +10942,7 @@
       "answer_text": "",
       "marks": 4,
       "has_markscheme": false,
+      "text_booklet_path": "text_booklets/ess_n21_p1_ntz_text_booklet.pdf",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1__question_booklet_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1__SL_markscheme.pdf"
@@ -10556,6 +10967,7 @@
       "answer_text": "",
       "marks": 6,
       "has_markscheme": false,
+      "text_booklet_path": "text_booklets/ess_n21_p1_ntz_text_booklet.pdf",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1__question_booklet_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1__SL_markscheme.pdf"
@@ -10580,6 +10992,7 @@
       "answer_text": "",
       "marks": 8,
       "has_markscheme": true,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_2__SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2__SL_markscheme.pdf"
@@ -10607,6 +11020,7 @@
       "answer_text": "",
       "marks": 8,
       "has_markscheme": false,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_2__SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2__SL_markscheme.pdf"
@@ -10633,6 +11047,7 @@
       "answer_text": "",
       "marks": 9,
       "has_markscheme": false,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_2__SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2__SL_markscheme.pdf"
@@ -10659,6 +11074,7 @@
       "answer_text": "",
       "marks": 20,
       "has_markscheme": false,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_2__SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2__SL_markscheme.pdf"
@@ -10683,6 +11099,7 @@
       "answer_text": "",
       "marks": 20,
       "has_markscheme": true,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_2__SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2__SL_markscheme.pdf"
@@ -10709,6 +11126,7 @@
       "answer_text": "",
       "marks": 20,
       "has_markscheme": false,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_2__SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2__SL_markscheme.pdf"
@@ -10733,6 +11151,7 @@
       "answer_text": "",
       "marks": 20,
       "has_markscheme": true,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_2__SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2__SL_markscheme.pdf"
@@ -10759,6 +11178,7 @@
       "answer_text": "",
       "marks": 7,
       "has_markscheme": true,
+      "text_booklet_path": "text_booklets/ess_n22_p1_ntz_text_booklet.pdf",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1__question_booklet_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1__SL_markscheme.pdf"
@@ -10785,6 +11205,7 @@
       "answer_text": "",
       "marks": 10,
       "has_markscheme": false,
+      "text_booklet_path": "text_booklets/ess_n22_p1_ntz_text_booklet.pdf",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1__question_booklet_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1__SL_markscheme.pdf"
@@ -10810,6 +11231,7 @@
       "answer_text": "",
       "marks": 4,
       "has_markscheme": false,
+      "text_booklet_path": "text_booklets/ess_n22_p1_ntz_text_booklet.pdf",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1__question_booklet_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1__SL_markscheme.pdf"
@@ -10834,6 +11256,7 @@
       "answer_text": "",
       "marks": 5,
       "has_markscheme": false,
+      "text_booklet_path": "text_booklets/ess_n22_p1_ntz_text_booklet.pdf",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1__question_booklet_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1__SL_markscheme.pdf"
@@ -10858,6 +11281,7 @@
       "answer_text": "",
       "marks": 3,
       "has_markscheme": true,
+      "text_booklet_path": "text_booklets/ess_n22_p1_ntz_text_booklet.pdf",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1__question_booklet_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1__SL_markscheme.pdf"
@@ -10884,6 +11308,7 @@
       "answer_text": "",
       "marks": 6,
       "has_markscheme": false,
+      "text_booklet_path": "text_booklets/ess_n22_p1_ntz_text_booklet.pdf",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1__question_booklet_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1__SL_markscheme.pdf"
@@ -10908,6 +11333,7 @@
       "answer_text": "",
       "marks": null,
       "has_markscheme": true,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_2__SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2__SL_markscheme.pdf"
@@ -10932,6 +11358,7 @@
       "answer_text": "",
       "marks": 9,
       "has_markscheme": false,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_2__SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2__SL_markscheme.pdf"
@@ -10954,6 +11381,7 @@
       "answer_text": "",
       "marks": 8,
       "has_markscheme": false,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_2__SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2__SL_markscheme.pdf"
@@ -10986,6 +11414,7 @@
       "answer_text": "",
       "marks": 20,
       "has_markscheme": false,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_2__SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2__SL_markscheme.pdf"
@@ -11010,6 +11439,7 @@
       "answer_text": "",
       "marks": 20,
       "has_markscheme": true,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_2__SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2__SL_markscheme.pdf"
@@ -11036,6 +11466,7 @@
       "answer_text": "",
       "marks": 20,
       "has_markscheme": false,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_2__SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2__SL_markscheme.pdf"
@@ -11060,6 +11491,7 @@
       "answer_text": "",
       "marks": 20,
       "has_markscheme": true,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_2__SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2__SL_markscheme.pdf"
@@ -11086,6 +11518,7 @@
       "answer_text": "",
       "marks": null,
       "has_markscheme": true,
+      "text_booklet_path": "text_booklets/ess_n23_p1_ntz_text_booklet.pdf",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1__question_booklet_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1__SL_markscheme.pdf"
@@ -11112,6 +11545,7 @@
       "answer_text": "",
       "marks": null,
       "has_markscheme": false,
+      "text_booklet_path": "text_booklets/ess_n23_p1_ntz_text_booklet.pdf",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1__question_booklet_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1__SL_markscheme.pdf"
@@ -11137,6 +11571,7 @@
       "answer_text": "",
       "marks": 8,
       "has_markscheme": false,
+      "text_booklet_path": "text_booklets/ess_n23_p1_ntz_text_booklet.pdf",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1__question_booklet_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1__SL_markscheme.pdf"
@@ -11161,6 +11596,7 @@
       "answer_text": "",
       "marks": 4,
       "has_markscheme": false,
+      "text_booklet_path": "text_booklets/ess_n23_p1_ntz_text_booklet.pdf",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1__question_booklet_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1__SL_markscheme.pdf"
@@ -11185,6 +11621,7 @@
       "answer_text": "",
       "marks": 8,
       "has_markscheme": true,
+      "text_booklet_path": "text_booklets/ess_n23_p1_ntz_text_booklet.pdf",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1__question_booklet_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1__SL_markscheme.pdf"
@@ -11211,6 +11648,7 @@
       "answer_text": "",
       "marks": 2,
       "has_markscheme": false,
+      "text_booklet_path": "text_booklets/ess_n23_p1_ntz_text_booklet.pdf",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1__question_booklet_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1__SL_markscheme.pdf"
@@ -11235,6 +11673,7 @@
       "answer_text": "",
       "marks": 6,
       "has_markscheme": true,
+      "text_booklet_path": "text_booklets/ess_n23_p1_ntz_text_booklet.pdf",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1__question_booklet_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1__SL_markscheme.pdf"
@@ -11261,6 +11700,7 @@
       "answer_text": "",
       "marks": 7,
       "has_markscheme": true,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_2__TZ1_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2__TZ1_SL_markscheme.pdf"
@@ -11289,6 +11729,7 @@
       "answer_text": "",
       "marks": 9,
       "has_markscheme": false,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_2__TZ1_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2__TZ1_SL_markscheme.pdf"
@@ -11315,6 +11756,7 @@
       "answer_text": "",
       "marks": 9,
       "has_markscheme": false,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_2__TZ1_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2__TZ1_SL_markscheme.pdf"
@@ -11340,6 +11782,7 @@
       "answer_text": "",
       "marks": 20,
       "has_markscheme": false,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_2__TZ1_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2__TZ1_SL_markscheme.pdf"
@@ -11364,6 +11807,7 @@
       "answer_text": "",
       "marks": 20,
       "has_markscheme": true,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_2__TZ1_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2__TZ1_SL_markscheme.pdf"
@@ -11390,6 +11834,7 @@
       "answer_text": "",
       "marks": 20,
       "has_markscheme": false,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_2__TZ1_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2__TZ1_SL_markscheme.pdf"
@@ -11414,6 +11859,7 @@
       "answer_text": "",
       "marks": 20,
       "has_markscheme": true,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_2__TZ1_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2__TZ1_SL_markscheme.pdf"
@@ -11440,6 +11886,7 @@
       "answer_text": "",
       "marks": 7,
       "has_markscheme": true,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_2__TZ2_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2__TZ2_SL_markscheme.pdf"
@@ -11468,6 +11915,7 @@
       "answer_text": "",
       "marks": 9,
       "has_markscheme": false,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_2__TZ2_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2__TZ2_SL_markscheme.pdf"
@@ -11494,6 +11942,7 @@
       "answer_text": "",
       "marks": 9,
       "has_markscheme": false,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_2__TZ2_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2__TZ2_SL_markscheme.pdf"
@@ -11519,6 +11968,7 @@
       "answer_text": "",
       "marks": 20,
       "has_markscheme": false,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_2__TZ2_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2__TZ2_SL_markscheme.pdf"
@@ -11543,6 +11993,7 @@
       "answer_text": "",
       "marks": 20,
       "has_markscheme": true,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_2__TZ2_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2__TZ2_SL_markscheme.pdf"
@@ -11569,6 +12020,7 @@
       "answer_text": "",
       "marks": 20,
       "has_markscheme": false,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_2__TZ2_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2__TZ2_SL_markscheme.pdf"
@@ -11593,6 +12045,7 @@
       "answer_text": "",
       "marks": 20,
       "has_markscheme": true,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_2__TZ2_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2__TZ2_SL_markscheme.pdf"
@@ -11619,6 +12072,7 @@
       "answer_text": "",
       "marks": 5,
       "has_markscheme": true,
+      "text_booklet_path": "text_booklets/ess_n24_p1_tz1_text_booklet.pdf",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1__question_booklet_TZ1_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1__TZ1_SL_markscheme.pdf"
@@ -11645,6 +12099,7 @@
       "answer_text": "",
       "marks": 4,
       "has_markscheme": false,
+      "text_booklet_path": "text_booklets/ess_n24_p1_tz1_text_booklet.pdf",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1__question_booklet_TZ1_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1__TZ1_SL_markscheme.pdf"
@@ -11669,6 +12124,7 @@
       "answer_text": "",
       "marks": 7,
       "has_markscheme": false,
+      "text_booklet_path": "text_booklets/ess_n24_p1_tz1_text_booklet.pdf",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1__question_booklet_TZ1_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1__TZ1_SL_markscheme.pdf"
@@ -11693,6 +12149,7 @@
       "answer_text": "",
       "marks": 3,
       "has_markscheme": false,
+      "text_booklet_path": "text_booklets/ess_n24_p1_tz1_text_booklet.pdf",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1__question_booklet_TZ1_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1__TZ1_SL_markscheme.pdf"
@@ -11717,6 +12174,7 @@
       "answer_text": "",
       "marks": 6,
       "has_markscheme": true,
+      "text_booklet_path": "text_booklets/ess_n24_p1_tz1_text_booklet.pdf",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1__question_booklet_TZ1_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1__TZ1_SL_markscheme.pdf"
@@ -11743,6 +12201,7 @@
       "answer_text": "",
       "marks": 4,
       "has_markscheme": false,
+      "text_booklet_path": "text_booklets/ess_n24_p1_tz1_text_booklet.pdf",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1__question_booklet_TZ1_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1__TZ1_SL_markscheme.pdf"
@@ -11767,6 +12226,7 @@
       "answer_text": "",
       "marks": 6,
       "has_markscheme": true,
+      "text_booklet_path": "text_booklets/ess_n24_p1_tz1_text_booklet.pdf",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1__question_booklet_TZ1_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1__TZ1_SL_markscheme.pdf"
@@ -11793,6 +12253,7 @@
       "answer_text": "",
       "marks": 5,
       "has_markscheme": true,
+      "text_booklet_path": "text_booklets/ess_n24_p1_tz2_text_booklet.pdf",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1__question_booklet_TZ2_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1__TZ2_SL_markscheme.pdf"
@@ -11819,6 +12280,7 @@
       "answer_text": "",
       "marks": 4,
       "has_markscheme": false,
+      "text_booklet_path": "text_booklets/ess_n24_p1_tz2_text_booklet.pdf",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1__question_booklet_TZ2_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1__TZ2_SL_markscheme.pdf"
@@ -11843,6 +12305,7 @@
       "answer_text": "",
       "marks": 7,
       "has_markscheme": false,
+      "text_booklet_path": "text_booklets/ess_n24_p1_tz2_text_booklet.pdf",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1__question_booklet_TZ2_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1__TZ2_SL_markscheme.pdf"
@@ -11867,6 +12330,7 @@
       "answer_text": "",
       "marks": 3,
       "has_markscheme": false,
+      "text_booklet_path": "text_booklets/ess_n24_p1_tz2_text_booklet.pdf",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1__question_booklet_TZ2_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1__TZ2_SL_markscheme.pdf"
@@ -11891,6 +12355,7 @@
       "answer_text": "",
       "marks": 6,
       "has_markscheme": true,
+      "text_booklet_path": "text_booklets/ess_n24_p1_tz2_text_booklet.pdf",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1__question_booklet_TZ2_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1__TZ2_SL_markscheme.pdf"
@@ -11917,6 +12382,7 @@
       "answer_text": "",
       "marks": 4,
       "has_markscheme": false,
+      "text_booklet_path": "text_booklets/ess_n24_p1_tz2_text_booklet.pdf",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1__question_booklet_TZ2_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1__TZ2_SL_markscheme.pdf"
@@ -11941,6 +12407,7 @@
       "answer_text": "",
       "marks": 6,
       "has_markscheme": false,
+      "text_booklet_path": "text_booklets/ess_n24_p1_tz2_text_booklet.pdf",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_1__question_booklet_TZ2_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_1__TZ2_SL_markscheme.pdf"
@@ -11965,6 +12432,7 @@
       "answer_text": "",
       "marks": 9,
       "has_markscheme": true,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_2__TZ1_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2__TZ1_SL_markscheme.pdf"
@@ -11992,6 +12460,7 @@
       "answer_text": "",
       "marks": 9,
       "has_markscheme": false,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_2__TZ1_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2__TZ1_SL_markscheme.pdf"
@@ -12017,6 +12486,7 @@
       "answer_text": "",
       "marks": 7,
       "has_markscheme": false,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_2__TZ1_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2__TZ1_SL_markscheme.pdf"
@@ -12041,6 +12511,7 @@
       "answer_text": "",
       "marks": 20,
       "has_markscheme": false,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_2__TZ1_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2__TZ1_SL_markscheme.pdf"
@@ -12065,6 +12536,7 @@
       "answer_text": "",
       "marks": 20,
       "has_markscheme": true,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_2__TZ1_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2__TZ1_SL_markscheme.pdf"
@@ -12091,6 +12563,7 @@
       "answer_text": "",
       "marks": 20,
       "has_markscheme": false,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_2__TZ1_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2__TZ1_SL_markscheme.pdf"
@@ -12115,6 +12588,7 @@
       "answer_text": "",
       "marks": 20,
       "has_markscheme": true,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_2__TZ1_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2__TZ1_SL_markscheme.pdf"
@@ -12141,6 +12615,7 @@
       "answer_text": "",
       "marks": 9,
       "has_markscheme": true,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_2__TZ2_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2__TZ2_SL_markscheme.pdf"
@@ -12168,6 +12643,7 @@
       "answer_text": "",
       "marks": 9,
       "has_markscheme": false,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_2__TZ2_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2__TZ2_SL_markscheme.pdf"
@@ -12193,6 +12669,7 @@
       "answer_text": "",
       "marks": 7,
       "has_markscheme": false,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_2__TZ2_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2__TZ2_SL_markscheme.pdf"
@@ -12217,6 +12694,7 @@
       "answer_text": "",
       "marks": 20,
       "has_markscheme": false,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_2__TZ2_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2__TZ2_SL_markscheme.pdf"
@@ -12241,6 +12719,7 @@
       "answer_text": "",
       "marks": 20,
       "has_markscheme": true,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_2__TZ2_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2__TZ2_SL_markscheme.pdf"
@@ -12267,6 +12746,7 @@
       "answer_text": "",
       "marks": 20,
       "has_markscheme": false,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_2__TZ2_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2__TZ2_SL_markscheme.pdf"
@@ -12291,6 +12771,7 @@
       "answer_text": "",
       "marks": 20,
       "has_markscheme": true,
+      "text_booklet_path": "",
       "source": {
         "paper_file": "Environmental_systems_and_societies_paper_2__TZ2_SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2__TZ2_SL_markscheme.pdf"

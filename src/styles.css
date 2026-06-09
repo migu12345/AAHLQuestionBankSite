@@ -634,6 +634,24 @@ button:hover {
   background: #e1eefc;
 }
 
+.btn-case-study {
+  display: inline-block;
+  margin: 0 0 0.7rem;
+  padding: 0.48rem 0.72rem;
+  background: #f0faf3;
+  border: 1px solid #a8d8b8;
+  border-radius: 10px;
+  color: #1a4a2e;
+  font-weight: 600;
+  font-size: inherit;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.btn-case-study:hover {
+  background: #e0f5e8;
+}
+
 .case-study-link {
   display: inline-block;
   margin: 0 0 0.7rem;

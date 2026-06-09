@@ -26,6 +26,7 @@ import fitz  # type: ignore
 SOURCE = Path("/Users/s933863@aics.espritscholen.nl/Desktop/Downloads/IB PAST PAPERS - YEAR")
 OUT = ROOT / "data" / "ess" / "processed" / "questions.json"
 IMAGES_ROOT = ROOT / "data" / "ess" / "processed" / "images"
+TEXT_BOOKLETS_DIR = ROOT / "data" / "ess" / "processed" / "text_booklets"
 
 NON_ENGLISH = [
     "french", "german", "spanish", "dutch", "arabic", "chinese", "japanese",
@@ -116,7 +117,6 @@ def discover_papers() -> List[dict]:
             existing = seen_keys[key]
             if "PDFs" in str(pdf) and "HTML" in str(existing):
                 seen_keys[key] = pdf
-            # otherwise keep existing
         else:
             seen_keys[key] = pdf
 
@@ -124,6 +124,72 @@ def discover_papers() -> List[dict]:
         results.append({"year": year, "session": session, "paper": paper, "tz": tz, "is_ms": is_ms, "path": path})
 
     return results
+
+
+def discover_text_booklets() -> dict[tuple, Path]:
+    """
+    Returns a dict keyed by (year, session, tz) → source PDF path.
+    Covers both 'text_booklet' and 'resource_booklet' naming (the latter used
+    in May/Nov 2020–2021 during COVID-era modified assessments).
+    """
+    index: dict[tuple, Path] = {}
+    seen_keys: dict[tuple, Path] = {}
+
+    for pdf in SOURCE.rglob("*.pdf"):
+        if not is_english(pdf):
+            continue
+        name = pdf.name.lower()
+        if "environmental_systems" not in name:
+            continue
+        if "paper_2" in name or "paper 2" in name:
+            continue
+        is_text = "text_booklet" in name or "resource_booklet" in name
+        if not is_text:
+            continue
+        if "markscheme" in name:
+            continue
+
+        meta_sy = parse_session_year(pdf)
+        if meta_sy is None:
+            continue
+        session, year = meta_sy
+
+        tz_m = re.search(r"tz([123])", name)
+        if tz_m:
+            tz = f"TZ{tz_m.group(1)}"
+        elif session == "November":
+            tz = "NTZ"
+        else:
+            tz = "TZ1"
+
+        key = (year, session, tz)
+        if key in seen_keys:
+            existing = seen_keys[key]
+            if "PDFs" in str(pdf) and "HTML" in str(existing):
+                seen_keys[key] = pdf
+        else:
+            seen_keys[key] = pdf
+
+    return seen_keys
+
+
+def copy_text_booklets(tb_index: dict[tuple, Path]) -> dict[tuple, str]:
+    """
+    Copies each text booklet into TEXT_BOOKLETS_DIR with a canonical name.
+    Returns a dict (year, session, tz) → relative path from processed/.
+    """
+    import shutil
+    TEXT_BOOKLETS_DIR.mkdir(parents=True, exist_ok=True)
+    result: dict[tuple, str] = {}
+    for (year, session, tz), src in tb_index.items():
+        sc = ("m" if session == "May" else "n") + str(year)[-2:]
+        tz_slug = tz.lower()
+        dest_name = f"ess_{sc}_p1_{tz_slug}_text_booklet.pdf"
+        dest = TEXT_BOOKLETS_DIR / dest_name
+        if not dest.exists():
+            shutil.copy2(src, dest)
+        result[(year, session, tz)] = f"text_booklets/{dest_name}"
+    return result
 
 
 # ---------------------------------------------------------------------------
@@ -492,7 +558,9 @@ def main() -> None:
         if k not in ms_index:
             ms_index[k] = ms["path"]
 
-    print(f"Found {len(q_papers)} ESS question papers, {len(ms_papers)} markschemes")
+    tb_source = discover_text_booklets()
+    tb_index = copy_text_booklets(tb_source)
+    print(f"Found {len(q_papers)} ESS question papers, {len(ms_papers)} markschemes, {len(tb_index)} text booklets")
 
     questions: List[dict] = []
 
@@ -527,6 +595,17 @@ def main() -> None:
 
         print(f"{len(qnums)} questions")
 
+        # Text booklet: P1 papers from 2017+ have a case-study booklet.
+        # Try exact TZ match first, then fall back to TZ1/NTZ for shared booklets.
+        tb_rel: str = ""
+        if p["paper"] == "1":
+            tb_rel = (
+                tb_index.get((p["year"], p["session"], p["tz"]))
+                or tb_index.get((p["year"], p["session"], "TZ1"))
+                or tb_index.get((p["year"], p["session"], "NTZ"))
+                or ""
+            )
+
         for qn in qnums:
             base = f"ess_{sc}_p{p['paper']}_{tz_slug}_q{qn}"
             q_img_prefix = IMAGES_ROOT / "questions" / base
@@ -555,6 +634,7 @@ def main() -> None:
                 "answer_text": "",
                 "marks": marks,
                 "has_markscheme": bool(ms_images),
+                "text_booklet_path": tb_rel,
                 "source": {
                     "paper_file": paper_path.name,
                     "markscheme_file": ms_path.name if ms_path else "",

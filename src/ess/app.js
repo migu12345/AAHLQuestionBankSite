@@ -271,6 +271,17 @@ function buildQuestionNode(q) {
 
   sideBySideBtn.addEventListener("click", () => openCompareModal(q));
 
+  const textBookletPath = q.text_booklet_path || "";
+  if (textBookletPath) {
+    const tbBtn = document.createElement("a");
+    tbBtn.className = "btn-case-study";
+    tbBtn.textContent = "View Case Study";
+    tbBtn.href = window.assetUrl(`/data/ess/processed/${textBookletPath}`);
+    tbBtn.target = "_blank";
+    tbBtn.rel = "noopener noreferrer";
+    node.querySelector(".question-actions").after(tbBtn);
+  }
+
   if (qImages.length > 0) {
     qImages.forEach((imgPath, index) => {
       questionImagesEl.appendChild(createImageWithFallback(imgPath, `Question ${questionNumber} image ${index + 1}`));
