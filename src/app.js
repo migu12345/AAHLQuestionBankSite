@@ -214,6 +214,13 @@ function matchesSearchQuery(q, rawQuery, level) {
   return tokens.every((token) => matchesSearchToken(q, token, normalizedHaystack, level));
 }
 
+function shuffleArray(arr) {
+  for (let i = arr.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [arr[i], arr[j]] = [arr[j], arr[i]];
+  }
+}
+
 function filterQuestions() {
   if (state.paperBundle) {
     return filterQuestionsByBundle();
@@ -654,6 +661,7 @@ function updateResultSummary() {
 function renderQuestions(reset = true) {
   if (reset) {
     state.filteredQuestions = filterQuestions();
+    shuffleArray(state.filteredQuestions);
     state.visibleCount = Math.min(PAGE_SIZE, state.filteredQuestions.length);
     questionList.innerHTML = "";
 
