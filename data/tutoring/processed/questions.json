@@ -2779,7 +2779,8 @@
       "title": "Q7",
       "question_text": "6b.\n[4 marks]\nFind a general expression for\n.\nu\nn",
       "question_image_paths": [
-        "images/questions/t1p1_q7_p1.png"
+        "images/questions/t1p1_q7_p1.png",
+        "images/questions/t1p1_q7_p2.png"
       ],
       "level": "SL",
       "paper_type": null,
@@ -2844,7 +2845,8 @@
       "title": "Q11",
       "question_text": "10b.\n[3 marks]\nHence or otherwise, solve\n.\n3\nln\n2\n−\nln\n4\n=\n−\nln\nx",
       "question_image_paths": [
-        "images/questions/t1p1_q11_p1.png"
+        "images/questions/t1p1_q11_p1.png",
+        "images/questions/t1p1_q11_p2.png"
       ],
       "level": "SL",
       "paper_type": null,
@@ -2973,7 +2975,8 @@
       "title": "Q19",
       "question_text": "18.\nGiven that \\({\\left( {1 + \\frac{2}{3}x} \\right)^n}{(3 + nx)^2} = 9 + 84\nx\n+ \\ldots \\) , find the value of\nn\n.\n19a.\n[4 marks]\nThe first term of a geometric sequence is 200 and the sum of the first four terms\nis 324.8.\nFind the common ratio.",
       "question_image_paths": [
-        "images/questions/t1p1_q19_p1.png"
+        "images/questions/t1p1_q19_p1.png",
+        "images/questions/t1p1_q19_p2.png"
       ],
       "level": "SL",
       "paper_type": null,
@@ -3396,7 +3399,8 @@
       "title": "Q8",
       "question_text": "7b.\n[3 marks]\nA particle moves along a straight line so that its velocity in ms\n, at\ntime\nt\nseconds, is given by\nv\n. Find the distance the particle\ntravels between\nand\n.\n−1\nt\n=\n5.0\nt\n=\n6.8\n8a.\n[4 marks]\nConsider an infinite geometric sequence with\nand\n\n.\n(i) Find\n.\n(ii) Find the sum of the infinite sequence.\n=\n40\nu\n1\nr\n=\n1\n2\nu\n4\n8b.\n[5 marks]\nConsider an arithmetic sequence with\nn\nterms, with first term (\n) and eighth\nterm (\n) .\n(i) Find the common difference.\n(ii) Show that\n.\n−\n36\n−\n8\n=\n2\n−\n38\nn\nS\nn\nn\n2\n[5 marks]",
       "question_image_paths": [
-        "images/questions/t2p1_q8_p1.png"
+        "images/questions/t2p1_q8_p1.png",
+        "images/questions/t2p1_q8_p2.png"
       ],
       "level": "SL",
       "paper_type": null,
@@ -3575,7 +3579,8 @@
       "title": "Q19",
       "question_text": "18d.\n[7 marks]\nA particle moves along a straight line so that its velocity,\n, at time\nt\nseconds is\ngiven by\n, for\n.\n(i) Find the value of\nt\nwhen the speed of the particle is greatest.\n(ii) Find the acceleration of the particle when its speed is zero.\nv\nm\ns\n−\n1\nv\n=\n240\n+\n20\nt\n−\n10\nt\n2\n0\n≤\nt\n≤\n6\n19a.\n[2 marks]\nLet\n,\nand\n.\nFind\n.\nf\n(\nx\n)\n=\n3\nx\ng\n(\nx\n)\n=\n2\nx\n−\n5\nh\n(\nx\n)\n=\n(\nf\n∘\ng\n)\n(\nx\n)\nh\n(\nx\n)",
       "question_image_paths": [
-        "images/questions/t2p1_q19_p1.png"
+        "images/questions/t2p1_q19_p1.png",
+        "images/questions/t2p1_q19_p2.png"
       ],
       "level": "SL",
       "paper_type": null,
@@ -4698,7 +4703,8 @@
       "title": "Q20",
       "question_text": "19b.\nFind BC.\n20a.\n[1 mark]\nThe following diagram shows a circle with centre O and radius\ncm.\nPoints A and B are on the circumference of the circle and\nradians .\nThe point C is on [OA] such that\nradians\n.\nShow that\n.\nr\nA\nB\n=\n1.4\nO\n^\nB\nO\n=\nC\n^\nπ\n2\nO\nC\n=\nr\ncos\n1.4",
       "question_image_paths": [
-        "images/questions/t3p1_q20_p1.png"
+        "images/questions/t3p1_q20_p1.png",
+        "images/questions/t3p1_q20_p2.png"
       ],
       "level": "SL",
       "paper_type": null,
@@ -8895,7 +8901,8 @@
       "title": "Q19",
       "question_text": "18b.\n[4 marks]\nThe graph of the function\nis obtained by applying the following transformations to the graph of\n:\na reflection in the\n–axis followed by a translation by the vector\n.\nFind\n.\ng\nf\ny\n(\n)\n2\n0\ng\n(\nx\n)\n19a.\n[5 marks]\nConsider the curve with equation\n.\nUse implicit differentiation to find an expression for\n.\n=\n4\nx\n(\n+\n)\nx\n2\ny\n2\n2\ny\n2\nd\ny\nd\nx\n[3 marks]",
       "question_image_paths": [
-        "images/questions/t5_t61_q19_p1.png"
+        "images/questions/t5_t61_q19_p1.png",
+        "images/questions/t5_t61_q19_p2.png"
       ],
       "level": "HL",
       "paper_type": null,
@@ -9453,7 +9460,8 @@
       "title": "Q18",
       "question_text": "17.\n[6 marks]\nLet\n. The point\nlies on the curve of\nf\n. At P, the normal to the curve\nis parallel to\n\n. Find the value of\nk\n.\nf\n(\nx\n)\n=\nk\nx\n4\nP\n(\n1\n,\nk\n)\ny\n=\n−\nx\n1\n8\n18a.\n[2 marks]\nA function\nf\nis defined for\n. The graph of\nf\nis given below.\nThe graph has a local maximum when\n, and local minima when\n,\n.\nWrite down the\nx\n-intercepts of the graph of the\nderivative\nfunction,\n.\n−\n4\n≤\nx\n≤\n3\nx\n=\n0\nx\n=\n−\n3\nx\n=\n2\nf\n′\n18b.\n[2 marks]\nWrite down all values of\nx\nfor which\nis positive.\n(\nx\n)\nf\n′",
       "question_image_paths": [
-        "images/questions/t5_sl2_q18_p1.png"
+        "images/questions/t5_sl2_q18_p1.png",
+        "images/questions/t5_sl2_q18_p2.png"
       ],
       "level": "SL",
       "paper_type": null,
@@ -9650,7 +9658,8 @@
       "title": "Q30",
       "question_text": "29d.\n[8 marks]\nThe region\nR\nis rotated\nabout the\nx\n-axis. Find the volume of the solid formed,\ngiving your answer in terms of\n.\n360\n∘\nπ\n30a.\n[2 marks]\nLet\nand\n.\nFind\n.\nf\n(\nx\n)\n=\ncos\n2\nx\ng\n(\nx\n)\n=\nln\n(\n3\nx\n−\n5\n)\n(\nx\n)\nf\n′\n30b.\n[2 marks]\nFind\n.\n(\nx\n)\ng\n′",
       "question_image_paths": [
-        "images/questions/t5_sl2_q30_p1.png"
+        "images/questions/t5_sl2_q30_p1.png",
+        "images/questions/t5_sl2_q30_p2.png"
       ],
       "level": "SL",
       "paper_type": null,
@@ -10153,7 +10162,8 @@
       "title": "Q5",
       "question_text": "\n\nFind the value of\nk\nfor which the two roots of the equation are closest together.",
       "question_image_paths": [
-        "images/questions/t2_6_q5_p1.png"
+        "images/questions/t2_6_q5_p1.png",
+        "images/questions/t2_6_q5_p2.png"
       ],
       "level": "HL",
       "paper_type": null,
@@ -10201,7 +10211,8 @@
       "title": "Q8",
       "question_text": "",
       "question_image_paths": [
-        "images/questions/t2_6_q8_p1.png"
+        "images/questions/t2_6_q8_p1.png",
+        "images/questions/t2_6_q8_p2.png"
       ],
       "level": "HL",
       "paper_type": null,
@@ -10381,7 +10392,8 @@
       "title": "Q19",
       "question_text": "",
       "question_image_paths": [
-        "images/questions/t2_6_q19_p1.png"
+        "images/questions/t2_6_q19_p1.png",
+        "images/questions/t2_6_q19_p2.png"
       ],
       "level": "HL",
       "paper_type": null,
@@ -10397,7 +10409,8 @@
       "title": "Q19",
       "question_text": "",
       "question_image_paths": [
-        "images/questions/t2_6_q19_p1.png"
+        "images/questions/t2_6_q19_p1.png",
+        "images/questions/t2_6_q19_p2.png"
       ],
       "level": "HL",
       "paper_type": null,
@@ -10413,7 +10426,8 @@
       "title": "Q8",
       "question_text": "8.5\nc\nm\n3\ns\n−\n1\nc\n250\nh\n√\nπ\n(\nh\n+\n16\n)\nm\n3\ns\n−\n1\nR\n5\n4\n3\n2",
       "question_image_paths": [
-        "images/questions/t2_6_q8_p1.png"
+        "images/questions/t2_6_q8_p1.png",
+        "images/questions/t2_6_q8_p2.png"
       ],
       "level": "HL",
       "paper_type": null,
@@ -10720,7 +10734,8 @@
       "title": "Q4",
       "question_text": "",
       "question_image_paths": [
-        "images/questions/t5_p1_q4_p1.png"
+        "images/questions/t5_p1_q4_p1.png",
+        "images/questions/t5_p1_q4_p2.png"
       ],
       "level": "HL",
       "paper_type": "Paper 1",
@@ -10851,7 +10866,8 @@
       "title": "Q12",
       "question_text": "\n\nFind the equation of the normal to the curve at the point (1, 1).",
       "question_image_paths": [
-        "images/questions/t5_p1_q12_p1.png"
+        "images/questions/t5_p1_q12_p1.png",
+        "images/questions/t5_p1_q12_p2.png"
       ],
       "level": "HL",
       "paper_type": "Paper 1",
@@ -10949,7 +10965,8 @@
       "title": "Q18",
       "question_text": "",
       "question_image_paths": [
-        "images/questions/t5_p1_q18_p1.png"
+        "images/questions/t5_p1_q18_p1.png",
+        "images/questions/t5_p1_q18_p2.png"
       ],
       "level": "HL",
       "paper_type": "Paper 1",
@@ -11047,7 +11064,8 @@
       "title": "Q24",
       "question_text": "",
       "question_image_paths": [
-        "images/questions/t5_p1_q24_p1.png"
+        "images/questions/t5_p1_q24_p1.png",
+        "images/questions/t5_p1_q24_p2.png"
       ],
       "level": "HL",
       "paper_type": "Paper 1",
@@ -11518,7 +11536,8 @@
       "title": "Q28",
       "question_text": "",
       "question_image_paths": [
-        "images/questions/t5_p2_q28_p1.png"
+        "images/questions/t5_p2_q28_p1.png",
+        "images/questions/t5_p2_q28_p2.png"
       ],
       "level": "HL",
       "paper_type": "Paper 2",

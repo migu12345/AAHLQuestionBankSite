@@ -29,18 +29,25 @@ PDF_DIR = Path("/Users/s933863@aics.espritscholen.nl/Downloads/Math")
 IMAGES_Q_DIR = ROOT / "data" / "tutoring" / "processed" / "images" / "questions"
 QUESTIONS_JSON = ROOT / "data" / "tutoring" / "processed" / "questions.json"
 
-# T-style PDFs: (supports_parts, max_pages)
+# T-style PDFs: (supports_parts, max_pages, top_preamble_px, bottom_preamble_px)
 # max_pages=2 for short Paper-1/2 style PDFs to prevent overflow into other questions
+# top_preamble_px: pixels above detected start to include (captures preamble above sub-part label).
+# bottom_preamble_px: pixels before NEXT question's start where this question ends
+#   (= top_preamble of the NEXT question, so preambles belong to the right question).
+#
+# For T-style compilations: both 80 — preamble appears above sub-part label, need 80px in both.
+# For Paper-1/2 style (T6-2P1, T6-2P2): top=5 so previous question doesn't bleed in at top,
+#   but bottom=80 so the NEXT question's preamble stays out of this question's image.
 T_STYLE: Dict[str, tuple] = {
-    "T6-1 T HL.pdf":               (True, 4),
-    "T6-2P1 T.pdf":                (True, 2),
-    "T6-2P2 T.pdf":                (True, 2),
-    "Topic 6 Part 1 T SL.pdf":     (True, 4),
-    "Topic 1 Part 1 T.pdf":        (True, 4),
-    "Topic 2 Part 1 T.pdf":        (True, 4),
-    "Topic 3 Part 1 T (1).pdf":    (True, 4),
-    "T2-5 T (2).pdf":              (True, 3),
-    "T2-6 T (1).pdf":              (True, 3),
+    "T6-1 T HL.pdf":               (True, 4, 80, 80),
+    "T6-2P1 T.pdf":                (True, 2,  5, 80),
+    "T6-2P2 T.pdf":                (True, 2,  5, 80),
+    "Topic 6 Part 1 T SL.pdf":     (True, 4, 80, 80),
+    "Topic 1 Part 1 T.pdf":        (True, 4, 80, 80),
+    "Topic 2 Part 1 T.pdf":        (True, 4, 80, 80),
+    "Topic 3 Part 1 T (1).pdf":    (True, 4, 80, 80),
+    "T2-5 T (2).pdf":              (True, 3, 80, 80),
+    "T2-6 T (1).pdf":              (True, 3, 80, 80),
 }
 
 
@@ -124,8 +131,10 @@ def crop_question_from_top(
     qnum: int,
     out_prefix: Path,
     max_pages: int = 99,
+    top_preamble: float = 80.0,
+    bottom_preamble: float = 80.0,
 ) -> List[str]:
-    """Crop with first-page top=s.y-80 to capture preamble. Limits to max_pages."""
+    """Crop question image. top_preamble px above detected start; bottom_preamble px before next start."""
     start_idx = next((i for i, s in enumerate(starts) if s.qnum == qnum), None)
     if start_idx is None:
         return []
@@ -141,9 +150,11 @@ def crop_question_from_top(
         left = 18.0
         right = float(page.rect.width) - 18.0
         if pno == s.page:
-            top = max(30.0, s.y - 80)  # 80px above detected start captures 2-3 lines of preamble
+            top = max(30.0, s.y - top_preamble)
         if n is not None and pno == n.page:
-            bottom = min(bottom, n.y - 80.0)  # match top offset so preamble belongs to next question
+            ideal = n.y - bottom_preamble
+            # Fall back to n.y - 5 if ideal would leave less than 20px of content
+            bottom = min(bottom, ideal if ideal > top + 20.0 else n.y - 5.0)
         if bottom <= top + 15.0:
             continue
         clip = fitz.Rect(left, top, right, bottom)
@@ -172,7 +183,7 @@ def main() -> None:
 
     total = 0
 
-    for filename, (supports_parts, max_pages) in sorted(T_STYLE.items()):
+    for filename, (supports_parts, max_pages, top_preamble, bottom_preamble) in sorted(T_STYLE.items()):
         pdf_path = PDF_DIR / filename
         if not pdf_path.exists():
             print(f"SKIP (not found): {filename}")
@@ -181,7 +192,7 @@ def main() -> None:
             print(f"SKIP (no questions): {filename}")
             continue
 
-        print(f"\n{filename} ({len(by_file[filename])} questions, max {max_pages} pages)...")
+        print(f"\n{filename} ({len(by_file[filename])} questions, max {max_pages} pages, top={top_preamble}px bot={bottom_preamble}px)...")
         doc = fitz.open(pdf_path)
         starts = detect_starts(doc, supports_parts=supports_parts)
         print(f"  Detected {len(starts)} starts")
@@ -191,7 +202,12 @@ def main() -> None:
             qnum = int(entry.get("question_number", 0))
             qid = entry["id"]
             out_prefix = IMAGES_Q_DIR / qid
-            new_paths = crop_question_from_top(doc, starts, qnum, out_prefix, max_pages=max_pages)
+            new_paths = crop_question_from_top(
+                doc, starts, qnum, out_prefix,
+                max_pages=max_pages,
+                top_preamble=top_preamble,
+                bottom_preamble=bottom_preamble,
+            )
             if new_paths:
                 entry["question_image_paths"] = new_paths
                 changed += 1
