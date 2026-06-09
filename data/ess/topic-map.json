@@ -1,0 +1,40 @@
+{
+  "topics": [
+    {
+      "name": "Topic 1: Foundations of ESS",
+      "subtopics": ["Systems and sustainability"]
+    },
+    {
+      "name": "Topic 2: Ecosystems and ecology",
+      "subtopics": ["Ecosystems"]
+    },
+    {
+      "name": "Topic 3: Biodiversity and conservation",
+      "subtopics": ["Biodiversity"]
+    },
+    {
+      "name": "Topic 4: Water and aquatic food production",
+      "subtopics": ["Water systems"]
+    },
+    {
+      "name": "Topic 5: Soil and terrestrial food production",
+      "subtopics": ["Soil systems"]
+    },
+    {
+      "name": "Topic 6: Atmospheric systems and societies",
+      "subtopics": ["Atmospheric systems"]
+    },
+    {
+      "name": "Topic 7: Climate change and energy production",
+      "subtopics": ["Climate and energy"]
+    },
+    {
+      "name": "Topic 8: Human systems and resource use",
+      "subtopics": ["Human systems"]
+    },
+    {
+      "name": "Unsorted",
+      "subtopics": ["Unsorted"]
+    }
+  ]
+}
