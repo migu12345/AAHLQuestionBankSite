@@ -128,11 +128,12 @@ def discover_papers() -> List[dict]:
 
 def discover_text_booklets() -> dict[tuple, Path]:
     """
-    Returns a dict keyed by (year, session, tz) → source PDF path.
-    Covers both 'text_booklet' and 'resource_booklet' naming (the latter used
-    in May/Nov 2020–2021 during COVID-era modified assessments).
+    Returns a dict keyed by (paper, year, session, tz) → source PDF path.
+
+    2010–2016: resource/text booklet was on Paper 2.
+    2017+:     text/resource booklet is on Paper 1 (syllabus change).
+    Both 'text_booklet' and 'resource_booklet' naming are accepted.
     """
-    index: dict[tuple, Path] = {}
     seen_keys: dict[tuple, Path] = {}
 
     for pdf in SOURCE.rglob("*.pdf"):
@@ -141,13 +142,14 @@ def discover_text_booklets() -> dict[tuple, Path]:
         name = pdf.name.lower()
         if "environmental_systems" not in name:
             continue
-        if "paper_2" in name or "paper 2" in name:
-            continue
         is_text = "text_booklet" in name or "resource_booklet" in name
-        if not is_text:
+        if not is_text or "markscheme" in name:
             continue
-        if "markscheme" in name:
+
+        paper_m = re.search(r"paper[_ ]+(\d)", name)
+        if not paper_m:
             continue
+        paper_num = paper_m.group(1)
 
         meta_sy = parse_session_year(pdf)
         if meta_sy is None:
@@ -162,7 +164,7 @@ def discover_text_booklets() -> dict[tuple, Path]:
         else:
             tz = "TZ1"
 
-        key = (year, session, tz)
+        key = (paper_num, year, session, tz)
         if key in seen_keys:
             existing = seen_keys[key]
             if "PDFs" in str(pdf) and "HTML" in str(existing):
@@ -175,20 +177,20 @@ def discover_text_booklets() -> dict[tuple, Path]:
 
 def copy_text_booklets(tb_index: dict[tuple, Path]) -> dict[tuple, str]:
     """
-    Copies each text booklet into TEXT_BOOKLETS_DIR with a canonical name.
-    Returns a dict (year, session, tz) → relative path from processed/.
+    Copies each booklet into TEXT_BOOKLETS_DIR with a canonical name.
+    Returns a dict (paper, year, session, tz) → relative path from processed/.
     """
     import shutil
     TEXT_BOOKLETS_DIR.mkdir(parents=True, exist_ok=True)
     result: dict[tuple, str] = {}
-    for (year, session, tz), src in tb_index.items():
+    for (paper_num, year, session, tz), src in tb_index.items():
         sc = ("m" if session == "May" else "n") + str(year)[-2:]
         tz_slug = tz.lower()
-        dest_name = f"ess_{sc}_p1_{tz_slug}_text_booklet.pdf"
+        dest_name = f"ess_{sc}_p{paper_num}_{tz_slug}_text_booklet.pdf"
         dest = TEXT_BOOKLETS_DIR / dest_name
         if not dest.exists():
             shutil.copy2(src, dest)
-        result[(year, session, tz)] = f"text_booklets/{dest_name}"
+        result[(paper_num, year, session, tz)] = f"text_booklets/{dest_name}"
     return result
 
 
@@ -595,16 +597,16 @@ def main() -> None:
 
         print(f"{len(qnums)} questions")
 
-        # Text booklet: P1 papers from 2017+ have a case-study booklet.
-        # Try exact TZ match first, then fall back to TZ1/NTZ for shared booklets.
-        tb_rel: str = ""
-        if p["paper"] == "1":
-            tb_rel = (
-                tb_index.get((p["year"], p["session"], p["tz"]))
-                or tb_index.get((p["year"], p["session"], "TZ1"))
-                or tb_index.get((p["year"], p["session"], "NTZ"))
+        # Text booklet lookup. 2010–2016: booklet was on Paper 2.
+        # 2017+: booklet is on Paper 1. Try exact TZ, fall back to shared TZ.
+        def _tb(paper_num: str, tz: str) -> str:
+            return (
+                tb_index.get((paper_num, p["year"], p["session"], tz))
+                or tb_index.get((paper_num, p["year"], p["session"], "TZ1"))
+                or tb_index.get((paper_num, p["year"], p["session"], "NTZ"))
                 or ""
             )
+        tb_rel: str = _tb(p["paper"], p["tz"])
 
         for qn in qnums:
             base = f"ess_{sc}_p{p['paper']}_{tz_slug}_q{qn}"
