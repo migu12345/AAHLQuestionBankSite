@@ -522,30 +522,11 @@ button:hover {
   font-size: 1rem;
 }
 
-.result-bar {
-  display: flex;
-  align-items: center;
-  gap: 0.7rem;
-  margin-bottom: 0.8rem;
-}
-
 #resultCount {
-  margin: 0.35rem 0 0;
+  margin: 0.35rem 0 0.8rem;
   color: var(--muted);
   font-size: 0.92rem;
   letter-spacing: 0.01em;
-  flex: 1;
-}
-
-.shuffle-btn {
-  font-size: 0.85rem;
-  padding: 0.3rem 0.75rem;
-  min-height: unset;
-}
-
-.shuffle-btn.active {
-  background: #b2dac8;
-  border-color: #7dbfa5;
 }
 
 .question-list {

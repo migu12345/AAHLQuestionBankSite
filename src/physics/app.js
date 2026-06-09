@@ -16,7 +16,6 @@ const state = {
     endTs: 0,
     timerId: null,
   },
-  shuffled: false,
 };
 const PAGE_SIZE = 10;
 const USER_ACTIONS_KEY = "aa_bank_user_actions_v1";
@@ -36,7 +35,6 @@ const resultCount = document.getElementById("resultCount");
 const questionTemplate = document.getElementById("questionTemplate");
 const loadMoreWrap = document.getElementById("loadMoreWrap");
 const loadMoreBtn = document.getElementById("loadMoreBtn");
-const shuffleBtn = document.getElementById("shuffleBtn");
 const compareModal = document.getElementById("compareModal");
 const compareBackdrop = document.getElementById("compareBackdrop");
 const compareCloseBtn = document.getElementById("compareCloseBtn");
@@ -714,7 +712,7 @@ function updateResultSummary() {
 function renderQuestions(reset = true) {
   if (reset) {
     state.filteredQuestions = filterQuestions();
-    if (state.shuffled) shuffleArray(state.filteredQuestions);
+    shuffleArray(state.filteredQuestions);
     state.visibleCount = Math.min(PAGE_SIZE, state.filteredQuestions.length);
     questionList.innerHTML = "";
 
@@ -958,12 +956,6 @@ function bindEvents() {
     });
   }
   loadMoreBtn.addEventListener("click", () => renderQuestions(false));
-  shuffleBtn.addEventListener("click", () => {
-    state.shuffled = !state.shuffled;
-    shuffleBtn.classList.toggle("active", state.shuffled);
-    shuffleBtn.textContent = state.shuffled ? "Shuffled" : "Shuffle";
-    renderQuestions(true);
-  });
   if (compareBackdrop) {
     compareBackdrop.addEventListener("click", closeCompareModal);
   }
