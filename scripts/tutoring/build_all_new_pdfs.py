@@ -522,7 +522,7 @@ def crop_question(doc: fitz.Document, starts: List[StartPos], qnum: int, out_pre
         if pno == s.page:
             top = max(30.0, s.y - 80)  # 80px above detected start captures 2-3 lines of preamble
         if n is not None and pno == n.page:
-            bottom = min(bottom, n.y - 2.0)
+            bottom = min(bottom, n.y - 80.0)  # match top offset so preamble belongs to next question
         if bottom <= top + 15.0:
             continue
         clip = fitz.Rect(left, top, right, bottom)
