@@ -1,7 +1,4 @@
 {
-  "course": "IB Mathematics AA HL - Tutoring Questions",
-  "generated_at": "2026-03-06T21:39:19.645129+00:00",
-  "notes": "Auto-generated IB-style worked-solution drafts. Review and edit before formal use.",
   "questions": [
     {
       "id": "t1_binomila_theorem_q1",
@@ -11192,7 +11189,7 @@
         "images/markschemes/t5_t61_q2.svg"
       ],
       "draft": true,
-      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>1c.</td><td class='ms-part'></td><td class='ms-content'>Let \\(x = 2\\sin\\theta\\), \\(dx = 2\\cos\\theta\\,d\\theta\\)</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Transform integrand: \\(\\sqrt{4 - x^2} = 2\\cos\\theta\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Substitute and simplify integrand in \\(\\theta\\)</td><td class='ms-mark'>M1A1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Integrate with respect to \\(\\theta\\)</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Change limits (or back-substitute) to get result</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Final expression confirmed</td><td class='ms-mark'>A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[11 marks]</td></tr></tbody></table>"
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>2.</td><td class='ms-part'></td><td class='ms-content'>\\(\\dfrac{dy}{dx} = -4kx^{-5}\\) (or equivalent)</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Set \\(\\dfrac{dy}{dx} = 0\\): requires exactly one solution</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(-4kx^{-5} = 0\\) has no solution unless analysed differently; check if \\(k = 0\\) gives no stationary point</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>From context (graph intersects itself once): solve for \\(k\\)</td><td class='ms-mark'>A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[5 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t5_t61_q3",
@@ -11206,7 +11203,7 @@
         "images/markschemes/t5_t61_q3.svg"
       ],
       "draft": true,
-      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>2.</td><td class='ms-part'></td><td class='ms-content'>\\(\\dfrac{dy}{dx} = -4kx^{-5}\\) (or equivalent)</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Set \\(\\dfrac{dy}{dx} = 0\\): requires exactly one solution</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(-4kx^{-5} = 0\\) has no solution unless analysed differently; check if \\(k = 0\\) gives no stationary point</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>From context (graph intersects itself once): solve for \\(k\\)</td><td class='ms-mark'>A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[5 marks]</td></tr></tbody></table>"
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>3d/4a.</td><td class='ms-part'>(3d)</td><td class='ms-content'>Find normals at P and Q using slopes from earlier parts</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Solve simultaneous equations for intersection point</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Coordinates of intersection found</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(4a)</td><td class='ms-content'>\\(f'(x) = \\displaystyle\\lim_{h \\to 0} \\dfrac{f(x+h)-f(x)}{h}\\) (write definition)</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Apply to given \\(f(x)\\); expand and simplify numerator</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Divide by \\(h\\) and take limit</td><td class='ms-mark'>M1A1A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[11 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t5_t61_q4",
@@ -11220,7 +11217,7 @@
         "images/markschemes/t5_t61_q4.svg"
       ],
       "draft": true,
-      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>3d/4a.</td><td class='ms-part'>(3d)</td><td class='ms-content'>Find normals at P and Q using slopes from earlier parts</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Solve simultaneous equations for intersection point</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Coordinates of intersection found</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(4a)</td><td class='ms-content'>\\(f'(x) = \\displaystyle\\lim_{h \\to 0} \\dfrac{f(x+h)-f(x)}{h}\\) (write definition)</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Apply to given \\(f(x)\\); expand and simplify numerator</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Divide by \\(h\\) and take limit</td><td class='ms-mark'>M1A1A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[11 marks]</td></tr></tbody></table>"
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>4b.</td><td class='ms-part'></td><td class='ms-content'>Base case \\(n=1\\): verify \\(\\dfrac{d}{dx}(2x+1)^{-1} = -2(2x+1)^{-2}\\)</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Inductive step: assume result for \\(n=k\\)</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Differentiate the assumed formula</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Show it matches formula for \\(n=k+1\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Conclude by induction for all \\(n \\ge 1\\)</td><td class='ms-mark'>R1A1A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[9 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t5_t61_q5",
@@ -11234,7 +11231,7 @@
         "images/markschemes/t5_t61_q5.svg"
       ],
       "draft": true,
-      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>4b.</td><td class='ms-part'></td><td class='ms-content'>Base case \\(n=1\\): verify \\(\\dfrac{d}{dx}(2x+1)^{-1} = -2(2x+1)^{-2}\\)</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Inductive step: assume result for \\(n=k\\)</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Differentiate the assumed formula</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Show it matches formula for \\(n=k+1\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Conclude by induction for all \\(n \\ge 1\\)</td><td class='ms-mark'>R1A1A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[9 marks]</td></tr></tbody></table>"
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>5c/6a.</td><td class='ms-part'>(5c)</td><td class='ms-content'>Find \\(f'(1)\\); normal slope \\(= -1/f'(1)\\)</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Normal equation: \\(y - f(1) = -\\tfrac{1}{f'(1)}(x-1)\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(6a)</td><td class='ms-content'>Find \\(\\dfrac{dy}{dx}\\) and set to zero</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Solve and find coordinates of stationary points</td><td class='ms-mark'>A1A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[7 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t5_t61_q6",
@@ -11248,7 +11245,7 @@
         "images/markschemes/t5_t61_q6.svg"
       ],
       "draft": true,
-      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>5c/6a.</td><td class='ms-part'>(5c)</td><td class='ms-content'>Find \\(f'(1)\\); normal slope \\(= -1/f'(1)\\)</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Normal equation: \\(y - f(1) = -\\tfrac{1}{f'(1)}(x-1)\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(6a)</td><td class='ms-content'>Find \\(\\dfrac{dy}{dx}\\) and set to zero</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Solve and find coordinates of stationary points</td><td class='ms-mark'>A1A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[7 marks]</td></tr></tbody></table>"
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>6c.</td><td class='ms-part'></td><td class='ms-content'>Find normal at P using slope \\(-1/f'(x_P)\\)</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Find \\(N\\) (y-axis intercept of normal)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Find T (x-axis intercept of tangent)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Area of triangle PTN using coordinate formula</td><td class='ms-mark'>M1A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[6 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t5_t61_q7",
@@ -11262,7 +11259,7 @@
         "images/markschemes/t5_t61_q7.svg"
       ],
       "draft": true,
-      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>6c.</td><td class='ms-part'></td><td class='ms-content'>Find normal at P using slope \\(-1/f'(x_P)\\)</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Find \\(N\\) (y-axis intercept of normal)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Find T (x-axis intercept of tangent)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Area of triangle PTN using coordinate formula</td><td class='ms-mark'>M1A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[6 marks]</td></tr></tbody></table>"
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>7.</td><td class='ms-part'></td><td class='ms-content'>Differentiate implicitly: \\(\\dfrac{8y}{x} + 8\\ln x \\cdot y' + \\text{other terms} = 0\\)</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Substitute \\(x = 1\\) and given \\(y\\) to find \\(y'\\)</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Tangent equation: \\(y - y_0 = y'(1) \\cdot (x-1)\\)</td><td class='ms-mark'>M1A1A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[7 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t5_t61_q8",
@@ -11276,7 +11273,7 @@
         "images/markschemes/t5_t61_q8.svg"
       ],
       "draft": true,
-      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>7.</td><td class='ms-part'></td><td class='ms-content'>Differentiate implicitly: \\(\\dfrac{8y}{x} + 8\\ln x \\cdot y' + \\text{other terms} = 0\\)</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Substitute \\(x = 1\\) and given \\(y\\) to find \\(y'\\)</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Tangent equation: \\(y - y_0 = y'(1) \\cdot (x-1)\\)</td><td class='ms-mark'>M1A1A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[7 marks]</td></tr></tbody></table>"
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>8b.</td><td class='ms-part'></td><td class='ms-content'>Base case \\(n=1\\): differentiate \\(f(x)\\) and verify formula</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Inductive hypothesis: assume \\(f^{(k)}(x) = A \\cdot c^k \\cdot e^{cx}\\)</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Differentiate: \\(f^{(k+1)}(x) = A \\cdot c^k \\cdot c \\cdot e^{cx} = A \\cdot c^{k+1} e^{cx}\\)</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Formula holds for \\(n = k+1\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Conclude by PMI for all \\(n \\ge 1\\)</td><td class='ms-mark'>R1A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[8 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t5_t61_q9",
@@ -11290,7 +11287,7 @@
         "images/markschemes/t5_t61_q9.svg"
       ],
       "draft": true,
-      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>8b.</td><td class='ms-part'></td><td class='ms-content'>Base case \\(n=1\\): differentiate \\(f(x)\\) and verify formula</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Inductive hypothesis: assume \\(f^{(k)}(x) = A \\cdot c^k \\cdot e^{cx}\\)</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Differentiate: \\(f^{(k+1)}(x) = A \\cdot c^k \\cdot c \\cdot e^{cx} = A \\cdot c^{k+1} e^{cx}\\)</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Formula holds for \\(n = k+1\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Conclude by PMI for all \\(n \\ge 1\\)</td><td class='ms-mark'>R1A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[8 marks]</td></tr></tbody></table>"
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>9.</td><td class='ms-part'>(a)(i)</td><td class='ms-content'>\\(k=0\\): \\(xe^x = 0 \\Rightarrow x=0\\); one intersection at origin</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(a)(ii)</td><td class='ms-content'>\\(f'(0) = e^0(1+0) = 1\\); angle \\(= \\arctan 1 = 45°\\) (between tangent and line \\(y=0\\))</td><td class='ms-mark'>M1A1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(b)</td><td class='ms-content'>\\(k=1\\): \\(xe^x = x \\Rightarrow e^x = 1 \\Rightarrow x=0\\); only meets at \\(x=0\\)</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(f'(0)=1 = k\\), so tangent slope equals line slope: tangent</td><td class='ms-mark'>R1AG</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(c)(i)</td><td class='ms-content'>Tangent from \\((t, te^t)\\): slope \\(= e^t(1+t)\\); passes through origin: \\(te^t = e^t(1+t)\\cdot t \\Rightarrow 1 = 1+t\\)</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>No wait — two intersections when \\(xe^x = kx\\) for \\(k \\ne 0\\): \\(x=0\\) or \\(e^x=k\\Rightarrow x=\\ln k\\)</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Two distinct points when \\(k > 0,\\ k \\ne 1\\) and \\(k > e\\) or \\(0 < k < 1\\)</td><td class='ms-mark'>A1A1A1A1A1A1A1A1A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[23 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t5_t61_q10",
@@ -11304,7 +11301,7 @@
         "images/markschemes/t5_t61_q10.svg"
       ],
       "draft": true,
-      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>9.</td><td class='ms-part'>(a)(i)</td><td class='ms-content'>\\(k=0\\): \\(xe^x = 0 \\Rightarrow x=0\\); one intersection at origin</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(a)(ii)</td><td class='ms-content'>\\(f'(0) = e^0(1+0) = 1\\); angle \\(= \\arctan 1 = 45°\\) (between tangent and line \\(y=0\\))</td><td class='ms-mark'>M1A1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(b)</td><td class='ms-content'>\\(k=1\\): \\(xe^x = x \\Rightarrow e^x = 1 \\Rightarrow x=0\\); only meets at \\(x=0\\)</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(f'(0)=1 = k\\), so tangent slope equals line slope: tangent</td><td class='ms-mark'>R1AG</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(c)(i)</td><td class='ms-content'>Tangent from \\((t, te^t)\\): slope \\(= e^t(1+t)\\); passes through origin: \\(te^t = e^t(1+t)\\cdot t \\Rightarrow 1 = 1+t\\)</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>No wait — two intersections when \\(xe^x = kx\\) for \\(k \\ne 0\\): \\(x=0\\) or \\(e^x=k\\Rightarrow x=\\ln k\\)</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Two distinct points when \\(k > 0,\\ k \\ne 1\\) and \\(k > e\\) or \\(0 < k < 1\\)</td><td class='ms-mark'>A1A1A1A1A1A1A1A1A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[23 marks]</td></tr></tbody></table>"
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>10.</td><td class='ms-part'></td><td class='ms-content'>Differentiate implicitly: \\(3x^2y^3 + 3x^3y^2y' - y - xy' = 0\\)</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>At \\((1,1)\\): \\(3 + 3y' - 1 - y' = 0 \\Rightarrow 2y' = -2 \\Rightarrow y' = -1\\)</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Normal slope \\(= 1\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Normal: \\(y - 1 = 1(x-1) \\Rightarrow y = x\\)</td><td class='ms-mark'>A1A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[7 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t5_t61_q11",
@@ -11318,7 +11315,7 @@
         "images/markschemes/t5_t61_q11.svg"
       ],
       "draft": true,
-      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>10.</td><td class='ms-part'></td><td class='ms-content'>Differentiate implicitly: \\(3x^2y^3 + 3x^3y^2y' - y - xy' = 0\\)</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>At \\((1,1)\\): \\(3 + 3y' - 1 - y' = 0 \\Rightarrow 2y' = -2 \\Rightarrow y' = -1\\)</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Normal slope \\(= 1\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Normal: \\(y - 1 = 1(x-1) \\Rightarrow y = x\\)</td><td class='ms-mark'>A1A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[7 marks]</td></tr></tbody></table>"
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>11.</td><td class='ms-part'></td><td class='ms-content'>Substitute into \\((1-x)y=1\\): \\((1-x)m(x-m)=1\\)</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(m(x-m)(1-x) = 1\\) → quadratic in \\(x\\)</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Discriminant \\(= 0\\) for tangency: solve for \\(m\\)</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(m = -1\\); point of tangency found by substitution</td><td class='ms-mark'>A1A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[7 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t5_t61_q12",
@@ -11332,7 +11329,7 @@
         "images/markschemes/t5_t61_q12.svg"
       ],
       "draft": true,
-      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>11.</td><td class='ms-part'></td><td class='ms-content'>Substitute into \\((1-x)y=1\\): \\((1-x)m(x-m)=1\\)</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(m(x-m)(1-x) = 1\\) → quadratic in \\(x\\)</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Discriminant \\(= 0\\) for tangency: solve for \\(m\\)</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(m = -1\\); point of tangency found by substitution</td><td class='ms-mark'>A1A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[7 marks]</td></tr></tbody></table>"
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>12b.</td><td class='ms-part'></td><td class='ms-content'>Find \\(\\dfrac{dy}{dx}\\) at \\(x = \\dfrac{\\pi}{2}\\)</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Tangent: \\(y - 0 = f'\\!\\left(\\tfrac{\\pi}{2}\\right)\\left(x - \\tfrac{\\pi}{2}\\right)\\)</td><td class='ms-mark'>A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[3 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t5_t61_q13",
@@ -11346,7 +11343,7 @@
         "images/markschemes/t5_t61_q13.svg"
       ],
       "draft": true,
-      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>12b.</td><td class='ms-part'></td><td class='ms-content'>Find \\(\\dfrac{dy}{dx}\\) at \\(x = \\dfrac{\\pi}{2}\\)</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Tangent: \\(y - 0 = f'\\!\\left(\\tfrac{\\pi}{2}\\right)\\left(x - \\tfrac{\\pi}{2}\\right)\\)</td><td class='ms-mark'>A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[3 marks]</td></tr></tbody></table>"
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>13.</td><td class='ms-part'></td><td class='ms-content'>Base case \\(n=1\\): \\(y' = (1-x)^{-2} = \\dfrac{1!}{(1-x)^2}\\) ✓</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Assume: \\(y^{(k)} = \\dfrac{k!}{(1-x)^{k+1}}\\)</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Differentiate: \\(y^{(k+1)} = \\dfrac{k! \\cdot (k+1)}{(1-x)^{k+2}} = \\dfrac{(k+1)!}{(1-x)^{k+2}}\\)</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Formula holds for \\(n=k+1\\); conclude by PMI</td><td class='ms-mark'>R1A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[7 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t5_t61_q14",
@@ -11360,7 +11357,7 @@
         "images/markschemes/t5_t61_q14.svg"
       ],
       "draft": true,
-      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>13.</td><td class='ms-part'></td><td class='ms-content'>Base case \\(n=1\\): \\(y' = (1-x)^{-2} = \\dfrac{1!}{(1-x)^2}\\) ✓</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Assume: \\(y^{(k)} = \\dfrac{k!}{(1-x)^{k+1}}\\)</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Differentiate: \\(y^{(k+1)} = \\dfrac{k! \\cdot (k+1)}{(1-x)^{k+2}} = \\dfrac{(k+1)!}{(1-x)^{k+2}}\\)</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Formula holds for \\(n=k+1\\); conclude by PMI</td><td class='ms-mark'>R1A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[7 marks]</td></tr></tbody></table>"
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>14d/15a.</td><td class='ms-part'>(14d)</td><td class='ms-content'>Suppose \\(f(x) = f'(x)\\); derive contradiction</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Show no real \\(x\\) satisfies the equation (e.g. \\(f>0\\) and \\(f'<0\\), or by analysis)</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(15a)</td><td class='ms-content'>State domain of \\(f\\) and key properties</td><td class='ms-mark'>A1A1A1A1A1A1A1A1A1A1A1A1A1A1A1A1A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[21 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t5_t61_q15",
@@ -11374,7 +11371,7 @@
         "images/markschemes/t5_t61_q15.svg"
       ],
       "draft": true,
-      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>14d/15a.</td><td class='ms-part'>(14d)</td><td class='ms-content'>Suppose \\(f(x) = f'(x)\\); derive contradiction</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Show no real \\(x\\) satisfies the equation (e.g. \\(f>0\\) and \\(f'<0\\), or by analysis)</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(15a)</td><td class='ms-content'>State domain of \\(f\\) and key properties</td><td class='ms-mark'>A1A1A1A1A1A1A1A1A1A1A1A1A1A1A1A1A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[21 marks]</td></tr></tbody></table>"
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>16.</td><td class='ms-part'></td><td class='ms-content'>Write \\(y = \\ln(2x-1) + \\ln(\\ln x)\\) (or equivalent)</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Differentiate: \\(\\dfrac{dy}{dx} = \\dfrac{2}{2x-1} + \\dfrac{1}{x\\ln x}\\)</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Combine over common denominator</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Simplify to \\(\\dfrac{2x}{(2x-1)\\ln x}\\) or required form</td><td class='ms-mark'>A1A1A1A1A1A1A1A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[14 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t5_t61_q16",
@@ -11388,7 +11385,7 @@
         "images/markschemes/t5_t61_q16.svg"
       ],
       "draft": true,
-      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>16.</td><td class='ms-part'></td><td class='ms-content'>Write \\(y = \\ln(2x-1) + \\ln(\\ln x)\\) (or equivalent)</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Differentiate: \\(\\dfrac{dy}{dx} = \\dfrac{2}{2x-1} + \\dfrac{1}{x\\ln x}\\)</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Combine over common denominator</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Simplify to \\(\\dfrac{2x}{(2x-1)\\ln x}\\) or required form</td><td class='ms-mark'>A1A1A1A1A1A1A1A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[14 marks]</td></tr></tbody></table>"
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>16e.</td><td class='ms-part'></td><td class='ms-content'>Find \\(A\\) (x-intercept of curve)</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Tangent at A: find slope \\(f'(A)\\); write equation</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Set up integral(s) for enclosed area</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Evaluate using GDC or exact computation</td><td class='ms-mark'>A1A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[7 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t5_t61_q17",
@@ -11402,7 +11399,7 @@
         "images/markschemes/t5_t61_q17.svg"
       ],
       "draft": true,
-      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>16e.</td><td class='ms-part'></td><td class='ms-content'>Find \\(A\\) (x-intercept of curve)</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Tangent at A: find slope \\(f'(A)\\); write equation</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Set up integral(s) for enclosed area</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Evaluate using GDC or exact computation</td><td class='ms-mark'>A1A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[7 marks]</td></tr></tbody></table>"
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>17d.</td><td class='ms-part'></td><td class='ms-content'>Slope of \\(L_2 =\\) slope of \\(L_1\\) (parallel): \\(m = f'(x_0)\\)</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Set \\(f'(x) = m\\) and solve for \\(x\\)</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Equation of \\(L_2\\)</td><td class='ms-mark'>A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[5 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t5_t61_q18",
@@ -11416,7 +11413,7 @@
         "images/markschemes/t5_t61_q18.svg"
       ],
       "draft": true,
-      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>17d.</td><td class='ms-part'></td><td class='ms-content'>Slope of \\(L_2 =\\) slope of \\(L_1\\) (parallel): \\(m = f'(x_0)\\)</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Set \\(f'(x) = m\\) and solve for \\(x\\)</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Equation of \\(L_2\\)</td><td class='ms-mark'>A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[5 marks]</td></tr></tbody></table>"
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>18b.</td><td class='ms-part'></td><td class='ms-content'>Reflection in \\(y\\)-axis: replace \\(x\\) by \\(-x\\)</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Translation by given vector: adjust expression</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Write final \\(g(x)\\)</td><td class='ms-mark'>A1A1A1A1A1A1A1A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[12 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t5_t61_q19",
@@ -11430,7 +11427,7 @@
         "images/markschemes/t5_t61_q19.svg"
       ],
       "draft": true,
-      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>18b.</td><td class='ms-part'></td><td class='ms-content'>Reflection in \\(y\\)-axis: replace \\(x\\) by \\(-x\\)</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Translation by given vector: adjust expression</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Write final \\(g(x)\\)</td><td class='ms-mark'>A1A1A1A1A1A1A1A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[12 marks]</td></tr></tbody></table>"
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>19b/20a.</td><td class='ms-part'>(19b)</td><td class='ms-content'>Normal to \\(f\\) at \\((1,1)\\): slope \\(= -1/f'(1)\\); write equation</td><td class='ms-mark'>M1A1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(20a)(i)</td><td class='ms-content'>Inverse does not exist because \\(f\\) is not one-to-one (e.g. not monotone)</td><td class='ms-mark'>R1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(20a)(ii)</td><td class='ms-content'>Normal at P: \\(f'(x_P)\\) computed; equation derived</td><td class='ms-mark'>M1A1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(20a)(iii)</td><td class='ms-content'>Set \\(f'(x) = f'(x_P)\\); solve for Q and R</td><td class='ms-mark'>M1A1A1A1A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[14 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t5_t61_q20",
@@ -11444,7 +11441,7 @@
         "images/markschemes/t5_t61_q20.svg"
       ],
       "draft": true,
-      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>19b/20a.</td><td class='ms-part'>(19b)</td><td class='ms-content'>Normal to \\(f\\) at \\((1,1)\\): slope \\(= -1/f'(1)\\); write equation</td><td class='ms-mark'>M1A1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(20a)(i)</td><td class='ms-content'>Inverse does not exist because \\(f\\) is not one-to-one (e.g. not monotone)</td><td class='ms-mark'>R1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(20a)(ii)</td><td class='ms-content'>Normal at P: \\(f'(x_P)\\) computed; equation derived</td><td class='ms-mark'>M1A1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(20a)(iii)</td><td class='ms-content'>Set \\(f'(x) = f'(x_P)\\); solve for Q and R</td><td class='ms-mark'>M1A1A1A1A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[14 marks]</td></tr></tbody></table>"
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>20b.</td><td class='ms-part'>(i)</td><td class='ms-content'>With restricted domain, \\(f\\) is monotone; inverse \\(f^{-1}\\) exists</td><td class='ms-mark'>R1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Find expression for \\(f^{-1}(x)\\) by solving \\(y = f(x)\\) for \\(x\\)</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(ii)</td><td class='ms-content'>Volume rotated about \\(y\\)-axis: \\(V = \\pi\\displaystyle\\int_{y_1}^{y_2}[f^{-1}(y)]^2\\,dy\\)</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Evaluate (GDC or exact)</td><td class='ms-mark'>M1A1A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[8 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t5_t61_q21",
@@ -11458,7 +11455,7 @@
         "images/markschemes/t5_t61_q21.svg"
       ],
       "draft": true,
-      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>20b.</td><td class='ms-part'>(i)</td><td class='ms-content'>With restricted domain, \\(f\\) is monotone; inverse \\(f^{-1}\\) exists</td><td class='ms-mark'>R1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Find expression for \\(f^{-1}(x)\\) by solving \\(y = f(x)\\) for \\(x\\)</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(ii)</td><td class='ms-content'>Volume rotated about \\(y\\)-axis: \\(V = \\pi\\displaystyle\\int_{y_1}^{y_2}[f^{-1}(y)]^2\\,dy\\)</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Evaluate (GDC or exact)</td><td class='ms-mark'>M1A1A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[8 marks]</td></tr></tbody></table>"
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>21e.</td><td class='ms-part'>(i)</td><td class='ms-content'>Set up integral for area of region</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Show result: \\(\\displaystyle\\int_a^b (f - L)\\,dx = c\\)</td><td class='ms-mark'>A1AG</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(ii)</td><td class='ms-content'>Replace \\(f\\) with given substitution; evaluate</td><td class='ms-mark'>M1A1A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[6 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t5_t61_q22",
@@ -11472,7 +11469,7 @@
         "images/markschemes/t5_t61_q22.svg"
       ],
       "draft": true,
-      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>21e.</td><td class='ms-part'>(i)</td><td class='ms-content'>Set up integral for area of region</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Show result: \\(\\displaystyle\\int_a^b (f - L)\\,dx = c\\)</td><td class='ms-mark'>A1AG</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(ii)</td><td class='ms-content'>Replace \\(f\\) with given substitution; evaluate</td><td class='ms-mark'>M1A1A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[6 marks]</td></tr></tbody></table>"
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>22b.</td><td class='ms-part'></td><td class='ms-content'>Set \\(f''(x) = 0\\) and solve</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Coordinates of inflexion point P: \\((x_P,\\ f(x_P))\\)</td><td class='ms-mark'>A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[3 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t5_t61_q23",
@@ -11486,7 +11483,7 @@
         "images/markschemes/t5_t61_q23.svg"
       ],
       "draft": true,
-      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>22b.</td><td class='ms-part'></td><td class='ms-content'>Set \\(f''(x) = 0\\) and solve</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Coordinates of inflexion point P: \\((x_P,\\ f(x_P))\\)</td><td class='ms-mark'>A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[3 marks]</td></tr></tbody></table>"
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>23.</td><td class='ms-part'></td><td class='ms-content'>\\(\\dfrac{dy}{dx} = -\\sin x \\cdot \\ln(x+e) + \\dfrac{\\cos x}{x+e}\\) (product rule)</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Evaluate \\(\\dfrac{dy}{dx}\\) at given \\(x\\) (to 3 d.p.)</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Normal slope \\(= -1/f'(x)\\) (3 d.p.)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Find \\(y(x)\\) at given point; write normal equation</td><td class='ms-mark'>M1A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[7 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t5_t61_q24",
@@ -11500,7 +11497,7 @@
         "images/markschemes/t5_t61_q24.svg"
       ],
       "draft": true,
-      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>23.</td><td class='ms-part'></td><td class='ms-content'>\\(\\dfrac{dy}{dx} = -\\sin x \\cdot \\ln(x+e) + \\dfrac{\\cos x}{x+e}\\) (product rule)</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Evaluate \\(\\dfrac{dy}{dx}\\) at given \\(x\\) (to 3 d.p.)</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Normal slope \\(= -1/f'(x)\\) (3 d.p.)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Find \\(y(x)\\) at given point; write normal equation</td><td class='ms-mark'>M1A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[7 marks]</td></tr></tbody></table>"
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>24c.</td><td class='ms-part'></td><td class='ms-content'>Set \\(f'(x) = 1\\) and solve for \\(x\\); find two solutions</td><td class='ms-mark'>M1A1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Coordinates of the two points</td><td class='ms-mark'>A1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Distance \\(= \\sqrt{(x_2-x_1)^2 + (y_2-y_1)^2}\\)</td><td class='ms-mark'>M1A1A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[8 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t5_t61_q25",
@@ -11514,7 +11511,7 @@
         "images/markschemes/t5_t61_q25.svg"
       ],
       "draft": true,
-      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>24c.</td><td class='ms-part'></td><td class='ms-content'>Set \\(f'(x) = 1\\) and solve for \\(x\\); find two solutions</td><td class='ms-mark'>M1A1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Coordinates of the two points</td><td class='ms-mark'>A1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Distance \\(= \\sqrt{(x_2-x_1)^2 + (y_2-y_1)^2}\\)</td><td class='ms-mark'>M1A1A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[8 marks]</td></tr></tbody></table>"
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>25d.</td><td class='ms-part'></td><td class='ms-content'>Set up \\(s(t)\\) ensuring continuity at \\(t=5\\)</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Solve \\(s(t_1) = s(0)\\) and \\(s(t_2) = s(0)\\) for times when particle returns</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Two times found (GDC)</td><td class='ms-mark'>A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[4 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t5_t61_q26",
@@ -11528,7 +11525,7 @@
         "images/markschemes/t5_t61_q26.svg"
       ],
       "draft": true,
-      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>25d.</td><td class='ms-part'></td><td class='ms-content'>Set up \\(s(t)\\) ensuring continuity at \\(t=5\\)</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Solve \\(s(t_1) = s(0)\\) and \\(s(t_2) = s(0)\\) for times when particle returns</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Two times found (GDC)</td><td class='ms-mark'>A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[4 marks]</td></tr></tbody></table>"
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>26.</td><td class='ms-part'>(a)(i)</td><td class='ms-content'>\\(f_k'(x) = 3k^2x^2 - 2kx + 1\\) and \\(f_k''(x) = 6k^2x - 2k\\)</td><td class='ms-mark'>A1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(a)(ii)</td><td class='ms-content'>\\(x_P = \\dfrac{1}{3k}\\), \\(y_P = \\dfrac{7}{27k}\\)</td><td class='ms-mark'>M1A1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(b)</td><td class='ms-content'>\\(y_P/x_P = 7/9\\) (constant); all on \\(y = 7x/9\\)</td><td class='ms-mark'>M1A1AG</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(c)</td><td class='ms-content'>\\(f_k'(x_P) = 2/3\\) (constant for all \\(k\\)); all tangents parallel</td><td class='ms-mark'>M1A1AG</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Tangent through \\(P_k\\): \\(y = \\tfrac{2}{3}x + c_k\\)</td><td class='ms-mark'>A1A1A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[13 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t5_t61_q27",
@@ -11542,7 +11539,7 @@
         "images/markschemes/t5_t61_q27.svg"
       ],
       "draft": true,
-      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>26.</td><td class='ms-part'>(a)(i)</td><td class='ms-content'>\\(f_k'(x) = 3k^2x^2 - 2kx + 1\\) and \\(f_k''(x) = 6k^2x - 2k\\)</td><td class='ms-mark'>A1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(a)(ii)</td><td class='ms-content'>\\(x_P = \\dfrac{1}{3k}\\), \\(y_P = \\dfrac{7}{27k}\\)</td><td class='ms-mark'>M1A1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(b)</td><td class='ms-content'>\\(y_P/x_P = 7/9\\) (constant); all on \\(y = 7x/9\\)</td><td class='ms-mark'>M1A1AG</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(c)</td><td class='ms-content'>\\(f_k'(x_P) = 2/3\\) (constant for all \\(k\\)); all tangents parallel</td><td class='ms-mark'>M1A1AG</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Tangent through \\(P_k\\): \\(y = \\tfrac{2}{3}x + c_k\\)</td><td class='ms-mark'>A1A1A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[13 marks]</td></tr></tbody></table>"
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>27.</td><td class='ms-part'></td><td class='ms-content'>\\(\\dfrac{dy}{dx} = \\dfrac{1}{1+x^2}\\)</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Normal slope: \\(-(1+x^2)\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Normal equation: \\(y - \\arctan x_0 = -(1+x_0^2)(x-x_0)\\)</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Use given form to find \\(c\\)</td><td class='ms-mark'>M1A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[6 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t5_t61_q28",
@@ -11556,7 +11553,7 @@
         "images/markschemes/t5_t61_q28.svg"
       ],
       "draft": true,
-      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>27.</td><td class='ms-part'></td><td class='ms-content'>\\(\\dfrac{dy}{dx} = \\dfrac{1}{1+x^2}\\)</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Normal slope: \\(-(1+x^2)\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Normal equation: \\(y - \\arctan x_0 = -(1+x_0^2)(x-x_0)\\)</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Use given form to find \\(c\\)</td><td class='ms-mark'>M1A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[6 marks]</td></tr></tbody></table>"
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>28.</td><td class='ms-part'></td><td class='ms-content'>Differentiate \\(5x - 2 = 18y^2x^2\\) (or given equation) implicitly</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>At \\((1,2)\\): substitute to find \\(\\dfrac{dy}{dx}\\)</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Normal slope \\(= -1/(dy/dx)\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Normal equation through \\((1,2)\\)</td><td class='ms-mark'>M1A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[7 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t5_t61_q29",
@@ -11570,7 +11567,7 @@
         "images/markschemes/t5_t61_q29.svg"
       ],
       "draft": true,
-      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>28.</td><td class='ms-part'></td><td class='ms-content'>Differentiate \\(5x - 2 = 18y^2x^2\\) (or given equation) implicitly</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>At \\((1,2)\\): substitute to find \\(\\dfrac{dy}{dx}\\)</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Normal slope \\(= -1/(dy/dx)\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Normal equation through \\((1,2)\\)</td><td class='ms-mark'>M1A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[7 marks]</td></tr></tbody></table>"
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>29.</td><td class='ms-part'>(a)</td><td class='ms-content'>Set \\(f(x) = g(x)\\) and solve: \\(P = (x_P, f(x_P))\\)</td><td class='ms-mark'>M1A1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(b)</td><td class='ms-content'>\\(f'(x_P)\\) computed; tangent: \\(y - f(x_P) = f'(x_P)(x - x_P)\\)</td><td class='ms-mark'>M1A1A1A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[7 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t5_t61_q30",
@@ -11584,7 +11581,7 @@
         "images/markschemes/t5_t61_q30.svg"
       ],
       "draft": true,
-      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>29.</td><td class='ms-part'>(a)</td><td class='ms-content'>Set \\(f(x) = g(x)\\) and solve: \\(P = (x_P, f(x_P))\\)</td><td class='ms-mark'>M1A1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(b)</td><td class='ms-content'>\\(f'(x_P)\\) computed; tangent: \\(y - f(x_P) = f'(x_P)(x - x_P)\\)</td><td class='ms-mark'>M1A1A1A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[7 marks]</td></tr></tbody></table>"
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>30.</td><td class='ms-part'>(a)</td><td class='ms-content'>Tangent point \\((e,1)\\): slope \\(= 1/e\\); equation \\(y = x/e\\)</td><td class='ms-mark'>M1A1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Sketch with correct labelling</td><td class='ms-mark'>A1A1A1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(b)</td><td class='ms-content'>From sketch: \\(\\ln x \\le x/e\\) for all \\(x > 0\\)</td><td class='ms-mark'>R1AG</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(c)</td><td class='ms-content'>Substitute \\(x \\to e^x\\): \\(x \\le e^{x-1}\\Rightarrow xe \\le e^x\\)</td><td class='ms-mark'>M1A1A1AG</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(d)</td><td class='ms-content'>Set \\(x = \\pi\\): \\(\\pi e \\le e^\\pi\\)</td><td class='ms-mark'>M1A1A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[17 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t5_t61_q31",
@@ -11598,7 +11595,7 @@
         "images/markschemes/t5_t61_q31.svg"
       ],
       "draft": true,
-      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>30.</td><td class='ms-part'>(a)</td><td class='ms-content'>Tangent point \\((e,1)\\): slope \\(= 1/e\\); equation \\(y = x/e\\)</td><td class='ms-mark'>M1A1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Sketch with correct labelling</td><td class='ms-mark'>A1A1A1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(b)</td><td class='ms-content'>From sketch: \\(\\ln x \\le x/e\\) for all \\(x > 0\\)</td><td class='ms-mark'>R1AG</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(c)</td><td class='ms-content'>Substitute \\(x \\to e^x\\): \\(x \\le e^{x-1}\\Rightarrow xe \\le e^x\\)</td><td class='ms-mark'>M1A1A1AG</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(d)</td><td class='ms-content'>Set \\(x = \\pi\\): \\(\\pi e \\le e^\\pi\\)</td><td class='ms-mark'>M1A1A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[17 marks]</td></tr></tbody></table>"
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>31a-32b.</td><td class='ms-part'>(31a)</td><td class='ms-content'>Even/odd: check \\(f(-x) = f(x)\\) or \\(-f(x)\\) or neither</td><td class='ms-mark'>M1A1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(31b)</td><td class='ms-content'>\\(f'(x) = -2\\sin x + \\sin x + x\\cos x = -\\sin x + x\\cos x\\); \\(f''(x) = -\\cos x + \\cos x - x\\sin x = -x\\sin x\\)</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(f''(0) = 0\\)</td><td class='ms-mark'>A1AG</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(31c)</td><td class='ms-content'>\\(f''(0) = 0\\) alone doesn't confirm inflexion; need sign change of \\(f''\\)</td><td class='ms-mark'>R1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(32a)</td><td class='ms-content'>Continuity at \\(x=2\\): \\(2(2)-1 = a + b\\sqrt{2-5}\\); differentiability gives second equation</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Solve: \\(a = \\ldots\\), \\(b = \\ldots\\)</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(32b)</td><td class='ms-content'>Show \\(f\\) is one-to-one (strictly monotone on each piece and continuous)</td><td class='ms-mark'>R1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[11 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t5_t61_q32",
@@ -11612,7 +11609,7 @@
         "images/markschemes/t5_t61_q32.svg"
       ],
       "draft": true,
-      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>31a-32b.</td><td class='ms-part'>(31a)</td><td class='ms-content'>Even/odd: check \\(f(-x) = f(x)\\) or \\(-f(x)\\) or neither</td><td class='ms-mark'>M1A1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(31b)</td><td class='ms-content'>\\(f'(x) = -2\\sin x + \\sin x + x\\cos x = -\\sin x + x\\cos x\\); \\(f''(x) = -\\cos x + \\cos x - x\\sin x = -x\\sin x\\)</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(f''(0) = 0\\)</td><td class='ms-mark'>A1AG</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(31c)</td><td class='ms-content'>\\(f''(0) = 0\\) alone doesn't confirm inflexion; need sign change of \\(f''\\)</td><td class='ms-mark'>R1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(32a)</td><td class='ms-content'>Continuity at \\(x=2\\): \\(2(2)-1 = a + b\\sqrt{2-5}\\); differentiability gives second equation</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Solve: \\(a = \\ldots\\), \\(b = \\ldots\\)</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(32b)</td><td class='ms-content'>Show \\(f\\) is one-to-one (strictly monotone on each piece and continuous)</td><td class='ms-mark'>R1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[11 marks]</td></tr></tbody></table>"
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>33a-33e.</td><td class='ms-part'>(33a)</td><td class='ms-content'>\\(f'(x) = \\dfrac{\\sin(\\pi x)}{x+1} + \\pi\\ln(x+1)\\cos(\\pi x)\\)</td><td class='ms-mark'>M1A1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(33b)</td><td class='ms-content'>Sketch \\(f\\) and \\(f'\\) on \\([0,2]\\); x-intercepts at \\(x=0,1,2\\) for \\(f\\)</td><td class='ms-mark'>A1A1A1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(33c)</td><td class='ms-content'>\\(f''(x) = 0\\) gives inflexion \\(x\\)-values (GDC); two values in \\((0,2)\\)</td><td class='ms-mark'>M1A1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(33d)</td><td class='ms-content'>Normal at \\(x=0.75\\): find \\(f(0.75)\\), \\(f'(0.75)\\); normal slope \\(=-1/f'\\)</td><td class='ms-mark'>M1A1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(33e)</td><td class='ms-content'>Find \\(a,b,c\\) (where \\(f=f'\\)); area of triangle ABC (GDC)</td><td class='ms-mark'>M1A1A1A1A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[17 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t5_t61_q33",
@@ -11626,7 +11623,7 @@
         "images/markschemes/t5_t61_q33.svg"
       ],
       "draft": true,
-      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>33a-33e.</td><td class='ms-part'>(33a)</td><td class='ms-content'>\\(f'(x) = \\dfrac{\\sin(\\pi x)}{x+1} + \\pi\\ln(x+1)\\cos(\\pi x)\\)</td><td class='ms-mark'>M1A1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(33b)</td><td class='ms-content'>Sketch \\(f\\) and \\(f'\\) on \\([0,2]\\); x-intercepts at \\(x=0,1,2\\) for \\(f\\)</td><td class='ms-mark'>A1A1A1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(33c)</td><td class='ms-content'>\\(f''(x) = 0\\) gives inflexion \\(x\\)-values (GDC); two values in \\((0,2)\\)</td><td class='ms-mark'>M1A1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(33d)</td><td class='ms-content'>Normal at \\(x=0.75\\): find \\(f(0.75)\\), \\(f'(0.75)\\); normal slope \\(=-1/f'\\)</td><td class='ms-mark'>M1A1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(33e)</td><td class='ms-content'>Find \\(a,b,c\\) (where \\(f=f'\\)); area of triangle ABC (GDC)</td><td class='ms-mark'>M1A1A1A1A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[17 marks]</td></tr></tbody></table>"
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>33e.</td><td class='ms-part'></td><td class='ms-content'>Differentiate implicitly: \\(e^{-y} - xe^{-y}y' + e^y y' = 1\\)</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>At \\((c, \\ln c)\\): \\(c^{-1} - c \\cdot c^{-1} y' + c \\cdot y' = 1\\)</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Solve for \\(y'\\); find \\(c\\) using y-intercept condition \\(c^2+1\\)</td><td class='ms-mark'>M1A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[6 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t5_t61_q34",
@@ -11640,7 +11637,7 @@
         "images/markschemes/t5_t61_q34.svg"
       ],
       "draft": true,
-      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>33e.</td><td class='ms-part'></td><td class='ms-content'>Differentiate implicitly: \\(e^{-y} - xe^{-y}y' + e^y y' = 1\\)</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>At \\((c, \\ln c)\\): \\(c^{-1} - c \\cdot c^{-1} y' + c \\cdot y' = 1\\)</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Solve for \\(y'\\); find \\(c\\) using y-intercept condition \\(c^2+1\\)</td><td class='ms-mark'>M1A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[6 marks]</td></tr></tbody></table>"
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>34.</td><td class='ms-part'></td><td class='ms-content'>\\(y = \\sqrt{x}\\); normal at \\((c, \\sqrt{c})\\): slope \\(= -2\\sqrt{c}\\)</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Normal: \\(y - \\sqrt{c} = -2\\sqrt{c}(x-c)\\)</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>y-intercept: \\(y_N = \\sqrt{c} + 2c\\sqrt{c} = \\sqrt{c}(1+2c)\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Match to given form \\(c^2+1\\): solve for \\(c\\)</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>And/or: region R, points A, B, C found; area computed</td><td class='ms-mark'>A1A1A1A1A1A1A1A1A1A1A1A1A1A1A1A1A1A1A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[26 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t5_t61_q35",
@@ -11654,7 +11651,7 @@
         "images/markschemes/t5_t61_q35.svg"
       ],
       "draft": true,
-      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>34.</td><td class='ms-part'></td><td class='ms-content'>\\(y = \\sqrt{x}\\); normal at \\((c, \\sqrt{c})\\): slope \\(= -2\\sqrt{c}\\)</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Normal: \\(y - \\sqrt{c} = -2\\sqrt{c}(x-c)\\)</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>y-intercept: \\(y_N = \\sqrt{c} + 2c\\sqrt{c} = \\sqrt{c}(1+2c)\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Match to given form \\(c^2+1\\): solve for \\(c\\)</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>And/or: region R, points A, B, C found; area computed</td><td class='ms-mark'>A1A1A1A1A1A1A1A1A1A1A1A1A1A1A1A1A1A1A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[26 marks]</td></tr></tbody></table>"
+      "latex_solution": ""
     },
     {
       "id": "t5_sl2_q1",
@@ -11682,7 +11679,7 @@
         "images/markschemes/t5_sl2_q2.svg"
       ],
       "draft": false,
-      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>1b.</td><td class='ms-part'></td><td class='ms-content'>Substitute \\(x = \\pi\\) into \\(g'(x)\\)</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Correct numerical value of gradient obtained</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>(Award A1 for correct final answer)</td><td class='ms-mark'>A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[3 marks]</td></tr></tbody></table>"
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>2.</td><td class='ms-part'></td><td class='ms-content'>Integrate \\(f'(x)\\) to obtain \\(f(x) + C\\)</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Substitute given point to find constant \\(C\\)</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Write final expression for \\(f(x)\\)</td><td class='ms-mark'>A1A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[6 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t5_sl2_q3",
@@ -11696,7 +11693,7 @@
         "images/markschemes/t5_sl2_q3.svg"
       ],
       "draft": false,
-      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>2.</td><td class='ms-part'></td><td class='ms-content'>Integrate \\(f'(x)\\) to obtain \\(f(x) + C\\)</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Substitute given point to find constant \\(C\\)</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Write final expression for \\(f(x)\\)</td><td class='ms-mark'>A1A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[6 marks]</td></tr></tbody></table>"
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>3b.</td><td class='ms-part'></td><td class='ms-content'>Identify region \\(T\\) correctly from diagram</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Set up correct integral(s) for area of \\(T\\)</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Evaluate integral(s) correctly</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Area \\(= \\displaystyle\\int_{x_1}^{x_2}(\\text{upper} - \\text{lower})\\,dx\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Correct numerical answer</td><td class='ms-mark'>A1A1A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[9 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t5_sl2_q4",
@@ -11710,7 +11707,7 @@
         "images/markschemes/t5_sl2_q4.svg"
       ],
       "draft": false,
-      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>3b.</td><td class='ms-part'></td><td class='ms-content'>Identify region \\(T\\) correctly from diagram</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Set up correct integral(s) for area of \\(T\\)</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Evaluate integral(s) correctly</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Area \\(= \\displaystyle\\int_{x_1}^{x_2}(\\text{upper} - \\text{lower})\\,dx\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Correct numerical answer</td><td class='ms-mark'>A1A1A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[9 marks]</td></tr></tbody></table>"
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>4b/5a.</td><td class='ms-part'>(4b)</td><td class='ms-content'>Set \\(g'(x) = 0\\); solve for \\(x\\)-coordinate of A</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Confirm maximum (sign change or second derivative)</td><td class='ms-mark'>R1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(5a)</td><td class='ms-content'>\\(v(0) = 1\\) m s\\(^{-1}\\) (or as given at \\(t=0\\))</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Correct reading of initial velocity from formula</td><td class='ms-mark'>A1A1A1A1A1A1A1A1A1A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[13 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t5_sl2_q5",
@@ -11724,7 +11721,7 @@
         "images/markschemes/t5_sl2_q5.svg"
       ],
       "draft": false,
-      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>4b/5a.</td><td class='ms-part'>(4b)</td><td class='ms-content'>Set \\(g'(x) = 0\\); solve for \\(x\\)-coordinate of A</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Confirm maximum (sign change or second derivative)</td><td class='ms-mark'>R1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(5a)</td><td class='ms-content'>\\(v(0) = 1\\) m s\\(^{-1}\\) (or as given at \\(t=0\\))</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Correct reading of initial velocity from formula</td><td class='ms-mark'>A1A1A1A1A1A1A1A1A1A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[13 marks]</td></tr></tbody></table>"
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>5d.</td><td class='ms-part'>(i)</td><td class='ms-content'>\\(d = \\displaystyle\\int_0^{t_1} v(t)\\,dt\\) (or appropriate limits)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(ii)</td><td class='ms-content'>Shaded area representing \\(d\\) correctly shown on sketch</td><td class='ms-mark'>A1A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[3 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t5_sl2_q6",
@@ -11738,7 +11735,7 @@
         "images/markschemes/t5_sl2_q6.svg"
       ],
       "draft": false,
-      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>5d.</td><td class='ms-part'>(i)</td><td class='ms-content'>\\(d = \\displaystyle\\int_0^{t_1} v(t)\\,dt\\) (or appropriate limits)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(ii)</td><td class='ms-content'>Shaded area representing \\(d\\) correctly shown on sketch</td><td class='ms-mark'>A1A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[3 marks]</td></tr></tbody></table>"
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>6.</td><td class='ms-part'></td><td class='ms-content'>Find intersection points of \\(f\\) and \\(g\\) (GDC)</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Area \\(= \\displaystyle\\int_{x_1}^{x_2}|f(x)-g(x)|\\,dx\\)</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Evaluate using GDC; correct numerical answer</td><td class='ms-mark'>A1A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[6 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t5_sl2_q7",
@@ -11752,7 +11749,7 @@
         "images/markschemes/t5_sl2_q7.svg"
       ],
       "draft": false,
-      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>6.</td><td class='ms-part'></td><td class='ms-content'>Find intersection points of \\(f\\) and \\(g\\) (GDC)</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Area \\(= \\displaystyle\\int_{x_1}^{x_2}|f(x)-g(x)|\\,dx\\)</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Evaluate using GDC; correct numerical answer</td><td class='ms-mark'>A1A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[6 marks]</td></tr></tbody></table>"
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>7d.</td><td class='ms-part'></td><td class='ms-content'>Find second value of \\(t\\) from the given condition (GDC)</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Determine bucket height at this \\(t\\) value</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Compare height to water level; conclusion with justification</td><td class='ms-mark'>R1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[4 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t5_sl2_q8",
@@ -11766,7 +11763,7 @@
         "images/markschemes/t5_sl2_q8.svg"
       ],
       "draft": false,
-      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>7d.</td><td class='ms-part'></td><td class='ms-content'>Find second value of \\(t\\) from the given condition (GDC)</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Determine bucket height at this \\(t\\) value</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Compare height to water level; conclusion with justification</td><td class='ms-mark'>R1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[4 marks]</td></tr></tbody></table>"
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>8d.</td><td class='ms-part'></td><td class='ms-content'>Compute \\(f''(x)\\) at the point</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Show \\(f''\\) changes sign on either side of the point</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Conclude it is a point of inflexion</td><td class='ms-mark'>R1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[4 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t5_sl2_q9",
@@ -11780,7 +11777,7 @@
         "images/markschemes/t5_sl2_q9.svg"
       ],
       "draft": false,
-      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>8d.</td><td class='ms-part'></td><td class='ms-content'>Compute \\(f''(x)\\) at the point</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Show \\(f''\\) changes sign on either side of the point</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Conclude it is a point of inflexion</td><td class='ms-mark'>R1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[4 marks]</td></tr></tbody></table>"
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>9.</td><td class='ms-part'></td><td class='ms-content'>\\(h'(x) = \\dfrac{6\\cos x + 6x\\sin x}{\\cos^2 x}\\) (quotient rule)</td><td class='ms-mark'>M1A1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(h'(0) = \\dfrac{6(1) + 0}{1} = 6\\)</td><td class='ms-mark'>A1A1A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[6 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t5_sl2_q10",
@@ -11794,7 +11791,7 @@
         "images/markschemes/t5_sl2_q10.svg"
       ],
       "draft": false,
-      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>9.</td><td class='ms-part'></td><td class='ms-content'>\\(h'(x) = \\dfrac{6\\cos x + 6x\\sin x}{\\cos^2 x}\\) (quotient rule)</td><td class='ms-mark'>M1A1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(h'(0) = \\dfrac{6(1) + 0}{1} = 6\\)</td><td class='ms-mark'>A1A1A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[6 marks]</td></tr></tbody></table>"
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>10c.</td><td class='ms-part'>(i)</td><td class='ms-content'>Expression for area involving \\(\\int_a^b [f(x) - T(x)]\\,dx\\)</td><td class='ms-mark'>A1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(ii)</td><td class='ms-content'>Evaluate integrals correctly</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Subtract correctly to get area of \\(R\\)</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Correct numerical answer</td><td class='ms-mark'>A1A1A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[9 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t5_sl2_q11",
@@ -11808,7 +11805,7 @@
         "images/markschemes/t5_sl2_q11.svg"
       ],
       "draft": false,
-      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>10c.</td><td class='ms-part'>(i)</td><td class='ms-content'>Expression for area involving \\(\\int_a^b [f(x) - T(x)]\\,dx\\)</td><td class='ms-mark'>A1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(ii)</td><td class='ms-content'>Evaluate integrals correctly</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Subtract correctly to get area of \\(R\\)</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Correct numerical answer</td><td class='ms-mark'>A1A1A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[9 marks]</td></tr></tbody></table>"
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>11d.</td><td class='ms-part'>(i)</td><td class='ms-content'>Set \\(\\dfrac{dv}{dt} = 0\\) (acceleration = 0)</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Solve for \\(t\\); verify it is a maximum</td><td class='ms-mark'>A1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(ii)</td><td class='ms-content'>\\(v_{\\max} =\\) [value]</td><td class='ms-mark'>A1A1A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[7 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t5_sl2_q12",
@@ -11822,7 +11819,7 @@
         "images/markschemes/t5_sl2_q12.svg"
       ],
       "draft": false,
-      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>11d.</td><td class='ms-part'>(i)</td><td class='ms-content'>Set \\(\\dfrac{dv}{dt} = 0\\) (acceleration = 0)</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Solve for \\(t\\); verify it is a maximum</td><td class='ms-mark'>A1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(ii)</td><td class='ms-content'>\\(v_{\\max} =\\) [value]</td><td class='ms-mark'>A1A1A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[7 marks]</td></tr></tbody></table>"
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>12.</td><td class='ms-part'></td><td class='ms-content'>\\(y = \\displaystyle\\int(10e^{2x}-5)\\,dx = 5e^{2x} - 5x + C\\)</td><td class='ms-mark'>M1A1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Apply initial condition \\(y(0)=\\) given value, find \\(C\\)</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(y(1) = 5e^2 - 5 + C\\)</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Correct numerical answer</td><td class='ms-mark'>A1A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[8 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t5_sl2_q13",
@@ -11836,7 +11833,7 @@
         "images/markschemes/t5_sl2_q13.svg"
       ],
       "draft": false,
-      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>12.</td><td class='ms-part'></td><td class='ms-content'>\\(y = \\displaystyle\\int(10e^{2x}-5)\\,dx = 5e^{2x} - 5x + C\\)</td><td class='ms-mark'>M1A1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Apply initial condition \\(y(0)=\\) given value, find \\(C\\)</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(y(1) = 5e^2 - 5 + C\\)</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Correct numerical answer</td><td class='ms-mark'>A1A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[8 marks]</td></tr></tbody></table>"
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>13c.</td><td class='ms-part'></td><td class='ms-content'>Find \\(A_{\\max} = 3\\sqrt{3}\\) (maximum area of window)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>For \\(A < 3\\sqrt{3}\\) with \\(A > 0\\): two values of \\(\\theta\\) exist</td><td class='ms-mark'>R1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>For \\(A = 3\\sqrt{3}\\): exactly one value of \\(\\theta\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Conclude: \\(0 < A \\le 3\\sqrt{3}\\) (or \\(0 < A < 3\\sqrt{3}\\) for two solutions)</td><td class='ms-mark'>A1A1A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[7 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t5_sl2_q14",
@@ -11850,7 +11847,7 @@
         "images/markschemes/t5_sl2_q14.svg"
       ],
       "draft": false,
-      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>13c.</td><td class='ms-part'></td><td class='ms-content'>Find \\(A_{\\max} = 3\\sqrt{3}\\) (maximum area of window)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>For \\(A < 3\\sqrt{3}\\) with \\(A > 0\\): two values of \\(\\theta\\) exist</td><td class='ms-mark'>R1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>For \\(A = 3\\sqrt{3}\\): exactly one value of \\(\\theta\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Conclude: \\(0 < A \\le 3\\sqrt{3}\\) (or \\(0 < A < 3\\sqrt{3}\\) for two solutions)</td><td class='ms-mark'>A1A1A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[7 marks]</td></tr></tbody></table>"
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>14.</td><td class='ms-part'></td><td class='ms-content'>\\(V = \\pi\\displaystyle\\int_a^b [f(x)]^2\\,dx\\)</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Substitute correct limits and function</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Evaluate integral</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Correct numerical answer (in terms of \\(\\pi\\))</td><td class='ms-mark'>A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[6 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t5_sl2_q15",
@@ -11864,7 +11861,7 @@
         "images/markschemes/t5_sl2_q15.svg"
       ],
       "draft": false,
-      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>14.</td><td class='ms-part'></td><td class='ms-content'>\\(V = \\pi\\displaystyle\\int_a^b [f(x)]^2\\,dx\\)</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Substitute correct limits and function</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Evaluate integral</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Correct numerical answer (in terms of \\(\\pi\\))</td><td class='ms-mark'>A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[6 marks]</td></tr></tbody></table>"
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>15b.</td><td class='ms-part'>(i)</td><td class='ms-content'>Reflection in \\(y\\)-axis: \\(x \\to -x\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(ii)</td><td class='ms-content'>Translation by vector \\(\\mathbf{v}\\): add components</td><td class='ms-mark'>A1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(iii)</td><td class='ms-content'>Reflection in \\(x\\)-axis then horizontal stretch by factor \\(k\\)</td><td class='ms-mark'>A1A1A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[6 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t5_sl2_q16",
@@ -11878,7 +11875,7 @@
         "images/markschemes/t5_sl2_q16.svg"
       ],
       "draft": false,
-      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>15b.</td><td class='ms-part'>(i)</td><td class='ms-content'>Reflection in \\(y\\)-axis: \\(x \\to -x\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(ii)</td><td class='ms-content'>Translation by vector \\(\\mathbf{v}\\): add components</td><td class='ms-mark'>A1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(iii)</td><td class='ms-content'>Reflection in \\(x\\)-axis then horizontal stretch by factor \\(k\\)</td><td class='ms-mark'>A1A1A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[6 marks]</td></tr></tbody></table>"
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>16d.</td><td class='ms-part'></td><td class='ms-content'>\\(f''\\) changes sign (from positive to negative, or negative to positive) around \\(x = \\tfrac{\\pi}{2}\\)</td><td class='ms-mark'>R1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Therefore there is a point of inflexion at \\(x = \\tfrac{\\pi}{2}\\)</td><td class='ms-mark'>A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[2 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t5_sl2_q17",
@@ -11892,7 +11889,7 @@
         "images/markschemes/t5_sl2_q17.svg"
       ],
       "draft": false,
-      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>16d.</td><td class='ms-part'></td><td class='ms-content'>\\(f''\\) changes sign (from positive to negative, or negative to positive) around \\(x = \\tfrac{\\pi}{2}\\)</td><td class='ms-mark'>R1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Therefore there is a point of inflexion at \\(x = \\tfrac{\\pi}{2}\\)</td><td class='ms-mark'>A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[2 marks]</td></tr></tbody></table>"
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>17.</td><td class='ms-part'></td><td class='ms-content'>\\(f'(x) = 4kx^3\\); gradient of tangent at P: \\(f'(1) = 4k\\)</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Normal slope \\(= -\\dfrac{1}{4k}\\)</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(-\\dfrac{1}{4k} = -\\dfrac{1}{8} \\Rightarrow k = 2\\)</td><td class='ms-mark'>A1A1A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[6 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t5_sl2_q18",
@@ -11906,7 +11903,7 @@
         "images/markschemes/t5_sl2_q18.svg"
       ],
       "draft": false,
-      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>17.</td><td class='ms-part'></td><td class='ms-content'>\\(f'(x) = 4kx^3\\); gradient of tangent at P: \\(f'(1) = 4k\\)</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Normal slope \\(= -\\dfrac{1}{4k}\\)</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(-\\dfrac{1}{4k} = -\\dfrac{1}{8} \\Rightarrow k = 2\\)</td><td class='ms-mark'>A1A1A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[6 marks]</td></tr></tbody></table>"
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>18c.</td><td class='ms-part'></td><td class='ms-content'>At \\(x = -0.5\\), the graph of \\(f\\) is concave down (near local maximum at \\(x=0\\))</td><td class='ms-mark'>R1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(f'\\) is decreasing at \\(x = -0.5\\), so \\(f''(-0.5) < 0\\)</td><td class='ms-mark'>A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[2 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t5_sl2_q19",
@@ -11920,7 +11917,7 @@
         "images/markschemes/t5_sl2_q19.svg"
       ],
       "draft": false,
-      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>18c.</td><td class='ms-part'></td><td class='ms-content'>At \\(x = -0.5\\), the graph of \\(f\\) is concave down (near local maximum at \\(x=0\\))</td><td class='ms-mark'>R1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(f'\\) is decreasing at \\(x = -0.5\\), so \\(f''(-0.5) < 0\\)</td><td class='ms-mark'>A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[2 marks]</td></tr></tbody></table>"
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>19c/20a.</td><td class='ms-part'>(19c)</td><td class='ms-content'>Integrate \\(f'(x)\\) using appropriate rule</td><td class='ms-mark'>M1A1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Apply initial condition or given point to find constant</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Final expression for \\(f(x)\\)</td><td class='ms-mark'>A1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(20a)</td><td class='ms-content'>Part of graph: identify key features (x-intercepts, turning points, asymptotes)</td><td class='ms-mark'>A1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Correct sketch with features labelled</td><td class='ms-mark'>A1A1A1A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[12 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t5_sl2_q20",
@@ -11934,7 +11931,7 @@
         "images/markschemes/t5_sl2_q20.svg"
       ],
       "draft": false,
-      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>19c/20a.</td><td class='ms-part'>(19c)</td><td class='ms-content'>Integrate \\(f'(x)\\) using appropriate rule</td><td class='ms-mark'>M1A1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Apply initial condition or given point to find constant</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Final expression for \\(f(x)\\)</td><td class='ms-mark'>A1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(20a)</td><td class='ms-content'>Part of graph: identify key features (x-intercepts, turning points, asymptotes)</td><td class='ms-mark'>A1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Correct sketch with features labelled</td><td class='ms-mark'>A1A1A1A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[12 marks]</td></tr></tbody></table>"
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>20e.</td><td class='ms-part'></td><td class='ms-content'>Write \\(g(x) = f(ax + b)\\) or similar transformed form</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>First value of \\(x\\) where \\(g = 0\\) (or condition met)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Second value of \\(x\\)</td><td class='ms-mark'>A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[3 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t5_sl2_q21",
@@ -11948,7 +11945,7 @@
         "images/markschemes/t5_sl2_q21.svg"
       ],
       "draft": false,
-      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>20e.</td><td class='ms-part'></td><td class='ms-content'>Write \\(g(x) = f(ax + b)\\) or similar transformed form</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>First value of \\(x\\) where \\(g = 0\\) (or condition met)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Second value of \\(x\\)</td><td class='ms-mark'>A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[3 marks]</td></tr></tbody></table>"
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>21b/22a.</td><td class='ms-part'>(21b)(i)</td><td class='ms-content'>\\(d = \\displaystyle\\int_{t_1}^{t_2} v(t)\\,dt\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(21b)(ii)</td><td class='ms-content'>Evaluate \\(d\\) (GDC or exact)</td><td class='ms-mark'>A1A1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(22a)</td><td class='ms-content'>Identify function from context; state domain or key property</td><td class='ms-mark'>A1A1A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[7 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t5_sl2_q22",
@@ -11962,7 +11959,7 @@
         "images/markschemes/t5_sl2_q22.svg"
       ],
       "draft": false,
-      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>21b/22a.</td><td class='ms-part'>(21b)(i)</td><td class='ms-content'>\\(d = \\displaystyle\\int_{t_1}^{t_2} v(t)\\,dt\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(21b)(ii)</td><td class='ms-content'>Evaluate \\(d\\) (GDC or exact)</td><td class='ms-mark'>A1A1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(22a)</td><td class='ms-content'>Identify function from context; state domain or key property</td><td class='ms-mark'>A1A1A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[7 marks]</td></tr></tbody></table>"
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>22b.</td><td class='ms-part'></td><td class='ms-content'>\\(g''(x) = n(n-1)(x-a)^{n-2}\\) (or equivalent)</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(g''\\) does not change sign (e.g. always \\(\\ge 0\\)), so no point of inflexion</td><td class='ms-mark'>R1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[2 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t5_sl2_q23",
@@ -11976,7 +11973,7 @@
         "images/markschemes/t5_sl2_q23.svg"
       ],
       "draft": false,
-      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>22b.</td><td class='ms-part'></td><td class='ms-content'>\\(g''(x) = n(n-1)(x-a)^{n-2}\\) (or equivalent)</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(g''\\) does not change sign (e.g. always \\(\\ge 0\\)), so no point of inflexion</td><td class='ms-mark'>R1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[2 marks]</td></tr></tbody></table>"
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>23d.</td><td class='ms-part'></td><td class='ms-content'>Set up integral(s) with correct limits</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Evaluate correctly</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Correct numerical area</td><td class='ms-mark'>A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[4 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t5_sl2_q24",
@@ -11990,7 +11987,7 @@
         "images/markschemes/t5_sl2_q24.svg"
       ],
       "draft": false,
-      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>23d.</td><td class='ms-part'></td><td class='ms-content'>Set up integral(s) with correct limits</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Evaluate correctly</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Correct numerical area</td><td class='ms-mark'>A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[4 marks]</td></tr></tbody></table>"
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>24b.</td><td class='ms-part'></td><td class='ms-content'>Correct shape of \\(f'\\): zeros at \\(x\\)-coordinates of turning points of \\(f\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Correct sign of \\(f'\\) between zeros</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Endpoints and asymptotic behaviour correct</td><td class='ms-mark'>A1A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[4 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t5_sl2_q25",
@@ -12004,7 +12001,7 @@
         "images/markschemes/t5_sl2_q25.svg"
       ],
       "draft": false,
-      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>24b.</td><td class='ms-part'></td><td class='ms-content'>Correct shape of \\(f'\\): zeros at \\(x\\)-coordinates of turning points of \\(f\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Correct sign of \\(f'\\) between zeros</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Endpoints and asymptotic behaviour correct</td><td class='ms-mark'>A1A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[4 marks]</td></tr></tbody></table>"
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>26a.</td><td class='ms-part'></td><td class='ms-content'>Set up expression for quantity using \\(\\displaystyle\\int_1^5 f(t)\\,dt\\)</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Correct answer</td><td class='ms-mark'>A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[2 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t5_sl2_q26",
@@ -12018,7 +12015,7 @@
         "images/markschemes/t5_sl2_q26.svg"
       ],
       "draft": false,
-      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>26a.</td><td class='ms-part'></td><td class='ms-content'>Set up expression for quantity using \\(\\displaystyle\\int_1^5 f(t)\\,dt\\)</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Correct answer</td><td class='ms-mark'>A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[2 marks]</td></tr></tbody></table>"
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>26d.</td><td class='ms-part'></td><td class='ms-content'>Find intersection points of \\(f\\) and \\(g\\)</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Area \\(= \\displaystyle\\int_{x_1}^{x_2}(f(x)-g(x))\\,dx\\) (GDC)</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Correct numerical answer</td><td class='ms-mark'>A1A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[6 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t5_sl2_q27",
@@ -12032,7 +12029,7 @@
         "images/markschemes/t5_sl2_q27.svg"
       ],
       "draft": false,
-      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>26d.</td><td class='ms-part'></td><td class='ms-content'>Find intersection points of \\(f\\) and \\(g\\)</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Area \\(= \\displaystyle\\int_{x_1}^{x_2}(f(x)-g(x))\\,dx\\) (GDC)</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Correct numerical answer</td><td class='ms-mark'>A1A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[6 marks]</td></tr></tbody></table>"
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>27b.</td><td class='ms-part'></td><td class='ms-content'>Set \\(f'(x) = 0\\) and solve for \\(x\\)</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Confirm minimum using second derivative or sign change</td><td class='ms-mark'>R1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Correct \\(x\\)-value stated</td><td class='ms-mark'>A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[4 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t5_sl2_q28",
@@ -12046,7 +12043,7 @@
         "images/markschemes/t5_sl2_q28.svg"
       ],
       "draft": false,
-      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>27b.</td><td class='ms-part'></td><td class='ms-content'>Set \\(f'(x) = 0\\) and solve for \\(x\\)</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Confirm minimum using second derivative or sign change</td><td class='ms-mark'>R1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Correct \\(x\\)-value stated</td><td class='ms-mark'>A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[4 marks]</td></tr></tbody></table>"
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>28d/29a.</td><td class='ms-part'>(28d)</td><td class='ms-content'>State range of \\(f\\) from graph or analysis</td><td class='ms-mark'>A1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(29a)</td><td class='ms-content'>\\(f'(x) = \\dfrac{1}{2\\sqrt{x}}\\); \\(f'(4) = \\tfrac{1}{4}\\)</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Normal slope \\(= -4\\); equation: \\(y = -4x + 18\\)</td><td class='ms-mark'>A1A1A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[6 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t5_sl2_q29",
@@ -12060,7 +12057,7 @@
         "images/markschemes/t5_sl2_q29.svg"
       ],
       "draft": false,
-      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>28d/29a.</td><td class='ms-part'>(28d)</td><td class='ms-content'>State range of \\(f\\) from graph or analysis</td><td class='ms-mark'>A1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(29a)</td><td class='ms-content'>\\(f'(x) = \\dfrac{1}{2\\sqrt{x}}\\); \\(f'(4) = \\tfrac{1}{4}\\)</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Normal slope \\(= -4\\); equation: \\(y = -4x + 18\\)</td><td class='ms-mark'>A1A1A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[6 marks]</td></tr></tbody></table>"
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>29d.</td><td class='ms-part'></td><td class='ms-content'>\\(V = \\pi\\displaystyle\\int_a^b [f(x)]^2\\,dx - \\pi\\int_a^b [L(x)]^2\\,dx\\) (or washer method)</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Correct limits and integrand</td><td class='ms-mark'>A1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Evaluate (GDC or exact)</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Correct answer in required form</td><td class='ms-mark'>A1A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[8 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t5_sl2_q30",
@@ -12074,7 +12071,7 @@
         "images/markschemes/t5_sl2_q30.svg"
       ],
       "draft": false,
-      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>29d.</td><td class='ms-part'></td><td class='ms-content'>\\(V = \\pi\\displaystyle\\int_a^b [f(x)]^2\\,dx - \\pi\\int_a^b [L(x)]^2\\,dx\\) (or washer method)</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Correct limits and integrand</td><td class='ms-mark'>A1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Evaluate (GDC or exact)</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Correct answer in required form</td><td class='ms-mark'>A1A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[8 marks]</td></tr></tbody></table>"
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>30c.</td><td class='ms-part'></td><td class='ms-content'>Apply chain rule: \\(h'(x) = f'(\\cdot) \\cdot (\\cdot)'\\)</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Correct answer</td><td class='ms-mark'>A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[2 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t5_sl2_q31",
@@ -12088,7 +12085,7 @@
         "images/markschemes/t5_sl2_q31.svg"
       ],
       "draft": false,
-      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>30c.</td><td class='ms-part'></td><td class='ms-content'>Apply chain rule: \\(h'(x) = f'(\\cdot) \\cdot (\\cdot)'\\)</td><td class='ms-mark'>M1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Correct answer</td><td class='ms-mark'>A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[2 marks]</td></tr></tbody></table>"
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>31.</td><td class='ms-part'></td><td class='ms-content'>Differentiate \\(y = px + q\\) (or implicit differentiation)</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Substitute coordinates of A</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Solve simultaneous equations for \\(p\\) and \\(q\\)</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>State final values</td><td class='ms-mark'>A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[7 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t5_sl2_q32",
@@ -12102,7 +12099,7 @@
         "images/markschemes/t5_sl2_q32.svg"
       ],
       "draft": false,
-      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>31.</td><td class='ms-part'></td><td class='ms-content'>Differentiate \\(y = px + q\\) (or implicit differentiation)</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Substitute coordinates of A</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Solve simultaneous equations for \\(p\\) and \\(q\\)</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>State final values</td><td class='ms-mark'>A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[7 marks]</td></tr></tbody></table>"
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>32.</td><td class='ms-part'></td><td class='ms-content'>Let \\(AB = x\\), \\(BC = \\dfrac{525}{x}\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Cost \\(C = 11x + 3\\left(x + \\dfrac{1050}{x}\\right) = 14x + \\dfrac{3150}{x}\\)</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(\\dfrac{dC}{dx} = 14 - \\dfrac{3150}{x^2} = 0 \\Rightarrow x = 15\\)</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Minimum cost \\(= 14(15) + \\dfrac{3150}{15} = 210 + 210 = \\$420\\)</td><td class='ms-mark'>A1A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[7 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t5_sl2_q33",
@@ -12116,7 +12113,7 @@
         "images/markschemes/t5_sl2_q33.svg"
       ],
       "draft": false,
-      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>32.</td><td class='ms-part'></td><td class='ms-content'>Let \\(AB = x\\), \\(BC = \\dfrac{525}{x}\\)</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Cost \\(C = 11x + 3\\left(x + \\dfrac{1050}{x}\\right) = 14x + \\dfrac{3150}{x}\\)</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(\\dfrac{dC}{dx} = 14 - \\dfrac{3150}{x^2} = 0 \\Rightarrow x = 15\\)</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Minimum cost \\(= 14(15) + \\dfrac{3150}{15} = 210 + 210 = \\$420\\)</td><td class='ms-mark'>A1A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[7 marks]</td></tr></tbody></table>"
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>33d.</td><td class='ms-part'></td><td class='ms-content'>Find intersections of \\(f\\) and \\(g\\) (GDC)</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Area \\(= \\displaystyle\\int_{x_1}^{x_2}|f(x)-g(x)|\\,dx\\)</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Evaluate using GDC; correct area</td><td class='ms-mark'>A1A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[6 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t5_sl2_q34",
@@ -12130,7 +12127,7 @@
         "images/markschemes/t5_sl2_q34.svg"
       ],
       "draft": false,
-      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>33d.</td><td class='ms-part'></td><td class='ms-content'>Find intersections of \\(f\\) and \\(g\\) (GDC)</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Area \\(= \\displaystyle\\int_{x_1}^{x_2}|f(x)-g(x)|\\,dx\\)</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Evaluate using GDC; correct area</td><td class='ms-mark'>A1A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[6 marks]</td></tr></tbody></table>"
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>34.</td><td class='ms-part'></td><td class='ms-content'>Find \\(f'(x)\\) using appropriate rule</td><td class='ms-mark'>M1A1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Evaluate \\(f'(x_0)\\) at given \\(x\\)</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Normal gradient \\(= -\\dfrac{1}{f'(x_0)}\\)</td><td class='ms-mark'>A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[6 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t5_sl2_q35",
@@ -12144,7 +12141,7 @@
         "images/markschemes/t5_sl2_q35.svg"
       ],
       "draft": false,
-      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>34.</td><td class='ms-part'></td><td class='ms-content'>Find \\(f'(x)\\) using appropriate rule</td><td class='ms-mark'>M1A1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Evaluate \\(f'(x_0)\\) at given \\(x\\)</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Normal gradient \\(= -\\dfrac{1}{f'(x_0)}\\)</td><td class='ms-mark'>A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[6 marks]</td></tr></tbody></table>"
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>35b.</td><td class='ms-part'></td><td class='ms-content'>\\(t =\\) [value at which \\(v\\) is maximum, from graph or differentiation]</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>(Award A1 for correct value with no working required)</td><td class='ms-mark'>A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[2 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t5_sl2_q36",
@@ -12158,7 +12155,7 @@
         "images/markschemes/t5_sl2_q36.svg"
       ],
       "draft": false,
-      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>35b.</td><td class='ms-part'></td><td class='ms-content'>\\(t =\\) [value at which \\(v\\) is maximum, from graph or differentiation]</td><td class='ms-mark'>A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>(Award A1 for correct value with no working required)</td><td class='ms-mark'>A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[2 marks]</td></tr></tbody></table>"
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>36.</td><td class='ms-part'></td><td class='ms-content'>\\(V = \\pi\\displaystyle\\int_0^a x\\,dx = \\dfrac{\\pi a^2}{2}\\)</td><td class='ms-mark'>M1A1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Set \\(\\dfrac{\\pi a^2}{2} = V_{\\text{given}}\\) and solve for \\(a\\)</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(a = \\) [correct value]</td><td class='ms-mark'>A1A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[7 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t5_sl2_q37",
@@ -12172,7 +12169,7 @@
         "images/markschemes/t5_sl2_q37.svg"
       ],
       "draft": false,
-      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>36.</td><td class='ms-part'></td><td class='ms-content'>\\(V = \\pi\\displaystyle\\int_0^a x\\,dx = \\dfrac{\\pi a^2}{2}\\)</td><td class='ms-mark'>M1A1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>Set \\(\\dfrac{\\pi a^2}{2} = V_{\\text{given}}\\) and solve for \\(a\\)</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>\\(a = \\) [correct value]</td><td class='ms-mark'>A1A1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[7 marks]</td></tr></tbody></table>"
+      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>37c.</td><td class='ms-part'>(i)</td><td class='ms-content'>\\(\\dfrac{d^2A}{dx^2} =\\) [correct expression]</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(ii)</td><td class='ms-content'>Set \\(\\dfrac{dA}{dx} = 0\\); solve exact value of \\(\\theta\\) or \\(x\\)</td><td class='ms-mark'>M1A1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(iii)</td><td class='ms-content'>\\(\\dfrac{d^2A}{dx^2} < 0\\) at this value, confirming maximum</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>State conclusion</td><td class='ms-mark'>R1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[8 marks]</td></tr></tbody></table>"
     },
     {
       "id": "t5_sl2_q38",
@@ -12186,7 +12183,7 @@
         "images/markschemes/t5_sl2_q38.svg"
       ],
       "draft": false,
-      "latex_solution": "<table class='ms-table'><tbody><tr><td class='ms-qnum'>37c.</td><td class='ms-part'>(i)</td><td class='ms-content'>\\(\\dfrac{d^2A}{dx^2} =\\) [correct expression]</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(ii)</td><td class='ms-content'>Set \\(\\dfrac{dA}{dx} = 0\\); solve exact value of \\(\\theta\\) or \\(x\\)</td><td class='ms-mark'>M1A1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'>(iii)</td><td class='ms-content'>\\(\\dfrac{d^2A}{dx^2} < 0\\) at this value, confirming maximum</td><td class='ms-mark'>M1A1</td></tr><tr><td class='ms-qnum'></td><td class='ms-part'></td><td class='ms-content'>State conclusion</td><td class='ms-mark'>R1</td></tr><tr><td colspan='3'></td><td class='ms-total'>[8 marks]</td></tr></tbody></table>"
+      "latex_solution": ""
     },
     {
       "id": "t2_5_q1",
