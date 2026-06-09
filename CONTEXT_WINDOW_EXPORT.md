@@ -14,6 +14,29 @@ Project: `AA-HL-Question-Bank`
 - User preference: when `All levels` is selected, prioritize `SL` and suppress `HL` duplicates (biology/chemistry only).
 - User constraint: do not change Paper 1A / Paper 2 / Paper 3 logic when fixing unrelated issues.
 
+## Most Recent Completed Work (2026-06-09)
+
+### Bug Fixes
+
+**KaTeX broken LaTeX (151 markschemes):**
+Raw `<` and `>` inside `\(...\)` math blocks (e.g. `|2x|<1`) broke HTML parsing when the
+`latex_solution` HTML string was set as `innerHTML` — the browser tokenizer treats `<x` or
+`<\t` as tag openers. Fixed by escaping to `&lt;`/`&gt;` within all math delimiters.
+KaTeX's `renderMathInElement` reads DOM text nodes which decode `&lt;` → `<` transparently.
+
+**Crop bleed for T6-2P1 / T6-2P2 questions (P1/P2 style PDFs):**
+The 80px top-preamble buffer was pulling in the previous question's last lines at the top of
+the next question's image (Q10's content appeared at the top of Q11's image). Root cause:
+Paper 1/2 questions start directly with "N. text" — no preamble above the question number —
+so 80px was always Q10 territory, not Q11 preamble.
+Fixed: `recrop_tutoring_preambles.py` now uses per-PDF `(top_preamble, bottom_preamble)`.
+T6-2P1 and T6-2P2 use top=5px, bottom=80px (adaptive fallback to n.y−5 when tight).
+
+**ESS images committed (previous session):**
+755 question images, 305 markscheme images, 34 text booklet PDFs added.
+
+**14 commits ahead of origin/main** (need push + R2 sync for new/changed images).
+
 ## Most Recent Completed Work (2026-05-20)
 
 ### KaTeX Markschemes — ALL COMPLETE (2026-05-20)
