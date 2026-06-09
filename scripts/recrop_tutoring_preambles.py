@@ -139,7 +139,7 @@ def crop_question_from_top(
         left = 18.0
         right = float(page.rect.width) - 18.0
         if pno == s.page:
-            top = 32.0  # always from page top to include preamble
+            top = max(30.0, s.y - 80)  # 80px above detected start captures 2-3 lines of preamble
         if n is not None and pno == n.page:
             bottom = min(bottom, n.y - 2.0)
         if bottom <= top + 15.0:
