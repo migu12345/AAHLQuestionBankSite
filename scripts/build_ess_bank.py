@@ -332,11 +332,24 @@ def detect_starts(doc: fitz.Document, kind: str) -> List[StartPos]:
     ms_data_start_page = 0
 
     if kind == "markscheme":
+        # Primary detection: find the first page with actual answer content —
+        # "[N]" mark tokens together with "award" or "accept" keywords. This correctly
+        # skips generic instructions pages (which use numbered list items that confuse
+        # the question-start detector in newer ESS PDFs).
         for pno in range(len(doc)):
             t = (doc[pno].get_text("text") or "").lower()
-            if "question" in t and "answers" in t and "total" in t and "subject details" not in t:
+            if "environmental systems and societies uses marking points" in t:
+                continue  # skip the generic marking instructions page
+            if re.search(r"\[\d+\]", t) and ("award" in t or "accept" in t or "do not accept" in t):
                 ms_data_start_page = pno
                 break
+        # Fallback: original heuristic
+        if ms_data_start_page == 0:
+            for pno in range(len(doc)):
+                t = (doc[pno].get_text("text") or "").lower()
+                if "question" in t and "answers" in t and "total" in t and "subject details" not in t:
+                    ms_data_start_page = pno
+                    break
 
     for pno in range(len(doc)):
         if kind == "markscheme" and pno < ms_data_start_page:
@@ -346,6 +359,12 @@ def detect_starts(doc: fitz.Document, kind: str) -> List[StartPos]:
         if "all other texts, graphics and illustrations" in page_text_lower:
             continue
         if "disclaimer:" in page_text_lower and "references:" in page_text_lower:
+            continue
+        # Skip the ESS generic marking instructions page (newer PDFs place it after the
+        # Q&A table header, so ms_data_start_page doesn't exclude it). This page always
+        # opens with "1. Environmental systems and societies uses marking points..." which
+        # detect_starts would incorrectly treat as question 1.
+        if kind == "markscheme" and "environmental systems and societies uses marking points" in page_text_lower:
             continue
         if page_text_lower.lstrip().startswith("references:"):
             continue
