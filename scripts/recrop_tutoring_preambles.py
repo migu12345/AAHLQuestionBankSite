@@ -53,7 +53,8 @@ T_STYLE: Dict[str, tuple] = {
     "Topic 2 Part 1 T.pdf":        (True,  4, 10, 10),
     # Sparse T-style (all gaps ≥ 80px) → top=bottom=80
     "Topic 3 Part 1 T (1).pdf":    (True,  4, 80, 80),
-    "Topic 1 Part 1 T.pdf":        (True,  4, 80, 80),
+    # Dense T-style → top=bottom=10 (preamble text ≤6px above sub-label)
+    "Topic 1 Part 1 T.pdf":        (True,  4, 10, 10),
     # Paper-1/2 style → top=5 (no preamble above question label)
     "T6-2P1 T.pdf":                (True,  2,  5,  5),
     "T6-2P2 T.pdf":                (True,  2,  5,  5),
@@ -140,6 +141,74 @@ def detect_starts(doc: fitz.Document, supports_parts: bool = False) -> List[Star
     return out
 
 
+def _gap_based_top(page: fitz.Page, qnum: int, max_y: float) -> Tuple[Optional[float], bool]:
+    """Compute a crop top based on where the previous question's content ends on this page.
+
+    Returns:
+      (gap_top, has_prev_content) tuple.
+      has_prev_content=False means no previous question labels found — page starts fresh.
+      gap_top=None means prev content found but no useful preamble close after the gap
+        (caller should fall back to normal top_preamble buffer).
+      gap_top=float means use this y as the crop top.
+
+    Algorithm:
+    1. Find the last sub/question label of a question ≠ qnum at y < max_y.
+    2. Scan forward from that label until the first vertical text gap > 30px.
+       boundary_y = last text line before that gap.
+    3. candidate_top = boundary_y + 20  (clears any partial text line).
+    4. Only return candidate_top if a text line appears within 50px after it
+       (confirming genuine preamble content follows the boundary).
+    """
+    GAP_THRESHOLD = 30.0
+    GAP_TOP_MARGIN = 20.0
+    PREAMBLE_CHECK_WINDOW = 50.0
+
+    lines: List[Tuple[float, str]] = []
+    for block in page.get_text("dict").get("blocks", []):
+        if block.get("type") != 0:
+            continue
+        for line in block.get("lines", []):
+            spans = line.get("spans", [])
+            if not spans:
+                continue
+            line_text = "".join(s.get("text", "") for s in spans).strip()
+            y = float(line.get("bbox", [0, 0, 0, 0])[1])
+            if line_text and y < max_y:
+                lines.append((y, line_text))
+    if not lines:
+        return None, False
+    lines.sort(key=lambda t: t[0])
+
+    # Find last label of a different question
+    last_prev_idx: Optional[int] = None
+    for i, (y, text) in enumerate(lines):
+        m = re.match(r"^(\d{1,2})[a-z]?\.$", text)
+        if m and int(m.group(1)) != qnum:
+            last_prev_idx = i
+    if last_prev_idx is None:
+        return None, False  # no prev content on this page
+
+    # Walk forward from that label; stop at first gap > GAP_THRESHOLD
+    prev_y = lines[last_prev_idx][0]
+    boundary_y = prev_y
+    for i in range(last_prev_idx + 1, len(lines)):
+        y, _ = lines[i]
+        if y - prev_y > GAP_THRESHOLD:
+            break
+        prev_y = y
+        boundary_y = y
+
+    candidate_top = max(30.0, boundary_y + GAP_TOP_MARGIN)
+
+    # Only return candidate_top if there's a text line close after it,
+    # confirming genuine preamble content follows the boundary.
+    has_nearby_preamble = any(
+        candidate_top <= y < candidate_top + PREAMBLE_CHECK_WINDOW
+        for y, _ in lines
+    )
+    return (candidate_top if has_nearby_preamble else None), True
+
+
 def crop_question_from_top(
     doc: fitz.Document,
     starts: List[StartPos],
@@ -165,7 +234,17 @@ def crop_question_from_top(
         left = 18.0
         right = float(page.rect.width) - 18.0
         if pno == s.page:
-            top = max(30.0, s.y - top_preamble)
+            preamble_top = max(30.0, s.y - top_preamble)
+            gap_top, has_prev = _gap_based_top(page, s.qnum, s.y)
+            if not has_prev:
+                # No previous question content on this page — crop from page top.
+                top = 30.0
+            elif gap_top is not None:
+                # Gap found with confirmed nearby preamble text.
+                top = gap_top
+            else:
+                # Previous content exists but no useful gap — use preamble buffer.
+                top = preamble_top
         if n is not None and pno == n.page:
             ideal = n.y - bottom_preamble
             # Fall back to n.y - 5 if ideal would leave less than 20px of content
