@@ -6,13 +6,42 @@ Project: `AA-HL-Question-Bank`
 ## Current State
 - Biology bank: LIVE with 3299 questions from 182 papers (2016–2025).
 - Chemistry bank: LIVE with questions from 188 papers (2016–2025).
-- Physics bank: stable, existing.
+- Physics bank: markscheme crops fixed (2026-06-10).
 - **Math/Tutoring bank: 717 questions across Topics 1–5 (HL + SL), full AA bank UI parity.**
 - User preference: **surgical fixes only**.
 - User preference: auto **commit + push** after work.
 - User preference: keep `CONTEXT_WINDOW_EXPORT.md` updated.
 - User preference: when `All levels` is selected, prioritize `SL` and suppress `HL` duplicates (biology/chemistry only).
 - User constraint: do not change Paper 1A / Paper 2 / Paper 3 logic when fixing unrelated issues.
+
+## Most Recent Completed Work (2026-06-10, third session)
+
+### Physics markscheme crop fix
+
+**Root cause — two distinct bugs in `detect_ms_starts` (rebuild_physics_markschemes.py):**
+
+1. **Modern IB format (m22–m25)**: Left-column y-range `280 <= y <= 540` excluded first-row
+   entries at y≈105–120, so Q2's anchor was detected at the "b i" row (y≈345) instead
+   of the "a i" row (y≈105). This caused Q1 crops to include Q2.a rows at the bottom,
+   and Q2 crops to start mid-table missing Q2.a entirely.
+
+2. **Old IB landscape format (m16–m17)**: These PDFs are stored with page Rotation=90.
+   fitz returns word coordinates in native (pre-rotation) space, so the question-number
+   column (native x≈266 → display y≈266 after rotation) was never detected by the
+   `x <= 72` left-column rule. Fallback anchor of y=120 caused Q1's last rows to bleed
+   into Q2's crop.
+
+**Fixes applied to `scripts/rebuild_physics_markschemes.py`:**
+- Lowered y-range from `280–540` to `90–700` in both the `has_table_header` and
+  `elif not is_rubric_page` branches.
+- Added block-scan for pages with `Rotation in (90, 270)`: reads text blocks, finds ones
+  starting with a digit + letter (question + subpart), and uses `block.x0` as `display_y`
+  anchor (score=12, beats text-line fallback but loses to footer).
+- Rebuilt 952 markscheme images via `python3 scripts/rebuild_physics_markschemes.py`.
+
+**22 commits ahead of origin/main** — need push + R2 sync for new/changed images.
+
+---
 
 ## Most Recent Completed Work (2026-06-10, second session)
 

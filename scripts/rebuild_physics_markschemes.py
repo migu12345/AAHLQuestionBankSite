@@ -169,7 +169,7 @@ def detect_ms_starts(
                 if 95.0 <= x <= 130.0 and y >= 730.0:
                     add_candidate(qn, pno, 120.0, 15)
                     continue
-                if x <= 72.0 and 280.0 <= y <= 540.0:
+                if x <= 72.0 and 90.0 <= y <= 700.0:
                     # Avoid page-number false positives: require a likely subpart
                     # letter on the same baseline to the right of the number.
                     line_tokens = [
@@ -196,7 +196,7 @@ def detect_ms_starts(
                     continue
                 x = float(x0)
                 y = float(y0)
-                if x <= 72.0 and 320.0 <= y <= 520.0:
+                if x <= 72.0 and 90.0 <= y <= 700.0:
                     line_tokens = [
                         str(v[4]).strip().lower()
                         for v in words
@@ -204,6 +204,26 @@ def detect_ms_starts(
                     ]
                     if any(re.fullmatch(r"[a-e]", tok) for tok in line_tokens):
                         add_candidate(qn, pno, y, 7)
+
+        # For PDFs stored with page rotation (e.g. old IB landscape markschemes),
+        # question-column x-coords in native PDF space map to display y-positions
+        # after the rotation transform.  Scan text blocks to recover the true start.
+        if page.rotation in (90, 270):
+            for block in page.get_text("blocks"):
+                bx0, _by0, _bx1, _by1, btext, *_ = block
+                blines = [ln.strip() for ln in btext.splitlines() if ln.strip()]
+                if len(blines) < 2:
+                    continue
+                if not re.fullmatch(r"\d{1,2}", blines[0]):
+                    continue
+                qn = int(blines[0])
+                if qn not in allowed:
+                    continue
+                if not re.fullmatch(r"[a-f]", blines[1].lower()):
+                    continue
+                # block.x0 in native PDF coords ≈ display y after 90° rotation
+                display_y = float(bx0)
+                add_candidate(qn, pno, display_y, 12)
 
     starts: List[StartPos] = []
     for qn in sorted(allowed):
