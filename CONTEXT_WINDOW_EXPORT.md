@@ -14,6 +14,30 @@ Project: `AA-HL-Question-Bank`
 - User preference: when `All levels` is selected, prioritize `SL` and suppress `HL` duplicates (biology/chemistry only).
 - User constraint: do not change Paper 1A / Paper 2 / Paper 3 logic when fixing unrelated issues.
 
+## Most Recent Completed Work (2026-06-10, ninth session)
+
+### Tutoring bank — question crop bleed fix (T2-5, T2-6, T6-1)
+
+**Root cause:** `top_preamble=80` in `recrop_tutoring_preambles.py` was too large for
+densely-packed T-style PDFs. When the gap between consecutive question starts was < 80px,
+the crop for Q(N) started inside Q(N-1)'s content. Diagnosis showed preamble text (marks
+labels, leading words) appears only 4–6px above each detected question start — so
+`top_preamble=10` safely captures it without bleeding.
+
+**Affected PDFs (top_preamble changed 80→10):**
+- `T2-5 T (2).pdf` — bleed pairs: Q1→Q2 (60px), Q2→Q3 (69px), Q5→Q6 (82px), Q9→Q10 (79px)
+- `T2-6 T (1).pdf` — bleed pair: Q4→Q5 (48px)
+- `T6-1 T HL.pdf` — bleed pairs: Q7→Q8 (77px), Q10→Q11 (63px), Q28→Q29 (54px)
+
+**88 question images re-cropped.** R2 sync needed for updated PNG files.
+
+**Not yet fixed (detection anomalies, needs separate investigation):**
+- `Topic 1 Part 1 T.pdf` (Q2→Q27: 6px gap — likely a detection error)
+- `Topic 2 Part 1 T.pdf` (Q6→Q3: 32px — detection ordering issue)
+- `Topic 6 Part 1 T SL.pdf` (Q7→Q15: 79px)
+
+---
+
 ## Most Recent Completed Work (2026-06-10, eighth session)
 
 ### History bank — remove source PDF button from P2/P3

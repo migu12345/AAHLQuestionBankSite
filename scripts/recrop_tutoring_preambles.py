@@ -39,15 +39,15 @@ QUESTIONS_JSON = ROOT / "data" / "tutoring" / "processed" / "questions.json"
 # For Paper-1/2 style (T6-2P1, T6-2P2): top=5 so previous question doesn't bleed in at top,
 #   but bottom=80 so the NEXT question's preamble stays out of this question's image.
 T_STYLE: Dict[str, tuple] = {
-    "T6-1 T HL.pdf":               (True, 4, 80, 80),
+    "T6-1 T HL.pdf":               (True, 4, 10, 80),
     "T6-2P1 T.pdf":                (True, 2,  5, 80),
     "T6-2P2 T.pdf":                (True, 2,  5, 80),
     "Topic 6 Part 1 T SL.pdf":     (True, 4, 80, 80),
     "Topic 1 Part 1 T.pdf":        (True, 4, 80, 80),
     "Topic 2 Part 1 T.pdf":        (True, 4, 80, 80),
     "Topic 3 Part 1 T (1).pdf":    (True, 4, 80, 80),
-    "T2-5 T (2).pdf":              (True, 3, 80, 80),
-    "T2-6 T (1).pdf":              (True, 3, 80, 80),
+    "T2-5 T (2).pdf":              (True, 3, 10, 80),
+    "T2-6 T (1).pdf":              (True, 3, 10, 80),
 }
 
 
