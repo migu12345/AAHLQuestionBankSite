@@ -12083,7 +12083,12 @@
         "paper_file": "Environmental_systems_and_societies_paper_2__SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2__SL_markscheme.pdf"
       },
-      "question_image_paths": [],
+      "question_image_paths": [
+        "images/questions/ess_n22_p2_ntz_q1_p1.png",
+        "images/questions/ess_n22_p2_ntz_q1_p2.png",
+        "images/questions/ess_n22_p2_ntz_q1_p3.png",
+        "images/questions/ess_n22_p2_ntz_q1_p4.png"
+      ],
       "markscheme_image_paths": [
         "images/markschemes/ess_n22_p2_ntz_q1_p1.png"
       ]
@@ -12108,7 +12113,12 @@
         "paper_file": "Environmental_systems_and_societies_paper_2__SL.pdf",
         "markscheme_file": "Environmental_systems_and_societies_paper_2__SL_markscheme.pdf"
       },
-      "question_image_paths": [],
+      "question_image_paths": [
+        "images/questions/ess_n22_p2_ntz_q2_p1.png",
+        "images/questions/ess_n22_p2_ntz_q2_p2.png",
+        "images/questions/ess_n22_p2_ntz_q2_p3.png",
+        "images/questions/ess_n22_p2_ntz_q2_p4.png"
+      ],
       "markscheme_image_paths": [
         "images/markschemes/ess_n22_p2_ntz_q2_p1.png",
         "images/markschemes/ess_n22_p2_ntz_q2_p2.png"

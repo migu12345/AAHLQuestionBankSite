@@ -14,6 +14,25 @@ Project: `AA-HL-Question-Bank`
 - User preference: when `All levels` is selected, prioritize `SL` and suppress `HL` duplicates (biology/chemistry only).
 - User constraint: do not change Paper 1A / Paper 2 / Paper 3 logic when fixing unrelated issues.
 
+## Most Recent Completed Work (2026-06-10, seventh session)
+
+### ESS n22 P2 NTZ Q1 and Q2 — missing question images fixed
+
+`ess_n22_p2_ntz_q1` and `ess_n22_p2_ntz_q2` had empty `question_image_paths` due to a
+dichotomous key in the PDF ("1. a. Less than 30 cm…") being misdetected as Q1 start,
+preventing the real Q1 from being found.
+
+**Fix (`scripts/build_ess_bank.py`):** Added `re.match(r"^\d+\.\s+[a-z][.\s]", text)` guard
+to skip dichotomous key sub-entries in `detect_starts`. Re-ran `fix_ess_n22_images.py` to
+regenerate 4 images each for Q1 and Q2. Diagnostic + fix scripts deleted after use.
+
+**All commits now pushed to origin/main.**
+
+**R2 sync needed** for new ESS n22 images (8 PNGs) and physics markscheme images rebuilt in
+the third session.
+
+---
+
 ## Most Recent Completed Work (2026-06-10, sixth session)
 
 ### History bank — side-by-side + source PDF

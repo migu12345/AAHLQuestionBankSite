@@ -419,8 +419,11 @@ def detect_starts(doc: fitz.Document, kind: str) -> List[StartPos]:
                         score = 4
                 elif m_inline:
                     if kind != "markscheme" or x <= 65:
-                        qn = int(m_inline.group(1))
-                        score = 5
+                        # Skip dichotomous key sub-entries like "1. a. Less than 30 cm"
+                        # (N. [letter][punctuation]) which appear in taxonomy figures.
+                        if not re.match(r"^\d+\.\s+[a-z][.\s]", text):
+                            qn = int(m_inline.group(1))
+                            score = 5
 
                 if kind == "markscheme":
                     m_ms = re.match(r"^(\d{1,2})\s+[A-Za-z(]", text)
