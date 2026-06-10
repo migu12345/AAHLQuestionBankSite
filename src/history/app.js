@@ -221,6 +221,26 @@ function renderQuestions(reset) {
     // Question text
     article.querySelector(".question-text-body").textContent = q.question_text || "";
 
+    // P1 sources
+    const sourcesDetails = article.querySelector(".sources-details");
+    if (q.sources && q.sources.length > 0) {
+      sourcesDetails.hidden = false;
+      const sourcesBody = article.querySelector(".sources-body");
+      q.sources.forEach((src) => {
+        const wrap = document.createElement("div");
+        wrap.className = "source-item";
+        const header = document.createElement("p");
+        header.className = "source-header";
+        header.textContent = `Source ${src.label}${src.attribution ? " — " + src.attribution : ""}`;
+        wrap.appendChild(header);
+        const textEl = document.createElement("pre");
+        textEl.className = "ms-pre source-text";
+        textEl.textContent = src.text || "";
+        wrap.appendChild(textEl);
+        sourcesBody.appendChild(wrap);
+      });
+    }
+
     // Markscheme text
     const msDetails = article.querySelector(".ms-details");
     if (q.markscheme_text) {

@@ -1100,6 +1100,23 @@ button:hover {
   }
 }
 
+/* History source display (P1) */
+.source-item {
+  margin-bottom: 1rem;
+}
+
+.source-header {
+  font-size: 0.82rem;
+  font-style: italic;
+  color: #4a5568;
+  margin: 0.5rem 0 0.25rem;
+  font-weight: 600;
+}
+
+.source-text {
+  background: #f0f4f8;
+}
+
 /* History markscheme text display */
 .ms-pre {
   white-space: pre-wrap;

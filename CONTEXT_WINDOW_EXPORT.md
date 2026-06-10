@@ -14,6 +14,33 @@ Project: `AA-HL-Question-Bank`
 - User preference: when `All levels` is selected, prioritize `SL` and suppress `HL` duplicates (biology/chemistry only).
 - User constraint: do not change Paper 1A / Paper 2 / Paper 3 logic when fixing unrelated issues.
 
+## Most Recent Completed Work (2026-06-10, fifth session)
+
+### History P1 sources added
+
+Added `sources` field to all 341 P1 questions (100%). Text and resource booklets
+exist for every session (2018–2025), named either `text_booklet` or `resource_booklet`.
+
+**Script:** `scripts/add_history_sources.py`
+
+**Coverage:** 14 sessions × 5 prescribed subjects × 4 sources each. Text sources
+extracted as full text; image/visual sources labeled `[Visual source — not available as text]`;
+copyright-removed text sources labeled `[Source text removed for copyright reasons]`.
+
+**Parsing notes:**
+- Source booklets named `text_booklet` (2018–2023) or `resource_booklet` (2021, 2024–2025)
+- Image detection uses keywords: "depicts", "depicting", "illustration", "illustrator", "map",
+  "cartoon", "photograph", "painting", "portrait", etc.
+- Attribution ends at line with year in parens e.g. "(2009)."
+- "End of" lines filtered from text content
+
+**UI:** "Sources" collapsible `<details>` panel added to P1 question cards,
+showing source header (label + attribution) + text body.
+
+**24 commits ahead of origin/main** — need push.
+
+---
+
 ## Most Recent Completed Work (2026-06-10, fourth session)
 
 ### History bank — markschemes added
