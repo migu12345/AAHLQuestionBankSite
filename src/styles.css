@@ -623,6 +623,36 @@ button:hover {
   border-color: #f0bebc;
 }
 
+.tag {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 1.5rem;
+  padding: 0.15rem 0.55rem;
+  border-radius: 999px;
+  font-size: 0.76rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  border: 1px solid transparent;
+  background: #edf5ff;
+  color: #1a3a6b;
+  border-color: #cadcf6;
+}
+
+.tag.tag-subtle {
+  background: #f2f4f7;
+  color: #4b5468;
+  border-color: #d5d9e2;
+  font-weight: 500;
+}
+
+.question-text-body {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin: 0 0 0.75rem;
+  color: #1a1e2d;
+}
+
 .side-by-side-btn {
   margin: 0 0 0.7rem;
   background: #edf5ff;
