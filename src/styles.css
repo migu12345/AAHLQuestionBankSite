@@ -1100,6 +1100,25 @@ button:hover {
   }
 }
 
+/* Secondary button style (used for PDF link in history) */
+.btn-secondary {
+  display: inline-block;
+  padding: 0.35rem 0.85rem;
+  border-radius: 6px;
+  border: 1px solid var(--line);
+  background: #f5f4f1;
+  color: #243451;
+  font-size: 0.85rem;
+  font-weight: 500;
+  cursor: pointer;
+  text-decoration: none;
+  line-height: 1.4;
+}
+.btn-secondary:hover {
+  background: #ebe9e4;
+  border-color: #b8b0a0;
+}
+
 /* History source display (P1) */
 .source-item {
   margin-bottom: 1rem;

@@ -14,6 +14,23 @@ Project: `AA-HL-Question-Bank`
 - User preference: when `All levels` is selected, prioritize `SL` and suppress `HL` duplicates (biology/chemistry only).
 - User constraint: do not change Paper 1A / Paper 2 / Paper 3 logic when fixing unrelated issues.
 
+## Most Recent Completed Work (2026-06-10, sixth session)
+
+### History bank — side-by-side + source PDF
+
+- **Side-by-side modal**: shown for any question with a markscheme. Left panel = question text
+  + P1 sources; right panel = markscheme. Uses the existing `.compare-modal` / `.compare-grid`
+  CSS already in styles.css.
+- **"Open source PDF" link** (P1 only): opens the source booklet PDF in a new tab via
+  `window.assetUrl()`. Source booklet PDFs (14 sessions, 2–15MB each) copied to
+  `data/history/processed/source_booklets/{sc}.pdf` — served same-origin from Docker
+  (no separate R2 upload needed since Dockerfile copies all data/).
+- **`.btn-secondary` CSS class** added to styles.css for the PDF link button style.
+
+**26 commits ahead of origin/main** — need push.
+
+---
+
 ## Most Recent Completed Work (2026-06-10, fifth session)
 
 ### History P1 sources added

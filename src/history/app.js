@@ -18,6 +18,12 @@ const heroSearch = document.getElementById("heroSearch");
 const questionList = document.getElementById("questionList");
 const resultCount = document.getElementById("resultCount");
 const questionTemplate = document.getElementById("questionTemplate");
+const compareModal = document.getElementById("compareModal");
+const compareBackdrop = document.getElementById("compareBackdrop");
+const compareCloseBtn = document.getElementById("histCompareCloseBtn");
+const compareLeft = document.getElementById("histCompareLeft");
+const compareRight = document.getElementById("histCompareRight");
+const compareTitle = document.getElementById("histCompareTitle");
 const loadMoreWrap = document.getElementById("loadMoreWrap");
 const loadMoreBtn = document.getElementById("loadMoreBtn");
 
@@ -295,6 +301,20 @@ function renderQuestions(reset) {
       article.classList.toggle("is-done", a.done);
     });
 
+    // Side-by-side button (shown when markscheme exists)
+    const sideBySideBtn = article.querySelector(".side-by-side-btn");
+    if (q.markscheme_text) {
+      sideBySideBtn.hidden = false;
+      sideBySideBtn.addEventListener("click", () => openCompareModal(q));
+    }
+
+    // Open source PDF button (P1 only)
+    const pdfBtn = article.querySelector(".source-pdf-btn");
+    if (q.source_booklet_path) {
+      pdfBtn.hidden = false;
+      pdfBtn.href = window.assetUrl(q.source_booklet_path);
+    }
+
     questionList.appendChild(card);
   });
 
@@ -302,6 +322,72 @@ function renderQuestions(reset) {
   loadMoreWrap.hidden = state.visibleCount >= state.filteredQuestions.length;
   updateResultCount();
 }
+
+function openCompareModal(q) {
+  if (!compareModal) return;
+  compareLeft.innerHTML = "";
+  compareRight.innerHTML = "";
+  compareTitle.textContent = `Side by side — ${q.paper} Q${q.question_number}`;
+
+  // Left: question text
+  const qPre = document.createElement("pre");
+  qPre.className = "ms-pre";
+  qPre.textContent = q.question_text || "";
+  compareLeft.appendChild(qPre);
+
+  // Left: sources (P1)
+  if (q.sources && q.sources.length > 0) {
+    const srcHdr = document.createElement("h5");
+    srcHdr.textContent = "Sources";
+    srcHdr.style.marginTop = "1rem";
+    compareLeft.appendChild(srcHdr);
+    q.sources.forEach((src) => {
+      const hdr = document.createElement("p");
+      hdr.className = "source-header";
+      hdr.textContent = `Source ${src.label}${src.attribution ? " — " + src.attribution : ""}`;
+      compareLeft.appendChild(hdr);
+      const pre = document.createElement("pre");
+      pre.className = "ms-pre source-text";
+      pre.textContent = src.text || "";
+      compareLeft.appendChild(pre);
+    });
+  }
+
+  // Right: markscheme
+  if (q.markscheme_text) {
+    const parts = q.markscheme_text.split(/\n\s*---\s*\n/);
+    parts.forEach((part, idx) => {
+      if (idx > 0) {
+        const hr = document.createElement("hr");
+        hr.className = "ms-divider";
+        compareRight.appendChild(hr);
+      }
+      const pre = document.createElement("pre");
+      pre.className = "ms-pre";
+      pre.textContent = part.trim();
+      compareRight.appendChild(pre);
+    });
+  } else {
+    const p = document.createElement("p");
+    p.textContent = "No markscheme available.";
+    compareRight.appendChild(p);
+  }
+
+  compareModal.hidden = false;
+}
+
+function closeCompareModal() {
+  if (!compareModal) return;
+  compareModal.hidden = true;
+  compareLeft.innerHTML = "";
+  compareRight.innerHTML = "";
+}
+
+if (compareCloseBtn) compareCloseBtn.addEventListener("click", closeCompareModal);
+if (compareBackdrop) compareBackdrop.addEventListener("click", closeCompareModal);
+document.addEventListener("keydown", (e) => {
+  if (e.key === "Escape" && compareModal && !compareModal.hidden) closeCompareModal();
+});
 
 // Filter change handlers
 paperTypeFilter.addEventListener("change", () => {

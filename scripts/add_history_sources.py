@@ -212,7 +212,13 @@ def discover_booklets() -> List[dict]:
     return found
 
 
+BOOKLETS_DIR = ROOT / "data" / "history" / "processed" / "source_booklets"
+
+
 def main() -> None:
+    import shutil
+    BOOKLETS_DIR.mkdir(parents=True, exist_ok=True)
+
     questions = json.loads(QUESTIONS_JSON.read_text(encoding="utf-8"))
     # Index P1 questions by session_code + ps_num
     p1_by_key: Dict[str, List[dict]] = {}
@@ -238,6 +244,14 @@ def main() -> None:
 
     attached = 0
     for sc, pdf_path in sorted(seen_sc.items()):
+        # Copy booklet PDF into the repo for serving
+        dest = BOOKLETS_DIR / f"{sc}.pdf"
+        if not dest.exists():
+            shutil.copy2(str(pdf_path), str(dest))
+            print(f"  Copied {pdf_path.name} → {dest.name}")
+
+        rel_pdf = f"data/history/processed/source_booklets/{sc}.pdf"
+
         try:
             raw = extract_pdf_text(pdf_path)
         except Exception as e:
@@ -254,6 +268,7 @@ def main() -> None:
             qs = p1_by_key.get(lookup_key, [])
             for q in qs:
                 q["sources"] = sources
+                q["source_booklet_path"] = rel_pdf
                 attached += 1
 
     QUESTIONS_JSON.write_text(
