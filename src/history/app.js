@@ -310,7 +310,7 @@ function renderQuestions(reset) {
 
     // Open source PDF button (P1 only) — PDFs bundled in Docker, always same-origin
     const pdfBtn = article.querySelector(".source-pdf-btn");
-    if (q.source_booklet_path) {
+    if (q.paper_type === "Paper 1" && q.source_booklet_path) {
       pdfBtn.hidden = false;
       pdfBtn.href = "/" + q.source_booklet_path;
     }

@@ -14,6 +14,22 @@ Project: `AA-HL-Question-Bank`
 - User preference: when `All levels` is selected, prioritize `SL` and suppress `HL` duplicates (biology/chemistry only).
 - User constraint: do not change Paper 1A / Paper 2 / Paper 3 logic when fixing unrelated issues.
 
+## Most Recent Completed Work (2026-06-10, eighth session)
+
+### History bank — remove source PDF button from P2/P3
+
+`src/history/app.js` line 313: added `q.paper_type === "Paper 1" &&` guard so the
+"Open source PDF" button only renders for P1 questions (where source booklets exist).
+P2 and P3 had no `source_booklet_path` field but the template element was present.
+
+### ESS — strip answer-space artefacts from question_text
+
+425 ESS questions had `\x08` (backspace), `\x07` (bell), `�` (replacement chars),
+and `. . . . .` dot sequences in `question_text` — these are PDF answer-line artefacts
+that showed as a wall of `?` in the browser. Cleaned all 425 with a one-shot script.
+
+---
+
 ## Most Recent Completed Work (2026-06-10, seventh session)
 
 ### ESS n22 P2 NTZ Q1 and Q2 — missing question images fixed
