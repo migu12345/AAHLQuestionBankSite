@@ -1,6 +1,6 @@
 # Context Window Export (for new chat)
 
-Date: 2026-06-10
+Date: 2026-06-10 (updated)
 Project: `AA-HL-Question-Bank`
 
 ## Current State
@@ -13,6 +13,30 @@ Project: `AA-HL-Question-Bank`
 - User preference: keep `CONTEXT_WINDOW_EXPORT.md` updated.
 - User preference: when `All levels` is selected, prioritize `SL` and suppress `HL` duplicates (biology/chemistry only).
 - User constraint: do not change Paper 1A / Paper 2 / Paper 3 logic when fixing unrelated issues.
+
+## Most Recent Completed Work (2026-06-10, second session)
+
+### History question bank — new feature
+
+Built from scratch: `scripts/build_history_bank.py` + `data/history/processed/questions.json`
++ `src/history/index.html` + `src/history/app.js`.
+
+**Scope:** New-syllabus IB History (2018–2025), Paper 1 / Paper 2 / Paper 3.
+- **3293 questions** extracted from 104 PDF files via fitz text extraction (no images needed).
+- P1: 5 prescribed subjects × ~5 questions each × sessions; includes sub-questions (a)(b).
+- P2: 12 World History topics × 2 questions = 24 per paper; TZ1/TZ2/TZ3 variants.
+- P3: 4 regions (Europe, Americas, Africa/ME, Asia/Oceania) × 36 questions per paper.
+- Handles two PDF text layouts: "N. inline text" (older) and "N.\t\ntext on next line" (newer).
+
+**UI:** Paper Type / Topic+Region / Section / Paper filters + search + save/done (localStorage).
+Questions are pure text — no image display. New `.tag` and `.tag-subtle` CSS classes added.
+
+**Source PDFs:** discovered from archive at `/Downloads/IB PAST PAPERS - YEAR/`, under
+`Individuals and societies/` subfolders. May 2025 includes TZ3 variants.
+
+**20 commits ahead of origin/main** — need push + R2 sync (history has no images, so no R2 needed).
+
+---
 
 ## Most Recent Completed Work (2026-06-10)
 
