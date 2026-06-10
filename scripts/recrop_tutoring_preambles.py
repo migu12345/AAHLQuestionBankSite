@@ -34,36 +34,39 @@ PDF_ALIASES: Dict[str, str] = {
     "Math_SL_Functions_Equations_2023.pdf": "Math_SL_Functions_Equations_2023 (1).pdf",
 }
 
-# T-style PDFs: (supports_parts, max_pages, top_preamble_px, bottom_preamble_px)
+# T-style PDFs: (supports_parts, max_pages, top_preamble_px, bottom_preamble_px, preamble_detect)
 # max_pages=2 for short Paper-1/2 style PDFs to prevent overflow into other questions
 # top_preamble_px: pixels above detected start to include (captures preamble above sub-part label).
 # bottom_preamble_px: pixels before NEXT question's start where this question ends.
 #   Must equal top_preamble so crops tile perfectly with no gaps and no bleeds.
+# preamble_detect=True: use _find_preamble_start to precisely locate Q(n+1)'s preamble boundary,
+#   fixing bleeds where Q(n+1)'s preamble sits above its detected label. Only for T-style PDFs
+#   where questions have preambles (not P1/P2 style or non-T-style PDFs with inline format).
 #
 # Dense PDFs (min inter-Q gap < 80px): use top=bottom=10 — preamble text appears ≤6px above
 #   detected start (just a marks label). 80px would bleed the previous question's content in.
 # Sparse PDFs (all gaps ≥ 80px): keep top=bottom=80 — large preamble buffer is safe.
 # Paper-1/2 style (T6-2P1, T6-2P2): top=5 — questions start directly, no above-label preamble.
 T_STYLE: Dict[str, tuple] = {
-    # Dense T-style (min gap < 80px) → top=bottom=10
-    "T6-1 T HL.pdf":               (True,  4, 10, 10),
-    "T2-5 T (2).pdf":              (True,  3, 10, 10),
-    "T2-6 T (1).pdf":              (True,  3, 10, 10),
-    "Topic 6 Part 1 T SL.pdf":     (True,  4, 10, 10),
-    "Topic 2 Part 1 T.pdf":        (True,  4, 10, 10),
-    # Sparse T-style (all gaps ≥ 80px) → top=bottom=80
-    "Topic 3 Part 1 T (1).pdf":    (True,  4, 80, 80),
-    # Dense T-style → top=bottom=10 (preamble text ≤6px above sub-label)
-    "Topic 1 Part 1 T.pdf":        (True,  4, 10, 10),
-    # Paper-1/2 style → top=5 (no preamble above question label)
-    "T6-2P1 T.pdf":                (True,  2,  5,  5),
-    "T6-2P2 T.pdf":                (True,  2,  5,  5),
-    # Non-T-style PDFs with confirmed bleed issues → top=bottom=10
-    "Math_SL_Algebra.pdf":         (False, 3, 10, 10),
-    "Math_SL_Calculus_Julius (1).pdf": (False, 3, 10, 10),
-    "Math_SL_Circular_FunctionsTrigonometry.pdf": (False, 3, 10, 10),
-    "Math_SL_Functions_Equations_2023.pdf": (False, 3, 10, 10),
-    "Topic_6_Calculus.pdf":        (False, 3, 10, 10),
+    # Dense T-style (min gap < 80px) → top=bottom=10, preamble_detect=True
+    "T6-1 T HL.pdf":               (True,  4, 10, 10, True),
+    "T2-5 T (2).pdf":              (True,  3, 10, 10, True),
+    "T2-6 T (1).pdf":              (True,  3, 10, 10, True),
+    "Topic 6 Part 1 T SL.pdf":     (True,  4, 10, 10, True),
+    "Topic 2 Part 1 T.pdf":        (True,  4, 10, 10, True),
+    # Sparse T-style (all gaps ≥ 80px) → top=bottom=80, preamble_detect=True
+    "Topic 3 Part 1 T (1).pdf":    (True,  4, 80, 80, True),
+    # Dense T-style → top=bottom=10, preamble_detect=True
+    "Topic 1 Part 1 T.pdf":        (True,  4, 10, 10, True),
+    # Paper-1/2 style → top=5, preamble_detect=False (no preamble above question label)
+    "T6-2P1 T.pdf":                (True,  2,  5,  5, False),
+    "T6-2P2 T.pdf":                (True,  2,  5,  5, False),
+    # Non-T-style PDFs: inline "N. text" format, no preamble above label → preamble_detect=False
+    "Math_SL_Algebra.pdf":         (False, 3, 10, 10, False),
+    "Math_SL_Calculus_Julius (1).pdf": (False, 3, 10, 10, False),
+    "Math_SL_Circular_FunctionsTrigonometry.pdf": (False, 3, 10, 10, False),
+    "Math_SL_Functions_Equations_2023.pdf": (False, 3, 10, 10, False),
+    "Topic_6_Calculus.pdf":        (False, 3, 10, 10, False),
 }
 
 
@@ -209,6 +212,86 @@ def _gap_based_top(page: fitz.Page, qnum: int, max_y: float) -> Tuple[Optional[f
     return (candidate_top if has_nearby_preamble else None), True
 
 
+def _is_dotted_line(text: str) -> bool:
+    """Return True if the line is mostly dots/dashes (answer-box filler)."""
+    chars = text.replace(" ", "").replace("\t", "")
+    if not chars:
+        return True
+    dot_chars = sum(1 for c in chars if c in ".·•…_–—-")
+    return dot_chars / len(chars) >= 0.7
+
+
+def _find_preamble_start(
+    page: fitz.Page,
+    qnum: int,
+    cur_y: float,
+    next_y: float,
+    gap_threshold: float = 20.0,
+) -> Optional[float]:
+    """Find the y-coordinate where the NEXT question's preamble starts.
+
+    Searches text in (cur_y, next_y), filtering out answer-box dot lines,
+    then walks forward from Q(qnum)'s last sub-part label (skipping additional
+    sub-part labels of qnum), returning the y where the gap exceeds gap_threshold.
+    """
+    raw: List[Tuple[float, float, str]] = []
+    for block in page.get_text("dict").get("blocks", []):
+        if block.get("type") != 0:
+            continue
+        for line in block.get("lines", []):
+            spans = line.get("spans", [])
+            if not spans:
+                continue
+            text = "".join(s.get("text", "") for s in spans).strip()
+            if not text:
+                continue
+            y0 = float(line.get("bbox", [0, 0, 0, 0])[1])
+            y1 = float(line.get("bbox", [0, 0, 0, 0])[3])
+            if y0 > cur_y and y0 < next_y:
+                raw.append((y0, y1, text))
+    if not raw:
+        return None
+
+    raw.sort()
+    lines = [(y0, y1, t) for y0, y1, t in raw if not _is_dotted_line(t)]
+    if not lines:
+        return None
+
+    def _is_qnum_label(text: str) -> bool:
+        """Return True if text is any form of sub-part label for qnum."""
+        # Standalone label: "1a.", "1b.", "14."
+        m = re.match(r"^(\d{1,2})[a-z]?\.$", text)
+        if m and int(m.group(1)) == qnum:
+            return True
+        # Inline label with alpha sub-part: "1c. Find the value..."
+        m2 = re.match(r"^(\d{1,2})[a-z]\.\s", text)
+        if m2 and int(m2.group(1)) == qnum:
+            return True
+        # Inline label without alpha: "6. Let f(x)=..." or "14. Solve..."
+        m3 = re.match(r"^(\d{1,2})\.\s", text)
+        if m3 and int(m3.group(1)) == qnum:
+            return True
+        return False
+
+    # Find last sub-part label of qnum (any format)
+    last_label_idx: Optional[int] = None
+    for i, (y0, y1, text) in enumerate(lines):
+        if _is_qnum_label(text):
+            last_label_idx = i
+
+    start_idx = last_label_idx if last_label_idx is not None else 0
+    prev_y1 = lines[start_idx][1]
+    for y0, y1, text in lines[start_idx + 1:]:
+        if _is_qnum_label(text):
+            # Another sub-part or continuation label of qnum: advance position
+            prev_y1 = y1
+            continue
+        if y0 - prev_y1 > gap_threshold:
+            return y0
+        prev_y1 = max(prev_y1, y1)
+    return None
+
+
 def crop_question_from_top(
     doc: fitz.Document,
     starts: List[StartPos],
@@ -217,8 +300,15 @@ def crop_question_from_top(
     max_pages: int = 99,
     top_preamble: float = 80.0,
     bottom_preamble: float = 80.0,
+    preamble_detect: bool = False,
 ) -> List[str]:
-    """Crop question image. top_preamble px above detected start; bottom_preamble px before next start."""
+    """Crop question image. top_preamble px above detected start; bottom_preamble px before next start.
+
+    preamble_detect=True activates preamble-aware boundary logic for T-style PDFs where
+    Q(n+1)'s preamble appears above its detected label: uses _find_preamble_start to set
+    both Q(n)'s bottom and Q(n+1)'s top, preventing the preamble from appearing in the
+    wrong question's image.
+    """
     start_idx = next((i for i, s in enumerate(starts) if s.qnum == qnum), None)
     if start_idx is None:
         return []
@@ -236,23 +326,43 @@ def crop_question_from_top(
         if pno == s.page:
             prev_on_same_page = (start_idx > 0 and starts[start_idx - 1].page == s.page)
             preamble_top = max(30.0, s.y - top_preamble)
-            gap_top, has_overflow = _gap_based_top(page, s.qnum, s.y)
 
-            if not prev_on_same_page and not has_overflow:
-                # Prev question started on a prior page AND no sub-part labels of
-                # that question overflow onto this page — page starts fresh.
-                top = 30.0
-            elif gap_top is not None:
-                # Gap-based top found and confirmed by nearby preamble text.
-                top = gap_top
+            if preamble_detect and prev_on_same_page:
+                # For T-style PDFs: use _find_preamble_start as primary (handles
+                # answer-box gaps and densely-packed questions), fall back to
+                # _gap_based_top only if _find_preamble_start returns nothing.
+                prev_s = starts[start_idx - 1]
+                preamble_y = _find_preamble_start(page, prev_s.qnum, prev_s.y, s.y)
+                if preamble_y is not None:
+                    top = max(30.0, preamble_y - 5.0)
+                else:
+                    gap_top, _ = _gap_based_top(page, s.qnum, s.y)
+                    top = gap_top if gap_top is not None else preamble_top
             else:
-                # Inline-format PDF (no standalone labels), or overflow detected
-                # but no useful gap — use normal preamble buffer.
-                top = preamble_top
+                gap_top, has_overflow = _gap_based_top(page, s.qnum, s.y)
+                if not prev_on_same_page and not has_overflow:
+                    # Prev question started on a prior page AND no sub-part labels of
+                    # that question overflow onto this page — page starts fresh.
+                    top = 30.0
+                elif gap_top is not None:
+                    # Gap-based top found and confirmed by nearby preamble text.
+                    top = gap_top
+                else:
+                    # Inline-format PDF (no standalone labels), or overflow detected
+                    # but no useful gap — use normal preamble buffer.
+                    top = preamble_top
         if n is not None and pno == n.page:
-            ideal = n.y - bottom_preamble
-            # Fall back to n.y - 5 if ideal would leave less than 20px of content
-            bottom = min(bottom, ideal if ideal > top + 20.0 else n.y - 5.0)
+            if preamble_detect:
+                preamble_y = _find_preamble_start(page, s.qnum, s.y, n.y)
+                if preamble_y is not None and preamble_y - 5.0 > top + 20.0:
+                    bottom = min(bottom, preamble_y - 5.0)
+                else:
+                    ideal = n.y - bottom_preamble
+                    bottom = min(bottom, ideal if ideal > top + 20.0 else n.y - 5.0)
+            else:
+                ideal = n.y - bottom_preamble
+                # Fall back to n.y - 5 if ideal would leave less than 20px of content
+                bottom = min(bottom, ideal if ideal > top + 20.0 else n.y - 5.0)
         if bottom <= top + 15.0:
             continue
         clip = fitz.Rect(left, top, right, bottom)
@@ -281,7 +391,7 @@ def main() -> None:
 
     total = 0
 
-    for filename, (supports_parts, max_pages, top_preamble, bottom_preamble) in sorted(T_STYLE.items()):
+    for filename, (supports_parts, max_pages, top_preamble, bottom_preamble, preamble_detect) in sorted(T_STYLE.items()):
         actual_name = PDF_ALIASES.get(filename, filename)
         pdf_path = PDF_DIR / actual_name
         if not pdf_path.exists():
@@ -291,7 +401,7 @@ def main() -> None:
             print(f"SKIP (no questions): {filename}")
             continue
 
-        print(f"\n{filename} ({len(by_file[filename])} questions, max {max_pages} pages, top={top_preamble}px bot={bottom_preamble}px)...")
+        print(f"\n{filename} ({len(by_file[filename])} questions, max {max_pages} pages, top={top_preamble}px bot={bottom_preamble}px preamble_detect={preamble_detect})...")
         doc = fitz.open(str(pdf_path))
         starts = detect_starts(doc, supports_parts=supports_parts)
         print(f"  Detected {len(starts)} starts")
@@ -306,6 +416,7 @@ def main() -> None:
                 max_pages=max_pages,
                 top_preamble=top_preamble,
                 bottom_preamble=bottom_preamble,
+                preamble_detect=preamble_detect,
             )
             if new_paths:
                 entry["question_image_paths"] = new_paths
