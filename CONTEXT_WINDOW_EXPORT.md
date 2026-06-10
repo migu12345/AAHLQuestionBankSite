@@ -14,6 +14,33 @@ Project: `AA-HL-Question-Bank`
 - User preference: when `All levels` is selected, prioritize `SL` and suppress `HL` duplicates (biology/chemistry only).
 - User constraint: do not change Paper 1A / Paper 2 / Paper 3 logic when fixing unrelated issues.
 
+## Most Recent Completed Work (2026-06-10, eleventh session)
+
+### Tutoring bank — preamble crop fix (Topic 1 Part 1 T.pdf + Topic 6 Part 1 T SL.pdf)
+
+**Problem 1:** `Topic 1 Part 1 T.pdf` was set to `top_preamble=80` (sparse), but its
+inter-question gaps are < 80px, causing Q16c content (sequence "5, 6.7, 8.4") to
+bleed into Q17's crop. Fixed by changing to `top=bottom=10` (same as other dense PDFs).
+
+**Problem 2:** `Topic 6 Part 1 T SL.pdf` used `top_preamble=10`, but several questions
+have their full preamble (function definition + diagram) appearing well above their
+first sub-label:
+- Q7: waterwheel diagram 231px above "7a."
+- Q8: f(x)=e^{-x²} graph ~170px above "8a."
+
+**Fix:** `_gap_based_top()` in `recrop_tutoring_preambles.py`:
+1. Finds last label of a different question on the current page.
+2. Walks forward until a text gap > 30px (clear section break).
+3. Returns `boundary_y + 20` as the crop top ONLY IF a text line exists within
+   50px after it (confirming genuine preamble content follows).
+4. Falls back to normal `top_preamble` buffer if no useful gap found (e.g. Q16
+   where preamble is just 4px above the sub-label and there's nothing useful below
+   Q15's answer-space boundary).
+
+523 images re-cropped. R2 sync needed.
+
+---
+
 ## Most Recent Completed Work (2026-06-10, tenth session)
 
 ### Tutoring bank — comprehensive crop fix + duplicate removal
