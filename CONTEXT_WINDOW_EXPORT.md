@@ -14,6 +14,35 @@ Project: `AA-HL-Question-Bank`
 - User preference: when `All levels` is selected, prioritize `SL` and suppress `HL` duplicates (biology/chemistry only).
 - User constraint: do not change Paper 1A / Paper 2 / Paper 3 logic when fixing unrelated issues.
 
+## Most Recent Completed Work (2026-06-10, fourth session)
+
+### History bank — markschemes added
+
+Added `markscheme_text` field to 3292/3293 history questions (99.97%) by parsing
+markscheme PDFs from the IB archive.
+
+**Script:** `scripts/add_history_markschemes.py` (standalone, run after build_history_bank.py)
+
+**Coverage by paper type:**
+- P1: bullet-point answer content per sub-question, matched by session + PS + question_number
+- P2: markbands table + question-specific guidance paragraph (separated by `---`)
+- P3: markbands table + question-specific guidance paragraph (separated by `---`)
+
+**Parsing challenges solved:**
+- Old-style `2017-2022` PDFs use `1.` question format; m25 PDFs use `1)` format (both supported)
+- m25 P3 Americas uses `"N: Section Name"` section headers (not "Section N:")
+- m25 P3 Europe/other regions use `"21 TZ1. question"` format for TZ-specific questions
+- Questions stored without sub-labels (e.g. `q1` not `q1a`) get combined (a)+(b) markschemes
+- TZ slug in question IDs uses just the number (`_1_`) not `_tz1_`
+- Markbands extraction starts from "Markbands for paper" to skip copyright pages
+
+**UI:** `src/history/index.html` and `src/history/app.js` — added collapsible `<details>` markscheme
+panel per card. CSS in `src/styles.css` (`.ms-pre`, `.ms-divider`).
+
+**23 commits ahead of origin/main** — need push (no R2 sync needed, history is text-only).
+
+---
+
 ## Most Recent Completed Work (2026-06-10, third session)
 
 ### Physics markscheme crop fix

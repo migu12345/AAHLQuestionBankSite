@@ -221,6 +221,26 @@ function renderQuestions(reset) {
     // Question text
     article.querySelector(".question-text-body").textContent = q.question_text || "";
 
+    // Markscheme text
+    const msDetails = article.querySelector(".ms-details");
+    if (q.markscheme_text) {
+      msDetails.hidden = false;
+      const msBody = article.querySelector(".ms-text-body");
+      // Format: split on "---" separator (markbands vs specific guidance) and render each block
+      const parts = q.markscheme_text.split(/\n\s*---\s*\n/);
+      parts.forEach((part, idx) => {
+        if (idx > 0) {
+          const hr = document.createElement("hr");
+          hr.className = "ms-divider";
+          msBody.appendChild(hr);
+        }
+        const pre = document.createElement("pre");
+        pre.className = "ms-pre";
+        pre.textContent = part.trim();
+        msBody.appendChild(pre);
+      });
+    }
+
     // Save / Done buttons
     const ua = getUserAction(q.id);
     const saveBtn = article.querySelector(".save-btn");
