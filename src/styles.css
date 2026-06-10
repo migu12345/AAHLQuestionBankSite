@@ -14,8 +14,6 @@
   box-sizing: border-box;
 }
 
-[hidden] { display: none !important; }
-
 body {
   margin: 0;
   font-family: "Palatino Linotype", Palatino, "Book Antiqua", serif;
@@ -1103,7 +1101,7 @@ button:hover {
 }
 
 /* Secondary button style (used for PDF link in history) */
-.btn-secondary {
+.btn-secondary:not([hidden]) {
   display: inline-block;
   padding: 0.35rem 0.85rem;
   border-radius: 6px;
