@@ -29,25 +29,40 @@ PDF_DIR = Path("/Users/s933863@aics.espritscholen.nl/Downloads/Math")
 IMAGES_Q_DIR = ROOT / "data" / "tutoring" / "processed" / "images" / "questions"
 QUESTIONS_JSON = ROOT / "data" / "tutoring" / "processed" / "questions.json"
 
+# PDFs where source filename differs from the key in questions.json
+PDF_ALIASES: Dict[str, str] = {
+    "Math_SL_Functions_Equations_2023.pdf": "Math_SL_Functions_Equations_2023 (1).pdf",
+}
+
 # T-style PDFs: (supports_parts, max_pages, top_preamble_px, bottom_preamble_px)
 # max_pages=2 for short Paper-1/2 style PDFs to prevent overflow into other questions
 # top_preamble_px: pixels above detected start to include (captures preamble above sub-part label).
-# bottom_preamble_px: pixels before NEXT question's start where this question ends
-#   (= top_preamble of the NEXT question, so preambles belong to the right question).
+# bottom_preamble_px: pixels before NEXT question's start where this question ends.
+#   Must equal top_preamble so crops tile perfectly with no gaps and no bleeds.
 #
-# For T-style compilations: both 80 — preamble appears above sub-part label, need 80px in both.
-# For Paper-1/2 style (T6-2P1, T6-2P2): top=5 so previous question doesn't bleed in at top,
-#   but bottom=80 so the NEXT question's preamble stays out of this question's image.
+# Dense PDFs (min inter-Q gap < 80px): use top=bottom=10 — preamble text appears ≤6px above
+#   detected start (just a marks label). 80px would bleed the previous question's content in.
+# Sparse PDFs (all gaps ≥ 80px): keep top=bottom=80 — large preamble buffer is safe.
+# Paper-1/2 style (T6-2P1, T6-2P2): top=5 — questions start directly, no above-label preamble.
 T_STYLE: Dict[str, tuple] = {
-    "T6-1 T HL.pdf":               (True, 4, 10, 80),
-    "T6-2P1 T.pdf":                (True, 2,  5, 80),
-    "T6-2P2 T.pdf":                (True, 2,  5, 80),
-    "Topic 6 Part 1 T SL.pdf":     (True, 4, 80, 80),
-    "Topic 1 Part 1 T.pdf":        (True, 4, 80, 80),
-    "Topic 2 Part 1 T.pdf":        (True, 4, 80, 80),
-    "Topic 3 Part 1 T (1).pdf":    (True, 4, 80, 80),
-    "T2-5 T (2).pdf":              (True, 3, 10, 80),
-    "T2-6 T (1).pdf":              (True, 3, 10, 80),
+    # Dense T-style (min gap < 80px) → top=bottom=10
+    "T6-1 T HL.pdf":               (True,  4, 10, 10),
+    "T2-5 T (2).pdf":              (True,  3, 10, 10),
+    "T2-6 T (1).pdf":              (True,  3, 10, 10),
+    "Topic 6 Part 1 T SL.pdf":     (True,  4, 10, 10),
+    "Topic 2 Part 1 T.pdf":        (True,  4, 10, 10),
+    # Sparse T-style (all gaps ≥ 80px) → top=bottom=80
+    "Topic 3 Part 1 T (1).pdf":    (True,  4, 80, 80),
+    "Topic 1 Part 1 T.pdf":        (True,  4, 80, 80),
+    # Paper-1/2 style → top=5 (no preamble above question label)
+    "T6-2P1 T.pdf":                (True,  2,  5,  5),
+    "T6-2P2 T.pdf":                (True,  2,  5,  5),
+    # Non-T-style PDFs with confirmed bleed issues → top=bottom=10
+    "Math_SL_Algebra.pdf":         (False, 3, 10, 10),
+    "Math_SL_Calculus_Julius (1).pdf": (False, 3, 10, 10),
+    "Math_SL_Circular_FunctionsTrigonometry.pdf": (False, 3, 10, 10),
+    "Math_SL_Functions_Equations_2023.pdf": (False, 3, 10, 10),
+    "Topic_6_Calculus.pdf":        (False, 3, 10, 10),
 }
 
 
@@ -184,16 +199,17 @@ def main() -> None:
     total = 0
 
     for filename, (supports_parts, max_pages, top_preamble, bottom_preamble) in sorted(T_STYLE.items()):
-        pdf_path = PDF_DIR / filename
+        actual_name = PDF_ALIASES.get(filename, filename)
+        pdf_path = PDF_DIR / actual_name
         if not pdf_path.exists():
-            print(f"SKIP (not found): {filename}")
+            print(f"SKIP (not found): {filename} (looked for {actual_name})")
             continue
         if filename not in by_file:
             print(f"SKIP (no questions): {filename}")
             continue
 
         print(f"\n{filename} ({len(by_file[filename])} questions, max {max_pages} pages, top={top_preamble}px bot={bottom_preamble}px)...")
-        doc = fitz.open(pdf_path)
+        doc = fitz.open(str(pdf_path))
         starts = detect_starts(doc, supports_parts=supports_parts)
         print(f"  Detected {len(starts)} starts")
 

@@ -14,6 +14,37 @@ Project: `AA-HL-Question-Bank`
 - User preference: when `All levels` is selected, prioritize `SL` and suppress `HL` duplicates (biology/chemistry only).
 - User constraint: do not change Paper 1A / Paper 2 / Paper 3 logic when fixing unrelated issues.
 
+## Most Recent Completed Work (2026-06-10, tenth session)
+
+### Tutoring bank — comprehensive crop fix + duplicate removal
+
+**Problem 1: bottom_preamble=80 was cutting question content for dense PDFs.**
+When top_preamble=10 but bottom_preamble=80, questions whose next question is < 90px away
+had their crop bottom fall ABOVE their own content, producing near-empty images. Fixed by
+setting bottom_preamble=10 everywhere top_preamble=10 is used.
+
+**Problem 2: Non-T-style PDFs (Math_SL_Algebra, Math_SL_Calculus_Julius, etc.) not covered
+by recrop.** Extended recrop_tutoring_preambles.py to cover all affected PDFs:
+- Dense (min gap < 80px): top=bottom=10
+- Added PDF_ALIASES dict for Math_SL_Functions_Equations_2023.pdf → renamed (1) copy
+
+**Full list of PDFs now recroped at top=bottom=10:**
+T6-1 HL, T2-5, T2-6, Topic 2 Part 1, Topic 6 Part 1 SL, Math_SL_Algebra,
+Math_SL_Calculus_Julius, Math_SL_Circular_FunctionsTrig, Math_SL_Functions_Equations_2023,
+Topic_6_Calculus. T6-2P1/P2 changed to top=bottom=5.
+
+**523 question images re-cropped.**
+
+**Duplicates removed:** t2_5_q3, t2_6_q8, t2_6_q19, t2_6_q24 — 4 duplicates removed,
+713 questions remain (was 717).
+
+**Still pending (detection anomalies):** Topic 1 Part 1 T.pdf has detection errors
+(Q2→Q27, Q36→Q5) — needs separate investigation.
+
+**R2 sync needed** for all re-cropped images.
+
+---
+
 ## Most Recent Completed Work (2026-06-10, ninth session)
 
 ### Tutoring bank — question crop bleed fix (T2-5, T2-6, T6-1)
