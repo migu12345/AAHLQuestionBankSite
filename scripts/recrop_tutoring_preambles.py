@@ -234,16 +234,20 @@ def crop_question_from_top(
         left = 18.0
         right = float(page.rect.width) - 18.0
         if pno == s.page:
+            prev_on_same_page = (start_idx > 0 and starts[start_idx - 1].page == s.page)
             preamble_top = max(30.0, s.y - top_preamble)
-            gap_top, has_prev = _gap_based_top(page, s.qnum, s.y)
-            if not has_prev:
-                # No previous question content on this page — crop from page top.
+            gap_top, has_overflow = _gap_based_top(page, s.qnum, s.y)
+
+            if not prev_on_same_page and not has_overflow:
+                # Prev question started on a prior page AND no sub-part labels of
+                # that question overflow onto this page — page starts fresh.
                 top = 30.0
             elif gap_top is not None:
-                # Gap found with confirmed nearby preamble text.
+                # Gap-based top found and confirmed by nearby preamble text.
                 top = gap_top
             else:
-                # Previous content exists but no useful gap — use preamble buffer.
+                # Inline-format PDF (no standalone labels), or overflow detected
+                # but no useful gap — use normal preamble buffer.
                 top = preamble_top
         if n is not None and pno == n.page:
             ideal = n.y - bottom_preamble
