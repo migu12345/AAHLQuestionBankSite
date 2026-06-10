@@ -360,11 +360,13 @@ def detect_starts(doc: fitz.Document, kind: str) -> List[StartPos]:
             continue
         if "disclaimer:" in page_text_lower and "references:" in page_text_lower:
             continue
-        # Skip the ESS generic marking instructions page (newer PDFs place it after the
-        # Q&A table header, so ms_data_start_page doesn't exclude it). This page always
-        # opens with "1. Environmental systems and societies uses marking points..." which
-        # detect_starts would incorrectly treat as question 1.
+        # Skip the ESS generic marking instructions page. Two formats exist:
+        # 1. Older P2 PDFs: "1. Environmental systems and societies uses marking points..."
+        # 2. Newer P1 PDFs (e.g. May 2024): "Subject details: ... Mark allocation ..." with
+        #    a numbered list 1-10 that detect_starts would incorrectly treat as Q1-Q10.
         if kind == "markscheme" and "environmental systems and societies uses marking points" in page_text_lower:
+            continue
+        if kind == "markscheme" and "subject details:" in page_text_lower:
             continue
         if page_text_lower.lstrip().startswith("references:"):
             continue
