@@ -1,6 +1,6 @@
 # Context Window Export (for new chat)
 
-Date: 2026-05-20
+Date: 2026-06-10
 Project: `AA-HL-Question-Bank`
 
 ## Current State
@@ -13,6 +13,28 @@ Project: `AA-HL-Question-Bank`
 - User preference: keep `CONTEXT_WINDOW_EXPORT.md` updated.
 - User preference: when `All levels` is selected, prioritize `SL` and suppress `HL` duplicates (biology/chemistry only).
 - User constraint: do not change Paper 1A / Paper 2 / Paper 3 logic when fixing unrelated issues.
+
+## Most Recent Completed Work (2026-06-10)
+
+### ESS P1 markscheme detection fix
+
+**Root cause:** `detect_starts` was picking up numbered marking instruction items (1–10) on
+the "Subject details: ... Mark allocation ..." page as if they were question starts Q1–Q10.
+The code prefers EARLIER occurrences when scores tie, so instructions items on page 2 always
+won over real questions on pages 3–11. All crops were tiny slivers (< 80px) and were skipped.
+
+The existing check for `"environmental systems and societies uses marking points"` only fired
+for P2-style markschemes; P1 markschemes use a differently-worded numbered list.
+
+**Fix:** Added `if "subject details:" in page_text_lower: continue` to `detect_starts`
+(same location as the existing "uses marking points" skip). This skips the instructions page
+for both P1 and P2 markscheme formats.
+
+**Effect (181 files changed):** 26 new images for May 2024 P1 TZ1+TZ2 (the original bug),
+plus newly-recovered P1 markschemes for m15, m16, m19, m21, m22, n15, n16, n19, n20, n21
+that were silently missing before.
+
+**18 commits ahead of origin/main** — need push + R2 sync for all new/changed ESS images.
 
 ## Most Recent Completed Work (2026-06-09)
 
@@ -40,8 +62,6 @@ actual answer content ([N] + award/accept keywords). Re-cropped all 365 ESS mark
 
 **ESS images committed (previous session):**
 755 question images, 305 markscheme images, 34 text booklet PDFs added.
-
-**16 commits ahead of origin/main** (need push + R2 sync for new/changed images).
 
 ## Most Recent Completed Work (2026-05-20)
 
