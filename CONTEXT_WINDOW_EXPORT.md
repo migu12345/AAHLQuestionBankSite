@@ -32,10 +32,16 @@ so 80px was always Q10 territory, not Q11 preamble.
 Fixed: `recrop_tutoring_preambles.py` now uses per-PDF `(top_preamble, bottom_preamble)`.
 T6-2P1 and T6-2P2 use top=5px, bottom=80px (adaptive fallback to n.y−5 when tight).
 
+**ESS markscheme images fixed (2026-06-10):**
+In newer ESS P1/P2 PDFs (2020+), the generic marking instructions page ("1. Environmental
+systems and societies uses marking points...") appeared AFTER the Q&A table, so detect_starts
+was picking it up as Q1. Fixed ms_data_start_page detection to find the first page with
+actual answer content ([N] + award/accept keywords). Re-cropped all 365 ESS markscheme images.
+
 **ESS images committed (previous session):**
 755 question images, 305 markscheme images, 34 text booklet PDFs added.
 
-**14 commits ahead of origin/main** (need push + R2 sync for new/changed images).
+**16 commits ahead of origin/main** (need push + R2 sync for new/changed images).
 
 ## Most Recent Completed Work (2026-05-20)
 
