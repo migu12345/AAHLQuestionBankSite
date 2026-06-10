@@ -308,11 +308,11 @@ function renderQuestions(reset) {
       sideBySideBtn.addEventListener("click", () => openCompareModal(q));
     }
 
-    // Open source PDF button (P1 only)
+    // Open source PDF button (P1 only) — PDFs bundled in Docker, always same-origin
     const pdfBtn = article.querySelector(".source-pdf-btn");
     if (q.source_booklet_path) {
       pdfBtn.hidden = false;
-      pdfBtn.href = window.assetUrl(q.source_booklet_path);
+      pdfBtn.href = "/" + q.source_booklet_path;
     }
 
     questionList.appendChild(card);
