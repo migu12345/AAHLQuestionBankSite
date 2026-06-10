@@ -7,12 +7,42 @@ Project: `AA-HL-Question-Bank`
 - Biology bank: LIVE with 3299 questions from 182 papers (2016–2025).
 - Chemistry bank: LIVE with questions from 188 papers (2016–2025).
 - Physics bank: markscheme crops fixed (2026-06-10).
-- **Math/Tutoring bank: 717 questions across Topics 1–5 (HL + SL), full AA bank UI parity.**
+- **Math/Tutoring bank: 713 questions across Topics 1–5 (HL + SL), full AA bank UI parity.**
 - User preference: **surgical fixes only**.
 - User preference: auto **commit + push** after work.
 - User preference: keep `CONTEXT_WINDOW_EXPORT.md` updated.
 - User preference: when `All levels` is selected, prioritize `SL` and suppress `HL` duplicates (biology/chemistry only).
 - User constraint: do not change Paper 1A / Paper 2 / Paper 3 logic when fixing unrelated issues.
+
+## Most Recent Completed Work (2026-06-10, twelfth session)
+
+### Tutoring bank — comprehensive preamble bleed fix (all T-style PDFs)
+
+**Problem:** In T-style compilation PDFs, Q(n+1)'s preamble (setup text, diagrams like
+circle/waterwheel) appears ABOVE its detected sub-part label. Two bugs resulted:
+1. Q(n)'s bottom crop = Q(n+1).y - 10 → included Q(n+1)'s preamble (bleed)
+2. Q(n+1)'s top crop also missed its own preamble (existing `_gap_based_top` with
+   threshold=30px triggered on answer-box gaps, returning wrong top)
+
+**Fix:** New `_find_preamble_start()` in `recrop_tutoring_preambles.py`:
+1. Filters out "..." answer-box filler lines (_is_dotted_line)
+2. Recognises both standalone ("1b.") AND inline ("1c. Find the value...") sub-part
+   labels using 3 regex patterns; skips them during the gap walk
+3. Finds first gap >20px after Q(n)'s last sub-part content
+4. Returns y-coordinate where Q(n+1)'s preamble starts
+
+**Key change in crop_question_from_top:**
+- `preamble_detect=True` PDFs: use `_find_preamble_start` as PRIMARY for both
+  TOP and BOTTOM computation (NOT `_gap_based_top` which misfires on blank answer boxes)
+- `preamble_detect=False` PDFs (P1/P2 style, non-T-style inline): unchanged
+
+**New `preamble_detect` field in T_STYLE:**
+- True: T6-1, T2-5, T2-6, Topic 6 Part 1 SL, Topic 2 Part 1, Topic 3 Part 1, Topic 1 Part 1
+- False: T6-2P1, T6-2P2 (P1/P2 style), all non-T-style PDFs
+
+523 images re-cropped. R2 sync needed.
+
+---
 
 ## Most Recent Completed Work (2026-06-10, eleventh session)
 
