@@ -16,6 +16,42 @@ Project: `AA-HL-Question-Bank`
 - **R2 sync needed** for all re-cropped tutoring images (this session + twelfth session).
 - **Push needed**: 39 commits ahead of origin/main (SSH key unavailable; use HTTPS or run `git push` locally).
 
+## Most Recent Completed Work (2026-06-12, fourteenth session)
+
+### Tutoring — comprehensive crop quality pass (all 713 questions)
+
+**Three rounds of fixes after running local site review:**
+
+**Fix 1 — topclass-format bleed** (`_gap_based_top` in `recrop_tutoring_preambles.py`):
+- Root cause: internal paragraph gaps within Q(n) (48px between parts a and b) triggered
+  gap detection, so crop started mid-Q(n) instead of at Q(n+1)'s start
+- Fix: detect `(Total N marks)` line as definitive end-of-question marker; raise gap
+  threshold 30→60px to skip internal sub-part spacing. 523 images re-cropped.
+
+**Fix 2 — preamble missing (preamble_detect=True PDFs, prev Q on same page)**:
+- Root cause: `_find_preamble_start` returned None when gap between Q(n) and Q(n+1)
+  preamble was < 20px; fallback used `s.y - 10` (too small)
+- Fix: when `preamble_detect=True`, `prev_on_same_page=False`, and prev-Q labels
+  appear on this page (bleed confirmed), call `_find_preamble_start(page, prev_qnum, 0, s.y)`
+  scanning from page top. Specific fixes: t2p1_q23 (76→607px), t2p1_q36 (75→772px),
+  t2_6_q1 (96→238px). 186 images regenerated.
+
+**Fix 3 — Topic 1 Part 1 detection (q2, q27, q36)**:
+- Root cause: bare standalone digit "27" (from `log₃27` subscript, x≈71px) triggered
+  pending-number detection; real question starts were displaced
+- Fix: added `and x < 50` guard to bare-digit `m_pending` match; applied to both
+  `recrop_tutoring_preambles.py` and `scripts/tutoring/build_all_new_pdfs.py`
+- q2: 67px→1169px, q27: 113px→183px, q36: 56px→823px
+
+**Also committed:** `scripts/check_all_crops.py` — audit tool that checks all 713 images
+for broken crops (< 100px height for single-image questions, > 2000px for over-captures).
+Final audit: only 3 images < 100px remain (t1p1_q18=85px, t5_t61_q2=96px, t2_6_q4=99px)
+— all verified as genuinely short single-line questions.
+
+**R2 sync still needed** for all re-cropped images.
+
+---
+
 ## Most Recent Completed Work (2026-06-12, thirteenth session)
 
 ### Tutoring — fix false question detection from subscript digits (Topic 1 Part 1 T.pdf)
