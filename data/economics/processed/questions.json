@@ -15,8 +15,14 @@
       "marks": 25,
       "topic": "Microeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2010_may_tz1_hl_p1_q1_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2010_may_tz1_hl_p1_q1_ms1.png",
+        "images/2010_may_tz1_hl_p1_q1_ms2.png",
+        "images/2010_may_tz1_hl_p1_q1_ms3.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1_TZ1_HL.pdf",
         "markscheme_file": "Economics_paper_1_TZ1_HL_markscheme.pdf"
@@ -37,8 +43,15 @@
       "marks": 25,
       "topic": "Macroeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2010_may_tz1_hl_p1_q2_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2010_may_tz1_hl_p1_q2_ms1.png",
+        "images/2010_may_tz1_hl_p1_q2_ms2.png",
+        "images/2010_may_tz1_hl_p1_q2_ms3.png",
+        "images/2010_may_tz1_hl_p1_q2_ms4.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1_TZ1_HL.pdf",
         "markscheme_file": "Economics_paper_1_TZ1_HL_markscheme.pdf"
@@ -59,8 +72,15 @@
       "marks": 25,
       "topic": "International Economics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2010_may_tz1_hl_p1_q3_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2010_may_tz1_hl_p1_q3_ms1.png",
+        "images/2010_may_tz1_hl_p1_q3_ms2.png",
+        "images/2010_may_tz1_hl_p1_q3_ms3.png",
+        "images/2010_may_tz1_hl_p1_q3_ms4.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1_TZ1_HL.pdf",
         "markscheme_file": "Economics_paper_1_TZ1_HL_markscheme.pdf"
@@ -81,8 +101,15 @@
       "marks": 25,
       "topic": "Development Economics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2010_may_tz1_hl_p1_q4_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2010_may_tz1_hl_p1_q4_ms1.png",
+        "images/2010_may_tz1_hl_p1_q4_ms2.png",
+        "images/2010_may_tz1_hl_p1_q4_ms3.png",
+        "images/2010_may_tz1_hl_p1_q4_ms4.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1_TZ1_HL.pdf",
         "markscheme_file": "Economics_paper_1_TZ1_HL_markscheme.pdf"
@@ -103,8 +130,14 @@
       "marks": 25,
       "topic": "Microeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2010_may_tz2_hl_p1_q1_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2010_may_tz2_hl_p1_q1_ms1.png",
+        "images/2010_may_tz2_hl_p1_q1_ms2.png",
+        "images/2010_may_tz2_hl_p1_q1_ms3.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1_TZ2_HL.pdf",
         "markscheme_file": "Economics_paper_1_TZ2_HL_markscheme.pdf"
@@ -125,8 +158,15 @@
       "marks": 25,
       "topic": "Macroeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2010_may_tz2_hl_p1_q2_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2010_may_tz2_hl_p1_q2_ms1.png",
+        "images/2010_may_tz2_hl_p1_q2_ms2.png",
+        "images/2010_may_tz2_hl_p1_q2_ms3.png",
+        "images/2010_may_tz2_hl_p1_q2_ms4.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1_TZ2_HL.pdf",
         "markscheme_file": "Economics_paper_1_TZ2_HL_markscheme.pdf"
@@ -147,8 +187,15 @@
       "marks": 25,
       "topic": "International Economics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2010_may_tz2_hl_p1_q3_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2010_may_tz2_hl_p1_q3_ms1.png",
+        "images/2010_may_tz2_hl_p1_q3_ms2.png",
+        "images/2010_may_tz2_hl_p1_q3_ms3.png",
+        "images/2010_may_tz2_hl_p1_q3_ms4.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1_TZ2_HL.pdf",
         "markscheme_file": "Economics_paper_1_TZ2_HL_markscheme.pdf"
@@ -169,8 +216,15 @@
       "marks": 25,
       "topic": "Development Economics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2010_may_tz2_hl_p1_q4_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2010_may_tz2_hl_p1_q4_ms1.png",
+        "images/2010_may_tz2_hl_p1_q4_ms2.png",
+        "images/2010_may_tz2_hl_p1_q4_ms3.png",
+        "images/2010_may_tz2_hl_p1_q4_ms4.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1_TZ2_HL.pdf",
         "markscheme_file": "Economics_paper_1_TZ2_HL_markscheme.pdf"
@@ -191,8 +245,15 @@
       "marks": 25,
       "topic": "Microeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2010_may_tz1_sl_p1_q1_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2010_may_tz1_sl_p1_q1_ms1.png",
+        "images/2010_may_tz1_sl_p1_q1_ms2.png",
+        "images/2010_may_tz1_sl_p1_q1_ms3.png",
+        "images/2010_may_tz1_sl_p1_q1_ms4.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1_TZ1_SL.pdf",
         "markscheme_file": "Economics_paper_1_TZ1_SL_markscheme.pdf"
@@ -213,8 +274,14 @@
       "marks": 25,
       "topic": "Macroeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2010_may_tz1_sl_p1_q2_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2010_may_tz1_sl_p1_q2_ms1.png",
+        "images/2010_may_tz1_sl_p1_q2_ms2.png",
+        "images/2010_may_tz1_sl_p1_q2_ms3.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1_TZ1_SL.pdf",
         "markscheme_file": "Economics_paper_1_TZ1_SL_markscheme.pdf"
@@ -235,8 +302,15 @@
       "marks": 25,
       "topic": "International Economics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2010_may_tz1_sl_p1_q3_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2010_may_tz1_sl_p1_q3_ms1.png",
+        "images/2010_may_tz1_sl_p1_q3_ms2.png",
+        "images/2010_may_tz1_sl_p1_q3_ms3.png",
+        "images/2010_may_tz1_sl_p1_q3_ms4.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1_TZ1_SL.pdf",
         "markscheme_file": "Economics_paper_1_TZ1_SL_markscheme.pdf"
@@ -257,8 +331,15 @@
       "marks": 25,
       "topic": "Development Economics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2010_may_tz1_sl_p1_q4_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2010_may_tz1_sl_p1_q4_ms1.png",
+        "images/2010_may_tz1_sl_p1_q4_ms2.png",
+        "images/2010_may_tz1_sl_p1_q4_ms3.png",
+        "images/2010_may_tz1_sl_p1_q4_ms4.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1_TZ1_SL.pdf",
         "markscheme_file": "Economics_paper_1_TZ1_SL_markscheme.pdf"
@@ -279,8 +360,14 @@
       "marks": 25,
       "topic": null,
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2010_may_tz2_sl_p1_q1_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2010_may_tz2_sl_p1_q1_ms1.png",
+        "images/2010_may_tz2_sl_p1_q1_ms2.png",
+        "images/2010_may_tz2_sl_p1_q1_ms3.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1_TZ2_SL.pdf",
         "markscheme_file": "Economics_paper_1_TZ2_SL_markscheme.pdf"
@@ -301,8 +388,15 @@
       "marks": 25,
       "topic": "Macroeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2010_may_tz2_sl_p1_q2_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2010_may_tz2_sl_p1_q2_ms1.png",
+        "images/2010_may_tz2_sl_p1_q2_ms2.png",
+        "images/2010_may_tz2_sl_p1_q2_ms3.png",
+        "images/2010_may_tz2_sl_p1_q2_ms4.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1_TZ2_SL.pdf",
         "markscheme_file": "Economics_paper_1_TZ2_SL_markscheme.pdf"
@@ -323,8 +417,15 @@
       "marks": 25,
       "topic": "International Economics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2010_may_tz2_sl_p1_q3_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2010_may_tz2_sl_p1_q3_ms1.png",
+        "images/2010_may_tz2_sl_p1_q3_ms2.png",
+        "images/2010_may_tz2_sl_p1_q3_ms3.png",
+        "images/2010_may_tz2_sl_p1_q3_ms4.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1_TZ2_SL.pdf",
         "markscheme_file": "Economics_paper_1_TZ2_SL_markscheme.pdf"
@@ -345,8 +446,15 @@
       "marks": 25,
       "topic": "Development Economics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2010_may_tz2_sl_p1_q4_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2010_may_tz2_sl_p1_q4_ms1.png",
+        "images/2010_may_tz2_sl_p1_q4_ms2.png",
+        "images/2010_may_tz2_sl_p1_q4_ms3.png",
+        "images/2010_may_tz2_sl_p1_q4_ms4.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1_TZ2_SL.pdf",
         "markscheme_file": "Economics_paper_1_TZ2_SL_markscheme.pdf"
@@ -979,8 +1087,14 @@
       "marks": 25,
       "topic": "Microeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2010_nov_notz_hl_p1_q1_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2010_nov_notz_hl_p1_q1_ms1.png",
+        "images/2010_nov_notz_hl_p1_q1_ms2.png",
+        "images/2010_nov_notz_hl_p1_q1_ms3.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1_HL.pdf",
         "markscheme_file": "Economics_paper_1_HL_markscheme.pdf"
@@ -1001,8 +1115,15 @@
       "marks": 25,
       "topic": "Macroeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2010_nov_notz_hl_p1_q2_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2010_nov_notz_hl_p1_q2_ms1.png",
+        "images/2010_nov_notz_hl_p1_q2_ms2.png",
+        "images/2010_nov_notz_hl_p1_q2_ms3.png",
+        "images/2010_nov_notz_hl_p1_q2_ms4.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1_HL.pdf",
         "markscheme_file": "Economics_paper_1_HL_markscheme.pdf"
@@ -1023,8 +1144,15 @@
       "marks": 25,
       "topic": "International Economics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2010_nov_notz_hl_p1_q3_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2010_nov_notz_hl_p1_q3_ms1.png",
+        "images/2010_nov_notz_hl_p1_q3_ms2.png",
+        "images/2010_nov_notz_hl_p1_q3_ms3.png",
+        "images/2010_nov_notz_hl_p1_q3_ms4.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1_HL.pdf",
         "markscheme_file": "Economics_paper_1_HL_markscheme.pdf"
@@ -1045,8 +1173,15 @@
       "marks": 25,
       "topic": "Development Economics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2010_nov_notz_hl_p1_q4_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2010_nov_notz_hl_p1_q4_ms1.png",
+        "images/2010_nov_notz_hl_p1_q4_ms2.png",
+        "images/2010_nov_notz_hl_p1_q4_ms3.png",
+        "images/2010_nov_notz_hl_p1_q4_ms4.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1_HL.pdf",
         "markscheme_file": "Economics_paper_1_HL_markscheme.pdf"
@@ -1067,8 +1202,14 @@
       "marks": 25,
       "topic": null,
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2010_nov_notz_sl_p1_q1_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2010_nov_notz_sl_p1_q1_ms1.png",
+        "images/2010_nov_notz_sl_p1_q1_ms2.png",
+        "images/2010_nov_notz_sl_p1_q1_ms3.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1_SL.pdf",
         "markscheme_file": "Economics_paper_1_SL_markscheme.pdf"
@@ -1089,8 +1230,15 @@
       "marks": 25,
       "topic": null,
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2010_nov_notz_sl_p1_q2_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2010_nov_notz_sl_p1_q2_ms1.png",
+        "images/2010_nov_notz_sl_p1_q2_ms2.png",
+        "images/2010_nov_notz_sl_p1_q2_ms3.png",
+        "images/2010_nov_notz_sl_p1_q2_ms4.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1_SL.pdf",
         "markscheme_file": "Economics_paper_1_SL_markscheme.pdf"
@@ -1111,8 +1259,15 @@
       "marks": 25,
       "topic": "International Economics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2010_nov_notz_sl_p1_q3_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2010_nov_notz_sl_p1_q3_ms1.png",
+        "images/2010_nov_notz_sl_p1_q3_ms2.png",
+        "images/2010_nov_notz_sl_p1_q3_ms3.png",
+        "images/2010_nov_notz_sl_p1_q3_ms4.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1_SL.pdf",
         "markscheme_file": "Economics_paper_1_SL_markscheme.pdf"
@@ -1133,8 +1288,15 @@
       "marks": 25,
       "topic": "Development Economics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2010_nov_notz_sl_p1_q4_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2010_nov_notz_sl_p1_q4_ms1.png",
+        "images/2010_nov_notz_sl_p1_q4_ms2.png",
+        "images/2010_nov_notz_sl_p1_q4_ms3.png",
+        "images/2010_nov_notz_sl_p1_q4_ms4.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1_SL.pdf",
         "markscheme_file": "Economics_paper_1_SL_markscheme.pdf"
@@ -1581,8 +1743,14 @@
       "marks": 25,
       "topic": "Microeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2011_may_tz1_hl_p1_q1_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2011_may_tz1_hl_p1_q1_ms1.png",
+        "images/2011_may_tz1_hl_p1_q1_ms2.png",
+        "images/2011_may_tz1_hl_p1_q1_ms3.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1_TZ1_HL.pdf",
         "markscheme_file": "Economics_paper_1_TZ1_HL_markscheme.pdf"
@@ -1603,8 +1771,15 @@
       "marks": 25,
       "topic": null,
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2011_may_tz1_hl_p1_q2_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2011_may_tz1_hl_p1_q2_ms1.png",
+        "images/2011_may_tz1_hl_p1_q2_ms2.png",
+        "images/2011_may_tz1_hl_p1_q2_ms3.png",
+        "images/2011_may_tz1_hl_p1_q2_ms4.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1_TZ1_HL.pdf",
         "markscheme_file": "Economics_paper_1_TZ1_HL_markscheme.pdf"
@@ -1625,8 +1800,15 @@
       "marks": 25,
       "topic": "International Economics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2011_may_tz1_hl_p1_q3_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2011_may_tz1_hl_p1_q3_ms1.png",
+        "images/2011_may_tz1_hl_p1_q3_ms2.png",
+        "images/2011_may_tz1_hl_p1_q3_ms3.png",
+        "images/2011_may_tz1_hl_p1_q3_ms4.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1_TZ1_HL.pdf",
         "markscheme_file": "Economics_paper_1_TZ1_HL_markscheme.pdf"
@@ -1647,8 +1829,15 @@
       "marks": 25,
       "topic": "Development Economics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2011_may_tz1_hl_p1_q4_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2011_may_tz1_hl_p1_q4_ms1.png",
+        "images/2011_may_tz1_hl_p1_q4_ms2.png",
+        "images/2011_may_tz1_hl_p1_q4_ms3.png",
+        "images/2011_may_tz1_hl_p1_q4_ms4.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1_TZ1_HL.pdf",
         "markscheme_file": "Economics_paper_1_TZ1_HL_markscheme.pdf"
@@ -1669,8 +1858,14 @@
       "marks": 25,
       "topic": "International Economics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2011_may_tz2_hl_p1_q1_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2011_may_tz2_hl_p1_q1_ms1.png",
+        "images/2011_may_tz2_hl_p1_q1_ms2.png",
+        "images/2011_may_tz2_hl_p1_q1_ms3.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1_TZ2_HL.pdf",
         "markscheme_file": "Economics_paper_1_TZ2_HL_markscheme.pdf"
@@ -1691,8 +1886,15 @@
       "marks": 25,
       "topic": "International Economics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2011_may_tz2_hl_p1_q2_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2011_may_tz2_hl_p1_q2_ms1.png",
+        "images/2011_may_tz2_hl_p1_q2_ms2.png",
+        "images/2011_may_tz2_hl_p1_q2_ms3.png",
+        "images/2011_may_tz2_hl_p1_q2_ms4.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1_TZ2_HL.pdf",
         "markscheme_file": "Economics_paper_1_TZ2_HL_markscheme.pdf"
@@ -1713,8 +1915,15 @@
       "marks": 25,
       "topic": "International Economics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2011_may_tz2_hl_p1_q3_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2011_may_tz2_hl_p1_q3_ms1.png",
+        "images/2011_may_tz2_hl_p1_q3_ms2.png",
+        "images/2011_may_tz2_hl_p1_q3_ms3.png",
+        "images/2011_may_tz2_hl_p1_q3_ms4.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1_TZ2_HL.pdf",
         "markscheme_file": "Economics_paper_1_TZ2_HL_markscheme.pdf"
@@ -1735,8 +1944,15 @@
       "marks": 25,
       "topic": "International Economics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2011_may_tz2_hl_p1_q4_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2011_may_tz2_hl_p1_q4_ms1.png",
+        "images/2011_may_tz2_hl_p1_q4_ms2.png",
+        "images/2011_may_tz2_hl_p1_q4_ms3.png",
+        "images/2011_may_tz2_hl_p1_q4_ms4.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1_TZ2_HL.pdf",
         "markscheme_file": "Economics_paper_1_TZ2_HL_markscheme.pdf"
@@ -1757,8 +1973,14 @@
       "marks": 25,
       "topic": null,
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2011_may_tz1_sl_p1_q1_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2011_may_tz1_sl_p1_q1_ms1.png",
+        "images/2011_may_tz1_sl_p1_q1_ms2.png",
+        "images/2011_may_tz1_sl_p1_q1_ms3.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1_TZ1_SL.pdf",
         "markscheme_file": "Economics_paper_1_TZ1_SL_markscheme.pdf"
@@ -1779,8 +2001,15 @@
       "marks": 25,
       "topic": "Macroeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2011_may_tz1_sl_p1_q2_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2011_may_tz1_sl_p1_q2_ms1.png",
+        "images/2011_may_tz1_sl_p1_q2_ms2.png",
+        "images/2011_may_tz1_sl_p1_q2_ms3.png",
+        "images/2011_may_tz1_sl_p1_q2_ms4.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1_TZ1_SL.pdf",
         "markscheme_file": "Economics_paper_1_TZ1_SL_markscheme.pdf"
@@ -1801,8 +2030,15 @@
       "marks": 25,
       "topic": "International Economics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2011_may_tz1_sl_p1_q3_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2011_may_tz1_sl_p1_q3_ms1.png",
+        "images/2011_may_tz1_sl_p1_q3_ms2.png",
+        "images/2011_may_tz1_sl_p1_q3_ms3.png",
+        "images/2011_may_tz1_sl_p1_q3_ms4.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1_TZ1_SL.pdf",
         "markscheme_file": "Economics_paper_1_TZ1_SL_markscheme.pdf"
@@ -1823,8 +2059,15 @@
       "marks": 25,
       "topic": "Development Economics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2011_may_tz1_sl_p1_q4_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2011_may_tz1_sl_p1_q4_ms1.png",
+        "images/2011_may_tz1_sl_p1_q4_ms2.png",
+        "images/2011_may_tz1_sl_p1_q4_ms3.png",
+        "images/2011_may_tz1_sl_p1_q4_ms4.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1_TZ1_SL.pdf",
         "markscheme_file": "Economics_paper_1_TZ1_SL_markscheme.pdf"
@@ -1845,8 +2088,14 @@
       "marks": 25,
       "topic": "International Economics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2011_may_tz2_sl_p1_q1_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2011_may_tz2_sl_p1_q1_ms1.png",
+        "images/2011_may_tz2_sl_p1_q1_ms2.png",
+        "images/2011_may_tz2_sl_p1_q1_ms3.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1_TZ2_SL.pdf",
         "markscheme_file": "Economics_paper_1_TZ2_SL_markscheme.pdf"
@@ -1867,8 +2116,15 @@
       "marks": 25,
       "topic": "International Economics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2011_may_tz2_sl_p1_q2_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2011_may_tz2_sl_p1_q2_ms1.png",
+        "images/2011_may_tz2_sl_p1_q2_ms2.png",
+        "images/2011_may_tz2_sl_p1_q2_ms3.png",
+        "images/2011_may_tz2_sl_p1_q2_ms4.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1_TZ2_SL.pdf",
         "markscheme_file": "Economics_paper_1_TZ2_SL_markscheme.pdf"
@@ -1889,8 +2145,15 @@
       "marks": 25,
       "topic": "International Economics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2011_may_tz2_sl_p1_q3_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2011_may_tz2_sl_p1_q3_ms1.png",
+        "images/2011_may_tz2_sl_p1_q3_ms2.png",
+        "images/2011_may_tz2_sl_p1_q3_ms3.png",
+        "images/2011_may_tz2_sl_p1_q3_ms4.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1_TZ2_SL.pdf",
         "markscheme_file": "Economics_paper_1_TZ2_SL_markscheme.pdf"
@@ -1911,8 +2174,15 @@
       "marks": 25,
       "topic": "International Economics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2011_may_tz2_sl_p1_q4_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2011_may_tz2_sl_p1_q4_ms1.png",
+        "images/2011_may_tz2_sl_p1_q4_ms2.png",
+        "images/2011_may_tz2_sl_p1_q4_ms3.png",
+        "images/2011_may_tz2_sl_p1_q4_ms4.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1_TZ2_SL.pdf",
         "markscheme_file": "Economics_paper_1_TZ2_SL_markscheme.pdf"
@@ -2545,8 +2815,15 @@
       "marks": 25,
       "topic": null,
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2011_nov_notz_hl_p1_q1_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2011_nov_notz_hl_p1_q1_ms1.png",
+        "images/2011_nov_notz_hl_p1_q1_ms2.png",
+        "images/2011_nov_notz_hl_p1_q1_ms3.png",
+        "images/2011_nov_notz_hl_p1_q1_ms4.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1_HL.pdf",
         "markscheme_file": "Economics_paper_1_HL_markscheme.pdf"
@@ -2567,8 +2844,15 @@
       "marks": 25,
       "topic": "Macroeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2011_nov_notz_hl_p1_q2_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2011_nov_notz_hl_p1_q2_ms1.png",
+        "images/2011_nov_notz_hl_p1_q2_ms2.png",
+        "images/2011_nov_notz_hl_p1_q2_ms3.png",
+        "images/2011_nov_notz_hl_p1_q2_ms4.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1_HL.pdf",
         "markscheme_file": "Economics_paper_1_HL_markscheme.pdf"
@@ -2589,8 +2873,14 @@
       "marks": 25,
       "topic": "International Economics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2011_nov_notz_hl_p1_q3_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2011_nov_notz_hl_p1_q3_ms1.png",
+        "images/2011_nov_notz_hl_p1_q3_ms2.png",
+        "images/2011_nov_notz_hl_p1_q3_ms3.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1_HL.pdf",
         "markscheme_file": "Economics_paper_1_HL_markscheme.pdf"
@@ -2611,8 +2901,15 @@
       "marks": 25,
       "topic": "Macroeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2011_nov_notz_hl_p1_q4_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2011_nov_notz_hl_p1_q4_ms1.png",
+        "images/2011_nov_notz_hl_p1_q4_ms2.png",
+        "images/2011_nov_notz_hl_p1_q4_ms3.png",
+        "images/2011_nov_notz_hl_p1_q4_ms4.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1_HL.pdf",
         "markscheme_file": "Economics_paper_1_HL_markscheme.pdf"
@@ -2633,8 +2930,14 @@
       "marks": 25,
       "topic": "Microeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2011_nov_notz_sl_p1_q1_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2011_nov_notz_sl_p1_q1_ms1.png",
+        "images/2011_nov_notz_sl_p1_q1_ms2.png",
+        "images/2011_nov_notz_sl_p1_q1_ms3.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1_SL.pdf",
         "markscheme_file": "Economics_paper_1_SL_markscheme.pdf"
@@ -2655,8 +2958,15 @@
       "marks": 25,
       "topic": null,
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2011_nov_notz_sl_p1_q2_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2011_nov_notz_sl_p1_q2_ms1.png",
+        "images/2011_nov_notz_sl_p1_q2_ms2.png",
+        "images/2011_nov_notz_sl_p1_q2_ms3.png",
+        "images/2011_nov_notz_sl_p1_q2_ms4.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1_SL.pdf",
         "markscheme_file": "Economics_paper_1_SL_markscheme.pdf"
@@ -2677,8 +2987,15 @@
       "marks": 25,
       "topic": "International Economics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2011_nov_notz_sl_p1_q3_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2011_nov_notz_sl_p1_q3_ms1.png",
+        "images/2011_nov_notz_sl_p1_q3_ms2.png",
+        "images/2011_nov_notz_sl_p1_q3_ms3.png",
+        "images/2011_nov_notz_sl_p1_q3_ms4.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1_SL.pdf",
         "markscheme_file": "Economics_paper_1_SL_markscheme.pdf"
@@ -2699,8 +3016,15 @@
       "marks": 25,
       "topic": "Macroeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2011_nov_notz_sl_p1_q4_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2011_nov_notz_sl_p1_q4_ms1.png",
+        "images/2011_nov_notz_sl_p1_q4_ms2.png",
+        "images/2011_nov_notz_sl_p1_q4_ms3.png",
+        "images/2011_nov_notz_sl_p1_q4_ms4.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1_SL.pdf",
         "markscheme_file": "Economics_paper_1_SL_markscheme.pdf"
@@ -3186,8 +3510,14 @@
       "marks": 25,
       "topic": "Microeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2012_may_tz1_hl_p1_q1_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2012_may_tz1_hl_p1_q1_ms1.png",
+        "images/2012_may_tz1_hl_p1_q1_ms2.png",
+        "images/2012_may_tz1_hl_p1_q1_ms3.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1_TZ1_HL.pdf",
         "markscheme_file": "Economics_paper_1_TZ1_HL_markscheme.pdf"
@@ -3208,8 +3538,15 @@
       "marks": 25,
       "topic": "Macroeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2012_may_tz1_hl_p1_q2_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2012_may_tz1_hl_p1_q2_ms1.png",
+        "images/2012_may_tz1_hl_p1_q2_ms2.png",
+        "images/2012_may_tz1_hl_p1_q2_ms3.png",
+        "images/2012_may_tz1_hl_p1_q2_ms4.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1_TZ1_HL.pdf",
         "markscheme_file": "Economics_paper_1_TZ1_HL_markscheme.pdf"
@@ -3230,8 +3567,15 @@
       "marks": 25,
       "topic": "International Economics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2012_may_tz1_hl_p1_q3_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2012_may_tz1_hl_p1_q3_ms1.png",
+        "images/2012_may_tz1_hl_p1_q3_ms2.png",
+        "images/2012_may_tz1_hl_p1_q3_ms3.png",
+        "images/2012_may_tz1_hl_p1_q3_ms4.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1_TZ1_HL.pdf",
         "markscheme_file": "Economics_paper_1_TZ1_HL_markscheme.pdf"
@@ -3252,8 +3596,15 @@
       "marks": 25,
       "topic": "Development Economics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2012_may_tz1_hl_p1_q4_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2012_may_tz1_hl_p1_q4_ms1.png",
+        "images/2012_may_tz1_hl_p1_q4_ms2.png",
+        "images/2012_may_tz1_hl_p1_q4_ms3.png",
+        "images/2012_may_tz1_hl_p1_q4_ms4.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1_TZ1_HL.pdf",
         "markscheme_file": "Economics_paper_1_TZ1_HL_markscheme.pdf"
@@ -3274,8 +3625,14 @@
       "marks": 25,
       "topic": null,
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2012_may_tz2_hl_p1_q1_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2012_may_tz2_hl_p1_q1_ms1.png",
+        "images/2012_may_tz2_hl_p1_q1_ms2.png",
+        "images/2012_may_tz2_hl_p1_q1_ms3.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1_TZ2_HL.pdf",
         "markscheme_file": "Economics_paper_1_TZ2_HL_markscheme.pdf"
@@ -3296,8 +3653,15 @@
       "marks": 25,
       "topic": "Macroeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2012_may_tz2_hl_p1_q2_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2012_may_tz2_hl_p1_q2_ms1.png",
+        "images/2012_may_tz2_hl_p1_q2_ms2.png",
+        "images/2012_may_tz2_hl_p1_q2_ms3.png",
+        "images/2012_may_tz2_hl_p1_q2_ms4.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1_TZ2_HL.pdf",
         "markscheme_file": "Economics_paper_1_TZ2_HL_markscheme.pdf"
@@ -3318,8 +3682,15 @@
       "marks": 25,
       "topic": "International Economics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2012_may_tz2_hl_p1_q3_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2012_may_tz2_hl_p1_q3_ms1.png",
+        "images/2012_may_tz2_hl_p1_q3_ms2.png",
+        "images/2012_may_tz2_hl_p1_q3_ms3.png",
+        "images/2012_may_tz2_hl_p1_q3_ms4.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1_TZ2_HL.pdf",
         "markscheme_file": "Economics_paper_1_TZ2_HL_markscheme.pdf"
@@ -3340,8 +3711,15 @@
       "marks": 25,
       "topic": "Development Economics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2012_may_tz2_hl_p1_q4_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2012_may_tz2_hl_p1_q4_ms1.png",
+        "images/2012_may_tz2_hl_p1_q4_ms2.png",
+        "images/2012_may_tz2_hl_p1_q4_ms3.png",
+        "images/2012_may_tz2_hl_p1_q4_ms4.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1_TZ2_HL.pdf",
         "markscheme_file": "Economics_paper_1_TZ2_HL_markscheme.pdf"
@@ -3362,8 +3740,14 @@
       "marks": 25,
       "topic": null,
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2012_may_tz1_sl_p1_q1_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2012_may_tz1_sl_p1_q1_ms1.png",
+        "images/2012_may_tz1_sl_p1_q1_ms2.png",
+        "images/2012_may_tz1_sl_p1_q1_ms3.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1_TZ1_SL.pdf",
         "markscheme_file": "Economics_paper_1_TZ1_SL_markscheme.pdf"
@@ -3384,8 +3768,15 @@
       "marks": 25,
       "topic": "Macroeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2012_may_tz1_sl_p1_q2_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2012_may_tz1_sl_p1_q2_ms1.png",
+        "images/2012_may_tz1_sl_p1_q2_ms2.png",
+        "images/2012_may_tz1_sl_p1_q2_ms3.png",
+        "images/2012_may_tz1_sl_p1_q2_ms4.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1_TZ1_SL.pdf",
         "markscheme_file": "Economics_paper_1_TZ1_SL_markscheme.pdf"
@@ -3406,8 +3797,15 @@
       "marks": 25,
       "topic": "International Economics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2012_may_tz1_sl_p1_q3_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2012_may_tz1_sl_p1_q3_ms1.png",
+        "images/2012_may_tz1_sl_p1_q3_ms2.png",
+        "images/2012_may_tz1_sl_p1_q3_ms3.png",
+        "images/2012_may_tz1_sl_p1_q3_ms4.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1_TZ1_SL.pdf",
         "markscheme_file": "Economics_paper_1_TZ1_SL_markscheme.pdf"
@@ -3428,8 +3826,15 @@
       "marks": 25,
       "topic": "Development Economics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2012_may_tz1_sl_p1_q4_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2012_may_tz1_sl_p1_q4_ms1.png",
+        "images/2012_may_tz1_sl_p1_q4_ms2.png",
+        "images/2012_may_tz1_sl_p1_q4_ms3.png",
+        "images/2012_may_tz1_sl_p1_q4_ms4.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1_TZ1_SL.pdf",
         "markscheme_file": "Economics_paper_1_TZ1_SL_markscheme.pdf"
@@ -3450,8 +3855,14 @@
       "marks": 25,
       "topic": null,
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2012_may_tz2_sl_p1_q1_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2012_may_tz2_sl_p1_q1_ms1.png",
+        "images/2012_may_tz2_sl_p1_q1_ms2.png",
+        "images/2012_may_tz2_sl_p1_q1_ms3.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1_TZ2_SL.pdf",
         "markscheme_file": "Economics_paper_1_TZ2_SL_markscheme.pdf"
@@ -3472,8 +3883,15 @@
       "marks": 25,
       "topic": "Macroeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2012_may_tz2_sl_p1_q2_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2012_may_tz2_sl_p1_q2_ms1.png",
+        "images/2012_may_tz2_sl_p1_q2_ms2.png",
+        "images/2012_may_tz2_sl_p1_q2_ms3.png",
+        "images/2012_may_tz2_sl_p1_q2_ms4.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1_TZ2_SL.pdf",
         "markscheme_file": "Economics_paper_1_TZ2_SL_markscheme.pdf"
@@ -3494,8 +3912,15 @@
       "marks": 25,
       "topic": "International Economics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2012_may_tz2_sl_p1_q3_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2012_may_tz2_sl_p1_q3_ms1.png",
+        "images/2012_may_tz2_sl_p1_q3_ms2.png",
+        "images/2012_may_tz2_sl_p1_q3_ms3.png",
+        "images/2012_may_tz2_sl_p1_q3_ms4.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1_TZ2_SL.pdf",
         "markscheme_file": "Economics_paper_1_TZ2_SL_markscheme.pdf"
@@ -3516,8 +3941,15 @@
       "marks": 25,
       "topic": "Development Economics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2012_may_tz2_sl_p1_q4_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2012_may_tz2_sl_p1_q4_ms1.png",
+        "images/2012_may_tz2_sl_p1_q4_ms2.png",
+        "images/2012_may_tz2_sl_p1_q4_ms3.png",
+        "images/2012_may_tz2_sl_p1_q4_ms4.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1_TZ2_SL.pdf",
         "markscheme_file": "Economics_paper_1_TZ2_SL_markscheme.pdf"
@@ -4161,8 +4593,14 @@
       "marks": 25,
       "topic": "Microeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2012_nov_notz_hl_p1_q1_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2012_nov_notz_hl_p1_q1_ms1.png",
+        "images/2012_nov_notz_hl_p1_q1_ms2.png",
+        "images/2012_nov_notz_hl_p1_q1_ms3.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1_HL.pdf",
         "markscheme_file": "Economics_paper_1_HL_markscheme.pdf"
@@ -4183,8 +4621,15 @@
       "marks": 25,
       "topic": null,
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2012_nov_notz_hl_p1_q2_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2012_nov_notz_hl_p1_q2_ms1.png",
+        "images/2012_nov_notz_hl_p1_q2_ms2.png",
+        "images/2012_nov_notz_hl_p1_q2_ms3.png",
+        "images/2012_nov_notz_hl_p1_q2_ms4.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1_HL.pdf",
         "markscheme_file": "Economics_paper_1_HL_markscheme.pdf"
@@ -4205,8 +4650,15 @@
       "marks": 25,
       "topic": "International Economics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2012_nov_notz_hl_p1_q3_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2012_nov_notz_hl_p1_q3_ms1.png",
+        "images/2012_nov_notz_hl_p1_q3_ms2.png",
+        "images/2012_nov_notz_hl_p1_q3_ms3.png",
+        "images/2012_nov_notz_hl_p1_q3_ms4.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1_HL.pdf",
         "markscheme_file": "Economics_paper_1_HL_markscheme.pdf"
@@ -4227,8 +4679,15 @@
       "marks": 25,
       "topic": "Development Economics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2012_nov_notz_hl_p1_q4_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2012_nov_notz_hl_p1_q4_ms1.png",
+        "images/2012_nov_notz_hl_p1_q4_ms2.png",
+        "images/2012_nov_notz_hl_p1_q4_ms3.png",
+        "images/2012_nov_notz_hl_p1_q4_ms4.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1_HL.pdf",
         "markscheme_file": "Economics_paper_1_HL_markscheme.pdf"
@@ -4249,8 +4708,14 @@
       "marks": 25,
       "topic": "Microeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2012_nov_notz_sl_p1_q1_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2012_nov_notz_sl_p1_q1_ms1.png",
+        "images/2012_nov_notz_sl_p1_q1_ms2.png",
+        "images/2012_nov_notz_sl_p1_q1_ms3.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1_SL.pdf",
         "markscheme_file": "Economics_paper_1_SL_markscheme.pdf"
@@ -4271,8 +4736,15 @@
       "marks": 25,
       "topic": "Macroeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2012_nov_notz_sl_p1_q2_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2012_nov_notz_sl_p1_q2_ms1.png",
+        "images/2012_nov_notz_sl_p1_q2_ms2.png",
+        "images/2012_nov_notz_sl_p1_q2_ms3.png",
+        "images/2012_nov_notz_sl_p1_q2_ms4.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1_SL.pdf",
         "markscheme_file": "Economics_paper_1_SL_markscheme.pdf"
@@ -4293,8 +4765,15 @@
       "marks": 25,
       "topic": "International Economics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2012_nov_notz_sl_p1_q3_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2012_nov_notz_sl_p1_q3_ms1.png",
+        "images/2012_nov_notz_sl_p1_q3_ms2.png",
+        "images/2012_nov_notz_sl_p1_q3_ms3.png",
+        "images/2012_nov_notz_sl_p1_q3_ms4.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1_SL.pdf",
         "markscheme_file": "Economics_paper_1_SL_markscheme.pdf"
@@ -4315,8 +4794,15 @@
       "marks": 25,
       "topic": "Development Economics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2012_nov_notz_sl_p1_q4_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2012_nov_notz_sl_p1_q4_ms1.png",
+        "images/2012_nov_notz_sl_p1_q4_ms2.png",
+        "images/2012_nov_notz_sl_p1_q4_ms3.png",
+        "images/2012_nov_notz_sl_p1_q4_ms4.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1_SL.pdf",
         "markscheme_file": "Economics_paper_1_SL_markscheme.pdf"
@@ -4802,8 +5288,14 @@
       "marks": 25,
       "topic": "Microeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2013_may_tz1_hl_p1_q1_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2013_may_tz1_hl_p1_q1_ms1.png",
+        "images/2013_may_tz1_hl_p1_q1_ms2.png",
+        "images/2013_may_tz1_hl_p1_q1_ms3.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1_TZ1_HL.pdf",
         "markscheme_file": "Economics_paper_1_TZ1_HL_markscheme.pdf"
@@ -4824,8 +5316,15 @@
       "marks": 25,
       "topic": "Microeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2013_may_tz1_hl_p1_q2_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2013_may_tz1_hl_p1_q2_ms1.png",
+        "images/2013_may_tz1_hl_p1_q2_ms2.png",
+        "images/2013_may_tz1_hl_p1_q2_ms3.png",
+        "images/2013_may_tz1_hl_p1_q2_ms4.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1_TZ1_HL.pdf",
         "markscheme_file": "Economics_paper_1_TZ1_HL_markscheme.pdf"
@@ -4846,8 +5345,15 @@
       "marks": 25,
       "topic": "Macroeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2013_may_tz1_hl_p1_q3_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2013_may_tz1_hl_p1_q3_ms1.png",
+        "images/2013_may_tz1_hl_p1_q3_ms2.png",
+        "images/2013_may_tz1_hl_p1_q3_ms3.png",
+        "images/2013_may_tz1_hl_p1_q3_ms4.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1_TZ1_HL.pdf",
         "markscheme_file": "Economics_paper_1_TZ1_HL_markscheme.pdf"
@@ -4868,8 +5374,15 @@
       "marks": 25,
       "topic": "Macroeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2013_may_tz1_hl_p1_q4_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2013_may_tz1_hl_p1_q4_ms1.png",
+        "images/2013_may_tz1_hl_p1_q4_ms2.png",
+        "images/2013_may_tz1_hl_p1_q4_ms3.png",
+        "images/2013_may_tz1_hl_p1_q4_ms4.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1_TZ1_HL.pdf",
         "markscheme_file": "Economics_paper_1_TZ1_HL_markscheme.pdf"
@@ -4890,8 +5403,14 @@
       "marks": 25,
       "topic": "Microeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2013_may_tz2_hl_p1_q1_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2013_may_tz2_hl_p1_q1_ms1.png",
+        "images/2013_may_tz2_hl_p1_q1_ms2.png",
+        "images/2013_may_tz2_hl_p1_q1_ms3.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1_TZ2_HL.pdf",
         "markscheme_file": "Economics_paper_1_TZ2_HL_markscheme.pdf"
@@ -4912,8 +5431,15 @@
       "marks": 25,
       "topic": "Microeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2013_may_tz2_hl_p1_q2_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2013_may_tz2_hl_p1_q2_ms1.png",
+        "images/2013_may_tz2_hl_p1_q2_ms2.png",
+        "images/2013_may_tz2_hl_p1_q2_ms3.png",
+        "images/2013_may_tz2_hl_p1_q2_ms4.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1_TZ2_HL.pdf",
         "markscheme_file": "Economics_paper_1_TZ2_HL_markscheme.pdf"
@@ -4934,8 +5460,15 @@
       "marks": 25,
       "topic": "Macroeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2013_may_tz2_hl_p1_q3_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2013_may_tz2_hl_p1_q3_ms1.png",
+        "images/2013_may_tz2_hl_p1_q3_ms2.png",
+        "images/2013_may_tz2_hl_p1_q3_ms3.png",
+        "images/2013_may_tz2_hl_p1_q3_ms4.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1_TZ2_HL.pdf",
         "markscheme_file": "Economics_paper_1_TZ2_HL_markscheme.pdf"
@@ -4956,8 +5489,15 @@
       "marks": 25,
       "topic": "Macroeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2013_may_tz2_hl_p1_q4_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2013_may_tz2_hl_p1_q4_ms1.png",
+        "images/2013_may_tz2_hl_p1_q4_ms2.png",
+        "images/2013_may_tz2_hl_p1_q4_ms3.png",
+        "images/2013_may_tz2_hl_p1_q4_ms4.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1_TZ2_HL.pdf",
         "markscheme_file": "Economics_paper_1_TZ2_HL_markscheme.pdf"
@@ -4978,8 +5518,14 @@
       "marks": 25,
       "topic": "Microeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2013_may_tz1_sl_p1_q1_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2013_may_tz1_sl_p1_q1_ms1.png",
+        "images/2013_may_tz1_sl_p1_q1_ms2.png",
+        "images/2013_may_tz1_sl_p1_q1_ms3.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1_TZ1_SL.pdf",
         "markscheme_file": "Economics_paper_1_TZ1_SL_markscheme.pdf"
@@ -5000,8 +5546,15 @@
       "marks": 25,
       "topic": "Microeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2013_may_tz1_sl_p1_q2_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2013_may_tz1_sl_p1_q2_ms1.png",
+        "images/2013_may_tz1_sl_p1_q2_ms2.png",
+        "images/2013_may_tz1_sl_p1_q2_ms3.png",
+        "images/2013_may_tz1_sl_p1_q2_ms4.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1_TZ1_SL.pdf",
         "markscheme_file": "Economics_paper_1_TZ1_SL_markscheme.pdf"
@@ -5022,8 +5575,15 @@
       "marks": 25,
       "topic": "Macroeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2013_may_tz1_sl_p1_q3_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2013_may_tz1_sl_p1_q3_ms1.png",
+        "images/2013_may_tz1_sl_p1_q3_ms2.png",
+        "images/2013_may_tz1_sl_p1_q3_ms3.png",
+        "images/2013_may_tz1_sl_p1_q3_ms4.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1_TZ1_SL.pdf",
         "markscheme_file": "Economics_paper_1_TZ1_SL_markscheme.pdf"
@@ -5044,8 +5604,15 @@
       "marks": 25,
       "topic": "Macroeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2013_may_tz1_sl_p1_q4_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2013_may_tz1_sl_p1_q4_ms1.png",
+        "images/2013_may_tz1_sl_p1_q4_ms2.png",
+        "images/2013_may_tz1_sl_p1_q4_ms3.png",
+        "images/2013_may_tz1_sl_p1_q4_ms4.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1_TZ1_SL.pdf",
         "markscheme_file": "Economics_paper_1_TZ1_SL_markscheme.pdf"
@@ -5066,8 +5633,14 @@
       "marks": 25,
       "topic": "Microeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2013_may_tz2_sl_p1_q1_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2013_may_tz2_sl_p1_q1_ms1.png",
+        "images/2013_may_tz2_sl_p1_q1_ms2.png",
+        "images/2013_may_tz2_sl_p1_q1_ms3.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1_TZ2_SL.pdf",
         "markscheme_file": "Economics_paper_1_TZ2_SL_markscheme.pdf"
@@ -5088,8 +5661,15 @@
       "marks": 25,
       "topic": "Microeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2013_may_tz2_sl_p1_q2_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2013_may_tz2_sl_p1_q2_ms1.png",
+        "images/2013_may_tz2_sl_p1_q2_ms2.png",
+        "images/2013_may_tz2_sl_p1_q2_ms3.png",
+        "images/2013_may_tz2_sl_p1_q2_ms4.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1_TZ2_SL.pdf",
         "markscheme_file": "Economics_paper_1_TZ2_SL_markscheme.pdf"
@@ -5110,8 +5690,15 @@
       "marks": 25,
       "topic": "Macroeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2013_may_tz2_sl_p1_q3_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2013_may_tz2_sl_p1_q3_ms1.png",
+        "images/2013_may_tz2_sl_p1_q3_ms2.png",
+        "images/2013_may_tz2_sl_p1_q3_ms3.png",
+        "images/2013_may_tz2_sl_p1_q3_ms4.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1_TZ2_SL.pdf",
         "markscheme_file": "Economics_paper_1_TZ2_SL_markscheme.pdf"
@@ -5132,8 +5719,15 @@
       "marks": 25,
       "topic": "Macroeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2013_may_tz2_sl_p1_q4_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2013_may_tz2_sl_p1_q4_ms1.png",
+        "images/2013_may_tz2_sl_p1_q4_ms2.png",
+        "images/2013_may_tz2_sl_p1_q4_ms3.png",
+        "images/2013_may_tz2_sl_p1_q4_ms4.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1_TZ2_SL.pdf",
         "markscheme_file": "Economics_paper_1_TZ2_SL_markscheme.pdf"
@@ -5508,8 +6102,14 @@
       "marks": 25,
       "topic": "Microeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2013_nov_notz_hl_p1_q1_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2013_nov_notz_hl_p1_q1_ms1.png",
+        "images/2013_nov_notz_hl_p1_q1_ms2.png",
+        "images/2013_nov_notz_hl_p1_q1_ms3.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1_HL.pdf",
         "markscheme_file": "Economics_paper_1_HL_markscheme.pdf"
@@ -5530,8 +6130,15 @@
       "marks": 25,
       "topic": "Microeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2013_nov_notz_hl_p1_q2_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2013_nov_notz_hl_p1_q2_ms1.png",
+        "images/2013_nov_notz_hl_p1_q2_ms2.png",
+        "images/2013_nov_notz_hl_p1_q2_ms3.png",
+        "images/2013_nov_notz_hl_p1_q2_ms4.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1_HL.pdf",
         "markscheme_file": "Economics_paper_1_HL_markscheme.pdf"
@@ -5552,8 +6159,15 @@
       "marks": 25,
       "topic": "Macroeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2013_nov_notz_hl_p1_q3_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2013_nov_notz_hl_p1_q3_ms1.png",
+        "images/2013_nov_notz_hl_p1_q3_ms2.png",
+        "images/2013_nov_notz_hl_p1_q3_ms3.png",
+        "images/2013_nov_notz_hl_p1_q3_ms4.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1_HL.pdf",
         "markscheme_file": "Economics_paper_1_HL_markscheme.pdf"
@@ -5574,8 +6188,15 @@
       "marks": 25,
       "topic": "Macroeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2013_nov_notz_hl_p1_q4_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2013_nov_notz_hl_p1_q4_ms1.png",
+        "images/2013_nov_notz_hl_p1_q4_ms2.png",
+        "images/2013_nov_notz_hl_p1_q4_ms3.png",
+        "images/2013_nov_notz_hl_p1_q4_ms4.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1_HL.pdf",
         "markscheme_file": "Economics_paper_1_HL_markscheme.pdf"
@@ -5596,8 +6217,14 @@
       "marks": 25,
       "topic": "Microeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2013_nov_notz_sl_p1_q1_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2013_nov_notz_sl_p1_q1_ms1.png",
+        "images/2013_nov_notz_sl_p1_q1_ms2.png",
+        "images/2013_nov_notz_sl_p1_q1_ms3.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1_SL.pdf",
         "markscheme_file": "Economics_paper_1_SL_markscheme.pdf"
@@ -5618,8 +6245,15 @@
       "marks": 25,
       "topic": "Microeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2013_nov_notz_sl_p1_q2_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2013_nov_notz_sl_p1_q2_ms1.png",
+        "images/2013_nov_notz_sl_p1_q2_ms2.png",
+        "images/2013_nov_notz_sl_p1_q2_ms3.png",
+        "images/2013_nov_notz_sl_p1_q2_ms4.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1_SL.pdf",
         "markscheme_file": "Economics_paper_1_SL_markscheme.pdf"
@@ -5640,8 +6274,15 @@
       "marks": 25,
       "topic": "Macroeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2013_nov_notz_sl_p1_q3_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2013_nov_notz_sl_p1_q3_ms1.png",
+        "images/2013_nov_notz_sl_p1_q3_ms2.png",
+        "images/2013_nov_notz_sl_p1_q3_ms3.png",
+        "images/2013_nov_notz_sl_p1_q3_ms4.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1_SL.pdf",
         "markscheme_file": "Economics_paper_1_SL_markscheme.pdf"
@@ -5662,8 +6303,15 @@
       "marks": 25,
       "topic": "Macroeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2013_nov_notz_sl_p1_q4_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2013_nov_notz_sl_p1_q4_ms1.png",
+        "images/2013_nov_notz_sl_p1_q4_ms2.png",
+        "images/2013_nov_notz_sl_p1_q4_ms3.png",
+        "images/2013_nov_notz_sl_p1_q4_ms4.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1_SL.pdf",
         "markscheme_file": "Economics_paper_1_SL_markscheme.pdf"
@@ -6031,8 +6679,14 @@
       "marks": 25,
       "topic": "Microeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2014_may_tz1_hl_p1_q1_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2014_may_tz1_hl_p1_q1_ms1.png",
+        "images/2014_may_tz1_hl_p1_q1_ms2.png",
+        "images/2014_may_tz1_hl_p1_q1_ms3.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1_TZ1_HL.pdf",
         "markscheme_file": "Economics_paper_1_TZ1_HL_markscheme.pdf"
@@ -6053,8 +6707,15 @@
       "marks": 25,
       "topic": "Microeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2014_may_tz1_hl_p1_q2_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2014_may_tz1_hl_p1_q2_ms1.png",
+        "images/2014_may_tz1_hl_p1_q2_ms2.png",
+        "images/2014_may_tz1_hl_p1_q2_ms3.png",
+        "images/2014_may_tz1_hl_p1_q2_ms4.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1_TZ1_HL.pdf",
         "markscheme_file": "Economics_paper_1_TZ1_HL_markscheme.pdf"
@@ -6075,8 +6736,15 @@
       "marks": 25,
       "topic": "Macroeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2014_may_tz1_hl_p1_q3_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2014_may_tz1_hl_p1_q3_ms1.png",
+        "images/2014_may_tz1_hl_p1_q3_ms2.png",
+        "images/2014_may_tz1_hl_p1_q3_ms3.png",
+        "images/2014_may_tz1_hl_p1_q3_ms4.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1_TZ1_HL.pdf",
         "markscheme_file": "Economics_paper_1_TZ1_HL_markscheme.pdf"
@@ -6097,8 +6765,15 @@
       "marks": 25,
       "topic": "Macroeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2014_may_tz1_hl_p1_q4_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2014_may_tz1_hl_p1_q4_ms1.png",
+        "images/2014_may_tz1_hl_p1_q4_ms2.png",
+        "images/2014_may_tz1_hl_p1_q4_ms3.png",
+        "images/2014_may_tz1_hl_p1_q4_ms4.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1_TZ1_HL.pdf",
         "markscheme_file": "Economics_paper_1_TZ1_HL_markscheme.pdf"
@@ -6119,8 +6794,14 @@
       "marks": 25,
       "topic": "Microeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2014_may_tz2_hl_p1_q1_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2014_may_tz2_hl_p1_q1_ms1.png",
+        "images/2014_may_tz2_hl_p1_q1_ms2.png",
+        "images/2014_may_tz2_hl_p1_q1_ms3.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1_TZ2_HL.pdf",
         "markscheme_file": "Economics_paper_1_TZ2_HL_markscheme.pdf"
@@ -6141,8 +6822,15 @@
       "marks": 25,
       "topic": "Microeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2014_may_tz2_hl_p1_q2_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2014_may_tz2_hl_p1_q2_ms1.png",
+        "images/2014_may_tz2_hl_p1_q2_ms2.png",
+        "images/2014_may_tz2_hl_p1_q2_ms3.png",
+        "images/2014_may_tz2_hl_p1_q2_ms4.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1_TZ2_HL.pdf",
         "markscheme_file": "Economics_paper_1_TZ2_HL_markscheme.pdf"
@@ -6163,8 +6851,15 @@
       "marks": 25,
       "topic": "Macroeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2014_may_tz2_hl_p1_q3_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2014_may_tz2_hl_p1_q3_ms1.png",
+        "images/2014_may_tz2_hl_p1_q3_ms2.png",
+        "images/2014_may_tz2_hl_p1_q3_ms3.png",
+        "images/2014_may_tz2_hl_p1_q3_ms4.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1_TZ2_HL.pdf",
         "markscheme_file": "Economics_paper_1_TZ2_HL_markscheme.pdf"
@@ -6185,8 +6880,15 @@
       "marks": 25,
       "topic": "Macroeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2014_may_tz2_hl_p1_q4_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2014_may_tz2_hl_p1_q4_ms1.png",
+        "images/2014_may_tz2_hl_p1_q4_ms2.png",
+        "images/2014_may_tz2_hl_p1_q4_ms3.png",
+        "images/2014_may_tz2_hl_p1_q4_ms4.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1_TZ2_HL.pdf",
         "markscheme_file": "Economics_paper_1_TZ2_HL_markscheme.pdf"
@@ -6207,8 +6909,14 @@
       "marks": 25,
       "topic": "Microeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2014_may_tz1_sl_p1_q1_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2014_may_tz1_sl_p1_q1_ms1.png",
+        "images/2014_may_tz1_sl_p1_q1_ms2.png",
+        "images/2014_may_tz1_sl_p1_q1_ms3.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1_TZ1_SL.pdf",
         "markscheme_file": "Economics_paper_1_TZ1_SL_markscheme.pdf"
@@ -6229,8 +6937,15 @@
       "marks": 25,
       "topic": "Microeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2014_may_tz1_sl_p1_q2_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2014_may_tz1_sl_p1_q2_ms1.png",
+        "images/2014_may_tz1_sl_p1_q2_ms2.png",
+        "images/2014_may_tz1_sl_p1_q2_ms3.png",
+        "images/2014_may_tz1_sl_p1_q2_ms4.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1_TZ1_SL.pdf",
         "markscheme_file": "Economics_paper_1_TZ1_SL_markscheme.pdf"
@@ -6251,8 +6966,15 @@
       "marks": 25,
       "topic": "Macroeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2014_may_tz1_sl_p1_q3_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2014_may_tz1_sl_p1_q3_ms1.png",
+        "images/2014_may_tz1_sl_p1_q3_ms2.png",
+        "images/2014_may_tz1_sl_p1_q3_ms3.png",
+        "images/2014_may_tz1_sl_p1_q3_ms4.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1_TZ1_SL.pdf",
         "markscheme_file": "Economics_paper_1_TZ1_SL_markscheme.pdf"
@@ -6273,8 +6995,15 @@
       "marks": 25,
       "topic": "Macroeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2014_may_tz1_sl_p1_q4_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2014_may_tz1_sl_p1_q4_ms1.png",
+        "images/2014_may_tz1_sl_p1_q4_ms2.png",
+        "images/2014_may_tz1_sl_p1_q4_ms3.png",
+        "images/2014_may_tz1_sl_p1_q4_ms4.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1_TZ1_SL.pdf",
         "markscheme_file": "Economics_paper_1_TZ1_SL_markscheme.pdf"
@@ -6295,8 +7024,14 @@
       "marks": 25,
       "topic": "Microeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2014_may_tz2_sl_p1_q1_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2014_may_tz2_sl_p1_q1_ms1.png",
+        "images/2014_may_tz2_sl_p1_q1_ms2.png",
+        "images/2014_may_tz2_sl_p1_q1_ms3.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1_TZ2_SL.pdf",
         "markscheme_file": "Economics_paper_1_TZ2_SL_markscheme.pdf"
@@ -6317,8 +7052,15 @@
       "marks": 25,
       "topic": "Microeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2014_may_tz2_sl_p1_q2_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2014_may_tz2_sl_p1_q2_ms1.png",
+        "images/2014_may_tz2_sl_p1_q2_ms2.png",
+        "images/2014_may_tz2_sl_p1_q2_ms3.png",
+        "images/2014_may_tz2_sl_p1_q2_ms4.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1_TZ2_SL.pdf",
         "markscheme_file": "Economics_paper_1_TZ2_SL_markscheme.pdf"
@@ -6339,8 +7081,15 @@
       "marks": 25,
       "topic": "Macroeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2014_may_tz2_sl_p1_q3_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2014_may_tz2_sl_p1_q3_ms1.png",
+        "images/2014_may_tz2_sl_p1_q3_ms2.png",
+        "images/2014_may_tz2_sl_p1_q3_ms3.png",
+        "images/2014_may_tz2_sl_p1_q3_ms4.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1_TZ2_SL.pdf",
         "markscheme_file": "Economics_paper_1_TZ2_SL_markscheme.pdf"
@@ -6361,8 +7110,15 @@
       "marks": 25,
       "topic": "Macroeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2014_may_tz2_sl_p1_q4_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2014_may_tz2_sl_p1_q4_ms1.png",
+        "images/2014_may_tz2_sl_p1_q4_ms2.png",
+        "images/2014_may_tz2_sl_p1_q4_ms3.png",
+        "images/2014_may_tz2_sl_p1_q4_ms4.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1_TZ2_SL.pdf",
         "markscheme_file": "Economics_paper_1_TZ2_SL_markscheme.pdf"
@@ -6729,8 +7485,14 @@
       "marks": 25,
       "topic": "Microeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2014_nov_notz_hl_p1_q1_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2014_nov_notz_hl_p1_q1_ms1.png",
+        "images/2014_nov_notz_hl_p1_q1_ms2.png",
+        "images/2014_nov_notz_hl_p1_q1_ms3.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1_HL.pdf",
         "markscheme_file": "Economics_paper_1_HL_markscheme.pdf"
@@ -6751,8 +7513,15 @@
       "marks": 25,
       "topic": "Microeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2014_nov_notz_hl_p1_q2_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2014_nov_notz_hl_p1_q2_ms1.png",
+        "images/2014_nov_notz_hl_p1_q2_ms2.png",
+        "images/2014_nov_notz_hl_p1_q2_ms3.png",
+        "images/2014_nov_notz_hl_p1_q2_ms4.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1_HL.pdf",
         "markscheme_file": "Economics_paper_1_HL_markscheme.pdf"
@@ -6773,8 +7542,15 @@
       "marks": 25,
       "topic": "Macroeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2014_nov_notz_hl_p1_q3_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2014_nov_notz_hl_p1_q3_ms1.png",
+        "images/2014_nov_notz_hl_p1_q3_ms2.png",
+        "images/2014_nov_notz_hl_p1_q3_ms3.png",
+        "images/2014_nov_notz_hl_p1_q3_ms4.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1_HL.pdf",
         "markscheme_file": "Economics_paper_1_HL_markscheme.pdf"
@@ -6795,8 +7571,15 @@
       "marks": 25,
       "topic": "Macroeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2014_nov_notz_hl_p1_q4_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2014_nov_notz_hl_p1_q4_ms1.png",
+        "images/2014_nov_notz_hl_p1_q4_ms2.png",
+        "images/2014_nov_notz_hl_p1_q4_ms3.png",
+        "images/2014_nov_notz_hl_p1_q4_ms4.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1_HL.pdf",
         "markscheme_file": "Economics_paper_1_HL_markscheme.pdf"
@@ -6817,8 +7600,14 @@
       "marks": 25,
       "topic": "Microeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2014_nov_notz_sl_p1_q1_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2014_nov_notz_sl_p1_q1_ms1.png",
+        "images/2014_nov_notz_sl_p1_q1_ms2.png",
+        "images/2014_nov_notz_sl_p1_q1_ms3.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1_SL.pdf",
         "markscheme_file": "Economics_paper_1_SL_markscheme.pdf"
@@ -6839,8 +7628,15 @@
       "marks": 25,
       "topic": "Microeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2014_nov_notz_sl_p1_q2_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2014_nov_notz_sl_p1_q2_ms1.png",
+        "images/2014_nov_notz_sl_p1_q2_ms2.png",
+        "images/2014_nov_notz_sl_p1_q2_ms3.png",
+        "images/2014_nov_notz_sl_p1_q2_ms4.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1_SL.pdf",
         "markscheme_file": "Economics_paper_1_SL_markscheme.pdf"
@@ -6861,8 +7657,15 @@
       "marks": 25,
       "topic": "Macroeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2014_nov_notz_sl_p1_q3_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2014_nov_notz_sl_p1_q3_ms1.png",
+        "images/2014_nov_notz_sl_p1_q3_ms2.png",
+        "images/2014_nov_notz_sl_p1_q3_ms3.png",
+        "images/2014_nov_notz_sl_p1_q3_ms4.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1_SL.pdf",
         "markscheme_file": "Economics_paper_1_SL_markscheme.pdf"
@@ -6883,8 +7686,15 @@
       "marks": 25,
       "topic": "Macroeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2014_nov_notz_sl_p1_q4_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2014_nov_notz_sl_p1_q4_ms1.png",
+        "images/2014_nov_notz_sl_p1_q4_ms2.png",
+        "images/2014_nov_notz_sl_p1_q4_ms3.png",
+        "images/2014_nov_notz_sl_p1_q4_ms4.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1_SL.pdf",
         "markscheme_file": "Economics_paper_1_SL_markscheme.pdf"
@@ -7260,8 +8070,14 @@
       "marks": 25,
       "topic": "Microeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2015_may_tz1_hl_p1_q1_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2015_may_tz1_hl_p1_q1_ms1.png",
+        "images/2015_may_tz1_hl_p1_q1_ms2.png",
+        "images/2015_may_tz1_hl_p1_q1_ms3.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1_TZ1_HL.pdf",
         "markscheme_file": "Economics_paper_1_TZ1_HL_markscheme.pdf"
@@ -7282,8 +8098,15 @@
       "marks": 25,
       "topic": "Microeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2015_may_tz1_hl_p1_q2_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2015_may_tz1_hl_p1_q2_ms1.png",
+        "images/2015_may_tz1_hl_p1_q2_ms2.png",
+        "images/2015_may_tz1_hl_p1_q2_ms3.png",
+        "images/2015_may_tz1_hl_p1_q2_ms4.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1_TZ1_HL.pdf",
         "markscheme_file": "Economics_paper_1_TZ1_HL_markscheme.pdf"
@@ -7304,8 +8127,15 @@
       "marks": 25,
       "topic": "Macroeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2015_may_tz1_hl_p1_q3_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2015_may_tz1_hl_p1_q3_ms1.png",
+        "images/2015_may_tz1_hl_p1_q3_ms2.png",
+        "images/2015_may_tz1_hl_p1_q3_ms3.png",
+        "images/2015_may_tz1_hl_p1_q3_ms4.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1_TZ1_HL.pdf",
         "markscheme_file": "Economics_paper_1_TZ1_HL_markscheme.pdf"
@@ -7326,8 +8156,15 @@
       "marks": 25,
       "topic": "Macroeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2015_may_tz1_hl_p1_q4_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2015_may_tz1_hl_p1_q4_ms1.png",
+        "images/2015_may_tz1_hl_p1_q4_ms2.png",
+        "images/2015_may_tz1_hl_p1_q4_ms3.png",
+        "images/2015_may_tz1_hl_p1_q4_ms4.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1_TZ1_HL.pdf",
         "markscheme_file": "Economics_paper_1_TZ1_HL_markscheme.pdf"
@@ -7348,8 +8185,14 @@
       "marks": 25,
       "topic": "Microeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2015_may_tz2_hl_p1_q1_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2015_may_tz2_hl_p1_q1_ms1.png",
+        "images/2015_may_tz2_hl_p1_q1_ms2.png",
+        "images/2015_may_tz2_hl_p1_q1_ms3.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1_TZ2_HL.pdf",
         "markscheme_file": "Economics_paper_1_TZ2_HL_markscheme.pdf"
@@ -7370,8 +8213,15 @@
       "marks": 25,
       "topic": "Microeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2015_may_tz2_hl_p1_q2_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2015_may_tz2_hl_p1_q2_ms1.png",
+        "images/2015_may_tz2_hl_p1_q2_ms2.png",
+        "images/2015_may_tz2_hl_p1_q2_ms3.png",
+        "images/2015_may_tz2_hl_p1_q2_ms4.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1_TZ2_HL.pdf",
         "markscheme_file": "Economics_paper_1_TZ2_HL_markscheme.pdf"
@@ -7392,8 +8242,15 @@
       "marks": 25,
       "topic": "Macroeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2015_may_tz2_hl_p1_q3_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2015_may_tz2_hl_p1_q3_ms1.png",
+        "images/2015_may_tz2_hl_p1_q3_ms2.png",
+        "images/2015_may_tz2_hl_p1_q3_ms3.png",
+        "images/2015_may_tz2_hl_p1_q3_ms4.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1_TZ2_HL.pdf",
         "markscheme_file": "Economics_paper_1_TZ2_HL_markscheme.pdf"
@@ -7414,8 +8271,15 @@
       "marks": 25,
       "topic": "Macroeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2015_may_tz2_hl_p1_q4_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2015_may_tz2_hl_p1_q4_ms1.png",
+        "images/2015_may_tz2_hl_p1_q4_ms2.png",
+        "images/2015_may_tz2_hl_p1_q4_ms3.png",
+        "images/2015_may_tz2_hl_p1_q4_ms4.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1_TZ2_HL.pdf",
         "markscheme_file": "Economics_paper_1_TZ2_HL_markscheme.pdf"
@@ -7436,8 +8300,14 @@
       "marks": 25,
       "topic": "Microeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2015_may_tz1_sl_p1_q1_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2015_may_tz1_sl_p1_q1_ms1.png",
+        "images/2015_may_tz1_sl_p1_q1_ms2.png",
+        "images/2015_may_tz1_sl_p1_q1_ms3.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1_TZ1_SL.pdf",
         "markscheme_file": "Economics_paper_1_TZ1_SL_markscheme.pdf"
@@ -7458,8 +8328,15 @@
       "marks": 25,
       "topic": "Microeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2015_may_tz1_sl_p1_q2_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2015_may_tz1_sl_p1_q2_ms1.png",
+        "images/2015_may_tz1_sl_p1_q2_ms2.png",
+        "images/2015_may_tz1_sl_p1_q2_ms3.png",
+        "images/2015_may_tz1_sl_p1_q2_ms4.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1_TZ1_SL.pdf",
         "markscheme_file": "Economics_paper_1_TZ1_SL_markscheme.pdf"
@@ -7480,8 +8357,15 @@
       "marks": 25,
       "topic": "Macroeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2015_may_tz1_sl_p1_q3_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2015_may_tz1_sl_p1_q3_ms1.png",
+        "images/2015_may_tz1_sl_p1_q3_ms2.png",
+        "images/2015_may_tz1_sl_p1_q3_ms3.png",
+        "images/2015_may_tz1_sl_p1_q3_ms4.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1_TZ1_SL.pdf",
         "markscheme_file": "Economics_paper_1_TZ1_SL_markscheme.pdf"
@@ -7502,8 +8386,15 @@
       "marks": 25,
       "topic": "Macroeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2015_may_tz1_sl_p1_q4_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2015_may_tz1_sl_p1_q4_ms1.png",
+        "images/2015_may_tz1_sl_p1_q4_ms2.png",
+        "images/2015_may_tz1_sl_p1_q4_ms3.png",
+        "images/2015_may_tz1_sl_p1_q4_ms4.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1_TZ1_SL.pdf",
         "markscheme_file": "Economics_paper_1_TZ1_SL_markscheme.pdf"
@@ -7524,8 +8415,14 @@
       "marks": 25,
       "topic": "Microeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2015_may_tz2_sl_p1_q1_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2015_may_tz2_sl_p1_q1_ms1.png",
+        "images/2015_may_tz2_sl_p1_q1_ms2.png",
+        "images/2015_may_tz2_sl_p1_q1_ms3.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1_TZ2_SL.pdf",
         "markscheme_file": "Economics_paper_1_TZ2_SL_markscheme.pdf"
@@ -7546,8 +8443,15 @@
       "marks": 25,
       "topic": "Microeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2015_may_tz2_sl_p1_q2_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2015_may_tz2_sl_p1_q2_ms1.png",
+        "images/2015_may_tz2_sl_p1_q2_ms2.png",
+        "images/2015_may_tz2_sl_p1_q2_ms3.png",
+        "images/2015_may_tz2_sl_p1_q2_ms4.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1_TZ2_SL.pdf",
         "markscheme_file": "Economics_paper_1_TZ2_SL_markscheme.pdf"
@@ -7568,8 +8472,15 @@
       "marks": 25,
       "topic": "Macroeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2015_may_tz2_sl_p1_q3_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2015_may_tz2_sl_p1_q3_ms1.png",
+        "images/2015_may_tz2_sl_p1_q3_ms2.png",
+        "images/2015_may_tz2_sl_p1_q3_ms3.png",
+        "images/2015_may_tz2_sl_p1_q3_ms4.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1_TZ2_SL.pdf",
         "markscheme_file": "Economics_paper_1_TZ2_SL_markscheme.pdf"
@@ -7590,8 +8501,15 @@
       "marks": 25,
       "topic": "Macroeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2015_may_tz2_sl_p1_q4_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2015_may_tz2_sl_p1_q4_ms1.png",
+        "images/2015_may_tz2_sl_p1_q4_ms2.png",
+        "images/2015_may_tz2_sl_p1_q4_ms3.png",
+        "images/2015_may_tz2_sl_p1_q4_ms4.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1_TZ2_SL.pdf",
         "markscheme_file": "Economics_paper_1_TZ2_SL_markscheme.pdf"
@@ -7963,8 +8881,14 @@
       "marks": 25,
       "topic": "Microeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2015_nov_notz_hl_p1_q1_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2015_nov_notz_hl_p1_q1_ms1.png",
+        "images/2015_nov_notz_hl_p1_q1_ms2.png",
+        "images/2015_nov_notz_hl_p1_q1_ms3.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1_HL.pdf",
         "markscheme_file": "Economics_paper_1_HL_markscheme.pdf"
@@ -7985,8 +8909,15 @@
       "marks": 25,
       "topic": "Microeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2015_nov_notz_hl_p1_q2_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2015_nov_notz_hl_p1_q2_ms1.png",
+        "images/2015_nov_notz_hl_p1_q2_ms2.png",
+        "images/2015_nov_notz_hl_p1_q2_ms3.png",
+        "images/2015_nov_notz_hl_p1_q2_ms4.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1_HL.pdf",
         "markscheme_file": "Economics_paper_1_HL_markscheme.pdf"
@@ -8007,8 +8938,15 @@
       "marks": 25,
       "topic": "Macroeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2015_nov_notz_hl_p1_q3_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2015_nov_notz_hl_p1_q3_ms1.png",
+        "images/2015_nov_notz_hl_p1_q3_ms2.png",
+        "images/2015_nov_notz_hl_p1_q3_ms3.png",
+        "images/2015_nov_notz_hl_p1_q3_ms4.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1_HL.pdf",
         "markscheme_file": "Economics_paper_1_HL_markscheme.pdf"
@@ -8029,8 +8967,15 @@
       "marks": 25,
       "topic": "Macroeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2015_nov_notz_hl_p1_q4_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2015_nov_notz_hl_p1_q4_ms1.png",
+        "images/2015_nov_notz_hl_p1_q4_ms2.png",
+        "images/2015_nov_notz_hl_p1_q4_ms3.png",
+        "images/2015_nov_notz_hl_p1_q4_ms4.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1_HL.pdf",
         "markscheme_file": "Economics_paper_1_HL_markscheme.pdf"
@@ -8051,8 +8996,14 @@
       "marks": 25,
       "topic": "Microeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2015_nov_notz_sl_p1_q1_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2015_nov_notz_sl_p1_q1_ms1.png",
+        "images/2015_nov_notz_sl_p1_q1_ms2.png",
+        "images/2015_nov_notz_sl_p1_q1_ms3.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1_SL.pdf",
         "markscheme_file": "Economics_paper_1_SL_markscheme.pdf"
@@ -8073,8 +9024,15 @@
       "marks": 25,
       "topic": "Microeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2015_nov_notz_sl_p1_q2_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2015_nov_notz_sl_p1_q2_ms1.png",
+        "images/2015_nov_notz_sl_p1_q2_ms2.png",
+        "images/2015_nov_notz_sl_p1_q2_ms3.png",
+        "images/2015_nov_notz_sl_p1_q2_ms4.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1_SL.pdf",
         "markscheme_file": "Economics_paper_1_SL_markscheme.pdf"
@@ -8095,8 +9053,15 @@
       "marks": 25,
       "topic": "Macroeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2015_nov_notz_sl_p1_q3_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2015_nov_notz_sl_p1_q3_ms1.png",
+        "images/2015_nov_notz_sl_p1_q3_ms2.png",
+        "images/2015_nov_notz_sl_p1_q3_ms3.png",
+        "images/2015_nov_notz_sl_p1_q3_ms4.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1_SL.pdf",
         "markscheme_file": "Economics_paper_1_SL_markscheme.pdf"
@@ -8117,8 +9082,15 @@
       "marks": 25,
       "topic": "Macroeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2015_nov_notz_sl_p1_q4_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2015_nov_notz_sl_p1_q4_ms1.png",
+        "images/2015_nov_notz_sl_p1_q4_ms2.png",
+        "images/2015_nov_notz_sl_p1_q4_ms3.png",
+        "images/2015_nov_notz_sl_p1_q4_ms4.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1_SL.pdf",
         "markscheme_file": "Economics_paper_1_SL_markscheme.pdf"
@@ -8482,8 +9454,14 @@
       "marks": 25,
       "topic": "Microeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2016_may_tz1_hl_p1_q1_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2016_may_tz1_hl_p1_q1_ms1.png",
+        "images/2016_may_tz1_hl_p1_q1_ms2.png",
+        "images/2016_may_tz1_hl_p1_q1_ms3.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1__TZ1_HL.pdf",
         "markscheme_file": "Economics_paper_1__TZ1_HL_markscheme.pdf"
@@ -8504,8 +9482,14 @@
       "marks": 25,
       "topic": "Microeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2016_may_tz1_hl_p1_q2_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2016_may_tz1_hl_p1_q2_ms1.png",
+        "images/2016_may_tz1_hl_p1_q2_ms2.png",
+        "images/2016_may_tz1_hl_p1_q2_ms3.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1__TZ1_HL.pdf",
         "markscheme_file": "Economics_paper_1__TZ1_HL_markscheme.pdf"
@@ -8526,8 +9510,14 @@
       "marks": 25,
       "topic": "Macroeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2016_may_tz1_hl_p1_q3_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2016_may_tz1_hl_p1_q3_ms1.png",
+        "images/2016_may_tz1_hl_p1_q3_ms2.png",
+        "images/2016_may_tz1_hl_p1_q3_ms3.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1__TZ1_HL.pdf",
         "markscheme_file": "Economics_paper_1__TZ1_HL_markscheme.pdf"
@@ -8548,8 +9538,14 @@
       "marks": 25,
       "topic": "Macroeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2016_may_tz1_hl_p1_q4_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2016_may_tz1_hl_p1_q4_ms1.png",
+        "images/2016_may_tz1_hl_p1_q4_ms2.png",
+        "images/2016_may_tz1_hl_p1_q4_ms3.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1__TZ1_HL.pdf",
         "markscheme_file": "Economics_paper_1__TZ1_HL_markscheme.pdf"
@@ -8570,8 +9566,14 @@
       "marks": 25,
       "topic": "Microeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2016_may_tz2_hl_p1_q1_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2016_may_tz2_hl_p1_q1_ms1.png",
+        "images/2016_may_tz2_hl_p1_q1_ms2.png",
+        "images/2016_may_tz2_hl_p1_q1_ms3.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1__TZ2_HL.pdf",
         "markscheme_file": "Economics_paper_1__TZ2_HL_markscheme.pdf"
@@ -8592,8 +9594,14 @@
       "marks": 25,
       "topic": "Microeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2016_may_tz2_hl_p1_q2_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2016_may_tz2_hl_p1_q2_ms1.png",
+        "images/2016_may_tz2_hl_p1_q2_ms2.png",
+        "images/2016_may_tz2_hl_p1_q2_ms3.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1__TZ2_HL.pdf",
         "markscheme_file": "Economics_paper_1__TZ2_HL_markscheme.pdf"
@@ -8614,8 +9622,14 @@
       "marks": 25,
       "topic": "Macroeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2016_may_tz2_hl_p1_q3_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2016_may_tz2_hl_p1_q3_ms1.png",
+        "images/2016_may_tz2_hl_p1_q3_ms2.png",
+        "images/2016_may_tz2_hl_p1_q3_ms3.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1__TZ2_HL.pdf",
         "markscheme_file": "Economics_paper_1__TZ2_HL_markscheme.pdf"
@@ -8636,8 +9650,14 @@
       "marks": 25,
       "topic": "Macroeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2016_may_tz2_hl_p1_q4_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2016_may_tz2_hl_p1_q4_ms1.png",
+        "images/2016_may_tz2_hl_p1_q4_ms2.png",
+        "images/2016_may_tz2_hl_p1_q4_ms3.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1__TZ2_HL.pdf",
         "markscheme_file": "Economics_paper_1__TZ2_HL_markscheme.pdf"
@@ -8658,8 +9678,14 @@
       "marks": 25,
       "topic": "Microeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2016_may_tz1_sl_p1_q1_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2016_may_tz1_sl_p1_q1_ms1.png",
+        "images/2016_may_tz1_sl_p1_q1_ms2.png",
+        "images/2016_may_tz1_sl_p1_q1_ms3.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1__TZ1_SL.pdf",
         "markscheme_file": "Economics_paper_1__TZ1_SL_markscheme.pdf"
@@ -8680,8 +9706,14 @@
       "marks": 25,
       "topic": "Microeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2016_may_tz1_sl_p1_q2_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2016_may_tz1_sl_p1_q2_ms1.png",
+        "images/2016_may_tz1_sl_p1_q2_ms2.png",
+        "images/2016_may_tz1_sl_p1_q2_ms3.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1__TZ1_SL.pdf",
         "markscheme_file": "Economics_paper_1__TZ1_SL_markscheme.pdf"
@@ -8702,8 +9734,14 @@
       "marks": 25,
       "topic": "Macroeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2016_may_tz1_sl_p1_q3_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2016_may_tz1_sl_p1_q3_ms1.png",
+        "images/2016_may_tz1_sl_p1_q3_ms2.png",
+        "images/2016_may_tz1_sl_p1_q3_ms3.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1__TZ1_SL.pdf",
         "markscheme_file": "Economics_paper_1__TZ1_SL_markscheme.pdf"
@@ -8724,8 +9762,14 @@
       "marks": 25,
       "topic": "Macroeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2016_may_tz1_sl_p1_q4_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2016_may_tz1_sl_p1_q4_ms1.png",
+        "images/2016_may_tz1_sl_p1_q4_ms2.png",
+        "images/2016_may_tz1_sl_p1_q4_ms3.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1__TZ1_SL.pdf",
         "markscheme_file": "Economics_paper_1__TZ1_SL_markscheme.pdf"
@@ -8746,8 +9790,14 @@
       "marks": 25,
       "topic": "Microeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2016_may_tz2_sl_p1_q1_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2016_may_tz2_sl_p1_q1_ms1.png",
+        "images/2016_may_tz2_sl_p1_q1_ms2.png",
+        "images/2016_may_tz2_sl_p1_q1_ms3.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1__TZ2_SL.pdf",
         "markscheme_file": "Economics_paper_1__TZ2_SL_markscheme.pdf"
@@ -8768,8 +9818,14 @@
       "marks": 25,
       "topic": "Microeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2016_may_tz2_sl_p1_q2_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2016_may_tz2_sl_p1_q2_ms1.png",
+        "images/2016_may_tz2_sl_p1_q2_ms2.png",
+        "images/2016_may_tz2_sl_p1_q2_ms3.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1__TZ2_SL.pdf",
         "markscheme_file": "Economics_paper_1__TZ2_SL_markscheme.pdf"
@@ -8790,8 +9846,14 @@
       "marks": 25,
       "topic": "Macroeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2016_may_tz2_sl_p1_q3_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2016_may_tz2_sl_p1_q3_ms1.png",
+        "images/2016_may_tz2_sl_p1_q3_ms2.png",
+        "images/2016_may_tz2_sl_p1_q3_ms3.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1__TZ2_SL.pdf",
         "markscheme_file": "Economics_paper_1__TZ2_SL_markscheme.pdf"
@@ -8812,8 +9874,14 @@
       "marks": 25,
       "topic": "Macroeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2016_may_tz2_sl_p1_q4_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2016_may_tz2_sl_p1_q4_ms1.png",
+        "images/2016_may_tz2_sl_p1_q4_ms2.png",
+        "images/2016_may_tz2_sl_p1_q4_ms3.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1__TZ2_SL.pdf",
         "markscheme_file": "Economics_paper_1__TZ2_SL_markscheme.pdf"
@@ -9188,8 +10256,14 @@
       "marks": 25,
       "topic": "Microeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2016_nov_notz_hl_p1_q1_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2016_nov_notz_hl_p1_q1_ms1.png",
+        "images/2016_nov_notz_hl_p1_q1_ms2.png",
+        "images/2016_nov_notz_hl_p1_q1_ms3.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1__HL.pdf",
         "markscheme_file": "Economics_paper_1__HL_markscheme.pdf"
@@ -9210,8 +10284,15 @@
       "marks": 25,
       "topic": "Microeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2016_nov_notz_hl_p1_q2_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2016_nov_notz_hl_p1_q2_ms1.png",
+        "images/2016_nov_notz_hl_p1_q2_ms2.png",
+        "images/2016_nov_notz_hl_p1_q2_ms3.png",
+        "images/2016_nov_notz_hl_p1_q2_ms4.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1__HL.pdf",
         "markscheme_file": "Economics_paper_1__HL_markscheme.pdf"
@@ -9232,8 +10313,15 @@
       "marks": 25,
       "topic": "Macroeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2016_nov_notz_hl_p1_q3_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2016_nov_notz_hl_p1_q3_ms1.png",
+        "images/2016_nov_notz_hl_p1_q3_ms2.png",
+        "images/2016_nov_notz_hl_p1_q3_ms3.png",
+        "images/2016_nov_notz_hl_p1_q3_ms4.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1__HL.pdf",
         "markscheme_file": "Economics_paper_1__HL_markscheme.pdf"
@@ -9254,8 +10342,15 @@
       "marks": 25,
       "topic": "Macroeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2016_nov_notz_hl_p1_q4_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2016_nov_notz_hl_p1_q4_ms1.png",
+        "images/2016_nov_notz_hl_p1_q4_ms2.png",
+        "images/2016_nov_notz_hl_p1_q4_ms3.png",
+        "images/2016_nov_notz_hl_p1_q4_ms4.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1__HL.pdf",
         "markscheme_file": "Economics_paper_1__HL_markscheme.pdf"
@@ -9276,8 +10371,14 @@
       "marks": 25,
       "topic": "Microeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2016_nov_notz_sl_p1_q1_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2016_nov_notz_sl_p1_q1_ms1.png",
+        "images/2016_nov_notz_sl_p1_q1_ms2.png",
+        "images/2016_nov_notz_sl_p1_q1_ms3.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1__SL.pdf",
         "markscheme_file": "Economics_paper_1__SL_markscheme.pdf"
@@ -9298,8 +10399,15 @@
       "marks": 25,
       "topic": "Microeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2016_nov_notz_sl_p1_q2_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2016_nov_notz_sl_p1_q2_ms1.png",
+        "images/2016_nov_notz_sl_p1_q2_ms2.png",
+        "images/2016_nov_notz_sl_p1_q2_ms3.png",
+        "images/2016_nov_notz_sl_p1_q2_ms4.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1__SL.pdf",
         "markscheme_file": "Economics_paper_1__SL_markscheme.pdf"
@@ -9320,8 +10428,15 @@
       "marks": 25,
       "topic": "Macroeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2016_nov_notz_sl_p1_q3_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2016_nov_notz_sl_p1_q3_ms1.png",
+        "images/2016_nov_notz_sl_p1_q3_ms2.png",
+        "images/2016_nov_notz_sl_p1_q3_ms3.png",
+        "images/2016_nov_notz_sl_p1_q3_ms4.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1__SL.pdf",
         "markscheme_file": "Economics_paper_1__SL_markscheme.pdf"
@@ -9342,8 +10457,15 @@
       "marks": 25,
       "topic": "Macroeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2016_nov_notz_sl_p1_q4_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2016_nov_notz_sl_p1_q4_ms1.png",
+        "images/2016_nov_notz_sl_p1_q4_ms2.png",
+        "images/2016_nov_notz_sl_p1_q4_ms3.png",
+        "images/2016_nov_notz_sl_p1_q4_ms4.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1__SL.pdf",
         "markscheme_file": "Economics_paper_1__SL_markscheme.pdf"
@@ -9715,8 +10837,14 @@
       "marks": 25,
       "topic": "Microeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2017_may_tz1_hl_p1_q1_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2017_may_tz1_hl_p1_q1_ms1.png",
+        "images/2017_may_tz1_hl_p1_q1_ms2.png",
+        "images/2017_may_tz1_hl_p1_q1_ms3.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1__TZ1_HL.pdf",
         "markscheme_file": "Economics_paper_1__TZ1_HL_markscheme.pdf"
@@ -9737,8 +10865,15 @@
       "marks": 25,
       "topic": "Microeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2017_may_tz1_hl_p1_q2_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2017_may_tz1_hl_p1_q2_ms1.png",
+        "images/2017_may_tz1_hl_p1_q2_ms2.png",
+        "images/2017_may_tz1_hl_p1_q2_ms3.png",
+        "images/2017_may_tz1_hl_p1_q2_ms4.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1__TZ1_HL.pdf",
         "markscheme_file": "Economics_paper_1__TZ1_HL_markscheme.pdf"
@@ -9759,8 +10894,15 @@
       "marks": 25,
       "topic": "Macroeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2017_may_tz1_hl_p1_q3_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2017_may_tz1_hl_p1_q3_ms1.png",
+        "images/2017_may_tz1_hl_p1_q3_ms2.png",
+        "images/2017_may_tz1_hl_p1_q3_ms3.png",
+        "images/2017_may_tz1_hl_p1_q3_ms4.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1__TZ1_HL.pdf",
         "markscheme_file": "Economics_paper_1__TZ1_HL_markscheme.pdf"
@@ -9781,8 +10923,15 @@
       "marks": 25,
       "topic": "Macroeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2017_may_tz1_hl_p1_q4_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2017_may_tz1_hl_p1_q4_ms1.png",
+        "images/2017_may_tz1_hl_p1_q4_ms2.png",
+        "images/2017_may_tz1_hl_p1_q4_ms3.png",
+        "images/2017_may_tz1_hl_p1_q4_ms4.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1__TZ1_HL.pdf",
         "markscheme_file": "Economics_paper_1__TZ1_HL_markscheme.pdf"
@@ -9803,8 +10952,14 @@
       "marks": 25,
       "topic": "Microeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2017_may_tz2_hl_p1_q1_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2017_may_tz2_hl_p1_q1_ms1.png",
+        "images/2017_may_tz2_hl_p1_q1_ms2.png",
+        "images/2017_may_tz2_hl_p1_q1_ms3.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1__TZ2_HL.pdf",
         "markscheme_file": "Economics_paper_1__TZ2_HL_markscheme.pdf"
@@ -9825,8 +10980,15 @@
       "marks": 25,
       "topic": "Microeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2017_may_tz2_hl_p1_q2_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2017_may_tz2_hl_p1_q2_ms1.png",
+        "images/2017_may_tz2_hl_p1_q2_ms2.png",
+        "images/2017_may_tz2_hl_p1_q2_ms3.png",
+        "images/2017_may_tz2_hl_p1_q2_ms4.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1__TZ2_HL.pdf",
         "markscheme_file": "Economics_paper_1__TZ2_HL_markscheme.pdf"
@@ -9847,8 +11009,15 @@
       "marks": 25,
       "topic": "Macroeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2017_may_tz2_hl_p1_q3_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2017_may_tz2_hl_p1_q3_ms1.png",
+        "images/2017_may_tz2_hl_p1_q3_ms2.png",
+        "images/2017_may_tz2_hl_p1_q3_ms3.png",
+        "images/2017_may_tz2_hl_p1_q3_ms4.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1__TZ2_HL.pdf",
         "markscheme_file": "Economics_paper_1__TZ2_HL_markscheme.pdf"
@@ -9869,8 +11038,15 @@
       "marks": 25,
       "topic": "Macroeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2017_may_tz2_hl_p1_q4_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2017_may_tz2_hl_p1_q4_ms1.png",
+        "images/2017_may_tz2_hl_p1_q4_ms2.png",
+        "images/2017_may_tz2_hl_p1_q4_ms3.png",
+        "images/2017_may_tz2_hl_p1_q4_ms4.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1__TZ2_HL.pdf",
         "markscheme_file": "Economics_paper_1__TZ2_HL_markscheme.pdf"
@@ -9891,8 +11067,14 @@
       "marks": 25,
       "topic": "Microeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2017_may_tz1_sl_p1_q1_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2017_may_tz1_sl_p1_q1_ms1.png",
+        "images/2017_may_tz1_sl_p1_q1_ms2.png",
+        "images/2017_may_tz1_sl_p1_q1_ms3.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1__TZ1_SL.pdf",
         "markscheme_file": "Economics_paper_1__TZ1_SL_markscheme.pdf"
@@ -9913,8 +11095,15 @@
       "marks": 25,
       "topic": "Microeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2017_may_tz1_sl_p1_q2_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2017_may_tz1_sl_p1_q2_ms1.png",
+        "images/2017_may_tz1_sl_p1_q2_ms2.png",
+        "images/2017_may_tz1_sl_p1_q2_ms3.png",
+        "images/2017_may_tz1_sl_p1_q2_ms4.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1__TZ1_SL.pdf",
         "markscheme_file": "Economics_paper_1__TZ1_SL_markscheme.pdf"
@@ -9935,8 +11124,15 @@
       "marks": 25,
       "topic": "Macroeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2017_may_tz1_sl_p1_q3_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2017_may_tz1_sl_p1_q3_ms1.png",
+        "images/2017_may_tz1_sl_p1_q3_ms2.png",
+        "images/2017_may_tz1_sl_p1_q3_ms3.png",
+        "images/2017_may_tz1_sl_p1_q3_ms4.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1__TZ1_SL.pdf",
         "markscheme_file": "Economics_paper_1__TZ1_SL_markscheme.pdf"
@@ -9957,8 +11153,15 @@
       "marks": 25,
       "topic": "Macroeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2017_may_tz1_sl_p1_q4_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2017_may_tz1_sl_p1_q4_ms1.png",
+        "images/2017_may_tz1_sl_p1_q4_ms2.png",
+        "images/2017_may_tz1_sl_p1_q4_ms3.png",
+        "images/2017_may_tz1_sl_p1_q4_ms4.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1__TZ1_SL.pdf",
         "markscheme_file": "Economics_paper_1__TZ1_SL_markscheme.pdf"
@@ -9979,8 +11182,14 @@
       "marks": 25,
       "topic": "Microeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2017_may_tz2_sl_p1_q1_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2017_may_tz2_sl_p1_q1_ms1.png",
+        "images/2017_may_tz2_sl_p1_q1_ms2.png",
+        "images/2017_may_tz2_sl_p1_q1_ms3.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1__TZ2_SL.pdf",
         "markscheme_file": "Economics_paper_1__TZ2_SL_markscheme.pdf"
@@ -10001,8 +11210,15 @@
       "marks": 25,
       "topic": "Microeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2017_may_tz2_sl_p1_q2_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2017_may_tz2_sl_p1_q2_ms1.png",
+        "images/2017_may_tz2_sl_p1_q2_ms2.png",
+        "images/2017_may_tz2_sl_p1_q2_ms3.png",
+        "images/2017_may_tz2_sl_p1_q2_ms4.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1__TZ2_SL.pdf",
         "markscheme_file": "Economics_paper_1__TZ2_SL_markscheme.pdf"
@@ -10023,8 +11239,15 @@
       "marks": 25,
       "topic": "Macroeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2017_may_tz2_sl_p1_q3_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2017_may_tz2_sl_p1_q3_ms1.png",
+        "images/2017_may_tz2_sl_p1_q3_ms2.png",
+        "images/2017_may_tz2_sl_p1_q3_ms3.png",
+        "images/2017_may_tz2_sl_p1_q3_ms4.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1__TZ2_SL.pdf",
         "markscheme_file": "Economics_paper_1__TZ2_SL_markscheme.pdf"
@@ -10045,8 +11268,15 @@
       "marks": 25,
       "topic": "Macroeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2017_may_tz2_sl_p1_q4_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2017_may_tz2_sl_p1_q4_ms1.png",
+        "images/2017_may_tz2_sl_p1_q4_ms2.png",
+        "images/2017_may_tz2_sl_p1_q4_ms3.png",
+        "images/2017_may_tz2_sl_p1_q4_ms4.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1__TZ2_SL.pdf",
         "markscheme_file": "Economics_paper_1__TZ2_SL_markscheme.pdf"
@@ -10415,8 +11645,14 @@
       "marks": 25,
       "topic": "Microeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2017_nov_notz_hl_p1_q1_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2017_nov_notz_hl_p1_q1_ms1.png",
+        "images/2017_nov_notz_hl_p1_q1_ms2.png",
+        "images/2017_nov_notz_hl_p1_q1_ms3.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1__HL.pdf",
         "markscheme_file": "Economics_paper_1__HL_markscheme.pdf"
@@ -10437,8 +11673,15 @@
       "marks": 25,
       "topic": "Microeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2017_nov_notz_hl_p1_q2_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2017_nov_notz_hl_p1_q2_ms1.png",
+        "images/2017_nov_notz_hl_p1_q2_ms2.png",
+        "images/2017_nov_notz_hl_p1_q2_ms3.png",
+        "images/2017_nov_notz_hl_p1_q2_ms4.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1__HL.pdf",
         "markscheme_file": "Economics_paper_1__HL_markscheme.pdf"
@@ -10459,8 +11702,15 @@
       "marks": 25,
       "topic": "Macroeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2017_nov_notz_hl_p1_q3_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2017_nov_notz_hl_p1_q3_ms1.png",
+        "images/2017_nov_notz_hl_p1_q3_ms2.png",
+        "images/2017_nov_notz_hl_p1_q3_ms3.png",
+        "images/2017_nov_notz_hl_p1_q3_ms4.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1__HL.pdf",
         "markscheme_file": "Economics_paper_1__HL_markscheme.pdf"
@@ -10481,8 +11731,15 @@
       "marks": 25,
       "topic": "Macroeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2017_nov_notz_hl_p1_q4_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2017_nov_notz_hl_p1_q4_ms1.png",
+        "images/2017_nov_notz_hl_p1_q4_ms2.png",
+        "images/2017_nov_notz_hl_p1_q4_ms3.png",
+        "images/2017_nov_notz_hl_p1_q4_ms4.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1__HL.pdf",
         "markscheme_file": "Economics_paper_1__HL_markscheme.pdf"
@@ -10503,8 +11760,14 @@
       "marks": 25,
       "topic": "Microeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2017_nov_notz_sl_p1_q1_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2017_nov_notz_sl_p1_q1_ms1.png",
+        "images/2017_nov_notz_sl_p1_q1_ms2.png",
+        "images/2017_nov_notz_sl_p1_q1_ms3.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1__SL.pdf",
         "markscheme_file": "Economics_paper_1__SL_markscheme.pdf"
@@ -10525,8 +11788,15 @@
       "marks": 25,
       "topic": "Microeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2017_nov_notz_sl_p1_q2_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2017_nov_notz_sl_p1_q2_ms1.png",
+        "images/2017_nov_notz_sl_p1_q2_ms2.png",
+        "images/2017_nov_notz_sl_p1_q2_ms3.png",
+        "images/2017_nov_notz_sl_p1_q2_ms4.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1__SL.pdf",
         "markscheme_file": "Economics_paper_1__SL_markscheme.pdf"
@@ -10547,8 +11817,15 @@
       "marks": 25,
       "topic": "Macroeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2017_nov_notz_sl_p1_q3_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2017_nov_notz_sl_p1_q3_ms1.png",
+        "images/2017_nov_notz_sl_p1_q3_ms2.png",
+        "images/2017_nov_notz_sl_p1_q3_ms3.png",
+        "images/2017_nov_notz_sl_p1_q3_ms4.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1__SL.pdf",
         "markscheme_file": "Economics_paper_1__SL_markscheme.pdf"
@@ -10569,8 +11846,15 @@
       "marks": 25,
       "topic": "Macroeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2017_nov_notz_sl_p1_q4_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2017_nov_notz_sl_p1_q4_ms1.png",
+        "images/2017_nov_notz_sl_p1_q4_ms2.png",
+        "images/2017_nov_notz_sl_p1_q4_ms3.png",
+        "images/2017_nov_notz_sl_p1_q4_ms4.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1__SL.pdf",
         "markscheme_file": "Economics_paper_1__SL_markscheme.pdf"
@@ -10830,8 +12114,14 @@
       "marks": 25,
       "topic": "Microeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2018_may_tz1_hl_p1_q1_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2018_may_tz1_hl_p1_q1_ms1.png",
+        "images/2018_may_tz1_hl_p1_q1_ms2.png",
+        "images/2018_may_tz1_hl_p1_q1_ms3.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1__TZ1_HL.pdf",
         "markscheme_file": "Economics_paper_1__TZ1_HL_markscheme.pdf"
@@ -10852,8 +12142,14 @@
       "marks": 25,
       "topic": "Microeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2018_may_tz1_hl_p1_q2_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2018_may_tz1_hl_p1_q2_ms1.png",
+        "images/2018_may_tz1_hl_p1_q2_ms2.png",
+        "images/2018_may_tz1_hl_p1_q2_ms3.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1__TZ1_HL.pdf",
         "markscheme_file": "Economics_paper_1__TZ1_HL_markscheme.pdf"
@@ -10874,8 +12170,14 @@
       "marks": 25,
       "topic": "Macroeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2018_may_tz1_hl_p1_q3_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2018_may_tz1_hl_p1_q3_ms1.png",
+        "images/2018_may_tz1_hl_p1_q3_ms2.png",
+        "images/2018_may_tz1_hl_p1_q3_ms3.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1__TZ1_HL.pdf",
         "markscheme_file": "Economics_paper_1__TZ1_HL_markscheme.pdf"
@@ -10896,8 +12198,14 @@
       "marks": 25,
       "topic": "Macroeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2018_may_tz1_hl_p1_q4_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2018_may_tz1_hl_p1_q4_ms1.png",
+        "images/2018_may_tz1_hl_p1_q4_ms2.png",
+        "images/2018_may_tz1_hl_p1_q4_ms3.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1__TZ1_HL.pdf",
         "markscheme_file": "Economics_paper_1__TZ1_HL_markscheme.pdf"
@@ -10918,8 +12226,14 @@
       "marks": 25,
       "topic": "Microeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2018_may_tz2_hl_p1_q1_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2018_may_tz2_hl_p1_q1_ms1.png",
+        "images/2018_may_tz2_hl_p1_q1_ms2.png",
+        "images/2018_may_tz2_hl_p1_q1_ms3.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1__TZ2_HL.pdf",
         "markscheme_file": "Economics_paper_1__TZ2_HL_markscheme.pdf"
@@ -10940,8 +12254,14 @@
       "marks": 25,
       "topic": "Microeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2018_may_tz2_hl_p1_q2_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2018_may_tz2_hl_p1_q2_ms1.png",
+        "images/2018_may_tz2_hl_p1_q2_ms2.png",
+        "images/2018_may_tz2_hl_p1_q2_ms3.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1__TZ2_HL.pdf",
         "markscheme_file": "Economics_paper_1__TZ2_HL_markscheme.pdf"
@@ -10962,8 +12282,14 @@
       "marks": 25,
       "topic": "Macroeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2018_may_tz2_hl_p1_q3_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2018_may_tz2_hl_p1_q3_ms1.png",
+        "images/2018_may_tz2_hl_p1_q3_ms2.png",
+        "images/2018_may_tz2_hl_p1_q3_ms3.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1__TZ2_HL.pdf",
         "markscheme_file": "Economics_paper_1__TZ2_HL_markscheme.pdf"
@@ -10984,8 +12310,14 @@
       "marks": 25,
       "topic": "Macroeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2018_may_tz2_hl_p1_q4_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2018_may_tz2_hl_p1_q4_ms1.png",
+        "images/2018_may_tz2_hl_p1_q4_ms2.png",
+        "images/2018_may_tz2_hl_p1_q4_ms3.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1__TZ2_HL.pdf",
         "markscheme_file": "Economics_paper_1__TZ2_HL_markscheme.pdf"
@@ -11006,8 +12338,14 @@
       "marks": 25,
       "topic": "Microeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2018_may_tz1_sl_p1_q1_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2018_may_tz1_sl_p1_q1_ms1.png",
+        "images/2018_may_tz1_sl_p1_q1_ms2.png",
+        "images/2018_may_tz1_sl_p1_q1_ms3.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1__TZ1_SL.pdf",
         "markscheme_file": "Economics_paper_1__TZ1_SL_markscheme.pdf"
@@ -11028,8 +12366,14 @@
       "marks": 25,
       "topic": "Microeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2018_may_tz1_sl_p1_q2_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2018_may_tz1_sl_p1_q2_ms1.png",
+        "images/2018_may_tz1_sl_p1_q2_ms2.png",
+        "images/2018_may_tz1_sl_p1_q2_ms3.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1__TZ1_SL.pdf",
         "markscheme_file": "Economics_paper_1__TZ1_SL_markscheme.pdf"
@@ -11050,8 +12394,14 @@
       "marks": 25,
       "topic": "Macroeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2018_may_tz1_sl_p1_q3_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2018_may_tz1_sl_p1_q3_ms1.png",
+        "images/2018_may_tz1_sl_p1_q3_ms2.png",
+        "images/2018_may_tz1_sl_p1_q3_ms3.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1__TZ1_SL.pdf",
         "markscheme_file": "Economics_paper_1__TZ1_SL_markscheme.pdf"
@@ -11072,8 +12422,14 @@
       "marks": 25,
       "topic": "Macroeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2018_may_tz1_sl_p1_q4_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2018_may_tz1_sl_p1_q4_ms1.png",
+        "images/2018_may_tz1_sl_p1_q4_ms2.png",
+        "images/2018_may_tz1_sl_p1_q4_ms3.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1__TZ1_SL.pdf",
         "markscheme_file": "Economics_paper_1__TZ1_SL_markscheme.pdf"
@@ -11094,8 +12450,14 @@
       "marks": 25,
       "topic": "Microeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2018_may_tz2_sl_p1_q1_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2018_may_tz2_sl_p1_q1_ms1.png",
+        "images/2018_may_tz2_sl_p1_q1_ms2.png",
+        "images/2018_may_tz2_sl_p1_q1_ms3.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1__TZ2_SL.pdf",
         "markscheme_file": "Economics_paper_1__TZ2_SL_markscheme.pdf"
@@ -11116,8 +12478,14 @@
       "marks": 25,
       "topic": "Microeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2018_may_tz2_sl_p1_q2_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2018_may_tz2_sl_p1_q2_ms1.png",
+        "images/2018_may_tz2_sl_p1_q2_ms2.png",
+        "images/2018_may_tz2_sl_p1_q2_ms3.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1__TZ2_SL.pdf",
         "markscheme_file": "Economics_paper_1__TZ2_SL_markscheme.pdf"
@@ -11138,8 +12506,14 @@
       "marks": 25,
       "topic": "Macroeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2018_may_tz2_sl_p1_q3_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2018_may_tz2_sl_p1_q3_ms1.png",
+        "images/2018_may_tz2_sl_p1_q3_ms2.png",
+        "images/2018_may_tz2_sl_p1_q3_ms3.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1__TZ2_SL.pdf",
         "markscheme_file": "Economics_paper_1__TZ2_SL_markscheme.pdf"
@@ -11160,8 +12534,14 @@
       "marks": 25,
       "topic": "Macroeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2018_may_tz2_sl_p1_q4_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2018_may_tz2_sl_p1_q4_ms1.png",
+        "images/2018_may_tz2_sl_p1_q4_ms2.png",
+        "images/2018_may_tz2_sl_p1_q4_ms3.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1__TZ2_SL.pdf",
         "markscheme_file": "Economics_paper_1__TZ2_SL_markscheme.pdf"
@@ -11289,8 +12669,13 @@
       "marks": 25,
       "topic": "Microeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2018_nov_notz_hl_p1_q1_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2018_nov_notz_hl_p1_q1_ms1.png",
+        "images/2018_nov_notz_hl_p1_q1_ms2.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1__HL.pdf",
         "markscheme_file": "Economics_paper_1__HL_markscheme.pdf"
@@ -11311,8 +12696,14 @@
       "marks": 25,
       "topic": "Microeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2018_nov_notz_hl_p1_q2_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2018_nov_notz_hl_p1_q2_ms1.png",
+        "images/2018_nov_notz_hl_p1_q2_ms2.png",
+        "images/2018_nov_notz_hl_p1_q2_ms3.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1__HL.pdf",
         "markscheme_file": "Economics_paper_1__HL_markscheme.pdf"
@@ -11333,8 +12724,13 @@
       "marks": 25,
       "topic": "Macroeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2018_nov_notz_hl_p1_q3_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2018_nov_notz_hl_p1_q3_ms1.png",
+        "images/2018_nov_notz_hl_p1_q3_ms2.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1__HL.pdf",
         "markscheme_file": "Economics_paper_1__HL_markscheme.pdf"
@@ -11355,8 +12751,14 @@
       "marks": 25,
       "topic": "Macroeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2018_nov_notz_hl_p1_q4_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2018_nov_notz_hl_p1_q4_ms1.png",
+        "images/2018_nov_notz_hl_p1_q4_ms2.png",
+        "images/2018_nov_notz_hl_p1_q4_ms3.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1__HL.pdf",
         "markscheme_file": "Economics_paper_1__HL_markscheme.pdf"
@@ -11377,8 +12779,13 @@
       "marks": 25,
       "topic": "Microeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2018_nov_notz_sl_p1_q1_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2018_nov_notz_sl_p1_q1_ms1.png",
+        "images/2018_nov_notz_sl_p1_q1_ms2.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1__SL.pdf",
         "markscheme_file": "Economics_paper_1__SL_markscheme.pdf"
@@ -11399,8 +12806,13 @@
       "marks": 25,
       "topic": "Microeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2018_nov_notz_sl_p1_q2_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2018_nov_notz_sl_p1_q2_ms1.png",
+        "images/2018_nov_notz_sl_p1_q2_ms2.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1__SL.pdf",
         "markscheme_file": "Economics_paper_1__SL_markscheme.pdf"
@@ -11421,8 +12833,13 @@
       "marks": 25,
       "topic": "Macroeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2018_nov_notz_sl_p1_q3_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2018_nov_notz_sl_p1_q3_ms1.png",
+        "images/2018_nov_notz_sl_p1_q3_ms2.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1__SL.pdf",
         "markscheme_file": "Economics_paper_1__SL_markscheme.pdf"
@@ -11443,8 +12860,14 @@
       "marks": 25,
       "topic": "Macroeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2018_nov_notz_sl_p1_q4_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2018_nov_notz_sl_p1_q4_ms1.png",
+        "images/2018_nov_notz_sl_p1_q4_ms2.png",
+        "images/2018_nov_notz_sl_p1_q4_ms3.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1__SL.pdf",
         "markscheme_file": "Economics_paper_1__SL_markscheme.pdf"
@@ -11818,8 +13241,13 @@
       "marks": 25,
       "topic": "Microeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2019_may_tz1_hl_p1_q1_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2019_may_tz1_hl_p1_q1_ms1.png",
+        "images/2019_may_tz1_hl_p1_q1_ms2.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1__TZ1_HL.pdf",
         "markscheme_file": "Economics_paper_1__TZ1_HL_markscheme.pdf"
@@ -11840,8 +13268,14 @@
       "marks": 25,
       "topic": "Microeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2019_may_tz1_hl_p1_q2_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2019_may_tz1_hl_p1_q2_ms1.png",
+        "images/2019_may_tz1_hl_p1_q2_ms2.png",
+        "images/2019_may_tz1_hl_p1_q2_ms3.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1__TZ1_HL.pdf",
         "markscheme_file": "Economics_paper_1__TZ1_HL_markscheme.pdf"
@@ -11862,8 +13296,14 @@
       "marks": 25,
       "topic": "Macroeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2019_may_tz1_hl_p1_q3_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2019_may_tz1_hl_p1_q3_ms1.png",
+        "images/2019_may_tz1_hl_p1_q3_ms2.png",
+        "images/2019_may_tz1_hl_p1_q3_ms3.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1__TZ1_HL.pdf",
         "markscheme_file": "Economics_paper_1__TZ1_HL_markscheme.pdf"
@@ -11884,8 +13324,14 @@
       "marks": 25,
       "topic": "Macroeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2019_may_tz1_hl_p1_q4_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2019_may_tz1_hl_p1_q4_ms1.png",
+        "images/2019_may_tz1_hl_p1_q4_ms2.png",
+        "images/2019_may_tz1_hl_p1_q4_ms3.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1__TZ1_HL.pdf",
         "markscheme_file": "Economics_paper_1__TZ1_HL_markscheme.pdf"
@@ -11906,8 +13352,13 @@
       "marks": 25,
       "topic": "Microeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2019_may_tz2_hl_p1_q1_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2019_may_tz2_hl_p1_q1_ms1.png",
+        "images/2019_may_tz2_hl_p1_q1_ms2.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1__TZ2_HL.pdf",
         "markscheme_file": "Economics_paper_1__TZ2_HL_markscheme.pdf"
@@ -11928,8 +13379,13 @@
       "marks": 25,
       "topic": "Microeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2019_may_tz2_hl_p1_q2_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2019_may_tz2_hl_p1_q2_ms1.png",
+        "images/2019_may_tz2_hl_p1_q2_ms2.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1__TZ2_HL.pdf",
         "markscheme_file": "Economics_paper_1__TZ2_HL_markscheme.pdf"
@@ -11950,8 +13406,13 @@
       "marks": 25,
       "topic": "Macroeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2019_may_tz2_hl_p1_q3_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2019_may_tz2_hl_p1_q3_ms1.png",
+        "images/2019_may_tz2_hl_p1_q3_ms2.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1__TZ2_HL.pdf",
         "markscheme_file": "Economics_paper_1__TZ2_HL_markscheme.pdf"
@@ -11972,8 +13433,13 @@
       "marks": 25,
       "topic": "Macroeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2019_may_tz2_hl_p1_q4_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2019_may_tz2_hl_p1_q4_ms1.png",
+        "images/2019_may_tz2_hl_p1_q4_ms2.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1__TZ2_HL.pdf",
         "markscheme_file": "Economics_paper_1__TZ2_HL_markscheme.pdf"
@@ -11994,8 +13460,13 @@
       "marks": 25,
       "topic": "Microeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2019_may_tz1_sl_p1_q1_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2019_may_tz1_sl_p1_q1_ms1.png",
+        "images/2019_may_tz1_sl_p1_q1_ms2.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1__TZ1_SL.pdf",
         "markscheme_file": "Economics_paper_1__TZ1_SL_markscheme.pdf"
@@ -12016,8 +13487,13 @@
       "marks": 25,
       "topic": "Microeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2019_may_tz1_sl_p1_q2_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2019_may_tz1_sl_p1_q2_ms1.png",
+        "images/2019_may_tz1_sl_p1_q2_ms2.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1__TZ1_SL.pdf",
         "markscheme_file": "Economics_paper_1__TZ1_SL_markscheme.pdf"
@@ -12038,8 +13514,13 @@
       "marks": 25,
       "topic": "Macroeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2019_may_tz1_sl_p1_q3_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2019_may_tz1_sl_p1_q3_ms1.png",
+        "images/2019_may_tz1_sl_p1_q3_ms2.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1__TZ1_SL.pdf",
         "markscheme_file": "Economics_paper_1__TZ1_SL_markscheme.pdf"
@@ -12060,8 +13541,14 @@
       "marks": 25,
       "topic": "Macroeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2019_may_tz1_sl_p1_q4_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2019_may_tz1_sl_p1_q4_ms1.png",
+        "images/2019_may_tz1_sl_p1_q4_ms2.png",
+        "images/2019_may_tz1_sl_p1_q4_ms3.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1__TZ1_SL.pdf",
         "markscheme_file": "Economics_paper_1__TZ1_SL_markscheme.pdf"
@@ -12082,8 +13569,13 @@
       "marks": 25,
       "topic": "Microeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2019_may_tz2_sl_p1_q1_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2019_may_tz2_sl_p1_q1_ms1.png",
+        "images/2019_may_tz2_sl_p1_q1_ms2.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1__TZ2_SL.pdf",
         "markscheme_file": "Economics_paper_1__TZ2_SL_markscheme.pdf"
@@ -12104,8 +13596,13 @@
       "marks": 25,
       "topic": "Microeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2019_may_tz2_sl_p1_q2_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2019_may_tz2_sl_p1_q2_ms1.png",
+        "images/2019_may_tz2_sl_p1_q2_ms2.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1__TZ2_SL.pdf",
         "markscheme_file": "Economics_paper_1__TZ2_SL_markscheme.pdf"
@@ -12126,8 +13623,13 @@
       "marks": 25,
       "topic": "Macroeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2019_may_tz2_sl_p1_q3_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2019_may_tz2_sl_p1_q3_ms1.png",
+        "images/2019_may_tz2_sl_p1_q3_ms2.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1__TZ2_SL.pdf",
         "markscheme_file": "Economics_paper_1__TZ2_SL_markscheme.pdf"
@@ -12148,8 +13650,13 @@
       "marks": 25,
       "topic": "Macroeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2019_may_tz2_sl_p1_q4_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2019_may_tz2_sl_p1_q4_ms1.png",
+        "images/2019_may_tz2_sl_p1_q4_ms2.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1__TZ2_SL.pdf",
         "markscheme_file": "Economics_paper_1__TZ2_SL_markscheme.pdf"
@@ -12526,8 +14033,14 @@
       "marks": 25,
       "topic": "Microeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2019_nov_notz_hl_p1_q1_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2019_nov_notz_hl_p1_q1_ms1.png",
+        "images/2019_nov_notz_hl_p1_q1_ms2.png",
+        "images/2019_nov_notz_hl_p1_q1_ms3.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1__HL.pdf",
         "markscheme_file": "Economics_paper_1__HL_markscheme.pdf"
@@ -12548,8 +14061,14 @@
       "marks": 25,
       "topic": "Microeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2019_nov_notz_hl_p1_q2_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2019_nov_notz_hl_p1_q2_ms1.png",
+        "images/2019_nov_notz_hl_p1_q2_ms2.png",
+        "images/2019_nov_notz_hl_p1_q2_ms3.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1__HL.pdf",
         "markscheme_file": "Economics_paper_1__HL_markscheme.pdf"
@@ -12570,8 +14089,14 @@
       "marks": 25,
       "topic": "Macroeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2019_nov_notz_hl_p1_q3_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2019_nov_notz_hl_p1_q3_ms1.png",
+        "images/2019_nov_notz_hl_p1_q3_ms2.png",
+        "images/2019_nov_notz_hl_p1_q3_ms3.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1__HL.pdf",
         "markscheme_file": "Economics_paper_1__HL_markscheme.pdf"
@@ -12592,8 +14117,14 @@
       "marks": 25,
       "topic": "Macroeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2019_nov_notz_hl_p1_q4_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2019_nov_notz_hl_p1_q4_ms1.png",
+        "images/2019_nov_notz_hl_p1_q4_ms2.png",
+        "images/2019_nov_notz_hl_p1_q4_ms3.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1__HL.pdf",
         "markscheme_file": "Economics_paper_1__HL_markscheme.pdf"
@@ -12614,8 +14145,13 @@
       "marks": 25,
       "topic": "Microeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2019_nov_notz_sl_p1_q1_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2019_nov_notz_sl_p1_q1_ms1.png",
+        "images/2019_nov_notz_sl_p1_q1_ms2.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1__SL.pdf",
         "markscheme_file": "Economics_paper_1__SL_markscheme.pdf"
@@ -12636,8 +14172,13 @@
       "marks": 25,
       "topic": "Microeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2019_nov_notz_sl_p1_q2_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2019_nov_notz_sl_p1_q2_ms1.png",
+        "images/2019_nov_notz_sl_p1_q2_ms2.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1__SL.pdf",
         "markscheme_file": "Economics_paper_1__SL_markscheme.pdf"
@@ -12658,8 +14199,13 @@
       "marks": 25,
       "topic": "Macroeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2019_nov_notz_sl_p1_q3_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2019_nov_notz_sl_p1_q3_ms1.png",
+        "images/2019_nov_notz_sl_p1_q3_ms2.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1__SL.pdf",
         "markscheme_file": "Economics_paper_1__SL_markscheme.pdf"
@@ -12680,8 +14226,13 @@
       "marks": 25,
       "topic": "Macroeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2019_nov_notz_sl_p1_q4_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2019_nov_notz_sl_p1_q4_ms1.png",
+        "images/2019_nov_notz_sl_p1_q4_ms2.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1__SL.pdf",
         "markscheme_file": "Economics_paper_1__SL_markscheme.pdf"
@@ -13064,8 +14615,13 @@
       "marks": 25,
       "topic": "Microeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2020_nov_notz_hl_p1_q1_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2020_nov_notz_hl_p1_q1_ms1.png",
+        "images/2020_nov_notz_hl_p1_q1_ms2.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1__HL.pdf",
         "markscheme_file": "Economics_paper_1__HL_markscheme.pdf"
@@ -13086,8 +14642,13 @@
       "marks": 25,
       "topic": "Microeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2020_nov_notz_hl_p1_q2_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2020_nov_notz_hl_p1_q2_ms1.png",
+        "images/2020_nov_notz_hl_p1_q2_ms2.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1__HL.pdf",
         "markscheme_file": "Economics_paper_1__HL_markscheme.pdf"
@@ -13108,8 +14669,14 @@
       "marks": 25,
       "topic": "Microeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2020_nov_notz_hl_p1_q3_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2020_nov_notz_hl_p1_q3_ms1.png",
+        "images/2020_nov_notz_hl_p1_q3_ms2.png",
+        "images/2020_nov_notz_hl_p1_q3_ms3.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1__HL.pdf",
         "markscheme_file": "Economics_paper_1__HL_markscheme.pdf"
@@ -13130,8 +14697,14 @@
       "marks": 25,
       "topic": "Microeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2020_nov_notz_hl_p1_q4_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2020_nov_notz_hl_p1_q4_ms1.png",
+        "images/2020_nov_notz_hl_p1_q4_ms2.png",
+        "images/2020_nov_notz_hl_p1_q4_ms3.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1__HL.pdf",
         "markscheme_file": "Economics_paper_1__HL_markscheme.pdf"
@@ -13152,8 +14725,13 @@
       "marks": 25,
       "topic": "Microeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2020_nov_notz_sl_p1_q1_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2020_nov_notz_sl_p1_q1_ms1.png",
+        "images/2020_nov_notz_sl_p1_q1_ms2.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1__SL.pdf",
         "markscheme_file": "Economics_paper_1__SL_markscheme.pdf"
@@ -13174,8 +14752,13 @@
       "marks": 25,
       "topic": "Microeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2020_nov_notz_sl_p1_q2_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2020_nov_notz_sl_p1_q2_ms1.png",
+        "images/2020_nov_notz_sl_p1_q2_ms2.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1__SL.pdf",
         "markscheme_file": "Economics_paper_1__SL_markscheme.pdf"
@@ -13196,8 +14779,13 @@
       "marks": 25,
       "topic": "Microeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2020_nov_notz_sl_p1_q3_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2020_nov_notz_sl_p1_q3_ms1.png",
+        "images/2020_nov_notz_sl_p1_q3_ms2.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1__SL.pdf",
         "markscheme_file": "Economics_paper_1__SL_markscheme.pdf"
@@ -13218,8 +14806,13 @@
       "marks": 25,
       "topic": "Microeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2020_nov_notz_sl_p1_q4_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2020_nov_notz_sl_p1_q4_ms1.png",
+        "images/2020_nov_notz_sl_p1_q4_ms2.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1__SL.pdf",
         "markscheme_file": "Economics_paper_1__SL_markscheme.pdf"
@@ -13610,8 +15203,14 @@
       "marks": 25,
       "topic": "Microeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2021_may_tz1_hl_p1_q1_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2021_may_tz1_hl_p1_q1_ms1.png",
+        "images/2021_may_tz1_hl_p1_q1_ms2.png",
+        "images/2021_may_tz1_hl_p1_q1_ms3.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1__TZ1_HL.pdf",
         "markscheme_file": "Economics_paper_1__TZ1_HL_markscheme.pdf"
@@ -13632,8 +15231,14 @@
       "marks": 25,
       "topic": "Microeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2021_may_tz1_hl_p1_q2_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2021_may_tz1_hl_p1_q2_ms1.png",
+        "images/2021_may_tz1_hl_p1_q2_ms2.png",
+        "images/2021_may_tz1_hl_p1_q2_ms3.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1__TZ1_HL.pdf",
         "markscheme_file": "Economics_paper_1__TZ1_HL_markscheme.pdf"
@@ -13654,8 +15259,14 @@
       "marks": 25,
       "topic": "Microeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2021_may_tz1_hl_p1_q3_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2021_may_tz1_hl_p1_q3_ms1.png",
+        "images/2021_may_tz1_hl_p1_q3_ms2.png",
+        "images/2021_may_tz1_hl_p1_q3_ms3.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1__TZ1_HL.pdf",
         "markscheme_file": "Economics_paper_1__TZ1_HL_markscheme.pdf"
@@ -13676,8 +15287,14 @@
       "marks": 25,
       "topic": "Microeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2021_may_tz1_hl_p1_q4_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2021_may_tz1_hl_p1_q4_ms1.png",
+        "images/2021_may_tz1_hl_p1_q4_ms2.png",
+        "images/2021_may_tz1_hl_p1_q4_ms3.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1__TZ1_HL.pdf",
         "markscheme_file": "Economics_paper_1__TZ1_HL_markscheme.pdf"
@@ -13698,8 +15315,14 @@
       "marks": 25,
       "topic": "Microeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2021_may_tz2_hl_p1_q1_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2021_may_tz2_hl_p1_q1_ms1.png",
+        "images/2021_may_tz2_hl_p1_q1_ms2.png",
+        "images/2021_may_tz2_hl_p1_q1_ms3.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1__TZ2_HL.pdf",
         "markscheme_file": "Economics_paper_1__TZ2_HL_markscheme.pdf"
@@ -13720,8 +15343,14 @@
       "marks": 25,
       "topic": "Microeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2021_may_tz2_hl_p1_q2_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2021_may_tz2_hl_p1_q2_ms1.png",
+        "images/2021_may_tz2_hl_p1_q2_ms2.png",
+        "images/2021_may_tz2_hl_p1_q2_ms3.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1__TZ2_HL.pdf",
         "markscheme_file": "Economics_paper_1__TZ2_HL_markscheme.pdf"
@@ -13742,8 +15371,14 @@
       "marks": 25,
       "topic": "Microeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2021_may_tz2_hl_p1_q3_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2021_may_tz2_hl_p1_q3_ms1.png",
+        "images/2021_may_tz2_hl_p1_q3_ms2.png",
+        "images/2021_may_tz2_hl_p1_q3_ms3.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1__TZ2_HL.pdf",
         "markscheme_file": "Economics_paper_1__TZ2_HL_markscheme.pdf"
@@ -13764,8 +15399,14 @@
       "marks": 25,
       "topic": "Microeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2021_may_tz2_hl_p1_q4_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2021_may_tz2_hl_p1_q4_ms1.png",
+        "images/2021_may_tz2_hl_p1_q4_ms2.png",
+        "images/2021_may_tz2_hl_p1_q4_ms3.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1__TZ2_HL.pdf",
         "markscheme_file": "Economics_paper_1__TZ2_HL_markscheme.pdf"
@@ -13786,8 +15427,14 @@
       "marks": 25,
       "topic": "Microeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2021_may_tz1_sl_p1_q1_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2021_may_tz1_sl_p1_q1_ms1.png",
+        "images/2021_may_tz1_sl_p1_q1_ms2.png",
+        "images/2021_may_tz1_sl_p1_q1_ms3.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1__TZ1_SL.pdf",
         "markscheme_file": "Economics_paper_1__TZ1_SL_markscheme.pdf"
@@ -13808,8 +15455,13 @@
       "marks": 25,
       "topic": "Microeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2021_may_tz1_sl_p1_q2_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2021_may_tz1_sl_p1_q2_ms1.png",
+        "images/2021_may_tz1_sl_p1_q2_ms2.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1__TZ1_SL.pdf",
         "markscheme_file": "Economics_paper_1__TZ1_SL_markscheme.pdf"
@@ -13830,8 +15482,13 @@
       "marks": 25,
       "topic": "Microeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2021_may_tz1_sl_p1_q3_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2021_may_tz1_sl_p1_q3_ms1.png",
+        "images/2021_may_tz1_sl_p1_q3_ms2.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1__TZ1_SL.pdf",
         "markscheme_file": "Economics_paper_1__TZ1_SL_markscheme.pdf"
@@ -13852,8 +15509,13 @@
       "marks": 25,
       "topic": "Microeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2021_may_tz1_sl_p1_q4_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2021_may_tz1_sl_p1_q4_ms1.png",
+        "images/2021_may_tz1_sl_p1_q4_ms2.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1__TZ1_SL.pdf",
         "markscheme_file": "Economics_paper_1__TZ1_SL_markscheme.pdf"
@@ -13874,8 +15536,13 @@
       "marks": 25,
       "topic": "Microeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2021_may_tz2_sl_p1_q1_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2021_may_tz2_sl_p1_q1_ms1.png",
+        "images/2021_may_tz2_sl_p1_q1_ms2.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1__TZ2_SL.pdf",
         "markscheme_file": "Economics_paper_1__TZ2_SL_markscheme.pdf"
@@ -13896,8 +15563,13 @@
       "marks": 25,
       "topic": "Microeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2021_may_tz2_sl_p1_q2_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2021_may_tz2_sl_p1_q2_ms1.png",
+        "images/2021_may_tz2_sl_p1_q2_ms2.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1__TZ2_SL.pdf",
         "markscheme_file": "Economics_paper_1__TZ2_SL_markscheme.pdf"
@@ -13918,8 +15590,14 @@
       "marks": 25,
       "topic": "Microeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2021_may_tz2_sl_p1_q3_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2021_may_tz2_sl_p1_q3_ms1.png",
+        "images/2021_may_tz2_sl_p1_q3_ms2.png",
+        "images/2021_may_tz2_sl_p1_q3_ms3.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1__TZ2_SL.pdf",
         "markscheme_file": "Economics_paper_1__TZ2_SL_markscheme.pdf"
@@ -13940,8 +15618,13 @@
       "marks": 25,
       "topic": "Microeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2021_may_tz2_sl_p1_q4_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2021_may_tz2_sl_p1_q4_ms1.png",
+        "images/2021_may_tz2_sl_p1_q4_ms2.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1__TZ2_SL.pdf",
         "markscheme_file": "Economics_paper_1__TZ2_SL_markscheme.pdf"
@@ -14324,8 +16007,13 @@
       "marks": 25,
       "topic": "Microeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2021_nov_notz_hl_p1_q1_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2021_nov_notz_hl_p1_q1_ms1.png",
+        "images/2021_nov_notz_hl_p1_q1_ms2.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1__HL.pdf",
         "markscheme_file": "Economics_paper_1__HL_markscheme.pdf"
@@ -14346,8 +16034,13 @@
       "marks": 25,
       "topic": "Microeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2021_nov_notz_hl_p1_q2_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2021_nov_notz_hl_p1_q2_ms1.png",
+        "images/2021_nov_notz_hl_p1_q2_ms2.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1__HL.pdf",
         "markscheme_file": "Economics_paper_1__HL_markscheme.pdf"
@@ -14368,8 +16061,13 @@
       "marks": 25,
       "topic": "Microeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2021_nov_notz_hl_p1_q3_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2021_nov_notz_hl_p1_q3_ms1.png",
+        "images/2021_nov_notz_hl_p1_q3_ms2.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1__HL.pdf",
         "markscheme_file": "Economics_paper_1__HL_markscheme.pdf"
@@ -14390,8 +16088,14 @@
       "marks": 25,
       "topic": "Microeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2021_nov_notz_hl_p1_q4_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2021_nov_notz_hl_p1_q4_ms1.png",
+        "images/2021_nov_notz_hl_p1_q4_ms2.png",
+        "images/2021_nov_notz_hl_p1_q4_ms3.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1__HL.pdf",
         "markscheme_file": "Economics_paper_1__HL_markscheme.pdf"
@@ -14412,8 +16116,14 @@
       "marks": 25,
       "topic": "Microeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2021_nov_notz_sl_p1_q1_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2021_nov_notz_sl_p1_q1_ms1.png",
+        "images/2021_nov_notz_sl_p1_q1_ms2.png",
+        "images/2021_nov_notz_sl_p1_q1_ms3.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1__SL.pdf",
         "markscheme_file": "Economics_paper_1__SL_markscheme.pdf"
@@ -14434,8 +16144,13 @@
       "marks": 25,
       "topic": "Microeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2021_nov_notz_sl_p1_q2_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2021_nov_notz_sl_p1_q2_ms1.png",
+        "images/2021_nov_notz_sl_p1_q2_ms2.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1__SL.pdf",
         "markscheme_file": "Economics_paper_1__SL_markscheme.pdf"
@@ -14456,8 +16171,13 @@
       "marks": 25,
       "topic": "Microeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2021_nov_notz_sl_p1_q3_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2021_nov_notz_sl_p1_q3_ms1.png",
+        "images/2021_nov_notz_sl_p1_q3_ms2.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1__SL.pdf",
         "markscheme_file": "Economics_paper_1__SL_markscheme.pdf"
@@ -14478,8 +16198,13 @@
       "marks": 25,
       "topic": "Microeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2021_nov_notz_sl_p1_q4_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2021_nov_notz_sl_p1_q4_ms1.png",
+        "images/2021_nov_notz_sl_p1_q4_ms2.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1__SL.pdf",
         "markscheme_file": "Economics_paper_1__SL_markscheme.pdf"
@@ -14857,8 +16582,14 @@
       "marks": 25,
       "topic": "Macroeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2022_may_notz_hl_p1_q1_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2022_may_notz_hl_p1_q1_ms1.png",
+        "images/2022_may_notz_hl_p1_q1_ms2.png",
+        "images/2022_may_notz_hl_p1_q1_ms3.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1__HL.pdf",
         "markscheme_file": "Economics_paper_1__HL_markscheme.pdf"
@@ -14879,8 +16610,14 @@
       "marks": 25,
       "topic": "Macroeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2022_may_notz_hl_p1_q2_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2022_may_notz_hl_p1_q2_ms1.png",
+        "images/2022_may_notz_hl_p1_q2_ms2.png",
+        "images/2022_may_notz_hl_p1_q2_ms3.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1__HL.pdf",
         "markscheme_file": "Economics_paper_1__HL_markscheme.pdf"
@@ -14901,8 +16638,14 @@
       "marks": 25,
       "topic": null,
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2022_may_notz_hl_p1_q3_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2022_may_notz_hl_p1_q3_ms1.png",
+        "images/2022_may_notz_hl_p1_q3_ms2.png",
+        "images/2022_may_notz_hl_p1_q3_ms3.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1__HL.pdf",
         "markscheme_file": "Economics_paper_1__HL_markscheme.pdf"
@@ -14923,8 +16666,14 @@
       "marks": 25,
       "topic": "Microeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2022_may_notz_sl_p1_q1_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2022_may_notz_sl_p1_q1_ms1.png",
+        "images/2022_may_notz_sl_p1_q1_ms2.png",
+        "images/2022_may_notz_sl_p1_q1_ms3.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1__SL.pdf",
         "markscheme_file": "Economics_paper_1__SL_markscheme.pdf"
@@ -14945,8 +16694,14 @@
       "marks": 25,
       "topic": "Macroeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2022_may_notz_sl_p1_q2_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2022_may_notz_sl_p1_q2_ms1.png",
+        "images/2022_may_notz_sl_p1_q2_ms2.png",
+        "images/2022_may_notz_sl_p1_q2_ms3.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1__SL.pdf",
         "markscheme_file": "Economics_paper_1__SL_markscheme.pdf"
@@ -14967,8 +16722,14 @@
       "marks": 25,
       "topic": "Macroeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2022_may_notz_sl_p1_q3_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2022_may_notz_sl_p1_q3_ms1.png",
+        "images/2022_may_notz_sl_p1_q3_ms2.png",
+        "images/2022_may_notz_sl_p1_q3_ms3.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1__SL.pdf",
         "markscheme_file": "Economics_paper_1__SL_markscheme.pdf"
@@ -15218,8 +16979,14 @@
       "marks": 25,
       "topic": "Macroeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2022_nov_notz_hl_p1_q1_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2022_nov_notz_hl_p1_q1_ms1.png",
+        "images/2022_nov_notz_hl_p1_q1_ms2.png",
+        "images/2022_nov_notz_hl_p1_q1_ms3.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1__HL.pdf",
         "markscheme_file": "Economics_paper_1__HL_markscheme.pdf"
@@ -15240,8 +17007,14 @@
       "marks": 25,
       "topic": "Macroeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2022_nov_notz_hl_p1_q2_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2022_nov_notz_hl_p1_q2_ms1.png",
+        "images/2022_nov_notz_hl_p1_q2_ms2.png",
+        "images/2022_nov_notz_hl_p1_q2_ms3.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1__HL.pdf",
         "markscheme_file": "Economics_paper_1__HL_markscheme.pdf"
@@ -15262,8 +17035,14 @@
       "marks": 25,
       "topic": "International Economics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2022_nov_notz_hl_p1_q3_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2022_nov_notz_hl_p1_q3_ms1.png",
+        "images/2022_nov_notz_hl_p1_q3_ms2.png",
+        "images/2022_nov_notz_hl_p1_q3_ms3.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1__HL.pdf",
         "markscheme_file": "Economics_paper_1__HL_markscheme.pdf"
@@ -15284,8 +17063,14 @@
       "marks": 25,
       "topic": "Microeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2022_nov_notz_sl_p1_q1_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2022_nov_notz_sl_p1_q1_ms1.png",
+        "images/2022_nov_notz_sl_p1_q1_ms2.png",
+        "images/2022_nov_notz_sl_p1_q1_ms3.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1__SL.pdf",
         "markscheme_file": "Economics_paper_1__SL_markscheme.pdf"
@@ -15306,8 +17091,14 @@
       "marks": 25,
       "topic": "Macroeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2022_nov_notz_sl_p1_q2_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2022_nov_notz_sl_p1_q2_ms1.png",
+        "images/2022_nov_notz_sl_p1_q2_ms2.png",
+        "images/2022_nov_notz_sl_p1_q2_ms3.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1__SL.pdf",
         "markscheme_file": "Economics_paper_1__SL_markscheme.pdf"
@@ -15328,8 +17119,14 @@
       "marks": 25,
       "topic": null,
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2022_nov_notz_sl_p1_q3_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2022_nov_notz_sl_p1_q3_ms1.png",
+        "images/2022_nov_notz_sl_p1_q3_ms2.png",
+        "images/2022_nov_notz_sl_p1_q3_ms3.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1__SL.pdf",
         "markscheme_file": "Economics_paper_1__SL_markscheme.pdf"
@@ -15587,8 +17384,14 @@
       "marks": 25,
       "topic": "Microeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2023_may_tz1_hl_p1_q1_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2023_may_tz1_hl_p1_q1_ms1.png",
+        "images/2023_may_tz1_hl_p1_q1_ms2.png",
+        "images/2023_may_tz1_hl_p1_q1_ms3.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1__TZ1_HL.pdf",
         "markscheme_file": "Economics_paper_1__TZ1_HL_markscheme.pdf"
@@ -15609,8 +17412,14 @@
       "marks": 25,
       "topic": "Macroeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2023_may_tz1_hl_p1_q2_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2023_may_tz1_hl_p1_q2_ms1.png",
+        "images/2023_may_tz1_hl_p1_q2_ms2.png",
+        "images/2023_may_tz1_hl_p1_q2_ms3.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1__TZ1_HL.pdf",
         "markscheme_file": "Economics_paper_1__TZ1_HL_markscheme.pdf"
@@ -15631,8 +17440,14 @@
       "marks": 25,
       "topic": "Macroeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2023_may_tz1_hl_p1_q3_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2023_may_tz1_hl_p1_q3_ms1.png",
+        "images/2023_may_tz1_hl_p1_q3_ms2.png",
+        "images/2023_may_tz1_hl_p1_q3_ms3.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1__TZ1_HL.pdf",
         "markscheme_file": "Economics_paper_1__TZ1_HL_markscheme.pdf"
@@ -15653,8 +17468,14 @@
       "marks": 25,
       "topic": null,
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2023_may_tz2_hl_p1_q1_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2023_may_tz2_hl_p1_q1_ms1.png",
+        "images/2023_may_tz2_hl_p1_q1_ms2.png",
+        "images/2023_may_tz2_hl_p1_q1_ms3.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1__TZ2_HL.pdf",
         "markscheme_file": "Economics_paper_1__TZ2_HL_markscheme.pdf"
@@ -15675,8 +17496,14 @@
       "marks": 25,
       "topic": "Macroeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2023_may_tz2_hl_p1_q2_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2023_may_tz2_hl_p1_q2_ms1.png",
+        "images/2023_may_tz2_hl_p1_q2_ms2.png",
+        "images/2023_may_tz2_hl_p1_q2_ms3.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1__TZ2_HL.pdf",
         "markscheme_file": "Economics_paper_1__TZ2_HL_markscheme.pdf"
@@ -15697,8 +17524,14 @@
       "marks": 25,
       "topic": "Development Economics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2023_may_tz2_hl_p1_q3_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2023_may_tz2_hl_p1_q3_ms1.png",
+        "images/2023_may_tz2_hl_p1_q3_ms2.png",
+        "images/2023_may_tz2_hl_p1_q3_ms3.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1__TZ2_HL.pdf",
         "markscheme_file": "Economics_paper_1__TZ2_HL_markscheme.pdf"
@@ -15719,8 +17552,14 @@
       "marks": 25,
       "topic": "Microeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2023_may_tz1_sl_p1_q1_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2023_may_tz1_sl_p1_q1_ms1.png",
+        "images/2023_may_tz1_sl_p1_q1_ms2.png",
+        "images/2023_may_tz1_sl_p1_q1_ms3.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1__TZ1_SL.pdf",
         "markscheme_file": "Economics_paper_1__TZ1_SL_markscheme.pdf"
@@ -15741,8 +17580,14 @@
       "marks": 25,
       "topic": "Macroeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2023_may_tz1_sl_p1_q2_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2023_may_tz1_sl_p1_q2_ms1.png",
+        "images/2023_may_tz1_sl_p1_q2_ms2.png",
+        "images/2023_may_tz1_sl_p1_q2_ms3.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1__TZ1_SL.pdf",
         "markscheme_file": "Economics_paper_1__TZ1_SL_markscheme.pdf"
@@ -15763,8 +17608,14 @@
       "marks": 25,
       "topic": "Development Economics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2023_may_tz1_sl_p1_q3_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2023_may_tz1_sl_p1_q3_ms1.png",
+        "images/2023_may_tz1_sl_p1_q3_ms2.png",
+        "images/2023_may_tz1_sl_p1_q3_ms3.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1__TZ1_SL.pdf",
         "markscheme_file": "Economics_paper_1__TZ1_SL_markscheme.pdf"
@@ -15785,8 +17636,14 @@
       "marks": 25,
       "topic": "Microeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2023_may_tz2_sl_p1_q1_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2023_may_tz2_sl_p1_q1_ms1.png",
+        "images/2023_may_tz2_sl_p1_q1_ms2.png",
+        "images/2023_may_tz2_sl_p1_q1_ms3.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1__TZ2_SL.pdf",
         "markscheme_file": "Economics_paper_1__TZ2_SL_markscheme.pdf"
@@ -15807,8 +17664,14 @@
       "marks": 25,
       "topic": "Development Economics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2023_may_tz2_sl_p1_q2_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2023_may_tz2_sl_p1_q2_ms1.png",
+        "images/2023_may_tz2_sl_p1_q2_ms2.png",
+        "images/2023_may_tz2_sl_p1_q2_ms3.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1__TZ2_SL.pdf",
         "markscheme_file": "Economics_paper_1__TZ2_SL_markscheme.pdf"
@@ -15829,8 +17692,14 @@
       "marks": 25,
       "topic": "Development Economics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2023_may_tz2_sl_p1_q3_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2023_may_tz2_sl_p1_q3_ms1.png",
+        "images/2023_may_tz2_sl_p1_q3_ms2.png",
+        "images/2023_may_tz2_sl_p1_q3_ms3.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1__TZ2_SL.pdf",
         "markscheme_file": "Economics_paper_1__TZ2_SL_markscheme.pdf"
@@ -16078,8 +17947,14 @@
       "marks": 25,
       "topic": "International Economics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2023_nov_tz1_hl_p1_q1_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2023_nov_tz1_hl_p1_q1_ms1.png",
+        "images/2023_nov_tz1_hl_p1_q1_ms2.png",
+        "images/2023_nov_tz1_hl_p1_q1_ms3.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1__TZ1_HL.pdf",
         "markscheme_file": "Economics_paper_1__TZ1_HL_markscheme.pdf"
@@ -16100,8 +17975,14 @@
       "marks": 25,
       "topic": "International Economics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2023_nov_tz1_hl_p1_q2_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2023_nov_tz1_hl_p1_q2_ms1.png",
+        "images/2023_nov_tz1_hl_p1_q2_ms2.png",
+        "images/2023_nov_tz1_hl_p1_q2_ms3.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1__TZ1_HL.pdf",
         "markscheme_file": "Economics_paper_1__TZ1_HL_markscheme.pdf"
@@ -16122,8 +18003,14 @@
       "marks": 25,
       "topic": "International Economics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2023_nov_tz1_hl_p1_q3_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2023_nov_tz1_hl_p1_q3_ms1.png",
+        "images/2023_nov_tz1_hl_p1_q3_ms2.png",
+        "images/2023_nov_tz1_hl_p1_q3_ms3.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1__TZ1_HL.pdf",
         "markscheme_file": "Economics_paper_1__TZ1_HL_markscheme.pdf"
@@ -16144,8 +18031,14 @@
       "marks": 25,
       "topic": "Microeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2023_nov_tz2_hl_p1_q1_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2023_nov_tz2_hl_p1_q1_ms1.png",
+        "images/2023_nov_tz2_hl_p1_q1_ms2.png",
+        "images/2023_nov_tz2_hl_p1_q1_ms3.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1__TZ2_HL.pdf",
         "markscheme_file": "Economics_paper_1__TZ2_HL_markscheme.pdf"
@@ -16166,8 +18059,14 @@
       "marks": 25,
       "topic": "Macroeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2023_nov_tz2_hl_p1_q2_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2023_nov_tz2_hl_p1_q2_ms1.png",
+        "images/2023_nov_tz2_hl_p1_q2_ms2.png",
+        "images/2023_nov_tz2_hl_p1_q2_ms3.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1__TZ2_HL.pdf",
         "markscheme_file": "Economics_paper_1__TZ2_HL_markscheme.pdf"
@@ -16188,8 +18087,14 @@
       "marks": 25,
       "topic": "Macroeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2023_nov_tz2_hl_p1_q3_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2023_nov_tz2_hl_p1_q3_ms1.png",
+        "images/2023_nov_tz2_hl_p1_q3_ms2.png",
+        "images/2023_nov_tz2_hl_p1_q3_ms3.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1__TZ2_HL.pdf",
         "markscheme_file": "Economics_paper_1__TZ2_HL_markscheme.pdf"
@@ -16210,8 +18115,14 @@
       "marks": 25,
       "topic": "Microeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2023_nov_tz1_sl_p1_q1_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2023_nov_tz1_sl_p1_q1_ms1.png",
+        "images/2023_nov_tz1_sl_p1_q1_ms2.png",
+        "images/2023_nov_tz1_sl_p1_q1_ms3.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1__TZ1_SL.pdf",
         "markscheme_file": "Economics_paper_1__TZ1_SL_markscheme.pdf"
@@ -16232,8 +18143,14 @@
       "marks": 25,
       "topic": "Macroeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2023_nov_tz1_sl_p1_q2_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2023_nov_tz1_sl_p1_q2_ms1.png",
+        "images/2023_nov_tz1_sl_p1_q2_ms2.png",
+        "images/2023_nov_tz1_sl_p1_q2_ms3.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1__TZ1_SL.pdf",
         "markscheme_file": "Economics_paper_1__TZ1_SL_markscheme.pdf"
@@ -16254,8 +18171,14 @@
       "marks": 25,
       "topic": "International Economics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2023_nov_tz1_sl_p1_q3_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2023_nov_tz1_sl_p1_q3_ms1.png",
+        "images/2023_nov_tz1_sl_p1_q3_ms2.png",
+        "images/2023_nov_tz1_sl_p1_q3_ms3.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1__TZ1_SL.pdf",
         "markscheme_file": "Economics_paper_1__TZ1_SL_markscheme.pdf"
@@ -16276,8 +18199,14 @@
       "marks": 25,
       "topic": "Microeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2023_nov_tz2_sl_p1_q1_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2023_nov_tz2_sl_p1_q1_ms1.png",
+        "images/2023_nov_tz2_sl_p1_q1_ms2.png",
+        "images/2023_nov_tz2_sl_p1_q1_ms3.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1__TZ2_SL.pdf",
         "markscheme_file": "Economics_paper_1__TZ2_SL_markscheme.pdf"
@@ -16298,8 +18227,14 @@
       "marks": 25,
       "topic": "Macroeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2023_nov_tz2_sl_p1_q2_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2023_nov_tz2_sl_p1_q2_ms1.png",
+        "images/2023_nov_tz2_sl_p1_q2_ms2.png",
+        "images/2023_nov_tz2_sl_p1_q2_ms3.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1__TZ2_SL.pdf",
         "markscheme_file": "Economics_paper_1__TZ2_SL_markscheme.pdf"
@@ -16320,8 +18255,14 @@
       "marks": 25,
       "topic": "International Economics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2023_nov_tz2_sl_p1_q3_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2023_nov_tz2_sl_p1_q3_ms1.png",
+        "images/2023_nov_tz2_sl_p1_q3_ms2.png",
+        "images/2023_nov_tz2_sl_p1_q3_ms3.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1__TZ2_SL.pdf",
         "markscheme_file": "Economics_paper_1__TZ2_SL_markscheme.pdf"
@@ -16574,8 +18515,14 @@
       "marks": 25,
       "topic": null,
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2024_may_tz1_hl_p1_q1_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2024_may_tz1_hl_p1_q1_ms1.png",
+        "images/2024_may_tz1_hl_p1_q1_ms2.png",
+        "images/2024_may_tz1_hl_p1_q1_ms3.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1__TZ1_HL.pdf",
         "markscheme_file": "Economics_paper_1__TZ1_HL_markscheme.pdf"
@@ -16596,8 +18543,14 @@
       "marks": 25,
       "topic": "Macroeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2024_may_tz1_hl_p1_q2_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2024_may_tz1_hl_p1_q2_ms1.png",
+        "images/2024_may_tz1_hl_p1_q2_ms2.png",
+        "images/2024_may_tz1_hl_p1_q2_ms3.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1__TZ1_HL.pdf",
         "markscheme_file": "Economics_paper_1__TZ1_HL_markscheme.pdf"
@@ -16618,8 +18571,14 @@
       "marks": 25,
       "topic": "Development Economics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2024_may_tz1_hl_p1_q3_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2024_may_tz1_hl_p1_q3_ms1.png",
+        "images/2024_may_tz1_hl_p1_q3_ms2.png",
+        "images/2024_may_tz1_hl_p1_q3_ms3.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1__TZ1_HL.pdf",
         "markscheme_file": "Economics_paper_1__TZ1_HL_markscheme.pdf"
@@ -16640,8 +18599,14 @@
       "marks": 25,
       "topic": "Macroeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2024_may_tz2_hl_p1_q1_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2024_may_tz2_hl_p1_q1_ms1.png",
+        "images/2024_may_tz2_hl_p1_q1_ms2.png",
+        "images/2024_may_tz2_hl_p1_q1_ms3.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1__TZ2_HL.pdf",
         "markscheme_file": "Economics_paper_1__TZ2_HL_markscheme.pdf"
@@ -16662,8 +18627,14 @@
       "marks": 25,
       "topic": "Macroeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2024_may_tz2_hl_p1_q2_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2024_may_tz2_hl_p1_q2_ms1.png",
+        "images/2024_may_tz2_hl_p1_q2_ms2.png",
+        "images/2024_may_tz2_hl_p1_q2_ms3.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1__TZ2_HL.pdf",
         "markscheme_file": "Economics_paper_1__TZ2_HL_markscheme.pdf"
@@ -16684,8 +18655,14 @@
       "marks": 25,
       "topic": "Development Economics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2024_may_tz2_hl_p1_q3_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2024_may_tz2_hl_p1_q3_ms1.png",
+        "images/2024_may_tz2_hl_p1_q3_ms2.png",
+        "images/2024_may_tz2_hl_p1_q3_ms3.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1__TZ2_HL.pdf",
         "markscheme_file": "Economics_paper_1__TZ2_HL_markscheme.pdf"
@@ -16706,8 +18683,14 @@
       "marks": 25,
       "topic": "Microeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2024_may_tz1_sl_p1_q1_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2024_may_tz1_sl_p1_q1_ms1.png",
+        "images/2024_may_tz1_sl_p1_q1_ms2.png",
+        "images/2024_may_tz1_sl_p1_q1_ms3.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1__TZ1_SL.pdf",
         "markscheme_file": "Economics_paper_1__TZ1_SL_markscheme.pdf"
@@ -16728,8 +18711,14 @@
       "marks": 25,
       "topic": "Macroeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2024_may_tz1_sl_p1_q2_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2024_may_tz1_sl_p1_q2_ms1.png",
+        "images/2024_may_tz1_sl_p1_q2_ms2.png",
+        "images/2024_may_tz1_sl_p1_q2_ms3.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1__TZ1_SL.pdf",
         "markscheme_file": "Economics_paper_1__TZ1_SL_markscheme.pdf"
@@ -16750,8 +18739,14 @@
       "marks": 25,
       "topic": "Development Economics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2024_may_tz1_sl_p1_q3_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2024_may_tz1_sl_p1_q3_ms1.png",
+        "images/2024_may_tz1_sl_p1_q3_ms2.png",
+        "images/2024_may_tz1_sl_p1_q3_ms3.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1__TZ1_SL.pdf",
         "markscheme_file": "Economics_paper_1__TZ1_SL_markscheme.pdf"
@@ -16772,8 +18767,14 @@
       "marks": 25,
       "topic": null,
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2024_may_tz2_sl_p1_q1_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2024_may_tz2_sl_p1_q1_ms1.png",
+        "images/2024_may_tz2_sl_p1_q1_ms2.png",
+        "images/2024_may_tz2_sl_p1_q1_ms3.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1__TZ2_SL.pdf",
         "markscheme_file": "Economics_paper_1__TZ2_SL_markscheme.pdf"
@@ -16794,8 +18795,14 @@
       "marks": 25,
       "topic": "Macroeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2024_may_tz2_sl_p1_q2_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2024_may_tz2_sl_p1_q2_ms1.png",
+        "images/2024_may_tz2_sl_p1_q2_ms2.png",
+        "images/2024_may_tz2_sl_p1_q2_ms3.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1__TZ2_SL.pdf",
         "markscheme_file": "Economics_paper_1__TZ2_SL_markscheme.pdf"
@@ -16816,8 +18823,14 @@
       "marks": 25,
       "topic": "Macroeconomics",
       "subtopic": null,
-      "question_image_paths": [],
-      "markscheme_image_paths": [],
+      "question_image_paths": [
+        "images/2024_may_tz2_sl_p1_q3_qp1.png"
+      ],
+      "markscheme_image_paths": [
+        "images/2024_may_tz2_sl_p1_q3_ms1.png",
+        "images/2024_may_tz2_sl_p1_q3_ms2.png",
+        "images/2024_may_tz2_sl_p1_q3_ms3.png"
+      ],
       "source": {
         "paper_file": "Economics_paper_1__TZ2_SL.pdf",
         "markscheme_file": "Economics_paper_1__TZ2_SL_markscheme.pdf"

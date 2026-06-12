@@ -229,7 +229,7 @@ def process_p1(meta: dict, ms_meta: dict | None) -> list[dict]:
 
     # Collect all content pages (skip page 0 = copyright/cover only;
     # page 1 = instructions in newer format but content in older 2-page format)
-    q_data = {}   # qnum -> {text, topic, ms_text}
+    q_data = {}   # qnum -> {text, topic, ms_text, pages: [pno]}
     current_topic = None
 
     for pno in range(1, len(doc)):
@@ -240,13 +240,19 @@ def process_p1(meta: dict, ms_meta: dict | None) -> list[dict]:
         if topic:
             current_topic = topic
 
-        for qnum in detect_q_starts(text):
+        new_qnums = detect_q_starts(text)
+        for qnum in new_qnums:
             if qnum not in q_data:
-                q_data[qnum] = {'text': '', 'topic': current_topic, 'ms_text': ''}
+                q_data[qnum] = {'text': '', 'topic': current_topic, 'ms_text': '', 'pages': []}
             if not q_data[qnum]['text']:
                 q_data[qnum]['text'] = extract_p1_question_text(text, qnum)
+            # Each page that has this question's start gets associated with it
+            if pno not in q_data[qnum]['pages']:
+                q_data[qnum]['pages'].append(pno)
 
-    # Process markscheme pages for text
+    # Process markscheme
+    ms_doc = None
+    ms_page_map = {}  # qnum -> [pno]
     if ms_meta:
         ms_doc = fitz.open(str(ms_meta['path']))
         current_ms_qnum = None
@@ -260,24 +266,40 @@ def process_p1(meta: dict, ms_meta: dict | None) -> list[dict]:
                 current_ms_qnum = new_qnums[0]
             if current_ms_qnum:
                 accumulated_text.setdefault(current_ms_qnum, []).append(text)
+                ms_page_map.setdefault(current_ms_qnum, []).append(pno)
 
         for qnum, pages_text in accumulated_text.items():
             combined = '\n'.join(pages_text)
             if qnum in q_data:
                 q_data[qnum]['ms_text'] = extract_ms_text_for_q(combined, qnum)
             else:
-                # MS has question not in question paper (edge case)
-                q_data[qnum] = {'text': '', 'topic': None, 'ms_text': extract_ms_text_for_q(combined, qnum)}
+                q_data[qnum] = {'text': '', 'topic': None, 'ms_text': extract_ms_text_for_q(combined, qnum), 'pages': []}
 
-        ms_doc.close()
-
-    doc.close()
+    doc.close() if not ms_doc else None
 
     questions = []
+    doc = fitz.open(str(meta['path']))
     for qnum in sorted(q_data):
         info = q_data[qnum]
-        # Fall back to keyword inference from question text if section header gave no topic
         topic = info['topic'] or infer_topic_from_text(info['text'])
+
+        # Render question page images
+        q_imgs = []
+        for idx, pno in enumerate(info['pages']):
+            img_name = f"{stem}_q{qnum}_qp{idx+1}.png"
+            img_path = IMG_DIR / img_name
+            render_page(doc[pno], img_path)
+            q_imgs.append(img_rel(img_path))
+
+        # Render markscheme page images
+        ms_imgs = []
+        if ms_doc and qnum in ms_page_map:
+            for idx, pno in enumerate(ms_page_map[qnum]):
+                img_name = f"{stem}_q{qnum}_ms{idx+1}.png"
+                img_path = IMG_DIR / img_name
+                render_page(ms_doc[pno], img_path)
+                ms_imgs.append(img_rel(img_path))
+
         qid = f"econ_{stem}_q{qnum}"
         questions.append({
             'id': qid,
@@ -294,13 +316,17 @@ def process_p1(meta: dict, ms_meta: dict | None) -> list[dict]:
             'marks': 25,
             'topic': topic,
             'subtopic': None,
-            'question_image_paths': [],
-            'markscheme_image_paths': [],
+            'question_image_paths': q_imgs,
+            'markscheme_image_paths': ms_imgs,
             'source': {
                 'paper_file': meta['path'].name,
                 'markscheme_file': ms_meta['path'].name if ms_meta else None,
             },
         })
+
+    doc.close()
+    if ms_doc:
+        ms_doc.close()
 
     return questions
 
