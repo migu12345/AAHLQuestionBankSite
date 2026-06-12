@@ -712,7 +712,7 @@ function updateResultSummary() {
 function renderQuestions(reset = true) {
   if (reset) {
     state.filteredQuestions = filterQuestions();
-    shuffleArray(state.filteredQuestions);
+    if (!state.paperBundle) shuffleArray(state.filteredQuestions);
     state.visibleCount = Math.min(PAGE_SIZE, state.filteredQuestions.length);
     questionList.innerHTML = "";
 
