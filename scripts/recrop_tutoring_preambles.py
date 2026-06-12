@@ -120,7 +120,10 @@ def detect_starts(doc: fitz.Document, supports_parts: bool = False) -> List[Star
                         pending_x = x
                         qnum = pending_num
                     m_pending = re.match(r"^(\d{1,2})$", line_text)
-                    if m_pending:
+                    if m_pending and x < 50:
+                        # Require left-margin position to avoid matching subscript/
+                        # superscript digits inside math expressions (e.g. log₃27)
+                        # which appear at larger x offsets (≥56px in T-style PDFs).
                         pending_num = int(m_pending.group(1))
                         pending_y = y
                         pending_x = x

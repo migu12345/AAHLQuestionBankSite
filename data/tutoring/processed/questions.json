@@ -2692,7 +2692,8 @@
       "title": "Q2",
       "question_text": "1c.\n[3 marks]\nFind the sum of the first 20 terms of the sequence.\n2a.\n[1 mark]\nWrite down the value of\n(i)\n;\n27\nlog\n3\n2b.\n[1 mark]\n(ii)\n;\nlog\n8\n1\n8\n2c.\n[1 mark]\n(iii)\n.\n4\nlog\n16",
       "question_image_paths": [
-        "images/questions/t1p1_q2.png"
+        "images/questions/t1p1_q2_p1.png",
+        "images/questions/t1p1_q2_p2.png"
       ],
       "level": "SL",
       "paper_type": null,
@@ -2773,8 +2774,7 @@
       "title": "Q7",
       "question_text": "6b.\n[4 marks]\nFind a general expression for\n.\nu\nn",
       "question_image_paths": [
-        "images/questions/t1p1_q7_p1.png",
-        "images/questions/t1p1_q7_p2.png"
+        "images/questions/t1p1_q7.png"
       ],
       "level": "SL",
       "paper_type": null,
@@ -3083,8 +3083,7 @@
       "title": "Q26",
       "question_text": "25d.\n[3 marks]\nFind\n.\n(\n9\np\n)\nlog\n3",
       "question_image_paths": [
-        "images/questions/t1p1_q26_p1.png",
-        "images/questions/t1p1_q26_p2.png"
+        "images/questions/t1p1_q26_p1.png"
       ],
       "level": "SL",
       "paper_type": null,
@@ -4648,7 +4647,8 @@
       "title": "Q17",
       "question_text": "16e.\nHence or otherwise, find the total area of the shaded regions.\n[2 marks]\n17a.\nA Ferris wheel with diameter\nmetres rotates clockwise at a constant speed.\nThe wheel completes\nrotations every hour. The bottom of the wheel is\nmetres\nabove the ground.\n\nA seat starts at the bottom of the wheel.\nFind the maximum height above the ground of the seat.\n122\n2.4\n13\n17b.\n[2 marks]\nAfter\nt\n\nminutes, the height\nmetres above the ground of the seat is given by\n(i) Show that the period of\nis\nminutes.\n(ii) Write down the\nexact\nvalue of\n.\n\nh\nh\n=\n74\n+\na\ncos\nb\nt\n.\nh\n25\nb\n17c.\n[9 marks]\n(b) (i) Show that the period of\nis\nminutes.\n(ii) Write down the\nexact\nvalue of\n.\n(c)\nFind the value of\n.\n(d)\nSketch the graph of\n, for\n.\nh\n25\nb\na\nh\n0\n≤\nt\n≤\n50\n17d.\n[3 marks]\nFind the value of\n.\na\n17e.\n[4 marks]\nSketch the graph of\n, for\n.\nh\n0\n≤\nt\n≤\n50",
       "question_image_paths": [
-        "images/questions/t3p1_q17.png"
+        "images/questions/t3p1_q17_p1.png",
+        "images/questions/t3p1_q17_p2.png"
       ],
       "level": "SL",
       "paper_type": null,
@@ -4764,8 +4764,7 @@
       "title": "Q24",
       "question_text": "23e.\n[4 marks]\nAngle BOC is 2.4 radians.\nThe shaded region is to be painted red. Red paint is sold in cans which cost\neach. One can covers\n. How much does it cost to buy the paint?\n\n$\n32\n140\n\nm\n2\n24a.\n[3 marks]\nThe following diagram shows the graph of\n, for\n.\nThere is a minimum point at P(2, − 3) and a maximum point at Q(4, 3) .\n(i) Write down the value of\na\n.\n(ii) Find the value of\nb\n.\nf\n(\nx\n)\n=\na\ncos\n(\nb\nx\n)\n0\n≤\nx\n≤\n4\n[1 mark]\n24b.\nWrite down the gradient of the curve at P.\n[2 marks]",
       "question_image_paths": [
-        "images/questions/t3p1_q24_p1.png",
-        "images/questions/t3p1_q24_p2.png"
+        "images/questions/t3p1_q24.png"
       ],
       "level": "SL",
       "paper_type": null,
@@ -9271,7 +9270,8 @@
       "title": "Q7",
       "question_text": "6.\n[6 marks]\nLet\nand\n, for\n.\nFind the area of the region enclosed by the graphs of\nf\nand\ng\n.\nf\n(\nx\n)\n=\ncos\n(\n)\nx\n2\ng\n(\nx\n)\n=\ne\nx\n−\n1.5\n≤\nx\n≤\n0.5\n7a.\n[2 marks]\nThe following diagram shows a waterwheel with a bucket. The wheel rotates at a\nconstant rate in an anticlockwise (counter-\nclockwise) direction.\nThe diameter of the wheel is 8 metres. The centre of the wheel, A, is 2 metres\nabove the water level. After\nt\nseconds, the height of the\nbucket above the water level\nis given by\n.\nShow that\n.\nh\n=\na\nsin\nb\nt\n+\n2\na\n=\n4\n7b.\n[2 marks]\nThe wheel turns at a rate of one rotation every 30 seconds.\nShow that\n.\nb\n=\nπ\n15\n7c.\n[6 marks]\nIn the first rotation, there are two values of\nt\nwhen the bucket is\ndescending\nat a rate\nof\n.\nFind these values of\nt\n.\n0.5\nm\ns\n−\n1",
       "question_image_paths": [
-        "images/questions/t5_sl2_q7.png"
+        "images/questions/t5_sl2_q7_p1.png",
+        "images/questions/t5_sl2_q7_p2.png"
       ],
       "level": "SL",
       "paper_type": null,
@@ -9402,8 +9402,7 @@
       "title": "Q15",
       "question_text": "14.\n[6 marks]\nThe graph of\n, for\n, is shown below.\nThe region enclosed by the curve of\nf\nand the\nx\n-axis is rotated\nabout the\nx\n-axis.\nFind the volume of the solid formed.\nf\n(\nx\n)\n=\n16\n−\n4\nx\n2\n−\n−\n−\n−\n−\n−\n−\n√\n−\n2\n≤\nx\n≤\n2\n360\n∘\n[8 marks]\n15a.\nLet\n. Part of the graph of\nf\nis shown below.\nThere is a maximum point at A and a minimum point at B(3, − 9) .\nFind the coordinates of A.\nf\n(\nx\n)\n=\n−\n−\n3\nx\n1\n2\nx\n3\nx\n2",
       "question_image_paths": [
-        "images/questions/t5_sl2_q15_p1.png",
-        "images/questions/t5_sl2_q15_p2.png"
+        "images/questions/t5_sl2_q15.png"
       ],
       "level": "SL",
       "paper_type": null,
