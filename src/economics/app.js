@@ -3,6 +3,7 @@ const state = {
   topics: [],
   filteredQuestions: [],
   visibleCount: 0,
+  shuffleEnabled: true,
 };
 const PAGE_SIZE = 10;
 
@@ -19,6 +20,7 @@ const resultCount = document.getElementById("resultCount");
 const questionTemplate = document.getElementById("questionTemplate");
 const loadMoreWrap = document.getElementById("loadMoreWrap");
 const loadMoreBtn = document.getElementById("loadMoreBtn");
+const shuffleToggle = document.getElementById("shuffleToggle");
 const compareModal = document.getElementById("compareModal");
 const compareBackdrop = document.getElementById("compareBackdrop");
 const compareCloseBtn = document.getElementById("compareCloseBtn");
@@ -338,7 +340,7 @@ function shuffleInPlace(arr) {
 function renderQuestions(reset = true) {
   if (reset) {
     state.filteredQuestions = filterQuestions();
-    shuffleInPlace(state.filteredQuestions);
+    if (state.shuffleEnabled) shuffleInPlace(state.filteredQuestions);
     state.visibleCount = Math.min(PAGE_SIZE, state.filteredQuestions.length);
     questionList.innerHTML = "";
 
@@ -402,6 +404,15 @@ function bindEvents() {
   }
 
   loadMoreBtn.addEventListener("click", () => renderQuestions(false));
+
+  if (shuffleToggle) {
+    shuffleToggle.addEventListener("click", () => {
+      state.shuffleEnabled = !state.shuffleEnabled;
+      shuffleToggle.textContent = state.shuffleEnabled ? "Shuffle: On" : "Shuffle: Off";
+      shuffleToggle.setAttribute("aria-pressed", state.shuffleEnabled ? "true" : "false");
+      renderQuestions(true);
+    });
+  }
 
   if (compareBackdrop) {
     compareBackdrop.addEventListener("click", closeCompareModal);
