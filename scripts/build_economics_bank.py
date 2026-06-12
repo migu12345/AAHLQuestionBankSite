@@ -30,10 +30,25 @@ TOPIC_KEYWORDS = {
 }
 
 # Keywords to infer topic from question text when section header is absent (older papers)
+# Strong intro signals: any one is enough to reclassify a Micro question
+INTRO_STRONG = [
+    'production possibilit',   # matches 'possibility' and 'possibilities'
+    'ppc',                     # production possibilities curve
+    'ppf',                     # production possibilities frontier
+    'opportunity cost',
+    'economic system',
+]
+# Weaker intro signals: need 2+ to reclassify
+INTRO_WEAK = [
+    'scarcity', 'scarce resource', 'allocating resources', 'resource allocation',
+    'free market economy', 'command economy', 'mixed economy',
+    'normative economics', 'positive economics', 'ceteris paribus',
+    'land, labour', 'land labour',
+]
 MICRO_KEYWORDS = [
     'elasticity', 'demand curve', 'supply curve', 'monopoly', 'oligopoly',
     'perfectly competitive', 'price discrimination', 'market failure',
-    'externality', 'public good', 'factor of production', 'diminishing returns',
+    'externality', 'public good', 'diminishing returns',
     'cost curve', 'revenue', 'profit maximiz', 'allocative efficiency',
     'productive efficiency', 'merit good', 'demerit', 'subsidy', 'indirect tax',
     'consumer surplus', 'producer surplus', 'deadweight loss', 'price ceiling',
@@ -59,10 +74,21 @@ DEV_KEYWORDS = [
 ]
 
 
+def is_intro_question(text: str) -> bool:
+    """Return True if question is primarily about Introduction to Economics."""
+    lower = text.lower()
+    if any(k in lower for k in INTRO_STRONG):
+        return True
+    weak = sum(1 for k in INTRO_WEAK if k in lower)
+    return weak >= 2
+
+
 def infer_topic_from_text(text: str) -> str | None:
     lower = text.lower()
-    intl = sum(1 for k in INTL_KEYWORDS if k in lower)
-    dev = sum(1 for k in DEV_KEYWORDS if k in lower)
+    if is_intro_question(text):
+        return 'Introduction to Economics'
+    intl  = sum(1 for k in INTL_KEYWORDS  if k in lower)
+    dev   = sum(1 for k in DEV_KEYWORDS   if k in lower)
     macro = sum(1 for k in MACRO_KEYWORDS if k in lower)
     micro = sum(1 for k in MICRO_KEYWORDS if k in lower)
     counts = [('International Economics', intl), ('Development Economics', dev),
@@ -282,6 +308,9 @@ def process_p1(meta: dict, ms_meta: dict | None) -> list[dict]:
     for qnum in sorted(q_data):
         info = q_data[qnum]
         topic = info['topic'] or infer_topic_from_text(info['text'])
+        # Override Micro label when question content is clearly intro-level
+        if topic == 'Microeconomics' and is_intro_question(info['text']):
+            topic = 'Introduction to Economics'
 
         # Render question page images
         q_imgs = []
