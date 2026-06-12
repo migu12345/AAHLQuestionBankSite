@@ -189,7 +189,10 @@ def _gap_based_top(page: fitz.Page, qnum: int, max_y: float) -> Tuple[Optional[f
         if m and int(m.group(1)) != qnum:
             last_prev_idx = i
     if last_prev_idx is None:
-        return None, False  # no prev content on this page
+        # No recognized "N." / "Na." label found, but if there's any text at all
+        # above this question (e.g. "(b)", "(c)" sub-parts using paren format),
+        # it's still overflow from the previous question — not a fresh page.
+        return None, len(lines) > 0
 
     # Walk forward from that label; stop at first gap > GAP_THRESHOLD
     prev_y = lines[last_prev_idx][0]

@@ -296,7 +296,7 @@ function dedupeForAllLevels(rows) {
       return "";
     }
     return name
-      .replace(/_q\d+_(hl|sl)/i, "_qx_lx")
+      .replace(/_(hl|sl)(?=(_p\d+)?\.png$)/i, "_lx")
       .replace(/_p\d+\.png$/i, "")
       .trim();
   };
