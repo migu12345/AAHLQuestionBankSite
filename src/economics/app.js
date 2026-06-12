@@ -277,7 +277,9 @@ function buildQuestionNode(q) {
   const sideBySideBtn = node.querySelector(".side-by-side-btn");
 
   const marks = Number.isFinite(q.marks) ? `${q.marks} marks` : "marks n/a";
-  node.querySelector(".meta").textContent = `${q.paper || "Unknown paper"} | ${q.topic || "Unsorted"} | ${q.subtopic || "Unsorted"} | ${marks}`;
+  const topicPart = q.topic ? ` | ${q.topic}` : "";
+  const subtopicPart = q.subtopic ? ` | ${q.subtopic}` : "";
+  node.querySelector(".meta").textContent = `${q.paper || "Unknown paper"}${topicPart}${subtopicPart} | ${marks}`;
 
   const qImages = Array.isArray(q.question_image_paths) ? q.question_image_paths : [];
   const msImages = Array.isArray(q.markscheme_image_paths) ? q.markscheme_image_paths : [];

@@ -19,15 +19,56 @@ PAPER_MARKS = {1: 25, 2: None, 3: 25}
 
 SKIP_LANGS = ['French', 'Spanish', 'German', 'Portuguese', 'Chinese']
 
-# Topics that appear as section headers in Paper 1
+# Topics that appear as section headers (longer/more specific phrases first)
 TOPIC_KEYWORDS = {
+    'international economics': 'International Economics',
+    'development economics': 'Development Economics',
+    'international trade': 'International Economics',
+    'global economy': 'International Economics',
     'microeconomics': 'Microeconomics',
     'macroeconomics': 'Macroeconomics',
-    'international economics': 'International Economics',
-    'international trade': 'International Economics',
-    'development economics': 'Development Economics',
-    'global economy': 'International Economics',
 }
+
+# Keywords to infer topic from question text when section header is absent (older papers)
+MICRO_KEYWORDS = [
+    'elasticity', 'demand curve', 'supply curve', 'monopoly', 'oligopoly',
+    'perfectly competitive', 'price discrimination', 'market failure',
+    'externality', 'public good', 'factor of production', 'diminishing returns',
+    'cost curve', 'revenue', 'profit maximiz', 'allocative efficiency',
+    'productive efficiency', 'merit good', 'demerit', 'subsidy', 'indirect tax',
+    'consumer surplus', 'producer surplus', 'deadweight loss', 'price ceiling',
+    'price floor', 'minimum wage',
+]
+MACRO_KEYWORDS = [
+    'gdp', 'aggregate demand', 'aggregate supply', 'inflation', 'unemployment',
+    'fiscal policy', 'monetary policy', 'interest rate', 'money supply',
+    'economic growth', 'business cycle', 'keynesian', 'monetarist',
+    'multiplier', 'government spending', 'taxation', 'budget deficit',
+    'trade cycle', 'deflationary gap', 'inflationary gap', 'national income',
+    'circular flow', 'gni', 'gnp', 'current account',
+]
+INTL_KEYWORDS = [
+    'exchange rate', 'balance of payments', 'tariff', 'quota', 'free trade',
+    'trade protection', 'comparative advantage', 'terms of trade',
+    'current account deficit', 'trade deficit', 'dumping', 'wto',
+]
+DEV_KEYWORDS = [
+    'economic development', 'developing countr', 'hdi', 'human development',
+    'poverty', 'inequality', 'foreign aid', 'microfinance', 'debt relief',
+    'fair trade', 'sustainable development',
+]
+
+
+def infer_topic_from_text(text: str) -> str | None:
+    lower = text.lower()
+    intl = sum(1 for k in INTL_KEYWORDS if k in lower)
+    dev = sum(1 for k in DEV_KEYWORDS if k in lower)
+    macro = sum(1 for k in MACRO_KEYWORDS if k in lower)
+    micro = sum(1 for k in MICRO_KEYWORDS if k in lower)
+    counts = [('International Economics', intl), ('Development Economics', dev),
+              ('Macroeconomics', macro), ('Microeconomics', micro)]
+    best = max(counts, key=lambda x: x[1])
+    return best[0] if best[1] >= 1 else None
 
 
 def parse_pdf_metadata(path: Path) -> dict | None:
@@ -235,6 +276,8 @@ def process_p1(meta: dict, ms_meta: dict | None) -> list[dict]:
     questions = []
     for qnum in sorted(q_data):
         info = q_data[qnum]
+        # Fall back to keyword inference from question text if section header gave no topic
+        topic = info['topic'] or infer_topic_from_text(info['text'])
         qid = f"econ_{stem}_q{qnum}"
         questions.append({
             'id': qid,
@@ -249,7 +292,7 @@ def process_p1(meta: dict, ms_meta: dict | None) -> list[dict]:
             'question_text': info['text'],
             'answer_text': info['ms_text'],
             'marks': 25,
-            'topic': info['topic'],
+            'topic': topic,
             'subtopic': None,
             'question_image_paths': [],
             'markscheme_image_paths': [],
