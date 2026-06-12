@@ -1,6 +1,6 @@
 # Context Window Export (for new chat)
 
-Date: 2026-06-10 (updated)
+Date: 2026-06-12 (updated)
 Project: `AA-HL-Question-Bank`
 
 ## Current State
@@ -13,6 +13,37 @@ Project: `AA-HL-Question-Bank`
 - User preference: keep `CONTEXT_WINDOW_EXPORT.md` updated.
 - User preference: when `All levels` is selected, prioritize `SL` and suppress `HL` duplicates (biology/chemistry only).
 - User constraint: do not change Paper 1A / Paper 2 / Paper 3 logic when fixing unrelated issues.
+- **R2 sync needed** for all re-cropped tutoring images (this session + twelfth session).
+- **Push needed**: 39 commits ahead of origin/main (SSH key unavailable; use HTTPS or run `git push` locally).
+
+## Most Recent Completed Work (2026-06-12, thirteenth session)
+
+### Tutoring — fix false question detection from subscript digits (Topic 1 Part 1 T.pdf)
+
+**Root cause:** `detect_starts()` matched bare standalone digit lines (pattern `^(\d{1,2})$`)
+against subscript digits rendered by PyMuPDF as separate text spans — e.g. the "27" in
+`log₃27` (x≈71.8px), the "36" in `log₆36`, the "8" in `log₈8`. These triggered false
+"pending" detections at those y-positions, then when a subsequent line at x<80 started with
+a letter, the false number was committed as a question start, displacing the real Q2/Q27/Q36.
+
+**Fix:** Added `and x < 50` guard to the `m_pending` branch in `detect_starts()`. Real
+question-number labels sit at x≈40px; math subscript digits are at x≥56px. Guard is applied
+in both `scripts/recrop_tutoring_preambles.py` and `scripts/tutoring/build_all_new_pdfs.py`.
+
+**Results after recrop:**
+- t1p1_q2: was 67px → now multi-page (q2_p1 = 1169px) ✓
+- t1p1_q27: was 113px → now 183px ✓
+- t1p1_q36: was 56px → now 823px ✓
+- Q8 also fixed as side benefit (same false-detection pattern)
+
+Also committed in this session:
+- **Dedup regex fix** (bio/chem/physics app.js): `dedupeForAllLevels` key normalisation
+  changed from `/_q\d+_(hl|sl)/i` to `/_（hl|sl)(?=(_p\d+)?\.png$)/i` (lookahead handles `_p\d+` suffix)
+- **recrop `_gap_based_top` fix**: returns `is_overflow=True` when lines exist but no
+  recognised "N."/"Na." label — handles "(b)"/"(c)" paren-format sub-part overflow
+- **149 additional images** re-cropped with updated paren-format logic
+
+---
 
 ## Most Recent Completed Work (2026-06-10, twelfth session)
 
