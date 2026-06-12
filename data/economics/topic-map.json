@@ -1,0 +1,56 @@
+{
+  "topics": [
+    {
+      "name": "Introduction to Economics",
+      "subtopics": [
+        "What is economics?",
+        "Economic systems",
+        "Resource allocation"
+      ]
+    },
+    {
+      "name": "Microeconomics",
+      "subtopics": [
+        "Demand",
+        "Supply",
+        "Elasticity",
+        "Government intervention",
+        "Market failure",
+        "Costs of production",
+        "Theory of the firm"
+      ]
+    },
+    {
+      "name": "Macroeconomics",
+      "subtopics": [
+        "GDP and economic growth",
+        "Unemployment",
+        "Inflation",
+        "Fiscal policy",
+        "Monetary policy",
+        "Supply-side policies",
+        "Aggregate demand and supply"
+      ]
+    },
+    {
+      "name": "International Economics",
+      "subtopics": [
+        "International trade",
+        "Trade protection",
+        "Exchange rates",
+        "Balance of payments",
+        "Economic integration"
+      ]
+    },
+    {
+      "name": "Development Economics",
+      "subtopics": [
+        "Economic development",
+        "Measuring development",
+        "Barriers to development",
+        "Growth and development strategies",
+        "Evaluation of policies"
+      ]
+    }
+  ]
+}
