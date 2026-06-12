@@ -2267,8 +2267,7 @@
       "title": "Q3",
       "question_text": "3. (a) Find the sum of the infinite geometric sequence 27, −9, 3, −1, ... .\n(3)\n\n(b) Use mathematical induction to prove that for n\n+,\na + ar + ar2 + ... + arn–1 =\n .1\n1\nr\nra n\n\n\n(7)\n(Total 10 marks)",
       "question_image_paths": [
-        "images/questions/t1_seq_q3_p1.png",
-        "images/questions/t1_seq_q3_p2.png"
+        "images/questions/t1_seq_q3_p1.png"
       ],
       "level": "HL",
       "paper_type": null,
@@ -5130,8 +5129,7 @@
       "title": "Q16",
       "question_text": "16. Jan plays a game where she tosses two fair six-sided dice. She wins a prize if the sum of her\nscores is 5.\n(a) Jan tosses the two dice once. Find the probability that she wins a prize.\n(3)\n\n(b) Jan tosses the two dice 8 times. Find the probability that she wins 3 prizes.\n(2)\n(Total 5 marks)",
       "question_image_paths": [
-        "images/questions/t4_sl_q16_p1.png",
-        "images/questions/t4_sl_q16_p2.png"
+        "images/questions/t4_sl_q16_p1.png"
       ],
       "level": "SL",
       "paper_type": null,
@@ -5163,8 +5161,7 @@
       "title": "Q18",
       "question_text": "18. A standard die is rolled 36 times. The results are shown in the following table.\n\nScore 1 2 3 4 5 6\nFrequency 3 5 4 6 10 8\n\n(a) Write down the standard deviation.\n(2)\n\n(b) Write down the median score.\n(1)\n\n(c) Find the interquartile range.\n(3)\n(Total 6 marks)",
       "question_image_paths": [
-        "images/questions/t4_sl_q18_p1.png",
-        "images/questions/t4_sl_q18_p2.png"
+        "images/questions/t4_sl_q18_p1.png"
       ],
       "level": "SL",
       "paper_type": null,
@@ -5593,8 +5590,7 @@
       "title": "Q44",
       "question_text": "44. The scores of a test given to students are normally distributed with a mean of 21.\n80 % of the students have scores less than 23.7.\n(a) Find the standard deviation of the scores.\n(3)\n\nA student is chosen at random. This student has the same probability of having a score less than\n25.4 as having a score greater than b.\n(b) (i) Find the probability the student has a score less than 25.4.\n(ii) Find the value of b.\n(4)\n(Total 7 marks)",
       "question_image_paths": [
-        "images/questions/t4_sl_q44_p1.png",
-        "images/questions/t4_sl_q44_p2.png"
+        "images/questions/t4_sl_q44_p1.png"
       ],
       "level": "SL",
       "paper_type": null,
@@ -5626,8 +5622,7 @@
       "title": "Q46",
       "question_text": "46. A random variable X is distributed normally with a mean of 100 and a variance of 100.\n(a) Find the value of X that is 1.12 standard deviations above the mean.\n(4)\n\n(b) Find the value of X that is 1.12 standard deviations below the mean.\n(2)\n(Total 6 marks)",
       "question_image_paths": [
-        "images/questions/t4_sl_q46_p1.png",
-        "images/questions/t4_sl_q46_p2.png"
+        "images/questions/t4_sl_q46_p1.png"
       ],
       "level": "SL",
       "paper_type": null,
@@ -5659,8 +5654,7 @@
       "title": "Q48",
       "question_text": "48. The heights of trees in a forest are normally distributed with mean height 17 metres. One tree is\nselected at random. The probability that a selected tree has a height greater than 24 metres is\n0.06.\n(a) Find the probability that the tree selected has a height less than 24 metres.\n(2)\n\n(b) The probability that the tree has a height less than D metres is 0.06.\nFind the value of D.\n(3)\n(c) A woodcutter randomly selects 200 trees. Find the expected number of trees whose height\nlies between 17 metres and 24 metres.\n(4)\n(Total 9 marks)\n\n49.\n\n50.\n\n51.\n\n52.",
       "question_image_paths": [
-        "images/questions/t4_sl_q48_p1.png",
-        "images/questions/t4_sl_q48_p2.png"
+        "images/questions/t4_sl_q48_p1.png"
       ],
       "level": "SL",
       "paper_type": null,
@@ -5907,8 +5901,7 @@
       "title": "Q15",
       "question_text": "15. The mean weight of a certain breed of bird is believed to be 2.5 kg. In order to test this belief, it\nis planned to determine the weights x1, x2, x3, ..., x16, (in kg) of sixteen of these birds and then to\ncalculate the sample mean\nx . You may assume that these weights are a random sample from a\nnormal distribution with standard deviation 0.1 kg.\n(a) State suitable hypotheses for a two-tailed test.\n(2)\n\n(b) Find the critical region for\nx having a significance level of 5 %.\n(6)\n\n(c) Given that the mean weight of birds of this breed is actually 2.6 kg, find the probability of\nmaking a Type II error.\n(5)\n(Total 13 marks)\n\nIB Mathematics High 9",
       "question_image_paths": [
-        "images/questions/t4_hl_q15_p1.png",
-        "images/questions/t4_hl_q15_p2.png"
+        "images/questions/t4_hl_q15_p1.png"
       ],
       "level": "HL",
       "paper_type": null,

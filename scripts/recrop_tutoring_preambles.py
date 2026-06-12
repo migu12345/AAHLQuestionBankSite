@@ -67,6 +67,16 @@ T_STYLE: Dict[str, tuple] = {
     "Math_SL_Circular_FunctionsTrigonometry.pdf": (False, 3, 10, 10, False),
     "Math_SL_Functions_Equations_2023.pdf": (False, 3, 10, 10, False),
     "Topic_6_Calculus.pdf":        (False, 3, 10, 10, False),
+    "Binomila Theorem.pdf":        (False, 3, 10, 10, False),
+    "Limits_derivatives (1).pdf":  (False, 3, 10, 10, False),
+    "Math_SL_Algebra_Exp_Log.pdf": (False, 3, 10, 10, False),
+    "Math_SL_Statistics_Probability_2022 (1).pdf": (False, 3, 10, 10, False),
+    "Topic_1_1_Algebra_Sequences_Series.pdf": (False, 3, 10, 10, False),
+    "Topic_1_2_Algebra_Exponents_Logarithms_2023.pdf": (False, 3, 10, 10, False),
+    "Topic_1_3_Algebra_Counting_Principles (1).pdf": (False, 3, 10, 10, False),
+    "Topic_1_4_Algebra_Mathematical_Induction.pdf": (False, 3, 10, 10, False),
+    "Topic_1_5_Algebra_Complex_Numbers.pdf": (False, 3, 10, 10, False),
+    "statistics (1).pdf":          (False, 3, 10, 10, False),
 }
 
 
@@ -245,6 +255,130 @@ def _is_dotted_line(text: str) -> bool:
     return dot_chars / len(chars) >= 0.7
 
 
+def _find_total_marks_bottom(
+    page: fitz.Page,
+    from_y: float,
+    to_y: float,
+) -> Optional[float]:
+    """Scan page text in [from_y, to_y] for a '(Total N marks)' line.
+
+    Returns the bottom y-coordinate (bbox[3]) of the last matching line,
+    or None if no such line is found.  This line reliably marks the
+    end of a question in non-T-style PDFs (Topic_6_Calculus.pdf,
+    Math_SL_Calculus_Julius, etc.) that use the '(Total N marks)' footer.
+    """
+    total_re = re.compile(r"^\(Total\s+\d+\s+marks?\)", re.IGNORECASE)
+    best_y1: Optional[float] = None
+    for block in page.get_text("dict").get("blocks", []):
+        if block.get("type") != 0:
+            continue
+        for line in block.get("lines", []):
+            spans = line.get("spans", [])
+            if not spans:
+                continue
+            text = "".join(s.get("text", "") for s in spans).strip()
+            if not total_re.match(text):
+                continue
+            y0 = float(line.get("bbox", [0, 0, 0, 0])[1])
+            y1 = float(line.get("bbox", [0, 0, 0, 0])[3])
+            if y0 < from_y or y0 > to_y:
+                continue
+            if best_y1 is None or y0 > (best_y1 - 20):
+                best_y1 = y1
+    return best_y1
+
+
+def _find_preamble_start_for_bottom(
+    page: fitz.Page,
+    qnum: int,
+    cur_y: float,
+    next_y: float,
+    small_gap: float = 20.0,
+    large_gap: float = 60.0,
+) -> Optional[float]:
+    """Find the y-coordinate where Q(n+1)'s preamble starts, for use as Q(n)'s bottom crop.
+
+    This is a bottom-boundary variant of _find_preamble_start that handles questions
+    containing diagrams. When no sub-part labels of qnum are found in the range, it
+    distinguishes between:
+
+      • Large gaps (≥ large_gap px): interior diagram gaps within Q(n)'s content —
+        these are skipped; the scan continues past them.
+      • Small gaps (small_gap..large_gap px): Q(n)-to-Q(n+1) preamble transitions —
+        these are returned as the preamble boundary.
+
+    When sub-part labels of qnum ARE found (the normal T-style case), the standard
+    20 px threshold from the last label is used exactly as in _find_preamble_start,
+    because sub-part labels anchor the scan past diagram gaps.
+    """
+    raw: List[Tuple[float, float, str]] = []
+    for block in page.get_text("dict").get("blocks", []):
+        if block.get("type") != 0:
+            continue
+        for line in block.get("lines", []):
+            spans = line.get("spans", [])
+            if not spans:
+                continue
+            text = "".join(s.get("text", "") for s in spans).strip()
+            if not text:
+                continue
+            y0 = float(line.get("bbox", [0, 0, 0, 0])[1])
+            y1 = float(line.get("bbox", [0, 0, 0, 0])[3])
+            if y0 > cur_y and y0 < next_y:
+                raw.append((y0, y1, text))
+    if not raw:
+        return None
+
+    raw.sort()
+    lines = [(y0, y1, t) for y0, y1, t in raw if not _is_dotted_line(t)]
+    if not lines:
+        return None
+
+    def _is_qnum_label(text: str) -> bool:
+        m = re.match(r"^(\d{1,2})[a-z]?\.$", text)
+        if m and int(m.group(1)) == qnum:
+            return True
+        m2 = re.match(r"^(\d{1,2})[a-z]\.\s", text)
+        if m2 and int(m2.group(1)) == qnum:
+            return True
+        m3 = re.match(r"^(\d{1,2})\.\s", text)
+        if m3 and int(m3.group(1)) == qnum:
+            return True
+        return False
+
+    last_label_idx: Optional[int] = None
+    for i, (y0, y1, text) in enumerate(lines):
+        if _is_qnum_label(text):
+            last_label_idx = i
+
+    if last_label_idx is not None:
+        # Sub-part labels found: anchor scan from the last one with standard threshold.
+        start_idx = last_label_idx
+        prev_y1 = lines[start_idx][1]
+        for y0, y1, text in lines[start_idx + 1:]:
+            if _is_qnum_label(text):
+                prev_y1 = y1
+                continue
+            if y0 - prev_y1 > small_gap:
+                return y0
+            prev_y1 = max(prev_y1, y1)
+        return None
+
+    # No sub-part labels: scan from start, skipping large (diagram) gaps.
+    prev_y1 = lines[0][1]
+    for y0, y1, text in lines[1:]:
+        gap = y0 - prev_y1
+        if large_gap > gap >= small_gap:
+            # Small gap — this is the Q(n)-to-Q(n+1) preamble boundary.
+            return y0
+        if gap >= large_gap:
+            # Large gap — diagram within Q(n); skip it and continue scanning.
+            prev_y1 = y1
+            continue
+        prev_y1 = max(prev_y1, y1)
+    return None
+
+
 def _find_preamble_start(
     page: fitz.Page,
     qnum: int,
@@ -352,9 +486,9 @@ def crop_question_from_top(
             preamble_top = max(30.0, s.y - top_preamble)
 
             if preamble_detect and prev_on_same_page:
-                # For T-style PDFs: use _find_preamble_start as primary (handles
-                # answer-box gaps and densely-packed questions), fall back to
-                # _gap_based_top only if _find_preamble_start returns nothing.
+                # T-style PDF, prev Q on same page: _find_preamble_start is primary
+                # (handles answer-box gaps and densely-packed questions); fall back to
+                # _gap_based_top only when _find_preamble_start finds nothing.
                 prev_s = starts[start_idx - 1]
                 preamble_y = _find_preamble_start(page, prev_s.qnum, prev_s.y, s.y)
                 if preamble_y is not None:
@@ -362,36 +496,49 @@ def crop_question_from_top(
                 else:
                     gap_top, _ = _gap_based_top(page, s.qnum, s.y)
                     top = gap_top if gap_top is not None else preamble_top
-            else:
+            elif preamble_detect:
+                # T-style PDF, prev Q on different page: gap-based detection.
+                # _gap_based_top recognises T-style "Na." standalone labels.
                 gap_top, has_overflow = _gap_based_top(page, s.qnum, s.y)
                 if not prev_on_same_page and not has_overflow:
-                    # Prev question started on a prior page AND no sub-part labels of
-                    # that question overflow onto this page — page starts fresh.
+                    # No recognised overflow labels → page starts fresh.
                     top = 30.0
                 elif gap_top is not None:
-                    # Gap-based top found and confirmed by nearby preamble text.
                     top = gap_top
-                elif preamble_detect and has_overflow and not prev_on_same_page and start_idx > 0:
-                    # T-style PDF: prev Q's sub-part labels overflow onto this page
-                    # but _gap_based_top found no clear preamble boundary
-                    # (e.g. a graph image fills the preamble region with no text).
-                    # Try _find_preamble_start from page top (cur_y=0) since the
-                    # prev question's start was on an earlier page.
+                elif has_overflow and not prev_on_same_page and start_idx > 0:
+                    # Prev Q's "Na." labels are on this page but _gap_based_top found
+                    # no clear preamble boundary (e.g. a graph image blocks text).
+                    # Scan from page top.
                     prev_s = starts[start_idx - 1]
                     preamble_y = _find_preamble_start(page, prev_s.qnum, 0, s.y)
                     top = max(30.0, preamble_y - 5.0) if preamble_y is not None else preamble_top
                 else:
-                    # Inline-format PDF (no standalone labels), or overflow detected
-                    # but no useful gap — use normal preamble buffer.
                     top = preamble_top
+            else:
+                # Non-T-style (topclass "N. text" inline format).
+                # _gap_based_top does not work here: inline "N. text" labels are not
+                # recognised as prev-Q boundaries, so gap detection misidentifies the
+                # crop top.  Always use the simple preamble buffer (s.y − 10).
+                top = preamble_top
         if n is not None and pno == n.page:
-            if preamble_detect:
-                preamble_y = _find_preamble_start(page, s.qnum, s.y, n.y)
+            # Try (Total N marks) as the authoritative end-of-question marker.
+            # Clamp to n.y (not n.y+50) to avoid picking up Q(n+1)'s own
+            # "(Total M marks)" line when the next question is very short.
+            total_bottom = _find_total_marks_bottom(page, from_y=top, to_y=n.y)
+            if total_bottom is not None and total_bottom > top + 20.0:
+                bottom = min(bottom, total_bottom + 25)
+            elif preamble_detect:
+                # (Total N marks) not found — T-style PDF with [N marks] at start.
+                # Use _find_preamble_start_for_bottom which skips large diagram gaps
+                # within Q(n) and finds only the small gap that marks the start of
+                # Q(n+1)'s preamble.
+                preamble_y = _find_preamble_start_for_bottom(page, s.qnum, s.y, n.y)
+                ideal = n.y - bottom_preamble
+                fallback = ideal if ideal > top + 20.0 else n.y - 5.0
                 if preamble_y is not None and preamble_y - 5.0 > top + 20.0:
                     bottom = min(bottom, preamble_y - 5.0)
                 else:
-                    ideal = n.y - bottom_preamble
-                    bottom = min(bottom, ideal if ideal > top + 20.0 else n.y - 5.0)
+                    bottom = min(bottom, fallback)
             else:
                 ideal = n.y - bottom_preamble
                 # Fall back to n.y - 5 if ideal would leave less than 20px of content
