@@ -159,13 +159,16 @@ def _gap_based_top(page: fitz.Page, qnum: int, max_y: float) -> Tuple[Optional[f
 
     Algorithm:
     1. Find the last sub/question label of a question ≠ qnum at y < max_y.
-    2. Scan forward from that label until the first vertical text gap > 30px.
-       boundary_y = last text line before that gap.
+    2a. If a "(Total N marks)" marker appears after that label, use it as boundary_y
+        (reliable end-of-question for topclass-format PDFs; avoids misidentifying
+        internal paragraph gaps within a question as the question boundary).
+    2b. Otherwise, scan forward from that label until the first vertical gap > 60px.
+        boundary_y = last text line before that gap.
     3. candidate_top = boundary_y + 20  (clears any partial text line).
     4. Only return candidate_top if a text line appears within 50px after it
        (confirming genuine preamble content follows the boundary).
     """
-    GAP_THRESHOLD = 30.0
+    GAP_THRESHOLD = 60.0  # Raised from 30 to skip internal paragraph gaps within a question
     GAP_TOP_MARGIN = 20.0
     PREAMBLE_CHECK_WINDOW = 50.0
 
@@ -197,15 +200,29 @@ def _gap_based_top(page: fitz.Page, qnum: int, max_y: float) -> Tuple[Optional[f
         # it's still overflow from the previous question — not a fresh page.
         return None, len(lines) > 0
 
-    # Walk forward from that label; stop at first gap > GAP_THRESHOLD
-    prev_y = lines[last_prev_idx][0]
-    boundary_y = prev_y
-    for i in range(last_prev_idx + 1, len(lines)):
-        y, _ = lines[i]
-        if y - prev_y > GAP_THRESHOLD:
+    # Check for "(Total N marks)" after the last prev-question label — it is
+    # the definitive end-of-question marker in topclass-format PDFs, and must
+    # take priority over gap-scanning which can stop at internal paragraph gaps.
+    total_marks_re = re.compile(r"^\(Total\s+\d+\s+marks?\)", re.IGNORECASE)
+    boundary_y = lines[last_prev_idx][0]
+    found_total = False
+    for i in range(last_prev_idx, len(lines)):
+        y, text = lines[i]
+        if total_marks_re.match(text):
+            boundary_y = y
+            found_total = True
             break
-        prev_y = y
-        boundary_y = y
+
+    if not found_total:
+        # Fall back: walk forward from that label; stop at first gap > GAP_THRESHOLD
+        prev_y = lines[last_prev_idx][0]
+        boundary_y = prev_y
+        for i in range(last_prev_idx + 1, len(lines)):
+            y, _ = lines[i]
+            if y - prev_y > GAP_THRESHOLD:
+                break
+            prev_y = y
+            boundary_y = y
 
     candidate_top = max(30.0, boundary_y + GAP_TOP_MARGIN)
 
