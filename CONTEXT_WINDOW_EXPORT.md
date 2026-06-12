@@ -16,6 +16,48 @@ Project: `AA-HL-Question-Bank`
 - **R2 sync needed** for all re-cropped tutoring images (this session + twelfth session).
 - **Push needed**: 39 commits ahead of origin/main (SSH key unavailable; use HTTPS or run `git push` locally).
 
+## Most Recent Completed Work (2026-06-12, fifteenth session)
+
+### Tutoring — comprehensive bottom/top crop fixes + 10 new PDFs in pipeline
+
+**Three recrop logic improvements in `scripts/recrop_tutoring_preambles.py`:**
+
+**Fix 1 — bottom bleed from short next-question** (`_find_total_marks_bottom`):
+- Root cause: `_find_total_marks_bottom` scanned to `n.y + 50`, picking up Q(n+1)'s own
+  `(Total M marks)` when Q(n+1) was short (< 50px of content after its start).
+  Q7 (cube diagram) was including Q8's header in its crop.
+- Fix: clamp `to_y = n.y` (not `n.y + 50`). The end-of-question `(Total N marks)` for
+  Q(n) always appears before Q(n+1)'s detected start.
+
+**Fix 2 — topclass top boundary uses wrong logic** (non-T-style, preamble_detect=False):
+- Root cause: `_gap_based_top` uses `"Na."` standalone label patterns which topclass PDFs
+  don't have (they use `"N. text"` inline). This caused `gap_top` to point to a prior
+  question's location, pulling the top boundary too high (showing Q3+Q4 in Q5's crop).
+  Also: `(None, False)` return + `prev_on_same_page=False` triggered `top = 30.0` (fresh-page
+  logic), pulling Q26's overflow `(a)(b)(c)(d)` content into Q27's crop.
+- Fix: for `preamble_detect=False`, bypass `_gap_based_top` entirely and always use
+  `top = max(30, s.y - 10)`. Topclass PDFs need no preamble buffer above `"N."`.
+
+**Fix 3 — fresh-page logic leaking into topclass**:
+- Guard the `top = 30.0` fresh-page path with `and preamble_detect` so only T-style PDFs
+  (which use recognisable `"Na."` overflow labels) can trigger it.
+
+**Added 10 new PDFs to T_STYLE** (all `(False, 3, 10, 10, False)`):
+- Binomila Theorem.pdf (10 q), Limits_derivatives (1).pdf (7 q),
+  Math_SL_Algebra_Exp_Log.pdf (21 q), Math_SL_Statistics_Probability_2022 (1).pdf (48 q),
+  Topic_1_1_Algebra_Sequences_Series.pdf (15 q),
+  Topic_1_2_Algebra_Exponents_Logarithms_2023.pdf (6 q),
+  Topic_1_3_Algebra_Counting_Principles (1).pdf (12 q),
+  Topic_1_4_Algebra_Mathematical_Induction.pdf (9 q),
+  Topic_1_5_Algebra_Complex_Numbers.pdf (11 q), statistics (1).pdf (50 q)
+
+Re-cropped 712/713 questions. Final audit: same 3 known-genuine sub-100px images.
+
+**R2 sync needed** for all re-cropped images.
+**Push needed**: 45 commits ahead of origin/main (SSH unavailable; run `git push` locally).
+
+---
+
 ## Most Recent Completed Work (2026-06-12, fourteenth session)
 
 ### Tutoring — comprehensive crop quality pass (all 713 questions)
