@@ -328,9 +328,17 @@ function updateResultSummary() {
   loadMoreWrap.style.display = shown < total ? "block" : "none";
 }
 
+function shuffleInPlace(arr) {
+  for (let i = arr.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [arr[i], arr[j]] = [arr[j], arr[i]];
+  }
+}
+
 function renderQuestions(reset = true) {
   if (reset) {
     state.filteredQuestions = filterQuestions();
+    shuffleInPlace(state.filteredQuestions);
     state.visibleCount = Math.min(PAGE_SIZE, state.filteredQuestions.length);
     questionList.innerHTML = "";
 
