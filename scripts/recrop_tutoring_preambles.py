@@ -195,10 +195,11 @@ def _gap_based_top(page: fitz.Page, qnum: int, max_y: float) -> Tuple[Optional[f
         if m and int(m.group(1)) != qnum:
             last_prev_idx = i
     if last_prev_idx is None:
-        # No recognized "N." / "Na." label found, but if there's any text at all
-        # above this question (e.g. "(b)", "(c)" sub-parts using paren format),
-        # it's still overflow from the previous question — not a fresh page.
-        return None, len(lines) > 0
+        # No recognized "N." / "Na." label found — treat as fresh page.
+        # The text above (if any) is assumed to be THIS question's own preamble,
+        # not overflow from the previous question.  Returning has_prev_content=False
+        # allows crop_question_from_top to set top=30 rather than preamble_top.
+        return None, False
 
     # Check for "(Total N marks)" after the last prev-question label — it is
     # the definitive end-of-question marker in topclass-format PDFs, and must
@@ -370,6 +371,15 @@ def crop_question_from_top(
                 elif gap_top is not None:
                     # Gap-based top found and confirmed by nearby preamble text.
                     top = gap_top
+                elif preamble_detect and has_overflow and not prev_on_same_page and start_idx > 0:
+                    # T-style PDF: prev Q's sub-part labels overflow onto this page
+                    # but _gap_based_top found no clear preamble boundary
+                    # (e.g. a graph image fills the preamble region with no text).
+                    # Try _find_preamble_start from page top (cur_y=0) since the
+                    # prev question's start was on an earlier page.
+                    prev_s = starts[start_idx - 1]
+                    preamble_y = _find_preamble_start(page, prev_s.qnum, 0, s.y)
+                    top = max(30.0, preamble_y - 5.0) if preamble_y is not None else preamble_top
                 else:
                     # Inline-format PDF (no standalone labels), or overflow detected
                     # but no useful gap — use normal preamble buffer.
