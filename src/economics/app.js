@@ -65,11 +65,11 @@ function hydrateFilters() {
     levelFilter.appendChild(option);
   });
 
-  const paperTypes = [...new Set(state.allQuestions.map((q) => q.paper_type).filter(Boolean))].sort();
-  paperTypes.forEach((paperType) => {
+  const paperNums = [...new Set(state.allQuestions.map((q) => q.paper_number).filter(Boolean))].sort((a, b) => a - b);
+  paperNums.forEach((num) => {
     const option = document.createElement("option");
-    option.value = paperType;
-    option.textContent = paperType;
+    option.value = String(num);
+    option.textContent = `Paper ${num}`;
     paperTypeFilter.appendChild(option);
   });
 
@@ -180,7 +180,7 @@ function filterQuestions() {
   return state.allQuestions.filter((q) => {
     const level = inferLevel(q);
     const levelMatch = !selectedLevel || level === selectedLevel;
-    const paperTypeMatch = !selectedPaperType || q.paper_type === selectedPaperType;
+    const paperTypeMatch = !selectedPaperType || String(q.paper_number) === selectedPaperType;
     const paperMatch = !selectedPaper || q.paper === selectedPaper;
     const topicMatch = !selectedTopic || q.topic === selectedTopic;
     const subtopicMatch = !selectedSubtopic || q.subtopic === selectedSubtopic;
