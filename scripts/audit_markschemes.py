@@ -62,6 +62,9 @@ def audit():
                 if values:
                     problems.append((name, values))
         else:
+            empty_questions = sorted(
+                record["id"] for record in records if not record.get("question_text", "").strip()
+            )
             missing_screenshots = sorted(
                 record["id"]
                 for record in records
@@ -70,6 +73,8 @@ def audit():
                 and not record.get("mcq_answer")
             )
             print(f"Physics: {len(records)} questions")
+            if empty_questions:
+                problems.append(("Physics questions without text", empty_questions))
             if missing_screenshots:
                 problems.append(("Physics markscheme screenshots missing", missing_screenshots))
 

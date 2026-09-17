@@ -104586,39 +104586,6 @@
       ]
     },
     {
-      "id": "phys_n24_p2_ntz_q10_sl",
-      "paper": "November 2024 Physics Paper 2 SL",
-      "session": "November",
-      "session_code": "n24",
-      "paper_type": "Paper 2",
-      "level": "SL",
-      "question_number": "10",
-      "title": "Q10",
-      "topic": "The particulate nature of matter",
-      "subtopic": "Electric circuits",
-      "topic_confidence": 0.6,
-      "topic_reason": [
-        "borrowed from same session/paper/question across variants"
-      ],
-      "question_text": "",
-      "answer_text": "The order of marking points does not have to be as in the “Answers” column, unless stated otherwise in the “Notes” column.",
-      "mcq_answer": "",
-      "marks": null,
-      "has_markscheme": true,
-      "source": {
-        "paper_file": "Physics_paper_2__SL.pdf",
-        "markscheme_file": "Physics_paper_2__SL_markscheme.pdf"
-      },
-      "question_image_paths": [
-        "images/questions/phys_n24_p2_ntz_q10_sl_p1.png"
-      ],
-      "markscheme_image_paths": [],
-      "question_images": [
-        "images/questions/phys_n24_p2_ntz_q10_sl_p1.png"
-      ],
-      "markscheme_images": []
-    },
-    {
       "id": "phys_n24_p3_ntz_q1_hl",
       "paper": "November 2024 Physics Paper 3 HL",
       "session": "November",
