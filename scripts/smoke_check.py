@@ -10,7 +10,7 @@ from urllib.request import Request, urlopen
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
 
-from server import REQUIRED_JSON_FILES, app  # noqa: E402
+from server import REQUIRED_JSON_FILES, REQUIRED_LOCAL_ASSETS, app  # noqa: E402
 
 
 class HomeLinks(HTMLParser):
@@ -29,7 +29,7 @@ class HomeLinks(HTMLParser):
 def routes():
     links = HomeLinks()
     links.feed((ROOT / "src" / "index.html").read_text(encoding="utf-8"))
-    return sorted({"/", "/health", *links.paths, *REQUIRED_JSON_FILES})
+    return sorted({"/", "/health", *links.paths, *REQUIRED_JSON_FILES, *REQUIRED_LOCAL_ASSETS})
 
 
 def docker_sources():
@@ -42,7 +42,7 @@ def docker_sources():
 
 
 def check_local(paths):
-    missing_copies = sorted(set(REQUIRED_JSON_FILES) - docker_sources())
+    missing_copies = sorted(set((*REQUIRED_JSON_FILES, *REQUIRED_LOCAL_ASSETS)) - docker_sources())
     if missing_copies:
         print("Dockerfile is missing:")
         for path in missing_copies:
@@ -55,7 +55,7 @@ def check_local(paths):
         for path, status in failures:
             print(f"FAIL {status} {path}")
         return 1
-    print(f"OK: {len(paths)} local routes; all frontend JSON files are copied into Docker")
+    print(f"OK: {len(paths)} local routes; all required data files are copied into Docker")
     return 0
 
 

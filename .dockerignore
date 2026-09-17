@@ -15,7 +15,9 @@ node_modules/
 data/raw/
 data/*/raw/
 data/processed/images/
-data/*/processed/images/
+data/*/processed/images/**
+!data/physics/processed/images/markschemes/phys_m17_p3_tz2_q13_hl.png
+!data/physics/processed/images/markschemes/phys_m17_p3_tz2_q9_sl.png
 data/*/processed/source_booklets/
 data/*/processed/text_booklets/
 scripts/

@@ -1,5 +1,12 @@
 # Context Window Export (for new chat)
 
+## 2026-09-17 latest continuation
+
+- See `context.md` for the concise current state and next steps.
+- Linked the two remaining real Physics markscheme screenshots (`phys_m17_p3_tz2_q13_hl` and `phys_m17_p3_tz2_q9_sl`). The public R2 Q13 file is wrong (1,673 bytes versus the verified 79,559-byte crop), and Q9 returns 404. Until R2 is synced, the app serves these two files from the Render image using same-origin paths.
+- Docker includes the two PNGs; `/health` and `scripts/smoke_check.py` check their routes. The local audit now passes with 2,979 Physics questions and 713 Tutoring questions; local smoke check passes 34 routes.
+- Check the latest commit and push state, then verify the new Render deployment and both markschemes in the browser. No local Docker installation or R2 upload credentials were found.
+
 ## 2026-09-17 local setup and deployment repair
 
 - Repository cloned at `C:\Users\migue\AAHLQuestionBankSite` on `main` with a sparse checkout. Source, scripts, and JSON data are present; most binary archives are intentionally absent. VS Code workspace is `C:\Users\migue\AAHLQuestionBankSite.code-workspace`; Python venv is `C:\Users\migue\.venvs\AAHLQuestionBankSite`.

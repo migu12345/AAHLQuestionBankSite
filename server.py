@@ -19,13 +19,20 @@ def required_json_files():
 
 
 REQUIRED_JSON_FILES = required_json_files()
+REQUIRED_LOCAL_ASSETS = (
+    "/data/physics/processed/images/markschemes/phys_m17_p3_tz2_q13_hl.png",
+    "/data/physics/processed/images/markschemes/phys_m17_p3_tz2_q9_sl.png",
+)
 
 app = Flask(__name__, static_folder=str(SRC_DIR), static_url_path="")
 
 
 @app.get("/health")
 def health():
-    missing = [path for path in REQUIRED_JSON_FILES if not (BASE_DIR / path.lstrip("/")).is_file()]
+    missing = [
+        path for path in (*REQUIRED_JSON_FILES, *REQUIRED_LOCAL_ASSETS)
+        if not (BASE_DIR / path.lstrip("/")).is_file()
+    ]
     if missing:
         return jsonify({"status": "error", "missing_data": missing}), 503
     return jsonify({"status": "ok"})

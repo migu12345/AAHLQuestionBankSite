@@ -2,6 +2,10 @@
   const STORAGE_KEY = "asset_base_url_v1";
   const DEFAULT_ASSET_BASE_URL = "https://pub-f7419ca433e9434bad2f9e89e252c205.r2.dev";
   const ASSET_VERSION = "20260308-physics-fix-1";
+  const LOCAL_ASSET_PATHS = new Set([
+    "/data/physics/processed/images/markschemes/phys_m17_p3_tz2_q13_hl.png",
+    "/data/physics/processed/images/markschemes/phys_m17_p3_tz2_q9_sl.png",
+  ]);
 
   function normalizeBase(raw) {
     const value = String(raw || "").trim();
@@ -38,6 +42,9 @@
     }
     if (isAbsoluteUrl(rawPath)) {
       return rawPath;
+    }
+    if (LOCAL_ASSET_PATHS.has(rawPath)) {
+      return withVersion(rawPath);
     }
     const base = getBase();
     if (!base) {

@@ -35,6 +35,7 @@ Question metadata is served by Flask. Images and PDFs use the public R2 asset ho
 ## Asset Storage
 
 - Default: images and PDFs load from the R2 host configured in `src/asset-base.js`.
+- Two May 2017 Physics Paper 3 markschemes currently load from the app itself while their R2 copies are corrected.
 - JSON files always load from this app (`/data/...`).
 - To use locally generated images or PDFs, set the asset base to the local origin.
 
