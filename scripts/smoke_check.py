@@ -63,13 +63,18 @@ def check_remote(base_url, paths, timeout):
     failures = []
     for path in paths:
         request = Request(base_url.rstrip("/") + path, method="HEAD")
-        try:
-            with urlopen(request, timeout=timeout) as response:
-                status = response.status
-        except HTTPError as error:
-            status = error.code
-        except URLError as error:
-            failures.append((path, str(error.reason)))
+        for attempt in range(2):
+            try:
+                with urlopen(request, timeout=timeout) as response:
+                    status = response.status
+                break
+            except HTTPError as error:
+                status = error.code
+                break
+            except (URLError, TimeoutError) as error:
+                if attempt == 1:
+                    failures.append((path, str(getattr(error, "reason", error))))
+        else:
             continue
         if status != 200:
             failures.append((path, status))
