@@ -24,6 +24,11 @@ COPY data/physics/processed/questions.json ./data/physics/processed/questions.js
 COPY data/physics/processed/manual_papers.json ./data/physics/processed/manual_papers.json
 COPY data/business/topic-map.json ./data/business/topic-map.json
 COPY data/business/processed/questions.json ./data/business/processed/questions.json
+COPY data/economics/topic-map.json ./data/economics/topic-map.json
+COPY data/economics/processed/questions.json ./data/economics/processed/questions.json
+COPY data/ess/topic-map.json ./data/ess/topic-map.json
+COPY data/ess/processed/questions.json ./data/ess/processed/questions.json
+COPY data/history/processed/questions.json ./data/history/processed/questions.json
 COPY data/tutoring/processed/questions.json ./data/tutoring/processed/questions.json
 COPY data/tutoring/processed/markschemes.json ./data/tutoring/processed/markschemes.json
 

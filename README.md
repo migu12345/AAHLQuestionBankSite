@@ -24,40 +24,54 @@ PYTHONPATH=.deps python3 scripts/generate_question_images.py
 ## Run Web App Locally
 
 ```bash
-cd "AA-HL-Question-Bank"
-python3 -m pip install -r requirements.txt
-python3 server.py
+python -m pip install -r requirements.txt
+python server.py
 ```
 
 Open `http://localhost:8080`.
 
-## Optional: External Asset Storage (Oracle / R2)
+Question metadata is served by Flask. Images and PDFs use the public R2 asset host by default, so a local checkout does not need the large binary archive.
 
-The frontend now supports a single asset base URL so you can move heavy files without rewriting code.
+## Asset Storage
 
-- Default (no setting): serve assets from this app (`/data/...`).
-- External mode: set `ASSET_BASE_URL` to your bucket/CDN origin.
+- Default: images and PDFs load from the R2 host configured in `src/asset-base.js`.
+- JSON files always load from this app (`/data/...`).
+- To use locally generated images or PDFs, set the asset base to the local origin.
 
 ### Quick browser test
 
 Open DevTools Console and run:
 
 ```js
-setAssetBaseUrl("https://your-asset-domain.example.com");
+setAssetBaseUrl(location.origin);
 location.reload();
 ```
 
-To reset back to local assets:
+To return to the default R2 host:
 
 ```js
 setAssetBaseUrl("");
 location.reload();
 ```
 
-You can also hardcode it globally before app scripts:
+You can select another asset host before app scripts:
 
 ```html
 <script>window.ASSET_BASE_URL = "https://your-asset-domain.example.com";</script>
+```
+
+## Smoke Check
+
+Run this before publishing changes:
+
+```bash
+python scripts/smoke_check.py
+```
+
+After Render deploys, check the live routes:
+
+```bash
+python scripts/smoke_check.py --base-url https://aa-hl-question-bank.onrender.com
 ```
 
 ## Deploy For Friends (No Code Needed For Them)

@@ -1,18 +1,33 @@
 from pathlib import Path
 from flask import Flask, jsonify, send_from_directory
 import json
+import re
 
 BASE_DIR = Path(__file__).resolve().parent
 SRC_DIR = BASE_DIR / "src"
 DATA_DIR = BASE_DIR / "data"
 PROCESSED_DIR = BASE_DIR / "data" / "processed"
 QUESTIONS_FILE = PROCESSED_DIR / "questions.json"
+JSON_ASSET_PATTERN = re.compile(r"assetFetch\(\s*['\"](/data/[^'\"]+\.json)['\"]")
+
+
+def required_json_files():
+    paths = set()
+    for script in SRC_DIR.rglob("*.js"):
+        paths.update(JSON_ASSET_PATTERN.findall(script.read_text(encoding="utf-8")))
+    return tuple(sorted(paths))
+
+
+REQUIRED_JSON_FILES = required_json_files()
 
 app = Flask(__name__, static_folder=str(SRC_DIR), static_url_path="")
 
 
 @app.get("/health")
 def health():
+    missing = [path for path in REQUIRED_JSON_FILES if not (BASE_DIR / path.lstrip("/")).is_file()]
+    if missing:
+        return jsonify({"status": "error", "missing_data": missing}), 503
     return jsonify({"status": "ok"})
 
 

@@ -1,5 +1,15 @@
 # Context Window Export (for new chat)
 
+## 2026-09-17 local setup and deployment repair
+
+- Repository cloned at `C:\Users\migue\AAHLQuestionBankSite` on `main` with a sparse checkout. Source, scripts, and JSON data are present; most binary archives are intentionally absent. VS Code workspace is `C:\Users\migue\AAHLQuestionBankSite.code-workspace`; Python venv is `C:\Users\migue\.venvs\AAHLQuestionBankSite`.
+- Live site: `https://aa-hl-question-bank.onrender.com/aa-bank.html`. Before this repair, Economics topic map/questions, ESS topic map/questions, and History questions returned 404. `Dockerfile` now copies those five JSON files.
+- Docker build context excludes source binary archives through `.dockerignore`. `/health` checks the 19 frontend JSON files, and `render.yaml` uses that route. Run `python scripts/smoke_check.py` locally and `python scripts/smoke_check.py --base-url https://aa-hl-question-bank.onrender.com` after deployment.
+- `src/asset-base.js` uses the public R2 host for images and PDFs even on localhost; JSON stays same-origin. `setAssetBaseUrl(location.origin)` selects local binaries when needed.
+- `scripts/audit_markschemes.py` checks Physics and Tutoring IDs and image links, with optional `--asset` byte comparison against public R2. Four duplicate Tutoring markscheme records were removed; 713 unique questions now have 713 unique markschemes. Sample Tutoring and Physics files matched R2 byte-for-byte.
+- Five of eight missing Physics markscheme screenshots were visually verified on public R2 and linked in `data/physics/processed/questions.json`, with nine corresponding PNGs added to Git. Three still need correct source crops: `phys_m17_p3_tz2_q13_hl`, `phys_m17_p3_tz2_q9_sl`, `phys_n24_p2_ntz_q10_sl`. Existing R2 candidates for the first two are blank or show adjacent questions; none was found for the last one. Do not link those candidates.
+- Earlier session notes and push counts below are historical; check Git status for the current publication state.
+
 Date: 2026-06-12 (updated)
 Project: `AA-HL-Question-Bank`
 
