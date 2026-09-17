@@ -18,11 +18,11 @@ Updated: 2026-09-18
 
 ## Current work
 
-- The two May 2017 Physics Paper 3 crops are now linked in `data/physics/processed/questions.json` and served by Flask from the Render image. `src/asset-base.js` routes only these two PNGs to the app origin because public R2 has an incorrect Q13 image and no Q9 image. Docker and health/smoke checks include both files.
-- The markscheme audit passes: 2,979 Physics questions, 713 Tutoring questions, no missing or mismatched references. Local and live smoke checks both pass 34 routes.
-- Commit `5c3d641c` was pushed to GitHub and deployed by Render. Both live PNGs match their verified Git copies byte-for-byte. Docker is not installed locally, but the successful live route checks confirm the two files were included in the deployed image.
+- The two May 2017 Physics Paper 3 crops are linked in `data/physics/processed/questions.json`. Both were uploaded to `aahl-assets` at their matching `data/physics/processed/images/markschemes/` keys. The public R2 copies match Git byte-for-byte.
+- The temporary same-origin exception for these two PNGs has been removed from `src/asset-base.js`, Docker, health, and smoke checks. They now use the standard R2 asset routing. The uploader used local credentials and left no secrets in the repository.
+- The markscheme audit passes: 2,979 Physics questions, 713 Tutoring questions, no missing or mismatched references. Check the latest commit and live smoke result for deployment status.
 
 ## Next steps
 
-1. If R2 upload access becomes available, sync the two correct crops to their matching R2 keys and remove the temporary app-origin routing and Docker copies after byte comparison.
+1. Verify the cleanup commit deployed on Render and the Physics bank still shows both markscheme images.
 2. Continue targeted question and markscheme quality checks; avoid broad rebuilds of already-correct papers.

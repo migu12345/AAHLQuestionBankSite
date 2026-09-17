@@ -1,5 +1,11 @@
 # Context Window Export (for new chat)
 
+## 2026-09-18 R2 markscheme sync
+
+- The verified `phys_m17_p3_tz2_q13_hl.png` and `phys_m17_p3_tz2_q9_sl.png` crops were uploaded to their exact keys in the existing `aahl-assets` R2 bucket. Both the S3 API readback and public R2 byte comparison matched the Git files.
+- The temporary Render-hosted copies and two-file asset routing exception were removed. All other question data and image links were left unchanged.
+- Run the local and live smoke checks after the cleanup deploy. See `context.md` for current state and next steps. No credentials were committed.
+
 ## 2026-09-17 latest continuation
 
 - See `context.md` for the concise current state and next steps.

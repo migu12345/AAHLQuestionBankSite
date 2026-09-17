@@ -22,8 +22,6 @@ COPY data/chemistry/processed/manual_papers.json ./data/chemistry/processed/manu
 COPY data/physics/topic-map.json ./data/physics/topic-map.json
 COPY data/physics/processed/questions.json ./data/physics/processed/questions.json
 COPY data/physics/processed/manual_papers.json ./data/physics/processed/manual_papers.json
-COPY data/physics/processed/images/markschemes/phys_m17_p3_tz2_q13_hl.png ./data/physics/processed/images/markschemes/phys_m17_p3_tz2_q13_hl.png
-COPY data/physics/processed/images/markschemes/phys_m17_p3_tz2_q9_sl.png ./data/physics/processed/images/markschemes/phys_m17_p3_tz2_q9_sl.png
 COPY data/business/topic-map.json ./data/business/topic-map.json
 COPY data/business/processed/questions.json ./data/business/processed/questions.json
 COPY data/economics/topic-map.json ./data/economics/topic-map.json
